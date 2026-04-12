@@ -1,0 +1,62 @@
+[
+  {
+    "question": "A 200-pound object is pushed 10 feet across a flat floor. How much work is done if the pushing force is 80 pounds?",
+    "options": ["2,000 ft·lb", "800 ft·lb", "280 ft·lb", "16,000 ft·lb"],
+    "correct": 1,
+    "explanation": "Work = Force × Distance. The pushing force is 80 lb (not the weight). W = 80 × 10 = 800 ft·lb."
+  },
+  {
+    "question": "Which of Newton's laws explains why you feel pushed back in your seat when a vehicle accelerates?",
+    "options": ["First Law", "Second Law", "Third Law", "Law of Gravity"],
+    "correct": 0,
+    "explanation": "First Law (inertia): your body resists the change in motion when the vehicle accelerates."
+  },
+  {
+    "question": "A gear with 25 teeth drives a gear with 75 teeth. If the driver turns at 600 RPM, the driven gear turns at:",
+    "options": ["200 RPM", "300 RPM", "600 RPM", "1,800 RPM"],
+    "correct": 0,
+    "explanation": "Ratio = 75/25 = 3. Driven speed = 600/3 = 200 RPM."
+  },
+  {
+    "question": "In a hydraulic press, the input piston has an area of 4 in² and the output piston has an area of 40 in². If 30 pounds is applied to the input, what force is produced at the output?",
+    "options": ["3 pounds", "30 pounds", "120 pounds", "300 pounds"],
+    "correct": 3,
+    "explanation": "Pressure = 30/4 = 7.5 psi. Output force = 7.5 × 40 = 300 lb."
+  },
+  {
+    "question": "Which type of simple machine is a doorstop?",
+    "options": ["Lever", "Wedge", "Pulley", "Screw"],
+    "correct": 1,
+    "explanation": "A doorstop is a wedge — two inclined planes back to back."
+  },
+  {
+    "question": "A 10-foot ramp rises 2.5 feet. What is the mechanical advantage?",
+    "options": ["2", "2.5", "4", "7.5"],
+    "correct": 2,
+    "explanation": "MA = 10/2.5 = 4."
+  },
+  {
+    "question": "Static friction is:",
+    "options": ["Less than kinetic friction", "Greater than kinetic friction", "Equal to kinetic friction", "Not related to kinetic friction"],
+    "correct": 1,
+    "explanation": "Static friction is greater than kinetic friction for the same surfaces."
+  },
+  {
+    "question": "A compound pulley system has 6 rope segments supporting the load. To lift 600 pounds, you need:",
+    "options": ["100 pounds", "200 pounds", "300 pounds", "600 pounds"],
+    "correct": 0,
+    "explanation": "MA = 6. Force = 600/6 = 100 pounds."
+  },
+  {
+    "question": "In Ohm's Law (V = IR), if voltage is 240V and resistance is 60 ohms, the current is:",
+    "options": ["4 amps", "14,400 amps", "0.25 amps", "180 amps"],
+    "correct": 0,
+    "explanation": "I = V/R = 240/60 = 4 amps."
+  },
+  {
+    "question": "Two belted pulleys rotate in:",
+    "options": ["Opposite directions", "The same direction", "Alternating directions", "Random directions"],
+    "correct": 1,
+    "explanation": "Belt-connected pulleys rotate in the same direction."
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "question": "A 5 kg box is pushed across a floor with a net force of 20 N. What is the acceleration of the box?",
+    "options": ["2 m/s²", "4 m/s²", "10 m/s²", "100 m/s²"],
+    "correct": 1,
+    "explanation": "Using Newton's Second Law: a = F/m = 20 N / 5 kg = 4 m/s²."
+  },
+  {
+    "question": "A car traveling at 30 m/s comes to a complete stop in 6 seconds. What is the magnitude of its deceleration?",
+    "options": ["3 m/s²", "5 m/s²", "6 m/s²", "36 m/s²"],
+    "correct": 1,
+    "explanation": "Deceleration = change in velocity / time = 30 m/s / 6 s = 5 m/s²."
+  },
+  {
+    "question": "According to Newton's Third Law, when a hammer strikes a nail, the nail exerts a force on the hammer that is:",
+    "options": ["Greater than the hammer's force", "Less than the hammer's force", "Equal in magnitude and opposite in direction", "Equal in magnitude and same direction"],
+    "correct": 2,
+    "explanation": "Newton's Third Law states that for every action there is an equal and opposite reaction. The nail pushes back on the hammer with equal magnitude but opposite direction."
+  },
+  {
+    "question": "A 10 kg object is at rest on a table. The coefficient of static friction is 0.4. What minimum horizontal force is needed to start the object moving? (g = 10 m/s²)",
+    "options": ["4 N", "10 N", "25 N", "40 N"],
+    "correct": 3,
+    "explanation": "Friction force = coefficient × normal force = 0.4 × (10 kg × 10 m/s²) = 0.4 × 100 N = 40 N."
+  },
+  {
+    "question": "A ball is thrown straight up with an initial velocity of 20 m/s. Ignoring air resistance, approximately how high does it rise? (g = 10 m/s²)",
+    "options": ["10 m", "20 m", "30 m", "40 m"],
+    "correct": 1,
+    "explanation": "At the highest point, velocity = 0. Using v² = v₀² - 2gh: 0 = 400 - 2(10)h, so h = 400/20 = 20 m."
+  },
+  {
+    "question": "A worker lifts a 25 kg crate 2 meters off the ground. How much work does the worker do against gravity? (g = 10 m/s²)",
+    "options": ["25 J", "50 J", "250 J", "500 J"],
+    "correct": 3,
+    "explanation": "Work = force × distance = (25 kg × 10 m/s²) × 2 m = 250 N × 2 m = 500 J."
+  },
+  {
+    "question": "A machine does 3,000 J of work in 15 seconds. What is its power output?",
+    "options": ["45 W", "200 W", "450 W", "45,000 W"],
+    "correct": 1,
+    "explanation": "Power = work / time = 3,000 J / 15 s = 200 W."
+  },
+  {
+    "question": "A 0.5 kg ball moving at 8 m/s strikes a wall and bounces back at 6 m/s. What is the magnitude of the change in momentum?",
+    "options": ["1 kg·m/s", "3 kg·m/s", "4 kg·m/s", "7 kg·m/s"],
+    "correct": 3,
+    "explanation": "Change in momentum = m(v_final - v_initial). Taking the initial direction as positive: 0.5(-6 - 8) = 0.5(-14) = -7 kg·m/s. The magnitude is 7 kg·m/s."
+  },
+  {
+    "question": "An object is in free fall near Earth's surface. After 3 seconds, approximately how fast is it moving? (g = 10 m/s², starting from rest)",
+    "options": ["3 m/s", "10 m/s", "30 m/s", "90 m/s"],
+    "correct": 2,
+    "explanation": "v = g × t = 10 m/s² × 3 s = 30 m/s."
+  },
+  {
+    "question": "A 2,000 kg car is traveling at 10 m/s. What is its kinetic energy?",
+    "options": ["10,000 J", "20,000 J", "100,000 J", "200,000 J"],
+    "correct": 2,
+    "explanation": "KE = ½mv² = 0.5 × 2,000 × 100 = 100,000 J."
+  }
+]
