@@ -1,0 +1,2183 @@
+{
+  "slug": "mech-apt",
+  "title": "Mechanical Aptitude Study Guide",
+  "code": "MECH-XAJI0-Y6DPB",
+  "timeMinutes": 60,
+  "tests": [
+    {
+      "testNum": 1,
+      "questions": [
+        {
+          "num": 1,
+          "question": "A 5 kg box is pushed across a floor with a net force of 20 N. What is the acceleration of the box?",
+          "choices": [
+            "2 m/s squared",
+            "4 m/s squared",
+            "10 m/s squared",
+            "100 m/s squared"
+          ],
+          "answer": "B",
+          "explanation": "Using Newton's Second Law: a = F/m = 20 N / 5 kg = 4 m/s squared."
+        },
+        {
+          "num": 2,
+          "question": "A car traveling at 30 m/s comes to a complete stop in 6 seconds. What is the magnitude of its deceleration?",
+          "choices": [
+            "3 m/s squared",
+            "5 m/s squared",
+            "6 m/s squared",
+            "36 m/s squared"
+          ],
+          "answer": "B",
+          "explanation": "Deceleration = change in velocity / time = 30 m/s / 6 s = 5 m/s squared."
+        },
+        {
+          "num": 3,
+          "question": "According to Newton's Third Law, when a hammer strikes a nail, the nail exerts a force on the hammer that is:",
+          "choices": [
+            "Greater than the hammer's force",
+            "Less than the hammer's force",
+            "Equal in magnitude and opposite in direction",
+            "Equal in magnitude and same direction"
+          ],
+          "answer": "C",
+          "explanation": "Newton's Third Law states that for every action there is an equal and opposite reaction. The nail pushes back on the hammer with equal magnitude but opposite direction."
+        },
+        {
+          "num": 4,
+          "question": "A 10 kg object is at rest on a table. The coefficient of static friction between the object and the table is 0.4. What minimum horizontal force is needed to start the object moving? (g = 10 m/s squared)",
+          "choices": [
+            "4 N",
+            "10 N",
+            "25 N",
+            "40 N"
+          ],
+          "answer": "D",
+          "explanation": "Friction force = coefficient x normal force = 0.4 x (10 kg x 10 m/s squared) = 0.4 x 100 N = 40 N."
+        },
+        {
+          "num": 5,
+          "question": "A ball is thrown straight up with an initial velocity of 20 m/s. Ignoring air resistance, approximately how high does it rise? (g = 10 m/s squared)",
+          "choices": [
+            "10 m",
+            "20 m",
+            "30 m",
+            "40 m"
+          ],
+          "answer": "B",
+          "explanation": "At the highest point, velocity = 0. Using v squared = v0 squared - 2gh: 0 = 400 - 2(10)h, so h = 400/20 = 20 m."
+        },
+        {
+          "num": 6,
+          "question": "A worker lifts a 25 kg crate 2 meters off the ground. How much work does the worker do against gravity? (g = 10 m/s squared)",
+          "choices": [
+            "25 J",
+            "50 J",
+            "250 J",
+            "500 J"
+          ],
+          "answer": "D",
+          "explanation": "Work = force x distance = (25 kg x 10 m/s squared) x 2 m = 250 N x 2 m = 500 J."
+        },
+        {
+          "num": 7,
+          "question": "A machine does 3000 J of work in 15 seconds. What is its power output?",
+          "choices": [
+            "45 W",
+            "200 W",
+            "450 W",
+            "45,000 W"
+          ],
+          "answer": "B",
+          "explanation": "Power = work / time = 3000 J / 15 s = 200 W."
+        },
+        {
+          "num": 8,
+          "question": "A 0.5 kg ball moving at 8 m/s strikes a wall and bounces back at 6 m/s. What is the magnitude of the change in momentum?",
+          "choices": [
+            "1 kg m/s",
+            "3 kg m/s",
+            "4 kg m/s",
+            "7 kg m/s"
+          ],
+          "answer": "D",
+          "explanation": "Change in momentum = m(v_final - v_initial). Taking the initial direction as positive: 0.5(-6 - 8) = 0.5(-14) = -7 kg m/s. The magnitude is 7 kg m/s."
+        },
+        {
+          "num": 9,
+          "question": "An object is in free fall near Earth's surface. After 3 seconds, approximately how fast is it moving? (g = 10 m/s squared, starting from rest)",
+          "choices": [
+            "3 m/s",
+            "10 m/s",
+            "30 m/s",
+            "90 m/s"
+          ],
+          "answer": "C",
+          "explanation": "v = g x t = 10 m/s squared x 3 s = 30 m/s."
+        },
+        {
+          "num": 10,
+          "question": "A 2000 kg car is traveling at 10 m/s. What is its kinetic energy?",
+          "choices": [
+            "10,000 J",
+            "20,000 J",
+            "100,000 J",
+            "200,000 J"
+          ],
+          "answer": "C",
+          "explanation": "KE = (1/2)mv squared = 0.5 x 2000 x 100 = 100,000 J."
+        },
+        {
+          "num": 11,
+          "question": "A spring with a spring constant of 400 N/m is compressed 0.1 m. How much potential energy is stored in the spring?",
+          "choices": [
+            "2 J",
+            "4 J",
+            "20 J",
+            "40 J"
+          ],
+          "answer": "A",
+          "explanation": "PE = (1/2)k x squared = 0.5 x 400 x 0.01 = 2 J."
+        },
+        {
+          "num": 12,
+          "question": "Two ice skaters push off from each other. Skater A (60 kg) moves backward at 2 m/s. If Skater B has a mass of 40 kg, how fast does Skater B move?",
+          "choices": [
+            "1.5 m/s",
+            "2 m/s",
+            "3 m/s",
+            "4 m/s"
+          ],
+          "answer": "C",
+          "explanation": "By conservation of momentum: m_A x v_A = m_B x v_B, so 60 x 2 = 40 x v_B, giving v_B = 120/40 = 3 m/s."
+        },
+        {
+          "num": 13,
+          "question": "A projectile is launched horizontally from a cliff. Which statement is true about its motion?",
+          "choices": [
+            "Horizontal velocity increases due to gravity",
+            "Vertical velocity remains constant during flight",
+            "Horizontal velocity remains constant if air resistance is ignored",
+            "The projectile follows a straight-line path"
+          ],
+          "answer": "C",
+          "explanation": "With no air resistance, there is no horizontal force, so horizontal velocity remains constant throughout the flight. Gravity only affects vertical motion."
+        },
+        {
+          "num": 14,
+          "question": "A crane lifts a 500 kg beam at a constant velocity. The tension in the cable must be:",
+          "choices": [
+            "Greater than the weight of the beam",
+            "Less than the weight of the beam",
+            "Equal to the weight of the beam",
+            "Zero because the velocity is constant"
+          ],
+          "answer": "C",
+          "explanation": "At constant velocity, acceleration is zero, so the net force is zero. The tension must equal the weight of the beam (Newton's First Law)."
+        },
+        {
+          "num": 15,
+          "question": "A force of 50 N is applied to a 10 kg object on a frictionless surface. The object also has a 20 N force applied in the opposite direction. What is the acceleration?",
+          "choices": [
+            "2 m/s squared",
+            "3 m/s squared",
+            "5 m/s squared",
+            "7 m/s squared"
+          ],
+          "answer": "B",
+          "explanation": "Net force = 50 N - 20 N = 30 N. Acceleration = 30 N / 10 kg = 3 m/s squared."
+        },
+        {
+          "num": 16,
+          "question": "A first-class lever has its fulcrum placed 0.5 m from a 200 N load and 2 m from the effort. What effort force is needed to balance the load?",
+          "choices": [
+            "25 N",
+            "50 N",
+            "100 N",
+            "800 N"
+          ],
+          "answer": "B",
+          "explanation": "For a lever: effort x effort arm = load x load arm. Effort x 2 = 200 x 0.5, so effort = 100/2 = 50 N."
+        },
+        {
+          "num": 17,
+          "question": "A single fixed pulley is used to lift a 100 N weight. Ignoring friction, what effort force is required?",
+          "choices": [
+            "25 N",
+            "50 N",
+            "100 N",
+            "200 N"
+          ],
+          "answer": "C",
+          "explanation": "A single fixed pulley changes direction of force only; it provides no mechanical advantage. The effort equals the load: 100 N."
+        },
+        {
+          "num": 18,
+          "question": "A system of pulleys has a mechanical advantage of 4. To lift a 600 N load, how much effort force is needed? (Ignore friction)",
+          "choices": [
+            "100 N",
+            "150 N",
+            "200 N",
+            "2400 N"
+          ],
+          "answer": "B",
+          "explanation": "Effort = Load / MA = 600 N / 4 = 150 N."
+        },
+        {
+          "num": 19,
+          "question": "An inclined plane is 6 m long and 2 m high. What is its ideal mechanical advantage?",
+          "choices": [
+            "2",
+            "3",
+            "4",
+            "12"
+          ],
+          "answer": "B",
+          "explanation": "IMA of an inclined plane = length / height = 6 m / 2 m = 3."
+        },
+        {
+          "num": 20,
+          "question": "A wheelbarrow is an example of which class of lever?",
+          "choices": [
+            "First class",
+            "Second class",
+            "Third class",
+            "Not a lever"
+          ],
+          "answer": "B",
+          "explanation": "A wheelbarrow has the fulcrum at the wheel, the load in the center, and the effort at the handles -- this is a second-class lever where the load is between the fulcrum and effort."
+        },
+        {
+          "num": 21,
+          "question": "A screw has 8 threads per centimeter. If the screwdriver handle has a radius of 1.5 cm, what is the approximate ideal mechanical advantage? (Use MA = 2 x pi x r x threads per cm)",
+          "choices": [
+            "12.6",
+            "25.1",
+            "50.3",
+            "75.4"
+          ],
+          "answer": "D",
+          "explanation": "MA = 2 x pi x r x threads per cm = 2 x 3.14159 x 1.5 x 8 = approximately 75.4."
+        },
+        {
+          "num": 22,
+          "question": "A wedge is 20 cm long and 4 cm thick at the base. What is its ideal mechanical advantage?",
+          "choices": [
+            "2",
+            "5",
+            "8",
+            "80"
+          ],
+          "answer": "B",
+          "explanation": "IMA of a wedge = length / thickness = 20 cm / 4 cm = 5."
+        },
+        {
+          "num": 23,
+          "question": "A worker uses a 2 m long lever to lift a rock. The fulcrum is 0.4 m from the rock. What is the mechanical advantage?",
+          "choices": [
+            "2",
+            "4",
+            "5",
+            "8"
+          ],
+          "answer": "B",
+          "explanation": "The effort arm is 2 m - 0.4 m = 1.6 m. MA = effort arm / load arm = 1.6 / 0.4 = 4."
+        },
+        {
+          "num": 24,
+          "question": "In a compound pulley system with 6 supporting ropes, what is the mechanical advantage?",
+          "choices": [
+            "2",
+            "3",
+            "6",
+            "12"
+          ],
+          "answer": "C",
+          "explanation": "In a pulley system, the mechanical advantage equals the number of supporting ropes. With 6 supporting ropes, MA = 6."
+        },
+        {
+          "num": 25,
+          "question": "A machine has an actual mechanical advantage of 3 and an ideal mechanical advantage of 4. What is its efficiency?",
+          "choices": [
+            "25%",
+            "50%",
+            "75%",
+            "133%"
+          ],
+          "answer": "C",
+          "explanation": "Efficiency = (AMA / IMA) x 100% = (3/4) x 100% = 75%."
+        },
+        {
+          "num": 26,
+          "question": "A driving gear with 15 teeth meshes with a driven gear with 45 teeth. If the driving gear rotates at 600 RPM, what is the speed of the driven gear?",
+          "choices": [
+            "100 RPM",
+            "200 RPM",
+            "900 RPM",
+            "1800 RPM"
+          ],
+          "answer": "B",
+          "explanation": "Gear ratio = driven teeth / driving teeth = 45/15 = 3. Output speed = input speed / gear ratio = 600/3 = 200 RPM."
+        },
+        {
+          "num": 27,
+          "question": "In the previous question, how does the torque on the driven gear compare to the torque on the driving gear?",
+          "choices": [
+            "One-third as much",
+            "Same torque",
+            "Three times as much",
+            "Nine times as much"
+          ],
+          "answer": "C",
+          "explanation": "When speed decreases by a factor of 3, torque increases by the same factor (assuming no losses). The driven gear has three times the torque."
+        },
+        {
+          "num": 28,
+          "question": "Two meshing spur gears rotate in:",
+          "choices": [
+            "The same direction",
+            "Opposite directions",
+            "The same direction only if gear sizes are equal",
+            "Perpendicular directions"
+          ],
+          "answer": "B",
+          "explanation": "Two meshing spur gears always rotate in opposite directions. The teeth interlock and push each other in opposing rotational directions."
+        },
+        {
+          "num": 29,
+          "question": "A gear train has three gears: Gear A (20 teeth) drives Gear B (40 teeth), which drives Gear C (10 teeth). If Gear A turns clockwise at 100 RPM, in which direction and at what speed does Gear C turn?",
+          "choices": [
+            "Clockwise at 200 RPM",
+            "Counterclockwise at 200 RPM",
+            "Clockwise at 50 RPM",
+            "Counterclockwise at 50 RPM"
+          ],
+          "answer": "A",
+          "explanation": "A to B reverses direction (counterclockwise), B to C reverses again (clockwise). For speed: the overall ratio from A to C considers only the first and last gear in a simple gear train. Ratio = teeth_A / teeth_C = 20/10 = 2, so C speed = 100 x 2 = 200 RPM, clockwise."
+        },
+        {
+          "num": 30,
+          "question": "A belt connects a 10 cm diameter drive pulley to a 30 cm diameter driven pulley. If the drive pulley spins at 900 RPM, what is the speed of the driven pulley?",
+          "choices": [
+            "100 RPM",
+            "300 RPM",
+            "900 RPM",
+            "2700 RPM"
+          ],
+          "answer": "B",
+          "explanation": "Belt drive ratio = drive diameter / driven diameter = 10/30 = 1/3. Output speed = 900 x (1/3) = 300 RPM."
+        },
+        {
+          "num": 31,
+          "question": "Unlike meshing gears, two pulleys connected by a belt rotate in:",
+          "choices": [
+            "Opposite directions always",
+            "The same direction",
+            "The same direction only with a crossed belt",
+            "Perpendicular directions"
+          ],
+          "answer": "B",
+          "explanation": "Two pulleys connected by a standard (uncrossed) belt rotate in the same direction. A crossed belt would make them rotate in opposite directions."
+        },
+        {
+          "num": 32,
+          "question": "A worm gear makes one complete revolution. If the worm wheel has 40 teeth, how many degrees does the worm wheel rotate?",
+          "choices": [
+            "1 degree",
+            "9 degrees",
+            "40 degrees",
+            "360 degrees"
+          ],
+          "answer": "B",
+          "explanation": "One revolution of the worm advances the worm wheel by one tooth. With 40 teeth total, one tooth = 360/40 = 9 degrees."
+        },
+        {
+          "num": 33,
+          "question": "In a gear system, the idler gear's primary purpose is to:",
+          "choices": [
+            "Increase the gear ratio",
+            "Decrease the gear ratio",
+            "Change the direction of rotation without changing the gear ratio",
+            "Increase the torque output"
+          ],
+          "answer": "C",
+          "explanation": "An idler gear changes the direction of rotation of the output gear without affecting the overall gear ratio (speed and torque relationship)."
+        },
+        {
+          "num": 34,
+          "question": "A chain drive connects a 12-tooth front sprocket to a 36-tooth rear sprocket on a bicycle. For every one revolution of the pedals, how many times does the rear wheel turn?",
+          "choices": [
+            "1/3 revolution",
+            "1 revolution",
+            "3 revolutions",
+            "36 revolutions"
+          ],
+          "answer": "A",
+          "explanation": "Gear ratio = rear teeth / front teeth = 36/12 = 3. The rear wheel turns at 1/3 the rate of the pedals, so one pedal revolution produces 1/3 revolution of the rear wheel."
+        },
+        {
+          "num": 35,
+          "question": "A gear system has an input gear spinning at 1200 RPM with a torque of 5 N-m. Assuming 100% efficiency, if the output gear spins at 300 RPM, what is the output torque?",
+          "choices": [
+            "1.25 N-m",
+            "5 N-m",
+            "15 N-m",
+            "20 N-m"
+          ],
+          "answer": "D",
+          "explanation": "Power is conserved: input power = output power. RPM_in x torque_in = RPM_out x torque_out. 1200 x 5 = 300 x torque_out, so torque_out = 6000/300 = 20 N-m."
+        },
+        {
+          "num": 36,
+          "question": "In a hydraulic system, a force of 50 N is applied to a piston with an area of 10 sq cm. What is the pressure in the fluid?",
+          "choices": [
+            "0.5 N/sq cm",
+            "5 N/sq cm",
+            "50 N/sq cm",
+            "500 N/sq cm"
+          ],
+          "answer": "B",
+          "explanation": "Pressure = force / area = 50 N / 10 sq cm = 5 N/sq cm."
+        },
+        {
+          "num": 37,
+          "question": "A hydraulic jack has an input piston area of 5 sq cm and an output piston area of 100 sq cm. If 200 N of force is applied to the input piston, what force is produced at the output?",
+          "choices": [
+            "10 N",
+            "200 N",
+            "2000 N",
+            "4000 N"
+          ],
+          "answer": "D",
+          "explanation": "By Pascal's Law, pressure is equal throughout: P = 200/5 = 40 N/sq cm. Output force = P x output area = 40 x 100 = 4000 N."
+        },
+        {
+          "num": 38,
+          "question": "A solid block weighs 20 N in air and 12 N when fully submerged in water. What is the buoyant force acting on the block?",
+          "choices": [
+            "4 N",
+            "8 N",
+            "12 N",
+            "20 N"
+          ],
+          "answer": "B",
+          "explanation": "Buoyant force = weight in air - apparent weight in water = 20 N - 12 N = 8 N."
+        },
+        {
+          "num": 39,
+          "question": "According to Pascal's Law, pressure applied to an enclosed fluid is:",
+          "choices": [
+            "Absorbed by the walls of the container",
+            "Transmitted equally in all directions",
+            "Concentrated at the bottom of the container",
+            "Reduced by the volume of the fluid"
+          ],
+          "answer": "B",
+          "explanation": "Pascal's Law states that pressure applied to a confined fluid is transmitted equally and undiminished in all directions throughout the fluid."
+        },
+        {
+          "num": 40,
+          "question": "A pipe narrows from a large diameter to a small diameter. According to the Continuity Equation, as the pipe narrows, the fluid velocity:",
+          "choices": [
+            "Decreases",
+            "Stays the same",
+            "Increases",
+            "Drops to zero"
+          ],
+          "answer": "C",
+          "explanation": "The Continuity Equation (A1 x v1 = A2 x v2) states that as cross-sectional area decreases, velocity must increase to maintain constant flow rate."
+        },
+        {
+          "num": 41,
+          "question": "A 12 V battery is connected to a 4-ohm resistor. What current flows through the circuit?",
+          "choices": [
+            "0.33 A",
+            "3 A",
+            "8 A",
+            "48 A"
+          ],
+          "answer": "B",
+          "explanation": "Ohm's Law: I = V/R = 12 V / 4 ohms = 3 A."
+        },
+        {
+          "num": 42,
+          "question": "Three resistors of 6 ohms each are connected in parallel. What is the total resistance?",
+          "choices": [
+            "2 ohms",
+            "6 ohms",
+            "9 ohms",
+            "18 ohms"
+          ],
+          "answer": "A",
+          "explanation": "For equal resistors in parallel: total R = R/n = 6/3 = 2 ohms."
+        },
+        {
+          "num": 43,
+          "question": "A circuit has a 10-ohm and a 20-ohm resistor connected in series to a 30 V source. What is the voltage drop across the 20-ohm resistor?",
+          "choices": [
+            "10 V",
+            "15 V",
+            "20 V",
+            "30 V"
+          ],
+          "answer": "C",
+          "explanation": "Total resistance = 10 + 20 = 30 ohms. Current = 30 V / 30 ohms = 1 A. Voltage across 20-ohm resistor = I x R = 1 x 20 = 20 V."
+        },
+        {
+          "num": 44,
+          "question": "A device draws 5 A of current from a 120 V outlet. What is the power consumed by the device?",
+          "choices": [
+            "24 W",
+            "115 W",
+            "125 W",
+            "600 W"
+          ],
+          "answer": "D",
+          "explanation": "Power = voltage x current = 120 V x 5 A = 600 W."
+        },
+        {
+          "num": 45,
+          "question": "In a series circuit with three identical light bulbs, if one bulb burns out (open circuit), what happens to the other two?",
+          "choices": [
+            "They both go out",
+            "They both get brighter",
+            "They both get dimmer",
+            "One goes out and one gets brighter"
+          ],
+          "answer": "A",
+          "explanation": "In a series circuit, current follows a single path. If one bulb burns out and creates an open circuit, the path is broken and no current flows to any bulb."
+        },
+        {
+          "num": 46,
+          "question": "A metal spoon placed in a hot cup of soup quickly becomes warm. This is an example of heat transfer by:",
+          "choices": [
+            "Convection",
+            "Radiation",
+            "Conduction",
+            "Insulation"
+          ],
+          "answer": "C",
+          "explanation": "Conduction is heat transfer through direct contact between materials. The spoon conducts heat from the hot soup to your hand."
+        },
+        {
+          "num": 47,
+          "question": "Warm air rises from a floor heating vent and circulates through a room. This is an example of:",
+          "choices": [
+            "Conduction",
+            "Convection",
+            "Radiation",
+            "Evaporation"
+          ],
+          "answer": "B",
+          "explanation": "Convection is heat transfer through the movement of fluids (including air). Warm air rises, cool air sinks, creating circulation currents."
+        },
+        {
+          "num": 48,
+          "question": "A steel bridge has expansion joints to allow for changes in temperature. When the temperature increases, the bridge:",
+          "choices": [
+            "Contracts and gets shorter",
+            "Expands and gets longer",
+            "Stays the same length but gets thicker",
+            "Contracts in width but expands in length"
+          ],
+          "answer": "B",
+          "explanation": "Thermal expansion causes materials to expand when heated. The bridge gets longer as temperature increases, which is why expansion joints are needed to prevent buckling."
+        },
+        {
+          "num": 49,
+          "question": "Two identical metal rods are heated from 20 degrees C to 80 degrees C. Rod A is made of aluminum (high thermal expansion) and Rod B is made of steel (low thermal expansion). Which rod expands more?",
+          "choices": [
+            "Rod A (aluminum)",
+            "Rod B (steel)",
+            "Both expand the same amount",
+            "Neither expands at this temperature range"
+          ],
+          "answer": "A",
+          "explanation": "Aluminum has a higher coefficient of thermal expansion than steel. Given the same temperature change and identical dimensions, the aluminum rod expands more."
+        },
+        {
+          "num": 50,
+          "question": "A thermos bottle reduces heat transfer by minimizing all three modes. The vacuum between the walls primarily reduces heat transfer by:",
+          "choices": [
+            "Conduction and convection",
+            "Radiation only",
+            "Convection only",
+            "Conduction only"
+          ],
+          "answer": "A",
+          "explanation": "A vacuum eliminates conduction and convection because there are no molecules to transfer energy. Radiation can still pass through a vacuum, which is why reflective coatings are also used."
+        },
+        {
+          "num": 51,
+          "question": "When cutting sheet metal, which tool produces the smoothest, most precise straight cut?",
+          "choices": [
+            "Hacksaw",
+            "Aviation snips",
+            "Bench shear",
+            "Angle grinder"
+          ],
+          "answer": "C",
+          "explanation": "A bench shear (also called a foot shear or stomp shear) produces the smoothest, most precise straight cuts in sheet metal because it uses a fixed blade and a moving blade aligned along a straight edge."
+        },
+        {
+          "num": 52,
+          "question": "A torque wrench is primarily used to:",
+          "choices": [
+            "Remove rusted bolts",
+            "Tighten fasteners to a specified tightness",
+            "Measure the diameter of bolts",
+            "Cut threaded rod"
+          ],
+          "answer": "B",
+          "explanation": "A torque wrench is specifically designed to apply a precise, measurable amount of torque to a fastener, ensuring it is tightened to the manufacturer's specification."
+        },
+        {
+          "num": 53,
+          "question": "Which type of fire extinguisher should be used on an electrical fire?",
+          "choices": [
+            "Class A (water)",
+            "Class B (foam)",
+            "Class C (CO2 or dry chemical)",
+            "Class D (dry powder)"
+          ],
+          "answer": "C",
+          "explanation": "Class C fire extinguishers (CO2 or dry chemical) are rated for electrical fires. Water (Class A) conducts electricity and is dangerous on electrical fires."
+        },
+        {
+          "num": 54,
+          "question": "A drill press is preferred over a handheld drill when you need:",
+          "choices": [
+            "Portability for working on-site",
+            "Precise perpendicular holes at consistent depths",
+            "The ability to drill into concrete walls",
+            "Faster drilling speed"
+          ],
+          "answer": "B",
+          "explanation": "A drill press holds the drill bit perpendicular to the workpiece and allows precise depth control, making it ideal for accurate, repeatable holes."
+        },
+        {
+          "num": 55,
+          "question": "When using a micrometer to measure the diameter of a shaft, the thimble is rotated until the spindle contacts the shaft. The measurement is read from:",
+          "choices": [
+            "The digital display only",
+            "The sleeve scale and thimble scale combined",
+            "The anvil markings",
+            "The frame engraving"
+          ],
+          "answer": "B",
+          "explanation": "A micrometer reading combines the main scale on the sleeve (which shows millimeters or 0.025-inch increments) with the thimble scale (which subdivides those increments for precise measurement)."
+        },
+        {
+          "num": 56,
+          "question": "A cube is painted red on all six faces and then cut into 27 equal smaller cubes. How many of the smaller cubes have exactly two red faces?",
+          "choices": [
+            "6",
+            "8",
+            "12",
+            "16"
+          ],
+          "answer": "C",
+          "explanation": "In a 3x3x3 cube, the smaller cubes with exactly two painted faces are the edge cubes (not corners). Each edge has 1 such cube, and a cube has 12 edges, giving 12 small cubes with exactly two red faces."
+        },
+        {
+          "num": 57,
+          "question": "A flat piece of cardboard shaped like a cross (one center square with four squares attached to each side) is folded into a box. Which face is opposite the center square?",
+          "choices": [
+            "There is no opposite face; the center square becomes the bottom",
+            "The square directly across from the center",
+            "The box cannot be formed from this shape",
+            "None, the center square is open"
+          ],
+          "answer": "D",
+          "explanation": "A cross-shaped net (one center square with four squares on each side) forms an open-top box. The center square becomes the bottom, and the four side squares fold up to form the walls. There is no face opposite the center (bottom) -- the top is open."
+        },
+        {
+          "num": 58,
+          "question": "A clock reads 3:15. What is the approximate angle between the hour hand and the minute hand?",
+          "choices": [
+            "0 degrees",
+            "7.5 degrees",
+            "15 degrees",
+            "90 degrees"
+          ],
+          "answer": "B",
+          "explanation": "At 3:15, the minute hand points at the 3 (90 degrees from 12). The hour hand has moved past the 3 by 1/4 of the way toward the 4, which is 7.5 degrees. The angle between them is approximately 7.5 degrees."
+        },
+        {
+          "num": 59,
+          "question": "Looking at a standard six-sided die from one corner so that you can see three faces at once, you see the faces showing 1, 2, and 3. On a standard die, opposite faces add to 7. Which face is opposite the face showing 1?",
+          "choices": [
+            "4",
+            "5",
+            "6",
+            "3"
+          ],
+          "answer": "C",
+          "explanation": "On a standard die, opposite faces sum to 7. The face opposite 1 is 6 (since 1 + 6 = 7)."
+        },
+        {
+          "num": 60,
+          "question": "A rectangular piece of paper is folded in half, then in half again perpendicular to the first fold. A single hole is punched through all layers at the center. When the paper is fully unfolded, how many holes are visible?",
+          "choices": [
+            "1",
+            "2",
+            "4",
+            "8"
+          ],
+          "answer": "C",
+          "explanation": "After two perpendicular folds, the paper has 4 layers. A single hole punched through all layers creates 4 holes when the paper is unfolded, arranged in a 2x2 pattern."
+        }
+      ]
+    },
+    {
+      "testNum": 2,
+      "questions": [
+        {
+          "num": 1,
+          "question": "A 50 kg crate sits on a flat surface with a coefficient of static friction of 0.4. What minimum horizontal force is needed to start moving the crate?",
+          "choices": [
+            "100 N",
+            "200 N",
+            "250 N",
+            "500 N"
+          ],
+          "answer": "B",
+          "explanation": "Static friction = coefficient x normal force = 0.4 x (50 kg x 9.8 m/s2) = 0.4 x 490 N = 196 N, approximately 200 N."
+        },
+        {
+          "num": 2,
+          "question": "Two ropes pull an object in the same direction with forces of 30 N and 45 N. A third rope pulls in the opposite direction with 50 N. What is the net force on the object?",
+          "choices": [
+            "25 N in the direction of the two ropes",
+            "25 N in the direction of the single rope",
+            "125 N in the direction of the two ropes",
+            "15 N in the direction of the single rope"
+          ],
+          "answer": "A",
+          "explanation": "Net force = (30 + 45) - 50 = 25 N in the direction of the two ropes."
+        },
+        {
+          "num": 3,
+          "question": "A ball is thrown straight up into the air. At the highest point of its trajectory, what is its acceleration?",
+          "choices": [
+            "Zero",
+            "9.8 m/s2 downward",
+            "9.8 m/s2 upward",
+            "It depends on how hard the ball was thrown"
+          ],
+          "answer": "B",
+          "explanation": "At the highest point, velocity is zero but acceleration due to gravity remains 9.8 m/s2 downward throughout the entire flight."
+        },
+        {
+          "num": 4,
+          "question": "A car traveling at 60 km/h has twice the kinetic energy of the same car traveling at what speed?",
+          "choices": [
+            "15 km/h",
+            "30 km/h",
+            "42.4 km/h",
+            "45 km/h"
+          ],
+          "answer": "C",
+          "explanation": "Kinetic energy is proportional to v2. If KE2 = 2 x KE1, then v2 = v1 / sqrt(2) = 60 / 1.414 = 42.4 km/h."
+        },
+        {
+          "num": 5,
+          "question": "An elevator accelerates upward at 2 m/s2. A 70 kg person standing inside would feel:",
+          "choices": [
+            "Lighter than normal",
+            "Heavier than normal",
+            "The same as normal",
+            "Weightless"
+          ],
+          "answer": "B",
+          "explanation": "When an elevator accelerates upward, the normal force on the person increases beyond their weight, making them feel heavier. Apparent weight = m(g + a) = 70(9.8 + 2) = 826 N."
+        },
+        {
+          "num": 6,
+          "question": "A 10 kg box slides down a frictionless ramp inclined at 30 degrees. What is the acceleration of the box along the ramp?",
+          "choices": [
+            "2.45 m/s2",
+            "4.9 m/s2",
+            "8.5 m/s2",
+            "9.8 m/s2"
+          ],
+          "answer": "B",
+          "explanation": "On a frictionless incline, acceleration = g x sin(30) = 9.8 x 0.5 = 4.9 m/s2."
+        },
+        {
+          "num": 7,
+          "question": "A truck and a compact car collide head-on. Which vehicle experiences the greater force during the collision?",
+          "choices": [
+            "The truck",
+            "The compact car",
+            "Both experience equal force",
+            "It depends on which vehicle was moving faster"
+          ],
+          "answer": "C",
+          "explanation": "Newton's third law states that for every action there is an equal and opposite reaction. Both vehicles experience the same magnitude of force."
+        },
+        {
+          "num": 8,
+          "question": "A worker pushes a 40 kg cart with a constant force of 80 N across a smooth floor for 5 meters. How much work is done?",
+          "choices": [
+            "200 J",
+            "400 J",
+            "1600 J",
+            "2000 J"
+          ],
+          "answer": "B",
+          "explanation": "Work = Force x distance = 80 N x 5 m = 400 J."
+        },
+        {
+          "num": 9,
+          "question": "A projectile is launched horizontally from a cliff. Ignoring air resistance, what happens to its horizontal velocity as it falls?",
+          "choices": [
+            "It increases",
+            "It decreases",
+            "It stays the same",
+            "It first increases then decreases"
+          ],
+          "answer": "C",
+          "explanation": "With no air resistance, there is no horizontal force acting on the projectile. The horizontal velocity remains constant throughout the fall."
+        },
+        {
+          "num": 10,
+          "question": "A 5 kg block rests on a table. If a 20 N upward force is applied to it, what is the normal force from the table?",
+          "choices": [
+            "29 N",
+            "49 N",
+            "69 N",
+            "0 N"
+          ],
+          "answer": "A",
+          "explanation": "Weight = mg = 5 x 9.8 = 49 N downward. The 20 N upward applied force reduces the force on the table. Normal force = 49 - 20 = 29 N."
+        },
+        {
+          "num": 11,
+          "question": "A merry-go-round spins at constant speed. A rider on the outer edge experiences:",
+          "choices": [
+            "No acceleration because speed is constant",
+            "Centripetal acceleration toward the center",
+            "Acceleration in the direction of motion",
+            "Acceleration away from the center"
+          ],
+          "answer": "B",
+          "explanation": "Uniform circular motion requires centripetal acceleration directed toward the center of the circle, even when speed is constant."
+        },
+        {
+          "num": 12,
+          "question": "A 2 kg ball moving at 3 m/s collides with a stationary 2 kg ball in a perfectly elastic collision. After the collision, the first ball:",
+          "choices": [
+            "Continues at 3 m/s",
+            "Stops completely",
+            "Bounces back at 3 m/s",
+            "Continues at 1.5 m/s"
+          ],
+          "answer": "B",
+          "explanation": "In a perfectly elastic collision between equal masses where one is initially stationary, the first object stops and transfers all its momentum and kinetic energy to the second."
+        },
+        {
+          "num": 13,
+          "question": "A crane lifts a 500 kg steel beam 12 meters in 20 seconds. What is the power output of the crane?",
+          "choices": [
+            "2940 W",
+            "3000 W",
+            "5880 W",
+            "6000 W"
+          ],
+          "answer": "A",
+          "explanation": "Power = Work / time = (m x g x h) / t = (500 x 9.8 x 12) / 20 = 58800 / 20 = 2940 W."
+        },
+        {
+          "num": 14,
+          "question": "An object is in static equilibrium when:",
+          "choices": [
+            "It is not moving and the net force is zero",
+            "It is moving at constant velocity",
+            "The net torque on it is zero but the net force is not",
+            "No forces are acting on it"
+          ],
+          "answer": "A",
+          "explanation": "Static equilibrium means the object is at rest with both net force and net torque equal to zero."
+        },
+        {
+          "num": 15,
+          "question": "A spring with a spring constant of 200 N/m is compressed 0.1 m. How much potential energy is stored in the spring?",
+          "choices": [
+            "1 J",
+            "2 J",
+            "10 J",
+            "20 J"
+          ],
+          "answer": "A",
+          "explanation": "Elastic potential energy = (1/2) x k x x2 = 0.5 x 200 x (0.1)2 = 0.5 x 200 x 0.01 = 1 J."
+        },
+        {
+          "num": 16,
+          "question": "A lever has its fulcrum placed 0.5 m from the load and 2.0 m from the effort. If the load weighs 400 N, what effort force is required to balance it?",
+          "choices": [
+            "50 N",
+            "100 N",
+            "200 N",
+            "800 N"
+          ],
+          "answer": "B",
+          "explanation": "For a lever in equilibrium: Effort x effort arm = Load x load arm. Effort = (400 x 0.5) / 2.0 = 100 N."
+        },
+        {
+          "num": 17,
+          "question": "A worker uses a ramp 6 meters long to raise a barrel 1.5 meters onto a loading dock. What is the ideal mechanical advantage?",
+          "choices": [
+            "2",
+            "3",
+            "4",
+            "6"
+          ],
+          "answer": "C",
+          "explanation": "IMA of a ramp = length / height = 6 / 1.5 = 4."
+        },
+        {
+          "num": 18,
+          "question": "A compound pulley system has 4 supporting ropes. Ignoring friction, how much force is needed to lift a 240 kg load?",
+          "choices": [
+            "60 N",
+            "588 N",
+            "2352 N",
+            "9408 N"
+          ],
+          "answer": "B",
+          "explanation": "Force = Weight / number of supporting ropes = (240 x 9.8) / 4 = 2352 / 4 = 588 N."
+        },
+        {
+          "num": 19,
+          "question": "A wedge is essentially a moving version of which simple machine?",
+          "choices": [
+            "Lever",
+            "Inclined plane",
+            "Pulley",
+            "Wheel and axle"
+          ],
+          "answer": "B",
+          "explanation": "A wedge is a portable inclined plane. It converts a force applied to its blunt end into forces perpendicular to its inclined surfaces."
+        },
+        {
+          "num": 20,
+          "question": "A wheelbarrow is an example of which class of lever?",
+          "choices": [
+            "First class",
+            "Second class",
+            "Third class",
+            "It is not a lever"
+          ],
+          "answer": "B",
+          "explanation": "A wheelbarrow has the fulcrum at the wheel, the load in the middle, and the effort at the handles -- this is a second-class lever."
+        },
+        {
+          "num": 21,
+          "question": "A screw has 8 threads per centimeter. What is the pitch of the screw?",
+          "choices": [
+            "0.125 cm",
+            "0.8 cm",
+            "1.25 cm",
+            "8 cm"
+          ],
+          "answer": "A",
+          "explanation": "Pitch = 1 / (threads per unit length) = 1 / 8 = 0.125 cm."
+        },
+        {
+          "num": 22,
+          "question": "A wheel with a radius of 30 cm is attached to an axle with a radius of 5 cm. What is the ideal mechanical advantage?",
+          "choices": [
+            "2",
+            "3",
+            "6",
+            "25"
+          ],
+          "answer": "C",
+          "explanation": "IMA of a wheel and axle = radius of wheel / radius of axle = 30 / 5 = 6."
+        },
+        {
+          "num": 23,
+          "question": "Which simple machine would provide the greatest mechanical advantage for splitting a log?",
+          "choices": [
+            "Lever",
+            "Pulley",
+            "Wedge",
+            "Wheel and axle"
+          ],
+          "answer": "C",
+          "explanation": "A wedge is the ideal simple machine for splitting. It converts a downward force into lateral forces that push the material apart."
+        },
+        {
+          "num": 24,
+          "question": "A block-and-tackle system with 6 supporting ropes is used to lift a 900 N load. The user must pull 6 meters of rope to raise the load by:",
+          "choices": [
+            "0.5 m",
+            "1.0 m",
+            "3.0 m",
+            "6.0 m"
+          ],
+          "answer": "B",
+          "explanation": "With 6 supporting ropes, the load moves 1/6 of the rope pulled. Distance = 6 / 6 = 1.0 m."
+        },
+        {
+          "num": 25,
+          "question": "A machine has an actual mechanical advantage of 4 and an ideal mechanical advantage of 5. What is its efficiency?",
+          "choices": [
+            "60%",
+            "75%",
+            "80%",
+            "125%"
+          ],
+          "answer": "C",
+          "explanation": "Efficiency = (AMA / IMA) x 100% = (4 / 5) x 100% = 80%."
+        },
+        {
+          "num": 26,
+          "question": "A driving gear with 15 teeth meshes with a driven gear with 45 teeth. If the driving gear rotates at 900 RPM, how fast does the driven gear turn?",
+          "choices": [
+            "150 RPM",
+            "300 RPM",
+            "900 RPM",
+            "2700 RPM"
+          ],
+          "answer": "B",
+          "explanation": "Gear ratio = driven teeth / driving teeth = 45 / 15 = 3. Output speed = 900 / 3 = 300 RPM."
+        },
+        {
+          "num": 27,
+          "question": "In a gear train with three meshing gears (A-B-C), gear A turns clockwise. Which direction does gear C turn?",
+          "choices": [
+            "Clockwise",
+            "Counterclockwise",
+            "It depends on the number of teeth",
+            "It alternates direction"
+          ],
+          "answer": "A",
+          "explanation": "Each meshing gear reverses direction. Gear A (CW) drives gear B (CCW), which drives gear C (CW). With an odd number of gears, the last turns the same as the first."
+        },
+        {
+          "num": 28,
+          "question": "A belt connects two pulleys. Pulley A has a diameter of 10 cm and pulley B has a diameter of 40 cm. If pulley A spins at 1200 RPM, what is the speed of pulley B?",
+          "choices": [
+            "300 RPM",
+            "480 RPM",
+            "1200 RPM",
+            "4800 RPM"
+          ],
+          "answer": "A",
+          "explanation": "For belt drives: speed ratio = diameter of A / diameter of B = 10 / 40 = 1/4. Speed of B = 1200 x (10/40) = 300 RPM."
+        },
+        {
+          "num": 29,
+          "question": "What is the primary purpose of an idler gear in a gear train?",
+          "choices": [
+            "To increase speed",
+            "To increase torque",
+            "To change the direction of rotation without affecting the gear ratio",
+            "To reduce friction"
+          ],
+          "answer": "C",
+          "explanation": "An idler gear reverses the direction of rotation of the output gear without changing the overall speed ratio between input and output."
+        },
+        {
+          "num": 30,
+          "question": "A worm gear system has a worm wheel with 40 teeth. If the worm has a single start, how many turns of the worm are needed for one full revolution of the wheel?",
+          "choices": [
+            "1",
+            "10",
+            "40",
+            "80"
+          ],
+          "answer": "C",
+          "explanation": "For a single-start worm, each revolution of the worm advances the wheel by one tooth. So 40 worm turns are needed for one full revolution of the 40-tooth wheel."
+        },
+        {
+          "num": 31,
+          "question": "Two pulleys are connected by a crossed belt. If the driving pulley turns clockwise, the driven pulley turns:",
+          "choices": [
+            "Clockwise",
+            "Counterclockwise",
+            "In the same direction only if they are the same size",
+            "Neither -- it depends on the belt tension"
+          ],
+          "answer": "A",
+          "explanation": "A crossed belt reverses the direction of rotation. If the driving pulley turns clockwise, the driven pulley also turns clockwise (same direction as seen from the front of each pulley)."
+        },
+        {
+          "num": 32,
+          "question": "A gear with 20 teeth drives a gear with 60 teeth, which is fixed to a shaft that also carries a gear with 15 teeth. That 15-tooth gear drives a final gear with 45 teeth. What is the overall gear ratio?",
+          "choices": [
+            "3:1",
+            "6:1",
+            "9:1",
+            "12:1"
+          ],
+          "answer": "C",
+          "explanation": "First pair ratio: 60/20 = 3. Second pair ratio: 45/15 = 3. Overall ratio = 3 x 3 = 9:1."
+        },
+        {
+          "num": 33,
+          "question": "Which type of gear is used to transmit motion between shafts that are at 90 degrees to each other?",
+          "choices": [
+            "Spur gears",
+            "Helical gears",
+            "Bevel gears",
+            "Rack and pinion"
+          ],
+          "answer": "C",
+          "explanation": "Bevel gears are designed specifically to transmit motion between intersecting shafts, typically at 90 degrees."
+        },
+        {
+          "num": 34,
+          "question": "A V-belt is preferred over a flat belt in many applications because:",
+          "choices": [
+            "It weighs less",
+            "It can transmit more power without slipping",
+            "It is less expensive",
+            "It runs at higher temperatures"
+          ],
+          "answer": "B",
+          "explanation": "The wedge shape of a V-belt increases grip in the pulley groove, allowing it to transmit more power without slipping compared to a flat belt."
+        },
+        {
+          "num": 35,
+          "question": "A compound gear train reduces speed by a ratio of 8:1. If the input shaft delivers 2 N-m of torque, what is the theoretical output torque (ignoring losses)?",
+          "choices": [
+            "0.25 N-m",
+            "2 N-m",
+            "8 N-m",
+            "16 N-m"
+          ],
+          "answer": "D",
+          "explanation": "In a gear reduction, output torque = input torque x gear ratio = 2 x 8 = 16 N-m. Speed decreases but torque increases proportionally."
+        },
+        {
+          "num": 36,
+          "question": "In a hydraulic press, the input piston has an area of 5 cm2 and the output piston has an area of 100 cm2. If a force of 50 N is applied to the input piston, what force is produced at the output?",
+          "choices": [
+            "250 N",
+            "500 N",
+            "1000 N",
+            "5000 N"
+          ],
+          "answer": "C",
+          "explanation": "Pascal's principle: F_out = F_in x (A_out / A_in) = 50 x (100 / 5) = 50 x 20 = 1000 N."
+        },
+        {
+          "num": 37,
+          "question": "A pipe carrying water narrows from a diameter of 10 cm to 5 cm. According to the continuity equation, the velocity of water in the narrow section is:",
+          "choices": [
+            "Half the velocity in the wide section",
+            "Twice the velocity in the wide section",
+            "Four times the velocity in the wide section",
+            "The same as the velocity in the wide section"
+          ],
+          "answer": "C",
+          "explanation": "By continuity, A1 x v1 = A2 x v2. Area is proportional to diameter squared. The area ratio = (10/5)2 = 4, so the velocity increases by a factor of 4."
+        },
+        {
+          "num": 38,
+          "question": "A hydraulic cylinder has an input piston area of 2 cm2 and an output piston area of 40 cm2. If the input piston moves 20 cm, how far does the output piston move?",
+          "choices": [
+            "0.5 cm",
+            "1.0 cm",
+            "10 cm",
+            "400 cm"
+          ],
+          "answer": "B",
+          "explanation": "Volume is conserved: A_in x d_in = A_out x d_out. d_out = (2 x 20) / 40 = 1.0 cm."
+        },
+        {
+          "num": 39,
+          "question": "What happens to the pressure at the bottom of a tank if the depth of the liquid is doubled?",
+          "choices": [
+            "It stays the same",
+            "It doubles",
+            "It quadruples",
+            "It halves"
+          ],
+          "answer": "B",
+          "explanation": "Hydrostatic pressure = density x g x depth. Pressure is directly proportional to depth, so doubling the depth doubles the pressure."
+        },
+        {
+          "num": 40,
+          "question": "An object weighs 10 N in air and 6 N when submerged in water. What is the buoyant force acting on the object?",
+          "choices": [
+            "2 N",
+            "4 N",
+            "6 N",
+            "10 N"
+          ],
+          "answer": "B",
+          "explanation": "Buoyant force = weight in air - apparent weight in water = 10 - 6 = 4 N."
+        },
+        {
+          "num": 41,
+          "question": "Three resistors of 10 ohms, 20 ohms, and 30 ohms are connected in series across a 120 V battery. What is the total current in the circuit?",
+          "choices": [
+            "1 A",
+            "2 A",
+            "4 A",
+            "6 A"
+          ],
+          "answer": "B",
+          "explanation": "Total resistance in series = 10 + 20 + 30 = 60 ohms. Current = V / R = 120 / 60 = 2 A."
+        },
+        {
+          "num": 42,
+          "question": "Two identical resistors are connected in parallel. Compared to a single resistor, the total resistance of the parallel combination is:",
+          "choices": [
+            "Twice as much",
+            "The same",
+            "One half",
+            "One quarter"
+          ],
+          "answer": "C",
+          "explanation": "Two identical resistors R in parallel: total = R/2. The parallel combination has half the resistance of a single resistor."
+        },
+        {
+          "num": 43,
+          "question": "A 100 W light bulb runs for 5 hours. How much electrical energy does it consume?",
+          "choices": [
+            "0.5 kWh",
+            "5 kWh",
+            "20 kWh",
+            "500 kWh"
+          ],
+          "answer": "A",
+          "explanation": "Energy = Power x time = 100 W x 5 h = 500 Wh = 0.5 kWh."
+        },
+        {
+          "num": 44,
+          "question": "In a circuit, a fuse is designed to:",
+          "choices": [
+            "Increase voltage when demand is high",
+            "Store electrical energy for later use",
+            "Break the circuit if current exceeds a safe level",
+            "Convert AC to DC"
+          ],
+          "answer": "C",
+          "explanation": "A fuse is a safety device that melts and breaks the circuit when current exceeds a rated level, protecting wiring and equipment from damage."
+        },
+        {
+          "num": 45,
+          "question": "A wire carries a current of 3 A through a resistance of 8 ohms. What is the voltage drop across the wire?",
+          "choices": [
+            "0.375 V",
+            "2.67 V",
+            "11 V",
+            "24 V"
+          ],
+          "answer": "D",
+          "explanation": "Ohm's law: V = I x R = 3 x 8 = 24 V."
+        },
+        {
+          "num": 46,
+          "question": "Heat transfer through direct contact between two objects is called:",
+          "choices": [
+            "Convection",
+            "Radiation",
+            "Conduction",
+            "Insulation"
+          ],
+          "answer": "C",
+          "explanation": "Conduction is the transfer of heat through direct molecular contact between two objects or within a solid material."
+        },
+        {
+          "num": 47,
+          "question": "A metal rod is heated at one end. Which metal would conduct the heat to the other end most quickly?",
+          "choices": [
+            "Steel",
+            "Copper",
+            "Lead",
+            "Cast iron"
+          ],
+          "answer": "B",
+          "explanation": "Copper has the highest thermal conductivity among the listed metals (approximately 400 W/m-K), making it the fastest conductor of heat."
+        },
+        {
+          "num": 48,
+          "question": "When a gas is compressed in a sealed container, its temperature:",
+          "choices": [
+            "Decreases",
+            "Stays the same",
+            "Increases",
+            "Depends on the color of the container"
+          ],
+          "answer": "C",
+          "explanation": "Compressing a gas does work on it, increasing its internal energy and therefore its temperature. This follows from the first law of thermodynamics."
+        },
+        {
+          "num": 49,
+          "question": "A bimetallic strip bends when heated because:",
+          "choices": [
+            "Both metals expand at the same rate",
+            "The two metals expand at different rates",
+            "One metal contracts while the other expands",
+            "The strip absorbs more heat on one side"
+          ],
+          "answer": "B",
+          "explanation": "A bimetallic strip is made of two metals with different coefficients of thermal expansion. When heated, one metal expands more than the other, causing the strip to bend."
+        },
+        {
+          "num": 50,
+          "question": "Which process transfers heat primarily through the movement of fluid currents?",
+          "choices": [
+            "Conduction",
+            "Convection",
+            "Radiation",
+            "Evaporation"
+          ],
+          "answer": "B",
+          "explanation": "Convection transfers heat through bulk movement of fluid (liquid or gas). Warmer fluid rises while cooler fluid sinks, creating convection currents."
+        },
+        {
+          "num": 51,
+          "question": "A torque wrench is used to:",
+          "choices": [
+            "Cut bolts to the correct length",
+            "Loosen rusted fasteners",
+            "Tighten fasteners to a specific torque value",
+            "Measure the diameter of bolts"
+          ],
+          "answer": "C",
+          "explanation": "A torque wrench is a precision tool that allows the user to apply a specific, measurable amount of torque to a fastener, preventing over-tightening or under-tightening."
+        },
+        {
+          "num": 52,
+          "question": "Which material is most resistant to corrosion in a saltwater environment?",
+          "choices": [
+            "Mild steel",
+            "Cast iron",
+            "Stainless steel",
+            "Aluminum"
+          ],
+          "answer": "C",
+          "explanation": "Stainless steel contains chromium, which forms a passive oxide layer that resists corrosion, making it the best choice for saltwater environments among the options listed."
+        },
+        {
+          "num": 53,
+          "question": "When drilling into hardened steel, the drill speed should be:",
+          "choices": [
+            "High speed with light pressure",
+            "High speed with heavy pressure",
+            "Low speed with light pressure",
+            "Low speed with heavy pressure"
+          ],
+          "answer": "D",
+          "explanation": "Hardened steel requires low drill speed to prevent overheating and heavy pressure to maintain cutting action. High speed would dull the drill bit quickly."
+        },
+        {
+          "num": 54,
+          "question": "A micrometer measures to an accuracy of:",
+          "choices": [
+            "0.1 mm",
+            "0.01 mm",
+            "0.1 cm",
+            "1 mm"
+          ],
+          "answer": "B",
+          "explanation": "A standard micrometer can measure to an accuracy of 0.01 mm (10 micrometers), making it one of the most precise handheld measuring instruments."
+        },
+        {
+          "num": 55,
+          "question": "The process of heating metal to a specific temperature and then cooling it slowly to reduce brittleness is called:",
+          "choices": [
+            "Quenching",
+            "Tempering",
+            "Annealing",
+            "Case hardening"
+          ],
+          "answer": "C",
+          "explanation": "Annealing is the process of heating metal to a specific temperature and then cooling it slowly to relieve internal stresses, reduce hardness, and increase ductility."
+        },
+        {
+          "num": 56,
+          "question": "A flat pattern is folded into a cube. If the bottom face has a circle, which face is directly opposite?",
+          "choices": [
+            "The face that was adjacent to the left of the circle in the flat pattern",
+            "The face that was two squares away in a straight line from the circle",
+            "The face that was adjacent to the right of the circle in the flat pattern",
+            "It cannot be determined without seeing the pattern"
+          ],
+          "answer": "B",
+          "explanation": "In a standard cross-shaped cube net, the face directly opposite any given face is the one that is two squares away in a straight line."
+        },
+        {
+          "num": 57,
+          "question": "A cylindrical pipe is cut at a 45-degree angle. The shape of the cross-section is:",
+          "choices": [
+            "A circle",
+            "An ellipse",
+            "A rectangle",
+            "A triangle"
+          ],
+          "answer": "B",
+          "explanation": "When a cylinder is cut at any angle other than perpendicular to its axis, the cross-section is an ellipse. A perpendicular cut gives a circle."
+        },
+        {
+          "num": 58,
+          "question": "A gear viewed from the front appears to rotate clockwise. When viewed from the back (opposite side), the same gear appears to rotate:",
+          "choices": [
+            "Clockwise",
+            "Counterclockwise",
+            "The same direction regardless of viewing angle",
+            "It depends on the number of teeth"
+          ],
+          "answer": "B",
+          "explanation": "A gear rotating clockwise when viewed from the front appears counterclockwise when viewed from the back. The rotation itself does not change, but the viewing perspective is mirrored."
+        },
+        {
+          "num": 59,
+          "question": "A solid rectangular block is 4 cm long, 3 cm wide, and 2 cm tall. How many faces does the block have?",
+          "choices": [
+            "4",
+            "6",
+            "8",
+            "12"
+          ],
+          "answer": "B",
+          "explanation": "A rectangular block (rectangular prism) always has 6 faces: top, bottom, front, back, left, and right."
+        },
+        {
+          "num": 60,
+          "question": "If you look at the letter R in a mirror, which part of the letter appears reversed?",
+          "choices": [
+            "The vertical stroke moves to the right side",
+            "The letter appears upside down",
+            "The bump and leg of the R face left instead of right",
+            "The letter does not change in a mirror"
+          ],
+          "answer": "C",
+          "explanation": "A mirror reverses left and right. The vertical stroke of R stays on the left, but the bump and diagonal leg, which normally face right, appear to face left."
+        }
+      ]
+    },
+    {
+      "testNum": 3,
+      "questions": [
+        {
+          "num": 1,
+          "question": "A 20-kg crate sits on a flat surface. If a horizontal force of 50 N is applied and the crate does not move, what can be concluded?",
+          "choices": [
+            "The applied force exceeds the static friction force",
+            "The static friction force is at least 50 N",
+            "The kinetic friction force equals 50 N",
+            "The crate has no friction acting on it"
+          ],
+          "answer": "B",
+          "explanation": "Since the crate does not move, the static friction force must be at least equal to the 50 N applied force, balancing it completely."
+        },
+        {
+          "num": 2,
+          "question": "A ball is thrown straight upward. At the very top of its flight, what is its acceleration?",
+          "choices": [
+            "Zero",
+            "9.8 m/s2 downward",
+            "9.8 m/s2 upward",
+            "It depends on the mass of the ball"
+          ],
+          "answer": "B",
+          "explanation": "At the top of its flight the ball's velocity is momentarily zero, but gravity still acts on it, producing a downward acceleration of 9.8 m/s2."
+        },
+        {
+          "num": 3,
+          "question": "Two ropes are attached to a heavy box. Rope A pulls north with 40 N and Rope B pulls east with 30 N. What is the approximate magnitude of the resultant force?",
+          "choices": [
+            "70 N",
+            "50 N",
+            "35 N",
+            "10 N"
+          ],
+          "answer": "B",
+          "explanation": "The resultant is found using the Pythagorean theorem: sqrt(40^2 + 30^2) = sqrt(1600 + 900) = sqrt(2500) = 50 N."
+        },
+        {
+          "num": 4,
+          "question": "A truck traveling at 60 km/h has twice the mass of a car traveling at 60 km/h. How does the truck's momentum compare to the car's?",
+          "choices": [
+            "The truck's momentum is the same as the car's",
+            "The truck's momentum is twice the car's",
+            "The truck's momentum is four times the car's",
+            "The truck's momentum is half the car's"
+          ],
+          "answer": "B",
+          "explanation": "Momentum equals mass times velocity. Since both travel at the same speed and the truck has twice the mass, the truck has twice the momentum."
+        },
+        {
+          "num": 5,
+          "question": "A worker pushes a filing cabinet across a floor at constant velocity. What can be said about the net force on the cabinet?",
+          "choices": [
+            "The net force is in the direction of motion",
+            "The net force is opposite the direction of motion",
+            "The net force is zero",
+            "The net force equals the worker's applied force"
+          ],
+          "answer": "C",
+          "explanation": "Constant velocity means zero acceleration, which by Newton's second law means the net force is zero. The applied force exactly balances friction."
+        },
+        {
+          "num": 6,
+          "question": "A 5-kg object accelerates at 3 m/s2. What is the net force acting on it?",
+          "choices": [
+            "1.67 N",
+            "8 N",
+            "15 N",
+            "45 N"
+          ],
+          "answer": "C",
+          "explanation": "Using F = ma: F = 5 kg x 3 m/s2 = 15 N."
+        },
+        {
+          "num": 7,
+          "question": "A pendulum swings back and forth. At which point in its swing is the speed greatest?",
+          "choices": [
+            "At the highest point on either side",
+            "At the lowest point of the swing",
+            "Midway between the lowest and highest points",
+            "Speed is constant throughout the swing"
+          ],
+          "answer": "B",
+          "explanation": "A pendulum converts potential energy to kinetic energy. Kinetic energy (and therefore speed) is greatest at the lowest point of the swing."
+        },
+        {
+          "num": 8,
+          "question": "A car rounds a curve at constant speed. Which statement is true?",
+          "choices": [
+            "No force acts on the car",
+            "A net force acts toward the center of the curve",
+            "A net force acts away from the center of the curve",
+            "The car's velocity is constant"
+          ],
+          "answer": "B",
+          "explanation": "Circular motion requires a centripetal force directed toward the center of the curve. The car's speed is constant but its velocity (which includes direction) is changing."
+        },
+        {
+          "num": 9,
+          "question": "An astronaut in the International Space Station appears weightless. This is because:",
+          "choices": [
+            "There is no gravity in space",
+            "The station and astronaut are in free fall together",
+            "The station shields the astronaut from gravity",
+            "Air pressure inside the station cancels gravity"
+          ],
+          "answer": "B",
+          "explanation": "Gravity still acts in orbit. The astronaut and station are both in free fall (continuous falling around the Earth), so the astronaut appears weightless."
+        },
+        {
+          "num": 10,
+          "question": "A spring with a spring constant of 200 N/m is compressed 0.1 m. What force does the spring exert?",
+          "choices": [
+            "2 N",
+            "20 N",
+            "200 N",
+            "2000 N"
+          ],
+          "answer": "B",
+          "explanation": "Hooke's law: F = kx = 200 N/m x 0.1 m = 20 N."
+        },
+        {
+          "num": 11,
+          "question": "Object A has a mass of 2 kg and Object B has a mass of 8 kg. They are both dropped from the same height in a vacuum. Which hits the ground first?",
+          "choices": [
+            "Object A, because it is lighter",
+            "Object B, because it is heavier",
+            "They hit at the same time",
+            "It depends on their shapes"
+          ],
+          "answer": "C",
+          "explanation": "In a vacuum with no air resistance, all objects fall at the same rate regardless of mass, due to the equivalence of inertial and gravitational mass."
+        },
+        {
+          "num": 12,
+          "question": "A hockey puck slides across frictionless ice at 5 m/s. If no forces act on it, what happens?",
+          "choices": [
+            "It gradually slows down and stops",
+            "It accelerates in the forward direction",
+            "It continues at 5 m/s in the same direction",
+            "It curves to the right"
+          ],
+          "answer": "C",
+          "explanation": "Newton's first law: an object in motion with no net force acting on it continues at constant velocity. On frictionless ice, no force decelerates the puck."
+        },
+        {
+          "num": 13,
+          "question": "A crane lifts a 500-kg steel beam vertically at constant velocity. What is the tension in the cable? (Use g = 10 m/s2)",
+          "choices": [
+            "250 N",
+            "2500 N",
+            "5000 N",
+            "10000 N"
+          ],
+          "answer": "C",
+          "explanation": "At constant velocity the net force is zero, so the cable tension equals the beam's weight: T = mg = 500 x 10 = 5000 N."
+        },
+        {
+          "num": 14,
+          "question": "A bicycle rider goes over a hill. At the very top of the hill, the rider feels lighter than normal. Why?",
+          "choices": [
+            "Gravity is weaker at higher elevations",
+            "Part of the gravitational force provides centripetal acceleration",
+            "Air resistance reduces the rider's weight",
+            "The rider's inertia increases at the top"
+          ],
+          "answer": "B",
+          "explanation": "At the top of the hill, the rider follows a curved path. Part of gravity provides the centripetal force needed for circular motion, reducing the normal force and making the rider feel lighter."
+        },
+        {
+          "num": 15,
+          "question": "Two ice skaters stand facing each other on frictionless ice. Skater A pushes Skater B. Which statement is correct?",
+          "choices": [
+            "Only Skater B moves",
+            "Both skaters move apart in opposite directions",
+            "Skater A moves but Skater B stays still",
+            "Neither skater moves"
+          ],
+          "answer": "B",
+          "explanation": "Newton's third law: the push on Skater B creates an equal and opposite force on Skater A. On frictionless ice, both skaters accelerate away from each other."
+        },
+        {
+          "num": 16,
+          "question": "A lever has its fulcrum placed 0.5 m from the load and 2 m from the effort. What is the mechanical advantage?",
+          "choices": [
+            "0.25",
+            "1",
+            "2.5",
+            "4"
+          ],
+          "answer": "D",
+          "explanation": "Mechanical advantage = effort arm / load arm = 2 m / 0.5 m = 4."
+        },
+        {
+          "num": 17,
+          "question": "A worker uses a ramp to load barrels onto a truck. If the ramp is 6 m long and the truck bed is 1.5 m high, what is the ideal mechanical advantage?",
+          "choices": [
+            "1.5",
+            "3",
+            "4",
+            "6"
+          ],
+          "answer": "C",
+          "explanation": "Ideal MA of a ramp = length / height = 6 m / 1.5 m = 4."
+        },
+        {
+          "num": 18,
+          "question": "Which class of lever has the fulcrum between the effort and the load?",
+          "choices": [
+            "First class",
+            "Second class",
+            "Third class",
+            "Fourth class"
+          ],
+          "answer": "A",
+          "explanation": "A first-class lever has the fulcrum between the effort and the load, like a seesaw."
+        },
+        {
+          "num": 19,
+          "question": "A wheel and axle system has a wheel radius of 30 cm and an axle radius of 5 cm. What is the mechanical advantage?",
+          "choices": [
+            "2",
+            "4",
+            "6",
+            "25"
+          ],
+          "answer": "C",
+          "explanation": "MA = wheel radius / axle radius = 30 cm / 5 cm = 6."
+        },
+        {
+          "num": 20,
+          "question": "A fixed pulley is used to lift a 100-N weight. How much force must be applied (ignoring friction)?",
+          "choices": [
+            "25 N",
+            "50 N",
+            "100 N",
+            "200 N"
+          ],
+          "answer": "C",
+          "explanation": "A single fixed pulley changes the direction of the force but does not provide a mechanical advantage. The effort equals the load: 100 N."
+        },
+        {
+          "num": 21,
+          "question": "A screw has 8 threads per centimeter. Compared to a screw with 4 threads per centimeter, the finer-threaded screw:",
+          "choices": [
+            "Requires less force per turn but advances less per turn",
+            "Requires more force per turn and advances more per turn",
+            "Requires the same force regardless of thread count",
+            "Cannot hold as much load"
+          ],
+          "answer": "A",
+          "explanation": "A finer thread pitch means more threads per unit length. Each turn advances the screw less distance, but requires less force -- a higher mechanical advantage."
+        },
+        {
+          "num": 22,
+          "question": "A compound machine is best described as:",
+          "choices": [
+            "A machine with no moving parts",
+            "Two or more simple machines working together",
+            "A machine that creates energy",
+            "A machine with a mechanical advantage of exactly 1"
+          ],
+          "answer": "B",
+          "explanation": "A compound machine is a combination of two or more simple machines working together, such as a pair of scissors (two first-class levers with wedge-shaped blades)."
+        },
+        {
+          "num": 23,
+          "question": "A block-and-tackle system uses 4 supporting rope segments. Approximately how much force is needed to lift a 400-N load (ignoring friction)?",
+          "choices": [
+            "50 N",
+            "100 N",
+            "200 N",
+            "400 N"
+          ],
+          "answer": "B",
+          "explanation": "In a block-and-tackle with 4 supporting segments, the mechanical advantage is 4. Force = 400 N / 4 = 100 N."
+        },
+        {
+          "num": 24,
+          "question": "A wheelbarrow is an example of which class of lever?",
+          "choices": [
+            "First class",
+            "Second class",
+            "Third class",
+            "It is not a lever"
+          ],
+          "answer": "B",
+          "explanation": "A wheelbarrow is a second-class lever: the load is between the fulcrum (wheel) and the effort (handles)."
+        },
+        {
+          "num": 25,
+          "question": "When using any simple machine, which of the following is always true (assuming no friction)?",
+          "choices": [
+            "Work output equals work input",
+            "Force output equals force input",
+            "Distance output equals distance input",
+            "Power output is greater than power input"
+          ],
+          "answer": "A",
+          "explanation": "Conservation of energy dictates that work output equals work input in an ideal (frictionless) machine. Force and distance can differ, but their products (work) are equal."
+        },
+        {
+          "num": 26,
+          "question": "A driving gear has 15 teeth and meshes with a driven gear that has 45 teeth. If the driving gear turns at 600 RPM, how fast does the driven gear turn?",
+          "choices": [
+            "200 RPM",
+            "600 RPM",
+            "1350 RPM",
+            "1800 RPM"
+          ],
+          "answer": "A",
+          "explanation": "Gear ratio = driven/driving = 45/15 = 3. Output RPM = 600/3 = 200 RPM. A larger driven gear turns slower."
+        },
+        {
+          "num": 27,
+          "question": "In a standard spur gear train, when Gear A meshes directly with Gear B, how do they rotate relative to each other?",
+          "choices": [
+            "They rotate in the same direction",
+            "They rotate in opposite directions",
+            "Gear B does not rotate",
+            "The direction depends on the number of teeth"
+          ],
+          "answer": "B",
+          "explanation": "Two meshing spur gears always rotate in opposite directions. The teeth push against each other, reversing the rotation."
+        },
+        {
+          "num": 28,
+          "question": "A belt connects Pulley X (diameter 10 cm) to Pulley Y (diameter 40 cm). If Pulley X rotates at 800 RPM, what is the speed of Pulley Y?",
+          "choices": [
+            "100 RPM",
+            "200 RPM",
+            "800 RPM",
+            "3200 RPM"
+          ],
+          "answer": "B",
+          "explanation": "Belt drives: speed is inversely proportional to diameter. RPM_Y = RPM_X x (D_X / D_Y) = 800 x (10/40) = 200 RPM."
+        },
+        {
+          "num": 29,
+          "question": "In a gear train with three gears in a line (A meshes with B, B meshes with C), how does the rotation of Gear C compare to Gear A?",
+          "choices": [
+            "Same direction as Gear A",
+            "Opposite direction to Gear A",
+            "Perpendicular to Gear A",
+            "Gear C does not rotate"
+          ],
+          "answer": "A",
+          "explanation": "Each meshing pair reverses direction. A to B reverses once, B to C reverses again. Two reversals return C to the same direction as A. The middle gear (B) acts as an idler."
+        },
+        {
+          "num": 30,
+          "question": "A worm gear arrangement consists of a worm with 1 start and a worm wheel with 40 teeth. What is the gear ratio?",
+          "choices": [
+            "1:1",
+            "1:40",
+            "40:1",
+            "20:1"
+          ],
+          "answer": "C",
+          "explanation": "For a single-start worm, the gear ratio equals the number of teeth on the worm wheel. One turn of the worm advances the wheel by one tooth, so the ratio is 40:1."
+        },
+        {
+          "num": 31,
+          "question": "If a gear system reduces speed by a factor of 5, what happens to the torque (ignoring friction)?",
+          "choices": [
+            "Torque is reduced by a factor of 5",
+            "Torque remains the same",
+            "Torque increases by a factor of 5",
+            "Torque increases by a factor of 25"
+          ],
+          "answer": "C",
+          "explanation": "In an ideal gear system, power is conserved (Power = Torque x Speed). If speed decreases by a factor of 5, torque must increase by a factor of 5."
+        },
+        {
+          "num": 32,
+          "question": "A crossed belt between two pulleys causes them to:",
+          "choices": [
+            "Rotate in the same direction",
+            "Rotate in opposite directions",
+            "Rotate at the same speed",
+            "Stop rotating"
+          ],
+          "answer": "B",
+          "explanation": "A crossed (twisted) belt causes the two pulleys to rotate in opposite directions, unlike an uncrossed belt where both rotate the same way."
+        },
+        {
+          "num": 33,
+          "question": "An idler gear placed between a driving gear and a driven gear primarily serves to:",
+          "choices": [
+            "Increase the gear ratio",
+            "Decrease the gear ratio",
+            "Change the direction of rotation without affecting the gear ratio",
+            "Increase the output speed"
+          ],
+          "answer": "C",
+          "explanation": "An idler gear changes the direction of rotation of the driven gear without changing the overall gear ratio between the first and last gear."
+        },
+        {
+          "num": 34,
+          "question": "Bevel gears are used to:",
+          "choices": [
+            "Increase belt tension",
+            "Transmit rotation between intersecting shafts",
+            "Transmit rotation between parallel shafts only",
+            "Store rotational energy"
+          ],
+          "answer": "B",
+          "explanation": "Bevel gears have conically shaped tooth surfaces and are designed to transmit rotation between shafts that intersect, typically at 90 degrees."
+        },
+        {
+          "num": 35,
+          "question": "A chain drive (like a bicycle chain) compared to a belt drive:",
+          "choices": [
+            "Is more likely to slip under load",
+            "Cannot change the gear ratio",
+            "Provides positive engagement and does not slip",
+            "Always rotates pulleys in opposite directions"
+          ],
+          "answer": "C",
+          "explanation": "A chain drive uses positive engagement between the chain links and sprocket teeth, so it cannot slip under load, unlike a friction-dependent belt drive."
+        },
+        {
+          "num": 36,
+          "question": "In a hydraulic jack, the small piston has an area of 2 cm2 and the large piston has an area of 50 cm2. If you apply 20 N to the small piston, what force is produced at the large piston?",
+          "choices": [
+            "20 N",
+            "100 N",
+            "500 N",
+            "1000 N"
+          ],
+          "answer": "C",
+          "explanation": "Pascal's law: F2 = F1 x (A2/A1) = 20 N x (50/2) = 20 x 25 = 500 N."
+        },
+        {
+          "num": 37,
+          "question": "Water flows through a pipe that narrows from a wide section to a narrow section. According to the continuity equation, what happens to the flow velocity?",
+          "choices": [
+            "Velocity decreases in the narrow section",
+            "Velocity increases in the narrow section",
+            "Velocity remains the same throughout",
+            "Velocity drops to zero in the narrow section"
+          ],
+          "answer": "B",
+          "explanation": "The continuity equation (A1 x v1 = A2 x v2) states that for an incompressible fluid, velocity must increase when the cross-sectional area decreases."
+        },
+        {
+          "num": 38,
+          "question": "An object is fully submerged in water. The buoyant force on the object equals:",
+          "choices": [
+            "The weight of the object",
+            "The weight of the water displaced by the object",
+            "The volume of the object times the density of the object",
+            "The atmospheric pressure times the surface area"
+          ],
+          "answer": "B",
+          "explanation": "Archimedes' principle: the buoyant force on a submerged object equals the weight of the fluid displaced by the object."
+        },
+        {
+          "num": 39,
+          "question": "In a hydraulic system, why is the fluid considered virtually incompressible?",
+          "choices": [
+            "So that pressure is transmitted equally in all directions",
+            "So that the fluid can be heated easily",
+            "So that air bubbles form inside the system",
+            "So that the system weighs less"
+          ],
+          "answer": "A",
+          "explanation": "Hydraulic systems rely on incompressible fluid so that pressure applied at one point is transmitted equally and instantly in all directions (Pascal's law)."
+        },
+        {
+          "num": 40,
+          "question": "A tank is filled with water. At which point is the water pressure greatest?",
+          "choices": [
+            "At the surface of the water",
+            "Halfway down the tank",
+            "At the bottom of the tank",
+            "Pressure is the same at all depths"
+          ],
+          "answer": "C",
+          "explanation": "Water pressure increases with depth: P = rho x g x h. The greatest depth (at the bottom of the tank) produces the greatest pressure."
+        },
+        {
+          "num": 41,
+          "question": "Three resistors of 6 ohms each are connected in parallel. What is the total resistance?",
+          "choices": [
+            "2 ohms",
+            "6 ohms",
+            "12 ohms",
+            "18 ohms"
+          ],
+          "answer": "A",
+          "explanation": "For identical resistors in parallel: total R = R/n = 6/3 = 2 ohms."
+        },
+        {
+          "num": 42,
+          "question": "A 120-V circuit has a 10-A fuse. What is the maximum power that can be drawn before the fuse blows?",
+          "choices": [
+            "12 W",
+            "120 W",
+            "1200 W",
+            "12000 W"
+          ],
+          "answer": "C",
+          "explanation": "Power = Voltage x Current = 120 V x 10 A = 1200 W."
+        },
+        {
+          "num": 43,
+          "question": "In a series circuit with three bulbs, one bulb burns out. What happens?",
+          "choices": [
+            "The other two bulbs get brighter",
+            "The other two bulbs remain unchanged",
+            "All bulbs go out",
+            "The remaining bulbs get dimmer"
+          ],
+          "answer": "C",
+          "explanation": "In a series circuit, current flows through a single path. If one bulb burns out, the circuit is broken and all bulbs go out."
+        },
+        {
+          "num": 44,
+          "question": "A wire's resistance increases when:",
+          "choices": [
+            "Its length decreases and its cross-section increases",
+            "Its length increases and its cross-section decreases",
+            "Its length decreases and its cross-section decreases",
+            "Its temperature decreases"
+          ],
+          "answer": "B",
+          "explanation": "Resistance is proportional to length and inversely proportional to cross-sectional area (R = rho x L / A). Increasing length and decreasing area both increase resistance."
+        },
+        {
+          "num": 45,
+          "question": "An electric motor converts:",
+          "choices": [
+            "Chemical energy to light energy",
+            "Electrical energy to mechanical energy",
+            "Mechanical energy to electrical energy",
+            "Thermal energy to electrical energy"
+          ],
+          "answer": "B",
+          "explanation": "An electric motor converts electrical energy into mechanical energy (rotational motion). A generator does the reverse."
+        },
+        {
+          "num": 46,
+          "question": "A metal rod is heated at one end. Heat travels to the other end primarily by:",
+          "choices": [
+            "Convection",
+            "Radiation",
+            "Conduction",
+            "Evaporation"
+          ],
+          "answer": "C",
+          "explanation": "In a solid rod, heat transfers primarily by conduction -- the transfer of thermal energy through direct molecular collisions along the material."
+        },
+        {
+          "num": 47,
+          "question": "When a gas in a sealed rigid container is heated, what happens?",
+          "choices": [
+            "The pressure increases",
+            "The volume increases",
+            "The pressure decreases",
+            "The mass of the gas increases"
+          ],
+          "answer": "A",
+          "explanation": "In a rigid (constant volume) sealed container, heating the gas increases the kinetic energy of the molecules. With volume fixed, the pressure increases (Gay-Lussac's law)."
+        },
+        {
+          "num": 48,
+          "question": "A bimetallic strip bends when heated because:",
+          "choices": [
+            "Both metals expand at the same rate",
+            "The two metals expand at different rates",
+            "One metal contracts while the other stays the same",
+            "Heating makes metals more flexible"
+          ],
+          "answer": "B",
+          "explanation": "A bimetallic strip is made of two metals with different coefficients of thermal expansion. When heated, one metal expands more than the other, causing the strip to bend."
+        },
+        {
+          "num": 49,
+          "question": "On a hot day, concrete sidewalks have expansion joints. These joints are needed because:",
+          "choices": [
+            "Concrete contracts when heated",
+            "Concrete expands when heated and could crack without room to grow",
+            "Rain collects in the joints",
+            "The joints make the sidewalk look uniform"
+          ],
+          "answer": "B",
+          "explanation": "Concrete expands when heated. Expansion joints provide space for this growth, preventing cracking and buckling."
+        },
+        {
+          "num": 50,
+          "question": "Which method of heat transfer does NOT require a medium (material) to travel through?",
+          "choices": [
+            "Conduction",
+            "Convection",
+            "Radiation",
+            "All methods require a medium"
+          ],
+          "answer": "C",
+          "explanation": "Radiation (electromagnetic waves) can travel through a vacuum. Conduction requires direct contact between particles, and convection requires a fluid medium."
+        },
+        {
+          "num": 51,
+          "question": "A torque wrench is primarily used to:",
+          "choices": [
+            "Measure the diameter of a bolt",
+            "Tighten fasteners to a specific torque value",
+            "Cut through hardened steel",
+            "Measure electrical current"
+          ],
+          "answer": "B",
+          "explanation": "A torque wrench measures and limits the torque applied to a fastener, ensuring bolts are tightened to the manufacturer's specification."
+        },
+        {
+          "num": 52,
+          "question": "Which fastener is designed to resist vibration loosening by using a prevailing torque feature?",
+          "choices": [
+            "Standard hex nut",
+            "Lock nut (nylon insert)",
+            "Wing nut",
+            "Coupling nut"
+          ],
+          "answer": "B",
+          "explanation": "A lock nut with a nylon insert creates a prevailing torque that resists loosening from vibration, unlike a standard hex nut."
+        },
+        {
+          "num": 53,
+          "question": "When drilling through metal, cutting fluid is used primarily to:",
+          "choices": [
+            "Increase the hardness of the drill bit",
+            "Reduce friction and cool the drill bit",
+            "Make the hole larger",
+            "Prevent the metal from being magnetic"
+          ],
+          "answer": "B",
+          "explanation": "Cutting fluid (coolant) reduces friction between the drill bit and workpiece, removes heat, and helps evacuate chips from the hole."
+        },
+        {
+          "num": 54,
+          "question": "An alloy is best described as:",
+          "choices": [
+            "A pure metal that has been polished",
+            "A mixture of two or more metals or a metal and another element",
+            "A metal that cannot conduct electricity",
+            "A naturally occurring metal found in the earth"
+          ],
+          "answer": "B",
+          "explanation": "An alloy is a mixture of two or more metals, or a metal with another element (e.g., steel is iron alloyed with carbon), designed to improve properties like strength or corrosion resistance."
+        },
+        {
+          "num": 55,
+          "question": "A cotter pin (split pin) inserted through a castle nut and bolt is used to:",
+          "choices": [
+            "Increase the clamping force",
+            "Prevent the nut from turning off the bolt",
+            "Allow the bolt to stretch under load",
+            "Increase the bolt's thread count"
+          ],
+          "answer": "B",
+          "explanation": "A cotter pin is inserted through a hole in the bolt and the slots of a castle nut. It physically prevents the nut from rotating off, providing a positive locking mechanism."
+        },
+        {
+          "num": 56,
+          "question": "A cube is painted red on all six faces and then cut into 27 equal smaller cubes. How many of the smaller cubes have exactly two painted faces?",
+          "choices": [
+            "6",
+            "8",
+            "12",
+            "16"
+          ],
+          "answer": "C",
+          "explanation": "Edge cubes have exactly two painted faces. A 3x3x3 cube has 12 edge positions (each edge has 1 middle piece, and there are 12 edges), so 12 smaller cubes have exactly two painted faces."
+        },
+        {
+          "num": 57,
+          "question": "A flat sheet of metal is folded into an open-top box by cutting equal squares from each corner and folding up the sides. If you cut larger squares from the corners, the resulting box will be:",
+          "choices": [
+            "Taller with a smaller base",
+            "Shorter with a larger base",
+            "The same height with a larger base",
+            "Impossible to form"
+          ],
+          "answer": "A",
+          "explanation": "Cutting larger squares from the corners means the folded-up sides are taller, but the remaining base is smaller. The box becomes taller with a smaller base area."
+        },
+        {
+          "num": 58,
+          "question": "A cylindrical pipe is cut at a 45-degree angle. When the cut surface is viewed directly from above (looking straight down), it appears as:",
+          "choices": [
+            "A circle",
+            "An ellipse",
+            "A rectangle",
+            "A triangle"
+          ],
+          "answer": "A",
+          "explanation": "When viewed from directly above (top-down), the outline of a cylinder is always a circle, regardless of how the pipe was cut. The elliptical shape is only visible when viewing the cut surface at an angle."
+        },
+        {
+          "num": 59,
+          "question": "A gear is viewed from the front and appears to rotate clockwise. If you walk around and view the same gear from the back, it appears to rotate:",
+          "choices": [
+            "Clockwise",
+            "Counterclockwise",
+            "It appears stationary from the back",
+            "The direction depends on the gear's size"
+          ],
+          "answer": "B",
+          "explanation": "Viewing a rotating object from the opposite side reverses the apparent direction of rotation. What appears clockwise from the front appears counterclockwise from the back."
+        },
+        {
+          "num": 60,
+          "question": "A mirror is placed to the right of an object. In the mirror, the object's left side appears:",
+          "choices": [
+            "On the left side of the reflection",
+            "On the right side of the reflection",
+            "At the top of the reflection",
+            "The object is not visible"
+          ],
+          "answer": "B",
+          "explanation": "A mirror reverses the image along the axis perpendicular to its surface. With the mirror to the right, the object's left side appears on the right side of the reflection."
+        }
+      ]
+    }
+  ]
+}

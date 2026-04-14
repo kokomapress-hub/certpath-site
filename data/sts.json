@@ -1,0 +1,1823 @@
+{
+  "slug": "sts",
+  "title": "STS Exam Study Guide",
+  "code": "STS-3H7RO-WGGPI",
+  "timeMinutes": 60,
+  "tests": [
+    {
+      "testNum": 1,
+      "questions": [
+        {
+          "num": 1,
+          "question": "Under OSHA's General Duty Clause, Section 5(a)(1), the employer's primary obligation is to:",
+          "choices": [
+            "Provide personal protective equipment at no cost to employees",
+            "Furnish a workplace free from recognized hazards likely to cause death or serious physical harm",
+            "Post OSHA citations in conspicuous locations",
+            "Maintain the OSHA 300 log for five years"
+          ],
+          "answer": "B",
+          "explanation": "General Duty Clause, 29 USC 654, Section 5(a)(1). The employer must provide a workplace free from recognized hazards likely to cause death or serious physical harm."
+        },
+        {
+          "num": 2,
+          "question": "A supervisor who consistently wears required PPE, follows lockout/tagout procedures, and reports near misses is demonstrating:",
+          "choices": [
+            "Administrative control",
+            "Behavior-based safety leadership by example",
+            "Engineering control",
+            "Progressive discipline"
+          ],
+          "answer": "B",
+          "explanation": "Leading by example (modeling safe behavior) is a core supervisor competency in behavior-based safety. Reference: ASSP Z590.3 / BCSP STS Blueprint."
+        },
+        {
+          "num": 3,
+          "question": "Which of the following BEST describes a positive safety culture?",
+          "choices": [
+            "Zero recordable injuries for twelve consecutive months",
+            "Shared values, beliefs, and behaviors where safety is a core priority at every level",
+            "A written safety manual signed by every employee",
+            "Mandatory attendance at monthly safety meetings"
+          ],
+          "answer": "B",
+          "explanation": "Safety culture is defined as shared values, beliefs, and behaviors. Metrics alone are lagging indicators of culture."
+        },
+        {
+          "num": 4,
+          "question": "A supervisor observes a worker taking a shortcut that violates a safety procedure but has not caused harm. The MOST appropriate first response is to:",
+          "choices": [
+            "Issue a written warning immediately",
+            "Stop the work, correct the behavior, and coach the worker on the proper procedure",
+            "Report the worker to human resources",
+            "Ignore it because no one was hurt"
+          ],
+          "answer": "B",
+          "explanation": "Immediate coaching is the first step in progressive intervention. Formal discipline is reserved for repeated or willful violations."
+        },
+        {
+          "num": 5,
+          "question": "Progressive discipline for safety violations typically follows which sequence?",
+          "choices": [
+            "Termination, suspension, written warning, verbal warning",
+            "Verbal warning, written warning, suspension, termination",
+            "Fine, suspension, termination",
+            "Written warning only"
+          ],
+          "answer": "B",
+          "explanation": "Progressive discipline moves from verbal to written to suspension to termination so corrective action is proportionate."
+        },
+        {
+          "num": 6,
+          "question": "Stop-work authority means that:",
+          "choices": [
+            "Only the site superintendent can halt operations",
+            "Any worker can pause work when an imminent danger is identified, without fear of retaliation",
+            "Work stops automatically when an alarm sounds",
+            "OSHA inspectors can issue a stop-work order"
+          ],
+          "answer": "B",
+          "explanation": "Stop-work authority must be extended to every worker without fear of retaliation. It is a core element of a mature safety culture."
+        },
+        {
+          "num": 7,
+          "question": "A supervisor's ethical obligation when a client pressures the crew to skip fall protection to meet a deadline is to:",
+          "choices": [
+            "Comply to preserve the client relationship",
+            "Refuse, document the request, and escalate to management",
+            "Allow experienced workers to decide for themselves",
+            "Skip protection only on the final task"
+          ],
+          "answer": "B",
+          "explanation": "Refusing unsafe work, documenting the request, and escalating align with the BCSP Code of Ethics and OSHA 11(c) anti-retaliation protections."
+        },
+        {
+          "num": 8,
+          "question": "Which leadership behavior MOST strongly reinforces a safety culture?",
+          "choices": [
+            "Posting safety slogans in break rooms",
+            "Recognizing and rewarding safe behaviors and hazard reporting",
+            "Increasing fines for violations",
+            "Requiring longer safety meetings"
+          ],
+          "answer": "B",
+          "explanation": "Positive reinforcement of safe behavior is more effective than punishment alone for sustaining culture change."
+        },
+        {
+          "num": 9,
+          "question": "The term 'just culture' in safety management refers to:",
+          "choices": [
+            "Punishing all errors equally",
+            "A system that balances accountability with learning, distinguishing human error from at-risk or reckless behavior",
+            "A no-blame environment where no discipline is used",
+            "A culture focused only on regulatory compliance"
+          ],
+          "answer": "B",
+          "explanation": "Just culture distinguishes human error, at-risk behavior, and reckless behavior so responses are proportionate and learning-oriented."
+        },
+        {
+          "num": 10,
+          "question": "A supervisor notices that safety meetings have low engagement. The BEST corrective action is to:",
+          "choices": [
+            "Make attendance mandatory and track it",
+            "Shorten meetings and deliver the same content faster",
+            "Involve workers in selecting topics, sharing field observations, and discussing real incidents",
+            "Replace meetings with written memos"
+          ],
+          "answer": "C",
+          "explanation": "Adult-learning research (Knowles) and field experience both show engagement rises when learners help set the agenda."
+        },
+        {
+          "num": 11,
+          "question": "Under a multi-employer worksite, the 'controlling employer' is one who:",
+          "choices": [
+            "Creates the hazard",
+            "Has general supervisory authority over the worksite, including the power to correct safety violations",
+            "Is exposed to the hazard",
+            "Is responsible only for their own employees"
+          ],
+          "answer": "B",
+          "explanation": "OSHA's Multi-Employer Citation Policy (CPL 02-00-124) defines the controlling employer by supervisory authority and ability to correct."
+        },
+        {
+          "num": 12,
+          "question": "A supervisor's responsibility for contractor safety on their worksite includes:",
+          "choices": [
+            "No responsibility since the contractor is separately employed",
+            "Verifying the contractor's safety program, orienting workers to site hazards, and monitoring compliance",
+            "Only responding after an incident occurs",
+            "Only enforcing PPE rules"
+          ],
+          "answer": "B",
+          "explanation": "Under OSHA 1926.16 and the Multi-Employer Policy, the host/controlling employer must verify contractor programs, orient workers, and monitor compliance."
+        },
+        {
+          "num": 13,
+          "question": "The primary purpose of setting leading indicators (such as audits completed or near misses reported) rather than only lagging indicators (such as recordable injury rate) is to:",
+          "choices": [
+            "Reduce insurance premiums",
+            "Measure activities that predict and prevent future incidents",
+            "Satisfy OSHA recordkeeping requirements",
+            "Replace the OSHA 300 log"
+          ],
+          "answer": "B",
+          "explanation": "Leading indicators (audits, observations, near misses) are proactive; lagging indicators measure harm after it occurs. ANSI/ASSP Z16.1."
+        },
+        {
+          "num": 14,
+          "question": "The correct order of OSHA's hierarchy of controls, from most effective to least effective, is:",
+          "choices": [
+            "PPE, administrative, engineering, substitution, elimination",
+            "Elimination, substitution, engineering controls, administrative controls, PPE",
+            "Engineering, elimination, substitution, PPE, administrative",
+            "Administrative, engineering, elimination, PPE, substitution"
+          ],
+          "answer": "B",
+          "explanation": "Hierarchy of controls per NIOSH and OSHA: Elimination, Substitution, Engineering, Administrative, PPE."
+        },
+        {
+          "num": 15,
+          "question": "A Job Hazard Analysis (JHA) typically begins with which step?",
+          "choices": [
+            "Assigning blame for past incidents",
+            "Breaking the job into its basic sequential steps",
+            "Writing the standard operating procedure",
+            "Selecting PPE"
+          ],
+          "answer": "B",
+          "explanation": "OSHA 3071 (JHA guide) Step 1: break the job into basic steps before identifying hazards."
+        },
+        {
+          "num": 16,
+          "question": "When prioritizing jobs for a JHA, a supervisor should start with jobs that:",
+          "choices": [
+            "Are newest to the operation",
+            "Have a high injury or illness rate, severe potential, or are complex or new",
+            "Are performed least frequently",
+            "Are easiest to analyze"
+          ],
+          "answer": "B",
+          "explanation": "OSHA 3071 recommends prioritizing jobs with high injury/illness rates, severe outcomes, or that are complex or newly introduced."
+        },
+        {
+          "num": 17,
+          "question": "Substituting a less toxic solvent for a highly toxic solvent is an example of:",
+          "choices": [
+            "Engineering control",
+            "Substitution (second in the hierarchy of controls)",
+            "Administrative control",
+            "PPE"
+          ],
+          "answer": "B",
+          "explanation": "Substitution is the second tier of the hierarchy, replacing a hazard with a less hazardous alternative."
+        },
+        {
+          "num": 18,
+          "question": "A machine guard that prevents access to a pinch point is a(n):",
+          "choices": [
+            "Administrative control",
+            "Engineering control",
+            "PPE",
+            "Work practice control"
+          ],
+          "answer": "B",
+          "explanation": "Physical guards are engineering controls because they control the hazard at the source."
+        },
+        {
+          "num": 19,
+          "question": "Rotating workers to limit noise exposure below 85 dBA on an 8-hour time-weighted average is an example of:",
+          "choices": [
+            "Elimination",
+            "Engineering control",
+            "Administrative control",
+            "Substitution"
+          ],
+          "answer": "C",
+          "explanation": "Rotation limits exposure time and is an administrative (work-practice) control. 29 CFR 1910.95."
+        },
+        {
+          "num": 20,
+          "question": "A 'competent person' as defined by OSHA is one who:",
+          "choices": [
+            "Holds a college degree in safety",
+            "Is capable of identifying existing and predictable hazards and has authorization to take prompt corrective measures",
+            "Has been on the job for at least one year",
+            "Has completed the OSHA 30-hour course"
+          ],
+          "answer": "B",
+          "explanation": "29 CFR 1926.32(f): competent person is capable of identifying hazards and is authorized to take prompt corrective action."
+        },
+        {
+          "num": 21,
+          "question": "During a workplace inspection, the supervisor identifies a frayed extension cord in use. The correct immediate action is to:",
+          "choices": [
+            "Document it on the inspection form and continue the inspection",
+            "Remove the cord from service immediately (tag out) and replace it",
+            "Note it for discussion at the next safety meeting",
+            "Wrap the frayed section with electrical tape"
+          ],
+          "answer": "B",
+          "explanation": "Damaged equipment must be removed from service immediately; taping is not an acceptable repair. 29 CFR 1910.334."
+        },
+        {
+          "num": 22,
+          "question": "The term 'recognized hazard' under the General Duty Clause includes hazards that are:",
+          "choices": [
+            "Only those cited in OSHA standards",
+            "Known to the employer, the industry, or recognizable through common sense",
+            "Only those visible to an OSHA inspector",
+            "Only those that have already caused injury"
+          ],
+          "answer": "B",
+          "explanation": "Recognized hazards include those known to the employer or the industry, or recognizable by common sense. OSHA FOM."
+        },
+        {
+          "num": 23,
+          "question": "Which of the following is NOT a required element of a Job Hazard Analysis?",
+          "choices": [
+            "Listing each basic step of the job",
+            "Identifying potential hazards at each step",
+            "Calculating the estimated cost of controls",
+            "Recommending controls to eliminate or reduce each hazard"
+          ],
+          "answer": "C",
+          "explanation": "A JHA identifies steps, hazards, and controls. Cost estimating is not a required element of a JHA."
+        },
+        {
+          "num": 24,
+          "question": "The primary limitation of PPE as a control measure is that it:",
+          "choices": [
+            "Is expensive",
+            "Does not eliminate the hazard and relies on correct use by the worker",
+            "Is only effective for chemical hazards",
+            "Requires medical evaluation"
+          ],
+          "answer": "B",
+          "explanation": "PPE does not remove the hazard; it places a barrier between hazard and worker and depends on correct use, fit, and maintenance."
+        },
+        {
+          "num": 25,
+          "question": "An inspection that is performed before each shift by the operator on a piece of powered industrial equipment is called a:",
+          "choices": [
+            "Formal audit",
+            "Pre-operational or pre-use inspection",
+            "Third-party inspection",
+            "Annual certification"
+          ],
+          "answer": "B",
+          "explanation": "A pre-operational (pre-use) inspection is performed by the operator before each shift or use."
+        },
+        {
+          "num": 26,
+          "question": "OSHA Form 300 is used to:",
+          "choices": [
+            "Report fatalities within 8 hours",
+            "Log recordable work-related injuries and illnesses",
+            "Request an OSHA variance",
+            "Summarize safety training"
+          ],
+          "answer": "B",
+          "explanation": "29 CFR 1904.7. The OSHA 300 logs recordable work-related injuries and illnesses."
+        },
+        {
+          "num": 27,
+          "question": "Under OSHA recordkeeping rules (29 CFR 1904), which event must be reported to OSHA within 8 hours?",
+          "choices": [
+            "Any injury requiring first aid",
+            "A work-related fatality",
+            "A near miss",
+            "A first-aid-only cut"
+          ],
+          "answer": "B",
+          "explanation": "29 CFR 1904.39. Fatalities must be reported within 8 hours."
+        },
+        {
+          "num": 28,
+          "question": "A work-related inpatient hospitalization, amputation, or loss of an eye must be reported to OSHA within:",
+          "choices": [
+            "8 hours",
+            "24 hours",
+            "72 hours",
+            "7 days"
+          ],
+          "answer": "B",
+          "explanation": "29 CFR 1904.39. Inpatient hospitalizations, amputations, or loss of an eye must be reported within 24 hours."
+        },
+        {
+          "num": 29,
+          "question": "The OSHA 300A summary must be posted in the workplace from:",
+          "choices": [
+            "January 1 through April 30 each year",
+            "February 1 through April 30 each year",
+            "March 1 through May 31 each year",
+            "The entire calendar year"
+          ],
+          "answer": "B",
+          "explanation": "29 CFR 1904.32(b)(6). The 300A summary is posted February 1 through April 30."
+        },
+        {
+          "num": 30,
+          "question": "An incident investigation should focus primarily on:",
+          "choices": [
+            "Identifying who is to blame",
+            "Determining root causes and system failures so similar events can be prevented",
+            "Satisfying the insurance carrier",
+            "Calculating financial losses"
+          ],
+          "answer": "B",
+          "explanation": "Root-cause focused investigation (per ANSI/ASSP Z590.3) is aimed at prevention, not blame."
+        },
+        {
+          "num": 31,
+          "question": "The '5 Whys' technique is used in incident investigation to:",
+          "choices": [
+            "Determine the cost of the incident",
+            "Progressively ask 'why' to move from symptom toward root cause",
+            "Identify five witnesses",
+            "List five corrective actions"
+          ],
+          "answer": "B",
+          "explanation": "The 5 Whys drills past symptoms toward underlying root causes. Popularized by Toyota Production System."
+        },
+        {
+          "num": 32,
+          "question": "A near miss should be investigated because:",
+          "choices": [
+            "OSHA requires it",
+            "It reveals hazard exposures that could have caused injury and allows prevention before harm occurs",
+            "The insurance carrier requires it",
+            "It improves the recordable rate"
+          ],
+          "answer": "B",
+          "explanation": "Near misses indicate exposure; investigating them enables correction before injury occurs. ANSI/ASSP Z590.3."
+        },
+        {
+          "num": 33,
+          "question": "Under the Hazard Communication Standard (29 CFR 1910.1200), employers must provide workers with:",
+          "choices": [
+            "Only Safety Data Sheets",
+            "A written hazcom program, labeled containers, Safety Data Sheets, and training on chemical hazards",
+            "Only training on chemical hazards",
+            "Only labeled containers"
+          ],
+          "answer": "B",
+          "explanation": "29 CFR 1910.1200(e)(1) and (h) require a written program, labels, SDSs, and training."
+        },
+        {
+          "num": 34,
+          "question": "Section 2 of a Safety Data Sheet contains:",
+          "choices": [
+            "First-aid measures",
+            "Hazard identification (including GHS classification and signal word)",
+            "Physical and chemical properties",
+            "Exposure controls and PPE"
+          ],
+          "answer": "B",
+          "explanation": "GHS-aligned SDS format: Section 2 covers hazard identification, including classification and signal word."
+        },
+        {
+          "num": 35,
+          "question": "A recordable injury under OSHA 1904 generally requires one or more of the following EXCEPT:",
+          "choices": [
+            "Medical treatment beyond first aid",
+            "Days away from work, restricted work, or job transfer",
+            "Loss of consciousness",
+            "A single application of a non-prescription skin cream"
+          ],
+          "answer": "D",
+          "explanation": "29 CFR 1904.7(b)(5)(ii) lists non-prescription skin creams as first aid, not medical treatment."
+        },
+        {
+          "num": 36,
+          "question": "The primary purpose of an environmental management program on a worksite is to:",
+          "choices": [
+            "Replace the safety program",
+            "Identify and control impacts on air, water, waste, and the surrounding community",
+            "Reduce workers' compensation costs",
+            "Qualify the company for tax credits"
+          ],
+          "answer": "B",
+          "explanation": "An EMS (such as ISO 14001) identifies and controls aspects and impacts on air, water, waste, and community."
+        },
+        {
+          "num": 37,
+          "question": "Root cause analysis differs from direct-cause analysis because it:",
+          "choices": [
+            "Only considers human error",
+            "Identifies underlying system, management, and process failures rather than just the immediate unsafe act or condition",
+            "Focuses only on equipment failures",
+            "Is not required by OSHA"
+          ],
+          "answer": "B",
+          "explanation": "Root cause analysis moves beyond proximate causes to uncover systemic, managerial, and process failures."
+        },
+        {
+          "num": 38,
+          "question": "A toolbox talk is MOST effective when it:",
+          "choices": [
+            "Lasts at least 30 minutes",
+            "Is short, focused on one topic, and discusses a hazard relevant to the day's work",
+            "Covers every OSHA standard for the trade",
+            "Is read directly from a script without discussion"
+          ],
+          "answer": "B",
+          "explanation": "Effective toolbox talks are short (5 to 15 minutes), focused, and tied to today's work and hazards."
+        },
+        {
+          "num": 39,
+          "question": "When coaching a worker who performed a task unsafely, the supervisor should:",
+          "choices": [
+            "Criticize the worker in front of the crew as a deterrent",
+            "Ask the worker to describe the task, identify the hazard, and agree on the correct procedure",
+            "Send the worker home for the day",
+            "Document it and do nothing until the next review"
+          ],
+          "answer": "B",
+          "explanation": "Effective coaching uses open-ended questions and shared problem-solving to build ownership."
+        },
+        {
+          "num": 40,
+          "question": "New-hire safety orientation should occur:",
+          "choices": [
+            "Within the first 90 days",
+            "Before the worker begins work on site",
+            "At the next scheduled safety meeting",
+            "Only if the worker asks for it"
+          ],
+          "answer": "B",
+          "explanation": "29 CFR 1926.21(b)(2) requires instruction in recognition and avoidance of hazards before work begins."
+        },
+        {
+          "num": 41,
+          "question": "Which training delivery method generally produces the highest retention of safe work practices?",
+          "choices": [
+            "Reading a printed manual",
+            "Hands-on demonstration with practice and feedback",
+            "Watching a video lecture",
+            "Taking a multiple-choice quiz"
+          ],
+          "answer": "B",
+          "explanation": "Kolb experiential learning cycle and NIOSH training research: hands-on practice with feedback yields highest retention."
+        },
+        {
+          "num": 42,
+          "question": "Behavior-based safety (BBS) programs focus on:",
+          "choices": [
+            "Fining workers for unsafe acts",
+            "Observing behaviors, providing feedback, and reinforcing safe work practices",
+            "Eliminating engineering controls",
+            "Replacing incident investigation"
+          ],
+          "answer": "B",
+          "explanation": "BBS focuses on observing, giving feedback, and reinforcing safe behaviors. Reference: Krause, Geller."
+        },
+        {
+          "num": 43,
+          "question": "A supervisor should verify training effectiveness by:",
+          "choices": [
+            "Counting attendance",
+            "Observing worker performance on the job and asking questions to confirm understanding",
+            "Collecting signed rosters only",
+            "Assuming competence once the class is complete"
+          ],
+          "answer": "B",
+          "explanation": "Observation plus questioning confirms transfer of learning to performance."
+        },
+        {
+          "num": 44,
+          "question": "When communicating a safety message to a multilingual workforce, the supervisor should:",
+          "choices": [
+            "Communicate in English only to maintain consistency",
+            "Use translated materials, visual aids, and confirm understanding in each worker's primary language",
+            "Rely on coworkers to translate informally",
+            "Shorten the message so translation is unnecessary"
+          ],
+          "answer": "B",
+          "explanation": "OSHA 2254 guidance: deliver in language workers understand; confirm comprehension."
+        },
+        {
+          "num": 45,
+          "question": "The PRIMARY reason to encourage near-miss reporting is to:",
+          "choices": [
+            "Identify workers who follow procedures",
+            "Gather information about hazard exposures so corrective action can be taken before injury",
+            "Meet a quota of reports per month",
+            "Qualify for insurance discounts"
+          ],
+          "answer": "B",
+          "explanation": "Near misses are leading indicators; acting on them prevents future harm (Heinrich / Bird triangles)."
+        },
+        {
+          "num": 46,
+          "question": "A supervisor leading a pre-task safety briefing should:",
+          "choices": [
+            "Read the JHA aloud and dismiss the crew",
+            "Review the specific hazards of today's task, the controls, and the stop-work process; confirm understanding",
+            "Focus only on PPE",
+            "Replace the briefing with a written memo"
+          ],
+          "answer": "B",
+          "explanation": "Pre-task briefings (tailgate / JSA review) address today's specific hazards and controls, and confirm stop-work authority."
+        },
+        {
+          "num": 47,
+          "question": "Active listening during a safety coaching conversation includes:",
+          "choices": [
+            "Preparing your response while the worker is speaking",
+            "Paraphrasing what the worker said and asking clarifying questions",
+            "Taking the conversation offline quickly",
+            "Interrupting to correct misunderstandings"
+          ],
+          "answer": "B",
+          "explanation": "Active listening means paraphrasing and clarifying, not preparing a rebuttal."
+        },
+        {
+          "num": 48,
+          "question": "Retraining is required when:",
+          "choices": [
+            "A worker asks for it",
+            "A worker shows inadequate knowledge, a new hazard is introduced, or procedures change",
+            "An OSHA inspector requests it",
+            "An anniversary date has passed"
+          ],
+          "answer": "B",
+          "explanation": "29 CFR 1910.178(l)(4) and similar: retraining is required when knowledge is inadequate, hazards change, or procedures change."
+        },
+        {
+          "num": 49,
+          "question": "The most important outcome of an effective safety communication program is:",
+          "choices": [
+            "An up-to-date intranet page",
+            "A workforce that understands hazards, controls, and how to act when something is unsafe",
+            "High attendance at safety meetings",
+            "A reduced insurance premium"
+          ],
+          "answer": "B",
+          "explanation": "The outcome metric of effective safety communication is worker competence and willingness to act."
+        },
+        {
+          "num": 50,
+          "question": "Which of the following BEST illustrates the supervisor's role as a safety leader?",
+          "choices": [
+            "Delegating all safety tasks to the safety manager",
+            "Setting expectations, modeling safe behavior, coaching, and holding the crew accountable",
+            "Enforcing only the most frequently cited OSHA standards",
+            "Completing paperwork on time"
+          ],
+          "answer": "B",
+          "explanation": "BCSP STS Blueprint: supervisors set expectations, model behavior, coach, and hold the crew accountable."
+        }
+      ]
+    },
+    {
+      "testNum": 2,
+      "questions": [
+        {
+          "num": 1,
+          "question": "A supervisor's FIRST responsibility on every shift is to:",
+          "choices": [
+            "Review the production schedule",
+            "Confirm that workers, tools, and equipment are fit for the planned work and that known hazards are controlled",
+            "File the previous day's paperwork",
+            "Attend the production meeting"
+          ],
+          "answer": "B",
+          "explanation": "A supervisor's first-shift priority is readiness: people, tools, equipment, and known hazards. BCSP STS Blueprint."
+        },
+        {
+          "num": 2,
+          "question": "The BCSP Code of Ethics requires certificants to:",
+          "choices": [
+            "Favor the employer's interests over the public's",
+            "Hold paramount the safety and health of people in the performance of professional duties",
+            "Share confidential client information for safety benefit",
+            "Sign only work they have personally performed"
+          ],
+          "answer": "B",
+          "explanation": "BCSP Code of Ethics, Canon 1: hold paramount the safety and health of people."
+        },
+        {
+          "num": 3,
+          "question": "A supervisor discovers that a worker falsified a pre-use equipment inspection. The MOST appropriate response is to:",
+          "choices": [
+            "Verbally counsel the worker and take no further action",
+            "Remove the worker from the task, investigate, and apply discipline consistent with the written policy",
+            "Immediately terminate the worker",
+            "Repost the inspection form and move on"
+          ],
+          "answer": "B",
+          "explanation": "Falsification of safety records is a serious violation; remove, investigate, and apply policy-consistent discipline."
+        },
+        {
+          "num": 4,
+          "question": "Employee engagement in safety is BEST sustained when:",
+          "choices": [
+            "Workers receive bonuses for zero injuries",
+            "Workers participate in hazard identification, JHAs, and solution design",
+            "Safety is delegated entirely to a safety committee",
+            "Safety rules are frequently revised"
+          ],
+          "answer": "B",
+          "explanation": "Engagement is sustained by participation (Heinrich/Geller). Bonuses alone can suppress reporting."
+        },
+        {
+          "num": 5,
+          "question": "Which of the following is an example of at-risk behavior rather than reckless behavior?",
+          "choices": [
+            "A worker knowingly removes a machine guard to speed up production",
+            "A worker drifts from a procedure, believing the shortcut is safe enough",
+            "A worker operates a forklift while impaired",
+            "A worker disables a lockout device to restart the line"
+          ],
+          "answer": "B",
+          "explanation": "Just culture: at-risk behavior is drift believing the shortcut is safe. Knowing removal of a guard is reckless."
+        },
+        {
+          "num": 6,
+          "question": "The OSHA General Duty Clause applies when:",
+          "choices": [
+            "A specific OSHA standard directly addresses the hazard",
+            "The hazard is recognized, likely to cause death or serious physical harm, and a feasible means of abatement exists",
+            "A worker refuses to wear PPE",
+            "An OSHA inspector observes a minor violation"
+          ],
+          "answer": "B",
+          "explanation": "General Duty Clause elements: recognized hazard, likely to cause death or serious harm, feasible abatement exists."
+        },
+        {
+          "num": 7,
+          "question": "Which action demonstrates effective safety leadership during a production crunch?",
+          "choices": [
+            "Waiving the pre-task briefing to save time",
+            "Reinforcing stop-work authority and holding the briefing as scheduled",
+            "Allowing experienced workers to bypass the briefing",
+            "Skipping PPE checks"
+          ],
+          "answer": "B",
+          "explanation": "Stop-work authority and pre-task briefings must not be cut for schedule pressure."
+        },
+        {
+          "num": 8,
+          "question": "A supervisor should escalate a hazard to upper management when:",
+          "choices": [
+            "The supervisor dislikes the corrective action",
+            "Resolving the hazard requires resources, authority, or coordination beyond the supervisor's control",
+            "OSHA asks for a variance",
+            "A worker is unhappy with a rule"
+          ],
+          "answer": "B",
+          "explanation": "Escalate when the fix needs authority, resources, or coordination beyond the supervisor's span of control."
+        },
+        {
+          "num": 9,
+          "question": "The 'controlling employer' under the Multi-Employer Citation Policy must exercise:",
+          "choices": [
+            "Exact oversight of every subcontractor task",
+            "Reasonable care in preventing and detecting violations, considering scope of authority and reliance on expertise of others",
+            "Total control of all subcontractor safety programs",
+            "Only financial oversight"
+          ],
+          "answer": "B",
+          "explanation": "Multi-Employer Policy CPL 02-00-124: controlling employer exercises reasonable care in light of authority and reliance on expertise."
+        },
+        {
+          "num": 10,
+          "question": "A supervisor's duty of care to their crew includes:",
+          "choices": [
+            "Guaranteeing zero injuries",
+            "Providing training, competent instruction, proper tools, and enforcement of safe work practices",
+            "Paying for replacement PPE from personal funds",
+            "Accepting any production rate set by the client"
+          ],
+          "answer": "B",
+          "explanation": "Duty of care includes training, instruction, tools, and enforcement. BCSP STS Blueprint."
+        },
+        {
+          "num": 11,
+          "question": "Which metric is a leading indicator of safety performance?",
+          "choices": [
+            "Days away, restricted, transferred (DART) rate",
+            "Percent of planned safety observations completed",
+            "Recordable injury rate",
+            "Workers' compensation claim cost"
+          ],
+          "answer": "B",
+          "explanation": "Percent of planned observations completed is a leading indicator (ANSI/ASSP Z16.1)."
+        },
+        {
+          "num": 12,
+          "question": "A key supervisor behavior that supports a 'fair and just' response to a workplace incident is to:",
+          "choices": [
+            "Assume the injured worker caused it",
+            "Evaluate human error, system design, and management factors before assigning accountability",
+            "Discipline everyone involved",
+            "Close the case quickly"
+          ],
+          "answer": "B",
+          "explanation": "Just culture evaluates human error, system, and management factors before accountability is assigned."
+        },
+        {
+          "num": 13,
+          "question": "Safety accountability at the supervisor level is BEST achieved by:",
+          "choices": [
+            "Focusing only on the crew's injury rate",
+            "Measuring and recognizing both leading indicator activities and outcome results",
+            "Tracking only hours worked",
+            "Relying on annual performance reviews"
+          ],
+          "answer": "B",
+          "explanation": "Accountability is strongest when both leading activities and outcome results are measured and recognized."
+        },
+        {
+          "num": 14,
+          "question": "OSHA's Permissible Exposure Limit (PEL) for a chemical represents:",
+          "choices": [
+            "The concentration that always prevents injury",
+            "The legal airborne exposure limit, typically an 8-hour time-weighted average",
+            "A voluntary exposure guideline",
+            "A short-term worst-case value only"
+          ],
+          "answer": "B",
+          "explanation": "29 CFR 1910.1000: a PEL is generally an 8-hour TWA legal limit for airborne exposure."
+        },
+        {
+          "num": 15,
+          "question": "The LAST step of a JHA should be:",
+          "choices": [
+            "Identifying the job",
+            "Breaking the job into steps",
+            "Implementing and reviewing the recommended controls",
+            "Listing hazards"
+          ],
+          "answer": "C",
+          "explanation": "OSHA 3071 Step 4: implement and review recommended controls."
+        },
+        {
+          "num": 16,
+          "question": "A supervisor finds that a JHA written five years ago no longer reflects current methods. The correct action is to:",
+          "choices": [
+            "Archive the old JHA and stop using it",
+            "Revise the JHA with worker input and retrain the affected personnel",
+            "Wait until the next scheduled review",
+            "Delete it"
+          ],
+          "answer": "B",
+          "explanation": "Update the JHA with worker input and retrain; archiving without update leaves a gap."
+        },
+        {
+          "num": 17,
+          "question": "Which of the following pairings of control and type is CORRECT?",
+          "choices": [
+            "Lockout/tagout - engineering control",
+            "Local exhaust ventilation - engineering control",
+            "Hearing protection - administrative control",
+            "Training - PPE"
+          ],
+          "answer": "B",
+          "explanation": "Local exhaust ventilation controls the hazard at the source and is an engineering control."
+        },
+        {
+          "num": 18,
+          "question": "A 'qualified person' under OSHA generally differs from a 'competent person' in that a qualified person:",
+          "choices": [
+            "Has authority to stop work",
+            "Has recognized degrees, certificates, or professional standing, or extensive knowledge and training, to solve problems related to the subject matter",
+            "Is always a supervisor",
+            "Is appointed by the employee, not the employer"
+          ],
+          "answer": "B",
+          "explanation": "29 CFR 1926.32(m): a qualified person has recognized degree, certificate, standing, or extensive knowledge and training."
+        },
+        {
+          "num": 19,
+          "question": "An unguarded floor opening four feet or more above a lower level requires:",
+          "choices": [
+            "No action until workers are nearby",
+            "Guardrails, covers, or personal fall protection per 29 CFR 1910 Subpart D (or 1926 Subpart M)",
+            "A warning sign only",
+            "Training only"
+          ],
+          "answer": "B",
+          "explanation": "29 CFR 1910 Subpart D / 1926 Subpart M: protect openings four feet or more above a lower level."
+        },
+        {
+          "num": 20,
+          "question": "An energy-isolation (lockout/tagout) program is required by 29 CFR 1910.147 whenever:",
+          "choices": [
+            "Equipment has a power cord",
+            "Service or maintenance exposes employees to unexpected energization, startup, or release of stored energy",
+            "A worker requests it",
+            "OSHA inspects the facility"
+          ],
+          "answer": "B",
+          "explanation": "29 CFR 1910.147: LOTO applies to service/maintenance with exposure to unexpected energization or release."
+        },
+        {
+          "num": 21,
+          "question": "A permit-required confined space is one that has one or more of the following hazards EXCEPT:",
+          "choices": [
+            "Hazardous atmosphere",
+            "Material that can engulf an entrant",
+            "Configuration that could trap or asphyxiate",
+            "Temperature within normal comfort range"
+          ],
+          "answer": "D",
+          "explanation": "29 CFR 1910.146: permit spaces have atmosphere, engulfment, configuration, or other serious hazards - not normal temperatures."
+        },
+        {
+          "num": 22,
+          "question": "Pre-entry atmospheric testing of a permit-required confined space must check for, in order:",
+          "choices": [
+            "Toxic gases, oxygen, flammable gases",
+            "Oxygen, flammable gases and vapors, toxic air contaminants",
+            "Flammable gases, oxygen, toxic gases",
+            "Toxic, flammable, oxygen"
+          ],
+          "answer": "B",
+          "explanation": "29 CFR 1910.146(c)(5)(ii)(C) testing sequence: oxygen, flammables, then toxics."
+        },
+        {
+          "num": 23,
+          "question": "The 'safe' oxygen range for atmospheric testing of a confined space per OSHA is generally:",
+          "choices": [
+            "17.0 to 25.0 percent",
+            "19.5 to 23.5 percent",
+            "18.0 to 22.0 percent",
+            "20.9 percent exactly"
+          ],
+          "answer": "B",
+          "explanation": "29 CFR 1910.146: acceptable oxygen range is 19.5 to 23.5 percent."
+        },
+        {
+          "num": 24,
+          "question": "A supervisor performing a walk-around inspection should:",
+          "choices": [
+            "Look only for problems previously cited",
+            "Observe work activities, conditions, behaviors, and housekeeping while engaging workers",
+            "Rely on the annual audit",
+            "Focus only on PPE"
+          ],
+          "answer": "B",
+          "explanation": "A good walk-around is interactive and observes work, conditions, behavior, and housekeeping together."
+        },
+        {
+          "num": 25,
+          "question": "A hazard identified during an inspection should be prioritized for correction based on:",
+          "choices": [
+            "The order in which it was found",
+            "Severity of potential harm and likelihood of occurrence",
+            "Cost of correction alone",
+            "Employee preference"
+          ],
+          "answer": "B",
+          "explanation": "Prioritize by severity and likelihood (risk matrix) - ANSI/ASSP Z590.3."
+        },
+        {
+          "num": 26,
+          "question": "Which of the following is NOT typically recordable on the OSHA 300 log?",
+          "choices": [
+            "Medical treatment beyond first aid",
+            "Restricted work assignment",
+            "A puncture requiring sutures",
+            "A splinter removed with tweezers"
+          ],
+          "answer": "D",
+          "explanation": "29 CFR 1904.7(b)(5)(ii): splinter removal is first aid and not recordable."
+        },
+        {
+          "num": 27,
+          "question": "A work-related injury that results in one or more days away from work is classified as:",
+          "choices": [
+            "First aid",
+            "DART case (Days Away, Restricted, or Transferred)",
+            "Near miss",
+            "Non-recordable"
+          ],
+          "answer": "B",
+          "explanation": "29 CFR 1904.7(b)(3): a DART case involves days away, restricted work, or job transfer."
+        },
+        {
+          "num": 28,
+          "question": "The OSHA 301 form is used to:",
+          "choices": [
+            "Summarize annual injuries",
+            "Document the details of each individual recordable injury or illness",
+            "Report fatalities",
+            "Request a variance"
+          ],
+          "answer": "B",
+          "explanation": "OSHA 301 captures details of each individual recordable incident."
+        },
+        {
+          "num": 29,
+          "question": "The employer must preserve the OSHA 300, 300A, and 301 forms for:",
+          "choices": [
+            "One year",
+            "Three years",
+            "Five years following the end of the calendar year they cover",
+            "Ten years"
+          ],
+          "answer": "C",
+          "explanation": "29 CFR 1904.33: preserve records for 5 years following the calendar year they cover."
+        },
+        {
+          "num": 30,
+          "question": "Which of the following is the strongest indicator that an incident investigation is effective?",
+          "choices": [
+            "Investigation is closed within 24 hours",
+            "Corrective actions address root causes and the organization verifies effectiveness afterward",
+            "A single person is held accountable",
+            "The report is filed with the insurance carrier"
+          ],
+          "answer": "B",
+          "explanation": "Effective investigations address root causes and verify corrective-action effectiveness (ANSI/ASSP Z590.3)."
+        },
+        {
+          "num": 31,
+          "question": "When assembling an incident investigation team, a supervisor should include:",
+          "choices": [
+            "Only the injured worker",
+            "Supervisor, affected workers, a safety representative, and subject-matter experts as needed",
+            "Only the safety manager",
+            "Only legal counsel"
+          ],
+          "answer": "B",
+          "explanation": "Investigation teams should include the supervisor, workers, safety rep, and needed experts."
+        },
+        {
+          "num": 32,
+          "question": "Witness interviews after an incident should be conducted:",
+          "choices": [
+            "Days later, after emotions settle",
+            "As soon as practical after medical needs are addressed, individually and without leading questions",
+            "In a group to compare stories",
+            "Only by human resources"
+          ],
+          "answer": "B",
+          "explanation": "Interview individually and without leading questions while memory is fresh."
+        },
+        {
+          "num": 33,
+          "question": "Hazard Communication Standard training must be provided:",
+          "choices": [
+            "Only on hire",
+            "At initial assignment and whenever a new chemical hazard is introduced",
+            "Annually at minimum",
+            "Only if a worker requests it"
+          ],
+          "answer": "B",
+          "explanation": "29 CFR 1910.1200(h): train at initial assignment and whenever a new hazard is introduced."
+        },
+        {
+          "num": 34,
+          "question": "A primary container of a hazardous chemical must be labeled with:",
+          "choices": [
+            "Only the product name",
+            "Product identifier, signal word, hazard statement(s), pictogram(s), precautionary statement(s), and supplier information",
+            "Only GHS pictograms",
+            "Only an SDS reference number"
+          ],
+          "answer": "B",
+          "explanation": "29 CFR 1910.1200(f): label with identifier, signal word, hazard/precautionary statements, pictograms, and supplier."
+        },
+        {
+          "num": 35,
+          "question": "An environmental release (for example, a spill to a storm drain) requires the supervisor to:",
+          "choices": [
+            "Document only in the shift log",
+            "Initiate spill response, notify the environmental coordinator, and report per applicable federal, state, and local regulations",
+            "Wait for OSHA to arrive",
+            "Ignore it if below a gallon"
+          ],
+          "answer": "B",
+          "explanation": "Environmental releases require site response and regulatory reporting (EPCRA, CWA, state rules)."
+        },
+        {
+          "num": 36,
+          "question": "Which of the following is a common root cause category in an investigation?",
+          "choices": [
+            "The worker's attitude",
+            "Management systems (training, procedures, supervision, design)",
+            "The weather only",
+            "Luck"
+          ],
+          "answer": "B",
+          "explanation": "Management-system factors (training, procedures, supervision, design) are common root-cause categories."
+        },
+        {
+          "num": 37,
+          "question": "The purpose of trending injury and near-miss data is to:",
+          "choices": [
+            "Compare favorably against competitors",
+            "Identify patterns that point to systemic weaknesses and prioritize corrective action",
+            "Generate material for newsletters",
+            "Satisfy payroll audits"
+          ],
+          "answer": "B",
+          "explanation": "Data trending uncovers systemic weaknesses and supports prioritization."
+        },
+        {
+          "num": 38,
+          "question": "The PRIMARY goal of a safety orientation is to:",
+          "choices": [
+            "Satisfy a training checklist",
+            "Ensure the new worker can recognize site hazards, use required controls, and respond in an emergency before starting work",
+            "Reduce the safety manager's workload",
+            "Introduce the worker to the payroll system"
+          ],
+          "answer": "B",
+          "explanation": "29 CFR 1926.21(b)(2): orientation must ensure recognition, avoidance, and response before work begins."
+        },
+        {
+          "num": 39,
+          "question": "A toolbox talk on an unexpected task hazard should be:",
+          "choices": [
+            "Skipped to save time",
+            "Delivered before the work begins, tied to the specific hazard, and documented",
+            "Held after the shift",
+            "Replaced by a memo"
+          ],
+          "answer": "B",
+          "explanation": "Unexpected hazards require a fresh, documented pre-task discussion."
+        },
+        {
+          "num": 40,
+          "question": "Adult learners typically retain new information BEST when it is:",
+          "choices": [
+            "Presented once with no repetition",
+            "Relevant to their job, presented in multiple formats, and applied through practice",
+            "Tested immediately with a lengthy exam",
+            "Delivered only in lecture format"
+          ],
+          "answer": "B",
+          "explanation": "Adult-learning research: relevance, multiple formats, and practice optimize retention."
+        },
+        {
+          "num": 41,
+          "question": "A coaching conversation that aims to change behavior should END with:",
+          "choices": [
+            "A reprimand for emphasis",
+            "A shared agreement on the corrective action and a follow-up commitment",
+            "A general reminder about rules",
+            "A filed disciplinary notice"
+          ],
+          "answer": "B",
+          "explanation": "Effective coaching ends with a shared plan and follow-up commitment."
+        },
+        {
+          "num": 42,
+          "question": "A peer-to-peer observation program works BEST when:",
+          "choices": [
+            "Observations are used for discipline",
+            "Observations are conducted with trained peers, without blame, and the data drives system improvements",
+            "Only supervisors observe",
+            "Observations are anonymous to the observer"
+          ],
+          "answer": "B",
+          "explanation": "Peer observation programs work when trained, blame-free, and data-driven."
+        },
+        {
+          "num": 43,
+          "question": "A near-miss reporting program fails when:",
+          "choices": [
+            "It is supported by leadership",
+            "Reports are used to discipline the reporter",
+            "Data are analyzed for trends",
+            "Reports are easy to submit"
+          ],
+          "answer": "B",
+          "explanation": "Retaliation against reporters kills the program. Anti-retaliation is essential."
+        },
+        {
+          "num": 44,
+          "question": "Effective safety signage should be:",
+          "choices": [
+            "Color-coded, standardized, visible, and understandable to all workers regardless of language",
+            "Changed frequently to keep attention",
+            "Posted only at the main entrance",
+            "Replaced with text-only notices"
+          ],
+          "answer": "A",
+          "explanation": "ANSI Z535: signs should be color-coded, standardized, visible, and understandable to all."
+        },
+        {
+          "num": 45,
+          "question": "When communicating a safety change, a supervisor should:",
+          "choices": [
+            "Send an email and assume it was read",
+            "Explain the reason, demonstrate the new method, and confirm understanding through dialogue",
+            "Post a notice on the break-room board only",
+            "Wait for questions"
+          ],
+          "answer": "B",
+          "explanation": "Explain the why, demonstrate, and confirm understanding through dialogue."
+        },
+        {
+          "num": 46,
+          "question": "A training record should include at minimum:",
+          "choices": [
+            "Worker name, date, topic, trainer, and method of verifying competence",
+            "Worker name only",
+            "Date only",
+            "Topic and trainer only"
+          ],
+          "answer": "A",
+          "explanation": "Minimum training record: name, date, topic, trainer, and method of competence verification."
+        },
+        {
+          "num": 47,
+          "question": "Body language during a safety coaching conversation should:",
+          "choices": [
+            "Be closed to project authority",
+            "Demonstrate attentiveness with appropriate eye contact and open posture",
+            "Mirror the worker exactly",
+            "Be ignored because words matter most"
+          ],
+          "answer": "B",
+          "explanation": "Attentive, open body language reinforces the message in coaching."
+        },
+        {
+          "num": 48,
+          "question": "Which of the following BEST describes the supervisor's role in training?",
+          "choices": [
+            "Deliver every training class",
+            "Identify training needs, ensure delivery, verify competence on the job, and retrain as required",
+            "Train only new hires",
+            "Hand off all training to HR"
+          ],
+          "answer": "B",
+          "explanation": "Supervisor role in training: identify needs, ensure delivery, verify competence, retrain as required."
+        },
+        {
+          "num": 49,
+          "question": "A worker repeatedly makes the same safety error despite coaching. The NEXT supervisor step should be to:",
+          "choices": [
+            "Assume the worker cannot be trained",
+            "Verify training adequacy and system factors before moving to formal discipline",
+            "Immediately terminate the worker",
+            "Ignore the behavior"
+          ],
+          "answer": "B",
+          "explanation": "Before escalating discipline, verify whether training or system factors enabled the error (just culture)."
+        },
+        {
+          "num": 50,
+          "question": "The MOST important message a supervisor delivers at the start of every shift is:",
+          "choices": [
+            "Production targets for the day",
+            "Today's specific hazards, controls, and the expectation that anyone can stop work if unsafe",
+            "The attendance list",
+            "The equipment schedule"
+          ],
+          "answer": "B",
+          "explanation": "Start-of-shift message must convey specific hazards, controls, and stop-work authority."
+        }
+      ]
+    },
+    {
+      "testNum": 3,
+      "questions": [
+        {
+          "num": 1,
+          "question": "A core expectation of a Safety Trained Supervisor is to:",
+          "choices": [
+            "Replace the safety professional",
+            "Translate the safety program into daily practice at the crew level",
+            "Conduct OSHA inspections",
+            "Write OSHA standards"
+          ],
+          "answer": "B",
+          "explanation": "BCSP STS Blueprint: the STS translates the safety program into day-to-day field practice."
+        },
+        {
+          "num": 2,
+          "question": "Which of the following actions most clearly communicates management commitment to safety?",
+          "choices": [
+            "A poster campaign",
+            "Visible senior leadership presence during field safety walks, with action taken on findings",
+            "An annual safety bonus",
+            "A safety email newsletter"
+          ],
+          "answer": "B",
+          "explanation": "Visible leadership presence and action on findings are the strongest signals of commitment (Geller, DuPont STOP)."
+        },
+        {
+          "num": 3,
+          "question": "A worker asks a supervisor to hide a minor injury so it will not affect the crew's incentive bonus. The supervisor should:",
+          "choices": [
+            "Agree if the injury seems minor",
+            "Refuse, provide proper first aid or medical care, and record the injury per policy",
+            "Refer the worker to a different supervisor",
+            "Delay recording until the end of the quarter"
+          ],
+          "answer": "B",
+          "explanation": "29 CFR 1904.35: employers must not discourage reporting; record and treat per policy."
+        },
+        {
+          "num": 4,
+          "question": "The key distinction between a 'reactive' and a 'proactive' safety program is that a proactive program:",
+          "choices": [
+            "Uses harsher discipline",
+            "Uses leading indicators, hazard hunting, and prevention-focused activities before incidents occur",
+            "Only responds to OSHA citations",
+            "Focuses on claim cost reduction"
+          ],
+          "answer": "B",
+          "explanation": "Proactive programs use leading indicators and prevention activities (ANSI/ASSP Z10)."
+        },
+        {
+          "num": 5,
+          "question": "An effective safety committee should include:",
+          "choices": [
+            "Only salaried staff",
+            "Representatives from management and hourly employees who can review hazards and recommend action",
+            "Only the safety manager",
+            "Only supervisors"
+          ],
+          "answer": "B",
+          "explanation": "A safety committee should be jointly staffed by management and hourly workers to review hazards and recommend action."
+        },
+        {
+          "num": 6,
+          "question": "A supervisor must exercise authority to stop work when:",
+          "choices": [
+            "The budget permits",
+            "An imminent danger exists that could reasonably be expected to cause death or serious harm",
+            "A worker prefers not to perform a task",
+            "Production is ahead of schedule"
+          ],
+          "answer": "B",
+          "explanation": "29 CFR 1903.14: imminent danger triggers the duty to act, including stopping the work."
+        },
+        {
+          "num": 7,
+          "question": "The General Duty Clause is MOST commonly cited by OSHA when:",
+          "choices": [
+            "A specific standard is unclear",
+            "No specific OSHA standard applies but a recognized serious hazard exists with feasible abatement",
+            "A near miss is reported",
+            "A worker complains"
+          ],
+          "answer": "B",
+          "explanation": "29 USC 654(a)(1): the General Duty Clause fills gaps where no specific standard applies."
+        },
+        {
+          "num": 8,
+          "question": "A supervisor is pressured to approve a purchase of non-compliant PPE to save cost. The correct response is to:",
+          "choices": [
+            "Approve the purchase and note the concern",
+            "Refuse the substitution, document the concern, and propose a compliant alternative",
+            "Order the PPE and have workers sign waivers",
+            "Transfer the decision to procurement"
+          ],
+          "answer": "B",
+          "explanation": "Refuse non-compliant PPE, document, and propose a compliant alternative (BCSP Code of Ethics)."
+        },
+        {
+          "num": 9,
+          "question": "When a supervisor delegates a safety task to a worker, the supervisor remains responsible for:",
+          "choices": [
+            "Nothing - the worker now owns it",
+            "Ensuring the worker is competent, resourced, and followed up with",
+            "Only the outcome",
+            "Only the training"
+          ],
+          "answer": "B",
+          "explanation": "Delegation does not transfer accountability; the supervisor ensures competence, resources, and follow-up."
+        },
+        {
+          "num": 10,
+          "question": "Positive reinforcement of safe behavior is MOST effective when it is:",
+          "choices": [
+            "Delivered months later at the annual meeting",
+            "Specific, timely, and tied to the observed safe behavior",
+            "Given as a group reward",
+            "Monetary only"
+          ],
+          "answer": "B",
+          "explanation": "Reinforcement is effective when specific, timely, and linked to the observed behavior."
+        },
+        {
+          "num": 11,
+          "question": "Which of the following BEST describes the supervisor's role in emergency response?",
+          "choices": [
+            "Wait for emergency responders",
+            "Account for personnel, initiate site response, communicate with responders, and preserve the scene for investigation",
+            "Only evacuate the area",
+            "Only call 911"
+          ],
+          "answer": "B",
+          "explanation": "The supervisor accounts for personnel, initiates response, coordinates with responders, and preserves the scene."
+        },
+        {
+          "num": 12,
+          "question": "The 'host employer' on a shared worksite typically:",
+          "choices": [
+            "Owns all safety risk",
+            "Provides site-specific orientation, coordinates with contractors, and controls site-wide hazards",
+            "Manages only their own employees",
+            "Has no duties toward contractors"
+          ],
+          "answer": "B",
+          "explanation": "29 CFR 1910.119 and Multi-Employer Policy: the host provides orientation, coordination, and site-wide hazard control."
+        },
+        {
+          "num": 13,
+          "question": "To demonstrate due diligence, a supervisor should:",
+          "choices": [
+            "Memorize every OSHA standard",
+            "Document hazard identification, training, enforcement, and follow-up actions",
+            "Rely on verbal assurances",
+            "Complete only annual training"
+          ],
+          "answer": "B",
+          "explanation": "Due diligence is demonstrated through documentation of identification, training, enforcement, and follow-up."
+        },
+        {
+          "num": 14,
+          "question": "A 'hazard' is BEST defined as:",
+          "choices": [
+            "An incident in progress",
+            "A source or situation with the potential to cause harm",
+            "A near miss",
+            "An OSHA violation"
+          ],
+          "answer": "B",
+          "explanation": "A hazard is a source or situation with the potential to cause harm (ANSI/ASSP Z590.3, ISO 45001)."
+        },
+        {
+          "num": 15,
+          "question": "Risk is the combination of:",
+          "choices": [
+            "Cost and severity",
+            "Likelihood of occurrence and severity of consequence",
+            "Consequence and regulation",
+            "Severity and experience"
+          ],
+          "answer": "B",
+          "explanation": "Risk = likelihood x severity (ISO 31000, ANSI/ASSP Z590.3)."
+        },
+        {
+          "num": 16,
+          "question": "The MOST reliable hierarchy-of-controls choice to address worker exposure to a loud process is:",
+          "choices": [
+            "Issuing hearing protection",
+            "Engineering the source to reduce noise (e.g., enclosures or quieter equipment)",
+            "Rotating workers",
+            "Posting warning signs"
+          ],
+          "answer": "B",
+          "explanation": "Engineering the source (quieter equipment or enclosures) ranks above administrative and PPE controls."
+        },
+        {
+          "num": 17,
+          "question": "A Job Hazard Analysis should be reviewed:",
+          "choices": [
+            "Only after an incident",
+            "When the task changes, when an incident or near miss occurs, or on a scheduled cycle",
+            "Only during annual audits",
+            "Only when OSHA asks"
+          ],
+          "answer": "B",
+          "explanation": "JHAs must be reviewed when tasks change, after incidents or near misses, and on a set cycle."
+        },
+        {
+          "num": 18,
+          "question": "Machine guarding must protect workers from:",
+          "choices": [
+            "Only rotating parts",
+            "All hazards created at the point of operation, ingoing nip points, rotating parts, flying chips, and sparks",
+            "Only pinch points",
+            "Only the operator"
+          ],
+          "answer": "B",
+          "explanation": "29 CFR 1910.212: guards must protect from point of operation, nip points, rotating parts, flying chips, and sparks."
+        },
+        {
+          "num": 19,
+          "question": "Fall protection per 29 CFR 1926 Subpart M is generally required in construction at heights of:",
+          "choices": [
+            "4 feet and above",
+            "6 feet and above",
+            "10 feet and above",
+            "12 feet and above"
+          ],
+          "answer": "B",
+          "explanation": "29 CFR 1926.501(b)(1): construction fall protection generally required at 6 feet."
+        },
+        {
+          "num": 20,
+          "question": "A personal fall-arrest system must be rigged so that a worker:",
+          "choices": [
+            "Can free-fall no more than 6 feet nor contact any lower level",
+            "Can free-fall no more than 10 feet",
+            "Never leaves the anchor",
+            "Wears only a body belt"
+          ],
+          "answer": "A",
+          "explanation": "29 CFR 1926.502(d)(16): free fall limited to 6 feet and no contact with a lower level."
+        },
+        {
+          "num": 21,
+          "question": "Permit-required confined space entry requires all of the following EXCEPT:",
+          "choices": [
+            "A written entry permit",
+            "Atmospheric testing",
+            "An attendant outside the space",
+            "A second worker inside without an attendant"
+          ],
+          "answer": "D",
+          "explanation": "29 CFR 1910.146 requires an attendant outside while entrants are inside."
+        },
+        {
+          "num": 22,
+          "question": "A supervisor learns that a subcontractor's employees are entering a permit space without a permit. The supervisor should:",
+          "choices": [
+            "Document it and discuss at the next meeting",
+            "Stop the entry immediately, remove workers, and coordinate a compliant re-entry",
+            "Ignore it because they are a different employer",
+            "Report it to OSHA only"
+          ],
+          "answer": "B",
+          "explanation": "As a supervisor with controlling authority, stop the entry, remove workers, and coordinate compliant re-entry."
+        },
+        {
+          "num": 23,
+          "question": "Electrical work on de-energized equipment must follow:",
+          "choices": [
+            "A verbal shutdown",
+            "A documented lockout/tagout procedure with verification of zero-energy state",
+            "A warning label only",
+            "A supervisor's approval by email"
+          ],
+          "answer": "B",
+          "explanation": "29 CFR 1910.147 and NFPA 70E require written LOTO with zero-energy verification."
+        },
+        {
+          "num": 24,
+          "question": "Ergonomic hazards are primarily addressed by:",
+          "choices": [
+            "PPE alone",
+            "Workplace design and task modification that reduce awkward postures, force, and repetition",
+            "Discipline",
+            "Stretching programs only"
+          ],
+          "answer": "B",
+          "explanation": "Ergonomic hazards are controlled primarily through design of work and task modification."
+        },
+        {
+          "num": 25,
+          "question": "Which of the following is the BEST way to verify the effectiveness of a new engineering control?",
+          "choices": [
+            "Asking workers how they feel about it",
+            "Measuring exposure before and after, and observing work practices",
+            "Reviewing the purchase order",
+            "Posting a sign"
+          ],
+          "answer": "B",
+          "explanation": "Exposure measurement before and after, combined with work-practice observation, verifies engineering-control effectiveness."
+        },
+        {
+          "num": 26,
+          "question": "The OSHA 300A annual summary must be certified by:",
+          "choices": [
+            "The safety manager",
+            "A company executive (e.g., owner, officer, highest-ranking company official at the establishment)",
+            "The supervisor of the injured worker",
+            "The insurance carrier"
+          ],
+          "answer": "B",
+          "explanation": "29 CFR 1904.32(b)(4): the 300A must be certified by a company executive."
+        },
+        {
+          "num": 27,
+          "question": "A case is considered work-related under 29 CFR 1904 if:",
+          "choices": [
+            "It occurred at any time",
+            "An event or exposure in the work environment caused or contributed to the condition or significantly aggravated a pre-existing condition",
+            "It occurred on a commute",
+            "It occurred during a personal meal"
+          ],
+          "answer": "B",
+          "explanation": "29 CFR 1904.5: work-relatedness is established when a work event or exposure caused, contributed to, or significantly aggravated the condition."
+        },
+        {
+          "num": 28,
+          "question": "An employee who is injured performing company-approved work at home is generally:",
+          "choices": [
+            "Not recordable",
+            "Recordable if the injury is work-related and meets general recording criteria",
+            "Recordable only if severe",
+            "Recordable only if the employer observed it"
+          ],
+          "answer": "B",
+          "explanation": "29 CFR 1904.5(b)(7): injuries during approved work at home may be recordable if work-related."
+        },
+        {
+          "num": 29,
+          "question": "The primary purpose of the OSHA recordkeeping standard is to:",
+          "choices": [
+            "Punish employers",
+            "Identify injury and illness trends so employers and OSHA can reduce hazards",
+            "Calculate workers' compensation premiums",
+            "Compare employers publicly"
+          ],
+          "answer": "B",
+          "explanation": "The recordkeeping standard identifies trends so hazards can be reduced. OSHA preamble to 29 CFR 1904."
+        },
+        {
+          "num": 30,
+          "question": "Which technique visualizes causal factors by branching contributors into categories such as people, process, equipment, and environment?",
+          "choices": [
+            "5 Whys",
+            "Fishbone (Ishikawa) diagram",
+            "Pareto chart",
+            "SWOT"
+          ],
+          "answer": "B",
+          "explanation": "Ishikawa (fishbone) diagrams branch contributors by category."
+        },
+        {
+          "num": 31,
+          "question": "The typical sequence of an incident investigation is:",
+          "choices": [
+            "Prevent recurrence, respond, investigate, report",
+            "Respond and secure the scene, collect facts, determine causes, recommend and implement corrective actions, verify effectiveness",
+            "Report, discipline, close",
+            "Investigate, report, wait, close"
+          ],
+          "answer": "B",
+          "explanation": "ANSI/ASSP Z590.3 incident-investigation sequence: respond and secure; collect; determine causes; correct; verify."
+        },
+        {
+          "num": 32,
+          "question": "An 'immediate cause' of an incident differs from a 'root cause' in that the immediate cause is:",
+          "choices": [
+            "The underlying management-system failure",
+            "The unsafe act or condition that directly precipitated the event",
+            "Always a worker error",
+            "Always an equipment failure"
+          ],
+          "answer": "B",
+          "explanation": "Immediate cause = proximate unsafe act or condition; root cause = underlying system failure."
+        },
+        {
+          "num": 33,
+          "question": "Safety Data Sheets must be:",
+          "choices": [
+            "Stored off-site in the main office",
+            "Readily accessible to employees during their work shifts and maintained for hazardous chemicals on site",
+            "Provided only on request to OSHA",
+            "Translated into every language spoken on Earth"
+          ],
+          "answer": "B",
+          "explanation": "29 CFR 1910.1200(g)(8): SDSs must be readily accessible during work shifts."
+        },
+        {
+          "num": 34,
+          "question": "A 'secondary container' (e.g., a spray bottle filled by a worker) of a hazardous chemical:",
+          "choices": [
+            "Requires no label if used during the same shift by the person who filled it",
+            "Always requires a full GHS label regardless of use",
+            "Never requires a label",
+            "Requires only the date of fill"
+          ],
+          "answer": "A",
+          "explanation": "29 CFR 1910.1200(f)(8): secondary containers used by the person who filled them during the same shift are exempt from full labeling; otherwise full label required."
+        },
+        {
+          "num": 35,
+          "question": "Environmental aspects that a supervisor should help manage include:",
+          "choices": [
+            "Only hazardous waste",
+            "Air emissions, water discharges, waste (hazardous and non-hazardous), noise, and spills",
+            "Only stormwater",
+            "Only recycling"
+          ],
+          "answer": "B",
+          "explanation": "Environmental aspects include air, water, waste, noise, and spills (ISO 14001)."
+        },
+        {
+          "num": 36,
+          "question": "Which of the following is an effective corrective action hierarchy after root cause is identified?",
+          "choices": [
+            "Discipline first, engineering last",
+            "Same hierarchy as for hazards: elimination, substitution, engineering, administrative, PPE",
+            "PPE first",
+            "Training only"
+          ],
+          "answer": "B",
+          "explanation": "Corrective actions follow the same hierarchy of controls as hazards."
+        },
+        {
+          "num": 37,
+          "question": "A 'serious' OSHA citation means there is substantial probability that:",
+          "choices": [
+            "An injury is possible",
+            "Death or serious physical harm could result and the employer knew or should have known of the hazard",
+            "A fine will be issued",
+            "A worker will be disciplined"
+          ],
+          "answer": "B",
+          "explanation": "29 USC 666(k): a serious violation means substantial probability of death or serious physical harm that the employer knew or should have known."
+        },
+        {
+          "num": 38,
+          "question": "A supervisor delivering a toolbox talk on a chemical hazard should cover:",
+          "choices": [
+            "Only the chemical name",
+            "Hazard identification, required controls and PPE, first-aid steps, and where to find the SDS",
+            "Only the exposure limit",
+            "Only the pictogram"
+          ],
+          "answer": "B",
+          "explanation": "A chemical toolbox talk covers hazards, controls, PPE, first aid, and SDS location."
+        },
+        {
+          "num": 39,
+          "question": "A worker demonstrates a safe work practice at a high level. The BEST supervisor response is to:",
+          "choices": [
+            "Ignore it; good performance is expected",
+            "Recognize the behavior specifically and promptly to reinforce it",
+            "Post the worker's photo in the break room",
+            "Assign a more difficult task"
+          ],
+          "answer": "B",
+          "explanation": "Recognition that is specific, timely, and behavior-linked reinforces safe work (Geller)."
+        },
+        {
+          "num": 40,
+          "question": "Effective safety training objectives are written in terms of:",
+          "choices": [
+            "What the instructor will say",
+            "Observable learner behaviors that will demonstrate competence",
+            "The training method",
+            "The training location"
+          ],
+          "answer": "B",
+          "explanation": "Objectives should describe observable learner behavior that demonstrates competence (Mager)."
+        },
+        {
+          "num": 41,
+          "question": "Which is the BEST way to verify understanding at the end of a training session?",
+          "choices": [
+            "Ask 'Any questions?'",
+            "Have learners demonstrate, explain, or apply the content in a realistic scenario",
+            "Count hands raised",
+            "Collect signed rosters"
+          ],
+          "answer": "B",
+          "explanation": "Demonstration or application in a realistic scenario is the gold standard for verifying learning."
+        },
+        {
+          "num": 42,
+          "question": "When a supervisor observes an at-risk behavior, the 'ABC' model suggests analyzing:",
+          "choices": [
+            "Anger, Blame, Correction",
+            "Antecedents, Behavior, Consequences",
+            "Attitude, Behavior, Compliance",
+            "Accident, Basis, Cause"
+          ],
+          "answer": "B",
+          "explanation": "ABC model: Antecedents, Behavior, Consequences (behavior-based safety)."
+        },
+        {
+          "num": 43,
+          "question": "A supervisor promoting near-miss reporting should:",
+          "choices": [
+            "Reward the highest number of reports",
+            "Thank reporters, share what was learned, and act visibly on the reports",
+            "Screen reports to discourage nuisance items",
+            "Submit reports on behalf of workers"
+          ],
+          "answer": "B",
+          "explanation": "Effective near-miss programs thank reporters, share lessons, and act visibly on reports."
+        },
+        {
+          "num": 44,
+          "question": "A pre-task briefing should end with:",
+          "choices": [
+            "A production goal",
+            "Confirmation that each worker understands the hazards, controls, and stop-work authority",
+            "Assignment of the next task",
+            "A safety slogan"
+          ],
+          "answer": "B",
+          "explanation": "A pre-task briefing must confirm understanding of hazards, controls, and stop-work authority."
+        },
+        {
+          "num": 45,
+          "question": "When a supervisor trains a worker on a new tool, the order of instruction should be:",
+          "choices": [
+            "Tell, show, do, review",
+            "Do, tell, review, show",
+            "Show, review, tell",
+            "Tell only"
+          ],
+          "answer": "A",
+          "explanation": "Classic four-step on-the-job training: tell, show, do, review."
+        },
+        {
+          "num": 46,
+          "question": "Effective written safety procedures are:",
+          "choices": [
+            "As long as possible for legal protection",
+            "Clear, concise, action-oriented, and written at an appropriate reading level for the workforce",
+            "Only for regulators",
+            "Written solely in technical language"
+          ],
+          "answer": "B",
+          "explanation": "Good procedures are clear, concise, action-oriented, and at an appropriate reading level."
+        },
+        {
+          "num": 47,
+          "question": "Two-way communication during a safety meeting is improved when the supervisor:",
+          "choices": [
+            "Asks only yes-or-no questions",
+            "Uses open-ended questions, pauses for responses, and invites field examples",
+            "Reads slides verbatim",
+            "Ends the meeting on time no matter what"
+          ],
+          "answer": "B",
+          "explanation": "Open-ended questions, pauses, and field examples improve two-way communication."
+        },
+        {
+          "num": 48,
+          "question": "Documentation of a safety observation should include:",
+          "choices": [
+            "Only behaviors that require discipline",
+            "Date, time, location, observed behaviors (safe and at-risk), feedback given, and any corrective actions",
+            "Only safe behaviors",
+            "Only corrective actions"
+          ],
+          "answer": "B",
+          "explanation": "Observation records must capture context, behaviors (safe and at-risk), feedback, and corrective actions."
+        },
+        {
+          "num": 49,
+          "question": "Which of the following would be the BEST learning method to train a crew on a complex lockout/tagout procedure?",
+          "choices": [
+            "A 30-minute lecture",
+            "A short briefing followed by supervised hands-on application on the actual equipment with verification of each step",
+            "Reading the procedure aloud",
+            "Distributing a written handout"
+          ],
+          "answer": "B",
+          "explanation": "Hands-on application with verification is the most effective method for a complex procedure like LOTO."
+        },
+        {
+          "num": 50,
+          "question": "The ultimate measure of a supervisor's safety leadership is:",
+          "choices": [
+            "Quantity of paperwork completed",
+            "A crew that recognizes hazards, takes action to control them, and speaks up when something is unsafe",
+            "A low recordable rate alone",
+            "Compliance with every OSHA standard word-for-word"
+          ],
+          "answer": "B",
+          "explanation": "The ultimate measure is a crew that recognizes, controls, and speaks up about hazards. BCSP STS Blueprint."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2183 @@
+{
+  "slug": "ncidq",
+  "title": "NCIDQ Exam Study Guide",
+  "code": "NCDQ-TM9CT-MJ8L2",
+  "timeMinutes": 180,
+  "tests": [
+    {
+      "testNum": 1,
+      "questions": [
+        {
+          "num": 1,
+          "question": "Which element of design is defined as the path traced by a moving point?",
+          "choices": [
+            "Shape",
+            "Line",
+            "Form",
+            "Texture"
+          ],
+          "answer": "B",
+          "explanation": "A line is defined as the path traced by a moving point; it is the most basic element of design."
+        },
+        {
+          "num": 2,
+          "question": "On a standard color wheel, which pair represents complementary colors?",
+          "choices": [
+            "Red and orange",
+            "Blue and green",
+            "Yellow and violet",
+            "Red and pink"
+          ],
+          "answer": "C",
+          "explanation": "Yellow and violet sit opposite each other on the color wheel and are complementary."
+        },
+        {
+          "num": 3,
+          "question": "The minimum clear width required by the ADA for a single accessible door opening is:",
+          "choices": [
+            "30 inches",
+            "32 inches",
+            "34 inches",
+            "36 inches"
+          ],
+          "answer": "B",
+          "explanation": "ADA requires 32 inches clear width at a single door opening (measured with door open 90 degrees)."
+        },
+        {
+          "num": 4,
+          "question": "The ADA-required minimum turning radius for a wheelchair in a confined space is:",
+          "choices": [
+            "48 inches",
+            "54 inches",
+            "60 inches",
+            "72 inches"
+          ],
+          "answer": "C",
+          "explanation": "ADA requires a 60-inch diameter turning radius (or T-shaped turn) for wheelchair maneuvering."
+        },
+        {
+          "num": 5,
+          "question": "Anthropometrics is best defined as the study of:",
+          "choices": [
+            "Human behavior in built environments",
+            "Human body measurements and proportions",
+            "Ergonomic furniture design",
+            "Cultural aesthetics"
+          ],
+          "answer": "B",
+          "explanation": "Anthropometrics studies human body measurements used to size furniture and spaces."
+        },
+        {
+          "num": 6,
+          "question": "Which principle of design refers to the equal distribution of visual weight?",
+          "choices": [
+            "Rhythm",
+            "Emphasis",
+            "Balance",
+            "Scale"
+          ],
+          "answer": "C",
+          "explanation": "Balance is the equal distribution of visual weight, whether symmetrical or asymmetrical."
+        },
+        {
+          "num": 7,
+          "question": "The Bauhaus school is most closely associated with which design movement?",
+          "choices": [
+            "Art Nouveau",
+            "Arts and Crafts",
+            "Modernism",
+            "Post-Modernism"
+          ],
+          "answer": "C",
+          "explanation": "The Bauhaus (1919-1933) was a key driver of Modernism, emphasizing form follows function."
+        },
+        {
+          "num": 8,
+          "question": "Which designer is best known for the Barcelona Chair?",
+          "choices": [
+            "Le Corbusier",
+            "Mies van der Rohe",
+            "Charles Eames",
+            "Frank Lloyd Wright"
+          ],
+          "answer": "B",
+          "explanation": "Mies van der Rohe designed the Barcelona Chair in 1929 for the German Pavilion."
+        },
+        {
+          "num": 9,
+          "question": "In space planning, the primary circulation path should typically be a minimum of:",
+          "choices": [
+            "36 inches wide",
+            "44 inches wide",
+            "60 inches wide",
+            "72 inches wide"
+          ],
+          "answer": "B",
+          "explanation": "Primary circulation paths in commercial spaces are typically 44 inches wide minimum, per egress requirements."
+        },
+        {
+          "num": 10,
+          "question": "A color with a high value is best described as:",
+          "choices": [
+            "Highly saturated",
+            "Light in appearance",
+            "Warm in temperature",
+            "Dull in intensity"
+          ],
+          "answer": "B",
+          "explanation": "High-value colors are light (close to white); low-value colors are dark."
+        },
+        {
+          "num": 11,
+          "question": "Which of the following is a natural fiber used in textiles?",
+          "choices": [
+            "Nylon",
+            "Polyester",
+            "Wool",
+            "Acrylic"
+          ],
+          "answer": "C",
+          "explanation": "Wool is a natural protein fiber. Nylon, polyester, and acrylic are synthetic."
+        },
+        {
+          "num": 12,
+          "question": "Terrazzo flooring is composed primarily of:",
+          "choices": [
+            "Ceramic tile chips in grout",
+            "Marble or stone chips in cement or epoxy",
+            "Crushed glass in resin",
+            "Concrete with steel fibers"
+          ],
+          "answer": "B",
+          "explanation": "Terrazzo is marble or stone chips embedded in cement or epoxy matrix, ground and polished."
+        },
+        {
+          "num": 13,
+          "question": "The principle of universal design aims to create environments that are:",
+          "choices": [
+            "Culturally neutral",
+            "Usable by all people to the greatest extent possible without adaptation",
+            "Compliant only with ADA minimums",
+            "Stylistically uniform"
+          ],
+          "answer": "B",
+          "explanation": "Universal design creates environments usable by all people to the greatest extent possible without adaptation."
+        },
+        {
+          "num": 14,
+          "question": "Which of these is considered a secondary color?",
+          "choices": [
+            "Red",
+            "Blue",
+            "Green",
+            "Yellow"
+          ],
+          "answer": "C",
+          "explanation": "Green is a secondary color, made by mixing blue and yellow primaries."
+        },
+        {
+          "num": 15,
+          "question": "In furniture layout, the recommended clearance between a dining table and a wall for passage is a minimum of:",
+          "choices": [
+            "24 inches",
+            "32 inches",
+            "36 inches",
+            "42 inches"
+          ],
+          "answer": "C",
+          "explanation": "A 36-inch clearance behind dining chairs allows for passage when chairs are pulled out."
+        },
+        {
+          "num": 16,
+          "question": "Scale refers to:",
+          "choices": [
+            "The relationship between two elements",
+            "The size of an object relative to a known standard (typically the human body)",
+            "The visual heaviness of an element",
+            "The repetition of design elements"
+          ],
+          "answer": "B",
+          "explanation": "Scale compares an object to a known standard, most often the human body."
+        },
+        {
+          "num": 17,
+          "question": "The ADA clear floor space requirement for a single wheelchair user is:",
+          "choices": [
+            "24 x 36 inches",
+            "30 x 48 inches",
+            "36 x 48 inches",
+            "36 x 60 inches"
+          ],
+          "answer": "B",
+          "explanation": "ADA specifies 30 x 48 inches clear floor space for a stationary wheelchair user."
+        },
+        {
+          "num": 18,
+          "question": "Which style is characterized by heavy ornamentation, gilding, and dramatic contrast?",
+          "choices": [
+            "Shaker",
+            "Baroque",
+            "Bauhaus",
+            "Scandinavian"
+          ],
+          "answer": "B",
+          "explanation": "Baroque is characterized by heavy ornamentation, gilding, and dramatic contrast."
+        },
+        {
+          "num": 19,
+          "question": "In color theory, analogous colors are:",
+          "choices": [
+            "Opposite on the color wheel",
+            "Three colors equidistant on the wheel",
+            "Adjacent on the color wheel",
+            "Tints of a single hue"
+          ],
+          "answer": "C",
+          "explanation": "Analogous colors are adjacent on the color wheel and share a common hue."
+        },
+        {
+          "num": 20,
+          "question": "The primary advantage of modular furniture systems is:",
+          "choices": [
+            "Lower cost per unit",
+            "Flexibility and reconfigurability",
+            "Superior aesthetic consistency",
+            "Reduced fire risk"
+          ],
+          "answer": "B",
+          "explanation": "Modular systems provide flexibility to reconfigure as needs change."
+        },
+        {
+          "num": 21,
+          "question": "In the IBC, occupancy classification Group B refers to:",
+          "choices": [
+            "Assembly",
+            "Business",
+            "Educational",
+            "Mercantile"
+          ],
+          "answer": "B",
+          "explanation": "In the IBC, Group B = Business (offices, banks, professional services)."
+        },
+        {
+          "num": 22,
+          "question": "A 1-hour fire-rated wall assembly is typically required between:",
+          "choices": [
+            "Two offices in the same tenant space",
+            "Corridors and adjacent rooms in non-sprinklered buildings",
+            "Restrooms",
+            "A reception area and a conference room"
+          ],
+          "answer": "B",
+          "explanation": "Corridor walls in non-sprinklered buildings typically require 1-hour rating."
+        },
+        {
+          "num": 23,
+          "question": "The egress capacity factor for stairs in most business occupancies is:",
+          "choices": [
+            "0.2 inches per occupant",
+            "0.3 inches per occupant",
+            "0.5 inches per occupant",
+            "0.7 inches per occupant"
+          ],
+          "answer": "B",
+          "explanation": "IBC egress capacity factor for stairs in B/R occupancies is 0.3 inches per occupant."
+        },
+        {
+          "num": 24,
+          "question": "Which document sets the legally binding responsibilities between the designer and the client?",
+          "choices": [
+            "Program",
+            "Contract (owner-designer agreement)",
+            "Specifications",
+            "Construction drawings"
+          ],
+          "answer": "B",
+          "explanation": "The owner-designer contract establishes legal responsibilities and scope."
+        },
+        {
+          "num": 25,
+          "question": "The CSI MasterFormat Division 09 covers:",
+          "choices": [
+            "Openings",
+            "Finishes",
+            "Equipment",
+            "Furnishings"
+          ],
+          "answer": "B",
+          "explanation": "CSI MasterFormat Division 09 covers Finishes (paint, flooring, ceilings, etc.)."
+        },
+        {
+          "num": 26,
+          "question": "An RFI in construction administration is:",
+          "choices": [
+            "A Request For Information",
+            "A Required Field Inspection",
+            "A Reviewed Furniture Invoice",
+            "A Revised Finish Installation"
+          ],
+          "answer": "A",
+          "explanation": "An RFI (Request For Information) formally asks the designer to clarify an issue."
+        },
+        {
+          "num": 27,
+          "question": "The typical project phase that follows Schematic Design is:",
+          "choices": [
+            "Programming",
+            "Design Development",
+            "Construction Documents",
+            "Construction Administration"
+          ],
+          "answer": "B",
+          "explanation": "Design Development follows Schematic Design and precedes Construction Documents."
+        },
+        {
+          "num": 28,
+          "question": "Which drawing scale is most commonly used for floor plans in commercial projects?",
+          "choices": [
+            "1/16 inch = 1 foot",
+            "1/8 inch = 1 foot",
+            "1/4 inch = 1 foot",
+            "3/8 inch = 1 foot"
+          ],
+          "answer": "C",
+          "explanation": "1/4 inch = 1 foot is the typical scale for commercial floor plans."
+        },
+        {
+          "num": 29,
+          "question": "In specifications, 'basis of design' refers to:",
+          "choices": [
+            "A sole-source manufacturer with no substitutes",
+            "A specific product establishing standards, with equivalents acceptable upon approval",
+            "The schematic design sketch",
+            "The programming document"
+          ],
+          "answer": "B",
+          "explanation": "Basis of design names a specific product as the standard, allowing approved equivalents."
+        },
+        {
+          "num": 30,
+          "question": "LEED certification is administered by the:",
+          "choices": [
+            "EPA",
+            "US Green Building Council (USGBC)",
+            "International Code Council",
+            "American Institute of Architects"
+          ],
+          "answer": "B",
+          "explanation": "LEED is administered by the US Green Building Council."
+        },
+        {
+          "num": 31,
+          "question": "Exit signs must be illuminated and visible from a distance of at least:",
+          "choices": [
+            "50 feet",
+            "75 feet",
+            "100 feet",
+            "150 feet"
+          ],
+          "answer": "C",
+          "explanation": "Exit signs must be visible from at least 100 feet per IBC/NFPA."
+        },
+        {
+          "num": 32,
+          "question": "Which of the following is the LOWEST level of a specification according to CSI three-part format?",
+          "choices": [
+            "Part 1 - General",
+            "Part 2 - Products",
+            "Part 3 - Execution",
+            "Part 4 - Closeout"
+          ],
+          "answer": "C",
+          "explanation": "CSI three-part format uses Part 1 - General, Part 2 - Products, Part 3 - Execution."
+        },
+        {
+          "num": 33,
+          "question": "The NFPA 701 test applies to:",
+          "choices": [
+            "Carpet flammability",
+            "Draperies and curtain flammability",
+            "Upholstered furniture",
+            "Wall covering adhesion"
+          ],
+          "answer": "B",
+          "explanation": "NFPA 701 is the standard flammability test for drapery, curtains, and similar hanging textiles."
+        },
+        {
+          "num": 34,
+          "question": "A designer's code of ethics most directly addresses:",
+          "choices": [
+            "Profit margins",
+            "Professional conduct and responsibilities",
+            "Marketing strategies",
+            "Software licensing"
+          ],
+          "answer": "B",
+          "explanation": "Codes of ethics govern professional conduct and responsibilities to clients, public, and peers."
+        },
+        {
+          "num": 35,
+          "question": "Which occupancy group covers retail stores in the IBC?",
+          "choices": [
+            "Group A",
+            "Group B",
+            "Group E",
+            "Group M"
+          ],
+          "answer": "D",
+          "explanation": "Group M = Mercantile (retail stores)."
+        },
+        {
+          "num": 36,
+          "question": "A submittal is typically:",
+          "choices": [
+            "A contractor's request for payment",
+            "A sample, shop drawing, or product data submitted for designer review",
+            "A punch list item",
+            "An owner directive"
+          ],
+          "answer": "B",
+          "explanation": "Submittals include samples, shop drawings, and product data sent for designer review."
+        },
+        {
+          "num": 37,
+          "question": "In project management, the critical path is:",
+          "choices": [
+            "The most expensive sequence of tasks",
+            "The longest sequence of dependent tasks that determines project duration",
+            "The fastest path to complete",
+            "The sequence of highest-risk tasks"
+          ],
+          "answer": "B",
+          "explanation": "The critical path is the longest sequence of dependent tasks and controls overall duration."
+        },
+        {
+          "num": 38,
+          "question": "AIA A201 is:",
+          "choices": [
+            "A furniture specification standard",
+            "General Conditions of the Contract for Construction",
+            "A code compliance checklist",
+            "A sustainability certification"
+          ],
+          "answer": "B",
+          "explanation": "AIA A201 is the standard General Conditions of the Contract for Construction."
+        },
+        {
+          "num": 39,
+          "question": "HVAC, plumbing, and electrical are collectively referred to as:",
+          "choices": [
+            "FF&E",
+            "MEP systems",
+            "Building envelope",
+            "Substructure"
+          ],
+          "answer": "B",
+          "explanation": "MEP stands for Mechanical, Electrical, Plumbing - the building services trades."
+        },
+        {
+          "num": 40,
+          "question": "When a conflict arises between drawings and specifications, typically:",
+          "choices": [
+            "Drawings govern over specifications",
+            "Specifications govern over drawings",
+            "The contractor chooses",
+            "The owner decides immediately"
+          ],
+          "answer": "B",
+          "explanation": "Per AIA A201, specifications generally govern over drawings in conflicts, but the designer should be consulted."
+        },
+        {
+          "num": 41,
+          "question": "A reflected ceiling plan (RCP) shows:",
+          "choices": [
+            "The floor finishes as seen from above",
+            "The ceiling layout as if the floor were a mirror reflecting the ceiling down",
+            "A roof framing plan",
+            "The electrical panel schedule"
+          ],
+          "answer": "B",
+          "explanation": "The RCP shows the ceiling as if reflected in the floor, so orientation matches the floor plan."
+        },
+        {
+          "num": 42,
+          "question": "On a finish schedule, 'WB-1' most likely designates:",
+          "choices": [
+            "A wall base type",
+            "A window blind",
+            "A wood beam",
+            "A water-based paint"
+          ],
+          "answer": "A",
+          "explanation": "WB typically designates wall base type in finish schedules."
+        },
+        {
+          "num": 43,
+          "question": "Foot-candles measure:",
+          "choices": [
+            "Color temperature",
+            "Illuminance on a surface",
+            "Luminous flux at the source",
+            "Contrast ratio"
+          ],
+          "answer": "B",
+          "explanation": "Foot-candles measure illuminance - the amount of light reaching a surface."
+        },
+        {
+          "num": 44,
+          "question": "A CRI (Color Rendering Index) rating of 90 or above indicates:",
+          "choices": [
+            "Poor color rendering",
+            "Acceptable color rendering for general use",
+            "Excellent color rendering suitable for art galleries or retail",
+            "Maximum energy efficiency"
+          ],
+          "answer": "C",
+          "explanation": "CRI 90+ is excellent and recommended for galleries, retail, and color-critical tasks."
+        },
+        {
+          "num": 45,
+          "question": "A color temperature of 2700K produces:",
+          "choices": [
+            "Cool, bluish light",
+            "Neutral daylight",
+            "Warm, yellowish light",
+            "Green-tinted light"
+          ],
+          "answer": "C",
+          "explanation": "2700K is warm, yellow-white light (typical of incandescent lamps)."
+        },
+        {
+          "num": 46,
+          "question": "Which of the following would be coordinated with a structural engineer?",
+          "choices": [
+            "Paint color selection",
+            "Load-bearing demolition and floor openings",
+            "Upholstery fabric specification",
+            "Carpet pattern alignment"
+          ],
+          "answer": "B",
+          "explanation": "Load-bearing modifications require structural engineering review."
+        },
+        {
+          "num": 47,
+          "question": "A shop drawing is prepared by:",
+          "choices": [
+            "The interior designer",
+            "The fabricator, contractor, or vendor to show how they will construct a specific element",
+            "The code official",
+            "The owner's accountant"
+          ],
+          "answer": "B",
+          "explanation": "Shop drawings are produced by the fabricator or contractor to illustrate the intended construction."
+        },
+        {
+          "num": 48,
+          "question": "An NRC rating of 0.85 indicates that a material:",
+          "choices": [
+            "Reflects 85% of sound",
+            "Absorbs about 85% of sound hitting it",
+            "Transmits 85% of sound",
+            "Is 85% fire resistant"
+          ],
+          "answer": "B",
+          "explanation": "NRC (Noise Reduction Coefficient) 0.85 means the material absorbs about 85% of incident sound."
+        },
+        {
+          "num": 49,
+          "question": "In a fire-rated wall, a listed penetration firestop is required because:",
+          "choices": [
+            "It enhances the wall's acoustic performance",
+            "Penetrations compromise the rating unless sealed with tested assemblies",
+            "It is required by energy codes",
+            "It reduces construction cost"
+          ],
+          "answer": "B",
+          "explanation": "Unsealed penetrations destroy the fire rating; listed firestops restore it."
+        },
+        {
+          "num": 50,
+          "question": "Which symbol on a plan typically represents a duplex receptacle?",
+          "choices": [
+            "A triangle",
+            "Two parallel lines with a short crossbar",
+            "A circle with two slashes",
+            "A square with an X"
+          ],
+          "answer": "C",
+          "explanation": "A circle with two parallel slashes is the standard duplex receptacle symbol."
+        },
+        {
+          "num": 51,
+          "question": "ADA requires that the maximum height of an operable switch or control is:",
+          "choices": [
+            "36 inches AFF",
+            "42 inches AFF",
+            "48 inches AFF",
+            "54 inches AFF"
+          ],
+          "answer": "C",
+          "explanation": "ADA requires controls to be no higher than 48 inches AFF for forward reach."
+        },
+        {
+          "num": 52,
+          "question": "On a furniture plan, a dashed outline around a group of workstations typically indicates:",
+          "choices": [
+            "Future furniture",
+            "An existing item to remain",
+            "A demolished item",
+            "A mock-up location"
+          ],
+          "answer": "A",
+          "explanation": "Dashed linework commonly indicates future or hidden items."
+        },
+        {
+          "num": 53,
+          "question": "A designer discovers a discrepancy in dimensions during construction. The correct action is to:",
+          "choices": [
+            "Tell the contractor to estimate",
+            "Issue an RFI response or change order as appropriate after review",
+            "Ignore if minor",
+            "Rewrite the specifications on site"
+          ],
+          "answer": "B",
+          "explanation": "An RFI documents the issue and the designer issues a response or change order as appropriate."
+        },
+        {
+          "num": 54,
+          "question": "An acoustical ceiling tile with an STC of 40 primarily addresses:",
+          "choices": [
+            "Sound absorption within a room",
+            "Sound transmission through an assembly",
+            "Light reflectance",
+            "Fire resistance"
+          ],
+          "answer": "B",
+          "explanation": "STC (Sound Transmission Class) measures transmission through an assembly, not absorption."
+        },
+        {
+          "num": 55,
+          "question": "Which of the following is NOT typically part of a furniture specification?",
+          "choices": [
+            "Model number",
+            "COM fabric yardage",
+            "Freight and delivery terms",
+            "Structural load calculations of the building"
+          ],
+          "answer": "D",
+          "explanation": "Structural load calcs of the building are not a furniture specification item."
+        },
+        {
+          "num": 56,
+          "question": "A 2-hour fire-rated assembly is most commonly required at:",
+          "choices": [
+            "Restroom partitions",
+            "Exit enclosures in multi-story buildings",
+            "Interior office walls",
+            "Display fixture walls"
+          ],
+          "answer": "B",
+          "explanation": "Exit stair enclosures in multi-story buildings typically require 2-hour rating."
+        },
+        {
+          "num": 57,
+          "question": "A designer coordinating a lighting layout with an electrical engineer would primarily share:",
+          "choices": [
+            "The construction budget",
+            "The RCP with fixture locations and switching",
+            "The owner's payment schedule",
+            "The HR organizational chart"
+          ],
+          "answer": "B",
+          "explanation": "The RCP communicates fixture locations and switching to the electrical engineer."
+        },
+        {
+          "num": 58,
+          "question": "During construction administration, field observation reports are used to:",
+          "choices": [
+            "Approve payment directly to subcontractors",
+            "Document observed conditions and general conformance with the contract documents",
+            "Modify the base contract",
+            "Replace the final inspection"
+          ],
+          "answer": "B",
+          "explanation": "Field observation reports document observed conditions; they do not approve payment or modify the contract."
+        },
+        {
+          "num": 59,
+          "question": "The 1/8 inch = 1 foot scale is most commonly used for:",
+          "choices": [
+            "Detail drawings",
+            "Overall floor plans of large buildings",
+            "Millwork elevations",
+            "Door schedules"
+          ],
+          "answer": "B",
+          "explanation": "1/8 inch = 1 foot is commonly used for overall plans of large buildings where 1/4 inch would not fit."
+        },
+        {
+          "num": 60,
+          "question": "A specification clause allowing the contractor to propose alternate products for designer approval is a:",
+          "choices": [
+            "Prohibition clause",
+            "Substitution clause",
+            "Warranty clause",
+            "Termination clause"
+          ],
+          "answer": "B",
+          "explanation": "Substitution clauses govern how alternates may be proposed and approved."
+        }
+      ]
+    },
+    {
+      "testNum": 2,
+      "questions": [
+        {
+          "num": 1,
+          "question": "A monochromatic color scheme uses:",
+          "choices": [
+            "Three adjacent hues",
+            "One hue with variations in value and saturation",
+            "Two complementary colors",
+            "Black, white, and one accent"
+          ],
+          "answer": "B",
+          "explanation": "Monochromatic uses one hue in varied values and saturations."
+        },
+        {
+          "num": 2,
+          "question": "Rhythm in design is primarily achieved through:",
+          "choices": [
+            "Contrast of materials",
+            "Repetition and pattern of elements",
+            "Symmetry alone",
+            "Use of bright colors"
+          ],
+          "answer": "B",
+          "explanation": "Rhythm is created by repetition, pattern, progression, or alternation of elements."
+        },
+        {
+          "num": 3,
+          "question": "The recommended dining table height for standard chairs is approximately:",
+          "choices": [
+            "26 inches",
+            "29-30 inches",
+            "34 inches",
+            "42 inches"
+          ],
+          "answer": "B",
+          "explanation": "Standard dining tables are 29-30 inches high."
+        },
+        {
+          "num": 4,
+          "question": "Which textile is known for high abrasion resistance and is a synthetic:",
+          "choices": [
+            "Linen",
+            "Silk",
+            "Nylon",
+            "Cotton"
+          ],
+          "answer": "C",
+          "explanation": "Nylon is a synthetic fiber with excellent abrasion resistance; often used in commercial carpet."
+        },
+        {
+          "num": 5,
+          "question": "Hue refers to:",
+          "choices": [
+            "The lightness or darkness of a color",
+            "The purity or intensity of a color",
+            "The name of a color (e.g., red, blue)",
+            "The warmth or coolness"
+          ],
+          "answer": "C",
+          "explanation": "Hue is the color name itself (red, blue, green)."
+        },
+        {
+          "num": 6,
+          "question": "Art Deco is characterized by:",
+          "choices": [
+            "Organic curves inspired by nature",
+            "Geometric forms, bold colors, and lavish ornamentation",
+            "Minimal Shaker simplicity",
+            "Gothic pointed arches"
+          ],
+          "answer": "B",
+          "explanation": "Art Deco (1920s-30s) is marked by geometric forms, bold color, and luxury materials."
+        },
+        {
+          "num": 7,
+          "question": "The minimum ADA-compliant unobstructed forward reach over a counter is:",
+          "choices": [
+            "36 inches AFF",
+            "40 inches AFF",
+            "44 inches AFF",
+            "48 inches AFF"
+          ],
+          "answer": "D",
+          "explanation": "ADA unobstructed forward reach tops at 48 inches AFF."
+        },
+        {
+          "num": 8,
+          "question": "In a residential bedroom, a queen-size mattress measures approximately:",
+          "choices": [
+            "54 x 75 inches",
+            "60 x 80 inches",
+            "72 x 84 inches",
+            "76 x 80 inches"
+          ],
+          "answer": "B",
+          "explanation": "A queen mattress is approximately 60 inches wide by 80 inches long."
+        },
+        {
+          "num": 9,
+          "question": "Which principle creates a focal point in a space?",
+          "choices": [
+            "Balance",
+            "Harmony",
+            "Emphasis",
+            "Unity"
+          ],
+          "answer": "C",
+          "explanation": "Emphasis directs attention to a focal point through contrast, color, or scale."
+        },
+        {
+          "num": 10,
+          "question": "Frank Lloyd Wright is most strongly associated with:",
+          "choices": [
+            "International Style",
+            "Prairie Style and organic architecture",
+            "Art Nouveau",
+            "Memphis Group"
+          ],
+          "answer": "B",
+          "explanation": "FLW pioneered Prairie Style and organic architecture integrated with site."
+        },
+        {
+          "num": 11,
+          "question": "Ergonomics differs from anthropometrics in that ergonomics focuses on:",
+          "choices": [
+            "Human body measurements",
+            "The interaction between humans and their environment/equipment",
+            "Graphic design principles",
+            "Color theory applications"
+          ],
+          "answer": "B",
+          "explanation": "Ergonomics studies human interaction with environments, tools, and equipment."
+        },
+        {
+          "num": 12,
+          "question": "Which of the following is a type of weave?",
+          "choices": [
+            "Berber",
+            "Twill",
+            "Loop",
+            "Shag"
+          ],
+          "answer": "B",
+          "explanation": "Twill is a weave type (diagonal ribbing). Berber, loop, and shag describe carpet constructions/styles."
+        },
+        {
+          "num": 13,
+          "question": "ADA reach range from the side (clear) should not exceed:",
+          "choices": [
+            "36 inches AFF",
+            "42 inches AFF",
+            "48 inches AFF",
+            "54 inches AFF"
+          ],
+          "answer": "C",
+          "explanation": "ADA side reach is limited to 48 inches AFF (unobstructed)."
+        },
+        {
+          "num": 14,
+          "question": "Triad color schemes consist of:",
+          "choices": [
+            "Two hues opposite on the wheel",
+            "Three hues equidistant on the color wheel",
+            "Three adjacent hues",
+            "A single hue with tints and shades"
+          ],
+          "answer": "B",
+          "explanation": "Triadic schemes use three hues spaced evenly around the wheel."
+        },
+        {
+          "num": 15,
+          "question": "A clear knee space at an accessible counter must be at least:",
+          "choices": [
+            "24 inches wide, 17 inches deep, 24 inches high",
+            "30 inches wide, 19 inches deep, 27 inches high",
+            "36 inches wide, 24 inches deep, 30 inches high",
+            "36 inches wide, 19 inches deep, 32 inches high"
+          ],
+          "answer": "B",
+          "explanation": "ADA knee clearance: 30 inches wide, 19 inches deep, 27 inches high minimum."
+        },
+        {
+          "num": 16,
+          "question": "A gypsum wall board (GWB) partition with one layer of 5/8-inch Type X on each side of metal studs typically achieves:",
+          "choices": [
+            "15-minute rating",
+            "30-minute rating",
+            "1-hour rating",
+            "3-hour rating"
+          ],
+          "answer": "C",
+          "explanation": "A single layer of 5/8-inch Type X each side of metal studs typically provides a 1-hour rating."
+        },
+        {
+          "num": 17,
+          "question": "Which period style is known for simple lines, honest materials, and handcrafted quality?",
+          "choices": [
+            "Art Nouveau",
+            "Arts and Crafts",
+            "Rococo",
+            "Baroque"
+          ],
+          "answer": "B",
+          "explanation": "Arts and Crafts emphasized honest materials, simple lines, and craftsmanship (Morris, Stickley)."
+        },
+        {
+          "num": 18,
+          "question": "Which fabric finish increases resistance to staining?",
+          "choices": [
+            "Flame retardant",
+            "Teflon or fluorocarbon finish",
+            "Bleach wash",
+            "Moire"
+          ],
+          "answer": "B",
+          "explanation": "Teflon/fluorocarbon finishes repel stains."
+        },
+        {
+          "num": 19,
+          "question": "Proportion refers to:",
+          "choices": [
+            "The size of an object compared to the human body",
+            "The relationship of parts to one another and to the whole",
+            "The repetition of motifs",
+            "The visual heaviness of elements"
+          ],
+          "answer": "B",
+          "explanation": "Proportion is the relative relationship of parts to one another and to the whole."
+        },
+        {
+          "num": 20,
+          "question": "A typical office workstation for one person requires approximately:",
+          "choices": [
+            "24 square feet",
+            "48-64 square feet",
+            "100 square feet",
+            "150 square feet"
+          ],
+          "answer": "B",
+          "explanation": "A private office workstation typically uses 48-64 square feet."
+        },
+        {
+          "num": 21,
+          "question": "IBC Group A occupancy refers to:",
+          "choices": [
+            "Assembly",
+            "Business",
+            "Educational",
+            "Residential"
+          ],
+          "answer": "A",
+          "explanation": "IBC Group A is Assembly (theaters, restaurants, lecture halls)."
+        },
+        {
+          "num": 22,
+          "question": "The maximum travel distance to an exit in a sprinklered business occupancy is typically:",
+          "choices": [
+            "150 feet",
+            "200 feet",
+            "250 feet",
+            "300 feet"
+          ],
+          "answer": "D",
+          "explanation": "Sprinklered business occupancy travel distance is typically up to 300 feet."
+        },
+        {
+          "num": 23,
+          "question": "A building permit is typically required for:",
+          "choices": [
+            "Paint and new furniture only",
+            "Structural, MEP, and most alterations affecting life safety",
+            "Carpet replacement only",
+            "Accessory relocation only"
+          ],
+          "answer": "B",
+          "explanation": "Permits are required for structural work, MEP changes, and most alterations affecting life safety."
+        },
+        {
+          "num": 24,
+          "question": "Which project phase includes preparation of bid documents and detailed drawings suitable for construction?",
+          "choices": [
+            "Programming",
+            "Schematic Design",
+            "Design Development",
+            "Construction Documents"
+          ],
+          "answer": "D",
+          "explanation": "Construction Documents produce drawings and specs suitable for bidding and construction."
+        },
+        {
+          "num": 25,
+          "question": "A change order is issued when:",
+          "choices": [
+            "The project begins",
+            "The scope, cost, or schedule changes after contract execution",
+            "Substantial completion is reached",
+            "Design Development is complete"
+          ],
+          "answer": "B",
+          "explanation": "A change order formalizes modifications to scope, cost, or schedule after contract execution."
+        },
+        {
+          "num": 26,
+          "question": "CSI MasterFormat Division 12 covers:",
+          "choices": [
+            "Finishes",
+            "Furnishings",
+            "Equipment",
+            "Special Construction"
+          ],
+          "answer": "B",
+          "explanation": "Division 12 is Furnishings."
+        },
+        {
+          "num": 27,
+          "question": "The standard scale for interior elevations is most commonly:",
+          "choices": [
+            "1/16 inch = 1 foot",
+            "1/8 inch = 1 foot",
+            "1/4 inch or 3/8 inch = 1 foot",
+            "1 inch = 1 foot"
+          ],
+          "answer": "C",
+          "explanation": "Interior elevations are typically drawn at 1/4 inch or 3/8 inch = 1 foot."
+        },
+        {
+          "num": 28,
+          "question": "IBC occupancy Group E covers:",
+          "choices": [
+            "Assembly",
+            "Business",
+            "Educational",
+            "Mercantile"
+          ],
+          "answer": "C",
+          "explanation": "Group E is Educational (typically K-12)."
+        },
+        {
+          "num": 29,
+          "question": "The NFPA 260 test is used for:",
+          "choices": [
+            "Carpet",
+            "Upholstered furniture cigarette ignition resistance",
+            "Draperies",
+            "Wall finishes"
+          ],
+          "answer": "B",
+          "explanation": "NFPA 260 tests cigarette ignition resistance of upholstered furniture components."
+        },
+        {
+          "num": 30,
+          "question": "Under LEED, a Materials and Resources (MR) credit may be earned by:",
+          "choices": [
+            "Specifying the most expensive finishes",
+            "Using products with recycled content or regional materials",
+            "Requiring climate-controlled storage",
+            "Using only imported materials"
+          ],
+          "answer": "B",
+          "explanation": "MR credits reward recycled content, regional materials, and sustainable sourcing."
+        },
+        {
+          "num": 31,
+          "question": "The IBC requires a minimum corridor width in most business occupancies of:",
+          "choices": [
+            "32 inches",
+            "36 inches",
+            "44 inches",
+            "60 inches"
+          ],
+          "answer": "C",
+          "explanation": "Most business corridors serving 50+ occupants require a 44-inch minimum width."
+        },
+        {
+          "num": 32,
+          "question": "A punch list is:",
+          "choices": [
+            "The initial budget itemization",
+            "The list of incomplete or defective items identified near substantial completion",
+            "The final warranty document",
+            "The owner's wish list"
+          ],
+          "answer": "B",
+          "explanation": "A punch list catalogs incomplete or defective items identified near substantial completion."
+        },
+        {
+          "num": 33,
+          "question": "Which is NOT a typical deliverable of the Schematic Design phase?",
+          "choices": [
+            "Preliminary plans",
+            "Conceptual sketches",
+            "Detailed shop drawings",
+            "Preliminary budget"
+          ],
+          "answer": "C",
+          "explanation": "Detailed shop drawings are produced by fabricators during CA, not by the designer in SD."
+        },
+        {
+          "num": 34,
+          "question": "Class A flame spread rating is:",
+          "choices": [
+            "0-25",
+            "26-75",
+            "76-200",
+            "201-500"
+          ],
+          "answer": "A",
+          "explanation": "Class A flame spread is 0-25 (best), per ASTM E84."
+        },
+        {
+          "num": 35,
+          "question": "The purpose of a pre-bid meeting is to:",
+          "choices": [
+            "Sign the final contract",
+            "Allow bidders to review the project, ask questions, and see the site",
+            "Accept the lowest bid",
+            "Approve the final specifications"
+          ],
+          "answer": "B",
+          "explanation": "Pre-bid meetings let bidders ask questions and view site conditions."
+        },
+        {
+          "num": 36,
+          "question": "Contract documents typically consist of:",
+          "choices": [
+            "Drawings only",
+            "Specifications only",
+            "The agreement, general conditions, drawings, specifications, and addenda",
+            "Shop drawings and submittals"
+          ],
+          "answer": "C",
+          "explanation": "The contract documents include the agreement, general conditions, drawings, specs, and addenda."
+        },
+        {
+          "num": 37,
+          "question": "An NCIDQ-certified designer's primary ethical obligation is to:",
+          "choices": [
+            "Maximize personal profit",
+            "Protect the health, safety, and welfare of the public",
+            "Follow the client's preferences regardless of code",
+            "Use only domestic products"
+          ],
+          "answer": "B",
+          "explanation": "Protecting health, safety, and welfare of the public is the fundamental ethical duty."
+        },
+        {
+          "num": 38,
+          "question": "Liquidated damages in a contract are:",
+          "choices": [
+            "Insurance settlements",
+            "Pre-agreed amounts owed by contractor for project delays",
+            "Lawyer fees",
+            "Bonuses for early completion"
+          ],
+          "answer": "B",
+          "explanation": "Liquidated damages are pre-agreed amounts owed by a contractor for delays."
+        },
+        {
+          "num": 39,
+          "question": "Value engineering aims to:",
+          "choices": [
+            "Lower quality to save money at any cost",
+            "Optimize value by analyzing function vs. cost",
+            "Increase scope of the project",
+            "Replace the designer's selections"
+          ],
+          "answer": "B",
+          "explanation": "Value engineering analyzes function versus cost to optimize value, not merely cut costs."
+        },
+        {
+          "num": 40,
+          "question": "Which occupancy group includes hotels and apartment buildings?",
+          "choices": [
+            "Group A",
+            "Group B",
+            "Group E",
+            "Group R"
+          ],
+          "answer": "D",
+          "explanation": "Group R is Residential, including hotels (R-1) and apartments (R-2)."
+        },
+        {
+          "num": 41,
+          "question": "On a reflected ceiling plan, a recessed downlight is most commonly shown as:",
+          "choices": [
+            "A circle symbol",
+            "A square with an X",
+            "A triangle",
+            "A dashed rectangle"
+          ],
+          "answer": "A",
+          "explanation": "Recessed downlights are commonly shown as circles on RCPs."
+        },
+        {
+          "num": 42,
+          "question": "A finish schedule typically includes:",
+          "choices": [
+            "Furniture model numbers only",
+            "Room-by-room listing of floor, base, wall, and ceiling finishes",
+            "Electrical load calculations",
+            "HVAC capacity"
+          ],
+          "answer": "B",
+          "explanation": "Finish schedules list rooms and their floor, base, wall, and ceiling finishes."
+        },
+        {
+          "num": 43,
+          "question": "The minimum illuminance for general office tasks is typically about:",
+          "choices": [
+            "10 foot-candles",
+            "30-50 foot-candles",
+            "100 foot-candles",
+            "200 foot-candles"
+          ],
+          "answer": "B",
+          "explanation": "IESNA recommends 30-50 foot-candles for general office tasks."
+        },
+        {
+          "num": 44,
+          "question": "A CRI of 80 is generally considered:",
+          "choices": [
+            "Poor",
+            "Acceptable for many commercial uses",
+            "Excellent for color-critical work",
+            "Rated for exterior only"
+          ],
+          "answer": "B",
+          "explanation": "CRI 80 is acceptable for general commercial use; 90+ is preferred for color-critical tasks."
+        },
+        {
+          "num": 45,
+          "question": "5000K lamps are often specified in:",
+          "choices": [
+            "Warm residential settings",
+            "Daylight-matching tasks and retail",
+            "Dimmed restaurant dining",
+            "Theater lobbies"
+          ],
+          "answer": "B",
+          "explanation": "5000K approximates daylight and is used in tasks requiring color accuracy."
+        },
+        {
+          "num": 46,
+          "question": "A consultant coordinator's main responsibility is to:",
+          "choices": [
+            "Perform all design work",
+            "Integrate and reconcile work from multiple disciplines",
+            "Approve permits",
+            "Install finishes"
+          ],
+          "answer": "B",
+          "explanation": "Coordination integrates and reconciles multiple consultants' work."
+        },
+        {
+          "num": 47,
+          "question": "A shop drawing review stamp 'Reviewed' or 'No Exceptions Taken' means:",
+          "choices": [
+            "The designer certifies every dimension is correct",
+            "The work generally conforms with the design intent; contractor remains responsible for dimensions and fabrication",
+            "The contractor may ignore contract drawings",
+            "Payment is authorized"
+          ],
+          "answer": "B",
+          "explanation": "The designer reviews for conformance with design intent; the contractor remains responsible for means, methods, and dimensions."
+        },
+        {
+          "num": 48,
+          "question": "Which ceiling type typically offers the highest acoustic absorption?",
+          "choices": [
+            "Hard plaster",
+            "Glass",
+            "Fiberglass or mineral-fiber acoustic tile",
+            "Metal pan with no backing"
+          ],
+          "answer": "C",
+          "explanation": "Fiberglass or mineral fiber acoustic tile absorbs sound well (NRC 0.55-0.95)."
+        },
+        {
+          "num": 49,
+          "question": "Penetrations in a rated wall for data cables must:",
+          "choices": [
+            "Be left unsealed",
+            "Use a UL-listed firestop system appropriate for the rating",
+            "Be sealed with latex caulk",
+            "Include a fusible link"
+          ],
+          "answer": "B",
+          "explanation": "Fire-rated wall penetrations require UL-listed firestop systems."
+        },
+        {
+          "num": 50,
+          "question": "A GFCI receptacle is required:",
+          "choices": [
+            "At all locations",
+            "Within 6 feet of a sink, in bathrooms, kitchens, outdoors, and wet areas",
+            "Only in commercial lobbies",
+            "Only in outdoor locations"
+          ],
+          "answer": "B",
+          "explanation": "GFCI protection is required in wet/damp areas per NEC."
+        },
+        {
+          "num": 51,
+          "question": "ADA requires mirrors above accessible lavatories to have a bottom edge no higher than:",
+          "choices": [
+            "30 inches AFF",
+            "34 inches AFF",
+            "40 inches AFF",
+            "48 inches AFF"
+          ],
+          "answer": "C",
+          "explanation": "ADA mirror bottom edge maximum is 40 inches AFF."
+        },
+        {
+          "num": 52,
+          "question": "A dimension line terminated with a slash or arrow indicates:",
+          "choices": [
+            "Extension of finish",
+            "A measured distance between two points",
+            "A centerline",
+            "A section cut"
+          ],
+          "answer": "B",
+          "explanation": "Dimension lines with arrows or slashes indicate measured distances."
+        },
+        {
+          "num": 53,
+          "question": "During CA, the designer receives a product proposed as a substitution that does not meet the basis-of-design performance. The designer should:",
+          "choices": [
+            "Accept to be cooperative",
+            "Reject and document the reasons",
+            "Forward to the owner without review",
+            "Issue a change order"
+          ],
+          "answer": "B",
+          "explanation": "Substitutions that do not meet basis-of-design performance should be rejected with documented rationale."
+        },
+        {
+          "num": 54,
+          "question": "A wall with an STC of 50 would allow:",
+          "choices": [
+            "Loud speech clearly heard",
+            "Loud speech faintly heard; normal speech inaudible",
+            "All speech inaudible in all conditions",
+            "Music unaffected"
+          ],
+          "answer": "B",
+          "explanation": "STC 50 means loud speech is faintly audible and normal speech is essentially inaudible."
+        },
+        {
+          "num": 55,
+          "question": "Millwork shop drawings should be reviewed primarily for:",
+          "choices": [
+            "Paint color only",
+            "Design intent, dimensions relative to the space, profiles, and finishes",
+            "Structural load",
+            "Electrical circuits"
+          ],
+          "answer": "B",
+          "explanation": "Shop drawings are reviewed for design intent, dimensions in context, profiles, and finishes."
+        },
+        {
+          "num": 56,
+          "question": "A 1-hour wall with openings must have:",
+          "choices": [
+            "No doors",
+            "Doors with a minimum 20-minute rating (or as required by code) with self-closers and positive latching",
+            "Automatic sprinklers only",
+            "A mechanical smoke damper"
+          ],
+          "answer": "B",
+          "explanation": "Rated wall openings require rated doors (often 20 minutes minimum for 1-hour walls) with self-closers and latching."
+        },
+        {
+          "num": 57,
+          "question": "On a furniture plan key, 'COM' typically indicates:",
+          "choices": [
+            "Custom Office Millwork",
+            "Customer's Own Material (fabric supplied by owner)",
+            "Combined Office Module",
+            "Contractor Over Manufacturer"
+          ],
+          "answer": "B",
+          "explanation": "COM = Customer's Own Material, fabric supplied by the owner for manufacturer application."
+        },
+        {
+          "num": 58,
+          "question": "The construction phase formally ends at:",
+          "choices": [
+            "Substantial Completion",
+            "Bid opening",
+            "Final Completion and acceptance",
+            "Punch list creation"
+          ],
+          "answer": "C",
+          "explanation": "Final Completion and acceptance, including punch list closeout, formally ends construction."
+        },
+        {
+          "num": 59,
+          "question": "A window schedule typically identifies:",
+          "choices": [
+            "Paint colors",
+            "Window type, size, material, glazing, and hardware",
+            "Door hardware groups",
+            "Lighting fixtures"
+          ],
+          "answer": "B",
+          "explanation": "Window schedules list type, size, material, glazing, and hardware."
+        },
+        {
+          "num": 60,
+          "question": "Modular systems furniture panels are typically specified by:",
+          "choices": [
+            "Height, width, fabric, and raceway configuration",
+            "Weight only",
+            "Color only",
+            "Brand name only"
+          ],
+          "answer": "A",
+          "explanation": "Modular panels are specified by height, width, fabric/finish, and raceway configuration."
+        }
+      ]
+    },
+    {
+      "testNum": 3,
+      "questions": [
+        {
+          "num": 1,
+          "question": "A split-complementary color scheme uses:",
+          "choices": [
+            "A hue and the two colors adjacent to its complement",
+            "Two sets of complementary pairs",
+            "A hue with its tints only",
+            "Three adjacent hues"
+          ],
+          "answer": "A",
+          "explanation": "Split-complementary uses a hue plus the two hues adjacent to its complement."
+        },
+        {
+          "num": 2,
+          "question": "Harmony in design refers to:",
+          "choices": [
+            "A strong focal point",
+            "A pleasing agreement among parts of a composition",
+            "A dramatic contrast",
+            "A repeated motif"
+          ],
+          "answer": "B",
+          "explanation": "Harmony is a pleasing agreement among compositional parts."
+        },
+        {
+          "num": 3,
+          "question": "Standard counter height in residential kitchens is approximately:",
+          "choices": [
+            "30 inches",
+            "34-36 inches",
+            "42 inches",
+            "48 inches"
+          ],
+          "answer": "B",
+          "explanation": "Residential kitchen counters are typically 34-36 inches high."
+        },
+        {
+          "num": 4,
+          "question": "Which natural fiber has high luster and smoothness?",
+          "choices": [
+            "Wool",
+            "Cotton",
+            "Silk",
+            "Jute"
+          ],
+          "answer": "C",
+          "explanation": "Silk is known for its smooth, lustrous surface."
+        },
+        {
+          "num": 5,
+          "question": "Saturation (chroma) describes:",
+          "choices": [
+            "Lightness vs. darkness",
+            "Intensity or purity of a color",
+            "The hue name",
+            "The temperature"
+          ],
+          "answer": "B",
+          "explanation": "Saturation (also chroma or intensity) is the purity of a color."
+        },
+        {
+          "num": 6,
+          "question": "Which movement rejected Modernism and embraced ornament and historical reference?",
+          "choices": [
+            "Bauhaus",
+            "International Style",
+            "Post-Modernism",
+            "De Stijl"
+          ],
+          "answer": "C",
+          "explanation": "Post-Modernism reintroduced ornament, color, and historical references."
+        },
+        {
+          "num": 7,
+          "question": "The average adult eye level in a seated position is approximately:",
+          "choices": [
+            "36 inches AFF",
+            "46 inches AFF",
+            "60 inches AFF",
+            "72 inches AFF"
+          ],
+          "answer": "B",
+          "explanation": "Seated eye level averages about 46 inches AFF for adults."
+        },
+        {
+          "num": 8,
+          "question": "A king-size mattress measures approximately:",
+          "choices": [
+            "54 x 75 inches",
+            "60 x 80 inches",
+            "72 x 84 inches",
+            "76 x 80 inches"
+          ],
+          "answer": "C",
+          "explanation": "King mattresses are approximately 72-76 x 84 inches (Eastern King 76x80, California King 72x84)."
+        },
+        {
+          "num": 9,
+          "question": "Radial balance is achieved when:",
+          "choices": [
+            "Elements are mirrored across an axis",
+            "Elements radiate outward from a central point",
+            "Items of equal weight are placed on two sides",
+            "Patterns alternate left to right"
+          ],
+          "answer": "B",
+          "explanation": "Radial balance radiates outward from a central point (e.g., circular seating)."
+        },
+        {
+          "num": 10,
+          "question": "Le Corbusier's 'Modulor' is based on:",
+          "choices": [
+            "Classical orders",
+            "Human proportions and the golden ratio",
+            "Square grids only",
+            "Japanese tatami mats"
+          ],
+          "answer": "B",
+          "explanation": "The Modulor is based on human proportions and the golden ratio."
+        },
+        {
+          "num": 11,
+          "question": "Which finish material is composed of compressed wood fibers and resin?",
+          "choices": [
+            "Plywood",
+            "MDF (medium-density fiberboard)",
+            "Particleboard",
+            "Solid hardwood"
+          ],
+          "answer": "B",
+          "explanation": "MDF is compressed wood fibers with resin binder."
+        },
+        {
+          "num": 12,
+          "question": "Which of the following is considered a neutral color?",
+          "choices": [
+            "Red",
+            "Green",
+            "Gray",
+            "Blue"
+          ],
+          "answer": "C",
+          "explanation": "Gray is a neutral (along with black, white, and beige)."
+        },
+        {
+          "num": 13,
+          "question": "ADA signage indicating permanent rooms must include:",
+          "choices": [
+            "Only visual letters",
+            "Raised letters and Braille, mounted at a specified height",
+            "A color photograph",
+            "A floor plan of the room"
+          ],
+          "answer": "B",
+          "explanation": "ADA permanent room signs require raised letters and Braille, mounted at specified heights."
+        },
+        {
+          "num": 14,
+          "question": "Texture in design can be:",
+          "choices": [
+            "Only tactile",
+            "Only visual",
+            "Both tactile and visual",
+            "Neither - it is a property of form"
+          ],
+          "answer": "C",
+          "explanation": "Texture is both tactile (physical) and visual (implied by pattern or graphics)."
+        },
+        {
+          "num": 15,
+          "question": "The clearance between a kitchen counter and an opposite wall/island should be a minimum of:",
+          "choices": [
+            "30 inches",
+            "36-42 inches",
+            "48-60 inches",
+            "72 inches"
+          ],
+          "answer": "B",
+          "explanation": "Kitchen work aisles commonly require 36-42 inches minimum clearance."
+        },
+        {
+          "num": 16,
+          "question": "A 'warm' color palette typically includes:",
+          "choices": [
+            "Blues, greens, violets",
+            "Reds, oranges, yellows",
+            "Grays and whites only",
+            "Black and brown"
+          ],
+          "answer": "B",
+          "explanation": "Warm colors are reds, oranges, and yellows."
+        },
+        {
+          "num": 17,
+          "question": "Shaker style is characterized by:",
+          "choices": [
+            "Heavy ornamentation",
+            "Simple, functional, high-quality handcrafted forms",
+            "Curvilinear gilded elements",
+            "Industrial steel tubes"
+          ],
+          "answer": "B",
+          "explanation": "Shaker style emphasizes simple, functional, handcrafted forms."
+        },
+        {
+          "num": 18,
+          "question": "Figure-ground is a concept related to:",
+          "choices": [
+            "Color mixing",
+            "The relationship between an object (figure) and its surrounding space (ground)",
+            "Perspective drawing only",
+            "Sound absorption"
+          ],
+          "answer": "B",
+          "explanation": "Figure-ground describes the visual relationship between object and surrounding space."
+        },
+        {
+          "num": 19,
+          "question": "Which finish would be most appropriate for a high-traffic commercial corridor?",
+          "choices": [
+            "Natural wool carpet with low pile",
+            "Silk wall covering",
+            "Polished plaster",
+            "Commercial vinyl or sealed concrete"
+          ],
+          "answer": "D",
+          "explanation": "Commercial vinyl or sealed concrete withstands high traffic; wool, silk, and polished plaster are less durable in corridors."
+        },
+        {
+          "num": 20,
+          "question": "The typical desk height for writing or keyboard tasks is:",
+          "choices": [
+            "24 inches",
+            "28-30 inches",
+            "36 inches",
+            "42 inches"
+          ],
+          "answer": "B",
+          "explanation": "Desks for writing/keyboard use are typically 28-30 inches high."
+        },
+        {
+          "num": 21,
+          "question": "IBC occupant load factor for business areas is typically:",
+          "choices": [
+            "100 gross square feet per person",
+            "150 gross square feet per person",
+            "200 gross square feet per person",
+            "50 gross square feet per person"
+          ],
+          "answer": "A",
+          "explanation": "IBC occupant load factor for business areas is 100 gross sq ft per person."
+        },
+        {
+          "num": 22,
+          "question": "In a two-story building, how many exits are generally required from each story?",
+          "choices": [
+            "One",
+            "At least two (with exceptions for small occupant loads)",
+            "Three",
+            "Four"
+          ],
+          "answer": "B",
+          "explanation": "Generally two exits are required per story; exceptions apply for small occupant loads or single-story cases."
+        },
+        {
+          "num": 23,
+          "question": "The designer's role during bidding is primarily to:",
+          "choices": [
+            "Execute the construction contract",
+            "Answer bidder questions, issue addenda, and assist the owner in evaluating bids",
+            "Prepare shop drawings",
+            "Approve bonds"
+          ],
+          "answer": "B",
+          "explanation": "During bidding, designers assist by answering questions, issuing addenda, and evaluating bids."
+        },
+        {
+          "num": 24,
+          "question": "Programming primarily establishes:",
+          "choices": [
+            "The final floor plan",
+            "Goals, needs, functional requirements, and constraints",
+            "Final finish selections",
+            "The construction contract"
+          ],
+          "answer": "B",
+          "explanation": "Programming defines goals, needs, functional requirements, and constraints before design begins."
+        },
+        {
+          "num": 25,
+          "question": "A deductive change order:",
+          "choices": [
+            "Adds work to the contract",
+            "Removes work and typically reduces the contract price",
+            "Extends the schedule",
+            "Changes only the color"
+          ],
+          "answer": "B",
+          "explanation": "A deductive change order removes scope and typically reduces contract cost."
+        },
+        {
+          "num": 26,
+          "question": "CSI MasterFormat Division 10 covers:",
+          "choices": [
+            "Finishes",
+            "Specialties (e.g., partitions, toilet accessories, signage)",
+            "Openings",
+            "Equipment"
+          ],
+          "answer": "B",
+          "explanation": "Division 10 covers Specialties (partitions, toilet accessories, signage)."
+        },
+        {
+          "num": 27,
+          "question": "Section drawings are typically drawn at what scale for interior millwork details?",
+          "choices": [
+            "1/16 inch = 1 foot",
+            "1/4 inch = 1 foot",
+            "1/2 inch or 1 inch = 1 foot",
+            "3 inch = 1 foot"
+          ],
+          "answer": "C",
+          "explanation": "Millwork details are typically 1/2 inch, 1 inch, or 3 inch = 1 foot scales."
+        },
+        {
+          "num": 28,
+          "question": "Occupancy Group R-1 is:",
+          "choices": [
+            "Apartment buildings",
+            "Hotels/motels",
+            "Dormitories",
+            "Single family homes"
+          ],
+          "answer": "B",
+          "explanation": "R-1 is transient lodging (hotels/motels). Apartments are R-2."
+        },
+        {
+          "num": 29,
+          "question": "A contract with a stipulated sum is:",
+          "choices": [
+            "Time and materials",
+            "A fixed lump-sum amount for the defined scope",
+            "A unit-price contract",
+            "A guaranteed maximum"
+          ],
+          "answer": "B",
+          "explanation": "Stipulated-sum contracts set a fixed lump-sum price for the defined scope."
+        },
+        {
+          "num": 30,
+          "question": "The IAQ credit in LEED relates to:",
+          "choices": [
+            "Water savings",
+            "Indoor air quality",
+            "Energy optimization",
+            "Waste diversion"
+          ],
+          "answer": "B",
+          "explanation": "The IAQ category of LEED focuses on indoor air quality."
+        },
+        {
+          "num": 31,
+          "question": "The maximum dead-end corridor length in most sprinklered business occupancies is:",
+          "choices": [
+            "10 feet",
+            "20 feet",
+            "30 feet (sprinklered) or 50 feet in some conditions",
+            "75 feet"
+          ],
+          "answer": "C",
+          "explanation": "Dead-end corridors are typically limited to 20 feet; 30 feet when sprinklered, or 50 feet in certain B occupancies with sprinklers."
+        },
+        {
+          "num": 32,
+          "question": "A retainage clause in a contract:",
+          "choices": [
+            "Eliminates change orders",
+            "Holds back a percentage of payment until substantial or final completion",
+            "Guarantees profit",
+            "Allows the owner to terminate"
+          ],
+          "answer": "B",
+          "explanation": "Retainage holds back a payment percentage until completion milestones are achieved."
+        },
+        {
+          "num": 33,
+          "question": "Schematic Design deliverables typically include:",
+          "choices": [
+            "Final construction drawings",
+            "Space allocation plans, preliminary elevations, and concept diagrams",
+            "Shop drawings",
+            "Submittal log"
+          ],
+          "answer": "B",
+          "explanation": "SD deliverables typically include space allocation plans, preliminary elevations, and concept diagrams."
+        },
+        {
+          "num": 34,
+          "question": "Class B flame spread rating is:",
+          "choices": [
+            "0-25",
+            "26-75",
+            "76-200",
+            "201-500"
+          ],
+          "answer": "B",
+          "explanation": "Class B flame spread is 26-75."
+        },
+        {
+          "num": 35,
+          "question": "An addendum is issued:",
+          "choices": [
+            "After construction ends",
+            "During bidding, to modify bid documents before contract signing",
+            "Only by the contractor",
+            "Only after occupancy"
+          ],
+          "answer": "B",
+          "explanation": "Addenda modify bid documents during the bidding period before contract signing."
+        },
+        {
+          "num": 36,
+          "question": "A performance specification:",
+          "choices": [
+            "Names a specific brand only",
+            "Defines the required results/performance and lets the contractor choose how to achieve them",
+            "Lists only dimensions",
+            "Describes installation methods only"
+          ],
+          "answer": "B",
+          "explanation": "Performance specs define required outcomes, leaving means to the contractor."
+        },
+        {
+          "num": 37,
+          "question": "Which is a key responsibility of an interior designer under the code of ethics?",
+          "choices": [
+            "Competing on price only",
+            "Avoiding conflicts of interest and disclosing any that arise",
+            "Guaranteeing lowest cost",
+            "Refusing to collaborate"
+          ],
+          "answer": "B",
+          "explanation": "Ethics codes require avoiding and disclosing conflicts of interest."
+        },
+        {
+          "num": 38,
+          "question": "A bond in construction contracting typically:",
+          "choices": [
+            "Refers to financial investment",
+            "Is a surety that guarantees performance or payment",
+            "Is the initial deposit",
+            "Is a licensing requirement"
+          ],
+          "answer": "B",
+          "explanation": "Bonds (bid, performance, payment) are surety instruments guaranteeing obligations."
+        },
+        {
+          "num": 39,
+          "question": "A mechanical engineer on an interior project most directly designs:",
+          "choices": [
+            "Lighting fixtures",
+            "HVAC equipment and ductwork layouts",
+            "Floor finishes",
+            "Graphic signage"
+          ],
+          "answer": "B",
+          "explanation": "Mechanical engineers design HVAC systems (equipment, ductwork, controls)."
+        },
+        {
+          "num": 40,
+          "question": "An open office with 3000 sq ft of office space would have an occupant load of approximately (at 100 gross sq ft / person):",
+          "choices": [
+            "10",
+            "20",
+            "30",
+            "50"
+          ],
+          "answer": "C",
+          "explanation": "3000 sq ft / 100 sq ft per person = 30 occupants."
+        },
+        {
+          "num": 41,
+          "question": "On an RCP, linear LED pendants over a conference table are typically shown with:",
+          "choices": [
+            "Circles only",
+            "A rectangular or linear symbol with mounting notes and circuit designation",
+            "A dashed arc",
+            "A hexagon"
+          ],
+          "answer": "B",
+          "explanation": "Linear pendants are shown with linear or rectangular symbols with mounting and circuit notes."
+        },
+        {
+          "num": 42,
+          "question": "A door schedule typically includes:",
+          "choices": [
+            "Fabric selection",
+            "Door number, size, material, type, rating, hardware group, and frame type",
+            "Light fixture info",
+            "Floor finish"
+          ],
+          "answer": "B",
+          "explanation": "Door schedules list door number, size, material, type, rating, hardware, and frame info."
+        },
+        {
+          "num": 43,
+          "question": "A foot-candle level of 5 is most appropriate for:",
+          "choices": [
+            "General office work",
+            "Detailed drafting",
+            "Circulation/egress lighting or atmospheric retail areas",
+            "Surgical suites"
+          ],
+          "answer": "C",
+          "explanation": "Low foot-candle levels (around 5 fc) suit circulation, egress, or atmospheric retail."
+        },
+        {
+          "num": 44,
+          "question": "Lamp efficacy is measured in:",
+          "choices": [
+            "Foot-candles",
+            "Lumens per watt",
+            "Kelvins",
+            "Candelas"
+          ],
+          "answer": "B",
+          "explanation": "Efficacy is measured in lumens per watt."
+        },
+        {
+          "num": 45,
+          "question": "A CCT of 3500K is described as:",
+          "choices": [
+            "Warm white",
+            "Neutral white",
+            "Cool white",
+            "Daylight"
+          ],
+          "answer": "B",
+          "explanation": "3500K is neutral white (between warm 2700-3000K and cool 4000-5000K)."
+        },
+        {
+          "num": 46,
+          "question": "Coordination with the fire protection engineer is needed primarily for:",
+          "choices": [
+            "Paint colors",
+            "Sprinkler head locations relative to ceilings and partitions",
+            "Furniture fabrics",
+            "Electrical outlets"
+          ],
+          "answer": "B",
+          "explanation": "Sprinkler head locations must be coordinated with ceiling grids, partitions, and fixtures."
+        },
+        {
+          "num": 47,
+          "question": "When a shop drawing conflicts with the contract drawings:",
+          "choices": [
+            "Shop drawing governs",
+            "The contract drawings govern; the designer clarifies via markup or RFI response",
+            "The contractor decides",
+            "The owner rewrites the specifications"
+          ],
+          "answer": "B",
+          "explanation": "Contract drawings govern; the designer clarifies conflicts via RFI or markup."
+        },
+        {
+          "num": 48,
+          "question": "An appropriate acoustic treatment for a home theater wall would be:",
+          "choices": [
+            "Ceramic tile",
+            "Fabric-wrapped acoustic panels over fiberglass",
+            "Glossy paint",
+            "Metal sheeting"
+          ],
+          "answer": "B",
+          "explanation": "Fabric-wrapped acoustic panels with fiberglass core are ideal for home theater absorption."
+        },
+        {
+          "num": 49,
+          "question": "A rated door assembly includes:",
+          "choices": [
+            "Just the door leaf",
+            "Door, frame, hardware, and any glazing - all with matching ratings and labels",
+            "Paint finish only",
+            "Structural anchors only"
+          ],
+          "answer": "B",
+          "explanation": "A rated door assembly includes door, frame, hardware, and glazing - all with matching labels."
+        },
+        {
+          "num": 50,
+          "question": "An isolated ground receptacle (IG) is often specified for:",
+          "choices": [
+            "All general receptacles",
+            "Sensitive electronic equipment to minimize electrical noise",
+            "Exterior locations",
+            "Outdoor pools only"
+          ],
+          "answer": "B",
+          "explanation": "IG receptacles reduce electrical noise for sensitive electronic equipment."
+        },
+        {
+          "num": 51,
+          "question": "The ADA-required slip resistance for walking surfaces is characterized by:",
+          "choices": [
+            "High gloss only",
+            "A stable, firm, and slip-resistant surface",
+            "Textured carpet",
+            "Polished marble"
+          ],
+          "answer": "B",
+          "explanation": "ADA requires stable, firm, slip-resistant walking surfaces."
+        },
+        {
+          "num": 52,
+          "question": "A detail callout on a drawing references:",
+          "choices": [
+            "A separate detail drawing showing enlarged information at a specified location",
+            "The schedule only",
+            "The RCP",
+            "The site plan"
+          ],
+          "answer": "A",
+          "explanation": "Detail callouts reference enlarged detail drawings at a specified location."
+        },
+        {
+          "num": 53,
+          "question": "When coordinating with a structural engineer on a tenant improvement that includes a new opening in a load-bearing wall, the designer should:",
+          "choices": [
+            "Proceed without engineer input",
+            "Provide dimensions and obtain structural detailing, modifications, and approval",
+            "Hire a contractor to decide",
+            "Use only existing details"
+          ],
+          "answer": "B",
+          "explanation": "Load-bearing alterations require structural engineer detailing and approval."
+        },
+        {
+          "num": 54,
+          "question": "A partition with an IIC rating addresses:",
+          "choices": [
+            "Impact noise transmission (typically through floor/ceiling assemblies)",
+            "Fire resistance",
+            "Smoke transmission",
+            "Light transmittance"
+          ],
+          "answer": "A",
+          "explanation": "IIC (Impact Insulation Class) rates impact noise through floor/ceiling assemblies."
+        },
+        {
+          "num": 55,
+          "question": "A furniture installation coordination plan would include:",
+          "choices": [
+            "Only dimensions",
+            "Delivery schedule, staging area, access routes, installation sequence, and responsibilities",
+            "Paint colors only",
+            "RFI log"
+          ],
+          "answer": "B",
+          "explanation": "Installation coordination plans cover delivery, staging, access, sequencing, and responsibilities."
+        },
+        {
+          "num": 56,
+          "question": "A smoke partition:",
+          "choices": [
+            "Is a 2-hour fire wall",
+            "Restricts movement of smoke; typically not fire-rated but has sealed penetrations",
+            "Requires sprinklers only",
+            "Requires 1/4-hour rating"
+          ],
+          "answer": "B",
+          "explanation": "Smoke partitions limit smoke movement; they usually are not fire-rated but require sealed penetrations."
+        },
+        {
+          "num": 57,
+          "question": "Shop drawings for a systems furniture installation primarily show:",
+          "choices": [
+            "Structural calculations",
+            "Panel configuration, electrical connections, component dimensions, and finish schedules",
+            "Code compliance only",
+            "Paint colors only"
+          ],
+          "answer": "B",
+          "explanation": "Systems furniture shop drawings show panels, electrical, components, and finishes."
+        },
+        {
+          "num": 58,
+          "question": "A substantial completion certificate indicates that the work:",
+          "choices": [
+            "Is fully complete with no remaining items",
+            "Is sufficiently complete that the owner can occupy or utilize the space for its intended purpose",
+            "Has been abandoned",
+            "Requires permitting"
+          ],
+          "answer": "B",
+          "explanation": "Substantial completion allows the owner to occupy or use the space for its intended purpose."
+        },
+        {
+          "num": 59,
+          "question": "Textile flammability for upholstered seating in public buildings is often tested by:",
+          "choices": [
+            "NFPA 701",
+            "CAL TB 133 (California Technical Bulletin 133) for full-seat ignition",
+            "ASTM E119",
+            "IEC 60529"
+          ],
+          "answer": "B",
+          "explanation": "CAL TB 133 tests full-assembly seating for use in public occupancies in many jurisdictions."
+        },
+        {
+          "num": 60,
+          "question": "The scale 1/2 inch = 1 foot would most appropriately be used for:",
+          "choices": [
+            "Overall building floor plans",
+            "Detailed interior elevations of millwork or small rooms",
+            "Site plans",
+            "Urban diagrams"
+          ],
+          "answer": "B",
+          "explanation": "1/2 inch = 1 foot is appropriate for detailed interior elevations and small rooms."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2183 @@
+{
+  "slug": "poss",
+  "title": "POSS Exam Study Guide",
+  "code": "POSS-2LI3E-RUWFW",
+  "timeMinutes": 77,
+  "tests": [
+    {
+      "testNum": 1,
+      "questions": [
+        {
+          "num": 1,
+          "question": "What is the primary function of a cooling tower in a power plant?",
+          "choices": [
+            "To generate electricity from steam",
+            "To remove waste heat from condenser water",
+            "To filter impurities from boiler water",
+            "To store water for emergency use"
+          ],
+          "answer": "B",
+          "explanation": "The passage states cooling towers remove waste heat from the plant's condenser water by transferring it to the atmosphere."
+        },
+        {
+          "num": 2,
+          "question": "According to the passage, what causes air to move upward in a natural draft cooling tower?",
+          "choices": [
+            "Mechanical fans at the top of the tower",
+            "The chimney effect created by the tower's shape",
+            "Vacuum pumps connected to the tower",
+            "High-pressure steam injection"
+          ],
+          "answer": "B",
+          "explanation": "The passage explains that air is drawn upward by the chimney effect of the tower's shape in a natural draft cooling tower."
+        },
+        {
+          "num": 3,
+          "question": "What is the purpose of blowdown in a cooling tower system?",
+          "choices": [
+            "To increase water pressure in the system",
+            "To add chemicals for water treatment",
+            "To control the concentration of dissolved solids",
+            "To cool the water more quickly"
+          ],
+          "answer": "C",
+          "explanation": "The passage defines blowdown as the intentional discharge of water to control the concentration of dissolved solids."
+        },
+        {
+          "num": 4,
+          "question": "By how much does evaporation typically reduce the water temperature?",
+          "choices": [
+            "5 to 8 degrees Fahrenheit",
+            "10 to 15 degrees Fahrenheit",
+            "20 to 25 degrees Fahrenheit",
+            "30 to 35 degrees Fahrenheit"
+          ],
+          "answer": "B",
+          "explanation": "The passage states evaporation typically reduces water temperature by 10 to 15 degrees Fahrenheit."
+        },
+        {
+          "num": 5,
+          "question": "What problem can occur if blowdown is not properly managed?",
+          "choices": [
+            "The tower structure may collapse",
+            "Water levels will drop below minimum",
+            "Mineral deposits can reduce heat transfer efficiency",
+            "The cooling tower will overheat"
+          ],
+          "answer": "C",
+          "explanation": "The passage states that without proper blowdown, mineral deposits can form on heat transfer surfaces, reducing efficiency."
+        },
+        {
+          "num": 6,
+          "question": "What must happen before maintenance work begins on power plant equipment?",
+          "choices": [
+            "The equipment must be tested at full capacity",
+            "The energy source must be isolated and locked out",
+            "A safety inspector must approve the work order",
+            "All employees must leave the work area"
+          ],
+          "answer": "B",
+          "explanation": "The passage states that before any maintenance work begins, the energy source must be isolated and locked out."
+        },
+        {
+          "num": 7,
+          "question": "Who is permitted to remove a lockout lock under normal circumstances?",
+          "choices": [
+            "Any qualified maintenance worker",
+            "The shift supervisor on duty",
+            "The person who placed the lock",
+            "The plant safety officer"
+          ],
+          "answer": "C",
+          "explanation": "The passage states that each lock can only be removed by the person who placed it under normal circumstances."
+        },
+        {
+          "num": 8,
+          "question": "What information does the tag attached to a lockout device identify?",
+          "choices": [
+            "The equipment manufacturer and model",
+            "Who locked out the equipment and why",
+            "The date the equipment was last serviced",
+            "The maximum operating temperature"
+          ],
+          "answer": "B",
+          "explanation": "The passage says the tag identifies who locked out the equipment and why."
+        },
+        {
+          "num": 9,
+          "question": "If three workers are performing maintenance on the same piece of equipment, how many locks should be on the energy-isolating device?",
+          "choices": [
+            "One lock from the lead worker",
+            "Two locks from the senior workers",
+            "Three locks, one from each worker",
+            "One master lock from the supervisor"
+          ],
+          "answer": "C",
+          "explanation": "The passage states each worker performing maintenance must apply their own lock, so three workers means three locks."
+        },
+        {
+          "num": 10,
+          "question": "Under what condition may a supervisor authorize removal of another employee's lock?",
+          "choices": [
+            "When the maintenance work is complete",
+            "When the shift changes",
+            "When the employee who placed the lock is unavailable",
+            "When the equipment needs to be tested"
+          ],
+          "answer": "C",
+          "explanation": "The passage states a supervisor may authorize removal when the employee who placed the lock is unavailable, following specific verification procedures."
+        },
+        {
+          "num": 11,
+          "question": "What three problems can untreated water cause in power plant equipment?",
+          "choices": [
+            "Leaking, cracking, and explosion",
+            "Corrosion, scaling, and fouling",
+            "Overheating, freezing, and flooding",
+            "Vibration, noise, and misalignment"
+          ],
+          "answer": "B",
+          "explanation": "The passage lists corrosion, scaling, and fouling as the three problems untreated water can cause."
+        },
+        {
+          "num": 12,
+          "question": "What type of ions do cation resins remove from water?",
+          "choices": [
+            "Negatively charged ions",
+            "Neutral ions",
+            "Positively charged ions",
+            "Radioactive ions"
+          ],
+          "answer": "C",
+          "explanation": "The passage states cation resins remove positively charged ions such as calcium and magnesium."
+        },
+        {
+          "num": 13,
+          "question": "How is the need for resin regeneration determined?",
+          "choices": [
+            "By measuring the water temperature",
+            "By testing the water pH level",
+            "By monitoring the conductivity of treated water",
+            "By checking the flow rate through the resins"
+          ],
+          "answer": "C",
+          "explanation": "The passage states that monitoring the conductivity of treated water indicates when regeneration is needed."
+        },
+        {
+          "num": 14,
+          "question": "What does rising conductivity in treated water indicate?",
+          "choices": [
+            "The water temperature is increasing",
+            "Minerals are passing through the resin beds",
+            "The water pressure is too high",
+            "Chemical treatment is working properly"
+          ],
+          "answer": "B",
+          "explanation": "The passage explains that rising conductivity signals that minerals are passing through the resin beds."
+        },
+        {
+          "num": 15,
+          "question": "What is the target conductivity for properly treated boiler water?",
+          "choices": [
+            "Below 0.1 microsiemens per centimeter",
+            "Below 1.0 microsiemens per centimeter",
+            "Below 10.0 microsiemens per centimeter",
+            "Below 100.0 microsiemens per centimeter"
+          ],
+          "answer": "B",
+          "explanation": "The passage states properly treated boiler water should have conductivity below 1.0 microsiemens per centimeter."
+        },
+        {
+          "num": 16,
+          "question": "A centrifugal pump with an 8-inch impeller is spinning at 1,750 RPM. If the impeller is replaced with a 10-inch impeller at the same speed, what happens to the flow rate?",
+          "choices": [
+            "Flow rate decreases by 20%",
+            "Flow rate increases proportionally to the diameter ratio",
+            "Flow rate stays the same",
+            "Flow rate doubles"
+          ],
+          "answer": "B",
+          "explanation": "Centrifugal pump affinity laws state that flow is proportional to the impeller diameter ratio. A 10-inch impeller vs. 8-inch means flow increases by the ratio 10/8 = 1.25, or 25%."
+        },
+        {
+          "num": 17,
+          "question": "In a gear system, a 20-tooth gear meshes with a 60-tooth gear. If the smaller gear rotates at 900 RPM, what is the speed of the larger gear?",
+          "choices": [
+            "150 RPM",
+            "300 RPM",
+            "600 RPM",
+            "2,700 RPM"
+          ],
+          "answer": "B",
+          "explanation": "Gear ratio = 20/60 = 1/3. The larger gear turns at 900 x (20/60) = 300 RPM."
+        },
+        {
+          "num": 18,
+          "question": "A hydraulic system uses a 2-inch diameter cylinder to lift a load. If the pressure gauge reads 500 PSI, approximately what force is the cylinder exerting?",
+          "choices": [
+            "785 pounds",
+            "1,000 pounds",
+            "1,571 pounds",
+            "3,142 pounds"
+          ],
+          "answer": "C",
+          "explanation": "Force = Pressure x Area. Area of a 2-inch diameter cylinder = pi x r^2 = 3.14 x 1^2 = 3.14 sq in. Force = 500 x 3.14 = 1,571 pounds."
+        },
+        {
+          "num": 19,
+          "question": "Which type of valve is best suited for throttling flow in a steam line?",
+          "choices": [
+            "Gate valve",
+            "Ball valve",
+            "Globe valve",
+            "Check valve"
+          ],
+          "answer": "C",
+          "explanation": "Globe valves are best suited for throttling because their design allows precise flow regulation through the disc and seat arrangement."
+        },
+        {
+          "num": 20,
+          "question": "A belt drive connects a 6-inch motor pulley to a 18-inch driven pulley. If the motor runs at 1,800 RPM, what is the speed of the driven pulley?",
+          "choices": [
+            "200 RPM",
+            "400 RPM",
+            "600 RPM",
+            "5,400 RPM"
+          ],
+          "answer": "C",
+          "explanation": "Driven speed = Motor speed x (Driver diameter / Driven diameter) = 1,800 x (6/18) = 600 RPM."
+        },
+        {
+          "num": 21,
+          "question": "What is the primary purpose of a check valve in a piping system?",
+          "choices": [
+            "To regulate flow speed",
+            "To prevent reverse flow",
+            "To reduce pressure",
+            "To mix fluids"
+          ],
+          "answer": "B",
+          "explanation": "A check valve allows flow in one direction only, preventing reverse flow or backflow in a piping system."
+        },
+        {
+          "num": 22,
+          "question": "A lever has its fulcrum placed 2 feet from a 200-pound load and 6 feet from the effort. What force is needed to balance the load?",
+          "choices": [
+            "33.3 pounds",
+            "66.7 pounds",
+            "100 pounds",
+            "600 pounds"
+          ],
+          "answer": "B",
+          "explanation": "Using the lever principle: Effort x Effort arm = Load x Load arm. Effort x 6 = 200 x 2. Effort = 400/6 = 66.7 pounds."
+        },
+        {
+          "num": 23,
+          "question": "When two shafts need to be connected but are slightly misaligned, which coupling type is most appropriate?",
+          "choices": [
+            "Rigid flange coupling",
+            "Flexible jaw coupling",
+            "Welded coupling",
+            "Threaded coupling"
+          ],
+          "answer": "B",
+          "explanation": "Flexible jaw couplings accommodate slight misalignment between shafts while transmitting torque. Rigid couplings require perfect alignment."
+        },
+        {
+          "num": 24,
+          "question": "A pressure relief valve is set to open at 150 PSI. If the system pressure reaches 160 PSI, what should the valve do?",
+          "choices": [
+            "Remain closed until manually opened",
+            "Open to release excess pressure",
+            "Send an alarm signal but stay closed",
+            "Gradually increase its set point"
+          ],
+          "answer": "B",
+          "explanation": "A pressure relief valve is designed to open automatically when system pressure exceeds its set point (150 PSI) to release excess pressure and protect the system."
+        },
+        {
+          "num": 25,
+          "question": "In a double-acting hydraulic cylinder, what happens when hydraulic fluid is applied to the rod side of the piston?",
+          "choices": [
+            "The piston extends",
+            "The piston retracts",
+            "The piston locks in place",
+            "The cylinder rotates"
+          ],
+          "answer": "B",
+          "explanation": "When hydraulic fluid is applied to the rod side of a double-acting cylinder, the pressure pushes on the piston face opposite the rod, causing the piston to retract."
+        },
+        {
+          "num": 26,
+          "question": "A simple pulley system has three supporting ropes. If a 600-pound load needs to be lifted, what is the approximate force required (ignoring friction)?",
+          "choices": [
+            "100 pounds",
+            "200 pounds",
+            "300 pounds",
+            "600 pounds"
+          ],
+          "answer": "B",
+          "explanation": "With three supporting ropes, the mechanical advantage is 3. Force = Load / MA = 600 / 3 = 200 pounds."
+        },
+        {
+          "num": 27,
+          "question": "What happens to the boiling point of water as pressure increases?",
+          "choices": [
+            "The boiling point decreases",
+            "The boiling point increases",
+            "The boiling point remains the same",
+            "The boiling point fluctuates randomly"
+          ],
+          "answer": "B",
+          "explanation": "As pressure increases, the boiling point of water increases. At higher pressures, more energy is needed to convert liquid to vapor."
+        },
+        {
+          "num": 28,
+          "question": "A pipe has an inside diameter of 4 inches and carries water at 10 feet per second. If the pipe narrows to 2 inches in diameter, what happens to the flow velocity?",
+          "choices": [
+            "It decreases to 5 feet per second",
+            "It stays at 10 feet per second",
+            "It increases to 20 feet per second",
+            "It increases to 40 feet per second"
+          ],
+          "answer": "D",
+          "explanation": "By the continuity equation, A1 x V1 = A2 x V2. The area ratio is (4/2)^2 = 4. So V2 = 10 x 4 = 40 ft/s."
+        },
+        {
+          "num": 29,
+          "question": "Which type of bearing is designed to handle both radial and axial (thrust) loads simultaneously?",
+          "choices": [
+            "Deep groove ball bearing",
+            "Cylindrical roller bearing",
+            "Needle roller bearing",
+            "Tapered roller bearing"
+          ],
+          "answer": "D",
+          "explanation": "Tapered roller bearings are specifically designed to handle both radial loads and axial (thrust) loads simultaneously due to their angled design."
+        },
+        {
+          "num": 30,
+          "question": "In a heat exchanger, if the hot fluid inlet temperature is 300 degrees F and the outlet is 200 degrees F, and the cold fluid enters at 80 degrees F and exits at 150 degrees F, what is the temperature drop of the hot fluid?",
+          "choices": [
+            "50 degrees F",
+            "70 degrees F",
+            "100 degrees F",
+            "150 degrees F"
+          ],
+          "answer": "C",
+          "explanation": "Temperature drop of the hot fluid = 300 - 200 = 100 degrees F."
+        },
+        {
+          "num": 31,
+          "question": "A storage tank holds 5,000 gallons of water. If a pump removes water at a rate of 125 gallons per minute, how long will it take to empty the tank?",
+          "choices": [
+            "25 minutes",
+            "40 minutes",
+            "50 minutes",
+            "62.5 minutes"
+          ],
+          "answer": "B",
+          "explanation": "Time = Volume / Rate = 5,000 / 125 = 40 minutes."
+        },
+        {
+          "num": 32,
+          "question": "A power plant burns 2.4 tons of coal per hour. How many tons of coal are consumed in a 3-day period of continuous operation?",
+          "choices": [
+            "57.6 tons",
+            "72 tons",
+            "144 tons",
+            "172.8 tons"
+          ],
+          "answer": "D",
+          "explanation": "Hours in 3 days = 3 x 24 = 72 hours. Coal consumed = 2.4 x 72 = 172.8 tons."
+        },
+        {
+          "num": 33,
+          "question": "A cylindrical tank has a diameter of 10 feet and a height of 12 feet. What is the approximate volume of the tank in cubic feet? (Use 3.14 for pi)",
+          "choices": [
+            "376.8 cubic feet",
+            "628 cubic feet",
+            "942 cubic feet",
+            "1,884 cubic feet"
+          ],
+          "answer": "C",
+          "explanation": "Volume = pi x r^2 x h = 3.14 x 5^2 x 12 = 3.14 x 25 x 12 = 942 cubic feet."
+        },
+        {
+          "num": 34,
+          "question": "If electricity costs $0.08 per kilowatt-hour, what is the cost to run a 5,000-watt pump continuously for 24 hours?",
+          "choices": [
+            "$4.80",
+            "$9.60",
+            "$12.00",
+            "$96.00"
+          ],
+          "answer": "B",
+          "explanation": "5,000 watts = 5 kW. Cost = 5 kW x 24 hrs x $0.08/kWh = $9.60."
+        },
+        {
+          "num": 35,
+          "question": "A pressure gauge reads 45 PSI. Convert this reading to inches of mercury. (1 PSI = 2.036 inches of mercury)",
+          "choices": [
+            "22.1 inches of mercury",
+            "45.0 inches of mercury",
+            "91.6 inches of mercury",
+            "183.2 inches of mercury"
+          ],
+          "answer": "C",
+          "explanation": "45 PSI x 2.036 in Hg/PSI = 91.62 inches of mercury."
+        },
+        {
+          "num": 36,
+          "question": "A boiler produces 20,000 pounds of steam per hour. If the steam has an energy content of 1,200 BTU per pound, how many BTU per hour does the boiler produce?",
+          "choices": [
+            "16,667 BTU/hr",
+            "2,400,000 BTU/hr",
+            "24,000,000 BTU/hr",
+            "240,000,000 BTU/hr"
+          ],
+          "answer": "C",
+          "explanation": "BTU/hr = 20,000 lb/hr x 1,200 BTU/lb = 24,000,000 BTU/hr."
+        },
+        {
+          "num": 37,
+          "question": "A pipe carries water at 200 gallons per minute. How many gallons will flow through the pipe in 8 hours?",
+          "choices": [
+            "1,600 gallons",
+            "16,000 gallons",
+            "96,000 gallons",
+            "960,000 gallons"
+          ],
+          "answer": "C",
+          "explanation": "Gallons = 200 gpm x 60 min/hr x 8 hrs = 96,000 gallons."
+        },
+        {
+          "num": 38,
+          "question": "A generator operates at 85% efficiency. If it receives 10,000 horsepower of mechanical energy, how much electrical horsepower does it produce?",
+          "choices": [
+            "1,500 horsepower",
+            "8,500 horsepower",
+            "10,000 horsepower",
+            "11,765 horsepower"
+          ],
+          "answer": "B",
+          "explanation": "Output = Input x Efficiency = 10,000 x 0.85 = 8,500 horsepower."
+        },
+        {
+          "num": 39,
+          "question": "Convert 350 degrees Fahrenheit to Celsius. (C = (F - 32) x 5/9)",
+          "choices": [
+            "143.3 degrees C",
+            "162.2 degrees C",
+            "176.7 degrees C",
+            "194.4 degrees C"
+          ],
+          "answer": "C",
+          "explanation": "C = (350 - 32) x 5/9 = 318 x 5/9 = 176.7 degrees C."
+        },
+        {
+          "num": 40,
+          "question": "A rectangular fuel tank measures 8 feet long, 4 feet wide, and 3 feet deep. If one cubic foot holds 7.48 gallons, what is the capacity of the tank in gallons?",
+          "choices": [
+            "96 gallons",
+            "359.0 gallons",
+            "568.5 gallons",
+            "718.1 gallons"
+          ],
+          "answer": "D",
+          "explanation": "Volume = 8 x 4 x 3 = 96 cubic feet. Gallons = 96 x 7.48 = 718.1 gallons."
+        },
+        {
+          "num": 41,
+          "question": "A plant operates 3 shifts per day, 7 days a week. If 12 operators are needed per shift, how many operator-shifts are worked in 4 weeks?",
+          "choices": [
+            "252 operator-shifts",
+            "336 operator-shifts",
+            "504 operator-shifts",
+            "1,008 operator-shifts"
+          ],
+          "answer": "D",
+          "explanation": "Shifts per day = 3. Operators per shift = 12. Days in 4 weeks = 28. Total = 3 x 12 x 28 = 1,008 operator-shifts."
+        },
+        {
+          "num": 42,
+          "question": "A flow meter shows 2,500 gallons per minute passing through a pipe. Express this flow rate in gallons per hour.",
+          "choices": [
+            "25,000 gal/hr",
+            "41,667 gal/hr",
+            "150,000 gal/hr",
+            "250,000 gal/hr"
+          ],
+          "answer": "C",
+          "explanation": "2,500 gal/min x 60 min/hr = 150,000 gal/hr."
+        },
+        {
+          "num": 43,
+          "question": "If a 50-gallon chemical drum weighs 425 pounds when full and the empty drum weighs 50 pounds, what is the weight per gallon of the chemical?",
+          "choices": [
+            "7.5 pounds per gallon",
+            "8.0 pounds per gallon",
+            "8.5 pounds per gallon",
+            "9.5 pounds per gallon"
+          ],
+          "answer": "A",
+          "explanation": "Weight of chemical = 425 - 50 = 375 pounds. Weight per gallon = 375 / 50 = 7.5 lb/gal."
+        },
+        {
+          "num": 44,
+          "question": "A motor draws 15 amps at 480 volts. What is the power consumption in watts?",
+          "choices": [
+            "32 watts",
+            "495 watts",
+            "3,200 watts",
+            "7,200 watts"
+          ],
+          "answer": "D",
+          "explanation": "Power = Voltage x Current = 480 x 15 = 7,200 watts."
+        },
+        {
+          "num": 45,
+          "question": "A cooling water system loses 3% of its volume to evaporation each hour. If the system holds 100,000 gallons, how many gallons of makeup water are needed per 8-hour shift?",
+          "choices": [
+            "3,000 gallons",
+            "12,000 gallons",
+            "24,000 gallons",
+            "30,000 gallons"
+          ],
+          "answer": "C",
+          "explanation": "Evaporation per hour = 100,000 x 0.03 = 3,000 gallons. For 8 hours = 3,000 x 8 = 24,000 gallons."
+        },
+        {
+          "num": 46,
+          "question": "A pump must fill a 15,000-gallon tank in 2.5 hours. What flow rate in gallons per minute is required?",
+          "choices": [
+            "60 gpm",
+            "75 gpm",
+            "100 gpm",
+            "150 gpm"
+          ],
+          "answer": "C",
+          "explanation": "Flow rate = 15,000 gal / 2.5 hrs = 6,000 gal/hr = 6,000 / 60 = 100 gpm."
+        },
+        {
+          "num": 47,
+          "question": "A plant's coal pile contains 8,500 tons. If the plant burns 350 tons per day, how many full days of fuel supply remain?",
+          "choices": [
+            "20 days",
+            "24 days",
+            "28 days",
+            "30 days"
+          ],
+          "answer": "B",
+          "explanation": "Days = 8,500 / 350 = 24.28, so 24 full days of fuel supply remain."
+        },
+        {
+          "num": 48,
+          "question": "If 1 BTU raises the temperature of 1 pound of water by 1 degree F, how many BTU are needed to heat 500 pounds of water from 60 degrees F to 212 degrees F?",
+          "choices": [
+            "30,000 BTU",
+            "60,000 BTU",
+            "76,000 BTU",
+            "106,000 BTU"
+          ],
+          "answer": "C",
+          "explanation": "BTU = mass x temperature change = 500 x (212 - 60) = 500 x 152 = 76,000 BTU."
+        },
+        {
+          "num": 49,
+          "question": "A sequence shows: circle, square, triangle, circle, square, triangle, circle, square, ___. What comes next?",
+          "choices": [
+            "Circle",
+            "Square",
+            "Triangle",
+            "Rectangle"
+          ],
+          "answer": "C",
+          "explanation": "The pattern repeats: circle, square, triangle. After circle and square, triangle comes next."
+        },
+        {
+          "num": 50,
+          "question": "A figure is divided into 4 equal quadrants. The top-left is shaded, the top-right is blank, the bottom-left is blank, and the bottom-right is shaded. Which pattern does this represent?",
+          "choices": [
+            "Horizontal symmetry",
+            "Vertical symmetry",
+            "Diagonal symmetry",
+            "No symmetry"
+          ],
+          "answer": "C",
+          "explanation": "Top-left and bottom-right are shaded while top-right and bottom-left are blank. This represents diagonal symmetry."
+        },
+        {
+          "num": 51,
+          "question": "In a 3x3 grid, the pattern shows each row contains a circle, a square, and a triangle. Row 1: circle, square, triangle. Row 2: triangle, circle, square. Row 3: square, triangle, ___. What fills the blank?",
+          "choices": [
+            "Square",
+            "Triangle",
+            "Circle",
+            "Diamond"
+          ],
+          "answer": "C",
+          "explanation": "Each row contains one of each shape. Row 3 has square and triangle, so the missing shape is a circle."
+        },
+        {
+          "num": 52,
+          "question": "A shape sequence shows a square rotated 45 degrees at each step. After 4 rotations, what is the total rotation from the starting position?",
+          "choices": [
+            "90 degrees",
+            "135 degrees",
+            "180 degrees",
+            "360 degrees"
+          ],
+          "answer": "C",
+          "explanation": "4 rotations x 45 degrees = 180 degrees total rotation from the starting position."
+        },
+        {
+          "num": 53,
+          "question": "A figure shows an arrow pointing up, then rotated 90 degrees clockwise to point right, then 90 degrees clockwise to point down. What direction does the arrow point after the next 90-degree clockwise rotation?",
+          "choices": [
+            "Up",
+            "Right",
+            "Down",
+            "Left"
+          ],
+          "answer": "D",
+          "explanation": "Up -> Right -> Down, each 90 degrees clockwise. The next rotation goes from Down to Left."
+        },
+        {
+          "num": 54,
+          "question": "In a pattern, a dot moves one position clockwise around a square (from corner to corner) at each step. It starts at the top-left corner. After 6 steps, where is the dot?",
+          "choices": [
+            "Top-left corner",
+            "Top-right corner",
+            "Bottom-right corner",
+            "Bottom-left corner"
+          ],
+          "answer": "C",
+          "explanation": "Starting at top-left, the dot visits: top-right (1), bottom-right (2), bottom-left (3), top-left (4), top-right (5), bottom-right (6). After 6 steps it is at the bottom-right corner."
+        },
+        {
+          "num": 55,
+          "question": "A sequence of figures shows 1 dot, then 3 dots, then 5 dots, then 7 dots. How many dots appear in the next figure?",
+          "choices": [
+            "8 dots",
+            "9 dots",
+            "10 dots",
+            "11 dots"
+          ],
+          "answer": "B",
+          "explanation": "The pattern increases by 2 each time: 1, 3, 5, 7, 9. The next figure has 9 dots."
+        },
+        {
+          "num": 56,
+          "question": "A shape is reflected over a vertical line. The original shape has a notch on its upper-right side. Where does the notch appear on the reflected shape?",
+          "choices": [
+            "Upper-right side",
+            "Upper-left side",
+            "Lower-right side",
+            "Lower-left side"
+          ],
+          "answer": "B",
+          "explanation": "When reflected over a vertical line, left and right are swapped. A notch on the upper-right appears on the upper-left of the reflection."
+        },
+        {
+          "num": 57,
+          "question": "In a matrix, each row shows a shape increasing in size: small, medium, large. Each column shows the same shape in a different shade: white, gray, black. What belongs in the cell at row 3 (large), column 2 (gray)?",
+          "choices": [
+            "Large white shape",
+            "Large gray shape",
+            "Medium gray shape",
+            "Small black shape"
+          ],
+          "answer": "B",
+          "explanation": "Row 3 = large, Column 2 = gray. The answer is a large gray shape."
+        },
+        {
+          "num": 58,
+          "question": "A folded piece of paper is punched with a hole in the center. When unfolded, the paper was folded in half once vertically. How many holes appear on the unfolded paper?",
+          "choices": [
+            "1 hole",
+            "2 holes",
+            "3 holes",
+            "4 holes"
+          ],
+          "answer": "B",
+          "explanation": "A single fold in half vertically means one hole punch produces 2 holes when unfolded (one on each half)."
+        },
+        {
+          "num": 59,
+          "question": "A sequence alternates between adding a side to a shape and shading it. It starts with an unshaded triangle (3 sides), then a shaded triangle, then an unshaded square (4 sides), then a shaded square. What comes next?",
+          "choices": [
+            "Unshaded pentagon",
+            "Shaded pentagon",
+            "Unshaded hexagon",
+            "Shaded triangle"
+          ],
+          "answer": "A",
+          "explanation": "The pattern alternates: unshaded shape with n sides, shaded shape with n sides, then n increases by 1. After shaded square (4 sides), next is unshaded pentagon (5 sides)."
+        },
+        {
+          "num": 60,
+          "question": "In a 4x4 grid, each row and each column must contain exactly one circle, one square, one triangle, and one star. Row 1 has: star, circle, triangle, square. Row 2 has: triangle, square, star, circle. Row 3 has: circle, triangle, square, star. What is in position Row 4, Column 1?",
+          "choices": [
+            "Circle",
+            "Square",
+            "Triangle",
+            "Star"
+          ],
+          "answer": "B",
+          "explanation": "Each row and column must contain one of each shape. Column 1 has star, triangle, circle. The missing shape is square."
+        }
+      ]
+    },
+    {
+      "testNum": 2,
+      "questions": [
+        {
+          "num": 1,
+          "question": "What causes the turbine blades to rotate?",
+          "choices": [
+            "Electrical current from the generator",
+            "High-pressure, high-temperature steam entering the turbine",
+            "A separate motor connected to the shaft",
+            "Water flowing over the blades"
+          ],
+          "answer": "B",
+          "explanation": "The passage states that high-pressure, high-temperature steam entering the turbine causes the blades to rotate."
+        },
+        {
+          "num": 2,
+          "question": "What happens to the steam as it passes through successive stages of the turbine?",
+          "choices": [
+            "It gains pressure and temperature",
+            "It remains at constant pressure",
+            "It expands and loses pressure",
+            "It condenses into liquid water"
+          ],
+          "answer": "C",
+          "explanation": "The passage says that as steam passes through successive stages, it expands and loses pressure."
+        },
+        {
+          "num": 3,
+          "question": "Why is steam reheated between turbine sections?",
+          "choices": [
+            "To increase the flow rate",
+            "To improve thermal efficiency",
+            "To reduce noise levels",
+            "To prevent corrosion"
+          ],
+          "answer": "B",
+          "explanation": "The passage states that reheating steam between sections improves thermal efficiency."
+        },
+        {
+          "num": 4,
+          "question": "What are the three sections of a modern steam turbine?",
+          "choices": [
+            "Primary, secondary, and tertiary",
+            "Intake, combustion, and exhaust",
+            "High-pressure, intermediate-pressure, and low-pressure",
+            "Generator, condenser, and boiler"
+          ],
+          "answer": "C",
+          "explanation": "The passage names the three sections as high-pressure, intermediate-pressure, and low-pressure."
+        },
+        {
+          "num": 5,
+          "question": "What happens to the steam after it exits the low-pressure section of the turbine?",
+          "choices": [
+            "It is vented to the atmosphere",
+            "It enters a condenser where it is cooled back into liquid",
+            "It is stored in a pressure vessel",
+            "It is redirected to the high-pressure section"
+          ],
+          "answer": "B",
+          "explanation": "The passage states the exhausted steam enters a condenser where it is cooled back into liquid water."
+        },
+        {
+          "num": 6,
+          "question": "What document provides information about the hazards of chemicals used at a power plant?",
+          "choices": [
+            "Work order form",
+            "Safety Data Sheet (SDS)",
+            "Operating procedure manual",
+            "Equipment specification sheet"
+          ],
+          "answer": "B",
+          "explanation": "The passage identifies Safety Data Sheets (SDS) as the documents providing critical information about chemical hazards."
+        },
+        {
+          "num": 7,
+          "question": "How often must employees who handle hazardous materials receive refresher training?",
+          "choices": [
+            "Every month",
+            "Every six months",
+            "Annually",
+            "Every two years"
+          ],
+          "answer": "C",
+          "explanation": "The passage states employees must receive initial training and annual refresher courses."
+        },
+        {
+          "num": 8,
+          "question": "How far from chemical storage areas must spill response kits be located?",
+          "choices": [
+            "Within 10 feet",
+            "Within 25 feet",
+            "Within 50 feet",
+            "Within 100 feet"
+          ],
+          "answer": "C",
+          "explanation": "The passage states spill response kits must be located within 50 feet of any chemical storage area."
+        },
+        {
+          "num": 9,
+          "question": "What is the first step a responder should take when a chemical spill occurs?",
+          "choices": [
+            "Immediately begin cleaning up the spill",
+            "Evacuate the entire facility",
+            "Assess the situation",
+            "Call the fire department"
+          ],
+          "answer": "C",
+          "explanation": "The passage says the first responder must assess the situation before taking further action."
+        },
+        {
+          "num": 10,
+          "question": "Within what time frame must all spills be reported to the environmental compliance officer?",
+          "choices": [
+            "Immediately",
+            "Within 4 hours",
+            "Within 24 hours",
+            "Within 48 hours"
+          ],
+          "answer": "C",
+          "explanation": "The passage states all spills must be documented and reported to the environmental compliance officer within 24 hours."
+        },
+        {
+          "num": 11,
+          "question": "How does preventive maintenance differ from reactive maintenance?",
+          "choices": [
+            "Preventive is more expensive to implement",
+            "Preventive schedules service at regular intervals rather than after failures",
+            "Reactive maintenance is done more frequently",
+            "Preventive maintenance only applies to electrical equipment"
+          ],
+          "answer": "B",
+          "explanation": "The passage explains that preventive maintenance schedules inspections at regular intervals, while reactive maintenance addresses problems after they occur."
+        },
+        {
+          "num": 12,
+          "question": "What conditions can vibration analysis detect in rotating equipment?",
+          "choices": [
+            "Chemical contamination and corrosion",
+            "Imbalance, misalignment, bearing wear, and looseness",
+            "Electrical faults and insulation breakdown",
+            "Temperature changes and pressure variations"
+          ],
+          "answer": "B",
+          "explanation": "The passage states vibration analysis can detect imbalance, misalignment, bearing wear, and looseness."
+        },
+        {
+          "num": 13,
+          "question": "What does oil analysis detect in lubricating oils?",
+          "choices": [
+            "Vibration levels and noise",
+            "Temperature and pressure",
+            "Wear metals, contamination, and chemical breakdown",
+            "Flow rate and viscosity only"
+          ],
+          "answer": "C",
+          "explanation": "The passage states oil analysis detects wear metals, contamination, and chemical breakdown in lubricating oils."
+        },
+        {
+          "num": 14,
+          "question": "What does infrared thermography detect?",
+          "choices": [
+            "Sound frequencies from equipment",
+            "Chemical composition of materials",
+            "Temperature variations invisible to the naked eye",
+            "Microscopic cracks in metal surfaces"
+          ],
+          "answer": "C",
+          "explanation": "The passage states infrared thermography identifies problems by detecting temperature variations invisible to the naked eye."
+        },
+        {
+          "num": 15,
+          "question": "On what basis are preventive maintenance inspections scheduled?",
+          "choices": [
+            "Only when equipment shows signs of failure",
+            "Based on time, operating hours, or number of cycles",
+            "Once per year during the annual outage",
+            "Whenever spare parts become available"
+          ],
+          "answer": "B",
+          "explanation": "The passage states preventive maintenance schedules inspections based on time, operating hours, or number of cycles."
+        },
+        {
+          "num": 16,
+          "question": "A reciprocating pump has a cylinder bore of 4 inches and a stroke of 6 inches. What is the displacement volume per stroke? (Use 3.14 for pi)",
+          "choices": [
+            "37.7 cubic inches",
+            "75.4 cubic inches",
+            "150.8 cubic inches",
+            "301.6 cubic inches"
+          ],
+          "answer": "B",
+          "explanation": "Volume = pi x r^2 x stroke = 3.14 x 2^2 x 6 = 3.14 x 4 x 6 = 75.4 cubic inches."
+        },
+        {
+          "num": 17,
+          "question": "Two meshing spur gears rotate in what relative directions?",
+          "choices": [
+            "The same direction",
+            "Opposite directions",
+            "Perpendicular directions",
+            "The direction depends on the gear ratio"
+          ],
+          "answer": "B",
+          "explanation": "Two external spur gears that mesh together always rotate in opposite directions."
+        },
+        {
+          "num": 18,
+          "question": "A spring with a spring constant of 50 pounds per inch is compressed 3 inches. What force does it exert?",
+          "choices": [
+            "16.7 pounds",
+            "50 pounds",
+            "100 pounds",
+            "150 pounds"
+          ],
+          "answer": "D",
+          "explanation": "Force = Spring constant x Displacement = 50 lb/in x 3 in = 150 pounds (Hooke's Law)."
+        },
+        {
+          "num": 19,
+          "question": "What is the primary advantage of using a worm gear drive?",
+          "choices": [
+            "High-speed operation",
+            "Large speed reduction in a compact space",
+            "Bidirectional power transmission",
+            "Zero friction losses"
+          ],
+          "answer": "B",
+          "explanation": "Worm gear drives provide large speed reductions (often 20:1 to 100:1) in a compact space."
+        },
+        {
+          "num": 20,
+          "question": "In a four-stroke internal combustion engine, what is the correct sequence of strokes?",
+          "choices": [
+            "Intake, compression, power, exhaust",
+            "Compression, intake, exhaust, power",
+            "Power, exhaust, intake, compression",
+            "Intake, power, compression, exhaust"
+          ],
+          "answer": "A",
+          "explanation": "The correct sequence for a four-stroke engine is intake, compression, power, exhaust."
+        },
+        {
+          "num": 21,
+          "question": "A pipe system has two parallel paths. Path A has a flow resistance of 10 units and Path B has a flow resistance of 10 units. What is the combined resistance of the parallel paths?",
+          "choices": [
+            "5 units",
+            "10 units",
+            "15 units",
+            "20 units"
+          ],
+          "answer": "A",
+          "explanation": "For two equal parallel resistances: Combined = R/2 = 10/2 = 5 units. Parallel paths reduce total resistance."
+        },
+        {
+          "num": 22,
+          "question": "What happens to the speed of fluid flowing through a pipe when the pipe diameter is reduced (assuming constant flow rate)?",
+          "choices": [
+            "Speed decreases",
+            "Speed remains the same",
+            "Speed increases",
+            "Speed fluctuates"
+          ],
+          "answer": "C",
+          "explanation": "By the continuity equation (A1 x V1 = A2 x V2), when pipe area decreases with constant flow rate, velocity must increase."
+        },
+        {
+          "num": 23,
+          "question": "A single-stage centrifugal pump is producing insufficient head pressure. What modification would increase the head pressure?",
+          "choices": [
+            "Increase the pipe diameter",
+            "Add additional pump stages in series",
+            "Remove the impeller",
+            "Open the discharge valve wider"
+          ],
+          "answer": "B",
+          "explanation": "Adding pump stages in series increases the total head pressure. Each stage adds its head to the total."
+        },
+        {
+          "num": 24,
+          "question": "Which type of belt drive prevents slipping under high-torque conditions?",
+          "choices": [
+            "Flat belt",
+            "V-belt",
+            "Round belt",
+            "Synchronous (timing) belt"
+          ],
+          "answer": "D",
+          "explanation": "Synchronous (timing) belts have teeth that mesh with sprocket teeth, preventing any slipping under high-torque conditions."
+        },
+        {
+          "num": 25,
+          "question": "A compound gear train has input gear A (15 teeth) driving gear B (45 teeth) on the same shaft as gear C (10 teeth), which drives output gear D (40 teeth). What is the overall gear ratio?",
+          "choices": [
+            "3:1",
+            "6:1",
+            "12:1",
+            "24:1"
+          ],
+          "answer": "C",
+          "explanation": "Overall ratio = (B/A) x (D/C) = (45/15) x (40/10) = 3 x 4 = 12:1."
+        },
+        {
+          "num": 26,
+          "question": "What is the purpose of a flywheel on a rotating shaft?",
+          "choices": [
+            "To increase the maximum speed",
+            "To store rotational energy and smooth out speed variations",
+            "To reduce the weight of the system",
+            "To prevent the shaft from rotating"
+          ],
+          "answer": "B",
+          "explanation": "A flywheel stores rotational kinetic energy and releases it to smooth out speed variations during power fluctuations."
+        },
+        {
+          "num": 27,
+          "question": "A valve has a Cv rating of 25. What does this specification indicate?",
+          "choices": [
+            "The valve can withstand 25 PSI of pressure",
+            "The valve allows 25 gallons per minute of water flow at a 1 PSI pressure drop",
+            "The valve requires 25 foot-pounds of torque to operate",
+            "The valve weighs 25 pounds"
+          ],
+          "answer": "B",
+          "explanation": "Cv (flow coefficient) indicates the number of gallons per minute of water that will flow through the valve at a 1 PSI pressure drop."
+        },
+        {
+          "num": 28,
+          "question": "When a shaft is supported by two bearings and a heavy load is placed between them, what type of stress does the shaft experience?",
+          "choices": [
+            "Torsional stress only",
+            "Bending stress",
+            "Compressive stress only",
+            "Tensile stress only"
+          ],
+          "answer": "B",
+          "explanation": "A shaft supported at two points with a load between them experiences bending stress, causing the shaft to deflect."
+        },
+        {
+          "num": 29,
+          "question": "In a steam system, what device removes condensate from steam lines while preventing steam from escaping?",
+          "choices": [
+            "Pressure regulator",
+            "Steam trap",
+            "Globe valve",
+            "Expansion joint"
+          ],
+          "answer": "B",
+          "explanation": "A steam trap removes condensate and non-condensable gases from steam lines while preventing live steam from escaping."
+        },
+        {
+          "num": 30,
+          "question": "A chain drive uses a 20-tooth sprocket on the motor and a 60-tooth sprocket on the driven equipment. If the motor runs at 1,200 RPM, what is the driven speed?",
+          "choices": [
+            "200 RPM",
+            "400 RPM",
+            "600 RPM",
+            "3,600 RPM"
+          ],
+          "answer": "B",
+          "explanation": "Driven speed = Motor speed x (Drive sprocket / Driven sprocket) = 1,200 x (20/60) = 400 RPM."
+        },
+        {
+          "num": 31,
+          "question": "A water treatment plant processes 2.5 million gallons per day. How many gallons per minute is this, rounded to the nearest whole number?",
+          "choices": [
+            "1,042 gpm",
+            "1,389 gpm",
+            "1,736 gpm",
+            "2,083 gpm"
+          ],
+          "answer": "C",
+          "explanation": "2,500,000 gal/day / 1,440 min/day = 1,736 gpm."
+        },
+        {
+          "num": 32,
+          "question": "A power plant has a heat rate of 10,000 BTU per kilowatt-hour. If the plant generates 500 megawatts, how many BTU per hour does it consume?",
+          "choices": [
+            "50,000,000 BTU/hr",
+            "500,000,000 BTU/hr",
+            "5,000,000,000 BTU/hr",
+            "50,000,000,000 BTU/hr"
+          ],
+          "answer": "C",
+          "explanation": "500 MW = 500,000 kW. BTU/hr = 500,000 kW x 10,000 BTU/kWh = 5,000,000,000 BTU/hr."
+        },
+        {
+          "num": 33,
+          "question": "A chemical tank is 75% full and contains 1,800 gallons. What is the total capacity of the tank?",
+          "choices": [
+            "2,000 gallons",
+            "2,200 gallons",
+            "2,400 gallons",
+            "2,700 gallons"
+          ],
+          "answer": "C",
+          "explanation": "If 75% = 1,800 gallons, then 100% = 1,800 / 0.75 = 2,400 gallons."
+        },
+        {
+          "num": 34,
+          "question": "If a pump moves 350 gallons per minute and operates at 80% efficiency, what is the actual useful flow rate?",
+          "choices": [
+            "240 gpm",
+            "260 gpm",
+            "280 gpm",
+            "300 gpm"
+          ],
+          "answer": "C",
+          "explanation": "Actual useful flow = 350 x 0.80 = 280 gpm."
+        },
+        {
+          "num": 35,
+          "question": "A pipe has an outside diameter of 6.625 inches and a wall thickness of 0.280 inches. What is the inside diameter?",
+          "choices": [
+            "6.065 inches",
+            "6.345 inches",
+            "6.625 inches",
+            "7.185 inches"
+          ],
+          "answer": "A",
+          "explanation": "Inside diameter = Outside diameter - 2 x wall thickness = 6.625 - 2(0.280) = 6.625 - 0.560 = 6.065 inches."
+        },
+        {
+          "num": 36,
+          "question": "A coal-fired plant has an efficiency of 33%. If coal has an energy content of 12,000 BTU per pound, how many BTU of electricity are produced per pound of coal burned?",
+          "choices": [
+            "3,000 BTU",
+            "3,960 BTU",
+            "4,000 BTU",
+            "8,040 BTU"
+          ],
+          "answer": "B",
+          "explanation": "Electricity produced = 12,000 BTU x 0.33 = 3,960 BTU per pound of coal."
+        },
+        {
+          "num": 37,
+          "question": "A 500-gallon tank of sodium hypochlorite costs $625. What is the cost per gallon?",
+          "choices": [
+            "$1.00",
+            "$1.15",
+            "$1.25",
+            "$1.50"
+          ],
+          "answer": "C",
+          "explanation": "Cost per gallon = $625 / 500 = $1.25."
+        },
+        {
+          "num": 38,
+          "question": "A motor operates at 460 volts and draws 25 amps. If the power factor is 0.85, what is the real power in watts? (Power = Volts x Amps x Power Factor)",
+          "choices": [
+            "7,475 watts",
+            "9,775 watts",
+            "11,500 watts",
+            "13,529 watts"
+          ],
+          "answer": "B",
+          "explanation": "Real power = 460 x 25 x 0.85 = 9,775 watts."
+        },
+        {
+          "num": 39,
+          "question": "A clarifier processes 4 million gallons per day with a detention time of 2 hours. What is the volume of the clarifier in gallons?",
+          "choices": [
+            "166,667 gallons",
+            "333,333 gallons",
+            "500,000 gallons",
+            "666,667 gallons"
+          ],
+          "answer": "B",
+          "explanation": "Flow per hour = 4,000,000 / 24 = 166,667 gal/hr. Volume = 166,667 x 2 = 333,333 gallons."
+        },
+        {
+          "num": 40,
+          "question": "Convert 75 cubic feet per second to gallons per minute. (1 cubic foot = 7.48 gallons)",
+          "choices": [
+            "33,660 gpm",
+            "561 gpm",
+            "9.35 gpm",
+            "56,100 gpm"
+          ],
+          "answer": "A",
+          "explanation": "75 ft^3/sec x 7.48 gal/ft^3 = 561 gal/sec x 60 sec/min = 33,660 gpm."
+        },
+        {
+          "num": 41,
+          "question": "A plant uses 450,000 gallons of water per day for cooling. If water costs $2.50 per 1,000 gallons, what is the daily water cost?",
+          "choices": [
+            "$450.00",
+            "$900.00",
+            "$1,125.00",
+            "$1,800.00"
+          ],
+          "answer": "C",
+          "explanation": "Cost = (450,000 / 1,000) x $2.50 = 450 x $2.50 = $1,125.00."
+        },
+        {
+          "num": 42,
+          "question": "A pressure reading of 30 PSI gauge is taken at sea level where atmospheric pressure is 14.7 PSI. What is the absolute pressure?",
+          "choices": [
+            "15.3 PSIA",
+            "30.0 PSIA",
+            "44.7 PSIA",
+            "60.0 PSIA"
+          ],
+          "answer": "C",
+          "explanation": "Absolute pressure = Gauge pressure + Atmospheric pressure = 30 + 14.7 = 44.7 PSIA."
+        },
+        {
+          "num": 43,
+          "question": "An operator takes pump readings every 4 hours during a 12-hour shift. If the first reading is at the start of the shift, how many readings does the operator take?",
+          "choices": [
+            "2 readings",
+            "3 readings",
+            "4 readings",
+            "5 readings"
+          ],
+          "answer": "C",
+          "explanation": "Readings at hour 0, 4, 8, and 12 = 4 readings total."
+        },
+        {
+          "num": 44,
+          "question": "A storage tank receives 800 gallons per hour from a supply line and discharges 550 gallons per hour to the process. If the tank starts with 2,000 gallons, what is the level after 6 hours?",
+          "choices": [
+            "2,500 gallons",
+            "3,000 gallons",
+            "3,500 gallons",
+            "4,500 gallons"
+          ],
+          "answer": "C",
+          "explanation": "Net inflow = 800 - 550 = 250 gal/hr. After 6 hours: 2,000 + (250 x 6) = 2,000 + 1,500 = 3,500 gallons."
+        },
+        {
+          "num": 45,
+          "question": "A belt conveyor moves coal at 2 tons per minute. How many tons can it move in a 10-hour shift?",
+          "choices": [
+            "200 tons",
+            "600 tons",
+            "1,000 tons",
+            "1,200 tons"
+          ],
+          "answer": "D",
+          "explanation": "2 tons/min x 60 min/hr x 10 hrs = 1,200 tons."
+        },
+        {
+          "num": 46,
+          "question": "If 1 gallon of diesel fuel weighs 7.1 pounds and a storage tank contains 10,000 gallons, what is the weight of the fuel in tons? (1 ton = 2,000 pounds)",
+          "choices": [
+            "35.5 tons",
+            "71.0 tons",
+            "142.0 tons",
+            "355.0 tons"
+          ],
+          "answer": "A",
+          "explanation": "Weight = 10,000 x 7.1 = 71,000 pounds. Tons = 71,000 / 2,000 = 35.5 tons."
+        },
+        {
+          "num": 47,
+          "question": "A pipe has an internal area of 12.57 square inches. If water flows at 5 feet per second, what is the flow rate in cubic feet per minute? (144 square inches = 1 square foot)",
+          "choices": [
+            "2.62 cfm",
+            "26.2 cfm",
+            "62.9 cfm",
+            "262 cfm"
+          ],
+          "answer": "B",
+          "explanation": "Area in sq ft = 12.57 / 144 = 0.0873 sq ft. Flow = 0.0873 x 5 ft/sec x 60 sec/min = 26.2 cfm."
+        },
+        {
+          "num": 48,
+          "question": "A plant runs at 90% capacity and produces 450 megawatts. What is the full rated capacity of the plant?",
+          "choices": [
+            "405 MW",
+            "475 MW",
+            "500 MW",
+            "540 MW"
+          ],
+          "answer": "C",
+          "explanation": "Full capacity = 450 / 0.90 = 500 MW."
+        },
+        {
+          "num": 49,
+          "question": "A pattern shows shapes doubling: 1 square, 2 squares, 4 squares, 8 squares. How many squares are in the next figure?",
+          "choices": [
+            "10 squares",
+            "12 squares",
+            "14 squares",
+            "16 squares"
+          ],
+          "answer": "D",
+          "explanation": "The pattern doubles each time: 1, 2, 4, 8, 16. The next figure has 16 squares."
+        },
+        {
+          "num": 50,
+          "question": "A figure shows a right-pointing arrow inside a circle. The entire figure is then rotated 180 degrees. Which direction does the arrow now point?",
+          "choices": [
+            "Up",
+            "Down",
+            "Left",
+            "Right"
+          ],
+          "answer": "C",
+          "explanation": "A 180-degree rotation reverses the direction of the arrow. Right-pointing becomes left-pointing."
+        },
+        {
+          "num": 51,
+          "question": "In a sequence, each figure adds one line segment to the previous figure. Figure 1 has 1 segment, Figure 2 has 2 segments forming an angle, Figure 3 has 3 segments forming a triangle. What shape does Figure 4 form?",
+          "choices": [
+            "A square (4 segments)",
+            "A triangle with a tail",
+            "Two separate lines",
+            "A circle"
+          ],
+          "answer": "A",
+          "explanation": "Each figure adds one segment, building regular polygons. Figure 4 has 4 segments forming a square."
+        },
+        {
+          "num": 52,
+          "question": "A 3x3 grid has an X pattern: the four corners and center cell are shaded, while the four edge-center cells are blank. If the pattern is inverted (shaded becomes blank and blank becomes shaded), how many cells are shaded?",
+          "choices": [
+            "3 cells",
+            "4 cells",
+            "5 cells",
+            "6 cells"
+          ],
+          "answer": "B",
+          "explanation": "The X pattern uses 5 cells (4 corners + center). Inverting means the 4 edge-center cells become shaded."
+        },
+        {
+          "num": 53,
+          "question": "A figure is reflected over a horizontal line. The original has a flag-like shape pointing upward from its left side. Where does the flag point on the reflected figure?",
+          "choices": [
+            "Upward from the left side",
+            "Downward from the left side",
+            "Upward from the right side",
+            "Downward from the right side"
+          ],
+          "answer": "B",
+          "explanation": "Reflecting over a horizontal line flips up and down. A flag pointing upward will point downward. Left/right position stays the same."
+        },
+        {
+          "num": 54,
+          "question": "A sequence shows nested shapes: a circle inside a square, then a square inside a triangle, then a triangle inside a pentagon. What comes next in the pattern?",
+          "choices": [
+            "A pentagon inside a hexagon",
+            "A circle inside a triangle",
+            "A square inside a circle",
+            "A hexagon inside a circle"
+          ],
+          "answer": "A",
+          "explanation": "The inner shape has sides 3, 4, 3, and the outer shape has sides 4, 3, 5. The outer shapes increase: 4, 3, 5... The inner shape becomes the previous outer: circle->square->triangle->pentagon. The pattern of outer shapes: square(4), triangle(3), pentagon(5), hexagon(6). So next is pentagon inside hexagon."
+        },
+        {
+          "num": 55,
+          "question": "A black dot alternates between the inside and outside of a shape at each step. Step 1: dot inside triangle. Step 2: dot outside triangle. Step 3: dot inside square. Step 4: dot outside square. What is step 5?",
+          "choices": [
+            "Dot inside square",
+            "Dot outside pentagon",
+            "Dot inside pentagon",
+            "Dot inside triangle"
+          ],
+          "answer": "C",
+          "explanation": "The pattern alternates inside/outside while the shape adds one side every two steps: triangle (steps 1-2), square (steps 3-4), pentagon (step 5). Step 5 starts inside the new shape: dot inside pentagon."
+        },
+        {
+          "num": 56,
+          "question": "A pattern uses three symbols: X, O, and a dash. Row 1: X, O, dash. Row 2: dash, X, O. What is Row 3?",
+          "choices": [
+            "O, dash, X",
+            "X, dash, O",
+            "O, X, dash",
+            "dash, O, X"
+          ],
+          "answer": "A",
+          "explanation": "Each row shifts the symbols one position to the right. Row 1: X, O, dash. Row 2: dash, X, O. Row 3: O, dash, X."
+        },
+        {
+          "num": 57,
+          "question": "A square piece of paper is folded in half diagonally, then a corner is cut off. When unfolded, how many cut sections appear?",
+          "choices": [
+            "1 section",
+            "2 sections",
+            "3 sections",
+            "4 sections"
+          ],
+          "answer": "B",
+          "explanation": "A diagonal fold creates symmetry across the fold line. Cutting one corner through the folded paper results in 2 symmetric cut sections when unfolded."
+        },
+        {
+          "num": 58,
+          "question": "In a series, each figure rotates 60 degrees clockwise from the previous one. If the first figure is at 0 degrees, what is the orientation of the 7th figure?",
+          "choices": [
+            "0 degrees (same as the first)",
+            "60 degrees",
+            "120 degrees",
+            "180 degrees"
+          ],
+          "answer": "A",
+          "explanation": "After 6 rotations of 60 degrees each, the total is 360 degrees (a full rotation). The 7th figure is at 360 degrees = 0 degrees, the same orientation as the first."
+        },
+        {
+          "num": 59,
+          "question": "A grid pattern shows: Row 1 has 1 shaded cell on the left. Row 2 has 2 shaded cells on the left. Row 3 has 3 shaded cells on the left. In a 5-column grid, how many cells are shaded in Row 4?",
+          "choices": [
+            "2 cells",
+            "3 cells",
+            "4 cells",
+            "5 cells"
+          ],
+          "answer": "C",
+          "explanation": "The pattern adds one shaded cell per row: 1, 2, 3, 4. Row 4 has 4 shaded cells."
+        },
+        {
+          "num": 60,
+          "question": "A sequence shows overlapping shapes. Figure 1: one circle. Figure 2: two overlapping circles (like a Venn diagram). Figure 3: three overlapping circles. How many distinct regions are created by three overlapping circles (where each pair overlaps but no point is in all three)?",
+          "choices": [
+            "4 regions",
+            "6 regions",
+            "7 regions",
+            "8 regions"
+          ],
+          "answer": "C",
+          "explanation": "Three overlapping circles where each pair overlaps (but no point is common to all three) create 7 distinct regions: 3 single-circle-only regions, 3 pairwise overlap regions, and 1 region outside all circles... Actually the standard count for three mutually overlapping circles is 7 regions total (not counting the exterior)."
+        }
+      ]
+    },
+    {
+      "testNum": 3,
+      "questions": [
+        {
+          "num": 1,
+          "question": "What is the primary function of electrical switchgear in a power plant?",
+          "choices": [
+            "To generate electricity",
+            "To control, protect, and isolate electrical equipment",
+            "To convert AC power to DC power",
+            "To measure electricity consumption"
+          ],
+          "answer": "B",
+          "explanation": "The passage states that electrical switchgear controls, protects, and isolates electrical equipment."
+        },
+        {
+          "num": 2,
+          "question": "What device detects abnormal electrical conditions and signals the circuit breaker to open?",
+          "choices": [
+            "Transformer",
+            "Capacitor",
+            "Protective relay",
+            "Voltage regulator"
+          ],
+          "answer": "C",
+          "explanation": "The passage says protective relays detect the abnormal condition and signal the circuit breaker to open."
+        },
+        {
+          "num": 3,
+          "question": "What voltage range defines medium-voltage switchgear?",
+          "choices": [
+            "Below 1,000 volts",
+            "1,000 to 35,000 volts",
+            "35,000 to 100,000 volts",
+            "Above 100,000 volts"
+          ],
+          "answer": "B",
+          "explanation": "The passage states medium-voltage switchgear typically operates between 1,000 and 35,000 volts."
+        },
+        {
+          "num": 4,
+          "question": "According to the passage, why is switchgear maintenance hazardous even when equipment appears de-energized?",
+          "choices": [
+            "The equipment generates radiation",
+            "Stored energy in springs, capacitors, and the electrical system presents dangers",
+            "Toxic chemicals are used inside the equipment",
+            "The equipment operates at extreme temperatures"
+          ],
+          "answer": "B",
+          "explanation": "The passage warns that stored energy in springs, capacitors, and the electrical system presents serious hazards even when equipment appears de-energized."
+        },
+        {
+          "num": 5,
+          "question": "What does the interrupting capacity rating of switchgear indicate?",
+          "choices": [
+            "How much power the switchgear generates",
+            "The maximum fault current the breaker can safely interrupt",
+            "The physical size of the switchgear cabinet",
+            "How long the switchgear can operate continuously"
+          ],
+          "answer": "B",
+          "explanation": "The interrupting capacity rating indicates the maximum fault current the circuit breaker can safely interrupt. The passage mentions switchgear is rated by voltage class and interrupting capacity."
+        },
+        {
+          "num": 6,
+          "question": "What pH range should boiler water be maintained within?",
+          "choices": [
+            "5.0 to 7.0",
+            "7.0 to 9.0",
+            "9.0 to 11.0",
+            "11.0 to 13.0"
+          ],
+          "answer": "C",
+          "explanation": "The passage states boiler water pH is maintained between 9.0 and 11.0 to minimize corrosion."
+        },
+        {
+          "num": 7,
+          "question": "What occurs when boiler water pH rises too high?",
+          "choices": [
+            "Acidic corrosion of tube surfaces",
+            "Caustic gouging from concentrated alkaline deposits",
+            "Dissolved oxygen levels increase",
+            "Scale formation from calcium deposits"
+          ],
+          "answer": "B",
+          "explanation": "The passage states that if pH rises too high, caustic gouging can occur from concentrated alkaline deposits attacking the boiler tubes."
+        },
+        {
+          "num": 8,
+          "question": "How does mechanical deaeration remove dissolved oxygen from feedwater?",
+          "choices": [
+            "By adding chemicals to the water",
+            "By filtering the water through membranes",
+            "By heating feedwater to its saturation temperature to drive off dissolved gases",
+            "By pressurizing the water in a sealed vessel"
+          ],
+          "answer": "C",
+          "explanation": "The passage says mechanical deaeration removes dissolved oxygen by heating feedwater to its saturation temperature, which drives off dissolved gases."
+        },
+        {
+          "num": 9,
+          "question": "Which of the following is an example of a chemical oxygen scavenger mentioned in the passage?",
+          "choices": [
+            "Calcium carbonate",
+            "Sodium chloride",
+            "Sodium sulfite",
+            "Potassium permanganate"
+          ],
+          "answer": "C",
+          "explanation": "The passage specifically names sodium sulfite and hydrazine as chemical oxygen scavengers."
+        },
+        {
+          "num": 10,
+          "question": "How often should boiler water be sampled and tested?",
+          "choices": [
+            "Once per day",
+            "At least once per shift",
+            "Once per week",
+            "Only when problems are suspected"
+          ],
+          "answer": "B",
+          "explanation": "The passage states regular sampling and testing of boiler water at least once per shift."
+        },
+        {
+          "num": 11,
+          "question": "According to the passage, what are the three defining characteristics of a confined space?",
+          "choices": [
+            "Dark, underground, and without ventilation",
+            "Large enough for entry, limited entry/exit, not designed for continuous occupancy",
+            "Enclosed, pressurized, and contains hazardous materials",
+            "Small, poorly lit, and located below ground level"
+          ],
+          "answer": "B",
+          "explanation": "The passage defines a confined space as large enough for entry, has limited means of entry or exit, and is not designed for continuous human occupancy."
+        },
+        {
+          "num": 12,
+          "question": "What must be tested before entering a confined space?",
+          "choices": [
+            "Water quality and temperature",
+            "Structural integrity of walls and floor",
+            "Oxygen content, flammable gases, and toxic substances",
+            "Electrical grounding and lighting"
+          ],
+          "answer": "C",
+          "explanation": "The passage states the atmosphere must be tested for oxygen content, flammable gases, and toxic substances before entry."
+        },
+        {
+          "num": 13,
+          "question": "What is the acceptable range for oxygen levels in a confined space?",
+          "choices": [
+            "15.0% to 18.0%",
+            "19.5% to 23.5%",
+            "21.0% to 25.0%",
+            "23.5% to 28.0%"
+          ],
+          "answer": "B",
+          "explanation": "The passage states oxygen levels must be between 19.5% and 23.5%."
+        },
+        {
+          "num": 14,
+          "question": "What is the role of the attendant during confined space entry?",
+          "choices": [
+            "To perform the work inside the confined space",
+            "To remain outside and monitor conditions and summon rescue if needed",
+            "To operate ventilation equipment inside the space",
+            "To sign the entry permit"
+          ],
+          "answer": "B",
+          "explanation": "The passage says a trained attendant must remain outside to monitor conditions and summon rescue services if needed."
+        },
+        {
+          "num": 15,
+          "question": "Where must the entry permit be posted?",
+          "choices": [
+            "In the control room",
+            "On the supervisor's desk",
+            "At the entrance to the confined space",
+            "In the safety office"
+          ],
+          "answer": "C",
+          "explanation": "The passage states the entry permit must be posted at the entrance to the confined space."
+        },
+        {
+          "num": 16,
+          "question": "A positive displacement pump delivers 10 gallons per revolution and operates at 60 RPM. What is the theoretical flow rate?",
+          "choices": [
+            "60 gpm",
+            "100 gpm",
+            "600 gpm",
+            "6,000 gpm"
+          ],
+          "answer": "C",
+          "explanation": "Flow = Displacement x RPM = 10 gal/rev x 60 RPM = 600 gpm."
+        },
+        {
+          "num": 17,
+          "question": "What is the primary difference between a centrifugal pump and a positive displacement pump?",
+          "choices": [
+            "Centrifugal pumps can handle solids but positive displacement pumps cannot",
+            "Centrifugal pump flow varies with pressure while positive displacement flow is nearly constant regardless of pressure",
+            "Positive displacement pumps are always larger than centrifugal pumps",
+            "Centrifugal pumps operate at lower speeds"
+          ],
+          "answer": "B",
+          "explanation": "Centrifugal pump flow varies significantly with discharge pressure, while positive displacement pumps deliver a nearly constant volume per revolution regardless of pressure."
+        },
+        {
+          "num": 18,
+          "question": "A screw jack with a pitch of 0.25 inches and a handle length of 12 inches is used to lift a 2,000-pound load. What is the approximate mechanical advantage?",
+          "choices": [
+            "48",
+            "96",
+            "301",
+            "500"
+          ],
+          "answer": "C",
+          "explanation": "Mechanical advantage of a screw jack = 2 x pi x handle length / pitch = 2 x 3.14 x 12 / 0.25 = 75.36 / 0.25 = 301.4."
+        },
+        {
+          "num": 19,
+          "question": "In a parallel piping system, if Pipe A carries 300 GPM and Pipe B carries 200 GPM, what is the total flow?",
+          "choices": [
+            "100 GPM",
+            "250 GPM",
+            "500 GPM",
+            "600 GPM"
+          ],
+          "answer": "C",
+          "explanation": "In a parallel piping system, total flow is the sum of individual flows: 300 + 200 = 500 GPM."
+        },
+        {
+          "num": 20,
+          "question": "What causes cavitation in a centrifugal pump?",
+          "choices": [
+            "Excessive discharge pressure",
+            "The liquid pressure drops below its vapor pressure at the impeller eye",
+            "Running the pump too slowly",
+            "Using the wrong type of lubricant"
+          ],
+          "answer": "B",
+          "explanation": "Cavitation occurs when the liquid pressure at the impeller eye drops below the liquid's vapor pressure, causing vapor bubbles to form and collapse."
+        },
+        {
+          "num": 21,
+          "question": "A heat exchanger with counter-flow design is more efficient than a parallel-flow design because:",
+          "choices": [
+            "It uses less piping material",
+            "It maintains a more uniform temperature difference across the length of the exchanger",
+            "It requires less maintenance",
+            "It operates at lower pressures"
+          ],
+          "answer": "B",
+          "explanation": "Counter-flow design maintains a more uniform temperature difference across the exchanger length, allowing more effective heat transfer."
+        },
+        {
+          "num": 22,
+          "question": "An inclined plane is 20 feet long and raises a load 5 feet. What is the mechanical advantage?",
+          "choices": [
+            "2",
+            "4",
+            "5",
+            "15"
+          ],
+          "answer": "B",
+          "explanation": "Mechanical advantage of an inclined plane = Length / Height = 20 / 5 = 4."
+        },
+        {
+          "num": 23,
+          "question": "What type of valve should be used for on/off service (fully open or fully closed) in a large water main?",
+          "choices": [
+            "Globe valve",
+            "Needle valve",
+            "Gate valve",
+            "Pressure relief valve"
+          ],
+          "answer": "C",
+          "explanation": "Gate valves are designed for fully open or fully closed service. They offer minimal flow restriction when fully open and are ideal for on/off applications."
+        },
+        {
+          "num": 24,
+          "question": "A turbine shaft has a keyway cut into it. What is the purpose of the key and keyway?",
+          "choices": [
+            "To reduce the shaft weight",
+            "To prevent the coupling or gear from rotating independently on the shaft",
+            "To lubricate the shaft surface",
+            "To measure shaft alignment"
+          ],
+          "answer": "B",
+          "explanation": "A key and keyway prevent the coupling, gear, or pulley from rotating independently on the shaft, ensuring power is transmitted between the shaft and the mounted component."
+        },
+        {
+          "num": 25,
+          "question": "In a cooling system, a thermostat controls a motorized valve. When temperature rises above the setpoint, the valve:",
+          "choices": [
+            "Closes to reduce cooling flow",
+            "Opens to increase cooling flow",
+            "Remains in its current position",
+            "Alternates between open and closed"
+          ],
+          "answer": "B",
+          "explanation": "When temperature rises above the setpoint, the thermostat opens the valve to increase cooling flow and bring the temperature back down."
+        },
+        {
+          "num": 26,
+          "question": "What is the purpose of packing or mechanical seals on a pump shaft?",
+          "choices": [
+            "To increase pump pressure",
+            "To prevent fluid leakage where the shaft passes through the pump casing",
+            "To lubricate the impeller",
+            "To balance the rotating assembly"
+          ],
+          "answer": "B",
+          "explanation": "Packing or mechanical seals prevent fluid from leaking out where the rotating shaft passes through the stationary pump casing."
+        },
+        {
+          "num": 27,
+          "question": "A 100-pound force is applied to a piston with an area of 2 square inches in a hydraulic system. The output piston has an area of 20 square inches. What force does the output piston exert?",
+          "choices": [
+            "100 pounds",
+            "200 pounds",
+            "500 pounds",
+            "1,000 pounds"
+          ],
+          "answer": "D",
+          "explanation": "Pressure = 100 lb / 2 sq in = 50 PSI. Output force = 50 PSI x 20 sq in = 1,000 pounds (Pascal's Law)."
+        },
+        {
+          "num": 28,
+          "question": "Which component in a steam system allows piping to expand and contract with temperature changes without breaking?",
+          "choices": [
+            "Steam trap",
+            "Check valve",
+            "Expansion joint or expansion loop",
+            "Strainer"
+          ],
+          "answer": "C",
+          "explanation": "Expansion joints and expansion loops accommodate thermal expansion and contraction of piping caused by temperature changes."
+        },
+        {
+          "num": 29,
+          "question": "What happens to pump performance when the suction line is partially blocked?",
+          "choices": [
+            "Flow rate increases",
+            "Discharge pressure increases",
+            "The pump may cavitate and flow decreases",
+            "The motor speed increases"
+          ],
+          "answer": "C",
+          "explanation": "A partially blocked suction line reduces the net positive suction head (NPSH), which can cause cavitation, resulting in decreased flow and potential pump damage."
+        },
+        {
+          "num": 30,
+          "question": "A conveyor system uses a motor with a 3-inch drive sprocket and a 15-inch driven sprocket. If torque at the motor is 50 foot-pounds, what is the approximate torque at the driven sprocket (ignoring losses)?",
+          "choices": [
+            "10 foot-pounds",
+            "50 foot-pounds",
+            "150 foot-pounds",
+            "250 foot-pounds"
+          ],
+          "answer": "D",
+          "explanation": "Torque ratio equals the sprocket ratio: 15/3 = 5. Output torque = 50 x 5 = 250 foot-pounds."
+        },
+        {
+          "num": 31,
+          "question": "A plant consumes 1,250 gallons of fuel oil per day. If fuel oil costs $3.20 per gallon, what is the weekly fuel cost?",
+          "choices": [
+            "$4,000",
+            "$16,000",
+            "$28,000",
+            "$32,000"
+          ],
+          "answer": "C",
+          "explanation": "Weekly cost = 1,250 gal/day x 7 days x $3.20/gal = 8,750 x $3.20 = $28,000."
+        },
+        {
+          "num": 32,
+          "question": "A circular tank has a radius of 8 feet and a height of 15 feet. What is its volume in gallons? (Use 3.14 for pi; 1 cubic foot = 7.48 gallons)",
+          "choices": [
+            "15,072 gallons",
+            "22,548 gallons",
+            "30,144 gallons",
+            "45,216 gallons"
+          ],
+          "answer": "B",
+          "explanation": "Volume = pi x r^2 x h = 3.14 x 64 x 15 = 3,014.4 cu ft. Gallons = 3,014.4 x 7.48 = 22,548 gallons."
+        },
+        {
+          "num": 33,
+          "question": "An operator earns $32.50 per hour. Overtime is paid at 1.5 times the regular rate. If the operator works 48 hours in one week, what is the gross pay?",
+          "choices": [
+            "$1,300.00",
+            "$1,560.00",
+            "$1,690.00",
+            "$1,950.00"
+          ],
+          "answer": "C",
+          "explanation": "Regular pay = 40 hrs x $32.50 = $1,300. Overtime = 8 hrs x $48.75 = $390. Total = $1,690.00."
+        },
+        {
+          "num": 34,
+          "question": "A boiler has a fuel-to-steam efficiency of 88%. If the boiler burns fuel with an input of 50 million BTU per hour, how many BTU per hour of steam does it produce?",
+          "choices": [
+            "6 million BTU/hr",
+            "38 million BTU/hr",
+            "44 million BTU/hr",
+            "56.8 million BTU/hr"
+          ],
+          "answer": "C",
+          "explanation": "Steam output = 50,000,000 x 0.88 = 44,000,000 = 44 million BTU/hr."
+        },
+        {
+          "num": 35,
+          "question": "A pipe runs 250 feet horizontally and rises 35 feet vertically. What is the approximate total length of pipe needed? (Use the Pythagorean theorem)",
+          "choices": [
+            "252.4 feet",
+            "261.8 feet",
+            "271.5 feet",
+            "285.0 feet"
+          ],
+          "answer": "A",
+          "explanation": "Length = sqrt(250^2 + 35^2) = sqrt(62,500 + 1,225) = sqrt(63,725) = 252.4 feet."
+        },
+        {
+          "num": 36,
+          "question": "A chemical feed pump injects 2.5 gallons per hour of a solution containing 12% active ingredient. How many gallons of active ingredient are injected in a 24-hour period?",
+          "choices": [
+            "3.6 gallons",
+            "5.0 gallons",
+            "7.2 gallons",
+            "30.0 gallons"
+          ],
+          "answer": "C",
+          "explanation": "Total solution per day = 2.5 gal/hr x 24 hrs = 60 gallons. Active ingredient = 60 x 0.12 = 7.2 gallons."
+        },
+        {
+          "num": 37,
+          "question": "A transformer steps down voltage from 13,800 volts to 480 volts. What is the turns ratio?",
+          "choices": [
+            "13.8:1",
+            "28.75:1",
+            "48:1",
+            "138:1"
+          ],
+          "answer": "B",
+          "explanation": "Turns ratio = Primary voltage / Secondary voltage = 13,800 / 480 = 28.75:1."
+        },
+        {
+          "num": 38,
+          "question": "A water tank is being filled at 150 GPM and drained at 95 GPM simultaneously. How long will it take to add 3,300 gallons net to the tank?",
+          "choices": [
+            "22 minutes",
+            "34.7 minutes",
+            "60 minutes",
+            "120 minutes"
+          ],
+          "answer": "C",
+          "explanation": "Net fill rate = 150 - 95 = 55 GPM. Time = 3,300 / 55 = 60 minutes."
+        },
+        {
+          "num": 39,
+          "question": "A coal sample has the following composition by weight: 70% carbon, 5% hydrogen, 10% moisture, 8% ash, and 7% other. If 2,000 pounds of coal are burned, how many pounds of ash remain?",
+          "choices": [
+            "100 pounds",
+            "140 pounds",
+            "160 pounds",
+            "200 pounds"
+          ],
+          "answer": "C",
+          "explanation": "Ash = 8% of 2,000 = 0.08 x 2,000 = 160 pounds."
+        },
+        {
+          "num": 40,
+          "question": "Convert 2,500 liters to gallons. (1 gallon = 3.785 liters)",
+          "choices": [
+            "528 gallons",
+            "660 gallons",
+            "750 gallons",
+            "946 gallons"
+          ],
+          "answer": "B",
+          "explanation": "Gallons = 2,500 / 3.785 = 660.5, approximately 660 gallons."
+        },
+        {
+          "num": 41,
+          "question": "A three-phase motor draws 30 amps per phase at 480 volts with a power factor of 0.90. What is the total power in kilowatts? (P = 1.732 x V x I x PF / 1000)",
+          "choices": [
+            "12.4 kW",
+            "22.4 kW",
+            "38.9 kW",
+            "44.8 kW"
+          ],
+          "answer": "B",
+          "explanation": "P = 1.732 x 480 x 30 x 0.90 / 1,000 = 1.732 x 480 x 30 x 0.90 / 1,000 = 22,453 / 1,000 = 22.4 kW."
+        },
+        {
+          "num": 42,
+          "question": "A pump station has 3 pumps, each rated at 500 GPM. If one pump is out for maintenance, what is the maximum combined flow rate of the remaining pumps?",
+          "choices": [
+            "500 GPM",
+            "750 GPM",
+            "1,000 GPM",
+            "1,500 GPM"
+          ],
+          "answer": "C",
+          "explanation": "With one pump out of service, 2 pumps remain: 2 x 500 = 1,000 GPM."
+        },
+        {
+          "num": 43,
+          "question": "A natural gas meter reads 45,600 cubic feet at the start of the month and 128,400 cubic feet at the end. If gas costs $0.85 per 100 cubic feet, what is the monthly gas cost?",
+          "choices": [
+            "$384.30",
+            "$703.80",
+            "$892.50",
+            "$1,091.40"
+          ],
+          "answer": "B",
+          "explanation": "Gas used = 128,400 - 45,600 = 82,800 cubic feet. Cost = (82,800 / 100) x $0.85 = 828 x $0.85 = $703.80."
+        },
+        {
+          "num": 44,
+          "question": "A cooling tower evaporates 2.5% of the circulating water flow rate. If the circulating flow is 80,000 GPM, how many gallons per hour are lost to evaporation?",
+          "choices": [
+            "2,000 gal/hr",
+            "12,000 gal/hr",
+            "120,000 gal/hr",
+            "200,000 gal/hr"
+          ],
+          "answer": "C",
+          "explanation": "Evaporation = 80,000 GPM x 0.025 = 2,000 GPM. Per hour = 2,000 x 60 = 120,000 gal/hr."
+        },
+        {
+          "num": 45,
+          "question": "If a pressure of 1 atmosphere equals 14.7 PSI, and also equals 33.9 feet of water, how many feet of water does 25 PSI equal?",
+          "choices": [
+            "33.9 feet",
+            "42.3 feet",
+            "57.7 feet",
+            "84.8 feet"
+          ],
+          "answer": "C",
+          "explanation": "Feet of water per PSI = 33.9 / 14.7 = 2.306 ft/PSI. For 25 PSI: 25 x 2.306 = 57.7 feet."
+        },
+        {
+          "num": 46,
+          "question": "A plant generates 200 MW and operates at a capacity factor of 78% over a year (8,760 hours). How many megawatt-hours of electricity were generated?",
+          "choices": [
+            "156,000 MWh",
+            "1,366,560 MWh",
+            "1,752,000 MWh",
+            "2,244,000 MWh"
+          ],
+          "answer": "B",
+          "explanation": "MWh = 200 MW x 0.78 x 8,760 hrs = 1,366,560 MWh."
+        },
+        {
+          "num": 47,
+          "question": "A sludge sample weighs 500 grams wet and 35 grams after drying. What is the percent solids?",
+          "choices": [
+            "5%",
+            "7%",
+            "10%",
+            "93%"
+          ],
+          "answer": "B",
+          "explanation": "Percent solids = (dry weight / wet weight) x 100 = (35 / 500) x 100 = 7%."
+        },
+        {
+          "num": 48,
+          "question": "A maintenance crew can replace 6 valve assemblies per day. If 45 valve assemblies need replacement, how many full working days are needed to complete the job?",
+          "choices": [
+            "7 days",
+            "7.5 days",
+            "8 days",
+            "9 days"
+          ],
+          "answer": "C",
+          "explanation": "Days = 45 / 6 = 7.5. Since partial days count as full days for scheduling, 8 full working days are needed."
+        },
+        {
+          "num": 49,
+          "question": "A sequence shows shapes with increasing sides: triangle (3), square (4), pentagon (5), hexagon (6). How many sides does the next shape have?",
+          "choices": [
+            "6 sides",
+            "7 sides",
+            "8 sides",
+            "9 sides"
+          ],
+          "answer": "B",
+          "explanation": "Each shape adds one side: 3, 4, 5, 6, 7. The next shape (heptagon) has 7 sides."
+        },
+        {
+          "num": 50,
+          "question": "A figure is rotated 90 degrees counterclockwise. The original figure has a vertical line with a horizontal line extending to the right from its midpoint (like a capital T rotated 90 degrees clockwise). After rotation, what does the figure look like?",
+          "choices": [
+            "A T shape (horizontal top, vertical stem down)",
+            "An L shape",
+            "A plus sign",
+            "An upside-down T"
+          ],
+          "answer": "A",
+          "explanation": "The original looks like a sideways T (vertical line with horizontal branch to the right). Rotating 90 degrees counterclockwise produces a standard T shape with horizontal top and vertical stem going down."
+        },
+        {
+          "num": 51,
+          "question": "In a pattern, shapes alternate between filled (black) and outline (white), and also alternate between large and small. The sequence is: large black circle, small white circle, large black square, small white square. What comes next?",
+          "choices": [
+            "Large black triangle",
+            "Small white triangle",
+            "Large white circle",
+            "Small black circle"
+          ],
+          "answer": "A",
+          "explanation": "The pattern has two alternating properties: color alternates (black, white, black, white...) and size alternates (large, small, large, small...). The shape changes every two figures (circle, circle, square, square, triangle, triangle...). Next is large black triangle."
+        },
+        {
+          "num": 52,
+          "question": "A 4x4 grid has the following pattern: the main diagonal (top-left to bottom-right) is shaded, and all other cells are blank. How many cells are shaded?",
+          "choices": [
+            "3 cells",
+            "4 cells",
+            "5 cells",
+            "8 cells"
+          ],
+          "answer": "B",
+          "explanation": "A 4x4 grid has 4 cells along the main diagonal (positions 1,1; 2,2; 3,3; 4,4). So 4 cells are shaded."
+        },
+        {
+          "num": 53,
+          "question": "A dot starts at position 1 on a number line and moves according to the pattern: +2, -1, +2, -1. After 8 moves, what position is the dot at?",
+          "choices": [
+            "5",
+            "7",
+            "9",
+            "11"
+          ],
+          "answer": "A",
+          "explanation": "Starting at 1, apply the pattern +2, -1 repeatedly: 1+2=3, 3-1=2, 2+2=4, 4-1=3, 3+2=5, 5-1=4, 4+2=6, 6-1=5. After 8 moves the dot is at position 5."
+        },
+        {
+          "num": 54,
+          "question": "A shape has a line of symmetry. The left half shows a right angle with the corner at the symmetry line. What does the complete figure look like when reflected?",
+          "choices": [
+            "A triangle",
+            "A diamond (rhombus)",
+            "An arrow pointing right",
+            "A rectangle"
+          ],
+          "answer": "B",
+          "explanation": "A right angle reflected across a vertical line of symmetry creates a diamond (rhombus) shape, with two right angles meeting at the symmetry line."
+        },
+        {
+          "num": 55,
+          "question": "In a series, each figure removes one element. Figure 1: square with an X inside and a dot in each corner (4 dots). Figure 2: same but with 3 dots. Figure 3: same but with 2 dots. What does Figure 4 look like?",
+          "choices": [
+            "Square with X and 1 dot",
+            "Square with X and no dots",
+            "Square with no X and 4 dots",
+            "Empty square"
+          ],
+          "answer": "A",
+          "explanation": "Each figure removes one dot. Figure 1: 4 dots. Figure 2: 3 dots. Figure 3: 2 dots. Figure 4: 1 dot. The square and X remain."
+        },
+        {
+          "num": 56,
+          "question": "A cube is painted red on all sides and then cut into 27 equal smaller cubes (3x3x3). How many small cubes have exactly two red faces?",
+          "choices": [
+            "6 cubes",
+            "8 cubes",
+            "12 cubes",
+            "16 cubes"
+          ],
+          "answer": "C",
+          "explanation": "In a 3x3x3 cube, the edge cubes (not corners) have exactly 2 painted faces. There are 12 edges, each with 1 edge cube = 12 cubes with 2 red faces."
+        },
+        {
+          "num": 57,
+          "question": "A pattern shows: Row 1: one star centered. Row 2: two stars side by side. Row 3: three stars in a row. How many stars appear in Row 5?",
+          "choices": [
+            "4 stars",
+            "5 stars",
+            "6 stars",
+            "10 stars"
+          ],
+          "answer": "B",
+          "explanation": "Each row adds one star: Row 1 has 1, Row 2 has 2, Row 3 has 3. Row 5 has 5 stars."
+        },
+        {
+          "num": 58,
+          "question": "A figure is composed of overlapping squares. Two squares overlapping create a region where they intersect. If three identical squares are placed so that each pair overlaps but the center region (where all three overlap) is empty, how many separate regions are formed by the squares?",
+          "choices": [
+            "6 regions",
+            "7 regions",
+            "9 regions",
+            "10 regions"
+          ],
+          "answer": "C",
+          "explanation": "Three squares where each pair overlaps but the center (all-three overlap) is empty creates: 3 single-square-only regions + 3 pairwise overlap regions + 3 areas where the third square creates additional regions = 9 distinct regions formed by the squares."
+        },
+        {
+          "num": 59,
+          "question": "A clock face shows 3 o'clock. The hour hand is at 3 and the minute hand is at 12. What is the angle between the two hands?",
+          "choices": [
+            "60 degrees",
+            "90 degrees",
+            "120 degrees",
+            "180 degrees"
+          ],
+          "answer": "B",
+          "explanation": "At 3 o'clock, the hour hand points at 3 and the minute hand at 12. Each hour mark = 30 degrees. Three hour marks = 90 degrees."
+        },
+        {
+          "num": 60,
+          "question": "A sequence of letters is formed by a pattern: A, C, F, J, ___. The differences between positions are: +2, +3, +4. What letter comes next?",
+          "choices": [
+            "M",
+            "N",
+            "O",
+            "P"
+          ],
+          "answer": "C",
+          "explanation": "A=1, C=3, F=6, J=10. The differences between letter positions are +2, +3, +4. The next difference is +5. Position 10 + 5 = 15 = the letter O."
+        }
+      ]
+    }
+  ]
+}

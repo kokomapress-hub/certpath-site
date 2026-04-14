@@ -1,0 +1,2183 @@
+{
+  "slug": "csp",
+  "title": "CSP Exam Study Guide",
+  "code": "CSP-D8F04-0KMZ8",
+  "timeMinutes": 90,
+  "tests": [
+    {
+      "testNum": 1,
+      "questions": [
+        {
+          "num": 1,
+          "question": "A facility with 250 employees recorded 5 OSHA-recordable injuries in one year. Employees worked a total of 500,000 hours. What is the OSHA Total Recordable Incident Rate (TRIR)?",
+          "choices": [
+            "1.0",
+            "2.0",
+            "5.0",
+            "10.0"
+          ],
+          "answer": "B",
+          "explanation": "TRIR = (Number of recordable injuries x 200,000) / Total hours worked = (5 x 200,000) / 500,000 = 2.0. The 200,000 factor represents 100 full-time equivalent workers at 2,000 hours/year."
+        },
+        {
+          "num": 2,
+          "question": "A plant recorded 3 lost-workday cases totaling 45 lost workdays over 400,000 employee-hours worked. What is the severity rate?",
+          "choices": [
+            "1.5",
+            "15.0",
+            "22.5",
+            "225.0"
+          ],
+          "answer": "C",
+          "explanation": "Severity rate = (Total lost workdays x 200,000) / Total hours worked = (45 x 200,000) / 400,000 = 22.5. This measures the severity of injuries per 200,000 hours worked."
+        },
+        {
+          "num": 3,
+          "question": "In a fault tree analysis, which gate indicates that the top event occurs when ALL input events must be present simultaneously?",
+          "choices": [
+            "OR gate",
+            "AND gate",
+            "INHIBIT gate",
+            "TRANSFER gate"
+          ],
+          "answer": "B",
+          "explanation": "An AND gate in fault tree analysis requires all input events to occur simultaneously for the output (top) event to occur. An OR gate requires only one input event."
+        },
+        {
+          "num": 4,
+          "question": "Which probability distribution is most commonly used to model the time between independent failure events in reliability engineering?",
+          "choices": [
+            "Normal distribution",
+            "Binomial distribution",
+            "Exponential distribution",
+            "Poisson distribution"
+          ],
+          "answer": "C",
+          "explanation": "The exponential distribution models the time between independent events (failures) in reliability engineering. It assumes a constant failure rate, making it suitable for the useful life period of equipment."
+        },
+        {
+          "num": 5,
+          "question": "A workplace noise measurement yields 92 dBA over an 8-hour shift. Using the OSHA 5-dB exchange rate, what is the maximum permissible exposure time at this level?",
+          "choices": [
+            "2 hours",
+            "4 hours",
+            "6 hours",
+            "8 hours"
+          ],
+          "answer": "C",
+          "explanation": "OSHA PEL for noise is 90 dBA for 8 hours with a 5-dB exchange rate (29 CFR 1910.95). At 92 dBA, the permissible time is 8 / 2^((92-90)/5) = 8 / 2^0.4 = approximately 6 hours."
+        },
+        {
+          "num": 6,
+          "question": "Which statistical measure describes the probability that a system will perform its intended function for a specified period under stated conditions?",
+          "choices": [
+            "Availability",
+            "Reliability",
+            "Maintainability",
+            "Failure rate"
+          ],
+          "answer": "B",
+          "explanation": "Reliability is defined as the probability that a system or component will perform its intended function for a specified period under stated conditions. Availability accounts for both reliability and maintainability."
+        },
+        {
+          "num": 7,
+          "question": "A company has a Days Away, Restricted, or Transferred (DART) rate of 3.5 and an industry average of 2.1. What does this comparison indicate?",
+          "choices": [
+            "The company is performing better than average",
+            "The company has a higher rate of serious injuries than average",
+            "The company has fewer total employees than average",
+            "The industry average is incorrectly calculated"
+          ],
+          "answer": "B",
+          "explanation": "A DART rate of 3.5 compared to an industry average of 2.1 indicates the company has a higher rate of serious injuries (those resulting in days away, restricted duty, or transfer) than the industry norm."
+        },
+        {
+          "num": 8,
+          "question": "When calculating the frequency rate of injuries, the standard base number used in the formula is:",
+          "choices": [
+            "100,000 hours worked",
+            "200,000 hours worked",
+            "1,000,000 hours worked",
+            "10,000 hours worked"
+          ],
+          "answer": "B",
+          "explanation": "The standard base for OSHA incidence rate calculations is 200,000 hours, representing 100 full-time employees working 40 hours/week for 50 weeks. This standardizes rates for comparison across different-sized organizations."
+        },
+        {
+          "num": 9,
+          "question": "Which element is considered the MOST critical foundation of an effective safety management system?",
+          "choices": [
+            "Employee training programs",
+            "Management leadership and commitment",
+            "Hazard reporting systems",
+            "Safety committee meetings"
+          ],
+          "answer": "B",
+          "explanation": "Management leadership and commitment is universally recognized as the most critical element of an effective safety management system. Without visible management support, safety programs lack the resources and authority needed to succeed."
+        },
+        {
+          "num": 10,
+          "question": "According to the hierarchy of controls, which method is MOST effective at reducing workplace hazards?",
+          "choices": [
+            "Administrative controls",
+            "Personal protective equipment",
+            "Engineering controls",
+            "Elimination"
+          ],
+          "answer": "D",
+          "explanation": "The hierarchy of controls ranks elimination as the most effective method, followed by substitution, engineering controls, administrative controls, and PPE (least effective). Per NIOSH, eliminating the hazard entirely removes all risk."
+        },
+        {
+          "num": 11,
+          "question": "A safety professional is developing leading indicators for a construction company. Which of the following is the BEST example of a leading indicator?",
+          "choices": [
+            "Number of OSHA-recordable injuries",
+            "Workers' compensation costs",
+            "Percentage of safety inspections completed on time",
+            "Lost workday injury rate"
+          ],
+          "answer": "C",
+          "explanation": "Leading indicators measure proactive safety efforts and predict future performance. Percentage of inspections completed on time is a leading indicator. Injury rates and costs are lagging indicators that measure past events."
+        },
+        {
+          "num": 12,
+          "question": "The Plan-Do-Check-Act (PDCA) cycle in safety management is MOST closely associated with which approach?",
+          "choices": [
+            "Behavior-based safety",
+            "Continuous improvement",
+            "Total quality management only",
+            "Root cause analysis"
+          ],
+          "answer": "B",
+          "explanation": "The PDCA cycle (Plan-Do-Check-Act) is the foundation of continuous improvement methodology. While used in TQM, it applies broadly to safety management as a systematic approach to ongoing improvement."
+        },
+        {
+          "num": 13,
+          "question": "During a job hazard analysis (JHA), the FIRST step is to:",
+          "choices": [
+            "Determine corrective actions",
+            "Identify potential hazards for each step",
+            "Select the job to be analyzed",
+            "Observe the employee performing the task"
+          ],
+          "answer": "C",
+          "explanation": "The first step in a JHA is selecting the job to analyze, prioritizing high-hazard jobs, those with frequent injuries, or new operations. After selection, the job is broken into steps, hazards identified, and controls determined."
+        },
+        {
+          "num": 14,
+          "question": "Which of the following BEST describes the purpose of a management of change (MOC) process?",
+          "choices": [
+            "Tracking employee promotions and transfers",
+            "Evaluating and managing risks from changes to processes, equipment, or procedures",
+            "Documenting changes in safety regulations",
+            "Managing organizational restructuring"
+          ],
+          "answer": "B",
+          "explanation": "Management of Change (MOC) is a systematic process to evaluate and manage risks associated with changes to processes, equipment, materials, or procedures. It is a key element of Process Safety Management (29 CFR 1910.119)."
+        },
+        {
+          "num": 15,
+          "question": "A safety audit differs from a safety inspection primarily because an audit:",
+          "choices": [
+            "Is conducted more frequently",
+            "Focuses on compliance with specific regulations only",
+            "Evaluates the overall effectiveness of the safety management system",
+            "Is performed only by external consultants"
+          ],
+          "answer": "C",
+          "explanation": "A safety audit evaluates the overall effectiveness of the safety management system, including policies, procedures, and compliance. An inspection typically focuses on identifying specific physical hazards in the workplace."
+        },
+        {
+          "num": 16,
+          "question": "Which cost category includes medical expenses and workers' compensation payments following a workplace injury?",
+          "choices": [
+            "Indirect costs",
+            "Direct costs",
+            "Hidden costs",
+            "Overhead costs"
+          ],
+          "answer": "B",
+          "explanation": "Direct costs are those directly attributable to an incident, including medical expenses, workers' compensation payments, and repair costs. Indirect costs include lost productivity, training replacements, and administrative time."
+        },
+        {
+          "num": 17,
+          "question": "According to Heinrich's domino theory, removing which domino is the MOST practical way to prevent an accident?",
+          "choices": [
+            "Social environment and ancestry",
+            "Fault of the person",
+            "Unsafe act or unsafe condition",
+            "Injury"
+          ],
+          "answer": "C",
+          "explanation": "Heinrich's domino theory identifies five sequential factors. Removing the middle domino -- the unsafe act or unsafe condition -- is the most practical intervention point to prevent the accident and resulting injury."
+        },
+        {
+          "num": 18,
+          "question": "A behavior-based safety (BBS) program is MOST effective when it:",
+          "choices": [
+            "Focuses on disciplinary actions for unsafe behavior",
+            "Uses only management observations",
+            "Involves peer-to-peer observations with constructive feedback",
+            "Relies solely on incident investigation data"
+          ],
+          "answer": "C",
+          "explanation": "Effective BBS programs involve peer-to-peer observations with constructive, non-punitive feedback. This approach builds trust and encourages safe behaviors rather than creating a culture of blame."
+        },
+        {
+          "num": 19,
+          "question": "In a risk assessment matrix, risk is typically defined as:",
+          "choices": [
+            "Hazard multiplied by exposure",
+            "Probability multiplied by severity",
+            "Frequency multiplied by duration",
+            "Vulnerability multiplied by threat"
+          ],
+          "answer": "B",
+          "explanation": "Risk is classically defined as the product of probability (likelihood of occurrence) and severity (consequence if it occurs). Risk assessment matrices plot these two dimensions to categorize and prioritize risks."
+        },
+        {
+          "num": 20,
+          "question": "During a process hazard analysis (PHA) of a chemical process, which method uses guide words such as 'more,' 'less,' and 'reverse' to identify deviations?",
+          "choices": [
+            "Failure Mode and Effects Analysis (FMEA)",
+            "What-If Analysis",
+            "Hazard and Operability Study (HAZOP)",
+            "Checklist Analysis"
+          ],
+          "answer": "C",
+          "explanation": "HAZOP (Hazard and Operability Study) uses guide words (no, more, less, reverse, as well as, part of, other than) applied to process parameters to systematically identify deviations from design intent."
+        },
+        {
+          "num": 21,
+          "question": "Which of the following is the PRIMARY purpose of a preliminary hazard analysis (PHA)?",
+          "choices": [
+            "To identify hazards early in the design phase",
+            "To determine root causes of past incidents",
+            "To calculate insurance premiums",
+            "To satisfy OSHA inspection requirements"
+          ],
+          "answer": "A",
+          "explanation": "A preliminary hazard analysis (PHA) is performed early in the design or planning phase to identify potential hazards before detailed design is complete. It is a qualitative, high-level risk assessment method."
+        },
+        {
+          "num": 22,
+          "question": "A failure mode and effects analysis (FMEA) assigns a Risk Priority Number (RPN) based on which three factors?",
+          "choices": [
+            "Frequency, severity, and cost",
+            "Severity, occurrence, and detection",
+            "Probability, exposure, and consequence",
+            "Likelihood, impact, and duration"
+          ],
+          "answer": "B",
+          "explanation": "FMEA calculates a Risk Priority Number (RPN) = Severity x Occurrence x Detection. Each factor is rated on a scale (typically 1-10), and the RPN prioritizes failure modes for corrective action."
+        },
+        {
+          "num": 23,
+          "question": "When conducting workplace air sampling for chemical exposures, a full-shift personal sample provides data to compare against which standard?",
+          "choices": [
+            "Short-term exposure limit (STEL)",
+            "Ceiling limit",
+            "8-hour time-weighted average (TWA)",
+            "Immediately dangerous to life or health (IDLH)"
+          ],
+          "answer": "C",
+          "explanation": "A full-shift personal air sample (typically 8 hours) provides data to compare against the 8-hour time-weighted average (TWA) PEL. Short-term samples (15 minutes) compare against STEL values."
+        },
+        {
+          "num": 24,
+          "question": "An industrial hygienist collects area noise samples and finds that an employee is exposed to 95 dBA for 4 hours and 85 dBA for 4 hours. Using the OSHA method, what is the noise dose?",
+          "choices": [
+            "50%",
+            "75%",
+            "100%",
+            "125%"
+          ],
+          "answer": "C",
+          "explanation": "Using OSHA's method: At 95 dBA, permissible time = 4 hours; actual = 4 hours, so dose fraction = 4/4 = 1.0. At 85 dBA, permissible time = 16 hours; actual = 4 hours, so dose fraction = 4/16 = 0.25. Total dose = 1.0 + 0.25 = 1.25, but recalculating: 95 dBA for 4 hrs gives C/T = 4/4 = 1.0, and 85 dBA is below the 90 dBA threshold so it contributes 0. Total dose = 100%. The correct answer considers the OSHA 90 dBA threshold."
+        },
+        {
+          "num": 25,
+          "question": "Which type of hazard analysis is MOST appropriate for evaluating potential failures in a complex mechanical system where each component's failure mode needs to be assessed?",
+          "choices": [
+            "Job hazard analysis",
+            "Bow-tie analysis",
+            "Failure mode and effects analysis (FMEA)",
+            "Event tree analysis"
+          ],
+          "answer": "C",
+          "explanation": "FMEA is specifically designed to evaluate each component's potential failure modes, their effects on the system, and their causes. It is the most appropriate method for systematic component-level failure analysis."
+        },
+        {
+          "num": 26,
+          "question": "According to OSHA's Lockout/Tagout standard (29 CFR 1910.147), which of the following employees is classified as an 'affected employee'?",
+          "choices": [
+            "An employee who services or maintains machines",
+            "An employee who operates a machine being locked out",
+            "An employee who performs lockout/tagout procedures",
+            "An employee who verifies energy isolation"
+          ],
+          "answer": "B",
+          "explanation": "Under 29 CFR 1910.147, an 'affected employee' is one whose job requires operating or using a machine or equipment on which servicing or maintenance is being performed under lockout/tagout. The 'authorized employee' performs the lockout."
+        },
+        {
+          "num": 27,
+          "question": "Which type of machine guard provides the HIGHEST level of protection because it prevents access to the danger zone at all times?",
+          "choices": [
+            "Adjustable guard",
+            "Interlocked guard",
+            "Fixed guard",
+            "Self-adjusting guard"
+          ],
+          "answer": "C",
+          "explanation": "A fixed guard is a permanent barrier that prevents access to the danger zone at all times. It requires tools to remove and provides the highest level of protection because it cannot be easily bypassed."
+        },
+        {
+          "num": 28,
+          "question": "Under OSHA's Permit-Required Confined Space standard (29 CFR 1910.146), atmospheric testing must be performed in which order?",
+          "choices": [
+            "Oxygen, combustible gases, toxic gases",
+            "Combustible gases, toxic gases, oxygen",
+            "Toxic gases, oxygen, combustible gases",
+            "Oxygen, toxic gases, combustible gases"
+          ],
+          "answer": "A",
+          "explanation": "Per 29 CFR 1910.146, atmospheric testing in confined spaces must be performed in this order: (1) oxygen, (2) combustible gases, (3) toxic gases. Oxygen is tested first because combustible gas readings are inaccurate in oxygen-deficient atmospheres."
+        },
+        {
+          "num": 29,
+          "question": "A worker will be exposed to lead concentrations at 60 micrograms per cubic meter (ug/m3) over an 8-hour shift. The OSHA PEL for lead is 50 ug/m3. What is the MOST appropriate immediate action?",
+          "choices": [
+            "Provide a dust mask and continue work",
+            "Implement engineering controls to reduce exposure below the PEL",
+            "Rotate workers to limit individual exposure time",
+            "Document the exposure and schedule medical monitoring only"
+          ],
+          "answer": "B",
+          "explanation": "When airborne lead exceeds the OSHA PEL of 50 ug/m3 (29 CFR 1910.1025), the employer must implement engineering controls to reduce exposure below the PEL. Respiratory protection and medical monitoring are supplemental measures."
+        },
+        {
+          "num": 30,
+          "question": "Which of the following is the MOST effective engineering control for reducing worker exposure to welding fumes?",
+          "choices": [
+            "Providing respiratory protection",
+            "Limiting work shifts to 4 hours",
+            "Installing local exhaust ventilation at the welding station",
+            "Posting warning signs about fume hazards"
+          ],
+          "answer": "C",
+          "explanation": "Local exhaust ventilation at the source is the most effective engineering control for welding fumes. It captures contaminants at the point of generation before they disperse into the worker's breathing zone."
+        },
+        {
+          "num": 31,
+          "question": "According to NFPA 70E, what determines the level of arc-rated PPE required when working on energized electrical equipment?",
+          "choices": [
+            "The voltage of the circuit",
+            "The available short-circuit current only",
+            "The arc flash hazard analysis or incident energy calculation",
+            "The distance from the electrical panel"
+          ],
+          "answer": "C",
+          "explanation": "NFPA 70E requires an arc flash hazard analysis or incident energy calculation to determine the appropriate level of arc-rated PPE. The analysis considers available fault current, clearing time, and working distance."
+        },
+        {
+          "num": 32,
+          "question": "When selecting respiratory protection, the assigned protection factor (APF) for a half-face air-purifying respirator is:",
+          "choices": [
+            "5",
+            "10",
+            "25",
+            "50"
+          ],
+          "answer": "B",
+          "explanation": "Per OSHA's respiratory protection standard (29 CFR 1910.134), a half-face air-purifying respirator has an assigned protection factor (APF) of 10, meaning it can reduce airborne concentrations by a factor of 10."
+        },
+        {
+          "num": 33,
+          "question": "Which fall protection method requires a competent person to design and supervise its installation in construction?",
+          "choices": [
+            "Standard guardrails",
+            "Personal fall arrest systems",
+            "Safety net systems",
+            "All of the above"
+          ],
+          "answer": "D",
+          "explanation": "Under OSHA's construction fall protection standards (29 CFR 1926 Subpart M), a competent person must be designated to design and oversee installation of guardrails, personal fall arrest systems, and safety net systems."
+        },
+        {
+          "num": 34,
+          "question": "Under OSHA's Hazard Communication standard (29 CFR 1910.1200), which element is NOT required on a GHS-compliant label?",
+          "choices": [
+            "Signal word",
+            "Pictograms",
+            "Emergency contact phone number",
+            "Precautionary statements"
+          ],
+          "answer": "C",
+          "explanation": "GHS-compliant labels under OSHA's HazCom standard (29 CFR 1910.1200) require: product identifier, signal word, hazard statements, pictograms, precautionary statements, and supplier identification. An emergency contact phone number is required on SDSs, not labels."
+        },
+        {
+          "num": 35,
+          "question": "The MOST effective method to control silica dust exposure during concrete cutting operations is:",
+          "choices": [
+            "Providing N95 respirators to workers",
+            "Wet cutting methods with integrated water delivery",
+            "Administrative rotation of workers",
+            "Posting exposure warning signs"
+          ],
+          "answer": "B",
+          "explanation": "Wet cutting methods are the most effective engineering control for silica dust during concrete cutting. Water suppresses dust at the source, reducing airborne silica concentrations by 80-90%. Per OSHA's silica standard (29 CFR 1926.1153), Table 1 specifies wet methods for this task."
+        },
+        {
+          "num": 36,
+          "question": "The OSHA General Duty Clause (Section 5(a)(1) of the OSH Act) requires employers to:",
+          "choices": [
+            "Follow all OSHA standards without exception",
+            "Provide a workplace free from recognized hazards causing or likely to cause death or serious physical harm",
+            "Report all injuries within 24 hours",
+            "Provide health insurance to all employees"
+          ],
+          "answer": "B",
+          "explanation": "The General Duty Clause, Section 5(a)(1) of the OSH Act, requires employers to furnish a place of employment free from recognized hazards that are causing or likely to cause death or serious physical harm to employees."
+        },
+        {
+          "num": 37,
+          "question": "Under OSHA recordkeeping requirements (29 CFR 1904), which of the following injuries must be recorded on the OSHA 300 Log?",
+          "choices": [
+            "A first-aid-only injury treated with a bandage",
+            "A work-related injury resulting in days away from work",
+            "A minor cut requiring only antiseptic treatment",
+            "A pre-existing condition unrelated to work"
+          ],
+          "answer": "B",
+          "explanation": "Under 29 CFR 1904, work-related injuries resulting in death, days away from work, restricted work or transfer, medical treatment beyond first aid, loss of consciousness, or significant injury/illness must be recorded."
+        },
+        {
+          "num": 38,
+          "question": "Which OSHA citation category carries the HIGHEST monetary penalty?",
+          "choices": [
+            "Serious violation",
+            "Other-than-serious violation",
+            "Willful violation",
+            "Repeat violation"
+          ],
+          "answer": "C",
+          "explanation": "Willful violations carry the highest penalties under the OSH Act. A willful violation occurs when an employer knowingly commits or shows plain indifference to the requirements of the Act. Maximum penalties can exceed $150,000 per violation."
+        },
+        {
+          "num": 39,
+          "question": "Under RCRA (Resource Conservation and Recovery Act), a hazardous waste generator that produces between 100 and 1,000 kg of hazardous waste per month is classified as a:",
+          "choices": [
+            "Conditionally exempt small quantity generator",
+            "Small quantity generator",
+            "Large quantity generator",
+            "Exempt generator"
+          ],
+          "answer": "B",
+          "explanation": "Under RCRA, generators producing between 100 and 1,000 kg (approximately 220-2,200 lb) of hazardous waste per month are classified as small quantity generators (SQGs). They must comply with specific storage time limits and manifest requirements."
+        },
+        {
+          "num": 40,
+          "question": "CERCLA (the Superfund Act) primarily addresses:",
+          "choices": [
+            "Air pollution from industrial facilities",
+            "Cleanup of abandoned or uncontrolled hazardous waste sites",
+            "Regulation of workplace chemical exposures",
+            "Disposal of municipal solid waste"
+          ],
+          "answer": "B",
+          "explanation": "CERCLA (Comprehensive Environmental Response, Compensation, and Liability Act), also known as Superfund, addresses the cleanup of abandoned or uncontrolled hazardous waste sites and emergency releases of hazardous substances."
+        },
+        {
+          "num": 41,
+          "question": "Which federal agency has primary authority to regulate the transportation of hazardous materials in the United States?",
+          "choices": [
+            "EPA",
+            "OSHA",
+            "DOT (Department of Transportation)",
+            "NIOSH"
+          ],
+          "answer": "C",
+          "explanation": "The Department of Transportation (DOT) has primary authority over the transportation of hazardous materials under 49 CFR. This includes packaging, labeling, placarding, and shipping paper requirements."
+        },
+        {
+          "num": 42,
+          "question": "Under the Clean Air Act, National Ambient Air Quality Standards (NAAQS) are established for:",
+          "choices": [
+            "All industrial chemicals",
+            "Criteria pollutants including particulate matter and ozone",
+            "Only greenhouse gases",
+            "Hazardous waste emissions only"
+          ],
+          "answer": "B",
+          "explanation": "NAAQS under the Clean Air Act are established for six criteria pollutants: particulate matter, ozone, carbon monoxide, nitrogen dioxide, sulfur dioxide, and lead. These standards set limits to protect public health and welfare."
+        },
+        {
+          "num": 43,
+          "question": "An employer receives an OSHA citation. The employer has how many working days to contest the citation?",
+          "choices": [
+            "7 working days",
+            "10 working days",
+            "15 working days",
+            "30 working days"
+          ],
+          "answer": "C",
+          "explanation": "Under the OSH Act, an employer has 15 working days from receipt of the citation to file a notice of contest with the OSHA Area Director. Failure to contest within this period makes the citation final."
+        },
+        {
+          "num": 44,
+          "question": "According to NFPA classification, a Class B fire involves:",
+          "choices": [
+            "Ordinary combustible materials such as wood and paper",
+            "Flammable liquids and gases",
+            "Energized electrical equipment",
+            "Combustible metals"
+          ],
+          "answer": "B",
+          "explanation": "NFPA classifies fires by fuel type: Class A = ordinary combustibles (wood, paper); Class B = flammable liquids and gases; Class C = energized electrical equipment; Class D = combustible metals; Class K = cooking oils."
+        },
+        {
+          "num": 45,
+          "question": "Which type of fire extinguisher is MOST appropriate for a fire involving energized electrical equipment?",
+          "choices": [
+            "Water extinguisher",
+            "Foam extinguisher",
+            "Carbon dioxide (CO2) extinguisher",
+            "Wet chemical extinguisher"
+          ],
+          "answer": "C",
+          "explanation": "CO2 extinguishers are ideal for energized electrical equipment (Class C) because CO2 is non-conductive and leaves no residue. Water and foam are conductors and should not be used on electrical fires."
+        },
+        {
+          "num": 46,
+          "question": "In the Incident Command System (ICS), the individual responsible for overall management of the incident is the:",
+          "choices": [
+            "Operations Section Chief",
+            "Safety Officer",
+            "Incident Commander",
+            "Planning Section Chief"
+          ],
+          "answer": "C",
+          "explanation": "In the Incident Command System (ICS), the Incident Commander has overall authority and responsibility for managing the incident. The IC sets objectives, develops strategies, and manages all incident activities."
+        },
+        {
+          "num": 47,
+          "question": "OSHA's HAZWOPER standard (29 CFR 1910.120) requires initial training of how many hours for general site workers at hazardous waste operations?",
+          "choices": [
+            "8 hours",
+            "16 hours",
+            "24 hours",
+            "40 hours"
+          ],
+          "answer": "D",
+          "explanation": "Under 29 CFR 1910.120(e)(3), general site workers at hazardous waste operations must receive a minimum of 40 hours of initial off-site instruction and a minimum of 3 days of supervised on-site field experience."
+        },
+        {
+          "num": 48,
+          "question": "A wet-pipe sprinkler system differs from a dry-pipe system in that a wet-pipe system:",
+          "choices": [
+            "Uses chemical suppressants instead of water",
+            "Has water already present in the piping at all times",
+            "Is activated manually by an operator",
+            "Is designed only for cold-weather environments"
+          ],
+          "answer": "B",
+          "explanation": "A wet-pipe sprinkler system has water in the piping at all times and discharges immediately when a sprinkler head activates. Dry-pipe systems use pressurized air or nitrogen in the piping and are used where freezing is a concern."
+        },
+        {
+          "num": 49,
+          "question": "The fire tetrahedron includes fuel, heat, oxygen, and which fourth element?",
+          "choices": [
+            "Gravity",
+            "Chemical chain reaction",
+            "Ignition source",
+            "Ventilation"
+          ],
+          "answer": "B",
+          "explanation": "The fire tetrahedron adds the chemical chain reaction to the three elements of the fire triangle (fuel, heat, oxygen). Removing any one element extinguishes the fire. Halon-type agents work by interrupting the chain reaction."
+        },
+        {
+          "num": 50,
+          "question": "During an emergency evacuation, the PRIMARY role of a floor warden is to:",
+          "choices": [
+            "Fight the fire using extinguishers",
+            "Contact the media about the emergency",
+            "Ensure all personnel evacuate the assigned area",
+            "Investigate the cause of the emergency"
+          ],
+          "answer": "C",
+          "explanation": "Floor wardens are responsible for ensuring all personnel evacuate their assigned areas during an emergency. They check offices, restrooms, and common areas, assist those needing help, and report status to the emergency coordinator."
+        },
+        {
+          "num": 51,
+          "question": "Under NIMS (National Incident Management System), the concept of 'span of control' recommends that one supervisor manage no more than:",
+          "choices": [
+            "3 subordinates",
+            "5 to 7 subordinates",
+            "10 subordinates",
+            "15 subordinates"
+          ],
+          "answer": "B",
+          "explanation": "NIMS recommends a span of control of 3 to 7 subordinates, with 5 being optimal. This ensures effective supervision and communication during incident management operations."
+        },
+        {
+          "num": 52,
+          "question": "Which of the following fire detection devices responds FASTEST to a rapidly developing fire?",
+          "choices": [
+            "Ionization smoke detector",
+            "Photoelectric smoke detector",
+            "Fixed-temperature heat detector",
+            "Rate-of-rise heat detector"
+          ],
+          "answer": "A",
+          "explanation": "Ionization smoke detectors respond fastest to rapidly developing (flaming) fires because they detect invisible combustion particles. Photoelectric detectors respond faster to slow, smoldering fires. Rate-of-rise heat detectors respond to rapid temperature increases."
+        },
+        {
+          "num": 53,
+          "question": "The NIOSH Revised Lifting Equation calculates a Recommended Weight Limit (RWL). If the Lifting Index (LI) is greater than 1.0, this indicates:",
+          "choices": [
+            "The lift is within acceptable limits",
+            "The lift poses an increased risk for musculoskeletal injury",
+            "The worker needs additional training only",
+            "The load weight equals the RWL"
+          ],
+          "answer": "B",
+          "explanation": "The Lifting Index (LI) = Load Weight / Recommended Weight Limit. An LI greater than 1.0 means the actual load exceeds the recommended limit, indicating increased risk for low back musculoskeletal injury."
+        },
+        {
+          "num": 54,
+          "question": "Which of the following is a PRIMARY risk factor for work-related musculoskeletal disorders (MSDs)?",
+          "choices": [
+            "Working in a well-lit environment",
+            "High repetition combined with forceful exertions",
+            "Using ergonomically designed tools",
+            "Taking frequent rest breaks"
+          ],
+          "answer": "B",
+          "explanation": "The primary risk factors for MSDs include high repetition, forceful exertions, awkward postures, vibration, and contact stress. The combination of high repetition with forceful exertions significantly increases MSD risk."
+        },
+        {
+          "num": 55,
+          "question": "In office ergonomics, the top of a computer monitor should be positioned at approximately:",
+          "choices": [
+            "Eye level or slightly below",
+            "6 inches above eye level",
+            "12 inches below eye level",
+            "The same height as the keyboard"
+          ],
+          "answer": "A",
+          "explanation": "Ergonomic guidelines recommend positioning the top of the monitor at or slightly below eye level, approximately 20-26 inches from the eyes, with a slight downward viewing angle of 10-20 degrees to reduce neck strain."
+        },
+        {
+          "num": 56,
+          "question": "The NIOSH lifting equation uses a load constant (LC) of:",
+          "choices": [
+            "23 kg (51 lb)",
+            "25 kg (55 lb)",
+            "30 kg (66 lb)",
+            "50 kg (110 lb)"
+          ],
+          "answer": "A",
+          "explanation": "The NIOSH Revised Lifting Equation uses a load constant (LC) of 23 kg (51 lb), representing the maximum recommended weight under ideal lifting conditions. The RWL is calculated by multiplying the LC by six task-specific multipliers."
+        },
+        {
+          "num": 57,
+          "question": "Cumulative trauma disorders (CTDs) such as carpal tunnel syndrome are MOST commonly associated with:",
+          "choices": [
+            "Exposure to chemical hazards",
+            "Repetitive motions and sustained awkward postures",
+            "Acute traumatic injuries",
+            "Noise exposure above 85 dBA"
+          ],
+          "answer": "B",
+          "explanation": "Cumulative trauma disorders (CTDs) including carpal tunnel syndrome, tendinitis, and epicondylitis are caused by repetitive motions, sustained awkward postures, forceful exertions, vibration, and contact stress over time."
+        },
+        {
+          "num": 58,
+          "question": "A CSP discovers that their employer is knowingly violating an OSHA regulation that could result in serious employee injury. The MOST ethical action is to:",
+          "choices": [
+            "Ignore the violation to protect the employer relationship",
+            "Report the violation to OSHA immediately without informing the employer",
+            "Document the hazard and recommend corrective action to management through proper channels",
+            "Resign from the position without reporting"
+          ],
+          "answer": "C",
+          "explanation": "The ethical approach is to document the hazard and recommend corrective action through proper internal channels first. The BCSP Code of Ethics requires certificants to be truthful and accurate while also working within organizational structures."
+        },
+        {
+          "num": 59,
+          "question": "The BCSP Code of Ethics requires certificants to:",
+          "choices": [
+            "Place employer interests above all other considerations",
+            "Hold paramount the safety, health, and welfare of the public",
+            "Maintain certification regardless of continued competence",
+            "Avoid involvement in professional development activities"
+          ],
+          "answer": "B",
+          "explanation": "The BCSP Code of Ethics states that certificants shall hold paramount the safety, health, and welfare of the public in the performance of professional duties. This is the overriding ethical obligation."
+        },
+        {
+          "num": 60,
+          "question": "A safety professional is asked by management to alter incident investigation findings to minimize the company's liability. The safety professional should:",
+          "choices": [
+            "Comply with management's request as they are the employer",
+            "Alter only minor details to maintain the employment relationship",
+            "Refuse to alter the findings and maintain accurate documentation",
+            "Resign immediately without explanation"
+          ],
+          "answer": "C",
+          "explanation": "Safety professionals have an ethical obligation to maintain accurate and truthful documentation. Altering investigation findings violates the BCSP Code of Ethics and potentially violates OSHA recordkeeping requirements (29 CFR 1904)."
+        }
+      ]
+    },
+    {
+      "testNum": 2,
+      "questions": [
+        {
+          "num": 1,
+          "question": "A manufacturing facility with 400 employees worked 800,000 hours last year and recorded 12 OSHA-recordable injuries. What is the Total Recordable Incident Rate (TRIR)?",
+          "choices": [
+            "1.5",
+            "3.0",
+            "6.0",
+            "12.0"
+          ],
+          "answer": "B",
+          "explanation": "TRIR = (12 x 200,000) / 800,000 = 3.0. The formula uses 200,000 as the base factor representing 100 full-time equivalent workers."
+        },
+        {
+          "num": 2,
+          "question": "In event tree analysis, what does each branch point represent?",
+          "choices": [
+            "A different root cause",
+            "A success or failure of a safety barrier or system",
+            "A probability distribution",
+            "A regulatory requirement"
+          ],
+          "answer": "B",
+          "explanation": "In event tree analysis, each branch point represents the success or failure of a safety function, barrier, or system that could prevent or mitigate the consequences of an initiating event."
+        },
+        {
+          "num": 3,
+          "question": "A chemical plant experienced 2 fatalities and 600,000 employee-hours worked last year. What is the fatal incident rate per 200,000 hours?",
+          "choices": [
+            "0.33",
+            "0.67",
+            "1.0",
+            "1.67"
+          ],
+          "answer": "B",
+          "explanation": "Fatal incident rate = (2 x 200,000) / 600,000 = 0.67 fatalities per 200,000 hours worked. This metric allows comparison across organizations of different sizes."
+        },
+        {
+          "num": 4,
+          "question": "The 'bathtub curve' in reliability engineering depicts three distinct periods. The middle period is characterized by:",
+          "choices": [
+            "Increasing failure rate due to wear-out",
+            "Decreasing failure rate as defective units are removed",
+            "A constant (relatively low) failure rate",
+            "A bimodal failure rate distribution"
+          ],
+          "answer": "C",
+          "explanation": "The bathtub curve shows three periods: infant mortality (decreasing failure rate), useful life (constant/low failure rate), and wear-out (increasing failure rate). The middle useful life period has a constant, relatively low failure rate."
+        },
+        {
+          "num": 5,
+          "question": "Which statistical concept describes the expected number of events in a fixed interval of time when events occur independently at a constant average rate?",
+          "choices": [
+            "Binomial distribution",
+            "Poisson distribution",
+            "Normal distribution",
+            "Weibull distribution"
+          ],
+          "answer": "B",
+          "explanation": "The Poisson distribution models the number of events occurring in a fixed interval when events are independent and occur at a constant average rate. It is commonly used for modeling rare events like accidents."
+        },
+        {
+          "num": 6,
+          "question": "A worker is exposed to a chemical at 15 ppm for 4 hours and 5 ppm for 4 hours. What is the 8-hour TWA exposure?",
+          "choices": [
+            "5 ppm",
+            "10 ppm",
+            "15 ppm",
+            "20 ppm"
+          ],
+          "answer": "B",
+          "explanation": "8-hour TWA = [(15 ppm x 4 hr) + (5 ppm x 4 hr)] / 8 hr = (60 + 20) / 8 = 10 ppm. The TWA weighs each concentration by the time spent at that level."
+        },
+        {
+          "num": 7,
+          "question": "The Experience Modification Rate (EMR) is used in workers' compensation to:",
+          "choices": [
+            "Calculate OSHA fines for repeat violations",
+            "Adjust insurance premiums based on a company's loss history relative to its industry",
+            "Determine the number of safety professionals required",
+            "Set OSHA inspection frequency"
+          ],
+          "answer": "B",
+          "explanation": "The EMR (or Mod Rate) compares a company's actual workers' compensation losses to the expected losses for their industry. An EMR above 1.0 results in higher premiums; below 1.0 results in lower premiums."
+        },
+        {
+          "num": 8,
+          "question": "In a Weibull distribution analysis of equipment failures, a shape parameter (beta) greater than 1 indicates:",
+          "choices": [
+            "Constant failure rate",
+            "Decreasing failure rate (infant mortality)",
+            "Increasing failure rate (wear-out)",
+            "Random failure pattern"
+          ],
+          "answer": "C",
+          "explanation": "In Weibull analysis, beta (shape parameter) > 1 indicates an increasing failure rate (wear-out mode); beta = 1 indicates constant failure rate (exponential distribution); beta < 1 indicates decreasing failure rate (infant mortality)."
+        },
+        {
+          "num": 9,
+          "question": "The concept of 'Safety Culture' is BEST defined as:",
+          "choices": [
+            "The number of safety rules posted in the workplace",
+            "The shared values, beliefs, and attitudes toward safety within an organization",
+            "The frequency of safety meetings",
+            "The ratio of safety staff to total employees"
+          ],
+          "answer": "B",
+          "explanation": "Safety culture encompasses the shared values, beliefs, attitudes, and behavioral norms related to safety within an organization. It reflects how safety is truly prioritized beyond written policies."
+        },
+        {
+          "num": 10,
+          "question": "Which investigation technique asks 'why' repeatedly (typically five times) to drill down to the root cause of an incident?",
+          "choices": [
+            "Fault tree analysis",
+            "Change analysis",
+            "5-Why analysis",
+            "Fishbone diagram"
+          ],
+          "answer": "C",
+          "explanation": "The 5-Why analysis is a root cause investigation technique that iteratively asks 'why' to move from symptoms to the underlying root cause. It is simple, effective, and widely used in incident investigation."
+        },
+        {
+          "num": 11,
+          "question": "Return on investment (ROI) for safety programs is BEST demonstrated by:",
+          "choices": [
+            "The number of safety meetings held per year",
+            "Comparing the total cost of safety investments to the measurable reduction in losses",
+            "The number of safety rules implemented",
+            "The size of the safety department budget"
+          ],
+          "answer": "B",
+          "explanation": "ROI for safety is best demonstrated by comparing investment costs (training, equipment, programs) to measurable benefits (reduced injury costs, lower insurance premiums, decreased absenteeism, improved productivity)."
+        },
+        {
+          "num": 12,
+          "question": "ANSI/ASSP Z10 is a standard that addresses:",
+          "choices": [
+            "Electrical safety in the workplace",
+            "Occupational health and safety management systems",
+            "Fire protection system design",
+            "Confined space entry requirements"
+          ],
+          "answer": "B",
+          "explanation": "ANSI/ASSP Z10 is the American standard for Occupational Health and Safety Management Systems. It provides a framework for establishing, implementing, and improving an organization's safety management system."
+        },
+        {
+          "num": 13,
+          "question": "In James Reason's Swiss Cheese model, accidents occur when:",
+          "choices": [
+            "A single unsafe act occurs",
+            "Holes in multiple defense layers align simultaneously",
+            "Management fails to conduct inspections",
+            "Employees refuse to wear PPE"
+          ],
+          "answer": "B",
+          "explanation": "James Reason's Swiss Cheese model describes how accidents result from holes (weaknesses) in multiple layers of defense aligning simultaneously, allowing a hazard to pass through all barriers."
+        },
+        {
+          "num": 14,
+          "question": "A lagging indicator in safety management is BEST described as:",
+          "choices": [
+            "A measure of safety program activities before incidents occur",
+            "A reactive measure based on past incident data",
+            "A prediction of future safety performance",
+            "A measure of employee safety training completion rates"
+          ],
+          "answer": "B",
+          "explanation": "Lagging indicators are reactive measures based on past events, such as injury rates, lost workdays, and workers' compensation costs. Leading indicators are proactive measures that predict future performance."
+        },
+        {
+          "num": 15,
+          "question": "Workers' compensation insurance operates under which legal principle?",
+          "choices": [
+            "Comparative negligence",
+            "Strict liability without regard to fault",
+            "Contributory negligence",
+            "Assumption of risk"
+          ],
+          "answer": "B",
+          "explanation": "Workers' compensation operates on a no-fault (strict liability) basis. Injured workers receive benefits regardless of who was at fault. In exchange, employees generally give up the right to sue employers for negligence."
+        },
+        {
+          "num": 16,
+          "question": "The MOST effective way to ensure long-term sustainability of a safety program is to:",
+          "choices": [
+            "Increase the frequency of safety audits",
+            "Integrate safety into all business processes and decision-making",
+            "Hire more safety professionals",
+            "Increase penalties for safety violations"
+          ],
+          "answer": "B",
+          "explanation": "Integrating safety into all business processes and decision-making ensures that safety is not a separate program but a core business value. This approach creates sustainable safety performance over time."
+        },
+        {
+          "num": 17,
+          "question": "In a cost-benefit analysis for a machine guarding project, which of the following should be included as a benefit?",
+          "choices": [
+            "Cost of the guarding equipment",
+            "Installation labor costs",
+            "Reduction in injury-related medical and workers' compensation costs",
+            "Training costs for employees on the new guards"
+          ],
+          "answer": "C",
+          "explanation": "In a cost-benefit analysis, benefits include the reduction in injury costs, medical expenses, workers' compensation, productivity losses, and regulatory penalties. Equipment and installation are costs, not benefits."
+        },
+        {
+          "num": 18,
+          "question": "An Ishikawa (fishbone) diagram is MOST useful for:",
+          "choices": [
+            "Calculating incident rates",
+            "Identifying potential causes of a problem organized by categories",
+            "Scheduling safety inspections",
+            "Tracking corrective action completion"
+          ],
+          "answer": "B",
+          "explanation": "The Ishikawa (fishbone or cause-and-effect) diagram organizes potential causes of a problem into categories (typically: people, methods, machines, materials, measurements, environment) to facilitate root cause analysis."
+        },
+        {
+          "num": 19,
+          "question": "When using a semi-quantitative risk assessment matrix, a hazard rated as 'high probability' and 'catastrophic severity' would typically be classified as:",
+          "choices": [
+            "Low risk",
+            "Medium risk",
+            "High risk",
+            "Extreme/critical risk"
+          ],
+          "answer": "D",
+          "explanation": "A risk matrix combining high probability with catastrophic severity typically yields an extreme or critical risk rating, requiring immediate action to eliminate or significantly reduce the risk."
+        },
+        {
+          "num": 20,
+          "question": "A 'What-If' analysis is BEST described as:",
+          "choices": [
+            "A quantitative risk assessment using mathematical models",
+            "A structured brainstorming technique using open-ended questions to identify hazards",
+            "A detailed component-by-component failure analysis",
+            "A regulatory compliance checklist"
+          ],
+          "answer": "B",
+          "explanation": "What-If analysis is a structured brainstorming technique that uses open-ended questions beginning with 'What if...' to identify potential hazards, failure scenarios, and their consequences."
+        },
+        {
+          "num": 21,
+          "question": "Biological monitoring differs from environmental (air) monitoring in that biological monitoring:",
+          "choices": [
+            "Measures airborne concentrations of contaminants",
+            "Assesses the total absorbed dose of a substance in the worker's body",
+            "Only measures acute exposures",
+            "Is required by OSHA for all chemicals"
+          ],
+          "answer": "B",
+          "explanation": "Biological monitoring assesses the total absorbed dose of a substance through blood, urine, or exhaled air analysis. It accounts for all routes of exposure (inhalation, dermal, ingestion), unlike air monitoring which measures only airborne concentration."
+        },
+        {
+          "num": 22,
+          "question": "The threshold limit value - ceiling (TLV-C) represents:",
+          "choices": [
+            "The average 8-hour exposure limit",
+            "A 15-minute short-term exposure limit",
+            "The concentration that should not be exceeded at any time during the workday",
+            "The concentration at which 50% of exposed workers show symptoms"
+          ],
+          "answer": "C",
+          "explanation": "The TLV-Ceiling is the concentration that should not be exceeded at any time during the work exposure. It is an instantaneous limit, unlike the TLV-TWA (8-hour average) or TLV-STEL (15-minute limit)."
+        },
+        {
+          "num": 23,
+          "question": "In bow-tie analysis, the left side of the bow-tie represents:",
+          "choices": [
+            "Consequences and escalation factors",
+            "Barriers and recovery measures",
+            "Threats and preventive barriers leading to the hazardous event",
+            "Emergency response procedures"
+          ],
+          "answer": "C",
+          "explanation": "In bow-tie analysis, the left side represents threats (potential causes) and preventive barriers leading to the central hazardous event. The right side shows consequences and mitigating barriers."
+        },
+        {
+          "num": 24,
+          "question": "Which sampling method is MOST appropriate for determining a worker's personal exposure to airborne crystalline silica?",
+          "choices": [
+            "Grab sample using a detector tube",
+            "Area sample with a stationary pump",
+            "Personal sample using a cyclone pre-selector and filter cassette",
+            "Wipe sample of settled dust"
+          ],
+          "answer": "C",
+          "explanation": "Personal air sampling using a cyclone pre-selector (to separate respirable-size particles) attached to a calibrated sampling pump with a filter cassette is the standard method for crystalline silica exposure assessment per NIOSH Method 7500."
+        },
+        {
+          "num": 25,
+          "question": "A safety professional must evaluate exposure to a chemical mixture containing two substances, each at 50% of its respective PEL. Using the mixture formula, the combined exposure is:",
+          "choices": [
+            "50% of the PEL",
+            "100% of the PEL",
+            "150% of the PEL",
+            "Cannot be determined without additional data"
+          ],
+          "answer": "B",
+          "explanation": "Using the mixture formula: (C1/PEL1) + (C2/PEL2) = 0.5 + 0.5 = 1.0 (100% of the combined PEL). When the sum equals or exceeds 1.0, the combined exposure exceeds the limit. Per OSHA, additive effects are assumed unless data indicates otherwise."
+        },
+        {
+          "num": 26,
+          "question": "According to OSHA's electrical safety standards, the minimum approach distance for unqualified persons working near exposed energized parts at 50 kV is:",
+          "choices": [
+            "3 feet",
+            "5 feet",
+            "10 feet",
+            "15 feet"
+          ],
+          "answer": "C",
+          "explanation": "OSHA's electrical safety standards and NFPA 70E specify minimum approach distances based on voltage. For 50 kV, the minimum approach distance for unqualified persons is 10 feet. These distances account for arc flash and electrocution hazards."
+        },
+        {
+          "num": 27,
+          "question": "When implementing a hearing conservation program under OSHA (29 CFR 1910.95), audiometric testing is required when employees are exposed to an 8-hour TWA of:",
+          "choices": [
+            "80 dBA or above",
+            "85 dBA or above (action level)",
+            "90 dBA or above (PEL)",
+            "95 dBA or above"
+          ],
+          "answer": "B",
+          "explanation": "Under 29 CFR 1910.95, audiometric testing is required when employees are exposed at or above the 85 dBA action level (8-hour TWA). The hearing conservation program also requires noise monitoring, hearing protection, and training."
+        },
+        {
+          "num": 28,
+          "question": "Which type of ventilation system is designed to supply conditioned air to occupied spaces while removing stale air?",
+          "choices": [
+            "Local exhaust ventilation",
+            "General dilution ventilation",
+            "Process ventilation",
+            "Emergency ventilation"
+          ],
+          "answer": "B",
+          "explanation": "General dilution ventilation (also called general or mechanical ventilation) supplies fresh air to occupied spaces and dilutes contaminants by mixing. Local exhaust ventilation captures contaminants at the source."
+        },
+        {
+          "num": 29,
+          "question": "Under OSHA's Process Safety Management standard (29 CFR 1910.119), a process hazard analysis must be updated and revalidated at least every:",
+          "choices": [
+            "Year",
+            "3 years",
+            "5 years",
+            "10 years"
+          ],
+          "answer": "C",
+          "explanation": "Under 29 CFR 1910.119 (Process Safety Management), the process hazard analysis must be updated and revalidated at least every 5 years to account for process changes, new hazard information, and incident findings."
+        },
+        {
+          "num": 30,
+          "question": "The MOST important factor in selecting the correct type of fire extinguisher for a workplace area is:",
+          "choices": [
+            "The color of the extinguisher",
+            "The type of fuel most likely to be present",
+            "The size of the room",
+            "The number of employees in the area"
+          ],
+          "answer": "B",
+          "explanation": "The type of fuel or combustible material most likely present determines the appropriate fire extinguisher class. Matching the extinguisher to the fuel type (Class A, B, C, D, or K) is essential for effective suppression."
+        },
+        {
+          "num": 31,
+          "question": "Ground-fault circuit interrupters (GFCIs) protect workers by:",
+          "choices": [
+            "Preventing overloaded circuits",
+            "Detecting current imbalances between hot and neutral conductors and disconnecting power",
+            "Reducing voltage to safe levels",
+            "Eliminating static electricity buildup"
+          ],
+          "answer": "B",
+          "explanation": "GFCIs detect imbalances (as small as 4-6 milliamps) between the hot and neutral conductors, indicating current leakage through an unintended path (possibly a person). They disconnect power in approximately 1/40 of a second."
+        },
+        {
+          "num": 32,
+          "question": "Which of the following PPE items must comply with ANSI Z87.1?",
+          "choices": [
+            "Hard hats",
+            "Safety footwear",
+            "Eye and face protection",
+            "Hearing protection"
+          ],
+          "answer": "C",
+          "explanation": "ANSI Z87.1 is the standard for occupational and educational eye and face protection. Hard hats fall under ANSI Z89.1, safety footwear under ASTM F2413, and hearing protection under ANSI S3.19 or S12.6."
+        },
+        {
+          "num": 33,
+          "question": "Under OSHA's scaffolding standard (29 CFR 1926.451), guardrails on scaffolds must have a top rail height of:",
+          "choices": [
+            "36 inches",
+            "38 inches plus or minus 3 inches",
+            "42 inches plus or minus 3 inches",
+            "48 inches"
+          ],
+          "answer": "C",
+          "explanation": "Under 29 CFR 1926.451, scaffold guardrail systems must have a top rail height of 42 inches plus or minus 3 inches (39 to 45 inches) above the platform surface. General industry guardrails (29 CFR 1910.29) also require 42 inches."
+        },
+        {
+          "num": 34,
+          "question": "Substitution as a hazard control strategy involves:",
+          "choices": [
+            "Replacing a hazardous material or process with a less hazardous one",
+            "Adding additional PPE requirements",
+            "Increasing the frequency of safety inspections",
+            "Relocating workers away from the hazard"
+          ],
+          "answer": "A",
+          "explanation": "Substitution replaces a hazardous material or process with a less hazardous alternative. It is second in the hierarchy of controls after elimination and is more effective than engineering controls, administrative controls, or PPE."
+        },
+        {
+          "num": 35,
+          "question": "A confined space rescue team must practice rescue procedures at least:",
+          "choices": [
+            "Monthly",
+            "Quarterly",
+            "Every 6 months",
+            "Every 12 months (annually)"
+          ],
+          "answer": "D",
+          "explanation": "Under 29 CFR 1910.146(k)(4), confined space rescue teams must practice rescue procedures at least once every 12 months using simulated rescue operations. This ensures proficiency and identifies areas needing improvement."
+        },
+        {
+          "num": 36,
+          "question": "Which OSHA standard requires employers to develop and implement a written energy control program for the control of hazardous energy?",
+          "choices": [
+            "29 CFR 1910.119 - Process Safety Management",
+            "29 CFR 1910.146 - Permit-Required Confined Spaces",
+            "29 CFR 1910.147 - Control of Hazardous Energy (LOTO)",
+            "29 CFR 1910.1200 - Hazard Communication"
+          ],
+          "answer": "C",
+          "explanation": "29 CFR 1910.147 (Control of Hazardous Energy -- Lockout/Tagout) requires employers to develop and implement a written energy control program with energy control procedures, employee training, and periodic inspections."
+        },
+        {
+          "num": 37,
+          "question": "Under the OSH Act, employees have the right to:",
+          "choices": [
+            "Refuse any work assignment they consider dangerous without consequence",
+            "Request an OSHA inspection if they believe conditions are unsafe",
+            "Set their own workplace safety standards",
+            "Conduct their own OSHA inspections"
+          ],
+          "answer": "B",
+          "explanation": "Under Section 8(f)(1) of the OSH Act, employees have the right to request an OSHA inspection if they believe unsafe or unhealthful conditions exist. Employees are also protected from retaliation under Section 11(c)."
+        },
+        {
+          "num": 38,
+          "question": "The Clean Water Act's National Pollutant Discharge Elimination System (NPDES) regulates:",
+          "choices": [
+            "Underground storage tanks",
+            "Point source discharges of pollutants into navigable waters",
+            "Air emissions from industrial facilities",
+            "Hazardous waste transportation"
+          ],
+          "answer": "B",
+          "explanation": "The NPDES program under the Clean Water Act regulates point source discharges of pollutants into waters of the United States. Facilities must obtain NPDES permits specifying discharge limits and monitoring requirements."
+        },
+        {
+          "num": 39,
+          "question": "Under OSHA, which type of violation involves a condition where there is a substantial probability that death or serious physical harm could result?",
+          "choices": [
+            "Other-than-serious violation",
+            "Serious violation",
+            "Willful violation",
+            "De minimis violation"
+          ],
+          "answer": "B",
+          "explanation": "A serious violation exists when there is a substantial probability that death or serious physical harm could result, and the employer knew or should have known of the hazard. Serious violations carry mandatory penalties."
+        },
+        {
+          "num": 40,
+          "question": "The Safety Data Sheet (SDS) must contain a minimum of how many sections under the GHS-aligned Hazard Communication standard?",
+          "choices": [
+            "8 sections",
+            "12 sections",
+            "16 sections",
+            "20 sections"
+          ],
+          "answer": "C",
+          "explanation": "Under the GHS-aligned Hazard Communication standard (29 CFR 1910.1200), SDSs must contain 16 sections covering identification, hazards, composition, first-aid, fire-fighting, handling, exposure controls, and more."
+        },
+        {
+          "num": 41,
+          "question": "OSHA requires employers to report any workplace fatality to OSHA within:",
+          "choices": [
+            "4 hours",
+            "8 hours",
+            "24 hours",
+            "48 hours"
+          ],
+          "answer": "B",
+          "explanation": "Under 29 CFR 1904.39, employers must report any work-related fatality within 8 hours and any work-related in-patient hospitalization, amputation, or loss of an eye within 24 hours."
+        },
+        {
+          "num": 42,
+          "question": "Which organization publishes Threshold Limit Values (TLVs) for chemical substances and physical agents?",
+          "choices": [
+            "OSHA",
+            "NIOSH",
+            "ACGIH (American Conference of Governmental Industrial Hygienists)",
+            "EPA"
+          ],
+          "answer": "C",
+          "explanation": "ACGIH publishes TLVs as recommended exposure guidelines. TLVs are not regulatory limits but are widely used and often more current than OSHA PELs. OSHA PELs are legally enforceable limits."
+        },
+        {
+          "num": 43,
+          "question": "Under OSHA's multi-employer worksite policy, which type of employer is one who creates the hazardous condition?",
+          "choices": [
+            "Controlling employer",
+            "Exposing employer",
+            "Creating employer",
+            "Correcting employer"
+          ],
+          "answer": "C",
+          "explanation": "Under OSHA's multi-employer worksite policy, the creating employer is the one whose actions or omissions created the hazardous condition, even if their own employees are not exposed to it."
+        },
+        {
+          "num": 44,
+          "question": "According to OSHA's Emergency Action Plan standard (29 CFR 1910.38), which of the following elements must be included in a written plan?",
+          "choices": [
+            "A list of all fire extinguisher locations only",
+            "Procedures for reporting fires and other emergencies, and evacuation routes",
+            "Weekly fire drill schedules",
+            "Detailed sprinkler system specifications"
+          ],
+          "answer": "B",
+          "explanation": "Under 29 CFR 1910.38, an Emergency Action Plan must include: emergency reporting procedures, evacuation procedures and routes, procedures for employees who remain to perform critical operations, and accounting for all employees after evacuation."
+        },
+        {
+          "num": 45,
+          "question": "A pre-incident plan for a chemical storage facility should PRIMARILY include:",
+          "choices": [
+            "Employee performance evaluations",
+            "Chemical inventory, site layout, and emergency contact information",
+            "Annual budget projections",
+            "Equipment depreciation schedules"
+          ],
+          "answer": "B",
+          "explanation": "A pre-incident plan for a chemical facility should include chemical inventory with locations and quantities, site layout with access points, emergency contacts, special hazards, and available fire protection resources."
+        },
+        {
+          "num": 46,
+          "question": "In a HAZWOPER emergency response, the 'hot zone' is defined as:",
+          "choices": [
+            "The area where decontamination occurs",
+            "The area of highest contamination where only properly protected personnel may enter",
+            "The command post location",
+            "The area where medical treatment is provided"
+          ],
+          "answer": "B",
+          "explanation": "The hot zone (exclusion zone) is the area of highest contamination where only properly trained and equipped personnel may enter. The warm zone is for decontamination, and the cold zone is the support area."
+        },
+        {
+          "num": 47,
+          "question": "Which class of fire involves combustible metals such as magnesium, titanium, and sodium?",
+          "choices": [
+            "Class A",
+            "Class B",
+            "Class C",
+            "Class D"
+          ],
+          "answer": "D",
+          "explanation": "Class D fires involve combustible metals including magnesium, titanium, sodium, lithium, and potassium. Special dry powder extinguishing agents are required; water can cause violent reactions with many combustible metals."
+        },
+        {
+          "num": 48,
+          "question": "The primary purpose of a fire suppression deluge system is to:",
+          "choices": [
+            "Detect smoke in the early stages",
+            "Discharge water through all open sprinkler heads simultaneously when activated",
+            "Provide a dry chemical extinguishing agent",
+            "Reduce humidity in enclosed spaces"
+          ],
+          "answer": "B",
+          "explanation": "A deluge system has open sprinkler heads and is activated by a separate detection system (heat, smoke, or flame detector). When activated, water flows through all heads simultaneously, providing massive water coverage for high-hazard areas."
+        },
+        {
+          "num": 49,
+          "question": "Business continuity planning differs from emergency response planning in that business continuity:",
+          "choices": [
+            "Focuses only on life safety",
+            "Addresses the recovery and restoration of critical business functions after a disruption",
+            "Is only required for large corporations",
+            "Deals exclusively with natural disasters"
+          ],
+          "answer": "B",
+          "explanation": "Business continuity planning focuses on maintaining and recovering critical business functions during and after a disruption. Emergency response focuses on immediate life safety and incident stabilization."
+        },
+        {
+          "num": 50,
+          "question": "The Unified Command structure in ICS is used when:",
+          "choices": [
+            "Only one agency is involved in the response",
+            "Multiple agencies or jurisdictions share incident management responsibilities",
+            "The incident is small and easily managed",
+            "Federal agencies take over from local responders"
+          ],
+          "answer": "B",
+          "explanation": "Unified Command is used when multiple agencies or jurisdictions share management responsibility for an incident. Each agency contributes to the command structure while maintaining its authority."
+        },
+        {
+          "num": 51,
+          "question": "A Class K fire extinguisher is specifically designed for:",
+          "choices": [
+            "Electrical equipment fires",
+            "Combustible metal fires",
+            "Cooking oil and grease fires in commercial kitchens",
+            "Flammable gas fires"
+          ],
+          "answer": "C",
+          "explanation": "Class K extinguishers use wet chemical agents specifically designed for cooking oil and grease fires in commercial kitchens. They work by creating a foam blanket that smothers the fire and prevents re-ignition."
+        },
+        {
+          "num": 52,
+          "question": "After a facility explosion, the Incident Commander's FIRST priority should be:",
+          "choices": [
+            "Preserving evidence for investigation",
+            "Protecting life safety of responders and facility personnel",
+            "Notifying regulatory agencies",
+            "Assessing structural damage"
+          ],
+          "answer": "B",
+          "explanation": "The Incident Commander's first priority in any emergency is always life safety -- protecting responders and facility personnel. The ICS priorities are: (1) life safety, (2) incident stabilization, (3) property conservation."
+        },
+        {
+          "num": 53,
+          "question": "In the NIOSH lifting equation, the horizontal multiplier (HM) decreases as the horizontal distance from the load to the body:",
+          "choices": [
+            "Decreases",
+            "Increases",
+            "Remains constant",
+            "Is not a factor in the equation"
+          ],
+          "answer": "B",
+          "explanation": "In the NIOSH lifting equation, the horizontal multiplier (HM) = 10/H, where H is the horizontal distance in inches. As H increases (load farther from body), HM decreases, reducing the recommended weight limit."
+        },
+        {
+          "num": 54,
+          "question": "Hand-arm vibration syndrome (HAVS) is MOST commonly caused by:",
+          "choices": [
+            "Repetitive keyboard use",
+            "Prolonged use of vibrating hand tools such as grinders and jackhammers",
+            "Poor lighting conditions",
+            "Working in cold environments without gloves"
+          ],
+          "answer": "B",
+          "explanation": "HAVS (also called vibration white finger) results from prolonged use of vibrating hand tools such as grinders, jackhammers, chain saws, and pneumatic drills. Symptoms include numbness, tingling, and blanching of the fingers."
+        },
+        {
+          "num": 55,
+          "question": "The anthropometric measurement used to design workstation heights for a standing work surface should be based on:",
+          "choices": [
+            "The tallest worker's dimensions",
+            "The shortest worker's dimensions",
+            "The 5th to 95th percentile range of the user population",
+            "Average population dimensions only"
+          ],
+          "answer": "C",
+          "explanation": "Ergonomic design should accommodate the 5th to 95th percentile range of the user population (covering 90% of users). Adjustable workstations are preferred to accommodate this range of body dimensions."
+        },
+        {
+          "num": 56,
+          "question": "Which of the following is an example of an administrative control for reducing ergonomic risk?",
+          "choices": [
+            "Redesigning the workstation layout",
+            "Implementing job rotation to reduce repetitive exposure",
+            "Providing power tools to reduce force requirements",
+            "Installing anti-fatigue mats"
+          ],
+          "answer": "B",
+          "explanation": "Job rotation is an administrative control that reduces cumulative exposure to ergonomic risk factors by varying the physical demands placed on workers. Engineering controls (redesigned workstations, power tools) are more effective."
+        },
+        {
+          "num": 57,
+          "question": "Whole-body vibration (WBV) exposure is of greatest concern for workers who:",
+          "choices": [
+            "Stand for extended periods",
+            "Work with hand-held power tools",
+            "Operate vehicles or heavy equipment for prolonged periods",
+            "Perform overhead work"
+          ],
+          "answer": "C",
+          "explanation": "Whole-body vibration is primarily associated with operating vehicles and heavy equipment (forklifts, trucks, earth-moving equipment). Prolonged WBV exposure increases risk of low back pain and spinal disorders."
+        },
+        {
+          "num": 58,
+          "question": "A CSP is offered a financial incentive by a vendor to recommend their safety product exclusively, regardless of whether it is the best option for the workplace. The CSP should:",
+          "choices": [
+            "Accept the incentive as it helps fund the safety program",
+            "Decline the incentive and recommend products based solely on their merit and suitability",
+            "Accept the incentive but disclose the relationship to the employer",
+            "Recommend the vendor's product as long as it meets minimum requirements"
+          ],
+          "answer": "B",
+          "explanation": "The BCSP Code of Ethics requires certificants to avoid conflicts of interest and make recommendations based on professional judgment, not financial incentives. Accepting vendor incentives compromises objectivity and professional integrity."
+        },
+        {
+          "num": 59,
+          "question": "Under the BCSP Code of Ethics, a safety professional who lacks expertise in a specialized area should:",
+          "choices": [
+            "Accept the assignment and learn on the job",
+            "Accept the assignment but charge a reduced fee",
+            "Decline or seek qualified assistance and be transparent about limitations",
+            "Accept the assignment without disclosing the knowledge gap"
+          ],
+          "answer": "C",
+          "explanation": "The BCSP Code of Ethics requires certificants to perform services only in areas of their competence. When lacking expertise, they should decline the assignment or seek qualified assistance while being transparent about their limitations."
+        },
+        {
+          "num": 60,
+          "question": "A safety professional learns of a colleague who has falsified safety inspection records. The MOST appropriate ethical response is to:",
+          "choices": [
+            "Ignore it to maintain collegial relationships",
+            "Confront the colleague publicly at the next safety meeting",
+            "Report the matter through appropriate professional and organizational channels",
+            "Falsify records in the opposite direction to compensate"
+          ],
+          "answer": "C",
+          "explanation": "Falsifying safety inspection records is a serious ethical and potentially legal violation. The appropriate response is to report through proper channels (organizational reporting, professional ethics board) to protect workers and uphold professional standards."
+        }
+      ]
+    },
+    {
+      "testNum": 3,
+      "questions": [
+        {
+          "num": 1,
+          "question": "A company with 600 employees worked 1,200,000 hours in a year and experienced 9 recordable injuries, 3 of which resulted in days away from work. What is the DART rate?",
+          "choices": [
+            "0.5",
+            "1.0",
+            "1.5",
+            "3.0"
+          ],
+          "answer": "A",
+          "explanation": "DART rate = (Number of DART cases x 200,000) / Total hours worked = (3 x 200,000) / 1,200,000 = 0.5. DART counts only cases with days away, restricted duty, or transfer -- not all recordable injuries."
+        },
+        {
+          "num": 2,
+          "question": "In fault tree analysis, an OR gate indicates that the top event will occur when:",
+          "choices": [
+            "All input events must occur simultaneously",
+            "Any one of the input events occurs",
+            "No input events occur",
+            "Input events occur in a specific sequence"
+          ],
+          "answer": "B",
+          "explanation": "An OR gate in fault tree analysis produces the top event when any single input event occurs. This contrasts with an AND gate, which requires all inputs simultaneously."
+        },
+        {
+          "num": 3,
+          "question": "A system has two components in series, each with a reliability of 0.90. What is the overall system reliability?",
+          "choices": [
+            "0.81",
+            "0.90",
+            "0.95",
+            "0.99"
+          ],
+          "answer": "A",
+          "explanation": "For components in series, system reliability = R1 x R2 = 0.90 x 0.90 = 0.81. In a series configuration, failure of any single component causes system failure."
+        },
+        {
+          "num": 4,
+          "question": "An employee is exposed to toluene at 120 ppm for 6 hours and then moves to a clean area for 2 hours. Assuming zero exposure during the last 2 hours, what is the 8-hour TWA?",
+          "choices": [
+            "60 ppm",
+            "80 ppm",
+            "90 ppm",
+            "120 ppm"
+          ],
+          "answer": "C",
+          "explanation": "8-hour TWA = [(120 ppm x 6 hr) + (0 ppm x 2 hr)] / 8 hr = 720 / 8 = 90 ppm. The TWA accounts for the full 8-hour shift, including periods of zero exposure."
+        },
+        {
+          "num": 5,
+          "question": "The mean time between failures (MTBF) for a pump is 2,000 hours. What is the failure rate (lambda)?",
+          "choices": [
+            "0.0005 failures per hour",
+            "0.005 failures per hour",
+            "0.05 failures per hour",
+            "0.5 failures per hour"
+          ],
+          "answer": "A",
+          "explanation": "Failure rate (lambda) = 1 / MTBF = 1 / 2,000 = 0.0005 failures per hour. MTBF is the reciprocal of the failure rate during the useful life period (constant failure rate)."
+        },
+        {
+          "num": 6,
+          "question": "Which measure of central tendency is MOST affected by extreme outlier values in a data set?",
+          "choices": [
+            "Median",
+            "Mode",
+            "Mean",
+            "Geometric mean"
+          ],
+          "answer": "C",
+          "explanation": "The arithmetic mean is most sensitive to extreme values (outliers) because it sums all values. The median (middle value) and mode (most frequent value) are more resistant to outliers."
+        },
+        {
+          "num": 7,
+          "question": "A facility calculates its lost workday case rate at 4.2 compared to the BLS industry average of 2.8. The safety professional should FIRST:",
+          "choices": [
+            "Report the rate to OSHA",
+            "Analyze the types and causes of lost workday cases to identify trends",
+            "Terminate the safety program",
+            "Immediately hire additional safety staff"
+          ],
+          "answer": "B",
+          "explanation": "When a rate exceeds the industry average, the first step is to analyze the data -- identifying types, causes, departments, and trends of lost workday cases to target improvement efforts effectively."
+        },
+        {
+          "num": 8,
+          "question": "When two components are arranged in parallel (redundant) configuration, each with a reliability of 0.80, the system reliability is:",
+          "choices": [
+            "0.64",
+            "0.80",
+            "0.96",
+            "1.00"
+          ],
+          "answer": "C",
+          "explanation": "For parallel (redundant) components: System reliability = 1 - [(1-R1) x (1-R2)] = 1 - [(0.20) x (0.20)] = 1 - 0.04 = 0.96. Redundancy significantly improves system reliability."
+        },
+        {
+          "num": 9,
+          "question": "The tort law concept of 'negligence' requires the plaintiff to prove all of the following EXCEPT:",
+          "choices": [
+            "Duty of care owed by the defendant",
+            "Breach of that duty",
+            "Criminal intent by the defendant",
+            "Proximate cause and resulting damages"
+          ],
+          "answer": "C",
+          "explanation": "The four elements of negligence are: (1) duty of care, (2) breach of that duty, (3) proximate cause linking the breach to the harm, and (4) actual damages. Criminal intent is not an element of negligence -- negligence is a civil tort."
+        },
+        {
+          "num": 10,
+          "question": "Which safety management approach focuses on identifying and reinforcing safe behaviors through observation and positive feedback?",
+          "choices": [
+            "Total Safety Management",
+            "Behavior-Based Safety (BBS)",
+            "Safety Culture Assessment",
+            "Systems Safety Engineering"
+          ],
+          "answer": "B",
+          "explanation": "Behavior-Based Safety (BBS) focuses on observing worker behaviors, providing positive feedback for safe behaviors, and coaching to change unsafe behaviors. It is based on the premise that most incidents result from at-risk behaviors."
+        },
+        {
+          "num": 11,
+          "question": "In change analysis as an incident investigation technique, the investigator compares:",
+          "choices": [
+            "The cost of the incident to the department budget",
+            "The conditions at the time of the incident to conditions when the task was performed without incident",
+            "Employee performance reviews before and after the incident",
+            "Regulatory requirements across different OSHA standards"
+          ],
+          "answer": "B",
+          "explanation": "Change analysis compares conditions present when the incident occurred to conditions when the same task was performed safely (the 'ideal' or baseline condition). Differences are analyzed as potential contributing factors."
+        },
+        {
+          "num": 12,
+          "question": "Under the exclusive remedy doctrine in workers' compensation:",
+          "choices": [
+            "Employers are liable for unlimited damages",
+            "Employees generally cannot sue their employer in tort for workplace injuries",
+            "Employees must prove employer negligence",
+            "Third parties are immune from lawsuits"
+          ],
+          "answer": "B",
+          "explanation": "The exclusive remedy doctrine provides that workers' compensation is the sole remedy for work-related injuries. Employees receive benefits without proving fault but generally cannot sue their employer in tort. Exceptions may exist for intentional misconduct."
+        },
+        {
+          "num": 13,
+          "question": "The concept of 'due diligence' in safety requires an organization to:",
+          "choices": [
+            "Follow only the minimum regulatory requirements",
+            "Take all reasonable precautions to prevent foreseeable harm",
+            "Rely solely on employees to identify hazards",
+            "Wait for incidents to occur before taking action"
+          ],
+          "answer": "B",
+          "explanation": "Due diligence requires organizations to take all reasonable precautions to identify and control foreseeable hazards. It demonstrates that the organization exercised care to prevent harm, which is important for both ethical and legal reasons."
+        },
+        {
+          "num": 14,
+          "question": "ISO 45001 replaced which previous occupational health and safety management system standard?",
+          "choices": [
+            "ANSI Z10",
+            "OHSAS 18001",
+            "ISO 14001",
+            "ISO 9001"
+          ],
+          "answer": "B",
+          "explanation": "ISO 45001:2018 replaced OHSAS 18001 as the international standard for occupational health and safety management systems. Organizations previously certified to OHSAS 18001 were required to transition to ISO 45001."
+        },
+        {
+          "num": 15,
+          "question": "A safety professional is evaluating the effectiveness of a training program. Which evaluation level in the Kirkpatrick model measures changes in on-the-job behavior?",
+          "choices": [
+            "Level 1 - Reaction",
+            "Level 2 - Learning",
+            "Level 3 - Behavior",
+            "Level 4 - Results"
+          ],
+          "answer": "C",
+          "explanation": "Kirkpatrick's model has four levels: Level 1 (Reaction) measures participant satisfaction, Level 2 (Learning) measures knowledge gained, Level 3 (Behavior) measures on-the-job application, and Level 4 (Results) measures organizational impact."
+        },
+        {
+          "num": 16,
+          "question": "The concept of 'foreseeability' in negligence law means:",
+          "choices": [
+            "All accidents must be predicted exactly",
+            "A reasonable person should have anticipated that their actions could cause harm",
+            "Only incidents that have occurred before are foreseeable",
+            "Foreseeability only applies to product liability"
+          ],
+          "answer": "B",
+          "explanation": "Foreseeability in negligence law asks whether a reasonable person in the defendant's position would have anticipated that their actions (or inaction) could lead to harm. It does not require predicting the exact nature of the harm."
+        },
+        {
+          "num": 17,
+          "question": "Benchmarking in safety management involves:",
+          "choices": [
+            "Setting the minimum acceptable safety performance level",
+            "Comparing an organization's safety performance and practices against best-in-class organizations",
+            "Establishing a baseline injury rate",
+            "Counting the number of safety professionals per employee"
+          ],
+          "answer": "B",
+          "explanation": "Benchmarking compares an organization's safety performance, processes, and practices against industry leaders or best-in-class organizations to identify improvement opportunities and adopt proven strategies."
+        },
+        {
+          "num": 18,
+          "question": "Which of the following is the MOST appropriate use of a safety perception survey?",
+          "choices": [
+            "Replacing safety inspections",
+            "Measuring employees' perceptions and attitudes toward the organization's safety culture",
+            "Determining OSHA compliance status",
+            "Calculating incident rates"
+          ],
+          "answer": "B",
+          "explanation": "Safety perception surveys measure how employees perceive the organization's safety culture, management commitment, communication effectiveness, and overall safety climate. They provide insight beyond what injury statistics reveal."
+        },
+        {
+          "num": 19,
+          "question": "The ACGIH TLV-TWA for a chemical is 50 ppm, and the OSHA PEL is 100 ppm. A worker is exposed to 75 ppm over 8 hours. Which statement is correct?",
+          "choices": [
+            "The exposure exceeds both the TLV and PEL",
+            "The exposure exceeds the TLV but is below the PEL",
+            "The exposure is below both the TLV and PEL",
+            "The TLV and PEL are always identical"
+          ],
+          "answer": "B",
+          "explanation": "At 75 ppm, the exposure exceeds the ACGIH TLV-TWA of 50 ppm but is below the OSHA PEL of 100 ppm. Best practice and professional ethics suggest controlling exposure to the more protective TLV level, even though the PEL is the legally enforceable limit."
+        },
+        {
+          "num": 20,
+          "question": "Which air sampling instrument provides a direct-reading measurement of gas concentration in real time?",
+          "choices": [
+            "Filter cassette with personal sampling pump",
+            "Charcoal tube with gas chromatography analysis",
+            "Photoionization detector (PID)",
+            "Impinger with laboratory analysis"
+          ],
+          "answer": "C",
+          "explanation": "A photoionization detector (PID) provides real-time, direct-reading measurements of volatile organic compounds (VOCs) and other ionizable gases. Filter cassettes, charcoal tubes, and impingers require laboratory analysis."
+        },
+        {
+          "num": 21,
+          "question": "In a risk assessment, residual risk is defined as:",
+          "choices": [
+            "The initial risk before any controls are applied",
+            "The risk remaining after control measures have been implemented",
+            "The total accumulated risk from all hazards",
+            "The risk that can never be quantified"
+          ],
+          "answer": "B",
+          "explanation": "Residual risk is the risk that remains after control measures have been implemented. No control eliminates all risk; the goal is to reduce residual risk to an acceptable level (ALARP principle)."
+        },
+        {
+          "num": 22,
+          "question": "The concept of 'as low as reasonably practicable' (ALARP) means that risk should be reduced:",
+          "choices": [
+            "To absolute zero under all circumstances",
+            "Until the cost of further reduction is grossly disproportionate to the benefit gained",
+            "Only to the level required by regulations",
+            "Only when convenient for the organization"
+          ],
+          "answer": "B",
+          "explanation": "The ALARP (As Low As Reasonably Practicable) principle states that risk should be reduced until the cost of further reduction (time, money, effort) is grossly disproportionate to the benefit. It does not require zero risk."
+        },
+        {
+          "num": 23,
+          "question": "When evaluating heat stress in the workplace, the Wet Bulb Globe Temperature (WBGT) index accounts for:",
+          "choices": [
+            "Air temperature only",
+            "Air temperature, humidity, radiant heat, and air movement",
+            "Worker hydration levels",
+            "Worker acclimatization status only"
+          ],
+          "answer": "B",
+          "explanation": "The WBGT index integrates natural wet-bulb temperature (humidity and evaporative cooling), globe temperature (radiant heat), and dry-bulb temperature (air temperature) to assess heat stress. Wind effects are captured by the wet-bulb measurement."
+        },
+        {
+          "num": 24,
+          "question": "A hazard operability (HAZOP) study is MOST commonly applied to:",
+          "choices": [
+            "Office ergonomics assessments",
+            "Continuous chemical processes with defined process parameters",
+            "Construction fall hazard analysis",
+            "Vehicle fleet safety evaluations"
+          ],
+          "answer": "B",
+          "explanation": "HAZOP is specifically designed for continuous chemical processes with well-defined parameters (flow, temperature, pressure, level). It systematically applies guide words to each process parameter to identify potential deviations."
+        },
+        {
+          "num": 25,
+          "question": "Which route of chemical exposure is often the MOST overlooked in industrial settings?",
+          "choices": [
+            "Inhalation",
+            "Dermal (skin) absorption",
+            "Ingestion",
+            "Injection"
+          ],
+          "answer": "B",
+          "explanation": "Dermal (skin) absorption is often the most overlooked route of exposure. Many solvents, pesticides, and other chemicals can be absorbed through intact skin. Air monitoring alone does not capture dermal exposure."
+        },
+        {
+          "num": 26,
+          "question": "Under OSHA's fall protection standard for construction (29 CFR 1926.501), fall protection is required when working at heights of:",
+          "choices": [
+            "4 feet",
+            "6 feet",
+            "10 feet",
+            "15 feet"
+          ],
+          "answer": "B",
+          "explanation": "Under 29 CFR 1926.501, fall protection in construction is required at 6 feet. General industry (29 CFR 1910 Subpart D) requires fall protection at 4 feet. The 6-foot trigger for construction is one of the most frequently tested CSP topics."
+        },
+        {
+          "num": 27,
+          "question": "A safety interlock on a machine guard is designed to:",
+          "choices": [
+            "Increase the speed of the machine",
+            "Prevent the machine from operating when the guard is open or removed",
+            "Provide lighting for the operator",
+            "Monitor noise levels during operation"
+          ],
+          "answer": "B",
+          "explanation": "A safety interlock prevents machine operation when the guard is open, removed, or not properly positioned. If the guard is opened during operation, the interlock stops the machine. This is an engineering control per the hierarchy of controls."
+        },
+        {
+          "num": 28,
+          "question": "Which type of respiratory protection provides the HIGHEST level of protection?",
+          "choices": [
+            "Half-face air-purifying respirator (APF 10)",
+            "Full-face air-purifying respirator (APF 50)",
+            "Powered air-purifying respirator (APF 25-1000)",
+            "Self-contained breathing apparatus in pressure-demand mode (APF 10,000)"
+          ],
+          "answer": "D",
+          "explanation": "Per 29 CFR 1910.134, SCBA in pressure-demand mode has the highest APF of 10,000. Half-face APR = 10, full-face APR = 50, PAPR ranges from 25 to 1,000 depending on facepiece type."
+        },
+        {
+          "num": 29,
+          "question": "According to OSHA's excavation standard (29 CFR 1926.652), protective systems are required for trenches with a depth of:",
+          "choices": [
+            "3 feet or more",
+            "4 feet or more",
+            "5 feet or more",
+            "6 feet or more"
+          ],
+          "answer": "C",
+          "explanation": "Under 29 CFR 1926.652, protective systems (sloping, benching, shoring, or shielding) are required for excavations 5 feet or deeper, unless the excavation is made entirely in stable rock."
+        },
+        {
+          "num": 30,
+          "question": "The purpose of a safety relief valve on a pressure vessel is to:",
+          "choices": [
+            "Regulate the normal operating pressure",
+            "Automatically release pressure to prevent vessel rupture when pressure exceeds the set point",
+            "Measure the internal temperature",
+            "Filter contaminants from the pressurized contents"
+          ],
+          "answer": "B",
+          "explanation": "Safety relief valves are designed to automatically open at a preset pressure to release excess pressure, preventing catastrophic vessel failure. They must be properly maintained and tested per ASME and OSHA standards."
+        },
+        {
+          "num": 31,
+          "question": "Which of the following is the BEST example of an inherently safer design principle?",
+          "choices": [
+            "Adding a second layer of PPE",
+            "Using a less toxic solvent in place of a highly toxic one",
+            "Increasing the frequency of safety audits",
+            "Posting additional warning signs"
+          ],
+          "answer": "B",
+          "explanation": "Inherently safer design eliminates or reduces hazards through fundamental design choices rather than adding protective layers. Using a less toxic solvent is substitution -- a form of inherently safer design. PPE, audits, and signs are added-on controls."
+        },
+        {
+          "num": 32,
+          "question": "Under NFPA 70E, an energized electrical work permit is required when:",
+          "choices": [
+            "All electrical work is performed",
+            "Work must be performed on energized equipment because de-energizing creates a greater hazard or is infeasible",
+            "Only when voltage exceeds 480V",
+            "Only during new construction"
+          ],
+          "answer": "B",
+          "explanation": "NFPA 70E requires an energized electrical work permit only when energized work is justified because de-energizing creates a greater hazard (such as life-support equipment) or is infeasible. De-energizing is always the preferred approach."
+        },
+        {
+          "num": 33,
+          "question": "The purpose of bonding and grounding when transferring flammable liquids between containers is to:",
+          "choices": [
+            "Increase the flow rate of the liquid",
+            "Prevent static electricity accumulation that could ignite flammable vapors",
+            "Reduce the viscosity of the liquid",
+            "Maintain the temperature of the liquid"
+          ],
+          "answer": "B",
+          "explanation": "Bonding and grounding equalize electrical potential between containers and provide a path to ground for static charges, preventing spark ignition of flammable vapors. This is required by NFPA 77 and OSHA flammable liquids standards."
+        },
+        {
+          "num": 34,
+          "question": "Which of the following crane safety practices is required under OSHA's crane standards?",
+          "choices": [
+            "Operating within 10 feet of power lines without precautions is acceptable",
+            "Annual inspection by a competent person and documentation of the inspection",
+            "Crane operators do not require training or certification",
+            "Load charts are optional accessories"
+          ],
+          "answer": "B",
+          "explanation": "OSHA crane standards (29 CFR 1926 Subpart CC) require annual inspections by a competent person, documented inspections, operator training and certification, and strict adherence to load chart capacities."
+        },
+        {
+          "num": 35,
+          "question": "A total flooding fire suppression system using clean agents (such as FM-200) is MOST appropriate for protecting:",
+          "choices": [
+            "Outdoor storage areas",
+            "Large open warehouses",
+            "Computer server rooms and other enclosed spaces with high-value electronic equipment",
+            "Residential kitchens"
+          ],
+          "answer": "C",
+          "explanation": "Total flooding clean agent systems (FM-200, Novec 1230) are designed for enclosed spaces with high-value contents where water damage would be unacceptable, such as server rooms, data centers, and telecommunications facilities."
+        },
+        {
+          "num": 36,
+          "question": "Under OSHA's bloodborne pathogens standard (29 CFR 1910.1030), employers must offer the hepatitis B vaccination to at-risk employees within how many days of assignment?",
+          "choices": [
+            "5 working days",
+            "10 working days",
+            "30 calendar days",
+            "90 calendar days"
+          ],
+          "answer": "B",
+          "explanation": "Under 29 CFR 1910.1030(f)(2), the hepatitis B vaccination must be offered within 10 working days of initial assignment to at-risk employees. The vaccine must be provided at no cost and employees may decline in writing."
+        },
+        {
+          "num": 37,
+          "question": "The EPA's Toxic Substances Control Act (TSCA) primarily regulates:",
+          "choices": [
+            "Workplace air quality",
+            "The manufacture, import, and use of chemical substances and mixtures",
+            "Hazardous waste disposal",
+            "Clean drinking water standards"
+          ],
+          "answer": "B",
+          "explanation": "TSCA gives the EPA authority to regulate the manufacture, import, processing, distribution, use, and disposal of chemical substances and mixtures. It was significantly updated by the Lautenberg Chemical Safety Act (2016)."
+        },
+        {
+          "num": 38,
+          "question": "Which OSHA standard requires employers to assess the workplace to determine if hazards are present that require the use of PPE?",
+          "choices": [
+            "29 CFR 1910.95 - Occupational Noise Exposure",
+            "29 CFR 1910.132 - General Requirements for PPE",
+            "29 CFR 1910.134 - Respiratory Protection",
+            "29 CFR 1910.147 - Lockout/Tagout"
+          ],
+          "answer": "B",
+          "explanation": "29 CFR 1910.132 (General Requirements for PPE) requires employers to perform a hazard assessment of the workplace to determine if hazards necessitating PPE are present, then select and provide appropriate PPE."
+        },
+        {
+          "num": 39,
+          "question": "Under the National Environmental Policy Act (NEPA), federal agencies must prepare an Environmental Impact Statement (EIS) for:",
+          "choices": [
+            "All proposed actions regardless of impact",
+            "Major federal actions that may significantly affect the quality of the human environment",
+            "Only private-sector construction projects",
+            "State-level regulatory changes"
+          ],
+          "answer": "B",
+          "explanation": "NEPA requires federal agencies to prepare an EIS for major federal actions (projects, permits, funding) that may significantly affect the environment. An Environmental Assessment (EA) may be prepared first to determine if an EIS is needed."
+        },
+        {
+          "num": 40,
+          "question": "OSHA's Voluntary Protection Programs (VPP) recognize employers and workers who:",
+          "choices": [
+            "Pay the highest OSHA fines",
+            "Maintain injury rates at the national average",
+            "Implement effective safety and health management systems that exceed OSHA requirements",
+            "Have zero recordable injuries for one year"
+          ],
+          "answer": "C",
+          "explanation": "OSHA's VPP recognizes employers and workers who go beyond minimum compliance to implement exemplary safety and health management systems. VPP sites typically have injury rates 50% or more below their industry averages."
+        },
+        {
+          "num": 41,
+          "question": "Under 29 CFR 1904, which of the following is NOT considered first aid under OSHA's recordkeeping rules?",
+          "choices": [
+            "Using wound closure strips (butterfly bandages)",
+            "Administering prescription-strength medications",
+            "Using non-prescription medications at nonprescription strength",
+            "Cleaning and flushing a wound on the surface of the skin"
+          ],
+          "answer": "B",
+          "explanation": "Under 29 CFR 1904.7, administering prescription-strength medications is considered medical treatment, not first aid, making the case OSHA-recordable. First aid includes non-prescription medications at non-prescription strength, bandages, wound cleaning, and similar minor treatments."
+        },
+        {
+          "num": 42,
+          "question": "The OSHA Whistleblower Protection Program (Section 11(c)) protects employees who:",
+          "choices": [
+            "Report unsafe conditions to their supervisor only",
+            "File complaints about workplace safety or participate in OSHA proceedings",
+            "Refuse to attend safety training",
+            "Report unsafe conditions only to external media"
+          ],
+          "answer": "B",
+          "explanation": "Section 11(c) of the OSH Act protects employees who file OSHA complaints, participate in inspections or proceedings, or exercise any rights under the Act. Employers may not retaliate against employees for these protected activities."
+        },
+        {
+          "num": 43,
+          "question": "Under the Emergency Planning and Community Right-to-Know Act (EPCRA), facilities storing hazardous chemicals above threshold quantities must submit inventory reports to:",
+          "choices": [
+            "OSHA only",
+            "The local emergency planning committee (LEPC), state emergency response commission (SERC), and local fire department",
+            "The EPA Regional Administrator only",
+            "The facility's insurance provider"
+          ],
+          "answer": "B",
+          "explanation": "Under EPCRA Sections 311 and 312, facilities with hazardous chemicals above thresholds must submit Material Safety Data Sheets (or lists) and Tier I/II inventory reports to the LEPC, SERC, and local fire department."
+        },
+        {
+          "num": 44,
+          "question": "The NFPA diamond (NFPA 704) uses a blue diamond section to indicate:",
+          "choices": [
+            "Flammability hazard",
+            "Health hazard",
+            "Instability/reactivity hazard",
+            "Specific hazard"
+          ],
+          "answer": "B",
+          "explanation": "The NFPA 704 diamond uses four colored sections: blue (health hazard), red (flammability), yellow (instability/reactivity), and white (specific hazards such as oxidizer or water-reactive). Each hazard is rated 0-4."
+        },
+        {
+          "num": 45,
+          "question": "Which type of sprinkler system uses a separate detection system to open a valve that allows water into the piping?",
+          "choices": [
+            "Wet-pipe system",
+            "Dry-pipe system",
+            "Pre-action system",
+            "Deluge system"
+          ],
+          "answer": "C",
+          "explanation": "A pre-action system requires two events before water discharges: (1) a fire detection system activates to open the pre-action valve, filling the piping, and (2) individual sprinkler heads activate from heat. This provides double protection against accidental discharge."
+        },
+        {
+          "num": 46,
+          "question": "During a HAZMAT incident, decontamination is performed in the:",
+          "choices": [
+            "Hot zone",
+            "Warm zone (contamination reduction zone)",
+            "Cold zone",
+            "Staging area"
+          ],
+          "answer": "B",
+          "explanation": "Decontamination occurs in the warm zone (contamination reduction zone) between the hot zone and cold zone. Personnel and equipment are decontaminated before moving from the warm zone to the cold zone."
+        },
+        {
+          "num": 47,
+          "question": "The 'two-in, two-out' rule for structural firefighting requires:",
+          "choices": [
+            "Two fire trucks for every structure fire",
+            "Two trained firefighters outside the structure ready for rescue before interior firefighters enter",
+            "Two exits from every room in a structure",
+            "Two hydrant connections at every fire scene"
+          ],
+          "answer": "B",
+          "explanation": "The two-in, two-out rule (per OSHA 29 CFR 1910.134) requires that before firefighters enter an IDLH atmosphere, at least two properly equipped firefighters must remain outside as a rescue team ready to assist."
+        },
+        {
+          "num": 48,
+          "question": "An emergency response drill differs from a tabletop exercise in that a drill:",
+          "choices": [
+            "Is less expensive to conduct",
+            "Involves actual physical deployment of resources and personnel",
+            "Only involves senior management",
+            "Does not test emergency communication systems"
+          ],
+          "answer": "B",
+          "explanation": "A drill involves the actual physical deployment of personnel, equipment, and resources to practice emergency procedures. A tabletop exercise is a discussion-based activity where participants talk through scenarios without deploying resources."
+        },
+        {
+          "num": 49,
+          "question": "Lower explosive limit (LEL) and upper explosive limit (UEL) define:",
+          "choices": [
+            "The temperature range at which a material will burn",
+            "The concentration range in air within which a flammable gas or vapor will ignite",
+            "The pressure range at which a container will fail",
+            "The volume of extinguishing agent needed"
+          ],
+          "answer": "B",
+          "explanation": "The LEL and UEL define the flammable range -- the concentration range in air within which a flammable gas or vapor can ignite. Below the LEL, the mixture is too lean; above the UEL, it is too rich to burn."
+        },
+        {
+          "num": 50,
+          "question": "Which fire suppression agent extinguishes fire primarily by cooling?",
+          "choices": [
+            "Carbon dioxide",
+            "Dry chemical",
+            "Water",
+            "Halon"
+          ],
+          "answer": "C",
+          "explanation": "Water extinguishes fire primarily through cooling -- absorbing heat energy from the burning material. It also provides some smothering effect. CO2 displaces oxygen; dry chemical interrupts the chain reaction; halon also interrupts the chain reaction."
+        },
+        {
+          "num": 51,
+          "question": "The National Response Framework (NRF) establishes:",
+          "choices": [
+            "Individual company emergency response procedures",
+            "A comprehensive guide for how the nation responds to all types of disasters and emergencies",
+            "State-level fire codes",
+            "Local building permit requirements"
+          ],
+          "answer": "B",
+          "explanation": "The NRF is a guide to how the nation conducts all-hazards response. It establishes a scalable, flexible framework for coordinating disaster response across federal, state, local, tribal, and private-sector partners."
+        },
+        {
+          "num": 52,
+          "question": "In emergency planning, a mutual aid agreement between organizations provides:",
+          "choices": [
+            "Insurance coverage for neighboring facilities",
+            "A commitment to share resources and provide assistance during emergencies",
+            "Joint regulatory compliance documentation",
+            "Shared employee benefit programs"
+          ],
+          "answer": "B",
+          "explanation": "Mutual aid agreements are pre-arranged commitments between organizations (or jurisdictions) to share resources such as personnel, equipment, and expertise during emergencies that exceed any single organization's capabilities."
+        },
+        {
+          "num": 53,
+          "question": "The NIOSH lifting equation multiplier that accounts for the asymmetry (twisting) of a lift is the:",
+          "choices": [
+            "Horizontal multiplier (HM)",
+            "Vertical multiplier (VM)",
+            "Asymmetric multiplier (AM)",
+            "Coupling multiplier (CM)"
+          ],
+          "answer": "C",
+          "explanation": "The asymmetric multiplier (AM) accounts for body twisting during a lift. AM = 1 - (0.0032 x A), where A is the angle of asymmetry in degrees. As twisting increases, AM decreases, reducing the recommended weight limit."
+        },
+        {
+          "num": 54,
+          "question": "In the context of human factors, 'situation awareness' refers to:",
+          "choices": [
+            "The ability to lift heavy objects safely",
+            "A worker's perception, comprehension, and projection of environmental elements",
+            "Knowledge of emergency evacuation routes",
+            "The ability to operate machinery at maximum speed"
+          ],
+          "answer": "B",
+          "explanation": "Situation awareness (Endsley's model) has three levels: (1) perception of elements in the environment, (2) comprehension of their meaning, and (3) projection of their future status. Loss of situation awareness is a major factor in human error."
+        },
+        {
+          "num": 55,
+          "question": "Which of the following work tasks presents the GREATEST risk for developing trigger finger (stenosing tenosynovitis)?",
+          "choices": [
+            "Using a computer mouse for 8 hours",
+            "Repeated forceful gripping of hand tools with sustained finger flexion",
+            "Walking on uneven terrain",
+            "Standing for extended periods on hard surfaces"
+          ],
+          "answer": "B",
+          "explanation": "Trigger finger results from inflammation of the flexor tendon sheath due to repeated forceful gripping and sustained finger flexion. It is common among workers using pliers, scissors, power grippers, and similar hand tools."
+        },
+        {
+          "num": 56,
+          "question": "The neutral posture for the wrist when using a keyboard is:",
+          "choices": [
+            "Flexed upward at 30 degrees",
+            "Extended downward at 30 degrees",
+            "Straight (neither flexed nor extended) with minimal ulnar deviation",
+            "Fully pronated with maximum extension"
+          ],
+          "answer": "C",
+          "explanation": "The neutral wrist posture (straight, not flexed or extended, with minimal ulnar or radial deviation) minimizes pressure on the carpal tunnel and reduces the risk of carpal tunnel syndrome and other wrist MSDs."
+        },
+        {
+          "num": 57,
+          "question": "A participatory ergonomics program involves:",
+          "choices": [
+            "Having ergonomists make all workplace design decisions independently",
+            "Engaging workers in identifying ergonomic problems and developing solutions",
+            "Purchasing the most expensive ergonomic equipment available",
+            "Requiring all workers to complete a degree in ergonomics"
+          ],
+          "answer": "B",
+          "explanation": "Participatory ergonomics actively engages workers in the process of identifying ergonomic problems and developing solutions. Workers' knowledge of their own tasks makes them valuable contributors to effective ergonomic interventions."
+        },
+        {
+          "num": 58,
+          "question": "A safety professional discovers that a contractor on-site is using equipment that does not meet current OSHA standards. The facility owner claims the contractor is solely responsible. The safety professional should:",
+          "choices": [
+            "Ignore the situation since the contractor is responsible",
+            "Notify the contractor and facility management of the hazard and document the issue",
+            "Report only to OSHA without notifying anyone on-site",
+            "Wait until the contractor's work is complete before taking action"
+          ],
+          "answer": "B",
+          "explanation": "Under the multi-employer worksite policy, both the contractor and the controlling employer (facility owner) may have obligations. The safety professional should notify both parties and document the hazard to protect all workers on-site."
+        },
+        {
+          "num": 59,
+          "question": "Maintaining professional competency as a CSP requires:",
+          "choices": [
+            "Passing the initial certification exam only",
+            "Ongoing continuing education and professional development activities",
+            "Attending one safety conference per decade",
+            "Reading one safety publication per year"
+          ],
+          "answer": "B",
+          "explanation": "BCSP requires certificants to maintain professional competency through ongoing continuing education and professional development. CSPs must earn recertification points through approved activities within each 5-year certification cycle."
+        },
+        {
+          "num": 60,
+          "question": "When serving as an expert witness in a legal proceeding, a safety professional must:",
+          "choices": [
+            "Advocate for the party that hired them regardless of the facts",
+            "Provide objective, truthful testimony based on professional knowledge and the facts of the case",
+            "Refuse to participate in any legal proceedings",
+            "Only testify if guaranteed that their opinion will be accepted"
+          ],
+          "answer": "B",
+          "explanation": "When serving as an expert witness, a safety professional must provide objective, truthful testimony based on professional expertise and the facts of the case. Advocacy for a party at the expense of accuracy violates the BCSP Code of Ethics."
+        }
+      ]
+    }
+  ]
+}

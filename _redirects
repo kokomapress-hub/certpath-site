@@ -1,0 +1,7 @@
+# Clean URLs - serve .html files without extension
+/access /access.html 200
+/quiz /quiz.html 200
+/bonus /bonus.html 200
+
+# Catch-all 404 -> home
+/* /index.html 200

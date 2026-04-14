@@ -3,145 +3,67 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CERTPATH Publishing — Pass Your Certification Exam</title>
-  <meta name="description" content="Professional certification study guides with FREE online practice tests. CAST, Mechanical Aptitude, Journeyman Electrician exam prep.">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/css/style.css">
+  <title>CertPath Publishing - Free Online Practice Tests</title>
+  <meta name="description" content="Free online practice tests for CertPath Publishing study guides. Enter your book access code to unlock interactive timed practice exams.">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <script src="/js/animate.js" defer></script>
-
-  <!-- Header -->
-  <header class="site-header">
-    <div class="container">
-      <a href="/" class="logo">CERT<span>PATH</span></a>
-      <nav>
-        <a href="/#books">Study Guides</a>
-        <a href="/access/">Practice Tests</a>
-        <a href="/#how-it-works">How It Works</a>
+  <header class="header">
+    <div class="header-inner">
+      <a href="/" class="logo">CertPath <span class="gold">Publishing</span></a>
+      <nav class="nav">
+        <a href="/access.html">Access Tests</a>
+        <a href="/bonus.html">Bonus Content</a>
       </nav>
     </div>
   </header>
 
-  <!-- Hero -->
   <section class="hero">
-    <div class="container">
-      <h1>Pass Your Certification Exam<br>on the First Try</h1>
-      <p>Professional study guides with FREE interactive online practice tests. Study smarter, score higher.</p>
-      <div style="display:flex;gap:16px;justify-content:center;flex-wrap:wrap;">
-        <a href="/#books" class="btn btn-accent btn-lg">Browse Study Guides</a>
-        <a href="/access/" class="btn btn-outline btn-lg">Access Practice Tests</a>
-      </div>
-    </div>
+    <h1>Free Online <span class="gold">Practice Tests</span></h1>
+    <p>Verified book owners get FREE access to interactive online practice tests with instant scoring, detailed answer explanations, and timed exam simulation.</p>
+    <a href="/access.html" class="btn">Enter Your Access Code</a>
+    <p style="margin-top: 1rem; font-size: 0.95rem; opacity: 0.8;">
+      Don't have the book yet? <a href="https://amazon.com/s?k=CertPath+Publishing" style="color: var(--gold);">Browse on Amazon</a>
+    </p>
   </section>
 
-  <!-- How It Works -->
-  <section class="section" id="how-it-works" style="background:#fff;">
-    <div class="container">
-      <h2 class="section-title" data-animate>How It Works</h2>
-      <p class="section-subtitle" data-animate>Every book includes FREE online practice tests</p>
-      <div class="steps" data-animate-stagger>
-        <div class="step">
-          <div class="step-number">1</div>
-          <h3>Get Your Study Guide</h3>
-          <p>Purchase any CERTPATH study guide on Amazon. Available in paperback.</p>
-        </div>
-        <div class="step">
-          <div class="step-number">2</div>
-          <h3>Find Your Access Code</h3>
-          <p>Look for your unique book access code printed inside the book.</p>
-        </div>
-        <div class="step">
-          <div class="step-number">3</div>
-          <h3>Unlock Practice Tests</h3>
-          <p>Enter your code at certpathpublishing.store/access to get instant access.</p>
-        </div>
-        <div class="step">
-          <div class="step-number">4</div>
-          <h3>Study &amp; Pass</h3>
-          <p>Take timed practice tests with instant scoring and detailed explanations.</p>
-        </div>
-      </div>
+  <main class="container">
+    <h2 style="color: var(--navy); text-align: center; margin-bottom: 0.5rem;">Available Study Guides</h2>
+    <p style="text-align: center; color: var(--gray); margin-bottom: 2rem;">10 books. 1,920+ practice questions. Complete real-exam simulation.</p>
+
+    <div class="book-grid" id="bookGrid">
+      <!-- Populated by JS -->
     </div>
-  </section>
+  </main>
 
-  <!-- Books -->
-  <section class="section" id="books">
-    <div class="container">
-      <h2 class="section-title" data-animate>Our Study Guides</h2>
-      <p class="section-subtitle" data-animate>Comprehensive prep with practice tests included</p>
-      <div class="books-grid" data-animate-stagger>
-
-        <!-- CAST Exam -->
-        <div class="book-card">
-          <div class="book-card-img">
-            CAST Exam<br>Study Guide
-          </div>
-          <div class="book-card-body">
-            <h3>CAST Exam Study Guide</h3>
-            <p>Complete preparation for the Construction and Skilled Trades exam.</p>
-            <ul class="book-card-features">
-              <li>Full-length study guide</li>
-              <li>3 online practice tests</li>
-              <li>Detailed answer explanations</li>
-              <li>Timed test mode</li>
-            </ul>
-            <div class="book-card-actions">
-              <a href="/cast-exam/" class="btn btn-primary btn-sm">Learn More</a>
-              <a href="/access/" class="btn btn-gold btn-sm">Practice Tests</a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Mechanical Aptitude -->
-        <div class="book-card">
-          <div class="book-card-img" style="background:linear-gradient(135deg,#2b6cb0,#4299e1);">
-            Mechanical Aptitude<br>Study Guide
-          </div>
-          <div class="book-card-body">
-            <h3>Mechanical Aptitude Study Guide</h3>
-            <p>Master mechanical reasoning, spatial visualization, and physical principles.</p>
-            <ul class="book-card-features">
-              <li>Full-length study guide</li>
-              <li>3 online practice tests</li>
-              <li>Detailed answer explanations</li>
-              <li>Timed test mode</li>
-            </ul>
-            <div class="book-card-actions">
-              <a href="/mechanical-aptitude/" class="btn btn-primary btn-sm">Learn More</a>
-              <a href="/access/" class="btn btn-gold btn-sm">Practice Tests</a>
-            </div>
-          </div>
-        </div>
-
-
-      </div>
-    </div>
-  </section>
-
-  <!-- CTA -->
-  <section class="section">
-    <div class="container">
-      <div class="cta-banner" data-animate>
-        <h2>Already Have a Book?</h2>
-        <p>Enter your access code to unlock your FREE interactive practice tests.</p>
-        <a href="/access/" class="btn btn-accent btn-lg">Access Practice Tests</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer class="site-footer">
-    <div class="container">
-      <div class="footer-links">
-        <a href="/">Home</a>
-        <a href="/#books">Study Guides</a>
-        <a href="/access/">Practice Tests</a>
-      </div>
-      <p>&copy; 2025 CERTPATH Publishing. All rights reserved.</p>
-    </div>
+  <footer class="footer">
+    <p>&copy; CertPath Publishing. All rights reserved.</p>
+    <p>Practice tests are for verified book owners only. Access code required.</p>
   </footer>
 
+  <script>
+    fetch('/data/books.json')
+      .then(r => r.json())
+      .then(data => {
+        const grid = document.getElementById('bookGrid');
+        grid.innerHTML = data.books.map(book => `
+          <div class="book-card">
+            <h3>${book.title}</h3>
+            <div class="meta">
+              <span class="badge">${book.testCount} Tests</span>
+              <span class="badge">${book.totalQuestions} Qs</span>
+              <span class="badge">${book.timeMinutes} min</span>
+            </div>
+            <p style="color: var(--gray); font-size: 0.9rem;">Enter your access code to unlock interactive practice tests for this book.</p>
+            <div class="actions">
+              <a href="/access.html?book=${book.slug}" class="btn">Access Tests</a>
+            </div>
+          </div>
+        `).join('');
+      })
+      .catch(err => {
+        document.getElementById('bookGrid').innerHTML = '<p style="text-align: center; color: var(--error);">Failed to load books. Please try again.</p>';
+      });
+  </script>
 </body>
 </html>

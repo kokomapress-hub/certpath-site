@@ -1,0 +1,85 @@
+{
+  "books": [
+    {
+      "slug": "cast",
+      "title": "CAST Exam Study Guide",
+      "code": "CAST-OHGI1-JNYT7",
+      "timeMinutes": 87,
+      "testCount": 3,
+      "totalQuestions": 330
+    },
+    {
+      "slug": "mech-apt",
+      "title": "Mechanical Aptitude Study Guide",
+      "code": "MECH-XAJI0-Y6DPB",
+      "timeMinutes": 60,
+      "testCount": 3,
+      "totalQuestions": 180
+    },
+    {
+      "slug": "journeyman-elec",
+      "title": "Journeyman Electrician Exam Study Guide",
+      "code": "ELEC-BDOD6-BTL4F",
+      "timeMinutes": 120,
+      "testCount": 3,
+      "totalQuestions": 180
+    },
+    {
+      "slug": "poss",
+      "title": "POSS Exam Study Guide",
+      "code": "POSS-2LI3E-RUWFW",
+      "timeMinutes": 77,
+      "testCount": 3,
+      "totalQuestions": 180
+    },
+    {
+      "slug": "csp",
+      "title": "CSP Exam Study Guide",
+      "code": "CSP-D8F04-0KMZ8",
+      "timeMinutes": 90,
+      "testCount": 3,
+      "totalQuestions": 180
+    },
+    {
+      "slug": "chst",
+      "title": "CHST Exam Study Guide",
+      "code": "CHST-CPIQJ-5U07R",
+      "timeMinutes": 90,
+      "testCount": 3,
+      "totalQuestions": 180
+    },
+    {
+      "slug": "nhie",
+      "title": "Home Inspector Exam Study Guide",
+      "code": "NHIE-OG6WS-Z4YE9",
+      "timeMinutes": 120,
+      "testCount": 3,
+      "totalQuestions": 180
+    },
+    {
+      "slug": "sts",
+      "title": "STS Exam Study Guide",
+      "code": "STS-3H7RO-WGGPI",
+      "timeMinutes": 60,
+      "testCount": 3,
+      "totalQuestions": 150
+    },
+    {
+      "slug": "cpt",
+      "title": "MSSC CPT Exam Study Guide",
+      "code": "CPT-2ILBI-0PCA7",
+      "timeMinutes": 90,
+      "testCount": 3,
+      "totalQuestions": 180
+    },
+    {
+      "slug": "ncidq",
+      "title": "NCIDQ Exam Study Guide",
+      "code": "NCDQ-TM9CT-MJ8L2",
+      "timeMinutes": 180,
+      "testCount": 3,
+      "totalQuestions": 180
+    }
+  ],
+  "adminCode": "CERTPATH-ADMIN-2026"
+}

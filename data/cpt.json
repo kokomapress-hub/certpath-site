@@ -1,0 +1,2183 @@
+{
+  "slug": "cpt",
+  "title": "MSSC CPT Exam Study Guide",
+  "code": "CPT-2ILBI-0PCA7",
+  "timeMinutes": 90,
+  "tests": [
+    {
+      "testNum": 1,
+      "questions": [
+        {
+          "num": 1,
+          "question": "Which U.S. federal agency is responsible for creating and enforcing workplace safety standards in general industry?",
+          "choices": [
+            "EPA",
+            "OSHA",
+            "NIOSH",
+            "FDA"
+          ],
+          "answer": "B",
+          "explanation": "OSHA (Occupational Safety and Health Administration) is the U.S. federal agency responsible for setting and enforcing workplace safety standards."
+        },
+        {
+          "num": 2,
+          "question": "A Safety Data Sheet (SDS) must be readily available for every hazardous chemical in the workplace. How many standardized sections does an SDS contain under the GHS format?",
+          "choices": [
+            "8",
+            "12",
+            "16",
+            "20"
+          ],
+          "answer": "C",
+          "explanation": "Under GHS, every SDS has 16 standardized sections, covering identification, hazards, composition, first aid, handling, and more."
+        },
+        {
+          "num": 3,
+          "question": "Lockout/tagout (LOTO) procedures are primarily designed to protect workers from:",
+          "choices": [
+            "Slips, trips, and falls",
+            "Unexpected startup or release of stored energy",
+            "Chemical vapors",
+            "Excessive noise exposure"
+          ],
+          "answer": "B",
+          "explanation": "LOTO is designed to prevent unexpected energization or startup of machinery and release of stored energy during service or maintenance."
+        },
+        {
+          "num": 4,
+          "question": "Which class of fire extinguisher is appropriate for a fire involving energized electrical equipment?",
+          "choices": [
+            "Class A",
+            "Class B",
+            "Class C",
+            "Class K"
+          ],
+          "answer": "C",
+          "explanation": "Class C extinguishers are rated for energized electrical equipment fires."
+        },
+        {
+          "num": 5,
+          "question": "The PASS acronym for operating a fire extinguisher stands for:",
+          "choices": [
+            "Push, Aim, Spray, Stop",
+            "Pull, Aim, Squeeze, Sweep",
+            "Prepare, Aim, Shoot, Safety",
+            "Point, Activate, Squeeze, Swing"
+          ],
+          "answer": "B",
+          "explanation": "PASS = Pull the pin, Aim at the base, Squeeze the handle, Sweep side to side."
+        },
+        {
+          "num": 6,
+          "question": "When lifting a heavy object from the floor, the correct ergonomic technique is to:",
+          "choices": [
+            "Bend at the waist and keep legs straight",
+            "Bend the knees, keep the back straight, and lift with the legs",
+            "Twist the torso while lifting to save time",
+            "Hold the load at arms length for balance"
+          ],
+          "answer": "B",
+          "explanation": "Bend the knees, keep the back straight, and lift with the legs to protect the lower back."
+        },
+        {
+          "num": 7,
+          "question": "Which of the following is an example of a Personal Protective Equipment (PPE) item classified as hearing protection?",
+          "choices": [
+            "Safety glasses",
+            "Earplugs with an NRR rating",
+            "Steel-toed boots",
+            "Cut-resistant gloves"
+          ],
+          "answer": "B",
+          "explanation": "Earplugs with a Noise Reduction Rating (NRR) are classified as hearing protection."
+        },
+        {
+          "num": 8,
+          "question": "The OSHA hazard communication standard requires employers to train workers on chemical hazards. This requirement is commonly called:",
+          "choices": [
+            "Right-to-Work",
+            "Right-to-Know",
+            "Duty-to-Warn",
+            "Hazard Disclosure Act"
+          ],
+          "answer": "B",
+          "explanation": "HazCom is commonly called the Right-to-Know law because workers have the right to know what chemicals they work with."
+        },
+        {
+          "num": 9,
+          "question": "A repetitive-motion injury such as carpal tunnel syndrome is classified as a:",
+          "choices": [
+            "Traumatic injury",
+            "Musculoskeletal disorder (MSD)",
+            "Chemical exposure",
+            "Biological hazard"
+          ],
+          "answer": "B",
+          "explanation": "Carpal tunnel syndrome is a musculoskeletal disorder (MSD) caused by repetitive motion."
+        },
+        {
+          "num": 10,
+          "question": "Which signal word on a chemical label indicates the most severe hazard under GHS?",
+          "choices": [
+            "Caution",
+            "Warning",
+            "Danger",
+            "Notice"
+          ],
+          "answer": "C",
+          "explanation": "Danger indicates the most severe hazard category; Warning is lower severity."
+        },
+        {
+          "num": 11,
+          "question": "A first-aid responder encounters a worker who is bleeding heavily from a cut. The first action should be to:",
+          "choices": [
+            "Apply a tourniquet immediately",
+            "Elevate the limb and apply direct pressure to the wound",
+            "Wash the wound with alcohol",
+            "Move the worker to a different area"
+          ],
+          "answer": "B",
+          "explanation": "Apply direct pressure and elevate the wound. Tourniquets are reserved for life-threatening limb bleeds that cannot otherwise be controlled."
+        },
+        {
+          "num": 12,
+          "question": "The purpose of a machine guard is to:",
+          "choices": [
+            "Make the machine easier to clean",
+            "Protect operators from contact with moving parts, flying chips, and sparks",
+            "Reduce electricity consumption",
+            "Prevent dust from settling on the machine"
+          ],
+          "answer": "B",
+          "explanation": "Machine guards protect operators from moving parts, flying chips, sparks, and pinch points."
+        },
+        {
+          "num": 13,
+          "question": "Which color is OSHA standard for marking physical hazards such as striking-against, stumbling, falling, or being-caught-between?",
+          "choices": [
+            "Red",
+            "Yellow",
+            "Green",
+            "Blue"
+          ],
+          "answer": "B",
+          "explanation": "Yellow is OSHA's standard color for caution and physical hazards like stumbling or striking-against."
+        },
+        {
+          "num": 14,
+          "question": "Confined space entry requires atmospheric testing. The first gas that should be tested for is:",
+          "choices": [
+            "Carbon monoxide",
+            "Oxygen concentration",
+            "Hydrogen sulfide",
+            "Methane"
+          ],
+          "answer": "B",
+          "explanation": "Oxygen concentration is tested first to ensure it is between 19.5 and 23.5 percent."
+        },
+        {
+          "num": 15,
+          "question": "Which of the following is NOT one of the hierarchy of hazard controls?",
+          "choices": [
+            "Elimination",
+            "Engineering controls",
+            "Administrative controls",
+            "Productivity incentives"
+          ],
+          "answer": "D",
+          "explanation": "The hierarchy is Elimination, Substitution, Engineering controls, Administrative controls, and PPE. Productivity incentives are not part of it."
+        },
+        {
+          "num": 16,
+          "question": "ISO 9001 is an international standard that specifies requirements for:",
+          "choices": [
+            "Environmental management systems",
+            "Quality management systems",
+            "Occupational health and safety",
+            "Information security"
+          ],
+          "answer": "B",
+          "explanation": "ISO 9001 specifies requirements for quality management systems."
+        },
+        {
+          "num": 17,
+          "question": "In Six Sigma, the acronym DMAIC stands for:",
+          "choices": [
+            "Design, Measure, Analyze, Improve, Control",
+            "Define, Measure, Analyze, Improve, Control",
+            "Define, Monitor, Adjust, Implement, Check",
+            "Develop, Make, Audit, Inspect, Close"
+          ],
+          "answer": "B",
+          "explanation": "DMAIC = Define, Measure, Analyze, Improve, Control."
+        },
+        {
+          "num": 18,
+          "question": "A vernier caliper with a main scale graduation of 1 mm and 50 vernier divisions provides a least count of:",
+          "choices": [
+            "0.01 mm",
+            "0.02 mm",
+            "0.05 mm",
+            "0.1 mm"
+          ],
+          "answer": "B",
+          "explanation": "With 50 divisions on the vernier against 1 mm main scale graduation, the least count is 1/50 = 0.02 mm."
+        },
+        {
+          "num": 19,
+          "question": "Which measuring instrument is most appropriate for determining the inside diameter of a small drilled hole to 0.001 inch?",
+          "choices": [
+            "Steel rule",
+            "Outside micrometer",
+            "Inside micrometer or telescoping gauge with micrometer",
+            "Dial indicator"
+          ],
+          "answer": "C",
+          "explanation": "Small inside diameters are best measured with an inside micrometer or a telescoping gauge transferred to a micrometer."
+        },
+        {
+          "num": 20,
+          "question": "A tolerance of 2.500 +/- 0.005 inches means the acceptable range is:",
+          "choices": [
+            "2.495 to 2.505",
+            "2.500 to 2.505",
+            "2.490 to 2.510",
+            "2.495 to 2.500"
+          ],
+          "answer": "A",
+          "explanation": "2.500 minus 0.005 is 2.495 and 2.500 plus 0.005 is 2.505."
+        },
+        {
+          "num": 21,
+          "question": "On a statistical process control (SPC) chart, a point falling outside the upper or lower control limits indicates:",
+          "choices": [
+            "The process is perfectly centered",
+            "A possible special cause of variation requiring investigation",
+            "Common cause variation only",
+            "That the chart should be discarded"
+          ],
+          "answer": "B",
+          "explanation": "Points outside control limits suggest a special cause that should be investigated."
+        },
+        {
+          "num": 22,
+          "question": "A process capability index Cpk of 1.33 is generally considered:",
+          "choices": [
+            "Unacceptable",
+            "Marginally acceptable",
+            "Capable and acceptable for most industries",
+            "Perfect capability"
+          ],
+          "answer": "C",
+          "explanation": "A Cpk of 1.33 represents a capable process for most industries; higher values (1.67+) are preferred in critical applications."
+        },
+        {
+          "num": 23,
+          "question": "The Plan-Do-Check-Act cycle is most commonly associated with:",
+          "choices": [
+            "Walter Shewhart and W. Edwards Deming",
+            "Frederick Taylor",
+            "Henry Ford",
+            "Eli Whitney"
+          ],
+          "answer": "A",
+          "explanation": "The PDCA cycle was developed by Walter Shewhart and popularized by W. Edwards Deming."
+        },
+        {
+          "num": 24,
+          "question": "Which GD&T symbol specifies that a surface must remain parallel to a datum within a given tolerance zone?",
+          "choices": [
+            "Perpendicularity",
+            "Parallelism",
+            "Concentricity",
+            "Cylindricity"
+          ],
+          "answer": "B",
+          "explanation": "Parallelism is the GD&T characteristic that controls a surface's parallel relationship to a datum."
+        },
+        {
+          "num": 25,
+          "question": "In a Pareto analysis, the underlying principle is that approximately:",
+          "choices": [
+            "20 percent of the causes produce 80 percent of the problems",
+            "50 percent of the causes produce 50 percent of the problems",
+            "100 percent of causes must be fixed",
+            "Costs double every year"
+          ],
+          "answer": "A",
+          "explanation": "The Pareto principle states that roughly 20 percent of causes produce 80 percent of the effects."
+        },
+        {
+          "num": 26,
+          "question": "The 5 Whys technique is used primarily to:",
+          "choices": [
+            "Count defects",
+            "Identify the root cause of a problem",
+            "Calibrate instruments",
+            "Train new employees"
+          ],
+          "answer": "B",
+          "explanation": "The 5 Whys is a root cause analysis tool."
+        },
+        {
+          "num": 27,
+          "question": "Total Quality Management (TQM) emphasizes:",
+          "choices": [
+            "Inspection at the end of the line only",
+            "Continuous improvement involving every employee",
+            "Maximizing short-term profit",
+            "Automating all quality checks"
+          ],
+          "answer": "B",
+          "explanation": "TQM is a company-wide culture of continuous improvement involving every employee."
+        },
+        {
+          "num": 28,
+          "question": "Which of the following is an example of attribute data rather than variable data?",
+          "choices": [
+            "Diameter in millimeters",
+            "Temperature in Celsius",
+            "Number of defective units in a lot",
+            "Length in inches"
+          ],
+          "answer": "C",
+          "explanation": "Counts of defective units are attribute (pass/fail) data; measurements on a continuous scale are variable data."
+        },
+        {
+          "num": 29,
+          "question": "An outside micrometer that reads to 0.0001 inch uses which additional feature beyond the standard thimble?",
+          "choices": [
+            "A digital display only",
+            "A vernier scale on the sleeve",
+            "A friction thimble",
+            "A ratchet stop"
+          ],
+          "answer": "B",
+          "explanation": "A 0.0001 inch micrometer adds a vernier scale on the sleeve to read tenths of a thousandth."
+        },
+        {
+          "num": 30,
+          "question": "Calibration of a measuring instrument means:",
+          "choices": [
+            "Cleaning the instrument",
+            "Comparing its reading against a known traceable standard and adjusting if needed",
+            "Replacing its batteries",
+            "Painting the instrument for identification"
+          ],
+          "answer": "B",
+          "explanation": "Calibration compares an instrument against a traceable reference standard and adjusts it if it is out of tolerance."
+        },
+        {
+          "num": 31,
+          "question": "Which machining process uses a rotating cutting tool with multiple teeth to remove material from a workpiece that is fed into it?",
+          "choices": [
+            "Turning",
+            "Milling",
+            "Grinding",
+            "Drilling"
+          ],
+          "answer": "B",
+          "explanation": "Milling uses a rotating multi-tooth cutter while the workpiece is fed into it."
+        },
+        {
+          "num": 32,
+          "question": "In SMAW (stick) welding, the letters SMAW stand for:",
+          "choices": [
+            "Submerged Metal Arc Welding",
+            "Shielded Metal Arc Welding",
+            "Solid Metal Arc Welding",
+            "Surface Metal Arc Welding"
+          ],
+          "answer": "B",
+          "explanation": "SMAW = Shielded Metal Arc Welding, also called stick welding."
+        },
+        {
+          "num": 33,
+          "question": "The 5S methodology consists of Sort, Set in order, Shine, Standardize, and:",
+          "choices": [
+            "Safety",
+            "Sustain",
+            "Simplify",
+            "Stack"
+          ],
+          "answer": "B",
+          "explanation": "The fifth S is Sustain, meaning to maintain the improvements over time."
+        },
+        {
+          "num": 34,
+          "question": "In lean manufacturing, a kanban is best described as:",
+          "choices": [
+            "A quality inspection form",
+            "A visual signal used to trigger replenishment in a pull system",
+            "A forecasting algorithm",
+            "A type of conveyor"
+          ],
+          "answer": "B",
+          "explanation": "A kanban is a visual signal (card, bin, light) that triggers replenishment in a pull system."
+        },
+        {
+          "num": 35,
+          "question": "Overall Equipment Effectiveness (OEE) is calculated by multiplying which three factors?",
+          "choices": [
+            "Cost, speed, and safety",
+            "Availability, performance, and quality",
+            "Uptime, output, and inventory",
+            "Labor, material, and overhead"
+          ],
+          "answer": "B",
+          "explanation": "OEE = Availability x Performance x Quality."
+        },
+        {
+          "num": 36,
+          "question": "Takt time is defined as:",
+          "choices": [
+            "The fastest cycle time achievable by a machine",
+            "Available production time divided by customer demand",
+            "The time lost to changeovers",
+            "The time required to train an operator"
+          ],
+          "answer": "B",
+          "explanation": "Takt time = available production time divided by customer demand; it sets the pace of production."
+        },
+        {
+          "num": 37,
+          "question": "The eight wastes of lean manufacturing are often remembered by the acronym TIMWOODS. The W stands for:",
+          "choices": [
+            "Warehousing",
+            "Waiting",
+            "Wages",
+            "Warranty"
+          ],
+          "answer": "B",
+          "explanation": "TIMWOODS: Transportation, Inventory, Motion, Waiting, Overproduction, Overprocessing, Defects, Skills."
+        },
+        {
+          "num": 38,
+          "question": "Kaizen refers to:",
+          "choices": [
+            "Large capital investment projects",
+            "Continuous small improvements made by everyone in the organization",
+            "Automated quality inspection",
+            "Annual strategic planning"
+          ],
+          "answer": "B",
+          "explanation": "Kaizen means continuous, small, everyday improvements made by everyone."
+        },
+        {
+          "num": 39,
+          "question": "A Gantt chart is used primarily to:",
+          "choices": [
+            "Analyze process variation",
+            "Schedule project tasks against a timeline",
+            "Measure part dimensions",
+            "Control inventory levels"
+          ],
+          "answer": "B",
+          "explanation": "A Gantt chart plots tasks along a timeline for project scheduling."
+        },
+        {
+          "num": 40,
+          "question": "Which of the following best describes cycle time?",
+          "choices": [
+            "The time between completed units coming off a process",
+            "The total hours a plant operates per week",
+            "The time a customer waits in line",
+            "The time required to heat treat a part"
+          ],
+          "answer": "A",
+          "explanation": "Cycle time is the interval between completed units exiting a process."
+        },
+        {
+          "num": 41,
+          "question": "Just-In-Time (JIT) manufacturing primarily seeks to reduce:",
+          "choices": [
+            "Employee training time",
+            "Inventory and waste by producing only what is needed when it is needed",
+            "Energy costs",
+            "Machine speed"
+          ],
+          "answer": "B",
+          "explanation": "JIT aims to reduce inventory and waste by producing only what is needed, when it is needed."
+        },
+        {
+          "num": 42,
+          "question": "In a CNC machining center, the G-code G01 typically specifies:",
+          "choices": [
+            "Rapid positioning",
+            "Linear interpolation (feed movement in a straight line)",
+            "Circular interpolation clockwise",
+            "Tool change"
+          ],
+          "answer": "B",
+          "explanation": "G01 commands linear interpolation at the programmed feed rate."
+        },
+        {
+          "num": 43,
+          "question": "Injection molding is most suitable for producing:",
+          "choices": [
+            "One-off metal prototypes",
+            "High volumes of identical plastic parts",
+            "Forged steel components",
+            "Hand-carved wooden parts"
+          ],
+          "answer": "B",
+          "explanation": "Injection molding excels at producing high volumes of identical plastic parts."
+        },
+        {
+          "num": 44,
+          "question": "The primary purpose of a jig or fixture in production is to:",
+          "choices": [
+            "Increase machine horsepower",
+            "Locate and hold the workpiece consistently so parts are made identically",
+            "Replace the need for quality inspection",
+            "Reduce the cost of raw material"
+          ],
+          "answer": "B",
+          "explanation": "Jigs and fixtures locate and hold the workpiece consistently so every part is made identically."
+        },
+        {
+          "num": 45,
+          "question": "Value stream mapping is used to:",
+          "choices": [
+            "Draw organizational charts",
+            "Visualize material and information flow to identify waste and improvement opportunities",
+            "Design circuit boards",
+            "Calculate payroll"
+          ],
+          "answer": "B",
+          "explanation": "Value stream mapping visualizes material and information flow to reveal waste and improvement opportunities."
+        },
+        {
+          "num": 46,
+          "question": "Preventive maintenance (PM) is best described as:",
+          "choices": [
+            "Repair after breakdown",
+            "Scheduled servicing performed to reduce the likelihood of failure",
+            "Replacing a machine every five years regardless of condition",
+            "Calling the manufacturer when a fault occurs"
+          ],
+          "answer": "B",
+          "explanation": "Preventive maintenance is scheduled servicing (cleaning, lubrication, inspection, replacement) to reduce failure probability."
+        },
+        {
+          "num": 47,
+          "question": "A V-belt drive has begun to squeal during operation. The most likely cause is:",
+          "choices": [
+            "The motor is undersized",
+            "The belt is loose or glazed",
+            "The bearings have too much lubrication",
+            "The electrical supply voltage is too high"
+          ],
+          "answer": "B",
+          "explanation": "A loose or glazed belt slips and squeals; proper tensioning or belt replacement solves it."
+        },
+        {
+          "num": 48,
+          "question": "In a simple gear train, if the driver gear has 20 teeth and the driven gear has 40 teeth, the speed ratio is:",
+          "choices": [
+            "1 to 1",
+            "2 to 1 reduction (driven turns half as fast as driver)",
+            "2 to 1 overdrive (driven turns twice as fast as driver)",
+            "4 to 1 reduction"
+          ],
+          "answer": "B",
+          "explanation": "Speed ratio = driver teeth divided by driven teeth = 20/40 = 1/2, so the driven gear turns half as fast."
+        },
+        {
+          "num": 49,
+          "question": "Hydraulic systems transmit power using:",
+          "choices": [
+            "Compressed air",
+            "Pressurized liquid (typically oil)",
+            "Electromagnetic fields",
+            "Steam"
+          ],
+          "answer": "B",
+          "explanation": "Hydraulic systems use pressurized liquid (typically oil) to transmit power."
+        },
+        {
+          "num": 50,
+          "question": "Pneumatic systems differ from hydraulic systems primarily because they use:",
+          "choices": [
+            "Water under pressure",
+            "Compressed air as the working fluid",
+            "Molten metal",
+            "Magnetic force"
+          ],
+          "answer": "B",
+          "explanation": "Pneumatic systems use compressed air as the working fluid."
+        },
+        {
+          "num": 51,
+          "question": "Ohm's law expresses the relationship between voltage, current, and resistance as:",
+          "choices": [
+            "V = I x R",
+            "V = I / R",
+            "I = V x R",
+            "R = V x I"
+          ],
+          "answer": "A",
+          "explanation": "Ohm's law: Voltage equals Current times Resistance."
+        },
+        {
+          "num": 52,
+          "question": "A three-phase induction motor fails to start and hums loudly. A likely cause is:",
+          "choices": [
+            "Normal operation",
+            "A single-phasing condition caused by loss of one supply line",
+            "The motor is overlubricated",
+            "The shaft is too long"
+          ],
+          "answer": "B",
+          "explanation": "A humming, non-starting three-phase motor typically indicates single-phasing caused by loss of one supply phase."
+        },
+        {
+          "num": 53,
+          "question": "Which type of sensor detects the presence of a metallic object without physical contact?",
+          "choices": [
+            "Photoelectric sensor",
+            "Inductive proximity sensor",
+            "Ultrasonic level sensor",
+            "Thermocouple"
+          ],
+          "answer": "B",
+          "explanation": "Inductive proximity sensors detect metallic targets through a magnetic field without physical contact."
+        },
+        {
+          "num": 54,
+          "question": "A PLC (Programmable Logic Controller) is commonly programmed using:",
+          "choices": [
+            "Assembly language only",
+            "Ladder logic",
+            "HTML",
+            "SQL"
+          ],
+          "answer": "B",
+          "explanation": "Ladder logic is the standard PLC programming language."
+        },
+        {
+          "num": 55,
+          "question": "The primary function of a bearing is to:",
+          "choices": [
+            "Increase the horsepower of a motor",
+            "Reduce friction between moving parts and support loads",
+            "Generate electricity",
+            "Cool the lubricant"
+          ],
+          "answer": "B",
+          "explanation": "Bearings reduce friction between moving parts while supporting radial and axial loads."
+        },
+        {
+          "num": 56,
+          "question": "A chain drive is generally preferred over a belt drive when:",
+          "choices": [
+            "Silent operation is critical",
+            "Positive, slip-free transmission at lower speeds is required",
+            "Very high speeds are needed",
+            "The drive is exposed to dust-free clean rooms only"
+          ],
+          "answer": "B",
+          "explanation": "Chain drives provide positive, slip-free transmission, especially at lower speeds and higher torque."
+        },
+        {
+          "num": 57,
+          "question": "Predictive maintenance typically relies on techniques such as:",
+          "choices": [
+            "Replacing parts on a calendar basis",
+            "Vibration analysis, infrared thermography, and oil analysis",
+            "Running machines until failure",
+            "Painting equipment regularly"
+          ],
+          "answer": "B",
+          "explanation": "Predictive maintenance uses condition-monitoring techniques such as vibration, thermography, and oil analysis."
+        },
+        {
+          "num": 58,
+          "question": "The purpose of a lockout hasp in an electrical LOTO is to:",
+          "choices": [
+            "Hold tools while working",
+            "Allow multiple workers to each apply their own lock to the same isolation point",
+            "Increase current-carrying capacity",
+            "Ground the circuit"
+          ],
+          "answer": "B",
+          "explanation": "A lockout hasp accepts multiple locks so each worker applies and removes their own lock (group lockout)."
+        },
+        {
+          "num": 59,
+          "question": "A root cause analysis has identified that a pump failed due to cavitation. Cavitation is caused by:",
+          "choices": [
+            "Excessive lubrication",
+            "Vapor bubbles forming and collapsing when suction pressure drops below the liquid vapor pressure",
+            "High ambient temperature alone",
+            "Dirty filters on the electrical panel"
+          ],
+          "answer": "B",
+          "explanation": "Cavitation occurs when local pressure falls below the liquid's vapor pressure, forming bubbles that collapse and damage the pump."
+        },
+        {
+          "num": 60,
+          "question": "Which of the following readings would typically be within tolerance for a healthy 480 V three-phase motor circuit when measured phase-to-phase?",
+          "choices": [
+            "120 V",
+            "240 V",
+            "480 V",
+            "600 V"
+          ],
+          "answer": "C",
+          "explanation": "Phase-to-phase voltage on a 480 V three-phase system is nominally 480 V."
+        }
+      ]
+    },
+    {
+      "testNum": 2,
+      "questions": [
+        {
+          "num": 1,
+          "question": "Under the OSHA General Duty Clause, employers are required to:",
+          "choices": [
+            "Pay all workers equally",
+            "Furnish a workplace free from recognized hazards likely to cause death or serious harm",
+            "Provide uniforms at no cost",
+            "Permit unrestricted overtime"
+          ],
+          "answer": "B",
+          "explanation": "The General Duty Clause requires employers to provide a workplace free from recognized hazards likely to cause death or serious physical harm."
+        },
+        {
+          "num": 2,
+          "question": "Which pictogram on a GHS label indicates a flammable material?",
+          "choices": [
+            "A skull and crossbones",
+            "An exclamation mark",
+            "A flame",
+            "A corroding hand"
+          ],
+          "answer": "C",
+          "explanation": "The flame pictogram indicates flammable materials; the skull indicates acute toxicity."
+        },
+        {
+          "num": 3,
+          "question": "During a lockout/tagout procedure, after isolating the energy source the next required step is to:",
+          "choices": [
+            "Start production immediately",
+            "Verify zero energy state by attempting to start the equipment and testing with a meter",
+            "Remove the lock to check the circuit",
+            "Wait 24 hours before servicing"
+          ],
+          "answer": "B",
+          "explanation": "After isolation, verify zero energy by attempting to operate the equipment and testing with a meter before beginning work."
+        },
+        {
+          "num": 4,
+          "question": "A Class B fire involves:",
+          "choices": [
+            "Ordinary combustibles such as wood and paper",
+            "Flammable liquids and gases",
+            "Energized electrical equipment",
+            "Cooking oils and fats"
+          ],
+          "answer": "B",
+          "explanation": "Class B fires involve flammable liquids and gases."
+        },
+        {
+          "num": 5,
+          "question": "The minimum distance at which a worker must stand from an unqualified person performing energized electrical work (typical limited approach boundary) is determined by:",
+          "choices": [
+            "The union contract",
+            "The voltage level and NFPA 70E tables",
+            "The worker's height",
+            "The manufacturer's warranty"
+          ],
+          "answer": "B",
+          "explanation": "NFPA 70E uses voltage-based approach boundary tables to define limited and restricted approach distances."
+        },
+        {
+          "num": 6,
+          "question": "A worker complains of wrist pain from repetitive assembly work. The best ergonomic intervention is to:",
+          "choices": [
+            "Tell the worker to work harder",
+            "Redesign the workstation to maintain neutral wrist posture and add job rotation",
+            "Issue thicker gloves",
+            "Require longer shifts so the worker gets used to it"
+          ],
+          "answer": "B",
+          "explanation": "Redesign the workstation for neutral posture and add job rotation; these engineering and administrative controls address the root cause."
+        },
+        {
+          "num": 7,
+          "question": "Safety glasses that meet the ANSI Z87.1 standard protect against:",
+          "choices": [
+            "UV radiation only",
+            "High-impact objects, chemical splash, and optical radiation as marked",
+            "Laser beams of any wavelength",
+            "All biological hazards"
+          ],
+          "answer": "B",
+          "explanation": "ANSI Z87.1-rated eyewear protects against impact, splash, and optical radiation according to its specific markings."
+        },
+        {
+          "num": 8,
+          "question": "An SDS section that lists personal protective equipment, engineering controls, and exposure limits is most likely:",
+          "choices": [
+            "Section 1 - Identification",
+            "Section 8 - Exposure Controls / Personal Protection",
+            "Section 14 - Transport Information",
+            "Section 16 - Other Information"
+          ],
+          "answer": "B",
+          "explanation": "Section 8 of an SDS covers exposure controls, PPE, and exposure limits."
+        },
+        {
+          "num": 9,
+          "question": "The leading cause of fatalities in general industry related to machine operation is:",
+          "choices": [
+            "Paper cuts",
+            "Caught-in or crushed-by incidents",
+            "Static electricity",
+            "Minor burns"
+          ],
+          "answer": "B",
+          "explanation": "Caught-in / crushed-by events are among the leading causes of machine-related fatalities."
+        },
+        {
+          "num": 10,
+          "question": "An emergency eyewash station must be able to deliver flushing fluid for a minimum of:",
+          "choices": [
+            "1 minute",
+            "5 minutes",
+            "15 minutes",
+            "30 minutes"
+          ],
+          "answer": "C",
+          "explanation": "ANSI Z358.1 requires emergency eyewashes to deliver tepid flushing fluid for at least 15 minutes."
+        },
+        {
+          "num": 11,
+          "question": "A small chemical spill on the shop floor should first be addressed by:",
+          "choices": [
+            "Washing it down the drain",
+            "Consulting the SDS and following proper containment and cleanup procedures",
+            "Wiping it with bare hands",
+            "Ignoring it until the next shift"
+          ],
+          "answer": "B",
+          "explanation": "Consult the SDS and follow proper containment, cleanup, and disposal procedures."
+        },
+        {
+          "num": 12,
+          "question": "A point-of-operation guard on a power press must:",
+          "choices": [
+            "Be easily removable by the operator",
+            "Prevent any part of the operator's body from entering the hazard zone during operation",
+            "Be painted red",
+            "Be locked only at shift change"
+          ],
+          "answer": "B",
+          "explanation": "A point-of-operation guard must prevent operator body parts from entering the hazard zone during operation."
+        },
+        {
+          "num": 13,
+          "question": "Safety color code red is typically used to identify:",
+          "choices": [
+            "Safe conditions",
+            "Fire protection equipment and emergency stops",
+            "First-aid equipment",
+            "Radiation hazards"
+          ],
+          "answer": "B",
+          "explanation": "Red identifies fire protection equipment, emergency stops, and danger."
+        },
+        {
+          "num": 14,
+          "question": "Before entering a permit-required confined space, the entrant must:",
+          "choices": [
+            "Sign the permit, confirm ventilation, and have an attendant outside the space",
+            "Enter alone quickly to save time",
+            "Turn off all lights to avoid ignition",
+            "Fill the space with water first"
+          ],
+          "answer": "A",
+          "explanation": "Permit-required entry requires a signed permit, verified ventilation and atmosphere, and an attendant posted outside the space."
+        },
+        {
+          "num": 15,
+          "question": "Which of the following is the most effective hazard control according to the hierarchy of controls?",
+          "choices": [
+            "Warning signs",
+            "Personal protective equipment",
+            "Elimination of the hazard at its source",
+            "Employee training"
+          ],
+          "answer": "C",
+          "explanation": "Elimination is the most effective control because it removes the hazard entirely; PPE is the least effective."
+        },
+        {
+          "num": 16,
+          "question": "The principal purpose of a quality management system is to:",
+          "choices": [
+            "Maximize worker overtime",
+            "Consistently meet customer and regulatory requirements",
+            "Replace the HR department",
+            "Eliminate preventive maintenance"
+          ],
+          "answer": "B",
+          "explanation": "A QMS exists to consistently meet customer and regulatory requirements."
+        },
+        {
+          "num": 17,
+          "question": "In the DMAIC cycle, which phase focuses on establishing a baseline through data collection?",
+          "choices": [
+            "Define",
+            "Measure",
+            "Analyze",
+            "Control"
+          ],
+          "answer": "B",
+          "explanation": "Measure establishes the baseline by collecting data on the current process."
+        },
+        {
+          "num": 18,
+          "question": "A dial caliper with a 0.001 inch resolution rotates once per 0.100 inch. If the dial reads 0.045 and the main scale reads 1.2, the measurement is:",
+          "choices": [
+            "1.045",
+            "1.200",
+            "1.245",
+            "1.350"
+          ],
+          "answer": "C",
+          "explanation": "Add main-scale 1.200 plus dial 0.045 to get 1.245 inches."
+        },
+        {
+          "num": 19,
+          "question": "An outside micrometer with a 0.0001 inch vernier reads: sleeve 0.250, thimble 0.012, vernier 0.0003. The measurement is:",
+          "choices": [
+            "0.2620",
+            "0.2623",
+            "0.2630",
+            "0.2523"
+          ],
+          "answer": "B",
+          "explanation": "0.2500 plus 0.012 plus 0.0003 equals 0.2623 inches."
+        },
+        {
+          "num": 20,
+          "question": "A print calls out a bore of 1.000 inch with a tolerance of +0.002 / -0.000. Which measured value is OUT of tolerance?",
+          "choices": [
+            "1.0000",
+            "1.0010",
+            "1.0020",
+            "1.0025"
+          ],
+          "answer": "D",
+          "explanation": "With a tolerance of +0.002/-0.000, the range is 1.0000 to 1.0020. A reading of 1.0025 exceeds the upper limit."
+        },
+        {
+          "num": 21,
+          "question": "An X-bar chart is used to monitor:",
+          "choices": [
+            "The range of a sample",
+            "The mean (average) of samples over time",
+            "Attribute defects only",
+            "Employee attendance"
+          ],
+          "answer": "B",
+          "explanation": "X-bar charts track the mean of successive samples over time."
+        },
+        {
+          "num": 22,
+          "question": "If a process has Cp = 1.5 but Cpk = 0.9, the process is:",
+          "choices": [
+            "Both capable and centered",
+            "Capable of holding the tolerance width but not centered within it",
+            "Incapable under any condition",
+            "Perfectly centered"
+          ],
+          "answer": "B",
+          "explanation": "Cp high with Cpk low means the process spread fits the tolerance but is off-center."
+        },
+        {
+          "num": 23,
+          "question": "Which quality tool uses a diagram that resembles a fish skeleton to explore possible causes?",
+          "choices": [
+            "Histogram",
+            "Ishikawa (cause-and-effect) diagram",
+            "Control chart",
+            "Scatter diagram"
+          ],
+          "answer": "B",
+          "explanation": "An Ishikawa (fishbone) diagram explores possible causes grouped by category."
+        },
+        {
+          "num": 24,
+          "question": "The GD&T symbol that describes how round a cylindrical feature is at any cross-section is:",
+          "choices": [
+            "Circularity (roundness)",
+            "Cylindricity",
+            "Flatness",
+            "Profile of a line"
+          ],
+          "answer": "A",
+          "explanation": "Circularity (roundness) controls how round a cross-section of a cylindrical feature is."
+        },
+        {
+          "num": 25,
+          "question": "A scatter diagram is most useful for:",
+          "choices": [
+            "Counting defect categories",
+            "Examining the relationship between two variables",
+            "Displaying project schedules",
+            "Listing procedures"
+          ],
+          "answer": "B",
+          "explanation": "Scatter diagrams show the relationship or correlation between two variables."
+        },
+        {
+          "num": 26,
+          "question": "A first article inspection (FAI) is performed to:",
+          "choices": [
+            "Verify that the first production part meets all print requirements before a full run begins",
+            "Replace routine in-process inspection forever",
+            "Audit employee attendance",
+            "Measure machine vibration"
+          ],
+          "answer": "A",
+          "explanation": "FAI verifies that the first production piece meets every print requirement before a full production run."
+        },
+        {
+          "num": 27,
+          "question": "Deming's 14 Points emphasize:",
+          "choices": [
+            "Worker punishment for errors",
+            "Constancy of purpose, driving out fear, and continual improvement",
+            "Maximizing piece-rate pay",
+            "Mass final inspection as the primary quality tool"
+          ],
+          "answer": "B",
+          "explanation": "Deming emphasized constancy of purpose, driving out fear, and continual improvement; he rejected reliance on mass inspection."
+        },
+        {
+          "num": 28,
+          "question": "A p-chart tracks:",
+          "choices": [
+            "The proportion of defective units in samples of varying size",
+            "The number of defects per part",
+            "The average of measured dimensions",
+            "Temperature over time"
+          ],
+          "answer": "A",
+          "explanation": "A p-chart monitors the proportion defective in samples of varying size."
+        },
+        {
+          "num": 29,
+          "question": "A gauge block set is primarily used to:",
+          "choices": [
+            "Measure electrical resistance",
+            "Provide traceable length standards for calibrating and setting other instruments",
+            "Polish finished parts",
+            "Cut threads on a lathe"
+          ],
+          "answer": "B",
+          "explanation": "Gauge blocks provide traceable length standards for calibrating and setting instruments."
+        },
+        {
+          "num": 30,
+          "question": "A measurement system analysis (MSA) study called Gauge R&R evaluates:",
+          "choices": [
+            "Repeatability and reproducibility of a measurement system",
+            "The retirement age of the gauge",
+            "The retail price of the gauge",
+            "The replacement schedule of the operator"
+          ],
+          "answer": "A",
+          "explanation": "Gauge R&R measures repeatability (equipment variation) and reproducibility (appraiser variation)."
+        },
+        {
+          "num": 31,
+          "question": "Turning on a lathe is defined as removing material from a workpiece that:",
+          "choices": [
+            "Rotates while a single-point tool feeds against it",
+            "Is stationary while a multi-tooth tool rotates above it",
+            "Is heated in a furnace",
+            "Is cast in a mold"
+          ],
+          "answer": "A",
+          "explanation": "In turning, the workpiece rotates while a single-point tool feeds against it."
+        },
+        {
+          "num": 32,
+          "question": "GMAW is commonly known by the trade name:",
+          "choices": [
+            "Stick welding",
+            "MIG welding",
+            "TIG welding",
+            "Oxyfuel welding"
+          ],
+          "answer": "B",
+          "explanation": "GMAW (Gas Metal Arc Welding) is commonly called MIG welding."
+        },
+        {
+          "num": 33,
+          "question": "The second S in 5S (Set in order) is primarily about:",
+          "choices": [
+            "Throwing away unused items",
+            "Arranging needed items so they are easy to find and return",
+            "Painting floors and walls",
+            "Reviewing the plan every morning"
+          ],
+          "answer": "B",
+          "explanation": "Set in order arranges needed items so they are easy to locate, use, and return."
+        },
+        {
+          "num": 34,
+          "question": "Heijunka in lean manufacturing refers to:",
+          "choices": [
+            "Emergency stop",
+            "Production leveling to smooth out volume and mix",
+            "Overtime approval",
+            "End-of-line testing"
+          ],
+          "answer": "B",
+          "explanation": "Heijunka is production leveling, smoothing out volume and mix so downstream demand is stable."
+        },
+        {
+          "num": 35,
+          "question": "If a machine runs 480 minutes per shift, is available 400 minutes, produces 380 good parts at an ideal cycle of 1 minute per part, the Availability component of OEE is approximately:",
+          "choices": [
+            "0.79",
+            "0.83",
+            "0.95",
+            "1.00"
+          ],
+          "answer": "B",
+          "explanation": "Availability = operating time / planned production time = 400/480 = 0.833."
+        },
+        {
+          "num": 36,
+          "question": "If customer demand is 480 units per 8-hour shift (480 minutes), takt time is:",
+          "choices": [
+            "30 seconds per unit",
+            "60 seconds per unit",
+            "90 seconds per unit",
+            "120 seconds per unit"
+          ],
+          "answer": "B",
+          "explanation": "Takt = 480 minutes x 60 seconds divided by 480 units = 60 seconds per unit."
+        },
+        {
+          "num": 37,
+          "question": "Overproduction is often considered the worst of the eight wastes because it:",
+          "choices": [
+            "Increases inventory and masks other wastes",
+            "Only affects the shipping department",
+            "Reduces machine downtime",
+            "Has no cost impact"
+          ],
+          "answer": "A",
+          "explanation": "Overproduction creates inventory that hides other wastes such as defects, waiting, and motion."
+        },
+        {
+          "num": 38,
+          "question": "A poka-yoke is:",
+          "choices": [
+            "A Japanese welding process",
+            "A mistake-proofing device or procedure that prevents errors at the source",
+            "A scheduling board",
+            "An inventory storage system"
+          ],
+          "answer": "B",
+          "explanation": "Poka-yoke (mistake-proofing) prevents errors at the source."
+        },
+        {
+          "num": 39,
+          "question": "Single-Minute Exchange of Die (SMED) aims to:",
+          "choices": [
+            "Increase the number of dies used per shift",
+            "Reduce changeover time to less than 10 minutes (single-digit minutes)",
+            "Replace dies every week",
+            "Eliminate all tooling"
+          ],
+          "answer": "B",
+          "explanation": "SMED targets changeover times under 10 minutes."
+        },
+        {
+          "num": 40,
+          "question": "On a work-in-process (WIP) floor, standard work typically defines:",
+          "choices": [
+            "Only the machine horsepower",
+            "Takt time, work sequence, and standard inventory for each operation",
+            "The color of the paint",
+            "The date of the audit"
+          ],
+          "answer": "B",
+          "explanation": "Standard work defines takt time, work sequence, and standard in-process inventory."
+        },
+        {
+          "num": 41,
+          "question": "In a pull production system, the upstream process produces when:",
+          "choices": [
+            "A forecast demands it",
+            "The downstream process signals (via kanban) that it has consumed material",
+            "The supervisor orders it",
+            "Every 30 minutes"
+          ],
+          "answer": "B",
+          "explanation": "In pull production, upstream makes only what downstream has signaled it has consumed."
+        },
+        {
+          "num": 42,
+          "question": "The CNC G-code for rapid positioning is:",
+          "choices": [
+            "G00",
+            "G01",
+            "G02",
+            "G28"
+          ],
+          "answer": "A",
+          "explanation": "G00 commands rapid positioning (non-cutting fast move)."
+        },
+        {
+          "num": 43,
+          "question": "Sand casting is best described as:",
+          "choices": [
+            "Pressing plastic pellets into a mold under high pressure",
+            "Pouring molten metal into a mold made from sand",
+            "Cutting material from a solid block",
+            "Welding plates together"
+          ],
+          "answer": "B",
+          "explanation": "Sand casting pours molten metal into a sand mold."
+        },
+        {
+          "num": 44,
+          "question": "Which process uses pressurized abrasive particles propelled against a workpiece to remove surface contaminants or prepare a finish?",
+          "choices": [
+            "Electroplating",
+            "Abrasive blasting (sandblasting)",
+            "Anodizing",
+            "Laser cutting"
+          ],
+          "answer": "B",
+          "explanation": "Abrasive blasting propels abrasive particles against a surface to clean or prepare it."
+        },
+        {
+          "num": 45,
+          "question": "A one-piece flow (continuous flow) layout:",
+          "choices": [
+            "Batches parts in large lots between operations",
+            "Moves one part at a time between operations, reducing WIP and lead time",
+            "Requires no workers",
+            "Eliminates all inspections"
+          ],
+          "answer": "B",
+          "explanation": "One-piece flow moves a single part at a time, reducing WIP and lead time."
+        },
+        {
+          "num": 46,
+          "question": "Condition-based maintenance differs from time-based maintenance because it:",
+          "choices": [
+            "Is always cheaper",
+            "Schedules service based on the actual measured condition of the equipment",
+            "Requires no training",
+            "Uses only visual inspection"
+          ],
+          "answer": "B",
+          "explanation": "Condition-based maintenance schedules service based on measured condition rather than elapsed time."
+        },
+        {
+          "num": 47,
+          "question": "A bearing is failing and has developed a high-pitched whine along with excessive heat. The most likely cause is:",
+          "choices": [
+            "The bearing is overlubricated only",
+            "Loss of lubrication or contamination leading to wear",
+            "The motor is too quiet",
+            "The ambient humidity is low"
+          ],
+          "answer": "B",
+          "explanation": "Lubrication loss or contamination causes wear, heat, and a characteristic whine in bearings."
+        },
+        {
+          "num": 48,
+          "question": "In a compound gear train with two reductions of 3 to 1 each, the total speed reduction is:",
+          "choices": [
+            "3 to 1",
+            "6 to 1",
+            "9 to 1",
+            "12 to 1"
+          ],
+          "answer": "C",
+          "explanation": "Compound reductions multiply: 3 times 3 equals 9 to 1."
+        },
+        {
+          "num": 49,
+          "question": "The component in a hydraulic system that converts mechanical rotation into fluid flow is the:",
+          "choices": [
+            "Cylinder",
+            "Pump",
+            "Accumulator",
+            "Reservoir"
+          ],
+          "answer": "B",
+          "explanation": "The pump converts mechanical rotation into hydraulic flow."
+        },
+        {
+          "num": 50,
+          "question": "A pneumatic FRL unit conditions the compressed air supply. FRL stands for:",
+          "choices": [
+            "Flow, Regulator, Load",
+            "Filter, Regulator, Lubricator",
+            "Fuse, Relay, Line",
+            "Fast Response Loop"
+          ],
+          "answer": "B",
+          "explanation": "FRL stands for Filter, Regulator, Lubricator."
+        },
+        {
+          "num": 51,
+          "question": "An electrical circuit has a 120 V source and a 30-ohm resistor. The current through the resistor is:",
+          "choices": [
+            "0.25 A",
+            "4 A",
+            "30 A",
+            "3600 A"
+          ],
+          "answer": "B",
+          "explanation": "I = V/R = 120/30 = 4 amperes."
+        },
+        {
+          "num": 52,
+          "question": "A squirrel-cage induction motor is running but one phase is lost. The motor will:",
+          "choices": [
+            "Continue to run normally with no damage",
+            "Draw higher current on the remaining phases, overheat, and eventually fail",
+            "Increase its speed",
+            "Reverse direction"
+          ],
+          "answer": "B",
+          "explanation": "Single-phasing causes overcurrent and overheating on the remaining phases, eventually damaging the motor."
+        },
+        {
+          "num": 53,
+          "question": "A thermocouple is used to measure:",
+          "choices": [
+            "Pressure",
+            "Temperature by generating a small voltage from dissimilar metals",
+            "Electrical current",
+            "Flow rate"
+          ],
+          "answer": "B",
+          "explanation": "A thermocouple generates a millivolt signal proportional to temperature via the Seebeck effect."
+        },
+        {
+          "num": 54,
+          "question": "In ladder logic, a normally open (NO) contact that represents an input is true when:",
+          "choices": [
+            "The input is always energized",
+            "The physical input device is actuated",
+            "The PLC is powered off",
+            "The output is energized"
+          ],
+          "answer": "B",
+          "explanation": "A NO contact in ladder logic passes when its associated input device is actuated."
+        },
+        {
+          "num": 55,
+          "question": "A journal bearing (plain bearing) relies primarily on which principle for reduced friction?",
+          "choices": [
+            "Rolling elements",
+            "A thin film of lubricant separating the shaft and housing (hydrodynamic film)",
+            "Magnetic levitation",
+            "Dry sliding with no lubrication"
+          ],
+          "answer": "B",
+          "explanation": "Journal bearings rely on a hydrodynamic oil film separating the shaft from the housing."
+        },
+        {
+          "num": 56,
+          "question": "Belt tension that is too high will typically cause:",
+          "choices": [
+            "Belt slippage",
+            "Premature bearing failure and belt stretch",
+            "No effect on the system",
+            "Quieter operation"
+          ],
+          "answer": "B",
+          "explanation": "Excess belt tension overloads bearings and stretches the belt prematurely."
+        },
+        {
+          "num": 57,
+          "question": "Vibration analysis is a predictive maintenance tool especially well suited for diagnosing:",
+          "choices": [
+            "Electrical insulation breakdown",
+            "Bearing wear, imbalance, and misalignment in rotating machinery",
+            "Hydraulic fluid contamination only",
+            "PLC software bugs"
+          ],
+          "answer": "B",
+          "explanation": "Vibration analysis is ideal for diagnosing bearing defects, imbalance, misalignment, and looseness in rotating equipment."
+        },
+        {
+          "num": 58,
+          "question": "Before removing a lockout device, the authorized employee must:",
+          "choices": [
+            "Notify only the maintenance manager",
+            "Inspect the work area, ensure all workers are clear, and verify tools are removed",
+            "Apply paint to the lock",
+            "Remove it silently"
+          ],
+          "answer": "B",
+          "explanation": "Before lock removal, inspect the area, ensure personnel are clear, and confirm tools are removed."
+        },
+        {
+          "num": 59,
+          "question": "A relief valve in a hydraulic circuit is installed to:",
+          "choices": [
+            "Increase maximum pressure",
+            "Limit system pressure to a safe maximum by venting excess flow",
+            "Reverse fluid flow",
+            "Heat the oil"
+          ],
+          "answer": "B",
+          "explanation": "A relief valve vents excess flow to limit system pressure to a safe maximum."
+        },
+        {
+          "num": 60,
+          "question": "A megger (insulation resistance tester) applies a high DC voltage to:",
+          "choices": [
+            "Measure circuit current",
+            "Measure the resistance of insulation between conductors or to ground",
+            "Test battery capacity",
+            "Calibrate pressure gauges"
+          ],
+          "answer": "B",
+          "explanation": "A megger applies a high DC test voltage to measure insulation resistance between conductors or to ground."
+        }
+      ]
+    },
+    {
+      "testNum": 3,
+      "questions": [
+        {
+          "num": 1,
+          "question": "The OSHA standard that governs lockout/tagout is:",
+          "choices": [
+            "29 CFR 1910.132",
+            "29 CFR 1910.147",
+            "29 CFR 1910.1200",
+            "29 CFR 1926.95"
+          ],
+          "answer": "B",
+          "explanation": "29 CFR 1910.147 is the Control of Hazardous Energy (Lockout/Tagout) standard."
+        },
+        {
+          "num": 2,
+          "question": "Under the Hazard Communication Standard, pictograms on chemical labels are:",
+          "choices": [
+            "Optional decorations",
+            "Required red-bordered diamonds depicting the hazard category",
+            "Serial numbers",
+            "Unit price codes"
+          ],
+          "answer": "B",
+          "explanation": "GHS pictograms are standardized red-bordered diamond symbols identifying hazard categories."
+        },
+        {
+          "num": 3,
+          "question": "A worker finds a damaged three-prong plug on a portable electric drill. The correct action is to:",
+          "choices": [
+            "Continue using it carefully",
+            "Tag it out of service and send it for repair",
+            "Cut off the ground prong",
+            "Wrap the damage with electrical tape"
+          ],
+          "answer": "B",
+          "explanation": "Tag the tool out of service and route it for repair; never bypass the ground or use damaged equipment."
+        },
+        {
+          "num": 4,
+          "question": "Class D fire extinguishers are used on fires involving:",
+          "choices": [
+            "Paper and wood",
+            "Flammable liquids",
+            "Combustible metals such as magnesium and sodium",
+            "Cooking oils"
+          ],
+          "answer": "C",
+          "explanation": "Class D extinguishers are designed for combustible metal fires such as magnesium and sodium."
+        },
+        {
+          "num": 5,
+          "question": "A fall arrest system generally consists of the anchor, body harness, and:",
+          "choices": [
+            "A warning sign",
+            "A connector (lanyard with shock absorber)",
+            "A helmet only",
+            "A respirator"
+          ],
+          "answer": "B",
+          "explanation": "The ABC of fall arrest is Anchor, Body harness, and Connector (lanyard, often with a shock absorber)."
+        },
+        {
+          "num": 6,
+          "question": "The most common cause of chronic low-back injury in manufacturing is:",
+          "choices": [
+            "Operating a forklift",
+            "Improper lifting technique and prolonged awkward postures",
+            "Wearing safety glasses",
+            "Listening to music"
+          ],
+          "answer": "B",
+          "explanation": "Improper lifting technique combined with prolonged awkward postures drives most chronic low-back injuries."
+        },
+        {
+          "num": 7,
+          "question": "An N95 filtering facepiece respirator is designed to:",
+          "choices": [
+            "Supply breathable air from a tank",
+            "Filter at least 95 percent of non-oil airborne particulates",
+            "Protect against all gases and vapors",
+            "Be reused indefinitely"
+          ],
+          "answer": "B",
+          "explanation": "An N95 filters at least 95 percent of non-oil airborne particulates; it does not supply air or protect against gases."
+        },
+        {
+          "num": 8,
+          "question": "Which SDS section lists flash point, boiling point, and vapor pressure?",
+          "choices": [
+            "Section 1 - Identification",
+            "Section 4 - First Aid Measures",
+            "Section 9 - Physical and Chemical Properties",
+            "Section 15 - Regulatory Information"
+          ],
+          "answer": "C",
+          "explanation": "Section 9 of an SDS lists physical and chemical properties such as flash point, boiling point, and vapor pressure."
+        },
+        {
+          "num": 9,
+          "question": "An arc flash boundary is the distance within which:",
+          "choices": [
+            "Workers can hear machinery",
+            "A person could receive a second-degree burn from an arc flash",
+            "Only managers may enter",
+            "Fire extinguishers are required"
+          ],
+          "answer": "B",
+          "explanation": "The arc flash boundary is the distance at which an unprotected person could receive a second-degree burn."
+        },
+        {
+          "num": 10,
+          "question": "Housekeeping in a production area is a safety responsibility because:",
+          "choices": [
+            "Clean floors look professional",
+            "Spills, clutter, and debris cause slips, trips, falls, and fires",
+            "It reduces electricity use",
+            "It is required by tax law"
+          ],
+          "answer": "B",
+          "explanation": "Poor housekeeping causes slip-trip-fall incidents, obscures hazards, and can feed fires."
+        },
+        {
+          "num": 11,
+          "question": "The first step when you discover a coworker has collapsed and is unresponsive is to:",
+          "choices": [
+            "Leave to find a manager",
+            "Call for help (activate emergency response) and check for breathing",
+            "Pour water on them",
+            "Move them to a different room"
+          ],
+          "answer": "B",
+          "explanation": "Call for help and check responsiveness and breathing; early activation of emergency response saves lives."
+        },
+        {
+          "num": 12,
+          "question": "Which safety device on a powered industrial truck (forklift) prevents the operator from being crushed during a tip-over?",
+          "choices": [
+            "Horn",
+            "Overhead guard and operator restraint system",
+            "Rear-view mirror",
+            "Forward-facing camera"
+          ],
+          "answer": "B",
+          "explanation": "The overhead guard and operator restraint system protect the operator during tip-overs."
+        },
+        {
+          "num": 13,
+          "question": "Green is the OSHA safety color commonly used to indicate:",
+          "choices": [
+            "Fire protection",
+            "Safety equipment and first-aid stations",
+            "Radiation hazards",
+            "Physical hazards"
+          ],
+          "answer": "B",
+          "explanation": "Green marks safety equipment and first-aid stations."
+        },
+        {
+          "num": 14,
+          "question": "Hot work permits are required before performing activities such as:",
+          "choices": [
+            "Office filing",
+            "Welding, cutting, or grinding that can produce sparks or flames",
+            "Operating a laptop",
+            "Loading pallets"
+          ],
+          "answer": "B",
+          "explanation": "Hot work permits are required for welding, cutting, grinding, and other spark-producing tasks."
+        },
+        {
+          "num": 15,
+          "question": "Personal protective equipment is considered the LAST line of defense because:",
+          "choices": [
+            "It is cheapest",
+            "It does not eliminate the hazard and depends on correct use by the worker",
+            "Workers dislike it",
+            "It is too heavy"
+          ],
+          "answer": "B",
+          "explanation": "PPE is last because it does not remove the hazard and effectiveness depends entirely on correct, consistent use."
+        },
+        {
+          "num": 16,
+          "question": "Which ISO 9001 clause introduces the concept of risk-based thinking?",
+          "choices": [
+            "Clause 3 - Terms and Definitions",
+            "Clause 6 - Planning",
+            "Clause 9 - Performance Evaluation",
+            "Clause 10 - Improvement"
+          ],
+          "answer": "B",
+          "explanation": "Clause 6 (Planning) of ISO 9001:2015 formalizes risk-based thinking."
+        },
+        {
+          "num": 17,
+          "question": "In a DMAIC project, root cause verification typically occurs in which phase?",
+          "choices": [
+            "Define",
+            "Measure",
+            "Analyze",
+            "Improve"
+          ],
+          "answer": "C",
+          "explanation": "Root causes are identified and verified during the Analyze phase."
+        },
+        {
+          "num": 18,
+          "question": "A digital caliper displaying 23.47 mm has a resolution of:",
+          "choices": [
+            "1 mm",
+            "0.1 mm",
+            "0.01 mm",
+            "0.001 mm"
+          ],
+          "answer": "C",
+          "explanation": "Two digits after the decimal point in millimeters corresponds to 0.01 mm resolution."
+        },
+        {
+          "num": 19,
+          "question": "A depth micrometer is used to measure:",
+          "choices": [
+            "The outside diameter of a shaft",
+            "The depth of a hole, slot, or step",
+            "The flatness of a surface",
+            "The concentricity of two bores"
+          ],
+          "answer": "B",
+          "explanation": "A depth micrometer measures the depth of holes, slots, steps, and shoulders."
+        },
+        {
+          "num": 20,
+          "question": "A bilateral tolerance of plus or minus 0.010 inch on a 5.000 inch nominal dimension yields an acceptable maximum of:",
+          "choices": [
+            "4.990",
+            "5.000",
+            "5.010",
+            "5.020"
+          ],
+          "answer": "C",
+          "explanation": "5.000 plus 0.010 equals 5.010, the maximum acceptable value."
+        },
+        {
+          "num": 21,
+          "question": "A process exhibits seven consecutive points above the centerline on an X-bar chart. This pattern is called a:",
+          "choices": [
+            "Random pattern",
+            "Run (indicating a shift has occurred)",
+            "Cycle",
+            "Outlier only"
+          ],
+          "answer": "B",
+          "explanation": "Seven consecutive points on one side of the centerline is a run, signaling a likely process shift."
+        },
+        {
+          "num": 22,
+          "question": "The primary difference between Cp and Cpk is that Cpk accounts for:",
+          "choices": [
+            "Subgroup size",
+            "Process centering relative to the specification midpoint",
+            "Sample frequency",
+            "Number of operators"
+          ],
+          "answer": "B",
+          "explanation": "Cpk considers how centered the process is relative to the specification midpoint, while Cp only considers spread."
+        },
+        {
+          "num": 23,
+          "question": "A check sheet is used to:",
+          "choices": [
+            "Issue corrective actions",
+            "Systematically collect tally data about defects or events",
+            "Approve purchase orders",
+            "Calibrate instruments"
+          ],
+          "answer": "B",
+          "explanation": "Check sheets systematically tally the occurrence of defects or events."
+        },
+        {
+          "num": 24,
+          "question": "GD&T uses datums to:",
+          "choices": [
+            "Indicate material thickness",
+            "Establish a reference framework for measurement and inspection",
+            "Specify color",
+            "List part numbers"
+          ],
+          "answer": "B",
+          "explanation": "Datums establish the reference framework used for measurement and inspection."
+        },
+        {
+          "num": 25,
+          "question": "A histogram is most useful for:",
+          "choices": [
+            "Tracking time-ordered data",
+            "Displaying the distribution (shape, center, spread) of a set of measurements",
+            "Mapping process flow",
+            "Scheduling jobs"
+          ],
+          "answer": "B",
+          "explanation": "Histograms visualize the distribution (shape, center, spread) of measured data."
+        },
+        {
+          "num": 26,
+          "question": "A nonconformance is best defined as:",
+          "choices": [
+            "Any change to a work order",
+            "Any item, service, or activity that does not meet specified requirements",
+            "A worker arriving late",
+            "A scheduled PM task"
+          ],
+          "answer": "B",
+          "explanation": "A nonconformance is any item, service, or activity that fails to meet specified requirements."
+        },
+        {
+          "num": 27,
+          "question": "Kaoru Ishikawa is best known for developing:",
+          "choices": [
+            "The control chart",
+            "Quality circles and the fishbone cause-and-effect diagram",
+            "Mass production",
+            "Statistical hypothesis testing"
+          ],
+          "answer": "B",
+          "explanation": "Ishikawa developed the cause-and-effect (fishbone) diagram and promoted quality circles."
+        },
+        {
+          "num": 28,
+          "question": "An acceptance sampling plan defined by a sample size n and an acceptance number c means:",
+          "choices": [
+            "Accept the lot if more than c defects are found in n",
+            "Accept the lot if c or fewer defects are found in n",
+            "Inspect 100 percent of every lot",
+            "Only inspect the first piece"
+          ],
+          "answer": "B",
+          "explanation": "A sampling plan accepts the lot when defects are less than or equal to c in a sample of size n."
+        },
+        {
+          "num": 29,
+          "question": "A granite surface plate is commonly used as:",
+          "choices": [
+            "A cutting tool",
+            "A reference plane of high flatness for inspection and layout",
+            "A heating element",
+            "A lubricant reservoir"
+          ],
+          "answer": "B",
+          "explanation": "Granite surface plates provide a highly flat reference plane for inspection and layout work."
+        },
+        {
+          "num": 30,
+          "question": "Calibration intervals for a measuring instrument should be determined by:",
+          "choices": [
+            "The operator's preference",
+            "Manufacturer guidance, usage, stability, and risk of out-of-tolerance conditions",
+            "The color of the gauge",
+            "Always every 10 years"
+          ],
+          "answer": "B",
+          "explanation": "Intervals are set using manufacturer guidance, usage, historical stability, and risk of being out of tolerance."
+        },
+        {
+          "num": 31,
+          "question": "Grinding is primarily used to:",
+          "choices": [
+            "Remove large amounts of stock quickly",
+            "Produce high-accuracy, fine-finish surfaces using abrasive wheels",
+            "Cast metal into shape",
+            "Join parts by fusion"
+          ],
+          "answer": "B",
+          "explanation": "Grinding uses abrasive wheels to produce high-accuracy, fine-finish surfaces."
+        },
+        {
+          "num": 32,
+          "question": "In GTAW (TIG) welding, the electrode is:",
+          "choices": [
+            "Consumable steel wire fed automatically",
+            "A non-consumable tungsten electrode with shielding gas",
+            "A carbon rod dipped in flux",
+            "A copper-coated wire"
+          ],
+          "answer": "B",
+          "explanation": "GTAW uses a non-consumable tungsten electrode and inert shielding gas."
+        },
+        {
+          "num": 33,
+          "question": "The third S in 5S (Shine) includes:",
+          "choices": [
+            "Painting the building exterior only",
+            "Cleaning the workspace and equipment and inspecting for abnormalities during cleaning",
+            "Shining a flashlight into the machine",
+            "Replacing all light bulbs"
+          ],
+          "answer": "B",
+          "explanation": "Shine means cleaning the workspace and equipment while inspecting for abnormalities."
+        },
+        {
+          "num": 34,
+          "question": "Jidoka (autonomation) in the Toyota Production System means:",
+          "choices": [
+            "Full lights-out automation with no humans",
+            "Building in the ability for a machine or operator to stop the line when an abnormality is detected",
+            "Running equipment 24/7",
+            "Removing all inspection"
+          ],
+          "answer": "B",
+          "explanation": "Jidoka builds in the ability for a machine or operator to stop the line when an abnormality is detected."
+        },
+        {
+          "num": 35,
+          "question": "If a process has Availability 0.90, Performance 0.95, and Quality 0.98, the OEE is approximately:",
+          "choices": [
+            "0.78",
+            "0.84",
+            "0.90",
+            "0.95"
+          ],
+          "answer": "B",
+          "explanation": "OEE = 0.90 x 0.95 x 0.98 = 0.838, or about 0.84."
+        },
+        {
+          "num": 36,
+          "question": "A bottleneck operation is one that:",
+          "choices": [
+            "Always produces ahead of schedule",
+            "Limits the throughput of the overall system",
+            "Has the lowest labor cost",
+            "Has the most workers"
+          ],
+          "answer": "B",
+          "explanation": "A bottleneck limits the throughput of the overall system and paces the entire line."
+        },
+        {
+          "num": 37,
+          "question": "Of the eight wastes, Defects specifically refers to:",
+          "choices": [
+            "Any scrap, rework, or failed inspection that results in unusable work or rework",
+            "Machines running too fast",
+            "Excess employee headcount",
+            "Long training cycles"
+          ],
+          "answer": "A",
+          "explanation": "The Defects waste covers scrap, rework, and any failed product that must be reworked or discarded."
+        },
+        {
+          "num": 38,
+          "question": "Single-piece flow is characterized by:",
+          "choices": [
+            "Large batches moving between processes",
+            "A lot size of one moving continuously from operation to operation",
+            "No production schedule",
+            "Only machine-paced work"
+          ],
+          "answer": "B",
+          "explanation": "Single-piece flow moves a lot size of one continuously from operation to operation."
+        },
+        {
+          "num": 39,
+          "question": "A supermarket in lean manufacturing is:",
+          "choices": [
+            "A grocery store nearby",
+            "A controlled inventory of standard parts used to pull material through the value stream",
+            "An automated forklift",
+            "A type of packaging machine"
+          ],
+          "answer": "B",
+          "explanation": "A supermarket is a controlled standard-parts inventory used to pull material through the value stream."
+        },
+        {
+          "num": 40,
+          "question": "The andon system is primarily a:",
+          "choices": [
+            "Payroll tool",
+            "Visual signal system that alerts supervisors and support to abnormal conditions",
+            "Tooling crib",
+            "Forklift routing map"
+          ],
+          "answer": "B",
+          "explanation": "Andon is a visual signal system that alerts supervisors and support staff to abnormal conditions."
+        },
+        {
+          "num": 41,
+          "question": "Continuous improvement (kaizen) events typically last:",
+          "choices": [
+            "One hour or less",
+            "A few days to one week and focus on a specific problem area",
+            "Six months to a year",
+            "Ten years"
+          ],
+          "answer": "B",
+          "explanation": "Kaizen events typically run a few days to a week, focused on a specific area or problem."
+        },
+        {
+          "num": 42,
+          "question": "In additive manufacturing (3D printing), the process of fused deposition modeling (FDM) builds parts by:",
+          "choices": [
+            "Cutting material from a billet",
+            "Extruding molten thermoplastic layer by layer",
+            "Casting in a sand mold",
+            "Electroforming metal"
+          ],
+          "answer": "B",
+          "explanation": "FDM extrudes molten thermoplastic filament layer by layer to build a part."
+        },
+        {
+          "num": 43,
+          "question": "Which joining process uses heat and pressure without melting the base metal, typically for joining tubes and sheet metal with a filler metal having a melting point above 840 degrees F?",
+          "choices": [
+            "Brazing",
+            "Soldering",
+            "Arc welding",
+            "Riveting"
+          ],
+          "answer": "A",
+          "explanation": "Brazing joins with a filler metal whose melting point is above 840 degrees F without melting the base metal."
+        },
+        {
+          "num": 44,
+          "question": "A CMM (Coordinate Measuring Machine) is most often used in:",
+          "choices": [
+            "Welding structural steel",
+            "Dimensional inspection of complex geometric features",
+            "Painting automotive bodies",
+            "Plastic extrusion"
+          ],
+          "answer": "B",
+          "explanation": "CMMs perform dimensional inspection of complex geometric features."
+        },
+        {
+          "num": 45,
+          "question": "Standardized work combines takt time, work sequence, and:",
+          "choices": [
+            "Overtime pay rules",
+            "Standard work-in-process (the minimum WIP to keep the operation flowing)",
+            "Vacation schedules",
+            "Holiday calendars"
+          ],
+          "answer": "B",
+          "explanation": "Standardized work = takt time + work sequence + standard WIP."
+        },
+        {
+          "num": 46,
+          "question": "An infrared (IR) thermography survey of an electrical panel would typically identify:",
+          "choices": [
+            "The color of each wire",
+            "Hot spots due to loose connections or overloaded conductors",
+            "Incorrect breaker labeling",
+            "Cosmetic paint damage"
+          ],
+          "answer": "B",
+          "explanation": "IR thermography reveals hot spots due to loose connections, overloads, or imbalances in electrical systems."
+        },
+        {
+          "num": 47,
+          "question": "A tapered roller bearing is specifically designed to handle:",
+          "choices": [
+            "Radial loads only",
+            "Thrust loads only",
+            "Combined radial and thrust (axial) loads",
+            "Electrical loads"
+          ],
+          "answer": "C",
+          "explanation": "Tapered roller bearings handle combined radial and thrust loads."
+        },
+        {
+          "num": 48,
+          "question": "A worm gear set with a single-start worm meshing with a 40-tooth worm wheel yields a speed reduction of:",
+          "choices": [
+            "1 to 1",
+            "20 to 1",
+            "40 to 1",
+            "80 to 1"
+          ],
+          "answer": "C",
+          "explanation": "A single-start worm advances the wheel one tooth per revolution; with 40 teeth the reduction is 40 to 1."
+        },
+        {
+          "num": 49,
+          "question": "In a hydraulic system, a double-acting cylinder:",
+          "choices": [
+            "Extends only under fluid power and retracts by gravity or spring",
+            "Extends and retracts under fluid power applied alternately to each side of the piston",
+            "Has no piston",
+            "Operates on air only"
+          ],
+          "answer": "B",
+          "explanation": "A double-acting cylinder applies fluid power to both extension and retraction strokes."
+        },
+        {
+          "num": 50,
+          "question": "The purpose of a lubricator in a pneumatic FRL is to:",
+          "choices": [
+            "Remove water from the air",
+            "Introduce a fine mist of oil to lubricate downstream components",
+            "Filter particulates",
+            "Regulate pressure"
+          ],
+          "answer": "B",
+          "explanation": "The lubricator in an FRL introduces a fine oil mist to lubricate downstream air tools and valves."
+        },
+        {
+          "num": 51,
+          "question": "Power dissipated in a resistive load is calculated by:",
+          "choices": [
+            "P = V + I",
+            "P = V x I",
+            "P = V / I",
+            "P = V - I"
+          ],
+          "answer": "B",
+          "explanation": "Power equals Voltage times Current for a resistive load."
+        },
+        {
+          "num": 52,
+          "question": "A motor nameplate lists 10 HP, 230/460 V, 28/14 A. The amperage of 14 A applies when the motor is wired for:",
+          "choices": [
+            "230 V low voltage",
+            "460 V high voltage",
+            "DC operation",
+            "Single phase only"
+          ],
+          "answer": "B",
+          "explanation": "The lower current value applies at the higher voltage because power draw stays constant."
+        },
+        {
+          "num": 53,
+          "question": "A photoelectric sensor operating in retroreflective mode uses:",
+          "choices": [
+            "A single emitter and no target",
+            "An emitter-receiver pair aimed at a reflector; a target breaks the beam",
+            "A magnet",
+            "Radio waves"
+          ],
+          "answer": "B",
+          "explanation": "Retroreflective photoelectric sensors emit a beam to a reflector; an intervening target breaks the beam."
+        },
+        {
+          "num": 54,
+          "question": "A PLC output module type most suitable for switching a high-current AC motor contactor coil is a:",
+          "choices": [
+            "Low-voltage DC sourcing transistor",
+            "Relay output",
+            "Analog 4 to 20 mA output",
+            "Serial communications port"
+          ],
+          "answer": "B",
+          "explanation": "Relay outputs are best suited for switching higher-current AC contactor coils."
+        },
+        {
+          "num": 55,
+          "question": "Grease in a rolling-element bearing serves to:",
+          "choices": [
+            "Add weight to the machine",
+            "Lubricate the contact zones, seal out contaminants, and carry away heat",
+            "Reduce electrical conductivity only",
+            "Replace the bearing material"
+          ],
+          "answer": "B",
+          "explanation": "Grease lubricates the contact zones, seals out contaminants, and helps carry heat away."
+        },
+        {
+          "num": 56,
+          "question": "A coupling alignment check using a dial indicator or laser typically measures:",
+          "choices": [
+            "Only shaft run-out",
+            "Offset and angular misalignment between two coupled shafts",
+            "The color of the coupling",
+            "Pump discharge pressure"
+          ],
+          "answer": "B",
+          "explanation": "Alignment checks measure offset and angular misalignment between coupled shafts."
+        },
+        {
+          "num": 57,
+          "question": "Oil analysis of a gearbox sample reveals a high concentration of iron particles. This most likely indicates:",
+          "choices": [
+            "Normal operation",
+            "Wear of internal ferrous components such as gears or bearings",
+            "Water contamination only",
+            "Over-lubrication"
+          ],
+          "answer": "B",
+          "explanation": "High iron content indicates wear of ferrous internals such as gears, shafts, and bearings."
+        },
+        {
+          "num": 58,
+          "question": "A GFCI (ground fault circuit interrupter) protects personnel by:",
+          "choices": [
+            "Limiting maximum voltage",
+            "De-energizing a circuit when current leakage to ground exceeds about 5 milliamps",
+            "Increasing current capacity",
+            "Filtering harmonics"
+          ],
+          "answer": "B",
+          "explanation": "A GFCI opens the circuit when current imbalance between hot and neutral exceeds roughly 5 mA."
+        },
+        {
+          "num": 59,
+          "question": "A centrifugal pump is classified as a:",
+          "choices": [
+            "Positive displacement pump",
+            "Dynamic (kinetic) pump that imparts velocity to the fluid via an impeller",
+            "Gear pump",
+            "Piston pump"
+          ],
+          "answer": "B",
+          "explanation": "Centrifugal pumps are dynamic (kinetic) pumps; an impeller imparts velocity that is converted to pressure."
+        },
+        {
+          "num": 60,
+          "question": "When troubleshooting a control circuit, the FIRST step in a systematic approach is to:",
+          "choices": [
+            "Replace all components on the panel",
+            "Gather information, observe symptoms, and review documentation such as schematics",
+            "Energize every circuit simultaneously",
+            "Discard the PLC program"
+          ],
+          "answer": "B",
+          "explanation": "Systematic troubleshooting begins with gathering information, observing symptoms, and reviewing schematics."
+        }
+      ]
+    }
+  ]
+}

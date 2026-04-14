@@ -1,0 +1,2183 @@
+{
+  "slug": "journeyman-elec",
+  "title": "Journeyman Electrician Exam Study Guide",
+  "code": "ELEC-BDOD6-BTL4F",
+  "timeMinutes": 120,
+  "tests": [
+    {
+      "testNum": 1,
+      "questions": [
+        {
+          "num": 1,
+          "question": "A 240-volt circuit supplies a 4,800-watt resistive load. What is the current draw?",
+          "choices": [
+            "10 amps",
+            "20 amps",
+            "30 amps",
+            "40 amps"
+          ],
+          "answer": "B",
+          "explanation": "P = E x I; I = P / E = 4,800 / 240 = 20 amps. Ohm's law applied to power."
+        },
+        {
+          "num": 2,
+          "question": "What is the total resistance of three 30-ohm resistors connected in parallel?",
+          "choices": [
+            "90 ohms",
+            "30 ohms",
+            "10 ohms",
+            "15 ohms"
+          ],
+          "answer": "C",
+          "explanation": "Parallel resistance: 1/Rt = 1/30 + 1/30 + 1/30 = 3/30; Rt = 10 ohms."
+        },
+        {
+          "num": 3,
+          "question": "If voltage remains constant and resistance doubles, current will:",
+          "choices": [
+            "Double",
+            "Remain the same",
+            "Be cut in half",
+            "Quadruple"
+          ],
+          "answer": "C",
+          "explanation": "Ohm's law: I = E / R. If R doubles and E stays constant, I is halved."
+        },
+        {
+          "num": 4,
+          "question": "A circuit has a voltage of 120V and a current of 15A. What is the power consumed?",
+          "choices": [
+            "800 watts",
+            "1,800 watts",
+            "1,200 watts",
+            "2,400 watts"
+          ],
+          "answer": "B",
+          "explanation": "P = E x I = 120 x 15 = 1,800 watts."
+        },
+        {
+          "num": 5,
+          "question": "In a pure resistive AC circuit, the power factor is:",
+          "choices": [
+            "0",
+            "0.5",
+            "0.8",
+            "1.0"
+          ],
+          "answer": "D",
+          "explanation": "In a pure resistive circuit, voltage and current are in phase, so PF = 1.0."
+        },
+        {
+          "num": 6,
+          "question": "What is the unit of measurement for electrical conductance?",
+          "choices": [
+            "Ohm",
+            "Siemens",
+            "Henry",
+            "Farad"
+          ],
+          "answer": "B",
+          "explanation": "Siemens (S) is the SI unit for electrical conductance, the reciprocal of ohms."
+        },
+        {
+          "num": 7,
+          "question": "A conductor carries 10 amps and has a resistance of 0.5 ohms. What is the voltage drop across the conductor?",
+          "choices": [
+            "5 volts",
+            "10 volts",
+            "20 volts",
+            "50 volts"
+          ],
+          "answer": "A",
+          "explanation": "E = I x R = 10 x 0.5 = 5 volts."
+        },
+        {
+          "num": 8,
+          "question": "Which formula correctly expresses Ohm's law?",
+          "choices": [
+            "E = I x R",
+            "E = I / R",
+            "E = R / I",
+            "E = P x I"
+          ],
+          "answer": "A",
+          "explanation": "Ohm's law: E (voltage) = I (current) x R (resistance)."
+        },
+        {
+          "num": 9,
+          "question": "Two 12-volt batteries connected in series produce a total voltage of:",
+          "choices": [
+            "6 volts",
+            "12 volts",
+            "24 volts",
+            "48 volts"
+          ],
+          "answer": "C",
+          "explanation": "Batteries in series: total voltage = 12 + 12 = 24 volts."
+        },
+        {
+          "num": 10,
+          "question": "In a series circuit with three resistors of 10, 20, and 30 ohms, the total resistance is:",
+          "choices": [
+            "6 ohms",
+            "20 ohms",
+            "60 ohms",
+            "10 ohms"
+          ],
+          "answer": "C",
+          "explanation": "Series resistance: Rt = R1 + R2 + R3 = 10 + 20 + 30 = 60 ohms."
+        },
+        {
+          "num": 11,
+          "question": "Per NEC Article 210.8(A), GFCI protection is required in which of the following residential locations?",
+          "choices": [
+            "Bedrooms",
+            "Living rooms",
+            "Bathrooms",
+            "Hallways"
+          ],
+          "answer": "C",
+          "explanation": "NEC 210.8(A)(1) requires GFCI protection for all 125-volt, 15- and 20-amp receptacles in bathrooms."
+        },
+        {
+          "num": 12,
+          "question": "According to NEC 210.52(A), in a dwelling unit, no point along a wall line shall be more than ___ feet from a receptacle outlet.",
+          "choices": [
+            "4 feet",
+            "6 feet",
+            "8 feet",
+            "12 feet"
+          ],
+          "answer": "B",
+          "explanation": "NEC 210.52(A)(1) -- no point along the floor line of any wall space shall be more than 6 feet from a receptacle outlet."
+        },
+        {
+          "num": 13,
+          "question": "NEC Article 314.16 governs:",
+          "choices": [
+            "Box fill calculations",
+            "Conductor ampacity",
+            "Motor overload protection",
+            "Grounding electrode systems"
+          ],
+          "answer": "A",
+          "explanation": "NEC 314.16 provides the rules for calculating box fill based on conductor count and size."
+        },
+        {
+          "num": 14,
+          "question": "Per NEC 240.4(D), the maximum overcurrent protection for 14 AWG copper conductors is:",
+          "choices": [
+            "10 amps",
+            "15 amps",
+            "20 amps",
+            "30 amps"
+          ],
+          "answer": "B",
+          "explanation": "NEC 240.4(D)(3) -- 14 AWG copper: 15 amps maximum overcurrent protection."
+        },
+        {
+          "num": 15,
+          "question": "According to NEC Table 310.16, what is the ampacity of 8 AWG THWN copper conductor at 75 degrees C?",
+          "choices": [
+            "30 amps",
+            "40 amps",
+            "50 amps",
+            "55 amps"
+          ],
+          "answer": "C",
+          "explanation": "NEC Table 310.16 lists 8 AWG THWN copper at 50 amps at 75 degrees C column."
+        },
+        {
+          "num": 16,
+          "question": "NEC 250.66 requires that the grounding electrode conductor for a 500 kcmil copper service entrance conductor be no smaller than:",
+          "choices": [
+            "4 AWG copper",
+            "2 AWG copper",
+            "1/0 AWG copper",
+            "2/0 AWG copper"
+          ],
+          "answer": "C",
+          "explanation": "NEC Table 250.66 -- for service entrance conductors of 500 kcmil copper, the GEC must be at least 1/0 AWG copper."
+        },
+        {
+          "num": 17,
+          "question": "Per NEC 408.36, panelboards in other than dwelling units shall be provided with overcurrent protection having a rating of not greater than that of the:",
+          "choices": [
+            "Largest branch circuit breaker",
+            "Service entrance conductors",
+            "Panelboard busbars",
+            "Feeder conductors"
+          ],
+          "answer": "C",
+          "explanation": "NEC 408.36 requires overcurrent protection not greater than the rating of the panelboard busbars."
+        },
+        {
+          "num": 18,
+          "question": "According to NEC 210.11(C)(3), at least one 20-amp branch circuit is required for:",
+          "choices": [
+            "Bedroom receptacles",
+            "Bathroom receptacles",
+            "Hallway lighting",
+            "Garage receptacles"
+          ],
+          "answer": "B",
+          "explanation": "NEC 210.11(C)(3) requires at least one 20-amp branch circuit for bathroom receptacle outlets."
+        },
+        {
+          "num": 19,
+          "question": "NEC 300.5(A) requires that direct-buried UF cable under a residential driveway be installed at a minimum depth of:",
+          "choices": [
+            "6 inches",
+            "12 inches",
+            "18 inches",
+            "24 inches"
+          ],
+          "answer": "D",
+          "explanation": "NEC Table 300.5 requires UF cable under a one- or two-family dwelling driveway to be buried at least 24 inches."
+        },
+        {
+          "num": 20,
+          "question": "Per NEC Table 220.12, the general lighting load for a dwelling unit is calculated at ___ VA per square foot.",
+          "choices": [
+            "2",
+            "3",
+            "3.5",
+            "5"
+          ],
+          "answer": "B",
+          "explanation": "NEC Table 220.12 lists dwelling units at 3 VA per square foot for general lighting."
+        },
+        {
+          "num": 21,
+          "question": "EMT (electrical metallic tubing) is NOT permitted in which of the following locations?",
+          "choices": [
+            "Concealed in walls",
+            "Exposed in dry locations",
+            "Where subject to severe physical damage",
+            "Above suspended ceilings"
+          ],
+          "answer": "C",
+          "explanation": "NEC 358.12(1) -- EMT shall not be used where subject to severe physical damage."
+        },
+        {
+          "num": 22,
+          "question": "The maximum number of quarter bends (90 degrees) permitted between pull points for EMT is:",
+          "choices": [
+            "Two",
+            "Three",
+            "Four",
+            "Five"
+          ],
+          "answer": "C",
+          "explanation": "NEC 358.26 -- the total number of bends shall not exceed 360 degrees (four 90-degree bends) between pull points."
+        },
+        {
+          "num": 23,
+          "question": "Type NM cable (Romex) is permitted in which of the following?",
+          "choices": [
+            "One- and two-family dwellings",
+            "Commercial buildings over three stories",
+            "Hazardous locations",
+            "Embedded in poured concrete"
+          ],
+          "answer": "A",
+          "explanation": "NEC 334.10(1) -- Type NM cable is permitted in one- and two-family dwellings and their garages/storage buildings."
+        },
+        {
+          "num": 24,
+          "question": "When determining conduit fill, the maximum permitted fill for three or more conductors in a raceway is:",
+          "choices": [
+            "25%",
+            "31%",
+            "40%",
+            "53%"
+          ],
+          "answer": "C",
+          "explanation": "NEC Table 1, Chapter 9 -- three or more conductors: 40% fill maximum."
+        },
+        {
+          "num": 25,
+          "question": "Flexible metal conduit (FMC) must be secured within ___ inches of each outlet box or fitting.",
+          "choices": [
+            "6 inches",
+            "8 inches",
+            "12 inches",
+            "18 inches"
+          ],
+          "answer": "C",
+          "explanation": "NEC 348.30(A) -- FMC shall be securely fastened within 12 inches of each box, cabinet, or fitting."
+        },
+        {
+          "num": 26,
+          "question": "What is the minimum bending radius for trade size 1-inch EMT?",
+          "choices": [
+            "4 inches",
+            "6 inches",
+            "8 inches",
+            "10 inches"
+          ],
+          "answer": "B",
+          "explanation": "NEC Table 344.24 (similar dimensions apply to EMT per 358.24) -- 1-inch trade size has a minimum bending radius of 6 inches."
+        },
+        {
+          "num": 27,
+          "question": "MC cable (metal-clad cable) must be supported at intervals not exceeding:",
+          "choices": [
+            "4 feet",
+            "4.5 feet",
+            "6 feet",
+            "8 feet"
+          ],
+          "answer": "C",
+          "explanation": "NEC 330.30(B) -- MC cable shall be supported at intervals not exceeding 6 feet."
+        },
+        {
+          "num": 28,
+          "question": "Liquidtight flexible nonmetallic conduit (LFNC) is permitted in lengths not exceeding ___ feet when used for flexibility at equipment.",
+          "choices": [
+            "3 feet",
+            "4 feet",
+            "6 feet",
+            "10 feet"
+          ],
+          "answer": "C",
+          "explanation": "NEC 356.10(7) -- LFNC is permitted in lengths not exceeding 6 feet where flexibility is necessary."
+        },
+        {
+          "num": 29,
+          "question": "Per NEC 312.6(A), conductors entering an enclosure shall not fill the wiring space at any cross section to more than ___ percent.",
+          "choices": [
+            "25",
+            "40",
+            "53",
+            "75"
+          ],
+          "answer": "B",
+          "explanation": "NEC 312.6(A) -- conductors shall not fill the wiring space at any cross section to more than 40%."
+        },
+        {
+          "num": 30,
+          "question": "PVC conduit schedule 80 is required when the conduit is:",
+          "choices": [
+            "Installed underground",
+            "Exposed to direct sunlight",
+            "Subject to physical damage",
+            "Used in wet locations"
+          ],
+          "answer": "C",
+          "explanation": "NEC 352.10(F) -- Schedule 80 PVC is required where subject to physical damage."
+        },
+        {
+          "num": 31,
+          "question": "A 2,000 square foot dwelling unit has a general lighting load of:",
+          "choices": [
+            "4,000 VA",
+            "6,000 VA",
+            "7,000 VA",
+            "10,000 VA"
+          ],
+          "answer": "B",
+          "explanation": "NEC Table 220.12: 2,000 sq ft x 3 VA/sq ft = 6,000 VA."
+        },
+        {
+          "num": 32,
+          "question": "Per NEC Table 220.42, the demand factor for the first 3,000 VA of general lighting in a dwelling is:",
+          "choices": [
+            "75%",
+            "100%",
+            "35%",
+            "50%"
+          ],
+          "answer": "B",
+          "explanation": "NEC Table 220.42 -- the first 3,000 VA of general lighting load is at 100% demand."
+        },
+        {
+          "num": 33,
+          "question": "A commercial kitchen has four pieces of cooking equipment rated at 5 kW each. Using NEC Table 220.56, the demand factor for four units is 65%. What is the demand load?",
+          "choices": [
+            "10,000 watts",
+            "13,000 watts",
+            "15,000 watts",
+            "20,000 watts"
+          ],
+          "answer": "B",
+          "explanation": "4 units x 5,000 W = 20,000 W x 65% demand factor = 13,000 watts per NEC Table 220.56."
+        },
+        {
+          "num": 34,
+          "question": "What is the demand load for a 5,500-watt residential clothes dryer per NEC 220.54?",
+          "choices": [
+            "4,125 watts",
+            "4,400 watts",
+            "5,000 watts",
+            "5,500 watts"
+          ],
+          "answer": "D",
+          "explanation": "NEC 220.54 -- a single dryer rated 5,500 W uses 5,000 W minimum or nameplate rating, whichever is larger: 5,500 W."
+        },
+        {
+          "num": 35,
+          "question": "A 200-amp, 120/240-volt single-phase service has a total calculated load of 38,400 VA. What is the service load in amps?",
+          "choices": [
+            "160 amps",
+            "170 amps",
+            "180 amps",
+            "200 amps"
+          ],
+          "answer": "A",
+          "explanation": "I = VA / E = 38,400 / 240 = 160 amps."
+        },
+        {
+          "num": 36,
+          "question": "Per NEC 220.82, the optional calculation method allows the first 10 kVA of general loads at 100% and the remainder at:",
+          "choices": [
+            "25%",
+            "35%",
+            "40%",
+            "50%"
+          ],
+          "answer": "C",
+          "explanation": "NEC 220.82(B) -- the optional method: first 10 kVA at 100%, remainder at 40%."
+        },
+        {
+          "num": 37,
+          "question": "A single-family dwelling has a 12 kW electric range. Per NEC Table 220.55, Column C, the demand load for one range not exceeding 12 kW is:",
+          "choices": [
+            "6 kW",
+            "8 kW",
+            "10 kW",
+            "12 kW"
+          ],
+          "answer": "B",
+          "explanation": "NEC Table 220.55, Column C -- one range not over 12 kW: maximum demand 8 kW."
+        },
+        {
+          "num": 38,
+          "question": "What is the NEC-required minimum VA per small appliance branch circuit in a dwelling unit?",
+          "choices": [
+            "1,200 VA",
+            "1,500 VA",
+            "1,800 VA",
+            "2,000 VA"
+          ],
+          "answer": "B",
+          "explanation": "NEC 210.11(C)(1) -- each small appliance branch circuit is rated at 1,500 VA."
+        },
+        {
+          "num": 39,
+          "question": "The minimum number of 20-amp small appliance branch circuits required for a dwelling kitchen is:",
+          "choices": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "answer": "B",
+          "explanation": "NEC 210.11(C)(1) requires a minimum of two 20-amp small appliance branch circuits."
+        },
+        {
+          "num": 40,
+          "question": "A commercial building has a continuous lighting load of 50 amps. The overcurrent device must be rated at a minimum of:",
+          "choices": [
+            "50 amps",
+            "56.25 amps",
+            "62.5 amps",
+            "75 amps"
+          ],
+          "answer": "C",
+          "explanation": "NEC 210.20(A) -- continuous loads require 125% sizing: 50 x 1.25 = 62.5 amps."
+        },
+        {
+          "num": 41,
+          "question": "Per NEC 250.122, the minimum equipment grounding conductor for a 60-amp circuit is:",
+          "choices": [
+            "14 AWG copper",
+            "12 AWG copper",
+            "10 AWG copper",
+            "8 AWG copper"
+          ],
+          "answer": "C",
+          "explanation": "NEC Table 250.122 -- for a 60-amp circuit the minimum EGC is 10 AWG copper."
+        },
+        {
+          "num": 42,
+          "question": "The purpose of bonding is to:",
+          "choices": [
+            "Limit voltage on equipment enclosures",
+            "Increase circuit capacity",
+            "Reduce voltage drop",
+            "Provide surge protection"
+          ],
+          "answer": "A",
+          "explanation": "NEC 250.4(A)(3) -- bonding limits the voltage imposed on equipment enclosures during a fault."
+        },
+        {
+          "num": 43,
+          "question": "Per NEC 250.50, which of the following is required as a grounding electrode when present at a building?",
+          "choices": [
+            "Metal underground water pipe",
+            "Plastic underground gas pipe",
+            "Copper telephone cable",
+            "Above-ground metal water pipe"
+          ],
+          "answer": "A",
+          "explanation": "NEC 250.50/250.52(A)(1) -- a metal underground water pipe in contact with the earth for 10 feet or more is a required grounding electrode."
+        },
+        {
+          "num": 44,
+          "question": "The connection between the grounded conductor and the equipment grounding conductor at the service is called the:",
+          "choices": [
+            "Bonding jumper",
+            "Grounding electrode",
+            "Main bonding jumper",
+            "Equipment bonding conductor"
+          ],
+          "answer": "C",
+          "explanation": "NEC 250.24(B)/250.28 -- the main bonding jumper connects the grounded conductor to the equipment ground at the service."
+        },
+        {
+          "num": 45,
+          "question": "Per NEC 250.52(A)(3), a concrete-encased electrode (Ufer ground) must contain at least ___ feet of bare 4 AWG copper conductor.",
+          "choices": [
+            "10 feet",
+            "20 feet",
+            "25 feet",
+            "30 feet"
+          ],
+          "answer": "B",
+          "explanation": "NEC 250.52(A)(3) -- concrete-encased electrode: minimum 20 feet of bare 4 AWG copper."
+        },
+        {
+          "num": 46,
+          "question": "The grounding electrode conductor shall be connected to the grounding electrode by:",
+          "choices": [
+            "Solder connections only",
+            "Approved clamps, exothermic welding, or listed connectors",
+            "Wire nuts",
+            "Compression splices only"
+          ],
+          "answer": "B",
+          "explanation": "NEC 250.70 -- connections to grounding electrodes shall be made by approved clamps, exothermic welding, or listed connectors."
+        },
+        {
+          "num": 47,
+          "question": "Per NEC 250.118, which of the following is NOT an acceptable equipment grounding conductor?",
+          "choices": [
+            "Copper conductor",
+            "Rigid metal conduit",
+            "Electrical metallic tubing",
+            "Standard flexible metal conduit over 6 feet"
+          ],
+          "answer": "D",
+          "explanation": "NEC 250.118(5) -- listed FMC is acceptable as an EGC only where the length does not exceed 6 feet."
+        },
+        {
+          "num": 48,
+          "question": "Per NEC 430.52, the maximum branch-circuit short-circuit and ground-fault protective device for a continuous-duty AC motor using an inverse-time circuit breaker is ___ percent of the motor FLC.",
+          "choices": [
+            "125%",
+            "150%",
+            "175%",
+            "250%"
+          ],
+          "answer": "D",
+          "explanation": "NEC Table 430.52 -- inverse-time breaker for AC motor: 250% of motor FLC maximum."
+        },
+        {
+          "num": 49,
+          "question": "Per NEC Table 430.248, the full-load current of a 5 HP, 230-volt, single-phase motor is:",
+          "choices": [
+            "15.2 amps",
+            "28 amps",
+            "40 amps",
+            "56 amps"
+          ],
+          "answer": "B",
+          "explanation": "NEC Table 430.248 -- 5 HP, 230V, single-phase motor FLC = 28 amps."
+        },
+        {
+          "num": 50,
+          "question": "Motor branch-circuit conductors must have an ampacity of not less than ___ percent of the motor full-load current.",
+          "choices": [
+            "80%",
+            "100%",
+            "115%",
+            "125%"
+          ],
+          "answer": "D",
+          "explanation": "NEC 430.22(A) -- branch-circuit conductors must be at least 125% of motor FLC."
+        },
+        {
+          "num": 51,
+          "question": "When sizing the overload protection for a motor, NEC 430.32 requires the overload device to trip at not more than ___ percent of the motor nameplate FLA for motors with a service factor of 1.15 or greater.",
+          "choices": [
+            "115%",
+            "125%",
+            "130%",
+            "140%"
+          ],
+          "answer": "B",
+          "explanation": "NEC 430.32(A)(1) -- overload device trips at not more than 125% of nameplate FLA for motors with SF >= 1.15."
+        },
+        {
+          "num": 52,
+          "question": "A motor disconnect must be within sight of the motor and be rated at least ___ percent of the motor full-load current.",
+          "choices": [
+            "100%",
+            "110%",
+            "115%",
+            "125%"
+          ],
+          "answer": "C",
+          "explanation": "NEC 430.110(A) -- the disconnecting means must be rated at least 115% of the motor FLC."
+        },
+        {
+          "num": 53,
+          "question": "Per NEC 430.24, conductors supplying two or more motors shall have an ampacity not less than ___ percent of the largest motor FLC plus the sum of the remaining motor FLCs.",
+          "choices": [
+            "100%",
+            "115%",
+            "125%",
+            "150%"
+          ],
+          "answer": "C",
+          "explanation": "NEC 430.24 -- 125% of the largest motor FLC plus the sum of the FLC of all other motors."
+        },
+        {
+          "num": 54,
+          "question": "A GFCI device is designed to trip when ground-fault current exceeds:",
+          "choices": [
+            "4 to 6 milliamps",
+            "15 milliamps",
+            "20 milliamps",
+            "30 milliamps"
+          ],
+          "answer": "A",
+          "explanation": "NEC 210.8 / UL 943 -- GFCI devices trip at 4 to 6 milliamps of ground-fault current."
+        },
+        {
+          "num": 55,
+          "question": "Per NEC 680.26, the equipotential bonding grid for a permanently installed swimming pool must extend ___ feet horizontally beyond the inside walls of the pool.",
+          "choices": [
+            "1 foot",
+            "2 feet",
+            "3 feet",
+            "5 feet"
+          ],
+          "answer": "C",
+          "explanation": "NEC 680.26(B)(2) -- the bonding grid extends 3 feet horizontally beyond the inside walls of the pool."
+        },
+        {
+          "num": 56,
+          "question": "NEC Article 517 covers electrical installations in:",
+          "choices": [
+            "Theaters",
+            "Healthcare facilities",
+            "Hazardous locations",
+            "Swimming pools"
+          ],
+          "answer": "B",
+          "explanation": "NEC Article 517 covers electrical installations in healthcare facilities."
+        },
+        {
+          "num": 57,
+          "question": "Arc-fault circuit interrupter (AFCI) protection is required in which of the following dwelling rooms per NEC 210.12(A)?",
+          "choices": [
+            "Bathrooms",
+            "Kitchens",
+            "Bedrooms",
+            "Garages"
+          ],
+          "answer": "C",
+          "explanation": "NEC 210.12(A) lists bedrooms among the rooms requiring AFCI protection in dwelling units."
+        },
+        {
+          "num": 58,
+          "question": "Per NEC 422.11(E)(3), the branch-circuit rating for a household electric range rated at 8-3/4 kW or more shall be not less than:",
+          "choices": [
+            "30 amps",
+            "40 amps",
+            "50 amps",
+            "60 amps"
+          ],
+          "answer": "B",
+          "explanation": "NEC 422.11(E)(3) -- household ranges rated 8-3/4 kW or more: minimum 40-amp branch circuit."
+        },
+        {
+          "num": 59,
+          "question": "NEC 410.116(B) requires that recessed luminaires installed in insulated ceilings be rated as:",
+          "choices": [
+            "Damp location",
+            "Wet location",
+            "IC-rated",
+            "Explosion-proof"
+          ],
+          "answer": "C",
+          "explanation": "NEC 410.116(B) -- recessed luminaires in contact with insulation must be IC-rated (insulation contact)."
+        },
+        {
+          "num": 60,
+          "question": "Per NEC 424.3(B), fixed electric space-heating equipment shall be considered a ___ load.",
+          "choices": [
+            "Non-continuous",
+            "Intermittent",
+            "Continuous",
+            "Variable"
+          ],
+          "answer": "C",
+          "explanation": "NEC 424.3(B) -- fixed electric space-heating equipment shall be considered a continuous load."
+        }
+      ]
+    },
+    {
+      "testNum": 2,
+      "questions": [
+        {
+          "num": 1,
+          "question": "A 120-volt circuit has a resistance of 8 ohms. What is the current?",
+          "choices": [
+            "8 amps",
+            "12 amps",
+            "15 amps",
+            "16 amps"
+          ],
+          "answer": "C",
+          "explanation": "I = E / R = 120 / 8 = 15 amps. Ohm's law."
+        },
+        {
+          "num": 2,
+          "question": "What is the total capacitance of two 20-microfarad capacitors connected in series?",
+          "choices": [
+            "40 microfarads",
+            "20 microfarads",
+            "10 microfarads",
+            "5 microfarads"
+          ],
+          "answer": "C",
+          "explanation": "Series capacitance: 1/Ct = 1/20 + 1/20 = 2/20; Ct = 10 microfarads."
+        },
+        {
+          "num": 3,
+          "question": "A 10 HP motor operates at 85% efficiency. What is the input power in watts? (1 HP = 746 watts)",
+          "choices": [
+            "6,341 watts",
+            "7,460 watts",
+            "8,353 watts",
+            "8,776 watts"
+          ],
+          "answer": "D",
+          "explanation": "Input = Output / Efficiency = (10 x 746) / 0.85 = 8,776 watts."
+        },
+        {
+          "num": 4,
+          "question": "In an AC circuit, apparent power is measured in:",
+          "choices": [
+            "Watts",
+            "Volt-amps",
+            "Volt-amps reactive",
+            "Kilowatt-hours"
+          ],
+          "answer": "B",
+          "explanation": "Apparent power = voltage x current and is measured in volt-amps (VA)."
+        },
+        {
+          "num": 5,
+          "question": "What is the frequency of a four-pole generator turning at 1,800 RPM?",
+          "choices": [
+            "30 Hz",
+            "60 Hz",
+            "90 Hz",
+            "120 Hz"
+          ],
+          "answer": "B",
+          "explanation": "f = (P x RPM) / 120 = (4 x 1800) / 120 = 60 Hz."
+        },
+        {
+          "num": 6,
+          "question": "If 15 amps flows through a 4-ohm resistor, how much power is dissipated?",
+          "choices": [
+            "60 watts",
+            "225 watts",
+            "900 watts",
+            "3,600 watts"
+          ],
+          "answer": "C",
+          "explanation": "P = I^2 x R = 15^2 x 4 = 225 x 4 = 900 watts."
+        },
+        {
+          "num": 7,
+          "question": "A transformer has a turns ratio of 10:1. If the primary voltage is 4,800 volts, the secondary voltage is:",
+          "choices": [
+            "48 volts",
+            "240 volts",
+            "480 volts",
+            "4,800 volts"
+          ],
+          "answer": "C",
+          "explanation": "Secondary voltage = Primary / turns ratio = 4,800 / 10 = 480 volts."
+        },
+        {
+          "num": 8,
+          "question": "Three 60-ohm resistors connected in parallel have an equivalent resistance of:",
+          "choices": [
+            "20 ohms",
+            "60 ohms",
+            "120 ohms",
+            "180 ohms"
+          ],
+          "answer": "A",
+          "explanation": "Parallel: 1/Rt = 1/60 + 1/60 + 1/60 = 3/60; Rt = 20 ohms."
+        },
+        {
+          "num": 9,
+          "question": "The power factor in an inductive circuit can be improved by adding:",
+          "choices": [
+            "More inductance",
+            "More resistance",
+            "Capacitance",
+            "A transformer"
+          ],
+          "answer": "C",
+          "explanation": "Capacitance opposes inductance, improving the power factor in an inductive circuit."
+        },
+        {
+          "num": 10,
+          "question": "In a 3-phase system, the line voltage is 1.732 (square root of 3) times the phase voltage in which configuration?",
+          "choices": [
+            "Delta",
+            "Wye",
+            "Open delta",
+            "Scott-T"
+          ],
+          "answer": "B",
+          "explanation": "In a wye configuration, V-line = 1.732 x V-phase."
+        },
+        {
+          "num": 11,
+          "question": "Per NEC 210.8(A), GFCI protection is required for 125-volt, 15- and 20-amp receptacles in dwelling unit:",
+          "choices": [
+            "Closets",
+            "Bedrooms",
+            "Kitchens serving countertops",
+            "Living rooms"
+          ],
+          "answer": "C",
+          "explanation": "NEC 210.8(A)(6) -- GFCI protection is required for receptacles serving dwelling kitchen countertops."
+        },
+        {
+          "num": 12,
+          "question": "NEC 230.79 requires the minimum service rating for a single-family dwelling to be:",
+          "choices": [
+            "60 amps",
+            "100 amps",
+            "150 amps",
+            "200 amps"
+          ],
+          "answer": "B",
+          "explanation": "NEC 230.79(C) -- minimum 100-amp service for a single-family dwelling."
+        },
+        {
+          "num": 13,
+          "question": "Per NEC Table 110.26(A)(1), the minimum clear working space in front of electrical equipment rated 120-277 volts (Condition 1) is:",
+          "choices": [
+            "2 feet",
+            "3 feet",
+            "3.5 feet",
+            "4 feet"
+          ],
+          "answer": "B",
+          "explanation": "NEC Table 110.26(A)(1) -- Condition 1, 120-277V: minimum 3 feet of clear working space."
+        },
+        {
+          "num": 14,
+          "question": "NEC 240.4(D) states that 12 AWG copper conductors shall be protected at not more than:",
+          "choices": [
+            "15 amps",
+            "20 amps",
+            "25 amps",
+            "30 amps"
+          ],
+          "answer": "B",
+          "explanation": "NEC 240.4(D)(5) -- 12 AWG copper: 20 amps maximum overcurrent protection."
+        },
+        {
+          "num": 15,
+          "question": "Per NEC 210.52(C)(1), countertop receptacles in a dwelling kitchen must be installed so that no point along the wall line is more than ___ inches from a receptacle.",
+          "choices": [
+            "12 inches",
+            "18 inches",
+            "24 inches",
+            "36 inches"
+          ],
+          "answer": "C",
+          "explanation": "NEC 210.52(C)(1) -- no point along the countertop wall line shall be more than 24 inches (2 feet) from a receptacle."
+        },
+        {
+          "num": 16,
+          "question": "NEC 110.14(C)(1) requires that terminations and conductors for circuits rated 100 amps or less be rated for:",
+          "choices": [
+            "60 degrees C",
+            "75 degrees C",
+            "90 degrees C",
+            "Either 60 or 75 degrees C"
+          ],
+          "answer": "D",
+          "explanation": "NEC 110.14(C)(1) -- circuits 100A or less: terminations rated for 60 or 75 degrees C (use lower for ampacity)."
+        },
+        {
+          "num": 17,
+          "question": "Per NEC 230.70(A)(1), the service disconnecting means shall be installed at a:",
+          "choices": [
+            "Readily accessible outdoor location only",
+            "Readily accessible location nearest the point of service entrance",
+            "Main distribution panel only",
+            "Location approved by the AHJ only"
+          ],
+          "answer": "B",
+          "explanation": "NEC 230.70(A)(1) -- the service disconnect must be installed at a readily accessible location nearest the point of entrance of service conductors."
+        },
+        {
+          "num": 18,
+          "question": "NEC 408.40 requires individual grounding terminal bars in panelboards to be:",
+          "choices": [
+            "Connected to the neutral bar",
+            "Bonded to the enclosure",
+            "Insulated from the enclosure",
+            "Soldered to the enclosure"
+          ],
+          "answer": "B",
+          "explanation": "NEC 408.40 -- equipment grounding terminal bars in panelboards shall be bonded to the cabinet or enclosure."
+        },
+        {
+          "num": 19,
+          "question": "Per NEC 210.52(E)(1), a dwelling unit requires at least one receptacle outlet for the:",
+          "choices": [
+            "Attic",
+            "Outdoor (front and back)",
+            "Crawl space",
+            "Basement stairway"
+          ],
+          "answer": "B",
+          "explanation": "NEC 210.52(E)(1) -- outdoor receptacles: at least one front and one back, accessible at grade level."
+        },
+        {
+          "num": 20,
+          "question": "NEC 404.14(B)(1) requires that snap switches controlling inductive loads rated more than 80% of the switch rating be rated for:",
+          "choices": [
+            "AC only",
+            "DC only",
+            "T-rated",
+            "HP-rated"
+          ],
+          "answer": "C",
+          "explanation": "NEC 404.14(B)(1) -- AC general-use snap switches on inductive loads above 80% must be T-rated."
+        },
+        {
+          "num": 21,
+          "question": "Type AC cable (armored cable) shall be secured at intervals not exceeding:",
+          "choices": [
+            "3 feet",
+            "4 feet",
+            "4.5 feet",
+            "6 feet"
+          ],
+          "answer": "C",
+          "explanation": "NEC 320.30(B) -- Type AC cable shall be secured at intervals not exceeding 4.5 feet."
+        },
+        {
+          "num": 22,
+          "question": "Per NEC 334.80, the ampacity of NM cable shall be determined after applying the adjustment factors of NEC 310.15(B)(3)(a) when more than ___ current-carrying conductors are bundled.",
+          "choices": [
+            "2",
+            "3",
+            "4",
+            "6"
+          ],
+          "answer": "A",
+          "explanation": "NEC 334.80 -- adjustment factors apply when more than 2 NM cables (containing 2 or more current-carrying conductors) pass through the same opening."
+        },
+        {
+          "num": 23,
+          "question": "Rigid metal conduit (RMC) must be supported at intervals not exceeding:",
+          "choices": [
+            "6 feet",
+            "8 feet",
+            "10 feet",
+            "12 feet"
+          ],
+          "answer": "C",
+          "explanation": "NEC 344.30(B)(2) -- RMC shall be supported at intervals not exceeding 10 feet."
+        },
+        {
+          "num": 24,
+          "question": "Per NEC Chapter 9, Table 1, what is the maximum conduit fill percentage for one conductor?",
+          "choices": [
+            "31%",
+            "40%",
+            "53%",
+            "60%"
+          ],
+          "answer": "C",
+          "explanation": "NEC Chapter 9, Table 1 -- one conductor: 53% fill maximum."
+        },
+        {
+          "num": 25,
+          "question": "When running NM cable through holes in wooden studs, the edge of the hole must be at least ___ inch(es) from the nearest edge of the stud.",
+          "choices": [
+            "3/4 inch",
+            "1 inch",
+            "1-1/4 inches",
+            "1-1/2 inches"
+          ],
+          "answer": "C",
+          "explanation": "NEC 334.108 -- holes in wood framing must be 1-1/4 inches from the nearest edge of the stud."
+        },
+        {
+          "num": 26,
+          "question": "Intermediate metal conduit (IMC) is permitted in:",
+          "choices": [
+            "Hazardous locations only",
+            "All atmospheric conditions and occupancies",
+            "Dry locations only",
+            "Indoor locations only"
+          ],
+          "answer": "B",
+          "explanation": "NEC 342.10 -- IMC is permitted in all atmospheric conditions and occupancies."
+        },
+        {
+          "num": 27,
+          "question": "Per NEC 376.22(B), the maximum number of conductors in a wireways shall not exceed ___ percent of the interior cross-sectional area.",
+          "choices": [
+            "20%",
+            "30%",
+            "40%",
+            "50%"
+          ],
+          "answer": "A",
+          "explanation": "NEC 376.22(B) -- conductors shall not exceed 20% of the interior cross-sectional area of a wireway for splicing."
+        },
+        {
+          "num": 28,
+          "question": "Type UF cable installed as a substitute for NM cable must comply with all provisions of NEC Article:",
+          "choices": [
+            "330",
+            "334",
+            "340",
+            "342"
+          ],
+          "answer": "B",
+          "explanation": "NEC 340.10(4) -- when Type UF cable is used as a substitute for NM cable it must comply with Article 334."
+        },
+        {
+          "num": 29,
+          "question": "Per NEC 314.16(B)(1), each 14 AWG conductor in a box fill calculation counts as ___ cubic inches.",
+          "choices": [
+            "1.75",
+            "2.00",
+            "2.25",
+            "2.50"
+          ],
+          "answer": "B",
+          "explanation": "NEC Table 314.16(B) -- each 14 AWG conductor counts as 2.00 cubic inches."
+        },
+        {
+          "num": 30,
+          "question": "NEC 334.15(B) requires that NM cable installed in accessible attics be protected by guard strips when run across the top of floor joists within ___ feet of the attic access.",
+          "choices": [
+            "4 feet",
+            "6 feet",
+            "8 feet",
+            "10 feet"
+          ],
+          "answer": "B",
+          "explanation": "NEC 334.23 -- NM cable in accessible attics: guard strips required within 6 feet of the scuttle hole or access opening."
+        },
+        {
+          "num": 31,
+          "question": "A 3,000 square foot dwelling unit has a general lighting load of:",
+          "choices": [
+            "6,000 VA",
+            "9,000 VA",
+            "10,500 VA",
+            "15,000 VA"
+          ],
+          "answer": "B",
+          "explanation": "NEC Table 220.12: 3,000 sq ft x 3 VA/sq ft = 9,000 VA."
+        },
+        {
+          "num": 32,
+          "question": "Per NEC 220.14(J), each dwelling unit receptacle outlet is calculated at:",
+          "choices": [
+            "90 VA",
+            "120 VA",
+            "180 VA",
+            "200 VA"
+          ],
+          "answer": "C",
+          "explanation": "NEC 220.14(J) -- each general-use receptacle outlet: 180 VA."
+        },
+        {
+          "num": 33,
+          "question": "A 10 kW, 240-volt single-phase electric water heater draws how many amps?",
+          "choices": [
+            "20.8 amps",
+            "41.7 amps",
+            "50 amps",
+            "83.3 amps"
+          ],
+          "answer": "B",
+          "explanation": "I = P / E = 10,000 / 240 = 41.7 amps."
+        },
+        {
+          "num": 34,
+          "question": "Per NEC 220.54, the demand load for five residential clothes dryers each rated at 5 kW is calculated using the nameplate rating times a demand factor from Table 220.54. For 5 dryers the demand factor is:",
+          "choices": [
+            "75%",
+            "80%",
+            "85%",
+            "100%"
+          ],
+          "answer": "B",
+          "explanation": "NEC Table 220.54 -- for 5 dryers the demand factor is 80%."
+        },
+        {
+          "num": 35,
+          "question": "A 120/208-volt, 3-phase panel has a total connected load of 36,000 VA. What is the per-phase current?",
+          "choices": [
+            "57.7 amps",
+            "86.6 amps",
+            "100 amps",
+            "173.2 amps"
+          ],
+          "answer": "C",
+          "explanation": "I = VA / (E x 1.732) = 36,000 / (208 x 1.732) = 36,000 / 360.3 = 99.9 amps, rounded to 100 amps."
+        },
+        {
+          "num": 36,
+          "question": "For a multifamily dwelling with 10 units, NEC Table 220.42 permits a demand factor of ___ for general lighting loads beyond 120,000 VA.",
+          "choices": [
+            "10%",
+            "20%",
+            "25%",
+            "35%"
+          ],
+          "answer": "C",
+          "explanation": "NEC Table 220.42 -- over 120,000 VA: 25% demand factor for general lighting in multifamily dwellings."
+        },
+        {
+          "num": 37,
+          "question": "A commercial building has 15,000 square feet of office space. Per NEC Table 220.12, the lighting load is ___ VA per square foot for office buildings.",
+          "choices": [
+            "1.5",
+            "2",
+            "3.5",
+            "5"
+          ],
+          "answer": "C",
+          "explanation": "NEC Table 220.12 -- office buildings: 3.5 VA per square foot."
+        },
+        {
+          "num": 38,
+          "question": "NEC 220.61 allows a demand factor of ___ percent for the neutral load of a dryer.",
+          "choices": [
+            "50%",
+            "60%",
+            "70%",
+            "100%"
+          ],
+          "answer": "C",
+          "explanation": "NEC 220.61(B) -- 70% demand factor for the neutral load of an electric range, dryer, and similar loads."
+        },
+        {
+          "num": 39,
+          "question": "The NEC-required laundry circuit load for a dwelling unit calculation is:",
+          "choices": [
+            "1,000 VA",
+            "1,200 VA",
+            "1,500 VA",
+            "1,800 VA"
+          ],
+          "answer": "C",
+          "explanation": "NEC 220.52(B) -- laundry branch circuit load: 1,500 VA."
+        },
+        {
+          "num": 40,
+          "question": "A 150-amp feeder supplies a continuous load. The minimum conductor ampacity required is:",
+          "choices": [
+            "150 amps",
+            "168.75 amps",
+            "187.5 amps",
+            "200 amps"
+          ],
+          "answer": "C",
+          "explanation": "NEC 215.2(A)(1) / 210.20(A) -- continuous loads: 150 x 1.25 = 187.5 amps minimum conductor ampacity."
+        },
+        {
+          "num": 41,
+          "question": "Per NEC Table 250.66, the grounding electrode conductor for a 2/0 AWG copper service entrance conductor is:",
+          "choices": [
+            "8 AWG copper",
+            "6 AWG copper",
+            "4 AWG copper",
+            "2 AWG copper"
+          ],
+          "answer": "C",
+          "explanation": "NEC Table 250.66 -- for 2/0 AWG copper service entrance conductors, the GEC is 4 AWG copper."
+        },
+        {
+          "num": 42,
+          "question": "NEC 250.30(A) covers grounding of:",
+          "choices": [
+            "Separately derived systems",
+            "Service entrance equipment",
+            "Panelboard enclosures",
+            "Motor controllers"
+          ],
+          "answer": "A",
+          "explanation": "NEC 250.30(A) covers grounding and bonding of separately derived systems such as transformers."
+        },
+        {
+          "num": 43,
+          "question": "Per NEC 250.52(A)(2), the ground rod must be driven to a minimum depth of:",
+          "choices": [
+            "6 feet",
+            "8 feet",
+            "10 feet",
+            "12 feet"
+          ],
+          "answer": "B",
+          "explanation": "NEC 250.52(A)(5) -- ground rods must be driven to a minimum of 8 feet in contact with the earth."
+        },
+        {
+          "num": 44,
+          "question": "NEC 250.53(A)(2) requires that a single ground rod that does not have a resistance to ground of 25 ohms or less shall be supplemented by:",
+          "choices": [
+            "A larger ground rod",
+            "An additional electrode",
+            "A ground ring",
+            "A bonding conductor"
+          ],
+          "answer": "B",
+          "explanation": "NEC 250.53(A)(2) -- if a single rod does not meet 25 ohms, an additional electrode is required."
+        },
+        {
+          "num": 45,
+          "question": "Per NEC 250.64(B), the grounding electrode conductor shall be:",
+          "choices": [
+            "Spliced at any point",
+            "Installed without splice or joint except as permitted",
+            "Enclosed in PVC only",
+            "A minimum of 6 AWG"
+          ],
+          "answer": "B",
+          "explanation": "NEC 250.64(C) -- the GEC shall be installed without splice or joint, except where permitted by listed irreversible connectors or exothermic welding."
+        },
+        {
+          "num": 46,
+          "question": "The minimum size equipment grounding conductor for a 200-amp circuit per NEC Table 250.122 is:",
+          "choices": [
+            "4 AWG copper",
+            "6 AWG copper",
+            "3 AWG copper",
+            "2 AWG copper"
+          ],
+          "answer": "B",
+          "explanation": "NEC Table 250.122 -- for a 200-amp circuit, the minimum EGC is 6 AWG copper."
+        },
+        {
+          "num": 47,
+          "question": "NEC 250.104(A) requires that interior metal water piping be bonded to the:",
+          "choices": [
+            "Service equipment enclosure",
+            "Nearest receptacle ground",
+            "Water meter",
+            "Street-side water pipe"
+          ],
+          "answer": "A",
+          "explanation": "NEC 250.104(A) -- interior metal water piping shall be bonded to the service equipment enclosure, the grounded conductor at the service, the GEC, or the grounding electrode."
+        },
+        {
+          "num": 48,
+          "question": "Per NEC Table 430.250, the full-load current of a 10 HP, 460-volt, 3-phase motor is:",
+          "choices": [
+            "7 amps",
+            "14 amps",
+            "21 amps",
+            "28 amps"
+          ],
+          "answer": "B",
+          "explanation": "NEC Table 430.250 -- 10 HP, 460V, 3-phase motor FLC = 14 amps."
+        },
+        {
+          "num": 49,
+          "question": "NEC 430.6(A)(1) requires motor branch-circuit sizing be based on:",
+          "choices": [
+            "Nameplate current",
+            "Full-load current from NEC tables",
+            "Service factor current",
+            "Locked-rotor current"
+          ],
+          "answer": "B",
+          "explanation": "NEC 430.6(A)(1) -- motor branch-circuit sizing is based on FLC values from NEC tables, not the motor nameplate."
+        },
+        {
+          "num": 50,
+          "question": "Per NEC 430.52, the maximum dual-element fuse size for a single-phase AC motor is ___ percent of FLC.",
+          "choices": [
+            "125%",
+            "150%",
+            "175%",
+            "225%"
+          ],
+          "answer": "D",
+          "explanation": "NEC Table 430.52 -- dual-element (time-delay) fuse: maximum 225% of motor FLC for AC motors."
+        },
+        {
+          "num": 51,
+          "question": "A motor controller must have a horsepower rating not lower than that of the motor, per NEC:",
+          "choices": [
+            "430.72",
+            "430.83",
+            "430.52",
+            "430.24"
+          ],
+          "answer": "B",
+          "explanation": "NEC 430.83 -- the motor controller must have a horsepower rating not lower than that of the motor."
+        },
+        {
+          "num": 52,
+          "question": "Per NEC 430.109, a motor disconnecting means for a motor larger than 100 HP must be:",
+          "choices": [
+            "A circuit breaker or molded case switch only",
+            "A general-use switch",
+            "A snap switch",
+            "A listed manual motor controller"
+          ],
+          "answer": "A",
+          "explanation": "NEC 430.109 -- for motors over 100 HP, the disconnect must be a circuit breaker or listed molded case switch."
+        },
+        {
+          "num": 53,
+          "question": "NEC 430.32(C) requires that overload protection for a motor NOT automatically restart the motor unless:",
+          "choices": [
+            "The motor is less than 1 HP",
+            "Automatic restarting is not hazardous",
+            "The motor has thermal protection",
+            "A time delay relay is installed"
+          ],
+          "answer": "B",
+          "explanation": "NEC 430.32(C) -- automatic restarting is permitted only where it will not be hazardous to persons."
+        },
+        {
+          "num": 54,
+          "question": "Per NEC 680.22(A)(5), receptacles located between 6 and 20 feet from the inside wall of a pool must be:",
+          "choices": [
+            "20-amp rated",
+            "On a dedicated circuit",
+            "GFCI protected",
+            "Weatherproof"
+          ],
+          "answer": "C",
+          "explanation": "NEC 680.22(A)(5) -- receptacles 6 to 20 feet from pool: GFCI protection required."
+        },
+        {
+          "num": 55,
+          "question": "NEC 501.10(A) requires wiring in Class I, Division 1 hazardous locations to be:",
+          "choices": [
+            "NM cable",
+            "Rigid metal conduit, IMC, or MI cable",
+            "EMT or PVC",
+            "Any approved raceway"
+          ],
+          "answer": "B",
+          "explanation": "NEC 501.10(A) -- Class I, Division 1: threaded RMC, threaded IMC, or Type MI cable required."
+        },
+        {
+          "num": 56,
+          "question": "Per NEC 700.12, emergency systems must have power restored within ___ seconds of loss of normal power.",
+          "choices": [
+            "5 seconds",
+            "10 seconds",
+            "30 seconds",
+            "60 seconds"
+          ],
+          "answer": "B",
+          "explanation": "NEC 700.12 -- emergency power must be available within 10 seconds of failure of normal supply."
+        },
+        {
+          "num": 57,
+          "question": "NEC 625.40 requires that electric vehicle supply equipment (EVSE) be supplied by a dedicated:",
+          "choices": [
+            "120-volt circuit",
+            "Branch circuit",
+            "Service",
+            "Transformer"
+          ],
+          "answer": "B",
+          "explanation": "NEC 625.40 -- EVSE shall be supplied by a dedicated branch circuit."
+        },
+        {
+          "num": 58,
+          "question": "Per NEC 690.12, a photovoltaic rapid shutdown system must reduce conductors to ___ volts or less within 30 seconds.",
+          "choices": [
+            "12 volts",
+            "30 volts",
+            "48 volts",
+            "80 volts"
+          ],
+          "answer": "B",
+          "explanation": "NEC 690.12(B)(2) -- PV rapid shutdown: controlled conductors must be reduced to 30 volts or less within 30 seconds."
+        },
+        {
+          "num": 59,
+          "question": "NEC 480.9(A) requires that batteries in a battery room have a minimum clearance of ___ between battery terminals and any grounded surface.",
+          "choices": [
+            "6 inches",
+            "12 inches",
+            "24 inches",
+            "36 inches"
+          ],
+          "answer": "A",
+          "explanation": "NEC 480.9(A) -- minimum of 6 inches clearance between battery terminals and grounded surfaces."
+        },
+        {
+          "num": 60,
+          "question": "Per NEC 706.7, energy storage systems (ESS) rated over ___ kWh require a disconnecting means.",
+          "choices": [
+            "1 kWh",
+            "5 kWh",
+            "10 kWh",
+            "All ESS require a disconnect"
+          ],
+          "answer": "D",
+          "explanation": "NEC 706.7 -- all energy storage systems require a disconnecting means regardless of size."
+        }
+      ]
+    },
+    {
+      "testNum": 3,
+      "questions": [
+        {
+          "num": 1,
+          "question": "A 480-volt, 3-phase motor draws 20 amps. What is the apparent power (VA)?",
+          "choices": [
+            "9,600 VA",
+            "13,856 VA",
+            "16,627 VA",
+            "19,200 VA"
+          ],
+          "answer": "C",
+          "explanation": "3-phase apparent power: S = E x I x 1.732 = 480 x 20 x 1.732 = 16,627 VA."
+        },
+        {
+          "num": 2,
+          "question": "What is the total resistance when a 10-ohm and a 15-ohm resistor are connected in parallel?",
+          "choices": [
+            "5 ohms",
+            "6 ohms",
+            "12.5 ohms",
+            "25 ohms"
+          ],
+          "answer": "B",
+          "explanation": "Parallel: 1/Rt = 1/10 + 1/15 = 3/30 + 2/30 = 5/30; Rt = 6 ohms."
+        },
+        {
+          "num": 3,
+          "question": "A conductor 500 feet long has a resistance of 0.2 ohms per 1,000 feet. With 30 amps flowing, what is the voltage drop for the round trip?",
+          "choices": [
+            "1.5 volts",
+            "3 volts",
+            "6 volts",
+            "12 volts"
+          ],
+          "answer": "C",
+          "explanation": "R total = 2 x (500/1000) x 0.2 = 0.2 ohms round trip. Vd = I x R = 30 x 0.2 = 6 volts."
+        },
+        {
+          "num": 4,
+          "question": "In a purely capacitive AC circuit, the current:",
+          "choices": [
+            "Leads the voltage by 90 degrees",
+            "Lags the voltage by 90 degrees",
+            "Is in phase with the voltage",
+            "Leads the voltage by 45 degrees"
+          ],
+          "answer": "A",
+          "explanation": "In a purely capacitive circuit, current leads voltage by 90 degrees."
+        },
+        {
+          "num": 5,
+          "question": "A 208-volt, single-phase heater draws 24 amps. What is the wattage?",
+          "choices": [
+            "2,496 watts",
+            "4,160 watts",
+            "4,992 watts",
+            "8,653 watts"
+          ],
+          "answer": "C",
+          "explanation": "P = E x I = 208 x 24 = 4,992 watts for a single-phase resistive load."
+        },
+        {
+          "num": 6,
+          "question": "What is the inductive reactance of a coil with an inductance of 0.05 henrys at 60 Hz? (XL = 2 x pi x f x L)",
+          "choices": [
+            "3.14 ohms",
+            "9.42 ohms",
+            "18.85 ohms",
+            "37.70 ohms"
+          ],
+          "answer": "C",
+          "explanation": "XL = 2 x 3.1416 x 60 x 0.05 = 18.85 ohms."
+        },
+        {
+          "num": 7,
+          "question": "A 120-volt circuit has a load at the end of a run that draws 16 amps. If the maximum voltage drop allowed is 3%, the maximum voltage drop in volts is:",
+          "choices": [
+            "2.4 volts",
+            "3.0 volts",
+            "3.6 volts",
+            "4.8 volts"
+          ],
+          "answer": "C",
+          "explanation": "3% of 120V = 0.03 x 120 = 3.6 volts maximum voltage drop."
+        },
+        {
+          "num": 8,
+          "question": "The unit of measurement for inductance is the:",
+          "choices": [
+            "Farad",
+            "Ohm",
+            "Henry",
+            "Siemens"
+          ],
+          "answer": "C",
+          "explanation": "The henry (H) is the SI unit for inductance."
+        },
+        {
+          "num": 9,
+          "question": "A 240/120-volt, single-phase transformer is rated at 10 kVA. What is the maximum full-load current on the 240-volt side?",
+          "choices": [
+            "20.8 amps",
+            "41.7 amps",
+            "50 amps",
+            "83.3 amps"
+          ],
+          "answer": "B",
+          "explanation": "I = VA / E = 10,000 / 240 = 41.7 amps."
+        },
+        {
+          "num": 10,
+          "question": "The impedance of a series RL circuit with R = 30 ohms and XL = 40 ohms is:",
+          "choices": [
+            "35 ohms",
+            "50 ohms",
+            "70 ohms",
+            "10 ohms"
+          ],
+          "answer": "B",
+          "explanation": "Z = square root of (R^2 + XL^2) = square root of (900 + 1600) = square root of 2500 = 50 ohms."
+        },
+        {
+          "num": 11,
+          "question": "Per NEC 210.8(F), GFCI protection is required for all 250-volt receptacles rated ___ amps or less in non-dwelling locations.",
+          "choices": [
+            "15 amps",
+            "20 amps",
+            "30 amps",
+            "50 amps"
+          ],
+          "answer": "D",
+          "explanation": "NEC 210.8(F) -- GFCI protection required for 250-volt, 50-amp or less receptacles in non-dwelling locations."
+        },
+        {
+          "num": 12,
+          "question": "NEC 110.26(A)(3) requires a minimum headroom of ___ feet in the working space around electrical equipment.",
+          "choices": [
+            "5 feet",
+            "6 feet",
+            "6.5 feet",
+            "7 feet"
+          ],
+          "answer": "C",
+          "explanation": "NEC 110.26(A)(3) -- minimum headroom of 6.5 feet (6 feet 6 inches) in the working space."
+        },
+        {
+          "num": 13,
+          "question": "Per NEC Table 310.16, the ampacity of 3 AWG THHN copper conductor at 90 degrees C is:",
+          "choices": [
+            "85 amps",
+            "100 amps",
+            "110 amps",
+            "115 amps"
+          ],
+          "answer": "C",
+          "explanation": "NEC Table 310.16 -- 3 AWG THHN copper at 90 degrees C column: 110 amps."
+        },
+        {
+          "num": 14,
+          "question": "NEC 210.52(G)(1) requires a receptacle outlet within ___ feet of the intended location of a gas-fired appliance in a dwelling garage.",
+          "choices": [
+            "2 feet",
+            "3 feet",
+            "6 feet",
+            "10 feet"
+          ],
+          "answer": "C",
+          "explanation": "NEC 210.52(G)(1) -- receptacle outlet within 6 feet of the intended location of each appliance in the garage."
+        },
+        {
+          "num": 15,
+          "question": "Per NEC 240.6(A), which of the following is a standard size overcurrent device?",
+          "choices": [
+            "45 amps",
+            "65 amps",
+            "80 amps",
+            "120 amps"
+          ],
+          "answer": "C",
+          "explanation": "NEC 240.6(A) -- standard sizes include 80 amps. 45, 65, and 120 are not standard."
+        },
+        {
+          "num": 16,
+          "question": "NEC 230.24(B)(1) requires that service-drop conductors over residential driveways maintain a minimum clearance of:",
+          "choices": [
+            "10 feet",
+            "12 feet",
+            "15 feet",
+            "18 feet"
+          ],
+          "answer": "B",
+          "explanation": "NEC 230.24(B)(1) -- service drops over residential property and driveways: minimum 12 feet clearance."
+        },
+        {
+          "num": 17,
+          "question": "Per NEC 422.12, central heating equipment (other than fixed electric space-heating) shall be supplied by a branch circuit rated not less than ___ percent of the nameplate rating.",
+          "choices": [
+            "80%",
+            "100%",
+            "115%",
+            "125%"
+          ],
+          "answer": "D",
+          "explanation": "NEC 422.12 -- central heating: branch circuit rated not less than 125% of nameplate, as it is a continuous load."
+        },
+        {
+          "num": 18,
+          "question": "NEC 210.70(A)(2)(b) requires that hallways of ___ feet or more in length in dwelling units have at least one lighting outlet controlled by a wall switch.",
+          "choices": [
+            "6 feet",
+            "8 feet",
+            "10 feet",
+            "12 feet"
+          ],
+          "answer": "C",
+          "explanation": "NEC 210.70(A)(2)(b) -- hallways 10 feet or more in length require a wall switch-controlled lighting outlet."
+        },
+        {
+          "num": 19,
+          "question": "Per NEC 338.10(B)(4)(a), the ampacity of Type SE cable used as interior wiring without all conductors insulated must be determined based on the ___ degree C column of Table 310.16.",
+          "choices": [
+            "60",
+            "75",
+            "90",
+            "105"
+          ],
+          "answer": "A",
+          "explanation": "NEC 338.10(B)(4)(a) -- SE cable without all conductors insulated uses the 60 degrees C column of Table 310.16."
+        },
+        {
+          "num": 20,
+          "question": "NEC 406.12 requires tamper-resistant receptacles in which locations?",
+          "choices": [
+            "Commercial kitchens",
+            "All dwelling unit locations specified in 210.52",
+            "Industrial facilities",
+            "Hospitals only"
+          ],
+          "answer": "B",
+          "explanation": "NEC 406.12 -- tamper-resistant receptacles required in all dwelling unit locations specified in 210.52."
+        },
+        {
+          "num": 21,
+          "question": "Per NEC 352.44, PVC conduit expansion fittings are required when the length change due to thermal expansion exceeds:",
+          "choices": [
+            "1/4 inch",
+            "1/2 inch",
+            "3/4 inch",
+            "1 inch"
+          ],
+          "answer": "C",
+          "explanation": "NEC 352.44 -- expansion fittings required where expansion/contraction exceeds 3/4 inch."
+        },
+        {
+          "num": 22,
+          "question": "NM cable passing through a metal plate (nail plate) to protect against nail or screw penetration must have a plate at least ___ inch thick.",
+          "choices": [
+            "1/16 inch",
+            "1/8 inch",
+            "3/16 inch",
+            "1/4 inch"
+          ],
+          "answer": "A",
+          "explanation": "NEC 334.108 / 300.4(A)(1) -- nail plates (steel plates) must be at least 1/16 inch thick."
+        },
+        {
+          "num": 23,
+          "question": "Per NEC 300.4(G), cables and raceways installed parallel to framing members must be protected by a steel plate where the member is less than ___ inches from the nearest edge.",
+          "choices": [
+            "1 inch",
+            "1-1/4 inches",
+            "1-1/2 inches",
+            "2 inches"
+          ],
+          "answer": "B",
+          "explanation": "NEC 300.4(D) -- cables parallel to framing members: protected by a steel plate where less than 1-1/4 inches from the edge."
+        },
+        {
+          "num": 24,
+          "question": "The maximum distance between supports for 1/2-inch EMT is:",
+          "choices": [
+            "6 feet",
+            "8 feet",
+            "10 feet",
+            "12 feet"
+          ],
+          "answer": "C",
+          "explanation": "NEC Table 358.30(A) -- 1/2-inch and 3/4-inch EMT: maximum 10 feet between supports."
+        },
+        {
+          "num": 25,
+          "question": "Per NEC Chapter 9, Table 4, the internal area of a 1-inch EMT conduit is approximately:",
+          "choices": [
+            "0.304 sq in.",
+            "0.519 sq in.",
+            "0.864 sq in.",
+            "1.049 sq in"
+          ],
+          "answer": "C",
+          "explanation": "NEC Chapter 9, Table 4 -- 1-inch EMT has an internal area of approximately 0.864 square inches."
+        },
+        {
+          "num": 26,
+          "question": "NEC 320.15 requires that Type AC cable be installed with a minimum bending radius of ___ times the diameter of the cable.",
+          "choices": [
+            "3 times",
+            "5 times",
+            "7 times",
+            "10 times"
+          ],
+          "answer": "C",
+          "explanation": "NEC 320.24 -- Type AC cable: bending radius not less than 7 times the external diameter of the cable."
+        },
+        {
+          "num": 27,
+          "question": "Per NEC 356.30, liquidtight flexible nonmetallic conduit (LFNC) must be secured at intervals not exceeding:",
+          "choices": [
+            "3 feet",
+            "4.5 feet",
+            "6 feet",
+            "8 feet"
+          ],
+          "answer": "A",
+          "explanation": "NEC 356.30 -- LFNC secured at intervals not exceeding 3 feet."
+        },
+        {
+          "num": 28,
+          "question": "The maximum total degrees of bends permitted between pull points in RMC is:",
+          "choices": [
+            "180 degrees",
+            "270 degrees",
+            "360 degrees",
+            "No limit"
+          ],
+          "answer": "C",
+          "explanation": "NEC 344.26 -- RMC bends shall not exceed 360 degrees total between pull points."
+        },
+        {
+          "num": 29,
+          "question": "Per NEC 314.28(A)(1), in a straight pull, the minimum length of a pull box must be ___ times the trade size of the largest raceway.",
+          "choices": [
+            "4 times",
+            "6 times",
+            "8 times",
+            "10 times"
+          ],
+          "answer": "C",
+          "explanation": "NEC 314.28(A)(1) -- straight pulls: box length at least 8 times the trade size of the largest raceway."
+        },
+        {
+          "num": 30,
+          "question": "NEC 362.10 permits electrical nonmetallic tubing (ENT) in which of the following?",
+          "choices": [
+            "Hazardous locations",
+            "Theaters",
+            "Concealed within walls of buildings not exceeding 3 stories",
+            "Exposed runs in commercial buildings"
+          ],
+          "answer": "C",
+          "explanation": "NEC 362.10(1) -- ENT permitted concealed within walls, floors, and ceilings of buildings not exceeding 3 stories."
+        },
+        {
+          "num": 31,
+          "question": "A 1,500 square foot dwelling with two small appliance circuits and one laundry circuit has a total general loads VA (before demand) of:",
+          "choices": [
+            "7,500 VA",
+            "9,000 VA",
+            "9,500 VA",
+            "10,500 VA"
+          ],
+          "answer": "B",
+          "explanation": "General lighting: 1,500 x 3 = 4,500 VA. Small appliance: 2 x 1,500 = 3,000 VA. Laundry: 1,500 VA. Total = 9,000 VA."
+        },
+        {
+          "num": 32,
+          "question": "Per NEC 220.55, Column C, three household electric ranges rated at 12 kW each have a maximum demand of:",
+          "choices": [
+            "8 kW",
+            "11 kW",
+            "14 kW",
+            "36 kW"
+          ],
+          "answer": "C",
+          "explanation": "NEC Table 220.55, Column C -- 3 ranges, each not over 12 kW: maximum demand = 14 kW."
+        },
+        {
+          "num": 33,
+          "question": "A 240-volt single-phase air conditioning unit draws 32 amps. The minimum branch-circuit conductor ampacity is:",
+          "choices": [
+            "32 amps",
+            "36 amps",
+            "40 amps",
+            "48 amps"
+          ],
+          "answer": "C",
+          "explanation": "NEC 440.32 -- single motor-compressor: conductor ampacity not less than 125% of rated-load current = 32 x 1.25 = 40 amps."
+        },
+        {
+          "num": 34,
+          "question": "Per NEC 220.82 (optional method), a dwelling has a total connected load of 45 kVA. The first 10 kVA is at 100%. The remaining 35 kVA is at 40%. The total demand load is:",
+          "choices": [
+            "18,000 VA",
+            "21,000 VA",
+            "24,000 VA",
+            "28,000 VA"
+          ],
+          "answer": "C",
+          "explanation": "10,000 VA at 100% = 10,000. 35,000 VA at 40% = 14,000. Total = 24,000 VA per NEC 220.82."
+        },
+        {
+          "num": 35,
+          "question": "The NEC requires how many small appliance branch circuits for a dwelling unit?",
+          "choices": [
+            "A minimum of 1",
+            "A minimum of 2",
+            "A minimum of 3",
+            "A minimum of 4"
+          ],
+          "answer": "B",
+          "explanation": "NEC 210.11(C)(1) -- a minimum of 2 small appliance branch circuits required."
+        },
+        {
+          "num": 36,
+          "question": "A 4,500-watt, 240-volt electric water heater is considered a continuous load. The minimum circuit ampacity is:",
+          "choices": [
+            "18.75 amps",
+            "20 amps",
+            "23.4 amps",
+            "25 amps"
+          ],
+          "answer": "C",
+          "explanation": "I = P/E = 4,500/240 = 18.75A. Continuous: 18.75 x 1.25 = 23.4 amps per NEC 422.13."
+        },
+        {
+          "num": 37,
+          "question": "Per NEC Table 220.55, Note 1, if a range is rated over 12 kW, the Column C value increases by ___ percent for each kW (or fraction) over 12 kW.",
+          "choices": [
+            "3%",
+            "5%",
+            "8%",
+            "10%"
+          ],
+          "answer": "B",
+          "explanation": "NEC Table 220.55, Note 1 -- increase Column C value by 5% for each kW or fraction exceeding 12 kW."
+        },
+        {
+          "num": 38,
+          "question": "A commercial building with 20,000 sq ft of warehouse space has a lighting load of ___ VA per NEC Table 220.12 (warehouse, storage).",
+          "choices": [
+            "5,000 VA",
+            "10,000 VA",
+            "15,000 VA",
+            "25,000 VA"
+          ],
+          "answer": "A",
+          "explanation": "NEC Table 220.12 -- warehouse/storage: 0.25 VA per sq ft. 20,000 x 0.25 = 5,000 VA."
+        },
+        {
+          "num": 39,
+          "question": "Per NEC 220.14(K), each bank of multioutlet assembly counted as a receptacle load in non-industrial applications uses ___ VA per 5-foot section.",
+          "choices": [
+            "90 VA",
+            "180 VA",
+            "900 VA",
+            "1,500 VA"
+          ],
+          "answer": "C",
+          "explanation": "NEC 220.14(K) -- each 5-foot section of multioutlet assembly in non-industrial applications: 180 VA x 5 = 900 VA."
+        },
+        {
+          "num": 40,
+          "question": "The amperage for a 120/240-volt single-phase service with a total demand of 24,000 VA is:",
+          "choices": [
+            "100 amps",
+            "120 amps",
+            "150 amps",
+            "200 amps"
+          ],
+          "answer": "A",
+          "explanation": "I = VA / E = 24,000 / 240 = 100 amps."
+        },
+        {
+          "num": 41,
+          "question": "Per NEC 250.122(B), when ungrounded conductors are increased in size for voltage drop, the equipment grounding conductor must:",
+          "choices": [
+            "Remain the same size",
+            "Be increased proportionally",
+            "Be increased by 25%",
+            "Be doubled"
+          ],
+          "answer": "B",
+          "explanation": "NEC 250.122(B) -- when conductors are upsized for voltage drop, the EGC must be increased proportionally."
+        },
+        {
+          "num": 42,
+          "question": "NEC 250.52(A)(7) requires a ground ring to be buried at a depth of at least:",
+          "choices": [
+            "12 inches",
+            "18 inches",
+            "24 inches",
+            "30 inches"
+          ],
+          "answer": "D",
+          "explanation": "NEC 250.52(A)(7) -- the ground ring must encircle the building at a depth of at least 30 inches."
+        },
+        {
+          "num": 43,
+          "question": "Per NEC 250.20(B), AC systems of 50 to 1,000 volts shall be grounded when the system can be grounded so that the maximum voltage to ground does not exceed:",
+          "choices": [
+            "120 volts",
+            "150 volts",
+            "277 volts",
+            "300 volts"
+          ],
+          "answer": "B",
+          "explanation": "NEC 250.20(B)(1) -- the system shall be grounded where the maximum voltage to ground does not exceed 150 volts."
+        },
+        {
+          "num": 44,
+          "question": "Per NEC 250.118(6)(d), liquidtight flexible metal conduit (LFMC) is acceptable as an EGC in trade sizes up to:",
+          "choices": [
+            "1/2 inch",
+            "3/4 inch",
+            "1 inch",
+            "1-1/4 inches"
+          ],
+          "answer": "D",
+          "explanation": "NEC 250.118(6)(d) -- LFMC is an acceptable EGC in trade sizes 3/8 through 1-1/4 inches."
+        },
+        {
+          "num": 45,
+          "question": "NEC 250.64(E) requires that the grounding electrode conductor be protected where exposed to severe physical damage by enclosing it in:",
+          "choices": [
+            "PVC conduit only",
+            "EMT only",
+            "RMC, IMC, PVC, or other approved means",
+            "Flexible metal conduit"
+          ],
+          "answer": "C",
+          "explanation": "NEC 250.64(B) -- where exposed to severe physical damage, the GEC must be protected by RMC, IMC, Schedule 80 PVC, or other approved means."
+        },
+        {
+          "num": 46,
+          "question": "Per NEC Table 250.122, the minimum equipment grounding conductor for a 30-amp overcurrent device is:",
+          "choices": [
+            "14 AWG copper",
+            "12 AWG copper",
+            "10 AWG copper",
+            "8 AWG copper"
+          ],
+          "answer": "C",
+          "explanation": "NEC Table 250.122 -- 30-amp overcurrent device: minimum 10 AWG copper EGC."
+        },
+        {
+          "num": 47,
+          "question": "NEC 250.24(A)(5) requires that the grounded conductor (neutral) be run to each service disconnecting means and bonded to the enclosure for services using:",
+          "choices": [
+            "A grounding electrode conductor only",
+            "The system bonding jumper method",
+            "The grounded conductor method",
+            "An equipment grounding conductor only"
+          ],
+          "answer": "C",
+          "explanation": "NEC 250.24(C) -- the grounded conductor (neutral) must be run to each service disconnecting means and bonded per the grounded conductor method."
+        },
+        {
+          "num": 48,
+          "question": "Per NEC Table 430.250, the full-load current for a 25 HP, 460-volt, 3-phase motor is:",
+          "choices": [
+            "17 amps",
+            "27 amps",
+            "34 amps",
+            "40 amps"
+          ],
+          "answer": "C",
+          "explanation": "NEC Table 430.250 -- 25 HP, 460V, 3-phase motor FLC = 34 amps."
+        },
+        {
+          "num": 49,
+          "question": "The minimum conductor ampacity for a 40 HP, 460V, 3-phase motor (FLC = 52 amps per Table 430.250) is:",
+          "choices": [
+            "52 amps",
+            "60 amps",
+            "65 amps",
+            "78 amps"
+          ],
+          "answer": "C",
+          "explanation": "NEC 430.22(A) -- 125% of 52 amps = 65 amps minimum conductor ampacity."
+        },
+        {
+          "num": 50,
+          "question": "Per NEC 430.52, what is the maximum instantaneous-trip (magnetic only) circuit breaker rating for an AC motor?",
+          "choices": [
+            "250%",
+            "300%",
+            "700%",
+            "800%"
+          ],
+          "answer": "D",
+          "explanation": "NEC Table 430.52 -- instantaneous-trip (magnetic-only) breaker: maximum 800% of motor FLC (with permitted increase per NEC 430.52(C)(1))."
+        },
+        {
+          "num": 51,
+          "question": "A motor nameplate reads 460V, 3-phase, 30 HP, FLA 38 amps, SF 1.0. Per NEC 430.32, the maximum overload trip setting is:",
+          "choices": [
+            "43.7 amps",
+            "47.5 amps",
+            "41.8 amps",
+            "49.4 amps"
+          ],
+          "answer": "C",
+          "explanation": "NEC 430.32(A)(1) -- for motors with SF less than 1.15 and no marked temperature rise, overload trips at 115% of nameplate FLA: 38 x 1.10 = 41.8 amps."
+        },
+        {
+          "num": 52,
+          "question": "Per NEC 430.53(D), a single branch circuit supplying a single motor-compressor shall have an ampacity not less than ___ percent of the rated-load current.",
+          "choices": [
+            "100%",
+            "115%",
+            "125%",
+            "150%"
+          ],
+          "answer": "C",
+          "explanation": "NEC 440.32 -- single motor-compressor: conductor ampacity at least 125% of the rated-load current."
+        },
+        {
+          "num": 53,
+          "question": "NEC 430.102(B) requires that the motor disconnect be located:",
+          "choices": [
+            "At the main panel only",
+            "In sight from the motor",
+            "Within 10 feet of the motor",
+            "At the motor starter only"
+          ],
+          "answer": "B",
+          "explanation": "NEC 430.102(B) -- the motor disconnecting means must be in sight from the motor location and the driven machinery."
+        },
+        {
+          "num": 54,
+          "question": "Per NEC 210.12(A), AFCI protection is required for 120-volt, 15- and 20-amp branch circuits supplying outlets in dwelling unit:",
+          "choices": [
+            "Bathrooms and garages",
+            "Kitchens, family rooms, bedrooms, and living rooms",
+            "Unfinished basements only",
+            "Outdoor receptacles"
+          ],
+          "answer": "B",
+          "explanation": "NEC 210.12(A) -- AFCI protection required for 120V, 15/20A circuits in kitchens, family rooms, dining rooms, living rooms, parlors, libraries, dens, bedrooms, sunrooms, recreation rooms, closets, hallways, laundry areas, and similar rooms."
+        },
+        {
+          "num": 55,
+          "question": "NEC 680.21(C) requires that a swimming pool pump motor have a branch-circuit GFCI protective device rated at:",
+          "choices": [
+            "5 milliamps",
+            "15 milliamps",
+            "20 milliamps",
+            "30 milliamps"
+          ],
+          "answer": "A",
+          "explanation": "NEC 680.21(C) -- the GFCI device for a pool pump motor is the standard Class A type rated at 5 milliamps."
+        },
+        {
+          "num": 56,
+          "question": "Per NEC 502.10(A)(1), Class II, Division 1 locations permit wiring by:",
+          "choices": [
+            "NM cable",
+            "RMC or IMC with threaded fittings",
+            "EMT",
+            "Liquidtight nonmetallic conduit"
+          ],
+          "answer": "B",
+          "explanation": "NEC 502.10(A)(1) -- Class II, Division 1: threaded RMC or threaded IMC with listed fittings."
+        },
+        {
+          "num": 57,
+          "question": "NEC 695.6(B) requires that fire pump supply conductors be protected against damage by being routed:",
+          "choices": [
+            "In PVC conduit",
+            "Outside the building",
+            "Through the building using RMC, IMC, or listed electrical circuit protective systems",
+            "In NM cable with steel plates"
+          ],
+          "answer": "C",
+          "explanation": "NEC 695.6(B) -- fire pump supply conductors routed through the building shall be in RMC, IMC, or listed electrical circuit protective systems."
+        },
+        {
+          "num": 58,
+          "question": "Per NEC 694.22, small wind electric systems rated over ___ volts DC shall comply with rapid shutdown requirements.",
+          "choices": [
+            "30 volts",
+            "48 volts",
+            "80 volts",
+            "120 volts"
+          ],
+          "answer": "C",
+          "explanation": "NEC 694.22 -- small wind systems over 80 volts DC require rapid shutdown."
+        },
+        {
+          "num": 59,
+          "question": "NEC 440.12 requires that air conditioning disconnects be rated at least ___ percent of the nameplate rated-load current.",
+          "choices": [
+            "100%",
+            "110%",
+            "115%",
+            "125%"
+          ],
+          "answer": "C",
+          "explanation": "NEC 440.12(B) -- the air conditioning disconnect rated at least 115% of the nameplate rated-load current or branch-circuit selection current, whichever is greater."
+        },
+        {
+          "num": 60,
+          "question": "Per NEC 230.42(A), service entrance conductors must have an ampacity not less than ___ percent of the continuous load plus 100% of the non-continuous load.",
+          "choices": [
+            "100%",
+            "115%",
+            "125%",
+            "150%"
+          ],
+          "answer": "C",
+          "explanation": "NEC 230.42(A) -- service entrance conductors: 125% of continuous load plus 100% of non-continuous load."
+        }
+      ]
+    }
+  ]
+}

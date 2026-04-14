@@ -1,0 +1,2183 @@
+{
+  "slug": "chst",
+  "title": "CHST Exam Study Guide",
+  "code": "CHST-CPIQJ-5U07R",
+  "timeMinutes": 90,
+  "tests": [
+    {
+      "testNum": 1,
+      "questions": [
+        {
+          "num": 1,
+          "question": "According to OSHA 1926.501, at what height must fall protection be provided for workers on walking/working surfaces with unprotected sides or edges?",
+          "choices": [
+            "4 feet",
+            "6 feet",
+            "8 feet",
+            "10 feet"
+          ],
+          "answer": "B",
+          "explanation": "OSHA 1926.501(b)(1) requires fall protection at 6 feet in construction. General industry uses 4 feet, but construction uses the 6-foot threshold."
+        },
+        {
+          "num": 2,
+          "question": "Which of the following is NOT one of the OSHA Focus Four construction fatality categories?",
+          "choices": [
+            "Falls",
+            "Struck-by",
+            "Heat illness",
+            "Electrocution"
+          ],
+          "answer": "C",
+          "explanation": "The OSHA Focus Four are Falls, Struck-by, Caught-in/between, and Electrocution. Heat illness, while a serious hazard, is not one of the Focus Four categories."
+        },
+        {
+          "num": 3,
+          "question": "A competent person inspects a trench and determines the soil crumbles freely when disturbed and has a wet, unstable appearance. What soil classification should be assigned?",
+          "choices": [
+            "Stable rock",
+            "Type A",
+            "Type B",
+            "Type C"
+          ],
+          "answer": "D",
+          "explanation": "OSHA 1926 Subpart P Appendix A classifies soil that crumbles freely and has a wet/unstable appearance as Type C -- the least stable soil type."
+        },
+        {
+          "num": 4,
+          "question": "When erecting tubular welded frame scaffolding, cross braces can be used as a means of access only when:",
+          "choices": [
+            "The scaffold is less than 20 feet high",
+            "The cross braces are designed for use as a ladder and meet specific dimensional requirements",
+            "A competent person gives verbal approval",
+            "Workers are wearing fall protection harnesses"
+          ],
+          "answer": "B",
+          "explanation": "OSHA 1926.451(e)(1) states cross braces on tubular welded frame scaffolds may be used as access only when designed for that purpose and meeting dimensional requirements."
+        },
+        {
+          "num": 5,
+          "question": "A worker contacts an overhead power line rated at 50kV with an aluminum ladder. What is the minimum safe approach distance per OSHA 1926.1408?",
+          "choices": [
+            "10 feet",
+            "15 feet",
+            "20 feet",
+            "25 feet"
+          ],
+          "answer": "A",
+          "explanation": "OSHA 1926.1408 Table A specifies 10 feet minimum clearance for power lines up to 50kV. Higher voltages require greater distances."
+        },
+        {
+          "num": 6,
+          "question": "Which type of caught-in/between hazard is most commonly associated with trenching operations?",
+          "choices": [
+            "Rotating equipment entanglement",
+            "Cave-in",
+            "Pinch point contact",
+            "Compression between vehicles"
+          ],
+          "answer": "B",
+          "explanation": "Cave-ins are the most common caught-in/between hazard in trenching operations and are the primary reason for OSHA excavation protective system requirements under Subpart P."
+        },
+        {
+          "num": 7,
+          "question": "Under OSHA 1926.652, what is the maximum allowable slope for Type C soil in an excavation?",
+          "choices": [
+            "3/4 horizontal to 1 vertical (3/4H:1V)",
+            "1 horizontal to 1 vertical (1H:1V)",
+            "1-1/2 horizontal to 1 vertical (1-1/2H:1V)",
+            "2 horizontal to 1 vertical (2H:1V)"
+          ],
+          "answer": "C",
+          "explanation": "OSHA 1926.652 Appendix B requires a maximum slope of 1-1/2H:1V (53 degrees) for Type C soil. Type A allows 3/4H:1V and Type B allows 1H:1V."
+        },
+        {
+          "num": 8,
+          "question": "A guardrail system on a construction site must have a top rail height of:",
+          "choices": [
+            "36 inches plus or minus 3 inches",
+            "39 inches plus or minus 3 inches",
+            "42 inches plus or minus 3 inches",
+            "48 inches plus or minus 3 inches"
+          ],
+          "answer": "C",
+          "explanation": "OSHA 1926.502(b)(1) requires guardrail top rails to be 42 inches plus or minus 3 inches above the walking/working surface."
+        },
+        {
+          "num": 9,
+          "question": "Which signal indicates 'Boom Up' in standard crane hand signals?",
+          "choices": [
+            "Arm extended horizontally with thumb pointing up",
+            "Arm extended upward with fist closed, making small circular motions",
+            "Both arms extended horizontally, making sweeping motions",
+            "One arm extended forward with palm facing down"
+          ],
+          "answer": "A",
+          "explanation": "Standard crane hand signals per OSHA 1926.1419/1926.550 specify arm extended horizontally with thumb up for 'Boom Up.'"
+        },
+        {
+          "num": 10,
+          "question": "The permissible exposure limit (PEL) for respirable crystalline silica in construction under OSHA 1926.1153 is:",
+          "choices": [
+            "25 micrograms per cubic meter as an 8-hour TWA",
+            "50 micrograms per cubic meter as an 8-hour TWA",
+            "100 micrograms per cubic meter as an 8-hour TWA",
+            "250 micrograms per cubic meter as an 8-hour TWA"
+          ],
+          "answer": "B",
+          "explanation": "OSHA 1926.1153 sets the PEL for respirable crystalline silica in construction at 50 micrograms per cubic meter as an 8-hour TWA."
+        },
+        {
+          "num": 11,
+          "question": "During steel erection, connectors working between 15 and 30 feet above a lower level must be protected by:",
+          "choices": [
+            "A personal fall arrest system only",
+            "A safety net system only",
+            "A personal fall arrest system, safety net, or positioning device system",
+            "No fall protection is required in this height range for connectors"
+          ],
+          "answer": "C",
+          "explanation": "OSHA 1926.760(b) requires connectors between 15 and 30 feet to be protected by a personal fall arrest system, safety net, or positioning device system during steel erection."
+        },
+        {
+          "num": 12,
+          "question": "Which of the following BEST describes a struck-by hazard?",
+          "choices": [
+            "A worker falling from an elevated surface onto a lower level",
+            "A worker being compressed between two objects or surfaces",
+            "A worker being hit by a flying, falling, swinging, or rolling object",
+            "A worker contacting an exposed electrical conductor"
+          ],
+          "answer": "C",
+          "explanation": "Struck-by hazards involve a worker being hit by a flying, falling, swinging, or rolling object. This is one of the OSHA Focus Four leading causes of construction fatalities."
+        },
+        {
+          "num": 13,
+          "question": "A scaffold platform must be at least how many inches wide for working purposes?",
+          "choices": [
+            "14 inches",
+            "18 inches",
+            "20 inches",
+            "24 inches"
+          ],
+          "answer": "B",
+          "explanation": "OSHA 1926.451(b)(2) requires scaffold platforms to be at least 18 inches wide. Narrower platforms are only permitted when the work area is less than 18 inches wide."
+        },
+        {
+          "num": 14,
+          "question": "The OSHA action level for lead exposure in construction per 1926.62 is:",
+          "choices": [
+            "25 micrograms per cubic meter",
+            "30 micrograms per cubic meter",
+            "50 micrograms per cubic meter",
+            "100 micrograms per cubic meter"
+          ],
+          "answer": "B",
+          "explanation": "OSHA 1926.62(b) sets the action level for lead at 30 micrograms per cubic meter as an 8-hour TWA, which triggers monitoring and medical surveillance requirements."
+        },
+        {
+          "num": 15,
+          "question": "When a trench is 5 feet deep or more, a means of egress (ladder, ramp, or stairway) must be provided so that no worker travels more than how many feet laterally to reach it?",
+          "choices": [
+            "15 feet",
+            "20 feet",
+            "25 feet",
+            "30 feet"
+          ],
+          "answer": "C",
+          "explanation": "OSHA 1926.651(c)(2) requires a means of egress in trenches 4 feet or deeper, spaced so workers travel no more than 25 feet laterally."
+        },
+        {
+          "num": 16,
+          "question": "A personal fall arrest system must limit maximum arresting force on a worker to:",
+          "choices": [
+            "900 pounds",
+            "1,800 pounds",
+            "2,500 pounds",
+            "3,600 pounds"
+          ],
+          "answer": "B",
+          "explanation": "OSHA 1926.502(d)(16) limits maximum arresting force on an employee to 1,800 pounds when using a body harness in a personal fall arrest system."
+        },
+        {
+          "num": 17,
+          "question": "Which class of asbestos work under OSHA 1926.1101 involves removal of thermal system insulation and surfacing ACM?",
+          "choices": [
+            "Class I",
+            "Class II",
+            "Class III",
+            "Class IV"
+          ],
+          "answer": "A",
+          "explanation": "OSHA 1926.1101 defines Class I asbestos work as activities involving removal of thermal system insulation (TSI) and surfacing asbestos-containing material (ACM)."
+        },
+        {
+          "num": 18,
+          "question": "A competent person for scaffolding must be able to:",
+          "choices": [
+            "Only erect and dismantle the scaffold safely",
+            "Identify existing and predictable hazards and has authority to take corrective measures",
+            "Certify that the scaffold was designed by a registered professional engineer",
+            "Perform annual scaffold load testing"
+          ],
+          "answer": "B",
+          "explanation": "OSHA defines a competent person as one capable of identifying existing and predictable hazards in the surroundings and who has authority to take prompt corrective measures to eliminate them."
+        },
+        {
+          "num": 19,
+          "question": "In construction, what is the minimum safe distance from the edge of an excavation where spoil piles must be kept?",
+          "choices": [
+            "1 foot",
+            "2 feet",
+            "3 feet",
+            "4 feet"
+          ],
+          "answer": "B",
+          "explanation": "OSHA 1926.651(j)(2) requires spoil piles to be kept at least 2 feet from the edge of an excavation."
+        },
+        {
+          "num": 20,
+          "question": "Which type of fall protection is defined as a barrier erected to prevent workers from falling to lower levels?",
+          "choices": [
+            "Personal fall arrest system",
+            "Safety net system",
+            "Guardrail system",
+            "Warning line system"
+          ],
+          "answer": "C",
+          "explanation": "OSHA 1926.502(b) defines a guardrail system as a barrier erected to prevent employees from falling to lower levels."
+        },
+        {
+          "num": 21,
+          "question": "A worker using a pneumatic nail gun is MOST at risk for which Focus Four hazard category?",
+          "choices": [
+            "Falls",
+            "Struck-by",
+            "Caught-in/between",
+            "Electrocution"
+          ],
+          "answer": "B",
+          "explanation": "Pneumatic nail guns present a struck-by hazard from projectile nails that can ricochet or penetrate through materials. This is a leading cause of construction injuries."
+        },
+        {
+          "num": 22,
+          "question": "Under OSHA 1926.451, the maximum height-to-base width ratio for a freestanding scaffold is:",
+          "choices": [
+            "2:1",
+            "3:1",
+            "4:1",
+            "5:1"
+          ],
+          "answer": "C",
+          "explanation": "OSHA 1926.451(c)(2) requires freestanding scaffolds to maintain a 4:1 height-to-base ratio unless guyed, tied, or braced."
+        },
+        {
+          "num": 23,
+          "question": "Under OSHA reporting requirements, an employer must report a worker fatality to OSHA within:",
+          "choices": [
+            "4 hours",
+            "8 hours",
+            "24 hours",
+            "48 hours"
+          ],
+          "answer": "B",
+          "explanation": "OSHA requires employers to report any worker fatality within 8 hours. In-patient hospitalizations, amputations, and losses of an eye must be reported within 24 hours."
+        },
+        {
+          "num": 24,
+          "question": "Which of the following is the MOST important first step in a construction incident investigation?",
+          "choices": [
+            "Interview witnesses",
+            "Secure the scene and preserve evidence",
+            "Notify the insurance company",
+            "Complete the OSHA 300 log"
+          ],
+          "answer": "B",
+          "explanation": "Securing the scene and preserving evidence is the most critical first step. This prevents further injuries and ensures investigation integrity before witnesses are interviewed."
+        },
+        {
+          "num": 25,
+          "question": "During a confined space rescue in construction per OSHA 1926.1204, the FIRST action the entry supervisor should take when a hazard is detected is:",
+          "choices": [
+            "Call 911 immediately",
+            "Order the entrants to evacuate the space",
+            "Enter the space to assist the worker",
+            "Ventilate the space and continue monitoring"
+          ],
+          "answer": "B",
+          "explanation": "Per OSHA 1926.1204(e), when a hazard is detected in a confined space, the entry supervisor must order entrants to evacuate immediately to prevent injuries."
+        },
+        {
+          "num": 26,
+          "question": "An employer must report any work-related in-patient hospitalization to OSHA within:",
+          "choices": [
+            "4 hours",
+            "8 hours",
+            "24 hours",
+            "48 hours"
+          ],
+          "answer": "C",
+          "explanation": "OSHA requires in-patient hospitalizations to be reported within 24 hours, compared to 8 hours for fatalities. This also applies to amputations and losses of an eye."
+        },
+        {
+          "num": 27,
+          "question": "Which root cause analysis method uses a diagram that categorizes causes into groups such as People, Methods, Equipment, Materials, and Environment?",
+          "choices": [
+            "Fault tree analysis",
+            "5 Why analysis",
+            "Fishbone (Ishikawa) diagram",
+            "Bow-tie analysis"
+          ],
+          "answer": "C",
+          "explanation": "The Fishbone (Ishikawa) diagram categorizes potential causes into groups such as People, Methods, Equipment, Materials, and Environment to systematically identify root causes."
+        },
+        {
+          "num": 28,
+          "question": "When developing a site-specific emergency action plan for a construction project, which element is LEAST essential?",
+          "choices": [
+            "Evacuation routes and assembly areas",
+            "Emergency contact numbers for local emergency services",
+            "Cost estimates for potential property damage",
+            "Procedures for accounting for all employees after an evacuation"
+          ],
+          "answer": "C",
+          "explanation": "Cost estimates for property damage are not essential to an emergency action plan. The plan must focus on evacuation procedures, emergency contacts, and employee accountability."
+        },
+        {
+          "num": 29,
+          "question": "In a construction incident investigation, 'direct cause' is BEST described as:",
+          "choices": [
+            "The management system failure that allowed the hazard to exist",
+            "The unsafe act or unsafe condition that directly led to the incident",
+            "The organizational policy that was violated",
+            "The root systemic deficiency in the safety program"
+          ],
+          "answer": "B",
+          "explanation": "The direct cause is the unsafe act or unsafe condition that immediately led to the incident. Root causes and contributing factors address underlying management system failures."
+        },
+        {
+          "num": 30,
+          "question": "Which type of fire extinguisher is appropriate for a construction site electrical fire?",
+          "choices": [
+            "Class A water extinguisher",
+            "Class B foam extinguisher",
+            "Class C rated dry chemical extinguisher",
+            "Class D metal extinguisher"
+          ],
+          "answer": "C",
+          "explanation": "Electrical fires require a Class C rated extinguisher. Using water (Class A) on an electrical fire creates an electrocution hazard. ABC-rated dry chemical extinguishers cover Class C fires."
+        },
+        {
+          "num": 31,
+          "question": "After a trench collapse rescue, the investigation team discovers that no protective system was in place despite the trench being 7 feet deep. This is classified as a violation of:",
+          "choices": [
+            "OSHA 1926.650",
+            "OSHA 1926.651",
+            "OSHA 1926.652",
+            "OSHA 1926.653"
+          ],
+          "answer": "C",
+          "explanation": "OSHA 1926.652 requires protective systems for trenches 5 feet or deeper. Failure to install sloping, shoring, or shielding violates this standard."
+        },
+        {
+          "num": 32,
+          "question": "The '5 Why' technique in incident investigation is primarily used to:",
+          "choices": [
+            "Identify the five most common hazards on a jobsite",
+            "Determine the root cause by repeatedly asking why an event occurred",
+            "Rank the five most severe incidents in a given year",
+            "Evaluate five potential corrective actions"
+          ],
+          "answer": "B",
+          "explanation": "The 5 Why technique involves repeatedly asking 'why' to move beyond symptoms and identify the root cause of an incident."
+        },
+        {
+          "num": 33,
+          "question": "During emergency response on a construction site, a muster point should be located:",
+          "choices": [
+            "Inside the construction trailer for shelter",
+            "At least 100 feet from the nearest building or hazard",
+            "At a safe distance upwind from the hazard in an area that does not impede emergency responders",
+            "Adjacent to the main entrance for quick headcount"
+          ],
+          "answer": "C",
+          "explanation": "Muster points should be at a safe distance upwind from hazards and positioned so they do not interfere with emergency responder access."
+        },
+        {
+          "num": 34,
+          "question": "Which of the following incidents would NOT require an entry on the OSHA 300 Log?",
+          "choices": [
+            "A worker fractures a wrist after falling from a ladder",
+            "A first aid-only treatment of a minor cut requiring only a bandage",
+            "A worker diagnosed with occupational hearing loss",
+            "A worker hospitalized overnight for heat stroke"
+          ],
+          "answer": "B",
+          "explanation": "First aid treatments such as applying a non-prescription bandage are not recordable on the OSHA 300 Log. Only injuries requiring medical treatment beyond first aid are recordable."
+        },
+        {
+          "num": 35,
+          "question": "Under the multi-employer worksite doctrine, the employer who created a hazardous condition is classified as the:",
+          "choices": [
+            "Exposing employer",
+            "Creating employer",
+            "Controlling employer",
+            "Correcting employer"
+          ],
+          "answer": "B",
+          "explanation": "Under the multi-employer citation policy, the creating employer is the one who caused the hazardous condition, even if its own employees are not exposed."
+        },
+        {
+          "num": 36,
+          "question": "OSHA 1926.95 requires employers to assess the workplace to determine if hazards are present that require the use of:",
+          "choices": [
+            "Engineering controls",
+            "Administrative controls",
+            "Personal protective equipment",
+            "Substitution measures"
+          ],
+          "answer": "C",
+          "explanation": "OSHA 1926.95 requires a hazard assessment to determine if PPE is necessary. This assessment must be documented and certified."
+        },
+        {
+          "num": 37,
+          "question": "Which OSHA standard specifically addresses safety training and education requirements in construction?",
+          "choices": [
+            "1926.20",
+            "1926.21",
+            "1926.32",
+            "1926.35"
+          ],
+          "answer": "B",
+          "explanation": "OSHA 1926.21 specifically addresses safety training and education requirements, mandating employer instruction in hazard recognition and avoidance."
+        },
+        {
+          "num": 38,
+          "question": "An employer on a multi-employer worksite has the responsibility to ensure that other employers correct hazards. This employer is classified as the:",
+          "choices": [
+            "Exposing employer",
+            "Creating employer",
+            "Controlling employer",
+            "Correcting employer"
+          ],
+          "answer": "C",
+          "explanation": "The controlling employer has general supervisory authority over the worksite and is responsible for ensuring other employers correct hazards, even if its own employees are not at risk."
+        },
+        {
+          "num": 39,
+          "question": "Which of the following is a requirement for an effective hot work permit program on a construction site?",
+          "choices": [
+            "Hot work permits are only needed indoors",
+            "A fire watch must be maintained during and for at least 30 minutes after hot work operations",
+            "Only welders need to be aware of the hot work permit",
+            "Hot work permits expire after 7 days"
+          ],
+          "answer": "B",
+          "explanation": "OSHA 1926.352 and NFPA 51B require a fire watch during hot work and for at least 30 minutes after completion to detect and extinguish smoldering fires."
+        },
+        {
+          "num": 40,
+          "question": "The OSHA 300A Summary form must be posted in the workplace from:",
+          "choices": [
+            "January 1 through March 1",
+            "January 1 through April 30",
+            "February 1 through April 30",
+            "February 1 through March 31"
+          ],
+          "answer": "C",
+          "explanation": "The OSHA 300A Summary must be posted from February 1 through April 30 each year in a conspicuous location where employee notices are customarily posted."
+        },
+        {
+          "num": 41,
+          "question": "Under OSHA 1926.59 (Hazard Communication), Safety Data Sheets (SDS) must be maintained and be accessible to workers:",
+          "choices": [
+            "Only upon written request",
+            "During each work shift",
+            "Within 48 hours of request",
+            "Only at the corporate office"
+          ],
+          "answer": "B",
+          "explanation": "OSHA 1926.59 (Hazard Communication) requires SDS to be readily accessible to employees during each work shift in their work area."
+        },
+        {
+          "num": 42,
+          "question": "Which hierarchy of controls measure is MOST effective in eliminating a construction hazard?",
+          "choices": [
+            "Personal protective equipment",
+            "Administrative controls",
+            "Engineering controls",
+            "Elimination"
+          ],
+          "answer": "D",
+          "explanation": "Elimination is the most effective control per the hierarchy of controls. It removes the hazard entirely rather than managing exposure to it."
+        },
+        {
+          "num": 43,
+          "question": "An employer must retain OSHA 300 logs and the annual summary for a minimum of:",
+          "choices": [
+            "1 year",
+            "3 years",
+            "5 years",
+            "7 years"
+          ],
+          "answer": "C",
+          "explanation": "OSHA 1904.33 requires employers to retain OSHA 300 logs and annual summaries for 5 years following the end of the calendar year they cover."
+        },
+        {
+          "num": 44,
+          "question": "Per OSHA 1926.502, a safety monitoring system can be used alone as fall protection only on:",
+          "choices": [
+            "All walking/working surfaces above 6 feet",
+            "Leading edges, precast concrete erection, or roofing work on low-slope roofs",
+            "Scaffolds above 10 feet",
+            "Any surface where guardrails are not feasible"
+          ],
+          "answer": "B",
+          "explanation": "OSHA 1926.502(h) allows a safety monitoring system alone only for leading edges, precast concrete erection, or residential construction work on low-slope roofs."
+        },
+        {
+          "num": 45,
+          "question": "Which of the following BEST describes the purpose of a Job Hazard Analysis (JHA)?",
+          "choices": [
+            "To assign blame for past incidents",
+            "To identify potential hazards in each step of a task and determine preventive measures",
+            "To calculate the total cost of workplace injuries",
+            "To evaluate worker productivity during hazardous tasks"
+          ],
+          "answer": "B",
+          "explanation": "A JHA breaks a task into individual steps, identifies potential hazards at each step, and determines preventive measures to control those hazards."
+        },
+        {
+          "num": 46,
+          "question": "Under OSHA recordkeeping requirements, which of the following is classified as a recordable injury?",
+          "choices": [
+            "A workplace injury treated with a non-prescription bandage",
+            "A worker receiving prescription medication for a work-related injury",
+            "A tetanus shot administered as a precaution",
+            "First aid treatment using butterfly bandages for a minor wound"
+          ],
+          "answer": "B",
+          "explanation": "Prescription medication for a work-related injury constitutes medical treatment beyond first aid and is recordable under OSHA 1904.7."
+        },
+        {
+          "num": 47,
+          "question": "A construction employer's written safety and health program must include, at minimum:",
+          "choices": [
+            "Only a drug testing policy",
+            "Provisions for frequent and regular inspections of the jobsite by competent persons",
+            "A list of all subcontractors' insurance policies",
+            "A schedule of annual safety meetings only"
+          ],
+          "answer": "B",
+          "explanation": "OSHA 1926.20(b)(2) requires provisions for frequent and regular inspections of the jobsite, materials, and equipment by competent persons designated by the employer."
+        },
+        {
+          "num": 48,
+          "question": "Which of the following is the PRIMARY purpose of a toolbox talk on a construction site?",
+          "choices": [
+            "To satisfy annual OSHA training requirements",
+            "To provide brief, focused safety reminders relevant to the day's work activities",
+            "To replace the site-specific safety orientation",
+            "To document worker attendance for payroll purposes"
+          ],
+          "answer": "B",
+          "explanation": "Toolbox talks are brief, focused safety discussions relevant to the day's specific work activities, typically lasting 5-15 minutes before work begins."
+        },
+        {
+          "num": 49,
+          "question": "Stop-work authority on a construction site means that:",
+          "choices": [
+            "Only the safety manager can halt operations",
+            "Any worker has the right and responsibility to stop work when an imminent danger is observed",
+            "Work can only be stopped by OSHA compliance officers",
+            "The general contractor must approve all work stoppages"
+          ],
+          "answer": "B",
+          "explanation": "Stop-work authority empowers any worker to halt operations when an imminent danger is observed. This is a fundamental element of a strong safety culture."
+        },
+        {
+          "num": 50,
+          "question": "A newly hired construction worker must receive safety orientation training:",
+          "choices": [
+            "Within 30 days of hire",
+            "Within the first week",
+            "Before beginning work assignments",
+            "After completing the probationary period"
+          ],
+          "answer": "C",
+          "explanation": "OSHA 1926.21 requires that employees receive safety orientation and training before beginning work assignments to ensure they understand site-specific hazards."
+        },
+        {
+          "num": 51,
+          "question": "Which leadership approach is MOST effective for building a positive safety culture on a construction project?",
+          "choices": [
+            "Focusing primarily on disciplinary actions for safety violations",
+            "Leading by example and actively participating in safety activities",
+            "Delegating all safety responsibilities to the safety department",
+            "Limiting safety communication to monthly reports"
+          ],
+          "answer": "B",
+          "explanation": "Leading by example and active participation in safety activities demonstrates management commitment, which is the foundation of a positive safety culture."
+        },
+        {
+          "num": 52,
+          "question": "Under OSHA 1926.21, the employer must instruct each employee in the recognition and avoidance of unsafe conditions and regulations applicable to the work environment. This training must be provided:",
+          "choices": [
+            "Annually",
+            "Before initial assignment and as needed",
+            "Quarterly",
+            "Only when requested by the employee"
+          ],
+          "answer": "B",
+          "explanation": "OSHA 1926.21(b)(2) requires training before initial assignment and whenever new hazards or changes in work conditions necessitate additional instruction."
+        },
+        {
+          "num": 53,
+          "question": "A competent person is BEST defined by OSHA as one who:",
+          "choices": [
+            "Has a college degree in safety management",
+            "Is capable of identifying existing and predictable hazards and has authority to take prompt corrective measures",
+            "Has completed OSHA 30-hour construction training",
+            "Has at least 10 years of construction experience"
+          ],
+          "answer": "B",
+          "explanation": "OSHA defines a competent person as one capable of identifying existing and predictable hazards and who has authority to take prompt corrective measures to eliminate them."
+        },
+        {
+          "num": 54,
+          "question": "Which communication method is MOST effective for conveying critical safety information to a multilingual construction workforce?",
+          "choices": [
+            "English-only written memos",
+            "Visual aids, pictograms, and demonstrations supplemented with multilingual materials",
+            "Posting regulations on the bulletin board only",
+            "Sending text messages to all workers"
+          ],
+          "answer": "B",
+          "explanation": "Visual aids, pictograms, demonstrations, and multilingual materials are most effective for communicating safety information to diverse workforces with varying language proficiency."
+        },
+        {
+          "num": 55,
+          "question": "A safety incentive program that rewards workers for not reporting injuries is problematic because it:",
+          "choices": [
+            "Costs too much to administer",
+            "May discourage injury reporting and violate OSHA anti-retaliation provisions",
+            "Is only effective on large construction projects",
+            "Conflicts with workers' compensation laws in all states"
+          ],
+          "answer": "B",
+          "explanation": "OSHA Section 11(c) prohibits retaliation for reporting injuries. Incentive programs that reward non-reporting may discourage legitimate injury reports and violate anti-retaliation provisions."
+        },
+        {
+          "num": 56,
+          "question": "Effective safety leadership on a construction project requires the CHST to:",
+          "choices": [
+            "Focus exclusively on regulatory compliance",
+            "Engage workers in safety planning and actively solicit their input on hazard controls",
+            "Limit safety discussions to formal meeting settings only",
+            "Rely solely on disciplinary measures to enforce safety rules"
+          ],
+          "answer": "B",
+          "explanation": "Engaging workers in safety planning and soliciting their input on hazard controls promotes ownership of safety and leads to more effective hazard control measures."
+        },
+        {
+          "num": 57,
+          "question": "The OSHA 10-hour and 30-hour Outreach Training Programs are:",
+          "choices": [
+            "Mandatory training required by federal OSHA for all construction workers",
+            "Voluntary programs that provide basic safety awareness, though some states and owners require them",
+            "Only available to safety managers and supervisors",
+            "Required only for workers on federal construction contracts"
+          ],
+          "answer": "B",
+          "explanation": "OSHA 10 and 30-hour Outreach Training Programs are voluntary at the federal level. However, some states, municipalities, and project owners require them."
+        },
+        {
+          "num": 58,
+          "question": "When conducting a pre-task planning meeting, the MOST important item to discuss is:",
+          "choices": [
+            "The project schedule and deadline pressures",
+            "Specific hazards associated with the day's tasks and the controls to be implemented",
+            "The cost of materials being used that day",
+            "Worker overtime schedules for the week"
+          ],
+          "answer": "B",
+          "explanation": "Pre-task planning meetings should focus on specific hazards of the day's tasks and the controls to be implemented, ensuring workers understand risks before work begins."
+        },
+        {
+          "num": 59,
+          "question": "A qualified person, as defined by OSHA, differs from a competent person in that a qualified person:",
+          "choices": [
+            "Has more field experience",
+            "Possesses a recognized degree, certificate, or professional standing and has demonstrated the ability to solve problems related to the subject matter",
+            "Has completed OSHA 30-hour training",
+            "Is designated by the employer to conduct daily inspections"
+          ],
+          "answer": "B",
+          "explanation": "OSHA defines a qualified person as one with a recognized degree, certificate, or professional standing who has demonstrated ability to solve problems in the relevant subject matter."
+        },
+        {
+          "num": 60,
+          "question": "The PRIMARY reason for documenting all safety training on a construction project is to:",
+          "choices": [
+            "Satisfy insurance company auditors only",
+            "Demonstrate compliance, track worker competency, and provide evidence of due diligence",
+            "Create paperwork to justify the safety department budget",
+            "Reduce the number of toolbox talks needed"
+          ],
+          "answer": "B",
+          "explanation": "Training documentation demonstrates regulatory compliance, tracks individual worker competency, and provides evidence of due diligence in the event of an inspection or litigation."
+        }
+      ]
+    },
+    {
+      "testNum": 2,
+      "questions": [
+        {
+          "num": 1,
+          "question": "A steel erection project requires perimeter safety cables around the building. Per OSHA 1926.760, these cables must be installed at what height above the working surface?",
+          "choices": [
+            "36 to 45 inches",
+            "39 to 45 inches",
+            "42 to 45 inches",
+            "45 to 48 inches"
+          ],
+          "answer": "B",
+          "explanation": "OSHA 1926.760(a)(2) requires perimeter safety cables during steel erection to be installed at 39 to 45 inches above the walking/working surface."
+        },
+        {
+          "num": 2,
+          "question": "Which of the following soil tests involves pressing a sample into a thread and observing whether it holds its shape?",
+          "choices": [
+            "Pocket penetrometer test",
+            "Thumb penetration test",
+            "Plasticity or ribbon test",
+            "Dry strength test"
+          ],
+          "answer": "C",
+          "explanation": "The plasticity or ribbon test involves pressing soil into a thread or ribbon to observe whether it holds its shape. Cohesive soils (Type A or B) maintain form; granular soils (Type C) crumble."
+        },
+        {
+          "num": 3,
+          "question": "A scaffold must be designed to support its own weight plus how many times the maximum intended load?",
+          "choices": [
+            "2 times",
+            "3 times",
+            "4 times",
+            "5 times"
+          ],
+          "answer": "C",
+          "explanation": "OSHA 1926.451(a)(1) requires scaffolds to be designed to support their own weight plus 4 times the maximum intended load without failure."
+        },
+        {
+          "num": 4,
+          "question": "A worker using a portable ladder leans it against a wall at a construction site. The correct setup angle requires the base to be placed how far from the wall for every 4 feet of ladder height?",
+          "choices": [
+            "6 inches",
+            "1 foot",
+            "1.5 feet",
+            "2 feet"
+          ],
+          "answer": "B",
+          "explanation": "The 4-to-1 rule requires the ladder base to be 1 foot from the wall for every 4 feet of ladder height, creating approximately a 75-degree angle."
+        },
+        {
+          "num": 5,
+          "question": "Which of the following is the MOST common type of crane-related fatality on construction sites?",
+          "choices": [
+            "Crane tip-over",
+            "Electrocution from contact with power lines",
+            "Falling materials from the load",
+            "Mechanical failure of the boom"
+          ],
+          "answer": "B",
+          "explanation": "Electrocution from contact with overhead power lines is the most common crane-related fatality on construction sites per OSHA fatality data."
+        },
+        {
+          "num": 6,
+          "question": "Under OSHA 1926.502(d), a personal fall arrest system must be rigged so that a worker cannot free fall more than:",
+          "choices": [
+            "4 feet",
+            "6 feet",
+            "8 feet",
+            "10 feet"
+          ],
+          "answer": "B",
+          "explanation": "OSHA 1926.502(d)(16)(iii) requires a personal fall arrest system to be rigged so a worker cannot free fall more than 6 feet."
+        },
+        {
+          "num": 7,
+          "question": "The OSHA permissible exposure limit (PEL) for noise in construction per 1926.52 is:",
+          "choices": [
+            "80 dBA over an 8-hour TWA",
+            "85 dBA over an 8-hour TWA",
+            "90 dBA over an 8-hour TWA",
+            "95 dBA over an 8-hour TWA"
+          ],
+          "answer": "C",
+          "explanation": "OSHA 1926.52 sets the PEL for construction noise at 90 dBA over an 8-hour TWA. Note this differs from the general industry action level of 85 dBA."
+        },
+        {
+          "num": 8,
+          "question": "Type A soil has an unconfined compressive strength of at least:",
+          "choices": [
+            "0.5 tons per square foot (tsf)",
+            "1.0 tsf",
+            "1.5 tsf",
+            "2.0 tsf"
+          ],
+          "answer": "C",
+          "explanation": "OSHA 1926 Subpart P Appendix A defines Type A soil as having an unconfined compressive strength of 1.5 tsf or greater."
+        },
+        {
+          "num": 9,
+          "question": "Which of the following materials poses the GREATEST risk of silica exposure when cut or ground on a construction site?",
+          "choices": [
+            "Wood",
+            "Aluminum",
+            "Concrete",
+            "Drywall"
+          ],
+          "answer": "C",
+          "explanation": "Concrete contains high levels of crystalline silica. Cutting, grinding, or drilling concrete generates respirable silica dust that can cause silicosis."
+        },
+        {
+          "num": 10,
+          "question": "A toe board on a scaffold must be at least how many inches in height?",
+          "choices": [
+            "2.5 inches",
+            "3.5 inches",
+            "4 inches",
+            "6 inches"
+          ],
+          "answer": "B",
+          "explanation": "OSHA 1926.451(h)(1) requires toeboards on scaffolds to be at least 3.5 inches (3-1/2 inches) in height."
+        },
+        {
+          "num": 11,
+          "question": "During demolition, OSHA 1926.850 requires that a competent person conduct an engineering survey BEFORE demolition begins to determine:",
+          "choices": [
+            "The resale value of salvaged materials",
+            "The condition of the structure and the possibility of unplanned collapse",
+            "The number of workers needed for the project",
+            "The type of equipment rental needed"
+          ],
+          "answer": "B",
+          "explanation": "OSHA 1926.850(a) requires a competent person to conduct an engineering survey to determine the structural condition and the possibility of unplanned collapse before demolition begins."
+        },
+        {
+          "num": 12,
+          "question": "Ground Fault Circuit Interrupters (GFCIs) are required on construction sites for:",
+          "choices": [
+            "All 240-volt circuits only",
+            "All 120-volt, single-phase, 15- and 20-ampere receptacle outlets not part of the permanent wiring",
+            "Only circuits powering heavy equipment",
+            "Only circuits in wet locations"
+          ],
+          "answer": "B",
+          "explanation": "OSHA 1926.405(a)(2)(ii) requires GFCIs on all 120-volt, single-phase, 15- and 20-ampere receptacle outlets on construction sites not part of the permanent wiring."
+        },
+        {
+          "num": 13,
+          "question": "A controlled access zone for leading edge work must extend how far back from the leading edge?",
+          "choices": [
+            "6 feet",
+            "10 feet",
+            "15 feet",
+            "25 feet"
+          ],
+          "answer": "B",
+          "explanation": "OSHA 1926.502(g) states a controlled access zone for leading edge work must extend 6 to 25 feet from the leading edge; the standard dimension used is typically 6-25 feet, with common application at 10 feet."
+        },
+        {
+          "num": 14,
+          "question": "Which of the following is NOT a recognized protective system for excavations under OSHA 1926.652?",
+          "choices": [
+            "Sloping",
+            "Benching",
+            "Shoring or shielding",
+            "Backfilling"
+          ],
+          "answer": "D",
+          "explanation": "OSHA 1926.652 recognizes sloping, benching, shoring, and shielding (trench boxes) as protective systems. Backfilling is not a recognized protective system for worker protection during excavation."
+        },
+        {
+          "num": 15,
+          "question": "The crane hand signal for 'Emergency Stop' is:",
+          "choices": [
+            "Both arms extended horizontally, palms down, waving arms back and forth",
+            "Arm extended with palm down, then moved rapidly right and left",
+            "Both fists clenched at waist level",
+            "One arm raised straight overhead with fist clenched"
+          ],
+          "answer": "A",
+          "explanation": "The standard crane hand signal for Emergency Stop is both arms extended horizontally with palms down, waving arms back and forth."
+        },
+        {
+          "num": 16,
+          "question": "Under OSHA 1926.62, when airborne lead levels exceed the PEL of 50 micrograms per cubic meter, the employer must provide:",
+          "choices": [
+            "Hearing protection",
+            "Respiratory protection and medical surveillance",
+            "Fall protection",
+            "Fire extinguisher training"
+          ],
+          "answer": "B",
+          "explanation": "OSHA 1926.62(d) requires respiratory protection when lead exposure exceeds the PEL, and 1926.62(j) requires medical surveillance for exposed workers."
+        },
+        {
+          "num": 17,
+          "question": "A self-retracting lifeline (SRL) that limits free fall distance to 2 feet or less must be capable of sustaining a minimum tensile load of:",
+          "choices": [
+            "1,800 pounds",
+            "3,000 pounds",
+            "3,600 pounds",
+            "5,000 pounds"
+          ],
+          "answer": "B",
+          "explanation": "OSHA 1926.502(d)(8) requires self-retracting lifelines that limit free fall to 2 feet or less to sustain a minimum tensile load of 3,000 pounds."
+        },
+        {
+          "num": 18,
+          "question": "When workers are exposed to vehicular traffic on a construction site, they must wear:",
+          "choices": [
+            "Steel-toed boots only",
+            "High-visibility warning vests or garments",
+            "Hard hats with chin straps",
+            "Hearing protection"
+          ],
+          "answer": "B",
+          "explanation": "OSHA 1926.201(a) requires workers exposed to vehicular traffic to wear high-visibility warning vests or garments made of reflectorized or high-visibility material."
+        },
+        {
+          "num": 19,
+          "question": "An excavation shoring system that uses metal or wooden members to brace the walls of an excavation is called:",
+          "choices": [
+            "Sloping",
+            "Benching",
+            "Shielding",
+            "Shoring"
+          ],
+          "answer": "D",
+          "explanation": "Shoring uses metal or wooden members (hydraulic, timber, or mechanical) to brace excavation walls and prevent cave-ins."
+        },
+        {
+          "num": 20,
+          "question": "The maximum gap between scaffold planks and between the platform and uprights must not exceed:",
+          "choices": [
+            "1/2 inch",
+            "1 inch",
+            "1.5 inches",
+            "2 inches"
+          ],
+          "answer": "B",
+          "explanation": "OSHA 1926.451(b)(1) requires scaffold platform gaps not to exceed 1 inch between adjacent planks and between the platform and uprights."
+        },
+        {
+          "num": 21,
+          "question": "Which of the following health hazards is MOST associated with prolonged work on vibrating equipment such as jackhammers?",
+          "choices": [
+            "Hearing loss only",
+            "Hand-arm vibration syndrome (HAVS)",
+            "Heat stress",
+            "Chemical sensitization"
+          ],
+          "answer": "B",
+          "explanation": "Hand-arm vibration syndrome (HAVS) results from prolonged use of vibrating tools like jackhammers and can cause numbness, tingling, and loss of grip strength."
+        },
+        {
+          "num": 22,
+          "question": "Under OSHA 1926.1101, before renovation or demolition work begins in a building constructed before 1980, the employer must:",
+          "choices": [
+            "Assume no asbestos is present and proceed",
+            "Presume asbestos-containing materials are present or have a survey conducted by a competent person",
+            "Only test materials that appear damaged",
+            "Obtain a waiver from the building owner"
+          ],
+          "answer": "B",
+          "explanation": "OSHA 1926.1101(k)(1) requires that before renovation or demolition in pre-1980 buildings, the employer presume ACM is present unless a survey by a competent person determines otherwise."
+        },
+        {
+          "num": 23,
+          "question": "An amputation resulting from a work-related incident must be reported to OSHA within:",
+          "choices": [
+            "4 hours",
+            "8 hours",
+            "24 hours",
+            "48 hours"
+          ],
+          "answer": "C",
+          "explanation": "OSHA requires amputation reporting within 24 hours, the same timeframe as in-patient hospitalizations and losses of an eye. Fatalities require 8-hour reporting."
+        },
+        {
+          "num": 24,
+          "question": "In a construction incident investigation, which type of evidence is considered the LEAST reliable?",
+          "choices": [
+            "Physical evidence from the scene",
+            "Photographs taken immediately after the incident",
+            "A single eyewitness account given days after the event",
+            "Equipment maintenance records"
+          ],
+          "answer": "C",
+          "explanation": "A single eyewitness account given days after an event is the least reliable due to memory decay and potential bias. Physical evidence and immediate documentation are more reliable."
+        },
+        {
+          "num": 25,
+          "question": "A Fault Tree Analysis (FTA) in incident investigation is used to:",
+          "choices": [
+            "Calculate the financial cost of incidents",
+            "Identify all possible combinations of events that could lead to a specific undesired event",
+            "Determine the appropriate disciplinary action",
+            "Create a timeline of worker activities"
+          ],
+          "answer": "B",
+          "explanation": "Fault Tree Analysis uses a top-down, deductive approach to identify all possible combinations of events (basic, intermediate, and undeveloped) that could lead to a specific undesired event."
+        },
+        {
+          "num": 26,
+          "question": "During a construction site emergency evacuation, the PRIMARY responsibility of the site safety coordinator is to:",
+          "choices": [
+            "Personally extinguish any fires",
+            "Account for all personnel at the designated assembly point",
+            "Drive equipment to a safe location",
+            "Contact the media about the incident"
+          ],
+          "answer": "B",
+          "explanation": "The primary responsibility during evacuation is accounting for all personnel at the assembly point. This ensures no one is left in danger and provides critical information to emergency responders."
+        },
+        {
+          "num": 27,
+          "question": "A 'near miss' on a construction site should be:",
+          "choices": [
+            "Ignored because no injury occurred",
+            "Investigated with the same rigor as an actual incident to prevent future occurrences",
+            "Reported only if the project owner requests it",
+            "Documented only if it involved heavy equipment"
+          ],
+          "answer": "B",
+          "explanation": "Near misses should be investigated with the same rigor as actual incidents because they indicate the presence of hazards that could result in future injuries or fatalities."
+        },
+        {
+          "num": 28,
+          "question": "Atmospheric testing in a permit-required confined space must be performed in which order?",
+          "choices": [
+            "Flammability, oxygen, toxic gases",
+            "Toxic gases, oxygen, flammability",
+            "Oxygen, flammability, toxic gases",
+            "The order does not matter as long as all three are tested"
+          ],
+          "answer": "C",
+          "explanation": "OSHA 1926.1204(e) requires atmospheric testing in the order: oxygen first (to ensure accurate readings), then flammability, then toxic gases."
+        },
+        {
+          "num": 29,
+          "question": "Which of the following is an example of a 'contributing cause' in an incident investigation?",
+          "choices": [
+            "The direct physical contact with the hazard",
+            "Inadequate lighting in the work area that made the hazard harder to detect",
+            "The type of hard hat the worker was wearing",
+            "The weather forecast for the following day"
+          ],
+          "answer": "B",
+          "explanation": "A contributing cause is a condition or factor that, while not the direct cause, contributed to the incident. Inadequate lighting that makes hazards harder to detect is a classic contributing cause."
+        },
+        {
+          "num": 30,
+          "question": "OSHA requires employers to report any work-related loss of an eye within:",
+          "choices": [
+            "4 hours",
+            "8 hours",
+            "24 hours",
+            "30 days"
+          ],
+          "answer": "C",
+          "explanation": "Loss of an eye must be reported to OSHA within 24 hours, the same as in-patient hospitalizations and amputations."
+        },
+        {
+          "num": 31,
+          "question": "The Bow-Tie analysis method in risk management connects:",
+          "choices": [
+            "Only the cause of an incident to preventive barriers",
+            "The causes and consequences of a hazardous event through preventive and mitigating barriers",
+            "The cost of prevention to the cost of response",
+            "Worker training records to incident frequency"
+          ],
+          "answer": "B",
+          "explanation": "Bow-Tie analysis maps the causes (threats) on the left and consequences on the right of a central hazardous event, connected through preventive barriers (left) and mitigating barriers (right)."
+        },
+        {
+          "num": 32,
+          "question": "When developing an emergency response plan for a multi-story construction project, the plan MUST include:",
+          "choices": [
+            "Only ground-level evacuation routes",
+            "Specific procedures for evacuating workers from elevated work areas including cranes and scaffolds",
+            "A guarantee that no emergencies will occur",
+            "Insurance claim forms for each potential scenario"
+          ],
+          "answer": "B",
+          "explanation": "Multi-story construction requires specific evacuation procedures for workers at elevated positions, including crane operators, scaffold workers, and those on upper floors."
+        },
+        {
+          "num": 33,
+          "question": "Which OSHA standard specifically addresses confined spaces in construction?",
+          "choices": [
+            "1926.21",
+            "1926.146",
+            "1926.1200 through 1926.1213",
+            "1926.550"
+          ],
+          "answer": "C",
+          "explanation": "OSHA 1926.1200 through 1926.1213 (Subpart AA) specifically addresses confined spaces in construction, effective May 2015, replacing reliance on the general industry standard 1910.146."
+        },
+        {
+          "num": 34,
+          "question": "After a struck-by incident involving a crane load, the investigation team should FIRST:",
+          "choices": [
+            "Release the crane operator to go home",
+            "Secure the scene and impound the crane, rigging, and load for examination",
+            "Resume crane operations with a different operator",
+            "Repaint the crane to remove damage evidence"
+          ],
+          "answer": "B",
+          "explanation": "Securing the scene and impounding the crane, rigging, and load for examination preserves critical evidence. Releasing the operator or resuming operations would compromise the investigation."
+        },
+        {
+          "num": 35,
+          "question": "Under the multi-employer citation policy, the 'exposing employer' is defined as the employer whose:",
+          "choices": [
+            "Workers created the hazardous condition",
+            "Workers are exposed to the hazard",
+            "Contract gives them authority over the jobsite",
+            "Responsibility is to correct the hazard"
+          ],
+          "answer": "B",
+          "explanation": "The exposing employer has workers who are exposed to the hazard, regardless of who created it. This employer may be cited if it knew or should have known of the hazard and failed to protect its workers."
+        },
+        {
+          "num": 36,
+          "question": "A written Hazard Communication Program under OSHA 1926.59 must include all of the following EXCEPT:",
+          "choices": [
+            "A list of known hazardous chemicals in the workplace",
+            "Methods for informing employees of hazards of non-routine tasks",
+            "Annual blood testing for all employees",
+            "Methods the employer will use to inform other employers of hazards"
+          ],
+          "answer": "C",
+          "explanation": "Annual blood testing for all employees is not a requirement of the Hazard Communication standard. The written program must include a chemical list, SDS access, labeling, and employee information methods."
+        },
+        {
+          "num": 37,
+          "question": "OSHA's General Duty Clause (Section 5(a)(1)) requires employers to:",
+          "choices": [
+            "Provide safety training every 30 days",
+            "Furnish a workplace free from recognized hazards that are causing or likely to cause death or serious harm",
+            "Hire only OSHA-certified workers",
+            "Conduct daily air monitoring at all construction sites"
+          ],
+          "answer": "B",
+          "explanation": "The General Duty Clause requires employers to furnish a workplace free from recognized hazards likely to cause death or serious physical harm. It applies when no specific OSHA standard covers the hazard."
+        },
+        {
+          "num": 38,
+          "question": "A correcting employer under the multi-employer worksite doctrine is one who:",
+          "choices": [
+            "Created the hazardous condition",
+            "Has the contractual authority to correct the hazard",
+            "Has workers exposed to the hazard",
+            "Controls the overall jobsite"
+          ],
+          "answer": "B",
+          "explanation": "The correcting employer is the one with contractual authority (but not necessarily overall site control) to correct the identified hazard."
+        },
+        {
+          "num": 39,
+          "question": "Which of the following is required on an OSHA 301 Incident Report form?",
+          "choices": [
+            "Only the employee's name and date of injury",
+            "A description of how the injury occurred, the object or substance that directly harmed the employee, and date of injury",
+            "Only the attending physician's diagnosis",
+            "The employee's annual salary information"
+          ],
+          "answer": "B",
+          "explanation": "OSHA Form 301 requires detailed information including how the injury occurred, the object or substance involved, the date and time, and the nature of the injury."
+        },
+        {
+          "num": 40,
+          "question": "A site-specific safety plan for a construction project should be reviewed and updated:",
+          "choices": [
+            "Only at the beginning of the project",
+            "Whenever conditions change, new hazards are introduced, or after an incident",
+            "Only when OSHA conducts an inspection",
+            "At the end of the project for the final report"
+          ],
+          "answer": "B",
+          "explanation": "Safety plans must be living documents, reviewed and updated whenever conditions change, new hazards are introduced, after incidents, or when new phases of work begin."
+        },
+        {
+          "num": 41,
+          "question": "Which OSHA standard requires employers to provide PPE at no cost to employees?",
+          "choices": [
+            "1926.20",
+            "1926.28",
+            "1926.95",
+            "1926.100"
+          ],
+          "answer": "C",
+          "explanation": "OSHA 1926.95(d) requires employers to provide PPE at no cost to employees when PPE is required to protect against workplace hazards."
+        },
+        {
+          "num": 42,
+          "question": "An effective safety audit on a construction site should include:",
+          "choices": [
+            "Only a review of the OSHA 300 log",
+            "Inspection of physical conditions, review of documentation, interviews with workers, and observation of work practices",
+            "Only counting the number of hard hats on site",
+            "A review of the project budget only"
+          ],
+          "answer": "B",
+          "explanation": "An effective safety audit is comprehensive, including physical inspections, documentation review, worker interviews, and observation of work practices to evaluate overall program effectiveness."
+        },
+        {
+          "num": 43,
+          "question": "A competent person for excavation must inspect trenches at what frequency?",
+          "choices": [
+            "Weekly",
+            "Monthly",
+            "Daily and as conditions change (after rainstorms, etc.)",
+            "Only before initial entry"
+          ],
+          "answer": "C",
+          "explanation": "OSHA 1926.651(k)(1) requires a competent person to inspect excavations daily before the start of work, as needed throughout the shift, and after every rainstorm or other hazard-increasing occurrence."
+        },
+        {
+          "num": 44,
+          "question": "Which of the following is an engineering control for reducing silica exposure on a construction site?",
+          "choices": [
+            "Rotating workers to limit individual exposure time",
+            "Using a water spray system to suppress dust during cutting operations",
+            "Requiring workers to wear N95 respirators",
+            "Posting warning signs in the work area"
+          ],
+          "answer": "B",
+          "explanation": "Water spray systems to suppress dust are engineering controls because they modify the environment to reduce exposure at the source, rather than relying on worker behavior or PPE."
+        },
+        {
+          "num": 45,
+          "question": "OSHA requires that a fire prevention plan for a construction site address all of the following EXCEPT:",
+          "choices": [
+            "Major workplace fire hazards and proper handling/storage of hazardous materials",
+            "Potential ignition sources and their control",
+            "Fire protection equipment needed for each major hazard",
+            "The brand and model number of each fire extinguisher on site"
+          ],
+          "answer": "D",
+          "explanation": "The brand and model number of fire extinguishers is not required. The fire prevention plan must address fire hazards, ignition sources, procedures, equipment types needed, and responsible personnel."
+        },
+        {
+          "num": 46,
+          "question": "Under OSHA 1926 Subpart CC (Cranes and Derricks), a qualified rigger must:",
+          "choices": [
+            "Have at least 20 years of experience",
+            "Be able to demonstrate competence in rigging and an understanding of load dynamics",
+            "Hold a state-issued rigging license in all cases",
+            "Only rig loads weighing over 10 tons"
+          ],
+          "answer": "B",
+          "explanation": "OSHA 1926.1401 defines a qualified rigger as one who can demonstrate competence through training or experience in proper rigging practices and understanding of load dynamics."
+        },
+        {
+          "num": 47,
+          "question": "A permit-required confined space program in construction per OSHA 1926.1203 must include:",
+          "choices": [
+            "Only a list of the confined spaces on the project",
+            "Procedures for identifying, evaluating, and controlling hazards before entry, including atmospheric testing and rescue provisions",
+            "A requirement that only supervisors enter confined spaces",
+            "Annual certification by a third-party auditor"
+          ],
+          "answer": "B",
+          "explanation": "OSHA 1926.1203 requires a comprehensive program including hazard identification/evaluation, atmospheric testing, ventilation, entry procedures, rescue provisions, and training."
+        },
+        {
+          "num": 48,
+          "question": "Which training topic is MOST critical during a new worker orientation on a high-rise construction project?",
+          "choices": [
+            "Company vacation policy",
+            "Fall protection requirements and emergency procedures specific to the project",
+            "History of the construction company",
+            "Details of the project financing"
+          ],
+          "answer": "B",
+          "explanation": "On a high-rise project, fall protection and emergency procedures are the most critical orientation topics due to the inherent fall hazards and complexity of elevated work."
+        },
+        {
+          "num": 49,
+          "question": "A 'qualified person' for designing fall protection systems must have:",
+          "choices": [
+            "At least 5 years of field experience",
+            "A recognized degree, certificate, or professional standing with demonstrated ability to solve fall protection problems",
+            "Completed the OSHA 30-hour construction course",
+            "Been nominated by the general contractor"
+          ],
+          "answer": "B",
+          "explanation": "OSHA defines a qualified person as one with a recognized degree, certificate, or professional standing who has demonstrated ability to solve problems in the relevant subject matter."
+        },
+        {
+          "num": 50,
+          "question": "Effective safety communication on a construction site is BEST demonstrated by:",
+          "choices": [
+            "Posting a single safety notice at the project entrance",
+            "Regular two-way communication between management and workers including feedback mechanisms",
+            "Sending weekly emails that workers are not required to read",
+            "Relying solely on the project manager to relay safety information"
+          ],
+          "answer": "B",
+          "explanation": "Effective safety communication requires regular two-way dialogue between management and workers with feedback mechanisms, not just one-way information distribution."
+        },
+        {
+          "num": 51,
+          "question": "A CHST discovers that a subcontractor's workers are not wearing required eye protection while grinding metal. The MOST appropriate initial action is to:",
+          "choices": [
+            "Ignore it because they are not your employees",
+            "Immediately stop the work and notify the subcontractor's supervisor of the violation",
+            "File a complaint with OSHA",
+            "Wait until the next safety meeting to mention it"
+          ],
+          "answer": "B",
+          "explanation": "The CHST should immediately stop the unsafe work and notify the subcontractor's supervisor. Imminent hazards require prompt corrective action regardless of employer relationships."
+        },
+        {
+          "num": 52,
+          "question": "Under OSHA regulations, refresher training for construction workers is required when:",
+          "choices": [
+            "Only on an annual basis",
+            "The worker demonstrates a lack of understanding or when changes in the workplace create new hazards",
+            "The worker requests it in writing",
+            "The project owner mandates it in the contract"
+          ],
+          "answer": "B",
+          "explanation": "Refresher training is required when workers demonstrate lack of understanding, when workplace changes create new hazards, or when incidents indicate a training deficiency."
+        },
+        {
+          "num": 53,
+          "question": "The PRIMARY benefit of involving workers in developing site-specific safety procedures is:",
+          "choices": [
+            "It reduces the safety manager's workload",
+            "Workers are more likely to follow procedures they helped create and can identify practical hazard controls",
+            "It eliminates the need for formal safety training",
+            "It satisfies insurance requirements only"
+          ],
+          "answer": "B",
+          "explanation": "Worker involvement in developing safety procedures increases buy-in and compliance. Workers have firsthand knowledge of practical hazards and can identify effective, workable controls."
+        },
+        {
+          "num": 54,
+          "question": "Which of the following is the BEST indicator of an effective safety culture on a construction project?",
+          "choices": [
+            "Zero OSHA citations in the past year",
+            "Workers voluntarily reporting hazards and near misses without fear of retaliation",
+            "The lowest bid on safety equipment",
+            "A single posted safety policy document"
+          ],
+          "answer": "B",
+          "explanation": "Voluntary reporting of hazards and near misses without fear of retaliation is the strongest indicator of a positive safety culture where trust and open communication exist."
+        },
+        {
+          "num": 55,
+          "question": "OSHA 1926.21 requires that employers instruct employees in which of the following?",
+          "choices": [
+            "Only the use of PPE",
+            "Recognition and avoidance of unsafe conditions and regulations applicable to the work environment to control or eliminate hazards",
+            "The employer's profit margin on the project",
+            "Only those hazards that have caused fatalities"
+          ],
+          "answer": "B",
+          "explanation": "OSHA 1926.21(b)(2) requires employers to instruct workers in recognition and avoidance of unsafe conditions and the regulations applicable to their work environment."
+        },
+        {
+          "num": 56,
+          "question": "A daily safety huddle on a construction site is MOST effective when it includes:",
+          "choices": [
+            "A review of the entire project safety manual",
+            "A brief discussion of the day's specific tasks, associated hazards, and control measures",
+            "Only a roll call of present workers",
+            "Distribution of written memos without discussion"
+          ],
+          "answer": "B",
+          "explanation": "Daily safety huddles are most effective when they briefly address the specific tasks, hazards, and controls for that day, keeping the information relevant and actionable."
+        },
+        {
+          "num": 57,
+          "question": "When a construction worker refuses to work because of a perceived imminent danger, the CHST should:",
+          "choices": [
+            "Terminate the worker immediately",
+            "Investigate the concern, evaluate the hazard, and take appropriate corrective action before allowing work to resume",
+            "Tell the worker they have no right to refuse work",
+            "Ignore the complaint and reassign the worker to another task"
+          ],
+          "answer": "B",
+          "explanation": "Under OSHA Section 11(c), workers have the right to refuse work they believe poses imminent danger. The CHST must investigate, evaluate, and correct hazards before resuming work."
+        },
+        {
+          "num": 58,
+          "question": "Behavioral-based safety (BBS) observations on a construction site are MOST effective when:",
+          "choices": [
+            "Used exclusively to identify workers who will be disciplined",
+            "Focused on observing at-risk behaviors and reinforcing safe behaviors through positive feedback",
+            "Conducted only by corporate safety staff visiting the site",
+            "Performed once at the beginning of the project"
+          ],
+          "answer": "B",
+          "explanation": "BBS is most effective when observations focus on identifying at-risk behaviors and reinforcing safe behaviors through positive feedback, creating a non-punitive learning environment."
+        },
+        {
+          "num": 59,
+          "question": "A mentor/buddy system for new construction workers is valuable because it:",
+          "choices": [
+            "Replaces the need for formal safety orientation",
+            "Pairs experienced workers with new hires to provide hands-on guidance on safe work practices and site-specific hazards",
+            "Allows new workers to skip required training",
+            "Is mandated by OSHA for all construction projects"
+          ],
+          "answer": "B",
+          "explanation": "Mentor/buddy systems supplement formal training by providing hands-on guidance from experienced workers who can share practical knowledge of site-specific hazards and safe practices."
+        },
+        {
+          "num": 60,
+          "question": "The MOST effective way to measure the success of a construction safety training program is to:",
+          "choices": [
+            "Count only the number of training hours delivered",
+            "Evaluate changes in worker behavior, reduction in incidents, and demonstrated competency through observation and testing",
+            "Compare the training budget to the industry average",
+            "Survey only management on their perception of training quality"
+          ],
+          "answer": "B",
+          "explanation": "Training effectiveness is best measured through behavioral change, incident reduction, and demonstrated competency -- not just hours delivered or money spent."
+        }
+      ]
+    },
+    {
+      "testNum": 3,
+      "questions": [
+        {
+          "num": 1,
+          "question": "A worker on a residential construction site is shingling a roof with a slope of 6:12. Per OSHA 1926.501, what fall protection methods are acceptable?",
+          "choices": [
+            "Guardrail system only",
+            "Guardrail system, safety net system, or personal fall arrest system",
+            "Warning line system only",
+            "Safety monitoring system only without any other fall protection"
+          ],
+          "answer": "B",
+          "explanation": "OSHA 1926.501(b)(11) requires guardrail systems, safety net systems, or personal fall arrest systems for workers on steep roofs (slope greater than 4:12) in residential construction."
+        },
+        {
+          "num": 2,
+          "question": "Which OSHA standard requires that all protruding reinforcing steel onto and into which workers could fall must be guarded?",
+          "choices": [
+            "1926.500",
+            "1926.701(b)",
+            "1926.750",
+            "1926.502"
+          ],
+          "answer": "B",
+          "explanation": "OSHA 1926.701(b) requires that all protruding reinforcing steel onto and into which employees could fall be guarded to eliminate the impalement hazard by covering with protective caps or troughs."
+        },
+        {
+          "num": 3,
+          "question": "A trench is 20 feet deep in Type B soil. Benching alone is permitted for Type B soil to a maximum depth of:",
+          "choices": [
+            "10 feet",
+            "15 feet",
+            "20 feet",
+            "There is no depth limit for benching in Type B"
+          ],
+          "answer": "C",
+          "explanation": "OSHA 1926.652 Appendix B allows benching in Type B soil to a maximum depth of 20 feet. Beyond 20 feet, the excavation must be designed by a registered professional engineer."
+        },
+        {
+          "num": 4,
+          "question": "During scaffold erection, a competent person must determine that the scaffold foundation is:",
+          "choices": [
+            "Level and capable of supporting the scaffold without settling or displacement",
+            "Paved with concrete at least 4 inches thick",
+            "Located at least 20 feet from any structure",
+            "Approved by a registered professional engineer in all cases"
+          ],
+          "answer": "A",
+          "explanation": "OSHA 1926.451(c)(2) requires the competent person to determine the scaffold foundation is firm, level, and capable of supporting the loaded scaffold without settling or displacement."
+        },
+        {
+          "num": 5,
+          "question": "The OSHA standard for electrical safety in construction, Subpart K (1926.400-449), requires that all electrical equipment and wiring in hazardous locations be:",
+          "choices": [
+            "Painted with reflective paint",
+            "Approved for the specific class of hazard present",
+            "Inspected annually by a licensed electrician only",
+            "Replaced every 5 years"
+          ],
+          "answer": "B",
+          "explanation": "OSHA 1926.407 requires electrical equipment in hazardous (classified) locations to be approved for the specific class, division, and group of hazard present."
+        },
+        {
+          "num": 6,
+          "question": "A horizontal lifeline system used for fall protection must be designed, installed, and used under the supervision of a:",
+          "choices": [
+            "Competent person only",
+            "Qualified person",
+            "Safety manager",
+            "General contractor"
+          ],
+          "answer": "B",
+          "explanation": "OSHA 1926.502(d)(8) requires that horizontal lifeline systems be designed, installed, and used under the supervision of a qualified person."
+        },
+        {
+          "num": 7,
+          "question": "Which of the following is a primary health effect of chronic exposure to lead in construction workers?",
+          "choices": [
+            "Improved bone density",
+            "Kidney damage and neurological effects",
+            "Enhanced respiratory function",
+            "Increased hearing sensitivity"
+          ],
+          "answer": "B",
+          "explanation": "Chronic lead exposure causes kidney damage, neurological effects, reproductive harm, and elevated blood pressure. OSHA 1926.62 addresses lead exposure controls in construction."
+        },
+        {
+          "num": 8,
+          "question": "A mobile crane is set up near an excavation. OSHA requires the crane to be placed far enough from the edge to prevent:",
+          "choices": [
+            "Noise disturbance to nearby residents",
+            "Cave-in of the excavation wall due to superimposed loads",
+            "Dust generation from crane exhaust",
+            "Interference with overhead aircraft"
+          ],
+          "answer": "B",
+          "explanation": "OSHA 1926.651(i)(2) requires equipment near excavations to be set back far enough to prevent the additional weight (superimposed load) from causing wall collapse."
+        },
+        {
+          "num": 9,
+          "question": "The signal for 'Lower the Load' in standard crane hand signals is:",
+          "choices": [
+            "Arm extended horizontally with thumb pointing down",
+            "Arm extended downward with forefinger pointing down, making small circular motions",
+            "Both arms crossed overhead",
+            "One arm extended horizontally making a pushing motion"
+          ],
+          "answer": "A",
+          "explanation": "The standard crane hand signal for 'Lower the Load' is arm extended horizontally with thumb pointing down."
+        },
+        {
+          "num": 10,
+          "question": "Under OSHA 1926.1153 (Silica in Construction), Table 1 specifies engineering controls and work practices for specific tasks. When an employer follows Table 1 fully, the employer:",
+          "choices": [
+            "Is exempt from all silica requirements",
+            "Is not required to conduct exposure assessments for that task",
+            "Never needs to provide respirators",
+            "Does not need a written exposure control plan"
+          ],
+          "answer": "B",
+          "explanation": "OSHA 1926.1153(c)(1) states that employers who fully and properly implement Table 1 controls for a specific task are not required to conduct exposure assessments for workers performing that task."
+        },
+        {
+          "num": 11,
+          "question": "Which of the following scaffolding components provides diagonal bracing between the inner and outer scaffold frames?",
+          "choices": [
+            "Guardrails",
+            "Cross braces",
+            "Base plates",
+            "Mud sills"
+          ],
+          "answer": "B",
+          "explanation": "Cross braces provide diagonal bracing between the inner and outer frames of a scaffold, adding lateral stability to the structure."
+        },
+        {
+          "num": 12,
+          "question": "A struck-by hazard from flying debris is MOST likely during which construction activity?",
+          "choices": [
+            "Painting exterior walls",
+            "Using a chop saw to cut masonry blocks",
+            "Surveying the site with GPS equipment",
+            "Installing interior drywall panels"
+          ],
+          "answer": "B",
+          "explanation": "Using a chop saw to cut masonry blocks generates high-velocity debris fragments that create a struck-by hazard from flying objects."
+        },
+        {
+          "num": 13,
+          "question": "OSHA 1926.651(c)(1)(iii) requires that underground utility installations be protected, supported, or removed when excavation operations approach the utility. The utility owner must be contacted at least how many hours before excavation begins (in most states)?",
+          "choices": [
+            "12 hours",
+            "24 hours",
+            "48 hours",
+            "72 hours"
+          ],
+          "answer": "C",
+          "explanation": "Most state One-Call/811 laws require notification 48 hours (2 business days) before excavation. OSHA 1926.651(b) requires establishing underground utility locations before excavation begins."
+        },
+        {
+          "num": 14,
+          "question": "A worker enters a manhole on a construction site to inspect underground piping. This space is MOST likely classified as:",
+          "choices": [
+            "An open excavation",
+            "A permit-required confined space",
+            "A controlled access zone",
+            "A regulated area"
+          ],
+          "answer": "B",
+          "explanation": "A manhole meets the definition of a permit-required confined space: large enough to enter, limited entry/exit, not designed for continuous occupancy, and may contain atmospheric or engulfment hazards."
+        },
+        {
+          "num": 15,
+          "question": "Which of the following fall protection methods uses a system of stanchions and wire rope installed along exposed edges?",
+          "choices": [
+            "Personal fall arrest system",
+            "Safety net system",
+            "Warning line system",
+            "Guardrail system using wire rope"
+          ],
+          "answer": "D",
+          "explanation": "A guardrail system using wire rope and stanchions serves as a perimeter barrier. Wire rope guardrails must meet the strength and deflection requirements of OSHA 1926.502(b)."
+        },
+        {
+          "num": 16,
+          "question": "Under OSHA 1926.502(c), safety net systems must be installed as close as practicable below the walking/working surface but not more than how many feet below?",
+          "choices": [
+            "15 feet",
+            "20 feet",
+            "25 feet",
+            "30 feet"
+          ],
+          "answer": "D",
+          "explanation": "OSHA 1926.502(c)(1) requires safety nets to be installed as close as practicable below the working surface but no more than 30 feet below."
+        },
+        {
+          "num": 17,
+          "question": "The primary hazard of working in a below-grade excavation near a gasoline storage tank leak is:",
+          "choices": [
+            "Excessive noise levels",
+            "Accumulation of flammable vapors in the excavation",
+            "UV radiation exposure",
+            "Ergonomic strain from confined postures"
+          ],
+          "answer": "B",
+          "explanation": "Flammable vapors from gasoline are heavier than air and accumulate in low-lying areas like excavations, creating explosion and fire hazards."
+        },
+        {
+          "num": 18,
+          "question": "During steel erection, controlled decking zone (CDZ) procedures per OSHA 1926.760(c) allow workers to work WITHOUT conventional fall protection if the zone does not exceed how many feet?",
+          "choices": [
+            "30 feet wide and 90 feet long",
+            "45 feet wide and 90 feet long",
+            "60 feet wide and 120 feet long",
+            "90 feet wide and 90 feet long"
+          ],
+          "answer": "A",
+          "explanation": "OSHA 1926.760(c)(3) limits controlled decking zones to 90 feet wide and 90 feet long. The zone width is commonly 30 feet, and the overall CDZ dimensions are limited as noted."
+        },
+        {
+          "num": 19,
+          "question": "A caught-in/between hazard is MOST likely to occur when a worker:",
+          "choices": [
+            "Walks beneath a suspended load",
+            "Reaches into an unguarded rotating auger to remove debris",
+            "Steps on a loose floorboard at height",
+            "Touches a damaged extension cord"
+          ],
+          "answer": "B",
+          "explanation": "Reaching into an unguarded rotating auger is a classic caught-in hazard. Workers can be pulled into or entangled in rotating machinery components."
+        },
+        {
+          "num": 20,
+          "question": "OSHA requires that portable ladders used to access an upper landing surface extend at least how many feet above the landing?",
+          "choices": [
+            "2 feet",
+            "3 feet",
+            "4 feet",
+            "5 feet"
+          ],
+          "answer": "B",
+          "explanation": "OSHA 1926.1053(b)(1) requires portable ladders to extend at least 3 feet above the upper landing surface to provide a secure handhold."
+        },
+        {
+          "num": 21,
+          "question": "Which of the following is the correct action level for respirable crystalline silica under OSHA 1926.1153?",
+          "choices": [
+            "10 micrograms per cubic meter",
+            "25 micrograms per cubic meter",
+            "50 micrograms per cubic meter",
+            "100 micrograms per cubic meter"
+          ],
+          "answer": "B",
+          "explanation": "OSHA 1926.1153(b) defines the action level for respirable crystalline silica at 25 micrograms per cubic meter as an 8-hour TWA, which triggers exposure monitoring requirements."
+        },
+        {
+          "num": 22,
+          "question": "A worker performing hot work (welding) on a metal container that previously held a flammable solvent is at greatest risk of:",
+          "choices": [
+            "Falls from heights",
+            "Explosion from residual vapors inside the container",
+            "Hearing loss from welding noise",
+            "Electrical shock from the welding ground clamp"
+          ],
+          "answer": "B",
+          "explanation": "Welding on a container with residual flammable vapors creates an explosion risk. OSHA 1926.352(i) requires containers to be thoroughly cleaned, purged, or filled with inert gas before hot work."
+        },
+        {
+          "num": 23,
+          "question": "In a construction incident investigation, 'root cause' is BEST described as:",
+          "choices": [
+            "The immediate unsafe act that caused the injury",
+            "The fundamental, underlying system or management failure that, if corrected, would prevent recurrence",
+            "The type of injury sustained by the worker",
+            "The cost of the incident to the employer"
+          ],
+          "answer": "B",
+          "explanation": "Root cause is the fundamental, underlying systemic or management failure. Correcting the root cause eliminates recurrence, unlike addressing only the direct cause (unsafe act/condition)."
+        },
+        {
+          "num": 24,
+          "question": "A worker falls 15 feet from a scaffold and is transported to the hospital. The employer must report this to OSHA within what timeframe?",
+          "choices": [
+            "4 hours because it may be a fatality",
+            "8 hours only if the worker dies",
+            "24 hours as an in-patient hospitalization",
+            "It does not need to be reported unless the worker dies"
+          ],
+          "answer": "C",
+          "explanation": "If the worker is admitted to the hospital as an inpatient, the employer must report to OSHA within 24 hours per the reporting rule for in-patient hospitalizations."
+        },
+        {
+          "num": 25,
+          "question": "The MOST effective way to prevent confined space fatalities on construction sites is to:",
+          "choices": [
+            "Rely on workers to self-rescue",
+            "Implement a permit system with atmospheric monitoring, ventilation, communication, and trained rescue personnel",
+            "Post warning signs at all confined space entries",
+            "Only allow supervisors to enter confined spaces"
+          ],
+          "answer": "B",
+          "explanation": "OSHA 1926.1204 requires a comprehensive permit system with atmospheric monitoring, ventilation, communication, attendants, and rescue provisions to prevent confined space fatalities."
+        },
+        {
+          "num": 26,
+          "question": "When conducting witness interviews during an incident investigation, the investigator should:",
+          "choices": [
+            "Interview all witnesses together to save time",
+            "Interview each witness separately as soon as possible in a non-threatening environment",
+            "Only interview witnesses who are management-level employees",
+            "Wait at least one week to allow witnesses time to reflect"
+          ],
+          "answer": "B",
+          "explanation": "Witnesses should be interviewed individually, as soon as possible, in a private and non-threatening setting to get the most accurate and uninfluenced account of events."
+        },
+        {
+          "num": 27,
+          "question": "A change analysis method in incident investigation compares:",
+          "choices": [
+            "The current budget to the projected budget",
+            "Conditions before and after the incident to identify what changed",
+            "Worker attendance records before and after the incident",
+            "The number of safety meetings held before and after the incident"
+          ],
+          "answer": "B",
+          "explanation": "Change analysis compares the conditions, procedures, personnel, equipment, and environment before and after an incident to identify what changed and how it contributed to the event."
+        },
+        {
+          "num": 28,
+          "question": "An emergency response drill on a construction site should be conducted:",
+          "choices": [
+            "Only on the first day of the project",
+            "At least annually, and more frequently when site conditions or personnel change significantly",
+            "Only when required by OSHA during an inspection",
+            "Only after an actual emergency occurs"
+          ],
+          "answer": "B",
+          "explanation": "Emergency drills should be conducted at least annually and more frequently when site conditions change significantly, new personnel arrive, or new hazards are introduced."
+        },
+        {
+          "num": 29,
+          "question": "Which of the following is NOT typically included in a post-incident corrective action plan?",
+          "choices": [
+            "Specific actions to be taken to prevent recurrence",
+            "Responsible persons assigned to each corrective action",
+            "Target completion dates for each action item",
+            "The identity of the worker who caused the incident for public posting"
+          ],
+          "answer": "D",
+          "explanation": "Posting the identity of the worker who caused the incident is not appropriate. Corrective action plans focus on systemic improvements, not individual blame, to encourage future reporting."
+        },
+        {
+          "num": 30,
+          "question": "During a hazardous materials spill on a construction site, the FIRST priority is to:",
+          "choices": [
+            "Clean up the spill immediately",
+            "Ensure worker safety by evacuating the area and preventing further exposure",
+            "Document the spill for the OSHA 300 log",
+            "Calculate the cost of the spilled material"
+          ],
+          "answer": "B",
+          "explanation": "Worker safety is always the first priority. Evacuating the area and preventing exposure takes precedence over cleanup, documentation, or cost assessment."
+        },
+        {
+          "num": 31,
+          "question": "The OSHA Construction standard for fire protection and prevention is found in:",
+          "choices": [
+            "Subpart C (1926.20-35)",
+            "Subpart D (1926.50-66)",
+            "Subpart F (1926.150-159)",
+            "Subpart K (1926.400-449)"
+          ],
+          "answer": "C",
+          "explanation": "OSHA 1926 Subpart F (1926.150-159) covers fire protection and prevention in construction, including fire extinguisher requirements, fire alarm systems, and fire prevention."
+        },
+        {
+          "num": 32,
+          "question": "A sequence of events analysis in incident investigation is BEST described as:",
+          "choices": [
+            "A financial timeline of project costs",
+            "A chronological reconstruction of events leading up to, during, and after the incident",
+            "A list of workers on site during the incident",
+            "A ranking of hazards by severity"
+          ],
+          "answer": "B",
+          "explanation": "A sequence of events analysis creates a chronological timeline of all events before, during, and after the incident to identify the chain of events and points where intervention could have occurred."
+        },
+        {
+          "num": 33,
+          "question": "When a construction worker suffers cardiac arrest on a jobsite, the MOST critical immediate response action by co-workers is to:",
+          "choices": [
+            "Move the worker to the office trailer",
+            "Begin CPR and use an AED if available while activating emergency medical services",
+            "Wait for the ambulance before touching the worker",
+            "Document the incident on the OSHA 300 log before providing aid"
+          ],
+          "answer": "B",
+          "explanation": "Immediate CPR and AED use combined with calling EMS dramatically improves survival rates for cardiac arrest. Delay in CPR reduces survival chances significantly with each passing minute."
+        },
+        {
+          "num": 34,
+          "question": "After completing an incident investigation, the findings and corrective actions should be:",
+          "choices": [
+            "Filed away and not shared to protect confidentiality",
+            "Communicated to all affected workers and integrated into the safety program to prevent recurrence",
+            "Shared only with the insurance company",
+            "Discussed only at the annual safety meeting"
+          ],
+          "answer": "B",
+          "explanation": "Investigation findings and corrective actions should be communicated to all affected workers and integrated into the overall safety program to prevent recurrence and promote organizational learning."
+        },
+        {
+          "num": 35,
+          "question": "Under the multi-employer worksite doctrine, which type of employer can be cited even if none of its own employees are exposed to the hazard?",
+          "choices": [
+            "Exposing employer",
+            "Creating employer",
+            "Correcting employer",
+            "Both B and C"
+          ],
+          "answer": "D",
+          "explanation": "Both creating and correcting employers can be cited even when their own employees are not exposed to the hazard. The creating employer caused it; the correcting employer had responsibility to fix it."
+        },
+        {
+          "num": 36,
+          "question": "OSHA 1926.20(b)(1) requires that accident prevention programs include provisions for:",
+          "choices": [
+            "Worker entertainment to reduce stress",
+            "Frequent and regular inspections of the jobsite by competent persons",
+            "Annual company picnics",
+            "Free parking for all employees"
+          ],
+          "answer": "B",
+          "explanation": "OSHA 1926.20(b)(1) and (b)(2) require accident prevention programs to include frequent and regular inspections of the jobsite, materials, and equipment by competent persons."
+        },
+        {
+          "num": 37,
+          "question": "The GHS (Globally Harmonized System) pictogram showing a flame over a circle represents:",
+          "choices": [
+            "Flammable materials",
+            "Oxidizing materials",
+            "Explosive materials",
+            "Corrosive materials"
+          ],
+          "answer": "B",
+          "explanation": "The GHS pictogram showing a flame over a circle (O symbol) represents oxidizing materials. A simple flame represents flammable materials; an exploding bomb represents explosives."
+        },
+        {
+          "num": 38,
+          "question": "A construction employer with 15 employees is required to maintain OSHA injury and illness records if the employer is not in a partially exempt industry. Which form records individual injury details?",
+          "choices": [
+            "OSHA 300",
+            "OSHA 300A",
+            "OSHA 301",
+            "OSHA 200"
+          ],
+          "answer": "C",
+          "explanation": "OSHA Form 301 (Injury and Illness Incident Report) records the details of each individual recordable injury or illness, including how the incident occurred."
+        },
+        {
+          "num": 39,
+          "question": "When a new phase of construction begins (e.g., moving from foundation work to structural steel), the safety program should be updated to address:",
+          "choices": [
+            "Only the budget for the new phase",
+            "New hazards specific to the new work activities and any changes in personnel or equipment",
+            "Only the weather forecast for the upcoming weeks",
+            "Only the schedule changes affecting overtime"
+          ],
+          "answer": "B",
+          "explanation": "New construction phases introduce different hazards, equipment, and possibly new workers. The safety program must be updated to address these changed conditions proactively."
+        },
+        {
+          "num": 40,
+          "question": "An effective Lockout/Tagout (LOTO) program on a construction site per OSHA 1926.417 requires:",
+          "choices": [
+            "Only placing a warning tag on the energy source",
+            "De-energizing circuits and equipment, locking and tagging the disconnecting means, and verifying zero energy before work begins",
+            "Notifying workers verbally that the equipment is off",
+            "Only turning off the main breaker panel"
+          ],
+          "answer": "B",
+          "explanation": "OSHA 1926.417 requires de-energizing circuits, locking and tagging disconnecting means, and verifying zero energy state before maintenance or repair work begins."
+        },
+        {
+          "num": 41,
+          "question": "Which of the following is a lagging indicator of safety performance?",
+          "choices": [
+            "Number of safety observations conducted",
+            "Frequency of toolbox talks held",
+            "OSHA Total Recordable Incident Rate (TRIR)",
+            "Percentage of corrective actions completed on time"
+          ],
+          "answer": "C",
+          "explanation": "TRIR is a lagging indicator because it measures incidents that have already occurred. Leading indicators (safety observations, training completion, pre-task plans) measure proactive safety efforts."
+        },
+        {
+          "num": 42,
+          "question": "Per OSHA 1926.502(k), fall protection plans are written site-specific alternatives to conventional fall protection that are allowed only when:",
+          "choices": [
+            "The employer wants to save money on fall protection equipment",
+            "The employer can demonstrate that conventional fall protection is infeasible or creates a greater hazard",
+            "Workers vote to not use fall protection",
+            "The project lasts fewer than 30 days"
+          ],
+          "answer": "B",
+          "explanation": "OSHA 1926.502(k) allows fall protection plans only when the employer demonstrates that conventional fall protection methods are infeasible or create a greater hazard."
+        },
+        {
+          "num": 43,
+          "question": "A safety data sheet (SDS) must contain a minimum of how many sections under the GHS format?",
+          "choices": [
+            "8 sections",
+            "12 sections",
+            "16 sections",
+            "20 sections"
+          ],
+          "answer": "C",
+          "explanation": "The GHS-aligned SDS format requires 16 sections covering identification, hazards, composition, first aid, firefighting, handling, exposure controls, properties, stability, toxicology, ecological, disposal, transport, regulatory, and other information."
+        },
+        {
+          "num": 44,
+          "question": "The 'Experience Modification Rate' (EMR) used in construction is a measure of:",
+          "choices": [
+            "The number of certified safety professionals on staff",
+            "A company's past workers' compensation loss experience compared to the industry average",
+            "The percentage of workers with OSHA 10-hour cards",
+            "The number of years a company has been in business"
+          ],
+          "answer": "B",
+          "explanation": "The EMR compares a company's actual workers' compensation losses to the expected losses for similar-sized companies in the same industry. An EMR above 1.0 indicates worse-than-average performance."
+        },
+        {
+          "num": 45,
+          "question": "Under OSHA 1926.1060, stairways and ladders must be provided at all personnel access points where there is a break in elevation of:",
+          "choices": [
+            "12 inches or more",
+            "15 inches or more",
+            "18 inches or more",
+            "19 inches or more"
+          ],
+          "answer": "D",
+          "explanation": "OSHA 1926.1051(a) requires stairways or ladders at all personnel access points where there is a break in elevation of 19 inches or more and no ramp, runway, or sloped embankment is provided."
+        },
+        {
+          "num": 46,
+          "question": "Which of the following is a leading indicator of safety performance on a construction project?",
+          "choices": [
+            "Number of lost-time injuries",
+            "Workers' compensation costs",
+            "Number of pre-task safety plans completed before work activities",
+            "OSHA citation history"
+          ],
+          "answer": "C",
+          "explanation": "Pre-task safety plans completed before work activities is a leading indicator -- it measures proactive safety activity rather than after-the-fact outcomes."
+        },
+        {
+          "num": 47,
+          "question": "An employer's respiratory protection program under OSHA 1926.103 must include all of the following EXCEPT:",
+          "choices": [
+            "Medical evaluations for workers required to wear respirators",
+            "Fit testing for tight-fitting respirators",
+            "Training on respirator use and limitations",
+            "A guarantee that respirators will eliminate 100% of all airborne contaminants"
+          ],
+          "answer": "D",
+          "explanation": "No respirator can guarantee 100% contaminant elimination. OSHA 1926.103 and 1910.134 require medical evaluations, fit testing, training, and proper selection, but acknowledge assigned protection factors."
+        },
+        {
+          "num": 48,
+          "question": "The concept of 'management commitment' in a construction safety program is BEST demonstrated by:",
+          "choices": [
+            "Issuing a written safety policy and doing nothing else",
+            "Allocating resources, participating in safety activities, holding managers accountable for safety performance, and visibly supporting the program",
+            "Hiring a safety consultant one time per year",
+            "Posting OSHA regulations on the company website"
+          ],
+          "answer": "B",
+          "explanation": "Management commitment is demonstrated through resource allocation, personal participation, holding managers accountable, and visible support -- not just a written policy."
+        },
+        {
+          "num": 49,
+          "question": "A CHST observes that workers on a bridge project consistently fail to tie off their lanyards after clipping onto the horizontal lifeline. The MOST effective corrective action is to:",
+          "choices": [
+            "Immediately terminate all workers who fail to tie off",
+            "Conduct retraining on proper fall protection use, implement peer observations, and address any equipment usability issues",
+            "Remove the horizontal lifeline system entirely",
+            "Post a memo on the bulletin board and consider the issue resolved"
+          ],
+          "answer": "B",
+          "explanation": "Retraining, peer observations, and addressing equipment issues address both knowledge gaps and practical barriers. Termination alone does not fix systemic problems."
+        },
+        {
+          "num": 50,
+          "question": "Adult learning theory suggests that construction safety training is MOST effective when it:",
+          "choices": [
+            "Uses only lecture-based classroom instruction",
+            "Is relevant to the learner's experience, involves hands-on practice, and allows for participation and feedback",
+            "Focuses exclusively on OSHA regulation numbers and legal penalties",
+            "Is delivered in sessions lasting at least 4 hours without breaks"
+          ],
+          "answer": "B",
+          "explanation": "Adult learning theory (andragogy) emphasizes that adults learn best when training is relevant, experiential, participatory, and provides opportunities for practice and feedback."
+        },
+        {
+          "num": 51,
+          "question": "The CHST's role in promoting stop-work authority includes:",
+          "choices": [
+            "Punishing workers who stop work unnecessarily",
+            "Ensuring all workers understand their right to stop work, supporting those who exercise it, and reviewing all stop-work events for lessons learned",
+            "Limiting stop-work authority to foremen and above",
+            "Requiring written permission before any work stoppage"
+          ],
+          "answer": "B",
+          "explanation": "The CHST should ensure all workers understand stop-work authority, support those who exercise it, and review all events for lessons learned to reinforce the safety culture."
+        },
+        {
+          "num": 52,
+          "question": "Crane operator certification under OSHA 1926 Subpart CC requires operators to be certified by:",
+          "choices": [
+            "The general contractor's safety department",
+            "An accredited crane operator testing organization",
+            "Any co-worker who has operated a crane before",
+            "The equipment rental company"
+          ],
+          "answer": "B",
+          "explanation": "OSHA 1926.1427 requires crane operators to be certified by an accredited testing organization that meets OSHA criteria for written and practical examinations."
+        },
+        {
+          "num": 53,
+          "question": "Which of the following is the BEST method for ensuring that safety information is understood by workers with limited literacy skills?",
+          "choices": [
+            "Providing longer written documents with more detail",
+            "Using hands-on demonstrations, visual aids, and verbal instruction with comprehension checks",
+            "Requiring workers to sign acknowledgment forms only",
+            "Posting safety rules in smaller font for more information density"
+          ],
+          "answer": "B",
+          "explanation": "Hands-on demonstrations, visual aids, and verbal instruction with comprehension checks are most effective for workers with limited literacy, ensuring understanding beyond written materials."
+        },
+        {
+          "num": 54,
+          "question": "A safety stand-down is BEST described as:",
+          "choices": [
+            "A permanent work stoppage due to safety violations",
+            "A voluntary pause in work to focus on a specific safety topic, such as fall prevention, to raise awareness across the workforce",
+            "An OSHA enforcement action that shuts down the project",
+            "A meeting between attorneys after a fatality"
+          ],
+          "answer": "B",
+          "explanation": "A safety stand-down is a voluntary pause in work focused on a specific safety topic to raise awareness. OSHA's annual National Safety Stand-Down focuses on fall prevention in construction."
+        },
+        {
+          "num": 55,
+          "question": "When a CHST identifies a gap between the written safety program and actual field practices, the BEST approach is to:",
+          "choices": [
+            "Ignore the gap because the written program satisfies OSHA",
+            "Update the written program to reflect the unsafe practices",
+            "Investigate the root cause of the gap, correct the field practices, update the program if needed, and retrain workers",
+            "Blame the field supervisors and issue written warnings"
+          ],
+          "answer": "C",
+          "explanation": "Investigate the root cause of the gap, correct field practices, update the written program if needed, and retrain workers. This systematic approach addresses both the symptom and the cause."
+        },
+        {
+          "num": 56,
+          "question": "Under OSHA 1926.32, a 'designated person' is one who:",
+          "choices": [
+            "Volunteers for a task without any qualification review",
+            "Is selected or assigned by the employer or employer's representative to perform a specific type of duty or duties",
+            "Has a professional engineering license",
+            "Is elected by co-workers to serve as the safety representative"
+          ],
+          "answer": "B",
+          "explanation": "OSHA 1926.32(f) defines a designated person as one selected or assigned by the employer or the employer's representative as being competent to perform a specific type of duty."
+        },
+        {
+          "num": 57,
+          "question": "Effective toolbox talks should include all of the following characteristics EXCEPT:",
+          "choices": [
+            "Relevance to the current work being performed",
+            "Worker participation and questions",
+            "A reading of the entire OSHA regulation verbatim",
+            "Brief duration (5-15 minutes) with focused content"
+          ],
+          "answer": "C",
+          "explanation": "Reading entire OSHA regulations verbatim is not effective. Toolbox talks should be brief (5-15 minutes), relevant, participatory, and focused on practical application."
+        },
+        {
+          "num": 58,
+          "question": "The MOST effective approach to managing safety across multiple subcontractors on a construction site is to:",
+          "choices": [
+            "Allow each subcontractor to manage safety independently with no coordination",
+            "Establish clear safety expectations, conduct regular coordination meetings, and integrate all subcontractors into the site safety program",
+            "Assign safety responsibility solely to the subcontractor with the most workers",
+            "Only address safety when OSHA is on site"
+          ],
+          "answer": "B",
+          "explanation": "Effective multi-employer safety management requires clear expectations, coordination meetings, and integration of all subcontractors into the site safety program for consistent hazard control."
+        },
+        {
+          "num": 59,
+          "question": "A CHST conducting a safety orientation for a new subcontractor crew should cover all of the following EXCEPT:",
+          "choices": [
+            "Site-specific hazards and emergency procedures",
+            "PPE requirements for the project",
+            "The subcontractor's internal payroll schedule",
+            "Reporting procedures for injuries and near misses"
+          ],
+          "answer": "C",
+          "explanation": "Payroll schedules are not relevant to safety orientation. Orientations should cover site-specific hazards, emergency procedures, PPE requirements, and reporting procedures."
+        },
+        {
+          "num": 60,
+          "question": "The concept of 'continuous improvement' in a construction safety program means:",
+          "choices": [
+            "Making changes to the safety program only when OSHA issues a new regulation",
+            "Regularly evaluating safety performance data, identifying trends, implementing improvements, and reassessing effectiveness in an ongoing cycle",
+            "Purchasing the newest safety equipment every year regardless of need",
+            "Conducting one annual safety review with no follow-up actions"
+          ],
+          "answer": "B",
+          "explanation": "Continuous improvement follows the Plan-Do-Check-Act cycle: regularly evaluating data, identifying trends, implementing improvements, and reassessing effectiveness in an ongoing loop."
+        }
+      ]
+    }
+  ]
+}

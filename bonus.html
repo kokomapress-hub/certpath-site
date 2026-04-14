@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bonus Content - CertPath Publishing</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header-inner">
+      <a href="/" class="logo">CertPath <span class="gold">Publishing</span></a>
+      <nav class="nav">
+        <a href="/">Home</a>
+        <a href="/access.html">Access Tests</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="form-card">
+      <h2>Unlock Bonus Content</h2>
+      <p>Get extra practice questions and a printable formula cheat sheet by leaving an honest review on Amazon.</p>
+
+      <h3 style="color: var(--navy); margin: 1.5rem 0 1rem;">How It Works</h3>
+      <ol style="color: var(--gray-dark); padding-left: 1.5rem; line-height: 1.8;">
+        <li><strong>Step 1:</strong> Leave an honest review of your CertPath book on Amazon.</li>
+        <li><strong>Step 2:</strong> Take a screenshot of your published review.</li>
+        <li><strong>Step 3:</strong> Fill out the form below with your access code.</li>
+        <li><strong>Step 4:</strong> We'll email you the bonus content within 24 hours.</li>
+      </ol>
+
+      <form id="bonusForm" style="margin-top: 2rem;">
+        <div class="form-group">
+          <label for="bEmail">Email Address</label>
+          <input type="email" id="bEmail" required placeholder="you@example.com">
+        </div>
+
+        <div class="form-group">
+          <label for="bCode">Book Access Code</label>
+          <input type="text" id="bCode" required placeholder="XXXX-XXXXX-XXXXX" style="text-transform: uppercase; font-family: monospace;">
+        </div>
+
+        <div class="form-group">
+          <label for="bReview">Amazon Review URL (or paste review text)</label>
+          <input type="text" id="bReview" required placeholder="https://amazon.com/review/...">
+          <div class="hint">After submission, we'll verify and send your bonus content.</div>
+        </div>
+
+        <button type="submit" class="btn">Submit for Bonus Content</button>
+        <div class="message success" id="bonusSuccess">Thank you! Check your email within 24 hours for your bonus content.</div>
+        <div class="message error" id="bonusError"></div>
+      </form>
+
+      <p style="text-align: center; margin-top: 2rem; color: var(--gray); font-size: 0.9rem;">
+        Your honest feedback helps other test-takers find the right study guide. We appreciate every review -- positive or constructive.
+      </p>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; CertPath Publishing. All rights reserved.</p>
+  </footer>
+
+  <script>
+    document.getElementById('bonusForm').addEventListener('submit', (e) => {
+      e.preventDefault();
+      const email = document.getElementById('bEmail').value;
+      const code = document.getElementById('bCode').value.toUpperCase().trim();
+      const review = document.getElementById('bReview').value;
+
+      // Save to localStorage (would post to server in production)
+      const submissions = JSON.parse(localStorage.getItem('certpath_bonus_submissions') || '[]');
+      submissions.push({ email, code, review, date: new Date().toISOString() });
+      localStorage.setItem('certpath_bonus_submissions', JSON.stringify(submissions));
+
+      document.getElementById('bonusSuccess').classList.add('show');
+      document.getElementById('bonusError').classList.remove('show');
+      e.target.reset();
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,3983 @@
+{
+  "slug": "cast",
+  "title": "CAST Exam Study Guide",
+  "code": "CAST-OHGI1-JNYT7",
+  "timeMinutes": 87,
+  "tests": [
+    {
+      "testNum": 1,
+      "questions": [
+        {
+          "num": 1,
+          "question": "A 200-pound object is pushed 10 feet across a flat floor. How much work is done if the pushing force is 80 pounds?",
+          "choices": [
+            "2,000 ft·lb",
+            "800 ft·lb",
+            "280 ft·lb",
+            "16,000 ft·lb"
+          ],
+          "answer": "B",
+          "explanation": "Work = Force × Distance. The pushing force is 80 lb (not the weight). W = 80 × 10 = 800 ft·lb."
+        },
+        {
+          "num": 2,
+          "question": "Which of Newton’s laws explains why you feel pushed back in your seat when a vehicle accelerates?",
+          "choices": [
+            "First Law",
+            "Second Law",
+            "Third Law",
+            "Law of Gravity"
+          ],
+          "answer": "A",
+          "explanation": "First Law (inertia): your body resists the change in motion when the vehicle accelerates."
+        },
+        {
+          "num": 3,
+          "question": "A gear with 25 teeth drives a gear with 75 teeth. If the driver turns at 600 RPM, the driven gear turns at:",
+          "choices": [
+            "200 RPM",
+            "300 RPM",
+            "600 RPM",
+            "1,800 RPM"
+          ],
+          "answer": "A",
+          "explanation": "Ratio = 75/25 = 3. Driven speed = 600/3 = 200 RPM."
+        },
+        {
+          "num": 4,
+          "question": "In a hydraulic press, the input piston has an area of 4 in² and the output piston has an area of 40 in². If 30 pounds is applied to the input, what force is produced at the output?",
+          "choices": [
+            "3 pounds",
+            "30 pounds",
+            "120 pounds",
+            "300 pounds"
+          ],
+          "answer": "D",
+          "explanation": "Pressure = 30/4 = 7.5 psi. Output force = 7.5 × 40 = 300 lb."
+        },
+        {
+          "num": 5,
+          "question": "Which type of simple machine is a doorstop?",
+          "choices": [
+            "Lever",
+            "Wedge",
+            "Pulley",
+            "Screw"
+          ],
+          "answer": "B",
+          "explanation": "A doorstop is a wedge — two inclined planes back to back."
+        },
+        {
+          "num": 6,
+          "question": "A 10-foot ramp rises 2.5 feet. What is the mechanical advantage?",
+          "choices": [
+            "2",
+            "2.5",
+            "4",
+            "7.5"
+          ],
+          "answer": "C",
+          "explanation": "MA = 10/2.5 = 4."
+        },
+        {
+          "num": 7,
+          "question": "Static friction is:",
+          "choices": [
+            "Less than kinetic friction",
+            "Greater than kinetic friction",
+            "Equal to kinetic friction",
+            "Not related to kinetic friction"
+          ],
+          "answer": "B",
+          "explanation": "Static friction is greater than kinetic friction for the same surfaces."
+        },
+        {
+          "num": 8,
+          "question": "A compound pulley system has 6 rope segments supporting the load. To lift 600 pounds, you need:",
+          "choices": [
+            "100 pounds",
+            "200 pounds",
+            "300 pounds",
+            "600 pounds"
+          ],
+          "answer": "A",
+          "explanation": "MA = 6. Force = 600/6 = 100 pounds."
+        },
+        {
+          "num": 9,
+          "question": "In Ohm’s Law (V = IR), if voltage is 240V and resistance is 60 ohms, the current is:",
+          "choices": [
+            "4 amps",
+            "14,400 amps",
+            "0.25 amps",
+            "180 amps"
+          ],
+          "answer": "A",
+          "explanation": "I = V/R = 240/60 = 4 amps."
+        },
+        {
+          "num": 10,
+          "question": "Two belted pulleys rotate in:",
+          "choices": [
+            "Opposite directions",
+            "The same direction",
+            "Alternating directions",
+            "Random directions"
+          ],
+          "answer": "B",
+          "explanation": "Belt-connected pulleys rotate in the same direction."
+        },
+        {
+          "num": 11,
+          "question": "An object’s momentum equals:",
+          "choices": [
+            "Mass × Acceleration",
+            "Force × Distance",
+            "Mass × Velocity",
+            "Weight × Height"
+          ],
+          "answer": "C",
+          "explanation": "Momentum = Mass × Velocity."
+        },
+        {
+          "num": 12,
+          "question": "A crane hook moves upward at a constant speed. Its acceleration is:",
+          "choices": [
+            "Equal to gravity",
+            "Greater than gravity",
+            "Zero",
+            "Negative"
+          ],
+          "answer": "C",
+          "explanation": "Constant speed means zero acceleration."
+        },
+        {
+          "num": 13,
+          "question": "Which material is the best insulator?",
+          "choices": [
+            "Copper",
+            "Aluminum",
+            "Steel",
+            "Rubber"
+          ],
+          "answer": "D",
+          "explanation": "Rubber is an insulator. Copper, aluminum, and steel are conductors."
+        },
+        {
+          "num": 14,
+          "question": "A lever has an effort arm of 8 feet and a load arm of 2 feet. Its MA is:",
+          "choices": [
+            "2",
+            "4",
+            "6",
+            "10"
+          ],
+          "answer": "B",
+          "explanation": "MA = effort arm / load arm = 8/2 = 4."
+        },
+        {
+          "num": 15,
+          "question": "Two resistors of 20 ohms each are wired in parallel. Total resistance is:",
+          "choices": [
+            "10 ohms",
+            "20 ohms",
+            "40 ohms",
+            "80 ohms"
+          ],
+          "answer": "A",
+          "explanation": "1/R = 1/20 + 1/20 = 2/20. R = 10 ohms."
+        },
+        {
+          "num": 16,
+          "question": "A ball is thrown straight up. At the top of its path:",
+          "choices": [
+            "Speed is maximum",
+            "Acceleration is zero",
+            "Velocity is zero",
+            "Both speed and acceleration are zero"
+          ],
+          "answer": "C",
+          "explanation": "At the top, velocity is zero momentarily. Acceleration due to gravity is still 32 ft/s² (not zero)."
+        },
+        {
+          "num": 17,
+          "question": "Pressure increases when:",
+          "choices": [
+            "Force increases and area increases",
+            "Force decreases and area stays the same",
+            "Force stays the same and area decreases",
+            "Force decreases and area increases"
+          ],
+          "answer": "C",
+          "explanation": "P = F/A. Same force with less area = more pressure."
+        },
+        {
+          "num": 18,
+          "question": "A 30-tooth driver meshes with a 30-tooth driven gear. The driven gear turns:",
+          "choices": [
+            "At the same speed as the driver",
+            "Twice as fast",
+            "Half as fast",
+            "Three times as fast"
+          ],
+          "answer": "A",
+          "explanation": "Same number of teeth = same speed, opposite direction."
+        },
+        {
+          "num": 19,
+          "question": "Kinetic energy depends on:",
+          "choices": [
+            "Mass and height",
+            "Mass and velocity",
+            "Force and distance",
+            "Weight and time"
+          ],
+          "answer": "B",
+          "explanation": "KE = ½ mv² depends on mass and velocity."
+        },
+        {
+          "num": 20,
+          "question": "An idler gear placed between a driver and driven gear:",
+          "choices": [
+            "Doubles the output speed",
+            "Reverses the direction of the driven gear",
+            "Changes the gear ratio",
+            "Has no effect on anything"
+          ],
+          "answer": "B",
+          "explanation": "An idler gear reverses the direction of the driven gear (so driver and driven turn the same way)."
+        },
+        {
+          "num": 21,
+          "question": "A worker pushes a 100-lb crate on a floor with coefficient of kinetic friction 0.4. The friction force is:",
+          "choices": [
+            "25 lb",
+            "40 lb",
+            "60 lb",
+            "100 lb"
+          ],
+          "answer": "B",
+          "explanation": "Friction = μ × N = 0.4 × 100 = 40 lb."
+        },
+        {
+          "num": 22,
+          "question": "Power is measured in:",
+          "choices": [
+            "Foot-pounds",
+            "Pounds per square inch",
+            "Watts or ft·lb/s",
+            "Miles per hour"
+          ],
+          "answer": "C",
+          "explanation": "Power is measured in watts or foot-pounds per second."
+        },
+        {
+          "num": 23,
+          "question": "In a series circuit with three 15-ohm resistors, total resistance is:",
+          "choices": [
+            "5 ohms",
+            "15 ohms",
+            "30 ohms",
+            "45 ohms"
+          ],
+          "answer": "D",
+          "explanation": "Series: R_total = 15 + 15 + 15 = 45 ohms."
+        },
+        {
+          "num": 24,
+          "question": "Buoyancy force equals:",
+          "choices": [
+            "The object’s weight",
+            "The weight of fluid displaced",
+            "The fluid’s density",
+            "The depth of submersion"
+          ],
+          "answer": "B",
+          "explanation": "Buoyancy = weight of displaced fluid (Archimedes’ principle)."
+        },
+        {
+          "num": 25,
+          "question": "A screw is fundamentally a:",
+          "choices": [
+            "Wheel and axle",
+            "Lever",
+            "Inclined plane wrapped around a cylinder",
+            "Compound pulley"
+          ],
+          "answer": "C",
+          "explanation": "A screw is an inclined plane wrapped around a cylinder."
+        },
+        {
+          "num": 26,
+          "question": "Doubling an object’s velocity has what effect on its kinetic energy?",
+          "choices": [
+            "Doubles it",
+            "Triples it",
+            "Quadruples it",
+            "No change"
+          ],
+          "answer": "C",
+          "explanation": "KE = ½ mv². Doubling v: ½ m(2v)² = ½ m × 4v² = 4 times the KE."
+        },
+        {
+          "num": 27,
+          "question": "A wheelbarrow is an example of which class of lever?",
+          "choices": [
+            "First class",
+            "Second class",
+            "Third class",
+            "Not a lever"
+          ],
+          "answer": "B",
+          "explanation": "Wheelbarrow: load between fulcrum (wheel) and effort (handles) = second class."
+        },
+        {
+          "num": 28,
+          "question": "When a pipe narrows, fluid velocity:",
+          "choices": [
+            "Decreases",
+            "Stays the same",
+            "Increases",
+            "Stops"
+          ],
+          "answer": "C",
+          "explanation": "Continuity: fluid speeds up when the pipe narrows."
+        },
+        {
+          "num": 29,
+          "question": "An object accelerates from 0 to 40 ft/s in 8 seconds. Its acceleration is:",
+          "choices": [
+            "0.2 ft/s²",
+            "5 ft/s²",
+            "32 ft/s²",
+            "320 ft/s²"
+          ],
+          "answer": "B",
+          "explanation": "a = (40-0)/8 = 5 ft/s²."
+        },
+        {
+          "num": 30,
+          "question": "A belt-driven system has a 10-inch driver pulley and a 5-inch driven pulley. If the driver turns at 200 RPM, the driven turns at:",
+          "choices": [
+            "100 RPM",
+            "200 RPM",
+            "400 RPM",
+            "1,000 RPM"
+          ],
+          "answer": "C",
+          "explanation": "Ratio = 10/5 = 2. Driven turns twice as fast: 200 × 2 = 400 RPM."
+        },
+        {
+          "num": 31,
+          "question": "Conservation of energy states that energy:",
+          "choices": [
+            "Can be created from nothing",
+            "Can be destroyed",
+            "Is always converted to heat",
+            "Cannot be created or destroyed, only transformed"
+          ],
+          "answer": "D",
+          "explanation": "Conservation of energy: energy cannot be created or destroyed."
+        },
+        {
+          "num": 32,
+          "question": "A 120V circuit with 15A draws how much power?",
+          "choices": [
+            "8 W",
+            "135 W",
+            "1,800 W",
+            "18,000 W"
+          ],
+          "answer": "C",
+          "explanation": "P = V × I = 120 × 15 = 1,800 W."
+        },
+        {
+          "num": 33,
+          "question": "Which simple machine would best help change the direction of a pulling force?",
+          "choices": [
+            "Inclined plane",
+            "Fixed pulley",
+            "Wedge",
+            "Screw"
+          ],
+          "answer": "B",
+          "explanation": "A fixed pulley changes the direction of force (pull down to lift up)."
+        },
+        {
+          "num": 34,
+          "question": "Newton’s Third Law states that forces always come in:",
+          "choices": [
+            "Equal and parallel pairs",
+            "Unequal pairs",
+            "Equal and opposite pairs",
+            "Random combinations"
+          ],
+          "answer": "C",
+          "explanation": "Newton’s Third Law: equal and opposite pairs."
+        },
+        {
+          "num": 35,
+          "question": "A larger gear meshing with a smaller gear will cause the smaller gear to:",
+          "choices": [
+            "Turn slower with more torque",
+            "Turn faster with less torque",
+            "Turn at the same speed",
+            "Stop turning"
+          ],
+          "answer": "B",
+          "explanation": "Smaller gear turns faster with less torque."
+        },
+        {
+          "num": 36,
+          "question": "A hydraulic system multiplies force because:",
+          "choices": [
+            "It creates energy",
+            "Pressure is transmitted equally through confined fluid",
+            "Fluid is compressible",
+            "The pipes are narrow"
+          ],
+          "answer": "B",
+          "explanation": "Pascal’s principle: pressure transmits equally through confined fluid."
+        },
+        {
+          "num": 37,
+          "question": "An object weighing 50 lbs falls from a 10-ft height. Its potential energy at the top is:",
+          "choices": [
+            "5 ft·lb",
+            "50 ft·lb",
+            "500 ft·lb",
+            "5,000 ft·lb"
+          ],
+          "answer": "C",
+          "explanation": "PE = weight × height = 50 × 10 = 500 ft·lb."
+        },
+        {
+          "num": 38,
+          "question": "Lubricant reduces friction by:",
+          "choices": [
+            "Increasing surface roughness",
+            "Creating a film between surfaces",
+            "Adding weight to the object",
+            "Heating the surfaces"
+          ],
+          "answer": "B",
+          "explanation": "Lubricant creates a thin film between surfaces to reduce direct contact."
+        },
+        {
+          "num": 39,
+          "question": "In a parallel circuit, if one branch fails:",
+          "choices": [
+            "All branches stop",
+            "The remaining branches continue",
+            "Voltage increases",
+            "Current stops everywhere"
+          ],
+          "answer": "B",
+          "explanation": "In parallel, other branches continue if one fails."
+        },
+        {
+          "num": 40,
+          "question": "A driver walks 40 ft east then 30 ft north. Displacement is:",
+          "choices": [
+            "70 ft",
+            "50 ft",
+            "35 ft",
+            "10 ft"
+          ],
+          "answer": "B",
+          "explanation": "√(40² + 30²) = √(1600+900) = √2500 = 50 ft."
+        },
+        {
+          "num": 41,
+          "question": "Work is done ONLY when:",
+          "choices": [
+            "Force is applied",
+            "Force causes movement in the direction of the force",
+            "An object is stationary",
+            "Energy is stored"
+          ],
+          "answer": "B",
+          "explanation": "Work requires force causing movement in the direction of the force."
+        },
+        {
+          "num": 42,
+          "question": "Rolling friction is typically:",
+          "choices": [
+            "Greater than static friction",
+            "Greater than kinetic friction",
+            "Less than kinetic friction",
+            "Equal to static friction"
+          ],
+          "answer": "C",
+          "explanation": "Rolling friction < kinetic friction < static friction."
+        },
+        {
+          "num": 43,
+          "question": "A first-class lever has the fulcrum:",
+          "choices": [
+            "At one end",
+            "Between the effort and load",
+            "Under the load",
+            "There is no fulcrum"
+          ],
+          "answer": "B",
+          "explanation": "First-class lever: fulcrum between effort and load."
+        },
+        {
+          "num": 44,
+          "question": "Gravity accelerates all objects at the same rate regardless of:",
+          "choices": [
+            "Their shape",
+            "Their mass",
+            "Their color",
+            "All of the above"
+          ],
+          "answer": "D",
+          "explanation": "In a vacuum, gravity accelerates all objects equally regardless of mass, shape, or any other property."
+        },
+        {
+          "num": 45,
+          "question": "What defines a confined space according to the passage?",
+          "choices": [
+            "Any space smaller than 100 sq ft",
+            "A space large enough to enter with limited access and not designed for continuous occupancy",
+            "Any underground workspace",
+            "A space without ventilation"
+          ],
+          "answer": "B",
+          "explanation": "The passage defines it as a space large enough to enter, with limited access, not designed for continuous occupancy."
+        },
+        {
+          "num": 46,
+          "question": "What is the normal oxygen concentration in air?",
+          "choices": [
+            "19.5%",
+            "20.9%",
+            "23.5%",
+            "25.0%"
+          ],
+          "answer": "B",
+          "explanation": "The passage states normal oxygen concentration is 20.9%."
+        },
+        {
+          "num": 47,
+          "question": "What must happen before a worker enters a confined space?",
+          "choices": [
+            "The supervisor must enter first",
+            "The atmosphere must be tested",
+            "The space must be sealed",
+            "A fire extinguisher must be placed inside"
+          ],
+          "answer": "B",
+          "explanation": "The atmosphere must be tested using a calibrated four-gas monitor."
+        },
+        {
+          "num": 48,
+          "question": "Why is the attendant prohibited from entering the confined space?",
+          "choices": [
+            "They are not trained",
+            "To prevent additional casualties if conditions are dangerous",
+            "They do not have PPE",
+            "It is not part of their job description"
+          ],
+          "answer": "B",
+          "explanation": "To prevent additional casualties — the attendant must summon rescue rather than enter the dangerous space."
+        },
+        {
+          "num": 49,
+          "question": "An oxygen level of 18% would be classified as:",
+          "choices": [
+            "Normal",
+            "Deficient",
+            "Enriched",
+            "Safe"
+          ],
+          "answer": "B",
+          "explanation": "Below 19.5% is deficient according to OSHA. 18% is below that threshold."
+        },
+        {
+          "num": 50,
+          "question": "The passage mentions a four-gas monitor. What does it detect?",
+          "choices": [
+            "Temperature, humidity, pressure, wind",
+            "Oxygen, combustible gases, carbon monoxide, hydrogen sulfide",
+            "Nitrogen, argon, methane, radon",
+            "Oxygen, nitrogen, helium, propane"
+          ],
+          "answer": "B",
+          "explanation": "Oxygen, combustible gases, carbon monoxide, and hydrogen sulfide."
+        },
+        {
+          "num": 51,
+          "question": "According to the passage, which is an example of engulfment?",
+          "choices": [
+            "Falling from a height",
+            "Being trapped by grain or sand",
+            "Exposure to toxic fumes",
+            "Electrical shock"
+          ],
+          "answer": "B",
+          "explanation": "Engulfment is being trapped by loose materials like grain or sand."
+        },
+        {
+          "num": 52,
+          "question": "The author’s purpose in writing this passage is to:",
+          "choices": [
+            "Argue for stricter OSHA penalties",
+            "Inform readers about confined space hazards and procedures",
+            "Compare confined spaces to open-air worksites",
+            "Describe a specific accident"
+          ],
+          "answer": "B",
+          "explanation": "The passage informs readers about confined space hazards and required safety procedures."
+        },
+        {
+          "num": 53,
+          "question": "Which welding process is most commonly used in structural steel construction?",
+          "choices": [
+            "MIG",
+            "TIG",
+            "SMAW (stick welding)",
+            "Oxy-acetylene"
+          ],
+          "answer": "C",
+          "explanation": "SMAW (stick welding) is most widely used in structural steel construction."
+        },
+        {
+          "num": 54,
+          "question": "Why is MIG welding popular in manufacturing?",
+          "choices": [
+            "It works outdoors in wind",
+            "It is the cheapest process",
+            "It is fast and easy to use",
+            "It requires no electricity"
+          ],
+          "answer": "C",
+          "explanation": "MIG welding is prized for its speed and ease of use."
+        },
+        {
+          "num": 55,
+          "question": "What is arc flash?",
+          "choices": [
+            "A type of welding filler",
+            "Eye burns caused by UV light from the welding arc",
+            "A welding technique",
+            "An electrical short circuit"
+          ],
+          "answer": "B",
+          "explanation": "Arc flash is eye burns caused by intense UV light from the arc."
+        },
+        {
+          "num": 56,
+          "question": "How long must a fire watch be maintained after welding?",
+          "choices": [
+            "10 minutes",
+            "15 minutes",
+            "30 minutes",
+            "60 minutes"
+          ],
+          "answer": "C",
+          "explanation": "Fire watch must be maintained for at least 30 minutes."
+        },
+        {
+          "num": 57,
+          "question": "Which welding process produces the most precise welds?",
+          "choices": [
+            "SMAW",
+            "MIG",
+            "TIG",
+            "All are equal"
+          ],
+          "answer": "C",
+          "explanation": "TIG welding produces the cleanest, most precise welds."
+        },
+        {
+          "num": 58,
+          "question": "The word “versatility” as used in the passage most likely means:",
+          "choices": [
+            "Cost-effectiveness",
+            "Ability to be used in many different situations",
+            "Strength of the weld",
+            "Speed of the process"
+          ],
+          "answer": "B",
+          "explanation": "Versatility means ability to be used in many different situations."
+        },
+        {
+          "num": 59,
+          "question": "What can be inferred about why SMAW is preferred for outdoor work?",
+          "choices": [
+            "It is the cheapest option",
+            "It can handle windy conditions better than other processes",
+            "It does not produce fumes",
+            "It does not require filler material"
+          ],
+          "answer": "B",
+          "explanation": "The passage states SMAW can be used outdoors in windy conditions, implying it handles wind better."
+        },
+        {
+          "num": 60,
+          "question": "Which statement best describes the author’s approach to welding hazards?",
+          "choices": [
+            "Dismissive — hazards are minor",
+            "Balanced — acknowledges hazards and specifies protections",
+            "Alarmist — suggests welding should be avoided",
+            "Vague — does not specify any protections"
+          ],
+          "answer": "B",
+          "explanation": "The author presents hazards and specific protections — a balanced approach."
+        },
+        {
+          "num": 61,
+          "question": "What is the 4-to-1 rule for extension ladders?",
+          "choices": [
+            "Use a 4-foot ladder for every 1-foot wall",
+            "The base should be 1 foot from the wall for every 4 feet of height",
+            "Inspect the ladder every 4 hours",
+            "Four workers should hold the ladder for every 1 on it"
+          ],
+          "answer": "B",
+          "explanation": "4-to-1 rule: base 1 foot from wall for every 4 feet of height."
+        },
+        {
+          "num": 62,
+          "question": "How far must an extension ladder extend above a roof landing?",
+          "choices": [
+            "1 foot",
+            "2 feet",
+            "3 feet",
+            "4 feet"
+          ],
+          "answer": "C",
+          "explanation": "The ladder must extend at least 3 feet above the landing."
+        },
+        {
+          "num": 63,
+          "question": "What does three-point contact mean?",
+          "choices": [
+            "Contact with three people holding the ladder",
+            "Two hands and one foot, or two feet and one hand on the ladder",
+            "Three ladders connected together",
+            "Touching the wall at three points"
+          ],
+          "answer": "B",
+          "explanation": "Two hands and one foot, or two feet and one hand on the ladder."
+        },
+        {
+          "num": 64,
+          "question": "Which of the following is a common cause of ladder accidents mentioned in the passage?",
+          "choices": [
+            "Using ladders made of aluminum",
+            "Climbing too slowly",
+            "Overreaching while on the ladder",
+            "Using ladders indoors"
+          ],
+          "answer": "C",
+          "explanation": "Overreaching while on the ladder is listed as a common cause."
+        },
+        {
+          "num": 65,
+          "question": "A step ladder should NEVER be:",
+          "choices": [
+            "Fully opened",
+            "Locked before use",
+            "Leaned against a wall like an extension ladder",
+            "Inspected before use"
+          ],
+          "answer": "C",
+          "explanation": "Step ladders should never be leaned against a wall like an extension ladder."
+        },
+        {
+          "num": 66,
+          "question": "What should be done with a damaged ladder?",
+          "choices": [
+            "Use it for light tasks only",
+            "Repair it immediately on site",
+            "Take it out of service and tag it as defective",
+            "Have a supervisor approve its continued use"
+          ],
+          "answer": "C",
+          "explanation": "Damaged ladders must be taken out of service and tagged as defective."
+        },
+        {
+          "num": 67,
+          "question": "Based on the 4-to-1 rule, if a ladder reaches 20 feet, how far from the wall should the base be?",
+          "choices": [
+            "4 feet",
+            "5 feet",
+            "10 feet",
+            "20 feet"
+          ],
+          "answer": "B",
+          "explanation": "20 ft / 4 = 5 feet from the wall."
+        },
+        {
+          "num": 68,
+          "question": "The passage suggests that ladder safety is “fundamental yet frequently overlooked.” What can you infer?",
+          "choices": [
+            "Ladder safety is well enforced everywhere",
+            "Many workers know the rules but do not always follow them",
+            "Ladders are no longer used in construction",
+            "OSHA does not regulate ladders"
+          ],
+          "answer": "B",
+          "explanation": "Many workers know ladder safety rules but frequently do not follow them."
+        },
+        {
+          "num": 69,
+          "question": "Why was asbestos widely used in building materials?",
+          "choices": [
+            "It was inexpensive",
+            "It had heat resistance, strength, and insulating properties",
+            "It was easy to install",
+            "It was available in many colors"
+          ],
+          "answer": "B",
+          "explanation": "Asbestos had heat resistance, strength, and insulating properties."
+        },
+        {
+          "num": 70,
+          "question": "When does asbestos become dangerous according to the passage?",
+          "choices": [
+            "When it is in floor tiles",
+            "When it is in good condition",
+            "When it is disturbed (cut, drilled, sanded, or demolished)",
+            "When it is in buildings older than 50 years"
+          ],
+          "answer": "C",
+          "explanation": "Asbestos becomes dangerous when disturbed (cut, drilled, sanded, demolished)."
+        },
+        {
+          "num": 71,
+          "question": "How long after exposure can asbestos-related diseases appear?",
+          "choices": [
+            "1 to 5 years",
+            "5 to 10 years",
+            "10 to 20 years",
+            "20 to 50 years"
+          ],
+          "answer": "D",
+          "explanation": "Diseases may not appear until 20 to 50 years after exposure."
+        },
+        {
+          "num": 72,
+          "question": "What must happen before renovation of buildings constructed before 1981?",
+          "choices": [
+            "The building must be demolished",
+            "An asbestos inspection must be performed",
+            "All workers must be tested for lung disease",
+            "The building must be sealed for 30 days"
+          ],
+          "answer": "B",
+          "explanation": "Buildings before 1981 must have an asbestos inspection before renovation."
+        },
+        {
+          "num": 73,
+          "question": "Why is negative air pressure maintained during asbestos abatement?",
+          "choices": [
+            "To keep workers cool",
+            "To prevent asbestos fibers from escaping the work area",
+            "To speed up the removal process",
+            "To dry the materials before removal"
+          ],
+          "answer": "B",
+          "explanation": "Negative pressure prevents fibers from escaping the sealed work area."
+        },
+        {
+          "num": 74,
+          "question": "The word “abatement” as used in the passage most likely means:",
+          "choices": [
+            "Testing and identification",
+            "Professional removal or containment",
+            "Sealing in place without removal",
+            "Insurance coverage"
+          ],
+          "answer": "B",
+          "explanation": "Abatement means professional removal or containment."
+        },
+        {
+          "num": 75,
+          "question": "What should a worker do if they suspect they have found asbestos?",
+          "choices": [
+            "Remove it carefully with gloves",
+            "Continue working and report it at the end of the day",
+            "Stop work immediately and report to their supervisor",
+            "Wet it down and cover it with plastic"
+          ],
+          "answer": "C",
+          "explanation": "Workers must stop work immediately and report to their supervisor."
+        },
+        {
+          "num": 76,
+          "question": "Which statement from the passage is an opinion?",
+          "choices": [
+            "Asbestos was used from the 1920s through the 1980s",
+            "Mesothelioma is a cancer of the lung lining",
+            "Asbestos has exceptional heat resistance",
+            "None — all statements in the passage are facts"
+          ],
+          "answer": "D",
+          "explanation": "All statements in the passage are factual and verifiable."
+        },
+        {
+          "num": 77,
+          "question": "What is 7/8 of 96?",
+          "choices": [
+            "72",
+            "80",
+            "84",
+            "88"
+          ],
+          "answer": "C",
+          "explanation": "7/8 × 96 = 672/8 = 84."
+        },
+        {
+          "num": 78,
+          "question": "A pipe is 18 feet 9 inches long. In inches, that is:",
+          "choices": [
+            "216",
+            "225",
+            "228",
+            "234"
+          ],
+          "answer": "B",
+          "explanation": "18 × 12 = 216 + 9 = 225 inches."
+        },
+        {
+          "num": 79,
+          "question": "15% of $640 is:",
+          "choices": [
+            "$84",
+            "$90",
+            "$96",
+            "$102"
+          ],
+          "answer": "C",
+          "explanation": "0.15 × 640 = $96."
+        },
+        {
+          "num": 80,
+          "question": "A crew of 4 can dig a trench in 6 hours. How long for 8 workers?",
+          "choices": [
+            "2 hours",
+            "3 hours",
+            "4 hours",
+            "12 hours"
+          ],
+          "answer": "B",
+          "explanation": "Workers × hours = constant. 4 × 6 = 24. 24/8 = 3 hours."
+        },
+        {
+          "num": 81,
+          "question": "What is √196?",
+          "choices": [
+            "12",
+            "13",
+            "14",
+            "15"
+          ],
+          "answer": "C",
+          "explanation": "14 × 14 = 196. √196 = 14."
+        },
+        {
+          "num": 82,
+          "question": "3.75 + 2.8 = ?",
+          "choices": [
+            "5.55",
+            "6.35",
+            "6.55",
+            "6.75"
+          ],
+          "answer": "C",
+          "explanation": "3.75 + 2.80 = 6.55."
+        },
+        {
+          "num": 83,
+          "question": "¾ ÷ ½ = ?",
+          "choices": [
+            "3/8",
+            "1/2",
+            "1 1/4",
+            "1 1/2"
+          ],
+          "answer": "D",
+          "explanation": "3/4 ÷ 1/2 = 3/4 × 2/1 = 6/4 = 1 1/2."
+        },
+        {
+          "num": 84,
+          "question": "A room is 11 ft × 14 ft. How many square yards of carpet?",
+          "choices": [
+            "15.4",
+            "17.1",
+            "22.0",
+            "154"
+          ],
+          "answer": "B",
+          "explanation": "11 × 14 = 154 sq ft. 154/9 = 17.1 sq yards."
+        },
+        {
+          "num": 85,
+          "question": "What is 200% of 45?",
+          "choices": [
+            "22.5",
+            "45",
+            "90",
+            "135"
+          ],
+          "answer": "C",
+          "explanation": "200% = 2.0. 2.0 × 45 = 90."
+        },
+        {
+          "num": 86,
+          "question": "7 × 8 - 3 × 9 = ?",
+          "choices": [
+            "29",
+            "45",
+            "56",
+            "423"
+          ],
+          "answer": "A",
+          "explanation": "PEMDAS: (7×8) - (3×9) = 56 - 27 = 29."
+        },
+        {
+          "num": 87,
+          "question": "A 16-foot board is cut into pieces 2 feet 8 inches long. How many pieces?",
+          "choices": [
+            "4",
+            "5",
+            "6",
+            "8"
+          ],
+          "answer": "C",
+          "explanation": "2 ft 8 in = 32 in. 16 ft = 192 in. 192/32 = 6 pieces."
+        },
+        {
+          "num": 88,
+          "question": "What is the area of a triangle with base 18 ft and height 10 ft?",
+          "choices": [
+            "28 sq ft",
+            "90 sq ft",
+            "140 sq ft",
+            "180 sq ft"
+          ],
+          "answer": "B",
+          "explanation": "A = 1/2 × 18 × 10 = 90 sq ft."
+        },
+        {
+          "num": 89,
+          "question": "$15.75 × 6 = ?",
+          "choices": [
+            "$88.50",
+            "$91.50",
+            "$94.50",
+            "$97.50"
+          ],
+          "answer": "C",
+          "explanation": "$15.75 × 6 = $94.50."
+        },
+        {
+          "num": 90,
+          "question": "A tank holds 400 gallons. It is 3/4 full. How many gallons are in it?",
+          "choices": [
+            "100",
+            "200",
+            "300",
+            "350"
+          ],
+          "answer": "C",
+          "explanation": "3/4 × 400 = 300 gallons."
+        },
+        {
+          "num": 91,
+          "question": "Convert 2.75 feet to inches.",
+          "choices": [
+            "27.5",
+            "30",
+            "33",
+            "36"
+          ],
+          "answer": "C",
+          "explanation": "2.75 × 12 = 33 inches."
+        },
+        {
+          "num": 92,
+          "question": "What is the volume of a cylinder with radius 2 ft and height 5 ft? (π = 3.14)",
+          "choices": [
+            "31.4 cu ft",
+            "62.8 cu ft",
+            "125.6 cu ft",
+            "200 cu ft"
+          ],
+          "answer": "B",
+          "explanation": "V = πr²h = 3.14 × 4 × 5 = 62.8 cu ft."
+        },
+        {
+          "num": 93,
+          "question": "A worker makes $26/hr. Overtime is 1.5×. What is 4 hours of overtime pay?",
+          "choices": [
+            "$104",
+            "$132",
+            "$156",
+            "$208"
+          ],
+          "answer": "C",
+          "explanation": "OT rate = $26 × 1.5 = $39/hr. 4 hrs = $156."
+        },
+        {
+          "num": 94,
+          "question": "The ratio of sand to cement is 4:1. For 50 bags total, how many bags of sand?",
+          "choices": [
+            "10",
+            "12.5",
+            "40",
+            "45"
+          ],
+          "answer": "C",
+          "explanation": "Total parts = 5. Sand = 4/5 × 50 = 40 bags."
+        },
+        {
+          "num": 95,
+          "question": "A floor plan shows a rectangular garage: 24 ft × 22 ft. What is the area?",
+          "choices": [
+            "92 sq ft",
+            "368 sq ft",
+            "528 sq ft",
+            "1,056 sq ft"
+          ],
+          "answer": "C",
+          "explanation": "24 × 22 = 528 sq ft."
+        },
+        {
+          "num": 96,
+          "question": "A blueprint at 1/4” = 1’ shows a wall 4.5 inches long. Actual length?",
+          "choices": [
+            "4.5 feet",
+            "9 feet",
+            "13.5 feet",
+            "18 feet"
+          ],
+          "answer": "D",
+          "explanation": "1/4” = 1’ means 1” = 4’. 4.5 × 4 = 18 feet."
+        },
+        {
+          "num": 97,
+          "question": "A bar chart shows crew output: Mon 45, Tue 52, Wed 38, Thu 55, Fri 50. Average?",
+          "choices": [
+            "44",
+            "46",
+            "48",
+            "50"
+          ],
+          "answer": "C",
+          "explanation": "(45+52+38+55+50)/5 = 240/5 = 48."
+        },
+        {
+          "num": 98,
+          "question": "A diagram shows a concrete sidewalk: 60 ft × 4 ft × 4 in deep. Volume in cubic yards?",
+          "choices": [
+            "2.96",
+            "3.56",
+            "80",
+            "960"
+          ],
+          "answer": "A",
+          "explanation": "4 in = 0.333 ft. V = 60 × 4 × 0.333 = 80 cu ft. 80/27 = 2.96 cu yd."
+        },
+        {
+          "num": 99,
+          "question": "A materials table shows tile at $4.25/sq ft. A room on the plan is 10 ft × 12 ft. Cost?",
+          "choices": [
+            "$425.00",
+            "$480.00",
+            "$510.00",
+            "$612.00"
+          ],
+          "answer": "C",
+          "explanation": "10 × 12 = 120 sq ft. 120 × $4.25 = $510."
+        },
+        {
+          "num": 100,
+          "question": "A site plan at 1” = 50 ft shows two points 2.8 inches apart. Actual distance?",
+          "choices": [
+            "100 ft",
+            "120 ft",
+            "140 ft",
+            "175 ft"
+          ],
+          "answer": "C",
+          "explanation": "2.8 × 50 = 140 ft."
+        },
+        {
+          "num": 101,
+          "question": "A pie chart shows a $200,000 budget: Materials 50%, Labor 30%, Equipment 20%. Labor cost?",
+          "choices": [
+            "$40,000",
+            "$50,000",
+            "$60,000",
+            "$100,000"
+          ],
+          "answer": "C",
+          "explanation": "30% of $200,000 = $60,000."
+        },
+        {
+          "num": 102,
+          "question": "A floor plan shows an L-shaped room: 20×15 and 10×8. Total area?",
+          "choices": [
+            "300 sq ft",
+            "380 sq ft",
+            "400 sq ft",
+            "480 sq ft"
+          ],
+          "answer": "B",
+          "explanation": "(20×15) + (10×8) = 300 + 80 = 380 sq ft."
+        },
+        {
+          "num": 103,
+          "question": "A diagram shows a circular manhole cover with a diameter of 30 inches. Area? (π=3.14)",
+          "choices": [
+            "94.2 sq in",
+            "188.4 sq in",
+            "706.5 sq in",
+            "2,826 sq in"
+          ],
+          "answer": "C",
+          "explanation": "r = 15 in. A = 3.14 × 225 = 706.5 sq in."
+        },
+        {
+          "num": 104,
+          "question": "A table shows 3 paint types: A covers 300 sq ft/gal, B covers 350 sq ft/gal, C covers 400 sq ft/gal. For 1,200 sq ft, how many gallons of B?",
+          "choices": [
+            "3",
+            "3.43",
+            "4",
+            "5"
+          ],
+          "answer": "C",
+          "explanation": "1200/350 = 3.43 gallons. Must round up to 4 gallons."
+        },
+        {
+          "num": 105,
+          "question": "A drawing shows a trench 100 ft long, 3 ft wide, 5 ft deep. Volume in cu yards?",
+          "choices": [
+            "15.6",
+            "37.0",
+            "55.6",
+            "1,500"
+          ],
+          "answer": "C",
+          "explanation": "V = 100 × 3 × 5 = 1,500 cu ft. 1500/27 = 55.6 cu yd."
+        },
+        {
+          "num": 106,
+          "question": "A graph shows temperatures: 6AM=45°F, 9AM=58°F, Noon=72°F, 3PM=78°F. Rise from 6AM to 3PM?",
+          "choices": [
+            "13°F",
+            "20°F",
+            "33°F",
+            "45°F"
+          ],
+          "answer": "C",
+          "explanation": "78 - 45 = 33°F."
+        },
+        {
+          "num": 107,
+          "question": "A floor plan shows a room 16×18 with a 3×4 closet. Area excluding closet?",
+          "choices": [
+            "276 sq ft",
+            "280 sq ft",
+            "284 sq ft",
+            "288 sq ft"
+          ],
+          "answer": "A",
+          "explanation": "16 × 18 = 288. Closet = 3 × 4 = 12. 288 - 12 = 276 sq ft."
+        },
+        {
+          "num": 108,
+          "question": "A scale drawing at 1” = 8 ft shows a lot 6.5” × 4”. Actual area?",
+          "choices": [
+            "832 sq ft",
+            "1,040 sq ft",
+            "1,248 sq ft",
+            "1,664 sq ft"
+          ],
+          "answer": "D",
+          "explanation": "6.5 × 8 = 52 ft. 4 × 8 = 32 ft. 52 × 32 = 1,664 sq ft."
+        },
+        {
+          "num": 109,
+          "question": "A table: Lumber $4.50/ft, need 120 ft. Fasteners $32/box, need 5 boxes. Total?",
+          "choices": [
+            "$540",
+            "$700",
+            "$2,860",
+            "None of these"
+          ],
+          "answer": "B",
+          "explanation": "(120 × 4.50) + (5 × 32) = 540 + 160 = $700."
+        },
+        {
+          "num": 110,
+          "question": "A diagram shows a roof triangle: base 32 ft, height 12 ft. Area?",
+          "choices": [
+            "44 sq ft",
+            "192 sq ft",
+            "384 sq ft",
+            "768 sq ft"
+          ],
+          "answer": "B",
+          "explanation": "A = 1/2 × 32 × 12 = 192 sq ft."
+        }
+      ]
+    },
+    {
+      "testNum": 2,
+      "questions": [
+        {
+          "num": 1,
+          "question": "A 500-lb crate sits on a floor (μ = 0.5). What force starts it moving?",
+          "choices": [
+            "125 lb",
+            "250 lb",
+            "500 lb",
+            "1,000 lb"
+          ],
+          "answer": "B",
+          "explanation": "F = μ×N = 0.5×500 = 250 lb."
+        },
+        {
+          "num": 2,
+          "question": "Two gears mesh: driver has 12 teeth, driven has 48. Gear ratio?",
+          "choices": [
+            "1:2",
+            "1:4",
+            "4:1",
+            "12:1"
+          ],
+          "answer": "B",
+          "explanation": "48/12 = 4. Ratio = 1:4."
+        },
+        {
+          "num": 3,
+          "question": "A fixed pulley provides a mechanical advantage of:",
+          "choices": [
+            "0",
+            "1",
+            "2",
+            "4"
+          ],
+          "answer": "B",
+          "explanation": "A fixed pulley changes direction only. MA = 1."
+        },
+        {
+          "num": 4,
+          "question": "Ohm’s Law: V=240, I=8A. Resistance?",
+          "choices": [
+            "30 Ω",
+            "120 Ω",
+            "1,920 Ω",
+            "248 Ω"
+          ],
+          "answer": "A",
+          "explanation": "R = V/I = 240/8 = 30 Ω."
+        },
+        {
+          "num": 5,
+          "question": "A 15-ft ramp rises 3 ft. MA?",
+          "choices": [
+            "3",
+            "5",
+            "12",
+            "45"
+          ],
+          "answer": "B",
+          "explanation": "MA = 15/3 = 5."
+        },
+        {
+          "num": 6,
+          "question": "Which stores elastic potential energy?",
+          "choices": [
+            "A rolling ball",
+            "A compressed spring",
+            "A raised weight",
+            "A spinning wheel"
+          ],
+          "answer": "B",
+          "explanation": "A compressed spring stores elastic PE."
+        },
+        {
+          "num": 7,
+          "question": "Three 12Ω resistors in parallel. Total resistance?",
+          "choices": [
+            "4 Ω",
+            "12 Ω",
+            "24 Ω",
+            "36 Ω"
+          ],
+          "answer": "A",
+          "explanation": "1/R = 3/12 = 1/4. R = 4 Ω."
+        },
+        {
+          "num": 8,
+          "question": "Newton’s Second Law: 50-lb force on 10-slug mass. Acceleration?",
+          "choices": [
+            "0.2 ft/s²",
+            "5 ft/s²",
+            "50 ft/s²",
+            "500 ft/s²"
+          ],
+          "answer": "B",
+          "explanation": "a = F/m = 50/10 = 5 ft/s²."
+        },
+        {
+          "num": 9,
+          "question": "A belt on two pulleys of equal diameter. Driven pulley speed?",
+          "choices": [
+            "Same as driver",
+            "Half of driver",
+            "Double the driver",
+            "Cannot determine"
+          ],
+          "answer": "A",
+          "explanation": "Equal pulleys = same speed."
+        },
+        {
+          "num": 10,
+          "question": "Pressure = 200 psi, Area = 8 in². Force?",
+          "choices": [
+            "25 lb",
+            "208 lb",
+            "800 lb",
+            "1,600 lb"
+          ],
+          "answer": "D",
+          "explanation": "F = P × A = 200 × 8 = 1,600 lb."
+        },
+        {
+          "num": 11,
+          "question": "Object dropped from 64 ft. Using gravity = 32 ft/s², time to fall?",
+          "choices": [
+            "1 s",
+            "2 s",
+            "4 s",
+            "8 s"
+          ],
+          "answer": "B",
+          "explanation": "d = ½gt². 64 = ½(32)t². 64 = 16t². t²=4. t=2 s."
+        },
+        {
+          "num": 12,
+          "question": "A wrench handle is extended with a pipe. This increases:",
+          "choices": [
+            "Friction",
+            "Torque",
+            "Speed",
+            "Mass"
+          ],
+          "answer": "B",
+          "explanation": "Extending the handle increases torque (Force×Distance)."
+        },
+        {
+          "num": 13,
+          "question": "In a series circuit, current is:",
+          "choices": [
+            "Different in each component",
+            "Same through all components",
+            "Zero",
+            "Alternating"
+          ],
+          "answer": "B",
+          "explanation": "In series, current is the same through all components."
+        },
+        {
+          "num": 14,
+          "question": "Which is a third-class lever?",
+          "choices": [
+            "Seesaw",
+            "Wheelbarrow",
+            "Fishing rod",
+            "Crowbar"
+          ],
+          "answer": "C",
+          "explanation": "Fishing rod: effort between fulcrum and load = 3rd class."
+        },
+        {
+          "num": 15,
+          "question": "A 10-inch driver pulley connects by belt to a 5-inch driven. Driver at 300 RPM. Driven speed?",
+          "choices": [
+            "150 RPM",
+            "300 RPM",
+            "600 RPM",
+            "1,500 RPM"
+          ],
+          "answer": "C",
+          "explanation": "Ratio = 10/5 = 2. Driven = 300×2 = 600 RPM."
+        },
+        {
+          "num": 16,
+          "question": "Fluid flows from a wide pipe to a narrow pipe. Velocity in the narrow section:",
+          "choices": [
+            "Decreases",
+            "Stays the same",
+            "Increases",
+            "Reverses"
+          ],
+          "answer": "C",
+          "explanation": "Continuity: fluid speeds up in narrow pipe."
+        },
+        {
+          "num": 17,
+          "question": "An object’s inertia depends on its:",
+          "choices": [
+            "Speed",
+            "Color",
+            "Mass",
+            "Temperature"
+          ],
+          "answer": "C",
+          "explanation": "Inertia depends on mass."
+        },
+        {
+          "num": 18,
+          "question": "A 100-W bulb at 120V draws how many amps?",
+          "choices": [
+            "0.83 A",
+            "1.2 A",
+            "12 A",
+            "12,000 A"
+          ],
+          "answer": "A",
+          "explanation": "I = P/V = 100/120 = 0.83 A."
+        },
+        {
+          "num": 19,
+          "question": "Impulse equals:",
+          "choices": [
+            "Force × Distance",
+            "Force × Time",
+            "Mass × Height",
+            "Pressure × Area"
+          ],
+          "answer": "B",
+          "explanation": "Impulse = Force × Time."
+        },
+        {
+          "num": 20,
+          "question": "A cross-shaped belt causes pulleys to rotate:",
+          "choices": [
+            "Same direction",
+            "Opposite directions",
+            "Only one pulley turns",
+            "Neither pulley turns"
+          ],
+          "answer": "B",
+          "explanation": "A crossed belt reverses direction."
+        },
+        {
+          "num": 21,
+          "question": "Work = 1,200 ft·lb, Time = 4s. Power?",
+          "choices": [
+            "300 ft·lb/s",
+            "400 ft·lb/s",
+            "4,800 ft·lb/s",
+            "1,204 ft·lb/s"
+          ],
+          "answer": "A",
+          "explanation": "Power = W/t = 1200/4 = 300 ft·lb/s."
+        },
+        {
+          "num": 22,
+          "question": "An inclined plane reduces the _____ needed while increasing the _____.",
+          "choices": [
+            "Distance; force",
+            "Force; distance",
+            "Speed; mass",
+            "Weight; height"
+          ],
+          "answer": "B",
+          "explanation": "Inclined planes reduce force but increase distance."
+        },
+        {
+          "num": 23,
+          "question": "Archimedes’ principle states buoyant force equals:",
+          "choices": [
+            "The object’s weight",
+            "The fluid’s weight",
+            "Weight of displaced fluid",
+            "Depth times density"
+          ],
+          "answer": "C",
+          "explanation": "Buoyant force = weight of displaced fluid."
+        },
+        {
+          "num": 24,
+          "question": "A gear train: 10T drives 30T, which shares a shaft with 15T that drives 45T. Overall ratio?",
+          "choices": [
+            "1:3",
+            "1:9",
+            "3:1",
+            "9:1"
+          ],
+          "answer": "B",
+          "explanation": "First pair: 30/10=3. Second pair: 45/15=3. Overall: 3×3 = 9:1 reduction, so 1:9."
+        },
+        {
+          "num": 25,
+          "question": "Kinetic friction is typically _____ static friction.",
+          "choices": [
+            "Greater than",
+            "Equal to",
+            "Less than",
+            "Unrelated to"
+          ],
+          "answer": "C",
+          "explanation": "Kinetic friction < static friction."
+        },
+        {
+          "num": 26,
+          "question": "P = V × I. A 240V circuit with 20A =",
+          "choices": [
+            "12 W",
+            "260 W",
+            "4,800 W",
+            "48,000 W"
+          ],
+          "answer": "C",
+          "explanation": "P = 240×20 = 4,800 W."
+        },
+        {
+          "num": 27,
+          "question": "What happens to PE as a ball falls?",
+          "choices": [
+            "Increases",
+            "Stays same",
+            "Converts to KE",
+            "Disappears"
+          ],
+          "answer": "C",
+          "explanation": "As a ball falls, PE converts to KE."
+        },
+        {
+          "num": 28,
+          "question": "A 40-tooth driver gear meshes with 10-tooth driven. Driver at 100 RPM. Driven speed?",
+          "choices": [
+            "25 RPM",
+            "100 RPM",
+            "200 RPM",
+            "400 RPM"
+          ],
+          "answer": "D",
+          "explanation": "Ratio = 40/10 = 4. Smaller gear turns 4× faster: 100×4 = 400 RPM."
+        },
+        {
+          "num": 29,
+          "question": "Hydraulic systems cannot:",
+          "choices": [
+            "Multiply force",
+            "Change force direction",
+            "Create energy",
+            "Transmit pressure"
+          ],
+          "answer": "C",
+          "explanation": "Hydraulic systems transmit pressure but cannot create energy."
+        },
+        {
+          "num": 30,
+          "question": "A nail penetrates wood because the force is concentrated on a:",
+          "choices": [
+            "Large area, creating low pressure",
+            "Small area, creating high pressure",
+            "Rounded surface",
+            "Flat surface"
+          ],
+          "answer": "B",
+          "explanation": "Small area = high pressure. That’s why nails penetrate."
+        },
+        {
+          "num": 31,
+          "question": "Conservation of momentum: Before collision = 500 lb·ft/s. After?",
+          "choices": [
+            "0",
+            "250",
+            "500",
+            "1,000"
+          ],
+          "answer": "C",
+          "explanation": "Conservation of momentum: 500 before = 500 after."
+        },
+        {
+          "num": 32,
+          "question": "A lever has 12-ft effort arm and 3-ft load arm. MA?",
+          "choices": [
+            "3",
+            "4",
+            "9",
+            "15"
+          ],
+          "answer": "B",
+          "explanation": "MA = 12/3 = 4."
+        },
+        {
+          "num": 33,
+          "question": "In a parallel circuit, total resistance is always:",
+          "choices": [
+            "Greater than the largest individual resistance",
+            "Equal to the sum of all resistances",
+            "Less than the smallest individual resistance",
+            "Exactly half of the total"
+          ],
+          "answer": "C",
+          "explanation": "In parallel, total R is always less than the smallest individual R."
+        },
+        {
+          "num": 34,
+          "question": "Which material is the worst conductor?",
+          "choices": [
+            "Copper",
+            "Silver",
+            "Aluminum",
+            "Glass"
+          ],
+          "answer": "D",
+          "explanation": "Glass is an insulator; the others are conductors."
+        },
+        {
+          "num": 35,
+          "question": "A screw with closer threads has _____ MA but requires _____ turns.",
+          "choices": [
+            "Less; fewer",
+            "More; more",
+            "More; fewer",
+            "Less; more"
+          ],
+          "answer": "B",
+          "explanation": "Closer threads = more MA but more turns required."
+        },
+        {
+          "num": 36,
+          "question": "Two objects: A (5 kg at 10 m/s) and B (10 kg at 5 m/s). Which has more momentum?",
+          "choices": [
+            "A",
+            "B",
+            "Same momentum",
+            "Cannot determine"
+          ],
+          "answer": "C",
+          "explanation": "A: 5×10=50. B: 10×5=50. Same momentum."
+        },
+        {
+          "num": 37,
+          "question": "Meshed gears rotate in _____ directions.",
+          "choices": [
+            "Same",
+            "Opposite",
+            "Random",
+            "Alternating"
+          ],
+          "answer": "B",
+          "explanation": "Meshed gears rotate in opposite directions."
+        },
+        {
+          "num": 38,
+          "question": "A pulley system has 4 supporting ropes. To lift 800 lb:",
+          "choices": [
+            "100 lb effort",
+            "200 lb effort",
+            "400 lb effort",
+            "800 lb effort"
+          ],
+          "answer": "B",
+          "explanation": "MA=4. Force = 800/4 = 200 lb."
+        },
+        {
+          "num": 39,
+          "question": "V = IR. R = 15Ω, I = 3A. V =",
+          "choices": [
+            "5 V",
+            "18 V",
+            "45 V",
+            "135 V"
+          ],
+          "answer": "C",
+          "explanation": "V = 15×3 = 45 V."
+        },
+        {
+          "num": 40,
+          "question": "Work is measured in:",
+          "choices": [
+            "Watts",
+            "Foot-pounds",
+            "Amps",
+            "Ohms"
+          ],
+          "answer": "B",
+          "explanation": "Work is measured in foot-pounds or joules."
+        },
+        {
+          "num": 41,
+          "question": "Gravity provides a constant acceleration of about:",
+          "choices": [
+            "16 ft/s²",
+            "22 ft/s²",
+            "32 ft/s²",
+            "64 ft/s²"
+          ],
+          "answer": "C",
+          "explanation": "Gravity ≈ 32 ft/s²."
+        },
+        {
+          "num": 42,
+          "question": "A second-class lever has the load:",
+          "choices": [
+            "At the fulcrum",
+            "Between fulcrum and effort",
+            "At the effort end",
+            "Above the fulcrum"
+          ],
+          "answer": "B",
+          "explanation": "Second-class: load between fulcrum and effort."
+        },
+        {
+          "num": 43,
+          "question": "What does a lubricant NOT do?",
+          "choices": [
+            "Reduce friction",
+            "Create a film between surfaces",
+            "Increase the coefficient of friction",
+            "Prevent wear"
+          ],
+          "answer": "C",
+          "explanation": "Lubricants reduce friction, not increase it."
+        },
+        {
+          "num": 44,
+          "question": "An escalator moves a 150-lb person up 20 ft in 10 s. Power?",
+          "choices": [
+            "15 ft·lb/s",
+            "150 ft·lb/s",
+            "300 ft·lb/s",
+            "3,000 ft·lb/s"
+          ],
+          "answer": "C",
+          "explanation": "W = 150×20 = 3,000 ft·lb. P = 3000/10 = 300 ft·lb/s."
+        },
+        {
+          "num": 45,
+          "question": "At what depth does OSHA require protective systems?",
+          "choices": [
+            "3 feet",
+            "4 feet",
+            "5 feet",
+            "6 feet"
+          ],
+          "answer": "C",
+          "explanation": "5 feet or greater."
+        },
+        {
+          "num": 46,
+          "question": "How much does one cubic yard of soil weigh approximately?",
+          "choices": [
+            "500 lb",
+            "1,000 lb",
+            "2,000 lb",
+            "3,000 lb"
+          ],
+          "answer": "D",
+          "explanation": "Approximately 3,000 pounds."
+        },
+        {
+          "num": 47,
+          "question": "What is the difference between shoring and shielding?",
+          "choices": [
+            "They are the same thing",
+            "Shoring supports walls; shielding protects workers inside a box",
+            "Shoring is for deep trenches only",
+            "Shielding prevents collapse; shoring does not"
+          ],
+          "answer": "B",
+          "explanation": "Shoring supports walls to prevent collapse; shielding protects workers inside a box."
+        },
+        {
+          "num": 48,
+          "question": "How far from the edge must spoil piles be kept?",
+          "choices": [
+            "1 foot",
+            "2 feet",
+            "3 feet",
+            "5 feet"
+          ],
+          "answer": "B",
+          "explanation": "At least 2 feet."
+        },
+        {
+          "num": 49,
+          "question": "When must a competent person inspect an excavation?",
+          "choices": [
+            "Only before the project starts",
+            "Weekly",
+            "Daily and after every rainstorm",
+            "Monthly"
+          ],
+          "answer": "C",
+          "explanation": "Daily and after every rainstorm."
+        },
+        {
+          "num": 50,
+          "question": "Why does water accumulation increase cave-in risk?",
+          "choices": [
+            "Water makes soil heavier and less stable",
+            "Water fills the trench",
+            "Workers cannot see hazards",
+            "Water corrodes shoring equipment"
+          ],
+          "answer": "A",
+          "explanation": "Water makes soil heavier and less stable."
+        },
+        {
+          "num": 51,
+          "question": "The word “spoil” as used in the passage means:",
+          "choices": [
+            "Damaged materials",
+            "Dirt removed from the trench",
+            "Contaminated soil",
+            "Leftover concrete"
+          ],
+          "answer": "B",
+          "explanation": "Spoil = dirt removed from excavation."
+        },
+        {
+          "num": 52,
+          "question": "What can you infer about stable rock excavations?",
+          "choices": [
+            "They are the most common type",
+            "They do not require protective systems under the 5-ft rule",
+            "They are always dangerous",
+            "They always require shoring"
+          ],
+          "answer": "B",
+          "explanation": "Stable rock excavations are exempt from the 5-ft protective system requirement."
+        },
+        {
+          "num": 53,
+          "question": "What is the primary function of a transformer?",
+          "choices": [
+            "To store electricity",
+            "To change voltage levels of AC electricity",
+            "To convert AC to DC",
+            "To generate electricity"
+          ],
+          "answer": "B",
+          "explanation": "Transformers change voltage levels of AC electricity."
+        },
+        {
+          "num": 54,
+          "question": "If the primary has 500 turns and secondary has 100 turns, the transformer:",
+          "choices": [
+            "Steps voltage up by 5",
+            "Steps voltage down by 5",
+            "Has no effect on voltage",
+            "Doubles the current"
+          ],
+          "answer": "B",
+          "explanation": "500:100 = 5:1 step down."
+        },
+        {
+          "num": 55,
+          "question": "Why is electricity transmitted at high voltages?",
+          "choices": [
+            "It is safer",
+            "It minimizes energy losses over long distances",
+            "High voltage is cheaper to produce",
+            "Transformers require high voltage"
+          ],
+          "answer": "B",
+          "explanation": "High voltage minimizes energy losses over long distances."
+        },
+        {
+          "num": 56,
+          "question": "What is the purpose of mineral oil in transformers?",
+          "choices": [
+            "Fuel for the transformer",
+            "Coolant and electrical insulator",
+            "Lubricant for moving parts",
+            "Fire prevention"
+          ],
+          "answer": "A",
+          "explanation": "Mineral oil serves as coolant and insulator."
+        },
+        {
+          "num": 57,
+          "question": "What are PCBs?",
+          "choices": [
+            "A type of transformer coil",
+            "A voltage measurement",
+            "A toxic substance in some older transformers",
+            "A safety standard"
+          ],
+          "answer": "C",
+          "explanation": "PCBs are a toxic substance found in some older transformers."
+        },
+        {
+          "num": 58,
+          "question": "Standard residential voltage in the US is:",
+          "choices": [
+            "69,000 volts",
+            "7,200 volts",
+            "120/240 volts",
+            "765,000 volts"
+          ],
+          "answer": "C",
+          "explanation": "120/240 volts."
+        },
+        {
+          "num": 59,
+          "question": "The word “induces” as used in the passage means:",
+          "choices": [
+            "Prevents",
+            "Causes or produces",
+            "Reduces",
+            "Stores"
+          ],
+          "answer": "B",
+          "explanation": "Induces = causes or produces."
+        },
+        {
+          "num": 60,
+          "question": "What can you infer about transformers made after 1979?",
+          "choices": [
+            "They are less efficient",
+            "They generally do not contain PCBs",
+            "They do not use oil",
+            "They only step voltage down"
+          ],
+          "answer": "B",
+          "explanation": "After 1979, transformers generally do not contain PCBs."
+        },
+        {
+          "num": 61,
+          "question": "What is the main idea of this passage?",
+          "choices": [
+            "Power tools are more dangerous than hand tools",
+            "Proper tool use and maintenance prevents workplace injuries",
+            "OSHA should ban dangerous tools",
+            "Workers should avoid using power tools"
+          ],
+          "answer": "B",
+          "explanation": "Proper tool use and maintenance prevents injuries."
+        },
+        {
+          "num": 62,
+          "question": "Why should tool guards never be removed?",
+          "choices": [
+            "They are expensive to replace",
+            "They protect workers from contact with moving parts",
+            "They improve the tool’s accuracy",
+            "They are required for warranty coverage"
+          ],
+          "answer": "B",
+          "explanation": "Guards protect workers from moving parts."
+        },
+        {
+          "num": 63,
+          "question": "What hazard do pneumatic tools present according to the passage?",
+          "choices": [
+            "Electric shock",
+            "Disconnected hoses can whip dangerously",
+            "They overheat quickly",
+            "They are difficult to control"
+          ],
+          "answer": "B",
+          "explanation": "Disconnected air hoses can whip dangerously."
+        },
+        {
+          "num": 64,
+          "question": "Using a wrench as a hammer can cause:",
+          "choices": [
+            "The bolt to strip",
+            "The wrench to shatter and send metal fragments",
+            "Damage to the floor",
+            "No significant hazard"
+          ],
+          "answer": "B",
+          "explanation": "A wrench used as hammer can shatter."
+        },
+        {
+          "num": 65,
+          "question": "What does “double-insulated” most likely mean?",
+          "choices": [
+            "The tool has two power cords",
+            "The tool has extra protection against electrical shock without a ground wire",
+            "The tool is waterproof",
+            "The tool requires twice as much electricity"
+          ],
+          "answer": "B",
+          "explanation": "Double-insulated = extra shock protection without ground wire."
+        },
+        {
+          "num": 66,
+          "question": "What should be done with damaged tools?",
+          "choices": [
+            "Continue using them carefully",
+            "Remove them from service",
+            "Only use them for light work",
+            "Store them until they are needed"
+          ],
+          "answer": "A",
+          "explanation": "Remove damaged tools from service."
+        },
+        {
+          "num": 67,
+          "question": "GFCIs are required on construction sites because:",
+          "choices": [
+            "They increase tool power",
+            "They prevent electrical shock injuries",
+            "They reduce noise",
+            "They extend battery life"
+          ],
+          "answer": "B",
+          "explanation": "GFCIs prevent electrical shock."
+        },
+        {
+          "num": 68,
+          "question": "The author’s tone is best described as:",
+          "choices": [
+            "Cautionary and informative",
+            "Angry and demanding",
+            "Casual and humorous",
+            "Skeptical and questioning"
+          ],
+          "answer": "A",
+          "explanation": "Cautionary and informative tone."
+        },
+        {
+          "num": 69,
+          "question": "GFCIs primarily protect against:",
+          "choices": [
+            "Electrical fires",
+            "Electrical shock",
+            "Power surges",
+            "Lightning strikes"
+          ],
+          "answer": "B",
+          "explanation": "GFCIs protect against shock."
+        },
+        {
+          "num": 70,
+          "question": "How does a GFCI detect a problem?",
+          "choices": [
+            "By measuring temperature",
+            "By monitoring current difference between hot and neutral wires",
+            "By detecting smoke",
+            "By measuring voltage spikes"
+          ],
+          "answer": "B",
+          "explanation": "Monitors current difference between hot and neutral."
+        },
+        {
+          "num": 71,
+          "question": "How quickly does a GFCI trip?",
+          "choices": [
+            "One second",
+            "One-tenth of a second",
+            "One-fortieth of a second",
+            "One minute"
+          ],
+          "answer": "C",
+          "explanation": "One-fortieth of a second."
+        },
+        {
+          "num": 72,
+          "question": "AFCIs primarily protect against:",
+          "choices": [
+            "Electrical shock",
+            "Electrical fires",
+            "Power outages",
+            "Voltage drops"
+          ],
+          "answer": "B",
+          "explanation": "AFCIs protect against electrical fires."
+        },
+        {
+          "num": 73,
+          "question": "Where are GFCIs required?",
+          "choices": [
+            "Only in bedrooms",
+            "In wet locations such as bathrooms, kitchens, and outdoor outlets",
+            "Only on construction sites",
+            "Only in commercial buildings"
+          ],
+          "answer": "B",
+          "explanation": "Wet locations: bathrooms, kitchens, outdoor outlets."
+        },
+        {
+          "num": 74,
+          "question": "What is an arcing fault?",
+          "choices": [
+            "A power surge",
+            "Sparks from electricity jumping across a gap in damaged wiring",
+            "A tripped circuit breaker",
+            "A short circuit"
+          ],
+          "answer": "B",
+          "explanation": "Sparks from electricity jumping across a gap."
+        },
+        {
+          "num": 75,
+          "question": "Combination AFCI/GFCI devices provide:",
+          "choices": [
+            "Faster tripping speed",
+            "Both shock protection and fire protection",
+            "Lower cost",
+            "Reduced electricity usage"
+          ],
+          "answer": "B",
+          "explanation": "Both shock and fire protection."
+        },
+        {
+          "num": 76,
+          "question": "What can you infer about homes built before AFCIs were required?",
+          "choices": [
+            "They are unsafe to live in",
+            "They may not have arc fault protection in living areas",
+            "They have better wiring",
+            "Their circuits trip more often"
+          ],
+          "answer": "B",
+          "explanation": "Older homes may lack arc fault protection in living areas."
+        },
+        {
+          "num": 77,
+          "question": "What is 2/3 of 270?",
+          "choices": [
+            "90",
+            "135",
+            "180",
+            "210"
+          ],
+          "answer": "C",
+          "explanation": "2/3 × 270 = 180."
+        },
+        {
+          "num": 78,
+          "question": "A 20-ft pipe is cut into 2.5-ft sections. How many sections?",
+          "choices": [
+            "6",
+            "7",
+            "8",
+            "10"
+          ],
+          "answer": "C",
+          "explanation": "20/2.5 = 8 sections."
+        },
+        {
+          "num": 79,
+          "question": "12% of $950 =",
+          "choices": [
+            "$95",
+            "$105",
+            "$114",
+            "$120"
+          ],
+          "answer": "C",
+          "explanation": "0.12 × 950 = $114."
+        },
+        {
+          "num": 80,
+          "question": "Perimeter of a 25 ft × 18 ft rectangle?",
+          "choices": [
+            "43 ft",
+            "86 ft",
+            "172 ft",
+            "450 ft"
+          ],
+          "answer": "B",
+          "explanation": "P = 2(25+18) = 86 ft."
+        },
+        {
+          "num": 81,
+          "question": "√225 =",
+          "choices": [
+            "13",
+            "14",
+            "15",
+            "16"
+          ],
+          "answer": "C",
+          "explanation": "√225 = 15."
+        },
+        {
+          "num": 82,
+          "question": "$18.75 × 8 =",
+          "choices": [
+            "$140.00",
+            "$148.00",
+            "$150.00",
+            "$156.00"
+          ],
+          "answer": "C",
+          "explanation": "$18.75 × 8 = $150.00."
+        },
+        {
+          "num": 83,
+          "question": "5/8 + 3/8 =",
+          "choices": [
+            "1/4",
+            "1/2",
+            "1",
+            "8/8"
+          ],
+          "answer": "C",
+          "explanation": "5/8 + 3/8 = 8/8 = 1."
+        },
+        {
+          "num": 84,
+          "question": "Volume: 3 ft × 4 ft × 2.5 ft =",
+          "choices": [
+            "9.5 cu ft",
+            "24 cu ft",
+            "30 cu ft",
+            "40 cu ft"
+          ],
+          "answer": "C",
+          "explanation": "3×4×2.5 = 30 cu ft."
+        },
+        {
+          "num": 85,
+          "question": "A job is 60% complete. What fraction remains?",
+          "choices": [
+            "1/3",
+            "2/5",
+            "3/5",
+            "2/3"
+          ],
+          "answer": "B",
+          "explanation": "100%-60%=40%=2/5."
+        },
+        {
+          "num": 86,
+          "question": "Convert 9 feet 6 inches to inches.",
+          "choices": [
+            "96",
+            "108",
+            "114",
+            "120"
+          ],
+          "answer": "C",
+          "explanation": "9×12=108+6=114 in."
+        },
+        {
+          "num": 87,
+          "question": "3³ =",
+          "choices": [
+            "6",
+            "9",
+            "18",
+            "27"
+          ],
+          "answer": "D",
+          "explanation": "3³=27."
+        },
+        {
+          "num": 88,
+          "question": "A truck carries 3.5 tons. In pounds? (1 ton = 2,000 lb)",
+          "choices": [
+            "3,500",
+            "5,500",
+            "7,000",
+            "8,000"
+          ],
+          "answer": "C",
+          "explanation": "3.5×2000=7,000 lb."
+        },
+        {
+          "num": 89,
+          "question": "Area of a circle, r = 5 ft? (π=3.14)",
+          "choices": [
+            "15.7 sq ft",
+            "31.4 sq ft",
+            "78.5 sq ft",
+            "157 sq ft"
+          ],
+          "answer": "C",
+          "explanation": "π×25=78.5 sq ft."
+        },
+        {
+          "num": 90,
+          "question": "$7.50 × 16 =",
+          "choices": [
+            "$112",
+            "$116",
+            "$120",
+            "$124"
+          ],
+          "answer": "C",
+          "explanation": "$7.50×16=$120."
+        },
+        {
+          "num": 91,
+          "question": "A 6-ft ladder leans at the 4:1 rule. Base distance from wall?",
+          "choices": [
+            "1 ft",
+            "1.5 ft",
+            "2 ft",
+            "3 ft"
+          ],
+          "answer": "B",
+          "explanation": "6/4=1.5 ft from wall."
+        },
+        {
+          "num": 92,
+          "question": "75% of 320 =",
+          "choices": [
+            "80",
+            "160",
+            "240",
+            "280"
+          ],
+          "answer": "C",
+          "explanation": "0.75×320=240."
+        },
+        {
+          "num": 93,
+          "question": "A worker lays 45 bricks/hr. In 7.5 hours?",
+          "choices": [
+            "315",
+            "337.5",
+            "345",
+            "360"
+          ],
+          "answer": "B",
+          "explanation": "45×7.5=337.5 bricks."
+        },
+        {
+          "num": 94,
+          "question": "What is 0.625 as a fraction?",
+          "choices": [
+            "5/8",
+            "3/5",
+            "5/6",
+            "7/8"
+          ],
+          "answer": "A",
+          "explanation": "0.625=5/8."
+        },
+        {
+          "num": 95,
+          "question": "A plan shows a room 18 ft × 14 ft. Area?",
+          "choices": [
+            "32 sq ft",
+            "128 sq ft",
+            "252 sq ft",
+            "504 sq ft"
+          ],
+          "answer": "C",
+          "explanation": "18×14=252 sq ft."
+        },
+        {
+          "num": 96,
+          "question": "Scale 1” = 10 ft. A fence line is 7.5” on the drawing. Actual?",
+          "choices": [
+            "17.5 ft",
+            "45 ft",
+            "75 ft",
+            "750 ft"
+          ],
+          "answer": "C",
+          "explanation": "7.5×10=75 ft."
+        },
+        {
+          "num": 97,
+          "question": "A chart shows monthly sales: $12K, $15K, $11K, $18K. Average?",
+          "choices": [
+            "$13,000",
+            "$14,000",
+            "$15,000",
+            "$16,000"
+          ],
+          "answer": "B",
+          "explanation": "(12+15+11+18)/4=56/4=$14,000."
+        },
+        {
+          "num": 98,
+          "question": "A slab 30 ft × 20 ft × 8 in thick. Volume in cu yd?",
+          "choices": [
+            "14.8",
+            "16.3",
+            "18.5",
+            "400"
+          ],
+          "answer": "A",
+          "explanation": "8in=0.667ft. V=30×20×0.667=400cuft. 400/27=14.8 cu yd."
+        },
+        {
+          "num": 99,
+          "question": "A table: Lumber $5.50/ft, 80 ft needed. Wire $0.30/ft, 200 ft needed. Total?",
+          "choices": [
+            "$440",
+            "$500",
+            "$540",
+            "$620"
+          ],
+          "answer": "B",
+          "explanation": "(80×5.50)+(200×0.30)=440+60=$500."
+        },
+        {
+          "num": 100,
+          "question": "A scale drawing 1/4”=1’ shows a building 8” long. Actual?",
+          "choices": [
+            "8 ft",
+            "16 ft",
+            "24 ft",
+            "32 ft"
+          ],
+          "answer": "D",
+          "explanation": "1/4”=1’ means 1”=4’. 8×4=32ft."
+        },
+        {
+          "num": 101,
+          "question": "A pie chart: 25% labor on a $80,000 job. Labor cost?",
+          "choices": [
+            "$16,000",
+            "$20,000",
+            "$25,000",
+            "$40,000"
+          ],
+          "answer": "B",
+          "explanation": "0.25×80,000=$20,000."
+        },
+        {
+          "num": 102,
+          "question": "An L-room: 16×12 and 6×10. Area?",
+          "choices": [
+            "192 sq ft",
+            "210 sq ft",
+            "252 sq ft",
+            "280 sq ft"
+          ],
+          "answer": "C",
+          "explanation": "(16×12)+(6×10)=192+60=252 sq ft."
+        },
+        {
+          "num": 103,
+          "question": "A circular tank, diameter 12 ft. Floor area? (π=3.14)",
+          "choices": [
+            "37.68 sq ft",
+            "75.36 sq ft",
+            "113.04 sq ft",
+            "452.16 sq ft"
+          ],
+          "answer": "C",
+          "explanation": "r=6. π×36=113.04 sq ft."
+        },
+        {
+          "num": 104,
+          "question": "A bar graph: Crew A=340 units, B=290, C=380, D=310. Total?",
+          "choices": [
+            "1,220",
+            "1,280",
+            "1,320",
+            "1,380"
+          ],
+          "answer": "C",
+          "explanation": "340+290+380+310=1,320."
+        },
+        {
+          "num": 105,
+          "question": "A trench 75 ft × 4 ft × 3 ft. Cu yards of dirt?",
+          "choices": [
+            "33.3",
+            "66.7",
+            "100",
+            "900"
+          ],
+          "answer": "A",
+          "explanation": "75×4×3=900cuft. 900/27=33.3 cu yd."
+        },
+        {
+          "num": 106,
+          "question": "A graph shows rainfall: 2.1, 3.4, 1.8, 2.7 inches over 4 months. Total?",
+          "choices": [
+            "8.0",
+            "9.0",
+            "10.0",
+            "11.0"
+          ],
+          "answer": "C",
+          "explanation": "2.1+3.4+1.8+2.7=10.0 in."
+        },
+        {
+          "num": 107,
+          "question": "A floor plan: room 20×22 with a 5×8 bathroom. Area excluding bathroom?",
+          "choices": [
+            "360 sq ft",
+            "400 sq ft",
+            "440 sq ft",
+            "480 sq ft"
+          ],
+          "answer": "B",
+          "explanation": "20×22=440. 5×8=40. 440-40=400 sq ft."
+        },
+        {
+          "num": 108,
+          "question": "Scale 1”=25 ft. A lot is 5”×3.5”. Actual area?",
+          "choices": [
+            "437.5 sq ft",
+            "3,125 sq ft",
+            "10,937.5 sq ft",
+            "15,000 sq ft"
+          ],
+          "answer": "C",
+          "explanation": "5×25=125ft. 3.5×25=87.5ft. 125×87.5=10,937.5 sq ft."
+        },
+        {
+          "num": 109,
+          "question": "A table: paint $38/gal covers 350 sq ft. Wall area 1,400 sq ft. Cost?",
+          "choices": [
+            "$114",
+            "$152",
+            "$190",
+            "$228"
+          ],
+          "answer": "B",
+          "explanation": "1400/350=4 gallons. 4×$38=$152."
+        },
+        {
+          "num": 110,
+          "question": "A roof triangle: base 28 ft, height 9 ft. Area?",
+          "choices": [
+            "37 sq ft",
+            "63 sq ft",
+            "126 sq ft",
+            "252 sq ft"
+          ],
+          "answer": "C",
+          "explanation": "½×28×9=126 sq ft."
+        }
+      ]
+    },
+    {
+      "testNum": 3,
+      "questions": [
+        {
+          "num": 1,
+          "question": "A crane does 10,000 ft·lb of work in 20 seconds. Power output?",
+          "choices": [
+            "200 ft·lb/s",
+            "500 ft·lb/s",
+            "5,000 ft·lb/s",
+            "200,000 ft·lb/s"
+          ],
+          "answer": "B",
+          "explanation": "P=W/t=10000/20=500 ft·lb/s."
+        },
+        {
+          "num": 2,
+          "question": "A 15-tooth gear drives a 45-tooth gear at 900 RPM. Driven speed?",
+          "choices": [
+            "100 RPM",
+            "300 RPM",
+            "900 RPM",
+            "2,700 RPM"
+          ],
+          "answer": "B",
+          "explanation": "45/15=3. 900/3=300 RPM."
+        },
+        {
+          "num": 3,
+          "question": "Which force keeps a book resting on a table?",
+          "choices": [
+            "Gravity alone",
+            "Normal force",
+            "Friction",
+            "Tension"
+          ],
+          "answer": "B",
+          "explanation": "The normal force from the table supports the book against gravity."
+        },
+        {
+          "num": 4,
+          "question": "A hydraulic piston: input 3 in² with 60 lb, output 30 in². Output force?",
+          "choices": [
+            "6 lb",
+            "60 lb",
+            "300 lb",
+            "600 lb"
+          ],
+          "answer": "D",
+          "explanation": "P=60/3=20psi. F=20×30=600lb."
+        },
+        {
+          "num": 5,
+          "question": "A 20-ft ramp rises 4 ft. MA?",
+          "choices": [
+            "4",
+            "5",
+            "16",
+            "80"
+          ],
+          "answer": "B",
+          "explanation": "MA=20/4=5."
+        },
+        {
+          "num": 6,
+          "question": "In parallel, adding branches _____ total resistance.",
+          "choices": [
+            "Increases",
+            "Decreases",
+            "Does not change",
+            "Eliminates"
+          ],
+          "answer": "B",
+          "explanation": "Adding parallel branches decreases total R."
+        },
+        {
+          "num": 7,
+          "question": "An object at rest has zero:",
+          "choices": [
+            "Mass",
+            "Kinetic energy",
+            "Potential energy",
+            "Weight"
+          ],
+          "answer": "B",
+          "explanation": "At rest, v=0, so KE=½mv²=0."
+        },
+        {
+          "num": 8,
+          "question": "A compound pulley with 3 supporting ropes lifts 450 lb. Effort?",
+          "choices": [
+            "150 lb",
+            "225 lb",
+            "450 lb",
+            "1,350 lb"
+          ],
+          "answer": "A",
+          "explanation": "MA=3. 450/3=150lb."
+        },
+        {
+          "num": 9,
+          "question": "Voltage = 60V, Resistance = 12Ω. Current?",
+          "choices": [
+            "0.2 A",
+            "5 A",
+            "48 A",
+            "720 A"
+          ],
+          "answer": "B",
+          "explanation": "I=V/R=60/12=5A."
+        },
+        {
+          "num": 10,
+          "question": "Two meshed gears with an idler between them. Driver and driven turn:",
+          "choices": [
+            "Opposite directions",
+            "Same direction",
+            "Only the driver turns",
+            "Neither turns"
+          ],
+          "answer": "B",
+          "explanation": "Idler reverses direction, so driver and driven turn same way."
+        },
+        {
+          "num": 11,
+          "question": "A 300-lb object moves at 10 ft/s. Momentum?",
+          "choices": [
+            "30 lb·ft/s",
+            "310 lb·ft/s",
+            "3,000 lb·ft/s",
+            "30,000 lb·ft/s"
+          ],
+          "answer": "C",
+          "explanation": "p=mv=300×10=3,000 lb·ft/s."
+        },
+        {
+          "num": 12,
+          "question": "Acceleration due to gravity is approximately:",
+          "choices": [
+            "10 ft/s²",
+            "22 ft/s²",
+            "32 ft/s²",
+            "64 ft/s²"
+          ],
+          "answer": "C",
+          "explanation": "Gravity ≈ 32 ft/s²."
+        },
+        {
+          "num": 13,
+          "question": "A step-down transformer:",
+          "choices": [
+            "Increases voltage",
+            "Decreases voltage",
+            "Stores energy",
+            "Creates power"
+          ],
+          "answer": "B",
+          "explanation": "Step-down transformer decreases voltage."
+        },
+        {
+          "num": 14,
+          "question": "A lever: effort arm 10 ft, load arm 2 ft, load 250 lb. Effort needed?",
+          "choices": [
+            "25 lb",
+            "50 lb",
+            "125 lb",
+            "500 lb"
+          ],
+          "answer": "B",
+          "explanation": "Effort=Load×LA/EA=250×2/10=50lb."
+        },
+        {
+          "num": 15,
+          "question": "Two 30Ω resistors in series. Total?",
+          "choices": [
+            "15 Ω",
+            "30 Ω",
+            "60 Ω",
+            "120 Ω"
+          ],
+          "answer": "C",
+          "explanation": "Series: 30+30=60Ω."
+        },
+        {
+          "num": 16,
+          "question": "Kinetic energy = ½mv². Triple the velocity, KE becomes:",
+          "choices": [
+            "3 times",
+            "6 times",
+            "9 times",
+            "12 times"
+          ],
+          "answer": "C",
+          "explanation": "KE=½m(3v)²=9×(½mv²). 9 times."
+        },
+        {
+          "num": 17,
+          "question": "A wedge is used to:",
+          "choices": [
+            "Change direction of a rope",
+            "Split or separate materials",
+            "Lift objects vertically",
+            "Reduce friction"
+          ],
+          "answer": "B",
+          "explanation": "Wedges split or separate materials."
+        },
+        {
+          "num": 18,
+          "question": "A belt: 6-inch driver at 500 RPM, 12-inch driven. Driven speed?",
+          "choices": [
+            "125 RPM",
+            "250 RPM",
+            "500 RPM",
+            "1,000 RPM"
+          ],
+          "answer": "B",
+          "explanation": "Ratio=12/6=2. 500/2=250 RPM."
+        },
+        {
+          "num": 19,
+          "question": "Pressure at the bottom of a water column depends on:",
+          "choices": [
+            "Container shape",
+            "Depth of water",
+            "Container width",
+            "Total volume"
+          ],
+          "answer": "B",
+          "explanation": "Fluid pressure depends on depth."
+        },
+        {
+          "num": 20,
+          "question": "Newton’s 1st Law: a hockey puck slides on ice with almost no friction. It:",
+          "choices": [
+            "Gradually speeds up",
+            "Continues at near-constant velocity",
+            "Immediately stops",
+            "Changes direction"
+          ],
+          "answer": "B",
+          "explanation": "Near-frictionless surface: continues at constant velocity (1st Law)."
+        },
+        {
+          "num": 21,
+          "question": "Contact area does NOT significantly affect:",
+          "choices": [
+            "Air resistance",
+            "Friction between solid surfaces",
+            "Pressure",
+            "Buoyancy"
+          ],
+          "answer": "B",
+          "explanation": "Contact area does not significantly affect friction between solid surfaces."
+        },
+        {
+          "num": 22,
+          "question": "P = 1,500 W, V = 120V. Current?",
+          "choices": [
+            "8 A",
+            "12.5 A",
+            "15 A",
+            "1,620 A"
+          ],
+          "answer": "B",
+          "explanation": "I=P/V=1500/120=12.5A."
+        },
+        {
+          "num": 23,
+          "question": "A compound gear train multiplies _____ while reducing _____.",
+          "choices": [
+            "Speed; torque",
+            "Torque; speed",
+            "Weight; height",
+            "Pressure; area"
+          ],
+          "answer": "B",
+          "explanation": "Compound gear trains multiply torque while reducing speed."
+        },
+        {
+          "num": 24,
+          "question": "Potential energy at top of a 25-ft building for a 40-lb object?",
+          "choices": [
+            "65 ft·lb",
+            "1,000 ft·lb",
+            "5,000 ft·lb",
+            "10,000 ft·lb"
+          ],
+          "answer": "B",
+          "explanation": "PE=mgh=40×25=1,000ft·lb."
+        },
+        {
+          "num": 25,
+          "question": "An object floats when buoyant force is:",
+          "choices": [
+            "Less than its weight",
+            "Equal to its weight",
+            "Greater than its weight",
+            "Zero"
+          ],
+          "answer": "B",
+          "explanation": "Object floats when buoyancy=weight."
+        },
+        {
+          "num": 26,
+          "question": "A driver gear: 20T at 400 RPM. Driven gear: 80T. Driven speed?",
+          "choices": [
+            "100 RPM",
+            "200 RPM",
+            "400 RPM",
+            "1,600 RPM"
+          ],
+          "answer": "A",
+          "explanation": "Ratio=80/20=4. 400/4=100 RPM."
+        },
+        {
+          "num": 27,
+          "question": "Heat from friction is an example of energy:",
+          "choices": [
+            "Creation",
+            "Destruction",
+            "Conversion",
+            "Storage"
+          ],
+          "answer": "C",
+          "explanation": "Heat from friction is energy conversion (mechanical to thermal)."
+        },
+        {
+          "num": 28,
+          "question": "Series circuit: one bulb burns out. Others?",
+          "choices": [
+            "Get brighter",
+            "Stay the same",
+            "All go out",
+            "Flicker"
+          ],
+          "answer": "C",
+          "explanation": "Series: one failure breaks the whole circuit."
+        },
+        {
+          "num": 29,
+          "question": "An object’s velocity changes from 20 ft/s to 50 ft/s in 6 s. Acceleration?",
+          "choices": [
+            "5 ft/s²",
+            "8.3 ft/s²",
+            "11.7 ft/s²",
+            "30 ft/s²"
+          ],
+          "answer": "A",
+          "explanation": "a=(50-20)/6=30/6=5ft/s²."
+        },
+        {
+          "num": 30,
+          "question": "A fixed pulley’s main advantage is:",
+          "choices": [
+            "Multiplying force",
+            "Changing direction of force",
+            "Reducing friction",
+            "Storing energy"
+          ],
+          "answer": "B",
+          "explanation": "Fixed pulley changes direction of force."
+        },
+        {
+          "num": 31,
+          "question": "Coefficient of friction: 0.6. Normal force: 400 lb. Friction force?",
+          "choices": [
+            "66.7 lb",
+            "240 lb",
+            "400 lb",
+            "666.7 lb"
+          ],
+          "answer": "B",
+          "explanation": "F=μ×N=0.6×400=240lb."
+        },
+        {
+          "num": 32,
+          "question": "Power = Work / Time. Same work, half the time means:",
+          "choices": [
+            "Half the power",
+            "Same power",
+            "Double the power",
+            "Quadruple power"
+          ],
+          "answer": "C",
+          "explanation": "Same work in half time = double the power."
+        },
+        {
+          "num": 33,
+          "question": "Electrical conductors include all EXCEPT:",
+          "choices": [
+            "Copper",
+            "Aluminum",
+            "Water",
+            "Dry wood"
+          ],
+          "answer": "D",
+          "explanation": "Dry wood is an insulator; the others conduct."
+        },
+        {
+          "num": 34,
+          "question": "A screw with fine threads vs coarse threads: fine threads have:",
+          "choices": [
+            "Less MA",
+            "More MA",
+            "Same MA",
+            "No MA"
+          ],
+          "answer": "B",
+          "explanation": "Fine threads have more MA but require more turns."
+        },
+        {
+          "num": 35,
+          "question": "A 50-lb force + 30-lb force in the same direction. Net force?",
+          "choices": [
+            "20 lb",
+            "30 lb",
+            "50 lb",
+            "80 lb"
+          ],
+          "answer": "D",
+          "explanation": "Same direction: 50+30=80lb."
+        },
+        {
+          "num": 36,
+          "question": "Hydraulic fluid is essentially:",
+          "choices": [
+            "Compressible",
+            "Incompressible",
+            "A gas",
+            "A solid"
+          ],
+          "answer": "B",
+          "explanation": "Hydraulic fluid is essentially incompressible."
+        },
+        {
+          "num": 37,
+          "question": "A seesaw is what class lever?",
+          "choices": [
+            "First",
+            "Second",
+            "Third",
+            "Not a lever"
+          ],
+          "answer": "A",
+          "explanation": "Seesaw = first-class lever."
+        },
+        {
+          "num": 38,
+          "question": "Ohm’s Law: doubling resistance while halving voltage. Current?",
+          "choices": [
+            "Stays same",
+            "Doubles",
+            "Quarters",
+            "Quadruples"
+          ],
+          "answer": "C",
+          "explanation": "Original I=V/R. New I=(V/2)/(2R)=V/4R=original/4. Current is quartered."
+        },
+        {
+          "num": 39,
+          "question": "An 800-lb object moving at 5 ft/s hits a wall over 0.5s. Impact force?",
+          "choices": [
+            "400 lb",
+            "1,600 lb",
+            "4,000 lb",
+            "8,000 lb"
+          ],
+          "answer": "D",
+          "explanation": "Impulse=Δp=800×5=4,000. F=4000/0.5=8,000lb."
+        },
+        {
+          "num": 40,
+          "question": "Rolling friction is less than sliding friction because:",
+          "choices": [
+            "Round objects weigh less",
+            "The contact area is constantly changing",
+            "Wheels eliminate gravity",
+            "Friction only acts on flat surfaces"
+          ],
+          "answer": "B",
+          "explanation": "Rolling: contact area constantly changes, reducing deformation resistance."
+        },
+        {
+          "num": 41,
+          "question": "Parallel circuit: each branch has _____ voltage.",
+          "choices": [
+            "Different",
+            "Half the",
+            "The same",
+            "Zero"
+          ],
+          "answer": "C",
+          "explanation": "Parallel: same voltage across all branches."
+        },
+        {
+          "num": 42,
+          "question": "A wheel and axle: larger wheel provides _____ at the axle.",
+          "choices": [
+            "More force",
+            "More speed",
+            "Less force",
+            "Less distance"
+          ],
+          "answer": "A",
+          "explanation": "Larger wheel produces more force at the axle."
+        },
+        {
+          "num": 43,
+          "question": "Energy cannot be _____ or _____.",
+          "choices": [
+            "Created; destroyed",
+            "Measured; calculated",
+            "Stored; released",
+            "Transferred; converted"
+          ],
+          "answer": "A",
+          "explanation": "Energy cannot be created or destroyed."
+        },
+        {
+          "num": 44,
+          "question": "A car brakes to a stop. KE converts mostly to:",
+          "choices": [
+            "PE",
+            "Electrical energy",
+            "Heat (thermal energy)",
+            "Chemical energy"
+          ],
+          "answer": "C",
+          "explanation": "Braking converts KE to heat (thermal energy)."
+        },
+        {
+          "num": 45,
+          "question": "At what height does OSHA require fall protection on construction sites?",
+          "choices": [
+            "4 feet",
+            "5 feet",
+            "6 feet",
+            "10 feet"
+          ],
+          "answer": "C",
+          "explanation": "6 feet."
+        },
+        {
+          "num": 46,
+          "question": "Why are guardrails the preferred fall protection method?",
+          "choices": [
+            "They are cheapest",
+            "They prevent falls without requiring worker action",
+            "They are the tallest",
+            "They are easiest to install"
+          ],
+          "answer": "B",
+          "explanation": "Guardrails prevent falls without requiring worker action."
+        },
+        {
+          "num": 47,
+          "question": "What is the required height of a standard top rail?",
+          "choices": [
+            "36 inches",
+            "39 inches",
+            "42 inches",
+            "48 inches"
+          ],
+          "answer": "C",
+          "explanation": "42 inches."
+        },
+        {
+          "num": 48,
+          "question": "What must happen to fall arrest equipment after it is used in a fall?",
+          "choices": [
+            "It can continue to be used",
+            "It must be inspected and reused",
+            "It must be removed from service",
+            "It must be cleaned and stored"
+          ],
+          "answer": "C",
+          "explanation": "Must be removed from service."
+        },
+        {
+          "num": 49,
+          "question": "An anchor point must support at least:",
+          "choices": [
+            "1,000 lb",
+            "2,000 lb",
+            "3,500 lb",
+            "5,000 lb"
+          ],
+          "answer": "D",
+          "explanation": "5,000 pounds."
+        },
+        {
+          "num": 50,
+          "question": "Safety nets must be no more than _____ below the work surface.",
+          "choices": [
+            "10 feet",
+            "20 feet",
+            "30 feet",
+            "50 feet"
+          ],
+          "answer": "C",
+          "explanation": "30 feet."
+        },
+        {
+          "num": 51,
+          "question": "What is the purpose of a toeboard?",
+          "choices": [
+            "To provide foot support while climbing",
+            "To prevent tools and materials from falling off the edge",
+            "To anchor the guardrail",
+            "To mark the edge of the work surface"
+          ],
+          "answer": "B",
+          "explanation": "Toeboards prevent tools and materials from falling."
+        },
+        {
+          "num": 52,
+          "question": "A fall protection plan must be:",
+          "choices": [
+            "Generic for all construction sites",
+            "Specific to each worksite",
+            "Updated annually",
+            "Approved by a physician"
+          ],
+          "answer": "B",
+          "explanation": "Specific to each worksite."
+        },
+        {
+          "num": 53,
+          "question": "What is rigging?",
+          "choices": [
+            "A type of crane",
+            "The process of safely moving heavy loads with lifting equipment",
+            "A method of tying knots",
+            "A structural support system"
+          ],
+          "answer": "B",
+          "explanation": "Rigging is the process of safely moving heavy loads."
+        },
+        {
+          "num": 54,
+          "question": "Why is sling angle important?",
+          "choices": [
+            "Steeper angles look better",
+            "Lower angles increase sling tension dramatically",
+            "Higher angles increase the load weight",
+            "Angle does not actually matter"
+          ],
+          "answer": "B",
+          "explanation": "Lower sling angles increase tension dramatically."
+        },
+        {
+          "num": 55,
+          "question": "At a 30-degree sling angle, tension is _____ the vertical load.",
+          "choices": [
+            "0.5 times",
+            "1.0 times",
+            "1.5 times",
+            "2.0 times"
+          ],
+          "answer": "D",
+          "explanation": "2.0 times the vertical load."
+        },
+        {
+          "num": 56,
+          "question": "What must a rigger determine before any lift?",
+          "choices": [
+            "The weather forecast",
+            "Load weight, hardware selection, sling angles, and crane capacity",
+            "The number of workers on site",
+            "The time of day"
+          ],
+          "answer": "B",
+          "explanation": "Weight, hardware, sling angles, and crane capacity."
+        },
+        {
+          "num": 57,
+          "question": "A 10,000-lb rated sling at 30 degrees can safely hold:",
+          "choices": [
+            "2,500 lb",
+            "5,000 lb",
+            "10,000 lb",
+            "20,000 lb"
+          ],
+          "answer": "B",
+          "explanation": "10,000/2=5,000 lb at 30°."
+        },
+        {
+          "num": 58,
+          "question": "Defective rigging should be:",
+          "choices": [
+            "Repaired on site",
+            "Used for light loads only",
+            "Removed from service and destroyed",
+            "Stored separately for later inspection"
+          ],
+          "answer": "A",
+          "explanation": "Removed from service and destroyed."
+        },
+        {
+          "num": 59,
+          "question": "The word “catastrophic” as used in the passage means:",
+          "choices": [
+            "Minor",
+            "Predictable",
+            "Extremely harmful or devastating",
+            "Unavoidable"
+          ],
+          "answer": "C",
+          "explanation": "Extremely harmful or devastating."
+        },
+        {
+          "num": 60,
+          "question": "What can you infer about why defective rigging must be destroyed?",
+          "choices": [
+            "It cannot be recycled",
+            "To prevent someone from accidentally using unsafe equipment",
+            "OSHA requires documentation",
+            "It is too expensive to repair"
+          ],
+          "answer": "B",
+          "explanation": "To prevent accidental reuse of unsafe equipment."
+        },
+        {
+          "num": 61,
+          "question": "Who publishes the NEC?",
+          "choices": [
+            "OSHA",
+            "The Department of Energy",
+            "The National Fire Protection Association",
+            "The Edison Electric Institute"
+          ],
+          "answer": "C",
+          "explanation": "NFPA publishes the NEC."
+        },
+        {
+          "num": 62,
+          "question": "How often is the NEC updated?",
+          "choices": [
+            "Annually",
+            "Every two years",
+            "Every three years",
+            "Every five years"
+          ],
+          "answer": "C",
+          "explanation": "Every three years."
+        },
+        {
+          "num": 63,
+          "question": "When does the NEC become law?",
+          "choices": [
+            "Immediately upon publication",
+            "When adopted by a state or local jurisdiction",
+            "When Congress approves it",
+            "When OSHA enforces it"
+          ],
+          "answer": "B",
+          "explanation": "When adopted by a state or local jurisdiction."
+        },
+        {
+          "num": 64,
+          "question": "What article of the NEC covers grounding and bonding?",
+          "choices": [
+            "Article 210",
+            "Article 220",
+            "Article 250",
+            "Article 300"
+          ],
+          "answer": "C",
+          "explanation": "Article 250."
+        },
+        {
+          "num": 65,
+          "question": "GFCIs were originally required only in:",
+          "choices": [
+            "Kitchens",
+            "Bedrooms",
+            "Bathrooms",
+            "Garages"
+          ],
+          "answer": "C",
+          "explanation": "Originally bathrooms only."
+        },
+        {
+          "num": 66,
+          "question": "Why should new electricians use the NEC alongside training materials?",
+          "choices": [
+            "The NEC is too short",
+            "The NEC is a reference document, not a teaching manual",
+            "The NEC is only available online",
+            "Training materials are required by OSHA"
+          ],
+          "answer": "B",
+          "explanation": "NEC is a reference document, not a teaching manual."
+        },
+        {
+          "num": 67,
+          "question": "The passage describes the NEC as a “model code.” This means:",
+          "choices": [
+            "It is the best code ever written",
+            "It serves as a template that jurisdictions can adopt",
+            "It is only a suggestion",
+            "It applies only to model homes"
+          ],
+          "answer": "B",
+          "explanation": "A model code serves as a template jurisdictions can adopt."
+        },
+        {
+          "num": 68,
+          "question": "What can you infer about states that modify NEC provisions?",
+          "choices": [
+            "They have less safe electrical systems",
+            "They may face unique local conditions that require different standards",
+            "They do not follow any electrical code",
+            "They are behind in technology"
+          ],
+          "answer": "B",
+          "explanation": "Unique local conditions may require different standards."
+        },
+        {
+          "num": 69,
+          "question": "What percentage of scaffolding used in construction is supported scaffolding?",
+          "choices": [
+            "35%",
+            "50%",
+            "65%",
+            "80%"
+          ],
+          "answer": "C",
+          "explanation": "65%."
+        },
+        {
+          "num": 70,
+          "question": "Scaffolds must support at least _____ their maximum intended load.",
+          "choices": [
+            "2 times",
+            "3 times",
+            "4 times",
+            "6 times"
+          ],
+          "answer": "C",
+          "explanation": "4 times."
+        },
+        {
+          "num": 71,
+          "question": "At what height are guardrails required on scaffolding?",
+          "choices": [
+            "4 feet",
+            "6 feet",
+            "8 feet",
+            "10 feet"
+          ],
+          "answer": "D",
+          "explanation": "10 feet."
+        },
+        {
+          "num": 72,
+          "question": "How wide must scaffold platforms be at minimum?",
+          "choices": [
+            "12 inches",
+            "16 inches",
+            "18 inches",
+            "24 inches"
+          ],
+          "answer": "C",
+          "explanation": "18 inches."
+        },
+        {
+          "num": 73,
+          "question": "How far must planks extend beyond the support point?",
+          "choices": [
+            "At least 6 inches but no more than 12 inches",
+            "At least 12 inches but no more than 18 inches",
+            "Exactly 6 inches",
+            "At least 3 inches"
+          ],
+          "answer": "A",
+          "explanation": "At least 6 inches but no more than 12 inches."
+        },
+        {
+          "num": 74,
+          "question": "Who must supervise scaffold erection and dismantling?",
+          "choices": [
+            "Any worker on the crew",
+            "A competent person",
+            "The building owner",
+            "An OSHA inspector"
+          ],
+          "answer": "B",
+          "explanation": "A competent person."
+        },
+        {
+          "num": 75,
+          "question": "Suspended scaffolding is commonly used for:",
+          "choices": [
+            "Foundation work",
+            "Road paving",
+            "Building exterior work like facade repair",
+            "Underground utilities"
+          ],
+          "answer": "C",
+          "explanation": "Exterior work like facade repair."
+        },
+        {
+          "num": 76,
+          "question": "Based on the passage, what is a likely cause of scaffold collapse?",
+          "choices": [
+            "Wind",
+            "Overloading beyond intended capacity",
+            "Rain",
+            "Normal use"
+          ],
+          "answer": "B",
+          "explanation": "Overloading beyond intended capacity."
+        },
+        {
+          "num": 77,
+          "question": "5/6 of 420 =",
+          "choices": [
+            "300",
+            "336",
+            "350",
+            "360"
+          ],
+          "answer": "C",
+          "explanation": "5/6×420=2100/6=350."
+        },
+        {
+          "num": 78,
+          "question": "A pipe is 22 ft 4 in. In inches?",
+          "choices": [
+            "264",
+            "268",
+            "272",
+            "276"
+          ],
+          "answer": "B",
+          "explanation": "22×12=264+4=268in."
+        },
+        {
+          "num": 79,
+          "question": "18% of $550 =",
+          "choices": [
+            "$89",
+            "$94",
+            "$99",
+            "$104"
+          ],
+          "answer": "C",
+          "explanation": "0.18×550=$99."
+        },
+        {
+          "num": 80,
+          "question": "A triangle: base 16 ft, height 9 ft. Area?",
+          "choices": [
+            "25 sq ft",
+            "72 sq ft",
+            "108 sq ft",
+            "144 sq ft"
+          ],
+          "answer": "B",
+          "explanation": "A=½×16×9=72 sq ft."
+        },
+        {
+          "num": 81,
+          "question": "√324 =",
+          "choices": [
+            "16",
+            "17",
+            "18",
+            "19"
+          ],
+          "answer": "C",
+          "explanation": "18×18=324."
+        },
+        {
+          "num": 82,
+          "question": "$24.50 × 7 =",
+          "choices": [
+            "$161.50",
+            "$168.00",
+            "$171.50",
+            "$175.00"
+          ],
+          "answer": "C",
+          "explanation": "$24.50×7=$171.50."
+        },
+        {
+          "num": 83,
+          "question": "7/12 - 1/4 =",
+          "choices": [
+            "1/6",
+            "1/4",
+            "1/3",
+            "5/12"
+          ],
+          "answer": "C",
+          "explanation": "7/12-3/12=4/12=1/3."
+        },
+        {
+          "num": 84,
+          "question": "Volume: 5 ft × 3 ft × 8 ft =",
+          "choices": [
+            "16 cu ft",
+            "40 cu ft",
+            "80 cu ft",
+            "120 cu ft"
+          ],
+          "answer": "D",
+          "explanation": "V = 5 × 3 × 8 = 120 cu ft."
+        },
+        {
+          "num": 85,
+          "question": "A job needs 648 screws. Boxes of 36. How many boxes?",
+          "choices": [
+            "16",
+            "17",
+            "18",
+            "20"
+          ],
+          "answer": "C",
+          "explanation": "648/36=18 boxes."
+        },
+        {
+          "num": 86,
+          "question": "Convert 3.25 yards to feet.",
+          "choices": [
+            "6.75",
+            "9.75",
+            "10.75",
+            "12"
+          ],
+          "answer": "B",
+          "explanation": "3.25×3=9.75ft."
+        },
+        {
+          "num": 87,
+          "question": "4³ + 2³ =",
+          "choices": [
+            "18",
+            "48",
+            "64",
+            "72"
+          ],
+          "answer": "D",
+          "explanation": "64+8=72."
+        },
+        {
+          "num": 88,
+          "question": "40% off $185 = sale price of:",
+          "choices": [
+            "$74",
+            "$85",
+            "$96",
+            "$111"
+          ],
+          "answer": "D",
+          "explanation": "40% off: 0.40×185=$74 discount. $185-$74=$111."
+        },
+        {
+          "num": 89,
+          "question": "Circumference, d = 14 ft? (π=3.14)",
+          "choices": [
+            "21.98 ft",
+            "43.96 ft",
+            "87.92 ft",
+            "153.86 ft"
+          ],
+          "answer": "B",
+          "explanation": "C=πd=3.14×14=43.96ft."
+        },
+        {
+          "num": 90,
+          "question": "A crew of 5 installs 400 ft of wire/day. Per worker?",
+          "choices": [
+            "50 ft",
+            "60 ft",
+            "75 ft",
+            "80 ft"
+          ],
+          "answer": "D",
+          "explanation": "400/5=80 ft per worker."
+        },
+        {
+          "num": 91,
+          "question": "1 3/4 + 2 5/8 =",
+          "choices": [
+            "3 3/8",
+            "4 1/8",
+            "4 3/8",
+            "4 5/8"
+          ],
+          "answer": "C",
+          "explanation": "1 3/4=1 6/8. 1 6/8+2 5/8=3 11/8=4 3/8."
+        },
+        {
+          "num": 92,
+          "question": "A tank: 6 ft diameter, 8 ft tall, cylindrical. Volume? (π=3.14)",
+          "choices": [
+            "150.72 cu ft",
+            "226.08 cu ft",
+            "301.44 cu ft",
+            "904.32 cu ft"
+          ],
+          "answer": "B",
+          "explanation": "r=3ft. V=3.14×9×8=226.08 cu ft."
+        },
+        {
+          "num": 93,
+          "question": "A worker at $19.50/hr works 37.5 hrs. Gross pay?",
+          "choices": [
+            "$650.00",
+            "$712.50",
+            "$731.25",
+            "$750.00"
+          ],
+          "answer": "C",
+          "explanation": "$19.50×37.5=$731.25."
+        },
+        {
+          "num": 94,
+          "question": "Ratio 7:3. In a 200-unit batch, how many of the larger portion?",
+          "choices": [
+            "60",
+            "70",
+            "100",
+            "140"
+          ],
+          "answer": "D",
+          "explanation": "Total parts=10. Larger=7/10×200=140."
+        },
+        {
+          "num": 95,
+          "question": "A plan: rectangular shop 36 ft × 28 ft. Area?",
+          "choices": [
+            "64 sq ft",
+            "512 sq ft",
+            "1,008 sq ft",
+            "2,016 sq ft"
+          ],
+          "answer": "C",
+          "explanation": "36×28=1,008 sq ft."
+        },
+        {
+          "num": 96,
+          "question": "Scale 1/8” = 1’. A wall is 6” on the blueprint. Actual?",
+          "choices": [
+            "6 ft",
+            "24 ft",
+            "36 ft",
+            "48 ft"
+          ],
+          "answer": "D",
+          "explanation": "1/8”=1’ means 1”=8’. 6×8=48ft."
+        },
+        {
+          "num": 97,
+          "question": "Bar chart: Mon 125, Tue 98, Wed 142, Thu 115, Fri 130. Average?",
+          "choices": [
+            "118",
+            "120",
+            "122",
+            "130"
+          ],
+          "answer": "C",
+          "explanation": "(125+98+142+115+130)/5=610/5=122."
+        },
+        {
+          "num": 98,
+          "question": "A slab 25 ft × 15 ft × 6 in. Cu yards?",
+          "choices": [
+            "6.94",
+            "13.9",
+            "187.5",
+            "375"
+          ],
+          "answer": "A",
+          "explanation": "6in=0.5ft. V=25×15×0.5=187.5cuft. 187.5/27=6.94 cu yd."
+        },
+        {
+          "num": 99,
+          "question": "A table: conduit $2.80/ft, 150 ft. Wire $0.45/ft, 300 ft. Total?",
+          "choices": [
+            "$420",
+            "$555",
+            "$600",
+            "$650"
+          ],
+          "answer": "B",
+          "explanation": "(150×2.80)+(300×0.45)=420+135=$555."
+        },
+        {
+          "num": 100,
+          "question": "Scale 1” = 15 ft. A building is 4.5” × 3”. Actual area?",
+          "choices": [
+            "202.5 sq ft",
+            "1,012.5 sq ft",
+            "2,025 sq ft",
+            "3,037.5 sq ft"
+          ],
+          "answer": "D",
+          "explanation": "4.5 × 15 = 67.5 ft. 3 × 15 = 45 ft. Area = 67.5 × 45 = 3,037.5 sq ft."
+        },
+        {
+          "num": 101,
+          "question": "A pie: equipment 35% of $60,000. Equipment cost?",
+          "choices": [
+            "$18,000",
+            "$19,500",
+            "$21,000",
+            "$24,000"
+          ],
+          "answer": "C",
+          "explanation": "0.35×60,000=$21,000."
+        },
+        {
+          "num": 102,
+          "question": "A U-shaped room: outer 22×16, inner cutout 10×8. Area?",
+          "choices": [
+            "272 sq ft",
+            "288 sq ft",
+            "352 sq ft",
+            "432 sq ft"
+          ],
+          "answer": "A",
+          "explanation": "Outer: 22×16=352. Cutout: 10×8=80. 352-80=272 sq ft."
+        },
+        {
+          "num": 103,
+          "question": "A manhole, diameter 36 in. Area? (π=3.14)",
+          "choices": [
+            "113.04 sq in",
+            "452.16 sq in",
+            "1,017.36 sq in",
+            "4,069.44 sq in"
+          ],
+          "answer": "C",
+          "explanation": "r=18in. A=3.14×324=1,017.36 sq in."
+        },
+        {
+          "num": 104,
+          "question": "A graph: energy costs Jan-Jun: $420, $395, $380, $345, $310, $290. Total savings Jan vs Jun?",
+          "choices": [
+            "$100",
+            "$110",
+            "$120",
+            "$130"
+          ],
+          "answer": "D",
+          "explanation": "$420-$290=$130."
+        },
+        {
+          "num": 105,
+          "question": "A trench 120 ft × 2.5 ft × 4 ft. Cu yards?",
+          "choices": [
+            "44.4",
+            "88.9",
+            "120",
+            "1,200"
+          ],
+          "answer": "A",
+          "explanation": "120×2.5×4=1,200cuft. 1200/27=44.4 cu yd."
+        },
+        {
+          "num": 106,
+          "question": "A table: 3 crews — A:8 workers/52 units, B:6/45, C:10/68. Most productive per worker?",
+          "choices": [
+            "Crew A",
+            "Crew B",
+            "Crew C",
+            "All equal"
+          ],
+          "answer": "B",
+          "explanation": "A:52/8=6.5. B:45/6=7.5. C:68/10=6.8. Crew B most productive."
+        },
+        {
+          "num": 107,
+          "question": "A floor: 24×30, minus 6×8 stairwell. Area?",
+          "choices": [
+            "672 sq ft",
+            "696 sq ft",
+            "720 sq ft",
+            "768 sq ft"
+          ],
+          "answer": "A",
+          "explanation": "24×30=720. 6×8=48. 720-48=672 sq ft."
+        },
+        {
+          "num": 108,
+          "question": "Scale 1” = 40 ft. Lot 3.5” × 2.75”. Area?",
+          "choices": [
+            "9,625 sq ft",
+            "12,250 sq ft",
+            "15,400 sq ft",
+            "19,250 sq ft"
+          ],
+          "answer": "C",
+          "explanation": "3.5×40=140ft. 2.75×40=110ft. 140×110=15,400 sq ft."
+        },
+        {
+          "num": 109,
+          "question": "A table: tile $5.75/sq ft. Room 11×13 on plan. Cost?",
+          "choices": [
+            "$712.25",
+            "$782.25",
+            "$822.25",
+            "$862.50"
+          ],
+          "answer": "C",
+          "explanation": "11×13=143sqft. 143×5.75=$822.25."
+        },
+        {
+          "num": 110,
+          "question": "A triangular gable: base 24 ft, height 7 ft. Area?",
+          "choices": [
+            "31 sq ft",
+            "84 sq ft",
+            "168 sq ft",
+            "336 sq ft"
+          ],
+          "answer": "B",
+          "explanation": "½×24×7=84 sq ft."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Access Practice Tests - CertPath Publishing</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header-inner">
+      <a href="/" class="logo">CertPath <span class="gold">Publishing</span></a>
+      <nav class="nav">
+        <a href="/">Home</a>
+        <a href="/bonus.html">Bonus</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="form-card">
+      <h2>Unlock Your Practice Tests</h2>
+      <p>Enter the access code from the last page of your CertPath Publishing book.</p>
+
+      <form id="accessForm">
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" required placeholder="you@example.com" autocomplete="email">
+          <div class="hint">We'll save your progress and send tips for your exam prep.</div>
+        </div>
+
+        <div class="form-group">
+          <label for="code">Book Access Code</label>
+          <input type="text" id="code" required placeholder="XXXX-XXXXX-XXXXX" autocomplete="off" style="text-transform: uppercase; font-family: monospace;">
+          <div class="hint">Found on the last page of your book. Format: XXXX-XXXXX-XXXXX</div>
+        </div>
+
+        <button type="submit" class="btn">Unlock Practice Tests</button>
+
+        <div class="message error" id="errorMsg"></div>
+      </form>
+    </div>
+
+    <div id="testList" style="display: none;">
+      <h2 style="color: var(--navy); text-align: center; margin: 2rem 0 0.5rem;">Your Practice Tests</h2>
+      <p style="text-align: center; color: var(--gray); margin-bottom: 2rem;" id="welcomeMsg"></p>
+      <div class="book-grid" id="unlockedGrid"></div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; CertPath Publishing. Practice tests for verified book owners only.</p>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

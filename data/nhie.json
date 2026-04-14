@@ -1,0 +1,2183 @@
+{
+  "slug": "nhie",
+  "title": "Home Inspector Exam Study Guide",
+  "code": "NHIE-OG6WS-Z4YE9",
+  "timeMinutes": 120,
+  "tests": [
+    {
+      "testNum": 1,
+      "questions": [
+        {
+          "num": 1,
+          "question": "During a home inspection, you observe a horizontal crack running along the middle of a poured concrete foundation wall. What is the most likely cause?",
+          "choices": [
+            "Vertical settlement of the footing",
+            "Lateral soil pressure against the wall",
+            "Shrinkage during concrete curing",
+            "Frost heave beneath the footing"
+          ],
+          "answer": "B",
+          "explanation": "Horizontal cracks in poured concrete foundation walls are typically caused by lateral (inward) pressure from soil outside the wall. This is a significant structural concern."
+        },
+        {
+          "num": 2,
+          "question": "Which type of foundation crack is generally considered the MOST structurally significant?",
+          "choices": [
+            "Vertical hairline cracks in poured concrete",
+            "Diagonal cracks radiating from basement window corners",
+            "Horizontal displacement cracks in block walls",
+            "Shrinkage cracks at the top of a foundation wall"
+          ],
+          "answer": "C",
+          "explanation": "Horizontal displacement cracks in concrete block walls indicate lateral soil pressure that can lead to wall failure. These are more structurally significant than vertical or diagonal cracks."
+        },
+        {
+          "num": 3,
+          "question": "A floor system has noticeable bounce when walked upon. The joists are 2x8 lumber spanning 14 feet with no bridging or blocking. What is the most likely issue?",
+          "choices": [
+            "The subfloor sheathing is delaminated",
+            "The joists are undersized for the span",
+            "The sill plate is not anchored to the foundation",
+            "The girder beam has excessive camber"
+          ],
+          "answer": "B",
+          "explanation": "A 2x8 joist spanning 14 feet without intermediate support is likely undersized. Standard span tables generally limit 2x8 joists to about 12 feet for typical residential loading."
+        },
+        {
+          "num": 4,
+          "question": "You observe that roof rafters are sagging at mid-span and there is no ridge board or ridge beam. What structural element is most likely missing or inadequate?",
+          "choices": [
+            "Collar ties",
+            "Ceiling joists or rafter ties",
+            "Soffit vents",
+            "Roof decking"
+          ],
+          "answer": "B",
+          "explanation": "Ceiling joists or rafter ties resist the outward thrust of the rafters. Without them, the rafters push the walls outward and sag at mid-span."
+        },
+        {
+          "num": 5,
+          "question": "What is the primary purpose of anchor bolts in residential foundation construction?",
+          "choices": [
+            "To prevent the sill plate from splitting",
+            "To secure the wood framing to the foundation against uplift and lateral forces",
+            "To reinforce the concrete against cracking",
+            "To provide a moisture barrier between concrete and wood"
+          ],
+          "answer": "B",
+          "explanation": "Anchor bolts connect the wood sill plate to the concrete foundation, resisting uplift from wind forces and lateral forces from seismic events."
+        },
+        {
+          "num": 6,
+          "question": "You notice that asphalt shingles are curling and the granule loss is significant. Several shingles have exposed fiberglass mat. What should the inspector report?",
+          "choices": [
+            "The shingles need cleaning but are functional",
+            "The roof covering is at or near the end of its service life and should be evaluated by a roofing contractor",
+            "Only the curled shingles need individual replacement",
+            "The roof decking beneath must be replaced"
+          ],
+          "answer": "B",
+          "explanation": "Widespread curling, granule loss, and exposed fiberglass mat indicate the shingles have reached the end of their serviceable life. A roofing contractor should evaluate for replacement."
+        },
+        {
+          "num": 7,
+          "question": "While inspecting an attic, you observe that the weights of a large HVAC unit are resting directly on the bottom chords of roof trusses. Why is this a concern?",
+          "choices": [
+            "It will void the HVAC warranty",
+            "Trusses are engineered components and should not carry loads they were not designed for",
+            "The attic insulation will be compressed",
+            "It creates a fire hazard from vibration"
+          ],
+          "answer": "B",
+          "explanation": "Roof trusses are engineered for specific loads (dead loads and live loads on the roof). Adding unplanned loads like HVAC equipment can cause structural failure or excessive deflection."
+        },
+        {
+          "num": 8,
+          "question": "Step cracking along mortar joints in a brick veneer wall most commonly indicates:",
+          "choices": [
+            "Poor mortar mix during original construction",
+            "Differential settlement of the foundation",
+            "Water penetration through the weep holes",
+            "Thermal expansion of the brick"
+          ],
+          "answer": "B",
+          "explanation": "Stair-step cracking in brick mortar joints is a classic indicator of differential settlement, where one part of the foundation settles more than another."
+        },
+        {
+          "num": 9,
+          "question": "You observe that the exterior grade slopes toward the foundation on all sides of the house. What is the primary concern?",
+          "choices": [
+            "Soil erosion will expose the footing",
+            "Water will collect against the foundation and may cause moisture intrusion or structural damage",
+            "The landscaping will die from over-watering",
+            "The driveway will crack from hydrostatic pressure"
+          ],
+          "answer": "B",
+          "explanation": "Grading that slopes toward the foundation directs surface water against the foundation wall, increasing the risk of water intrusion and potential structural damage from hydrostatic pressure."
+        },
+        {
+          "num": 10,
+          "question": "What is the recommended minimum clearance between exterior wood siding and the finished grade?",
+          "choices": [
+            "2 inches",
+            "4 inches",
+            "6 inches",
+            "8 inches"
+          ],
+          "answer": "C",
+          "explanation": "A minimum of 6 inches of clearance between wood siding and grade is recommended to reduce moisture damage, wood-destroying insect access, and splash-back deterioration."
+        },
+        {
+          "num": 11,
+          "question": "Hardboard siding is showing signs of swelling and delamination at the bottom edges of several panels. What is the most likely cause?",
+          "choices": [
+            "Improper paint application",
+            "Exposure to UV radiation",
+            "Moisture absorption from ground splash-back or lack of clearance",
+            "Insect infestation behind the panels"
+          ],
+          "answer": "C",
+          "explanation": "Hardboard siding is highly susceptible to moisture absorption. Swelling and delamination at bottom edges typically result from ground splash-back or insufficient clearance from grade."
+        },
+        {
+          "num": 12,
+          "question": "During an inspection, you note that the garage floor has a large crack and slopes toward the interior of the house rather than toward the garage door. What is the primary concern?",
+          "choices": [
+            "Vehicle damage from the uneven surface",
+            "Fuel or chemical spills could flow into the living space",
+            "The foundation is failing beneath the garage",
+            "The garage door will not seal properly"
+          ],
+          "answer": "B",
+          "explanation": "A garage floor that slopes toward the living space can direct fuel spills, chemical spills, or carbon monoxide-laden air toward the house interior, creating a safety hazard."
+        },
+        {
+          "num": 13,
+          "question": "What is the main purpose of weep holes in a brick veneer wall system?",
+          "choices": [
+            "To allow insects to access the wall cavity for pest inspections",
+            "To drain moisture from the air space behind the brick and allow ventilation",
+            "To anchor the brick veneer to the structural sheathing",
+            "To provide expansion joints for thermal movement"
+          ],
+          "answer": "B",
+          "explanation": "Weep holes allow moisture that collects behind the brick veneer to drain out and permit air circulation in the air space, preventing moisture damage to the structural wall behind."
+        },
+        {
+          "num": 14,
+          "question": "A wooden deck is attached to the house with nails only and has no ledger board flashing. What should the inspector report?",
+          "choices": [
+            "The deck meets standard construction practices",
+            "The deck attachment is a safety concern; lag bolts or through-bolts and proper flashing are recommended",
+            "Only the flashing is needed; nails are acceptable",
+            "The deck should be freestanding and not attached to the house"
+          ],
+          "answer": "B",
+          "explanation": "Deck ledger boards attached with nails only are a known safety hazard. Lag bolts or through-bolts with proper flashing are required to prevent deck collapse and water intrusion."
+        },
+        {
+          "num": 15,
+          "question": "You open the main electrical panel and observe two circuit conductors connected to a single breaker terminal. This condition is called:",
+          "choices": [
+            "Parallel wiring",
+            "Double-tapped breaker",
+            "Tandem breaker configuration",
+            "Multi-wire branch circuit"
+          ],
+          "answer": "B",
+          "explanation": "A double-tapped breaker has two conductors connected to a single-pole breaker terminal designed for one wire. This creates loose connections and potential overheating."
+        },
+        {
+          "num": 16,
+          "question": "Which brand of electrical panel has been widely identified as a significant safety hazard due to breakers that fail to trip under overcurrent conditions?",
+          "choices": [
+            "Square D",
+            "Siemens",
+            "Federal Pacific Electric (FPE) Stab-Lok",
+            "Cutler-Hammer"
+          ],
+          "answer": "C",
+          "explanation": "Federal Pacific Electric (FPE) Stab-Lok panels have a well-documented history of breakers failing to trip during overcurrent events, creating a significant fire hazard."
+        },
+        {
+          "num": 17,
+          "question": "Aluminum branch circuit wiring installed in homes during the 1960s and 1970s is a concern primarily because:",
+          "choices": [
+            "Aluminum wire is too small for residential circuits",
+            "Aluminum expands and contracts more than copper, leading to loose connections and potential fire hazards",
+            "Aluminum cannot carry sufficient amperage for modern appliances",
+            "Aluminum wiring was recalled by the CPSC"
+          ],
+          "answer": "B",
+          "explanation": "Aluminum wiring expands and contracts at a greater rate than copper. This thermal cycling loosens connections over time, increasing resistance and creating fire-prone hot spots."
+        },
+        {
+          "num": 18,
+          "question": "An inspector tests outlets in a bathroom and finds that none of them have GFCI protection. According to current standards, GFCI protection is required in which locations?",
+          "choices": [
+            "Bedrooms and hallways",
+            "Bathrooms, kitchens, garages, outdoors, and near laundry sinks",
+            "Only bathrooms and kitchens",
+            "Only outdoor receptacles"
+          ],
+          "answer": "B",
+          "explanation": "GFCI protection is required in bathrooms, kitchens (countertop receptacles), garages, outdoors, crawl spaces, unfinished basements, and within 6 feet of laundry sinks."
+        },
+        {
+          "num": 19,
+          "question": "You test a three-prong outlet with a circuit tester and the tester indicates an open ground. What does this mean?",
+          "choices": [
+            "The outlet has no neutral connection",
+            "The grounding conductor is not connected or is missing",
+            "The circuit has reversed polarity",
+            "The outlet is on a GFCI-protected circuit"
+          ],
+          "answer": "B",
+          "explanation": "An open ground reading means the grounding conductor (equipment ground) is not connected to the outlet. The outlet may appear to be grounded (three prongs) but provides no ground fault protection."
+        },
+        {
+          "num": 20,
+          "question": "What is the minimum recommended height for an electrical service entrance weatherhead above the roof surface it passes over?",
+          "choices": [
+            "12 inches",
+            "18 inches",
+            "36 inches (3 feet)",
+            "60 inches (5 feet)"
+          ],
+          "answer": "C",
+          "explanation": "The service entrance weatherhead should maintain at least 3 feet (36 inches) of clearance above the roof surface to reduce the risk of physical damage and maintain safe clearances."
+        },
+        {
+          "num": 21,
+          "question": "An inspector notices that a 15-ampere circuit is wired with 14-gauge copper conductors and has a 20-ampere breaker installed. What is the concern?",
+          "choices": [
+            "The wire gauge is too large for the breaker",
+            "The breaker is oversized for the wire, creating a fire hazard because the breaker may not trip before the wire overheats",
+            "This is an acceptable configuration for kitchen circuits",
+            "The neutral wire needs to be upsized"
+          ],
+          "answer": "B",
+          "explanation": "A 20-amp breaker on 14-gauge wire is a fire hazard. 14-gauge wire is rated for 15 amps; a 20-amp breaker allows current that can overheat the wire before the breaker trips."
+        },
+        {
+          "num": 22,
+          "question": "What is the primary purpose of a bonding jumper on the metal water piping near the water heater?",
+          "choices": [
+            "To prevent electrolysis between dissimilar metals",
+            "To ensure electrical continuity of the grounding electrode system",
+            "To protect the water heater from lightning strikes",
+            "To reduce water hammer in the piping system"
+          ],
+          "answer": "B",
+          "explanation": "A bonding jumper on metal water piping ensures electrical continuity for the grounding electrode system. If a dielectric fitting or section of plastic pipe interrupts the metal piping, the grounding path is broken."
+        },
+        {
+          "num": 23,
+          "question": "Polybutylene (PB) water supply piping is a concern because:",
+          "choices": [
+            "It cannot handle water pressures above 40 psi",
+            "It is known to deteriorate from the inside out due to chlorine and other oxidants, leading to leaks and failures",
+            "It releases toxic chemicals into the drinking water",
+            "It is not approved for use with hot water"
+          ],
+          "answer": "B",
+          "explanation": "Polybutylene piping is susceptible to degradation from chlorine and oxidants in the water supply, causing it to become brittle, flake, and develop leaks from the inside out."
+        },
+        {
+          "num": 24,
+          "question": "An S-trap is considered undesirable in plumbing because:",
+          "choices": [
+            "It does not provide an adequate water seal",
+            "Siphoning action can pull water from the trap, allowing sewer gases to enter the living space",
+            "It causes excessive water hammer",
+            "It restricts flow more than a P-trap"
+          ],
+          "answer": "B",
+          "explanation": "An S-trap allows the water seal to be siphoned out by the momentum of draining water. Once the seal is lost, sewer gases can enter the building."
+        },
+        {
+          "num": 25,
+          "question": "You observe that a plumbing drain has no visible vent pipe. What is the primary function of a plumbing vent?",
+          "choices": [
+            "To allow air into the drain system to maintain trap seals and ensure proper drainage flow",
+            "To release excess water pressure from the supply lines",
+            "To provide access for drain cleaning",
+            "To equalize hot and cold water temperatures"
+          ],
+          "answer": "A",
+          "explanation": "Plumbing vents allow air into the drain system to equalize pressure, which prevents siphoning of trap seals and ensures smooth drainage flow."
+        },
+        {
+          "num": 26,
+          "question": "The water heater temperature and pressure (T&P) relief valve discharge pipe terminates 4 inches above the floor. Is this acceptable?",
+          "choices": [
+            "Yes, this meets standard requirements",
+            "No, the discharge pipe should terminate within 6 inches of the floor or to the exterior",
+            "No, the discharge pipe must connect directly to the drain system",
+            "Yes, as long as a bucket is placed beneath it"
+          ],
+          "answer": "B",
+          "explanation": "The T&P relief valve discharge pipe must terminate within 6 inches of the floor or be directed to the building exterior. This prevents scalding if the valve activates."
+        },
+        {
+          "num": 27,
+          "question": "During an inspection, you observe galvanized steel water supply pipes with visible corrosion at threaded fittings and reduced water flow at fixtures. What should the inspector report?",
+          "choices": [
+            "The piping is in satisfactory condition for its age",
+            "The galvanized piping shows corrosion and restricted flow; further evaluation by a plumber is recommended",
+            "Only the corroded fittings need replacement",
+            "The water heater is causing the reduced flow"
+          ],
+          "answer": "B",
+          "explanation": "Corroded galvanized piping with restricted flow indicates internal buildup and deterioration. A plumber should evaluate the system for potential replacement."
+        },
+        {
+          "num": 28,
+          "question": "You notice a cross-connection where a garden hose is submerged in a swimming pool with no backflow prevention device. Why is this a defect?",
+          "choices": [
+            "It will damage the garden hose",
+            "Pool water could be siphoned back into the potable water supply, creating a health hazard",
+            "It will increase the water bill",
+            "The pool pump could be damaged by backflow"
+          ],
+          "answer": "B",
+          "explanation": "A cross-connection with no backflow preventer allows contaminated water to siphon back into the potable supply through negative pressure events, creating a serious health hazard."
+        },
+        {
+          "num": 29,
+          "question": "A cracked heat exchanger in a gas furnace is a serious safety concern primarily because:",
+          "choices": [
+            "It reduces the furnace efficiency below 80%",
+            "It can allow combustion gases, including carbon monoxide, to enter the living space",
+            "It causes the blower motor to overheat",
+            "It will cause the pilot light to go out repeatedly"
+          ],
+          "answer": "B",
+          "explanation": "A cracked heat exchanger can allow combustion byproducts, including carbon monoxide, to mix with the household air stream distributed by the blower, creating a potentially lethal condition."
+        },
+        {
+          "num": 30,
+          "question": "While inspecting a central air conditioning system, you observe that the evaporator coil is heavily coated with dust and debris. What is the primary effect?",
+          "choices": [
+            "The compressor will use less electricity",
+            "Reduced airflow and heat transfer, leading to decreased efficiency and possible coil icing",
+            "The condensate drain will be less likely to clog",
+            "The refrigerant charge will increase"
+          ],
+          "answer": "B",
+          "explanation": "A dirty evaporator coil restricts airflow and reduces heat transfer. The coil temperature drops below normal, causing condensation to freeze on the coil and further restricting airflow."
+        },
+        {
+          "num": 31,
+          "question": "The temperature differential (delta T) between supply and return air for a properly functioning central air conditioning system should typically be approximately:",
+          "choices": [
+            "5 to 8 degrees F",
+            "10 to 12 degrees F",
+            "15 to 20 degrees F",
+            "25 to 30 degrees F"
+          ],
+          "answer": "C",
+          "explanation": "A properly operating air conditioning system typically produces a 15 to 20 degree F temperature split between return air and supply air. Values outside this range may indicate a problem."
+        },
+        {
+          "num": 32,
+          "question": "You observe rust-colored staining on the exterior cabinet of a gas furnace near the draft hood. What condition might this indicate?",
+          "choices": [
+            "Normal condensation from seasonal temperature changes",
+            "Possible backdrafting of combustion gases",
+            "A leaking humidifier",
+            "Overheating of the blower motor"
+          ],
+          "answer": "B",
+          "explanation": "Rust staining near the draft hood suggests condensation from exhaust gases that are not properly venting. This is a sign of backdrafting, which is a carbon monoxide hazard."
+        },
+        {
+          "num": 33,
+          "question": "What is the minimum recommended clearance between a gas furnace flue pipe (single-wall) and combustible materials?",
+          "choices": [
+            "1 inch",
+            "3 inches",
+            "6 inches",
+            "12 inches"
+          ],
+          "answer": "C",
+          "explanation": "Single-wall flue pipe requires a minimum of 6 inches of clearance from combustible materials. Double-wall (B-vent) pipe requires only 1 inch."
+        },
+        {
+          "num": 34,
+          "question": "An inspector notes that the condensate drain line from a high-efficiency furnace discharges directly onto the ground next to the foundation. What should be reported?",
+          "choices": [
+            "This is an acceptable installation",
+            "The condensate should be routed to an approved drain, not discharged against the foundation where it may cause moisture issues",
+            "High-efficiency furnaces do not produce condensate",
+            "The condensate is harmless and needs no special handling"
+          ],
+          "answer": "B",
+          "explanation": "Condensate from high-efficiency furnaces is acidic and should be directed to an approved drain. Discharging against the foundation can cause erosion and moisture problems."
+        },
+        {
+          "num": 35,
+          "question": "In most climate zones, the Department of Energy recommends a minimum attic insulation level of approximately:",
+          "choices": [
+            "R-13 to R-19",
+            "R-22 to R-30",
+            "R-38 to R-60",
+            "R-70 to R-80"
+          ],
+          "answer": "C",
+          "explanation": "The DOE recommends R-38 to R-60 for attic insulation in most U.S. climate zones, with higher values recommended for colder regions."
+        },
+        {
+          "num": 36,
+          "question": "An inspector observes that blown-in insulation in the attic is covering the soffit vents and in direct contact with the roof sheathing. What is the concern?",
+          "choices": [
+            "The insulation will settle and lose effectiveness",
+            "Blocked soffit vents reduce attic ventilation, which can lead to moisture buildup and premature sheathing deterioration",
+            "The insulation will become a fire hazard",
+            "The roof shingles will overheat and void the warranty"
+          ],
+          "answer": "B",
+          "explanation": "Insulation blocking soffit vents prevents proper attic ventilation. Without ventilation, moisture accumulates and can cause mold growth, wood rot, and premature sheathing failure."
+        },
+        {
+          "num": 37,
+          "question": "What is the primary purpose of a vapor barrier (vapor retarder) on insulation in a cold climate?",
+          "choices": [
+            "To improve the R-value of the insulation",
+            "To prevent warm, moist interior air from reaching cold surfaces where it could condense",
+            "To block air infiltration through the wall cavity",
+            "To protect the insulation from insect damage"
+          ],
+          "answer": "B",
+          "explanation": "In cold climates, the vapor retarder is placed on the warm (interior) side of the insulation to prevent warm moist air from reaching the cold sheathing where it would condense."
+        },
+        {
+          "num": 38,
+          "question": "Vermiculite insulation found in attics of homes built before 1990 is a concern because:",
+          "choices": [
+            "It has a very low R-value",
+            "Some vermiculite (notably from the Libby, Montana mine) may contain asbestos",
+            "It is highly flammable",
+            "It attracts rodents and insects"
+          ],
+          "answer": "B",
+          "explanation": "Vermiculite from the Libby, Montana mine (marketed as Zonolite) was contaminated with tremolite asbestos. This vermiculite was widely used and poses an asbestos exposure risk if disturbed."
+        },
+        {
+          "num": 39,
+          "question": "What is the required minimum clearance between a wood-burning fireplace firebox opening and combustible materials (such as a wood mantel)?",
+          "choices": [
+            "2 inches",
+            "6 inches",
+            "12 inches above the opening and 6 inches on the sides",
+            "18 inches on all sides"
+          ],
+          "answer": "C",
+          "explanation": "The standard clearance for combustible materials around a fireplace opening is 12 inches above the firebox opening and 6 inches along the sides, unless the mantel projects more than 1.5 inches."
+        },
+        {
+          "num": 40,
+          "question": "An inspector notices that a gas fireplace has no carbon monoxide detector in the room. Should this be reported?",
+          "choices": [
+            "No, gas fireplaces do not produce carbon monoxide",
+            "Yes, CO detectors are recommended near all fuel-burning appliances for safety",
+            "Only if the fireplace is unvented",
+            "Only if the home has no smoke detectors"
+          ],
+          "answer": "B",
+          "explanation": "All fuel-burning appliances, including gas fireplaces, can produce carbon monoxide. CO detectors should be installed near any combustion appliance for occupant safety."
+        },
+        {
+          "num": 41,
+          "question": "While inspecting interior walls, you observe diagonal cracking above a door frame that extends toward the ceiling. This is most commonly associated with:",
+          "choices": [
+            "Improper drywall taping and finishing",
+            "Foundation settlement or structural movement",
+            "Thermal expansion of the door frame",
+            "Water damage from a roof leak"
+          ],
+          "answer": "B",
+          "explanation": "Diagonal cracks above door or window openings that extend toward the ceiling are characteristic of differential foundation settlement or structural movement in the building."
+        },
+        {
+          "num": 42,
+          "question": "An inspector observes moisture staining and efflorescence on the interior surface of a below-grade basement wall. What is the most likely source?",
+          "choices": [
+            "A plumbing leak from an interior wall",
+            "Condensation from a poorly insulated wall",
+            "Water migrating through the foundation from exterior soil moisture",
+            "Flooding from a previous plumbing backup"
+          ],
+          "answer": "C",
+          "explanation": "Efflorescence (white mineral deposits) and moisture staining on below-grade walls indicate water is migrating through the concrete or masonry from saturated soil outside."
+        },
+        {
+          "num": 43,
+          "question": "When writing an inspection report, the inspector observes a condition that appears to be a significant safety hazard. How should this be addressed?",
+          "choices": [
+            "Note it as a minor maintenance item",
+            "Clearly identify it as a safety concern and recommend immediate evaluation by a qualified professional",
+            "Omit it if the client does not ask about it",
+            "Photograph it but do not include it in the written report"
+          ],
+          "answer": "B",
+          "explanation": "Safety hazards must be clearly identified and given priority in the report. The inspector should recommend immediate evaluation by a qualified professional for any safety concern."
+        },
+        {
+          "num": 44,
+          "question": "An inspection report should describe the condition of a component as:",
+          "choices": [
+            "Brand new, good, fair, or poor",
+            "Satisfactory, marginal, or deficient based on observable conditions",
+            "Excellent, average, or below average compared to similar homes",
+            "Pass or fail based on building code compliance"
+          ],
+          "answer": "B",
+          "explanation": "Inspection reports should use consistent, objective terminology based on observable conditions. Ratings like satisfactory, marginal, or deficient convey condition without subjective judgment."
+        },
+        {
+          "num": 45,
+          "question": "Which of the following is the BEST example of objective reporting language in a home inspection report?",
+          "choices": [
+            "The roof is terrible and needs to be replaced immediately",
+            "The roof covering appears to be original, with widespread granule loss and curling; further evaluation by a roofing contractor is recommended",
+            "The roof looks okay for its age",
+            "The roof will probably last another five years"
+          ],
+          "answer": "B",
+          "explanation": "Objective reporting describes observable conditions without subjective opinions or predictions. Noting specific deficiencies and recommending specialist evaluation is the professional standard."
+        },
+        {
+          "num": 46,
+          "question": "An inspector discovers active water intrusion in the basement during the inspection. What is the most appropriate way to report this?",
+          "choices": [
+            "Do not mention it because it may be a temporary condition",
+            "Document the location, extent, and visible effects of the water intrusion and recommend further evaluation",
+            "Tell the buyer verbally but leave it out of the written report",
+            "Note it as cosmetic damage only"
+          ],
+          "answer": "B",
+          "explanation": "Active water intrusion should be thoroughly documented with location, extent, and visible effects. Recommending further evaluation protects the client and the inspector."
+        },
+        {
+          "num": 47,
+          "question": "When should an inspector recommend further evaluation by a specialist?",
+          "choices": [
+            "Only when the client specifically requests it",
+            "When a condition is beyond the scope of a general home inspection or requires specialized expertise to evaluate",
+            "Only for structural issues",
+            "Never; inspectors should provide definitive answers on all conditions"
+          ],
+          "answer": "B",
+          "explanation": "Inspectors should recommend specialists when conditions exceed the scope of a general inspection or require expertise, tools, or invasive techniques not available to the general inspector."
+        },
+        {
+          "num": 48,
+          "question": "An inspector's report notes that the electrical panel is a Zinsco brand with signs of bus bar arcing. How should this be categorized in the report?",
+          "choices": [
+            "Cosmetic issue",
+            "Maintenance item",
+            "Safety hazard requiring immediate evaluation by a licensed electrician",
+            "Informational note with no action required"
+          ],
+          "answer": "C",
+          "explanation": "Zinsco panels with signs of bus bar arcing are a known safety hazard. Overheating connections and breaker failures make this a safety issue requiring immediate professional evaluation."
+        },
+        {
+          "num": 49,
+          "question": "What information should an inspector include when reporting on the HVAC system?",
+          "choices": [
+            "Only the brand name and age",
+            "Energy source, type of system, visible condition, operation at the thermostat, and any deficiencies observed",
+            "A detailed efficiency rating and projected lifespan",
+            "The repair cost estimate for any deficiencies"
+          ],
+          "answer": "B",
+          "explanation": "HVAC reporting should include the energy source, system type, visible condition, operational testing results, and any deficiencies. Cost estimates and lifespan predictions are outside the scope."
+        },
+        {
+          "num": 50,
+          "question": "When multiple deficiencies are found in a single system, how should the inspector report them?",
+          "choices": [
+            "Report only the most serious deficiency",
+            "List each deficiency individually with its location and recommended action",
+            "Summarize all deficiencies in one sentence",
+            "Report them verbally to the client and include only a general note in the report"
+          ],
+          "answer": "B",
+          "explanation": "Each deficiency should be individually listed with its specific location and recommended action. Grouping or summarizing deficiencies can cause important issues to be overlooked."
+        },
+        {
+          "num": 51,
+          "question": "An inspector notes that the attic has evidence of a previous fire (charred framing) that appears to have been repaired. How should this be reported?",
+          "choices": [
+            "Ignore it since repairs have been made",
+            "Document the observation and recommend evaluation by a structural engineer to verify adequacy of repairs",
+            "Report it as a code violation",
+            "Note it only if the charring exceeds 50% of the framing"
+          ],
+          "answer": "B",
+          "explanation": "Evidence of a previous fire, even if repaired, should be documented. A structural engineer can verify that repairs are adequate and that no hidden damage remains."
+        },
+        {
+          "num": 52,
+          "question": "In the summary section of an inspection report, which items should be highlighted?",
+          "choices": [
+            "Every observation made during the inspection",
+            "Only positive findings about the property",
+            "Significant deficiencies, safety hazards, and items needing further evaluation",
+            "Items that will cost more than $500 to repair"
+          ],
+          "answer": "C",
+          "explanation": "The report summary should highlight significant deficiencies, safety hazards, and items requiring further evaluation. Minor maintenance items may be included in the body but not the summary."
+        },
+        {
+          "num": 53,
+          "question": "According to most Standards of Practice, a home inspector is NOT required to:",
+          "choices": [
+            "Inspect the roof covering",
+            "Operate the heating system",
+            "Move personal property or furniture to inspect concealed areas",
+            "Test a representative number of outlets"
+          ],
+          "answer": "C",
+          "explanation": "Standards of Practice do not require inspectors to move personal property, furniture, or stored items. The inspection is limited to readily accessible and visible components."
+        },
+        {
+          "num": 54,
+          "question": "A real estate agent asks the inspector to minimize negative findings in the report to help close the deal. The inspector should:",
+          "choices": [
+            "Accommodate the request to maintain the business relationship",
+            "Report all findings accurately and objectively regardless of any pressure",
+            "Leave out minor issues but report major ones",
+            "Discuss the findings verbally with the buyer but soften the written report"
+          ],
+          "answer": "B",
+          "explanation": "An inspector has an ethical obligation to report all findings accurately. Altering a report to benefit any party compromises the integrity of the inspection and may create liability."
+        },
+        {
+          "num": 55,
+          "question": "What is the primary purpose of a pre-inspection agreement?",
+          "choices": [
+            "To guarantee the condition of the home",
+            "To define the scope, limitations, and terms of the inspection for both parties",
+            "To transfer liability from the inspector to the client",
+            "To establish the resale value of the property"
+          ],
+          "answer": "B",
+          "explanation": "The pre-inspection agreement defines the scope, limitations, exclusions, and contractual terms of the inspection. It sets expectations and provides legal protection for both parties."
+        },
+        {
+          "num": 56,
+          "question": "An inspector discovers what appears to be mold on a basement wall. According to most Standards of Practice, the inspector should:",
+          "choices": [
+            "Collect a sample and have it tested",
+            "Report the observation of a substance that appears to be microbial growth and recommend evaluation by a qualified specialist",
+            "Identify the species of mold in the report",
+            "Treat the mold with a biocide before reporting"
+          ],
+          "answer": "B",
+          "explanation": "Inspectors are not qualified to identify mold species or perform testing. They should report the observation and recommend evaluation by a qualified mold specialist."
+        },
+        {
+          "num": 57,
+          "question": "Which of the following is considered OUTSIDE the scope of a standard home inspection?",
+          "choices": [
+            "Testing the operation of the garage door auto-reverse",
+            "Evaluating the adequacy of the structural system",
+            "Determining compliance with current building codes",
+            "Reporting on the condition of the roof covering"
+          ],
+          "answer": "C",
+          "explanation": "A standard home inspection is not a code compliance inspection. Inspectors evaluate the condition and function of systems but do not determine compliance with current building codes."
+        },
+        {
+          "num": 58,
+          "question": "An inspector who has a financial interest in a home repair company recommends that company to a client for repairs identified in the inspection. This is:",
+          "choices": [
+            "Good business practice that benefits the client",
+            "A conflict of interest that should be disclosed or avoided entirely",
+            "Acceptable if the company offers a discount",
+            "Required to provide full-service inspection"
+          ],
+          "answer": "B",
+          "explanation": "Recommending a company in which the inspector has a financial interest is a conflict of interest. This must be fully disclosed or avoided to maintain professional ethics."
+        },
+        {
+          "num": 59,
+          "question": "During an inspection, the client asks the inspector whether they should buy the house. The inspector should:",
+          "choices": [
+            "Advise the client based on the inspection findings",
+            "Decline to give a buy/don't-buy recommendation, as that is outside the scope of the inspection",
+            "Recommend purchasing only if no major defects were found",
+            "Refer the client to the listing agent for advice"
+          ],
+          "answer": "B",
+          "explanation": "The decision to purchase is outside the scope of a home inspection. The inspector provides information about the property condition; the purchase decision involves many factors beyond the inspection."
+        },
+        {
+          "num": 60,
+          "question": "What is the inspector's obligation if they discover a condition that poses an immediate safety hazard to occupants, such as an active gas leak?",
+          "choices": [
+            "Note it in the report and move on to the next area",
+            "Immediately inform occupants present, recommend the area be evacuated, and contact the utility company or emergency services as appropriate",
+            "Attempt to repair the leak themselves",
+            "Advise the client at the end of the inspection during the summary"
+          ],
+          "answer": "B",
+          "explanation": "Immediate safety hazards require immediate action. The inspector should notify occupants, recommend evacuation if necessary, and facilitate contact with emergency services or utilities."
+        }
+      ]
+    },
+    {
+      "testNum": 2,
+      "questions": [
+        {
+          "num": 1,
+          "question": "An inspector observes a concrete block foundation wall that is bowing inward approximately 2 inches at the center. What should be reported?",
+          "choices": [
+            "This is within normal tolerances for block walls",
+            "The wall is showing signs of structural failure from lateral soil pressure and requires evaluation by a structural engineer",
+            "The wall can be straightened by adding more backfill",
+            "Only monitor the wall for further movement"
+          ],
+          "answer": "B",
+          "explanation": "A 2-inch inward bow in a concrete block wall indicates significant lateral soil pressure and potential structural failure. Immediate evaluation by a structural engineer is warranted."
+        },
+        {
+          "num": 2,
+          "question": "What is the purpose of a capillary break (sill seal) between the top of a concrete foundation and the wood sill plate?",
+          "choices": [
+            "To provide a thermal break between concrete and wood",
+            "To prevent moisture from wicking up through the concrete into the wood framing",
+            "To increase the compressive strength of the joint",
+            "To allow for expansion and contraction of the sill plate"
+          ],
+          "answer": "B",
+          "explanation": "A capillary break (sill seal gasket) prevents moisture from wicking upward through the porous concrete into the wood sill plate, which can cause wood rot and deterioration."
+        },
+        {
+          "num": 3,
+          "question": "An inspector notices that load-bearing wall studs have been notched at mid-height to accommodate a horizontal pipe. What is the concern?",
+          "choices": [
+            "The pipe may freeze in an exterior wall",
+            "Notching at mid-height significantly reduces the load-bearing capacity of the studs",
+            "The drywall will crack along the notch line",
+            "This is standard practice for plumbing installations"
+          ],
+          "answer": "B",
+          "explanation": "Notching load-bearing studs at mid-height removes material at the point of maximum bending stress, significantly weakening the studs and their load-carrying capacity."
+        },
+        {
+          "num": 4,
+          "question": "You observe that the ridge board on a gable roof is split along its length. What effect could this have?",
+          "choices": [
+            "No structural effect; the ridge board is purely decorative",
+            "The rafters may spread apart at the ridge, causing the roof to sag",
+            "Only the roof sheathing will be affected",
+            "The soffit vents will malfunction"
+          ],
+          "answer": "B",
+          "explanation": "While not a primary structural member in a conventionally framed roof with collar ties and ceiling joists, a split ridge board can allow rafters to separate at the peak, causing visible sagging."
+        },
+        {
+          "num": 5,
+          "question": "During a crawl space inspection, you find that several floor joists have been cut to accommodate ductwork and have no reinforcement. What should be reported?",
+          "choices": [
+            "This is acceptable if the cuts are less than one-third of the joist depth",
+            "Cut joists without proper reinforcement compromise structural integrity and should be evaluated by a qualified contractor",
+            "Ductwork takes priority over framing in crawl spaces",
+            "Only the HVAC contractor needs to be notified"
+          ],
+          "answer": "B",
+          "explanation": "Floor joists that have been cut without proper headers, hangers, or reinforcement lose their structural capacity. This is a common deficiency found during crawl space inspections."
+        },
+        {
+          "num": 6,
+          "question": "What condition on a roof is indicated by the presence of dark streaks running down the slope of asphalt shingles?",
+          "choices": [
+            "Algae growth, which is primarily cosmetic but can accelerate granule loss",
+            "Serious structural failure of the roof decking",
+            "Leaking flashing at the ridge",
+            "Shingle adhesive bleeding through from heat"
+          ],
+          "answer": "A",
+          "explanation": "Dark streaks on asphalt shingles are typically caused by algae (Gloeocapsa magma). While primarily cosmetic, algae can retain moisture and accelerate granule loss over time."
+        },
+        {
+          "num": 7,
+          "question": "An inspector observes that a support column in the basement has been shimmed with stacked wood pieces at the top where it meets the beam. What is the concern?",
+          "choices": [
+            "Wood shims are an approved method of column adjustment",
+            "Stacked shims can compress, split, or shift under load, resulting in inadequate beam support",
+            "The column is too tall for the space",
+            "The shims improve load distribution"
+          ],
+          "answer": "B",
+          "explanation": "Stacked wood shims under loads can compress, split, and shift over time. Proper shimming uses steel shims or a continuous bearing plate for reliable load transfer."
+        },
+        {
+          "num": 8,
+          "question": "You observe that roof flashing at a chimney consists of roofing cement (mastic) only, with no metal step flashing. Why is this a deficiency?",
+          "choices": [
+            "Roofing cement is more durable than metal flashing",
+            "Roofing cement dries, cracks, and shrinks over time and does not provide reliable long-term waterproofing like proper metal step flashing",
+            "Metal flashing is only required on flat roofs",
+            "The chimney mortar provides adequate waterproofing"
+          ],
+          "answer": "B",
+          "explanation": "Roofing cement alone is a temporary fix. It dries out, cracks, and shrinks, losing its seal. Proper chimney flashing requires metal step flashing integrated with counter-flashing."
+        },
+        {
+          "num": 9,
+          "question": "An inspector observes that downspouts discharge directly at the foundation base with no extensions or splash blocks. What should be reported?",
+          "choices": [
+            "This is acceptable in areas with sandy soil",
+            "Downspouts should discharge water at least 4 to 6 feet away from the foundation to prevent water intrusion and erosion",
+            "Downspouts only need extensions in flood zones",
+            "The gutters should be removed instead"
+          ],
+          "answer": "B",
+          "explanation": "Downspout extensions should direct water at least 4 to 6 feet away from the foundation. Concentrated water discharge at the foundation base is a leading cause of basement water intrusion."
+        },
+        {
+          "num": 10,
+          "question": "You observe that EIFS (Exterior Insulation and Finish System) stucco has been installed with the finish coat extending below grade. What is the concern?",
+          "choices": [
+            "EIFS performs well below grade",
+            "Moisture can wick up behind the EIFS, causing concealed damage to the sheathing and framing",
+            "The color will fade faster at ground level",
+            "Only the aesthetics are affected"
+          ],
+          "answer": "B",
+          "explanation": "EIFS below grade allows moisture to wick up behind the system by capillary action. Since EIFS conceals the wall structure, moisture damage can progress extensively before becoming visible."
+        },
+        {
+          "num": 11,
+          "question": "What is the primary purpose of caulking or sealant around window and door penetrations in exterior walls?",
+          "choices": [
+            "To improve the appearance of the installation",
+            "To prevent water and air infiltration at the junction of dissimilar materials",
+            "To hold the window frame in place",
+            "To provide insulation around the frame"
+          ],
+          "answer": "B",
+          "explanation": "Sealant at penetrations prevents water and air from entering the wall cavity at transitions between different materials. Failed or missing sealant is a common source of moisture intrusion."
+        },
+        {
+          "num": 12,
+          "question": "An inspector observes that a retaining wall in the yard is leaning noticeably away from the retained soil and has no visible drainage system. What should be reported?",
+          "choices": [
+            "The wall is performing as designed",
+            "The leaning wall and lack of drainage suggest potential failure; evaluation by a qualified contractor is recommended",
+            "Retaining walls under 4 feet do not need drainage",
+            "The wall just needs to be pushed back into position"
+          ],
+          "answer": "B",
+          "explanation": "A leaning retaining wall without drainage indicates hydrostatic pressure buildup behind the wall. Without proper drainage, water pressure can cause progressive failure."
+        },
+        {
+          "num": 13,
+          "question": "You observe that vinyl siding has been installed tightly against trim and window casings with no gap. Why could this be a problem?",
+          "choices": [
+            "Vinyl siding should always be tight against trim",
+            "Vinyl expands and contracts significantly with temperature changes; without room to move, it can buckle and warp",
+            "Gaps would allow water to penetrate behind the siding",
+            "Only horizontal joints need expansion gaps"
+          ],
+          "answer": "B",
+          "explanation": "Vinyl siding has a high coefficient of thermal expansion. Panels must be installed loosely with room to expand and contract; tight installation causes buckling in warm weather."
+        },
+        {
+          "num": 14,
+          "question": "During an inspection, you notice that the driveway concrete has settled and now slopes toward the garage door. What is the primary concern?",
+          "choices": [
+            "Vehicle tires will wear unevenly",
+            "Water will flow into the garage, potentially causing moisture damage and entering the living space",
+            "The driveway needs cosmetic resurfacing",
+            "The garage door opener will malfunction"
+          ],
+          "answer": "B",
+          "explanation": "A driveway sloping toward the garage directs rainwater and snowmelt into the garage, which can lead to moisture damage, mold growth, and water reaching the living space."
+        },
+        {
+          "num": 15,
+          "question": "An inspector observes that the electrical service panel has a main breaker rated at 200 amps, but the service entrance conductors appear to be 2/0 aluminum. Is this adequate?",
+          "choices": [
+            "No, 200-amp service requires 4/0 aluminum conductors",
+            "Yes, 2/0 aluminum is rated for 200-amp residential service",
+            "Only copper conductors are acceptable for 200-amp service",
+            "The wire size does not matter if the breaker is correctly rated"
+          ],
+          "answer": "A",
+          "explanation": "For 200-amp residential service, 4/0 aluminum or 2/0 copper conductors are required. 2/0 aluminum is rated for only 150 amps and is undersized for a 200-amp service."
+        },
+        {
+          "num": 16,
+          "question": "You discover that a bathroom exhaust fan is wired with lamp cord (SPT) rather than NM cable. What should be reported?",
+          "choices": [
+            "Lamp cord is acceptable for low-amperage devices",
+            "Lamp cord is not rated for permanent wiring installations and is a fire hazard",
+            "This is only a concern if the fan is over 1 amp",
+            "The fan manufacturer determines acceptable wiring"
+          ],
+          "answer": "B",
+          "explanation": "Lamp cord (SPT) is designed for temporary, portable use only. It lacks the insulation rating, grounding conductor, and protection required for permanent installations."
+        },
+        {
+          "num": 17,
+          "question": "An outlet in an unfinished garage does not have an in-use weatherproof cover, and the outlet is a standard duplex receptacle. What deficiencies exist?",
+          "choices": [
+            "No deficiencies; garages do not require special outlet protection",
+            "The outlet should have GFCI protection, and since it is in a damp location, an in-use cover is recommended",
+            "Only GFCI protection is needed",
+            "Only the weatherproof cover is needed"
+          ],
+          "answer": "B",
+          "explanation": "Garage outlets require GFCI protection. Additionally, outlets in damp or wet locations should have weatherproof covers rated for in-use conditions to prevent shock hazards."
+        },
+        {
+          "num": 18,
+          "question": "What is the significance of finding scorch marks or melted plastic on a circuit breaker in the electrical panel?",
+          "choices": [
+            "Normal wear from years of service",
+            "Evidence of overheating from a loose connection, overloaded circuit, or failing breaker, requiring immediate evaluation",
+            "Cosmetic damage from a previous paint project",
+            "Indicates the breaker tripped properly during a fault"
+          ],
+          "answer": "B",
+          "explanation": "Scorch marks or melted plastic on breakers indicate dangerous overheating. This can result from loose connections, overloaded circuits, or internal breaker failure and requires immediate attention."
+        },
+        {
+          "num": 19,
+          "question": "An inspector finds that the grounding electrode conductor is connected to an interior cold water pipe that transitions to plastic (CPVC) piping before reaching the exterior. What is the concern?",
+          "choices": [
+            "CPVC is an acceptable grounding medium",
+            "The plastic section breaks the grounding path; the grounding electrode may not be effective",
+            "Only the hot water pipe needs to be metal for grounding",
+            "This meets current code requirements for supplemental grounding"
+          ],
+          "answer": "B",
+          "explanation": "The grounding electrode conductor must maintain a continuous metallic path. A plastic pipe section interrupts the ground path, potentially rendering the grounding electrode system ineffective."
+        },
+        {
+          "num": 20,
+          "question": "You observe knob-and-tube wiring in the attic that is energized and covered by blown-in insulation. Why is this a hazard?",
+          "choices": [
+            "Knob-and-tube wiring was designed to dissipate heat in open air; covering it with insulation causes heat buildup and creates a fire risk",
+            "The insulation will corrode the ceramic knobs",
+            "Knob-and-tube wiring is always immediately dangerous",
+            "Insulation improves the safety of older wiring"
+          ],
+          "answer": "A",
+          "explanation": "Knob-and-tube wiring relies on air circulation around the conductors to dissipate heat. Covering it with insulation traps heat and can raise wire temperatures to ignition levels."
+        },
+        {
+          "num": 21,
+          "question": "What does the term 'reverse polarity' mean when testing an electrical outlet?",
+          "choices": [
+            "The ground and neutral wires are swapped",
+            "The hot and neutral conductors are connected to the wrong terminals",
+            "The circuit is wired for 240 volts instead of 120 volts",
+            "The breaker is installed upside down"
+          ],
+          "answer": "B",
+          "explanation": "Reverse polarity means the hot and neutral conductors are connected to the wrong terminals. This can make the outer shell of a light socket or the body of an appliance energized."
+        },
+        {
+          "num": 22,
+          "question": "An inspector finds that the main bonding jumper is missing from the electrical service panel. What is the significance?",
+          "choices": [
+            "It affects only the appearance of the panel",
+            "Without the main bonding jumper, the grounding system may not function properly during a fault, potentially leaving metal components energized",
+            "The bonding jumper is only required in sub-panels",
+            "It is only needed if the home has a metal water supply"
+          ],
+          "answer": "B",
+          "explanation": "The main bonding jumper connects the neutral bus to the equipment grounding bus and the enclosure. Without it, a ground fault may not clear properly, leaving metal components energized."
+        },
+        {
+          "num": 23,
+          "question": "An inspector operates a kitchen faucet and notices the water pressure is strong initially but drops significantly within 30 seconds. What is the most likely cause?",
+          "choices": [
+            "The water heater is too small",
+            "The supply piping may have internal corrosion or buildup restricting sustained flow",
+            "The faucet aerator is clogged",
+            "The water meter is undersized"
+          ],
+          "answer": "B",
+          "explanation": "A significant drop in water pressure after initial flow suggests internal pipe restrictions. Galvanized piping commonly develops mineral deposits that restrict flow over decades of service."
+        },
+        {
+          "num": 24,
+          "question": "You observe that the washing machine drain hose is connected directly to the drain pipe with no air gap or standpipe. Why is this a deficiency?",
+          "choices": [
+            "The washing machine will not drain properly",
+            "A direct connection without an air gap creates a potential cross-connection and can cause siphoning of drain water back into the machine",
+            "The vibration will loosen the connection",
+            "This is standard practice for modern washing machines"
+          ],
+          "answer": "B",
+          "explanation": "Without an air gap, a direct connection can allow siphoning of contaminated drain water back into the washing machine. A standpipe with an air gap prevents this cross-connection."
+        },
+        {
+          "num": 25,
+          "question": "What is the most likely cause of water hammer (loud banging) in a plumbing system when a faucet is shut off quickly?",
+          "choices": [
+            "The water heater pressure is too high",
+            "The sudden stop in water flow creates a pressure surge (shock wave) in the piping",
+            "The main water valve is partially closed",
+            "Air in the water supply lines"
+          ],
+          "answer": "B",
+          "explanation": "Water hammer occurs when a valve closes quickly and the moving water column suddenly stops. The resulting pressure wave (shock wave) causes the pipes to bang against framing."
+        },
+        {
+          "num": 26,
+          "question": "An inspector observes that ABS and PVC drain pipes are joined together using only PVC cement. What should be reported?",
+          "choices": [
+            "PVC cement is adequate for joining any plastic pipe",
+            "ABS and PVC require a transition cement or approved mechanical coupling; standard PVC cement does not properly bond these dissimilar materials",
+            "Only ABS cement should be used",
+            "Dissimilar plastic pipes cannot be joined under any circumstances"
+          ],
+          "answer": "B",
+          "explanation": "ABS and PVC are chemically different plastics. Standard PVC cement cannot properly bond ABS. A transition cement rated for both materials or an approved mechanical coupling must be used."
+        },
+        {
+          "num": 27,
+          "question": "You find that the main water shut-off valve is a gate valve that is frozen in the open position and cannot be operated. What should be reported?",
+          "choices": [
+            "Gate valves are not required to be operable",
+            "The inoperable shut-off valve should be reported as a deficiency; replacement with a ball valve is recommended for reliable operation",
+            "Only the water company can address this issue",
+            "This is normal for gate valves over 10 years old"
+          ],
+          "answer": "B",
+          "explanation": "An inoperable main water shut-off valve is a significant deficiency. In a plumbing emergency, the inability to shut off water quickly can result in extensive water damage."
+        },
+        {
+          "num": 28,
+          "question": "An inspector discovers that a water heater installed in 2018 has no expansion tank on the cold water inlet. In a closed plumbing system (with a check valve or PRV on the main), why is this a concern?",
+          "choices": [
+            "Expansion tanks are only needed for boiler systems",
+            "In a closed system, thermal expansion of heated water has nowhere to go, causing pressure spikes that can damage the water heater, piping, and fixtures",
+            "The water heater warranty covers expansion damage",
+            "Expansion tanks are only required in commercial buildings"
+          ],
+          "answer": "B",
+          "explanation": "In a closed system (with a check valve or PRV), heated water expands with nowhere to go. Pressure increases can exceed the T&P valve rating, damage the water heater, or cause pipe failures."
+        },
+        {
+          "num": 29,
+          "question": "An inspector observes that the furnace flue pipe has a downward slope between the furnace and the chimney. What is the concern?",
+          "choices": [
+            "Downward slope is preferred for condensate drainage",
+            "A downward slope toward the chimney can allow condensation to collect and impede proper venting of combustion gases",
+            "Flue pipe slope does not affect performance",
+            "The slope should be at least 1 inch per foot downward"
+          ],
+          "answer": "B",
+          "explanation": "Flue pipe must slope upward toward the chimney (minimum 1/4 inch per foot) to ensure proper draft. A downward slope traps condensation and can cause combustion gas spillage."
+        },
+        {
+          "num": 30,
+          "question": "You notice that a window-mounted air conditioning unit has been wired with an extension cord running to an outlet across the room. What should be reported?",
+          "choices": [
+            "This is acceptable for temporary cooling",
+            "Extension cords for air conditioning units are a fire hazard; the unit should be plugged directly into a properly rated outlet",
+            "Only outdoor extension cords are a concern",
+            "The extension cord just needs to be a heavy-duty type"
+          ],
+          "answer": "B",
+          "explanation": "Extension cords for air conditioning units are undersized for the sustained load, causing overheating of the cord and connections. This is a common cause of residential fires."
+        },
+        {
+          "num": 31,
+          "question": "An inspector finds that the gas furnace combustion air intake draws air from a room that also contains paint cans and chemical solvents. What is the concern?",
+          "choices": [
+            "This is acceptable in a utility room",
+            "Volatile fumes can be drawn into the combustion chamber, creating a risk of explosion or production of toxic combustion byproducts",
+            "The chemicals will only affect the furnace filter",
+            "Paint fumes cannot be ignited by a furnace"
+          ],
+          "answer": "B",
+          "explanation": "Combustion appliances can draw volatile fumes into the burn chamber. Flammable vapors near an open flame or hot surface can ignite, and chemical combustion byproducts can be toxic."
+        },
+        {
+          "num": 32,
+          "question": "What does a yellow or orange flame at the burner of a gas furnace indicate, compared to a blue flame?",
+          "choices": [
+            "The flame is producing more heat",
+            "Incomplete combustion, which produces elevated carbon monoxide and may indicate a dirty burner, improper air-to-fuel ratio, or other maintenance issues",
+            "The gas supply pressure is too high",
+            "The thermocouple is failing"
+          ],
+          "answer": "B",
+          "explanation": "A yellow or orange flame indicates incomplete combustion, meaning the air-to-fuel ratio is incorrect. Incomplete combustion produces elevated levels of carbon monoxide."
+        },
+        {
+          "num": 33,
+          "question": "An inspector notes that the ductwork in an unconditioned attic has significant gaps at joints and connections. What is the primary consequence?",
+          "choices": [
+            "The duct system will be quieter",
+            "Conditioned air leaks into the unconditioned attic, reducing system efficiency and increasing energy costs significantly",
+            "The attic insulation will benefit from the extra heat",
+            "Duct leaks are only a concern in crawl spaces"
+          ],
+          "answer": "B",
+          "explanation": "Duct leakage in unconditioned spaces is one of the largest sources of energy waste in residential HVAC systems. Studies show that typical duct systems lose 20-30% of conditioned air."
+        },
+        {
+          "num": 34,
+          "question": "You observe that a gas water heater in a garage is installed with its pilot light and burner at floor level. Why is this a safety concern?",
+          "choices": [
+            "It is more difficult to light the pilot at floor level",
+            "Gasoline vapors are heavier than air and can pool at floor level, where they may be ignited by the pilot light or burner",
+            "The water heater will be less efficient at floor level",
+            "It will be more susceptible to flooding"
+          ],
+          "answer": "B",
+          "explanation": "Gasoline vapors are heavier than air and settle at floor level. A water heater with an ignition source at floor level can ignite these vapors. Raised platforms (18 inches minimum) are required."
+        },
+        {
+          "num": 35,
+          "question": "An inspector measures only 3 inches of fiberglass batt insulation in the attic of a home in a northern climate zone. What should be reported?",
+          "choices": [
+            "3 inches of fiberglass (approximately R-10) is adequate",
+            "The insulation is significantly below recommended levels (R-38 to R-60) for this climate zone; adding insulation is recommended",
+            "Fiberglass batts should not be used in attics",
+            "The insulation level is acceptable if the home has double-pane windows"
+          ],
+          "answer": "B",
+          "explanation": "Three inches of fiberglass provides approximately R-10, far below the R-38 to R-60 recommended for northern climate zones. Inadequate insulation results in high energy costs and comfort issues."
+        },
+        {
+          "num": 36,
+          "question": "What is the recommended ratio of net free ventilation area to attic floor area when no vapor retarder is present?",
+          "choices": [
+            "1:300",
+            "1:150",
+            "1:600",
+            "1:50"
+          ],
+          "answer": "B",
+          "explanation": "When no vapor retarder is installed on the warm side of the ceiling insulation, the ventilation ratio should be 1:150 (1 square foot of net free vent area per 150 square feet of attic floor)."
+        },
+        {
+          "num": 37,
+          "question": "An inspector finds that the bathroom exhaust fan terminates in the attic rather than to the building exterior. What should be reported?",
+          "choices": [
+            "This is acceptable in warm climates",
+            "Moist air exhausted into the attic can cause condensation, mold growth, and deterioration of framing and sheathing; the duct should extend to the exterior",
+            "The attic ventilation will handle the moisture",
+            "This only matters if the fan is used more than 30 minutes per day"
+          ],
+          "answer": "B",
+          "explanation": "Bathroom exhaust must terminate outside the building. Exhausting moisture-laden air into the attic causes condensation on cold surfaces, leading to mold, wood rot, and insulation damage."
+        },
+        {
+          "num": 38,
+          "question": "You observe that rigid foam insulation board is exposed on a basement wall with no fire-rated covering. Why is this a concern?",
+          "choices": [
+            "Rigid foam is fire-resistant and needs no covering",
+            "Most foam insulation products require a thermal barrier (such as 1/2-inch drywall) to protect against rapid flame spread and toxic smoke production",
+            "The foam will deteriorate without a covering",
+            "Only spray foam requires a thermal barrier"
+          ],
+          "answer": "B",
+          "explanation": "Exposed rigid foam insulation is a fire hazard. Most foam products require a 15-minute thermal barrier (typically 1/2-inch drywall) to slow flame spread and limit toxic smoke production."
+        },
+        {
+          "num": 39,
+          "question": "An inspector observes that a masonry fireplace has no visible cleanout at the base of the chimney. What is the significance?",
+          "choices": [
+            "Cleanouts are not required for masonry chimneys",
+            "A cleanout provides access for ash removal and chimney maintenance; its absence should be noted",
+            "Only factory-built chimneys require cleanouts",
+            "The damper serves as the cleanout access"
+          ],
+          "answer": "B",
+          "explanation": "A chimney cleanout provides access for removing ash and debris and for chimney maintenance. While not all chimneys have them, their absence limits maintenance access and should be noted."
+        },
+        {
+          "num": 40,
+          "question": "You notice that the fireplace damper is rusted open and cannot be closed. What should be reported?",
+          "choices": [
+            "A damper stuck open is not a significant concern",
+            "A damper that cannot close allows continuous heat loss, may permit water and animal entry, and should be repaired or replaced",
+            "The fireplace should not be used until the damper is replaced",
+            "A damper is only needed in cold climates"
+          ],
+          "answer": "B",
+          "explanation": "A damper stuck open allows continuous conditioned air loss up the chimney, permits rain and animal entry, and can cause downdrafts. It should be repaired or replaced."
+        },
+        {
+          "num": 41,
+          "question": "While inspecting a staircase, you measure a riser height of 9 inches. What should the inspector note?",
+          "choices": [
+            "This is within the typical acceptable range",
+            "The riser height exceeds the generally accepted maximum of about 7-3/4 inches and may present a tripping hazard",
+            "Riser height is not within the scope of a home inspection",
+            "Only the tread depth matters for safety"
+          ],
+          "answer": "B",
+          "explanation": "Building standards generally limit riser height to 7-3/4 inches maximum. A 9-inch riser is significantly above this limit and creates a tripping hazard, especially when descending."
+        },
+        {
+          "num": 42,
+          "question": "An inspector finds that a bedroom window is painted shut and cannot be opened. What is the concern?",
+          "choices": [
+            "This is only a ventilation issue",
+            "An inoperable window in a sleeping room is a safety concern because it may serve as an emergency escape route (egress)",
+            "Painted windows only matter in rental properties",
+            "The window just needs maintenance and is not a reportable item"
+          ],
+          "answer": "B",
+          "explanation": "Building codes require operable emergency escape openings in sleeping rooms. A window painted shut cannot be opened for escape during a fire and is a life-safety concern."
+        },
+        {
+          "num": 43,
+          "question": "An inspector finds a condition that was previously repaired but the repair appears to be inadequate. How should this be reported?",
+          "choices": [
+            "Report only that a repair was made",
+            "Document the repair, describe why it appears inadequate, and recommend further evaluation by a qualified professional",
+            "Do not report on previous repairs",
+            "Report it only if the client asks about it"
+          ],
+          "answer": "B",
+          "explanation": "Inadequate repairs should be documented with a description of both the repair and the concern about its adequacy. Recommending further evaluation by a specialist protects the client."
+        },
+        {
+          "num": 44,
+          "question": "Which of the following best describes the purpose of photographs in an inspection report?",
+          "choices": [
+            "To make the report look more professional",
+            "To document and support written findings, helping the client understand specific conditions and their locations",
+            "To replace written descriptions of deficiencies",
+            "To increase the page count of the report"
+          ],
+          "answer": "B",
+          "explanation": "Photographs document and support written findings. They help clients visualize specific conditions and locations, making the report clearer and providing a visual record."
+        },
+        {
+          "num": 45,
+          "question": "An inspector reports: 'The furnace is old and will probably need replacement soon.' What is wrong with this statement?",
+          "choices": [
+            "Nothing; it accurately describes the furnace condition",
+            "It contains a subjective prediction about lifespan; the report should describe observable conditions and recommend evaluation if concerns exist",
+            "It should include a specific replacement date",
+            "It is too brief"
+          ],
+          "answer": "B",
+          "explanation": "Predicting a system's remaining lifespan is speculative and outside the scope of a home inspection. Reports should describe current observable conditions, not predict future performance."
+        },
+        {
+          "num": 46,
+          "question": "When documenting the condition of a roof, which of the following information is MOST important to include?",
+          "choices": [
+            "The manufacturer and model of the shingles",
+            "The type of roof covering, its approximate age or condition, visible deficiencies, and areas of concern",
+            "The original installation cost",
+            "The name of the roofing contractor who installed it"
+          ],
+          "answer": "B",
+          "explanation": "Essential roof documentation includes the type of covering, its apparent condition or approximate age, visible deficiencies, and areas requiring further evaluation or monitoring."
+        },
+        {
+          "num": 47,
+          "question": "An inspector discovers that the main electrical panel has no labeling on any of the circuit breakers. How should this be reported?",
+          "choices": [
+            "Label the breakers during the inspection",
+            "Report that the panel lacks circuit identification, which is a deficiency that impedes safe operation and maintenance of the electrical system",
+            "This is not a reportable condition",
+            "Only mention it if the client asks"
+          ],
+          "answer": "B",
+          "explanation": "An unlabeled electrical panel makes it difficult to identify and shut off individual circuits during an emergency or maintenance. This is a safety and functionality deficiency."
+        },
+        {
+          "num": 48,
+          "question": "What is the best approach when an inspector encounters a system that could not be operated during the inspection (for example, an AC unit when outdoor temperatures are below 60 degrees F)?",
+          "choices": [
+            "Force the system to operate regardless of conditions",
+            "Document that the system was not operated, explain the reason, and recommend evaluation when conditions permit",
+            "Omit the system from the report entirely",
+            "Report the system as deficient since it was not tested"
+          ],
+          "answer": "B",
+          "explanation": "When conditions prevent safe operation of a system, the inspector should document what was not tested, explain why, and recommend re-inspection under appropriate conditions."
+        },
+        {
+          "num": 49,
+          "question": "An inspection report should be delivered to:",
+          "choices": [
+            "The seller only",
+            "The client who hired the inspector, as specified in the pre-inspection agreement",
+            "The real estate agent for distribution",
+            "All parties involved in the transaction simultaneously"
+          ],
+          "answer": "B",
+          "explanation": "The inspection report is the property of the client who hired the inspector. Distribution should follow the terms of the pre-inspection agreement."
+        },
+        {
+          "num": 50,
+          "question": "When an inspector finds evidence of wood-destroying insects (such as mud tubes on the foundation), how should this be reported?",
+          "choices": [
+            "Identify the specific species of insect",
+            "Document the evidence observed, its location, and recommend evaluation and treatment by a licensed pest control professional",
+            "Apply insecticide and report the treatment",
+            "Report it only if active insects are visible"
+          ],
+          "answer": "B",
+          "explanation": "Inspectors should document evidence of wood-destroying insects (such as mud tubes) without identifying species. A licensed pest control professional should be recommended for evaluation."
+        },
+        {
+          "num": 51,
+          "question": "An inspector notices that a previous inspection report is posted on the refrigerator. Should the inspector review it?",
+          "choices": [
+            "Yes, to confirm the previous inspector's findings",
+            "No, the inspector should perform an independent evaluation and not be influenced by previous reports",
+            "Yes, but only to check for previously reported safety hazards",
+            "Only if the client requests it"
+          ],
+          "answer": "B",
+          "explanation": "Each inspection should be independent. Reviewing previous reports may bias the inspector's observations and lead to over-reliance on another inspector's findings."
+        },
+        {
+          "num": 52,
+          "question": "How should an inspector document a material defect that the seller appears to have attempted to conceal (for example, fresh paint over water stains)?",
+          "choices": [
+            "Accuse the seller of concealment in the report",
+            "Report the observable condition (e.g., paint inconsistencies with visible staining beneath) objectively without speculating about intent",
+            "Ignore it if the concealment was effective",
+            "Report it only to the buyer's agent verbally"
+          ],
+          "answer": "B",
+          "explanation": "The inspector should objectively report observable conditions (e.g., inconsistent paint, visible staining) without speculating about the intent or motive behind the conditions."
+        },
+        {
+          "num": 53,
+          "question": "An inspector discovers a condition that may be a building code violation. According to Standards of Practice, the inspector should:",
+          "choices": [
+            "Issue a code violation citation",
+            "Report the observed condition and any associated safety or functional concerns without making code compliance determinations",
+            "Contact the local building department during the inspection",
+            "Ignore the condition since code enforcement is not the inspector's role"
+          ],
+          "answer": "B",
+          "explanation": "Inspectors are not code enforcement officials. They should report observable conditions and associated safety or functional concerns without making formal code compliance determinations."
+        },
+        {
+          "num": 54,
+          "question": "What is the minimum required coverage under most state home inspector licensing laws for errors and omissions (E&O) insurance?",
+          "choices": [
+            "E&O insurance is never required",
+            "Requirements vary by state; inspectors should verify their state's specific requirements",
+            "All states require a minimum of $500,000",
+            "E&O insurance is only required for commercial inspections"
+          ],
+          "answer": "B",
+          "explanation": "E&O insurance requirements vary significantly by state. Some states require it, others do not. Inspectors must verify and comply with their specific state requirements."
+        },
+        {
+          "num": 55,
+          "question": "A home inspector should maintain continuing education primarily to:",
+          "choices": [
+            "Increase the cost of their services",
+            "Stay current with building practices, inspection techniques, and changes in standards",
+            "Avoid having to inspect certain systems",
+            "Reduce their liability insurance premiums"
+          ],
+          "answer": "B",
+          "explanation": "Continuing education keeps inspectors current with evolving building practices, new materials, updated inspection techniques, and changes in standards of practice and regulations."
+        },
+        {
+          "num": 56,
+          "question": "During an inspection, the buyer's agent asks the inspector to also check on whether an addition was permitted. The inspector should:",
+          "choices": [
+            "Search the building department records for permits",
+            "Explain that verifying permits is outside the scope of a standard home inspection, but suggest the client inquire with the local building department",
+            "Determine whether the addition is permitted based on visual observation alone",
+            "Refuse to discuss the addition at all"
+          ],
+          "answer": "B",
+          "explanation": "Permit verification requires research at the building department and is outside the standard scope. The inspector should note observations about the addition but direct permit inquiries to the local authority."
+        },
+        {
+          "num": 57,
+          "question": "An inspector arrives at a property and discovers that the utilities (electricity, water, gas) have been turned off. What is the appropriate action?",
+          "choices": [
+            "Proceed with the inspection and test no systems",
+            "Inform the client that systems requiring utilities cannot be tested, document what was not inspected, and recommend a re-inspection when utilities are restored",
+            "Turn on the utilities themselves",
+            "Cancel the inspection entirely and leave"
+          ],
+          "answer": "B",
+          "explanation": "When utilities are off, the inspector should document all systems that could not be tested, explain the limitation, and recommend a follow-up inspection when utilities are available."
+        },
+        {
+          "num": 58,
+          "question": "Which of the following situations represents the MOST significant conflict of interest for a home inspector?",
+          "choices": [
+            "The inspector also holds a real estate license",
+            "The inspector offers to perform repairs on deficiencies found during their own inspection",
+            "The inspector uses a tablet computer to write reports",
+            "The inspector charges a higher fee for larger homes"
+          ],
+          "answer": "B",
+          "explanation": "Offering to repair deficiencies found during one's own inspection is the most significant conflict of interest. It creates an incentive to find (or exaggerate) deficiencies for financial gain."
+        },
+        {
+          "num": 59,
+          "question": "After completing an inspection, the client calls the inspector two months later complaining about a plumbing leak in a wall that was not reported. The inspector should:",
+          "choices": [
+            "Offer to repair the leak for free",
+            "Review the inspection report and documentation, explain the scope and limitations of the inspection, and respond professionally according to the terms of the pre-inspection agreement",
+            "Refuse to take the call",
+            "Immediately accept responsibility and offer a refund"
+          ],
+          "answer": "B",
+          "explanation": "The inspector should respond professionally, review their documentation, explain the scope and limitations of the visual inspection, and follow the dispute resolution terms of the agreement."
+        },
+        {
+          "num": 60,
+          "question": "What is the inspector's responsibility regarding systems or components that were not present during the inspection, such as a furnace that had been removed for service?",
+          "choices": [
+            "Report that the system was operational",
+            "Document that the component was not present or available for inspection and recommend evaluation when it is reinstalled",
+            "Provide no mention of the system in the report",
+            "Estimate the condition based on the age of the home"
+          ],
+          "answer": "B",
+          "explanation": "If a component is absent or not available for inspection, the inspector must document this clearly and recommend that it be inspected when available. Omitting it from the report creates liability."
+        }
+      ]
+    },
+    {
+      "testNum": 3,
+      "questions": [
+        {
+          "num": 1,
+          "question": "An inspector observes that a poured concrete foundation has a large diagonal crack running from a basement window corner to the top of the wall. What is the most likely cause?",
+          "choices": [
+            "Improper concrete curing",
+            "Stress concentration at the window opening, often from settlement or point loading above",
+            "Thermal expansion of the window frame",
+            "Hydrostatic pressure from a high water table"
+          ],
+          "answer": "B",
+          "explanation": "Diagonal cracks radiating from window corners are caused by stress concentrations at the openings. Settlement or concentrated loads above the window create tensile forces that crack the concrete diagonally."
+        },
+        {
+          "num": 2,
+          "question": "While inspecting a roof, you notice that the plywood decking is delaminating and feels spongy when walked upon. What does this indicate?",
+          "choices": [
+            "The plywood was installed with the wrong side up",
+            "Prolonged moisture exposure has deteriorated the adhesive layers in the plywood, compromising its structural capacity",
+            "The plywood is too thin for the rafter spacing",
+            "Normal aging of plywood after 20 years"
+          ],
+          "answer": "B",
+          "explanation": "Spongy, delaminating plywood decking indicates prolonged moisture exposure. The waterproof adhesive between plywood layers fails, causing the layers to separate and lose structural capacity."
+        },
+        {
+          "num": 3,
+          "question": "An inspector finds that a steel beam in the basement shows heavy surface rust with visible flaking (scale). What is the appropriate response?",
+          "choices": [
+            "Surface rust is cosmetic and does not affect the beam",
+            "Heavy flaking rust (scale) indicates significant section loss and should be evaluated by a structural engineer for remaining capacity",
+            "Paint the beam to stop further rusting",
+            "Only report rust if the beam is visibly deflecting"
+          ],
+          "answer": "B",
+          "explanation": "Heavy flaking rust (scale) on a steel beam indicates significant section loss. Unlike surface rust, scale means the steel cross-section has been reduced, potentially affecting load capacity."
+        },
+        {
+          "num": 4,
+          "question": "You observe that a hip roof has a noticeable sag along the hip rafter. What is the most likely explanation?",
+          "choices": [
+            "Hip rafters always sag slightly due to their length",
+            "The hip rafter is undersized for the span and load it carries",
+            "The roof sheathing is pulling the hip rafter down",
+            "The ridge vent was installed improperly"
+          ],
+          "answer": "B",
+          "explanation": "Hip rafters carry significantly more load than common rafters. A sagging hip rafter is typically undersized or has lost support at its bearing points."
+        },
+        {
+          "num": 5,
+          "question": "During a crawl space inspection, you observe standing water covering approximately half the crawl space floor. What should be reported?",
+          "choices": [
+            "Standing water is normal in crawl spaces",
+            "Standing water indicates inadequate drainage; it can cause wood rot, attract wood-destroying insects, promote mold growth, and damage mechanical equipment",
+            "Only report it if the water is more than 2 inches deep",
+            "Recommend sealing the crawl space vents to prevent moisture entry"
+          ],
+          "answer": "B",
+          "explanation": "Standing water in a crawl space creates multiple problems: wood rot from elevated humidity, attraction of termites and other wood-destroying organisms, mold growth, and potential damage to mechanical systems."
+        },
+        {
+          "num": 6,
+          "question": "What is the most common cause of premature failure of asphalt shingles in a localized area of the roof?",
+          "choices": [
+            "Manufacturing defects in the shingles",
+            "Inadequate attic ventilation causing heat buildup on the affected slope",
+            "Foot traffic during installation",
+            "The wrong color shingles were installed"
+          ],
+          "answer": "B",
+          "explanation": "Localized premature shingle failure is often caused by inadequate ventilation on that roof slope. Heat buildup accelerates shingle deterioration from the underside, causing premature aging in affected areas."
+        },
+        {
+          "num": 7,
+          "question": "An inspector notices that engineered wood I-joists in the floor system have circular holes drilled through the flanges. Why is this significant?",
+          "choices": [
+            "Flange holes are a standard installation practice",
+            "Cutting or drilling through the flanges of engineered I-joists can severely compromise their structural integrity, as the flanges carry the bending loads",
+            "The holes allow for better air circulation",
+            "Only web holes affect I-joist strength"
+          ],
+          "answer": "B",
+          "explanation": "The flanges of I-joists carry the primary bending loads. Holes or cuts in the flanges drastically reduce the joist's load-carrying capacity. Only web penetrations within specified limits are permitted."
+        },
+        {
+          "num": 8,
+          "question": "You observe that a concrete patio slab has settled and now slopes toward the house foundation. What should be reported?",
+          "choices": [
+            "Patios commonly settle and this is not a concern",
+            "The slab directs surface water toward the foundation, which can cause water intrusion; repair or re-grading is recommended",
+            "Only report this if the slope exceeds 2 inches",
+            "The slab should be removed entirely"
+          ],
+          "answer": "B",
+          "explanation": "A settled patio slab that slopes toward the foundation directs surface water against the house, increasing the risk of foundation moisture intrusion and basement water problems."
+        },
+        {
+          "num": 9,
+          "question": "An inspector observes that a tree is growing within 5 feet of the foundation, and surface roots are visible near the foundation wall. What should be reported?",
+          "choices": [
+            "Trees near foundations are purely a landscaping concern",
+            "Tree roots can damage foundation walls, underground drainage, and water/sewer lines; the proximity and root growth should be reported",
+            "Only evergreen trees cause foundation problems",
+            "Trees must be at least 2 feet from the foundation"
+          ],
+          "answer": "B",
+          "explanation": "Tree roots can exert significant force on foundation walls, crack foundations, damage drain tiles, and infiltrate sewer lines. The proximity and visible root growth are reportable conditions."
+        },
+        {
+          "num": 10,
+          "question": "You notice that aluminum siding has multiple dents and a few areas where the siding is buckled away from the wall. What is the primary concern with the buckled areas?",
+          "choices": [
+            "Dents and buckles are purely cosmetic",
+            "Buckled siding can allow water infiltration behind the cladding, potentially damaging the sheathing and framing",
+            "Aluminum siding cannot be repaired once buckled",
+            "The dents indicate hail damage only"
+          ],
+          "answer": "B",
+          "explanation": "Buckled aluminum siding creates gaps that allow water behind the cladding. Once moisture enters the wall cavity, it can damage sheathing, insulation, and framing before becoming visible."
+        },
+        {
+          "num": 11,
+          "question": "An inspector observes that the chimney cap (crown) has a large crack running across its top surface. What is the concern?",
+          "choices": [
+            "Chimney caps are decorative and cracks are cosmetic",
+            "Cracks in the chimney cap allow water to penetrate the chimney structure, causing freeze-thaw damage and accelerated deterioration of the masonry",
+            "Only the flue liner is affected by cap cracks",
+            "The cap can be sealed with silicone caulk as a permanent fix"
+          ],
+          "answer": "B",
+          "explanation": "The chimney cap (crown) is the first line of defense against water entry. Cracks allow water into the chimney structure, where freeze-thaw cycles accelerate masonry deterioration."
+        },
+        {
+          "num": 12,
+          "question": "You observe that the gutters are pulling away from the fascia board on the front of the house. What is the most likely cause?",
+          "choices": [
+            "The gutters were installed with the wrong type of hangers",
+            "The fascia board has deteriorated from moisture damage, causing the gutter fasteners to lose their hold",
+            "The gutters are too large for the roof area",
+            "Wind damage from recent storms"
+          ],
+          "answer": "B",
+          "explanation": "The most common cause of gutter separation is deteriorated fascia. Moisture from gutter overflow or ice damming rots the fascia, and the gutter fasteners pull free from the softened wood."
+        },
+        {
+          "num": 13,
+          "question": "During an inspection, you notice that a window well for a below-grade basement window has no drain and is filled with debris and standing water. What should be reported?",
+          "choices": [
+            "Window wells do not require drainage",
+            "Standing water in a window well can leak through the window into the basement; the well needs drainage and debris removal",
+            "Only report this if the window is cracked",
+            "The water will evaporate naturally"
+          ],
+          "answer": "B",
+          "explanation": "A window well without drainage traps water against the below-grade window. Hydrostatic pressure or deteriorated window seals can allow water into the basement."
+        },
+        {
+          "num": 14,
+          "question": "An inspector notes that the stucco exterior has multiple hairline cracks in a pattern that follows the wall framing (at stud locations). What does this pattern suggest?",
+          "choices": [
+            "Normal shrinkage cracking of the stucco",
+            "Differential movement between the framing and the stucco, possibly from inadequate or improperly installed lath or control joints",
+            "The stucco was applied too thick",
+            "Foundation settlement is causing the cracking"
+          ],
+          "answer": "B",
+          "explanation": "Cracking that follows the framing pattern suggests the stucco is moving differentially from the structure. This is commonly caused by insufficient lath attachment or missing control joints."
+        },
+        {
+          "num": 15,
+          "question": "An inspector opens a junction box in the attic and finds that wire splices are made with electrical tape only, with no wire nuts or approved connectors. What should be reported?",
+          "choices": [
+            "Electrical tape is an approved splicing method",
+            "Wire splices must be made with approved connectors (wire nuts, push-in connectors, etc.); tape-only splices are a fire hazard",
+            "This is acceptable in attic locations",
+            "Only ground wires require approved connectors"
+          ],
+          "answer": "B",
+          "explanation": "Wire splices must be made with UL-listed connectors (wire nuts, push-in connectors, etc.). Tape-only splices can loosen, creating high-resistance connections that overheat and cause fires."
+        },
+        {
+          "num": 16,
+          "question": "You find that the electrical panel is located in a bathroom. What should be reported?",
+          "choices": [
+            "This is an acceptable location for electrical panels",
+            "Electrical panels should not be located in bathrooms due to moisture exposure and the risk of shock; relocation should be recommended",
+            "Panels in bathrooms are only a concern if they are within 3 feet of the bathtub",
+            "This is acceptable if the panel has a weatherproof cover"
+          ],
+          "answer": "B",
+          "explanation": "Electrical panels in bathrooms are exposed to moisture and humidity. The risk of electrical shock is elevated in areas where occupants may be wet or standing on wet surfaces."
+        },
+        {
+          "num": 17,
+          "question": "An inspector observes that a 240-volt dryer outlet is a 3-prong configuration in a home built in 2005. What should be noted?",
+          "choices": [
+            "3-prong dryer outlets are the current standard",
+            "Since 1996, 4-prong outlets have been required for new installations to provide a separate equipment grounding conductor; this should be updated",
+            "3-prong outlets are acceptable for homes built before 2010",
+            "Only gas dryers require 4-prong outlets"
+          ],
+          "answer": "B",
+          "explanation": "Since 1996, 4-prong dryer outlets (NEMA 14-30) have been required for new installations. The fourth prong provides a separate equipment grounding conductor independent of the neutral."
+        },
+        {
+          "num": 18,
+          "question": "You observe that several outlets in the kitchen have only two prongs (no ground). The home was built in 1955. What should the inspector report?",
+          "choices": [
+            "Two-prong outlets were standard in 1955 and need no comment",
+            "Ungrounded outlets should be reported; upgrading to grounded outlets or adding GFCI protection is recommended for improved safety",
+            "Only bathrooms need grounded outlets",
+            "The home should be completely rewired"
+          ],
+          "answer": "B",
+          "explanation": "Ungrounded outlets lack a safety path for fault current. GFCI protection can be added to ungrounded circuits to provide personnel protection without requiring complete rewiring."
+        },
+        {
+          "num": 19,
+          "question": "An inspector tests a GFCI outlet and it does not trip when the test button is pressed. What does this indicate?",
+          "choices": [
+            "The outlet is functioning normally",
+            "The GFCI device has failed and no longer provides ground-fault protection; replacement is recommended",
+            "The test button needs batteries",
+            "The circuit is properly protected by an upstream GFCI"
+          ],
+          "answer": "B",
+          "explanation": "A GFCI that does not trip when the test button is pressed has failed and provides no ground-fault protection. GFCI devices should be tested monthly and replaced when they fail."
+        },
+        {
+          "num": 20,
+          "question": "You observe that the service entrance cable runs through tree branches. What is the concern?",
+          "choices": [
+            "Trees provide natural protection for the cable",
+            "Tree branches can abrade the cable insulation, creating a shock or fire hazard; branches should be trimmed to maintain proper clearance",
+            "Only dead tree branches are a concern",
+            "The utility company is responsible and the inspector should not report this"
+          ],
+          "answer": "B",
+          "explanation": "Tree branches rubbing against service entrance cables can wear through the insulation over time. This creates a shock hazard and potential arc fault that could start a fire."
+        },
+        {
+          "num": 21,
+          "question": "An inspector notices that a sub-panel in the garage has the neutral and ground buses bonded together. Is this correct?",
+          "choices": [
+            "Yes, all panels require neutral-ground bonding",
+            "No, in a sub-panel the neutral and ground must be separated; bonding should only occur at the main service panel",
+            "Yes, garage sub-panels are an exception",
+            "Only if the sub-panel feeds a detached structure"
+          ],
+          "answer": "B",
+          "explanation": "In a sub-panel, the neutral (grounded conductor) and equipment grounding conductor must be on separate, isolated buses. Bonding them together in a sub-panel can cause neutral current on ground paths."
+        },
+        {
+          "num": 22,
+          "question": "You observe that Romex (NM cable) is run across the top of ceiling joists in the attic without any protection. In what situation is this a concern?",
+          "choices": [
+            "NM cable on top of joists is always acceptable",
+            "If the attic is accessible and the cable is within 6 feet of the scuttle opening, it should be protected by guard strips or run through bored holes to prevent physical damage",
+            "NM cable must always be in conduit in the attic",
+            "Only metallic cable can be run in attics"
+          ],
+          "answer": "B",
+          "explanation": "NM cable in accessible attics within 6 feet of the scuttle hole must be protected against physical damage. Running it through bored holes in joists or installing guard strips provides adequate protection."
+        },
+        {
+          "num": 23,
+          "question": "An inspector observes that the water supply piping is a mix of copper and galvanized steel connected directly together without a dielectric fitting. What is the concern?",
+          "choices": [
+            "Mixed piping materials are always acceptable",
+            "Direct contact between copper and galvanized steel causes galvanic corrosion, which accelerates deterioration of the galvanized pipe at the connection point",
+            "Only hot water lines are affected",
+            "A dielectric fitting is only needed if the pipes are different sizes"
+          ],
+          "answer": "B",
+          "explanation": "When copper and galvanized steel are in direct contact with water present, galvanic corrosion occurs. The galvanized pipe acts as the anode and corrodes rapidly at the joint, often within 5-10 years."
+        },
+        {
+          "num": 24,
+          "question": "You notice that a toilet rocks when pushed from side to side. What should be reported?",
+          "choices": [
+            "Toilets commonly rock and this is not a deficiency",
+            "A rocking toilet indicates a failed wax seal or deteriorated floor; this can cause leaking and water damage to the subfloor and framing below",
+            "Only report rocking toilets on upper floors",
+            "Tighten the toilet bolts during the inspection"
+          ],
+          "answer": "B",
+          "explanation": "A rocking toilet typically means the wax ring seal has failed or the floor beneath has deteriorated. This can allow sewage to leak beneath the toilet, causing water damage and unsanitary conditions."
+        },
+        {
+          "num": 25,
+          "question": "An inspector finds that the hot water at the kitchen faucet takes over 3 minutes to arrive. What should be noted?",
+          "choices": [
+            "This is normal for most homes",
+            "Extended hot water delivery time indicates the water heater is far from the fixture; this wastes water and energy but is not necessarily a defect",
+            "The water heater thermostat needs adjustment",
+            "The hot and cold lines are crossed"
+          ],
+          "answer": "B",
+          "explanation": "Extended hot water delivery time is primarily a function of pipe length between the water heater and fixture. While not a defect, it wastes water and energy and should be noted for the client."
+        },
+        {
+          "num": 26,
+          "question": "You observe that the sewer cleanout cap is missing from the cleanout access in the basement floor. Why is this a concern?",
+          "choices": [
+            "Missing cleanout caps are cosmetic issues",
+            "A missing cleanout cap allows sewer gases to enter the living space, creating a health hazard and unpleasant odors",
+            "The cleanout was probably removed for recent drain service",
+            "Only exterior cleanouts need caps"
+          ],
+          "answer": "B",
+          "explanation": "A missing sewer cleanout cap provides an open path for sewer gases (including methane and hydrogen sulfide) to enter the living space. Replacement with a proper cap is a simple but important correction."
+        },
+        {
+          "num": 27,
+          "question": "An inspector notices that flexible supply lines (braided stainless steel) to the bathroom faucet are visibly corroded and bulging at one end. What should be reported?",
+          "choices": [
+            "Braided stainless steel lines do not fail",
+            "Corroded or bulging supply lines are at risk of failure and should be replaced to prevent water damage from a burst line",
+            "Only rubber supply lines need replacement",
+            "Supply line condition is not within the scope of an inspection"
+          ],
+          "answer": "B",
+          "explanation": "Supply lines showing corrosion or bulging are at risk of catastrophic failure. A burst supply line can release large amounts of water quickly, causing extensive damage before the water is shut off."
+        },
+        {
+          "num": 28,
+          "question": "You observe that the water heater is set to a temperature of 160 degrees F. What should the inspector note?",
+          "choices": [
+            "This is an appropriate setting for killing bacteria",
+            "The temperature exceeds the recommended maximum of 120 degrees F and poses a scalding hazard, especially for children and elderly occupants",
+            "Water heater temperature settings are outside the inspection scope",
+            "This setting is only a concern in homes with small children"
+          ],
+          "answer": "B",
+          "explanation": "Water temperatures above 120 degrees F pose a serious scalding risk. At 160 degrees F, a severe burn can occur in less than one second. The setting should be reduced to 120 degrees F."
+        },
+        {
+          "num": 29,
+          "question": "An inspector notices that the furnace filter has not been changed and is completely clogged with dust and debris. What effects can this have on the system?",
+          "choices": [
+            "A dirty filter improves air quality by catching more particles",
+            "Restricted airflow from a clogged filter can cause the heat exchanger to overheat, reduce efficiency, and potentially lead to premature system failure",
+            "Dirty filters only affect air quality, not system operation",
+            "The filter should be changed but has no effect on the furnace itself"
+          ],
+          "answer": "B",
+          "explanation": "A completely clogged filter severely restricts airflow. The heat exchanger overheats because heat cannot be removed efficiently by the air stream, potentially causing cracks and premature failure."
+        },
+        {
+          "num": 30,
+          "question": "You observe that the air conditioning condenser unit (outdoor unit) is surrounded by dense vegetation within 6 inches on all sides. What should be reported?",
+          "choices": [
+            "Vegetation provides shade that improves efficiency",
+            "Vegetation restricts airflow through the condenser coil, reducing cooling capacity and potentially causing compressor overheating; clearance of 12-24 inches is recommended",
+            "Only ivy or climbing vines are a concern",
+            "Vegetation near the condenser is a landscaping issue, not an HVAC concern"
+          ],
+          "answer": "B",
+          "explanation": "The condenser must reject heat to the outdoor air. Dense vegetation blocks airflow, causing the condenser pressure and temperature to rise, reducing efficiency and potentially damaging the compressor."
+        },
+        {
+          "num": 31,
+          "question": "An inspector observes white residue around a fitting on the refrigerant line set between the condenser and the evaporator coil. What does this indicate?",
+          "choices": [
+            "Normal condensation from the cold refrigerant line",
+            "A possible refrigerant leak; the white residue is often oil that has escaped with the refrigerant and should be evaluated by an HVAC technician",
+            "Excess flux from the soldering process during installation",
+            "The line set insulation is deteriorating"
+          ],
+          "answer": "B",
+          "explanation": "White or oily residue at refrigerant line fittings often indicates a slow refrigerant leak. Refrigerant carries compressor oil, which leaves a visible trace when it escapes."
+        },
+        {
+          "num": 32,
+          "question": "What is the primary safety concern with a gas furnace that has a visibly cracked or deteriorated exhaust flue connector?",
+          "choices": [
+            "Reduced furnace efficiency",
+            "Combustion gases, including carbon monoxide, can escape through the cracks into the living space before reaching the chimney",
+            "The flue connector will eventually collapse and block the chimney",
+            "Increased noise during furnace operation"
+          ],
+          "answer": "B",
+          "explanation": "A cracked or deteriorated flue connector allows combustion byproducts to spill into the living space before reaching the chimney. Carbon monoxide from combustion gases is odorless and potentially lethal."
+        },
+        {
+          "num": 33,
+          "question": "An inspector finds that the return air duct in a forced-air system draws air from the garage. Why is this a serious deficiency?",
+          "choices": [
+            "Garage air is too cold for efficient heating",
+            "The return duct can draw carbon monoxide from vehicle exhaust, gasoline vapors, and other contaminants into the living space",
+            "The filter will clog faster from garage dust",
+            "This is only a concern if cars are parked in the garage"
+          ],
+          "answer": "B",
+          "explanation": "Garages commonly contain carbon monoxide from vehicles, gasoline vapors, and other hazardous fumes. A return air duct in the garage distributes these contaminants throughout the living space."
+        },
+        {
+          "num": 34,
+          "question": "You notice that the condensate pump for the air conditioning system is not operating when tested, and the reservoir is full. What should be reported?",
+          "choices": [
+            "The pump just needs to be primed",
+            "A failed condensate pump can cause water overflow and damage to surrounding materials; replacement or repair is recommended",
+            "Condensate pumps are not testable during an inspection",
+            "The reservoir being full means the pump is working correctly"
+          ],
+          "answer": "B",
+          "explanation": "A failed condensate pump allows water to overflow the reservoir, causing damage to surrounding building materials. During cooling season, an AC unit can produce gallons of condensate per day."
+        },
+        {
+          "num": 35,
+          "question": "An inspector observes dark staining on the underside of the roof sheathing in the attic, concentrated near the eaves. What is the most likely cause?",
+          "choices": [
+            "Normal wood aging",
+            "Insufficient attic ventilation causing moisture condensation on the cold sheathing, leading to mold or mildew growth",
+            "Roof shingles bleeding tar through the decking",
+            "Insect activity in the attic"
+          ],
+          "answer": "B",
+          "explanation": "Dark staining on attic sheathing near the eaves indicates moisture condensation. Warm, humid air from the living space meets the cold sheathing and condenses, promoting mold and wood decay."
+        },
+        {
+          "num": 36,
+          "question": "What is the recommended minimum thickness of insulation for hot water pipes in unconditioned spaces?",
+          "choices": [
+            "No insulation is needed for hot water pipes",
+            "At least 1 inch of pipe insulation to reduce heat loss and prevent freezing in cold climates",
+            "Only pipes in exterior walls need insulation",
+            "3 inches of fiberglass wrap"
+          ],
+          "answer": "B",
+          "explanation": "Hot water pipe insulation of at least 1 inch reduces heat loss during delivery and protects pipes from freezing in unconditioned spaces. This saves energy and prevents freeze damage."
+        },
+        {
+          "num": 37,
+          "question": "An inspector finds that cellulose insulation in an attic has settled to approximately half its original installed depth. What should be reported?",
+          "choices": [
+            "Cellulose always settles and this is expected",
+            "Settled insulation has reduced R-value and may need to be topped off to restore adequate thermal performance",
+            "Replace all cellulose with fiberglass batts",
+            "Only report settling if it exceeds 75% of original depth"
+          ],
+          "answer": "B",
+          "explanation": "Cellulose insulation is known to settle over time, typically losing 10-20% of its initial height. When settlement is significant, the R-value is proportionally reduced and topping off is recommended."
+        },
+        {
+          "num": 38,
+          "question": "You observe that insulation has been installed directly against a recessed light fixture that is not rated for insulation contact (IC). What is the hazard?",
+          "choices": [
+            "The light will be dimmer",
+            "Non-IC-rated recessed lights generate significant heat; insulation in contact with the fixture can ignite, creating a fire hazard",
+            "The insulation will melt and lose R-value",
+            "Only spray foam near recessed lights is dangerous"
+          ],
+          "answer": "B",
+          "explanation": "Non-IC-rated recessed lights require clearance from insulation (typically 3 inches). Contact with insulation traps heat, potentially raising temperatures to the ignition point of surrounding materials."
+        },
+        {
+          "num": 39,
+          "question": "An inspector notices white powder on the interior of a fireplace firebox. What does this most likely indicate?",
+          "choices": [
+            "Normal ash residue from wood burning",
+            "Efflorescence from moisture migrating through the masonry, which can indicate a chimney leak or inadequate cap/crown",
+            "Calcium deposits from chimney cleaning chemicals",
+            "The fireplace was recently painted"
+          ],
+          "answer": "B",
+          "explanation": "Efflorescence (white mineral deposits) inside a firebox indicates moisture migration through the masonry. This can result from a damaged chimney cap, failed crown, or deteriorated flue liner."
+        },
+        {
+          "num": 40,
+          "question": "You observe that a prefabricated (factory-built) fireplace has a single-wall stovepipe connector rather than the manufacturer-specified class A chimney pipe. What should be reported?",
+          "choices": [
+            "Single-wall pipe is acceptable for prefabricated fireplaces",
+            "Using unapproved venting components with a factory-built fireplace is a fire hazard and violates the manufacturer's installation requirements",
+            "Only masonry fireplaces require specific chimney pipe",
+            "The stovepipe is acceptable if it has a UL listing"
+          ],
+          "answer": "B",
+          "explanation": "Factory-built fireplaces must use the specific chimney components specified by the manufacturer. Using unapproved venting creates a fire hazard and violates the listing requirements."
+        },
+        {
+          "num": 41,
+          "question": "While inspecting the interior, you notice that several doors in the home do not latch properly and swing open on their own. What underlying condition might this indicate?",
+          "choices": [
+            "The door hardware needs lubrication",
+            "The house framing may have shifted due to settlement, causing the door frames to be out of plumb",
+            "The doors were improperly trimmed during installation",
+            "High humidity is causing the doors to swell"
+          ],
+          "answer": "B",
+          "explanation": "Multiple doors that do not latch or swing open often indicate that the house framing has shifted. Foundation settlement, structural movement, or framing shrinkage can cause door frames to go out of plumb."
+        },
+        {
+          "num": 42,
+          "question": "An inspector finds that the guardrail on a second-floor balcony is only 30 inches high. What should be reported?",
+          "choices": [
+            "30 inches is the minimum required height",
+            "The guardrail height is below the generally accepted minimum of 36 inches (42 inches for commercial); this is a fall hazard and should be corrected",
+            "Guardrail height is not within the scope of a home inspection",
+            "Only report guardrail height on third-floor balconies and above"
+          ],
+          "answer": "B",
+          "explanation": "Residential guardrails generally require a minimum height of 36 inches (42 inches for some jurisdictions and commercial applications). A 30-inch guardrail presents a fall hazard and should be raised."
+        },
+        {
+          "num": 43,
+          "question": "An inspector encounters a condition they have never seen before and are unsure of its significance. What is the most appropriate action?",
+          "choices": [
+            "Omit it from the report since the inspector is unsure",
+            "Document the observation in the report and recommend evaluation by a specialist who can properly assess the condition",
+            "Research the condition online before completing the inspection",
+            "Ask the seller about the condition"
+          ],
+          "answer": "B",
+          "explanation": "When an inspector encounters an unfamiliar condition, the best practice is to document it and recommend specialist evaluation. Omitting unknown conditions creates liability and fails to serve the client."
+        },
+        {
+          "num": 44,
+          "question": "When should an inspector use qualifying language such as 'appears to be' or 'evidence suggests' in a report?",
+          "choices": [
+            "Never; reports should be definitive",
+            "When describing conditions that cannot be confirmed without further investigation or that are based on visual indicators rather than definitive testing",
+            "Only for structural observations",
+            "Only when the inspector is uncertain about a finding"
+          ],
+          "answer": "B",
+          "explanation": "Qualifying language is appropriate when conditions are observed visually but cannot be definitively confirmed without further testing or investigation. It maintains accuracy and professional integrity."
+        },
+        {
+          "num": 45,
+          "question": "An inspector's report states: 'Active leaking was observed at the master bathroom toilet supply line. Recommend immediate repair by a licensed plumber.' Is this appropriate report language?",
+          "choices": [
+            "No, the inspector should have repaired the leak",
+            "Yes, it describes a specific observation, identifies the location, and provides a clear recommendation for action",
+            "No, the report should not use the word 'immediate'",
+            "No, the inspector should specify the type of repair needed"
+          ],
+          "answer": "B",
+          "explanation": "The statement is specific (identifies the location and condition), objective (describes what was observed), and actionable (provides a clear recommendation). This is a model of effective report language."
+        },
+        {
+          "num": 46,
+          "question": "When reporting on the age of major systems (roof, HVAC, water heater), what is the best practice?",
+          "choices": [
+            "Always provide an exact age",
+            "Report the age if it can be determined from data plates or permits, or describe apparent condition if the age cannot be confirmed",
+            "Do not report ages because they create liability",
+            "Estimate the age based on the general condition"
+          ],
+          "answer": "B",
+          "explanation": "When data plates or other reliable sources provide age information, it should be included. When age cannot be confirmed, describing the observable condition gives the client useful information."
+        },
+        {
+          "num": 47,
+          "question": "An inspector finds no deficiencies in the plumbing system. How should this be reported?",
+          "choices": [
+            "Simply omit the plumbing section from the report",
+            "Include the plumbing section, note what was inspected, and report that the system appeared to be functioning as intended at the time of the inspection",
+            "Write 'plumbing is perfect' in the report",
+            "Report only deficiencies; satisfactory systems need no documentation"
+          ],
+          "answer": "B",
+          "explanation": "All inspected systems should be included in the report regardless of condition. Noting what was inspected and that it appeared functional provides a complete record and protects both parties."
+        },
+        {
+          "num": 48,
+          "question": "What is the importance of noting weather conditions and limitations in an inspection report?",
+          "choices": [
+            "Weather conditions are irrelevant to the inspection",
+            "Weather and other conditions can limit the inspection (snow-covered roof, frozen pipes); documenting these limitations explains why certain areas were not fully evaluated",
+            "Only extreme weather should be noted",
+            "Weather documentation is only needed for legal protection"
+          ],
+          "answer": "B",
+          "explanation": "Documenting weather and other limitations explains gaps in the inspection and sets appropriate expectations. It protects the inspector from claims about conditions that could not be observed."
+        },
+        {
+          "num": 49,
+          "question": "An inspector discovers that the crawl space has been encapsulated with a vapor barrier on the floor and walls. How should the report address this?",
+          "choices": [
+            "Report that the crawl space was not accessible and therefore not inspected",
+            "Document the encapsulation system, note its visible condition, and report any observable deficiencies such as tears, gaps, or signs of moisture above the barrier",
+            "Remove a section of the barrier to inspect beneath it",
+            "Report that encapsulated crawl spaces are outside the scope"
+          ],
+          "answer": "B",
+          "explanation": "An encapsulated crawl space is still within scope. The inspector should evaluate the visible condition of the encapsulation system and report any deficiencies without removing or damaging the barrier."
+        },
+        {
+          "num": 50,
+          "question": "When reporting on the electrical system, which of the following statements provides the MOST useful information to the client?",
+          "choices": [
+            "The electrical panel is a 200-amp Square D",
+            "The electrical service is 200-amp with a Square D panel; the panel interior shows no visible deficiencies; however, several outlets tested as ungrounded in the second-floor bedrooms",
+            "The electrical is fine",
+            "All electrical outlets were tested"
+          ],
+          "answer": "B",
+          "explanation": "The most useful report includes specific details: service size, panel brand, overall condition, AND specific deficiencies found. This gives the client both a system overview and actionable findings."
+        },
+        {
+          "num": 51,
+          "question": "How should an inspector report a condition where the furnace operates but produces an unusual burning smell?",
+          "choices": [
+            "Do not report smells since they are subjective",
+            "Document the observation, note the type and location of the odor, and recommend evaluation by an HVAC technician to determine the source",
+            "Report that the furnace is defective",
+            "Only report odors that indicate gas leaks"
+          ],
+          "answer": "B",
+          "explanation": "Unusual odors during furnace operation can indicate overheating components, burning dust, or more serious issues. Documenting the observation and recommending evaluation is appropriate."
+        },
+        {
+          "num": 52,
+          "question": "An inspector's report includes the statement: 'The foundation appears adequate.' Why is this problematic?",
+          "choices": [
+            "It is not problematic; it accurately describes the foundation",
+            "The term 'adequate' is vague and provides no useful information about the foundation's condition, visible deficiencies, or type of construction observed",
+            "The inspector should not comment on the foundation",
+            "The word 'appears' creates legal liability"
+          ],
+          "answer": "B",
+          "explanation": "Vague terms like 'adequate' provide no meaningful information. Reports should describe what was observed (type, condition, deficiencies) so the client can understand the actual condition."
+        },
+        {
+          "num": 53,
+          "question": "A seller follows the inspector around the home and repeatedly states that certain items have already been repaired or are not problems. How should the inspector respond?",
+          "choices": [
+            "Accept the seller's statements and skip those items",
+            "Politely acknowledge the seller's input but conduct an independent, thorough inspection of all accessible systems and components",
+            "Ask the seller to leave the property",
+            "Note the seller's claims in the report as confirmed conditions"
+          ],
+          "answer": "B",
+          "explanation": "The inspector must maintain independence. Seller claims about repairs or conditions are not verified unless the inspector can independently confirm them through their own observation."
+        },
+        {
+          "num": 54,
+          "question": "Under what circumstances may a home inspector provide a warranty or guarantee on the condition of inspected systems?",
+          "choices": [
+            "When the client pays an additional fee",
+            "Home inspectors should not provide warranties or guarantees; the inspection is a snapshot of conditions at the time of the inspection",
+            "When the inspector has more than 10 years of experience",
+            "When the home is less than 5 years old"
+          ],
+          "answer": "B",
+          "explanation": "A home inspection is a visual assessment of conditions at a specific point in time. Warranties and guarantees about future performance are inappropriate and create unrealistic expectations."
+        },
+        {
+          "num": 55,
+          "question": "An inspector's client asks to receive the report before the inspection is complete so they can begin negotiations. What should the inspector do?",
+          "choices": [
+            "Send a partial report immediately",
+            "Explain that the report will be delivered after the complete inspection, as partial findings may be misleading without the full context",
+            "Send a verbal summary and withhold the written report",
+            "Ask the client's agent to provide interim findings"
+          ],
+          "answer": "B",
+          "explanation": "Partial reports can be misleading because they lack the full context of the complete inspection. A deficiency in one system may relate to findings in another that has not yet been inspected."
+        },
+        {
+          "num": 56,
+          "question": "A home inspector notices evidence of illegal drug manufacturing (meth lab) in a property during an inspection. What is the appropriate response?",
+          "choices": [
+            "Report the drug evidence as a deficiency in the inspection report",
+            "Stop the inspection, leave the property for personal safety, inform the client, and contact appropriate authorities as required by law",
+            "Continue the inspection but note the contamination risk",
+            "This is outside the scope and should be ignored"
+          ],
+          "answer": "B",
+          "explanation": "Evidence of illegal drug manufacturing poses serious health and safety risks from chemical contamination. The inspector should prioritize personal safety, evacuate, and contact authorities as required."
+        },
+        {
+          "num": 57,
+          "question": "What is the primary reason that home inspectors should not perform invasive or destructive testing during a standard home inspection?",
+          "choices": [
+            "It takes too much time",
+            "Invasive testing can damage the property, and the inspector does not have authorization to alter or damage any component of the home",
+            "Destructive testing requires special insurance",
+            "Only licensed contractors are trained for destructive testing"
+          ],
+          "answer": "B",
+          "explanation": "Home inspectors are guests in someone else's property. Invasive testing (cutting into walls, removing finishes) can cause damage the inspector has no authority to cause and creates liability."
+        },
+        {
+          "num": 58,
+          "question": "An inspector is scheduled to inspect a property but arrives to find the home is occupied and a large, aggressive dog is loose inside. What should the inspector do?",
+          "choices": [
+            "Proceed with the inspection and avoid the dog",
+            "Postpone the inspection or request that the dog be secured, as the inspector should not put themselves at risk of injury",
+            "Call animal control to remove the dog",
+            "Inspect only the exterior and report the interior as inaccessible"
+          ],
+          "answer": "B",
+          "explanation": "Inspector safety is the top priority. An aggressive animal poses a serious risk of injury. The inspection should be rescheduled with the animal properly secured or removed from the property."
+        },
+        {
+          "num": 59,
+          "question": "Which of the following activities is generally considered within the scope of a standard residential home inspection?",
+          "choices": [
+            "Testing for radon gas levels",
+            "Operating the built-in dishwasher through a normal cycle",
+            "Determining the presence of lead-based paint",
+            "Sizing the HVAC system for the square footage of the home"
+          ],
+          "answer": "B",
+          "explanation": "Operating built-in appliances through a normal cycle is within the standard scope. Radon testing, lead paint assessment, and HVAC system sizing are specialized services outside the standard scope."
+        },
+        {
+          "num": 60,
+          "question": "An inspector completes an inspection and the client asks for a copy of the inspection photographs to be sent to their contractor. How should the inspector handle this?",
+          "choices": [
+            "Share photos freely since they are just pictures",
+            "Follow the terms of the pre-inspection agreement regarding report distribution and obtain appropriate authorization before sharing inspection materials with third parties",
+            "Refuse to share any inspection materials",
+            "Charge the contractor a separate fee for the photos"
+          ],
+          "answer": "B",
+          "explanation": "Inspection reports and associated materials are governed by the pre-inspection agreement. Third-party distribution requires client authorization and should follow the agreed-upon terms."
+        }
+      ]
+    }
+  ]
+}
