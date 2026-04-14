@@ -3,21 +3,27 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Access Practice Tests - CertPath Publishing</title>
-  <link rel="stylesheet" href="css/style.css">
+  <title>Access Practice Tests — CertPath Publishing</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-  <header class="header">
+  <header class="site-header">
     <div class="header-inner">
-      <a href="/" class="logo">CertPath <span class="gold">Publishing</span></a>
+      <a href="/" class="logo">
+        <span class="logo-mark">CP</span>
+        CertPath <span class="gold">Publishing</span>
+      </a>
       <nav class="nav">
         <a href="/">Home</a>
-        <a href="/bonus.html">Bonus</a>
+        <a href="/#books">Study Guides</a>
+        <a href="/bonus.html">Bonus Content</a>
       </nav>
     </div>
   </header>
 
-  <main class="container">
+  <main class="container" style="padding: 3rem 2rem 5rem;">
     <div class="form-card">
       <h2>Unlock Your Practice Tests</h2>
       <p>Enter the access code from the last page of your CertPath Publishing book.</p>
@@ -28,30 +34,32 @@
           <input type="email" id="email" required placeholder="you@example.com" autocomplete="email">
           <div class="hint">We'll save your progress and send tips for your exam prep.</div>
         </div>
-
         <div class="form-group">
           <label for="code">Book Access Code</label>
-          <input type="text" id="code" required placeholder="XXXX-XXXXX-XXXXX" autocomplete="off" style="text-transform: uppercase; font-family: monospace;">
+          <input type="text" id="code" required placeholder="XXXX-XXXXX-XXXXX" autocomplete="off" style="text-transform: uppercase; font-family: 'SF Mono', Monaco, monospace;">
           <div class="hint">Found on the last page of your book. Format: XXXX-XXXXX-XXXXX</div>
         </div>
-
-        <button type="submit" class="btn">Unlock Practice Tests</button>
-
+        <button type="submit" class="btn btn-block btn-lg">Unlock Practice Tests</button>
         <div class="message error" id="errorMsg"></div>
       </form>
     </div>
 
     <div id="testList" style="display: none;">
-      <h2 style="color: var(--navy); text-align: center; margin: 2rem 0 0.5rem;">Your Practice Tests</h2>
-      <p style="text-align: center; color: var(--gray); margin-bottom: 2rem;" id="welcomeMsg"></p>
+      <div class="section-header" style="margin: 3rem 0 2rem;">
+        <div class="section-eyebrow">Your Library</div>
+        <h2 id="welcomeTitle">Your Practice Tests</h2>
+        <p id="welcomeMsg"></p>
+      </div>
       <div class="book-grid" id="unlockedGrid"></div>
     </div>
   </main>
 
   <footer class="footer">
-    <p>&copy; CertPath Publishing. Practice tests for verified book owners only.</p>
+    <div class="footer-bottom" style="border: none; padding: 0;">
+      <p>&copy; 2025 CertPath Publishing. Practice tests for verified book owners only.</p>
+    </div>
   </footer>
 
-  <script src="js/app.js"></script>
+  <script src="/js/app.js"></script>
 </body>
 </html>

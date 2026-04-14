@@ -3,81 +3,50 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bonus Content - CertPath Publishing</title>
-  <link rel="stylesheet" href="css/style.css">
+  <title>Bonus Content — CertPath Publishing</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-  <header class="header">
+  <header class="site-header">
     <div class="header-inner">
-      <a href="/" class="logo">CertPath <span class="gold">Publishing</span></a>
+      <a href="/" class="logo">
+        <span class="logo-mark">CP</span>
+        CertPath <span class="gold">Publishing</span>
+      </a>
       <nav class="nav">
         <a href="/">Home</a>
+        <a href="/#books">Study Guides</a>
         <a href="/access.html">Access Tests</a>
       </nav>
     </div>
   </header>
 
-  <main class="container">
-    <div class="form-card">
+  <main class="container" style="padding: 3rem 2rem 5rem;">
+    <div class="section-header">
+      <div class="section-eyebrow">Reader Rewards</div>
       <h2>Unlock Bonus Content</h2>
-      <p>Get extra practice questions and a printable formula cheat sheet by leaving an honest review on Amazon.</p>
+      <p>Leave an honest Amazon review of your CertPath study guide to unlock additional practice questions and reference sheets.</p>
+    </div>
 
-      <h3 style="color: var(--navy); margin: 1.5rem 0 1rem;">How It Works</h3>
-      <ol style="color: var(--gray-dark); padding-left: 1.5rem; line-height: 1.8;">
-        <li><strong>Step 1:</strong> Leave an honest review of your CertPath book on Amazon.</li>
-        <li><strong>Step 2:</strong> Take a screenshot of your published review.</li>
-        <li><strong>Step 3:</strong> Fill out the form below with your access code.</li>
-        <li><strong>Step 4:</strong> We'll email you the bonus content within 24 hours.</li>
+    <div class="form-card">
+      <h2>How to Claim Your Bonus</h2>
+      <ol style="padding-left: 1.25rem; line-height: 1.8;">
+        <li>Leave an honest review of your CertPath book on Amazon.</li>
+        <li>Email a screenshot of your review to <strong>bonus@certpathpublishing.store</strong>.</li>
+        <li>We'll send back bonus practice questions, a printable formula sheet, and test-day checklists within 24 hours.</li>
       </ol>
-
-      <form id="bonusForm" style="margin-top: 2rem;">
-        <div class="form-group">
-          <label for="bEmail">Email Address</label>
-          <input type="email" id="bEmail" required placeholder="you@example.com">
-        </div>
-
-        <div class="form-group">
-          <label for="bCode">Book Access Code</label>
-          <input type="text" id="bCode" required placeholder="XXXX-XXXXX-XXXXX" style="text-transform: uppercase; font-family: monospace;">
-        </div>
-
-        <div class="form-group">
-          <label for="bReview">Amazon Review URL (or paste review text)</label>
-          <input type="text" id="bReview" required placeholder="https://amazon.com/review/...">
-          <div class="hint">After submission, we'll verify and send your bonus content.</div>
-        </div>
-
-        <button type="submit" class="btn">Submit for Bonus Content</button>
-        <div class="message success" id="bonusSuccess">Thank you! Check your email within 24 hours for your bonus content.</div>
-        <div class="message error" id="bonusError"></div>
-      </form>
-
-      <p style="text-align: center; margin-top: 2rem; color: var(--gray); font-size: 0.9rem;">
-        Your honest feedback helps other test-takers find the right study guide. We appreciate every review -- positive or constructive.
+      <p style="margin-top: 1.5rem; color: var(--muted); font-size: 0.9rem;">
+        Your review helps other test-takers find quality prep material. Honest feedback — positive or critical — qualifies for the bonus.
       </p>
     </div>
   </main>
 
   <footer class="footer">
-    <p>&copy; CertPath Publishing. All rights reserved.</p>
+    <div class="footer-bottom" style="border: none; padding: 0;">
+      <p>&copy; 2025 CertPath Publishing. All rights reserved.</p>
+    </div>
   </footer>
-
-  <script>
-    document.getElementById('bonusForm').addEventListener('submit', (e) => {
-      e.preventDefault();
-      const email = document.getElementById('bEmail').value;
-      const code = document.getElementById('bCode').value.toUpperCase().trim();
-      const review = document.getElementById('bReview').value;
-
-      // Save to localStorage (would post to server in production)
-      const submissions = JSON.parse(localStorage.getItem('certpath_bonus_submissions') || '[]');
-      submissions.push({ email, code, review, date: new Date().toISOString() });
-      localStorage.setItem('certpath_bonus_submissions', JSON.stringify(submissions));
-
-      document.getElementById('bonusSuccess').classList.add('show');
-      document.getElementById('bonusError').classList.remove('show');
-      e.target.reset();
-    });
-  </script>
 </body>
 </html>

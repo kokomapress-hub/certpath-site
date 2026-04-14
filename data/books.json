@@ -6,7 +6,10 @@
       "code": "CAST-OHGI1-JNYT7",
       "timeMinutes": 87,
       "testCount": 3,
-      "totalQuestions": 330
+      "totalQuestions": 330,
+      "cover": "/img/covers/cast.png",
+      "shortName": "CAST",
+      "category": "Construction & Trades"
     },
     {
       "slug": "mech-apt",
@@ -14,7 +17,10 @@
       "code": "MECH-XAJI0-Y6DPB",
       "timeMinutes": 60,
       "testCount": 3,
-      "totalQuestions": 180
+      "totalQuestions": 180,
+      "cover": "/img/covers/mech-apt.png",
+      "shortName": "Mechanical Aptitude",
+      "category": "Aptitude & Industrial"
     },
     {
       "slug": "journeyman-elec",
@@ -22,7 +28,10 @@
       "code": "ELEC-BDOD6-BTL4F",
       "timeMinutes": 120,
       "testCount": 3,
-      "totalQuestions": 180
+      "totalQuestions": 180,
+      "cover": "/img/covers/journeyman-elec.png",
+      "shortName": "Journeyman Electrician",
+      "category": "Electrical & Trades"
     },
     {
       "slug": "poss",
@@ -30,7 +39,10 @@
       "code": "POSS-2LI3E-RUWFW",
       "timeMinutes": 77,
       "testCount": 3,
-      "totalQuestions": 180
+      "totalQuestions": 180,
+      "cover": "/img/covers/poss.png",
+      "shortName": "POSS",
+      "category": "Power & Utilities"
     },
     {
       "slug": "csp",
@@ -38,7 +50,10 @@
       "code": "CSP-D8F04-0KMZ8",
       "timeMinutes": 90,
       "testCount": 3,
-      "totalQuestions": 180
+      "totalQuestions": 180,
+      "cover": "/img/covers/csp.png",
+      "shortName": "CSP",
+      "category": "Safety & Environmental"
     },
     {
       "slug": "chst",
@@ -46,7 +61,10 @@
       "code": "CHST-CPIQJ-5U07R",
       "timeMinutes": 90,
       "testCount": 3,
-      "totalQuestions": 180
+      "totalQuestions": 180,
+      "cover": "/img/covers/chst.png",
+      "shortName": "CHST",
+      "category": "Safety & Environmental"
     },
     {
       "slug": "nhie",
@@ -54,7 +72,10 @@
       "code": "NHIE-OG6WS-Z4YE9",
       "timeMinutes": 120,
       "testCount": 3,
-      "totalQuestions": 180
+      "totalQuestions": 180,
+      "cover": "/img/covers/nhie.svg",
+      "shortName": "Home Inspector (NHIE)",
+      "category": "Home & Building"
     },
     {
       "slug": "sts",
@@ -62,7 +83,10 @@
       "code": "STS-3H7RO-WGGPI",
       "timeMinutes": 60,
       "testCount": 3,
-      "totalQuestions": 150
+      "totalQuestions": 150,
+      "cover": "/img/covers/sts.svg",
+      "shortName": "STS",
+      "category": "Safety & Environmental"
     },
     {
       "slug": "cpt",
@@ -70,7 +94,10 @@
       "code": "CPT-2ILBI-0PCA7",
       "timeMinutes": 90,
       "testCount": 3,
-      "totalQuestions": 180
+      "totalQuestions": 180,
+      "cover": "/img/covers/cpt.svg",
+      "shortName": "MSSC CPT",
+      "category": "Manufacturing"
     },
     {
       "slug": "ncidq",
@@ -78,7 +105,10 @@
       "code": "NCDQ-TM9CT-MJ8L2",
       "timeMinutes": 180,
       "testCount": 3,
-      "totalQuestions": 180
+      "totalQuestions": 180,
+      "cover": "/img/covers/ncidq.svg",
+      "shortName": "NCIDQ",
+      "category": "Design & Architecture"
     }
   ],
   "adminCode": "CERTPATH-ADMIN-2026"

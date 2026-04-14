@@ -3,17 +3,29 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Practice Test - CertPath Publishing</title>
-  <link rel="stylesheet" href="css/style.css">
+  <title>Practice Test — CertPath Publishing</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-  <div id="quizApp">
-    <div style="text-align: center; padding: 4rem 2rem;">
-      <div class="loading"></div>
-      <p style="margin-top: 1rem; color: var(--gray);">Loading your practice test...</p>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="/" class="logo">
+        <span class="logo-mark">CP</span>
+        CertPath <span class="gold">Publishing</span>
+      </a>
+      <nav class="nav">
+        <a href="/">Home</a>
+        <a href="/access.html">My Tests</a>
+      </nav>
     </div>
-  </div>
+  </header>
 
-  <script src="js/quiz.js"></script>
+  <main class="container" style="padding: 2rem 2rem 5rem;">
+    <div id="quizApp">Loading practice test…</div>
+  </main>
+
+  <script src="/js/quiz.js"></script>
 </body>
 </html>
