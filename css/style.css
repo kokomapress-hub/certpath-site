@@ -242,3 +242,24 @@ a:hover { color: var(--gold-dark); }
   .results-stats { grid-template-columns: 1fr; }
   .cta-section h2 { font-size: 1.8rem; }
 }
+
+/* UNLOCKED BOOK CARD (on /access after unlock) */
+.book-card-unlocked { background: var(--white); border: 1px solid var(--gray-100); border-radius: var(--radius-lg); padding: 1.75rem; margin-bottom: 1.5rem; box-shadow: var(--shadow); }
+.bcu-header { display: flex; gap: 1.5rem; align-items: flex-start; margin-bottom: 1.25rem; }
+.bcu-cover { width: 110px; height: auto; border-radius: 6px; box-shadow: var(--shadow); flex-shrink: 0; }
+.bcu-header h3 { font-size: 1.25rem; font-weight: 700; color: var(--navy); margin: 0.25rem 0 0.75rem; }
+.bcu-tests { display: flex; flex-wrap: wrap; gap: 0.75rem; padding: 1rem 0; border-top: 1px solid var(--gray-100); border-bottom: 1px solid var(--gray-100); margin-bottom: 1.25rem; }
+
+/* BONUS BOX */
+.bonus-box { background: linear-gradient(135deg, #FFF9E6 0%, #FFF3C4 100%); border: 1px solid var(--gold); border-radius: var(--radius); padding: 1.25rem 1.5rem; }
+.bonus-box.unlocked { background: linear-gradient(135deg, #ECFDF5 0%, #D1FAE5 100%); border-color: var(--success); }
+.bonus-title { font-weight: 700; color: var(--navy); margin-bottom: 0.5rem; font-size: 1.05rem; }
+.bonus-box p { color: var(--gray-700); font-size: 0.95rem; margin-bottom: 1rem; }
+.bonus-form { display: flex; flex-wrap: wrap; gap: 0.75rem; align-items: center; }
+.file-label { display: inline-flex; align-items: center; gap: 0.75rem; cursor: pointer; }
+.file-label input[type="file"] { position: absolute; width: 1px; height: 1px; opacity: 0; }
+.file-cta { background: var(--white); border: 1.5px solid var(--navy); color: var(--navy); padding: 0.55rem 1rem; border-radius: 6px; font-weight: 600; font-size: 0.9rem; }
+.file-label:hover .file-cta { background: var(--navy); color: var(--white); }
+.file-name { font-size: 0.85rem; color: var(--gray-500); }
+.bonus-msg { width: 100%; font-size: 0.9rem; margin-top: 0.25rem; }
+.bonus-msg.error { color: var(--error); }

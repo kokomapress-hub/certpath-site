@@ -1,11 +1,16 @@
-// CertPath Publishing - Access code validation + book unlock
+// CertPath Publishing - Access code validation + book unlock + bonus content
 
 const STORAGE_KEY = "certpath_unlocked";
 const EMAIL_KEY = "certpath_email";
+const BONUS_KEY = "certpath_bonus";
+
+// Replace with your Formspree / Basin / Pages Function endpoint that accepts
+// multipart/form-data with fields: email, book, file (review screenshot).
+// Leave as "" to skip upload and rely on local confirmation only (trust-based).
+window.REVIEW_UPLOAD_ENDPOINT = window.REVIEW_UPLOAD_ENDPOINT || "";
 
 let booksData = null;
 
-// Load books metadata
 async function loadBooks() {
   if (booksData) return booksData;
   const r = await fetch('/data/books.json');
@@ -13,75 +18,124 @@ async function loadBooks() {
   return booksData;
 }
 
-// Check what's already unlocked from localStorage
 function getUnlocked() {
-  try {
-    return JSON.parse(localStorage.getItem(STORAGE_KEY) || '{"slugs":[],"isAdmin":false}');
-  } catch {
-    return { slugs: [], isAdmin: false };
-  }
+  try { return JSON.parse(localStorage.getItem(STORAGE_KEY) || '{"slugs":[],"isAdmin":false}'); }
+  catch { return { slugs: [], isAdmin: false }; }
+}
+function setUnlocked(s) { localStorage.setItem(STORAGE_KEY, JSON.stringify(s)); }
+function getEmail() { return localStorage.getItem(EMAIL_KEY) || ""; }
+function setEmail(e) { localStorage.setItem(EMAIL_KEY, e); }
+
+function getBonusUnlocked() {
+  try { return JSON.parse(localStorage.getItem(BONUS_KEY) || '{}'); }
+  catch { return {}; }
+}
+function setBonusUnlocked(slug) {
+  const b = getBonusUnlocked();
+  b[slug] = { unlockedAt: new Date().toISOString() };
+  localStorage.setItem(BONUS_KEY, JSON.stringify(b));
 }
 
-function setUnlocked(state) {
-  localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
-}
-
-function getEmail() {
-  return localStorage.getItem(EMAIL_KEY) || "";
-}
-
-function setEmail(email) {
-  localStorage.setItem(EMAIL_KEY, email);
-}
-
-// Validate code and unlock the appropriate book(s)
-async function validateCode(code, email) {
+async function validateCode(code) {
   const data = await loadBooks();
   const cleanCode = code.toUpperCase().trim();
-
-  // Master admin code unlocks everything
   if (cleanCode === data.adminCode) {
-    return {
-      success: true,
-      isAdmin: true,
-      books: data.books,
-      message: "Admin access granted. All books unlocked."
-    };
+    return { success: true, isAdmin: true, books: data.books, message: "Admin access granted." };
   }
-
-  // Book-specific code
   const book = data.books.find(b => b.code.toUpperCase() === cleanCode);
-  if (book) {
-    return {
-      success: true,
-      isAdmin: false,
-      books: [book],
-      message: `Access granted to ${book.title}.`
-    };
-  }
-
-  return {
-    success: false,
-    message: "Invalid access code. Please check the code on the last page of your book."
-  };
+  if (book) return { success: true, isAdmin: false, books: [book], message: `Access granted to ${book.title}.` };
+  return { success: false, message: "Invalid access code. Please check the code on the last page of your book." };
 }
 
-// Render the list of unlocked books with "Take Test" buttons
+function bonusSectionHTML(book) {
+  const bonus = getBonusUnlocked();
+  const unlocked = !!bonus[book.slug];
+  const pdfUrl = `/bonus-pdfs/${book.slug}-cheatsheet.pdf`;
+
+  if (unlocked) {
+    return `
+      <div class="bonus-box unlocked">
+        <div class="bonus-title">🎁 Bonus Content Unlocked</div>
+        <p>Thanks for your review! Download your printable formula cheat sheet:</p>
+        <a href="${pdfUrl}" class="btn btn-sm" download>Download Cheat Sheet (PDF)</a>
+      </div>`;
+  }
+
+  return `
+    <div class="bonus-box">
+      <div class="bonus-title">🎁 Unlock Bonus Content</div>
+      <p>Leave an honest review on Amazon, then upload a screenshot to unlock the printable <strong>formula cheat sheet (PDF)</strong> for ${book.shortName || book.title}.</p>
+      <form class="bonus-form" data-slug="${book.slug}">
+        <label class="file-label">
+          <input type="file" accept="image/*,.pdf" required>
+          <span class="file-cta">Upload Review Screenshot</span>
+          <span class="file-name">No file selected</span>
+        </label>
+        <button type="submit" class="btn btn-sm">Unlock Cheat Sheet</button>
+        <div class="bonus-msg"></div>
+      </form>
+    </div>`;
+}
+
+function wireBonusForms() {
+  document.querySelectorAll('.bonus-form').forEach(form => {
+    const fileInput = form.querySelector('input[type="file"]');
+    const nameEl = form.querySelector('.file-name');
+    const msgEl = form.querySelector('.bonus-msg');
+
+    fileInput.addEventListener('change', () => {
+      nameEl.textContent = fileInput.files[0]?.name || 'No file selected';
+    });
+
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const slug = form.dataset.slug;
+      const file = fileInput.files[0];
+      if (!file) { msgEl.textContent = "Please select your review screenshot first."; msgEl.className = 'bonus-msg error'; return; }
+
+      msgEl.textContent = "Uploading…"; msgEl.className = 'bonus-msg';
+
+      if (window.REVIEW_UPLOAD_ENDPOINT) {
+        try {
+          const fd = new FormData();
+          fd.append('email', getEmail());
+          fd.append('book', slug);
+          fd.append('file', file);
+          await fetch(window.REVIEW_UPLOAD_ENDPOINT, { method: 'POST', body: fd });
+        } catch { /* don't block unlock on upload failure */ }
+      }
+
+      setBonusUnlocked(slug);
+      // Re-render just this bonus box
+      const wrap = form.closest('.book-card-unlocked').querySelector('.bonus-mount');
+      wrap.innerHTML = bonusSectionHTML({ slug, shortName: form.dataset.shortName, title: form.dataset.title });
+    });
+  });
+}
+
 function renderUnlockedBooks(books, isAdmin) {
   const grid = document.getElementById('unlockedGrid');
   if (!grid) return;
   grid.innerHTML = books.map(book => `
-    <div class="book-card">
-      <h3>${book.title}</h3>
-      <div class="meta">
-        <span class="badge">${book.testCount} Tests</span>
-        <span class="badge">${book.totalQuestions} Qs</span>
+    <div class="book-card-unlocked">
+      <div class="bcu-header">
+        <img src="${book.cover}" alt="${book.title}" class="bcu-cover">
+        <div>
+          <div class="book-category">${book.category}</div>
+          <h3>${book.title}</h3>
+          <div class="book-meta">
+            <span class="book-meta-item"><strong>${book.testCount}</strong> Tests</span>
+            <span class="book-meta-item"><strong>${book.totalQuestions}</strong> Qs</span>
+            <span class="book-meta-item"><strong>${book.timeMinutes}</strong> min each</span>
+          </div>
+        </div>
       </div>
-      <div class="actions">
+      <div class="bcu-tests">
         ${Array.from({length: book.testCount}, (_, i) => `
-          <a href="/quiz.html?book=${book.slug}&test=${i+1}" class="btn">Test ${i+1}</a>
+          <a href="/quiz.html?book=${book.slug}&test=${i+1}" class="btn btn-sm">Practice Test ${i+1}</a>
         `).join('')}
       </div>
+      <div class="bonus-mount">${bonusSectionHTML(book)}</div>
     </div>
   `).join('');
 
@@ -90,35 +144,27 @@ function renderUnlockedBooks(books, isAdmin) {
   if (welcome) {
     welcome.textContent = isAdmin
       ? "Admin access: All 10 books unlocked."
-      : `${books[0].testCount} timed practice tests with ${books[0].totalQuestions} questions and detailed explanations.`;
+      : "Your timed practice tests and bonus formula cheat sheet are below.";
   }
+  wireBonusForms();
 }
 
-// Initialize the access page
 async function initAccessPage() {
   const form = document.getElementById('accessForm');
   if (!form) return;
 
-  // Pre-fill email if we have it
   const savedEmail = getEmail();
   if (savedEmail) document.getElementById('email').value = savedEmail;
 
-  // Pre-select book if URL has ?book=slug
-  const urlBook = new URLSearchParams(location.search).get('book');
-
-  // Auto-show if already unlocked
   const unlocked = getUnlocked();
   if (unlocked.slugs.length > 0 || unlocked.isAdmin) {
     const data = await loadBooks();
-    const books = unlocked.isAdmin
-      ? data.books
-      : data.books.filter(b => unlocked.slugs.includes(b.slug));
+    const books = unlocked.isAdmin ? data.books : data.books.filter(b => unlocked.slugs.includes(b.slug));
     if (books.length > 0) {
       renderUnlockedBooks(books, unlocked.isAdmin);
-      // Hide the form, show "Add another code" link instead
       form.parentElement.innerHTML = `
         <h2>Welcome Back</h2>
-        <p>You have ${unlocked.isAdmin ? 'admin' : books.length === 1 ? '1 book' : books.length + ' books'} unlocked.</p>
+        <p>You have ${unlocked.isAdmin ? 'admin access' : books.length === 1 ? '1 book' : books.length + ' books'} unlocked.</p>
         <button class="btn btn-outline" onclick="resetAccess()">Add Another Access Code</button>
       `;
       return;
@@ -131,34 +177,15 @@ async function initAccessPage() {
     const code = document.getElementById('code').value;
     const errorMsg = document.getElementById('errorMsg');
 
-    const result = await validateCode(code, email);
-    if (!result.success) {
-      errorMsg.textContent = result.message;
-      errorMsg.classList.add('show');
-      return;
-    }
+    const result = await validateCode(code);
+    if (!result.success) { errorMsg.textContent = result.message; errorMsg.classList.add('show'); return; }
 
-    // Save state
     setEmail(email);
     const current = getUnlocked();
-    if (result.isAdmin) {
-      current.isAdmin = true;
-      current.slugs = result.books.map(b => b.slug);
-    } else {
-      current.slugs = Array.from(new Set([...current.slugs, ...result.books.map(b => b.slug)]));
-    }
+    if (result.isAdmin) { current.isAdmin = true; current.slugs = result.books.map(b => b.slug); }
+    else { current.slugs = Array.from(new Set([...current.slugs, ...result.books.map(b => b.slug)])); }
     setUnlocked(current);
 
-    // POST to mailing list (placeholder - replace with real endpoint)
-    if (window.MAILING_LIST_ENDPOINT) {
-      fetch(window.MAILING_LIST_ENDPOINT, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ email, books: result.books.map(b => b.slug) })
-      }).catch(() => {});
-    }
-
-    // Show unlocked tests
     renderUnlockedBooks(result.books, result.isAdmin);
     form.parentElement.style.display = 'none';
   });
@@ -167,13 +194,10 @@ async function initAccessPage() {
 function resetAccess() {
   if (confirm("Clear your unlocked books? You'll need to re-enter your access code.")) {
     localStorage.removeItem(STORAGE_KEY);
+    localStorage.removeItem(BONUS_KEY);
     location.reload();
   }
 }
 
-// Boot
-if (document.readyState === 'loading') {
-  document.addEventListener('DOMContentLoaded', initAccessPage);
-} else {
-  initAccessPage();
-}
+if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', initAccessPage);
+else initAccessPage();
