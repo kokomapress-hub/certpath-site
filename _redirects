@@ -1,7 +1,2 @@
-# Clean URLs - serve .html files without extension
-/access /access.html 200
-/quiz /quiz.html 200
-/bonus /bonus.html 200
-
-# Catch-all 404 -> home
-/* /index.html 200
+# Cloudflare Pages auto-serves /access.html at /access — no manual rewrites needed.
+# (Previous rules caused a 308 redirect loop on /access, /quiz, /bonus.)
