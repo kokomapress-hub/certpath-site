@@ -322,7 +322,7 @@ function showReview() {
         <h2 style="color: var(--navy);">Test Review</h2>
         <div>
           <button class="btn btn-outline" onclick="showResults()">Back to Results</button>
-          <a href="/quiz.html?book=${book.slug}&test=${test.testNum}" class="btn">Retake Test</a>
+          <a href="/quiz?book=${book.slug}&test=${test.testNum}" class="btn">Retake Test</a>
         </div>
       </div>
       <div class="quiz-container">${html}</div>

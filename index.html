@@ -246,7 +246,7 @@
         function renderBooks(filterCat) {
           const filtered = filterCat === 'all' ? books : books.filter(b => b.category === filterCat);
           grid.innerHTML = filtered.map(book => `
-            <a href="/access.html?book=${book.slug}" class="book-card" style="text-decoration: none;">
+            <a href="/access?book=${book.slug}" class="book-card" style="text-decoration: none;">
               <div class="book-cover-wrap">
                 <img src="${book.cover}" alt="${book.title}" loading="lazy">
               </div>
@@ -276,7 +276,7 @@
         // Footer book list
         const footerList = document.getElementById('footerBookList');
         footerList.innerHTML = books.map(b => `
-          <li><a href="/access.html?book=${b.slug}">${b.shortName}</a></li>
+          <li><a href="/access?book=${b.slug}">${b.shortName}</a></li>
         `).join('');
       })
       .catch(err => {

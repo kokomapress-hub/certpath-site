@@ -132,7 +132,7 @@ function renderUnlockedBooks(books, isAdmin) {
       </div>
       <div class="bcu-tests">
         ${Array.from({length: book.testCount}, (_, i) => `
-          <a href="/quiz.html?book=${book.slug}&test=${i+1}" class="btn btn-sm">Practice Test ${i+1}</a>
+          <a href="/quiz?book=${book.slug}&test=${i+1}" class="btn btn-sm">Practice Test ${i+1}</a>
         `).join('')}
       </div>
       <div class="bonus-mount">${bonusSectionHTML(book)}</div>
