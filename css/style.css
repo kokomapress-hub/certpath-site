@@ -479,3 +479,10 @@ a:hover { color: var(--gold-dark); }
 .cheatsheet-price { font-size: 1.2rem; font-weight: 800; color: var(--navy); }
 .btn-sm.btn-gold { background: var(--gold); color: var(--navy); border: 2px solid var(--gold); padding: 0.4rem 0.9rem; font-weight: 700; }
 .btn-sm.btn-gold:hover { background: var(--gold-dark); border-color: var(--gold-dark); color: var(--navy); }
+
+/* Buy buttons that trigger Stripe — make <button> styled identically to <a> versions */
+button.buy-icon { font-family: inherit; cursor: pointer; border: 1.5px solid var(--gray-100); background: var(--white); color: var(--navy); }
+button.buy-icon.buy-icon-ebook { border-color: var(--gold); background: #FFFBEF; }
+button.buy-icon:disabled { opacity: 0.6; cursor: wait; }
+button.btn.btn-gold { cursor: pointer; font-family: inherit; border: 2px solid var(--gold); }
+button.btn:disabled { opacity: 0.6; cursor: wait; }
