@@ -15,7 +15,9 @@
       "ebookPrice": 14.99,
       "asin": "B0GWWTVNPM",
       "amazonUrl": "https://www.amazon.com/dp/B0GWWTVNPM",
-      "cheatsheetPrice": 1.99
+      "cheatsheetPrice": 1.99,
+      "payhipEbookUrl": "https://payhip.com/b/Fphcy",
+      "payhipCheatsheetUrl": "https://payhip.com/b/mcNUK"
     },
     {
       "slug": "mech-apt",
@@ -32,7 +34,9 @@
       "ebookPrice": 14.99,
       "asin": "B0GX5BKYDB",
       "amazonUrl": "https://www.amazon.com/dp/B0GX5BKYDB",
-      "cheatsheetPrice": 1.99
+      "cheatsheetPrice": 1.99,
+      "payhipEbookUrl": "https://payhip.com/b/AURvd",
+      "payhipCheatsheetUrl": "https://payhip.com/b/Ww7Gn"
     },
     {
       "slug": "journeyman-elec",
@@ -49,7 +53,9 @@
       "ebookPrice": 14.99,
       "asin": "B0GX5PYHC9",
       "amazonUrl": "https://www.amazon.com/dp/B0GX5PYHC9",
-      "cheatsheetPrice": 1.99
+      "cheatsheetPrice": 1.99,
+      "payhipEbookUrl": "https://payhip.com/b/32MKx",
+      "payhipCheatsheetUrl": "https://payhip.com/b/zh2ct"
     },
     {
       "slug": "poss",
@@ -66,7 +72,9 @@
       "ebookPrice": 14.99,
       "asin": "B0GX9TQMQ5",
       "amazonUrl": "https://www.amazon.com/dp/B0GX9TQMQ5",
-      "cheatsheetPrice": 1.99
+      "cheatsheetPrice": 1.99,
+      "payhipEbookUrl": "https://payhip.com/b/2eG41",
+      "payhipCheatsheetUrl": "https://payhip.com/b/nHbBm"
     },
     {
       "slug": "csp",
@@ -83,7 +91,9 @@
       "ebookPrice": 14.99,
       "asin": "B0GXDZ91DZ",
       "amazonUrl": "https://www.amazon.com/dp/B0GXDZ91DZ",
-      "cheatsheetPrice": 1.99
+      "cheatsheetPrice": 1.99,
+      "payhipEbookUrl": "https://payhip.com/b/CXKYO",
+      "payhipCheatsheetUrl": "https://payhip.com/b/2btkV"
     },
     {
       "slug": "chst",
@@ -100,7 +110,9 @@
       "ebookPrice": 14.99,
       "asin": "B0GXJ74XG7",
       "amazonUrl": "https://www.amazon.com/dp/B0GXJ74XG7",
-      "cheatsheetPrice": 1.99
+      "cheatsheetPrice": 1.99,
+      "payhipEbookUrl": "https://payhip.com/b/F51cp",
+      "payhipCheatsheetUrl": "https://payhip.com/b/Z4jNR"
     },
     {
       "slug": "nhie",
@@ -117,7 +129,9 @@
       "ebookPrice": 14.99,
       "asin": "",
       "amazonUrl": "",
-      "cheatsheetPrice": 1.99
+      "cheatsheetPrice": 1.99,
+      "payhipEbookUrl": "",
+      "payhipCheatsheetUrl": ""
     },
     {
       "slug": "sts",
@@ -134,7 +148,9 @@
       "ebookPrice": 14.99,
       "asin": "",
       "amazonUrl": "",
-      "cheatsheetPrice": 1.99
+      "cheatsheetPrice": 1.99,
+      "payhipEbookUrl": "",
+      "payhipCheatsheetUrl": ""
     },
     {
       "slug": "cpt",
@@ -151,7 +167,9 @@
       "ebookPrice": 14.99,
       "asin": "",
       "amazonUrl": "",
-      "cheatsheetPrice": 1.99
+      "cheatsheetPrice": 1.99,
+      "payhipEbookUrl": "",
+      "payhipCheatsheetUrl": ""
     },
     {
       "slug": "ncidq",
@@ -168,7 +186,9 @@
       "ebookPrice": 14.99,
       "asin": "",
       "amazonUrl": "",
-      "cheatsheetPrice": 1.99
+      "cheatsheetPrice": 1.99,
+      "payhipEbookUrl": "",
+      "payhipCheatsheetUrl": ""
     }
   ],
   "adminCode": "CERTPATH-ADMIN-2026"

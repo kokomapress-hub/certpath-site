@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/css/style.css?v=7">
+  <link rel="stylesheet" href="/css/style.css?v=8">
 </head>
 <body>
   <!-- HEADER -->
@@ -265,10 +265,10 @@
                     <span class="buy-icon-label">Paperback</span>
                     <span class="buy-icon-price">$${book.paperbackPrice.toFixed(2)}</span>
                   </a>
-                  <button type="button" class="buy-icon buy-icon-ebook" data-buy-product="ebook" data-buy-book="${book.slug}" aria-label="E-book $${book.ebookPrice.toFixed(2)} — 50% off">
+                  <a href="${book.payhipEbookUrl}" class="buy-icon buy-icon-ebook" target="_blank" rel="noopener" aria-label="E-book $${book.ebookPrice.toFixed(2)} — 50% off">
                     <span class="buy-icon-label">E-book <em>-50%</em></span>
                     <span class="buy-icon-price">$${book.ebookPrice.toFixed(2)}</span>
-                  </button>
+                  </a>
                 </div>
                 <a href="/access?book=${book.slug}" class="btn btn-block btn-navy">Access Practice Tests</a>
               `;
@@ -320,42 +320,11 @@
                   <span class="cheatsheet-price">$${price}</span>
                   ${upcoming
                     ? `<button class="btn btn-sm btn-outline" disabled>Coming Soon</button>`
-                    : `<button type="button" class="btn btn-sm btn-gold" data-buy-product="cheatsheet" data-buy-book="${book.slug}">Buy PDF</button>`}
+                    : `<a href="${book.payhipCheatsheetUrl}" class="btn btn-sm btn-gold" target="_blank" rel="noopener">Buy PDF</a>`}
                 </div>
               </div>
             </div>`;
         }).join('');
-
-        // Stripe checkout — delegate clicks on any [data-buy-product] element
-        document.addEventListener('click', async (e) => {
-          const trigger = e.target.closest('[data-buy-product]');
-          if (!trigger) return;
-          e.preventDefault();
-          const product = trigger.dataset.buyProduct;
-          const book = trigger.dataset.buyBook;
-          const originalLabel = trigger.innerHTML;
-          trigger.disabled = true;
-          trigger.innerHTML = '<span>Loading…</span>';
-          try {
-            const r = await fetch('/api/create-checkout', {
-              method: 'POST',
-              headers: { 'Content-Type': 'application/json' },
-              body: JSON.stringify({ product, book }),
-            });
-            const data = await r.json();
-            if (data.url) {
-              location.href = data.url;
-            } else {
-              alert(data.error || 'Checkout failed. Please try again.');
-              trigger.disabled = false;
-              trigger.innerHTML = originalLabel;
-            }
-          } catch (err) {
-            alert('Checkout unavailable. Please try again in a moment.');
-            trigger.disabled = false;
-            trigger.innerHTML = originalLabel;
-          }
-        });
 
         // Footer book list
         const footerList = document.getElementById('footerBookList');

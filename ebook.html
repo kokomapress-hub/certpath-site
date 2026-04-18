@@ -7,7 +7,7 @@
   <link rel="icon" type="image/png" href="/img/logo-mark.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/css/style.css?v=7">
+  <link rel="stylesheet" href="/css/style.css?v=8">
 </head>
 <body>
   <header class="site-header">
@@ -58,24 +58,11 @@
           <p>Instant-download PDF of the complete <strong>${book.title}</strong>. Every chapter, every practice test, every answer explanation — identical content to the paperback edition, delivered as a searchable PDF immediately after payment.</p>
           <p><strong>Included free:</strong> Access code for 3 timed online practice tests (same as the paperback).</p>
           <div class="book-actions" style="display: flex; gap: 0.75rem; flex-wrap: wrap; margin-top: 1.5rem;">
-            <button type="button" class="btn btn-gold" data-buy-product="ebook" data-buy-book="${book.slug}">Buy E-book — $${book.ebookPrice.toFixed(2)}</button>
+            <a href="${book.payhipEbookUrl}" class="btn btn-gold" target="_blank" rel="noopener">Buy E-book — $${book.ebookPrice.toFixed(2)}</a>
             <a href="${book.amazonUrl}" class="btn btn-outline" target="_blank" rel="noopener">Paperback on Amazon ($${book.paperbackPrice.toFixed(2)})</a>
             <a href="/" class="btn btn-outline">Back to Study Guides</a>
           </div>
-          <p style="color: var(--gray-500); font-size: 0.85rem; margin-top: 1rem;">Secure payment by Stripe. Instant PDF download + email receipt.</p>`;
-        const btn = info.querySelector('[data-buy-product]');
-        if (btn) btn.addEventListener('click', async () => {
-          btn.disabled = true; const label = btn.textContent; btn.textContent = 'Loading…';
-          try {
-            const r = await fetch('/api/create-checkout', {
-              method: 'POST', headers: { 'Content-Type': 'application/json' },
-              body: JSON.stringify({ product: 'ebook', book: book.slug }),
-            });
-            const d = await r.json();
-            if (d.url) { location.href = d.url; }
-            else { alert(d.error || 'Checkout failed.'); btn.disabled = false; btn.textContent = label; }
-          } catch { alert('Checkout unavailable.'); btn.disabled = false; btn.textContent = label; }
-        });
+          <p style="color: var(--gray-500); font-size: 0.85rem; margin-top: 1rem;">Secure checkout via Payhip. Instant PDF delivery + email receipt.</p>`;
       } catch (e) {
         info.innerHTML = '<p>Failed to load book details. Please try again.</p>';
       }
