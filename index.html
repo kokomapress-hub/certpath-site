@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/css/style.css?v=5">
+  <link rel="stylesheet" href="/css/style.css?v=6">
 </head>
 <body>
   <!-- HEADER -->
@@ -299,20 +299,28 @@
           renderBooks(e.target.dataset.cat);
         });
 
-        // Cheat sheets grid
+        // Cheat sheets grid (only show published; upcoming books go on the waitlist)
         const csGrid = document.getElementById('cheatsheetGrid');
         csGrid.innerHTML = books.map(book => {
           const upcoming = !book.published;
+          const previewImg = upcoming
+            ? `<div class="cheatsheet-preview-placeholder">Coming Soon</div>`
+            : `<a href="/bonus-pdfs/${book.slug}-cheatsheet.pdf" class="cheatsheet-preview" target="_blank" rel="noopener" aria-label="Preview ${book.shortName} cheat sheet PDF">
+                 <img src="/img/cheatsheet-previews/${book.slug}-preview.png" alt="${book.shortName} cheat sheet preview" loading="lazy">
+                 <span class="cheatsheet-preview-hint">Click to preview</span>
+               </a>`;
           return `
             <div class="cheatsheet-card ${upcoming ? 'cheatsheet-upcoming' : ''}">
-              <div class="cheatsheet-icon">📄</div>
-              <div class="cheatsheet-title">${book.shortName} Formula Cheat Sheet</div>
-              <div class="cheatsheet-desc">Printable PDF with every formula, code reference, and key fact for the ${book.shortName} exam.</div>
-              <div class="cheatsheet-footer">
-                <span class="cheatsheet-price">$4.99</span>
-                ${upcoming
-                  ? `<button class="btn btn-sm btn-outline" disabled>Coming Soon</button>`
-                  : `<a href="/cheatsheet?book=${book.slug}" class="btn btn-sm">Buy PDF</a>`}
+              ${previewImg}
+              <div class="cheatsheet-body">
+                <div class="cheatsheet-title">${book.shortName} Formula Cheat Sheet</div>
+                <div class="cheatsheet-desc">All key formulas, code refs, and quick-lookup tables for the ${book.shortName} exam. Printable 1–2 page PDF.</div>
+                <div class="cheatsheet-footer">
+                  <span class="cheatsheet-price">$4.99</span>
+                  ${upcoming
+                    ? `<button class="btn btn-sm btn-outline" disabled>Coming Soon</button>`
+                    : `<a href="/cheatsheet?book=${book.slug}" class="btn btn-sm btn-gold">Buy PDF</a>`}
+                </div>
               </div>
             </div>`;
         }).join('');

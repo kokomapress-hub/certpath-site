@@ -463,3 +463,19 @@ a:hover { color: var(--gold-dark); }
 
 /* Supersede earlier stacked/ebook/gold block styles that are no longer used */
 .btn-block.btn-gold, .btn-block.btn-ebook { display: none !important; }
+
+/* === CHEAT SHEET CARDS WITH PREVIEW === */
+.cheatsheet-card { padding: 0; overflow: hidden; }
+.cheatsheet-preview { display: block; position: relative; background: var(--gray-50); overflow: hidden; aspect-ratio: 1 / 1.3; }
+.cheatsheet-preview img { width: 100%; height: 100%; object-fit: cover; object-position: top center; transition: transform 0.3s ease; border-bottom: 1px solid var(--gray-100); }
+.cheatsheet-preview:hover img { transform: scale(1.04); }
+.cheatsheet-preview-hint { position: absolute; bottom: 10px; right: 10px; background: var(--navy); color: var(--gold); font-size: 0.7rem; font-weight: 700; letter-spacing: 0.5px; text-transform: uppercase; padding: 0.35rem 0.7rem; border-radius: 4px; opacity: 0; transition: opacity 0.2s; pointer-events: none; }
+.cheatsheet-preview:hover .cheatsheet-preview-hint { opacity: 1; }
+.cheatsheet-preview-placeholder { display: flex; align-items: center; justify-content: center; aspect-ratio: 1 / 1.3; background: repeating-linear-gradient(45deg, #F5F7FA, #F5F7FA 10px, #E5E9F0 10px, #E5E9F0 20px); color: var(--gray-500); font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; font-size: 0.85rem; }
+.cheatsheet-body { padding: 1.25rem 1.5rem 1.5rem; display: flex; flex-direction: column; gap: 0.6rem; flex: 1; }
+.cheatsheet-title { font-weight: 700; color: var(--navy); font-size: 1.05rem; }
+.cheatsheet-desc { color: var(--gray-500); font-size: 0.88rem; line-height: 1.5; flex: 1; }
+.cheatsheet-footer { display: flex; justify-content: space-between; align-items: center; padding-top: 0.75rem; border-top: 1px solid var(--gray-100); margin-top: 0.5rem; }
+.cheatsheet-price { font-size: 1.2rem; font-weight: 800; color: var(--navy); }
+.btn-sm.btn-gold { background: var(--gold); color: var(--navy); border: 2px solid var(--gold); padding: 0.4rem 0.9rem; font-weight: 700; }
+.btn-sm.btn-gold:hover { background: var(--gold-dark); border-color: var(--gold-dark); color: var(--navy); }
