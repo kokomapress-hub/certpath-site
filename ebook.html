@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Get the E-book — CertPath Publishing</title>
+  <link rel="icon" type="image/png" href="/img/logo-mark.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css?v=3">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="/" class="logo">
+        <svg class="logo-shield" viewBox="0 0 40 40" width="36" height="36" aria-hidden="true"><path fill="#1B2A4A" d="M6 4h22l6 6v20l-14 6L6 30V4z"/><rect x="12" y="14" width="16" height="3" fill="#fff"/><rect x="12" y="20" width="16" height="3" fill="#fff"/></svg>
+        <span class="logo-text">CertPath <span class="gold">Publishing</span></span>
+      </a>
+      <nav class="nav">
+        <a href="/">Home</a>
+        <a href="/#books">Study Guides</a>
+        <a href="/access" class="btn-nav">Access Tests</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container" style="padding: 3rem 2rem 5rem; max-width: 760px;">
+    <div class="form-card">
+      <div id="ebookInfo">Loading…</div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-bottom" style="border: none; padding: 2rem;">
+      <p>&copy; 2025 CertPath Publishing. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    (async () => {
+      const slug = new URLSearchParams(location.search).get('book');
+      const info = document.getElementById('ebookInfo');
+      try {
+        const data = await (await fetch('/data/books.json')).json();
+        const book = data.books.find(b => b.slug === slug);
+        if (!book || !book.published) {
+          info.innerHTML = '<h2>Book not found</h2><p>Please return to <a href="/">the home page</a> and choose a book.</p>';
+          return;
+        }
+        info.innerHTML = `
+          <div class="section-eyebrow">E-book</div>
+          <h2>${book.title}</h2>
+          <div class="price-row" style="justify-content: center; margin: 1.5rem 0;">
+            <span class="price-ebook" style="font-size: 1.75rem;">$${book.ebookPrice.toFixed(2)}</span>
+            <span class="price-paperback">Paperback $${book.paperbackPrice.toFixed(2)}</span>
+            <span class="price-save">Save 50%</span>
+          </div>
+          <p>Instant-download PDF of the complete <strong>${book.title}</strong>. Every chapter, every practice test, every answer explanation — identical content to the paperback edition, delivered to your inbox as a searchable PDF.</p>
+          <p><strong>Included free:</strong> Access code for 3 timed online practice tests (same as the paperback).</p>
+          <p style="background: #FFF9E6; border: 1px solid var(--gold); border-radius: 8px; padding: 1.1rem 1.25rem; margin: 1.5rem 0;"><strong>Checkout coming soon.</strong> In the meantime, email <a href="mailto:orders@certpathpublishing.store?subject=E-book%20order%20-%20${encodeURIComponent(book.title)}">orders@certpathpublishing.store</a> with "E-book: ${book.shortName}" in the subject. We'll send a payment link and the PDF within 24 hours.</p>
+          <div class="book-actions" style="display: flex; gap: 0.75rem; flex-wrap: wrap;">
+            <a href="${book.amazonUrl}" class="btn btn-gold" target="_blank" rel="noopener">Or Buy Paperback on Amazon ($${book.paperbackPrice.toFixed(2)})</a>
+            <a href="/" class="btn btn-outline">Back to Study Guides</a>
+          </div>`;
+      } catch (e) {
+        info.innerHTML = '<p>Failed to load book details. Please try again.</p>';
+      }
+    })();
+  </script>
+
+  <script src="/js/floating-unlock.js"></script>
+</body>
+</html>

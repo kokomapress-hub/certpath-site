@@ -113,7 +113,7 @@
       <div class="section-header">
         <div class="section-eyebrow">Our Study Guides</div>
         <h2>Find Your Exam Prep Book</h2>
-        <p>Available as paperback on Amazon and as e-book at 50% off. Every book includes free online practice tests.</p>
+        <p>Paperback available on Amazon. E-book available direct from our site at 50% off. Every book includes free online practice tests.</p>
       </div>
 
       <div class="filter-bar" id="filterBar">
@@ -145,7 +145,7 @@
         <p>Get extra practice with our interactive online testing platform — included free with every CertPath study guide.</p>
       </div>
       <div class="steps-grid">
-        <div class="step"><div class="step-num">1</div><h3>Buy the Book</h3><p>Purchase any CertPath study guide as paperback on Amazon, or save 50% with the e-book.</p></div>
+        <div class="step"><div class="step-num">1</div><h3>Buy the Book</h3><p>Paperback on Amazon, or save 50% with the e-book direct from our site.</p></div>
         <div class="step"><div class="step-num">2</div><h3>Find Your Code</h3><p>Look for your unique access code printed inside the book.</p></div>
         <div class="step"><div class="step-num">3</div><h3>Unlock Tests</h3><p>Enter your code at certpathpublishing.store/access.</p></div>
         <div class="step"><div class="step-num">4</div><h3>Study & Pass</h3><p>Take timed practice tests with detailed explanations.</p></div>
@@ -257,8 +257,9 @@
               ? `<button class="btn btn-sm btn-outline" disabled>Coming Soon</button>`
               : `<a href="/access?book=${book.slug}" class="btn btn-sm">Access Tests</a>`;
             const amazonLink = (!upcoming && book.amazonUrl)
-              ? `<a href="${book.amazonUrl}" class="btn btn-sm btn-gold" target="_blank" rel="noopener">Buy on Amazon</a>`
+              ? `<a href="${book.amazonUrl}" class="btn btn-sm btn-gold" target="_blank" rel="noopener">Buy Paperback on Amazon</a>`
               : '';
+            const ebookLink = upcoming ? '' : `<a href="/ebook?book=${book.slug}" class="btn btn-sm btn-outline">Get E-book ($${book.ebookPrice.toFixed(2)})</a>`;
             return `
               <div class="book-card ${upcoming ? 'book-upcoming' : ''}">
                 ${upcomingBadge}
@@ -275,8 +276,9 @@
                   </div>
                   ${upcoming ? '' : renderPrice(book)}
                   <div class="book-actions">
-                    ${ctaButton}
                     ${amazonLink}
+                    ${ebookLink}
+                    ${ctaButton}
                   </div>
                 </div>
               </div>

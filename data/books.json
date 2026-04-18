@@ -11,9 +11,10 @@
       "shortName": "CAST",
       "category": "Construction & Trades",
       "published": true,
-      "paperbackPrice": 24.99,
-      "ebookPrice": 12.49,
-      "amazonUrl": ""
+      "paperbackPrice": 29.99,
+      "ebookPrice": 14.99,
+      "asin": "B0GWWTVNPM",
+      "amazonUrl": "https://www.amazon.com/dp/B0GWWTVNPM"
     },
     {
       "slug": "mech-apt",
@@ -26,9 +27,10 @@
       "shortName": "Mechanical Aptitude",
       "category": "Aptitude & Industrial",
       "published": true,
-      "paperbackPrice": 22.99,
-      "ebookPrice": 11.49,
-      "amazonUrl": ""
+      "paperbackPrice": 29.99,
+      "ebookPrice": 14.99,
+      "asin": "B0GX5BKYDB",
+      "amazonUrl": "https://www.amazon.com/dp/B0GX5BKYDB"
     },
     {
       "slug": "journeyman-elec",
@@ -41,9 +43,10 @@
       "shortName": "Journeyman Electrician",
       "category": "Electrical & Trades",
       "published": true,
-      "paperbackPrice": 24.99,
-      "ebookPrice": 12.49,
-      "amazonUrl": ""
+      "paperbackPrice": 29.99,
+      "ebookPrice": 14.99,
+      "asin": "B0GX5PYHC9",
+      "amazonUrl": "https://www.amazon.com/dp/B0GX5PYHC9"
     },
     {
       "slug": "poss",
@@ -56,9 +59,10 @@
       "shortName": "POSS",
       "category": "Power & Utilities",
       "published": true,
-      "paperbackPrice": 22.99,
-      "ebookPrice": 11.49,
-      "amazonUrl": ""
+      "paperbackPrice": 29.99,
+      "ebookPrice": 14.99,
+      "asin": "B0GX9TQMQ5",
+      "amazonUrl": "https://www.amazon.com/dp/B0GX9TQMQ5"
     },
     {
       "slug": "csp",
@@ -71,9 +75,10 @@
       "shortName": "CSP",
       "category": "Safety & Environmental",
       "published": true,
-      "paperbackPrice": 26.99,
-      "ebookPrice": 13.49,
-      "amazonUrl": ""
+      "paperbackPrice": 29.99,
+      "ebookPrice": 14.99,
+      "asin": "B0GXDZ91DZ",
+      "amazonUrl": "https://www.amazon.com/dp/B0GXDZ91DZ"
     },
     {
       "slug": "chst",
@@ -86,9 +91,10 @@
       "shortName": "CHST",
       "category": "Safety & Environmental",
       "published": true,
-      "paperbackPrice": 24.99,
-      "ebookPrice": 12.49,
-      "amazonUrl": ""
+      "paperbackPrice": 29.99,
+      "ebookPrice": 14.99,
+      "asin": "B0GXJ74XG7",
+      "amazonUrl": "https://www.amazon.com/dp/B0GXJ74XG7"
     },
     {
       "slug": "nhie",
@@ -101,8 +107,9 @@
       "shortName": "Home Inspector (NHIE)",
       "category": "Home & Building",
       "published": false,
-      "paperbackPrice": 24.99,
-      "ebookPrice": 12.49,
+      "paperbackPrice": 29.99,
+      "ebookPrice": 14.99,
+      "asin": "",
       "amazonUrl": ""
     },
     {
@@ -116,8 +123,9 @@
       "shortName": "STS",
       "category": "Safety & Environmental",
       "published": false,
-      "paperbackPrice": 22.99,
-      "ebookPrice": 11.49,
+      "paperbackPrice": 29.99,
+      "ebookPrice": 14.99,
+      "asin": "",
       "amazonUrl": ""
     },
     {
@@ -131,8 +139,9 @@
       "shortName": "MSSC CPT",
       "category": "Manufacturing",
       "published": false,
-      "paperbackPrice": 24.99,
-      "ebookPrice": 12.49,
+      "paperbackPrice": 29.99,
+      "ebookPrice": 14.99,
+      "asin": "",
       "amazonUrl": ""
     },
     {
@@ -148,6 +157,7 @@
       "published": false,
       "paperbackPrice": 29.99,
       "ebookPrice": 14.99,
+      "asin": "",
       "amazonUrl": ""
     }
   ],
