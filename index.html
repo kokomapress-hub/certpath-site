@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/css/style.css?v=4">
+  <link rel="stylesheet" href="/css/style.css?v=5">
 </head>
 <body>
   <!-- HEADER -->
@@ -256,19 +256,21 @@
             const ctaButton = upcoming
               ? `<button class="btn btn-sm btn-outline" disabled>Coming Soon</button>`
               : `<a href="/access?book=${book.slug}" class="btn btn-sm">Access Tests</a>`;
-            const description = `Complete study guide with ${book.testCount} full-length practice tests, ${book.totalQuestions} questions, and ${book.timeMinutes}-minute timed tests.`;
+            const description = `${book.testCount} practice tests · ${book.totalQuestions} questions · ${book.timeMinutes} min each`;
             const buttons = upcoming
               ? `<button class="btn btn-block btn-outline" disabled>Coming Soon</button>`
               : `
-                <a href="${book.amazonUrl}" class="btn btn-block btn-gold" target="_blank" rel="noopener">
-                  <span class="btn-label">Buy Paperback on Amazon</span>
-                  <span class="btn-price">$${book.paperbackPrice.toFixed(2)}</span>
-                </a>
-                <a href="/ebook?book=${book.slug}" class="btn btn-block btn-ebook">
-                  <span class="btn-label">Get E-book <span class="save-tag">SAVE 50%</span></span>
-                  <span class="btn-price">$${book.ebookPrice.toFixed(2)}</span>
-                </a>
-                <a href="/access?book=${book.slug}" class="btn btn-block btn-navy">Access Tests</a>
+                <div class="buy-row">
+                  <a href="${book.amazonUrl}" class="buy-icon" target="_blank" rel="noopener" aria-label="Paperback on Amazon $${book.paperbackPrice.toFixed(2)}">
+                    <span class="buy-icon-label">Paperback</span>
+                    <span class="buy-icon-price">$${book.paperbackPrice.toFixed(2)}</span>
+                  </a>
+                  <a href="/ebook?book=${book.slug}" class="buy-icon buy-icon-ebook" aria-label="E-book $${book.ebookPrice.toFixed(2)} — 50% off">
+                    <span class="buy-icon-label">E-book <em>-50%</em></span>
+                    <span class="buy-icon-price">$${book.ebookPrice.toFixed(2)}</span>
+                  </a>
+                </div>
+                <a href="/access?book=${book.slug}" class="btn btn-block btn-navy">Access Practice Tests</a>
               `;
             return `
               <div class="book-card ${upcoming ? 'book-upcoming' : ''}">

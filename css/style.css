@@ -447,3 +447,19 @@ a:hover { color: var(--gold-dark); }
 /* Hide old layout pieces when using stacked layout */
 .book-card .book-meta, .book-card .price-row { display: none !important; }
 .book-card .book-actions { display: none !important; }
+
+/* === ULTRA-CLEAN BOOK CARD === */
+.buy-row { display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem; margin-bottom: 0.6rem; }
+.buy-icon { display: flex; flex-direction: column; align-items: center; gap: 0.15rem; padding: 0.65rem 0.5rem; border: 1.5px solid var(--gray-100); border-radius: 8px; background: var(--white); color: var(--navy); text-decoration: none; transition: all 0.15s; text-align: center; }
+.buy-icon:hover { border-color: var(--navy); color: var(--navy); box-shadow: var(--shadow-sm); transform: translateY(-1px); }
+.buy-icon-label { font-size: 0.75rem; font-weight: 600; color: var(--gray-500); text-transform: uppercase; letter-spacing: 0.5px; }
+.buy-icon-label em { background: var(--gold); color: var(--navy); font-style: normal; font-weight: 800; font-size: 0.65rem; padding: 0.08rem 0.32rem; border-radius: 3px; margin-left: 0.3rem; letter-spacing: 0.5px; }
+.buy-icon-price { font-size: 1rem; font-weight: 800; color: var(--navy); }
+.buy-icon-ebook { border-color: var(--gold); background: #FFFBEF; }
+.buy-icon-ebook:hover { background: var(--gold); color: var(--navy); }
+.buy-icon-ebook:hover .buy-icon-label em { background: var(--navy); color: var(--gold); }
+
+.book-desc { color: var(--gray-500); font-size: 0.82rem; text-align: center; margin: 0.5rem 0 1rem; text-transform: none; }
+
+/* Supersede earlier stacked/ebook/gold block styles that are no longer used */
+.btn-block.btn-gold, .btn-block.btn-ebook { display: none !important; }
