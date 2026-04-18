@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog — CertPath Publishing</title>
+  <meta name="description" content="Exam prep tips, study strategies, and industry insights for trades, safety, and certification professionals.">
+  <link rel="icon" type="image/png" href="/img/logo-mark.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="/" class="logo">
+        <img src="/img/logo-mark.png" alt="CertPath Publishing" class="logo-img">
+        <span class="logo-text">CertPath <span class="gold">Publishing</span></span>
+      </a>
+      <nav class="nav">
+        <a href="/">Home</a>
+        <a href="/#books">Study Guides</a>
+        <a href="/#cheat-sheets">Cheat Sheets</a>
+        <a href="/access" class="btn-nav">Access Tests</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container" style="padding: 3rem 2rem 5rem; max-width: 900px;">
+    <div class="section-header">
+      <div class="section-eyebrow">The CertPath Blog</div>
+      <h2>Exam Prep Tips, Strategies, and Insights</h2>
+      <p>Fresh study advice, industry news, and exam strategies — updated daily.</p>
+    </div>
+
+    <div id="blogList" class="blog-list">Loading posts…</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-bottom" style="border: none; padding: 2rem;">
+      <p>&copy; 2025 CertPath Publishing. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    fetch('/blog/posts.json')
+      .then(r => r.json())
+      .then(posts => {
+        const list = document.getElementById('blogList');
+        if (!posts.length) { list.innerHTML = '<p>No posts yet. Check back soon.</p>'; return; }
+        list.innerHTML = posts.map(p => `
+          <article class="blog-item">
+            <div class="blog-date">${new Date(p.date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</div>
+            <h3><a href="/blog/${p.slug}.html">${p.title}</a></h3>
+            <p>${p.excerpt}</p>
+            <a href="/blog/${p.slug}.html" class="blog-read">Read more →</a>
+          </article>
+        `).join('');
+      })
+      .catch(() => {
+        document.getElementById('blogList').innerHTML = '<p>No posts yet. Check back soon.</p>';
+      });
+  </script>
+
+  <script src="/js/floating-unlock.js"></script>
+</body>
+</html>

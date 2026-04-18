@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CertPath Publishing — Professional Exam Study Guides with Free Online Practice Tests</title>
   <meta name="description" content="Professional certification study guides covering CAST, Mechanical Aptitude, Journeyman Electrician, POSS, CSP, CHST, NHIE, STS, MSSC CPT, and NCIDQ. Every book includes free online practice tests.">
+  <link rel="icon" type="image/png" href="/img/logo-mark.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -15,14 +16,14 @@
   <header class="site-header">
     <div class="header-inner">
       <a href="/" class="logo">
-        <span class="logo-mark">CP</span>
-        CertPath <span class="gold">Publishing</span>
+        <img src="/img/logo-mark.png" alt="CertPath Publishing" class="logo-img">
+        <span class="logo-text">CertPath <span class="gold">Publishing</span></span>
       </a>
       <nav class="nav">
         <a href="#books">Study Guides</a>
+        <a href="#cheat-sheets">Cheat Sheets</a>
         <a href="#how-it-works">How It Works</a>
-        <a href="/bonus.html">Bonus Content</a>
-        <a href="/access.html" class="btn-nav">Access Tests</a>
+        <a href="/access" class="btn-nav">Access Tests</a>
       </nav>
     </div>
   </header>
@@ -38,25 +39,59 @@
           </p>
           <div class="hero-cta">
             <a href="#books" class="btn btn-lg">Browse Study Guides</a>
-            <a href="/access.html" class="btn btn-secondary btn-lg">Access Practice Tests</a>
+            <a href="/access" class="btn btn-secondary btn-lg">Access Practice Tests</a>
           </div>
           <div class="hero-stats">
-            <div class="hero-stat">
-              <span class="num">10</span>
-              <div class="label">Study Guides</div>
-            </div>
-            <div class="hero-stat">
-              <span class="num">30</span>
-              <div class="label">Practice Tests</div>
-            </div>
-            <div class="hero-stat">
-              <span class="num">1,920</span>
-              <div class="label">Questions</div>
-            </div>
+            <div class="hero-stat"><span class="num">10</span><div class="label">Study Guides</div></div>
+            <div class="hero-stat"><span class="num">30</span><div class="label">Practice Tests</div></div>
+            <div class="hero-stat"><span class="num">1,920</span><div class="label">Questions</div></div>
           </div>
         </div>
-        <div class="hero-books" id="heroBooks">
-          <!-- Populated by JS with 3 featured book covers -->
+        <div class="hero-books" id="heroBooks"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- QUICK UNLOCK (below hero) -->
+  <section class="quick-unlock">
+    <div class="container">
+      <div class="quick-unlock-card">
+        <div class="quick-unlock-text">
+          <div class="section-eyebrow">Already have your book?</div>
+          <h2>Enter Your Access Code</h2>
+          <p>Unlock your free timed practice tests in seconds. Your access code is printed on the last page of your CertPath study guide.</p>
+        </div>
+        <form id="quickUnlockForm" class="quick-unlock-form" autocomplete="off">
+          <input type="text" id="quickCode" required placeholder="XXXX-XXXXX-XXXXX" autocomplete="off">
+          <button type="submit" class="btn btn-lg">Unlock Tests</button>
+          <div class="quick-unlock-msg" id="quickMsg"></div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- LIVE TEST PREVIEW -->
+  <section class="section demo-section">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-eyebrow">See It In Action</div>
+        <h2>Our Online Practice Tests</h2>
+        <p>Timed, realistic, and full of detailed explanations. Here's what every CertPath test looks like.</p>
+      </div>
+
+      <div class="demo-frame">
+        <div class="demo-topbar">
+          <div class="demo-crumb">CAST Exam Study Guide / Test 1</div>
+          <div class="demo-timer" id="demoTimer">29:00</div>
+        </div>
+        <div class="demo-progress"><div class="demo-progress-fill" id="demoProgress"></div></div>
+        <div class="demo-body">
+          <div class="demo-qnum" id="demoQNum">Question 1 of 110</div>
+          <div class="demo-question" id="demoQuestion"></div>
+          <div class="demo-choices" id="demoChoices"></div>
+        </div>
+        <div class="demo-footer">
+          <span id="demoStatus">Auto-playing demo — <a href="/access">take a real test →</a></span>
         </div>
       </div>
     </div>
@@ -65,22 +100,10 @@
   <!-- TRUST BAR -->
   <section class="trust-bar">
     <div class="trust-grid">
-      <div class="trust-item">
-        <div class="num"><span class="gold-text">10</span></div>
-        <div class="label">Certification Exams Covered</div>
-      </div>
-      <div class="trust-item">
-        <div class="num">1,920</div>
-        <div class="label">Practice Questions</div>
-      </div>
-      <div class="trust-item">
-        <div class="num">100%</div>
-        <div class="label">Detailed Explanations</div>
-      </div>
-      <div class="trust-item">
-        <div class="num">FREE</div>
-        <div class="label">Online Tests with Every Book</div>
-      </div>
+      <div class="trust-item"><div class="num"><span class="gold-text">10</span></div><div class="label">Certification Exams Covered</div></div>
+      <div class="trust-item"><div class="num">1,920</div><div class="label">Practice Questions</div></div>
+      <div class="trust-item"><div class="num">100%</div><div class="label">Detailed Explanations</div></div>
+      <div class="trust-item"><div class="num">FREE</div><div class="label">Online Tests with Every Book</div></div>
     </div>
   </section>
 
@@ -90,17 +113,26 @@
       <div class="section-header">
         <div class="section-eyebrow">Our Study Guides</div>
         <h2>Find Your Exam Prep Book</h2>
-        <p>Comprehensive review, full-length practice tests, and expert explanations for every major certification.</p>
+        <p>Available as paperback on Amazon and as e-book at 50% off. Every book includes free online practice tests.</p>
       </div>
 
       <div class="filter-bar" id="filterBar">
         <button class="filter-btn active" data-cat="all">All Books</button>
-        <!-- Categories populated by JS -->
       </div>
 
-      <div class="book-grid" id="bookGrid">
-        <!-- Populated by JS -->
+      <div class="book-grid" id="bookGrid"></div>
+    </div>
+  </section>
+
+  <!-- CHEAT SHEETS -->
+  <section class="section cheatsheets-section" id="cheat-sheets">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-eyebrow">Digital Downloads</div>
+        <h2>Formula Cheat Sheets</h2>
+        <p>Condensed reference PDFs with every formula, code reference, and key fact for each exam. Instant download — perfect for the final week of prep.</p>
       </div>
+      <div class="cheatsheet-grid" id="cheatsheetGrid"></div>
     </div>
   </section>
 
@@ -113,26 +145,10 @@
         <p>Get extra practice with our interactive online testing platform — included free with every CertPath study guide.</p>
       </div>
       <div class="steps-grid">
-        <div class="step">
-          <div class="step-num">1</div>
-          <h3>Buy the Book</h3>
-          <p>Purchase any CertPath study guide on Amazon.</p>
-        </div>
-        <div class="step">
-          <div class="step-num">2</div>
-          <h3>Find Your Code</h3>
-          <p>Look for your unique access code printed inside the book.</p>
-        </div>
-        <div class="step">
-          <div class="step-num">3</div>
-          <h3>Unlock Tests</h3>
-          <p>Enter your code at certpathpublishing.store/access.</p>
-        </div>
-        <div class="step">
-          <div class="step-num">4</div>
-          <h3>Study & Pass</h3>
-          <p>Take timed practice tests with detailed explanations.</p>
-        </div>
+        <div class="step"><div class="step-num">1</div><h3>Buy the Book</h3><p>Purchase any CertPath study guide as paperback on Amazon, or save 50% with the e-book.</p></div>
+        <div class="step"><div class="step-num">2</div><h3>Find Your Code</h3><p>Look for your unique access code printed inside the book.</p></div>
+        <div class="step"><div class="step-num">3</div><h3>Unlock Tests</h3><p>Enter your code at certpathpublishing.store/access.</p></div>
+        <div class="step"><div class="step-num">4</div><h3>Study & Pass</h3><p>Take timed practice tests with detailed explanations.</p></div>
       </div>
     </div>
   </section>
@@ -146,36 +162,12 @@
         <p>Our study guides are written by exam experts and field professionals who know what it takes.</p>
       </div>
       <div class="features-grid">
-        <div class="feature">
-          <div class="feature-icon">📘</div>
-          <h3>Complete Exam Coverage</h3>
-          <p>Every domain. Every topic. Every question type. Nothing left out.</p>
-        </div>
-        <div class="feature">
-          <div class="feature-icon">⏱️</div>
-          <h3>Real Exam Simulation</h3>
-          <p>Timed online practice tests that mirror the format and difficulty of the real exam.</p>
-        </div>
-        <div class="feature">
-          <div class="feature-icon">💡</div>
-          <h3>Detailed Explanations</h3>
-          <p>Every answer includes a clear explanation — learn why it's right, not just what it is.</p>
-        </div>
-        <div class="feature">
-          <div class="feature-icon">📱</div>
-          <h3>Study Anywhere</h3>
-          <p>Online practice tests work on your phone, tablet, or laptop. Study on the go.</p>
-        </div>
-        <div class="feature">
-          <div class="feature-icon">🎯</div>
-          <h3>Plain Language</h3>
-          <p>No academic jargon. Real-world examples from the trades and safety industries.</p>
-        </div>
-        <div class="feature">
-          <div class="feature-icon">⭐</div>
-          <h3>Bonus Content</h3>
-          <p>Leave an honest Amazon review to unlock additional practice questions and reference sheets.</p>
-        </div>
+        <div class="feature"><div class="feature-icon">📘</div><h3>Complete Exam Coverage</h3><p>Every domain. Every topic. Every question type. Nothing left out.</p></div>
+        <div class="feature"><div class="feature-icon">⏱️</div><h3>Real Exam Simulation</h3><p>Timed online practice tests that mirror the format and difficulty of the real exam.</p></div>
+        <div class="feature"><div class="feature-icon">💡</div><h3>Detailed Explanations</h3><p>Every answer includes a clear explanation — learn why it's right, not just what it is.</p></div>
+        <div class="feature"><div class="feature-icon">📱</div><h3>Study Anywhere</h3><p>Online practice tests work on your phone, tablet, or laptop. Study on the go.</p></div>
+        <div class="feature"><div class="feature-icon">🎯</div><h3>Plain Language</h3><p>No academic jargon. Real-world examples from the trades and safety industries.</p></div>
+        <div class="feature"><div class="feature-icon">⭐</div><h3>Bonus Content</h3><p>Leave an honest Amazon review to unlock a free printable formula cheat sheet.</p></div>
       </div>
     </div>
   </section>
@@ -185,7 +177,7 @@
     <div class="container">
       <h2>Already Have Your <span class="gold">CertPath Book?</span></h2>
       <p>Enter your access code and start practicing in seconds.</p>
-      <a href="/access.html" class="btn btn-lg">Unlock My Practice Tests</a>
+      <a href="/access" class="btn btn-lg">Unlock My Practice Tests</a>
     </div>
   </section>
 
@@ -194,8 +186,8 @@
     <div class="footer-inner">
       <div>
         <div class="logo" style="color: var(--white); margin-bottom: 1rem;">
-          <span class="logo-mark">CP</span>
-          <span style="color: var(--white);">CertPath</span> <span class="gold">Publishing</span>
+          <img src="/img/logo-mark.png" alt="CertPath Publishing" class="logo-img" style="background: white; border-radius: 8px; padding: 4px;">
+          <span class="logo-text" style="color: var(--white);">CertPath <span class="gold">Publishing</span></span>
         </div>
         <p>Professional certification exam study guides with free online practice tests. Built for trades, safety, and technical professionals.</p>
       </div>
@@ -206,8 +198,8 @@
       <div>
         <h4>Resources</h4>
         <ul>
-          <li><a href="/access.html">Access Practice Tests</a></li>
-          <li><a href="/bonus.html">Bonus Content</a></li>
+          <li><a href="/access">Access Practice Tests</a></li>
+          <li><a href="#cheat-sheets">Cheat Sheets</a></li>
           <li><a href="#how-it-works">How It Works</a></li>
         </ul>
       </div>
@@ -219,18 +211,29 @@
   </footer>
 
   <script>
+    function renderPrice(book) {
+      return `
+        <div class="price-row">
+          <span class="price-ebook"><span class="price-label">E-book</span> $${book.ebookPrice.toFixed(2)}</span>
+          <span class="price-paperback"><span class="price-label">Paperback</span> $${book.paperbackPrice.toFixed(2)}</span>
+          <span class="price-save">Save 50%</span>
+        </div>`;
+    }
+
     fetch('/data/books.json')
       .then(r => r.json())
       .then(data => {
+        window._books = data;
         const books = data.books;
+        const published = books.filter(b => b.published);
 
-        // Hero featured books (first 3)
+        // Hero featured books — use first 3 published
         const heroBooks = document.getElementById('heroBooks');
-        heroBooks.innerHTML = books.slice(0, 3).map((b, i) => `
+        heroBooks.innerHTML = published.slice(0, 3).map((b, i) => `
           <img class="hero-book b${i+1}" src="${b.cover}" alt="${b.title}" loading="eager">
         `).join('');
 
-        // Build category filter
+        // Build category filter from all books
         const categories = [...new Set(books.map(b => b.category))].sort();
         const filterBar = document.getElementById('filterBar');
         categories.forEach(cat => {
@@ -241,31 +244,47 @@
           filterBar.appendChild(btn);
         });
 
-        // Render book grid
+        // Render book grid (published first, upcoming at end)
         const grid = document.getElementById('bookGrid');
         function renderBooks(filterCat) {
-          const filtered = filterCat === 'all' ? books : books.filter(b => b.category === filterCat);
-          grid.innerHTML = filtered.map(book => `
-            <a href="/access?book=${book.slug}" class="book-card" style="text-decoration: none;">
-              <div class="book-cover-wrap">
-                <img src="${book.cover}" alt="${book.title}" loading="lazy">
-              </div>
-              <div class="book-info">
-                <div class="book-category">${book.category}</div>
-                <h3>${book.title}</h3>
-                <div class="book-meta">
-                  <span class="book-meta-item"><strong>${book.testCount}</strong> Tests</span>
-                  <span class="book-meta-item"><strong>${book.totalQuestions}</strong> Qs</span>
-                  <span class="book-meta-item"><strong>${book.timeMinutes}</strong> min</span>
+          const filtered = (filterCat === 'all' ? books : books.filter(b => b.category === filterCat));
+          // Sort: published first, upcoming last
+          const sorted = [...filtered].sort((a, b) => (b.published ? 1 : 0) - (a.published ? 1 : 0));
+          grid.innerHTML = sorted.map(book => {
+            const upcoming = !book.published;
+            const upcomingBadge = upcoming ? `<span class="upcoming-badge">Coming Soon</span>` : '';
+            const ctaButton = upcoming
+              ? `<button class="btn btn-sm btn-outline" disabled>Coming Soon</button>`
+              : `<a href="/access?book=${book.slug}" class="btn btn-sm">Access Tests</a>`;
+            const amazonLink = (!upcoming && book.amazonUrl)
+              ? `<a href="${book.amazonUrl}" class="btn btn-sm btn-gold" target="_blank" rel="noopener">Buy on Amazon</a>`
+              : '';
+            return `
+              <div class="book-card ${upcoming ? 'book-upcoming' : ''}">
+                ${upcomingBadge}
+                <div class="book-cover-wrap">
+                  <img src="${book.cover}" alt="${book.title}" loading="lazy">
                 </div>
-                <button class="btn btn-sm">Access Tests</button>
+                <div class="book-info">
+                  <div class="book-category">${book.category}</div>
+                  <h3>${book.title}</h3>
+                  <div class="book-meta">
+                    <span class="book-meta-item"><strong>${book.testCount}</strong> Tests</span>
+                    <span class="book-meta-item"><strong>${book.totalQuestions}</strong> Qs</span>
+                    <span class="book-meta-item"><strong>${book.timeMinutes}</strong> min</span>
+                  </div>
+                  ${upcoming ? '' : renderPrice(book)}
+                  <div class="book-actions">
+                    ${ctaButton}
+                    ${amazonLink}
+                  </div>
+                </div>
               </div>
-            </a>
-          `).join('');
+            `;
+          }).join('');
         }
         renderBooks('all');
 
-        // Filter handlers
         filterBar.addEventListener('click', e => {
           if (!e.target.classList.contains('filter-btn')) return;
           filterBar.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
@@ -273,15 +292,66 @@
           renderBooks(e.target.dataset.cat);
         });
 
+        // Cheat sheets grid
+        const csGrid = document.getElementById('cheatsheetGrid');
+        csGrid.innerHTML = books.map(book => {
+          const upcoming = !book.published;
+          return `
+            <div class="cheatsheet-card ${upcoming ? 'cheatsheet-upcoming' : ''}">
+              <div class="cheatsheet-icon">📄</div>
+              <div class="cheatsheet-title">${book.shortName} Formula Cheat Sheet</div>
+              <div class="cheatsheet-desc">Printable PDF with every formula, code reference, and key fact for the ${book.shortName} exam.</div>
+              <div class="cheatsheet-footer">
+                <span class="cheatsheet-price">$4.99</span>
+                ${upcoming
+                  ? `<button class="btn btn-sm btn-outline" disabled>Coming Soon</button>`
+                  : `<a href="/cheatsheet?book=${book.slug}" class="btn btn-sm">Buy PDF</a>`}
+              </div>
+            </div>`;
+        }).join('');
+
         // Footer book list
         const footerList = document.getElementById('footerBookList');
         footerList.innerHTML = books.map(b => `
-          <li><a href="/access?book=${b.slug}">${b.shortName}</a></li>
+          <li><a href="${b.published ? `/access?book=${b.slug}` : '#books'}">${b.shortName}${b.published ? '' : ' <span style="color:var(--gold);font-size:0.75rem;">(Soon)</span>'}</a></li>
         `).join('');
+
+        // Quick unlock form
+        const quickForm = document.getElementById('quickUnlockForm');
+        const quickMsg = document.getElementById('quickMsg');
+        quickForm.addEventListener('submit', (e) => {
+          e.preventDefault();
+          const code = document.getElementById('quickCode').value.toUpperCase().trim();
+          quickMsg.className = 'quick-unlock-msg';
+
+          if (code === data.adminCode) {
+            localStorage.setItem('certpath_unlocked', JSON.stringify({ slugs: books.map(b => b.slug), isAdmin: true }));
+            quickMsg.classList.add('success');
+            quickMsg.innerHTML = '🎉 Congratulations! Admin access unlocked — all 10 books are ready. <a href="/access">Go to your tests →</a>';
+            setTimeout(() => { location.href = '/access'; }, 1500);
+            return;
+          }
+
+          const book = books.find(b => b.code.toUpperCase() === code);
+          if (book) {
+            const cur = JSON.parse(localStorage.getItem('certpath_unlocked') || '{"slugs":[],"isAdmin":false}');
+            cur.slugs = Array.from(new Set([...cur.slugs, book.slug]));
+            localStorage.setItem('certpath_unlocked', JSON.stringify(cur));
+            quickMsg.classList.add('success');
+            quickMsg.innerHTML = `🎉 Congratulations! <strong>${book.title}</strong> unlocked. <a href="/access?book=${book.slug}">Go to your practice tests →</a>`;
+            setTimeout(() => { location.href = `/access?book=${book.slug}`; }, 1800);
+          } else {
+            quickMsg.classList.add('error');
+            quickMsg.textContent = 'Invalid code. Please check the last page of your book (format: XXXX-XXXXX-XXXXX).';
+          }
+        });
       })
       .catch(err => {
         document.getElementById('bookGrid').innerHTML = '<p style="text-align: center; color: var(--error);">Failed to load books.</p>';
       });
   </script>
+
+  <script src="/js/demo.js"></script>
+  <script src="/js/floating-unlock.js"></script>
 </body>
 </html>

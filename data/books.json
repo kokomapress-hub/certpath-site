@@ -9,7 +9,11 @@
       "totalQuestions": 330,
       "cover": "/img/covers/cast.png",
       "shortName": "CAST",
-      "category": "Construction & Trades"
+      "category": "Construction & Trades",
+      "published": true,
+      "paperbackPrice": 24.99,
+      "ebookPrice": 12.49,
+      "amazonUrl": ""
     },
     {
       "slug": "mech-apt",
@@ -20,7 +24,11 @@
       "totalQuestions": 180,
       "cover": "/img/covers/mech-apt.png",
       "shortName": "Mechanical Aptitude",
-      "category": "Aptitude & Industrial"
+      "category": "Aptitude & Industrial",
+      "published": true,
+      "paperbackPrice": 22.99,
+      "ebookPrice": 11.49,
+      "amazonUrl": ""
     },
     {
       "slug": "journeyman-elec",
@@ -31,7 +39,11 @@
       "totalQuestions": 180,
       "cover": "/img/covers/journeyman-elec.png",
       "shortName": "Journeyman Electrician",
-      "category": "Electrical & Trades"
+      "category": "Electrical & Trades",
+      "published": true,
+      "paperbackPrice": 24.99,
+      "ebookPrice": 12.49,
+      "amazonUrl": ""
     },
     {
       "slug": "poss",
@@ -42,7 +54,11 @@
       "totalQuestions": 180,
       "cover": "/img/covers/poss.png",
       "shortName": "POSS",
-      "category": "Power & Utilities"
+      "category": "Power & Utilities",
+      "published": true,
+      "paperbackPrice": 22.99,
+      "ebookPrice": 11.49,
+      "amazonUrl": ""
     },
     {
       "slug": "csp",
@@ -53,7 +69,11 @@
       "totalQuestions": 180,
       "cover": "/img/covers/csp.png",
       "shortName": "CSP",
-      "category": "Safety & Environmental"
+      "category": "Safety & Environmental",
+      "published": true,
+      "paperbackPrice": 26.99,
+      "ebookPrice": 13.49,
+      "amazonUrl": ""
     },
     {
       "slug": "chst",
@@ -64,7 +84,11 @@
       "totalQuestions": 180,
       "cover": "/img/covers/chst.png",
       "shortName": "CHST",
-      "category": "Safety & Environmental"
+      "category": "Safety & Environmental",
+      "published": true,
+      "paperbackPrice": 24.99,
+      "ebookPrice": 12.49,
+      "amazonUrl": ""
     },
     {
       "slug": "nhie",
@@ -75,7 +99,11 @@
       "totalQuestions": 180,
       "cover": "/img/covers/nhie.svg",
       "shortName": "Home Inspector (NHIE)",
-      "category": "Home & Building"
+      "category": "Home & Building",
+      "published": false,
+      "paperbackPrice": 24.99,
+      "ebookPrice": 12.49,
+      "amazonUrl": ""
     },
     {
       "slug": "sts",
@@ -86,7 +114,11 @@
       "totalQuestions": 150,
       "cover": "/img/covers/sts.svg",
       "shortName": "STS",
-      "category": "Safety & Environmental"
+      "category": "Safety & Environmental",
+      "published": false,
+      "paperbackPrice": 22.99,
+      "ebookPrice": 11.49,
+      "amazonUrl": ""
     },
     {
       "slug": "cpt",
@@ -97,7 +129,11 @@
       "totalQuestions": 180,
       "cover": "/img/covers/cpt.svg",
       "shortName": "MSSC CPT",
-      "category": "Manufacturing"
+      "category": "Manufacturing",
+      "published": false,
+      "paperbackPrice": 24.99,
+      "ebookPrice": 12.49,
+      "amazonUrl": ""
     },
     {
       "slug": "ncidq",
@@ -108,7 +144,11 @@
       "totalQuestions": 180,
       "cover": "/img/covers/ncidq.svg",
       "shortName": "NCIDQ",
-      "category": "Design & Architecture"
+      "category": "Design & Architecture",
+      "published": false,
+      "paperbackPrice": 29.99,
+      "ebookPrice": 14.99,
+      "amazonUrl": ""
     }
   ],
   "adminCode": "CERTPATH-ADMIN-2026"
