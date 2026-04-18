@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/css/style.css?v=3">
+  <link rel="stylesheet" href="/css/style.css?v=4">
 </head>
 <body>
   <!-- HEADER -->
@@ -256,10 +256,20 @@
             const ctaButton = upcoming
               ? `<button class="btn btn-sm btn-outline" disabled>Coming Soon</button>`
               : `<a href="/access?book=${book.slug}" class="btn btn-sm">Access Tests</a>`;
-            const amazonLink = (!upcoming && book.amazonUrl)
-              ? `<a href="${book.amazonUrl}" class="btn btn-sm btn-gold" target="_blank" rel="noopener">Buy Paperback on Amazon</a>`
-              : '';
-            const ebookLink = upcoming ? '' : `<a href="/ebook?book=${book.slug}" class="btn btn-sm btn-outline">Get E-book ($${book.ebookPrice.toFixed(2)})</a>`;
+            const description = `Complete study guide with ${book.testCount} full-length practice tests, ${book.totalQuestions} questions, and ${book.timeMinutes}-minute timed tests.`;
+            const buttons = upcoming
+              ? `<button class="btn btn-block btn-outline" disabled>Coming Soon</button>`
+              : `
+                <a href="${book.amazonUrl}" class="btn btn-block btn-gold" target="_blank" rel="noopener">
+                  <span class="btn-label">Buy Paperback on Amazon</span>
+                  <span class="btn-price">$${book.paperbackPrice.toFixed(2)}</span>
+                </a>
+                <a href="/ebook?book=${book.slug}" class="btn btn-block btn-ebook">
+                  <span class="btn-label">Get E-book <span class="save-tag">SAVE 50%</span></span>
+                  <span class="btn-price">$${book.ebookPrice.toFixed(2)}</span>
+                </a>
+                <a href="/access?book=${book.slug}" class="btn btn-block btn-navy">Access Tests</a>
+              `;
             return `
               <div class="book-card ${upcoming ? 'book-upcoming' : ''}">
                 ${upcomingBadge}
@@ -269,16 +279,9 @@
                 <div class="book-info">
                   <div class="book-category">${book.category}</div>
                   <h3>${book.title}</h3>
-                  <div class="book-meta">
-                    <span class="book-meta-item"><strong>${book.testCount}</strong> Tests</span>
-                    <span class="book-meta-item"><strong>${book.totalQuestions}</strong> Qs</span>
-                    <span class="book-meta-item"><strong>${book.timeMinutes}</strong> min</span>
-                  </div>
-                  ${upcoming ? '' : renderPrice(book)}
-                  <div class="book-actions">
-                    ${amazonLink}
-                    ${ebookLink}
-                    ${ctaButton}
+                  <p class="book-desc">${description}</p>
+                  <div class="book-actions-stack">
+                    ${buttons}
                   </div>
                 </div>
               </div>
