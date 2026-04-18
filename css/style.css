@@ -397,3 +397,23 @@ a:hover { color: var(--gold-dark); }
 .demo-choice.wrong .demo-letter { background: var(--error); color: var(--white); }
 .demo-footer { background: var(--gray-50); padding: 0.85rem 1.75rem; font-size: 0.88rem; color: var(--gray-500); text-align: center; border-top: 1px solid var(--gray-100); }
 .demo-footer a { color: var(--gold-dark); font-weight: 700; }
+
+/* === QA CLEANUP === */
+/* Inline SVG logo — guaranteed to render at correct size */
+.logo-shield { flex-shrink: 0; display: block; }
+.logo-img { display: none !important; }  /* retire the PNG-in-header approach */
+
+/* Defensive: constrain any img inside .logo just in case */
+.logo img { max-width: 40px !important; max-height: 40px !important; width: 40px !important; height: 40px !important; object-fit: contain !important; }
+
+/* Defensive: keep cover images bounded inside their containers */
+.book-cover-wrap { position: relative; width: 100%; padding-top: 130%; background: var(--gray-50); overflow: hidden; border-radius: 8px; }
+.book-cover-wrap img { position: absolute; inset: 0; width: 100% !important; height: 100% !important; object-fit: cover; }
+
+/* Hero books stack: constrain */
+.hero-books { position: relative; min-height: 420px; }
+.hero-books .hero-book { position: absolute; max-width: 240px; width: 60%; height: auto; border-radius: 6px; box-shadow: var(--shadow-xl); }
+.hero-books .b1 { top: 0; left: 0; z-index: 3; transform: rotate(-6deg); }
+.hero-books .b2 { top: 30px; left: 25%; z-index: 2; transform: rotate(2deg); }
+.hero-books .b3 { top: 60px; left: 48%; z-index: 1; transform: rotate(8deg); }
+@media (max-width: 960px) { .hero-books { display: none; } }
