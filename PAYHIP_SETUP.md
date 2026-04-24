@@ -39,7 +39,7 @@ Update `ebookPrice` or `cheatsheetPrice` in `books.json` AND in the Payhip dashb
 - **Method:** PayPal Business (linked to Qatar bank)
 - **Cycle:** Payhip pays out per-transaction directly to your connected PayPal balance
 - **Fees:** Payhip 5% + PayPal 4.4% + $0.30 cross-border
-  - On a $14.99 e-book → you net ~$13.28
+  - On a $9.99 e-book → you net ~$8.70
   - On a $1.99 cheat sheet → you net ~$1.50
 
 ## Refunds

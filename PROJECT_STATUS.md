@@ -28,16 +28,21 @@ Single source of truth for what's live, what's wired, and what's pending. Update
 
 ## Pricing
 
-- Paperback: $29.99 (Amazon KDP)
-- E-book: $14.99 (50% off displayed on site)
-- Cheatsheet: $1.99
+- Paperback: **$19.99** (Amazon KDP) — dropped from $29.99 on 2026-04-24 to drive launch velocity + reviews
+- E-book: **$9.99** (50% off displayed on site) — dropped from $14.99
+- Cheatsheet: **$1.99**
+
+**Pricing ladder plan:**
+- Launch (next 60 days): $19.99 paperback → trigger reviews
+- After 10+ reviews: raise to $24.99
+- After 25+ reviews / category badge: raise to $27.99–$29.99
 
 ## Payments
 
 - **Provider:** Payhip (Stripe blocked in Qatar; Lemon Squeezy also rejected)
 - **Payout:** PayPal Business → Qatar bank
 - **Fees per sale:** Payhip 5% + PayPal 4.4% + $0.30
-  - $14.99 e-book → ~$13.28 net
+  - $9.99 e-book → ~$8.70 net
   - $1.99 cheatsheet → ~$1.50 net
 - **Integration:** Direct anchor links (`<a href="payhip.com/b/XXX">`) — no backend
 - **Details:** see [PAYHIP_SETUP.md](PAYHIP_SETUP.md)
@@ -82,6 +87,8 @@ Single source of truth for what's live, what's wired, and what's pending. Update
 
 ## Pending Work
 
+- [ ] **KDP dashboard**: update all 6 paperback list prices to $19.99 (~72hr propagation)
+- [ ] **Payhip dashboard**: update all 6 e-book product prices to $9.99 so checkout matches site
 - [ ] Books 7-10: complete KDP publishing (NHIE, STS, MSSC CPT, NCIDQ)
 - [ ] Books 7-10: generate cheatsheet PDFs once books are final
 - [ ] Books 7-10: replace placeholder SVG covers with real PNGs (need cover PDFs in `Cover/V1/`)
