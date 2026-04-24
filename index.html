@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/css/style.css?v=8">
+  <link rel="stylesheet" href="/css/style.css?v=9">
 </head>
 <body>
   <!-- HEADER -->
@@ -306,10 +306,14 @@
           const price = (book.cheatsheetPrice ?? 1.99).toFixed(2);
           const previewImg = upcoming
             ? `<div class="cheatsheet-preview-placeholder">Coming Soon</div>`
-            : `<a href="/bonus-pdfs/${book.slug}-cheatsheet.pdf" class="cheatsheet-preview" target="_blank" rel="noopener" aria-label="Preview ${book.shortName} cheat sheet PDF">
-                 <img src="/img/cheatsheet-previews/${book.slug}-preview.png" alt="${book.shortName} cheat sheet preview" loading="lazy">
-                 <span class="cheatsheet-preview-hint">Click to preview</span>
-               </a>`;
+            : `<div class="cheatsheet-preview-placeholder cheatsheet-locked">
+                 <svg viewBox="0 0 24 24" width="40" height="40" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                   <rect x="3" y="11" width="18" height="11" rx="2" ry="2"/>
+                   <path d="M7 11V7a5 5 0 0 1 10 0v4"/>
+                 </svg>
+                 <span>${book.shortName} Formula Sheet</span>
+                 <small>Unlock on purchase</small>
+               </div>`;
           return `
             <div class="cheatsheet-card ${upcoming ? 'cheatsheet-upcoming' : ''}">
               ${previewImg}
