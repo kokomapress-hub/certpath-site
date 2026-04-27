@@ -344,26 +344,22 @@
           const code = document.getElementById('quickCode').value.toUpperCase().trim();
           quickMsg.className = 'quick-unlock-msg';
 
-          if (code === data.adminCode) {
-            localStorage.setItem('certpath_unlocked', JSON.stringify({ slugs: books.map(b => b.slug), isAdmin: true }));
-            quickMsg.classList.add('success');
-            quickMsg.innerHTML = '🎉 Congratulations! Admin access unlocked — all 10 books are ready. <a href="/access">Go to your tests →</a>';
-            setTimeout(() => { location.href = '/access'; }, 1500);
+          // Validate locally so we can show an error before redirecting.
+          const isAdmin = code === data.adminCode;
+          const book = books.find(b => b.code.toUpperCase() === code);
+
+          if (!isAdmin && !book) {
+            quickMsg.classList.add('error');
+            quickMsg.textContent = 'Invalid code. Please check the last page of your book (format: XXXX-XXXXX-XXXXX).';
             return;
           }
 
-          const book = books.find(b => b.code.toUpperCase() === code);
-          if (book) {
-            const cur = JSON.parse(localStorage.getItem('certpath_unlocked') || '{"slugs":[],"isAdmin":false}');
-            cur.slugs = Array.from(new Set([...cur.slugs, book.slug]));
-            localStorage.setItem('certpath_unlocked', JSON.stringify(cur));
-            quickMsg.classList.add('success');
-            quickMsg.innerHTML = `🎉 Congratulations! <strong>${book.title}</strong> unlocked. <a href="/access?book=${book.slug}">Go to your practice tests →</a>`;
-            setTimeout(() => { location.href = `/access?book=${book.slug}`; }, 1800);
-          } else {
-            quickMsg.classList.add('error');
-            quickMsg.textContent = 'Invalid code. Please check the last page of your book (format: XXXX-XXXXX-XXXXX).';
-          }
+          // Valid code — send the user to /access to enter their email.
+          // /access prefills the code from the URL and requires email before unlocking.
+          quickMsg.classList.add('success');
+          quickMsg.innerHTML = '✓ Code verified. Redirecting to enter your email…';
+          const target = isAdmin ? `/access?code=${encodeURIComponent(code)}` : `/access?code=${encodeURIComponent(code)}&book=${book.slug}`;
+          setTimeout(() => { location.href = target; }, 800);
         });
       })
       .catch(err => {

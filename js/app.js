@@ -156,6 +156,11 @@ async function initAccessPage() {
   const savedEmail = getEmail();
   if (savedEmail) document.getElementById('email').value = savedEmail;
 
+  // Prefill code from ?code=XXXX-XXXXX-XXXXX (sent by homepage quick-unlock)
+  const params = new URLSearchParams(location.search);
+  const codeFromUrl = params.get('code');
+  if (codeFromUrl) document.getElementById('code').value = codeFromUrl.toUpperCase();
+
   const unlocked = getUnlocked();
   if (unlocked.slugs.length > 0 || unlocked.isAdmin) {
     const data = await loadBooks();
@@ -185,6 +190,14 @@ async function initAccessPage() {
     if (result.isAdmin) { current.isAdmin = true; current.slugs = result.books.map(b => b.slug); }
     else { current.slugs = Array.from(new Set([...current.slugs, ...result.books.map(b => b.slug)])); }
     setUnlocked(current);
+
+    // Fire-and-forget MailerLite subscribe — never block unlock on failure.
+    const bookLabel = result.isAdmin ? 'ADMIN' : (result.books[0]?.shortName || result.books[0]?.slug || '');
+    fetch('/api/subscribe', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ email, accessCode: code, book: bookLabel }),
+    }).catch(() => {});
 
     renderUnlockedBooks(result.books, result.isAdmin);
     form.parentElement.style.display = 'none';
