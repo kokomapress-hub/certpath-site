@@ -72,26 +72,24 @@
       const r = await fetch('/data/books.json');
       const data = await r.json();
 
-      if (code === data.adminCode) {
-        localStorage.setItem('certpath_unlocked', JSON.stringify({ slugs: data.books.map(b => b.slug), isAdmin: true }));
-        msg.classList.add('success');
-        msg.innerHTML = '🎉 Congratulations! Admin access unlocked — all 10 books are ready. <a href="/access">Go to your tests →</a>';
-        setTimeout(() => { location.href = '/access'; }, 1500);
+      // Validate locally so we can show an inline error, but don't unlock
+      // here — bounce the user to /access where they enter their email
+      // and the backend records the signup in MailerLite.
+      const isAdmin = code === data.adminCode;
+      const book = data.books.find(b => b.code.toUpperCase() === code);
+
+      if (!isAdmin && !book) {
+        msg.classList.add('error');
+        msg.textContent = 'Invalid code. Please check the last page of your book.';
         return;
       }
 
-      const book = data.books.find(b => b.code.toUpperCase() === code);
-      if (book) {
-        const cur = JSON.parse(localStorage.getItem('certpath_unlocked') || '{"slugs":[],"isAdmin":false}');
-        cur.slugs = Array.from(new Set([...cur.slugs, book.slug]));
-        localStorage.setItem('certpath_unlocked', JSON.stringify(cur));
-        msg.classList.add('success');
-        msg.innerHTML = `🎉 Congratulations! <strong>${book.title}</strong> unlocked. <a href="/access?book=${book.slug}">Go to your practice tests →</a>`;
-        setTimeout(() => { location.href = `/access?book=${book.slug}`; }, 1800);
-      } else {
-        msg.classList.add('error');
-        msg.textContent = 'Invalid code. Please check the last page of your book.';
-      }
+      msg.classList.add('success');
+      msg.innerHTML = '✓ Code verified. Redirecting to enter your email…';
+      const target = isAdmin
+        ? `/access?code=${encodeURIComponent(code)}`
+        : `/access?code=${encodeURIComponent(code)}&book=${book.slug}`;
+      setTimeout(() => { location.href = target; }, 800);
     } catch (err) {
       msg.classList.add('error');
       msg.textContent = 'Something went wrong. Please try again.';
