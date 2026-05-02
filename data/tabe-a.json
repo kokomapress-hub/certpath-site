@@ -1,0 +1,1823 @@
+{
+  "slug": "tabe-a",
+  "title": "TABE 11 & 12 Math Workbook Level A",
+  "code": "TABEA-O4YM9-8V59X",
+  "timeMinutes": 75,
+  "tests": [
+    {
+      "testNum": 1,
+      "questions": [
+        {
+          "num": 1,
+          "question": "What is 4,083 + 2,759?",
+          "choices": [
+            "6,742",
+            "6,832",
+            "6,842",
+            "7,042"
+          ],
+          "answer": "C",
+          "explanation": "Add: 3+9=12 (write 2, carry 1); 8+5+1=14; 0+7+1=8; 4+2=6. Result 6,842."
+        },
+        {
+          "num": 2,
+          "question": "Compute 9,001 - 4,567.",
+          "choices": [
+            "4,344",
+            "4,434",
+            "4,444",
+            "5,434"
+          ],
+          "answer": "B",
+          "explanation": "9001 - 4567 = 4434."
+        },
+        {
+          "num": 3,
+          "question": "Multiply 246 x 35.",
+          "choices": [
+            "8,310",
+            "8,410",
+            "8,610",
+            "8,710"
+          ],
+          "answer": "C",
+          "explanation": "246 x 35 = 246 x 30 + 246 x 5 = 7,380 + 1,230 = 8,610."
+        },
+        {
+          "num": 4,
+          "question": "Divide 1,944 / 8.",
+          "choices": [
+            "233",
+            "238",
+            "243",
+            "263"
+          ],
+          "answer": "C",
+          "explanation": "8 x 243 = 1,944. So 1,944 / 8 = 243."
+        },
+        {
+          "num": 5,
+          "question": "Evaluate -7 + 12 - (-5).",
+          "choices": [
+            "0",
+            "10",
+            "14",
+            "20"
+          ],
+          "answer": "B",
+          "explanation": "-7 + 12 = 5; 5 - (-5) = 5 + 5 = 10."
+        },
+        {
+          "num": 6,
+          "question": "Simplify 24/36 to lowest terms.",
+          "choices": [
+            "1/2",
+            "2/3",
+            "3/4",
+            "6/9"
+          ],
+          "answer": "B",
+          "explanation": "GCF of 24 and 36 is 12. 24/12 = 2; 36/12 = 3. Answer 2/3."
+        },
+        {
+          "num": 7,
+          "question": "Compute 3/4 + 1/6.",
+          "choices": [
+            "4/10",
+            "11/12",
+            "10/12",
+            "5/8"
+          ],
+          "answer": "B",
+          "explanation": "Common denominator 12: 3/4 = 9/12; 1/6 = 2/12; sum = 11/12."
+        },
+        {
+          "num": 8,
+          "question": "Compute 5/8 - 1/4.",
+          "choices": [
+            "3/8",
+            "1/4",
+            "4/8",
+            "1/2"
+          ],
+          "answer": "A",
+          "explanation": "1/4 = 2/8. 5/8 - 2/8 = 3/8."
+        },
+        {
+          "num": 9,
+          "question": "What is 0.45 x 1.2?",
+          "choices": [
+            "0.054",
+            "0.54",
+            "5.4",
+            "0.504"
+          ],
+          "answer": "B",
+          "explanation": "45 x 12 = 540. Three decimal places total -> 0.540 = 0.54."
+        },
+        {
+          "num": 10,
+          "question": "What is 6.4 / 0.8?",
+          "choices": [
+            "0.8",
+            "8",
+            "0.08",
+            "80"
+          ],
+          "answer": "B",
+          "explanation": "Shift one place: 64 / 8 = 8."
+        },
+        {
+          "num": 11,
+          "question": "What is 35% of 240?",
+          "choices": [
+            "72",
+            "84",
+            "96",
+            "104"
+          ],
+          "answer": "B",
+          "explanation": "0.35 x 240 = 84."
+        },
+        {
+          "num": 12,
+          "question": "27 is what percent of 90?",
+          "choices": [
+            "25%",
+            "27%",
+            "30%",
+            "33%"
+          ],
+          "answer": "C",
+          "explanation": "27/90 = 0.30 = 30%."
+        },
+        {
+          "num": 13,
+          "question": "A $80 jacket has a 25% discount. Sale price?",
+          "choices": [
+            "$55",
+            "$60",
+            "$65",
+            "$70"
+          ],
+          "answer": "B",
+          "explanation": "0.25 x 80 = $20 off; 80 - 20 = $60."
+        },
+        {
+          "num": 14,
+          "question": "Convert 0.000045 to scientific notation.",
+          "choices": [
+            "4.5 x 10^4",
+            "4.5 x 10^5",
+            "4.5 x 10^(-5)",
+            "4.5 x 10^(-4)"
+          ],
+          "answer": "C",
+          "explanation": "Move the decimal 5 places right -> exponent -5."
+        },
+        {
+          "num": 15,
+          "question": "Find sqrt(196).",
+          "choices": [
+            "12",
+            "13",
+            "14",
+            "15"
+          ],
+          "answer": "C",
+          "explanation": "14 x 14 = 196."
+        },
+        {
+          "num": 16,
+          "question": "Evaluate 3x^2 - 4x + 1 when x = 5.",
+          "choices": [
+            "46",
+            "56",
+            "66",
+            "76"
+          ],
+          "answer": "B",
+          "explanation": "3(25) - 4(5) + 1 = 75 - 20 + 1 = 56."
+        },
+        {
+          "num": 17,
+          "question": "Simplify 4(2x - 3) - 2(x + 5).",
+          "choices": [
+            "6x - 22",
+            "6x + 22",
+            "10x - 22",
+            "10x + 2"
+          ],
+          "answer": "A",
+          "explanation": "8x - 12 - 2x - 10 = 6x - 22."
+        },
+        {
+          "num": 18,
+          "question": "Solve 5x - 7 = 23.",
+          "choices": [
+            "x = 4",
+            "x = 5",
+            "x = 6",
+            "x = 7"
+          ],
+          "answer": "C",
+          "explanation": "5x = 30; x = 6."
+        },
+        {
+          "num": 19,
+          "question": "Solve 3(x + 2) = 4x - 1.",
+          "choices": [
+            "x = 5",
+            "x = 6",
+            "x = 7",
+            "x = 8"
+          ],
+          "answer": "C",
+          "explanation": "3x + 6 = 4x - 1; 7 = x."
+        },
+        {
+          "num": 20,
+          "question": "Solve 2x + 5 > 17.",
+          "choices": [
+            "x > 6",
+            "x < 6",
+            "x > 11",
+            "x > 12"
+          ],
+          "answer": "A",
+          "explanation": "2x > 12; x > 6."
+        },
+        {
+          "num": 21,
+          "question": "Solve -3x + 4 <= 19.",
+          "choices": [
+            "x <= 5",
+            "x >= 5",
+            "x <= -5",
+            "x >= -5"
+          ],
+          "answer": "D",
+          "explanation": "-3x <= 15; divide by -3 (flip): x >= -5."
+        },
+        {
+          "num": 22,
+          "question": "Add (3x^2 + 2x - 7) + (x^2 - 5x + 4).",
+          "choices": [
+            "4x^2 - 3x - 3",
+            "4x^2 + 7x - 3",
+            "2x^2 - 3x - 3",
+            "4x^2 - 3x + 11"
+          ],
+          "answer": "A",
+          "explanation": "Combine: 4x^2 + (2x - 5x) + (-7 + 4) = 4x^2 - 3x - 3."
+        },
+        {
+          "num": 23,
+          "question": "Multiply (x + 4)(x - 7).",
+          "choices": [
+            "x^2 - 3x - 28",
+            "x^2 + 11x - 28",
+            "x^2 - 11x - 28",
+            "x^2 + 3x - 28"
+          ],
+          "answer": "A",
+          "explanation": "FOIL: x^2 - 7x + 4x - 28 = x^2 - 3x - 28."
+        },
+        {
+          "num": 24,
+          "question": "Factor x^2 - 81.",
+          "choices": [
+            "(x - 9)(x - 9)",
+            "(x + 9)(x - 9)",
+            "(x - 9)^2",
+            "(x + 81)(x - 1)"
+          ],
+          "answer": "B",
+          "explanation": "Difference of squares: x^2 - 81 = (x + 9)(x - 9)."
+        },
+        {
+          "num": 25,
+          "question": "Factor x^2 + 5x + 6.",
+          "choices": [
+            "(x + 2)(x + 3)",
+            "(x + 1)(x + 6)",
+            "(x - 2)(x - 3)",
+            "(x + 6)(x - 1)"
+          ],
+          "answer": "A",
+          "explanation": "2 and 3 multiply to 6 and add to 5."
+        },
+        {
+          "num": 26,
+          "question": "If f(x) = 2x + 5, find f(-3).",
+          "choices": [
+            "-1",
+            "-11",
+            "1",
+            "11"
+          ],
+          "answer": "A",
+          "explanation": "2(-3) + 5 = -6 + 5 = -1."
+        },
+        {
+          "num": 27,
+          "question": "Slope of the line through (2, 3) and (8, 15).",
+          "choices": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "answer": "B",
+          "explanation": "(15 - 3)/(8 - 2) = 12/6 = 2."
+        },
+        {
+          "num": 28,
+          "question": "y-intercept of y = -3x + 7.",
+          "choices": [
+            "-3",
+            "3",
+            "7",
+            "-7"
+          ],
+          "answer": "C",
+          "explanation": "In y = mx + b, b is the y-intercept. b = 7."
+        },
+        {
+          "num": 29,
+          "question": "Solve the system: y = x + 4 and 2x + y = 10.",
+          "choices": [
+            "(2, 6)",
+            "(3, 7)",
+            "(4, 2)",
+            "(2, 8)"
+          ],
+          "answer": "A",
+          "explanation": "Substitute: 2x + (x + 4) = 10; 3x = 6; x = 2; y = 6."
+        },
+        {
+          "num": 30,
+          "question": "Solve x^2 - 7x + 12 = 0.",
+          "choices": [
+            "x = 3, 4",
+            "x = -3, -4",
+            "x = 2, 6",
+            "x = -2, -6"
+          ],
+          "answer": "A",
+          "explanation": "Factor: (x - 3)(x - 4) = 0; x = 3 or 4."
+        },
+        {
+          "num": 31,
+          "question": "Are y = 2x + 3 and y = 2x - 5 parallel, perpendicular, or neither?",
+          "choices": [
+            "Parallel",
+            "Perpendicular",
+            "Neither",
+            "Same line"
+          ],
+          "answer": "A",
+          "explanation": "Equal slopes (both 2), different y-intercepts -> parallel."
+        },
+        {
+          "num": 32,
+          "question": "Slope perpendicular to y = (3/4)x + 1.",
+          "choices": [
+            "3/4",
+            "4/3",
+            "-3/4",
+            "-4/3"
+          ],
+          "answer": "D",
+          "explanation": "Negative reciprocal of 3/4 is -4/3."
+        },
+        {
+          "num": 33,
+          "question": "If g(x) = x^2 - 2x, find g(5).",
+          "choices": [
+            "10",
+            "15",
+            "20",
+            "25"
+          ],
+          "answer": "B",
+          "explanation": "25 - 10 = 15."
+        },
+        {
+          "num": 34,
+          "question": "Two angles of a triangle are 38 and 67. Find the third.",
+          "choices": [
+            "55",
+            "65",
+            "75",
+            "85"
+          ],
+          "answer": "C",
+          "explanation": "180 - 38 - 67 = 75."
+        },
+        {
+          "num": 35,
+          "question": "An angle and its complement: one is 24. The other?",
+          "choices": [
+            "66",
+            "76",
+            "156",
+            "180"
+          ],
+          "answer": "A",
+          "explanation": "Complementary angles sum to 90. 90 - 24 = 66."
+        },
+        {
+          "num": 36,
+          "question": "Area of a triangle with base 12 and height 8.",
+          "choices": [
+            "48",
+            "60",
+            "84",
+            "96"
+          ],
+          "answer": "A",
+          "explanation": "(1/2)(12)(8) = 48."
+        },
+        {
+          "num": 37,
+          "question": "Area of a circle with radius 6 (use 3.14).",
+          "choices": [
+            "18.84",
+            "37.68",
+            "113.04",
+            "37.7"
+          ],
+          "answer": "C",
+          "explanation": "pi r^2 = 3.14 x 36 = 113.04."
+        },
+        {
+          "num": 38,
+          "question": "Circumference of a circle with diameter 14 (use 3.14).",
+          "choices": [
+            "21.98",
+            "43.96",
+            "30.0",
+            "153.86"
+          ],
+          "answer": "B",
+          "explanation": "C = pi d = 3.14 x 14 = 43.96."
+        },
+        {
+          "num": 39,
+          "question": "Right triangle legs 9 and 12. Hypotenuse?",
+          "choices": [
+            "13",
+            "14",
+            "15",
+            "16"
+          ],
+          "answer": "C",
+          "explanation": "9^2 + 12^2 = 81 + 144 = 225; sqrt(225) = 15."
+        },
+        {
+          "num": 40,
+          "question": "Volume of a box 5 x 4 x 3.",
+          "choices": [
+            "60",
+            "47",
+            "94",
+            "120"
+          ],
+          "answer": "A",
+          "explanation": "5 x 4 x 3 = 60."
+        },
+        {
+          "num": 41,
+          "question": "Volume of a cylinder r = 2, h = 5 (use 3.14).",
+          "choices": [
+            "31.4",
+            "62.8",
+            "125.6",
+            "12.56"
+          ],
+          "answer": "B",
+          "explanation": "pi r^2 h = 3.14 x 4 x 5 = 62.8."
+        },
+        {
+          "num": 42,
+          "question": "Distance from (1, 1) to (4, 5).",
+          "choices": [
+            "3",
+            "4",
+            "5",
+            "7"
+          ],
+          "answer": "C",
+          "explanation": "sqrt((4-1)^2 + (5-1)^2) = sqrt(9 + 16) = sqrt(25) = 5."
+        },
+        {
+          "num": 43,
+          "question": "Midpoint of (-2, 3) and (4, -1).",
+          "choices": [
+            "(1, 1)",
+            "(0, 2)",
+            "(2, 1)",
+            "(1, -1)"
+          ],
+          "answer": "A",
+          "explanation": "((-2 + 4)/2, (3 + (-1))/2) = (1, 1)."
+        },
+        {
+          "num": 44,
+          "question": "Mean of 6, 11, 14, 9, 10.",
+          "choices": [
+            "9",
+            "10",
+            "11",
+            "12"
+          ],
+          "answer": "B",
+          "explanation": "Sum 50; count 5; mean 10."
+        },
+        {
+          "num": 45,
+          "question": "Median of 4, 8, 9, 12, 15, 19.",
+          "choices": [
+            "8.5",
+            "9",
+            "10.5",
+            "12"
+          ],
+          "answer": "C",
+          "explanation": "Average of 9 and 12 = 10.5."
+        },
+        {
+          "num": 46,
+          "question": "Mode of 3, 5, 5, 7, 9, 9, 9, 12.",
+          "choices": [
+            "5",
+            "7",
+            "9",
+            "12"
+          ],
+          "answer": "C",
+          "explanation": "9 appears most (three times)."
+        },
+        {
+          "num": 47,
+          "question": "Range of 14, 22, 9, 30, 18.",
+          "choices": [
+            "16",
+            "21",
+            "22",
+            "30"
+          ],
+          "answer": "B",
+          "explanation": "30 - 9 = 21."
+        },
+        {
+          "num": 48,
+          "question": "P(rolling a 5 or 6 on a fair die)?",
+          "choices": [
+            "1/6",
+            "1/3",
+            "1/2",
+            "2/3"
+          ],
+          "answer": "B",
+          "explanation": "2 favorable / 6 total = 1/3."
+        },
+        {
+          "num": 49,
+          "question": "P(heads then heads on two coin flips)?",
+          "choices": [
+            "1/2",
+            "1/3",
+            "1/4",
+            "1/8"
+          ],
+          "answer": "C",
+          "explanation": "Independent: 1/2 x 1/2 = 1/4."
+        },
+        {
+          "num": 50,
+          "question": "A pie chart shows transportation as 15% of a $3,200 budget. Transportation amount?",
+          "choices": [
+            "$450",
+            "$480",
+            "$500",
+            "$520"
+          ],
+          "answer": "B",
+          "explanation": "0.15 x 3200 = $480."
+        }
+      ]
+    },
+    {
+      "testNum": 2,
+      "questions": [
+        {
+          "num": 1,
+          "question": "Compute 6,500 - 2,876.",
+          "choices": [
+            "3,524",
+            "3,624",
+            "3,664",
+            "3,724"
+          ],
+          "answer": "B",
+          "explanation": "6500 - 2876 = 3624."
+        },
+        {
+          "num": 2,
+          "question": "Multiply 312 x 24.",
+          "choices": [
+            "7,288",
+            "7,488",
+            "7,688",
+            "7,888"
+          ],
+          "answer": "B",
+          "explanation": "312 x 20 = 6,240; 312 x 4 = 1,248; sum 7,488."
+        },
+        {
+          "num": 3,
+          "question": "Divide 4,275 / 25.",
+          "choices": [
+            "161",
+            "169",
+            "171",
+            "181"
+          ],
+          "answer": "C",
+          "explanation": "25 x 171 = 4,275."
+        },
+        {
+          "num": 4,
+          "question": "Evaluate (8 - 3)^2 + 4 x 2.",
+          "choices": [
+            "27",
+            "29",
+            "33",
+            "41"
+          ],
+          "answer": "C",
+          "explanation": "5^2 + 8 = 25 + 8 = 33."
+        },
+        {
+          "num": 5,
+          "question": "(-12) - (-5) - 3.",
+          "choices": [
+            "-20",
+            "-10",
+            "-4",
+            "20"
+          ],
+          "answer": "B",
+          "explanation": "-12 + 5 - 3 = -10."
+        },
+        {
+          "num": 6,
+          "question": "Simplify 45/60.",
+          "choices": [
+            "3/4",
+            "5/6",
+            "9/12",
+            "2/3"
+          ],
+          "answer": "A",
+          "explanation": "GCF 15: 45/15 = 3; 60/15 = 4."
+        },
+        {
+          "num": 7,
+          "question": "Convert 7/4 to a mixed number.",
+          "choices": [
+            "1 1/4",
+            "1 3/4",
+            "2 1/4",
+            "1 1/2"
+          ],
+          "answer": "B",
+          "explanation": "7 / 4 = 1 remainder 3 -> 1 3/4."
+        },
+        {
+          "num": 8,
+          "question": "2/3 x 9/8.",
+          "choices": [
+            "3/4",
+            "11/12",
+            "1",
+            "1 1/4"
+          ],
+          "answer": "A",
+          "explanation": "(2 x 9)/(3 x 8) = 18/24 = 3/4."
+        },
+        {
+          "num": 9,
+          "question": "8/15 / 4/5.",
+          "choices": [
+            "2/3",
+            "32/75",
+            "5/6",
+            "10/12"
+          ],
+          "answer": "A",
+          "explanation": "8/15 x 5/4 = 40/60 = 2/3."
+        },
+        {
+          "num": 10,
+          "question": "Round 4.6789 to the nearest hundredth.",
+          "choices": [
+            "4.67",
+            "4.68",
+            "4.7",
+            "4.679"
+          ],
+          "answer": "B",
+          "explanation": "Hundredths digit is 7; next digit 8 -> round up to 4.68."
+        },
+        {
+          "num": 11,
+          "question": "Convert 3/8 to a decimal.",
+          "choices": [
+            "0.275",
+            "0.375",
+            "0.4",
+            "0.475"
+          ],
+          "answer": "B",
+          "explanation": "3 / 8 = 0.375."
+        },
+        {
+          "num": 12,
+          "question": "Convert 0.6 to a fraction in lowest terms.",
+          "choices": [
+            "3/5",
+            "6/10",
+            "2/3",
+            "5/8"
+          ],
+          "answer": "A",
+          "explanation": "6/10 = 3/5."
+        },
+        {
+          "num": 13,
+          "question": "60 is 25% of what number?",
+          "choices": [
+            "180",
+            "220",
+            "240",
+            "280"
+          ],
+          "answer": "C",
+          "explanation": "60 / 0.25 = 240."
+        },
+        {
+          "num": 14,
+          "question": "Salary went from $40,000 to $46,000. Percent increase?",
+          "choices": [
+            "10%",
+            "12%",
+            "15%",
+            "20%"
+          ],
+          "answer": "C",
+          "explanation": "6,000/40,000 = 0.15 = 15%."
+        },
+        {
+          "num": 15,
+          "question": "Compute 2^5 / 2^2.",
+          "choices": [
+            "2^3 = 8",
+            "2^7 = 128",
+            "2^2 = 4",
+            "2^10 = 1024"
+          ],
+          "answer": "A",
+          "explanation": "Quotient rule: 2^(5-2) = 2^3 = 8."
+        },
+        {
+          "num": 16,
+          "question": "Simplify 7y - 4 - 3y + 9.",
+          "choices": [
+            "4y + 5",
+            "4y - 13",
+            "10y + 5",
+            "4y + 13"
+          ],
+          "answer": "A",
+          "explanation": "Combine like terms: 4y + 5."
+        },
+        {
+          "num": 17,
+          "question": "Solve 2(x - 3) + 4 = 12.",
+          "choices": [
+            "x = 5",
+            "x = 6",
+            "x = 7",
+            "x = 8"
+          ],
+          "answer": "C",
+          "explanation": "2x - 6 + 4 = 12; 2x = 14; x = 7."
+        },
+        {
+          "num": 18,
+          "question": "Solve x/3 + 5 = 11.",
+          "choices": [
+            "x = 12",
+            "x = 15",
+            "x = 18",
+            "x = 21"
+          ],
+          "answer": "C",
+          "explanation": "x/3 = 6; x = 18."
+        },
+        {
+          "num": 19,
+          "question": "Solve 4x - 9 = 2x + 7.",
+          "choices": [
+            "x = 6",
+            "x = 7",
+            "x = 8",
+            "x = 9"
+          ],
+          "answer": "C",
+          "explanation": "2x = 16; x = 8."
+        },
+        {
+          "num": 20,
+          "question": "Solve 3(x + 5) - 2 = 22.",
+          "choices": [
+            "x = 3",
+            "x = 4",
+            "x = 5",
+            "x = 6"
+          ],
+          "answer": "A",
+          "explanation": "3x + 15 - 2 = 22; 3x = 9; x = 3."
+        },
+        {
+          "num": 21,
+          "question": "Solve 5 - 2x >= 1.",
+          "choices": [
+            "x <= 2",
+            "x >= 2",
+            "x <= -2",
+            "x >= -2"
+          ],
+          "answer": "A",
+          "explanation": "-2x >= -4; flip when dividing by -2: x <= 2."
+        },
+        {
+          "num": 22,
+          "question": "Multiply 3x(x^2 - 2x + 4).",
+          "choices": [
+            "3x^3 - 6x^2 + 12x",
+            "3x^3 + 6x^2 + 12x",
+            "3x^3 - 2x^2 + 4x",
+            "3x^2 - 6x + 12"
+          ],
+          "answer": "A",
+          "explanation": "Distribute: 3x^3 - 6x^2 + 12x."
+        },
+        {
+          "num": 23,
+          "question": "Multiply (2x - 5)(x + 3).",
+          "choices": [
+            "2x^2 - 8x - 15",
+            "2x^2 + x - 15",
+            "2x^2 + 11x - 15",
+            "2x^2 + 6x - 15"
+          ],
+          "answer": "B",
+          "explanation": "FOIL: 2x^2 + 6x - 5x - 15 = 2x^2 + x - 15."
+        },
+        {
+          "num": 24,
+          "question": "Factor 4x^2 - 16.",
+          "choices": [
+            "4(x - 2)(x + 2)",
+            "(2x - 4)(2x + 4)",
+            "(2x + 4)(x - 4)",
+            "4(x - 4)"
+          ],
+          "answer": "A",
+          "explanation": "GCF 4: 4(x^2 - 4) = 4(x + 2)(x - 2)."
+        },
+        {
+          "num": 25,
+          "question": "Factor x^2 - 10x + 21.",
+          "choices": [
+            "(x - 3)(x - 7)",
+            "(x + 3)(x + 7)",
+            "(x - 1)(x - 21)",
+            "(x + 1)(x + 21)"
+          ],
+          "answer": "A",
+          "explanation": "-3 and -7 multiply to 21 and add to -10."
+        },
+        {
+          "num": 26,
+          "question": "f(x) = x^2 + 3x. Find f(-2).",
+          "choices": [
+            "-2",
+            "-4",
+            "2",
+            "10"
+          ],
+          "answer": "A",
+          "explanation": "(-2)^2 + 3(-2) = 4 - 6 = -2."
+        },
+        {
+          "num": 27,
+          "question": "Slope through (-1, 4) and (3, -8).",
+          "choices": [
+            "-3",
+            "3",
+            "-1/3",
+            "1/3"
+          ],
+          "answer": "A",
+          "explanation": "(-8 - 4)/(3 - (-1)) = -12/4 = -3."
+        },
+        {
+          "num": 28,
+          "question": "Equation of line, slope 2, through (0, -3).",
+          "choices": [
+            "y = 2x - 3",
+            "y = -3x + 2",
+            "y = 2x + 3",
+            "y = -2x - 3"
+          ],
+          "answer": "A",
+          "explanation": "y-intercept -3, slope 2 -> y = 2x - 3."
+        },
+        {
+          "num": 29,
+          "question": "Solve: y = 3x and x + y = 8.",
+          "choices": [
+            "(2, 6)",
+            "(3, 5)",
+            "(4, 4)",
+            "(1, 7)"
+          ],
+          "answer": "A",
+          "explanation": "Substitute: x + 3x = 8; 4x = 8; x = 2; y = 6."
+        },
+        {
+          "num": 30,
+          "question": "Solve: 2x + y = 10; x - y = 2.",
+          "choices": [
+            "(4, 2)",
+            "(3, 4)",
+            "(2, 6)",
+            "(5, 0)"
+          ],
+          "answer": "A",
+          "explanation": "Add: 3x = 12; x = 4; y = 2."
+        },
+        {
+          "num": 31,
+          "question": "Solve x^2 + x - 12 = 0.",
+          "choices": [
+            "x = 3, -4",
+            "x = -3, 4",
+            "x = 4, 3",
+            "x = -3, -4"
+          ],
+          "answer": "A",
+          "explanation": "(x - 3)(x + 4) = 0."
+        },
+        {
+          "num": 32,
+          "question": "x-intercept of y = 2x - 8.",
+          "choices": [
+            "(4, 0)",
+            "(0, -8)",
+            "(-4, 0)",
+            "(8, 0)"
+          ],
+          "answer": "A",
+          "explanation": "Set y = 0: 2x = 8; x = 4."
+        },
+        {
+          "num": 33,
+          "question": "Lines y = (1/2)x + 3 and y = -2x - 1 are:",
+          "choices": [
+            "Parallel",
+            "Perpendicular",
+            "Neither",
+            "Same line"
+          ],
+          "answer": "B",
+          "explanation": "(1/2) x (-2) = -1 -> perpendicular."
+        },
+        {
+          "num": 34,
+          "question": "Two angles of a triangle are 90 and 35. Third angle?",
+          "choices": [
+            "45",
+            "55",
+            "65",
+            "75"
+          ],
+          "answer": "B",
+          "explanation": "180 - 90 - 35 = 55."
+        },
+        {
+          "num": 35,
+          "question": "Supplement of a 73-degree angle?",
+          "choices": [
+            "17",
+            "97",
+            "107",
+            "117"
+          ],
+          "answer": "C",
+          "explanation": "180 - 73 = 107."
+        },
+        {
+          "num": 36,
+          "question": "Perimeter of a rectangle 14 by 9.",
+          "choices": [
+            "23",
+            "46",
+            "126",
+            "92"
+          ],
+          "answer": "B",
+          "explanation": "2(14) + 2(9) = 46."
+        },
+        {
+          "num": 37,
+          "question": "Area of a trapezoid: parallel sides 8 and 14, height 6.",
+          "choices": [
+            "48",
+            "66",
+            "84",
+            "112"
+          ],
+          "answer": "B",
+          "explanation": "(1/2)(8 + 14)(6) = (1/2)(22)(6) = 66."
+        },
+        {
+          "num": 38,
+          "question": "Right triangle legs 5 and 12. Hypotenuse?",
+          "choices": [
+            "13",
+            "14",
+            "17",
+            "15"
+          ],
+          "answer": "A",
+          "explanation": "25 + 144 = 169; sqrt = 13."
+        },
+        {
+          "num": 39,
+          "question": "A 26-ft ladder leans against a wall. Foot is 10 ft from wall. Height up wall?",
+          "choices": [
+            "20 ft",
+            "22 ft",
+            "24 ft",
+            "16 ft"
+          ],
+          "answer": "C",
+          "explanation": "10^2 + h^2 = 26^2; h^2 = 676 - 100 = 576; h = 24."
+        },
+        {
+          "num": 40,
+          "question": "Volume of a cube with side 7.",
+          "choices": [
+            "49",
+            "147",
+            "294",
+            "343"
+          ],
+          "answer": "D",
+          "explanation": "7^3 = 343."
+        },
+        {
+          "num": 41,
+          "question": "Surface area of a cube with side 4.",
+          "choices": [
+            "48",
+            "64",
+            "96",
+            "112"
+          ],
+          "answer": "C",
+          "explanation": "6 x 4^2 = 96."
+        },
+        {
+          "num": 42,
+          "question": "Quadrant of (-5, -7).",
+          "choices": [
+            "I",
+            "II",
+            "III",
+            "IV"
+          ],
+          "answer": "C",
+          "explanation": "Both negative -> III."
+        },
+        {
+          "num": 43,
+          "question": "Distance from (-3, 2) to (5, 8).",
+          "choices": [
+            "8",
+            "10",
+            "12",
+            "14"
+          ],
+          "answer": "B",
+          "explanation": "sqrt(8^2 + 6^2) = sqrt(64 + 36) = sqrt(100) = 10."
+        },
+        {
+          "num": 44,
+          "question": "Mean of 18, 22, 25, 27, 28.",
+          "choices": [
+            "22",
+            "23",
+            "24",
+            "25"
+          ],
+          "answer": "C",
+          "explanation": "Sum 120; / 5 = 24."
+        },
+        {
+          "num": 45,
+          "question": "Median of 3, 7, 9, 12, 15.",
+          "choices": [
+            "7",
+            "9",
+            "10",
+            "12"
+          ],
+          "answer": "B",
+          "explanation": "Middle value (5 numbers, sorted) = 9."
+        },
+        {
+          "num": 46,
+          "question": "Range of 5, 11, 22, 18, 9.",
+          "choices": [
+            "13",
+            "15",
+            "17",
+            "22"
+          ],
+          "answer": "C",
+          "explanation": "22 - 5 = 17."
+        },
+        {
+          "num": 47,
+          "question": "P(drawing a heart from a standard 52-card deck)?",
+          "choices": [
+            "1/4",
+            "1/13",
+            "1/26",
+            "1/52"
+          ],
+          "answer": "A",
+          "explanation": "13/52 = 1/4."
+        },
+        {
+          "num": 48,
+          "question": "Two dice rolled. P(sum = 7)?",
+          "choices": [
+            "1/6",
+            "1/9",
+            "1/12",
+            "1/36"
+          ],
+          "answer": "A",
+          "explanation": "Six combinations out of 36: (1,6),(2,5),(3,4),(4,3),(5,2),(6,1) -> 6/36 = 1/6."
+        },
+        {
+          "num": 49,
+          "question": "Bag has 4 red, 6 blue. P(blue)?",
+          "choices": [
+            "2/5",
+            "3/5",
+            "4/10",
+            "1/2"
+          ],
+          "answer": "B",
+          "explanation": "6/10 = 3/5."
+        },
+        {
+          "num": 50,
+          "question": "Weighted: 75 (weight 2), 90 (weight 3). Weighted mean?",
+          "choices": [
+            "80",
+            "82",
+            "84",
+            "85"
+          ],
+          "answer": "C",
+          "explanation": "(150 + 270)/5 = 420/5 = 84."
+        }
+      ]
+    },
+    {
+      "testNum": 3,
+      "questions": [
+        {
+          "num": 1,
+          "question": "Compute 7,892 + 4,376.",
+          "choices": [
+            "12,168",
+            "12,268",
+            "12,368",
+            "12,468"
+          ],
+          "answer": "B",
+          "explanation": "7892 + 4376 = 12,268."
+        },
+        {
+          "num": 2,
+          "question": "Compute 50,000 - 18,734.",
+          "choices": [
+            "31,266",
+            "31,366",
+            "32,266",
+            "32,366"
+          ],
+          "answer": "A",
+          "explanation": "50,000 - 18,734 = 31,266."
+        },
+        {
+          "num": 3,
+          "question": "Compute 487 x 36.",
+          "choices": [
+            "17,432",
+            "17,532",
+            "17,632",
+            "17,732"
+          ],
+          "answer": "B",
+          "explanation": "487 x 30 = 14,610; 487 x 6 = 2,922; 14,610 + 2,922 = 17,532."
+        },
+        {
+          "num": 4,
+          "question": "Divide 6,440 / 14.",
+          "choices": [
+            "450",
+            "460",
+            "470",
+            "480"
+          ],
+          "answer": "B",
+          "explanation": "14 x 460 = 6,440."
+        },
+        {
+          "num": 5,
+          "question": "Evaluate -10 - (-7) + 5.",
+          "choices": [
+            "-2",
+            "2",
+            "-12",
+            "12"
+          ],
+          "answer": "B",
+          "explanation": "-10 + 7 + 5 = 2."
+        },
+        {
+          "num": 6,
+          "question": "Simplify 56/72.",
+          "choices": [
+            "7/8",
+            "7/9",
+            "8/9",
+            "6/8"
+          ],
+          "answer": "B",
+          "explanation": "GCF 8: 56/8 = 7; 72/8 = 9. Result 7/9."
+        },
+        {
+          "num": 7,
+          "question": "Compute 5/6 + 2/9.",
+          "choices": [
+            "7/15",
+            "19/18",
+            "11/18",
+            "1 1/18"
+          ],
+          "answer": "D",
+          "explanation": "Common denom 18: 15/18 + 4/18 = 19/18 = 1 1/18."
+        },
+        {
+          "num": 8,
+          "question": "Compute 4/5 - 3/10.",
+          "choices": [
+            "1/5",
+            "1/2",
+            "3/10",
+            "5/10"
+          ],
+          "answer": "B",
+          "explanation": "Common denom 10: 8/10 - 3/10 = 5/10 = 1/2."
+        },
+        {
+          "num": 9,
+          "question": "Compute 0.04 x 1.5.",
+          "choices": [
+            "0.06",
+            "0.6",
+            "0.006",
+            "0.66"
+          ],
+          "answer": "A",
+          "explanation": "4 x 15 = 60; total 3 decimal places -> 0.060 = 0.06."
+        },
+        {
+          "num": 10,
+          "question": "Compute 9.6 / 0.3.",
+          "choices": [
+            "3.2",
+            "32",
+            "0.32",
+            "320"
+          ],
+          "answer": "B",
+          "explanation": "Shift one place: 96 / 3 = 32."
+        },
+        {
+          "num": 11,
+          "question": "What is 15% of 480?",
+          "choices": [
+            "62",
+            "68",
+            "72",
+            "78"
+          ],
+          "answer": "C",
+          "explanation": "0.15 x 480 = 72."
+        },
+        {
+          "num": 12,
+          "question": "21 is what percent of 84?",
+          "choices": [
+            "20%",
+            "25%",
+            "30%",
+            "35%"
+          ],
+          "answer": "B",
+          "explanation": "21/84 = 0.25 = 25%."
+        },
+        {
+          "num": 13,
+          "question": "Salary went from $30,000 to $33,000. Percent increase?",
+          "choices": [
+            "8%",
+            "9%",
+            "10%",
+            "12%"
+          ],
+          "answer": "C",
+          "explanation": "$3,000/$30,000 = 0.10 = 10%."
+        },
+        {
+          "num": 14,
+          "question": "Convert 0.000064 to scientific notation.",
+          "choices": [
+            "6.4 x 10^(-4)",
+            "6.4 x 10^(-5)",
+            "6.4 x 10^(-6)",
+            "6.4 x 10^4"
+          ],
+          "answer": "B",
+          "explanation": "Move decimal 5 places right -> exponent -5."
+        },
+        {
+          "num": 15,
+          "question": "Find sqrt(324).",
+          "choices": [
+            "16",
+            "17",
+            "18",
+            "19"
+          ],
+          "answer": "C",
+          "explanation": "18 x 18 = 324."
+        },
+        {
+          "num": 16,
+          "question": "Evaluate 4x^2 - 3x when x = -2.",
+          "choices": [
+            "10",
+            "16",
+            "22",
+            "28"
+          ],
+          "answer": "C",
+          "explanation": "4(4) - 3(-2) = 16 + 6 = 22."
+        },
+        {
+          "num": 17,
+          "question": "Simplify 5(x - 2) - 2(x + 3).",
+          "choices": [
+            "3x - 16",
+            "3x - 4",
+            "7x + 4",
+            "3x + 4"
+          ],
+          "answer": "A",
+          "explanation": "5x - 10 - 2x - 6 = 3x - 16."
+        },
+        {
+          "num": 18,
+          "question": "Solve 6x - 11 = 19.",
+          "choices": [
+            "x = 4",
+            "x = 5",
+            "x = 6",
+            "x = 7"
+          ],
+          "answer": "B",
+          "explanation": "6x = 30; x = 5."
+        },
+        {
+          "num": 19,
+          "question": "Solve 3(x - 4) = 2x + 1.",
+          "choices": [
+            "x = 11",
+            "x = 12",
+            "x = 13",
+            "x = 14"
+          ],
+          "answer": "C",
+          "explanation": "3x - 12 = 2x + 1; x = 13."
+        },
+        {
+          "num": 20,
+          "question": "Solve x/3 + 4 = 9.",
+          "choices": [
+            "x = 12",
+            "x = 15",
+            "x = 18",
+            "x = 21"
+          ],
+          "answer": "B",
+          "explanation": "x/3 = 5; x = 15."
+        },
+        {
+          "num": 21,
+          "question": "Solve 2x + 7 < 17.",
+          "choices": [
+            "x < 5",
+            "x > 5",
+            "x < 12",
+            "x > 12"
+          ],
+          "answer": "A",
+          "explanation": "2x < 10; x < 5."
+        },
+        {
+          "num": 22,
+          "question": "Multiply (x - 4)(x + 6).",
+          "choices": [
+            "x^2 + 2x - 24",
+            "x^2 - 2x + 24",
+            "x^2 + 10x - 24",
+            "x^2 - 10x - 24"
+          ],
+          "answer": "A",
+          "explanation": "FOIL: x^2 + 6x - 4x - 24 = x^2 + 2x - 24."
+        },
+        {
+          "num": 23,
+          "question": "Factor x^2 - 100.",
+          "choices": [
+            "(x - 10)^2",
+            "(x - 10)(x + 10)",
+            "(x + 10)^2",
+            "(x - 100)(x + 1)"
+          ],
+          "answer": "B",
+          "explanation": "Difference of squares."
+        },
+        {
+          "num": 24,
+          "question": "Factor x^2 + 8x + 12.",
+          "choices": [
+            "(x + 2)(x + 6)",
+            "(x + 3)(x + 4)",
+            "(x + 1)(x + 12)",
+            "(x - 2)(x - 6)"
+          ],
+          "answer": "A",
+          "explanation": "2 and 6 multiply to 12 and add to 8."
+        },
+        {
+          "num": 25,
+          "question": "Add (2x^2 - 3x + 4) + (x^2 + 5x - 7).",
+          "choices": [
+            "3x^2 + 2x - 3",
+            "3x^2 + 8x + 11",
+            "x^2 + 2x - 3",
+            "3x^2 - 8x - 11"
+          ],
+          "answer": "A",
+          "explanation": "Combine: 3x^2 + 2x - 3."
+        },
+        {
+          "num": 26,
+          "question": "If f(x) = 5x - 8, find f(3).",
+          "choices": [
+            "5",
+            "7",
+            "9",
+            "11"
+          ],
+          "answer": "B",
+          "explanation": "5(3) - 8 = 7."
+        },
+        {
+          "num": 27,
+          "question": "Slope through (4, -1) and (10, 11).",
+          "choices": [
+            "1",
+            "2",
+            "3",
+            "12/6"
+          ],
+          "answer": "B",
+          "explanation": "(11 - (-1))/(10 - 4) = 12/6 = 2."
+        },
+        {
+          "num": 28,
+          "question": "y-intercept of y = 7x - 4.",
+          "choices": [
+            "7",
+            "-7",
+            "4",
+            "-4"
+          ],
+          "answer": "D",
+          "explanation": "b = -4."
+        },
+        {
+          "num": 29,
+          "question": "Equation of line through (0, 2) with slope 5.",
+          "choices": [
+            "y = 2x + 5",
+            "y = 5x + 2",
+            "y = 5x - 2",
+            "y = 2x - 5"
+          ],
+          "answer": "B",
+          "explanation": "y = mx + b -> y = 5x + 2."
+        },
+        {
+          "num": 30,
+          "question": "Solve: x + y = 8 and x - y = 2.",
+          "choices": [
+            "(5, 3)",
+            "(3, 5)",
+            "(4, 4)",
+            "(6, 2)"
+          ],
+          "answer": "A",
+          "explanation": "Add: 2x = 10; x = 5; y = 3."
+        },
+        {
+          "num": 31,
+          "question": "Solve x^2 - 49 = 0.",
+          "choices": [
+            "x = 7",
+            "x = -7",
+            "x = +/- 7",
+            "x = 49"
+          ],
+          "answer": "C",
+          "explanation": "x = 7 or -7."
+        },
+        {
+          "num": 32,
+          "question": "x-intercept of y = 4x - 12.",
+          "choices": [
+            "(-3, 0)",
+            "(3, 0)",
+            "(0, 3)",
+            "(0, -12)"
+          ],
+          "answer": "B",
+          "explanation": "Set y = 0: 4x = 12; x = 3."
+        },
+        {
+          "num": 33,
+          "question": "Are y = (1/3)x + 1 and y = -3x are: parallel/perpendicular?",
+          "choices": [
+            "Parallel",
+            "Perpendicular",
+            "Neither",
+            "Same line"
+          ],
+          "answer": "B",
+          "explanation": "(1/3) x (-3) = -1."
+        },
+        {
+          "num": 34,
+          "question": "Two angles of a triangle are 47 and 88. Third?",
+          "choices": [
+            "35",
+            "45",
+            "55",
+            "65"
+          ],
+          "answer": "B",
+          "explanation": "180 - 47 - 88 = 45."
+        },
+        {
+          "num": 35,
+          "question": "Supplement of 117.",
+          "choices": [
+            "63",
+            "73",
+            "83",
+            "93"
+          ],
+          "answer": "A",
+          "explanation": "180 - 117 = 63."
+        },
+        {
+          "num": 36,
+          "question": "Area of a triangle base 18, height 11.",
+          "choices": [
+            "88",
+            "99",
+            "110",
+            "121"
+          ],
+          "answer": "B",
+          "explanation": "(1/2)(18)(11) = 99."
+        },
+        {
+          "num": 37,
+          "question": "Circumference of circle r = 9 (use 3.14).",
+          "choices": [
+            "28.26",
+            "56.52",
+            "254.34",
+            "12.56"
+          ],
+          "answer": "B",
+          "explanation": "C = 2 pi r = 2 x 3.14 x 9 = 56.52."
+        },
+        {
+          "num": 38,
+          "question": "Area circle r = 7 (use 22/7).",
+          "choices": [
+            "44",
+            "154",
+            "150",
+            "100"
+          ],
+          "answer": "B",
+          "explanation": "(22/7) x 49 = 154."
+        },
+        {
+          "num": 39,
+          "question": "Right triangle legs 7 and 24. Hypotenuse?",
+          "choices": [
+            "23",
+            "25",
+            "27",
+            "31"
+          ],
+          "answer": "B",
+          "explanation": "49 + 576 = 625; sqrt = 25."
+        },
+        {
+          "num": 40,
+          "question": "Volume of a box 6 x 5 x 4.",
+          "choices": [
+            "100",
+            "110",
+            "120",
+            "130"
+          ],
+          "answer": "C",
+          "explanation": "6 x 5 x 4 = 120."
+        },
+        {
+          "num": 41,
+          "question": "Volume of cylinder r=4, h=7 (use 3.14).",
+          "choices": [
+            "351.68",
+            "439.6",
+            "175.84",
+            "112"
+          ],
+          "answer": "A",
+          "explanation": "3.14 x 16 x 7 = 351.68."
+        },
+        {
+          "num": 42,
+          "question": "Distance from (-1, 2) to (5, 10).",
+          "choices": [
+            "8",
+            "10",
+            "12",
+            "14"
+          ],
+          "answer": "B",
+          "explanation": "sqrt(6^2 + 8^2) = sqrt(100) = 10."
+        },
+        {
+          "num": 43,
+          "question": "Midpoint of (3, -2) and (9, 8).",
+          "choices": [
+            "(6, 3)",
+            "(5, 3)",
+            "(6, 5)",
+            "(3, 6)"
+          ],
+          "answer": "A",
+          "explanation": "((3+9)/2, (-2+8)/2) = (6, 3)."
+        },
+        {
+          "num": 44,
+          "question": "Mean of 12, 14, 18, 20, 21.",
+          "choices": [
+            "15",
+            "16",
+            "17",
+            "18"
+          ],
+          "answer": "C",
+          "explanation": "Sum 85 / 5 = 17."
+        },
+        {
+          "num": 45,
+          "question": "Median of 5, 8, 12, 14, 18, 22.",
+          "choices": [
+            "12",
+            "13",
+            "14",
+            "15"
+          ],
+          "answer": "B",
+          "explanation": "Average of 12 and 14 = 13."
+        },
+        {
+          "num": 46,
+          "question": "Range of 7, 19, 24, 11, 32.",
+          "choices": [
+            "20",
+            "23",
+            "25",
+            "32"
+          ],
+          "answer": "C",
+          "explanation": "32 - 7 = 25."
+        },
+        {
+          "num": 47,
+          "question": "P(rolling a multiple of 3 on a die)?",
+          "choices": [
+            "1/6",
+            "1/3",
+            "1/2",
+            "2/3"
+          ],
+          "answer": "B",
+          "explanation": "Multiples are 3 and 6 -> 2/6 = 1/3."
+        },
+        {
+          "num": 48,
+          "question": "P(getting tails on all three of 3 fair coin flips)?",
+          "choices": [
+            "1/2",
+            "1/4",
+            "1/8",
+            "1/16"
+          ],
+          "answer": "C",
+          "explanation": "(1/2)^3 = 1/8."
+        },
+        {
+          "num": 49,
+          "question": "Bag has 3 red, 7 blue. P(red)?",
+          "choices": [
+            "3/10",
+            "7/10",
+            "1/3",
+            "3/7"
+          ],
+          "answer": "A",
+          "explanation": "3/10."
+        },
+        {
+          "num": 50,
+          "question": "Weighted: 60(2), 80(1), 100(2). Weighted mean?",
+          "choices": [
+            "72",
+            "76",
+            "78",
+            "80"
+          ],
+          "answer": "D",
+          "explanation": "(60 x 2 + 80 x 1 + 100 x 2) / (2 + 1 + 2) = (120 + 80 + 200)/5 = 400/5 = 80."
+        }
+      ]
+    }
+  ]
+}

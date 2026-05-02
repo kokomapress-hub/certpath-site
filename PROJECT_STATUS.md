@@ -21,7 +21,9 @@ Single source of truth for what's live, what's wired, and what's pending. Update
 | 4 | poss | POSS | ✅ B0GX9TQMQ5 | ✅ 2eG41 | ✅ nHbBm | ✅ |
 | 5 | csp | CSP | ✅ B0GXDZ91DZ | ✅ CXKYO | ✅ 2btkV | ✅ |
 | 6 | chst | CHST | ✅ B0GXJ74XG7 | ✅ F51cp | ✅ Z4jNR | ✅ |
-| 7 | nhie | Home Inspector (NHIE) | ⏳ Pending | ⏳ | ⏳ | placeholder |
+| 7 | tabe-a | TABE Level A Math | ✅ B0GZCNBK3V | ⏳ | ⏳ | ✅ |
+| 8 | tabe-d | TABE Level D Math | ⏳ Pending | ⏳ | ⏳ | placeholder |
+| 9 | nhie | Home Inspector (NHIE) | ⏳ Pending | ⏳ | ⏳ | placeholder |
 | 8 | sts | STS | ⏳ Pending | ⏳ | ⏳ | placeholder |
 | 9 | cpt | MSSC CPT | ⏳ Pending | ⏳ | ⏳ | placeholder |
 | 10 | ncidq | NCIDQ | ⏳ Pending | ⏳ | ⏳ | placeholder |
@@ -89,9 +91,11 @@ Single source of truth for what's live, what's wired, and what's pending. Update
 
 - [ ] **KDP dashboard**: update all 6 paperback list prices to $19.99 (~72hr propagation)
 - [ ] **Payhip dashboard**: update all 6 e-book product prices to $9.99 so checkout matches site
-- [ ] Books 7-10: complete KDP publishing (NHIE, STS, MSSC CPT, NCIDQ)
-- [ ] Books 7-10: generate cheatsheet PDFs once books are final
-- [ ] Books 7-10: replace placeholder SVG covers with real PNGs (need cover PDFs in `Cover/V1/`)
+- [ ] **TABE Level A:** create Payhip products (e-book + cheatsheet) and generate cheatsheet PDF
+- [ ] **TABE Level D:** complete KDP publishing → flip `published: true` + add ASIN
+- [ ] Books 9-12: complete KDP publishing (NHIE, STS, MSSC CPT, NCIDQ)
+- [ ] Books 9-12: generate cheatsheet PDFs once books are final
+- [ ] Books 9-12: replace placeholder SVG covers with real PNGs (need cover PDFs in `Cover/V1/`)
 - [ ] Verify end-to-end Payhip checkout for at least one purchase
 - [ ] Optional: link Wise as secondary PayPal withdrawal destination once transaction history accumulates
 
