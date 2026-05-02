@@ -22,7 +22,7 @@ Static website serving timed practice tests for verified book owners of CertPath
 | POSS Exam | `POSS-2LI3E-RUWFW` |
 | CSP Exam | `CSP-D8F04-0KMZ8` |
 | CHST Exam | `CHST-CPIQJ-5U07R` |
-| TABE Level A Math | `TABEA-O4YM9-8V59X` |
+| TABE Level A Math | `TABE-24R9N-7AR5U` |
 | TABE Level D Math | `TABED-J5U0L-VCVIO` |
 | Home Inspector (NHIE) | `NHIE-OG6WS-Z4YE9` |
 | STS Exam | `STS-3H7RO-WGGPI` |
