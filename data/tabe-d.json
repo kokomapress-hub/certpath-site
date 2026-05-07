@@ -1,0 +1,1218 @@
+{
+  "slug": "tabe-d",
+  "title": "TABE 11 & 12 Math Workbook Level D",
+  "code": "TABE-D6P3W-XQ8N5",
+  "timeMinutes": 75,
+  "tests": [
+    {
+      "testNum": 1,
+      "questions": [
+        {
+          "num": 1,
+          "question": "Compute -19 + 27.",
+          "choices": [
+            "-8",
+            "8",
+            "-46",
+            "46"
+          ],
+          "answer": "B",
+          "explanation": "-19 + 27 = 8."
+        },
+        {
+          "num": 2,
+          "question": "Compute (-12) - (-5).",
+          "choices": [
+            "-7",
+            "-17",
+            "7",
+            "17"
+          ],
+          "answer": "A",
+          "explanation": "-12 + 5 = -7."
+        },
+        {
+          "num": 3,
+          "question": "Compute (-8) x 9.",
+          "choices": [
+            "-72",
+            "72",
+            "-1",
+            "1"
+          ],
+          "answer": "A",
+          "explanation": "Different signs -> negative."
+        },
+        {
+          "num": 4,
+          "question": "Evaluate 8 + 3 x (10 - 6).",
+          "choices": [
+            "20",
+            "44",
+            "32",
+            "12"
+          ],
+          "answer": "A",
+          "explanation": "Parens 4; 3*4=12; 8+12=20."
+        },
+        {
+          "num": 5,
+          "question": "Compute 5/8 + 1/6.",
+          "choices": [
+            "6/14",
+            "19/24",
+            "11/14",
+            "23/24"
+          ],
+          "answer": "B",
+          "explanation": "Common denom 24: 15/24 + 4/24 = 19/24."
+        },
+        {
+          "num": 6,
+          "question": "Compute 7/9 - 1/3.",
+          "choices": [
+            "6/6",
+            "4/9",
+            "2/3",
+            "1/3"
+          ],
+          "answer": "B",
+          "explanation": "1/3 = 3/9. 7/9 - 3/9 = 4/9."
+        },
+        {
+          "num": 7,
+          "question": "Compute 4/9 x 6/8.",
+          "choices": [
+            "1/3",
+            "10/17",
+            "1/2",
+            "24/72"
+          ],
+          "answer": "A",
+          "explanation": "24/72 = 1/3."
+        },
+        {
+          "num": 8,
+          "question": "Convert 14/3 to mixed number.",
+          "choices": [
+            "3 2/3",
+            "4 1/3",
+            "4 2/3",
+            "5"
+          ],
+          "answer": "C",
+          "explanation": "14/3 = 4 R 2 = 4 2/3."
+        },
+        {
+          "num": 9,
+          "question": "Compute 7.45 + 2.876.",
+          "choices": [
+            "10.226",
+            "10.326",
+            "10.336",
+            "10.426"
+          ],
+          "answer": "B",
+          "explanation": "7.450 + 2.876 = 10.326."
+        },
+        {
+          "num": 10,
+          "question": "Compute 14.4 / 0.6.",
+          "choices": [
+            "2.4",
+            "24",
+            "240",
+            "0.24"
+          ],
+          "answer": "B",
+          "explanation": "Shift 1 place: 144/6 = 24."
+        },
+        {
+          "num": 11,
+          "question": "Order from least to greatest: 0.6, 5/8, 0.58.",
+          "choices": [
+            "0.58, 0.6, 5/8",
+            "5/8, 0.6, 0.58",
+            "0.6, 5/8, 0.58",
+            "0.58, 5/8, 0.6"
+          ],
+          "answer": "A",
+          "explanation": "5/8 = 0.625. So 0.58 < 0.6 < 0.625."
+        },
+        {
+          "num": 12,
+          "question": "If 6 lbs cost $9, what do 14 cost?",
+          "choices": [
+            "$18",
+            "$21",
+            "$24",
+            "$28"
+          ],
+          "answer": "B",
+          "explanation": "$1.50/lb x 14 = $21."
+        },
+        {
+          "num": 13,
+          "question": "Solve x/12 = 9/4.",
+          "choices": [
+            "x = 24",
+            "x = 27",
+            "x = 32",
+            "x = 36"
+          ],
+          "answer": "B",
+          "explanation": "Cross multiply: 4x = 108; x = 27."
+        },
+        {
+          "num": 14,
+          "question": "What is 25% of 240?",
+          "choices": [
+            "48",
+            "60",
+            "65",
+            "75"
+          ],
+          "answer": "B",
+          "explanation": "0.25 x 240 = 60."
+        },
+        {
+          "num": 15,
+          "question": "Salary $48,000 raised 10%. New?",
+          "choices": [
+            "$50,400",
+            "$52,000",
+            "$52,800",
+            "$53,200"
+          ],
+          "answer": "C",
+          "explanation": "0.10 x 48000 = 4800; 48000+4800 = 52800."
+        },
+        {
+          "num": 16,
+          "question": "Stock fell from $50 to $42. Percent decrease?",
+          "choices": [
+            "12%",
+            "14%",
+            "16%",
+            "20%"
+          ],
+          "answer": "C",
+          "explanation": "8/50 = 0.16 = 16%."
+        },
+        {
+          "num": 17,
+          "question": "Compute 3^4.",
+          "choices": [
+            "12",
+            "27",
+            "64",
+            "81"
+          ],
+          "answer": "D",
+          "explanation": "3*3*3*3 = 81."
+        },
+        {
+          "num": 18,
+          "question": "Compute sqrt(169).",
+          "choices": [
+            "12",
+            "13",
+            "14",
+            "15"
+          ],
+          "answer": "B",
+          "explanation": "13*13 = 169."
+        },
+        {
+          "num": 19,
+          "question": "Write 0.0048 in scientific notation.",
+          "choices": [
+            "4.8 x 10^3",
+            "4.8 x 10^(-3)",
+            "48 x 10^(-3)",
+            "4.8 x 10^(-2)"
+          ],
+          "answer": "B",
+          "explanation": "Move decimal 3 right: 4.8 x 10^(-3)."
+        },
+        {
+          "num": 20,
+          "question": "(2 x 10^4) x (3 x 10^5) = ?",
+          "choices": [
+            "6 x 10^9",
+            "5 x 10^9",
+            "6 x 10^20",
+            "23 x 10^9"
+          ],
+          "answer": "A",
+          "explanation": "Multiply 2x3=6; add exponents 4+5=9."
+        },
+        {
+          "num": 21,
+          "question": "Evaluate 4x - 2y when x = 3, y = -5.",
+          "choices": [
+            "2",
+            "12",
+            "22",
+            "-2"
+          ],
+          "answer": "C",
+          "explanation": "4(3) - 2(-5) = 12 + 10 = 22."
+        },
+        {
+          "num": 22,
+          "question": "Distribute: -3(2x - 7).",
+          "choices": [
+            "-6x - 21",
+            "-6x + 21",
+            "6x + 21",
+            "-6x + 7"
+          ],
+          "answer": "B",
+          "explanation": "-3*2x = -6x; -3*-7 = 21."
+        },
+        {
+          "num": 23,
+          "question": "Solve 2x + 9 = 25.",
+          "choices": [
+            "x = 6",
+            "x = 7",
+            "x = 8",
+            "x = 9"
+          ],
+          "answer": "C",
+          "explanation": "2x = 16; x = 8."
+        },
+        {
+          "num": 24,
+          "question": "Solve 5x - 4 = 2x + 14.",
+          "choices": [
+            "x = 4",
+            "x = 5",
+            "x = 6",
+            "x = 7"
+          ],
+          "answer": "C",
+          "explanation": "3x = 18; x = 6."
+        },
+        {
+          "num": 25,
+          "question": "Solve 4x + 1 > 21.",
+          "choices": [
+            "x > 5",
+            "x < 5",
+            "x > 11/2",
+            "x >= 5"
+          ],
+          "answer": "A",
+          "explanation": "4x > 20; x > 5."
+        },
+        {
+          "num": 26,
+          "question": "f(x) = 2x + 7. Find f(5).",
+          "choices": [
+            "12",
+            "17",
+            "9",
+            "10"
+          ],
+          "answer": "B",
+          "explanation": "2(5) + 7 = 17."
+        },
+        {
+          "num": 27,
+          "question": "Slope through (2, 1) and (6, 13).",
+          "choices": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "answer": "C",
+          "explanation": "(13-1)/(6-2) = 12/4 = 3."
+        },
+        {
+          "num": 28,
+          "question": "y-intercept of y = -5x + 9.",
+          "choices": [
+            "-5",
+            "5",
+            "9",
+            "-9"
+          ],
+          "answer": "C",
+          "explanation": "b = 9 in y = mx + b."
+        },
+        {
+          "num": 29,
+          "question": "Equation: slope 4 through (0, -3).",
+          "choices": [
+            "y = 4x + 3",
+            "y = -3x + 4",
+            "y = 4x - 3",
+            "y = 3x - 4"
+          ],
+          "answer": "C",
+          "explanation": "y = 4x - 3 (slope 4, y-int -3)."
+        },
+        {
+          "num": 30,
+          "question": "Table: x = 1,2,3,4 and y = 2,4,8,16. Linear or nonlinear?",
+          "choices": [
+            "Linear",
+            "Nonlinear",
+            "Constant",
+            "Cannot tell"
+          ],
+          "answer": "B",
+          "explanation": "y doubles each time -> exponential, not linear."
+        },
+        {
+          "num": 31,
+          "question": "Right triangle legs 9, 12. Hypotenuse?",
+          "choices": [
+            "13",
+            "14",
+            "15",
+            "16"
+          ],
+          "answer": "C",
+          "explanation": "81 + 144 = 225; sqrt = 15."
+        },
+        {
+          "num": 32,
+          "question": "Hypotenuse 25, leg 7. Other leg?",
+          "choices": [
+            "18",
+            "24",
+            "20",
+            "26"
+          ],
+          "answer": "B",
+          "explanation": "625 - 49 = 576; sqrt = 24."
+        },
+        {
+          "num": 33,
+          "question": "Distance from (0, 0) to (12, 5).",
+          "choices": [
+            "13",
+            "14",
+            "15",
+            "17"
+          ],
+          "answer": "A",
+          "explanation": "sqrt(144+25) = sqrt(169) = 13."
+        },
+        {
+          "num": 34,
+          "question": "Area triangle base 16, height 9.",
+          "choices": [
+            "72",
+            "144",
+            "128",
+            "108"
+          ],
+          "answer": "A",
+          "explanation": "(1/2)(16)(9) = 72."
+        },
+        {
+          "num": 35,
+          "question": "Area circle r = 5 (3.14).",
+          "choices": [
+            "31.4",
+            "78.5",
+            "15.7",
+            "157"
+          ],
+          "answer": "B",
+          "explanation": "3.14 * 25 = 78.5."
+        },
+        {
+          "num": 36,
+          "question": "Volume of cube side 6.",
+          "choices": [
+            "216",
+            "108",
+            "36",
+            "144"
+          ],
+          "answer": "A",
+          "explanation": "6^3 = 216."
+        },
+        {
+          "num": 37,
+          "question": "Volume cylinder r = 3, h = 8 (3.14).",
+          "choices": [
+            "72",
+            "150.72",
+            "226.08",
+            "75.36"
+          ],
+          "answer": "C",
+          "explanation": "3.14 * 9 * 8 = 226.08."
+        },
+        {
+          "num": 38,
+          "question": "Triangles similar 2:5; small side 8 -> large?",
+          "choices": [
+            "10",
+            "20",
+            "16",
+            "13"
+          ],
+          "answer": "B",
+          "explanation": "8 / 2 = 4; 4 * 5 = 20."
+        },
+        {
+          "num": 39,
+          "question": "Midpoint of (2, 4) and (8, 10).",
+          "choices": [
+            "(5, 7)",
+            "(6, 6)",
+            "(10, 14)",
+            "(3, 3)"
+          ],
+          "answer": "A",
+          "explanation": "((2+8)/2, (4+10)/2) = (5, 7)."
+        },
+        {
+          "num": 40,
+          "question": "Mean of 12, 16, 20, 24.",
+          "choices": [
+            "16",
+            "17",
+            "18",
+            "20"
+          ],
+          "answer": "C",
+          "explanation": "Sum 72; / 4 = 18."
+        },
+        {
+          "num": 41,
+          "question": "Median of 5, 9, 14, 19, 24.",
+          "choices": [
+            "9",
+            "14",
+            "19",
+            "12"
+          ],
+          "answer": "B",
+          "explanation": "Middle of sorted = 14."
+        },
+        {
+          "num": 42,
+          "question": "Range of 22, 8, 15, 41, 19.",
+          "choices": [
+            "19",
+            "33",
+            "26",
+            "41"
+          ],
+          "answer": "B",
+          "explanation": "41 - 8 = 33."
+        },
+        {
+          "num": 43,
+          "question": "Stem-and-leaf plot: stem 2 has leaves 1, 4, 8 and stem 3 has leaves 0, 5. How many total values, and what is the largest?",
+          "choices": [
+            "5 values, largest 35",
+            "5 values, largest 38",
+            "4 values, largest 35",
+            "5 values, largest 350"
+          ],
+          "answer": "A",
+          "explanation": "Leaves: 21, 24, 28, 30, 35 - five values, largest 35."
+        },
+        {
+          "num": 44,
+          "question": "Histogram bins 0-9, 10-19, 20-29, 30-39 with heights 4, 11, 9, 6. How many values are at least 20?",
+          "choices": [
+            "9",
+            "11",
+            "15",
+            "20"
+          ],
+          "answer": "C",
+          "explanation": "9 + 6 = 15."
+        },
+        {
+          "num": 45,
+          "question": "Five-number summary of 3, 6, 9, 12, 15, 18, 21, 24. Find the IQR.",
+          "choices": [
+            "6",
+            "9",
+            "12",
+            "15"
+          ],
+          "answer": "C",
+          "explanation": "Q1 = (6+9)/2 = 7.5; Q3 = (18+21)/2 = 19.5; IQR = 12."
+        },
+        {
+          "num": 46,
+          "question": "Scatter plot: as hours studied increase, test score increases. Type of association?",
+          "choices": [
+            "Negative",
+            "Positive",
+            "None",
+            "Constant"
+          ],
+          "answer": "B",
+          "explanation": "Both variables rise together = positive association."
+        },
+        {
+          "num": 47,
+          "question": "Two-way table: 18 boys play sport, 12 boys do not, 14 girls play sport, 16 girls do not. P(student plays sport)?",
+          "choices": [
+            "1/2",
+            "8/15",
+            "32/60",
+            "13/30"
+          ],
+          "answer": "B",
+          "explanation": "32 play / 60 total = 8/15."
+        },
+        {
+          "num": 48,
+          "question": "Random sample 80 voters: 32 favor X. In 4,000 voters, predicted favorers?",
+          "choices": [
+            "1,200",
+            "1,600",
+            "1,800",
+            "2,000"
+          ],
+          "answer": "B",
+          "explanation": "32/80 = 0.4; 0.4 * 4000 = 1,600."
+        },
+        {
+          "num": 49,
+          "question": "Standard die. P(rolling a 2 or 5)?",
+          "choices": [
+            "1/6",
+            "1/3",
+            "1/2",
+            "2/3"
+          ],
+          "answer": "B",
+          "explanation": "2 favorable / 6 = 1/3."
+        },
+        {
+          "num": 50,
+          "question": "Independent: P(A) = 0.5, P(B) = 0.4. P(A and B)?",
+          "choices": [
+            "0.10",
+            "0.20",
+            "0.45",
+            "0.90"
+          ],
+          "answer": "B",
+          "explanation": "0.5 * 0.4 = 0.20."
+        }
+      ]
+    },
+    {
+      "testNum": 2,
+      "questions": [
+        {
+          "num": 1,
+          "question": "Compute -25 + 38.",
+          "choices": [
+            "13",
+            "-13",
+            "63",
+            "-63"
+          ],
+          "answer": "A",
+          "explanation": "38 - 25 = 13."
+        },
+        {
+          "num": 2,
+          "question": "Compute 14 - (-9).",
+          "choices": [
+            "5",
+            "-5",
+            "23",
+            "-23"
+          ],
+          "answer": "C",
+          "explanation": "14 + 9 = 23."
+        },
+        {
+          "num": 3,
+          "question": "Compute (-6)^2.",
+          "choices": [
+            "-36",
+            "36",
+            "12",
+            "-12"
+          ],
+          "answer": "B",
+          "explanation": "(-6)(-6) = 36."
+        },
+        {
+          "num": 4,
+          "question": "Compute 24 - 2 x (5 + 1).",
+          "choices": [
+            "10",
+            "12",
+            "132",
+            "0"
+          ],
+          "answer": "B",
+          "explanation": "Parens 6; 2*6=12; 24-12=12."
+        },
+        {
+          "num": 5,
+          "question": "5/12 + 3/8 = ?",
+          "choices": [
+            "19/24",
+            "8/20",
+            "11/24",
+            "2/5"
+          ],
+          "answer": "A",
+          "explanation": "Common denom 24: 10/24 + 9/24 = 19/24."
+        },
+        {
+          "num": 6,
+          "question": "9/10 - 2/5 = ?",
+          "choices": [
+            "7/5",
+            "1/2",
+            "7/10",
+            "3/10"
+          ],
+          "answer": "B",
+          "explanation": "2/5 = 4/10; 9/10 - 4/10 = 5/10 = 1/2."
+        },
+        {
+          "num": 7,
+          "question": "5/8 / 1/4 = ?",
+          "choices": [
+            "5/32",
+            "5/2",
+            "5/12",
+            "20"
+          ],
+          "answer": "B",
+          "explanation": "5/8 x 4/1 = 20/8 = 5/2."
+        },
+        {
+          "num": 8,
+          "question": "9.8 - 4.275 = ?",
+          "choices": [
+            "5.525",
+            "5.625",
+            "5.575",
+            "5.475"
+          ],
+          "answer": "A",
+          "explanation": "9.800 - 4.275 = 5.525."
+        },
+        {
+          "num": 9,
+          "question": "1.2 x 0.5 = ?",
+          "choices": [
+            "0.6",
+            "0.06",
+            "0.12",
+            "6"
+          ],
+          "answer": "A",
+          "explanation": "12*5=60; 2 decimals -> 0.60 = 0.6."
+        },
+        {
+          "num": 10,
+          "question": "27.6 / 1.2 = ?",
+          "choices": [
+            "20",
+            "23",
+            "25",
+            "23.5"
+          ],
+          "answer": "B",
+          "explanation": "276/12 = 23."
+        },
+        {
+          "num": 11,
+          "question": "Which number is irrational?",
+          "choices": [
+            "0.75",
+            "sqrt(16)",
+            "sqrt(20)",
+            "5/8"
+          ],
+          "answer": "C",
+          "explanation": "sqrt(20) is not a perfect square so it cannot be written as a fraction."
+        },
+        {
+          "num": 12,
+          "question": "If 9 lbs cost $24, cost of 15?",
+          "choices": [
+            "$36",
+            "$40",
+            "$45",
+            "$48"
+          ],
+          "answer": "B",
+          "explanation": "Unit $24/9 ~ $2.67/lb; 15 x 8/3 = 40."
+        },
+        {
+          "num": 13,
+          "question": "Solve x/15 = 4/6.",
+          "choices": [
+            "x = 8",
+            "x = 10",
+            "x = 12",
+            "x = 9"
+          ],
+          "answer": "B",
+          "explanation": "Cross: 6x = 60; x = 10."
+        },
+        {
+          "num": 14,
+          "question": "What is 12% of 350?",
+          "choices": [
+            "35",
+            "42",
+            "48",
+            "52"
+          ],
+          "answer": "B",
+          "explanation": "0.12 x 350 = 42."
+        },
+        {
+          "num": 15,
+          "question": "$80 item, 25% off. Final?",
+          "choices": [
+            "$55",
+            "$60",
+            "$65",
+            "$70"
+          ],
+          "answer": "B",
+          "explanation": "0.75 x 80 = $60."
+        },
+        {
+          "num": 16,
+          "question": "Stock $40 to $46. Increase?",
+          "choices": [
+            "10%",
+            "12%",
+            "15%",
+            "20%"
+          ],
+          "answer": "C",
+          "explanation": "6/40 = 0.15 = 15%."
+        },
+        {
+          "num": 17,
+          "question": "Compute 4^3.",
+          "choices": [
+            "12",
+            "16",
+            "64",
+            "81"
+          ],
+          "answer": "C",
+          "explanation": "4*4*4 = 64."
+        },
+        {
+          "num": 18,
+          "question": "Simplify x^9 / x^3.",
+          "choices": [
+            "x^3",
+            "x^6",
+            "x^12",
+            "x^27"
+          ],
+          "answer": "B",
+          "explanation": "Subtract exponents: 9-3=6."
+        },
+        {
+          "num": 19,
+          "question": "Compute sqrt(225).",
+          "choices": [
+            "12",
+            "13",
+            "14",
+            "15"
+          ],
+          "answer": "D",
+          "explanation": "15*15 = 225."
+        },
+        {
+          "num": 20,
+          "question": "Convert 4.5 x 10^(-2) to standard.",
+          "choices": [
+            "450",
+            "0.45",
+            "0.045",
+            "45"
+          ],
+          "answer": "C",
+          "explanation": "Move decimal 2 left: 0.045."
+        },
+        {
+          "num": 21,
+          "question": "Evaluate 5x - 4 when x = 3.",
+          "choices": [
+            "7",
+            "11",
+            "13",
+            "15"
+          ],
+          "answer": "B",
+          "explanation": "5(3) - 4 = 11."
+        },
+        {
+          "num": 22,
+          "question": "Distribute: 4(3x - 5).",
+          "choices": [
+            "12x - 20",
+            "12x + 20",
+            "7x - 20",
+            "12x - 5"
+          ],
+          "answer": "A",
+          "explanation": "4*3x=12x; 4*(-5)=-20."
+        },
+        {
+          "num": 23,
+          "question": "Solve 6x - 5 = 25.",
+          "choices": [
+            "x = 4",
+            "x = 5",
+            "x = 6",
+            "x = 7"
+          ],
+          "answer": "B",
+          "explanation": "6x = 30; x = 5."
+        },
+        {
+          "num": 24,
+          "question": "Solve 2(x + 3) = 18.",
+          "choices": [
+            "x = 5",
+            "x = 6",
+            "x = 7",
+            "x = 8"
+          ],
+          "answer": "B",
+          "explanation": "2x + 6 = 18; 2x = 12; x = 6."
+        },
+        {
+          "num": 25,
+          "question": "Solve 3x - 8 < 13.",
+          "choices": [
+            "x < 7",
+            "x > 7",
+            "x < 5",
+            "x < 21/3"
+          ],
+          "answer": "A",
+          "explanation": "3x < 21; x < 7."
+        },
+        {
+          "num": 26,
+          "question": "f(x) = x^2 - 5. Find f(4).",
+          "choices": [
+            "3",
+            "11",
+            "15",
+            "21"
+          ],
+          "answer": "B",
+          "explanation": "16 - 5 = 11."
+        },
+        {
+          "num": 27,
+          "question": "Slope through (3, 2) and (7, 14).",
+          "choices": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "answer": "C",
+          "explanation": "(14-2)/(7-3) = 12/4 = 3."
+        },
+        {
+          "num": 28,
+          "question": "y-intercept of y = 3x - 7.",
+          "choices": [
+            "3",
+            "-3",
+            "7",
+            "-7"
+          ],
+          "answer": "D",
+          "explanation": "b = -7."
+        },
+        {
+          "num": 29,
+          "question": "Slope perpendicular to y = (3/4)x + 1.",
+          "choices": [
+            "3/4",
+            "-3/4",
+            "4/3",
+            "-4/3"
+          ],
+          "answer": "D",
+          "explanation": "Negative reciprocal of 3/4 is -4/3."
+        },
+        {
+          "num": 30,
+          "question": "Table: x=0,1,2,3 and y=4,7,10,13. Linear function rule?",
+          "choices": [
+            "y=3x+4",
+            "y=4x+3",
+            "y=2x+4",
+            "y=x+4"
+          ],
+          "answer": "A",
+          "explanation": "y rises by 3 each time x rises by 1; y-intercept 4."
+        },
+        {
+          "num": 31,
+          "question": "Right triangle legs 8, 15. Hypotenuse?",
+          "choices": [
+            "17",
+            "18",
+            "23",
+            "25"
+          ],
+          "answer": "A",
+          "explanation": "64 + 225 = 289; sqrt = 17."
+        },
+        {
+          "num": 32,
+          "question": "Diagonal of 5 x 12 rectangle.",
+          "choices": [
+            "13",
+            "14",
+            "15",
+            "17"
+          ],
+          "answer": "A",
+          "explanation": "sqrt(25+144) = sqrt(169) = 13."
+        },
+        {
+          "num": 33,
+          "question": "Area trapezoid bases 6, 10, height 5.",
+          "choices": [
+            "35",
+            "40",
+            "45",
+            "50"
+          ],
+          "answer": "B",
+          "explanation": "(1/2)(16)(5) = 40."
+        },
+        {
+          "num": 34,
+          "question": "Area circle r = 7 (use 22/7).",
+          "choices": [
+            "132",
+            "144",
+            "154",
+            "168"
+          ],
+          "answer": "C",
+          "explanation": "(22/7)(49) = 154."
+        },
+        {
+          "num": 35,
+          "question": "Volume box 5 x 4 x 6.",
+          "choices": [
+            "96",
+            "108",
+            "120",
+            "144"
+          ],
+          "answer": "C",
+          "explanation": "5*4*6 = 120."
+        },
+        {
+          "num": 36,
+          "question": "Volume cone r = 3, h = 4 (3.14).",
+          "choices": [
+            "12.56",
+            "37.68",
+            "113.04",
+            "75.36"
+          ],
+          "answer": "B",
+          "explanation": "(1/3)(3.14)(9)(4) = 37.68."
+        },
+        {
+          "num": 37,
+          "question": "Surface area cube side 5.",
+          "choices": [
+            "75",
+            "100",
+            "125",
+            "150"
+          ],
+          "answer": "D",
+          "explanation": "6 * 5^2 = 150."
+        },
+        {
+          "num": 38,
+          "question": "Dilate (4, 8) by a factor of 1/2 from the origin.",
+          "choices": [
+            "(2, 4)",
+            "(8, 16)",
+            "(4, 4)",
+            "(2, 16)"
+          ],
+          "answer": "A",
+          "explanation": "Multiply each coordinate by 1/2: (4*1/2, 8*1/2) = (2, 4)."
+        },
+        {
+          "num": 39,
+          "question": "Quadrant of (5, -8)?",
+          "choices": [
+            "I",
+            "II",
+            "III",
+            "IV"
+          ],
+          "answer": "D",
+          "explanation": "Pos x, neg y -> IV."
+        },
+        {
+          "num": 40,
+          "question": "Mean of 8, 12, 16, 20, 24.",
+          "choices": [
+            "14",
+            "15",
+            "16",
+            "18"
+          ],
+          "answer": "C",
+          "explanation": "Sum 80 / 5 = 16."
+        },
+        {
+          "num": 41,
+          "question": "Median of 6, 10, 14, 18, 22, 26.",
+          "choices": [
+            "14",
+            "15",
+            "16",
+            "18"
+          ],
+          "answer": "C",
+          "explanation": "Avg of 14 and 18 = 16."
+        },
+        {
+          "num": 42,
+          "question": "Range of 12, 25, 8, 33, 19.",
+          "choices": [
+            "21",
+            "25",
+            "33",
+            "8"
+          ],
+          "answer": "B",
+          "explanation": "33 - 8 = 25."
+        },
+        {
+          "num": 43,
+          "question": "Weighted: 70 (1 test), 80 (2 tests), 90 (3 tests). Mean?",
+          "choices": [
+            "80",
+            "82",
+            "83.3",
+            "85"
+          ],
+          "answer": "C",
+          "explanation": "(70+160+270)/6 = 500/6 = 83.3."
+        },
+        {
+          "num": 44,
+          "question": "Stem-and-leaf plot: stem 1 has leaves 5, 8 and stem 2 has leaves 0, 3, 7. What is the median of the data?",
+          "choices": [
+            "18",
+            "20",
+            "23",
+            "15"
+          ],
+          "answer": "B",
+          "explanation": "Values: 15, 18, 20, 23, 27. Five values; median is the middle = 20."
+        },
+        {
+          "num": 45,
+          "question": "Five-number summary of 5, 8, 10, 12, 16, 20, 22, 25. Find the IQR.",
+          "choices": [
+            "10",
+            "12",
+            "14",
+            "16"
+          ],
+          "answer": "B",
+          "explanation": "Q1 = (8+10)/2 = 9; Q3 = (20+22)/2 = 21; IQR = 12."
+        },
+        {
+          "num": 46,
+          "question": "Scatter plot: as age increases, hours of TV watched decreases. Association?",
+          "choices": [
+            "Positive",
+            "Negative",
+            "None",
+            "Linear positive"
+          ],
+          "answer": "B",
+          "explanation": "One up, the other down = negative association."
+        },
+        {
+          "num": 47,
+          "question": "Two-way table: 20 boys + 30 girls in band; 30 boys + 20 girls not in band. P(student is in band)?",
+          "choices": [
+            "1/2",
+            "2/5",
+            "3/5",
+            "1/3"
+          ],
+          "answer": "A",
+          "explanation": "50 in band of 100 students = 1/2."
+        },
+        {
+          "num": 48,
+          "question": "Bag 3 red, 5 blue, 7 green. P(blue)?",
+          "choices": [
+            "3/15",
+            "5/15",
+            "1/3",
+            "7/15"
+          ],
+          "answer": "C",
+          "explanation": "5/15 = 1/3."
+        },
+        {
+          "num": 49,
+          "question": "Two coins. P(at least 1 head)?",
+          "choices": [
+            "1/2",
+            "3/4",
+            "1/4",
+            "1"
+          ],
+          "answer": "B",
+          "explanation": "1 - P(both tails) = 1 - 1/4 = 3/4."
+        },
+        {
+          "num": 50,
+          "question": "Bag 4 red, 6 blue. Draw 2 WITHOUT replacement. P(both red)?",
+          "choices": [
+            "4/25",
+            "2/15",
+            "1/4",
+            "1/5"
+          ],
+          "answer": "B",
+          "explanation": "4/10 * 3/9 = 12/90 = 2/15."
+        }
+      ]
+    }
+  ]
+}
