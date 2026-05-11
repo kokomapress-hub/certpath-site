@@ -265,6 +265,25 @@
       "cheatsheetPrice": 1.99,
       "payhipEbookUrl": "",
       "payhipCheatsheetUrl": ""
+    },
+    {
+      "slug": "sat-math",
+      "title": "Digital SAT Math Prep",
+      "code": "SAT-MATH-K9P3R-VTQ7M",
+      "timeMinutes": 1500,
+      "testCount": 30,
+      "totalQuestions": 1500,
+      "cover": "/img/covers/sat-math.svg",
+      "shortName": "Digital SAT Math",
+      "category": "College Prep",
+      "published": false,
+      "paperbackPrice": 19.99,
+      "ebookPrice": 9.99,
+      "asin": "",
+      "amazonUrl": "",
+      "cheatsheetPrice": 1.99,
+      "payhipEbookUrl": "",
+      "payhipCheatsheetUrl": ""
     }
   ],
   "adminCode": "CERTPATH-ADMIN-2026"
