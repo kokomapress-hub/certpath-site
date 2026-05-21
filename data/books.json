@@ -284,6 +284,25 @@
       "cheatsheetPrice": 1.99,
       "payhipEbookUrl": "",
       "payhipCheatsheetUrl": ""
+    },
+    {
+      "slug": "psat-math",
+      "title": "Digital PSAT/NMSQT Math Prep",
+      "code": "PSAT-MATH-H8K5T-ZRN3Q",
+      "timeMinutes": 2450,
+      "testCount": 35,
+      "totalQuestions": 1540,
+      "cover": "/img/covers/psat-math.svg",
+      "shortName": "Digital PSAT/NMSQT Math",
+      "category": "College Prep",
+      "published": false,
+      "paperbackPrice": 19.99,
+      "ebookPrice": 9.99,
+      "asin": "",
+      "amazonUrl": "",
+      "cheatsheetPrice": 1.99,
+      "payhipEbookUrl": "",
+      "payhipCheatsheetUrl": ""
     }
   ],
   "adminCode": "CERTPATH-ADMIN-2026"
