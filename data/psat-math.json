@@ -1133,7 +1133,7 @@
             "-12.5%"
           ],
           "answer": "C",
-          "explanation": "Combined factor: (1 + 0.10)(1 - 0.25) = 0.8250; net change \u2248 -17.5%.",
+          "explanation": "Combined factor: (1 + 0.10)(1 - 0.25) = 0.8250; net change ~ -17.5%.",
           "skill": "Ratios/percents",
           "domain": "psda",
           "difficulty": "hard"
@@ -5803,7 +5803,7 @@
             "+2.0%"
           ],
           "answer": "D",
-          "explanation": "Combined factor: (1 + 0.20)(1 - 0.15) = 1.0200; net change \u2248 2.0%.",
+          "explanation": "Combined factor: (1 + 0.20)(1 - 0.15) = 1.0200; net change ~ 2.0%.",
           "skill": "Ratios/percents",
           "domain": "psda",
           "difficulty": "hard"
@@ -7283,7 +7283,7 @@
             "10%"
           ],
           "answer": "C",
-          "explanation": "Combined factor: (1 + 0.25)(1 - 0.15) = 1.0625; net change \u2248 6.25%.",
+          "explanation": "Combined factor: (1 + 0.25)(1 - 0.15) = 1.0625; net change ~ 6.25%.",
           "skill": "Ratios/percents",
           "domain": "psda",
           "difficulty": "hard"
@@ -8568,7 +8568,7 @@
             "0%"
           ],
           "answer": "A",
-          "explanation": "Combined factor: (1 + 0.25)(1 - 0.10) = 1.1250; net change \u2248 12.5%.",
+          "explanation": "Combined factor: (1 + 0.25)(1 - 0.10) = 1.1250; net change ~ 12.5%.",
           "skill": "Ratios/percents",
           "domain": "psda",
           "difficulty": "hard"
@@ -10083,7 +10083,7 @@
             "5%"
           ],
           "answer": "B",
-          "explanation": "Combined factor: (1 + 0.15)(1 - 0.10) = 1.0350; net change \u2248 3.5%.",
+          "explanation": "Combined factor: (1 + 0.15)(1 - 0.10) = 1.0350; net change ~ 3.5%.",
           "skill": "Ratios/percents",
           "domain": "psda",
           "difficulty": "hard"
@@ -11563,7 +11563,7 @@
             "0%"
           ],
           "answer": "A",
-          "explanation": "Combined factor: (1 + 0.15)(1 - 0.20) = 0.9200; net change \u2248 -8.0%.",
+          "explanation": "Combined factor: (1 + 0.15)(1 - 0.20) = 0.9200; net change ~ -8.0%.",
           "skill": "Ratios/percents",
           "domain": "psda",
           "difficulty": "hard"
@@ -11758,7 +11758,7 @@
             "0%"
           ],
           "answer": "A",
-          "explanation": "Combined factor: (1 + 0.25)(1 - 0.20) = 1.0000; net change \u2248 0.0%.",
+          "explanation": "Combined factor: (1 + 0.25)(1 - 0.20) = 1.0000; net change ~ 0.0%.",
           "skill": "Ratios/percents",
           "domain": "psda",
           "difficulty": "hard"
@@ -14553,7 +14553,7 @@
             "0%"
           ],
           "answer": "A",
-          "explanation": "Combined factor: (1 + 0.10)(1 - 0.20) = 0.8800; net change \u2248 -12.0%.",
+          "explanation": "Combined factor: (1 + 0.10)(1 - 0.20) = 0.8800; net change ~ -12.0%.",
           "skill": "Ratios/percents",
           "domain": "psda",
           "difficulty": "hard"
@@ -15263,7 +15263,7 @@
             "10%"
           ],
           "answer": "C",
-          "explanation": "Combined factor: (1 + 0.20)(1 - 0.10) = 1.0800; net change \u2248 8.0%.",
+          "explanation": "Combined factor: (1 + 0.20)(1 - 0.10) = 1.0800; net change ~ 8.0%.",
           "skill": "Ratios/percents",
           "domain": "psda",
           "difficulty": "hard"
@@ -16248,7 +16248,7 @@
             "-5%"
           ],
           "answer": "B",
-          "explanation": "Combined factor: (1 + 0.10)(1 - 0.15) = 0.9350; net change \u2248 -6.5%.",
+          "explanation": "Combined factor: (1 + 0.10)(1 - 0.15) = 0.9350; net change ~ -6.5%.",
           "skill": "Ratios/percents",
           "domain": "psda",
           "difficulty": "hard"
@@ -16988,7 +16988,7 @@
             "-5%"
           ],
           "answer": "B",
-          "explanation": "Combined factor: (1 + 0.20)(1 - 0.25) = 0.9000; net change \u2248 -10.0%.",
+          "explanation": "Combined factor: (1 + 0.20)(1 - 0.25) = 0.9000; net change ~ -10.0%.",
           "skill": "Ratios/percents",
           "domain": "psda",
           "difficulty": "hard"
@@ -17893,7 +17893,7 @@
             "-13.75%"
           ],
           "answer": "D",
-          "explanation": "Combined factor: (1 + 0.15)(1 - 0.25) = 0.8625; net change \u2248 -13.75%.",
+          "explanation": "Combined factor: (1 + 0.15)(1 - 0.25) = 0.8625; net change ~ -13.75%.",
           "skill": "Ratios/percents",
           "domain": "psda",
           "difficulty": "hard"
