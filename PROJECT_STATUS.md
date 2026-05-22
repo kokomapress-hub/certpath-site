@@ -24,7 +24,7 @@ Single source of truth for what's live, what's wired, and what's pending. Update
 | 7 | tabe-a | TABE Level A Math | ✅ B0GZCNBK3V | ⏳ | ⏳ | ✅ |
 | 8 | tabe-d | TABE Level D Math | ✅ B0GZK4TXKK | ⏳ | ⏳ | ✅ |
 | 9 | tabe-m | TABE Level M Math | ✅ B0GZGYP2QD | ⏳ | ⏳ | ✅ |
-| 10 | tabe-e | TABE Level E Math | ⏳ Pending | ⏳ | ⏳ | placeholder |
+| 10 | tabe-e | TABE Level E Math | ✅ B0H12F299V | ⏳ | ✅ | ✅ |
 | 11 | nhie | Home Inspector (NHIE) | ⏳ Pending | ⏳ | ⏳ | placeholder |
 | 8 | sts | STS | ⏳ Pending | ⏳ | ⏳ | placeholder |
 | 9 | cpt | MSSC CPT | ⏳ Pending | ⏳ | ⏳ | placeholder |
@@ -93,8 +93,7 @@ Single source of truth for what's live, what's wired, and what's pending. Update
 
 - [ ] **KDP dashboard**: update all 6 paperback list prices to $19.99 (~72hr propagation)
 - [ ] **Payhip dashboard**: update all 6 e-book product prices to $9.99 so checkout matches site
-- [ ] **TABE A/D/M:** create Payhip products (e-book + cheatsheet) for the 3 live levels and generate cheatsheet PDFs
-- [ ] **TABE Level E:** complete KDP publishing → flip `published: true` + add ASIN + replace placeholder cover
+- [ ] **TABE A/D/M/E:** create Payhip products (e-book + cheatsheet) for all 4 live levels and wire URLs
 - [ ] Books 11-14: complete KDP publishing (NHIE, STS, MSSC CPT, NCIDQ)
 - [ ] Books 11-14: generate cheatsheet PDFs once books are final
 - [ ] Books 11-14: replace placeholder SVG covers with real PNGs (need cover PDFs in `Cover/V1/`)
