@@ -1,0 +1,858 @@
+{
+  "slug": "tabe-e",
+  "title": "TABE 11 & 12 Math Workbook Level E",
+  "code": "TABE-EH9Z6-WMR3T",
+  "timeMinutes": 60,
+  "tests": [
+    {
+      "testNum": 1,
+      "questions": [
+        {
+          "num": 1,
+          "question": "Place value of 5 in 458.",
+          "choices": [
+            "hundreds",
+            "tens",
+            "ones",
+            "thousands"
+          ],
+          "answer": "B",
+          "explanation": "Position from right: 8 ones, 5 tens, 4 hundreds."
+        },
+        {
+          "num": 2,
+          "question": "Read 304 in words.",
+          "choices": [
+            "thirty-four",
+            "three hundred forty",
+            "three hundred four",
+            "three hundred fourteen"
+          ],
+          "answer": "C",
+          "explanation": "300 + 4 = three hundred four."
+        },
+        {
+          "num": 3,
+          "question": "Compare 245 vs 254.",
+          "choices": [
+            "245 < 254",
+            "245 > 254",
+            "equal",
+            "neither"
+          ],
+          "answer": "A",
+          "explanation": "Tens: 4 vs 5, so 254 is larger."
+        },
+        {
+          "num": 4,
+          "question": "Round 47 to the nearest ten.",
+          "choices": [
+            "40",
+            "50",
+            "47",
+            "100"
+          ],
+          "answer": "B",
+          "explanation": "Ones digit 7 (>=5), round up to 50."
+        },
+        {
+          "num": 5,
+          "question": "Round 432 to the nearest hundred.",
+          "choices": [
+            "400",
+            "430",
+            "440",
+            "500"
+          ],
+          "answer": "A",
+          "explanation": "Tens digit 3 (< 5), round down to 400."
+        },
+        {
+          "num": 6,
+          "question": "127 + 89.",
+          "choices": [
+            "196",
+            "216",
+            "226",
+            "186"
+          ],
+          "answer": "B",
+          "explanation": "127 + 89 = 216."
+        },
+        {
+          "num": 7,
+          "question": "256 + 178.",
+          "choices": [
+            "434",
+            "424",
+            "414",
+            "344"
+          ],
+          "answer": "A",
+          "explanation": "256 + 178 = 434."
+        },
+        {
+          "num": 8,
+          "question": "200 - 73.",
+          "choices": [
+            "123",
+            "127",
+            "133",
+            "157"
+          ],
+          "answer": "B",
+          "explanation": "200 - 73 = 127."
+        },
+        {
+          "num": 9,
+          "question": "1000 - 478.",
+          "choices": [
+            "522",
+            "532",
+            "612",
+            "678"
+          ],
+          "answer": "A",
+          "explanation": "1000 - 478 = 522."
+        },
+        {
+          "num": 10,
+          "question": "Multiply by 10: 7 x 80 = ?",
+          "choices": [
+            "56",
+            "560",
+            "5,600",
+            "87"
+          ],
+          "answer": "B",
+          "explanation": "7 x 8 x 10 = 560."
+        },
+        {
+          "num": 11,
+          "question": "9 x 8.",
+          "choices": [
+            "64",
+            "72",
+            "81",
+            "98"
+          ],
+          "answer": "B",
+          "explanation": "9 x 8 = 72."
+        },
+        {
+          "num": 12,
+          "question": "7 x 9.",
+          "choices": [
+            "56",
+            "63",
+            "72",
+            "79"
+          ],
+          "answer": "B",
+          "explanation": "7 x 9 = 63."
+        },
+        {
+          "num": 13,
+          "question": "12 x 12.",
+          "choices": [
+            "120",
+            "124",
+            "144",
+            "164"
+          ],
+          "answer": "C",
+          "explanation": "12 x 12 = 144."
+        },
+        {
+          "num": 14,
+          "question": "56 / 8.",
+          "choices": [
+            "6",
+            "7",
+            "8",
+            "9"
+          ],
+          "answer": "B",
+          "explanation": "8 x 7 = 56."
+        },
+        {
+          "num": 15,
+          "question": "144 / 12.",
+          "choices": [
+            "10",
+            "12",
+            "14",
+            "144"
+          ],
+          "answer": "B",
+          "explanation": "12 x 12 = 144."
+        },
+        {
+          "num": 16,
+          "question": "Two-step: 6 boxes hold 4 toys each. Take 5 out. How many left?",
+          "choices": [
+            "19",
+            "20",
+            "21",
+            "29"
+          ],
+          "answer": "A",
+          "explanation": "6 x 4 = 24; 24 - 5 = 19."
+        },
+        {
+          "num": 17,
+          "question": "If 8 x 7 = 56, what is 7 x 8?",
+          "choices": [
+            "48",
+            "49",
+            "56",
+            "63"
+          ],
+          "answer": "C",
+          "explanation": "Commutative property of multiplication."
+        },
+        {
+          "num": 18,
+          "question": "Pattern: 5, 10, 15, 20, ... rule?",
+          "choices": [
+            "add 4",
+            "add 5",
+            "subtract 5",
+            "multiply by 2"
+          ],
+          "answer": "B",
+          "explanation": "Each term is 5 more."
+        },
+        {
+          "num": 19,
+          "question": "If a pizza has 6 slices and 2 are eaten, what fraction is left?",
+          "choices": [
+            "2/6",
+            "1/3",
+            "4/6 (or 2/3)",
+            "1/2"
+          ],
+          "answer": "C",
+          "explanation": "4 left of 6 = 4/6 = 2/3."
+        },
+        {
+          "num": 20,
+          "question": "Compare 2/5 vs 4/5.",
+          "choices": [
+            "2/5 > 4/5",
+            "4/5 > 2/5",
+            "equal",
+            "can't tell"
+          ],
+          "answer": "B",
+          "explanation": "Same denominator; bigger numerator wins."
+        },
+        {
+          "num": 21,
+          "question": "Which is equivalent to 1/2?",
+          "choices": [
+            "1/3",
+            "2/4",
+            "1/4",
+            "3/8"
+          ],
+          "answer": "B",
+          "explanation": "2/4 simplifies to 1/2."
+        },
+        {
+          "num": 22,
+          "question": "On a number line, 3/4 is between which two whole numbers?",
+          "choices": [
+            "0 and 1",
+            "1 and 2",
+            "2 and 3",
+            "3 and 4"
+          ],
+          "answer": "A",
+          "explanation": "3/4 is less than 1."
+        },
+        {
+          "num": 23,
+          "question": "How many sides does a hexagon have?",
+          "choices": [
+            "4",
+            "5",
+            "6",
+            "8"
+          ],
+          "answer": "C",
+          "explanation": "Hex = 6."
+        },
+        {
+          "num": 24,
+          "question": "Are all squares also rectangles?",
+          "choices": [
+            "yes",
+            "no",
+            "sometimes",
+            "never"
+          ],
+          "answer": "A",
+          "explanation": "Squares have all rectangle properties (four right angles)."
+        },
+        {
+          "num": 25,
+          "question": "A square is partitioned into 4 equal parts. Each part is what fraction of the whole?",
+          "choices": [
+            "1/2",
+            "1/3",
+            "1/4",
+            "1/8"
+          ],
+          "answer": "C",
+          "explanation": "1 of 4 equal parts = 1/4."
+        },
+        {
+          "num": 26,
+          "question": "How many minutes are in an hour?",
+          "choices": [
+            "30",
+            "45",
+            "60",
+            "100"
+          ],
+          "answer": "C",
+          "explanation": "60."
+        },
+        {
+          "num": 27,
+          "question": "Elapsed time from 9:00 to 11:30.",
+          "choices": [
+            "1 hr 30 min",
+            "2 hr 30 min",
+            "3 hr",
+            "2 hr"
+          ],
+          "answer": "B",
+          "explanation": "11:30 - 9:00 = 2 hr 30 min."
+        },
+        {
+          "num": 28,
+          "question": "Item $1.79; pay $2. Change?",
+          "choices": [
+            "$0.21",
+            "$0.22",
+            "$0.31",
+            "$0.41"
+          ],
+          "answer": "A",
+          "explanation": "2.00 - 1.79 = 0.21."
+        },
+        {
+          "num": 29,
+          "question": "5 dimes equal how much?",
+          "choices": [
+            "$0.05",
+            "$0.50",
+            "$5.00",
+            "$50"
+          ],
+          "answer": "B",
+          "explanation": "5 x 10c = 50c."
+        },
+        {
+          "num": 30,
+          "question": "Convert 3 ft to inches.",
+          "choices": [
+            "12",
+            "24",
+            "36",
+            "48"
+          ],
+          "answer": "C",
+          "explanation": "3 x 12 = 36."
+        },
+        {
+          "num": 31,
+          "question": "How many ounces are in 1 pound?",
+          "choices": [
+            "8",
+            "12",
+            "16",
+            "24"
+          ],
+          "answer": "C",
+          "explanation": "16 oz."
+        },
+        {
+          "num": 32,
+          "question": "Estimate: a doorway is about how tall?",
+          "choices": [
+            "8 inches",
+            "8 feet",
+            "80 yards",
+            "8 miles"
+          ],
+          "answer": "B",
+          "explanation": "A doorway is ~7-8 feet tall."
+        },
+        {
+          "num": 33,
+          "question": "Perimeter of square with side 4.",
+          "choices": [
+            "8",
+            "12",
+            "16",
+            "20"
+          ],
+          "answer": "C",
+          "explanation": "4 x 4 = 16."
+        },
+        {
+          "num": 34,
+          "question": "Perimeter of rectangle 5 by 8.",
+          "choices": [
+            "13",
+            "26",
+            "40",
+            "80"
+          ],
+          "answer": "B",
+          "explanation": "2(5)+2(8)=26."
+        },
+        {
+          "num": 35,
+          "question": "Bar graph: A=3, B=4, C=7. Total of all three.",
+          "choices": [
+            "10",
+            "12",
+            "14",
+            "21"
+          ],
+          "answer": "C",
+          "explanation": "3+4+7=14."
+        }
+      ]
+    },
+    {
+      "testNum": 2,
+      "questions": [
+        {
+          "num": 1,
+          "question": "Place value of 0 in 502.",
+          "choices": [
+            "hundreds",
+            "tens",
+            "ones",
+            "thousands"
+          ],
+          "answer": "B",
+          "explanation": "0 is in tens (placeholder)."
+        },
+        {
+          "num": 2,
+          "question": "Read 2,030 in words.",
+          "choices": [
+            "two hundred thirty",
+            "two thousand three",
+            "two thousand thirty",
+            "twenty thirty"
+          ],
+          "answer": "C",
+          "explanation": "2,030 = two thousand thirty."
+        },
+        {
+          "num": 3,
+          "question": "Compare 89 vs 98.",
+          "choices": [
+            "89 > 98",
+            "89 < 98",
+            "equal",
+            "neither"
+          ],
+          "answer": "B",
+          "explanation": "Tens 9 > 8 in 98."
+        },
+        {
+          "num": 4,
+          "question": "Round 84 to the nearest ten.",
+          "choices": [
+            "80",
+            "90",
+            "85",
+            "100"
+          ],
+          "answer": "A",
+          "explanation": "Ones 4 (< 5), round down."
+        },
+        {
+          "num": 5,
+          "question": "Round 365 to the nearest hundred.",
+          "choices": [
+            "300",
+            "400",
+            "350",
+            "365"
+          ],
+          "answer": "B",
+          "explanation": "Tens digit 6 (>=5), round up."
+        },
+        {
+          "num": 6,
+          "question": "350 + 280.",
+          "choices": [
+            "620",
+            "630",
+            "640",
+            "650"
+          ],
+          "answer": "B",
+          "explanation": "350+280=630."
+        },
+        {
+          "num": 7,
+          "question": "428 + 99.",
+          "choices": [
+            "517",
+            "527",
+            "537",
+            "547"
+          ],
+          "answer": "B",
+          "explanation": "428+99=527."
+        },
+        {
+          "num": 8,
+          "question": "800 - 245.",
+          "choices": [
+            "545",
+            "555",
+            "565",
+            "655"
+          ],
+          "answer": "B",
+          "explanation": "800-245=555."
+        },
+        {
+          "num": 9,
+          "question": "623 + 187.",
+          "choices": [
+            "800",
+            "810",
+            "820",
+            "830"
+          ],
+          "answer": "B",
+          "explanation": "623+187=810."
+        },
+        {
+          "num": 10,
+          "question": "Multiply by 10: 4 x 60 = ?",
+          "choices": [
+            "24",
+            "240",
+            "2,400",
+            "64"
+          ],
+          "answer": "B",
+          "explanation": "4 x 6 x 10 = 240."
+        },
+        {
+          "num": 11,
+          "question": "9 x 9.",
+          "choices": [
+            "72",
+            "81",
+            "90",
+            "99"
+          ],
+          "answer": "B",
+          "explanation": "81."
+        },
+        {
+          "num": 12,
+          "question": "8 x 6.",
+          "choices": [
+            "42",
+            "46",
+            "48",
+            "56"
+          ],
+          "answer": "C",
+          "explanation": "48."
+        },
+        {
+          "num": 13,
+          "question": "11 x 11.",
+          "choices": [
+            "111",
+            "121",
+            "112",
+            "100"
+          ],
+          "answer": "B",
+          "explanation": "121."
+        },
+        {
+          "num": 14,
+          "question": "63 / 9.",
+          "choices": [
+            "6",
+            "7",
+            "8",
+            "9"
+          ],
+          "answer": "B",
+          "explanation": "9 x 7 = 63."
+        },
+        {
+          "num": 15,
+          "question": "100 / 4.",
+          "choices": [
+            "20",
+            "24",
+            "25",
+            "40"
+          ],
+          "answer": "C",
+          "explanation": "4 x 25 = 100."
+        },
+        {
+          "num": 16,
+          "question": "Two-step: Maria has 32 stickers, gives away 8, then puts the rest into 4 equal piles. Per pile?",
+          "choices": [
+            "4",
+            "5",
+            "6",
+            "8"
+          ],
+          "answer": "C",
+          "explanation": "32 - 8 = 24; 24 / 4 = 6."
+        },
+        {
+          "num": 17,
+          "question": "Find the unknown: 8 x ? = 48.",
+          "choices": [
+            "5",
+            "6",
+            "7",
+            "8"
+          ],
+          "answer": "B",
+          "explanation": "8 x 6 = 48."
+        },
+        {
+          "num": 18,
+          "question": "Pattern: 32, 28, 24, 20, ... rule?",
+          "choices": [
+            "subtract 4",
+            "add 4",
+            "divide by 2",
+            "multiply by 2"
+          ],
+          "answer": "A",
+          "explanation": "Each term is 4 less."
+        },
+        {
+          "num": 19,
+          "question": "What is the numerator of 2/3?",
+          "choices": [
+            "1",
+            "2",
+            "3",
+            "5"
+          ],
+          "answer": "B",
+          "explanation": "Top number = 2."
+        },
+        {
+          "num": 20,
+          "question": "Compare 3/8 vs 5/8.",
+          "choices": [
+            "3/8 > 5/8",
+            "3/8 < 5/8",
+            "equal",
+            "can't tell"
+          ],
+          "answer": "B",
+          "explanation": "Same denominator; bigger numerator wins."
+        },
+        {
+          "num": 21,
+          "question": "Which fraction is equivalent to 2/3?",
+          "choices": [
+            "3/4",
+            "4/6",
+            "5/6",
+            "2/4"
+          ],
+          "answer": "B",
+          "explanation": "2/3 = 4/6 (multiply top and bottom by 2)."
+        },
+        {
+          "num": 22,
+          "question": "On a number line, 5/4 is between which two whole numbers?",
+          "choices": [
+            "0 and 1",
+            "1 and 2",
+            "2 and 3",
+            "3 and 4"
+          ],
+          "answer": "B",
+          "explanation": "5/4 = 1 1/4, which is between 1 and 2."
+        },
+        {
+          "num": 23,
+          "question": "How many sides does an octagon have?",
+          "choices": [
+            "6",
+            "7",
+            "8",
+            "10"
+          ],
+          "answer": "C",
+          "explanation": "Octagon = 8."
+        },
+        {
+          "num": 24,
+          "question": "Which is true: a rhombus has?",
+          "choices": [
+            "four equal sides",
+            "no parallel sides",
+            "three sides",
+            "five angles"
+          ],
+          "answer": "A",
+          "explanation": "A rhombus has four equal sides."
+        },
+        {
+          "num": 25,
+          "question": "A circle is partitioned into 8 equal slices. Two slices represent what fraction of the whole?",
+          "choices": [
+            "1/8",
+            "2/8 (or 1/4)",
+            "1/2",
+            "1"
+          ],
+          "answer": "B",
+          "explanation": "2 of 8 = 2/8 = 1/4."
+        },
+        {
+          "num": 26,
+          "question": "Read time: hour hand near 6, minute hand on 6.",
+          "choices": [
+            "6:00",
+            "6:15",
+            "6:30",
+            "6:45"
+          ],
+          "answer": "C",
+          "explanation": "Minute hand on 6 = 30 past."
+        },
+        {
+          "num": 27,
+          "question": "Elapsed time from 10:00 to 12:30.",
+          "choices": [
+            "1 hr 30 min",
+            "2 hr",
+            "2 hr 30 min",
+            "3 hr"
+          ],
+          "answer": "C",
+          "explanation": "12:30 - 10:00 = 2:30."
+        },
+        {
+          "num": 28,
+          "question": "Item $3.25; pay $5. Change?",
+          "choices": [
+            "$1.25",
+            "$1.50",
+            "$1.75",
+            "$2.25"
+          ],
+          "answer": "C",
+          "explanation": "5.00 - 3.25 = 1.75."
+        },
+        {
+          "num": 29,
+          "question": "4 quarters equal how much?",
+          "choices": [
+            "50c",
+            "$1",
+            "$1.25",
+            "$2"
+          ],
+          "answer": "B",
+          "explanation": "100c = $1."
+        },
+        {
+          "num": 30,
+          "question": "Convert 4 yards to feet.",
+          "choices": [
+            "8",
+            "10",
+            "12",
+            "16"
+          ],
+          "answer": "C",
+          "explanation": "4 x 3 = 12."
+        },
+        {
+          "num": 31,
+          "question": "How many quarts are in a gallon?",
+          "choices": [
+            "2",
+            "3",
+            "4",
+            "8"
+          ],
+          "answer": "C",
+          "explanation": "1 gal = 4 qt."
+        },
+        {
+          "num": 32,
+          "question": "How many grams in 1 kilogram?",
+          "choices": [
+            "10",
+            "100",
+            "1,000",
+            "10,000"
+          ],
+          "answer": "C",
+          "explanation": "1 kg = 1,000 g."
+        },
+        {
+          "num": 33,
+          "question": "Perimeter of square with side 7.",
+          "choices": [
+            "21",
+            "24",
+            "28",
+            "49"
+          ],
+          "answer": "C",
+          "explanation": "4 x 7 = 28."
+        },
+        {
+          "num": 34,
+          "question": "Perimeter of rectangle 4 by 9.",
+          "choices": [
+            "13",
+            "18",
+            "26",
+            "36"
+          ],
+          "answer": "C",
+          "explanation": "2(4)+2(9) = 26."
+        },
+        {
+          "num": 35,
+          "question": "Picture graph: each picture = 5 cars. Row shows 4 pictures. How many cars?",
+          "choices": [
+            "4",
+            "9",
+            "20",
+            "25"
+          ],
+          "answer": "C",
+          "explanation": "4 x 5 = 20."
+        }
+      ]
+    }
+  ]
+}
