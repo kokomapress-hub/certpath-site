@@ -303,6 +303,25 @@
       "cheatsheetPrice": 1.99,
       "payhipEbookUrl": "",
       "payhipCheatsheetUrl": ""
+    },
+    {
+      "slug": "act-math",
+      "title": "ACT Math Prep",
+      "code": "ACT-MATH-J4M8R-XQ2T9",
+      "timeMinutes": 1700,
+      "testCount": 34,
+      "totalQuestions": 1530,
+      "cover": "/img/covers/act-math.svg",
+      "shortName": "ACT Math",
+      "category": "College Prep",
+      "published": false,
+      "paperbackPrice": 19.99,
+      "ebookPrice": 9.99,
+      "asin": "",
+      "amazonUrl": "",
+      "cheatsheetPrice": 1.99,
+      "payhipEbookUrl": "",
+      "payhipCheatsheetUrl": ""
     }
   ],
   "adminCode": "CERTPATH-ADMIN-2026"
