@@ -10688,7 +10688,7 @@
         },
         {
           "num": 20,
-          "question": "Which value of x satisfies the equation  2(x - 3) = 2x - 6?",
+          "question": "Which value of x satisfies the equation  2(x - 3) = x + 6?",
           "choices": [
             "10",
             "14",
@@ -10696,7 +10696,7 @@
             "3"
           ],
           "answer": "C",
-          "explanation": "Distribute: 2x - 6 = 2x - 6; 0x = 0; x = 12.",
+          "explanation": "Distribute: 2x - 6 = x + 6; x = 12; x = 12.",
           "skill": "Linear eq 1 var",
           "domain": "algebra",
           "difficulty": "medium",
@@ -10976,7 +10976,7 @@
         },
         {
           "num": 38,
-          "question": "Which value of x satisfies the equation  2(x - 6) = 2x - 12?",
+          "question": "Which value of x satisfies the equation  2(x - 6) = x - 6?",
           "choices": [
             "7",
             "4",
@@ -10984,7 +10984,7 @@
             "8"
           ],
           "answer": "C",
-          "explanation": "Distribute: 2x - 12 = 2x - 12; 0x = 0; x = 6.",
+          "explanation": "Distribute: 2x - 12 = x - 6; x = 6; x = 6.",
           "skill": "Linear eq 1 var",
           "domain": "algebra",
           "difficulty": "medium",
@@ -13636,7 +13636,7 @@
         },
         {
           "num": 19,
-          "question": "Which value of x satisfies the equation  2(x - 5) = 2x - 10?",
+          "question": "Which value of x satisfies the equation  2(x - 5) = x - 6?",
           "choices": [
             "5",
             "6",
@@ -13644,7 +13644,7 @@
             "4"
           ],
           "answer": "D",
-          "explanation": "Distribute: 2x - 10 = 2x - 10; 0x = 0; x = 4.",
+          "explanation": "Distribute: 2x - 10 = x - 6; x = 4; x = 4.",
           "skill": "Linear eq 1 var",
           "domain": "algebra",
           "difficulty": "medium",
@@ -15843,7 +15843,7 @@
         },
         {
           "num": 18,
-          "question": "Which value of x satisfies the equation  2(x - 1) = 2x - 2?",
+          "question": "Which value of x satisfies the equation  2(x - 1) = x + 10?",
           "choices": [
             "10",
             "14",
@@ -15851,7 +15851,7 @@
             "1"
           ],
           "answer": "C",
-          "explanation": "Distribute: 2x - 2 = 2x - 2; 0x = 0; x = 12.",
+          "explanation": "Distribute: 2x - 2 = x + 10; x = 12; x = 12.",
           "skill": "Linear eq 1 var",
           "domain": "algebra",
           "difficulty": "medium",
@@ -17437,7 +17437,7 @@
         },
         {
           "num": 25,
-          "question": "Which value of x satisfies the equation  2(x - 7) = 2x - 14?",
+          "question": "Which value of x satisfies the equation  2(x - 7) = x - 10?",
           "choices": [
             "2",
             "6",
@@ -17445,7 +17445,7 @@
             "4"
           ],
           "answer": "D",
-          "explanation": "Distribute: 2x - 14 = 2x - 14; 0x = 0; x = 4.",
+          "explanation": "Distribute: 2x - 14 = x - 10; x = 4; x = 4.",
           "skill": "Linear eq 1 var",
           "domain": "algebra",
           "difficulty": "medium",
