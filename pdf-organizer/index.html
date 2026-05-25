@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>PDF Organizer</title>
   <meta name="description" content="View, reorder, rotate, delete, merge and export PDF pages right in your browser. Files never leave your device." />
-  <link rel="stylesheet" href="styles.css?v=2" />
+  <link rel="stylesheet" href="styles.css?v=3" />
 </head>
 <body>
   <header class="topbar">
@@ -23,6 +23,13 @@
         <button class="btn layout-btn" data-cols="2">2</button>
         <button class="btn layout-btn is-active" data-cols="4">4</button>
         <button class="btn layout-btn" data-cols="8">8</button>
+      </div>
+
+      <div class="group" role="group" aria-label="Zoom">
+        <span class="group-label">Zoom</span>
+        <button id="zoomOutBtn" class="btn" title="Zoom out — smaller pages">−</button>
+        <span id="zoomReadout" class="zoom-readout">4 / row</span>
+        <button id="zoomInBtn" class="btn" title="Zoom in — larger pages">+</button>
       </div>
 
       <div class="group" role="group" aria-label="Selection actions">
@@ -48,7 +55,7 @@
       </div>
     </div>
 
-    <div id="grid" class="grid" data-cols="4" hidden></div>
+    <div id="grid" class="grid" style="--cols: 4" hidden></div>
   </main>
 
   <input id="fileInput" type="file" accept="application/pdf,.pdf" multiple hidden />
@@ -83,6 +90,6 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/pdf-lib@1.17.1/dist/pdf-lib.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/sortablejs@1.15.2/Sortable.min.js"></script>
-  <script src="app.js?v=2"></script>
+  <script src="app.js?v=3"></script>
 </body>
 </html>

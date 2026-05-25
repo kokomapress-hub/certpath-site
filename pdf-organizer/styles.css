@@ -100,6 +100,14 @@ body {
 .layout-btn { min-width: 34px; padding: 7px 0; text-align: center; }
 .layout-btn.is-active { background: var(--accent); border-color: var(--accent); color: #fff; }
 
+.zoom-readout {
+  font-size: 12px;
+  color: var(--muted);
+  min-width: 48px;
+  text-align: center;
+  font-variant-numeric: tabular-nums;
+}
+
 .link-btn {
   background: none;
   border: none;
@@ -145,11 +153,9 @@ body {
   display: grid;
   gap: 16px;
   align-items: start;
+  grid-template-columns: repeat(var(--cols, 4), minmax(0, 1fr));
 }
-.grid[data-cols="1"] { grid-template-columns: minmax(0, 720px); justify-content: center; }
-.grid[data-cols="2"] { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-.grid[data-cols="4"] { grid-template-columns: repeat(4, minmax(0, 1fr)); }
-.grid[data-cols="8"] { grid-template-columns: repeat(8, minmax(0, 1fr)); }
+.grid.single { grid-template-columns: minmax(0, 720px); justify-content: center; }
 
 /* ---------- Tile ---------- */
 .tile {
@@ -269,11 +275,11 @@ body {
 .act-btn.danger:hover { background: var(--danger); }
 
 /* compact tweaks for dense grids */
-.grid[data-cols="8"] .tile { padding: 5px; gap: 4px; }
-.grid[data-cols="8"] .tile-footer { font-size: 10px; }
-.grid[data-cols="8"] .tile-src { display: none; }
-.grid[data-cols="8"] .tile-check { width: 18px; height: 18px; top: 8px; left: 8px; }
-.grid[data-cols="8"] .tile-actions { top: 8px; right: 8px; }
+.grid.dense .tile { padding: 5px; gap: 4px; }
+.grid.dense .tile-footer { font-size: 10px; }
+.grid.dense .tile-src { display: none; }
+.grid.dense .tile-check { width: 18px; height: 18px; top: 8px; left: 8px; }
+.grid.dense .tile-actions { top: 8px; right: 8px; }
 
 /* ---------- Page viewer ---------- */
 .viewer {

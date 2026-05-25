@@ -32,6 +32,9 @@ const el = {
   busy: document.getElementById("busy"),
   busyText: document.getElementById("busyText"),
   layoutBtns: [...document.querySelectorAll(".layout-btn")],
+  zoomInBtn: document.getElementById("zoomInBtn"),
+  zoomOutBtn: document.getElementById("zoomOutBtn"),
+  zoomReadout: document.getElementById("zoomReadout"),
 };
 
 // ---------- Lazy thumbnail rendering ----------
@@ -269,14 +272,30 @@ function deletePages(ids) {
   else updateToolbar();
 }
 
-// ---------- Layout ----------
+// ---------- Layout & zoom ----------
+let cols = 4;
+const MIN_COLS = 1;
+const MAX_COLS = 12;
+
+function setCols(n) {
+  cols = Math.max(MIN_COLS, Math.min(MAX_COLS, n));
+  el.grid.style.setProperty("--cols", cols);
+  el.grid.classList.toggle("single", cols === 1);
+  el.grid.classList.toggle("dense", cols >= 6);
+  el.layoutBtns.forEach((x) =>
+    x.classList.toggle("is-active", Number(x.dataset.cols) === cols)
+  );
+  el.zoomReadout.textContent = cols + " / row";
+  el.zoomInBtn.disabled = cols === MIN_COLS;
+  el.zoomOutBtn.disabled = cols === MAX_COLS;
+  reRenderThumbs();
+}
+
 el.layoutBtns.forEach((b) =>
-  b.addEventListener("click", () => {
-    el.layoutBtns.forEach((x) => x.classList.toggle("is-active", x === b));
-    el.grid.dataset.cols = b.dataset.cols;
-    reRenderThumbs();
-  })
+  b.addEventListener("click", () => setCols(Number(b.dataset.cols)))
 );
+el.zoomInBtn.addEventListener("click", () => setCols(cols - 1));   // fewer cols = larger
+el.zoomOutBtn.addEventListener("click", () => setCols(cols + 1));  // more cols = smaller
 
 // Re-render visible thumbnails at the new on-screen size (keeps them sharp).
 function reRenderThumbs() {
