@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PDF Organizer</title>
+  <meta name="description" content="View, reorder, rotate, delete, merge and export PDF pages right in your browser. Files never leave your device." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="logo">▦</span>
+      <span class="title">PDF Organizer</span>
+    </div>
+
+    <div class="toolbar">
+      <button id="addBtn" class="btn btn-primary">+ Add PDFs</button>
+
+      <div class="group" role="group" aria-label="Pages per row">
+        <span class="group-label">View</span>
+        <button class="btn layout-btn" data-cols="1">1</button>
+        <button class="btn layout-btn" data-cols="2">2</button>
+        <button class="btn layout-btn is-active" data-cols="4">4</button>
+        <button class="btn layout-btn" data-cols="8">8</button>
+      </div>
+
+      <div class="group" role="group" aria-label="Selection actions">
+        <button id="selectAllBtn" class="btn" disabled>Select all</button>
+        <button id="rotateSelBtn" class="btn" disabled>⟳ Rotate</button>
+        <button id="deleteSelBtn" class="btn btn-danger" disabled>🗑 Delete</button>
+      </div>
+
+      <div class="spacer"></div>
+
+      <span id="status" class="status">No pages loaded</span>
+      <button id="exportBtn" class="btn btn-primary" disabled>⬇ Export PDF</button>
+    </div>
+  </header>
+
+  <main id="stage" class="stage">
+    <div id="dropzone" class="dropzone">
+      <div class="dropzone-inner">
+        <div class="dropzone-icon">⬇</div>
+        <h2>Drop PDF files here</h2>
+        <p>or <button id="browseBtn" class="link-btn">browse your computer</button></p>
+        <p class="muted">Add several files to merge them. Everything stays on your device — nothing is uploaded.</p>
+      </div>
+    </div>
+
+    <div id="grid" class="grid" data-cols="4" hidden></div>
+  </main>
+
+  <input id="fileInput" type="file" accept="application/pdf,.pdf" multiple hidden />
+
+  <div id="busy" class="busy" hidden>
+    <div class="busy-box">
+      <div class="spinner"></div>
+      <span id="busyText">Working…</span>
+    </div>
+  </div>
+
+  <!-- Libraries (pinned versions) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/pdf-lib@1.17.1/dist/pdf-lib.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sortablejs@1.15.2/Sortable.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
