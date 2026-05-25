@@ -12,8 +12,9 @@ let nextPageId = 0;
 const sources = new Map();          // srcId -> { name, buffer (ArrayBuffer), doc (pdf.js doc promise) }
 let pages = [];                     // ordered: { id, srcId, pageIndex, rotation }
 const selected = new Set();         // selected page ids
-const thumbCache = new Map();       // `${pageId}:${rotation}` -> dataURL
-const RENDER_WIDTH = 480;           // base thumbnail render width in px
+const thumbCache = new Map();       // `${pageId}:${rotation}:${deviceW}` -> dataURL
+const DPR = Math.min(window.devicePixelRatio || 1, 3); // render at device resolution (Retina-crisp)
+const MAX_THUMB_W = 1400;           // cap thumbnail render width (device px)
 
 // ---------- Elements ----------
 const el = {
@@ -131,6 +132,10 @@ function buildTile(p) {
 
   const actions = document.createElement("div");
   actions.className = "tile-actions";
+  const zoomBtn = mkActBtn("🔍", "Preview / zoom", (e) => {
+    e.stopPropagation();
+    openViewer(pages.findIndex((x) => x.id === p.id));
+  });
   const rotBtn = mkActBtn("⟳", "Rotate 90°", (e) => {
     e.stopPropagation();
     rotatePages([p.id]);
@@ -140,7 +145,7 @@ function buildTile(p) {
     deletePages([p.id]);
   });
   delBtn.classList.add("danger");
-  actions.append(rotBtn, delBtn);
+  actions.append(zoomBtn, rotBtn, delBtn);
 
   const footer = document.createElement("div");
   footer.className = "tile-footer";
@@ -153,6 +158,9 @@ function buildTile(p) {
   footer.append(num, src);
 
   tile.append(wrap, check, actions, footer);
+  tile.addEventListener("dblclick", () =>
+    openViewer(pages.findIndex((x) => x.id === p.id))
+  );
   io.observe(tile);
   return tile;
 }
@@ -171,12 +179,14 @@ async function renderTile(tile) {
   const p = pages.find((x) => x.id === id);
   if (!p) return;
   const wrap = tile.querySelector(".thumb-wrap");
-  const key = `${p.id}:${p.rotation}`;
+  const cssW = wrap.clientWidth || 240;
+  const deviceW = Math.min(Math.round(cssW * DPR), MAX_THUMB_W);
+  const key = `${p.id}:${p.rotation}:${deviceW}`;
 
   let url = thumbCache.get(key);
   if (!url) {
     try {
-      url = await renderPageToDataURL(p);
+      url = await renderPageToDataURL(p, deviceW);
       thumbCache.set(key, url);
     } catch (err) {
       console.error("render failed", err);
@@ -192,18 +202,18 @@ async function renderTile(tile) {
   wrap.appendChild(img);
 }
 
-async function renderPageToDataURL(p) {
+async function renderPageToDataURL(p, deviceW) {
   const src = sources.get(p.srcId);
   const page = await src.doc.getPage(p.pageIndex + 1);
-  const viewport = page.getViewport({ scale: 1, rotation: p.rotation });
-  const scale = RENDER_WIDTH / viewport.width;
+  const base = page.getViewport({ scale: 1, rotation: p.rotation });
+  const scale = deviceW / base.width;
   const v = page.getViewport({ scale, rotation: p.rotation });
   const canvas = document.createElement("canvas");
   canvas.width = Math.ceil(v.width);
   canvas.height = Math.ceil(v.height);
   const ctx = canvas.getContext("2d");
   await page.render({ canvasContext: ctx, viewport: v }).promise;
-  return canvas.toDataURL("image/jpeg", 0.82);
+  return canvas.toDataURL("image/jpeg", 0.9);
 }
 
 // ---------- Selection ----------
@@ -264,8 +274,28 @@ el.layoutBtns.forEach((b) =>
   b.addEventListener("click", () => {
     el.layoutBtns.forEach((x) => x.classList.toggle("is-active", x === b));
     el.grid.dataset.cols = b.dataset.cols;
+    reRenderThumbs();
   })
 );
+
+// Re-render visible thumbnails at the new on-screen size (keeps them sharp).
+function reRenderThumbs() {
+  thumbCache.clear();
+  for (const tile of el.grid.children) {
+    const wrap = tile.querySelector(".thumb-wrap");
+    if (wrap) wrap.innerHTML = '<div class="thumb-skeleton"></div>';
+    io.unobserve(tile);
+    io.observe(tile);
+  }
+}
+
+let resizeTimer;
+window.addEventListener("resize", () => {
+  clearTimeout(resizeTimer);
+  resizeTimer = setTimeout(() => {
+    if (pages.length) reRenderThumbs();
+  }, 250);
+});
 
 // ---------- Drag reorder ----------
 new Sortable(el.grid, {
@@ -359,6 +389,93 @@ function downloadBytes(bytes, filename) {
   a.remove();
   setTimeout(() => URL.revokeObjectURL(url), 1000);
 }
+
+// ---------- Page viewer (zoom) ----------
+const vw = {
+  root: document.getElementById("viewer"),
+  stage: document.getElementById("vStage"),
+  img: document.getElementById("vImg"),
+  label: document.getElementById("vLabel"),
+  zoom: document.getElementById("vZoom"),
+};
+let vIndex = 0;       // index into `pages`
+let vZoom = 1;        // multiplier of fit-to-window width
+let vFitWidth = 0;    // css px at 100%
+let vRatio = 1;       // height / width
+
+async function openViewer(index) {
+  if (!pages.length || index < 0) return;
+  vIndex = Math.min(index, pages.length - 1);
+  vZoom = 1;
+  vw.root.hidden = false;
+  await renderViewer();
+}
+function closeViewer() {
+  vw.root.hidden = true;
+  vw.img.removeAttribute("src");
+}
+async function renderViewer() {
+  const p = pages[vIndex];
+  vw.label.textContent = `Page ${vIndex + 1} of ${pages.length}`;
+  const src = sources.get(p.srcId);
+  const page = await src.doc.getPage(p.pageIndex + 1);
+  const base = page.getViewport({ scale: 1, rotation: p.rotation });
+  const stageW = Math.max(vw.stage.clientWidth - 40, 200);
+  const stageH = Math.max(vw.stage.clientHeight - 40, 200);
+  // Render with headroom so zooming in stays sharp.
+  const deviceW = Math.min(Math.round(stageW * DPR * 2), 3200);
+  const scale = deviceW / base.width;
+  const v = page.getViewport({ scale, rotation: p.rotation });
+  const canvas = document.createElement("canvas");
+  canvas.width = Math.ceil(v.width);
+  canvas.height = Math.ceil(v.height);
+  await page.render({ canvasContext: canvas.getContext("2d"), viewport: v }).promise;
+  vw.img.src = canvas.toDataURL("image/jpeg", 0.92);
+  vRatio = v.height / v.width;
+  vFitWidth = Math.min(stageW, stageH / vRatio);
+  applyZoom();
+}
+function applyZoom() {
+  const w = vFitWidth * vZoom;
+  vw.img.style.width = w + "px";
+  vw.img.style.height = w * vRatio + "px";
+  vw.zoom.textContent = Math.round(vZoom * 100) + "%";
+}
+function setZoom(factor) {
+  vZoom = Math.max(0.25, Math.min(5, vZoom * factor));
+  applyZoom();
+}
+function viewerStep(delta) {
+  const next = vIndex + delta;
+  if (next < 0 || next >= pages.length) return;
+  vIndex = next;
+  renderViewer();
+}
+
+document.getElementById("vClose").addEventListener("click", closeViewer);
+document.getElementById("vPrev").addEventListener("click", () => viewerStep(-1));
+document.getElementById("vNext").addEventListener("click", () => viewerStep(1));
+document.getElementById("vZoomIn").addEventListener("click", () => setZoom(1.25));
+document.getElementById("vZoomOut").addEventListener("click", () => setZoom(1 / 1.25));
+document.getElementById("vFit").addEventListener("click", () => {
+  vZoom = 1;
+  applyZoom();
+});
+document.getElementById("vRotate").addEventListener("click", () => {
+  rotatePages([pages[vIndex].id]);
+  renderViewer();
+});
+vw.root.addEventListener("click", (e) => {
+  if (e.target === vw.root) closeViewer();
+});
+document.addEventListener("keydown", (e) => {
+  if (vw.root.hidden) return;
+  if (e.key === "Escape") closeViewer();
+  else if (e.key === "ArrowRight") viewerStep(1);
+  else if (e.key === "ArrowLeft") viewerStep(-1);
+  else if (e.key === "+" || e.key === "=") setZoom(1.25);
+  else if (e.key === "-") setZoom(1 / 1.25);
+});
 
 // ---------- Helpers ----------
 function tileById(id) {

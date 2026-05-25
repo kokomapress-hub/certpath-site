@@ -275,6 +275,58 @@ body {
 .grid[data-cols="8"] .tile-check { width: 18px; height: 18px; top: 8px; left: 8px; }
 .grid[data-cols="8"] .tile-actions { top: 8px; right: 8px; }
 
+/* ---------- Page viewer ---------- */
+.viewer {
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  background: rgba(6, 7, 10, 0.94);
+  display: flex;
+  flex-direction: column;
+}
+.viewer-bar {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 10px 14px;
+  background: var(--panel);
+  border-bottom: 1px solid var(--border);
+}
+.vbtn {
+  min-width: 36px;
+  height: 34px;
+  padding: 0 10px;
+  border: 1px solid var(--border);
+  background: var(--panel-2);
+  color: var(--text);
+  border-radius: 8px;
+  font-size: 16px;
+  line-height: 1;
+  cursor: pointer;
+}
+.vbtn:hover { background: #2a3140; }
+.vbtn-wide { font-size: 13px; }
+.vlabel { font-size: 13px; color: var(--muted); min-width: 120px; text-align: center; }
+.vzoom { font-size: 13px; color: var(--text); min-width: 52px; text-align: center; font-variant-numeric: tabular-nums; }
+.vsep { width: 1px; height: 22px; background: var(--border); margin: 0 4px; }
+.viewer-stage {
+  flex: 1 1 auto;
+  overflow: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.viewer-stage img {
+  display: block;
+  margin: auto;
+  background: #fff;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+  border-radius: 2px;
+}
+
 /* ---------- Busy overlay ---------- */
 .busy {
   position: fixed;

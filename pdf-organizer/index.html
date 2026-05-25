@@ -53,6 +53,25 @@
 
   <input id="fileInput" type="file" accept="application/pdf,.pdf" multiple hidden />
 
+  <div id="viewer" class="viewer" hidden>
+    <div class="viewer-bar">
+      <button id="vPrev" class="vbtn" title="Previous page (←)">‹</button>
+      <span id="vLabel" class="vlabel">Page 1</span>
+      <button id="vNext" class="vbtn" title="Next page (→)">›</button>
+      <span class="vsep"></span>
+      <button id="vZoomOut" class="vbtn" title="Zoom out (−)">−</button>
+      <span id="vZoom" class="vzoom">100%</span>
+      <button id="vZoomIn" class="vbtn" title="Zoom in (+)">+</button>
+      <button id="vFit" class="vbtn vbtn-wide" title="Fit to window">Fit</button>
+      <span class="vsep"></span>
+      <button id="vRotate" class="vbtn" title="Rotate 90°">⟳</button>
+      <button id="vClose" class="vbtn" title="Close (Esc)">✕</button>
+    </div>
+    <div id="vStage" class="viewer-stage">
+      <img id="vImg" alt="page preview" />
+    </div>
+  </div>
+
   <div id="busy" class="busy" hidden>
     <div class="busy-box">
       <div class="spinner"></div>
