@@ -341,6 +341,25 @@
       "cheatsheetPrice": 1.99,
       "payhipEbookUrl": "",
       "payhipCheatsheetUrl": ""
+    },
+    {
+      "slug": "ccrn",
+      "title": "Adult CCRN Exam Prep",
+      "code": "CCRN-K8M3P-WQ7VT",
+      "timeMinutes": 180,
+      "testCount": 5,
+      "totalQuestions": 750,
+      "cover": "/img/covers/ccrn.png",
+      "shortName": "Adult CCRN",
+      "category": "Nursing & Critical Care",
+      "published": true,
+      "paperbackPrice": 19.99,
+      "ebookPrice": 9.99,
+      "asin": "",
+      "amazonUrl": "",
+      "cheatsheetPrice": 1.99,
+      "payhipEbookUrl": "",
+      "payhipCheatsheetUrl": ""
     }
   ],
   "adminCode": "CERTPATH-ADMIN-2026"
