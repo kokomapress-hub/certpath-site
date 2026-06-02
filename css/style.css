@@ -490,3 +490,10 @@ button.buy-icon.buy-icon-ebook { border-color: var(--gold); background: #FFFBEF;
 button.buy-icon:disabled { opacity: 0.6; cursor: wait; }
 button.btn.btn-gold { cursor: pointer; font-family: inherit; border: 2px solid var(--gold); }
 button.btn:disabled { opacity: 0.6; cursor: wait; }
+
+/* Figure-based questions + reading passages (CAST online upgrade) */
+.q-figure { text-align: center; margin: 0.25rem 0 1.25rem; }
+.q-figure img { max-width: 100%; width: auto; max-height: 340px; border: 1px solid var(--gray-100); border-radius: 8px; padding: 10px; background: #fff; }
+.passage-box { background: #F7F8FA; border-left: 4px solid var(--navy); border-radius: 6px; padding: 1rem 1.25rem; margin-bottom: 1.25rem; max-height: 300px; overflow-y: auto; }
+.passage-title { font-weight: 700; color: var(--navy); margin-bottom: 0.5rem; font-size: 0.95rem; text-transform: uppercase; letter-spacing: 0.02em; }
+.passage-text { font-size: 0.97rem; line-height: 1.65; color: #374151; white-space: pre-line; }

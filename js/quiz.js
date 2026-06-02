@@ -140,6 +140,17 @@ function updateTimer() {
   if (timeLeft <= 60) el.classList.add('warning');
 }
 
+const LETTERS = ['A','B','C','D','E'];
+
+function qPassage(q) {
+  if (q.passageIndex == null || !test.passages || !test.passages[q.passageIndex]) return '';
+  const p = test.passages[q.passageIndex];
+  return `<div class="passage-box"><div class="passage-title">${p.title || 'Passage'}</div><div class="passage-text">${p.text}</div></div>`;
+}
+function qFigure(q) {
+  return q.image ? `<div class="q-figure"><img src="${q.image}" alt="Question figure" loading="lazy"></div>` : '';
+}
+
 function renderQuiz() {
   const q = test.questions[currentIdx];
   const total = test.questions.length;
@@ -156,10 +167,12 @@ function renderQuiz() {
     <div class="quiz-container">
       <div class="question-card">
         <div class="question-num">Question ${currentIdx + 1} of ${total}</div>
+        ${qPassage(q)}
         <div class="question-text">${q.question}</div>
+        ${qFigure(q)}
         <div class="choices">
           ${q.choices.map((c, i) => {
-            const letter = ['A','B','C','D'][i];
+            const letter = LETTERS[i];
             const cls = selected === letter ? 'choice selected' : 'choice';
             return `<div class="${cls}" onclick="selectAnswer('${letter}')">
               <span class="letter">${letter}</span>
@@ -292,10 +305,12 @@ function showReview() {
     return `
       <div class="question-card">
         <div class="question-num">Question ${i + 1} ${noAnswer ? '(Not Answered)' : correct ? '✓ Correct' : '✗ Incorrect'}</div>
+        ${qPassage(q)}
         <div class="question-text">${q.question}</div>
+        ${qFigure(q)}
         <div class="choices">
           ${q.choices.map((c, j) => {
-            const letter = ['A','B','C','D'][j];
+            const letter = LETTERS[j];
             let cls = 'choice';
             if (letter === q.answer) cls = 'choice correct';
             else if (letter === userAns && !correct) cls = 'choice wrong';
