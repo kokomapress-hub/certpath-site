@@ -161,6 +161,18 @@ async function initAccessPage() {
   const codeFromUrl = params.get('code');
   if (codeFromUrl) document.getElementById('code').value = codeFromUrl.toUpperCase();
 
+  // Live-hide the email field if the user is typing the admin code.
+  const codeInput = document.getElementById('code');
+  const emailGroup = document.getElementById('emailGroup');
+  const syncAdminUI = async () => {
+    if (!emailGroup) return;
+    const data = await loadBooks();
+    const isAdmin = codeInput.value.toUpperCase().trim() === data.adminCode;
+    emailGroup.style.display = isAdmin ? 'none' : '';
+  };
+  codeInput.addEventListener('input', syncAdminUI);
+  syncAdminUI(); // initial pass for prefilled code
+
   const unlocked = getUnlocked();
   if (unlocked.slugs.length > 0 || unlocked.isAdmin) {
     const data = await loadBooks();
@@ -178,26 +190,37 @@ async function initAccessPage() {
 
   form.addEventListener('submit', async (e) => {
     e.preventDefault();
-    const email = document.getElementById('email').value;
+    const email = document.getElementById('email').value.trim();
     const code = document.getElementById('code').value;
     const errorMsg = document.getElementById('errorMsg');
+    errorMsg.classList.remove('show');
 
     const result = await validateCode(code);
     if (!result.success) { errorMsg.textContent = result.message; errorMsg.classList.add('show'); return; }
 
-    setEmail(email);
+    // Email is required for regular book codes (we capture it to MailerLite).
+    // Admin code bypasses email entirely — admin doesn't need to subscribe.
+    if (!result.isAdmin && !email) {
+      errorMsg.textContent = 'Please enter your email address.';
+      errorMsg.classList.add('show');
+      return;
+    }
+
+    if (email) setEmail(email);
     const current = getUnlocked();
     if (result.isAdmin) { current.isAdmin = true; current.slugs = result.books.map(b => b.slug); }
     else { current.slugs = Array.from(new Set([...current.slugs, ...result.books.map(b => b.slug)])); }
     setUnlocked(current);
 
-    // Fire-and-forget MailerLite subscribe — never block unlock on failure.
-    const bookLabel = result.isAdmin ? 'ADMIN' : (result.books[0]?.shortName || result.books[0]?.slug || '');
-    fetch('/api/subscribe', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ email, accessCode: code, book: bookLabel }),
-    }).catch(() => {});
+    // MailerLite subscribe — only for real customers, not admin.
+    if (!result.isAdmin) {
+      const bookLabel = result.books[0]?.shortName || result.books[0]?.slug || '';
+      fetch('/api/subscribe', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email, accessCode: code, book: bookLabel }),
+      }).catch(() => {});
+    }
 
     renderUnlockedBooks(result.books, result.isAdmin);
     form.parentElement.style.display = 'none';

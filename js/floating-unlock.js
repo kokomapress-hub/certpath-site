@@ -84,11 +84,22 @@
         return;
       }
 
+      // Admin code: unlock directly client-side, skip the email step.
+      if (isAdmin) {
+        localStorage.setItem('certpath_unlocked', JSON.stringify({
+          slugs: data.books.map(b => b.slug),
+          isAdmin: true,
+        }));
+        msg.classList.add('success');
+        msg.innerHTML = '✓ Admin access granted — opening your library…';
+        setTimeout(() => { location.href = '/access'; }, 600);
+        return;
+      }
+
+      // Regular book code: bounce to /access for email capture.
       msg.classList.add('success');
       msg.innerHTML = '✓ Code verified. Redirecting to enter your email…';
-      const target = isAdmin
-        ? `/access?code=${encodeURIComponent(code)}`
-        : `/access?code=${encodeURIComponent(code)}&book=${book.slug}`;
+      const target = `/access?code=${encodeURIComponent(code)}&book=${book.slug}`;
       setTimeout(() => { location.href = target; }, 800);
     } catch (err) {
       msg.classList.add('error');
