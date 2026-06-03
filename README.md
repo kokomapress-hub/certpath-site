@@ -30,7 +30,7 @@ Static website serving timed practice tests for verified book owners of CertPath
 | STS Exam | `STS-3H7RO-WGGPI` |
 | MSSC CPT | `CPT-2ILBI-0PCA7` |
 | NCIDQ Exam | `NCDQ-TM9CT-MJ8L2` |
-| **ADMIN (unlocks all 10)** | `CERTPATH-ADMIN-2026` |
+| **ADMIN (unlocks all books)** | `PRASAD` |
 
 ## Local Dev
 

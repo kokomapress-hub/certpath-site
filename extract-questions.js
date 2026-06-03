@@ -173,7 +173,7 @@ for (const book of BOOKS) {
 
 fs.writeFileSync(path.join(OUTPUT_DIR, "books.json"), JSON.stringify({
   books: booksMeta,
-  adminCode: "CERTPATH-ADMIN-2026",
+  adminCode: "PRASAD",
 }, null, 2));
 
 console.log("\n=== SUMMARY ===");
