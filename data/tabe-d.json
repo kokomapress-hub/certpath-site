@@ -1213,6 +1213,6661 @@
           "explanation": "4/10 * 3/9 = 12/90 = 2/15."
         }
       ]
+    },
+    {
+      "testNum": 3,
+      "questions": [
+        {
+          "num": 1,
+          "question": "A rectangle is 4 ft by 14 ft. What is its area (sq ft)?",
+          "choices": [
+            "61",
+            "56",
+            "60",
+            "51"
+          ],
+          "answer": "B",
+          "explanation": "Area = length \u00d7 width = 4 \u00d7 14 = 56 sq ft."
+        },
+        {
+          "num": 2,
+          "question": "Compute (8/4) \u00d7 (2/8). Reduce.",
+          "choices": [
+            "1/2",
+            "8/1",
+            "2/7",
+            "5/6"
+          ],
+          "answer": "A",
+          "explanation": "Multiply numerators \u00d7 denominators: 16/32 = 1/2."
+        },
+        {
+          "num": 3,
+          "question": "A right triangle has legs of 6 and 8. Find the hypotenuse.",
+          "choices": [
+            "9",
+            "10",
+            "8",
+            "12"
+          ],
+          "answer": "B",
+          "explanation": "Pythagorean: \u221a(6\u00b2 + 8\u00b2) = \u221a100 = 10."
+        },
+        {
+          "num": 4,
+          "question": "Solve for x: 9x - 3 = 24",
+          "choices": [
+            "2",
+            "12",
+            "3",
+            "1"
+          ],
+          "answer": "C",
+          "explanation": "Subtract -3 \u2192 9x = 27. Divide \u2192 x = 3."
+        },
+        {
+          "num": 5,
+          "question": "A 50-piece set is in the ratio 1:4. How many in the larger group?",
+          "choices": [
+            "40",
+            "45",
+            "35",
+            "42"
+          ],
+          "answer": "A",
+          "explanation": "50 \u00f7 (1+4) = 10; larger group = 4\u00d710 = 40."
+        },
+        {
+          "num": 6,
+          "question": "A rectangle is 16 ft by 20 ft. What is its area (sq ft)?",
+          "choices": [
+            "320",
+            "300",
+            "336",
+            "340"
+          ],
+          "answer": "A",
+          "explanation": "Area = length \u00d7 width = 16 \u00d7 20 = 320 sq ft."
+        },
+        {
+          "num": 7,
+          "question": "Compute 1.8 \u00d7 8.0.",
+          "choices": [
+            "13.4",
+            "14.4",
+            "14.5",
+            "12.6"
+          ],
+          "answer": "B",
+          "explanation": "1.8 \u00d7 8.0 = 14.4."
+        },
+        {
+          "num": 8,
+          "question": "What is 20% of 50?",
+          "choices": [
+            "5",
+            "15",
+            "87",
+            "10"
+          ],
+          "answer": "D",
+          "explanation": "20/100 \u00d7 50 = 10."
+        },
+        {
+          "num": 9,
+          "question": "Compute 50 + (24).",
+          "choices": [
+            "74",
+            "124",
+            "73",
+            "75"
+          ],
+          "answer": "A",
+          "explanation": "50 + 24 = 74."
+        },
+        {
+          "num": 10,
+          "question": "A rectangle is 4 ft by 9 ft. What is its area (sq ft)?",
+          "choices": [
+            "41",
+            "36",
+            "45",
+            "40"
+          ],
+          "answer": "B",
+          "explanation": "Area = length \u00d7 width = 4 \u00d7 9 = 36 sq ft."
+        },
+        {
+          "num": 11,
+          "question": "Compute (-5) \u00d7 (9).",
+          "choices": [
+            "-44",
+            "-40",
+            "-45",
+            "-50"
+          ],
+          "answer": "C",
+          "explanation": "-5 \u00d7 9 = -45."
+        },
+        {
+          "num": 12,
+          "question": "Compute 2/5 + 1/3. Reduce.",
+          "choices": [
+            "72",
+            "1/15",
+            "3/8",
+            "11/15"
+          ],
+          "answer": "D",
+          "explanation": "Common denominator \u2192 2/5 + 1/3 = 11/15."
+        },
+        {
+          "num": 13,
+          "question": "Compute (1/7) \u00d7 (3/8). Reduce.",
+          "choices": [
+            "8/21",
+            "4/15",
+            "8/3",
+            "3/56"
+          ],
+          "answer": "D",
+          "explanation": "Multiply numerators \u00d7 denominators: 3/56 = 3/56."
+        },
+        {
+          "num": 14,
+          "question": "Compute 1 - (18).",
+          "choices": [
+            "-17",
+            "1",
+            "-16",
+            "-27"
+          ],
+          "answer": "A",
+          "explanation": "1 - (18) = -17. Subtracting a negative adds."
+        },
+        {
+          "num": 15,
+          "question": "Compute -5 - (40).",
+          "choices": [
+            "-35",
+            "-46",
+            "-45",
+            "-85"
+          ],
+          "answer": "C",
+          "explanation": "-5 - (40) = -45. Subtracting a negative adds."
+        },
+        {
+          "num": 16,
+          "question": "Compute 3/4 + 2/3. Reduce.",
+          "choices": [
+            "96",
+            "5/7",
+            "17/12",
+            "1/12"
+          ],
+          "answer": "C",
+          "explanation": "Common denominator \u2192 3/4 + 2/3 = 17/12."
+        },
+        {
+          "num": 17,
+          "question": "A 78-piece set is in the ratio 5:8. How many in the larger group?",
+          "choices": [
+            "42",
+            "48",
+            "53",
+            "50"
+          ],
+          "answer": "B",
+          "explanation": "78 \u00f7 (5+8) = 6; larger group = 8\u00d76 = 48."
+        },
+        {
+          "num": 18,
+          "question": "Compute (-11) \u00d7 (1).",
+          "choices": [
+            "-11",
+            "0",
+            "-10",
+            "-12"
+          ],
+          "answer": "A",
+          "explanation": "-11 \u00d7 1 = -11."
+        },
+        {
+          "num": 19,
+          "question": "Compute (9/2) \u00d7 (6/3). Reduce.",
+          "choices": [
+            "9/4",
+            "9/1",
+            "3/1",
+            "12/9"
+          ],
+          "answer": "B",
+          "explanation": "Multiply numerators \u00d7 denominators: 54/6 = 9/1."
+        },
+        {
+          "num": 20,
+          "question": "A rectangle is 6 ft by 11 ft. What is its area (sq ft)?",
+          "choices": [
+            "77",
+            "71",
+            "72",
+            "66"
+          ],
+          "answer": "D",
+          "explanation": "Area = length \u00d7 width = 6 \u00d7 11 = 66 sq ft."
+        },
+        {
+          "num": 21,
+          "question": "Compute 27 - (45).",
+          "choices": [
+            "-63",
+            "-18",
+            "-19",
+            "-17"
+          ],
+          "answer": "B",
+          "explanation": "27 - (45) = -18. Subtracting a negative adds."
+        },
+        {
+          "num": 22,
+          "question": "Compute 28 - (41).",
+          "choices": [
+            "-13",
+            "-12",
+            "-3",
+            "-54"
+          ],
+          "answer": "A",
+          "explanation": "28 - (41) = -13. Subtracting a negative adds."
+        },
+        {
+          "num": 23,
+          "question": "Compute -44 + (-35).",
+          "choices": [
+            "-123",
+            "-79",
+            "-80",
+            "-89"
+          ],
+          "answer": "B",
+          "explanation": "-44 + -35 = -79."
+        },
+        {
+          "num": 24,
+          "question": "Solve for x: 8x + 2 = 10",
+          "choices": [
+            "2",
+            "9",
+            "3",
+            "1"
+          ],
+          "answer": "D",
+          "explanation": "Subtract 2 \u2192 8x = 8. Divide \u2192 x = 1."
+        },
+        {
+          "num": 25,
+          "question": "Compute (-3) \u00d7 (-1).",
+          "choices": [
+            "0",
+            "2",
+            "4",
+            "3"
+          ],
+          "answer": "D",
+          "explanation": "-3 \u00d7 -1 = 3."
+        },
+        {
+          "num": 26,
+          "question": "Compute (-4) \u00d7 (-8).",
+          "choices": [
+            "32",
+            "36",
+            "40",
+            "31"
+          ],
+          "answer": "A",
+          "explanation": "-4 \u00d7 -8 = 32."
+        },
+        {
+          "num": 27,
+          "question": "Compute (4) \u00d7 (-12).",
+          "choices": [
+            "-49",
+            "-47",
+            "-60",
+            "-48"
+          ],
+          "answer": "D",
+          "explanation": "4 \u00d7 -12 = -48."
+        },
+        {
+          "num": 28,
+          "question": "Compute 45 + (16).",
+          "choices": [
+            "61",
+            "60",
+            "51",
+            "16"
+          ],
+          "answer": "A",
+          "explanation": "45 + 16 = 61."
+        },
+        {
+          "num": 29,
+          "question": "Solve for x: 4x - 1 = -5",
+          "choices": [
+            "-2",
+            "-1",
+            "35",
+            "1"
+          ],
+          "answer": "B",
+          "explanation": "Subtract -1 \u2192 4x = -4. Divide \u2192 x = -1."
+        },
+        {
+          "num": 30,
+          "question": "A rectangle is 13 ft by 3 ft. What is its area (sq ft)?",
+          "choices": [
+            "39",
+            "52",
+            "36",
+            "42"
+          ],
+          "answer": "A",
+          "explanation": "Area = length \u00d7 width = 13 \u00d7 3 = 39 sq ft."
+        },
+        {
+          "num": 31,
+          "question": "Compute 1/3 + 1/4. Reduce.",
+          "choices": [
+            "2/7",
+            "24",
+            "1/12",
+            "7/12"
+          ],
+          "answer": "D",
+          "explanation": "Common denominator \u2192 1/3 + 1/4 = 7/12."
+        },
+        {
+          "num": 32,
+          "question": "Compute (0) \u00d7 (0).",
+          "choices": [
+            "-1",
+            "0",
+            "67",
+            "1"
+          ],
+          "answer": "B",
+          "explanation": "0 \u00d7 0 = 0."
+        },
+        {
+          "num": 33,
+          "question": "A rectangle is 25 ft by 5 ft. What is its area (sq ft)?",
+          "choices": [
+            "125",
+            "130",
+            "120",
+            "150"
+          ],
+          "answer": "A",
+          "explanation": "Area = length \u00d7 width = 25 \u00d7 5 = 125 sq ft."
+        },
+        {
+          "num": 34,
+          "question": "Compute -37 + (-25).",
+          "choices": [
+            "-61",
+            "-72",
+            "-52",
+            "-62"
+          ],
+          "answer": "D",
+          "explanation": "-37 + -25 = -62."
+        },
+        {
+          "num": 35,
+          "question": "Compute (-6) \u00d7 (9).",
+          "choices": [
+            "-63",
+            "-54",
+            "-53",
+            "-55"
+          ],
+          "answer": "B",
+          "explanation": "-6 \u00d7 9 = -54."
+        },
+        {
+          "num": 36,
+          "question": "Solve for x: 4x + 5 = -15",
+          "choices": [
+            "-1",
+            "-5",
+            "-3",
+            "-6"
+          ],
+          "answer": "B",
+          "explanation": "Subtract 5 \u2192 4x = -20. Divide \u2192 x = -5."
+        },
+        {
+          "num": 37,
+          "question": "A rectangle is 25 ft by 14 ft. What is its area (sq ft)?",
+          "choices": [
+            "355",
+            "325",
+            "364",
+            "350"
+          ],
+          "answer": "D",
+          "explanation": "Area = length \u00d7 width = 25 \u00d7 14 = 350 sq ft."
+        },
+        {
+          "num": 38,
+          "question": "Compute 29 - (-32).",
+          "choices": [
+            "29",
+            "60",
+            "61",
+            "93"
+          ],
+          "answer": "C",
+          "explanation": "29 - (-32) = 61. Subtracting a negative adds."
+        },
+        {
+          "num": 39,
+          "question": "A rectangle is 9 ft by 4 ft. What is its area (sq ft)?",
+          "choices": [
+            "36",
+            "45",
+            "32",
+            "40"
+          ],
+          "answer": "A",
+          "explanation": "Area = length \u00d7 width = 9 \u00d7 4 = 36 sq ft."
+        },
+        {
+          "num": 40,
+          "question": "A rectangle is 18 ft by 17 ft. What is its area (sq ft)?",
+          "choices": [
+            "323",
+            "301",
+            "306",
+            "288"
+          ],
+          "answer": "C",
+          "explanation": "Area = length \u00d7 width = 18 \u00d7 17 = 306 sq ft."
+        },
+        {
+          "num": 41,
+          "question": "A 56-piece set is in the ratio 3:4. How many in the larger group?",
+          "choices": [
+            "37",
+            "34",
+            "24",
+            "32"
+          ],
+          "answer": "D",
+          "explanation": "56 \u00f7 (3+4) = 8; larger group = 4\u00d78 = 32."
+        },
+        {
+          "num": 42,
+          "question": "Compute 1.4 \u00d7 8.2.",
+          "choices": [
+            "11.38",
+            "11.48",
+            "11.58",
+            "12.48"
+          ],
+          "answer": "B",
+          "explanation": "1.4 \u00d7 8.2 = 11.48."
+        },
+        {
+          "num": 43,
+          "question": "What is 25% of 150?",
+          "choices": [
+            "37.5",
+            "52.5",
+            "42.5",
+            "32.5"
+          ],
+          "answer": "A",
+          "explanation": "25/100 \u00d7 150 = 37.5."
+        },
+        {
+          "num": 44,
+          "question": "Compute 2/3 + 1/2. Reduce.",
+          "choices": [
+            "3/5",
+            "1/6",
+            "6",
+            "7/6"
+          ],
+          "answer": "D",
+          "explanation": "Common denominator \u2192 2/3 + 1/2 = 7/6."
+        },
+        {
+          "num": 45,
+          "question": "A 42-piece set is in the ratio 3:4. How many in the larger group?",
+          "choices": [
+            "19",
+            "26",
+            "24",
+            "18"
+          ],
+          "answer": "C",
+          "explanation": "42 \u00f7 (3+4) = 6; larger group = 4\u00d76 = 24."
+        },
+        {
+          "num": 46,
+          "question": "A right triangle has legs of 5 and 12. Find the hypotenuse.",
+          "choices": [
+            "11",
+            "14",
+            "13",
+            "18"
+          ],
+          "answer": "C",
+          "explanation": "Pythagorean: \u221a(5\u00b2 + 12\u00b2) = \u221a169 = 13."
+        },
+        {
+          "num": 47,
+          "question": "A rectangle is 18 ft by 8 ft. What is its area (sq ft)?",
+          "choices": [
+            "139",
+            "144",
+            "152",
+            "136"
+          ],
+          "answer": "B",
+          "explanation": "Area = length \u00d7 width = 18 \u00d7 8 = 144 sq ft."
+        },
+        {
+          "num": 48,
+          "question": "Compute 37 + (12).",
+          "choices": [
+            "59",
+            "49",
+            "50",
+            "48"
+          ],
+          "answer": "B",
+          "explanation": "37 + 12 = 49."
+        },
+        {
+          "num": 49,
+          "question": "Compute 23 - (-37).",
+          "choices": [
+            "60",
+            "23",
+            "97",
+            "70"
+          ],
+          "answer": "A",
+          "explanation": "23 - (-37) = 60. Subtracting a negative adds."
+        },
+        {
+          "num": 50,
+          "question": "A rectangle is 4 ft by 18 ft. What is its area (sq ft)?",
+          "choices": [
+            "72",
+            "90",
+            "77",
+            "76"
+          ],
+          "answer": "A",
+          "explanation": "Area = length \u00d7 width = 4 \u00d7 18 = 72 sq ft."
+        }
+      ]
+    },
+    {
+      "testNum": 4,
+      "questions": [
+        {
+          "num": 1,
+          "question": "A 20-piece set is in the ratio 1:4. How many in the larger group?",
+          "choices": [
+            "18",
+            "11",
+            "16",
+            "14"
+          ],
+          "answer": "C",
+          "explanation": "20 \u00f7 (1+4) = 4; larger group = 4\u00d74 = 16."
+        },
+        {
+          "num": 2,
+          "question": "Solve for x: 2x + 5 = 1",
+          "choices": [
+            "-2",
+            "0",
+            "-4",
+            "-1"
+          ],
+          "answer": "A",
+          "explanation": "Subtract 5 \u2192 2x = -4. Divide \u2192 x = -2."
+        },
+        {
+          "num": 3,
+          "question": "What is 5% of 50?",
+          "choices": [
+            "-2.5",
+            "2.5",
+            "7.5",
+            "-7.5"
+          ],
+          "answer": "B",
+          "explanation": "5/100 \u00d7 50 = 2.5."
+        },
+        {
+          "num": 4,
+          "question": "What is 20% of 120?",
+          "choices": [
+            "24",
+            "12",
+            "36",
+            "34"
+          ],
+          "answer": "A",
+          "explanation": "20/100 \u00d7 120 = 24."
+        },
+        {
+          "num": 5,
+          "question": "Compute -33 - (42).",
+          "choices": [
+            "-76",
+            "-75",
+            "-74",
+            "-85"
+          ],
+          "answer": "B",
+          "explanation": "-33 - (42) = -75. Subtracting a negative adds."
+        },
+        {
+          "num": 6,
+          "question": "What is 75% of 40?",
+          "choices": [
+            "35",
+            "40",
+            "30",
+            "34"
+          ],
+          "answer": "C",
+          "explanation": "75/100 \u00d7 40 = 30."
+        },
+        {
+          "num": 7,
+          "question": "What is 20% of 200?",
+          "choices": [
+            "35",
+            "60",
+            "45",
+            "40"
+          ],
+          "answer": "D",
+          "explanation": "20/100 \u00d7 200 = 40."
+        },
+        {
+          "num": 8,
+          "question": "A rectangle is 5 ft by 19 ft. What is its area (sq ft)?",
+          "choices": [
+            "95",
+            "76",
+            "100",
+            "90"
+          ],
+          "answer": "A",
+          "explanation": "Area = length \u00d7 width = 5 \u00d7 19 = 95 sq ft."
+        },
+        {
+          "num": 9,
+          "question": "A rectangle is 17 ft by 19 ft. What is its area (sq ft)?",
+          "choices": [
+            "304",
+            "340",
+            "323",
+            "342"
+          ],
+          "answer": "C",
+          "explanation": "Area = length \u00d7 width = 17 \u00d7 19 = 323 sq ft."
+        },
+        {
+          "num": 10,
+          "question": "A 24-piece set is in the ratio 3:5. How many in the larger group?",
+          "choices": [
+            "10",
+            "15",
+            "20",
+            "17"
+          ],
+          "answer": "B",
+          "explanation": "24 \u00f7 (3+5) = 3; larger group = 5\u00d73 = 15."
+        },
+        {
+          "num": 11,
+          "question": "Compute 47 - (-26).",
+          "choices": [
+            "99",
+            "73",
+            "74",
+            "72"
+          ],
+          "answer": "B",
+          "explanation": "47 - (-26) = 73. Subtracting a negative adds."
+        },
+        {
+          "num": 12,
+          "question": "Compute -46 + (-37).",
+          "choices": [
+            "-84",
+            "-83",
+            "-37",
+            "-93"
+          ],
+          "answer": "B",
+          "explanation": "-46 + -37 = -83."
+        },
+        {
+          "num": 13,
+          "question": "A rectangle is 6 ft by 8 ft. What is its area (sq ft)?",
+          "choices": [
+            "42",
+            "48",
+            "43",
+            "40"
+          ],
+          "answer": "B",
+          "explanation": "Area = length \u00d7 width = 6 \u00d7 8 = 48 sq ft."
+        },
+        {
+          "num": 14,
+          "question": "Solve for x: 2x - 1 = -9",
+          "choices": [
+            "-5",
+            "-6",
+            "-4",
+            "-3"
+          ],
+          "answer": "C",
+          "explanation": "Subtract -1 \u2192 2x = -8. Divide \u2192 x = -4."
+        },
+        {
+          "num": 15,
+          "question": "A rectangle is 17 ft by 8 ft. What is its area (sq ft)?",
+          "choices": [
+            "153",
+            "141",
+            "136",
+            "144"
+          ],
+          "answer": "C",
+          "explanation": "Area = length \u00d7 width = 17 \u00d7 8 = 136 sq ft."
+        },
+        {
+          "num": 16,
+          "question": "A rectangle is 10 ft by 5 ft. What is its area (sq ft)?",
+          "choices": [
+            "50",
+            "45",
+            "60",
+            "40"
+          ],
+          "answer": "A",
+          "explanation": "Area = length \u00d7 width = 10 \u00d7 5 = 50 sq ft."
+        },
+        {
+          "num": 17,
+          "question": "A right triangle has legs of 3 and 4. Find the hypotenuse.",
+          "choices": [
+            "6",
+            "8",
+            "5",
+            "2"
+          ],
+          "answer": "C",
+          "explanation": "Pythagorean: \u221a(3\u00b2 + 4\u00b2) = \u221a25 = 5."
+        },
+        {
+          "num": 18,
+          "question": "Solve for x: 2x - 5 = -7",
+          "choices": [
+            "0",
+            "-1",
+            "-3",
+            "1"
+          ],
+          "answer": "B",
+          "explanation": "Subtract -5 \u2192 2x = -2. Divide \u2192 x = -1."
+        },
+        {
+          "num": 19,
+          "question": "A right triangle has legs of 9 and 12. Find the hypotenuse.",
+          "choices": [
+            "15",
+            "16",
+            "24",
+            "17"
+          ],
+          "answer": "A",
+          "explanation": "Pythagorean: \u221a(9\u00b2 + 12\u00b2) = \u221a225 = 15."
+        },
+        {
+          "num": 20,
+          "question": "Compute 1.3 \u00d7 5.0.",
+          "choices": [
+            "6.5",
+            "5.2",
+            "7.5",
+            "5.5"
+          ],
+          "answer": "A",
+          "explanation": "1.3 \u00d7 5.0 = 6.5."
+        },
+        {
+          "num": 21,
+          "question": "Compute (6/3) \u00d7 (5/7). Reduce.",
+          "choices": [
+            "11/10",
+            "14/11",
+            "14/5",
+            "10/7"
+          ],
+          "answer": "D",
+          "explanation": "Multiply numerators \u00d7 denominators: 30/21 = 10/7."
+        },
+        {
+          "num": 22,
+          "question": "Compute 5.5 \u00d7 7.7.",
+          "choices": [
+            "41.35",
+            "43.35",
+            "42.25",
+            "42.35"
+          ],
+          "answer": "D",
+          "explanation": "5.5 \u00d7 7.7 = 42.35."
+        },
+        {
+          "num": 23,
+          "question": "Compute -48 + (-12).",
+          "choices": [
+            "-50",
+            "-60",
+            "-61",
+            "-59"
+          ],
+          "answer": "B",
+          "explanation": "-48 + -12 = -60."
+        },
+        {
+          "num": 24,
+          "question": "Compute 5.2 \u00d7 5.2.",
+          "choices": [
+            "21.84",
+            "90",
+            "27.04",
+            "32.24"
+          ],
+          "answer": "C",
+          "explanation": "5.2 \u00d7 5.2 = 27.04."
+        },
+        {
+          "num": 25,
+          "question": "Solve for x: 2x + 8 = 0",
+          "choices": [
+            "-6",
+            "-2",
+            "-4",
+            "-3"
+          ],
+          "answer": "C",
+          "explanation": "Subtract 8 \u2192 2x = -8. Divide \u2192 x = -4."
+        },
+        {
+          "num": 26,
+          "question": "Compute (9) \u00d7 (-9).",
+          "choices": [
+            "-82",
+            "-90",
+            "-72",
+            "-81"
+          ],
+          "answer": "D",
+          "explanation": "9 \u00d7 -9 = -81."
+        },
+        {
+          "num": 27,
+          "question": "What is 5% of 300?",
+          "choices": [
+            "5",
+            "10",
+            "45",
+            "15"
+          ],
+          "answer": "D",
+          "explanation": "5/100 \u00d7 300 = 15."
+        },
+        {
+          "num": 28,
+          "question": "Compute -9 - (-25).",
+          "choices": [
+            "6",
+            "26",
+            "41",
+            "16"
+          ],
+          "answer": "D",
+          "explanation": "-9 - (-25) = 16. Subtracting a negative adds."
+        },
+        {
+          "num": 29,
+          "question": "Compute 15 - (31).",
+          "choices": [
+            "-6",
+            "-17",
+            "-16",
+            "-26"
+          ],
+          "answer": "C",
+          "explanation": "15 - (31) = -16. Subtracting a negative adds."
+        },
+        {
+          "num": 30,
+          "question": "Compute (0) \u00d7 (-1).",
+          "choices": [
+            "0",
+            "1",
+            "-1",
+            "10"
+          ],
+          "answer": "A",
+          "explanation": "0 \u00d7 -1 = 0."
+        },
+        {
+          "num": 31,
+          "question": "Compute (5/8) \u00d7 (7/9). Reduce.",
+          "choices": [
+            "45/56",
+            "12/17",
+            "7/11",
+            "35/72"
+          ],
+          "answer": "D",
+          "explanation": "Multiply numerators \u00d7 denominators: 35/72 = 35/72."
+        },
+        {
+          "num": 32,
+          "question": "Compute -47 + (-23).",
+          "choices": [
+            "-80",
+            "-69",
+            "-70",
+            "-23"
+          ],
+          "answer": "C",
+          "explanation": "-47 + -23 = -70."
+        },
+        {
+          "num": 33,
+          "question": "Compute 1.2 \u00d7 0.3.",
+          "choices": [
+            "0.46",
+            "1.36",
+            "0.36",
+            "0.26"
+          ],
+          "answer": "C",
+          "explanation": "1.2 \u00d7 0.3 = 0.36."
+        },
+        {
+          "num": 34,
+          "question": "Compute 1/3 + 3/4. Reduce.",
+          "choices": [
+            "13/12",
+            "4/7",
+            "-5/12",
+            "93"
+          ],
+          "answer": "A",
+          "explanation": "Common denominator \u2192 1/3 + 3/4 = 13/12."
+        },
+        {
+          "num": 35,
+          "question": "What is 50% of 40?",
+          "choices": [
+            "20",
+            "24",
+            "15",
+            "16"
+          ],
+          "answer": "A",
+          "explanation": "50/100 \u00d7 40 = 20."
+        },
+        {
+          "num": 36,
+          "question": "Compute -20 - (45).",
+          "choices": [
+            "-75",
+            "-20",
+            "-65",
+            "-110"
+          ],
+          "answer": "C",
+          "explanation": "-20 - (45) = -65. Subtracting a negative adds."
+        },
+        {
+          "num": 37,
+          "question": "Compute (1) \u00d7 (0).",
+          "choices": [
+            "0",
+            "19",
+            "1",
+            "98"
+          ],
+          "answer": "A",
+          "explanation": "1 \u00d7 0 = 0."
+        },
+        {
+          "num": 38,
+          "question": "Compute (-7) \u00d7 (-6).",
+          "choices": [
+            "48",
+            "42",
+            "41",
+            "35"
+          ],
+          "answer": "B",
+          "explanation": "-7 \u00d7 -6 = 42."
+        },
+        {
+          "num": 39,
+          "question": "A 48-piece set is in the ratio 3:5. How many in the larger group?",
+          "choices": [
+            "25",
+            "32",
+            "30",
+            "28"
+          ],
+          "answer": "C",
+          "explanation": "48 \u00f7 (3+5) = 6; larger group = 5\u00d76 = 30."
+        },
+        {
+          "num": 40,
+          "question": "Compute (-3) \u00d7 (8).",
+          "choices": [
+            "-32",
+            "-23",
+            "-21",
+            "-24"
+          ],
+          "answer": "D",
+          "explanation": "-3 \u00d7 8 = -24."
+        },
+        {
+          "num": 41,
+          "question": "Compute (1/9) \u00d7 (3/6). Reduce.",
+          "choices": [
+            "9/8",
+            "4/15",
+            "2/9",
+            "1/18"
+          ],
+          "answer": "D",
+          "explanation": "Multiply numerators \u00d7 denominators: 3/54 = 1/18."
+        },
+        {
+          "num": 42,
+          "question": "Compute -11 + (26).",
+          "choices": [
+            "15",
+            "4",
+            "5",
+            "14"
+          ],
+          "answer": "A",
+          "explanation": "-11 + 26 = 15."
+        },
+        {
+          "num": 43,
+          "question": "What is 25% of 50?",
+          "choices": [
+            "67",
+            "7.5",
+            "12.5",
+            "17.5"
+          ],
+          "answer": "C",
+          "explanation": "25/100 \u00d7 50 = 12.5."
+        },
+        {
+          "num": 44,
+          "question": "Solve for x: 7x + 0 = -28",
+          "choices": [
+            "-5",
+            "-6",
+            "3",
+            "-4"
+          ],
+          "answer": "D",
+          "explanation": "Subtract 0 \u2192 7x = -28. Divide \u2192 x = -4."
+        },
+        {
+          "num": 45,
+          "question": "A right triangle has legs of 8 and 15. Find the hypotenuse.",
+          "choices": [
+            "25",
+            "17",
+            "9",
+            "19"
+          ],
+          "answer": "B",
+          "explanation": "Pythagorean: \u221a(8\u00b2 + 15\u00b2) = \u221a289 = 17."
+        },
+        {
+          "num": 46,
+          "question": "Compute (3/5) \u00d7 (2/4). Reduce.",
+          "choices": [
+            "6/5",
+            "3/10",
+            "11/15",
+            "5/9"
+          ],
+          "answer": "B",
+          "explanation": "Multiply numerators \u00d7 denominators: 6/20 = 3/10."
+        },
+        {
+          "num": 47,
+          "question": "What is 10% of 80?",
+          "choices": [
+            "0",
+            "8",
+            "-2",
+            "13"
+          ],
+          "answer": "B",
+          "explanation": "10/100 \u00d7 80 = 8."
+        },
+        {
+          "num": 48,
+          "question": "Compute -49 + (-28).",
+          "choices": [
+            "-28",
+            "-126",
+            "-77",
+            "-87"
+          ],
+          "answer": "C",
+          "explanation": "-49 + -28 = -77."
+        },
+        {
+          "num": 49,
+          "question": "Compute 2.6 \u00d7 1.0.",
+          "choices": [
+            "1.6",
+            "2.6",
+            "2.5",
+            "0.0"
+          ],
+          "answer": "B",
+          "explanation": "2.6 \u00d7 1.0 = 2.6."
+        },
+        {
+          "num": 50,
+          "question": "Compute -36 - (49).",
+          "choices": [
+            "-85",
+            "-86",
+            "-95",
+            "-84"
+          ],
+          "answer": "A",
+          "explanation": "-36 - (49) = -85. Subtracting a negative adds."
+        }
+      ]
+    },
+    {
+      "testNum": 5,
+      "questions": [
+        {
+          "num": 1,
+          "question": "Solve for x: 9x + 5 = 41",
+          "choices": [
+            "4",
+            "2",
+            "3",
+            "13"
+          ],
+          "answer": "A",
+          "explanation": "Subtract 5 \u2192 9x = 36. Divide \u2192 x = 4."
+        },
+        {
+          "num": 2,
+          "question": "Compute -38 + (14).",
+          "choices": [
+            "-23",
+            "14",
+            "-24",
+            "-34"
+          ],
+          "answer": "C",
+          "explanation": "-38 + 14 = -24."
+        },
+        {
+          "num": 3,
+          "question": "Compute 45 + (-33).",
+          "choices": [
+            "2",
+            "22",
+            "12",
+            "-33"
+          ],
+          "answer": "C",
+          "explanation": "45 + -33 = 12."
+        },
+        {
+          "num": 4,
+          "question": "Compute (-7) \u00d7 (-12).",
+          "choices": [
+            "84",
+            "85",
+            "96",
+            "83"
+          ],
+          "answer": "A",
+          "explanation": "-7 \u00d7 -12 = 84."
+        },
+        {
+          "num": 5,
+          "question": "Compute -45 + (38).",
+          "choices": [
+            "-7",
+            "-8",
+            "-6",
+            "3"
+          ],
+          "answer": "A",
+          "explanation": "-45 + 38 = -7."
+        },
+        {
+          "num": 6,
+          "question": "Solve for x: 7x + 1 = 8",
+          "choices": [
+            "1",
+            "3",
+            "-6",
+            "0"
+          ],
+          "answer": "A",
+          "explanation": "Subtract 1 \u2192 7x = 7. Divide \u2192 x = 1."
+        },
+        {
+          "num": 7,
+          "question": "A rectangle is 9 ft by 11 ft. What is its area (sq ft)?",
+          "choices": [
+            "99",
+            "104",
+            "108",
+            "94"
+          ],
+          "answer": "A",
+          "explanation": "Area = length \u00d7 width = 9 \u00d7 11 = 99 sq ft."
+        },
+        {
+          "num": 8,
+          "question": "Compute -50 - (-30).",
+          "choices": [
+            "-30",
+            "-19",
+            "10",
+            "-20"
+          ],
+          "answer": "D",
+          "explanation": "-50 - (-30) = -20. Subtracting a negative adds."
+        },
+        {
+          "num": 9,
+          "question": "Compute -24 + (-16).",
+          "choices": [
+            "-30",
+            "-39",
+            "-40",
+            "-50"
+          ],
+          "answer": "C",
+          "explanation": "-24 + -16 = -40."
+        },
+        {
+          "num": 10,
+          "question": "Compute 12 + (45).",
+          "choices": [
+            "67",
+            "57",
+            "47",
+            "58"
+          ],
+          "answer": "B",
+          "explanation": "12 + 45 = 57."
+        },
+        {
+          "num": 11,
+          "question": "Compute 2/3 + 2/5. Reduce.",
+          "choices": [
+            "1/2",
+            "87",
+            "16/15",
+            "4/15"
+          ],
+          "answer": "C",
+          "explanation": "Common denominator \u2192 2/3 + 2/5 = 16/15."
+        },
+        {
+          "num": 12,
+          "question": "What is 15% of 150?",
+          "choices": [
+            "12.5",
+            "17.5",
+            "22.5",
+            "32.5"
+          ],
+          "answer": "C",
+          "explanation": "15/100 \u00d7 150 = 22.5."
+        },
+        {
+          "num": 13,
+          "question": "Compute 4/5 + 1/2. Reduce.",
+          "choices": [
+            "5/7",
+            "13/10",
+            "3/10",
+            "84"
+          ],
+          "answer": "B",
+          "explanation": "Common denominator \u2192 4/5 + 1/2 = 13/10."
+        },
+        {
+          "num": 14,
+          "question": "Compute 39 + (-31).",
+          "choices": [
+            "18",
+            "-2",
+            "8",
+            "9"
+          ],
+          "answer": "C",
+          "explanation": "39 + -31 = 8."
+        },
+        {
+          "num": 15,
+          "question": "A 28-piece set is in the ratio 3:4. How many in the larger group?",
+          "choices": [
+            "16",
+            "20",
+            "18",
+            "11"
+          ],
+          "answer": "A",
+          "explanation": "28 \u00f7 (3+4) = 4; larger group = 4\u00d74 = 16."
+        },
+        {
+          "num": 16,
+          "question": "Compute 2/5 + 2/3. Reduce.",
+          "choices": [
+            "1/2",
+            "-4/15",
+            "16/15",
+            "72"
+          ],
+          "answer": "C",
+          "explanation": "Common denominator \u2192 2/5 + 2/3 = 16/15."
+        },
+        {
+          "num": 17,
+          "question": "Compute (-6) \u00d7 (-9).",
+          "choices": [
+            "48",
+            "54",
+            "45",
+            "53"
+          ],
+          "answer": "B",
+          "explanation": "-6 \u00d7 -9 = 54."
+        },
+        {
+          "num": 18,
+          "question": "Compute (5/2) \u00d7 (8/2). Reduce.",
+          "choices": [
+            "10/1",
+            "5/8",
+            "1/5",
+            "13/4"
+          ],
+          "answer": "A",
+          "explanation": "Multiply numerators \u00d7 denominators: 40/4 = 10/1."
+        },
+        {
+          "num": 19,
+          "question": "A 25-piece set is in the ratio 1:4. How many in the larger group?",
+          "choices": [
+            "20",
+            "22",
+            "18",
+            "25"
+          ],
+          "answer": "A",
+          "explanation": "25 \u00f7 (1+4) = 5; larger group = 4\u00d75 = 20."
+        },
+        {
+          "num": 20,
+          "question": "Compute -45 + (9).",
+          "choices": [
+            "9",
+            "-37",
+            "-46",
+            "-36"
+          ],
+          "answer": "D",
+          "explanation": "-45 + 9 = -36."
+        },
+        {
+          "num": 21,
+          "question": "Compute (9) \u00d7 (-1).",
+          "choices": [
+            "0",
+            "-10",
+            "-9",
+            "-8"
+          ],
+          "answer": "C",
+          "explanation": "9 \u00d7 -1 = -9."
+        },
+        {
+          "num": 22,
+          "question": "Compute 5.0 \u00d7 7.7.",
+          "choices": [
+            "43.5",
+            "38.5",
+            "37.5",
+            "33.5"
+          ],
+          "answer": "B",
+          "explanation": "5.0 \u00d7 7.7 = 38.5."
+        },
+        {
+          "num": 23,
+          "question": "Compute 9.3 \u00d7 7.3.",
+          "choices": [
+            "58.59",
+            "67.89",
+            "67.99",
+            "66.89"
+          ],
+          "answer": "B",
+          "explanation": "9.3 \u00d7 7.3 = 67.89."
+        },
+        {
+          "num": 24,
+          "question": "What is 25% of 300?",
+          "choices": [
+            "105",
+            "75",
+            "45",
+            "70"
+          ],
+          "answer": "B",
+          "explanation": "25/100 \u00d7 300 = 75."
+        },
+        {
+          "num": 25,
+          "question": "Compute 4/5 + 3/4. Reduce.",
+          "choices": [
+            "7/9",
+            "94",
+            "31/20",
+            "1/20"
+          ],
+          "answer": "C",
+          "explanation": "Common denominator \u2192 4/5 + 3/4 = 31/20."
+        },
+        {
+          "num": 26,
+          "question": "Compute 6.3 \u00d7 8.5.",
+          "choices": [
+            "59.85",
+            "53.55",
+            "53.65",
+            "53.45"
+          ],
+          "answer": "B",
+          "explanation": "6.3 \u00d7 8.5 = 53.55."
+        },
+        {
+          "num": 27,
+          "question": "What is 20% of 20?",
+          "choices": [
+            "-1",
+            "9",
+            "4",
+            "2"
+          ],
+          "answer": "C",
+          "explanation": "20/100 \u00d7 20 = 4."
+        },
+        {
+          "num": 28,
+          "question": "A 80-piece set is in the ratio 3:5. How many in the larger group?",
+          "choices": [
+            "50",
+            "52",
+            "40",
+            "48"
+          ],
+          "answer": "A",
+          "explanation": "80 \u00f7 (3+5) = 10; larger group = 5\u00d710 = 50."
+        },
+        {
+          "num": 29,
+          "question": "Compute 1/2 + 2/5. Reduce.",
+          "choices": [
+            "1/10",
+            "9/10",
+            "3/7",
+            "41"
+          ],
+          "answer": "B",
+          "explanation": "Common denominator \u2192 1/2 + 2/5 = 9/10."
+        },
+        {
+          "num": 30,
+          "question": "A 66-piece set is in the ratio 4:7. How many in the larger group?",
+          "choices": [
+            "47",
+            "44",
+            "42",
+            "37"
+          ],
+          "answer": "C",
+          "explanation": "66 \u00f7 (4+7) = 6; larger group = 7\u00d76 = 42."
+        },
+        {
+          "num": 31,
+          "question": "Compute (4/2) \u00d7 (5/9). Reduce.",
+          "choices": [
+            "9/11",
+            "18/5",
+            "10/9",
+            "6/14"
+          ],
+          "answer": "C",
+          "explanation": "Multiply numerators \u00d7 denominators: 20/18 = 10/9."
+        },
+        {
+          "num": 32,
+          "question": "Compute 3.9 \u00d7 4.4.",
+          "choices": [
+            "18.16",
+            "17.16",
+            "16.16",
+            "17.06"
+          ],
+          "answer": "B",
+          "explanation": "3.9 \u00d7 4.4 = 17.16."
+        },
+        {
+          "num": 33,
+          "question": "A 32-piece set is in the ratio 3:5. How many in the larger group?",
+          "choices": [
+            "22",
+            "20",
+            "15",
+            "16"
+          ],
+          "answer": "B",
+          "explanation": "32 \u00f7 (3+5) = 4; larger group = 5\u00d74 = 20."
+        },
+        {
+          "num": 34,
+          "question": "Solve for x: 4x - 3 = 1",
+          "choices": [
+            "1",
+            "-3",
+            "0",
+            "5"
+          ],
+          "answer": "A",
+          "explanation": "Subtract -3 \u2192 4x = 4. Divide \u2192 x = 1."
+        },
+        {
+          "num": 35,
+          "question": "Compute 42 + (-13).",
+          "choices": [
+            "19",
+            "-13",
+            "29",
+            "30"
+          ],
+          "answer": "C",
+          "explanation": "42 + -13 = 29."
+        },
+        {
+          "num": 36,
+          "question": "Compute (11) \u00d7 (-6).",
+          "choices": [
+            "-72",
+            "-60",
+            "-66",
+            "-65"
+          ],
+          "answer": "C",
+          "explanation": "11 \u00d7 -6 = -66."
+        },
+        {
+          "num": 37,
+          "question": "Compute (0) \u00d7 (-7).",
+          "choices": [
+            "0",
+            "52",
+            "1",
+            "-1"
+          ],
+          "answer": "A",
+          "explanation": "0 \u00d7 -7 = 0."
+        },
+        {
+          "num": 38,
+          "question": "Compute 34 - (4).",
+          "choices": [
+            "30",
+            "31",
+            "20",
+            "26"
+          ],
+          "answer": "A",
+          "explanation": "34 - (4) = 30. Subtracting a negative adds."
+        },
+        {
+          "num": 39,
+          "question": "A 20-piece set is in the ratio 2:3. How many in the larger group?",
+          "choices": [
+            "14",
+            "16",
+            "7",
+            "12"
+          ],
+          "answer": "D",
+          "explanation": "20 \u00f7 (2+3) = 4; larger group = 3\u00d74 = 12."
+        },
+        {
+          "num": 40,
+          "question": "Compute (10) \u00d7 (-11).",
+          "choices": [
+            "-111",
+            "-109",
+            "-120",
+            "-110"
+          ],
+          "answer": "D",
+          "explanation": "10 \u00d7 -11 = -110."
+        },
+        {
+          "num": 41,
+          "question": "A 130-piece set is in the ratio 5:8. How many in the larger group?",
+          "choices": [
+            "80",
+            "75",
+            "90",
+            "82"
+          ],
+          "answer": "A",
+          "explanation": "130 \u00f7 (5+8) = 10; larger group = 8\u00d710 = 80."
+        },
+        {
+          "num": 42,
+          "question": "Compute (5/7) \u00d7 (1/9). Reduce.",
+          "choices": [
+            "3/8",
+            "45/7",
+            "1/15",
+            "5/63"
+          ],
+          "answer": "D",
+          "explanation": "Multiply numerators \u00d7 denominators: 5/63 = 5/63."
+        },
+        {
+          "num": 43,
+          "question": "Compute 1/4 + 1/2. Reduce.",
+          "choices": [
+            "3/4",
+            "1/3",
+            "-1/4",
+            "82"
+          ],
+          "answer": "A",
+          "explanation": "Common denominator \u2192 1/4 + 1/2 = 3/4."
+        },
+        {
+          "num": 44,
+          "question": "Compute 7.6 \u00d7 8.2.",
+          "choices": [
+            "62.42",
+            "54.72",
+            "69.92",
+            "62.32"
+          ],
+          "answer": "D",
+          "explanation": "7.6 \u00d7 8.2 = 62.32."
+        },
+        {
+          "num": 45,
+          "question": "Solve for x: 4x + 2 = 2",
+          "choices": [
+            "0",
+            "4",
+            "-4",
+            "2"
+          ],
+          "answer": "A",
+          "explanation": "Subtract 2 \u2192 4x = 0. Divide \u2192 x = 0."
+        },
+        {
+          "num": 46,
+          "question": "What is 60% of 20?",
+          "choices": [
+            "7",
+            "10",
+            "2",
+            "12"
+          ],
+          "answer": "D",
+          "explanation": "60/100 \u00d7 20 = 12."
+        },
+        {
+          "num": 47,
+          "question": "Compute 1/2 + 2/4. Reduce.",
+          "choices": [
+            "0/1",
+            "1/2",
+            "1/1",
+            "84"
+          ],
+          "answer": "C",
+          "explanation": "Common denominator \u2192 1/2 + 2/4 = 1/1."
+        },
+        {
+          "num": 48,
+          "question": "A 30-piece set is in the ratio 1:4. How many in the larger group?",
+          "choices": [
+            "24",
+            "18",
+            "19",
+            "26"
+          ],
+          "answer": "A",
+          "explanation": "30 \u00f7 (1+4) = 6; larger group = 4\u00d76 = 24."
+        },
+        {
+          "num": 49,
+          "question": "Compute (2/3) \u00d7 (3/3). Reduce.",
+          "choices": [
+            "5/6",
+            "2/3",
+            "4/12",
+            "15/3"
+          ],
+          "answer": "B",
+          "explanation": "Multiply numerators \u00d7 denominators: 6/9 = 2/3."
+        },
+        {
+          "num": 50,
+          "question": "Solve for x: 8x - 7 = -31",
+          "choices": [
+            "-1",
+            "-2",
+            "-5",
+            "-3"
+          ],
+          "answer": "D",
+          "explanation": "Subtract -7 \u2192 8x = -24. Divide \u2192 x = -3."
+        }
+      ]
+    },
+    {
+      "testNum": 6,
+      "questions": [
+        {
+          "num": 1,
+          "question": "Compute (9/4) \u00d7 (3/6). Reduce.",
+          "choices": [
+            "9/2",
+            "3/11",
+            "6/5",
+            "9/8"
+          ],
+          "answer": "D",
+          "explanation": "Multiply numerators \u00d7 denominators: 27/24 = 9/8."
+        },
+        {
+          "num": 2,
+          "question": "What is 15% of 80?",
+          "choices": [
+            "22",
+            "4",
+            "20",
+            "12"
+          ],
+          "answer": "D",
+          "explanation": "15/100 \u00d7 80 = 12."
+        },
+        {
+          "num": 3,
+          "question": "A rectangle is 9 ft by 5 ft. What is its area (sq ft)?",
+          "choices": [
+            "50",
+            "45",
+            "54",
+            "40"
+          ],
+          "answer": "B",
+          "explanation": "Area = length \u00d7 width = 9 \u00d7 5 = 45 sq ft."
+        },
+        {
+          "num": 4,
+          "question": "Solve for x: 7x - 4 = 3",
+          "choices": [
+            "2",
+            "1",
+            "-1",
+            "-6"
+          ],
+          "answer": "B",
+          "explanation": "Subtract -4 \u2192 7x = 7. Divide \u2192 x = 1."
+        },
+        {
+          "num": 5,
+          "question": "Compute 44 - (27).",
+          "choices": [
+            "7",
+            "16",
+            "44",
+            "17"
+          ],
+          "answer": "D",
+          "explanation": "44 - (27) = 17. Subtracting a negative adds."
+        },
+        {
+          "num": 6,
+          "question": "What is 20% of 250?",
+          "choices": [
+            "40",
+            "50",
+            "60",
+            "25"
+          ],
+          "answer": "B",
+          "explanation": "20/100 \u00d7 250 = 50."
+        },
+        {
+          "num": 7,
+          "question": "Solve for x: 7x + 7 = 14",
+          "choices": [
+            "0",
+            "8",
+            "-6",
+            "1"
+          ],
+          "answer": "D",
+          "explanation": "Subtract 7 \u2192 7x = 7. Divide \u2192 x = 1."
+        },
+        {
+          "num": 8,
+          "question": "Compute -48 - (3).",
+          "choices": [
+            "-51",
+            "-61",
+            "-52",
+            "-54"
+          ],
+          "answer": "A",
+          "explanation": "-48 - (3) = -51. Subtracting a negative adds."
+        },
+        {
+          "num": 9,
+          "question": "Compute 27 + (-44).",
+          "choices": [
+            "10",
+            "-18",
+            "-27",
+            "-17"
+          ],
+          "answer": "D",
+          "explanation": "27 + -44 = -17."
+        },
+        {
+          "num": 10,
+          "question": "A rectangle is 14 ft by 9 ft. What is its area (sq ft)?",
+          "choices": [
+            "131",
+            "121",
+            "126",
+            "112"
+          ],
+          "answer": "C",
+          "explanation": "Area = length \u00d7 width = 14 \u00d7 9 = 126 sq ft."
+        },
+        {
+          "num": 11,
+          "question": "Compute (11) \u00d7 (-7).",
+          "choices": [
+            "-84",
+            "-70",
+            "-66",
+            "-77"
+          ],
+          "answer": "D",
+          "explanation": "11 \u00d7 -7 = -77."
+        },
+        {
+          "num": 12,
+          "question": "A 40-piece set is in the ratio 3:5. How many in the larger group?",
+          "choices": [
+            "20",
+            "25",
+            "27",
+            "30"
+          ],
+          "answer": "B",
+          "explanation": "40 \u00f7 (3+5) = 5; larger group = 5\u00d75 = 25."
+        },
+        {
+          "num": 13,
+          "question": "Compute 2/4 + 2/5. Reduce.",
+          "choices": [
+            "1/10",
+            "9/10",
+            "4/9",
+            "77"
+          ],
+          "answer": "B",
+          "explanation": "Common denominator \u2192 2/4 + 2/5 = 9/10."
+        },
+        {
+          "num": 14,
+          "question": "A rectangle is 19 ft by 6 ft. What is its area (sq ft)?",
+          "choices": [
+            "133",
+            "108",
+            "109",
+            "114"
+          ],
+          "answer": "D",
+          "explanation": "Area = length \u00d7 width = 19 \u00d7 6 = 114 sq ft."
+        },
+        {
+          "num": 15,
+          "question": "A rectangle is 24 ft by 11 ft. What is its area (sq ft)?",
+          "choices": [
+            "264",
+            "275",
+            "240",
+            "259"
+          ],
+          "answer": "A",
+          "explanation": "Area = length \u00d7 width = 24 \u00d7 11 = 264 sq ft."
+        },
+        {
+          "num": 16,
+          "question": "Compute -22 - (13).",
+          "choices": [
+            "-45",
+            "-36",
+            "-35",
+            "-48"
+          ],
+          "answer": "C",
+          "explanation": "-22 - (13) = -35. Subtracting a negative adds."
+        },
+        {
+          "num": 17,
+          "question": "Compute 5/8 + 1/2. Reduce.",
+          "choices": [
+            "3/5",
+            "9/8",
+            "1/8",
+            "55"
+          ],
+          "answer": "B",
+          "explanation": "Common denominator \u2192 5/8 + 1/2 = 9/8."
+        },
+        {
+          "num": 18,
+          "question": "Compute 2.2 \u00d7 2.2.",
+          "choices": [
+            "3.84",
+            "2.64",
+            "4.94",
+            "4.84"
+          ],
+          "answer": "D",
+          "explanation": "2.2 \u00d7 2.2 = 4.84."
+        },
+        {
+          "num": 19,
+          "question": "What is 15% of 100?",
+          "choices": [
+            "15",
+            "25",
+            "20",
+            "10"
+          ],
+          "answer": "A",
+          "explanation": "15/100 \u00d7 100 = 15."
+        },
+        {
+          "num": 20,
+          "question": "Compute 4/8 + 2/3. Reduce.",
+          "choices": [
+            "6/11",
+            "7/6",
+            "-1/6",
+            "61"
+          ],
+          "answer": "B",
+          "explanation": "Common denominator \u2192 4/8 + 2/3 = 7/6."
+        },
+        {
+          "num": 21,
+          "question": "Compute (0) \u00d7 (10).",
+          "choices": [
+            "0",
+            "-1",
+            "10",
+            "-10"
+          ],
+          "answer": "A",
+          "explanation": "0 \u00d7 10 = 0."
+        },
+        {
+          "num": 22,
+          "question": "Compute (8/10) \u00d7 (5/8). Reduce.",
+          "choices": [
+            "1/8",
+            "32/25",
+            "13/18",
+            "1/2"
+          ],
+          "answer": "D",
+          "explanation": "Multiply numerators \u00d7 denominators: 40/80 = 1/2."
+        },
+        {
+          "num": 23,
+          "question": "A right triangle has legs of 7 and 24. Find the hypotenuse.",
+          "choices": [
+            "23",
+            "24",
+            "25",
+            "27"
+          ],
+          "answer": "C",
+          "explanation": "Pythagorean: \u221a(7\u00b2 + 24\u00b2) = \u221a625 = 25."
+        },
+        {
+          "num": 24,
+          "question": "Compute (-9) \u00d7 (11).",
+          "choices": [
+            "-99",
+            "-88",
+            "-110",
+            "-90"
+          ],
+          "answer": "A",
+          "explanation": "-9 \u00d7 11 = -99."
+        },
+        {
+          "num": 25,
+          "question": "Compute 5.7 \u00d7 6.0.",
+          "choices": [
+            "34.2",
+            "28.5",
+            "34.3",
+            "35.2"
+          ],
+          "answer": "A",
+          "explanation": "5.7 \u00d7 6.0 = 34.2."
+        },
+        {
+          "num": 26,
+          "question": "A 33-piece set is in the ratio 4:7. How many in the larger group?",
+          "choices": [
+            "16",
+            "24",
+            "26",
+            "21"
+          ],
+          "answer": "D",
+          "explanation": "33 \u00f7 (4+7) = 3; larger group = 7\u00d73 = 21."
+        },
+        {
+          "num": 27,
+          "question": "Compute (4/2) \u00d7 (8/8). Reduce.",
+          "choices": [
+            "12/4",
+            "2/1",
+            "13/14",
+            "6/5"
+          ],
+          "answer": "B",
+          "explanation": "Multiply numerators \u00d7 denominators: 32/16 = 2/1."
+        },
+        {
+          "num": 28,
+          "question": "A rectangle is 21 ft by 7 ft. What is its area (sq ft)?",
+          "choices": [
+            "142",
+            "152",
+            "140",
+            "147"
+          ],
+          "answer": "D",
+          "explanation": "Area = length \u00d7 width = 21 \u00d7 7 = 147 sq ft."
+        },
+        {
+          "num": 29,
+          "question": "What is 75% of 120?",
+          "choices": [
+            "102",
+            "90",
+            "80",
+            "100"
+          ],
+          "answer": "B",
+          "explanation": "75/100 \u00d7 120 = 90."
+        },
+        {
+          "num": 30,
+          "question": "A rectangle is 23 ft by 3 ft. What is its area (sq ft)?",
+          "choices": [
+            "69",
+            "74",
+            "66",
+            "64"
+          ],
+          "answer": "A",
+          "explanation": "Area = length \u00d7 width = 23 \u00d7 3 = 69 sq ft."
+        },
+        {
+          "num": 31,
+          "question": "Compute -14 + (6).",
+          "choices": [
+            "2",
+            "-22",
+            "-8",
+            "-18"
+          ],
+          "answer": "C",
+          "explanation": "-14 + 6 = -8."
+        },
+        {
+          "num": 32,
+          "question": "Compute 6.1 \u00d7 5.2.",
+          "choices": [
+            "31.72",
+            "31.62",
+            "32.72",
+            "30.72"
+          ],
+          "answer": "A",
+          "explanation": "6.1 \u00d7 5.2 = 31.72."
+        },
+        {
+          "num": 33,
+          "question": "A rectangle is 15 ft by 13 ft. What is its area (sq ft)?",
+          "choices": [
+            "190",
+            "195",
+            "208",
+            "180"
+          ],
+          "answer": "B",
+          "explanation": "Area = length \u00d7 width = 15 \u00d7 13 = 195 sq ft."
+        },
+        {
+          "num": 34,
+          "question": "Compute 13 + (17).",
+          "choices": [
+            "30",
+            "43",
+            "20",
+            "17"
+          ],
+          "answer": "A",
+          "explanation": "13 + 17 = 30."
+        },
+        {
+          "num": 35,
+          "question": "Compute 1/2 + 3/4. Reduce.",
+          "choices": [
+            "55",
+            "-1/4",
+            "2/3",
+            "5/4"
+          ],
+          "answer": "D",
+          "explanation": "Common denominator \u2192 1/2 + 3/4 = 5/4."
+        },
+        {
+          "num": 36,
+          "question": "Compute 0.4 \u00d7 6.7.",
+          "choices": [
+            "1.68",
+            "3.68",
+            "2.58",
+            "2.68"
+          ],
+          "answer": "D",
+          "explanation": "0.4 \u00d7 6.7 = 2.68."
+        },
+        {
+          "num": 37,
+          "question": "Compute (7/2) \u00d7 (2/8). Reduce.",
+          "choices": [
+            "14/3",
+            "9/10",
+            "14/1",
+            "7/8"
+          ],
+          "answer": "D",
+          "explanation": "Multiply numerators \u00d7 denominators: 14/16 = 7/8."
+        },
+        {
+          "num": 38,
+          "question": "Compute (-12) \u00d7 (11).",
+          "choices": [
+            "-144",
+            "-120",
+            "-121",
+            "-132"
+          ],
+          "answer": "D",
+          "explanation": "-12 \u00d7 11 = -132."
+        },
+        {
+          "num": 39,
+          "question": "Compute 9 - (16).",
+          "choices": [
+            "-7",
+            "-6",
+            "9",
+            "3"
+          ],
+          "answer": "A",
+          "explanation": "9 - (16) = -7. Subtracting a negative adds."
+        },
+        {
+          "num": 40,
+          "question": "Compute 7.5 \u00d7 5.1.",
+          "choices": [
+            "38.35",
+            "37.25",
+            "38.15",
+            "38.25"
+          ],
+          "answer": "D",
+          "explanation": "7.5 \u00d7 5.1 = 38.25."
+        },
+        {
+          "num": 41,
+          "question": "Compute 7/8 + 2/6. Reduce.",
+          "choices": [
+            "20",
+            "9/14",
+            "13/24",
+            "29/24"
+          ],
+          "answer": "D",
+          "explanation": "Common denominator \u2192 7/8 + 2/6 = 29/24."
+        },
+        {
+          "num": 42,
+          "question": "Compute 6.5 \u00d7 9.0.",
+          "choices": [
+            "57.5",
+            "65.0",
+            "58.5",
+            "59.5"
+          ],
+          "answer": "C",
+          "explanation": "6.5 \u00d7 9.0 = 58.5."
+        },
+        {
+          "num": 43,
+          "question": "A rectangle is 5 ft by 11 ft. What is its area (sq ft)?",
+          "choices": [
+            "50",
+            "66",
+            "55",
+            "60"
+          ],
+          "answer": "C",
+          "explanation": "Area = length \u00d7 width = 5 \u00d7 11 = 55 sq ft."
+        },
+        {
+          "num": 44,
+          "question": "A rectangle is 21 ft by 10 ft. What is its area (sq ft)?",
+          "choices": [
+            "205",
+            "231",
+            "210",
+            "220"
+          ],
+          "answer": "C",
+          "explanation": "Area = length \u00d7 width = 21 \u00d7 10 = 210 sq ft."
+        },
+        {
+          "num": 45,
+          "question": "Compute 34 - (-47).",
+          "choices": [
+            "34",
+            "81",
+            "71",
+            "128"
+          ],
+          "answer": "B",
+          "explanation": "34 - (-47) = 81. Subtracting a negative adds."
+        },
+        {
+          "num": 46,
+          "question": "What is 40% of 200?",
+          "choices": [
+            "80",
+            "100",
+            "70",
+            "75"
+          ],
+          "answer": "A",
+          "explanation": "40/100 \u00d7 200 = 80."
+        },
+        {
+          "num": 47,
+          "question": "Compute 2.8 \u00d7 0.9.",
+          "choices": [
+            "-0.28",
+            "2.52",
+            "2.62",
+            "3.52"
+          ],
+          "answer": "B",
+          "explanation": "2.8 \u00d7 0.9 = 2.52."
+        },
+        {
+          "num": 48,
+          "question": "Compute 6.0 \u00d7 6.0.",
+          "choices": [
+            "35.0",
+            "36.0",
+            "35.9",
+            "42.0"
+          ],
+          "answer": "B",
+          "explanation": "6.0 \u00d7 6.0 = 36.0."
+        },
+        {
+          "num": 49,
+          "question": "Compute 4.6 \u00d7 9.5.",
+          "choices": [
+            "43.7",
+            "43.8",
+            "44.7",
+            "43.6"
+          ],
+          "answer": "A",
+          "explanation": "4.6 \u00d7 9.5 = 43.7."
+        },
+        {
+          "num": 50,
+          "question": "Compute -9 - (-40).",
+          "choices": [
+            "21",
+            "32",
+            "31",
+            "41"
+          ],
+          "answer": "C",
+          "explanation": "-9 - (-40) = 31. Subtracting a negative adds."
+        }
+      ]
+    },
+    {
+      "testNum": 7,
+      "questions": [
+        {
+          "num": 1,
+          "question": "Solve for x: 8x + 9 = -23",
+          "choices": [
+            "-4",
+            "-12",
+            "-2",
+            "-6"
+          ],
+          "answer": "A",
+          "explanation": "Subtract 9 \u2192 8x = -32. Divide \u2192 x = -4."
+        },
+        {
+          "num": 2,
+          "question": "Compute 41 + (-15).",
+          "choices": [
+            "-15",
+            "16",
+            "27",
+            "26"
+          ],
+          "answer": "D",
+          "explanation": "41 + -15 = 26."
+        },
+        {
+          "num": 3,
+          "question": "What is 30% of 300?",
+          "choices": [
+            "80",
+            "90",
+            "100",
+            "85"
+          ],
+          "answer": "B",
+          "explanation": "30/100 \u00d7 300 = 90."
+        },
+        {
+          "num": 4,
+          "question": "Compute 3.2 \u00d7 6.2.",
+          "choices": [
+            "16.64",
+            "19.94",
+            "19.84",
+            "18.84"
+          ],
+          "answer": "C",
+          "explanation": "3.2 \u00d7 6.2 = 19.84."
+        },
+        {
+          "num": 5,
+          "question": "Compute (0) \u00d7 (12).",
+          "choices": [
+            "0",
+            "12",
+            "1",
+            "-12"
+          ],
+          "answer": "A",
+          "explanation": "0 \u00d7 12 = 0."
+        },
+        {
+          "num": 6,
+          "question": "Solve for x: 2x + 6 = 2",
+          "choices": [
+            "-2",
+            "-4",
+            "0",
+            "-3"
+          ],
+          "answer": "A",
+          "explanation": "Subtract 6 \u2192 2x = -4. Divide \u2192 x = -2."
+        },
+        {
+          "num": 7,
+          "question": "What is 10% of 100?",
+          "choices": [
+            "10",
+            "15",
+            "0",
+            "20"
+          ],
+          "answer": "A",
+          "explanation": "10/100 \u00d7 100 = 10."
+        },
+        {
+          "num": 8,
+          "question": "A rectangle is 19 ft by 9 ft. What is its area (sq ft)?",
+          "choices": [
+            "166",
+            "162",
+            "176",
+            "171"
+          ],
+          "answer": "D",
+          "explanation": "Area = length \u00d7 width = 19 \u00d7 9 = 171 sq ft."
+        },
+        {
+          "num": 9,
+          "question": "Compute (6/8) \u00d7 (1/3). Reduce.",
+          "choices": [
+            "9/4",
+            "7/11",
+            "1/4",
+            "2/2"
+          ],
+          "answer": "C",
+          "explanation": "Multiply numerators \u00d7 denominators: 6/24 = 1/4."
+        },
+        {
+          "num": 10,
+          "question": "Compute 48 - (-48).",
+          "choices": [
+            "48",
+            "96",
+            "97",
+            "106"
+          ],
+          "answer": "B",
+          "explanation": "48 - (-48) = 96. Subtracting a negative adds."
+        },
+        {
+          "num": 11,
+          "question": "Solve for x: 3x - 3 = 12",
+          "choices": [
+            "4",
+            "8",
+            "3",
+            "5"
+          ],
+          "answer": "D",
+          "explanation": "Subtract -3 \u2192 3x = 15. Divide \u2192 x = 5."
+        },
+        {
+          "num": 12,
+          "question": "Compute -50 + (20).",
+          "choices": [
+            "-30",
+            "20",
+            "-31",
+            "-40"
+          ],
+          "answer": "A",
+          "explanation": "-50 + 20 = -30."
+        },
+        {
+          "num": 13,
+          "question": "Solve for x: 7x + 1 = 36",
+          "choices": [
+            "4",
+            "5",
+            "12",
+            "6"
+          ],
+          "answer": "B",
+          "explanation": "Subtract 1 \u2192 7x = 35. Divide \u2192 x = 5."
+        },
+        {
+          "num": 14,
+          "question": "Solve for x: 7x - 1 = -29",
+          "choices": [
+            "3",
+            "-6",
+            "-4",
+            "-11"
+          ],
+          "answer": "C",
+          "explanation": "Subtract -1 \u2192 7x = -28. Divide \u2192 x = -4."
+        },
+        {
+          "num": 15,
+          "question": "Compute 3 + (-24).",
+          "choices": [
+            "-21",
+            "-31",
+            "-22",
+            "-20"
+          ],
+          "answer": "A",
+          "explanation": "3 + -24 = -21."
+        },
+        {
+          "num": 16,
+          "question": "A rectangle is 8 ft by 9 ft. What is its area (sq ft)?",
+          "choices": [
+            "64",
+            "77",
+            "63",
+            "72"
+          ],
+          "answer": "D",
+          "explanation": "Area = length \u00d7 width = 8 \u00d7 9 = 72 sq ft."
+        },
+        {
+          "num": 17,
+          "question": "A rectangle is 24 ft by 12 ft. What is its area (sq ft)?",
+          "choices": [
+            "283",
+            "276",
+            "288",
+            "264"
+          ],
+          "answer": "C",
+          "explanation": "Area = length \u00d7 width = 24 \u00d7 12 = 288 sq ft."
+        },
+        {
+          "num": 18,
+          "question": "Solve for x: 8x + 4 = -12",
+          "choices": [
+            "6",
+            "-2",
+            "-4",
+            "-3"
+          ],
+          "answer": "B",
+          "explanation": "Subtract 4 \u2192 8x = -16. Divide \u2192 x = -2."
+        },
+        {
+          "num": 19,
+          "question": "Compute -21 + (-25).",
+          "choices": [
+            "-46",
+            "-56",
+            "-67",
+            "-36"
+          ],
+          "answer": "A",
+          "explanation": "-21 + -25 = -46."
+        },
+        {
+          "num": 20,
+          "question": "Compute (7/9) \u00d7 (3/8). Reduce.",
+          "choices": [
+            "56/27",
+            "10/17",
+            "7/24",
+            "11/8"
+          ],
+          "answer": "C",
+          "explanation": "Multiply numerators \u00d7 denominators: 21/72 = 7/24."
+        },
+        {
+          "num": 21,
+          "question": "Compute 28 + (-21).",
+          "choices": [
+            "7",
+            "35",
+            "17",
+            "6"
+          ],
+          "answer": "A",
+          "explanation": "28 + -21 = 7."
+        },
+        {
+          "num": 22,
+          "question": "Compute -47 - (-21).",
+          "choices": [
+            "-36",
+            "-26",
+            "-16",
+            "-5"
+          ],
+          "answer": "B",
+          "explanation": "-47 - (-21) = -26. Subtracting a negative adds."
+        },
+        {
+          "num": 23,
+          "question": "Compute 7.8 \u00d7 0.2.",
+          "choices": [
+            "2.56",
+            "1.66",
+            "1.56",
+            "1.46"
+          ],
+          "answer": "C",
+          "explanation": "7.8 \u00d7 0.2 = 1.56."
+        },
+        {
+          "num": 24,
+          "question": "Compute 2.5 \u00d7 1.6.",
+          "choices": [
+            "3.0",
+            "3.9",
+            "4.0",
+            "1.5"
+          ],
+          "answer": "C",
+          "explanation": "2.5 \u00d7 1.6 = 4.0."
+        },
+        {
+          "num": 25,
+          "question": "Compute (7) \u00d7 (-5).",
+          "choices": [
+            "-40",
+            "-30",
+            "-35",
+            "-42"
+          ],
+          "answer": "C",
+          "explanation": "7 \u00d7 -5 = -35."
+        },
+        {
+          "num": 26,
+          "question": "Compute 4.9 \u00d7 8.4.",
+          "choices": [
+            "41.16",
+            "41.26",
+            "46.06",
+            "42.16"
+          ],
+          "answer": "A",
+          "explanation": "4.9 \u00d7 8.4 = 41.16."
+        },
+        {
+          "num": 27,
+          "question": "Compute 0.2 \u00d7 7.5.",
+          "choices": [
+            "0.5",
+            "1.5",
+            "1.4",
+            "1.6"
+          ],
+          "answer": "B",
+          "explanation": "0.2 \u00d7 7.5 = 1.5."
+        },
+        {
+          "num": 28,
+          "question": "A 21-piece set is in the ratio 3:4. How many in the larger group?",
+          "choices": [
+            "12",
+            "10",
+            "15",
+            "17"
+          ],
+          "answer": "A",
+          "explanation": "21 \u00f7 (3+4) = 3; larger group = 4\u00d73 = 12."
+        },
+        {
+          "num": 29,
+          "question": "A rectangle is 6 ft by 19 ft. What is its area (sq ft)?",
+          "choices": [
+            "120",
+            "109",
+            "108",
+            "114"
+          ],
+          "answer": "D",
+          "explanation": "Area = length \u00d7 width = 6 \u00d7 19 = 114 sq ft."
+        },
+        {
+          "num": 30,
+          "question": "What is 40% of 120?",
+          "choices": [
+            "43",
+            "36",
+            "48",
+            "38"
+          ],
+          "answer": "C",
+          "explanation": "40/100 \u00d7 120 = 48."
+        },
+        {
+          "num": 31,
+          "question": "Compute 29 + (-2).",
+          "choices": [
+            "27",
+            "28",
+            "17",
+            "56"
+          ],
+          "answer": "A",
+          "explanation": "29 + -2 = 27."
+        },
+        {
+          "num": 32,
+          "question": "Solve for x: 5x - 9 = -14",
+          "choices": [
+            "67",
+            "-6",
+            "-1",
+            "79"
+          ],
+          "answer": "C",
+          "explanation": "Subtract -9 \u2192 5x = -5. Divide \u2192 x = -1."
+        },
+        {
+          "num": 33,
+          "question": "Compute 13 + (11).",
+          "choices": [
+            "24",
+            "11",
+            "23",
+            "14"
+          ],
+          "answer": "A",
+          "explanation": "13 + 11 = 24."
+        },
+        {
+          "num": 34,
+          "question": "A rectangle is 12 ft by 20 ft. What is its area (sq ft)?",
+          "choices": [
+            "240",
+            "235",
+            "228",
+            "245"
+          ],
+          "answer": "A",
+          "explanation": "Area = length \u00d7 width = 12 \u00d7 20 = 240 sq ft."
+        },
+        {
+          "num": 35,
+          "question": "Compute (4) \u00d7 (-8).",
+          "choices": [
+            "-24",
+            "-28",
+            "-32",
+            "-36"
+          ],
+          "answer": "C",
+          "explanation": "4 \u00d7 -8 = -32."
+        },
+        {
+          "num": 36,
+          "question": "A rectangle is 16 ft by 18 ft. What is its area (sq ft)?",
+          "choices": [
+            "288",
+            "304",
+            "306",
+            "272"
+          ],
+          "answer": "A",
+          "explanation": "Area = length \u00d7 width = 16 \u00d7 18 = 288 sq ft."
+        },
+        {
+          "num": 37,
+          "question": "A 110-piece set is in the ratio 4:7. How many in the larger group?",
+          "choices": [
+            "70",
+            "68",
+            "65",
+            "72"
+          ],
+          "answer": "A",
+          "explanation": "110 \u00f7 (4+7) = 10; larger group = 7\u00d710 = 70."
+        },
+        {
+          "num": 38,
+          "question": "Compute 4/5 + 1/4. Reduce.",
+          "choices": [
+            "21/20",
+            "5/9",
+            "11/20",
+            "85"
+          ],
+          "answer": "A",
+          "explanation": "Common denominator \u2192 4/5 + 1/4 = 21/20."
+        },
+        {
+          "num": 39,
+          "question": "What is 75% of 150?",
+          "choices": [
+            "107.5",
+            "112.5",
+            "97.5",
+            "102.5"
+          ],
+          "answer": "B",
+          "explanation": "75/100 \u00d7 150 = 112.5."
+        },
+        {
+          "num": 40,
+          "question": "Compute (10) \u00d7 (11).",
+          "choices": [
+            "99",
+            "109",
+            "120",
+            "110"
+          ],
+          "answer": "D",
+          "explanation": "10 \u00d7 11 = 110."
+        },
+        {
+          "num": 41,
+          "question": "A rectangle is 24 ft by 6 ft. What is its area (sq ft)?",
+          "choices": [
+            "144",
+            "138",
+            "150",
+            "149"
+          ],
+          "answer": "A",
+          "explanation": "Area = length \u00d7 width = 24 \u00d7 6 = 144 sq ft."
+        },
+        {
+          "num": 42,
+          "question": "Compute 7.5 \u00d7 4.0.",
+          "choices": [
+            "37.5",
+            "22.5",
+            "29.0",
+            "30.0"
+          ],
+          "answer": "D",
+          "explanation": "7.5 \u00d7 4.0 = 30.0."
+        },
+        {
+          "num": 43,
+          "question": "Solve for x: 6x - 3 = -9",
+          "choices": [
+            "-7",
+            "0",
+            "-1",
+            "-3"
+          ],
+          "answer": "C",
+          "explanation": "Subtract -3 \u2192 6x = -6. Divide \u2192 x = -1."
+        },
+        {
+          "num": 44,
+          "question": "A 40-piece set is in the ratio 2:3. How many in the larger group?",
+          "choices": [
+            "32",
+            "16",
+            "24",
+            "22"
+          ],
+          "answer": "C",
+          "explanation": "40 \u00f7 (2+3) = 8; larger group = 3\u00d78 = 24."
+        },
+        {
+          "num": 45,
+          "question": "What is 10% of 300?",
+          "choices": [
+            "25",
+            "30",
+            "0",
+            "40"
+          ],
+          "answer": "B",
+          "explanation": "10/100 \u00d7 300 = 30."
+        },
+        {
+          "num": 46,
+          "question": "Compute (5) \u00d7 (1).",
+          "choices": [
+            "10",
+            "6",
+            "4",
+            "5"
+          ],
+          "answer": "D",
+          "explanation": "5 \u00d7 1 = 5."
+        },
+        {
+          "num": 47,
+          "question": "A rectangle is 17 ft by 11 ft. What is its area (sq ft)?",
+          "choices": [
+            "170",
+            "204",
+            "192",
+            "187"
+          ],
+          "answer": "D",
+          "explanation": "Area = length \u00d7 width = 17 \u00d7 11 = 187 sq ft."
+        },
+        {
+          "num": 48,
+          "question": "Solve for x: 5x + 8 = -7",
+          "choices": [
+            "-1",
+            "-3",
+            "-5",
+            "-4"
+          ],
+          "answer": "B",
+          "explanation": "Subtract 8 \u2192 5x = -15. Divide \u2192 x = -3."
+        },
+        {
+          "num": 49,
+          "question": "A rectangle is 5 ft by 13 ft. What is its area (sq ft)?",
+          "choices": [
+            "70",
+            "78",
+            "52",
+            "65"
+          ],
+          "answer": "D",
+          "explanation": "Area = length \u00d7 width = 5 \u00d7 13 = 65 sq ft."
+        },
+        {
+          "num": 50,
+          "question": "Solve for x: 6x + 7 = 25",
+          "choices": [
+            "1",
+            "3",
+            "5",
+            "9"
+          ],
+          "answer": "B",
+          "explanation": "Subtract 7 \u2192 6x = 18. Divide \u2192 x = 3."
+        }
+      ]
+    },
+    {
+      "testNum": 8,
+      "questions": [
+        {
+          "num": 1,
+          "question": "A rectangle is 13 ft by 17 ft. What is its area (sq ft)?",
+          "choices": [
+            "234",
+            "208",
+            "221",
+            "204"
+          ],
+          "answer": "C",
+          "explanation": "Area = length \u00d7 width = 13 \u00d7 17 = 221 sq ft."
+        },
+        {
+          "num": 2,
+          "question": "A rectangle is 13 ft by 10 ft. What is its area (sq ft)?",
+          "choices": [
+            "143",
+            "117",
+            "125",
+            "130"
+          ],
+          "answer": "D",
+          "explanation": "Area = length \u00d7 width = 13 \u00d7 10 = 130 sq ft."
+        },
+        {
+          "num": 3,
+          "question": "Compute 25 + (-32).",
+          "choices": [
+            "-17",
+            "-7",
+            "18",
+            "-32"
+          ],
+          "answer": "B",
+          "explanation": "25 + -32 = -7."
+        },
+        {
+          "num": 4,
+          "question": "Compute 18 + (-26).",
+          "choices": [
+            "-8",
+            "-26",
+            "2",
+            "10"
+          ],
+          "answer": "A",
+          "explanation": "18 + -26 = -8."
+        },
+        {
+          "num": 5,
+          "question": "Compute (7/2) \u00d7 (3/2). Reduce.",
+          "choices": [
+            "5/2",
+            "21/4",
+            "2/6",
+            "7/3"
+          ],
+          "answer": "B",
+          "explanation": "Multiply numerators \u00d7 denominators: 21/4 = 21/4."
+        },
+        {
+          "num": 6,
+          "question": "A rectangle is 9 ft by 18 ft. What is its area (sq ft)?",
+          "choices": [
+            "167",
+            "180",
+            "171",
+            "162"
+          ],
+          "answer": "D",
+          "explanation": "Area = length \u00d7 width = 9 \u00d7 18 = 162 sq ft."
+        },
+        {
+          "num": 7,
+          "question": "Compute 8.5 \u00d7 1.7.",
+          "choices": [
+            "5.95",
+            "22.95",
+            "13.45",
+            "14.45"
+          ],
+          "answer": "D",
+          "explanation": "8.5 \u00d7 1.7 = 14.45."
+        },
+        {
+          "num": 8,
+          "question": "Compute (3/5) \u00d7 (7/10). Reduce.",
+          "choices": [
+            "6/7",
+            "21/50",
+            "2/6",
+            "2/3"
+          ],
+          "answer": "B",
+          "explanation": "Multiply numerators \u00d7 denominators: 21/50 = 21/50."
+        },
+        {
+          "num": 9,
+          "question": "Compute 28 - (-32).",
+          "choices": [
+            "60",
+            "61",
+            "28",
+            "70"
+          ],
+          "answer": "A",
+          "explanation": "28 - (-32) = 60. Subtracting a negative adds."
+        },
+        {
+          "num": 10,
+          "question": "Compute (-11) \u00d7 (-1).",
+          "choices": [
+            "28",
+            "11",
+            "0",
+            "12"
+          ],
+          "answer": "B",
+          "explanation": "-11 \u00d7 -1 = 11."
+        },
+        {
+          "num": 11,
+          "question": "Solve for x: 2x + 8 = 14",
+          "choices": [
+            "5",
+            "1",
+            "3",
+            "4"
+          ],
+          "answer": "C",
+          "explanation": "Subtract 8 \u2192 2x = 6. Divide \u2192 x = 3."
+        },
+        {
+          "num": 12,
+          "question": "Compute (5/7) \u00d7 (2/10). Reduce.",
+          "choices": [
+            "3/14",
+            "7/17",
+            "25/7",
+            "1/7"
+          ],
+          "answer": "D",
+          "explanation": "Multiply numerators \u00d7 denominators: 10/70 = 1/7."
+        },
+        {
+          "num": 13,
+          "question": "Compute (12) \u00d7 (-11).",
+          "choices": [
+            "-120",
+            "-133",
+            "-132",
+            "-144"
+          ],
+          "answer": "C",
+          "explanation": "12 \u00d7 -11 = -132."
+        },
+        {
+          "num": 14,
+          "question": "Compute -24 - (-2).",
+          "choices": [
+            "-24",
+            "-23",
+            "-32",
+            "-22"
+          ],
+          "answer": "D",
+          "explanation": "-24 - (-2) = -22. Subtracting a negative adds."
+        },
+        {
+          "num": 15,
+          "question": "Compute 0.6 \u00d7 3.5.",
+          "choices": [
+            "2.2",
+            "2.1",
+            "1.5",
+            "2.0"
+          ],
+          "answer": "B",
+          "explanation": "0.6 \u00d7 3.5 = 2.1."
+        },
+        {
+          "num": 16,
+          "question": "Compute -32 - (5).",
+          "choices": [
+            "-32",
+            "-37",
+            "-27",
+            "-47"
+          ],
+          "answer": "B",
+          "explanation": "-32 - (5) = -37. Subtracting a negative adds."
+        },
+        {
+          "num": 17,
+          "question": "A rectangle is 24 ft by 15 ft. What is its area (sq ft)?",
+          "choices": [
+            "360",
+            "345",
+            "355",
+            "384"
+          ],
+          "answer": "A",
+          "explanation": "Area = length \u00d7 width = 24 \u00d7 15 = 360 sq ft."
+        },
+        {
+          "num": 18,
+          "question": "A 40-piece set is in the ratio 1:4. How many in the larger group?",
+          "choices": [
+            "32",
+            "27",
+            "37",
+            "34"
+          ],
+          "answer": "A",
+          "explanation": "40 \u00f7 (1+4) = 8; larger group = 4\u00d78 = 32."
+        },
+        {
+          "num": 19,
+          "question": "Compute 3.9 \u00d7 6.6.",
+          "choices": [
+            "25.74",
+            "24.74",
+            "26.74",
+            "25.64"
+          ],
+          "answer": "A",
+          "explanation": "3.9 \u00d7 6.6 = 25.74."
+        },
+        {
+          "num": 20,
+          "question": "What is 40% of 250?",
+          "choices": [
+            "90",
+            "100",
+            "105",
+            "110"
+          ],
+          "answer": "B",
+          "explanation": "40/100 \u00d7 250 = 100."
+        },
+        {
+          "num": 21,
+          "question": "Compute 9.0 \u00d7 0.1.",
+          "choices": [
+            "-8.1",
+            "0.9",
+            "-0.1",
+            "1.0"
+          ],
+          "answer": "B",
+          "explanation": "9.0 \u00d7 0.1 = 0.9."
+        },
+        {
+          "num": 22,
+          "question": "Compute -41 - (-49).",
+          "choices": [
+            "-2",
+            "8",
+            "18",
+            "-41"
+          ],
+          "answer": "B",
+          "explanation": "-41 - (-49) = 8. Subtracting a negative adds."
+        },
+        {
+          "num": 23,
+          "question": "What is 60% of 100?",
+          "choices": [
+            "60",
+            "50",
+            "55",
+            "70"
+          ],
+          "answer": "A",
+          "explanation": "60/100 \u00d7 100 = 60."
+        },
+        {
+          "num": 24,
+          "question": "Compute -21 + (-4).",
+          "choices": [
+            "-26",
+            "-24",
+            "-25",
+            "-15"
+          ],
+          "answer": "C",
+          "explanation": "-21 + -4 = -25."
+        },
+        {
+          "num": 25,
+          "question": "Compute -18 + (27).",
+          "choices": [
+            "8",
+            "9",
+            "-9",
+            "19"
+          ],
+          "answer": "B",
+          "explanation": "-18 + 27 = 9."
+        },
+        {
+          "num": 26,
+          "question": "Compute 7.4 \u00d7 9.7.",
+          "choices": [
+            "64.38",
+            "72.78",
+            "70.78",
+            "71.78"
+          ],
+          "answer": "D",
+          "explanation": "7.4 \u00d7 9.7 = 71.78."
+        },
+        {
+          "num": 27,
+          "question": "A rectangle is 14 ft by 5 ft. What is its area (sq ft)?",
+          "choices": [
+            "70",
+            "65",
+            "70",
+            "56"
+          ],
+          "answer": "A",
+          "explanation": "Area = length \u00d7 width = 14 \u00d7 5 = 70 sq ft."
+        },
+        {
+          "num": 28,
+          "question": "A rectangle is 9 ft by 8 ft. What is its area (sq ft)?",
+          "choices": [
+            "80",
+            "81",
+            "64",
+            "72"
+          ],
+          "answer": "D",
+          "explanation": "Area = length \u00d7 width = 9 \u00d7 8 = 72 sq ft."
+        },
+        {
+          "num": 29,
+          "question": "Compute -12 - (-46).",
+          "choices": [
+            "34",
+            "35",
+            "24",
+            "44"
+          ],
+          "answer": "A",
+          "explanation": "-12 - (-46) = 34. Subtracting a negative adds."
+        },
+        {
+          "num": 30,
+          "question": "Compute (9/8) \u00d7 (5/10). Reduce.",
+          "choices": [
+            "9/16",
+            "7/9",
+            "6/2",
+            "9/4"
+          ],
+          "answer": "A",
+          "explanation": "Multiply numerators \u00d7 denominators: 45/80 = 9/16."
+        },
+        {
+          "num": 31,
+          "question": "Compute 1.2 \u00d7 0.8.",
+          "choices": [
+            "0.96",
+            "0.86",
+            "1.06",
+            "-0.24"
+          ],
+          "answer": "A",
+          "explanation": "1.2 \u00d7 0.8 = 0.96."
+        },
+        {
+          "num": 32,
+          "question": "Compute (9/5) \u00d7 (5/7). Reduce.",
+          "choices": [
+            "7/6",
+            "9/7",
+            "63/25",
+            "13/14"
+          ],
+          "answer": "B",
+          "explanation": "Multiply numerators \u00d7 denominators: 45/35 = 9/7."
+        },
+        {
+          "num": 33,
+          "question": "Compute (-3) \u00d7 (12).",
+          "choices": [
+            "-36",
+            "-35",
+            "-33",
+            "-24"
+          ],
+          "answer": "A",
+          "explanation": "-3 \u00d7 12 = -36."
+        },
+        {
+          "num": 34,
+          "question": "What is 20% of 150?",
+          "choices": [
+            "35",
+            "45",
+            "40",
+            "30"
+          ],
+          "answer": "D",
+          "explanation": "20/100 \u00d7 150 = 30."
+        },
+        {
+          "num": 35,
+          "question": "Compute (-12) \u00d7 (0).",
+          "choices": [
+            "0",
+            "-12",
+            "14",
+            "1"
+          ],
+          "answer": "A",
+          "explanation": "-12 \u00d7 0 = 0."
+        },
+        {
+          "num": 36,
+          "question": "Solve for x: 8x - 3 = -11",
+          "choices": [
+            "7",
+            "1",
+            "0",
+            "-1"
+          ],
+          "answer": "D",
+          "explanation": "Subtract -3 \u2192 8x = -8. Divide \u2192 x = -1."
+        },
+        {
+          "num": 37,
+          "question": "Compute 3/4 + 2/6. Reduce.",
+          "choices": [
+            "5/12",
+            "13/12",
+            "1/2",
+            "87"
+          ],
+          "answer": "B",
+          "explanation": "Common denominator \u2192 3/4 + 2/6 = 13/12."
+        },
+        {
+          "num": 38,
+          "question": "Compute 36 - (-47).",
+          "choices": [
+            "73",
+            "36",
+            "83",
+            "82"
+          ],
+          "answer": "C",
+          "explanation": "36 - (-47) = 83. Subtracting a negative adds."
+        },
+        {
+          "num": 39,
+          "question": "Compute 4 + (-2).",
+          "choices": [
+            "3",
+            "6",
+            "2",
+            "12"
+          ],
+          "answer": "C",
+          "explanation": "4 + -2 = 2."
+        },
+        {
+          "num": 40,
+          "question": "Solve for x: 8x + 1 = 25",
+          "choices": [
+            "3",
+            "2",
+            "11",
+            "5"
+          ],
+          "answer": "A",
+          "explanation": "Subtract 1 \u2192 8x = 24. Divide \u2192 x = 3."
+        },
+        {
+          "num": 41,
+          "question": "Compute (-1) \u00d7 (-9).",
+          "choices": [
+            "10",
+            "8",
+            "9",
+            "0"
+          ],
+          "answer": "C",
+          "explanation": "-1 \u00d7 -9 = 9."
+        },
+        {
+          "num": 42,
+          "question": "Compute (-6) \u00d7 (8).",
+          "choices": [
+            "-49",
+            "-48",
+            "-54",
+            "-40"
+          ],
+          "answer": "B",
+          "explanation": "-6 \u00d7 8 = -48."
+        },
+        {
+          "num": 43,
+          "question": "Solve for x: 9x - 4 = 5",
+          "choices": [
+            "10",
+            "-8",
+            "1",
+            "0"
+          ],
+          "answer": "C",
+          "explanation": "Subtract -4 \u2192 9x = 9. Divide \u2192 x = 1."
+        },
+        {
+          "num": 44,
+          "question": "Compute 9.1 \u00d7 2.5.",
+          "choices": [
+            "22.85",
+            "21.75",
+            "22.75",
+            "13.65"
+          ],
+          "answer": "C",
+          "explanation": "9.1 \u00d7 2.5 = 22.75."
+        },
+        {
+          "num": 45,
+          "question": "Compute (6/3) \u00d7 (8/9). Reduce.",
+          "choices": [
+            "10/10",
+            "7/6",
+            "9/4",
+            "16/9"
+          ],
+          "answer": "D",
+          "explanation": "Multiply numerators \u00d7 denominators: 48/27 = 16/9."
+        },
+        {
+          "num": 46,
+          "question": "Compute 2 + (23).",
+          "choices": [
+            "25",
+            "27",
+            "24",
+            "35"
+          ],
+          "answer": "A",
+          "explanation": "2 + 23 = 25."
+        },
+        {
+          "num": 47,
+          "question": "Compute -34 - (-41).",
+          "choices": [
+            "7",
+            "-34",
+            "48",
+            "8"
+          ],
+          "answer": "A",
+          "explanation": "-34 - (-41) = 7. Subtracting a negative adds."
+        },
+        {
+          "num": 48,
+          "question": "Compute 1/2 + 4/8. Reduce.",
+          "choices": [
+            "91",
+            "1/1",
+            "1/2",
+            "0/1"
+          ],
+          "answer": "B",
+          "explanation": "Common denominator \u2192 1/2 + 4/8 = 1/1."
+        },
+        {
+          "num": 49,
+          "question": "Compute (-12) \u00d7 (-2).",
+          "choices": [
+            "22",
+            "24",
+            "26",
+            "12"
+          ],
+          "answer": "B",
+          "explanation": "-12 \u00d7 -2 = 24."
+        },
+        {
+          "num": 50,
+          "question": "Compute 1.8 \u00d7 7.6.",
+          "choices": [
+            "14.68",
+            "11.88",
+            "15.48",
+            "13.68"
+          ],
+          "answer": "D",
+          "explanation": "1.8 \u00d7 7.6 = 13.68."
+        }
+      ]
+    },
+    {
+      "testNum": 9,
+      "questions": [
+        {
+          "num": 1,
+          "question": "Compute (9/5) \u00d7 (2/6). Reduce.",
+          "choices": [
+            "3/5",
+            "1/1",
+            "27/5",
+            "12/9"
+          ],
+          "answer": "A",
+          "explanation": "Multiply numerators \u00d7 denominators: 18/30 = 3/5."
+        },
+        {
+          "num": 2,
+          "question": "What is 50% of 300?",
+          "choices": [
+            "145",
+            "150",
+            "120",
+            "155"
+          ],
+          "answer": "B",
+          "explanation": "50/100 \u00d7 300 = 150."
+        },
+        {
+          "num": 3,
+          "question": "Compute 1/2 + 5/6. Reduce.",
+          "choices": [
+            "82",
+            "-1/3",
+            "4/3",
+            "3/4"
+          ],
+          "answer": "C",
+          "explanation": "Common denominator \u2192 1/2 + 5/6 = 4/3."
+        },
+        {
+          "num": 4,
+          "question": "What is 30% of 100?",
+          "choices": [
+            "20",
+            "40",
+            "30",
+            "25"
+          ],
+          "answer": "C",
+          "explanation": "30/100 \u00d7 100 = 30."
+        },
+        {
+          "num": 5,
+          "question": "Compute -31 - (-36).",
+          "choices": [
+            "-31",
+            "5",
+            "6",
+            "41"
+          ],
+          "answer": "B",
+          "explanation": "-31 - (-36) = 5. Subtracting a negative adds."
+        },
+        {
+          "num": 6,
+          "question": "Compute 1 + (37).",
+          "choices": [
+            "37",
+            "17",
+            "38",
+            "48"
+          ],
+          "answer": "C",
+          "explanation": "1 + 37 = 38."
+        },
+        {
+          "num": 7,
+          "question": "Compute 28 + (26).",
+          "choices": [
+            "54",
+            "82",
+            "44",
+            "70"
+          ],
+          "answer": "A",
+          "explanation": "28 + 26 = 54."
+        },
+        {
+          "num": 8,
+          "question": "Compute 23 + (18).",
+          "choices": [
+            "41",
+            "42",
+            "18",
+            "40"
+          ],
+          "answer": "A",
+          "explanation": "23 + 18 = 41."
+        },
+        {
+          "num": 9,
+          "question": "Compute (4/4) \u00d7 (7/4). Reduce.",
+          "choices": [
+            "10/8",
+            "11/8",
+            "7/4",
+            "4/7"
+          ],
+          "answer": "C",
+          "explanation": "Multiply numerators \u00d7 denominators: 28/16 = 7/4."
+        },
+        {
+          "num": 10,
+          "question": "Compute 7.8 \u00d7 9.0.",
+          "choices": [
+            "69.2",
+            "70.3",
+            "71.2",
+            "70.2"
+          ],
+          "answer": "D",
+          "explanation": "7.8 \u00d7 9.0 = 70.2."
+        },
+        {
+          "num": 11,
+          "question": "Solve for x: 2x + 0 = 16",
+          "choices": [
+            "10",
+            "8",
+            "6",
+            "9"
+          ],
+          "answer": "B",
+          "explanation": "Subtract 0 \u2192 2x = 16. Divide \u2192 x = 8."
+        },
+        {
+          "num": 12,
+          "question": "Compute (-7) \u00d7 (-5).",
+          "choices": [
+            "42",
+            "34",
+            "35",
+            "40"
+          ],
+          "answer": "C",
+          "explanation": "-7 \u00d7 -5 = 35."
+        },
+        {
+          "num": 13,
+          "question": "Compute (-4) \u00d7 (-2).",
+          "choices": [
+            "6",
+            "7",
+            "8",
+            "4"
+          ],
+          "answer": "C",
+          "explanation": "-4 \u00d7 -2 = 8."
+        },
+        {
+          "num": 14,
+          "question": "Compute 6.0 \u00d7 5.8.",
+          "choices": [
+            "34.8",
+            "40.8",
+            "35.8",
+            "33.8"
+          ],
+          "answer": "A",
+          "explanation": "6.0 \u00d7 5.8 = 34.8."
+        },
+        {
+          "num": 15,
+          "question": "Compute 4.4 \u00d7 9.5.",
+          "choices": [
+            "41.8",
+            "41.9",
+            "63",
+            "46.2"
+          ],
+          "answer": "A",
+          "explanation": "4.4 \u00d7 9.5 = 41.8."
+        },
+        {
+          "num": 16,
+          "question": "Compute 5 - (-9).",
+          "choices": [
+            "13",
+            "15",
+            "24",
+            "14"
+          ],
+          "answer": "D",
+          "explanation": "5 - (-9) = 14. Subtracting a negative adds."
+        },
+        {
+          "num": 17,
+          "question": "Compute -15 + (23).",
+          "choices": [
+            "9",
+            "8",
+            "7",
+            "18"
+          ],
+          "answer": "B",
+          "explanation": "-15 + 23 = 8."
+        },
+        {
+          "num": 18,
+          "question": "Compute 1/8 + 3/6. Reduce.",
+          "choices": [
+            "2/7",
+            "-3/8",
+            "23",
+            "5/8"
+          ],
+          "answer": "D",
+          "explanation": "Common denominator \u2192 1/8 + 3/6 = 5/8."
+        },
+        {
+          "num": 19,
+          "question": "Compute (3/8) \u00d7 (3/7). Reduce.",
+          "choices": [
+            "9/56",
+            "4/5",
+            "2/5",
+            "7/8"
+          ],
+          "answer": "A",
+          "explanation": "Multiply numerators \u00d7 denominators: 9/56 = 9/56."
+        },
+        {
+          "num": 20,
+          "question": "Compute 1/2 + 1/3. Reduce.",
+          "choices": [
+            "1/6",
+            "15",
+            "2/5",
+            "5/6"
+          ],
+          "answer": "D",
+          "explanation": "Common denominator \u2192 1/2 + 1/3 = 5/6."
+        },
+        {
+          "num": 21,
+          "question": "Compute (-8) \u00d7 (-9).",
+          "choices": [
+            "72",
+            "80",
+            "71",
+            "81"
+          ],
+          "answer": "A",
+          "explanation": "-8 \u00d7 -9 = 72."
+        },
+        {
+          "num": 22,
+          "question": "Compute 6/8 + 2/4. Reduce.",
+          "choices": [
+            "5/4",
+            "1/4",
+            "5",
+            "2/3"
+          ],
+          "answer": "A",
+          "explanation": "Common denominator \u2192 6/8 + 2/4 = 5/4."
+        },
+        {
+          "num": 23,
+          "question": "A rectangle is 11 ft by 6 ft. What is its area (sq ft)?",
+          "choices": [
+            "55",
+            "61",
+            "71",
+            "66"
+          ],
+          "answer": "D",
+          "explanation": "Area = length \u00d7 width = 11 \u00d7 6 = 66 sq ft."
+        },
+        {
+          "num": 24,
+          "question": "Compute 27 - (-8).",
+          "choices": [
+            "43",
+            "35",
+            "36",
+            "34"
+          ],
+          "answer": "B",
+          "explanation": "27 - (-8) = 35. Subtracting a negative adds."
+        },
+        {
+          "num": 25,
+          "question": "Compute 1 - (47).",
+          "choices": [
+            "-56",
+            "-46",
+            "-45",
+            "1"
+          ],
+          "answer": "B",
+          "explanation": "1 - (47) = -46. Subtracting a negative adds."
+        },
+        {
+          "num": 26,
+          "question": "Compute 34 - (35).",
+          "choices": [
+            "0",
+            "34",
+            "-1",
+            "9"
+          ],
+          "answer": "C",
+          "explanation": "34 - (35) = -1. Subtracting a negative adds."
+        },
+        {
+          "num": 27,
+          "question": "Compute (-6) \u00d7 (2).",
+          "choices": [
+            "-10",
+            "-13",
+            "-12",
+            "-14"
+          ],
+          "answer": "C",
+          "explanation": "-6 \u00d7 2 = -12."
+        },
+        {
+          "num": 28,
+          "question": "Compute -35 + (18).",
+          "choices": [
+            "18",
+            "-7",
+            "-17",
+            "-16"
+          ],
+          "answer": "C",
+          "explanation": "-35 + 18 = -17."
+        },
+        {
+          "num": 29,
+          "question": "Solve for x: 2x - 9 = -13",
+          "choices": [
+            "-4",
+            "-2",
+            "-3",
+            "0"
+          ],
+          "answer": "B",
+          "explanation": "Subtract -9 \u2192 2x = -4. Divide \u2192 x = -2."
+        },
+        {
+          "num": 30,
+          "question": "A rectangle is 9 ft by 20 ft. What is its area (sq ft)?",
+          "choices": [
+            "189",
+            "171",
+            "180",
+            "160"
+          ],
+          "answer": "C",
+          "explanation": "Area = length \u00d7 width = 9 \u00d7 20 = 180 sq ft."
+        },
+        {
+          "num": 31,
+          "question": "Compute -31 - (38).",
+          "choices": [
+            "-68",
+            "-79",
+            "-70",
+            "-69"
+          ],
+          "answer": "D",
+          "explanation": "-31 - (38) = -69. Subtracting a negative adds."
+        },
+        {
+          "num": 32,
+          "question": "Compute 30 + (35).",
+          "choices": [
+            "75",
+            "66",
+            "65",
+            "35"
+          ],
+          "answer": "C",
+          "explanation": "30 + 35 = 65."
+        },
+        {
+          "num": 33,
+          "question": "Compute 3/5 + 4/6. Reduce.",
+          "choices": [
+            "92",
+            "19/15",
+            "-1/15",
+            "7/11"
+          ],
+          "answer": "B",
+          "explanation": "Common denominator \u2192 3/5 + 4/6 = 19/15."
+        },
+        {
+          "num": 34,
+          "question": "Compute 6.5 \u00d7 9.8.",
+          "choices": [
+            "63.7",
+            "63.8",
+            "57.2",
+            "70.2"
+          ],
+          "answer": "A",
+          "explanation": "6.5 \u00d7 9.8 = 63.7."
+        },
+        {
+          "num": 35,
+          "question": "Compute 48 + (25).",
+          "choices": [
+            "74",
+            "72",
+            "25",
+            "73"
+          ],
+          "answer": "D",
+          "explanation": "48 + 25 = 73."
+        },
+        {
+          "num": 36,
+          "question": "Compute 6.0 \u00d7 5.6.",
+          "choices": [
+            "34.6",
+            "32.6",
+            "33.7",
+            "33.6"
+          ],
+          "answer": "D",
+          "explanation": "6.0 \u00d7 5.6 = 33.6."
+        },
+        {
+          "num": 37,
+          "question": "What is 20% of 100?",
+          "choices": [
+            "30",
+            "15",
+            "20",
+            "10"
+          ],
+          "answer": "C",
+          "explanation": "20/100 \u00d7 100 = 20."
+        },
+        {
+          "num": 38,
+          "question": "Compute 5.4 \u00d7 8.1.",
+          "choices": [
+            "44.74",
+            "43.64",
+            "43.74",
+            "49.14"
+          ],
+          "answer": "C",
+          "explanation": "5.4 \u00d7 8.1 = 43.74."
+        },
+        {
+          "num": 39,
+          "question": "What is 60% of 200?",
+          "choices": [
+            "130",
+            "140",
+            "120",
+            "100"
+          ],
+          "answer": "C",
+          "explanation": "60/100 \u00d7 200 = 120."
+        },
+        {
+          "num": 40,
+          "question": "What is 15% of 120?",
+          "choices": [
+            "30",
+            "8",
+            "13",
+            "18"
+          ],
+          "answer": "D",
+          "explanation": "15/100 \u00d7 120 = 18."
+        },
+        {
+          "num": 41,
+          "question": "Compute 3.2 \u00d7 1.9.",
+          "choices": [
+            "2.88",
+            "6.08",
+            "5.98",
+            "5.08"
+          ],
+          "answer": "B",
+          "explanation": "3.2 \u00d7 1.9 = 6.08."
+        },
+        {
+          "num": 42,
+          "question": "Compute -27 - (15).",
+          "choices": [
+            "-42",
+            "-52",
+            "-27",
+            "-32"
+          ],
+          "answer": "A",
+          "explanation": "-27 - (15) = -42. Subtracting a negative adds."
+        },
+        {
+          "num": 43,
+          "question": "Compute (6/3) \u00d7 (9/10). Reduce.",
+          "choices": [
+            "15/13",
+            "9/5",
+            "5/14",
+            "20/9"
+          ],
+          "answer": "B",
+          "explanation": "Multiply numerators \u00d7 denominators: 54/30 = 9/5."
+        },
+        {
+          "num": 44,
+          "question": "Compute 3/6 + 3/5. Reduce.",
+          "choices": [
+            "11/10",
+            "6/11",
+            "45",
+            "-1/10"
+          ],
+          "answer": "A",
+          "explanation": "Common denominator \u2192 3/6 + 3/5 = 11/10."
+        },
+        {
+          "num": 45,
+          "question": "Solve for x: 7x + 0 = -21",
+          "choices": [
+            "-10",
+            "-2",
+            "-3",
+            "-5"
+          ],
+          "answer": "C",
+          "explanation": "Subtract 0 \u2192 7x = -21. Divide \u2192 x = -3."
+        },
+        {
+          "num": 46,
+          "question": "Compute 1/6 + 2/3. Reduce.",
+          "choices": [
+            "87",
+            "5/6",
+            "1/3",
+            "-1/2"
+          ],
+          "answer": "B",
+          "explanation": "Common denominator \u2192 1/6 + 2/3 = 5/6."
+        },
+        {
+          "num": 47,
+          "question": "Compute 1 + (-31).",
+          "choices": [
+            "-29",
+            "-40",
+            "98",
+            "-30"
+          ],
+          "answer": "D",
+          "explanation": "1 + -31 = -30."
+        },
+        {
+          "num": 48,
+          "question": "Solve for x: 8x - 6 = -30",
+          "choices": [
+            "-3",
+            "-11",
+            "-1",
+            "-5"
+          ],
+          "answer": "A",
+          "explanation": "Subtract -6 \u2192 8x = -24. Divide \u2192 x = -3."
+        },
+        {
+          "num": 49,
+          "question": "Compute 32 - (28).",
+          "choices": [
+            "5",
+            "4",
+            "-24",
+            "14"
+          ],
+          "answer": "B",
+          "explanation": "32 - (28) = 4. Subtracting a negative adds."
+        },
+        {
+          "num": 50,
+          "question": "Compute 3 - (2).",
+          "choices": [
+            "-1",
+            "2",
+            "11",
+            "1"
+          ],
+          "answer": "D",
+          "explanation": "3 - (2) = 1. Subtracting a negative adds."
+        }
+      ]
+    },
+    {
+      "testNum": 10,
+      "questions": [
+        {
+          "num": 1,
+          "question": "Compute 1/2 + 3/6. Reduce.",
+          "choices": [
+            "13",
+            "0/1",
+            "1/2",
+            "1/1"
+          ],
+          "answer": "D",
+          "explanation": "Common denominator \u2192 1/2 + 3/6 = 1/1."
+        },
+        {
+          "num": 2,
+          "question": "Compute (1/6) \u00d7 (5/7). Reduce.",
+          "choices": [
+            "6/13",
+            "5/42",
+            "1/4",
+            "7/30"
+          ],
+          "answer": "B",
+          "explanation": "Multiply numerators \u00d7 denominators: 5/42 = 5/42."
+        },
+        {
+          "num": 3,
+          "question": "Compute (9/2) \u00d7 (1/3). Reduce.",
+          "choices": [
+            "2/1",
+            "27/2",
+            "3/2",
+            "2/3"
+          ],
+          "answer": "C",
+          "explanation": "Multiply numerators \u00d7 denominators: 9/6 = 3/2."
+        },
+        {
+          "num": 4,
+          "question": "Compute 3/4 + 1/2. Reduce.",
+          "choices": [
+            "1/4",
+            "5/4",
+            "2/3",
+            "51"
+          ],
+          "answer": "B",
+          "explanation": "Common denominator \u2192 3/4 + 1/2 = 5/4."
+        },
+        {
+          "num": 5,
+          "question": "What is 50% of 20?",
+          "choices": [
+            "10",
+            "8",
+            "5",
+            "0"
+          ],
+          "answer": "A",
+          "explanation": "50/100 \u00d7 20 = 10."
+        },
+        {
+          "num": 6,
+          "question": "A 104-piece set is in the ratio 5:8. How many in the larger group?",
+          "choices": [
+            "64",
+            "66",
+            "69",
+            "72"
+          ],
+          "answer": "A",
+          "explanation": "104 \u00f7 (5+8) = 8; larger group = 8\u00d78 = 64."
+        },
+        {
+          "num": 7,
+          "question": "A rectangle is 11 ft by 4 ft. What is its area (sq ft)?",
+          "choices": [
+            "39",
+            "33",
+            "44",
+            "48"
+          ],
+          "answer": "C",
+          "explanation": "Area = length \u00d7 width = 11 \u00d7 4 = 44 sq ft."
+        },
+        {
+          "num": 8,
+          "question": "Solve for x: 6x + 1 = -29",
+          "choices": [
+            "-7",
+            "-5",
+            "1",
+            "-11"
+          ],
+          "answer": "B",
+          "explanation": "Subtract 1 \u2192 6x = -30. Divide \u2192 x = -5."
+        },
+        {
+          "num": 9,
+          "question": "A 64-piece set is in the ratio 3:5. How many in the larger group?",
+          "choices": [
+            "32",
+            "38",
+            "40",
+            "35"
+          ],
+          "answer": "C",
+          "explanation": "64 \u00f7 (3+5) = 8; larger group = 5\u00d78 = 40."
+        },
+        {
+          "num": 10,
+          "question": "A rectangle is 14 ft by 3 ft. What is its area (sq ft)?",
+          "choices": [
+            "47",
+            "37",
+            "42",
+            "56"
+          ],
+          "answer": "C",
+          "explanation": "Area = length \u00d7 width = 14 \u00d7 3 = 42 sq ft."
+        },
+        {
+          "num": 11,
+          "question": "Solve for x: 3x + 7 = 4",
+          "choices": [
+            "2",
+            "0",
+            "-1",
+            "-4"
+          ],
+          "answer": "C",
+          "explanation": "Subtract 7 \u2192 3x = -3. Divide \u2192 x = -1."
+        },
+        {
+          "num": 12,
+          "question": "Solve for x: 4x - 7 = -7",
+          "choices": [
+            "1",
+            "-4",
+            "0",
+            "4"
+          ],
+          "answer": "C",
+          "explanation": "Subtract -7 \u2192 4x = 0. Divide \u2192 x = 0."
+        },
+        {
+          "num": 13,
+          "question": "Compute -37 - (-41).",
+          "choices": [
+            "45",
+            "3",
+            "4",
+            "-6"
+          ],
+          "answer": "C",
+          "explanation": "-37 - (-41) = 4. Subtracting a negative adds."
+        },
+        {
+          "num": 14,
+          "question": "A rectangle is 7 ft by 16 ft. What is its area (sq ft)?",
+          "choices": [
+            "112",
+            "119",
+            "117",
+            "96"
+          ],
+          "answer": "A",
+          "explanation": "Area = length \u00d7 width = 7 \u00d7 16 = 112 sq ft."
+        },
+        {
+          "num": 15,
+          "question": "A 65-piece set is in the ratio 5:8. How many in the larger group?",
+          "choices": [
+            "35",
+            "40",
+            "45",
+            "71"
+          ],
+          "answer": "B",
+          "explanation": "65 \u00f7 (5+8) = 5; larger group = 8\u00d75 = 40."
+        },
+        {
+          "num": 16,
+          "question": "Compute (6/9) \u00d7 (3/4). Reduce.",
+          "choices": [
+            "1/2",
+            "10/3",
+            "8/9",
+            "9/13"
+          ],
+          "answer": "A",
+          "explanation": "Multiply numerators \u00d7 denominators: 18/36 = 1/2."
+        },
+        {
+          "num": 17,
+          "question": "Compute 40 + (-43).",
+          "choices": [
+            "-43",
+            "-3",
+            "7",
+            "-4"
+          ],
+          "answer": "B",
+          "explanation": "40 + -43 = -3."
+        },
+        {
+          "num": 18,
+          "question": "Solve for x: 5x - 2 = 23",
+          "choices": [
+            "0",
+            "3",
+            "4",
+            "5"
+          ],
+          "answer": "D",
+          "explanation": "Subtract -2 \u2192 5x = 25. Divide \u2192 x = 5."
+        },
+        {
+          "num": 19,
+          "question": "Compute 0 + (-1).",
+          "choices": [
+            "0",
+            "-2",
+            "-11",
+            "-1"
+          ],
+          "answer": "D",
+          "explanation": "0 + -1 = -1."
+        },
+        {
+          "num": 20,
+          "question": "Solve for x: 7x - 10 = 11",
+          "choices": [
+            "-4",
+            "2",
+            "4",
+            "3"
+          ],
+          "answer": "D",
+          "explanation": "Subtract -10 \u2192 7x = 21. Divide \u2192 x = 3."
+        },
+        {
+          "num": 21,
+          "question": "Solve for x: 5x + 5 = 20",
+          "choices": [
+            "8",
+            "5",
+            "-2",
+            "3"
+          ],
+          "answer": "D",
+          "explanation": "Subtract 5 \u2192 5x = 15. Divide \u2192 x = 3."
+        },
+        {
+          "num": 22,
+          "question": "Compute (-10) \u00d7 (-1).",
+          "choices": [
+            "0",
+            "10",
+            "9",
+            "20"
+          ],
+          "answer": "B",
+          "explanation": "-10 \u00d7 -1 = 10."
+        },
+        {
+          "num": 23,
+          "question": "Compute 0.7 \u00d7 9.7.",
+          "choices": [
+            "6.89",
+            "6.79",
+            "6.09",
+            "5.79"
+          ],
+          "answer": "B",
+          "explanation": "0.7 \u00d7 9.7 = 6.79."
+        },
+        {
+          "num": 24,
+          "question": "Compute 8.8 \u00d7 7.8.",
+          "choices": [
+            "67.64",
+            "77.44",
+            "68.64",
+            "68.54"
+          ],
+          "answer": "C",
+          "explanation": "8.8 \u00d7 7.8 = 68.64."
+        },
+        {
+          "num": 25,
+          "question": "Compute 6.0 \u00d7 2.2.",
+          "choices": [
+            "13.1",
+            "7.2",
+            "12.2",
+            "13.2"
+          ],
+          "answer": "D",
+          "explanation": "6.0 \u00d7 2.2 = 13.2."
+        },
+        {
+          "num": 26,
+          "question": "What is 30% of 150?",
+          "choices": [
+            "55",
+            "40",
+            "45",
+            "50"
+          ],
+          "answer": "C",
+          "explanation": "30/100 \u00d7 150 = 45."
+        },
+        {
+          "num": 27,
+          "question": "A rectangle is 12 ft by 17 ft. What is its area (sq ft)?",
+          "choices": [
+            "192",
+            "209",
+            "204",
+            "187"
+          ],
+          "answer": "C",
+          "explanation": "Area = length \u00d7 width = 12 \u00d7 17 = 204 sq ft."
+        },
+        {
+          "num": 28,
+          "question": "Compute 2.0 \u00d7 3.2.",
+          "choices": [
+            "6.3",
+            "6.4",
+            "6.5",
+            "4.4"
+          ],
+          "answer": "B",
+          "explanation": "2.0 \u00d7 3.2 = 6.4."
+        },
+        {
+          "num": 29,
+          "question": "A rectangle is 22 ft by 17 ft. What is its area (sq ft)?",
+          "choices": [
+            "374",
+            "369",
+            "396",
+            "352"
+          ],
+          "answer": "A",
+          "explanation": "Area = length \u00d7 width = 22 \u00d7 17 = 374 sq ft."
+        },
+        {
+          "num": 30,
+          "question": "Compute 1/4 + 2/8. Reduce.",
+          "choices": [
+            "0/1",
+            "71",
+            "1/4",
+            "1/2"
+          ],
+          "answer": "D",
+          "explanation": "Common denominator \u2192 1/4 + 2/8 = 1/2."
+        },
+        {
+          "num": 31,
+          "question": "Compute -15 - (-23).",
+          "choices": [
+            "18",
+            "-2",
+            "8",
+            "9"
+          ],
+          "answer": "C",
+          "explanation": "-15 - (-23) = 8. Subtracting a negative adds."
+        },
+        {
+          "num": 32,
+          "question": "Solve for x: 8x + 2 = 26",
+          "choices": [
+            "3",
+            "-5",
+            "2",
+            "4"
+          ],
+          "answer": "A",
+          "explanation": "Subtract 2 \u2192 8x = 24. Divide \u2192 x = 3."
+        },
+        {
+          "num": 33,
+          "question": "Compute (7) \u00d7 (7).",
+          "choices": [
+            "49",
+            "48",
+            "42",
+            "56"
+          ],
+          "answer": "A",
+          "explanation": "7 \u00d7 7 = 49."
+        },
+        {
+          "num": 34,
+          "question": "Compute 1.0 \u00d7 1.2.",
+          "choices": [
+            "1.2",
+            "1.3",
+            "2.2",
+            "0.2"
+          ],
+          "answer": "A",
+          "explanation": "1.0 \u00d7 1.2 = 1.2."
+        },
+        {
+          "num": 35,
+          "question": "Compute -29 - (31).",
+          "choices": [
+            "-60",
+            "-29",
+            "-59",
+            "-50"
+          ],
+          "answer": "A",
+          "explanation": "-29 - (31) = -60. Subtracting a negative adds."
+        },
+        {
+          "num": 36,
+          "question": "Compute 32 - (22).",
+          "choices": [
+            "9",
+            "10",
+            "-12",
+            "20"
+          ],
+          "answer": "B",
+          "explanation": "32 - (22) = 10. Subtracting a negative adds."
+        },
+        {
+          "num": 37,
+          "question": "A rectangle is 19 ft by 4 ft. What is its area (sq ft)?",
+          "choices": [
+            "76",
+            "80",
+            "71",
+            "81"
+          ],
+          "answer": "A",
+          "explanation": "Area = length \u00d7 width = 19 \u00d7 4 = 76 sq ft."
+        },
+        {
+          "num": 38,
+          "question": "Compute -4 - (22).",
+          "choices": [
+            "-48",
+            "-36",
+            "-26",
+            "-16"
+          ],
+          "answer": "C",
+          "explanation": "-4 - (22) = -26. Subtracting a negative adds."
+        },
+        {
+          "num": 39,
+          "question": "Compute 10 - (30).",
+          "choices": [
+            "-19",
+            "-30",
+            "-21",
+            "-20"
+          ],
+          "answer": "D",
+          "explanation": "10 - (30) = -20. Subtracting a negative adds."
+        },
+        {
+          "num": 40,
+          "question": "Compute 1/2 + 7/8. Reduce.",
+          "choices": [
+            "11/8",
+            "4/5",
+            "-3/8",
+            "51"
+          ],
+          "answer": "A",
+          "explanation": "Common denominator \u2192 1/2 + 7/8 = 11/8."
+        },
+        {
+          "num": 41,
+          "question": "Compute -30 + (42).",
+          "choices": [
+            "42",
+            "12",
+            "11",
+            "13"
+          ],
+          "answer": "B",
+          "explanation": "-30 + 42 = 12."
+        },
+        {
+          "num": 42,
+          "question": "Compute 3/6 + 6/8. Reduce.",
+          "choices": [
+            "-1/4",
+            "9/14",
+            "68",
+            "5/4"
+          ],
+          "answer": "D",
+          "explanation": "Common denominator \u2192 3/6 + 6/8 = 5/4."
+        },
+        {
+          "num": 43,
+          "question": "Compute 31 + (13).",
+          "choices": [
+            "75",
+            "34",
+            "44",
+            "43"
+          ],
+          "answer": "C",
+          "explanation": "31 + 13 = 44."
+        },
+        {
+          "num": 44,
+          "question": "Compute 1/4 + 1/6. Reduce.",
+          "choices": [
+            "65",
+            "1/5",
+            "1/12",
+            "5/12"
+          ],
+          "answer": "D",
+          "explanation": "Common denominator \u2192 1/4 + 1/6 = 5/12."
+        },
+        {
+          "num": 45,
+          "question": "A rectangle is 4 ft by 17 ft. What is its area (sq ft)?",
+          "choices": [
+            "51",
+            "68",
+            "72",
+            "73"
+          ],
+          "answer": "B",
+          "explanation": "Area = length \u00d7 width = 4 \u00d7 17 = 68 sq ft."
+        },
+        {
+          "num": 46,
+          "question": "What is 20% of 80?",
+          "choices": [
+            "26",
+            "16",
+            "24",
+            "8"
+          ],
+          "answer": "B",
+          "explanation": "20/100 \u00d7 80 = 16."
+        },
+        {
+          "num": 47,
+          "question": "Compute 48 - (25).",
+          "choices": [
+            "48",
+            "22",
+            "33",
+            "23"
+          ],
+          "answer": "D",
+          "explanation": "48 - (25) = 23. Subtracting a negative adds."
+        },
+        {
+          "num": 48,
+          "question": "Compute -33 + (34).",
+          "choices": [
+            "34",
+            "2",
+            "1",
+            "0"
+          ],
+          "answer": "C",
+          "explanation": "-33 + 34 = 1."
+        },
+        {
+          "num": 49,
+          "question": "What is 80% of 250?",
+          "choices": [
+            "200",
+            "225",
+            "205",
+            "210"
+          ],
+          "answer": "A",
+          "explanation": "80/100 \u00d7 250 = 200."
+        },
+        {
+          "num": 50,
+          "question": "Compute 1/4 + 5/6. Reduce.",
+          "choices": [
+            "82",
+            "13/12",
+            "3/5",
+            "-7/12"
+          ],
+          "answer": "B",
+          "explanation": "Common denominator \u2192 1/4 + 5/6 = 13/12."
+        }
+      ]
+    },
+    {
+      "testNum": 11,
+      "questions": [
+        {
+          "num": 1,
+          "question": "A rectangle is 15 ft by 8 ft. What is its area (sq ft)?",
+          "choices": [
+            "120",
+            "125",
+            "112",
+            "115"
+          ],
+          "answer": "A",
+          "explanation": "Area = length \u00d7 width = 15 \u00d7 8 = 120 sq ft."
+        },
+        {
+          "num": 2,
+          "question": "A rectangle is 13 ft by 13 ft. What is its area (sq ft)?",
+          "choices": [
+            "164",
+            "169",
+            "156",
+            "182"
+          ],
+          "answer": "B",
+          "explanation": "Area = length \u00d7 width = 13 \u00d7 13 = 169 sq ft."
+        },
+        {
+          "num": 3,
+          "question": "What is 30% of 200?",
+          "choices": [
+            "40",
+            "65",
+            "60",
+            "70"
+          ],
+          "answer": "C",
+          "explanation": "30/100 \u00d7 200 = 60."
+        },
+        {
+          "num": 4,
+          "question": "Compute (-4) \u00d7 (-10).",
+          "choices": [
+            "39",
+            "41",
+            "40",
+            "36"
+          ],
+          "answer": "C",
+          "explanation": "-4 \u00d7 -10 = 40."
+        },
+        {
+          "num": 5,
+          "question": "Compute (7/3) \u00d7 (1/6). Reduce.",
+          "choices": [
+            "7/18",
+            "14/1",
+            "8/9",
+            "9/2"
+          ],
+          "answer": "A",
+          "explanation": "Multiply numerators \u00d7 denominators: 7/18 = 7/18."
+        },
+        {
+          "num": 6,
+          "question": "Compute 1/2 + 1/6. Reduce.",
+          "choices": [
+            "2/3",
+            "1/3",
+            "1/4",
+            "84"
+          ],
+          "answer": "A",
+          "explanation": "Common denominator \u2192 1/2 + 1/6 = 2/3."
+        },
+        {
+          "num": 7,
+          "question": "Compute -23 + (8).",
+          "choices": [
+            "-15",
+            "-14",
+            "-16",
+            "8"
+          ],
+          "answer": "A",
+          "explanation": "-23 + 8 = -15."
+        },
+        {
+          "num": 8,
+          "question": "A rectangle is 4 ft by 7 ft. What is its area (sq ft)?",
+          "choices": [
+            "28",
+            "33",
+            "32",
+            "35"
+          ],
+          "answer": "A",
+          "explanation": "Area = length \u00d7 width = 4 \u00d7 7 = 28 sq ft."
+        },
+        {
+          "num": 9,
+          "question": "Compute 2.0 \u00d7 2.7.",
+          "choices": [
+            "5.3",
+            "5.4",
+            "4.4",
+            "3.4"
+          ],
+          "answer": "B",
+          "explanation": "2.0 \u00d7 2.7 = 5.4."
+        },
+        {
+          "num": 10,
+          "question": "Compute 6.1 \u00d7 4.0.",
+          "choices": [
+            "24.4",
+            "24.3",
+            "30.5",
+            "24.5"
+          ],
+          "answer": "A",
+          "explanation": "6.1 \u00d7 4.0 = 24.4."
+        },
+        {
+          "num": 11,
+          "question": "Compute -5 - (-47).",
+          "choices": [
+            "32",
+            "-5",
+            "42",
+            "43"
+          ],
+          "answer": "C",
+          "explanation": "-5 - (-47) = 42. Subtracting a negative adds."
+        },
+        {
+          "num": 12,
+          "question": "Compute 43 + (16).",
+          "choices": [
+            "58",
+            "59",
+            "16",
+            "60"
+          ],
+          "answer": "B",
+          "explanation": "43 + 16 = 59."
+        },
+        {
+          "num": 13,
+          "question": "Compute 1.0 \u00d7 0.1.",
+          "choices": [
+            "0.1",
+            "0.2",
+            "-0.9",
+            "0.0"
+          ],
+          "answer": "A",
+          "explanation": "1.0 \u00d7 0.1 = 0.1."
+        },
+        {
+          "num": 14,
+          "question": "Solve for x: 5x + 10 = 25",
+          "choices": [
+            "5",
+            "-2",
+            "3",
+            "2"
+          ],
+          "answer": "C",
+          "explanation": "Subtract 10 \u2192 5x = 15. Divide \u2192 x = 3."
+        },
+        {
+          "num": 15,
+          "question": "Compute (8/10) \u00d7 (3/10). Reduce.",
+          "choices": [
+            "11/20",
+            "6/25",
+            "7/8",
+            "8/3"
+          ],
+          "answer": "B",
+          "explanation": "Multiply numerators \u00d7 denominators: 24/100 = 6/25."
+        },
+        {
+          "num": 16,
+          "question": "A rectangle is 5 ft by 20 ft. What is its area (sq ft)?",
+          "choices": [
+            "95",
+            "105",
+            "80",
+            "100"
+          ],
+          "answer": "D",
+          "explanation": "Area = length \u00d7 width = 5 \u00d7 20 = 100 sq ft."
+        },
+        {
+          "num": 17,
+          "question": "Compute -34 + (1).",
+          "choices": [
+            "-43",
+            "-33",
+            "-34",
+            "1"
+          ],
+          "answer": "B",
+          "explanation": "-34 + 1 = -33."
+        },
+        {
+          "num": 18,
+          "question": "A rectangle is 11 ft by 5 ft. What is its area (sq ft)?",
+          "choices": [
+            "55",
+            "44",
+            "50",
+            "66"
+          ],
+          "answer": "A",
+          "explanation": "Area = length \u00d7 width = 11 \u00d7 5 = 55 sq ft."
+        },
+        {
+          "num": 19,
+          "question": "Compute (6/10) \u00d7 (5/5). Reduce.",
+          "choices": [
+            "11/15",
+            "12/13",
+            "13/6",
+            "3/5"
+          ],
+          "answer": "D",
+          "explanation": "Multiply numerators \u00d7 denominators: 30/50 = 3/5."
+        },
+        {
+          "num": 20,
+          "question": "A rectangle is 17 ft by 15 ft. What is its area (sq ft)?",
+          "choices": [
+            "240",
+            "255",
+            "260",
+            "250"
+          ],
+          "answer": "B",
+          "explanation": "Area = length \u00d7 width = 17 \u00d7 15 = 255 sq ft."
+        },
+        {
+          "num": 21,
+          "question": "Compute -23 - (-27).",
+          "choices": [
+            "-6",
+            "-23",
+            "3",
+            "4"
+          ],
+          "answer": "D",
+          "explanation": "-23 - (-27) = 4. Subtracting a negative adds."
+        },
+        {
+          "num": 22,
+          "question": "Compute -29 + (-43).",
+          "choices": [
+            "-101",
+            "-43",
+            "-62",
+            "-72"
+          ],
+          "answer": "D",
+          "explanation": "-29 + -43 = -72."
+        },
+        {
+          "num": 23,
+          "question": "A 44-piece set is in the ratio 4:7. How many in the larger group?",
+          "choices": [
+            "33",
+            "26",
+            "28",
+            "32"
+          ],
+          "answer": "C",
+          "explanation": "44 \u00f7 (4+7) = 4; larger group = 7\u00d74 = 28."
+        },
+        {
+          "num": 24,
+          "question": "A 35-piece set is in the ratio 3:4. How many in the larger group?",
+          "choices": [
+            "25",
+            "15",
+            "84",
+            "20"
+          ],
+          "answer": "D",
+          "explanation": "35 \u00f7 (3+4) = 5; larger group = 4\u00d75 = 20."
+        },
+        {
+          "num": 25,
+          "question": "Compute (4/7) \u00d7 (4/7). Reduce.",
+          "choices": [
+            "4/7",
+            "4/6",
+            "1/1",
+            "16/49"
+          ],
+          "answer": "D",
+          "explanation": "Multiply numerators \u00d7 denominators: 16/49 = 16/49."
+        },
+        {
+          "num": 26,
+          "question": "Compute 2/4 + 1/6. Reduce.",
+          "choices": [
+            "2/3",
+            "40",
+            "3/10",
+            "1/3"
+          ],
+          "answer": "A",
+          "explanation": "Common denominator \u2192 2/4 + 1/6 = 2/3."
+        },
+        {
+          "num": 27,
+          "question": "Compute (0) \u00d7 (-6).",
+          "choices": [
+            "50",
+            "1",
+            "0",
+            "37"
+          ],
+          "answer": "C",
+          "explanation": "0 \u00d7 -6 = 0."
+        },
+        {
+          "num": 28,
+          "question": "Compute 28 - (-24).",
+          "choices": [
+            "28",
+            "52",
+            "42",
+            "53"
+          ],
+          "answer": "B",
+          "explanation": "28 - (-24) = 52. Subtracting a negative adds."
+        },
+        {
+          "num": 29,
+          "question": "Compute -43 + (37).",
+          "choices": [
+            "-6",
+            "-5",
+            "4",
+            "-16"
+          ],
+          "answer": "A",
+          "explanation": "-43 + 37 = -6."
+        },
+        {
+          "num": 30,
+          "question": "Compute 2 + (-2).",
+          "choices": [
+            "1",
+            "0",
+            "2",
+            "10"
+          ],
+          "answer": "B",
+          "explanation": "2 + -2 = 0."
+        },
+        {
+          "num": 31,
+          "question": "A rectangle is 19 ft by 12 ft. What is its area (sq ft)?",
+          "choices": [
+            "228",
+            "209",
+            "216",
+            "240"
+          ],
+          "answer": "A",
+          "explanation": "Area = length \u00d7 width = 19 \u00d7 12 = 228 sq ft."
+        },
+        {
+          "num": 32,
+          "question": "Compute 3/5 + 2/6. Reduce.",
+          "choices": [
+            "5/11",
+            "14/15",
+            "21",
+            "4/15"
+          ],
+          "answer": "B",
+          "explanation": "Common denominator \u2192 3/5 + 2/6 = 14/15."
+        },
+        {
+          "num": 33,
+          "question": "A rectangle is 16 ft by 19 ft. What is its area (sq ft)?",
+          "choices": [
+            "323",
+            "304",
+            "36",
+            "285"
+          ],
+          "answer": "B",
+          "explanation": "Area = length \u00d7 width = 16 \u00d7 19 = 304 sq ft."
+        },
+        {
+          "num": 34,
+          "question": "Compute -16 + (28).",
+          "choices": [
+            "12",
+            "2",
+            "28",
+            "11"
+          ],
+          "answer": "A",
+          "explanation": "-16 + 28 = 12."
+        },
+        {
+          "num": 35,
+          "question": "Compute 6 + (-8).",
+          "choices": [
+            "-8",
+            "-2",
+            "-1",
+            "8"
+          ],
+          "answer": "B",
+          "explanation": "6 + -8 = -2."
+        },
+        {
+          "num": 36,
+          "question": "Compute 3.3 \u00d7 3.4.",
+          "choices": [
+            "11.22",
+            "10.22",
+            "11.12",
+            "11.32"
+          ],
+          "answer": "A",
+          "explanation": "3.3 \u00d7 3.4 = 11.22."
+        },
+        {
+          "num": 37,
+          "question": "Compute (3) \u00d7 (-10).",
+          "choices": [
+            "-29",
+            "-27",
+            "-31",
+            "-30"
+          ],
+          "answer": "D",
+          "explanation": "3 \u00d7 -10 = -30."
+        },
+        {
+          "num": 38,
+          "question": "What is 15% of 40?",
+          "choices": [
+            "-4",
+            "11",
+            "6",
+            "16"
+          ],
+          "answer": "C",
+          "explanation": "15/100 \u00d7 40 = 6."
+        },
+        {
+          "num": 39,
+          "question": "Compute 8.9 \u00d7 7.7.",
+          "choices": [
+            "68.53",
+            "68.63",
+            "67.53",
+            "69.53"
+          ],
+          "answer": "A",
+          "explanation": "8.9 \u00d7 7.7 = 68.53."
+        },
+        {
+          "num": 40,
+          "question": "Compute (4) \u00d7 (6).",
+          "choices": [
+            "18",
+            "24",
+            "23",
+            "25"
+          ],
+          "answer": "B",
+          "explanation": "4 \u00d7 6 = 24."
+        },
+        {
+          "num": 41,
+          "question": "Solve for x: 6x - 3 = -27",
+          "choices": [
+            "-4",
+            "-10",
+            "2",
+            "-6"
+          ],
+          "answer": "A",
+          "explanation": "Subtract -3 \u2192 6x = -24. Divide \u2192 x = -4."
+        },
+        {
+          "num": 42,
+          "question": "A rectangle is 12 ft by 14 ft. What is its area (sq ft)?",
+          "choices": [
+            "163",
+            "180",
+            "168",
+            "182"
+          ],
+          "answer": "C",
+          "explanation": "Area = length \u00d7 width = 12 \u00d7 14 = 168 sq ft."
+        },
+        {
+          "num": 43,
+          "question": "Solve for x: 2x + 2 = 16",
+          "choices": [
+            "5",
+            "9",
+            "6",
+            "7"
+          ],
+          "answer": "D",
+          "explanation": "Subtract 2 \u2192 2x = 14. Divide \u2192 x = 7."
+        },
+        {
+          "num": 44,
+          "question": "Compute (5/10) \u00d7 (2/2). Reduce.",
+          "choices": [
+            "12/7",
+            "7/12",
+            "1/2",
+            "5/12"
+          ],
+          "answer": "C",
+          "explanation": "Multiply numerators \u00d7 denominators: 10/20 = 1/2."
+        },
+        {
+          "num": 45,
+          "question": "What is 60% of 250?",
+          "choices": [
+            "160",
+            "150",
+            "175",
+            "140"
+          ],
+          "answer": "B",
+          "explanation": "60/100 \u00d7 250 = 150."
+        },
+        {
+          "num": 46,
+          "question": "Compute 8.4 \u00d7 3.1.",
+          "choices": [
+            "27.04",
+            "26.04",
+            "25.04",
+            "34.44"
+          ],
+          "answer": "B",
+          "explanation": "8.4 \u00d7 3.1 = 26.04."
+        },
+        {
+          "num": 47,
+          "question": "A rectangle is 15 ft by 15 ft. What is its area (sq ft)?",
+          "choices": [
+            "230",
+            "225",
+            "240",
+            "210"
+          ],
+          "answer": "B",
+          "explanation": "Area = length \u00d7 width = 15 \u00d7 15 = 225 sq ft."
+        },
+        {
+          "num": 48,
+          "question": "A rectangle is 13 ft by 9 ft. What is its area (sq ft)?",
+          "choices": [
+            "122",
+            "104",
+            "117",
+            "112"
+          ],
+          "answer": "C",
+          "explanation": "Area = length \u00d7 width = 13 \u00d7 9 = 117 sq ft."
+        },
+        {
+          "num": 49,
+          "question": "Compute 18 + (19).",
+          "choices": [
+            "37",
+            "36",
+            "38",
+            "27"
+          ],
+          "answer": "A",
+          "explanation": "18 + 19 = 37."
+        },
+        {
+          "num": 50,
+          "question": "Compute (-9) \u00d7 (-12).",
+          "choices": [
+            "120",
+            "108",
+            "96",
+            "117"
+          ],
+          "answer": "B",
+          "explanation": "-9 \u00d7 -12 = 108."
+        }
+      ]
+    },
+    {
+      "testNum": 12,
+      "questions": [
+        {
+          "num": 1,
+          "question": "Compute (6/7) \u00d7 (2/4). Reduce.",
+          "choices": [
+            "8/11",
+            "3/7",
+            "1/15",
+            "12/7"
+          ],
+          "answer": "B",
+          "explanation": "Multiply numerators \u00d7 denominators: 12/28 = 3/7."
+        },
+        {
+          "num": 2,
+          "question": "Compute (5/5) \u00d7 (5/10). Reduce.",
+          "choices": [
+            "2/3",
+            "1/2",
+            "2/1",
+            "8/15"
+          ],
+          "answer": "B",
+          "explanation": "Multiply numerators \u00d7 denominators: 25/50 = 1/2."
+        },
+        {
+          "num": 3,
+          "question": "A 25-piece set is in the ratio 2:3. How many in the larger group?",
+          "choices": [
+            "13",
+            "20",
+            "10",
+            "15"
+          ],
+          "answer": "D",
+          "explanation": "25 \u00f7 (2+3) = 5; larger group = 3\u00d75 = 15."
+        },
+        {
+          "num": 4,
+          "question": "Compute 1/3 + 3/6. Reduce.",
+          "choices": [
+            "17",
+            "5/6",
+            "-1/6",
+            "4/9"
+          ],
+          "answer": "B",
+          "explanation": "Common denominator \u2192 1/3 + 3/6 = 5/6."
+        },
+        {
+          "num": 5,
+          "question": "Compute (8/4) \u00d7 (3/3). Reduce.",
+          "choices": [
+            "5/9",
+            "12/2",
+            "11/7",
+            "2/1"
+          ],
+          "answer": "D",
+          "explanation": "Multiply numerators \u00d7 denominators: 24/12 = 2/1."
+        },
+        {
+          "num": 6,
+          "question": "A rectangle is 21 ft by 6 ft. What is its area (sq ft)?",
+          "choices": [
+            "147",
+            "126",
+            "105",
+            "121"
+          ],
+          "answer": "B",
+          "explanation": "Area = length \u00d7 width = 21 \u00d7 6 = 126 sq ft."
+        },
+        {
+          "num": 7,
+          "question": "Compute 6.6 \u00d7 3.7.",
+          "choices": [
+            "24.52",
+            "24.42",
+            "24.32",
+            "25.42"
+          ],
+          "answer": "B",
+          "explanation": "6.6 \u00d7 3.7 = 24.42."
+        },
+        {
+          "num": 8,
+          "question": "Solve for x: 4x + 3 = -5",
+          "choices": [
+            "0",
+            "2",
+            "-3",
+            "-2"
+          ],
+          "answer": "D",
+          "explanation": "Subtract 3 \u2192 4x = -8. Divide \u2192 x = -2."
+        },
+        {
+          "num": 9,
+          "question": "Solve for x: 9x + 10 = -26",
+          "choices": [
+            "-4",
+            "-2",
+            "-5",
+            "-3"
+          ],
+          "answer": "A",
+          "explanation": "Subtract 10 \u2192 9x = -36. Divide \u2192 x = -4."
+        },
+        {
+          "num": 10,
+          "question": "Compute (12) \u00d7 (6).",
+          "choices": [
+            "73",
+            "78",
+            "60",
+            "72"
+          ],
+          "answer": "D",
+          "explanation": "12 \u00d7 6 = 72."
+        },
+        {
+          "num": 11,
+          "question": "A 55-piece set is in the ratio 4:7. How many in the larger group?",
+          "choices": [
+            "30",
+            "40",
+            "99",
+            "35"
+          ],
+          "answer": "D",
+          "explanation": "55 \u00f7 (4+7) = 5; larger group = 7\u00d75 = 35."
+        },
+        {
+          "num": 12,
+          "question": "Compute 40 - (47).",
+          "choices": [
+            "-54",
+            "-8",
+            "-7",
+            "-6"
+          ],
+          "answer": "C",
+          "explanation": "40 - (47) = -7. Subtracting a negative adds."
+        },
+        {
+          "num": 13,
+          "question": "Solve for x: 9x - 5 = -32",
+          "choices": [
+            "6",
+            "-2",
+            "-3",
+            "-5"
+          ],
+          "answer": "C",
+          "explanation": "Subtract -5 \u2192 9x = -27. Divide \u2192 x = -3."
+        },
+        {
+          "num": 14,
+          "question": "A rectangle is 7 ft by 14 ft. What is its area (sq ft)?",
+          "choices": [
+            "112",
+            "105",
+            "84",
+            "98"
+          ],
+          "answer": "D",
+          "explanation": "Area = length \u00d7 width = 7 \u00d7 14 = 98 sq ft."
+        },
+        {
+          "num": 15,
+          "question": "Compute -36 + (-8).",
+          "choices": [
+            "-54",
+            "-44",
+            "-8",
+            "-34"
+          ],
+          "answer": "B",
+          "explanation": "-36 + -8 = -44."
+        },
+        {
+          "num": 16,
+          "question": "Compute (-11) \u00d7 (-10).",
+          "choices": [
+            "121",
+            "99",
+            "120",
+            "110"
+          ],
+          "answer": "D",
+          "explanation": "-11 \u00d7 -10 = 110."
+        },
+        {
+          "num": 17,
+          "question": "A rectangle is 5 ft by 10 ft. What is its area (sq ft)?",
+          "choices": [
+            "80",
+            "40",
+            "55",
+            "50"
+          ],
+          "answer": "D",
+          "explanation": "Area = length \u00d7 width = 5 \u00d7 10 = 50 sq ft."
+        },
+        {
+          "num": 18,
+          "question": "Compute 3/5 + 1/2. Reduce.",
+          "choices": [
+            "4/7",
+            "11/10",
+            "63",
+            "1/10"
+          ],
+          "answer": "B",
+          "explanation": "Common denominator \u2192 3/5 + 1/2 = 11/10."
+        },
+        {
+          "num": 19,
+          "question": "Compute -10 + (41).",
+          "choices": [
+            "32",
+            "41",
+            "21",
+            "31"
+          ],
+          "answer": "D",
+          "explanation": "-10 + 41 = 31."
+        },
+        {
+          "num": 20,
+          "question": "A rectangle is 10 ft by 17 ft. What is its area (sq ft)?",
+          "choices": [
+            "170",
+            "165",
+            "180",
+            "175"
+          ],
+          "answer": "A",
+          "explanation": "Area = length \u00d7 width = 10 \u00d7 17 = 170 sq ft."
+        },
+        {
+          "num": 21,
+          "question": "Compute 0.7 \u00d7 8.2.",
+          "choices": [
+            "6.44",
+            "5.74",
+            "5.64",
+            "4.74"
+          ],
+          "answer": "B",
+          "explanation": "0.7 \u00d7 8.2 = 5.74."
+        },
+        {
+          "num": 22,
+          "question": "A rectangle is 10 ft by 3 ft. What is its area (sq ft)?",
+          "choices": [
+            "33",
+            "35",
+            "30",
+            "40"
+          ],
+          "answer": "C",
+          "explanation": "Area = length \u00d7 width = 10 \u00d7 3 = 30 sq ft."
+        },
+        {
+          "num": 23,
+          "question": "Solve for x: 2x - 4 = -10",
+          "choices": [
+            "-5",
+            "-4",
+            "-3",
+            "-2"
+          ],
+          "answer": "C",
+          "explanation": "Subtract -4 \u2192 2x = -6. Divide \u2192 x = -3."
+        },
+        {
+          "num": 24,
+          "question": "Compute 2 - (-10).",
+          "choices": [
+            "2",
+            "12",
+            "11",
+            "13"
+          ],
+          "answer": "B",
+          "explanation": "2 - (-10) = 12. Subtracting a negative adds."
+        },
+        {
+          "num": 25,
+          "question": "Solve for x: 4x + 5 = 9",
+          "choices": [
+            "0",
+            "1",
+            "-3",
+            "2"
+          ],
+          "answer": "B",
+          "explanation": "Subtract 5 \u2192 4x = 4. Divide \u2192 x = 1."
+        },
+        {
+          "num": 26,
+          "question": "Compute 32 - (48).",
+          "choices": [
+            "-6",
+            "32",
+            "-64",
+            "-16"
+          ],
+          "answer": "D",
+          "explanation": "32 - (48) = -16. Subtracting a negative adds."
+        },
+        {
+          "num": 27,
+          "question": "Compute -34 - (4).",
+          "choices": [
+            "-48",
+            "-38",
+            "-28",
+            "-37"
+          ],
+          "answer": "B",
+          "explanation": "-34 - (4) = -38. Subtracting a negative adds."
+        },
+        {
+          "num": 28,
+          "question": "Compute -23 - (43).",
+          "choices": [
+            "-76",
+            "-109",
+            "-66",
+            "-23"
+          ],
+          "answer": "C",
+          "explanation": "-23 - (43) = -66. Subtracting a negative adds."
+        },
+        {
+          "num": 29,
+          "question": "Compute (-6) \u00d7 (3).",
+          "choices": [
+            "-21",
+            "-24",
+            "-18",
+            "-19"
+          ],
+          "answer": "C",
+          "explanation": "-6 \u00d7 3 = -18."
+        },
+        {
+          "num": 30,
+          "question": "Compute 1 - (-35).",
+          "choices": [
+            "26",
+            "37",
+            "36",
+            "46"
+          ],
+          "answer": "C",
+          "explanation": "1 - (-35) = 36. Subtracting a negative adds."
+        },
+        {
+          "num": 31,
+          "question": "A rectangle is 7 ft by 8 ft. What is its area (sq ft)?",
+          "choices": [
+            "61",
+            "56",
+            "51",
+            "48"
+          ],
+          "answer": "B",
+          "explanation": "Area = length \u00d7 width = 7 \u00d7 8 = 56 sq ft."
+        },
+        {
+          "num": 32,
+          "question": "Compute 3.6 \u00d7 8.3.",
+          "choices": [
+            "30.88",
+            "25",
+            "29.78",
+            "29.88"
+          ],
+          "answer": "D",
+          "explanation": "3.6 \u00d7 8.3 = 29.88."
+        },
+        {
+          "num": 33,
+          "question": "Compute -22 + (45).",
+          "choices": [
+            "33",
+            "23",
+            "13",
+            "45"
+          ],
+          "answer": "B",
+          "explanation": "-22 + 45 = 23."
+        },
+        {
+          "num": 34,
+          "question": "Compute 50 - (-4).",
+          "choices": [
+            "53",
+            "54",
+            "44",
+            "64"
+          ],
+          "answer": "B",
+          "explanation": "50 - (-4) = 54. Subtracting a negative adds."
+        },
+        {
+          "num": 35,
+          "question": "Compute (2/8) \u00d7 (1/4). Reduce.",
+          "choices": [
+            "1/1",
+            "1/16",
+            "1/4",
+            "14/3"
+          ],
+          "answer": "B",
+          "explanation": "Multiply numerators \u00d7 denominators: 2/32 = 1/16."
+        },
+        {
+          "num": 36,
+          "question": "What is 10% of 200?",
+          "choices": [
+            "0",
+            "30",
+            "20",
+            "25"
+          ],
+          "answer": "C",
+          "explanation": "10/100 \u00d7 200 = 20."
+        },
+        {
+          "num": 37,
+          "question": "Compute 2.5 \u00d7 7.0.",
+          "choices": [
+            "18.5",
+            "17.6",
+            "17.5",
+            "16.5"
+          ],
+          "answer": "C",
+          "explanation": "2.5 \u00d7 7.0 = 17.5."
+        },
+        {
+          "num": 38,
+          "question": "Compute -27 - (-43).",
+          "choices": [
+            "26",
+            "-27",
+            "6",
+            "16"
+          ],
+          "answer": "D",
+          "explanation": "-27 - (-43) = 16. Subtracting a negative adds."
+        },
+        {
+          "num": 39,
+          "question": "Solve for x: 5x + 2 = 12",
+          "choices": [
+            "0",
+            "3",
+            "4",
+            "2"
+          ],
+          "answer": "D",
+          "explanation": "Subtract 2 \u2192 5x = 10. Divide \u2192 x = 2."
+        },
+        {
+          "num": 40,
+          "question": "Compute 2 - (41).",
+          "choices": [
+            "-40",
+            "-29",
+            "-39",
+            "-80"
+          ],
+          "answer": "C",
+          "explanation": "2 - (41) = -39. Subtracting a negative adds."
+        },
+        {
+          "num": 41,
+          "question": "Compute -37 + (-44).",
+          "choices": [
+            "-80",
+            "-81",
+            "-71",
+            "-82"
+          ],
+          "answer": "B",
+          "explanation": "-37 + -44 = -81."
+        },
+        {
+          "num": 42,
+          "question": "Compute -38 - (9).",
+          "choices": [
+            "-38",
+            "-37",
+            "-47",
+            "-56"
+          ],
+          "answer": "C",
+          "explanation": "-38 - (9) = -47. Subtracting a negative adds."
+        },
+        {
+          "num": 43,
+          "question": "Compute 9.6 \u00d7 2.7.",
+          "choices": [
+            "25.92",
+            "26.92",
+            "16.32",
+            "24.92"
+          ],
+          "answer": "A",
+          "explanation": "9.6 \u00d7 2.7 = 25.92."
+        },
+        {
+          "num": 44,
+          "question": "Compute (-4) \u00d7 (5).",
+          "choices": [
+            "-21",
+            "-25",
+            "-24",
+            "-20"
+          ],
+          "answer": "D",
+          "explanation": "-4 \u00d7 5 = -20."
+        },
+        {
+          "num": 45,
+          "question": "Compute (5) \u00d7 (-10).",
+          "choices": [
+            "-55",
+            "-45",
+            "-50",
+            "-60"
+          ],
+          "answer": "C",
+          "explanation": "5 \u00d7 -10 = -50."
+        },
+        {
+          "num": 46,
+          "question": "Compute (11) \u00d7 (9).",
+          "choices": [
+            "88",
+            "100",
+            "99",
+            "90"
+          ],
+          "answer": "C",
+          "explanation": "11 \u00d7 9 = 99."
+        },
+        {
+          "num": 47,
+          "question": "Solve for x: 2x + 4 = 0",
+          "choices": [
+            "0",
+            "-4",
+            "-3",
+            "-2"
+          ],
+          "answer": "D",
+          "explanation": "Subtract 4 \u2192 2x = -4. Divide \u2192 x = -2."
+        },
+        {
+          "num": 48,
+          "question": "Compute 3/6 + 2/5. Reduce.",
+          "choices": [
+            "13",
+            "5/11",
+            "1/10",
+            "9/10"
+          ],
+          "answer": "D",
+          "explanation": "Common denominator \u2192 3/6 + 2/5 = 9/10."
+        },
+        {
+          "num": 49,
+          "question": "Solve for x: 2x + 0 = 2",
+          "choices": [
+            "0",
+            "1",
+            "2",
+            "3"
+          ],
+          "answer": "B",
+          "explanation": "Subtract 0 \u2192 2x = 2. Divide \u2192 x = 1."
+        },
+        {
+          "num": 50,
+          "question": "A rectangle is 22 ft by 6 ft. What is its area (sq ft)?",
+          "choices": [
+            "132",
+            "127",
+            "137",
+            "126"
+          ],
+          "answer": "A",
+          "explanation": "Area = length \u00d7 width = 22 \u00d7 6 = 132 sq ft."
+        }
+      ]
+    },
+    {
+      "testNum": 13,
+      "questions": [
+        {
+          "num": 1,
+          "question": "Compute (7/7) \u00d7 (7/4). Reduce.",
+          "choices": [
+            "6/13",
+            "4/7",
+            "7/4",
+            "14/11"
+          ],
+          "answer": "C",
+          "explanation": "Multiply numerators \u00d7 denominators: 49/28 = 7/4."
+        },
+        {
+          "num": 2,
+          "question": "Compute -20 + (26).",
+          "choices": [
+            "-4",
+            "16",
+            "6",
+            "26"
+          ],
+          "answer": "C",
+          "explanation": "-20 + 26 = 6."
+        },
+        {
+          "num": 3,
+          "question": "Solve for x: 8x - 10 = -10",
+          "choices": [
+            "2",
+            "8",
+            "1",
+            "0"
+          ],
+          "answer": "D",
+          "explanation": "Subtract -10 \u2192 8x = 0. Divide \u2192 x = 0."
+        },
+        {
+          "num": 4,
+          "question": "Compute 2/8 + 2/5. Reduce.",
+          "choices": [
+            "-3/20",
+            "13/20",
+            "4/13",
+            "20"
+          ],
+          "answer": "B",
+          "explanation": "Common denominator \u2192 2/8 + 2/5 = 13/20."
+        },
+        {
+          "num": 5,
+          "question": "Compute 9.1 \u00d7 4.6.",
+          "choices": [
+            "41.86",
+            "41.76",
+            "32.76",
+            "42.86"
+          ],
+          "answer": "A",
+          "explanation": "9.1 \u00d7 4.6 = 41.86."
+        },
+        {
+          "num": 6,
+          "question": "Compute 48 + (-39).",
+          "choices": [
+            "8",
+            "57",
+            "-39",
+            "9"
+          ],
+          "answer": "D",
+          "explanation": "48 + -39 = 9."
+        },
+        {
+          "num": 7,
+          "question": "Compute 9.4 \u00d7 6.6.",
+          "choices": [
+            "61.94",
+            "52.64",
+            "61.04",
+            "62.04"
+          ],
+          "answer": "D",
+          "explanation": "9.4 \u00d7 6.6 = 62.04."
+        },
+        {
+          "num": 8,
+          "question": "A rectangle is 22 ft by 10 ft. What is its area (sq ft)?",
+          "choices": [
+            "220",
+            "210",
+            "225",
+            "242"
+          ],
+          "answer": "A",
+          "explanation": "Area = length \u00d7 width = 22 \u00d7 10 = 220 sq ft."
+        },
+        {
+          "num": 9,
+          "question": "Solve for x: 7x - 10 = 4",
+          "choices": [
+            "0",
+            "2",
+            "3",
+            "1"
+          ],
+          "answer": "B",
+          "explanation": "Subtract -10 \u2192 7x = 14. Divide \u2192 x = 2."
+        },
+        {
+          "num": 10,
+          "question": "What is 5% of 120?",
+          "choices": [
+            "-6",
+            "18",
+            "6",
+            "16"
+          ],
+          "answer": "C",
+          "explanation": "5/100 \u00d7 120 = 6."
+        },
+        {
+          "num": 11,
+          "question": "What is 75% of 50?",
+          "choices": [
+            "37.5",
+            "42.5",
+            "27.5",
+            "32.5"
+          ],
+          "answer": "A",
+          "explanation": "75/100 \u00d7 50 = 37.5."
+        },
+        {
+          "num": 12,
+          "question": "Solve for x: 6x + 9 = -3",
+          "choices": [
+            "4",
+            "-3",
+            "0",
+            "-2"
+          ],
+          "answer": "D",
+          "explanation": "Subtract 9 \u2192 6x = -12. Divide \u2192 x = -2."
+        },
+        {
+          "num": 13,
+          "question": "Compute 6.9 \u00d7 8.4.",
+          "choices": [
+            "58.06",
+            "57.96",
+            "51.06",
+            "56.96"
+          ],
+          "answer": "B",
+          "explanation": "6.9 \u00d7 8.4 = 57.96."
+        },
+        {
+          "num": 14,
+          "question": "Compute 13 - (-2).",
+          "choices": [
+            "14",
+            "5",
+            "15",
+            "13"
+          ],
+          "answer": "C",
+          "explanation": "13 - (-2) = 15. Subtracting a negative adds."
+        },
+        {
+          "num": 15,
+          "question": "Compute 28 + (-27).",
+          "choices": [
+            "11",
+            "-27",
+            "2",
+            "1"
+          ],
+          "answer": "D",
+          "explanation": "28 + -27 = 1."
+        },
+        {
+          "num": 16,
+          "question": "Compute -8 + (48).",
+          "choices": [
+            "40",
+            "32",
+            "41",
+            "39"
+          ],
+          "answer": "A",
+          "explanation": "-8 + 48 = 40."
+        },
+        {
+          "num": 17,
+          "question": "Compute (1/6) \u00d7 (6/9). Reduce.",
+          "choices": [
+            "1/4",
+            "7/15",
+            "10/9",
+            "1/9"
+          ],
+          "answer": "D",
+          "explanation": "Multiply numerators \u00d7 denominators: 6/54 = 1/9."
+        },
+        {
+          "num": 18,
+          "question": "Compute 20 + (9).",
+          "choices": [
+            "9",
+            "30",
+            "19",
+            "29"
+          ],
+          "answer": "D",
+          "explanation": "20 + 9 = 29."
+        },
+        {
+          "num": 19,
+          "question": "Solve for x: 2x - 6 = -12",
+          "choices": [
+            "-4",
+            "-1",
+            "-3",
+            "-5"
+          ],
+          "answer": "C",
+          "explanation": "Subtract -6 \u2192 2x = -6. Divide \u2192 x = -3."
+        },
+        {
+          "num": 20,
+          "question": "Compute (4/2) \u00d7 (6/6). Reduce.",
+          "choices": [
+            "5/4",
+            "8/5",
+            "2/1",
+            "8/10"
+          ],
+          "answer": "C",
+          "explanation": "Multiply numerators \u00d7 denominators: 24/12 = 2/1."
+        },
+        {
+          "num": 21,
+          "question": "A rectangle is 22 ft by 14 ft. What is its area (sq ft)?",
+          "choices": [
+            "286",
+            "303",
+            "294",
+            "308"
+          ],
+          "answer": "D",
+          "explanation": "Area = length \u00d7 width = 22 \u00d7 14 = 308 sq ft."
+        },
+        {
+          "num": 22,
+          "question": "Compute -42 + (-21).",
+          "choices": [
+            "-63",
+            "-62",
+            "-53",
+            "-73"
+          ],
+          "answer": "A",
+          "explanation": "-42 + -21 = -63."
+        },
+        {
+          "num": 23,
+          "question": "Compute 1/6 + 1/2. Reduce.",
+          "choices": [
+            "2/3",
+            "1/4",
+            "45",
+            "-1/3"
+          ],
+          "answer": "A",
+          "explanation": "Common denominator \u2192 1/6 + 1/2 = 2/3."
+        },
+        {
+          "num": 24,
+          "question": "Compute (6/9) \u00d7 (1/7). Reduce.",
+          "choices": [
+            "7/6",
+            "14/3",
+            "7/16",
+            "2/21"
+          ],
+          "answer": "D",
+          "explanation": "Multiply numerators \u00d7 denominators: 6/63 = 2/21."
+        },
+        {
+          "num": 25,
+          "question": "Solve for x: 2x + 9 = 9",
+          "choices": [
+            "0",
+            "2",
+            "-2",
+            "1"
+          ],
+          "answer": "A",
+          "explanation": "Subtract 9 \u2192 2x = 0. Divide \u2192 x = 0."
+        },
+        {
+          "num": 26,
+          "question": "Compute 0.6 \u00d7 6.4.",
+          "choices": [
+            "4.84",
+            "2.84",
+            "3.24",
+            "3.84"
+          ],
+          "answer": "D",
+          "explanation": "0.6 \u00d7 6.4 = 3.84."
+        },
+        {
+          "num": 27,
+          "question": "Compute (0) \u00d7 (-4).",
+          "choices": [
+            "-4",
+            "47",
+            "55",
+            "0"
+          ],
+          "answer": "D",
+          "explanation": "0 \u00d7 -4 = 0."
+        },
+        {
+          "num": 28,
+          "question": "Compute -11 + (17).",
+          "choices": [
+            "5",
+            "6",
+            "16",
+            "17"
+          ],
+          "answer": "B",
+          "explanation": "-11 + 17 = 6."
+        },
+        {
+          "num": 29,
+          "question": "Solve for x: 9x + 1 = 1",
+          "choices": [
+            "2",
+            "1",
+            "-1",
+            "0"
+          ],
+          "answer": "D",
+          "explanation": "Subtract 1 \u2192 9x = 0. Divide \u2192 x = 0."
+        },
+        {
+          "num": 30,
+          "question": "Compute (-12) \u00d7 (-12).",
+          "choices": [
+            "132",
+            "144",
+            "145",
+            "156"
+          ],
+          "answer": "B",
+          "explanation": "-12 \u00d7 -12 = 144."
+        },
+        {
+          "num": 31,
+          "question": "What is 15% of 250?",
+          "choices": [
+            "37.5",
+            "32.5",
+            "12.5",
+            "47.5"
+          ],
+          "answer": "A",
+          "explanation": "15/100 \u00d7 250 = 37.5."
+        },
+        {
+          "num": 32,
+          "question": "A rectangle is 24 ft by 13 ft. What is its area (sq ft)?",
+          "choices": [
+            "312",
+            "325",
+            "317",
+            "299"
+          ],
+          "answer": "A",
+          "explanation": "Area = length \u00d7 width = 24 \u00d7 13 = 312 sq ft."
+        },
+        {
+          "num": 33,
+          "question": "A rectangle is 8 ft by 8 ft. What is its area (sq ft)?",
+          "choices": [
+            "64",
+            "77",
+            "59",
+            "56"
+          ],
+          "answer": "A",
+          "explanation": "Area = length \u00d7 width = 8 \u00d7 8 = 64 sq ft."
+        },
+        {
+          "num": 34,
+          "question": "A rectangle is 8 ft by 4 ft. What is its area (sq ft)?",
+          "choices": [
+            "24",
+            "32",
+            "40",
+            "36"
+          ],
+          "answer": "B",
+          "explanation": "Area = length \u00d7 width = 8 \u00d7 4 = 32 sq ft."
+        },
+        {
+          "num": 35,
+          "question": "Solve for x: 2x + 4 = 8",
+          "choices": [
+            "3",
+            "0",
+            "4",
+            "2"
+          ],
+          "answer": "D",
+          "explanation": "Subtract 4 \u2192 2x = 4. Divide \u2192 x = 2."
+        },
+        {
+          "num": 36,
+          "question": "A 52-piece set is in the ratio 5:8. How many in the larger group?",
+          "choices": [
+            "32",
+            "28",
+            "34",
+            "37"
+          ],
+          "answer": "A",
+          "explanation": "52 \u00f7 (5+8) = 4; larger group = 8\u00d74 = 32."
+        },
+        {
+          "num": 37,
+          "question": "What is 30% of 20?",
+          "choices": [
+            "16",
+            "6",
+            "8",
+            "4"
+          ],
+          "answer": "B",
+          "explanation": "30/100 \u00d7 20 = 6."
+        },
+        {
+          "num": 38,
+          "question": "A rectangle is 23 ft by 10 ft. What is its area (sq ft)?",
+          "choices": [
+            "220",
+            "240",
+            "253",
+            "230"
+          ],
+          "answer": "D",
+          "explanation": "Area = length \u00d7 width = 23 \u00d7 10 = 230 sq ft."
+        },
+        {
+          "num": 39,
+          "question": "What is 10% of 20?",
+          "choices": [
+            "-3",
+            "12",
+            "2",
+            "7"
+          ],
+          "answer": "C",
+          "explanation": "10/100 \u00d7 20 = 2."
+        },
+        {
+          "num": 40,
+          "question": "Compute (5/10) \u00d7 (2/3). Reduce.",
+          "choices": [
+            "3/4",
+            "13/7",
+            "1/3",
+            "7/13"
+          ],
+          "answer": "C",
+          "explanation": "Multiply numerators \u00d7 denominators: 10/30 = 1/3."
+        },
+        {
+          "num": 41,
+          "question": "Compute 27 - (14).",
+          "choices": [
+            "23",
+            "3",
+            "27",
+            "13"
+          ],
+          "answer": "D",
+          "explanation": "27 - (14) = 13. Subtracting a negative adds."
+        },
+        {
+          "num": 42,
+          "question": "Compute (2/5) \u00d7 (7/4). Reduce.",
+          "choices": [
+            "8/35",
+            "1/1",
+            "10/4",
+            "7/10"
+          ],
+          "answer": "D",
+          "explanation": "Multiply numerators \u00d7 denominators: 14/20 = 7/10."
+        },
+        {
+          "num": 43,
+          "question": "Compute 37 + (14).",
+          "choices": [
+            "51",
+            "14",
+            "52",
+            "50"
+          ],
+          "answer": "A",
+          "explanation": "37 + 14 = 51."
+        },
+        {
+          "num": 44,
+          "question": "Compute -33 + (-12).",
+          "choices": [
+            "-78",
+            "-45",
+            "-55",
+            "-46"
+          ],
+          "answer": "B",
+          "explanation": "-33 + -12 = -45."
+        },
+        {
+          "num": 45,
+          "question": "Compute (3) \u00d7 (1).",
+          "choices": [
+            "2",
+            "4",
+            "3",
+            "0"
+          ],
+          "answer": "C",
+          "explanation": "3 \u00d7 1 = 3."
+        },
+        {
+          "num": 46,
+          "question": "Compute 1 - (16).",
+          "choices": [
+            "-25",
+            "-31",
+            "1",
+            "-15"
+          ],
+          "answer": "D",
+          "explanation": "1 - (16) = -15. Subtracting a negative adds."
+        },
+        {
+          "num": 47,
+          "question": "Compute -47 - (3).",
+          "choices": [
+            "-50",
+            "-40",
+            "-53",
+            "-51"
+          ],
+          "answer": "A",
+          "explanation": "-47 - (3) = -50. Subtracting a negative adds."
+        },
+        {
+          "num": 48,
+          "question": "Compute (3/10) \u00d7 (3/6). Reduce.",
+          "choices": [
+            "7/3",
+            "3/5",
+            "3/8",
+            "3/20"
+          ],
+          "answer": "D",
+          "explanation": "Multiply numerators \u00d7 denominators: 9/60 = 3/20."
+        },
+        {
+          "num": 49,
+          "question": "Compute (2/8) \u00d7 (7/10). Reduce.",
+          "choices": [
+            "1/2",
+            "7/40",
+            "5/14",
+            "9/11"
+          ],
+          "answer": "B",
+          "explanation": "Multiply numerators \u00d7 denominators: 14/80 = 7/40."
+        },
+        {
+          "num": 50,
+          "question": "A 70-piece set is in the ratio 3:4. How many in the larger group?",
+          "choices": [
+            "45",
+            "35",
+            "40",
+            "50"
+          ],
+          "answer": "C",
+          "explanation": "70 \u00f7 (3+4) = 10; larger group = 4\u00d710 = 40."
+        }
+      ]
     }
   ]
 }

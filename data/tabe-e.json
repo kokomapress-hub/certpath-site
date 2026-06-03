@@ -853,6 +853,5106 @@
           "explanation": "4 x 5 = 20."
         }
       ]
+    },
+    {
+      "testNum": 3,
+      "questions": [
+        {
+          "num": 1,
+          "question": "9 x 4 = ?",
+          "choices": [
+            "36",
+            "27",
+            "40",
+            "35"
+          ],
+          "answer": "A",
+          "explanation": "Multiply: 9 x 4 = 36."
+        },
+        {
+          "num": 2,
+          "question": "A movie starts at 11:30 and lasts 30 minutes. What time does it end?",
+          "choices": [
+            "1:00",
+            "12:15",
+            "11:30",
+            "12:00"
+          ],
+          "answer": "D",
+          "explanation": "11:30 + 30 min = 12:00."
+        },
+        {
+          "num": 3,
+          "question": "Write 125 in words.",
+          "choices": [
+            "one hundred twenty-six",
+            "one hundred twenty-five",
+            "two hundred fifteen",
+            "two hundred twenty-five"
+          ],
+          "answer": "B",
+          "explanation": "125 = one hundred twenty-five."
+        },
+        {
+          "num": 4,
+          "question": "8 x 9 = ?",
+          "choices": [
+            "72",
+            "80",
+            "64",
+            "81"
+          ],
+          "answer": "A",
+          "explanation": "Multiply: 8 x 9 = 72."
+        },
+        {
+          "num": 5,
+          "question": "403 + 452 = ?",
+          "choices": [
+            "855",
+            "865",
+            "854",
+            "856"
+          ],
+          "answer": "A",
+          "explanation": "Add column by column: 403 + 452 = 855."
+        },
+        {
+          "num": 6,
+          "question": "A movie starts at 10:15 and lasts 75 minutes. What time does it end?",
+          "choices": [
+            "11:45",
+            "12:30",
+            "11:30",
+            "11:00"
+          ],
+          "answer": "C",
+          "explanation": "10:15 + 75 min = 11:30."
+        },
+        {
+          "num": 7,
+          "question": "Place value of 1 in 9185.",
+          "choices": [
+            "ones",
+            "thousands",
+            "hundreds",
+            "tens"
+          ],
+          "answer": "C",
+          "explanation": "Counting from the right: each digit's position names hundreds. The 1 sits in the hundreds place."
+        },
+        {
+          "num": 8,
+          "question": "385 + 747 = ?",
+          "choices": [
+            "1133",
+            "1132",
+            "1142",
+            "1122"
+          ],
+          "answer": "B",
+          "explanation": "Add column by column: 385 + 747 = 1132."
+        },
+        {
+          "num": 9,
+          "question": "25 \u00f7 5 = ?",
+          "choices": [
+            "4",
+            "5",
+            "3",
+            "7"
+          ],
+          "answer": "B",
+          "explanation": "Divide: 25 \u00f7 5 = 5."
+        },
+        {
+          "num": 10,
+          "question": "33 \u00f7 11 = ?",
+          "choices": [
+            "4",
+            "1",
+            "2",
+            "3"
+          ],
+          "answer": "D",
+          "explanation": "Divide: 33 \u00f7 11 = 3."
+        },
+        {
+          "num": 11,
+          "question": "348 + 826 = ?",
+          "choices": [
+            "1184",
+            "1164",
+            "1173",
+            "1174"
+          ],
+          "answer": "D",
+          "explanation": "Add column by column: 348 + 826 = 1174."
+        },
+        {
+          "num": 12,
+          "question": "986 - 724 = ?",
+          "choices": [
+            "257",
+            "272",
+            "267",
+            "262"
+          ],
+          "answer": "D",
+          "explanation": "Subtract: 986 - 724 = 262."
+        },
+        {
+          "num": 13,
+          "question": "924 + 372 = ?",
+          "choices": [
+            "1297",
+            "1286",
+            "94",
+            "1296"
+          ],
+          "answer": "D",
+          "explanation": "Add column by column: 924 + 372 = 1296."
+        },
+        {
+          "num": 14,
+          "question": "3 x 10 = ?",
+          "choices": [
+            "33",
+            "40",
+            "30",
+            "27"
+          ],
+          "answer": "C",
+          "explanation": "Multiply: 3 x 10 = 30."
+        },
+        {
+          "num": 15,
+          "question": "A pencil costs $1.00. How much do 6 pencils cost?",
+          "choices": [
+            "$5.75",
+            "$5.50",
+            "$6.00",
+            "$5.00"
+          ],
+          "answer": "C",
+          "explanation": "Multiply: 6 \u00d7 $1.00 = $6.00."
+        },
+        {
+          "num": 16,
+          "question": "Place value of 4 in 9434.",
+          "choices": [
+            "thousands",
+            "hundreds",
+            "tens",
+            "ones"
+          ],
+          "answer": "B",
+          "explanation": "Counting from the right: each digit's position names hundreds. The 4 sits in the hundreds place."
+        },
+        {
+          "num": 17,
+          "question": "A movie starts at 4:15 and lasts 15 minutes. What time does it end?",
+          "choices": [
+            "5:30",
+            "4:45",
+            "4:00",
+            "4:30"
+          ],
+          "answer": "D",
+          "explanation": "4:15 + 15 min = 4:30."
+        },
+        {
+          "num": 18,
+          "question": "Place value of 2 in 1127.",
+          "choices": [
+            "tens",
+            "ones",
+            "hundreds",
+            "thousands"
+          ],
+          "answer": "A",
+          "explanation": "Counting from the right: each digit's position names tens. The 2 sits in the tens place."
+        },
+        {
+          "num": 19,
+          "question": "676 + 434 = ?",
+          "choices": [
+            "1109",
+            "1110",
+            "1100",
+            "1111"
+          ],
+          "answer": "B",
+          "explanation": "Add column by column: 676 + 434 = 1110."
+        },
+        {
+          "num": 20,
+          "question": "Place value of 8 in 1819.",
+          "choices": [
+            "tens",
+            "ones",
+            "hundreds",
+            "thousands"
+          ],
+          "answer": "C",
+          "explanation": "Counting from the right: each digit's position names hundreds. The 8 sits in the hundreds place."
+        },
+        {
+          "num": 21,
+          "question": "Round 542 to the nearest ten.",
+          "choices": [
+            "550",
+            "530",
+            "560",
+            "540"
+          ],
+          "answer": "D",
+          "explanation": "The digit at the next-lower place decides rounding. 542 rounds to 540."
+        },
+        {
+          "num": 22,
+          "question": "34 + 648 = ?",
+          "choices": [
+            "672",
+            "692",
+            "681",
+            "682"
+          ],
+          "answer": "D",
+          "explanation": "Add column by column: 34 + 648 = 682."
+        },
+        {
+          "num": 23,
+          "question": "Write 607 in words.",
+          "choices": [
+            "six hundred eight",
+            "six hundred seven",
+            "six hundred",
+            "seven hundred seven"
+          ],
+          "answer": "B",
+          "explanation": "607 = six hundred seven."
+        },
+        {
+          "num": 24,
+          "question": "108 \u00f7 9 = ?",
+          "choices": [
+            "10",
+            "12",
+            "64",
+            "11"
+          ],
+          "answer": "B",
+          "explanation": "Divide: 108 \u00f7 9 = 12."
+        },
+        {
+          "num": 25,
+          "question": "Write 994 in words.",
+          "choices": [
+            " ninety-four",
+            "four hundred ninety-four",
+            "nine hundred ninety-four",
+            "nine hundred ninety-five"
+          ],
+          "answer": "C",
+          "explanation": "994 = nine hundred ninety-four."
+        },
+        {
+          "num": 26,
+          "question": "Round 985 to the nearest hundred.",
+          "choices": [
+            "1200",
+            "1000",
+            "1100",
+            "900"
+          ],
+          "answer": "B",
+          "explanation": "The digit at the next-lower place decides rounding. 985 rounds to 1000."
+        },
+        {
+          "num": 27,
+          "question": "Compare 386 and 239.",
+          "choices": [
+            "cannot tell",
+            "<",
+            "=",
+            ">"
+          ],
+          "answer": "D",
+          "explanation": "386 > 239."
+        },
+        {
+          "num": 28,
+          "question": "Place value of 9 in 9265.",
+          "choices": [
+            "hundreds",
+            "thousands",
+            "tens",
+            "ones"
+          ],
+          "answer": "B",
+          "explanation": "Counting from the right: each digit's position names thousands. The 9 sits in the thousands place."
+        },
+        {
+          "num": 29,
+          "question": "Write 928 in words.",
+          "choices": [
+            "nine hundred twenty-nine",
+            "two hundred ninety-eight",
+            "nine hundred twenty-eight",
+            " twenty-eight"
+          ],
+          "answer": "C",
+          "explanation": "928 = nine hundred twenty-eight."
+        },
+        {
+          "num": 30,
+          "question": "2 x 4 = ?",
+          "choices": [
+            "9",
+            "4",
+            "8",
+            "12"
+          ],
+          "answer": "C",
+          "explanation": "Multiply: 2 x 4 = 8."
+        },
+        {
+          "num": 31,
+          "question": "539 + 258 = ?",
+          "choices": [
+            "797",
+            "798",
+            "807",
+            "796"
+          ],
+          "answer": "A",
+          "explanation": "Add column by column: 539 + 258 = 797."
+        },
+        {
+          "num": 32,
+          "question": "5 x 5 = ?",
+          "choices": [
+            "25",
+            "30",
+            "20",
+            "24"
+          ],
+          "answer": "A",
+          "explanation": "Multiply: 5 x 5 = 25."
+        },
+        {
+          "num": 33,
+          "question": "A movie starts at 4:30 and lasts 90 minutes. What time does it end?",
+          "choices": [
+            "6:00",
+            "5:30",
+            "7:00",
+            "6:15"
+          ],
+          "answer": "A",
+          "explanation": "4:30 + 90 min = 6:00."
+        },
+        {
+          "num": 34,
+          "question": "5 x 2 = ?",
+          "choices": [
+            "11",
+            "9",
+            "10",
+            "12"
+          ],
+          "answer": "C",
+          "explanation": "Multiply: 5 x 2 = 10."
+        },
+        {
+          "num": 35,
+          "question": "932 + 430 = ?",
+          "choices": [
+            "1352",
+            "1363",
+            "1362",
+            "1372"
+          ],
+          "answer": "C",
+          "explanation": "Add column by column: 932 + 430 = 1362."
+        }
+      ]
+    },
+    {
+      "testNum": 4,
+      "questions": [
+        {
+          "num": 1,
+          "question": "6 x 3 = ?",
+          "choices": [
+            "18",
+            "12",
+            "24",
+            "21"
+          ],
+          "answer": "A",
+          "explanation": "Multiply: 6 x 3 = 18."
+        },
+        {
+          "num": 2,
+          "question": "837 + 863 = ?",
+          "choices": [
+            "1700",
+            "1701",
+            "1699",
+            "1710"
+          ],
+          "answer": "A",
+          "explanation": "Add column by column: 837 + 863 = 1700."
+        },
+        {
+          "num": 3,
+          "question": "A movie starts at 3:00 and lasts 30 minutes. What time does it end?",
+          "choices": [
+            "4:30",
+            "3:00",
+            "3:30",
+            "3:45"
+          ],
+          "answer": "C",
+          "explanation": "3:00 + 30 min = 3:30."
+        },
+        {
+          "num": 4,
+          "question": "Write 118 in words.",
+          "choices": [
+            "one hundred eighteen",
+            "two hundred eighteen",
+            "one hundred nineteen",
+            "two hundred eighteen"
+          ],
+          "answer": "A",
+          "explanation": "118 = one hundred eighteen."
+        },
+        {
+          "num": 5,
+          "question": "A movie starts at 4:45 and lasts 30 minutes. What time does it end?",
+          "choices": [
+            "5:15",
+            "5:30",
+            "6:15",
+            "4:45"
+          ],
+          "answer": "A",
+          "explanation": "4:45 + 30 min = 5:15."
+        },
+        {
+          "num": 6,
+          "question": "7 x 11 = ?",
+          "choices": [
+            "78",
+            "70",
+            "66",
+            "77"
+          ],
+          "answer": "D",
+          "explanation": "Multiply: 7 x 11 = 77."
+        },
+        {
+          "num": 7,
+          "question": "A pencil costs $0.50. How much do 9 pencils cost?",
+          "choices": [
+            "$3.50",
+            "$4.75",
+            "$4.50",
+            "$4.25"
+          ],
+          "answer": "C",
+          "explanation": "Multiply: 9 \u00d7 $0.50 = $4.50."
+        },
+        {
+          "num": 8,
+          "question": "4 x 6 = ?",
+          "choices": [
+            "25",
+            "28",
+            "20",
+            "24"
+          ],
+          "answer": "D",
+          "explanation": "Multiply: 4 x 6 = 24."
+        },
+        {
+          "num": 9,
+          "question": "Round 813 to the nearest hundred.",
+          "choices": [
+            "1000",
+            "700",
+            "800",
+            "900"
+          ],
+          "answer": "C",
+          "explanation": "The digit at the next-lower place decides rounding. 813 rounds to 800."
+        },
+        {
+          "num": 10,
+          "question": "Compare 399 and 442.",
+          "choices": [
+            ">",
+            "<",
+            "cannot tell",
+            "="
+          ],
+          "answer": "B",
+          "explanation": "399 < 442."
+        },
+        {
+          "num": 11,
+          "question": "Write 437 in words.",
+          "choices": [
+            "four hundred thirty-seven",
+            "three hundred forty-seven",
+            "four hundred thirty-eight",
+            "five hundred thirty-seven"
+          ],
+          "answer": "A",
+          "explanation": "437 = four hundred thirty-seven."
+        },
+        {
+          "num": 12,
+          "question": "A pencil costs $1.25. How much do 7 pencils cost?",
+          "choices": [
+            "$7.75",
+            "$8.50",
+            "$8.75",
+            "$9.00"
+          ],
+          "answer": "C",
+          "explanation": "Multiply: 7 \u00d7 $1.25 = $8.75."
+        },
+        {
+          "num": 13,
+          "question": "11 x 12 = ?",
+          "choices": [
+            "133",
+            "143",
+            "144",
+            "132"
+          ],
+          "answer": "D",
+          "explanation": "Multiply: 11 x 12 = 132."
+        },
+        {
+          "num": 14,
+          "question": "4 \u00f7 2 = ?",
+          "choices": [
+            "0",
+            "73",
+            "2",
+            "1"
+          ],
+          "answer": "C",
+          "explanation": "Divide: 4 \u00f7 2 = 2."
+        },
+        {
+          "num": 15,
+          "question": "3 x 3 = ?",
+          "choices": [
+            "12",
+            "8",
+            "6",
+            "9"
+          ],
+          "answer": "D",
+          "explanation": "Multiply: 3 x 3 = 9."
+        },
+        {
+          "num": 16,
+          "question": "A pencil costs $1.00. How much do 4 pencils cost?",
+          "choices": [
+            "$4.00",
+            "$3.50",
+            "$3.75",
+            "$3.00"
+          ],
+          "answer": "A",
+          "explanation": "Multiply: 4 \u00d7 $1.00 = $4.00."
+        },
+        {
+          "num": 17,
+          "question": "7 x 4 = ?",
+          "choices": [
+            "35",
+            "28",
+            "29",
+            "32"
+          ],
+          "answer": "B",
+          "explanation": "Multiply: 7 x 4 = 28."
+        },
+        {
+          "num": 18,
+          "question": "A movie starts at 2:30 and lasts 15 minutes. What time does it end?",
+          "choices": [
+            "2:45",
+            "3:00",
+            "2:15",
+            "3:45"
+          ],
+          "answer": "A",
+          "explanation": "2:30 + 15 min = 2:45."
+        },
+        {
+          "num": 19,
+          "question": "264 + 924 = ?",
+          "choices": [
+            "1178",
+            "1189",
+            "1187",
+            "1188"
+          ],
+          "answer": "D",
+          "explanation": "Add column by column: 264 + 924 = 1188."
+        },
+        {
+          "num": 20,
+          "question": "A pencil costs $0.25. How much do 8 pencils cost?",
+          "choices": [
+            "$2.00",
+            "$1.75",
+            "$2.25",
+            "$2.50"
+          ],
+          "answer": "A",
+          "explanation": "Multiply: 8 \u00d7 $0.25 = $2.00."
+        },
+        {
+          "num": 21,
+          "question": "9 x 8 = ?",
+          "choices": [
+            "73",
+            "80",
+            "72",
+            "63"
+          ],
+          "answer": "C",
+          "explanation": "Multiply: 9 x 8 = 72."
+        },
+        {
+          "num": 22,
+          "question": "Write 562 in words.",
+          "choices": [
+            "five hundred sixty-three",
+            "five hundred sixty-two",
+            "six hundred fifty-two",
+            "six hundred sixty-two"
+          ],
+          "answer": "B",
+          "explanation": "562 = five hundred sixty-two."
+        },
+        {
+          "num": 23,
+          "question": "906 - 293 = ?",
+          "choices": [
+            "608",
+            "612",
+            "618",
+            "613"
+          ],
+          "answer": "D",
+          "explanation": "Subtract: 906 - 293 = 613."
+        },
+        {
+          "num": 24,
+          "question": "Write 564 in words.",
+          "choices": [
+            "six hundred fifty-four",
+            "six hundred sixty-four",
+            "five hundred sixty-four",
+            "five hundred sixty-five"
+          ],
+          "answer": "C",
+          "explanation": "564 = five hundred sixty-four."
+        },
+        {
+          "num": 25,
+          "question": "A pencil costs $0.25. How much do 6 pencils cost?",
+          "choices": [
+            "$2.00",
+            "$0.50",
+            "$1.50",
+            "$1.25"
+          ],
+          "answer": "C",
+          "explanation": "Multiply: 6 \u00d7 $0.25 = $1.50."
+        },
+        {
+          "num": 26,
+          "question": "639 - 415 = ?",
+          "choices": [
+            "214",
+            "234",
+            "224",
+            "225"
+          ],
+          "answer": "C",
+          "explanation": "Subtract: 639 - 415 = 224."
+        },
+        {
+          "num": 27,
+          "question": "888 - 664 = ?",
+          "choices": [
+            "219",
+            "224",
+            "229",
+            "225"
+          ],
+          "answer": "B",
+          "explanation": "Subtract: 888 - 664 = 224."
+        },
+        {
+          "num": 28,
+          "question": "A movie starts at 3:30 and lasts 30 minutes. What time does it end?",
+          "choices": [
+            "3:30",
+            "4:00",
+            "5:00",
+            "4:15"
+          ],
+          "answer": "B",
+          "explanation": "3:30 + 30 min = 4:00."
+        },
+        {
+          "num": 29,
+          "question": "10 \u00f7 2 = ?",
+          "choices": [
+            "5",
+            "4",
+            "7",
+            "6"
+          ],
+          "answer": "A",
+          "explanation": "Divide: 10 \u00f7 2 = 5."
+        },
+        {
+          "num": 30,
+          "question": "A movie starts at 10:45 and lasts 30 minutes. What time does it end?",
+          "choices": [
+            "11:30",
+            "11:15",
+            "12:15",
+            "10:45"
+          ],
+          "answer": "B",
+          "explanation": "10:45 + 30 min = 11:15."
+        },
+        {
+          "num": 31,
+          "question": "836 + 696 = ?",
+          "choices": [
+            "1542",
+            "1532",
+            "1522",
+            "1533"
+          ],
+          "answer": "B",
+          "explanation": "Add column by column: 836 + 696 = 1532."
+        },
+        {
+          "num": 32,
+          "question": "A movie starts at 9:45 and lasts 30 minutes. What time does it end?",
+          "choices": [
+            "11:15",
+            "10:30",
+            "9:45",
+            "10:15"
+          ],
+          "answer": "D",
+          "explanation": "9:45 + 30 min = 10:15."
+        },
+        {
+          "num": 33,
+          "question": "599 + 448 = ?",
+          "choices": [
+            "1046",
+            "1047",
+            "1037",
+            "1057"
+          ],
+          "answer": "B",
+          "explanation": "Add column by column: 599 + 448 = 1047."
+        },
+        {
+          "num": 34,
+          "question": "370 + 505 = ?",
+          "choices": [
+            "61",
+            "875",
+            "865",
+            "874"
+          ],
+          "answer": "B",
+          "explanation": "Add column by column: 370 + 505 = 875."
+        },
+        {
+          "num": 35,
+          "question": "60 \u00f7 6 = ?",
+          "choices": [
+            "9",
+            "11",
+            "12",
+            "10"
+          ],
+          "answer": "D",
+          "explanation": "Divide: 60 \u00f7 6 = 10."
+        }
+      ]
+    },
+    {
+      "testNum": 5,
+      "questions": [
+        {
+          "num": 1,
+          "question": "Round 736 to the nearest hundred.",
+          "choices": [
+            "700",
+            "600",
+            "800",
+            "900"
+          ],
+          "answer": "A",
+          "explanation": "The digit at the next-lower place decides rounding. 736 rounds to 700."
+        },
+        {
+          "num": 2,
+          "question": "315 + 870 = ?",
+          "choices": [
+            "1185",
+            "1184",
+            "1195",
+            "1186"
+          ],
+          "answer": "A",
+          "explanation": "Add column by column: 315 + 870 = 1185."
+        },
+        {
+          "num": 3,
+          "question": "Write 597 in words.",
+          "choices": [
+            "six hundred ninety-seven",
+            "five hundred ninety-eight",
+            "five hundred ninety-seven",
+            "nine hundred fifty-seven"
+          ],
+          "answer": "C",
+          "explanation": "597 = five hundred ninety-seven."
+        },
+        {
+          "num": 4,
+          "question": "A pencil costs $1.25. How much do 2 pencils cost?",
+          "choices": [
+            "$2.25",
+            "$1.50",
+            "$2.50",
+            "$2.00"
+          ],
+          "answer": "C",
+          "explanation": "Multiply: 2 \u00d7 $1.25 = $2.50."
+        },
+        {
+          "num": 5,
+          "question": "Write 483 in words.",
+          "choices": [
+            "four hundred eighty-four",
+            "five hundred eighty-three",
+            "four hundred eighty-three",
+            "eight hundred forty-three"
+          ],
+          "answer": "C",
+          "explanation": "483 = four hundred eighty-three."
+        },
+        {
+          "num": 6,
+          "question": "Place value of 0 in 7420.",
+          "choices": [
+            "tens",
+            "ones",
+            "thousands",
+            "hundreds"
+          ],
+          "answer": "B",
+          "explanation": "Counting from the right: each digit's position names ones. The 0 sits in the ones place."
+        },
+        {
+          "num": 7,
+          "question": "Write 321 in words.",
+          "choices": [
+            "three hundred twenty-two",
+            "three hundred twenty-one",
+            "four hundred twenty-one",
+            "two hundred thirty-one"
+          ],
+          "answer": "B",
+          "explanation": "321 = three hundred twenty-one."
+        },
+        {
+          "num": 8,
+          "question": "Write 702 in words.",
+          "choices": [
+            "eight hundred two",
+            "seven hundred two",
+            "seven hundred three",
+            "seven hundred"
+          ],
+          "answer": "B",
+          "explanation": "702 = seven hundred two."
+        },
+        {
+          "num": 9,
+          "question": "A pencil costs $0.25. How much do 4 pencils cost?",
+          "choices": [
+            "$0.75",
+            "$1.50",
+            "$1.25",
+            "$1.00"
+          ],
+          "answer": "D",
+          "explanation": "Multiply: 4 \u00d7 $0.25 = $1.00."
+        },
+        {
+          "num": 10,
+          "question": "A movie starts at 6:00 and lasts 75 minutes. What time does it end?",
+          "choices": [
+            "8:15",
+            "6:45",
+            "7:30",
+            "7:15"
+          ],
+          "answer": "D",
+          "explanation": "6:00 + 75 min = 7:15."
+        },
+        {
+          "num": 11,
+          "question": "185 + 160 = ?",
+          "choices": [
+            "345",
+            "344",
+            "355",
+            "335"
+          ],
+          "answer": "A",
+          "explanation": "Add column by column: 185 + 160 = 345."
+        },
+        {
+          "num": 12,
+          "question": "10 x 8 = ?",
+          "choices": [
+            "80",
+            "72",
+            "79",
+            "81"
+          ],
+          "answer": "A",
+          "explanation": "Multiply: 10 x 8 = 80."
+        },
+        {
+          "num": 13,
+          "question": "Round 431 to the nearest ten.",
+          "choices": [
+            "450",
+            "420",
+            "440",
+            "430"
+          ],
+          "answer": "D",
+          "explanation": "The digit at the next-lower place decides rounding. 431 rounds to 430."
+        },
+        {
+          "num": 14,
+          "question": "A pencil costs $0.25. How much do 2 pencils cost?",
+          "choices": [
+            "$0.75",
+            "$1.00",
+            "$0.50",
+            "$0.25"
+          ],
+          "answer": "C",
+          "explanation": "Multiply: 2 \u00d7 $0.25 = $0.50."
+        },
+        {
+          "num": 15,
+          "question": "Compare 653 and 172.",
+          "choices": [
+            "<",
+            "cannot tell",
+            "=",
+            ">"
+          ],
+          "answer": "D",
+          "explanation": "653 > 172."
+        },
+        {
+          "num": 16,
+          "question": "721 - 72 = ?",
+          "choices": [
+            "659",
+            "639",
+            "649",
+            "654"
+          ],
+          "answer": "C",
+          "explanation": "Subtract: 721 - 72 = 649."
+        },
+        {
+          "num": 17,
+          "question": "445 - 41 = ?",
+          "choices": [
+            "404",
+            "403",
+            "399",
+            "394"
+          ],
+          "answer": "A",
+          "explanation": "Subtract: 445 - 41 = 404."
+        },
+        {
+          "num": 18,
+          "question": "11 x 4 = ?",
+          "choices": [
+            "45",
+            "44",
+            "43",
+            "48"
+          ],
+          "answer": "B",
+          "explanation": "Multiply: 11 x 4 = 44."
+        },
+        {
+          "num": 19,
+          "question": "851 + 651 = ?",
+          "choices": [
+            "1502",
+            "1512",
+            "1501",
+            "1492"
+          ],
+          "answer": "A",
+          "explanation": "Add column by column: 851 + 651 = 1502."
+        },
+        {
+          "num": 20,
+          "question": "30 \u00f7 3 = ?",
+          "choices": [
+            "10",
+            "9",
+            "8",
+            "11"
+          ],
+          "answer": "A",
+          "explanation": "Divide: 30 \u00f7 3 = 10."
+        },
+        {
+          "num": 21,
+          "question": "Write 336 in words.",
+          "choices": [
+            "four hundred thirty-six",
+            "three hundred thirty-seven",
+            "seven hundred thirty-six",
+            "three hundred thirty-six"
+          ],
+          "answer": "D",
+          "explanation": "336 = three hundred thirty-six."
+        },
+        {
+          "num": 22,
+          "question": "A pencil costs $0.75. How much do 8 pencils cost?",
+          "choices": [
+            "$5.00",
+            "$5.75",
+            "$5.50",
+            "$6.00"
+          ],
+          "answer": "D",
+          "explanation": "Multiply: 8 \u00d7 $0.75 = $6.00."
+        },
+        {
+          "num": 23,
+          "question": "758 - 285 = ?",
+          "choices": [
+            "473",
+            "472",
+            "474",
+            "483"
+          ],
+          "answer": "A",
+          "explanation": "Subtract: 758 - 285 = 473."
+        },
+        {
+          "num": 24,
+          "question": "A pencil costs $0.50. How much do 2 pencils cost?",
+          "choices": [
+            "$1.00",
+            "$0.75",
+            "$1.50",
+            "$1.25"
+          ],
+          "answer": "A",
+          "explanation": "Multiply: 2 \u00d7 $0.50 = $1.00."
+        },
+        {
+          "num": 25,
+          "question": "72 \u00f7 6 = ?",
+          "choices": [
+            "13",
+            "12",
+            "11",
+            "10"
+          ],
+          "answer": "B",
+          "explanation": "Divide: 72 \u00f7 6 = 12."
+        },
+        {
+          "num": 26,
+          "question": "Write 791 in words.",
+          "choices": [
+            "seven hundred ninety-two",
+            "nine hundred seventy-one",
+            "eight hundred ninety-one",
+            "seven hundred ninety-one"
+          ],
+          "answer": "D",
+          "explanation": "791 = seven hundred ninety-one."
+        },
+        {
+          "num": 27,
+          "question": "Round 803 to the nearest hundred.",
+          "choices": [
+            "900",
+            "800",
+            "1000",
+            "700"
+          ],
+          "answer": "B",
+          "explanation": "The digit at the next-lower place decides rounding. 803 rounds to 800."
+        },
+        {
+          "num": 28,
+          "question": "847 - 533 = ?",
+          "choices": [
+            "313",
+            "324",
+            "304",
+            "314"
+          ],
+          "answer": "D",
+          "explanation": "Subtract: 847 - 533 = 314."
+        },
+        {
+          "num": 29,
+          "question": "Place value of 6 in 1615.",
+          "choices": [
+            "hundreds",
+            "tens",
+            "thousands",
+            "ones"
+          ],
+          "answer": "A",
+          "explanation": "Counting from the right: each digit's position names hundreds. The 6 sits in the hundreds place."
+        },
+        {
+          "num": 30,
+          "question": "Compare 959 and 901.",
+          "choices": [
+            "<",
+            "cannot tell",
+            ">",
+            "="
+          ],
+          "answer": "C",
+          "explanation": "959 > 901."
+        },
+        {
+          "num": 31,
+          "question": "7 x 5 = ?",
+          "choices": [
+            "42",
+            "35",
+            "40",
+            "34"
+          ],
+          "answer": "B",
+          "explanation": "Multiply: 7 x 5 = 35."
+        },
+        {
+          "num": 32,
+          "question": "Round 961 to the nearest ten.",
+          "choices": [
+            "970",
+            "950",
+            "980",
+            "960"
+          ],
+          "answer": "D",
+          "explanation": "The digit at the next-lower place decides rounding. 961 rounds to 960."
+        },
+        {
+          "num": 33,
+          "question": "12 x 5 = ?",
+          "choices": [
+            "65",
+            "61",
+            "59",
+            "60"
+          ],
+          "answer": "D",
+          "explanation": "Multiply: 12 x 5 = 60."
+        },
+        {
+          "num": 34,
+          "question": "Compare 976 and 516.",
+          "choices": [
+            "=",
+            "<",
+            "cannot tell",
+            ">"
+          ],
+          "answer": "D",
+          "explanation": "976 > 516."
+        },
+        {
+          "num": 35,
+          "question": "Compare 261 and 374.",
+          "choices": [
+            "cannot tell",
+            "=",
+            "<",
+            ">"
+          ],
+          "answer": "C",
+          "explanation": "261 < 374."
+        }
+      ]
+    },
+    {
+      "testNum": 6,
+      "questions": [
+        {
+          "num": 1,
+          "question": "16 \u00f7 8 = ?",
+          "choices": [
+            "3",
+            "2",
+            "1",
+            "0"
+          ],
+          "answer": "B",
+          "explanation": "Divide: 16 \u00f7 8 = 2."
+        },
+        {
+          "num": 2,
+          "question": "Round 374 to the nearest hundred.",
+          "choices": [
+            "300",
+            "500",
+            "400",
+            "600"
+          ],
+          "answer": "C",
+          "explanation": "The digit at the next-lower place decides rounding. 374 rounds to 400."
+        },
+        {
+          "num": 3,
+          "question": "A movie starts at 3:15 and lasts 120 minutes. What time does it end?",
+          "choices": [
+            "6:15",
+            "4:45",
+            "5:15",
+            "5:30"
+          ],
+          "answer": "C",
+          "explanation": "3:15 + 120 min = 5:15."
+        },
+        {
+          "num": 4,
+          "question": "645 - 346 = ?",
+          "choices": [
+            "304",
+            "299",
+            "300",
+            "289"
+          ],
+          "answer": "B",
+          "explanation": "Subtract: 645 - 346 = 299."
+        },
+        {
+          "num": 5,
+          "question": "365 + 647 = ?",
+          "choices": [
+            "1011",
+            "88",
+            "1012",
+            "1002"
+          ],
+          "answer": "C",
+          "explanation": "Add column by column: 365 + 647 = 1012."
+        },
+        {
+          "num": 6,
+          "question": "Write 603 in words.",
+          "choices": [
+            "six hundred four",
+            "six hundred",
+            "seven hundred three",
+            "six hundred three"
+          ],
+          "answer": "D",
+          "explanation": "603 = six hundred three."
+        },
+        {
+          "num": 7,
+          "question": "A pencil costs $0.75. How much do 4 pencils cost?",
+          "choices": [
+            "$2.75",
+            "$3.25",
+            "$2.50",
+            "$3.00"
+          ],
+          "answer": "D",
+          "explanation": "Multiply: 4 \u00d7 $0.75 = $3.00."
+        },
+        {
+          "num": 8,
+          "question": "Write 683 in words.",
+          "choices": [
+            "eight hundred sixty-three",
+            "seven hundred eighty-three",
+            "six hundred eighty-three",
+            "six hundred eighty-four"
+          ],
+          "answer": "C",
+          "explanation": "683 = six hundred eighty-three."
+        },
+        {
+          "num": 9,
+          "question": "Round 543 to the nearest ten.",
+          "choices": [
+            "550",
+            "540",
+            "530",
+            "560"
+          ],
+          "answer": "B",
+          "explanation": "The digit at the next-lower place decides rounding. 543 rounds to 540."
+        },
+        {
+          "num": 10,
+          "question": "736 + 109 = ?",
+          "choices": [
+            "855",
+            "845",
+            "835",
+            "846"
+          ],
+          "answer": "B",
+          "explanation": "Add column by column: 736 + 109 = 845."
+        },
+        {
+          "num": 11,
+          "question": "594 + 504 = ?",
+          "choices": [
+            "1099",
+            "1098",
+            "1088",
+            "1097"
+          ],
+          "answer": "B",
+          "explanation": "Add column by column: 594 + 504 = 1098."
+        },
+        {
+          "num": 12,
+          "question": "Compare 436 and 635.",
+          "choices": [
+            "=",
+            "cannot tell",
+            "<",
+            ">"
+          ],
+          "answer": "C",
+          "explanation": "436 < 635."
+        },
+        {
+          "num": 13,
+          "question": "Compare 159 and 341.",
+          "choices": [
+            "=",
+            "cannot tell",
+            ">",
+            "<"
+          ],
+          "answer": "D",
+          "explanation": "159 < 341."
+        },
+        {
+          "num": 14,
+          "question": "Round 513 to the nearest hundred.",
+          "choices": [
+            "600",
+            "700",
+            "500",
+            "400"
+          ],
+          "answer": "C",
+          "explanation": "The digit at the next-lower place decides rounding. 513 rounds to 500."
+        },
+        {
+          "num": 15,
+          "question": "513 - 100 = ?",
+          "choices": [
+            "408",
+            "403",
+            "418",
+            "413"
+          ],
+          "answer": "D",
+          "explanation": "Subtract: 513 - 100 = 413."
+        },
+        {
+          "num": 16,
+          "question": "A movie starts at 5:45 and lasts 120 minutes. What time does it end?",
+          "choices": [
+            "8:45",
+            "8:00",
+            "7:15",
+            "7:45"
+          ],
+          "answer": "D",
+          "explanation": "5:45 + 120 min = 7:45."
+        },
+        {
+          "num": 17,
+          "question": "Round 999 to the nearest ten.",
+          "choices": [
+            "990",
+            "1000",
+            "1010",
+            "1020"
+          ],
+          "answer": "B",
+          "explanation": "The digit at the next-lower place decides rounding. 999 rounds to 1000."
+        },
+        {
+          "num": 18,
+          "question": "Compare 423 and 266.",
+          "choices": [
+            "=",
+            ">",
+            "cannot tell",
+            "<"
+          ],
+          "answer": "B",
+          "explanation": "423 > 266."
+        },
+        {
+          "num": 19,
+          "question": "Place value of 5 in 5338.",
+          "choices": [
+            "hundreds",
+            "ones",
+            "thousands",
+            "tens"
+          ],
+          "answer": "C",
+          "explanation": "Counting from the right: each digit's position names thousands. The 5 sits in the thousands place."
+        },
+        {
+          "num": 20,
+          "question": "660 - 585 = ?",
+          "choices": [
+            "74",
+            "76",
+            "75",
+            "80"
+          ],
+          "answer": "C",
+          "explanation": "Subtract: 660 - 585 = 75."
+        },
+        {
+          "num": 21,
+          "question": "Round 581 to the nearest ten.",
+          "choices": [
+            "590",
+            "570",
+            "580",
+            "600"
+          ],
+          "answer": "C",
+          "explanation": "The digit at the next-lower place decides rounding. 581 rounds to 580."
+        },
+        {
+          "num": 22,
+          "question": "Write 213 in words.",
+          "choices": [
+            "three hundred thirteen",
+            "two hundred thirteen",
+            "two hundred fourteen",
+            "one hundred twenty-three"
+          ],
+          "answer": "B",
+          "explanation": "213 = two hundred thirteen."
+        },
+        {
+          "num": 23,
+          "question": "Write 953 in words.",
+          "choices": [
+            "nine hundred fifty-three",
+            "five hundred ninety-three",
+            " fifty-three",
+            "nine hundred fifty-four"
+          ],
+          "answer": "A",
+          "explanation": "953 = nine hundred fifty-three."
+        },
+        {
+          "num": 24,
+          "question": "Compare 758 and 369.",
+          "choices": [
+            "cannot tell",
+            ">",
+            "<",
+            "="
+          ],
+          "answer": "B",
+          "explanation": "758 > 369."
+        },
+        {
+          "num": 25,
+          "question": "814 + 610 = ?",
+          "choices": [
+            "1434",
+            "1425",
+            "44",
+            "1424"
+          ],
+          "answer": "D",
+          "explanation": "Add column by column: 814 + 610 = 1424."
+        },
+        {
+          "num": 26,
+          "question": "8 x 4 = ?",
+          "choices": [
+            "28",
+            "32",
+            "33",
+            "36"
+          ],
+          "answer": "B",
+          "explanation": "Multiply: 8 x 4 = 32."
+        },
+        {
+          "num": 27,
+          "question": "Write 346 in words.",
+          "choices": [
+            "four hundred forty-six",
+            "three hundred forty-six",
+            "three hundred forty-seven",
+            "four hundred thirty-six"
+          ],
+          "answer": "B",
+          "explanation": "346 = three hundred forty-six."
+        },
+        {
+          "num": 28,
+          "question": "775 - 249 = ?",
+          "choices": [
+            "526",
+            "525",
+            "521",
+            "527"
+          ],
+          "answer": "A",
+          "explanation": "Subtract: 775 - 249 = 526."
+        },
+        {
+          "num": 29,
+          "question": "Compare 914 and 186.",
+          "choices": [
+            ">",
+            "<",
+            "=",
+            "cannot tell"
+          ],
+          "answer": "A",
+          "explanation": "914 > 186."
+        },
+        {
+          "num": 30,
+          "question": "Round 383 to the nearest ten.",
+          "choices": [
+            "380",
+            "370",
+            "400",
+            "390"
+          ],
+          "answer": "A",
+          "explanation": "The digit at the next-lower place decides rounding. 383 rounds to 380."
+        },
+        {
+          "num": 31,
+          "question": "Write 924 in words.",
+          "choices": [
+            "two hundred ninety-four",
+            "nine hundred twenty-four",
+            "nine hundred twenty-five",
+            " twenty-four"
+          ],
+          "answer": "B",
+          "explanation": "924 = nine hundred twenty-four."
+        },
+        {
+          "num": 32,
+          "question": "202 - 200 = ?",
+          "choices": [
+            "2",
+            "-3",
+            "1",
+            "3"
+          ],
+          "answer": "A",
+          "explanation": "Subtract: 202 - 200 = 2."
+        },
+        {
+          "num": 33,
+          "question": "A movie starts at 9:45 and lasts 60 minutes. What time does it end?",
+          "choices": [
+            "10:15",
+            "11:00",
+            "11:45",
+            "10:45"
+          ],
+          "answer": "D",
+          "explanation": "9:45 + 60 min = 10:45."
+        },
+        {
+          "num": 34,
+          "question": "A movie starts at 8:00 and lasts 15 minutes. What time does it end?",
+          "choices": [
+            "9:15",
+            "8:30",
+            "8:15",
+            "7:45"
+          ],
+          "answer": "C",
+          "explanation": "8:00 + 15 min = 8:15."
+        },
+        {
+          "num": 35,
+          "question": "345 + 608 = ?",
+          "choices": [
+            "943",
+            "954",
+            "953",
+            "963"
+          ],
+          "answer": "C",
+          "explanation": "Add column by column: 345 + 608 = 953."
+        }
+      ]
+    },
+    {
+      "testNum": 7,
+      "questions": [
+        {
+          "num": 1,
+          "question": "Write 801 in words.",
+          "choices": [
+            "eight hundred two",
+            "eight hundred",
+            "eight hundred one",
+            "nine hundred one"
+          ],
+          "answer": "C",
+          "explanation": "801 = eight hundred one."
+        },
+        {
+          "num": 2,
+          "question": "162 + 168 = ?",
+          "choices": [
+            "329",
+            "330",
+            "320",
+            "331"
+          ],
+          "answer": "B",
+          "explanation": "Add column by column: 162 + 168 = 330."
+        },
+        {
+          "num": 3,
+          "question": "Compare 549 and 370.",
+          "choices": [
+            "=",
+            "cannot tell",
+            "<",
+            ">"
+          ],
+          "answer": "D",
+          "explanation": "549 > 370."
+        },
+        {
+          "num": 4,
+          "question": "A movie starts at 9:30 and lasts 60 minutes. What time does it end?",
+          "choices": [
+            "11:30",
+            "10:00",
+            "10:45",
+            "10:30"
+          ],
+          "answer": "D",
+          "explanation": "9:30 + 60 min = 10:30."
+        },
+        {
+          "num": 5,
+          "question": "635 + 406 = ?",
+          "choices": [
+            "1041",
+            "1042",
+            "1031",
+            "1040"
+          ],
+          "answer": "A",
+          "explanation": "Add column by column: 635 + 406 = 1041."
+        },
+        {
+          "num": 6,
+          "question": "293 + 993 = ?",
+          "choices": [
+            "1285",
+            "1276",
+            "1286",
+            "1296"
+          ],
+          "answer": "C",
+          "explanation": "Add column by column: 293 + 993 = 1286."
+        },
+        {
+          "num": 7,
+          "question": "290 + 514 = ?",
+          "choices": [
+            "805",
+            "803",
+            "804",
+            "794"
+          ],
+          "answer": "C",
+          "explanation": "Add column by column: 290 + 514 = 804."
+        },
+        {
+          "num": 8,
+          "question": "393 - 244 = ?",
+          "choices": [
+            "148",
+            "139",
+            "150",
+            "149"
+          ],
+          "answer": "D",
+          "explanation": "Subtract: 393 - 244 = 149."
+        },
+        {
+          "num": 9,
+          "question": "Round 957 to the nearest hundred.",
+          "choices": [
+            "900",
+            "1200",
+            "1100",
+            "1000"
+          ],
+          "answer": "D",
+          "explanation": "The digit at the next-lower place decides rounding. 957 rounds to 1000."
+        },
+        {
+          "num": 10,
+          "question": "4 x 3 = ?",
+          "choices": [
+            "8",
+            "11",
+            "13",
+            "12"
+          ],
+          "answer": "D",
+          "explanation": "Multiply: 4 x 3 = 12."
+        },
+        {
+          "num": 11,
+          "question": "Write 999 in words.",
+          "choices": [
+            "nine hundred ninety",
+            "nine hundred ninety-nine",
+            " ninety-nine",
+            "one hundred ninety-nine"
+          ],
+          "answer": "B",
+          "explanation": "999 = nine hundred ninety-nine."
+        },
+        {
+          "num": 12,
+          "question": "645 + 540 = ?",
+          "choices": [
+            "1175",
+            "1185",
+            "1184",
+            "1195"
+          ],
+          "answer": "B",
+          "explanation": "Add column by column: 645 + 540 = 1185."
+        },
+        {
+          "num": 13,
+          "question": "A movie starts at 2:45 and lasts 30 minutes. What time does it end?",
+          "choices": [
+            "2:45",
+            "3:30",
+            "3:15",
+            "4:15"
+          ],
+          "answer": "C",
+          "explanation": "2:45 + 30 min = 3:15."
+        },
+        {
+          "num": 14,
+          "question": "A pencil costs $1.25. How much do 8 pencils cost?",
+          "choices": [
+            "$9.75",
+            "$10.25",
+            "$10.00",
+            "$10.50"
+          ],
+          "answer": "C",
+          "explanation": "Multiply: 8 \u00d7 $1.25 = $10.00."
+        },
+        {
+          "num": 15,
+          "question": "A pencil costs $0.75. How much do 3 pencils cost?",
+          "choices": [
+            "$2.25",
+            "$2.75",
+            "$2.50",
+            "$1.75"
+          ],
+          "answer": "A",
+          "explanation": "Multiply: 3 \u00d7 $0.75 = $2.25."
+        },
+        {
+          "num": 16,
+          "question": "72 \u00f7 8 = ?",
+          "choices": [
+            "7",
+            "9",
+            "11",
+            "8"
+          ],
+          "answer": "B",
+          "explanation": "Divide: 72 \u00f7 8 = 9."
+        },
+        {
+          "num": 17,
+          "question": "Write 221 in words.",
+          "choices": [
+            "two hundred twenty-one",
+            "two hundred twenty-two",
+            "three hundred twenty-one",
+            "four hundred twenty-one"
+          ],
+          "answer": "A",
+          "explanation": "221 = two hundred twenty-one."
+        },
+        {
+          "num": 18,
+          "question": "A pencil costs $0.75. How much do 7 pencils cost?",
+          "choices": [
+            "$4.75",
+            "$5.75",
+            "$5.25",
+            "$5.00"
+          ],
+          "answer": "C",
+          "explanation": "Multiply: 7 \u00d7 $0.75 = $5.25."
+        },
+        {
+          "num": 19,
+          "question": "A movie starts at 11:00 and lasts 90 minutes. What time does it end?",
+          "choices": [
+            "12:45",
+            "1:30",
+            "12:00",
+            "12:30"
+          ],
+          "answer": "D",
+          "explanation": "11:00 + 90 min = 12:30."
+        },
+        {
+          "num": 20,
+          "question": "428 - 404 = ?",
+          "choices": [
+            "23",
+            "25",
+            "34",
+            "24"
+          ],
+          "answer": "D",
+          "explanation": "Subtract: 428 - 404 = 24."
+        },
+        {
+          "num": 21,
+          "question": "A movie starts at 5:45 and lasts 75 minutes. What time does it end?",
+          "choices": [
+            "6:30",
+            "7:15",
+            "8:00",
+            "7:00"
+          ],
+          "answer": "D",
+          "explanation": "5:45 + 75 min = 7:00."
+        },
+        {
+          "num": 22,
+          "question": "885 + 370 = ?",
+          "choices": [
+            "1245",
+            "1255",
+            "1265",
+            "1256"
+          ],
+          "answer": "B",
+          "explanation": "Add column by column: 885 + 370 = 1255."
+        },
+        {
+          "num": 23,
+          "question": "A movie starts at 2:00 and lasts 90 minutes. What time does it end?",
+          "choices": [
+            "3:00",
+            "3:30",
+            "3:45",
+            "4:30"
+          ],
+          "answer": "B",
+          "explanation": "2:00 + 90 min = 3:30."
+        },
+        {
+          "num": 24,
+          "question": "Write 734 in words.",
+          "choices": [
+            "eight hundred thirty-four",
+            "three hundred seventy-four",
+            "seven hundred thirty-four",
+            "seven hundred thirty-five"
+          ],
+          "answer": "C",
+          "explanation": "734 = seven hundred thirty-four."
+        },
+        {
+          "num": 25,
+          "question": "4 x 4 = ?",
+          "choices": [
+            "15",
+            "20",
+            "17",
+            "16"
+          ],
+          "answer": "D",
+          "explanation": "Multiply: 4 x 4 = 16."
+        },
+        {
+          "num": 26,
+          "question": "A movie starts at 10:45 and lasts 75 minutes. What time does it end?",
+          "choices": [
+            "11:30",
+            "12:15",
+            "1:00",
+            "12:00"
+          ],
+          "answer": "D",
+          "explanation": "10:45 + 75 min = 12:00."
+        },
+        {
+          "num": 27,
+          "question": "286 + 639 = ?",
+          "choices": [
+            "1",
+            "925",
+            "924",
+            "915"
+          ],
+          "answer": "B",
+          "explanation": "Add column by column: 286 + 639 = 925."
+        },
+        {
+          "num": 28,
+          "question": "Round 520 to the nearest ten.",
+          "choices": [
+            "540",
+            "510",
+            "520",
+            "530"
+          ],
+          "answer": "C",
+          "explanation": "The digit at the next-lower place decides rounding. 520 rounds to 520."
+        },
+        {
+          "num": 29,
+          "question": "Compare 230 and 647.",
+          "choices": [
+            "=",
+            "cannot tell",
+            ">",
+            "<"
+          ],
+          "answer": "D",
+          "explanation": "230 < 647."
+        },
+        {
+          "num": 30,
+          "question": "Place value of 1 in 5691.",
+          "choices": [
+            "tens",
+            "thousands",
+            "ones",
+            "hundreds"
+          ],
+          "answer": "C",
+          "explanation": "Counting from the right: each digit's position names ones. The 1 sits in the ones place."
+        },
+        {
+          "num": 31,
+          "question": "955 + 855 = ?",
+          "choices": [
+            "1809",
+            "1811",
+            "1820",
+            "1810"
+          ],
+          "answer": "D",
+          "explanation": "Add column by column: 955 + 855 = 1810."
+        },
+        {
+          "num": 32,
+          "question": "393 + 701 = ?",
+          "choices": [
+            "1104",
+            "1093",
+            "1094",
+            "1095"
+          ],
+          "answer": "C",
+          "explanation": "Add column by column: 393 + 701 = 1094."
+        },
+        {
+          "num": 33,
+          "question": "A pencil costs $1.25. How much do 4 pencils cost?",
+          "choices": [
+            "$5.25",
+            "$5.50",
+            "$4.75",
+            "$5.00"
+          ],
+          "answer": "D",
+          "explanation": "Multiply: 4 \u00d7 $1.25 = $5.00."
+        },
+        {
+          "num": 34,
+          "question": "Place value of 9 in 3190.",
+          "choices": [
+            "tens",
+            "thousands",
+            "ones",
+            "hundreds"
+          ],
+          "answer": "A",
+          "explanation": "Counting from the right: each digit's position names tens. The 9 sits in the tens place."
+        },
+        {
+          "num": 35,
+          "question": "Round 832 to the nearest hundred.",
+          "choices": [
+            "800",
+            "700",
+            "900",
+            "1000"
+          ],
+          "answer": "A",
+          "explanation": "The digit at the next-lower place decides rounding. 832 rounds to 800."
+        }
+      ]
+    },
+    {
+      "testNum": 8,
+      "questions": [
+        {
+          "num": 1,
+          "question": "Round 559 to the nearest ten.",
+          "choices": [
+            "560",
+            "570",
+            "580",
+            "550"
+          ],
+          "answer": "A",
+          "explanation": "The digit at the next-lower place decides rounding. 559 rounds to 560."
+        },
+        {
+          "num": 2,
+          "question": "A pencil costs $0.50. How much do 8 pencils cost?",
+          "choices": [
+            "$3.75",
+            "$3.00",
+            "$4.00",
+            "$3.50"
+          ],
+          "answer": "C",
+          "explanation": "Multiply: 8 \u00d7 $0.50 = $4.00."
+        },
+        {
+          "num": 3,
+          "question": "Compare 253 and 742.",
+          "choices": [
+            "cannot tell",
+            "=",
+            ">",
+            "<"
+          ],
+          "answer": "D",
+          "explanation": "253 < 742."
+        },
+        {
+          "num": 4,
+          "question": "568 - 312 = ?",
+          "choices": [
+            "266",
+            "246",
+            "261",
+            "256"
+          ],
+          "answer": "D",
+          "explanation": "Subtract: 568 - 312 = 256."
+        },
+        {
+          "num": 5,
+          "question": "A pencil costs $1.25. How much do 6 pencils cost?",
+          "choices": [
+            "$7.50",
+            "$6.50",
+            "$7.00",
+            "$8.00"
+          ],
+          "answer": "A",
+          "explanation": "Multiply: 6 \u00d7 $1.25 = $7.50."
+        },
+        {
+          "num": 6,
+          "question": "60 \u00f7 12 = ?",
+          "choices": [
+            "4",
+            "5",
+            "6",
+            "7"
+          ],
+          "answer": "B",
+          "explanation": "Divide: 60 \u00f7 12 = 5."
+        },
+        {
+          "num": 7,
+          "question": "Place value of 9 in 1769.",
+          "choices": [
+            "thousands",
+            "tens",
+            "ones",
+            "hundreds"
+          ],
+          "answer": "C",
+          "explanation": "Counting from the right: each digit's position names ones. The 9 sits in the ones place."
+        },
+        {
+          "num": 8,
+          "question": "A pencil costs $1.00. How much do 5 pencils cost?",
+          "choices": [
+            "$4.75",
+            "$5.00",
+            "$5.25",
+            "$5.50"
+          ],
+          "answer": "B",
+          "explanation": "Multiply: 5 \u00d7 $1.00 = $5.00."
+        },
+        {
+          "num": 9,
+          "question": "A pencil costs $1.50. How much do 6 pencils cost?",
+          "choices": [
+            "$9.00",
+            "$9.25",
+            "$8.75",
+            "$9.50"
+          ],
+          "answer": "A",
+          "explanation": "Multiply: 6 \u00d7 $1.50 = $9.00."
+        },
+        {
+          "num": 10,
+          "question": "A movie starts at 2:00 and lasts 75 minutes. What time does it end?",
+          "choices": [
+            "3:30",
+            "3:15",
+            "4:15",
+            "2:45"
+          ],
+          "answer": "B",
+          "explanation": "2:00 + 75 min = 3:15."
+        },
+        {
+          "num": 11,
+          "question": "64 \u00f7 8 = ?",
+          "choices": [
+            "6",
+            "7",
+            "10",
+            "8"
+          ],
+          "answer": "D",
+          "explanation": "Divide: 64 \u00f7 8 = 8."
+        },
+        {
+          "num": 12,
+          "question": "Round 468 to the nearest hundred.",
+          "choices": [
+            "600",
+            "500",
+            "700",
+            "400"
+          ],
+          "answer": "B",
+          "explanation": "The digit at the next-lower place decides rounding. 468 rounds to 500."
+        },
+        {
+          "num": 13,
+          "question": "A movie starts at 8:30 and lasts 15 minutes. What time does it end?",
+          "choices": [
+            "8:15",
+            "9:45",
+            "9:00",
+            "8:45"
+          ],
+          "answer": "D",
+          "explanation": "8:30 + 15 min = 8:45."
+        },
+        {
+          "num": 14,
+          "question": "745 + 303 = ?",
+          "choices": [
+            "62",
+            "1038",
+            "1048",
+            "1058"
+          ],
+          "answer": "C",
+          "explanation": "Add column by column: 745 + 303 = 1048."
+        },
+        {
+          "num": 15,
+          "question": "384 - 92 = ?",
+          "choices": [
+            "297",
+            "293",
+            "291",
+            "292"
+          ],
+          "answer": "D",
+          "explanation": "Subtract: 384 - 92 = 292."
+        },
+        {
+          "num": 16,
+          "question": "Place value of 4 in 4313.",
+          "choices": [
+            "hundreds",
+            "tens",
+            "ones",
+            "thousands"
+          ],
+          "answer": "D",
+          "explanation": "Counting from the right: each digit's position names thousands. The 4 sits in the thousands place."
+        },
+        {
+          "num": 17,
+          "question": "Compare 560 and 402.",
+          "choices": [
+            ">",
+            "=",
+            "<",
+            "cannot tell"
+          ],
+          "answer": "A",
+          "explanation": "560 > 402."
+        },
+        {
+          "num": 18,
+          "question": "A movie starts at 10:30 and lasts 75 minutes. What time does it end?",
+          "choices": [
+            "11:45",
+            "11:15",
+            "12:00",
+            "12:45"
+          ],
+          "answer": "A",
+          "explanation": "10:30 + 75 min = 11:45."
+        },
+        {
+          "num": 19,
+          "question": "7 x 8 = ?",
+          "choices": [
+            "49",
+            "55",
+            "48",
+            "56"
+          ],
+          "answer": "D",
+          "explanation": "Multiply: 7 x 8 = 56."
+        },
+        {
+          "num": 20,
+          "question": "Place value of 5 in 5995.",
+          "choices": [
+            "thousands",
+            "hundreds",
+            "tens",
+            "ones"
+          ],
+          "answer": "A",
+          "explanation": "Counting from the right: each digit's position names thousands. The 5 sits in the thousands place."
+        },
+        {
+          "num": 21,
+          "question": "Place value of 0 in 9097.",
+          "choices": [
+            "ones",
+            "tens",
+            "thousands",
+            "hundreds"
+          ],
+          "answer": "D",
+          "explanation": "Counting from the right: each digit's position names hundreds. The 0 sits in the hundreds place."
+        },
+        {
+          "num": 22,
+          "question": "Place value of 5 in 5073.",
+          "choices": [
+            "hundreds",
+            "tens",
+            "ones",
+            "thousands"
+          ],
+          "answer": "D",
+          "explanation": "Counting from the right: each digit's position names thousands. The 5 sits in the thousands place."
+        },
+        {
+          "num": 23,
+          "question": "792 - 772 = ?",
+          "choices": [
+            "20",
+            "25",
+            "10",
+            "19"
+          ],
+          "answer": "A",
+          "explanation": "Subtract: 792 - 772 = 20."
+        },
+        {
+          "num": 24,
+          "question": "A movie starts at 8:15 and lasts 30 minutes. What time does it end?",
+          "choices": [
+            "9:45",
+            "8:45",
+            "8:15",
+            "9:00"
+          ],
+          "answer": "B",
+          "explanation": "8:15 + 30 min = 8:45."
+        },
+        {
+          "num": 25,
+          "question": "A movie starts at 8:00 and lasts 90 minutes. What time does it end?",
+          "choices": [
+            "9:00",
+            "9:30",
+            "10:30",
+            "9:45"
+          ],
+          "answer": "B",
+          "explanation": "8:00 + 90 min = 9:30."
+        },
+        {
+          "num": 26,
+          "question": "872 - 409 = ?",
+          "choices": [
+            "458",
+            "463",
+            "473",
+            "453"
+          ],
+          "answer": "B",
+          "explanation": "Subtract: 872 - 409 = 463."
+        },
+        {
+          "num": 27,
+          "question": "A pencil costs $1.00. How much do 2 pencils cost?",
+          "choices": [
+            "$2.00",
+            "$1.75",
+            "$2.25",
+            "$2.50"
+          ],
+          "answer": "A",
+          "explanation": "Multiply: 2 \u00d7 $1.00 = $2.00."
+        },
+        {
+          "num": 28,
+          "question": "734 + 36 = ?",
+          "choices": [
+            "760",
+            "771",
+            "770",
+            "769"
+          ],
+          "answer": "C",
+          "explanation": "Add column by column: 734 + 36 = 770."
+        },
+        {
+          "num": 29,
+          "question": "7 x 6 = ?",
+          "choices": [
+            "42",
+            "43",
+            "36",
+            "49"
+          ],
+          "answer": "A",
+          "explanation": "Multiply: 7 x 6 = 42."
+        },
+        {
+          "num": 30,
+          "question": "A movie starts at 5:30 and lasts 75 minutes. What time does it end?",
+          "choices": [
+            "7:45",
+            "6:45",
+            "7:00",
+            "6:15"
+          ],
+          "answer": "B",
+          "explanation": "5:30 + 75 min = 6:45."
+        },
+        {
+          "num": 31,
+          "question": "Round 229 to the nearest ten.",
+          "choices": [
+            "220",
+            "250",
+            "230",
+            "240"
+          ],
+          "answer": "C",
+          "explanation": "The digit at the next-lower place decides rounding. 229 rounds to 230."
+        },
+        {
+          "num": 32,
+          "question": "Write 779 in words.",
+          "choices": [
+            "two hundred seventy-nine",
+            "seven hundred seventy",
+            "seven hundred seventy-nine",
+            "eight hundred seventy-nine"
+          ],
+          "answer": "C",
+          "explanation": "779 = seven hundred seventy-nine."
+        },
+        {
+          "num": 33,
+          "question": "Compare 844 and 445.",
+          "choices": [
+            "<",
+            "=",
+            "cannot tell",
+            ">"
+          ],
+          "answer": "D",
+          "explanation": "844 > 445."
+        },
+        {
+          "num": 34,
+          "question": "77 \u00f7 11 = ?",
+          "choices": [
+            "7",
+            "5",
+            "9",
+            "8"
+          ],
+          "answer": "A",
+          "explanation": "Divide: 77 \u00f7 11 = 7."
+        },
+        {
+          "num": 35,
+          "question": "Place value of 9 in 3970.",
+          "choices": [
+            "tens",
+            "hundreds",
+            "thousands",
+            "ones"
+          ],
+          "answer": "B",
+          "explanation": "Counting from the right: each digit's position names hundreds. The 9 sits in the hundreds place."
+        }
+      ]
+    },
+    {
+      "testNum": 9,
+      "questions": [
+        {
+          "num": 1,
+          "question": "253 + 741 = ?",
+          "choices": [
+            "994",
+            "993",
+            "995",
+            "984"
+          ],
+          "answer": "A",
+          "explanation": "Add column by column: 253 + 741 = 994."
+        },
+        {
+          "num": 2,
+          "question": "A pencil costs $0.75. How much do 2 pencils cost?",
+          "choices": [
+            "$1.25",
+            "$1.50",
+            "$2.00",
+            "$0.50"
+          ],
+          "answer": "B",
+          "explanation": "Multiply: 2 \u00d7 $0.75 = $1.50."
+        },
+        {
+          "num": 3,
+          "question": "80 \u00f7 10 = ?",
+          "choices": [
+            "6",
+            "10",
+            "8",
+            "9"
+          ],
+          "answer": "C",
+          "explanation": "Divide: 80 \u00f7 10 = 8."
+        },
+        {
+          "num": 4,
+          "question": "12 x 6 = ?",
+          "choices": [
+            "71",
+            "66",
+            "84",
+            "72"
+          ],
+          "answer": "D",
+          "explanation": "Multiply: 12 x 6 = 72."
+        },
+        {
+          "num": 5,
+          "question": "12 \u00f7 2 = ?",
+          "choices": [
+            "4",
+            "6",
+            "7",
+            "5"
+          ],
+          "answer": "B",
+          "explanation": "Divide: 12 \u00f7 2 = 6."
+        },
+        {
+          "num": 6,
+          "question": "517 + 987 = ?",
+          "choices": [
+            "1494",
+            "1514",
+            "1505",
+            "1504"
+          ],
+          "answer": "D",
+          "explanation": "Add column by column: 517 + 987 = 1504."
+        },
+        {
+          "num": 7,
+          "question": "Round 259 to the nearest ten.",
+          "choices": [
+            "250",
+            "280",
+            "270",
+            "260"
+          ],
+          "answer": "D",
+          "explanation": "The digit at the next-lower place decides rounding. 259 rounds to 260."
+        },
+        {
+          "num": 8,
+          "question": "Compare 803 and 927.",
+          "choices": [
+            "cannot tell",
+            "=",
+            ">",
+            "<"
+          ],
+          "answer": "D",
+          "explanation": "803 < 927."
+        },
+        {
+          "num": 9,
+          "question": "777 + 723 = ?",
+          "choices": [
+            "1499",
+            "1500",
+            "1490",
+            "1501"
+          ],
+          "answer": "B",
+          "explanation": "Add column by column: 777 + 723 = 1500."
+        },
+        {
+          "num": 10,
+          "question": "A movie starts at 4:15 and lasts 90 minutes. What time does it end?",
+          "choices": [
+            "5:45",
+            "5:15",
+            "6:00",
+            "6:45"
+          ],
+          "answer": "A",
+          "explanation": "4:15 + 90 min = 5:45."
+        },
+        {
+          "num": 11,
+          "question": "Write 724 in words.",
+          "choices": [
+            "two hundred seventy-four",
+            "seven hundred twenty-five",
+            "seven hundred twenty-four",
+            "eight hundred twenty-four"
+          ],
+          "answer": "C",
+          "explanation": "724 = seven hundred twenty-four."
+        },
+        {
+          "num": 12,
+          "question": "801 + 175 = ?",
+          "choices": [
+            "977",
+            "966",
+            "986",
+            "976"
+          ],
+          "answer": "D",
+          "explanation": "Add column by column: 801 + 175 = 976."
+        },
+        {
+          "num": 13,
+          "question": "139 - 94 = ?",
+          "choices": [
+            "50",
+            "40",
+            "35",
+            "45"
+          ],
+          "answer": "D",
+          "explanation": "Subtract: 139 - 94 = 45."
+        },
+        {
+          "num": 14,
+          "question": "Compare 472 and 100.",
+          "choices": [
+            "=",
+            "<",
+            "cannot tell",
+            ">"
+          ],
+          "answer": "D",
+          "explanation": "472 > 100."
+        },
+        {
+          "num": 15,
+          "question": "Compare 866 and 932.",
+          "choices": [
+            "<",
+            ">",
+            "cannot tell",
+            "="
+          ],
+          "answer": "A",
+          "explanation": "866 < 932."
+        },
+        {
+          "num": 16,
+          "question": "8 x 3 = ?",
+          "choices": [
+            "27",
+            "21",
+            "16",
+            "24"
+          ],
+          "answer": "D",
+          "explanation": "Multiply: 8 x 3 = 24."
+        },
+        {
+          "num": 17,
+          "question": "50 \u00f7 10 = ?",
+          "choices": [
+            "4",
+            "3",
+            "5",
+            "6"
+          ],
+          "answer": "C",
+          "explanation": "Divide: 50 \u00f7 10 = 5."
+        },
+        {
+          "num": 18,
+          "question": "A movie starts at 9:00 and lasts 15 minutes. What time does it end?",
+          "choices": [
+            "9:15",
+            "8:45",
+            "10:15",
+            "9:30"
+          ],
+          "answer": "A",
+          "explanation": "9:00 + 15 min = 9:15."
+        },
+        {
+          "num": 19,
+          "question": "21 \u00f7 3 = ?",
+          "choices": [
+            "8",
+            "7",
+            "9",
+            "5"
+          ],
+          "answer": "B",
+          "explanation": "Divide: 21 \u00f7 3 = 7."
+        },
+        {
+          "num": 20,
+          "question": "Place value of 9 in 9222.",
+          "choices": [
+            "ones",
+            "tens",
+            "thousands",
+            "hundreds"
+          ],
+          "answer": "C",
+          "explanation": "Counting from the right: each digit's position names thousands. The 9 sits in the thousands place."
+        },
+        {
+          "num": 21,
+          "question": "Round 757 to the nearest hundred.",
+          "choices": [
+            "800",
+            "700",
+            "1000",
+            "900"
+          ],
+          "answer": "A",
+          "explanation": "The digit at the next-lower place decides rounding. 757 rounds to 800."
+        },
+        {
+          "num": 22,
+          "question": "568 - 444 = ?",
+          "choices": [
+            "124",
+            "114",
+            "134",
+            "129"
+          ],
+          "answer": "A",
+          "explanation": "Subtract: 568 - 444 = 124."
+        },
+        {
+          "num": 23,
+          "question": "A pencil costs $1.25. How much do 5 pencils cost?",
+          "choices": [
+            "$5.25",
+            "$6.25",
+            "$5.75",
+            "$6.50"
+          ],
+          "answer": "B",
+          "explanation": "Multiply: 5 \u00d7 $1.25 = $6.25."
+        },
+        {
+          "num": 24,
+          "question": "480 - 397 = ?",
+          "choices": [
+            "82",
+            "73",
+            "78",
+            "83"
+          ],
+          "answer": "D",
+          "explanation": "Subtract: 480 - 397 = 83."
+        },
+        {
+          "num": 25,
+          "question": "Write 846 in words.",
+          "choices": [
+            "four hundred eighty-six",
+            "eight hundred forty-six",
+            "nine hundred forty-six",
+            "eight hundred forty-seven"
+          ],
+          "answer": "B",
+          "explanation": "846 = eight hundred forty-six."
+        },
+        {
+          "num": 26,
+          "question": "Place value of 1 in 6103.",
+          "choices": [
+            "hundreds",
+            "thousands",
+            "tens",
+            "ones"
+          ],
+          "answer": "A",
+          "explanation": "Counting from the right: each digit's position names hundreds. The 1 sits in the hundreds place."
+        },
+        {
+          "num": 27,
+          "question": "Compare 199 and 100.",
+          "choices": [
+            "=",
+            "<",
+            ">",
+            "cannot tell"
+          ],
+          "answer": "C",
+          "explanation": "199 > 100."
+        },
+        {
+          "num": 28,
+          "question": "A movie starts at 8:45 and lasts 120 minutes. What time does it end?",
+          "choices": [
+            "10:15",
+            "11:00",
+            "11:45",
+            "10:45"
+          ],
+          "answer": "D",
+          "explanation": "8:45 + 120 min = 10:45."
+        },
+        {
+          "num": 29,
+          "question": "Write 453 in words.",
+          "choices": [
+            "four hundred fifty-four",
+            "five hundred fifty-three",
+            "four hundred fifty-three",
+            "five hundred forty-three"
+          ],
+          "answer": "C",
+          "explanation": "453 = four hundred fifty-three."
+        },
+        {
+          "num": 30,
+          "question": "Write 770 in words.",
+          "choices": [
+            "eight hundred seventy",
+            "seven hundred seventy-one",
+            " seventy",
+            "seven hundred seventy"
+          ],
+          "answer": "D",
+          "explanation": "770 = seven hundred seventy."
+        },
+        {
+          "num": 31,
+          "question": "A pencil costs $1.00. How much do 8 pencils cost?",
+          "choices": [
+            "$8.00",
+            "$7.00",
+            "$8.25",
+            "$8.50"
+          ],
+          "answer": "A",
+          "explanation": "Multiply: 8 \u00d7 $1.00 = $8.00."
+        },
+        {
+          "num": 32,
+          "question": "104 + 546 = ?",
+          "choices": [
+            "650",
+            "640",
+            "651",
+            "649"
+          ],
+          "answer": "A",
+          "explanation": "Add column by column: 104 + 546 = 650."
+        },
+        {
+          "num": 33,
+          "question": "Place value of 5 in 9352.",
+          "choices": [
+            "thousands",
+            "ones",
+            "hundreds",
+            "tens"
+          ],
+          "answer": "D",
+          "explanation": "Counting from the right: each digit's position names tens. The 5 sits in the tens place."
+        },
+        {
+          "num": 34,
+          "question": "A pencil costs $1.00. How much do 7 pencils cost?",
+          "choices": [
+            "$7.50",
+            "$7.00",
+            "$7.25",
+            "$6.75"
+          ],
+          "answer": "B",
+          "explanation": "Multiply: 7 \u00d7 $1.00 = $7.00."
+        },
+        {
+          "num": 35,
+          "question": "40 \u00f7 8 = ?",
+          "choices": [
+            "6",
+            "4",
+            "5",
+            "3"
+          ],
+          "answer": "C",
+          "explanation": "Divide: 40 \u00f7 8 = 5."
+        }
+      ]
+    },
+    {
+      "testNum": 10,
+      "questions": [
+        {
+          "num": 1,
+          "question": "36 \u00f7 4 = ?",
+          "choices": [
+            "11",
+            "10",
+            "8",
+            "9"
+          ],
+          "answer": "D",
+          "explanation": "Divide: 36 \u00f7 4 = 9."
+        },
+        {
+          "num": 2,
+          "question": "490 + 561 = ?",
+          "choices": [
+            "1052",
+            "1050",
+            "1041",
+            "1051"
+          ],
+          "answer": "D",
+          "explanation": "Add column by column: 490 + 561 = 1051."
+        },
+        {
+          "num": 3,
+          "question": "A pencil costs $0.50. How much do 3 pencils cost?",
+          "choices": [
+            "$1.50",
+            "$0.50",
+            "$1.25",
+            "$2.00"
+          ],
+          "answer": "A",
+          "explanation": "Multiply: 3 \u00d7 $0.50 = $1.50."
+        },
+        {
+          "num": 4,
+          "question": "8 x 11 = ?",
+          "choices": [
+            "77",
+            "87",
+            "88",
+            "99"
+          ],
+          "answer": "C",
+          "explanation": "Multiply: 8 x 11 = 88."
+        },
+        {
+          "num": 5,
+          "question": "Place value of 4 in 6149.",
+          "choices": [
+            "tens",
+            "thousands",
+            "ones",
+            "hundreds"
+          ],
+          "answer": "A",
+          "explanation": "Counting from the right: each digit's position names tens. The 4 sits in the tens place."
+        },
+        {
+          "num": 6,
+          "question": "217 - 198 = ?",
+          "choices": [
+            "19",
+            "9",
+            "18",
+            "14"
+          ],
+          "answer": "A",
+          "explanation": "Subtract: 217 - 198 = 19."
+        },
+        {
+          "num": 7,
+          "question": "Write 621 in words.",
+          "choices": [
+            "six hundred twenty-one",
+            "seven hundred twenty-one",
+            "two hundred sixty-one",
+            "six hundred twenty-two"
+          ],
+          "answer": "A",
+          "explanation": "621 = six hundred twenty-one."
+        },
+        {
+          "num": 8,
+          "question": "Write 145 in words.",
+          "choices": [
+            "one hundred forty-six",
+            "two hundred forty-five",
+            "four hundred fifteen",
+            "one hundred forty-five"
+          ],
+          "answer": "D",
+          "explanation": "145 = one hundred forty-five."
+        },
+        {
+          "num": 9,
+          "question": "28 \u00f7 4 = ?",
+          "choices": [
+            "6",
+            "5",
+            "8",
+            "7"
+          ],
+          "answer": "D",
+          "explanation": "Divide: 28 \u00f7 4 = 7."
+        },
+        {
+          "num": 10,
+          "question": "A movie starts at 9:45 and lasts 90 minutes. What time does it end?",
+          "choices": [
+            "11:30",
+            "10:45",
+            "12:15",
+            "11:15"
+          ],
+          "answer": "D",
+          "explanation": "9:45 + 90 min = 11:15."
+        },
+        {
+          "num": 11,
+          "question": "8 x 2 = ?",
+          "choices": [
+            "16",
+            "8",
+            "24",
+            "14"
+          ],
+          "answer": "A",
+          "explanation": "Multiply: 8 x 2 = 16."
+        },
+        {
+          "num": 12,
+          "question": "Round 971 to the nearest ten.",
+          "choices": [
+            "990",
+            "970",
+            "980",
+            "960"
+          ],
+          "answer": "B",
+          "explanation": "The digit at the next-lower place decides rounding. 971 rounds to 970."
+        },
+        {
+          "num": 13,
+          "question": "Place value of 4 in 4981.",
+          "choices": [
+            "hundreds",
+            "thousands",
+            "tens",
+            "ones"
+          ],
+          "answer": "B",
+          "explanation": "Counting from the right: each digit's position names thousands. The 4 sits in the thousands place."
+        },
+        {
+          "num": 14,
+          "question": "Place value of 4 in 5774.",
+          "choices": [
+            "tens",
+            "thousands",
+            "ones",
+            "hundreds"
+          ],
+          "answer": "C",
+          "explanation": "Counting from the right: each digit's position names ones. The 4 sits in the ones place."
+        },
+        {
+          "num": 15,
+          "question": "A movie starts at 7:30 and lasts 120 minutes. What time does it end?",
+          "choices": [
+            "10:30",
+            "9:00",
+            "9:30",
+            "9:45"
+          ],
+          "answer": "C",
+          "explanation": "7:30 + 120 min = 9:30."
+        },
+        {
+          "num": 16,
+          "question": "Place value of 6 in 2406.",
+          "choices": [
+            "tens",
+            "hundreds",
+            "thousands",
+            "ones"
+          ],
+          "answer": "D",
+          "explanation": "Counting from the right: each digit's position names ones. The 6 sits in the ones place."
+        },
+        {
+          "num": 17,
+          "question": "A movie starts at 3:30 and lasts 90 minutes. What time does it end?",
+          "choices": [
+            "5:00",
+            "5:15",
+            "6:00",
+            "4:30"
+          ],
+          "answer": "A",
+          "explanation": "3:30 + 90 min = 5:00."
+        },
+        {
+          "num": 18,
+          "question": "439 - 172 = ?",
+          "choices": [
+            "266",
+            "267",
+            "272",
+            "257"
+          ],
+          "answer": "B",
+          "explanation": "Subtract: 439 - 172 = 267."
+        },
+        {
+          "num": 19,
+          "question": "Write 522 in words.",
+          "choices": [
+            "six hundred twenty-two",
+            "five hundred twenty-two",
+            "five hundred twenty-three",
+            "two hundred fifty-two"
+          ],
+          "answer": "B",
+          "explanation": "522 = five hundred twenty-two."
+        },
+        {
+          "num": 20,
+          "question": "Compare 270 and 990.",
+          "choices": [
+            "cannot tell",
+            "=",
+            ">",
+            "<"
+          ],
+          "answer": "D",
+          "explanation": "270 < 990."
+        },
+        {
+          "num": 21,
+          "question": "A movie starts at 1:15 and lasts 30 minutes. What time does it end?",
+          "choices": [
+            "2:00",
+            "2:45",
+            "1:45",
+            "1:15"
+          ],
+          "answer": "C",
+          "explanation": "1:15 + 30 min = 1:45."
+        },
+        {
+          "num": 22,
+          "question": "661 + 22 = ?",
+          "choices": [
+            "683",
+            "43",
+            "693",
+            "684"
+          ],
+          "answer": "A",
+          "explanation": "Add column by column: 661 + 22 = 683."
+        },
+        {
+          "num": 23,
+          "question": "Compare 209 and 564.",
+          "choices": [
+            "cannot tell",
+            ">",
+            "<",
+            "="
+          ],
+          "answer": "C",
+          "explanation": "209 < 564."
+        },
+        {
+          "num": 24,
+          "question": "857 + 576 = ?",
+          "choices": [
+            "1423",
+            "1443",
+            "1433",
+            "1434"
+          ],
+          "answer": "C",
+          "explanation": "Add column by column: 857 + 576 = 1433."
+        },
+        {
+          "num": 25,
+          "question": "Place value of 5 in 5977.",
+          "choices": [
+            "tens",
+            "ones",
+            "thousands",
+            "hundreds"
+          ],
+          "answer": "C",
+          "explanation": "Counting from the right: each digit's position names thousands. The 5 sits in the thousands place."
+        },
+        {
+          "num": 26,
+          "question": "606 - 273 = ?",
+          "choices": [
+            "334",
+            "323",
+            "333",
+            "328"
+          ],
+          "answer": "C",
+          "explanation": "Subtract: 606 - 273 = 333."
+        },
+        {
+          "num": 27,
+          "question": "8 \u00f7 2 = ?",
+          "choices": [
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "answer": "C",
+          "explanation": "Divide: 8 \u00f7 2 = 4."
+        },
+        {
+          "num": 28,
+          "question": "247 - 107 = ?",
+          "choices": [
+            "140",
+            "130",
+            "135",
+            "141"
+          ],
+          "answer": "A",
+          "explanation": "Subtract: 247 - 107 = 140."
+        },
+        {
+          "num": 29,
+          "question": "66 \u00f7 11 = ?",
+          "choices": [
+            "8",
+            "6",
+            "4",
+            "5"
+          ],
+          "answer": "B",
+          "explanation": "Divide: 66 \u00f7 11 = 6."
+        },
+        {
+          "num": 30,
+          "question": "2 x 8 = ?",
+          "choices": [
+            "14",
+            "17",
+            "16",
+            "15"
+          ],
+          "answer": "C",
+          "explanation": "Multiply: 2 x 8 = 16."
+        },
+        {
+          "num": 31,
+          "question": "219 - 25 = ?",
+          "choices": [
+            "194",
+            "193",
+            "204",
+            "195"
+          ],
+          "answer": "A",
+          "explanation": "Subtract: 219 - 25 = 194."
+        },
+        {
+          "num": 32,
+          "question": "191 + 564 = ?",
+          "choices": [
+            "745",
+            "756",
+            "755",
+            "754"
+          ],
+          "answer": "C",
+          "explanation": "Add column by column: 191 + 564 = 755."
+        },
+        {
+          "num": 33,
+          "question": "36 \u00f7 9 = ?",
+          "choices": [
+            "6",
+            "2",
+            "3",
+            "4"
+          ],
+          "answer": "D",
+          "explanation": "Divide: 36 \u00f7 9 = 4."
+        },
+        {
+          "num": 34,
+          "question": "755 + 280 = ?",
+          "choices": [
+            "1034",
+            "1036",
+            "1035",
+            "1045"
+          ],
+          "answer": "C",
+          "explanation": "Add column by column: 755 + 280 = 1035."
+        },
+        {
+          "num": 35,
+          "question": "30 \u00f7 5 = ?",
+          "choices": [
+            "8",
+            "5",
+            "6",
+            "7"
+          ],
+          "answer": "C",
+          "explanation": "Divide: 30 \u00f7 5 = 6."
+        }
+      ]
+    },
+    {
+      "testNum": 11,
+      "questions": [
+        {
+          "num": 1,
+          "question": "Round 558 to the nearest ten.",
+          "choices": [
+            "550",
+            "580",
+            "560",
+            "570"
+          ],
+          "answer": "C",
+          "explanation": "The digit at the next-lower place decides rounding. 558 rounds to 560."
+        },
+        {
+          "num": 2,
+          "question": "Round 945 to the nearest ten.",
+          "choices": [
+            "950",
+            "940",
+            "960",
+            "930"
+          ],
+          "answer": "B",
+          "explanation": "The digit at the next-lower place decides rounding. 945 rounds to 940."
+        },
+        {
+          "num": 3,
+          "question": "434 + 791 = ?",
+          "choices": [
+            "1226",
+            "1235",
+            "1224",
+            "1225"
+          ],
+          "answer": "D",
+          "explanation": "Add column by column: 434 + 791 = 1225."
+        },
+        {
+          "num": 4,
+          "question": "178 - 20 = ?",
+          "choices": [
+            "158",
+            "168",
+            "153",
+            "159"
+          ],
+          "answer": "A",
+          "explanation": "Subtract: 178 - 20 = 158."
+        },
+        {
+          "num": 5,
+          "question": "88 \u00f7 8 = ?",
+          "choices": [
+            "10",
+            "13",
+            "9",
+            "11"
+          ],
+          "answer": "D",
+          "explanation": "Divide: 88 \u00f7 8 = 11."
+        },
+        {
+          "num": 6,
+          "question": "110 \u00f7 11 = ?",
+          "choices": [
+            "12",
+            "10",
+            "9",
+            "8"
+          ],
+          "answer": "B",
+          "explanation": "Divide: 110 \u00f7 11 = 10."
+        },
+        {
+          "num": 7,
+          "question": "Round 877 to the nearest hundred.",
+          "choices": [
+            "1000",
+            "900",
+            "1100",
+            "800"
+          ],
+          "answer": "B",
+          "explanation": "The digit at the next-lower place decides rounding. 877 rounds to 900."
+        },
+        {
+          "num": 8,
+          "question": "Place value of 3 in 9333.",
+          "choices": [
+            "thousands",
+            "tens",
+            "hundreds",
+            "ones"
+          ],
+          "answer": "B",
+          "explanation": "Counting from the right: each digit's position names tens. The 3 sits in the tens place."
+        },
+        {
+          "num": 9,
+          "question": "11 x 3 = ?",
+          "choices": [
+            "32",
+            "36",
+            "33",
+            "22"
+          ],
+          "answer": "C",
+          "explanation": "Multiply: 11 x 3 = 33."
+        },
+        {
+          "num": 10,
+          "question": "844 - 114 = ?",
+          "choices": [
+            "731",
+            "740",
+            "725",
+            "730"
+          ],
+          "answer": "D",
+          "explanation": "Subtract: 844 - 114 = 730."
+        },
+        {
+          "num": 11,
+          "question": "838 + 648 = ?",
+          "choices": [
+            "1485",
+            "1496",
+            "1476",
+            "1486"
+          ],
+          "answer": "D",
+          "explanation": "Add column by column: 838 + 648 = 1486."
+        },
+        {
+          "num": 12,
+          "question": "486 + 912 = ?",
+          "choices": [
+            "1408",
+            "1398",
+            "1397",
+            "1399"
+          ],
+          "answer": "B",
+          "explanation": "Add column by column: 486 + 912 = 1398."
+        },
+        {
+          "num": 13,
+          "question": "Write 160 in words.",
+          "choices": [
+            "one hundred sixty",
+            "six hundred ten",
+            "one hundred sixty-one",
+            "two hundred sixty"
+          ],
+          "answer": "A",
+          "explanation": "160 = one hundred sixty."
+        },
+        {
+          "num": 14,
+          "question": "A movie starts at 1:15 and lasts 45 minutes. What time does it end?",
+          "choices": [
+            "1:30",
+            "2:15",
+            "3:00",
+            "2:00"
+          ],
+          "answer": "D",
+          "explanation": "1:15 + 45 min = 2:00."
+        },
+        {
+          "num": 15,
+          "question": "Place value of 4 in 1564.",
+          "choices": [
+            "hundreds",
+            "thousands",
+            "ones",
+            "tens"
+          ],
+          "answer": "C",
+          "explanation": "Counting from the right: each digit's position names ones. The 4 sits in the ones place."
+        },
+        {
+          "num": 16,
+          "question": "9 \u00f7 3 = ?",
+          "choices": [
+            "58",
+            "1",
+            "3",
+            "4"
+          ],
+          "answer": "C",
+          "explanation": "Divide: 9 \u00f7 3 = 3."
+        },
+        {
+          "num": 17,
+          "question": "Round 506 to the nearest ten.",
+          "choices": [
+            "530",
+            "500",
+            "510",
+            "520"
+          ],
+          "answer": "C",
+          "explanation": "The digit at the next-lower place decides rounding. 506 rounds to 510."
+        },
+        {
+          "num": 18,
+          "question": "Place value of 6 in 6690.",
+          "choices": [
+            "thousands",
+            "hundreds",
+            "tens",
+            "ones"
+          ],
+          "answer": "A",
+          "explanation": "Counting from the right: each digit's position names thousands. The 6 sits in the thousands place."
+        },
+        {
+          "num": 19,
+          "question": "572 + 346 = ?",
+          "choices": [
+            "917",
+            "918",
+            "908",
+            "928"
+          ],
+          "answer": "B",
+          "explanation": "Add column by column: 572 + 346 = 918."
+        },
+        {
+          "num": 20,
+          "question": "Compare 188 and 638.",
+          "choices": [
+            "<",
+            "=",
+            "cannot tell",
+            ">"
+          ],
+          "answer": "A",
+          "explanation": "188 < 638."
+        },
+        {
+          "num": 21,
+          "question": "24 \u00f7 12 = ?",
+          "choices": [
+            "0",
+            "1",
+            "2",
+            "35"
+          ],
+          "answer": "C",
+          "explanation": "Divide: 24 \u00f7 12 = 2."
+        },
+        {
+          "num": 22,
+          "question": "A movie starts at 6:45 and lasts 90 minutes. What time does it end?",
+          "choices": [
+            "8:15",
+            "7:45",
+            "8:30",
+            "9:15"
+          ],
+          "answer": "A",
+          "explanation": "6:45 + 90 min = 8:15."
+        },
+        {
+          "num": 23,
+          "question": "A pencil costs $0.50. How much do 5 pencils cost?",
+          "choices": [
+            "$2.50",
+            "$1.50",
+            "$2.00",
+            "$2.25"
+          ],
+          "answer": "A",
+          "explanation": "Multiply: 5 \u00d7 $0.50 = $2.50."
+        },
+        {
+          "num": 24,
+          "question": "251 - 233 = ?",
+          "choices": [
+            "18",
+            "23",
+            "19",
+            "17"
+          ],
+          "answer": "A",
+          "explanation": "Subtract: 251 - 233 = 18."
+        },
+        {
+          "num": 25,
+          "question": "835 + 64 = ?",
+          "choices": [
+            "899",
+            "900",
+            "898",
+            "909"
+          ],
+          "answer": "A",
+          "explanation": "Add column by column: 835 + 64 = 899."
+        },
+        {
+          "num": 26,
+          "question": "127 + 297 = ?",
+          "choices": [
+            "434",
+            "424",
+            "414",
+            "425"
+          ],
+          "answer": "B",
+          "explanation": "Add column by column: 127 + 297 = 424."
+        },
+        {
+          "num": 27,
+          "question": "533 + 66 = ?",
+          "choices": [
+            "599",
+            "609",
+            "94",
+            "600"
+          ],
+          "answer": "A",
+          "explanation": "Add column by column: 533 + 66 = 599."
+        },
+        {
+          "num": 28,
+          "question": "425 + 466 = ?",
+          "choices": [
+            "901",
+            "892",
+            "881",
+            "891"
+          ],
+          "answer": "D",
+          "explanation": "Add column by column: 425 + 466 = 891."
+        },
+        {
+          "num": 29,
+          "question": "Place value of 1 in 7761.",
+          "choices": [
+            "hundreds",
+            "ones",
+            "tens",
+            "thousands"
+          ],
+          "answer": "B",
+          "explanation": "Counting from the right: each digit's position names ones. The 1 sits in the ones place."
+        },
+        {
+          "num": 30,
+          "question": "Round 381 to the nearest ten.",
+          "choices": [
+            "370",
+            "380",
+            "400",
+            "390"
+          ],
+          "answer": "B",
+          "explanation": "The digit at the next-lower place decides rounding. 381 rounds to 380."
+        },
+        {
+          "num": 31,
+          "question": "Round 118 to the nearest hundred.",
+          "choices": [
+            "0",
+            "100",
+            "300",
+            "200"
+          ],
+          "answer": "B",
+          "explanation": "The digit at the next-lower place decides rounding. 118 rounds to 100."
+        },
+        {
+          "num": 32,
+          "question": "16 \u00f7 4 = ?",
+          "choices": [
+            "4",
+            "2",
+            "6",
+            "5"
+          ],
+          "answer": "A",
+          "explanation": "Divide: 16 \u00f7 4 = 4."
+        },
+        {
+          "num": 33,
+          "question": "A movie starts at 5:00 and lasts 90 minutes. What time does it end?",
+          "choices": [
+            "7:30",
+            "6:30",
+            "6:45",
+            "6:00"
+          ],
+          "answer": "B",
+          "explanation": "5:00 + 90 min = 6:30."
+        },
+        {
+          "num": 34,
+          "question": "Write 368 in words.",
+          "choices": [
+            "three hundred sixty-eight",
+            "four hundred sixty-eight",
+            "six hundred thirty-eight",
+            "three hundred sixty-nine"
+          ],
+          "answer": "A",
+          "explanation": "368 = three hundred sixty-eight."
+        },
+        {
+          "num": 35,
+          "question": "2 x 9 = ?",
+          "choices": [
+            "16",
+            "9",
+            "18",
+            "19"
+          ],
+          "answer": "C",
+          "explanation": "Multiply: 2 x 9 = 18."
+        }
+      ]
+    },
+    {
+      "testNum": 12,
+      "questions": [
+        {
+          "num": 1,
+          "question": "Round 890 to the nearest hundred.",
+          "choices": [
+            "1100",
+            "800",
+            "1000",
+            "900"
+          ],
+          "answer": "D",
+          "explanation": "The digit at the next-lower place decides rounding. 890 rounds to 900."
+        },
+        {
+          "num": 2,
+          "question": "Write 817 in words.",
+          "choices": [
+            "eight hundred eighteen",
+            "eight hundred seventeen",
+            "nine hundred seventeen",
+            "one hundred eighty-seven"
+          ],
+          "answer": "B",
+          "explanation": "817 = eight hundred seventeen."
+        },
+        {
+          "num": 3,
+          "question": "Compare 857 and 631.",
+          "choices": [
+            "=",
+            ">",
+            "cannot tell",
+            "<"
+          ],
+          "answer": "B",
+          "explanation": "857 > 631."
+        },
+        {
+          "num": 4,
+          "question": "20 \u00f7 2 = ?",
+          "choices": [
+            "11",
+            "9",
+            "12",
+            "10"
+          ],
+          "answer": "D",
+          "explanation": "Divide: 20 \u00f7 2 = 10."
+        },
+        {
+          "num": 5,
+          "question": "Place value of 2 in 1829.",
+          "choices": [
+            "hundreds",
+            "tens",
+            "thousands",
+            "ones"
+          ],
+          "answer": "B",
+          "explanation": "Counting from the right: each digit's position names tens. The 2 sits in the tens place."
+        },
+        {
+          "num": 6,
+          "question": "487 - 407 = ?",
+          "choices": [
+            "85",
+            "80",
+            "75",
+            "81"
+          ],
+          "answer": "B",
+          "explanation": "Subtract: 487 - 407 = 80."
+        },
+        {
+          "num": 7,
+          "question": "7 x 12 = ?",
+          "choices": [
+            "77",
+            "72",
+            "84",
+            "91"
+          ],
+          "answer": "C",
+          "explanation": "Multiply: 7 x 12 = 84."
+        },
+        {
+          "num": 8,
+          "question": "Compare 210 and 479.",
+          "choices": [
+            "<",
+            ">",
+            "=",
+            "cannot tell"
+          ],
+          "answer": "A",
+          "explanation": "210 < 479."
+        },
+        {
+          "num": 9,
+          "question": "Write 825 in words.",
+          "choices": [
+            "nine hundred twenty-five",
+            "eight hundred twenty-six",
+            "two hundred eighty-five",
+            "eight hundred twenty-five"
+          ],
+          "answer": "D",
+          "explanation": "825 = eight hundred twenty-five."
+        },
+        {
+          "num": 10,
+          "question": "Place value of 6 in 6760.",
+          "choices": [
+            "ones",
+            "tens",
+            "thousands",
+            "hundreds"
+          ],
+          "answer": "C",
+          "explanation": "Counting from the right: each digit's position names thousands. The 6 sits in the thousands place."
+        },
+        {
+          "num": 11,
+          "question": "980 + 325 = ?",
+          "choices": [
+            "1304",
+            "1315",
+            "1305",
+            "1306"
+          ],
+          "answer": "C",
+          "explanation": "Add column by column: 980 + 325 = 1305."
+        },
+        {
+          "num": 12,
+          "question": "Write 585 in words.",
+          "choices": [
+            "five hundred eighty-six",
+            "five hundred eighty-five",
+            "eight hundred fifty-five",
+            "six hundred eighty-five"
+          ],
+          "answer": "B",
+          "explanation": "585 = five hundred eighty-five."
+        },
+        {
+          "num": 13,
+          "question": "A movie starts at 3:15 and lasts 60 minutes. What time does it end?",
+          "choices": [
+            "5:15",
+            "4:15",
+            "3:45",
+            "4:30"
+          ],
+          "answer": "B",
+          "explanation": "3:15 + 60 min = 4:15."
+        },
+        {
+          "num": 14,
+          "question": "Compare 720 and 220.",
+          "choices": [
+            "=",
+            ">",
+            "<",
+            "cannot tell"
+          ],
+          "answer": "B",
+          "explanation": "720 > 220."
+        },
+        {
+          "num": 15,
+          "question": "491 + 590 = ?",
+          "choices": [
+            "1082",
+            "1081",
+            "1091",
+            "1080"
+          ],
+          "answer": "B",
+          "explanation": "Add column by column: 491 + 590 = 1081."
+        },
+        {
+          "num": 16,
+          "question": "Compare 988 and 830.",
+          "choices": [
+            ">",
+            "=",
+            "<",
+            "cannot tell"
+          ],
+          "answer": "A",
+          "explanation": "988 > 830."
+        },
+        {
+          "num": 17,
+          "question": "759 + 133 = ?",
+          "choices": [
+            "882",
+            "891",
+            "892",
+            "893"
+          ],
+          "answer": "C",
+          "explanation": "Add column by column: 759 + 133 = 892."
+        },
+        {
+          "num": 18,
+          "question": "Compare 526 and 768.",
+          "choices": [
+            ">",
+            "=",
+            "<",
+            "cannot tell"
+          ],
+          "answer": "C",
+          "explanation": "526 < 768."
+        },
+        {
+          "num": 19,
+          "question": "A movie starts at 7:30 and lasts 60 minutes. What time does it end?",
+          "choices": [
+            "9:30",
+            "8:45",
+            "8:00",
+            "8:30"
+          ],
+          "answer": "D",
+          "explanation": "7:30 + 60 min = 8:30."
+        },
+        {
+          "num": 20,
+          "question": "Round 600 to the nearest ten.",
+          "choices": [
+            "600",
+            "620",
+            "610",
+            "590"
+          ],
+          "answer": "A",
+          "explanation": "The digit at the next-lower place decides rounding. 600 rounds to 600."
+        },
+        {
+          "num": 21,
+          "question": "712 + 875 = ?",
+          "choices": [
+            "1588",
+            "1577",
+            "1587",
+            "1586"
+          ],
+          "answer": "C",
+          "explanation": "Add column by column: 712 + 875 = 1587."
+        },
+        {
+          "num": 22,
+          "question": "Place value of 2 in 2549.",
+          "choices": [
+            "ones",
+            "tens",
+            "thousands",
+            "hundreds"
+          ],
+          "answer": "C",
+          "explanation": "Counting from the right: each digit's position names thousands. The 2 sits in the thousands place."
+        },
+        {
+          "num": 23,
+          "question": "10 x 5 = ?",
+          "choices": [
+            "51",
+            "50",
+            "49",
+            "45"
+          ],
+          "answer": "B",
+          "explanation": "Multiply: 10 x 5 = 50."
+        },
+        {
+          "num": 24,
+          "question": "Round 444 to the nearest hundred.",
+          "choices": [
+            "500",
+            "600",
+            "400",
+            "300"
+          ],
+          "answer": "C",
+          "explanation": "The digit at the next-lower place decides rounding. 444 rounds to 400."
+        },
+        {
+          "num": 25,
+          "question": "215 + 416 = ?",
+          "choices": [
+            "631",
+            "630",
+            "632",
+            "621"
+          ],
+          "answer": "A",
+          "explanation": "Add column by column: 215 + 416 = 631."
+        },
+        {
+          "num": 26,
+          "question": "Round 794 to the nearest ten.",
+          "choices": [
+            "800",
+            "780",
+            "790",
+            "810"
+          ],
+          "answer": "C",
+          "explanation": "The digit at the next-lower place decides rounding. 794 rounds to 790."
+        },
+        {
+          "num": 27,
+          "question": "Compare 583 and 510.",
+          "choices": [
+            ">",
+            "cannot tell",
+            "<",
+            "="
+          ],
+          "answer": "A",
+          "explanation": "583 > 510."
+        },
+        {
+          "num": 28,
+          "question": "34 + 478 = ?",
+          "choices": [
+            "512",
+            "522",
+            "502",
+            "513"
+          ],
+          "answer": "A",
+          "explanation": "Add column by column: 34 + 478 = 512."
+        },
+        {
+          "num": 29,
+          "question": "20 \u00f7 4 = ?",
+          "choices": [
+            "4",
+            "5",
+            "6",
+            "3"
+          ],
+          "answer": "B",
+          "explanation": "Divide: 20 \u00f7 4 = 5."
+        },
+        {
+          "num": 30,
+          "question": "Round 571 to the nearest hundred.",
+          "choices": [
+            "600",
+            "700",
+            "500",
+            "800"
+          ],
+          "answer": "A",
+          "explanation": "The digit at the next-lower place decides rounding. 571 rounds to 600."
+        },
+        {
+          "num": 31,
+          "question": "Compare 664 and 388.",
+          "choices": [
+            "cannot tell",
+            "=",
+            "<",
+            ">"
+          ],
+          "answer": "D",
+          "explanation": "664 > 388."
+        },
+        {
+          "num": 32,
+          "question": "Round 984 to the nearest hundred.",
+          "choices": [
+            "1100",
+            "900",
+            "1200",
+            "1000"
+          ],
+          "answer": "D",
+          "explanation": "The digit at the next-lower place decides rounding. 984 rounds to 1000."
+        },
+        {
+          "num": 33,
+          "question": "Round 888 to the nearest ten.",
+          "choices": [
+            "880",
+            "890",
+            "910",
+            "900"
+          ],
+          "answer": "B",
+          "explanation": "The digit at the next-lower place decides rounding. 888 rounds to 890."
+        },
+        {
+          "num": 34,
+          "question": "323 + 190 = ?",
+          "choices": [
+            "512",
+            "513",
+            "523",
+            "503"
+          ],
+          "answer": "B",
+          "explanation": "Add column by column: 323 + 190 = 513."
+        },
+        {
+          "num": 35,
+          "question": "Round 463 to the nearest ten.",
+          "choices": [
+            "450",
+            "470",
+            "460",
+            "480"
+          ],
+          "answer": "C",
+          "explanation": "The digit at the next-lower place decides rounding. 463 rounds to 460."
+        }
+      ]
+    },
+    {
+      "testNum": 13,
+      "questions": [
+        {
+          "num": 1,
+          "question": "48 \u00f7 4 = ?",
+          "choices": [
+            "12",
+            "10",
+            "15",
+            "13"
+          ],
+          "answer": "A",
+          "explanation": "Divide: 48 \u00f7 4 = 12."
+        },
+        {
+          "num": 2,
+          "question": "Write 784 in words.",
+          "choices": [
+            "eight hundred seventy-four",
+            "eight hundred eighty-four",
+            "seven hundred eighty-five",
+            "seven hundred eighty-four"
+          ],
+          "answer": "D",
+          "explanation": "784 = seven hundred eighty-four."
+        },
+        {
+          "num": 3,
+          "question": "974 - 356 = ?",
+          "choices": [
+            "628",
+            "618",
+            "608",
+            "619"
+          ],
+          "answer": "B",
+          "explanation": "Subtract: 974 - 356 = 618."
+        },
+        {
+          "num": 4,
+          "question": "146 + 711 = ?",
+          "choices": [
+            "858",
+            "856",
+            "857",
+            "867"
+          ],
+          "answer": "C",
+          "explanation": "Add column by column: 146 + 711 = 857."
+        },
+        {
+          "num": 5,
+          "question": "96 \u00f7 12 = ?",
+          "choices": [
+            "6",
+            "7",
+            "8",
+            "9"
+          ],
+          "answer": "C",
+          "explanation": "Divide: 96 \u00f7 12 = 8."
+        },
+        {
+          "num": 6,
+          "question": "Place value of 3 in 3069.",
+          "choices": [
+            "tens",
+            "hundreds",
+            "thousands",
+            "ones"
+          ],
+          "answer": "C",
+          "explanation": "Counting from the right: each digit's position names thousands. The 3 sits in the thousands place."
+        },
+        {
+          "num": 7,
+          "question": "Compare 112 and 901.",
+          "choices": [
+            "cannot tell",
+            "<",
+            "=",
+            ">"
+          ],
+          "answer": "B",
+          "explanation": "112 < 901."
+        },
+        {
+          "num": 8,
+          "question": "55 \u00f7 11 = ?",
+          "choices": [
+            "7",
+            "3",
+            "4",
+            "5"
+          ],
+          "answer": "D",
+          "explanation": "Divide: 55 \u00f7 11 = 5."
+        },
+        {
+          "num": 9,
+          "question": "Place value of 2 in 2466.",
+          "choices": [
+            "tens",
+            "thousands",
+            "ones",
+            "hundreds"
+          ],
+          "answer": "B",
+          "explanation": "Counting from the right: each digit's position names thousands. The 2 sits in the thousands place."
+        },
+        {
+          "num": 10,
+          "question": "A movie starts at 4:45 and lasts 15 minutes. What time does it end?",
+          "choices": [
+            "5:15",
+            "5:00",
+            "6:00",
+            "4:30"
+          ],
+          "answer": "B",
+          "explanation": "4:45 + 15 min = 5:00."
+        },
+        {
+          "num": 11,
+          "question": "5 x 7 = ?",
+          "choices": [
+            "30",
+            "28",
+            "35",
+            "34"
+          ],
+          "answer": "C",
+          "explanation": "Multiply: 5 x 7 = 35."
+        },
+        {
+          "num": 12,
+          "question": "A movie starts at 5:15 and lasts 60 minutes. What time does it end?",
+          "choices": [
+            "6:30",
+            "5:45",
+            "6:15",
+            "7:15"
+          ],
+          "answer": "C",
+          "explanation": "5:15 + 60 min = 6:15."
+        },
+        {
+          "num": 13,
+          "question": "A movie starts at 11:45 and lasts 90 minutes. What time does it end?",
+          "choices": [
+            "2:15",
+            "1:15",
+            "12:45",
+            "1:30"
+          ],
+          "answer": "B",
+          "explanation": "11:45 + 90 min = 1:15."
+        },
+        {
+          "num": 14,
+          "question": "696 - 208 = ?",
+          "choices": [
+            "478",
+            "493",
+            "483",
+            "488"
+          ],
+          "answer": "D",
+          "explanation": "Subtract: 696 - 208 = 488."
+        },
+        {
+          "num": 15,
+          "question": "253 + 27 = ?",
+          "choices": [
+            "270",
+            "290",
+            "281",
+            "280"
+          ],
+          "answer": "D",
+          "explanation": "Add column by column: 253 + 27 = 280."
+        },
+        {
+          "num": 16,
+          "question": "458 + 436 = ?",
+          "choices": [
+            "893",
+            "884",
+            "904",
+            "894"
+          ],
+          "answer": "D",
+          "explanation": "Add column by column: 458 + 436 = 894."
+        },
+        {
+          "num": 17,
+          "question": "Place value of 3 in 1396.",
+          "choices": [
+            "tens",
+            "hundreds",
+            "thousands",
+            "ones"
+          ],
+          "answer": "B",
+          "explanation": "Counting from the right: each digit's position names hundreds. The 3 sits in the hundreds place."
+        },
+        {
+          "num": 18,
+          "question": "A movie starts at 9:00 and lasts 75 minutes. What time does it end?",
+          "choices": [
+            "9:45",
+            "10:30",
+            "10:15",
+            "11:15"
+          ],
+          "answer": "C",
+          "explanation": "9:00 + 75 min = 10:15."
+        },
+        {
+          "num": 19,
+          "question": "Compare 686 and 351.",
+          "choices": [
+            "=",
+            "<",
+            ">",
+            "cannot tell"
+          ],
+          "answer": "C",
+          "explanation": "686 > 351."
+        },
+        {
+          "num": 20,
+          "question": "2 x 11 = ?",
+          "choices": [
+            "20",
+            "22",
+            "21",
+            "11"
+          ],
+          "answer": "B",
+          "explanation": "Multiply: 2 x 11 = 22."
+        },
+        {
+          "num": 21,
+          "question": "814 + 374 = ?",
+          "choices": [
+            "1198",
+            "1188",
+            "1178",
+            "1187"
+          ],
+          "answer": "B",
+          "explanation": "Add column by column: 814 + 374 = 1188."
+        },
+        {
+          "num": 22,
+          "question": "440 + 480 = ?",
+          "choices": [
+            "919",
+            "920",
+            "921",
+            "910"
+          ],
+          "answer": "B",
+          "explanation": "Add column by column: 440 + 480 = 920."
+        },
+        {
+          "num": 23,
+          "question": "A movie starts at 1:15 and lasts 75 minutes. What time does it end?",
+          "choices": [
+            "2:00",
+            "2:45",
+            "2:30",
+            "3:30"
+          ],
+          "answer": "C",
+          "explanation": "1:15 + 75 min = 2:30."
+        },
+        {
+          "num": 24,
+          "question": "A pencil costs $1.00. How much do 3 pencils cost?",
+          "choices": [
+            "$2.50",
+            "$2.75",
+            "$3.00",
+            "$3.25"
+          ],
+          "answer": "C",
+          "explanation": "Multiply: 3 \u00d7 $1.00 = $3.00."
+        },
+        {
+          "num": 25,
+          "question": "Compare 799 and 542.",
+          "choices": [
+            "cannot tell",
+            ">",
+            "=",
+            "<"
+          ],
+          "answer": "B",
+          "explanation": "799 > 542."
+        },
+        {
+          "num": 26,
+          "question": "556 - 33 = ?",
+          "choices": [
+            "533",
+            "524",
+            "518",
+            "523"
+          ],
+          "answer": "D",
+          "explanation": "Subtract: 556 - 33 = 523."
+        },
+        {
+          "num": 27,
+          "question": "Compare 977 and 900.",
+          "choices": [
+            "cannot tell",
+            ">",
+            "=",
+            "<"
+          ],
+          "answer": "B",
+          "explanation": "977 > 900."
+        },
+        {
+          "num": 28,
+          "question": "63 \u00f7 9 = ?",
+          "choices": [
+            "9",
+            "5",
+            "8",
+            "7"
+          ],
+          "answer": "D",
+          "explanation": "Divide: 63 \u00f7 9 = 7."
+        },
+        {
+          "num": 29,
+          "question": "5 x 4 = ?",
+          "choices": [
+            "20",
+            "19",
+            "16",
+            "15"
+          ],
+          "answer": "A",
+          "explanation": "Multiply: 5 x 4 = 20."
+        },
+        {
+          "num": 30,
+          "question": "A movie starts at 10:00 and lasts 75 minutes. What time does it end?",
+          "choices": [
+            "11:30",
+            "12:15",
+            "10:45",
+            "11:15"
+          ],
+          "answer": "D",
+          "explanation": "10:00 + 75 min = 11:15."
+        },
+        {
+          "num": 31,
+          "question": "A movie starts at 6:15 and lasts 120 minutes. What time does it end?",
+          "choices": [
+            "8:30",
+            "8:15",
+            "7:45",
+            "9:15"
+          ],
+          "answer": "B",
+          "explanation": "6:15 + 120 min = 8:15."
+        },
+        {
+          "num": 32,
+          "question": "7 x 2 = ?",
+          "choices": [
+            "14",
+            "12",
+            "7",
+            "15"
+          ],
+          "answer": "A",
+          "explanation": "Multiply: 7 x 2 = 14."
+        },
+        {
+          "num": 33,
+          "question": "Write 476 in words.",
+          "choices": [
+            "seven hundred forty-six",
+            "four hundred seventy-six",
+            "five hundred seventy-six",
+            "four hundred seventy-seven"
+          ],
+          "answer": "B",
+          "explanation": "476 = four hundred seventy-six."
+        },
+        {
+          "num": 34,
+          "question": "497 - 37 = ?",
+          "choices": [
+            "450",
+            "460",
+            "459",
+            "461"
+          ],
+          "answer": "B",
+          "explanation": "Subtract: 497 - 37 = 460."
+        },
+        {
+          "num": 35,
+          "question": "138 + 461 = ?",
+          "choices": [
+            "599",
+            "598",
+            "600",
+            "609"
+          ],
+          "answer": "A",
+          "explanation": "Add column by column: 138 + 461 = 599."
+        }
+      ]
+    },
+    {
+      "testNum": 14,
+      "questions": [
+        {
+          "num": 1,
+          "question": "Write 732 in words.",
+          "choices": [
+            "seven hundred thirty-two",
+            "seven hundred thirty-three",
+            "eight hundred thirty-two",
+            "three hundred seventy-two"
+          ],
+          "answer": "A",
+          "explanation": "732 = seven hundred thirty-two."
+        },
+        {
+          "num": 2,
+          "question": "Place value of 7 in 7312.",
+          "choices": [
+            "hundreds",
+            "tens",
+            "ones",
+            "thousands"
+          ],
+          "answer": "D",
+          "explanation": "Counting from the right: each digit's position names thousands. The 7 sits in the thousands place."
+        },
+        {
+          "num": 3,
+          "question": "401 - 246 = ?",
+          "choices": [
+            "160",
+            "156",
+            "145",
+            "155"
+          ],
+          "answer": "D",
+          "explanation": "Subtract: 401 - 246 = 155."
+        },
+        {
+          "num": 4,
+          "question": "5 x 10 = ?",
+          "choices": [
+            "40",
+            "60",
+            "50",
+            "49"
+          ],
+          "answer": "C",
+          "explanation": "Multiply: 5 x 10 = 50."
+        },
+        {
+          "num": 5,
+          "question": "466 - 91 = ?",
+          "choices": [
+            "375",
+            "370",
+            "73",
+            "374"
+          ],
+          "answer": "A",
+          "explanation": "Subtract: 466 - 91 = 375."
+        },
+        {
+          "num": 6,
+          "question": "A movie starts at 9:15 and lasts 30 minutes. What time does it end?",
+          "choices": [
+            "10:00",
+            "10:45",
+            "9:15",
+            "9:45"
+          ],
+          "answer": "D",
+          "explanation": "9:15 + 30 min = 9:45."
+        },
+        {
+          "num": 7,
+          "question": "884 + 349 = ?",
+          "choices": [
+            "1232",
+            "1234",
+            "1243",
+            "1233"
+          ],
+          "answer": "D",
+          "explanation": "Add column by column: 884 + 349 = 1233."
+        },
+        {
+          "num": 8,
+          "question": "Compare 596 and 412.",
+          "choices": [
+            "cannot tell",
+            "=",
+            "<",
+            ">"
+          ],
+          "answer": "D",
+          "explanation": "596 > 412."
+        },
+        {
+          "num": 9,
+          "question": "798 - 700 = ?",
+          "choices": [
+            "97",
+            "98",
+            "88",
+            "99"
+          ],
+          "answer": "B",
+          "explanation": "Subtract: 798 - 700 = 98."
+        },
+        {
+          "num": 10,
+          "question": "A pencil costs $1.00. How much do 9 pencils cost?",
+          "choices": [
+            "$9.25",
+            "$9.50",
+            "$8.75",
+            "$9.00"
+          ],
+          "answer": "D",
+          "explanation": "Multiply: 9 \u00d7 $1.00 = $9.00."
+        },
+        {
+          "num": 11,
+          "question": "15 \u00f7 5 = ?",
+          "choices": [
+            "4",
+            "1",
+            "2",
+            "3"
+          ],
+          "answer": "D",
+          "explanation": "Divide: 15 \u00f7 5 = 3."
+        },
+        {
+          "num": 12,
+          "question": "343 - 97 = ?",
+          "choices": [
+            "245",
+            "236",
+            "246",
+            "241"
+          ],
+          "answer": "C",
+          "explanation": "Subtract: 343 - 97 = 246."
+        },
+        {
+          "num": 13,
+          "question": "994 - 488 = ?",
+          "choices": [
+            "501",
+            "506",
+            "496",
+            "516"
+          ],
+          "answer": "B",
+          "explanation": "Subtract: 994 - 488 = 506."
+        },
+        {
+          "num": 14,
+          "question": "Compare 186 and 346.",
+          "choices": [
+            ">",
+            "cannot tell",
+            "<",
+            "="
+          ],
+          "answer": "C",
+          "explanation": "186 < 346."
+        },
+        {
+          "num": 15,
+          "question": "644 - 612 = ?",
+          "choices": [
+            "37",
+            "42",
+            "22",
+            "32"
+          ],
+          "answer": "D",
+          "explanation": "Subtract: 644 - 612 = 32."
+        },
+        {
+          "num": 16,
+          "question": "Write 715 in words.",
+          "choices": [
+            "seven hundred fifteen",
+            "one hundred seventy-five",
+            "eight hundred fifteen",
+            "seven hundred sixteen"
+          ],
+          "answer": "A",
+          "explanation": "715 = seven hundred fifteen."
+        },
+        {
+          "num": 17,
+          "question": "Write 862 in words.",
+          "choices": [
+            "eight hundred sixty-three",
+            "six hundred eighty-two",
+            "eight hundred sixty-two",
+            "nine hundred sixty-two"
+          ],
+          "answer": "C",
+          "explanation": "862 = eight hundred sixty-two."
+        },
+        {
+          "num": 18,
+          "question": "Write 396 in words.",
+          "choices": [
+            "four hundred ninety-six",
+            "three hundred ninety-six",
+            "nine hundred thirty-six",
+            "three hundred ninety-seven"
+          ],
+          "answer": "B",
+          "explanation": "396 = three hundred ninety-six."
+        },
+        {
+          "num": 19,
+          "question": "48 \u00f7 8 = ?",
+          "choices": [
+            "60",
+            "4",
+            "8",
+            "6"
+          ],
+          "answer": "D",
+          "explanation": "Divide: 48 \u00f7 8 = 6."
+        },
+        {
+          "num": 20,
+          "question": "4 x 2 = ?",
+          "choices": [
+            "8",
+            "12",
+            "9",
+            "10"
+          ],
+          "answer": "A",
+          "explanation": "Multiply: 4 x 2 = 8."
+        },
+        {
+          "num": 21,
+          "question": "12 x 3 = ?",
+          "choices": [
+            "35",
+            "39",
+            "36",
+            "33"
+          ],
+          "answer": "C",
+          "explanation": "Multiply: 12 x 3 = 36."
+        },
+        {
+          "num": 22,
+          "question": "857 + 584 = ?",
+          "choices": [
+            "1440",
+            "1431",
+            "1441",
+            "1451"
+          ],
+          "answer": "C",
+          "explanation": "Add column by column: 857 + 584 = 1441."
+        },
+        {
+          "num": 23,
+          "question": "Write 636 in words.",
+          "choices": [
+            "six hundred thirty-six",
+            "three hundred sixty-six",
+            "seven hundred thirty-six",
+            "six hundred thirty-seven"
+          ],
+          "answer": "A",
+          "explanation": "636 = six hundred thirty-six."
+        },
+        {
+          "num": 24,
+          "question": "Place value of 7 in 1792.",
+          "choices": [
+            "hundreds",
+            "thousands",
+            "ones",
+            "tens"
+          ],
+          "answer": "A",
+          "explanation": "Counting from the right: each digit's position names hundreds. The 7 sits in the hundreds place."
+        },
+        {
+          "num": 25,
+          "question": "Round 106 to the nearest hundred.",
+          "choices": [
+            "300",
+            "100",
+            "200",
+            "0"
+          ],
+          "answer": "B",
+          "explanation": "The digit at the next-lower place decides rounding. 106 rounds to 100."
+        },
+        {
+          "num": 26,
+          "question": "A movie starts at 3:15 and lasts 30 minutes. What time does it end?",
+          "choices": [
+            "3:15",
+            "4:45",
+            "3:45",
+            "4:00"
+          ],
+          "answer": "C",
+          "explanation": "3:15 + 30 min = 3:45."
+        },
+        {
+          "num": 27,
+          "question": "Round 213 to the nearest hundred.",
+          "choices": [
+            "300",
+            "100",
+            "200",
+            "400"
+          ],
+          "answer": "C",
+          "explanation": "The digit at the next-lower place decides rounding. 213 rounds to 200."
+        },
+        {
+          "num": 28,
+          "question": "770 - 56 = ?",
+          "choices": [
+            "704",
+            "724",
+            "714",
+            "715"
+          ],
+          "answer": "C",
+          "explanation": "Subtract: 770 - 56 = 714."
+        },
+        {
+          "num": 29,
+          "question": "955 - 530 = ?",
+          "choices": [
+            "425",
+            "424",
+            "426",
+            "420"
+          ],
+          "answer": "A",
+          "explanation": "Subtract: 955 - 530 = 425."
+        },
+        {
+          "num": 30,
+          "question": "Round 295 to the nearest ten.",
+          "choices": [
+            "290",
+            "310",
+            "300",
+            "320"
+          ],
+          "answer": "C",
+          "explanation": "The digit at the next-lower place decides rounding. 295 rounds to 300."
+        },
+        {
+          "num": 31,
+          "question": "735 - 322 = ?",
+          "choices": [
+            "423",
+            "418",
+            "413",
+            "403"
+          ],
+          "answer": "C",
+          "explanation": "Subtract: 735 - 322 = 413."
+        },
+        {
+          "num": 32,
+          "question": "A movie starts at 5:15 and lasts 120 minutes. What time does it end?",
+          "choices": [
+            "7:30",
+            "7:15",
+            "6:45",
+            "8:15"
+          ],
+          "answer": "B",
+          "explanation": "5:15 + 120 min = 7:15."
+        },
+        {
+          "num": 33,
+          "question": "A pencil costs $1.50. How much do 5 pencils cost?",
+          "choices": [
+            "$8.00",
+            "$7.50",
+            "$7.00",
+            "$6.50"
+          ],
+          "answer": "B",
+          "explanation": "Multiply: 5 \u00d7 $1.50 = $7.50."
+        },
+        {
+          "num": 34,
+          "question": "Place value of 8 in 9835.",
+          "choices": [
+            "thousands",
+            "ones",
+            "tens",
+            "hundreds"
+          ],
+          "answer": "D",
+          "explanation": "Counting from the right: each digit's position names hundreds. The 8 sits in the hundreds place."
+        },
+        {
+          "num": 35,
+          "question": "80 \u00f7 8 = ?",
+          "choices": [
+            "11",
+            "12",
+            "8",
+            "10"
+          ],
+          "answer": "D",
+          "explanation": "Divide: 80 \u00f7 8 = 10."
+        }
+      ]
     }
   ]
 }
