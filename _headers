@@ -4,14 +4,10 @@
   Referrer-Policy: strict-origin-when-cross-origin
   Permissions-Policy: geolocation=(), microphone=(), camera=()
 
+# Revalidate every load so storefront/catalog edits show immediately. Files carry
+# etags, so unchanged data (incl. the large question banks) returns a cheap 304 --
+# no re-download. Single rule = no header-merge ambiguity from overlapping globs.
 /data/*.json
-  Cache-Control: public, max-age=3600
-  Content-Type: application/json
-
-# books.json is the storefront catalog -- must stay fresh so catalog edits show
-# immediately. Revalidate every load (etag -> cheap 304 when unchanged). This rule
-# is more specific / later, so it overrides the /data/*.json rule above for this file.
-/data/books.json
   Cache-Control: public, max-age=0, must-revalidate
   Content-Type: application/json
 
