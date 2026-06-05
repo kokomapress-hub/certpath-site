@@ -279,7 +279,7 @@
                   <img src="${book.cover}" alt="${book.title}" loading="lazy">
                 </div>
                 <div class="book-info">
-                  <div class="book-category">${book.category}</div>
+                  <div class="book-category">${book.bookCode ? `<span class="book-code">${book.bookCode}</span> ` : ''}${book.category}</div>
                   <h3>${book.title}</h3>
                   <p class="book-desc">${description}</p>
                   <div class="book-actions-stack">

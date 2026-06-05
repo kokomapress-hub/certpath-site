@@ -2,6 +2,7 @@
   "books": [
     {
       "slug": "cast",
+      "bookCode": "B1",
       "title": "CAST Exam Study Guide",
       "code": "CAST-OHGI1-JNYT7",
       "timeMinutes": 87,
@@ -21,6 +22,7 @@
     },
     {
       "slug": "mech-apt",
+      "bookCode": "B2",
       "title": "Mechanical Aptitude Study Guide",
       "code": "MECH-XAJI0-Y6DPB",
       "timeMinutes": 60,
@@ -40,6 +42,7 @@
     },
     {
       "slug": "journeyman-elec",
+      "bookCode": "B3",
       "title": "Journeyman Electrician Exam Study Guide",
       "code": "ELEC-BDOD6-BTL4F",
       "timeMinutes": 120,
@@ -59,6 +62,7 @@
     },
     {
       "slug": "poss",
+      "bookCode": "B4",
       "title": "POSS Exam Study Guide",
       "code": "POSS-2LI3E-RUWFW",
       "timeMinutes": 77,
@@ -78,6 +82,7 @@
     },
     {
       "slug": "csp",
+      "bookCode": "B5",
       "title": "CSP Exam Study Guide",
       "code": "CSP-D8F04-0KMZ8",
       "timeMinutes": 90,
@@ -97,6 +102,7 @@
     },
     {
       "slug": "chst",
+      "bookCode": "B6",
       "title": "CHST Exam Study Guide",
       "code": "CHST-CPIQJ-5U07R",
       "timeMinutes": 90,
@@ -116,6 +122,7 @@
     },
     {
       "slug": "tabe-a",
+      "bookCode": "B7",
       "title": "TABE 11 & 12 Math Workbook Level A",
       "code": "TABE-24R9N-7AR5U",
       "timeMinutes": 75,
@@ -135,6 +142,7 @@
     },
     {
       "slug": "tabe-d",
+      "bookCode": "B8",
       "title": "TABE 11 & 12 Math Workbook Level D",
       "code": "TABE-D6P3W-XQ8N5",
       "timeMinutes": 75,
@@ -154,6 +162,7 @@
     },
     {
       "slug": "tabe-m",
+      "bookCode": "B9",
       "title": "TABE 11 & 12 Math Workbook Level M",
       "code": "TABE-MK7Q2-VPB94",
       "timeMinutes": 60,
@@ -173,6 +182,7 @@
     },
     {
       "slug": "tabe-e",
+      "bookCode": "B10",
       "title": "TABE 11 & 12 Math Workbook Level E",
       "code": "TABE-EH9Z6-WMR3T",
       "timeMinutes": 60,
@@ -268,6 +278,7 @@
     },
     {
       "slug": "sat-math",
+      "bookCode": "B11",
       "title": "Digital SAT Math Prep",
       "code": "SAT-MATH-K9P3R-VTQ7M",
       "timeMinutes": 2450,
@@ -287,6 +298,7 @@
     },
     {
       "slug": "psat-math",
+      "bookCode": "B12",
       "title": "Digital PSAT/NMSQT Math Prep",
       "code": "PSAT-MATH-H8K5T-ZRN3Q",
       "timeMinutes": 2450,
@@ -306,6 +318,7 @@
     },
     {
       "slug": "act-math",
+      "bookCode": "B13",
       "title": "ACT Math Prep",
       "code": "ACT-MATH-J4M8R-XQ2T9",
       "timeMinutes": 1700,
@@ -325,6 +338,7 @@
     },
     {
       "slug": "ged-math",
+      "bookCode": "B14",
       "title": "GED Math Prep",
       "code": "GED-MATH-T6B2K-WQ9XR",
       "timeMinutes": 3795,
@@ -344,6 +358,7 @@
     },
     {
       "slug": "ccrn",
+      "bookCode": "B15",
       "title": "Adult CCRN Exam Prep",
       "code": "CCRN-K8M3P-WQ7VT",
       "timeMinutes": 180,
@@ -363,6 +378,7 @@
     },
     {
       "slug": "cen",
+      "bookCode": "B24",
       "title": "CEN Exam Prep",
       "code": "CEN-7Q4MX-R9KWP",
       "timeMinutes": 180,
