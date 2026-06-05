@@ -266,7 +266,7 @@
         },
         {
           "num": 17,
-          "question": "An employee's salary changed from $50,000 to $42,000. What is the percent change?",
+          "question": "An employee's salary changed from $60,000 to $51,000. What is the percent change?",
           "choices": [
             "15% decrease",
             "15% increase",
@@ -274,7 +274,7 @@
             "20% decrease"
           ],
           "answer": "A",
-          "explanation": "Change = -8; (-8)/50 = 0.15 = 15% decrease.",
+          "explanation": "Change = -9; (-9)/60 = 0.15 = 15% decrease.",
           "skill": "Ratios/percents",
           "domain": "rational",
           "difficulty": "medium",
@@ -783,7 +783,7 @@
         },
         {
           "num": 3,
-          "question": "An employee's salary changed from $80,000 to $90,000. What is the percent change?",
+          "question": "An employee's salary changed from $100,000 to $112,000. What is the percent change?",
           "choices": [
             "12% decrease",
             "6% increase",
@@ -791,7 +791,7 @@
             "17% increase"
           ],
           "answer": "C",
-          "explanation": "Change = 10; (10)/80 = 0.12 = 12% increase.",
+          "explanation": "Change = 12; (12)/100 = 0.12 = 12% increase.",
           "skill": "Ratios/percents",
           "domain": "rational",
           "difficulty": "medium",
@@ -1524,7 +1524,7 @@
         },
         {
           "num": 3,
-          "question": "An employee's salary changed from $25,000 to $28,000. What is the percent change?",
+          "question": "An employee's salary changed from $20,000 to $22,000. What is the percent change?",
           "choices": [
             "10% decrease",
             "5% increase",
@@ -1532,7 +1532,7 @@
             "15% increase"
           ],
           "answer": "C",
-          "explanation": "Change = 3; (3)/25 = 0.1 = 10% increase.",
+          "explanation": "Change = 2; (2)/20 = 0.1 = 10% increase.",
           "skill": "Ratios/percents",
           "domain": "rational",
           "difficulty": "medium",
@@ -4760,7 +4760,7 @@
         },
         {
           "num": 20,
-          "question": "An employee's salary changed from $40,000 to $35,000. What is the percent change?",
+          "question": "An employee's salary changed from $50,000 to $44,000. What is the percent change?",
           "choices": [
             "12% increase",
             "12% decrease",
@@ -4768,7 +4768,7 @@
             "6% decrease"
           ],
           "answer": "B",
-          "explanation": "Change = -5; (-5)/40 = 0.12 = 12% decrease.",
+          "explanation": "Change = -6; (-6)/50 = 0.12 = 12% decrease.",
           "skill": "Ratios/percents",
           "domain": "rational",
           "difficulty": "medium",
@@ -7916,7 +7916,7 @@
         },
         {
           "num": 32,
-          "question": "An employee's salary changed from $25,000 to $21,000. What is the percent change?",
+          "question": "An employee's salary changed from $20,000 to $17,000. What is the percent change?",
           "choices": [
             "15% increase",
             "20% decrease",
@@ -7924,7 +7924,7 @@
             "15% decrease"
           ],
           "answer": "D",
-          "explanation": "Change = -4; (-4)/25 = 0.15 = 15% decrease.",
+          "explanation": "Change = -3; (-3)/20 = 0.15 = 15% decrease.",
           "skill": "Ratios/percents",
           "domain": "rational",
           "difficulty": "medium",
@@ -8769,7 +8769,7 @@
         },
         {
           "num": 39,
-          "question": "An employee's salary changed from $80,000 to $70,000. What is the percent change?",
+          "question": "An employee's salary changed from $100,000 to $88,000. What is the percent change?",
           "choices": [
             "12% decrease",
             "6% decrease",
@@ -8777,7 +8777,7 @@
             "17% decrease"
           ],
           "answer": "A",
-          "explanation": "Change = -10; (-10)/80 = 0.12 = 12% decrease.",
+          "explanation": "Change = -12; (-12)/100 = 0.12 = 12% decrease.",
           "skill": "Ratios/percents",
           "domain": "rational",
           "difficulty": "medium",
@@ -9494,7 +9494,7 @@
         },
         {
           "num": 38,
-          "question": "An employee's salary changed from $25,000 to $31,000. What is the percent change?",
+          "question": "An employee's salary changed from $20,000 to $25,000. What is the percent change?",
           "choices": [
             "12% increase",
             "25% increase",
@@ -9502,7 +9502,7 @@
             "25% decrease"
           ],
           "answer": "B",
-          "explanation": "Change = 6; (6)/25 = 0.25 = 25% increase.",
+          "explanation": "Change = 5; (5)/20 = 0.25 = 25% increase.",
           "skill": "Ratios/percents",
           "domain": "rational",
           "difficulty": "medium",
@@ -21595,7 +21595,7 @@
         },
         {
           "num": 7,
-          "question": "An employee's salary changed from $50,000 to $38,000. What is the percent change?",
+          "question": "An employee's salary changed from $60,000 to $45,000. What is the percent change?",
           "choices": [
             "12% decrease",
             "25% decrease",
@@ -21603,7 +21603,7 @@
             "30% decrease"
           ],
           "answer": "B",
-          "explanation": "Change = -12; (-12)/50 = 0.25 = 25% decrease.",
+          "explanation": "Change = -15; (-15)/60 = 0.25 = 25% decrease.",
           "skill": "Ratios/percents",
           "domain": "rational",
           "difficulty": "medium",

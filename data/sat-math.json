@@ -178,7 +178,7 @@
         },
         {
           "num": 13,
-          "question": "An employee's salary changed from $120,000 to $106,000. What is the percent change?",
+          "question": "An employee's salary changed from $100,000 to $88,000. What is the percent change?",
           "choices": [
             "12% decrease",
             "6% decrease",
@@ -186,7 +186,7 @@
             "17% decrease"
           ],
           "answer": "A",
-          "explanation": "Change = -14; (-14)/120 = 0.12 = 12% decrease.",
+          "explanation": "Change = -12; (-12)/100 = 0.12 = 12% decrease.",
           "skill": "Ratios/percents",
           "domain": "psda"
         },
@@ -4016,7 +4016,7 @@
         },
         {
           "num": 21,
-          "question": "An employee's salary changed from $25,000 to $18,000. What is the percent change?",
+          "question": "An employee's salary changed from $20,000 to $14,000. What is the percent change?",
           "choices": [
             "30% decrease",
             "15% decrease",
@@ -4024,7 +4024,7 @@
             "30% increase"
           ],
           "answer": "A",
-          "explanation": "Change = -7; (-7)/25 = 0.3 = 30% decrease.",
+          "explanation": "Change = -6; (-6)/20 = 0.3 = 30% decrease.",
           "skill": "Ratios/percents",
           "domain": "psda"
         },
@@ -11043,7 +11043,7 @@
         },
         {
           "num": 35,
-          "question": "An employee's salary changed from $40,000 to $35,000. What is the percent change?",
+          "question": "An employee's salary changed from $50,000 to $44,000. What is the percent change?",
           "choices": [
             "6% decrease",
             "12% increase",
@@ -11051,7 +11051,7 @@
             "12% decrease"
           ],
           "answer": "D",
-          "explanation": "Change = -5; (-5)/40 = 0.12 = 12% decrease.",
+          "explanation": "Change = -6; (-6)/50 = 0.12 = 12% decrease.",
           "skill": "Ratios/percents",
           "domain": "psda"
         },
@@ -11202,7 +11202,7 @@
         },
         {
           "num": 2,
-          "question": "An employee's salary changed from $25,000 to $28,000. What is the percent change?",
+          "question": "An employee's salary changed from $20,000 to $22,000. What is the percent change?",
           "choices": [
             "15% increase",
             "10% increase",
@@ -11210,7 +11210,7 @@
             "5% increase"
           ],
           "answer": "B",
-          "explanation": "Change = 3; (3)/25 = 0.1 = 10% increase.",
+          "explanation": "Change = 2; (2)/20 = 0.1 = 10% increase.",
           "skill": "Ratios/percents",
           "domain": "psda"
         },
@@ -13555,7 +13555,7 @@
         },
         {
           "num": 37,
-          "question": "An employee's salary changed from $80,000 to $90,000. What is the percent change?",
+          "question": "An employee's salary changed from $100,000 to $112,000. What is the percent change?",
           "choices": [
             "17% increase",
             "12% increase",
@@ -13563,7 +13563,7 @@
             "6% increase"
           ],
           "answer": "B",
-          "explanation": "Change = 10; (10)/80 = 0.12 = 12% increase.",
+          "explanation": "Change = 12; (12)/100 = 0.12 = 12% increase.",
           "skill": "Ratios/percents",
           "domain": "psda"
         },
@@ -18425,7 +18425,7 @@
         },
         {
           "num": 30,
-          "question": "An employee's salary changed from $20,000 to $22,000. What is the percent change?",
+          "question": "An employee's salary changed from $25,000 to $28,000. What is the percent change?",
           "choices": [
             "12% decrease",
             "17% increase",
@@ -18433,7 +18433,7 @@
             "6% increase"
           ],
           "answer": "C",
-          "explanation": "Change = 2; (2)/20 = 0.12 = 12% increase.",
+          "explanation": "Change = 3; (3)/25 = 0.12 = 12% increase.",
           "skill": "Ratios/percents",
           "domain": "psda"
         },
