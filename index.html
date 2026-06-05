@@ -301,7 +301,7 @@
 
         // Cheat sheets grid (only show published; upcoming books go on the waitlist)
         const csGrid = document.getElementById('cheatsheetGrid');
-        csGrid.innerHTML = books.map(book => {
+        csGrid.innerHTML = books.filter(b => !b.bank).map(book => {
           const upcoming = !book.published;
           const price = (book.cheatsheetPrice ?? 1.99).toFixed(2);
           const previewImg = upcoming
@@ -332,7 +332,7 @@
 
         // Footer book list
         const footerList = document.getElementById('footerBookList');
-        footerList.innerHTML = books.map(b => `
+        footerList.innerHTML = books.filter(b => !b.bank).map(b => `
           <li><a href="${b.published ? `/access?book=${b.slug}` : '#books'}">${b.shortName}${b.published ? '' : ' <span style="color:var(--gold);font-size:0.75rem;">(Soon)</span>'}</a></li>
         `).join('');
 
