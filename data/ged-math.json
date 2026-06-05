@@ -1007,7 +1007,7 @@
         },
         {
           "num": 17,
-          "question": "Which of the following describes all values of x satisfying  -10 <= 3x - 2 <= 2?",
+          "question": "Which of the following describes all values of x satisfying  -10 <= 3x - 1 <= 2?",
           "choices": [
             "-4 <= x <= 1",
             "x >= -3",
@@ -1015,7 +1015,7 @@
             "-3 < x < 1"
           ],
           "answer": "C",
-          "explanation": "Subtract (-2) from each part: -8 <= 3x <= 4; divide by 3: -3 <= x <= 1.",
+          "explanation": "Subtract (-1) from each part: -9 <= 3x <= 3; divide by 3: -3 <= x <= 1.",
           "skill": "Inequalities",
           "domain": "algebra",
           "difficulty": "medium",
@@ -2489,7 +2489,7 @@
         },
         {
           "num": 17,
-          "question": "Which of the following describes all values of x satisfying  -12 <= 3x + 5 <= 0?",
+          "question": "Which of the following describes all values of x satisfying  -12 <= 3x + 6 <= 0?",
           "choices": [
             "x >= -6",
             "-6 < x < -2",
@@ -2497,7 +2497,7 @@
             "-7 <= x <= -2"
           ],
           "answer": "C",
-          "explanation": "Subtract (5) from each part: -17 <= 3x <= -5; divide by 3: -6 <= x <= -2.",
+          "explanation": "Subtract (6) from each part: -18 <= 3x <= -6; divide by 3: -6 <= x <= -2.",
           "skill": "Inequalities",
           "domain": "algebra",
           "difficulty": "medium",
@@ -2649,7 +2649,7 @@
         },
         {
           "num": 27,
-          "question": "Which of the following describes all values of x satisfying  -12 <= 3x + 0 <= 12?",
+          "question": "Which of the following describes all values of x satisfying  -10 <= 3x + 2 <= 14?",
           "choices": [
             "-4 <= x <= 4",
             "x >= -4",
@@ -2657,7 +2657,7 @@
             "-5 <= x <= 4"
           ],
           "answer": "A",
-          "explanation": "Subtract (0) from each part: -12 <= 3x <= 12; divide by 3: -4 <= x <= 4.",
+          "explanation": "Subtract (2) from each part: -12 <= 3x <= 12; divide by 3: -4 <= x <= 4.",
           "skill": "Inequalities",
           "domain": "algebra",
           "difficulty": "medium",
@@ -3694,7 +3694,7 @@
         },
         {
           "num": 46,
-          "question": "Which of the following describes all values of x satisfying  -2 <= 3x + 5 <= 10?",
+          "question": "Which of the following describes all values of x satisfying  -2 <= 3x + 7 <= 10?",
           "choices": [
             "-3 < x < 1",
             "x >= -3",
@@ -3702,7 +3702,7 @@
             "-4 <= x <= 1"
           ],
           "answer": "C",
-          "explanation": "Subtract (5) from each part: -7 <= 3x <= 5; divide by 3: -3 <= x <= 1.",
+          "explanation": "Subtract (7) from each part: -9 <= 3x <= 3; divide by 3: -3 <= x <= 1.",
           "skill": "Inequalities",
           "domain": "algebra",
           "difficulty": "medium",
@@ -4211,7 +4211,7 @@
         },
         {
           "num": 32,
-          "question": "Which of the following describes all values of x satisfying  -1 <= 4x - 3 <= 15?",
+          "question": "Which of the following describes all values of x satisfying  -1 <= 4x - 1 <= 15?",
           "choices": [
             "0 < x < 4",
             "-1 <= x <= 4",
@@ -4219,7 +4219,7 @@
             "x >= 0"
           ],
           "answer": "C",
-          "explanation": "Subtract (-3) from each part: 2 <= 4x <= 18; divide by 4: 0 <= x <= 4.",
+          "explanation": "Subtract (-1) from each part: 0 <= 4x <= 16; divide by 4: 0 <= x <= 4.",
           "skill": "Inequalities",
           "domain": "algebra",
           "difficulty": "medium",
@@ -5469,7 +5469,7 @@
         },
         {
           "num": 18,
-          "question": "Which of the following describes all values of x satisfying  -1 <= 2x + 0 <= 7?",
+          "question": "Which of the following describes all values of x satisfying  -1 <= 2x + 1 <= 7?",
           "choices": [
             "x >= -1",
             "-1 < x < 3",
@@ -5477,7 +5477,7 @@
             "-2 <= x <= 3"
           ],
           "answer": "C",
-          "explanation": "Subtract (0) from each part: -1 <= 2x <= 7; divide by 2: -1 <= x <= 3.",
+          "explanation": "Subtract (1) from each part: -2 <= 2x <= 6; divide by 2: -1 <= x <= 3.",
           "skill": "Inequalities",
           "domain": "algebra",
           "difficulty": "medium",
@@ -7031,7 +7031,7 @@
         },
         {
           "num": 23,
-          "question": "Which of the following describes all values of x satisfying  -9 <= 4x - 2 <= 7?",
+          "question": "Which of the following describes all values of x satisfying  -9 <= 4x - 1 <= 7?",
           "choices": [
             "-3 <= x <= 2",
             "-2 <= x <= 2",
@@ -7039,7 +7039,7 @@
             "-2 < x < 2"
           ],
           "answer": "B",
-          "explanation": "Subtract (-2) from each part: -7 <= 4x <= 9; divide by 4: -2 <= x <= 2.",
+          "explanation": "Subtract (-1) from each part: -8 <= 4x <= 8; divide by 4: -2 <= x <= 2.",
           "skill": "Inequalities",
           "domain": "algebra",
           "difficulty": "medium",
@@ -7980,7 +7980,7 @@
         },
         {
           "num": 36,
-          "question": "Which of the following describes all values of x satisfying  -2 <= 4x - 4 <= 22?",
+          "question": "Which of the following describes all values of x satisfying  -2 <= 4x - 2 <= 22?",
           "choices": [
             "x >= 0",
             "-1 <= x <= 6",
@@ -7988,7 +7988,7 @@
             "0 < x < 6"
           ],
           "answer": "C",
-          "explanation": "Subtract (-4) from each part: 2 <= 4x <= 26; divide by 4: 0 <= x <= 6.",
+          "explanation": "Subtract (-2) from each part: 0 <= 4x <= 24; divide by 4: 0 <= x <= 6.",
           "skill": "Inequalities",
           "domain": "algebra",
           "difficulty": "medium",
@@ -9430,7 +9430,7 @@
         },
         {
           "num": 34,
-          "question": "Which of the following describes all values of x satisfying  -3 <= 4x - 4 <= 13?",
+          "question": "Which of the following describes all values of x satisfying  -3 <= 4x - 3 <= 13?",
           "choices": [
             "-1 <= x <= 4",
             "x >= 0",
@@ -9438,7 +9438,7 @@
             "0 < x < 4"
           ],
           "answer": "C",
-          "explanation": "Subtract (-4) from each part: 1 <= 4x <= 17; divide by 4: 0 <= x <= 4.",
+          "explanation": "Subtract (-3) from each part: 0 <= 4x <= 16; divide by 4: 0 <= x <= 4.",
           "skill": "Inequalities",
           "domain": "algebra",
           "difficulty": "medium",
@@ -10704,7 +10704,7 @@
         },
         {
           "num": 21,
-          "question": "Which of the following describes all values of x satisfying  -5 <= 3x - 1 <= 13?",
+          "question": "Which of the following describes all values of x satisfying  -5 <= 3x + 1 <= 13?",
           "choices": [
             "x >= -2",
             "-2 < x < 4",
@@ -10712,7 +10712,7 @@
             "-3 <= x <= 4"
           ],
           "answer": "C",
-          "explanation": "Subtract (-1) from each part: -4 <= 3x <= 14; divide by 3: -2 <= x <= 4.",
+          "explanation": "Subtract (1) from each part: -6 <= 3x <= 12; divide by 3: -2 <= x <= 4.",
           "skill": "Inequalities",
           "domain": "algebra",
           "difficulty": "medium",
@@ -13620,7 +13620,7 @@
         },
         {
           "num": 18,
-          "question": "Which of the following describes all values of x satisfying  -6 <= 2x + 3 <= 2?",
+          "question": "Which of the following describes all values of x satisfying  -6 <= 2x + 4 <= 2?",
           "choices": [
             "-5 < x < -1",
             "x >= -5",
@@ -13628,7 +13628,7 @@
             "-5 <= x <= -1"
           ],
           "answer": "D",
-          "explanation": "Subtract (3) from each part: -9 <= 2x <= -1; divide by 2: -5 <= x <= -1.",
+          "explanation": "Subtract (4) from each part: -10 <= 2x <= -2; divide by 2: -5 <= x <= -1.",
           "skill": "Inequalities",
           "domain": "algebra",
           "difficulty": "medium",
@@ -13844,7 +13844,7 @@
         },
         {
           "num": 32,
-          "question": "Which of the following describes all values of x satisfying  -5 <= 4x + 5 <= 19?",
+          "question": "Which of the following describes all values of x satisfying  -5 <= 4x + 7 <= 19?",
           "choices": [
             "-3 <= x <= 3",
             "-3 < x < 3",
@@ -13852,7 +13852,7 @@
             "x >= -3"
           ],
           "answer": "A",
-          "explanation": "Subtract (5) from each part: -10 <= 4x <= 14; divide by 4: -3 <= x <= 3.",
+          "explanation": "Subtract (7) from each part: -12 <= 4x <= 12; divide by 4: -3 <= x <= 3.",
           "skill": "Inequalities",
           "domain": "algebra",
           "difficulty": "medium",
@@ -14473,7 +14473,7 @@
         },
         {
           "num": 25,
-          "question": "Which of the following describes all values of x satisfying  -8 <= 2x - 5 <= 4?",
+          "question": "Which of the following describes all values of x satisfying  -8 <= 2x - 4 <= 4?",
           "choices": [
             "x >= -2",
             "-2 < x < 4",
@@ -14481,7 +14481,7 @@
             "-2 <= x <= 4"
           ],
           "answer": "D",
-          "explanation": "Subtract (-5) from each part: -3 <= 2x <= 9; divide by 2: -2 <= x <= 4.",
+          "explanation": "Subtract (-4) from each part: -4 <= 2x <= 8; divide by 2: -2 <= x <= 4.",
           "skill": "Inequalities",
           "domain": "algebra",
           "difficulty": "medium",
@@ -16456,7 +16456,7 @@
         },
         {
           "num": 10,
-          "question": "Which of the following describes all values of x satisfying  -3 <= 4x - 5 <= 21?",
+          "question": "Which of the following describes all values of x satisfying  -3 <= 4x - 3 <= 21?",
           "choices": [
             "x >= 0",
             "0 < x < 6",
@@ -16464,7 +16464,7 @@
             "0 <= x <= 6"
           ],
           "answer": "D",
-          "explanation": "Subtract (-5) from each part: 2 <= 4x <= 26; divide by 4: 0 <= x <= 6.",
+          "explanation": "Subtract (-3) from each part: 0 <= 4x <= 24; divide by 4: 0 <= x <= 6.",
           "skill": "Inequalities",
           "domain": "algebra",
           "difficulty": "medium",
@@ -20161,7 +20161,7 @@
         },
         {
           "num": 10,
-          "question": "Which of the following describes all values of x satisfying  -12 <= 3x + 4 <= 12?",
+          "question": "Which of the following describes all values of x satisfying  -12 <= 3x + 6 <= 12?",
           "choices": [
             "-6 <= x <= 2",
             "-7 <= x <= 2",
@@ -20169,7 +20169,7 @@
             "-6 < x < 2"
           ],
           "answer": "A",
-          "explanation": "Subtract (4) from each part: -16 <= 3x <= 8; divide by 3: -6 <= x <= 2.",
+          "explanation": "Subtract (6) from each part: -18 <= 3x <= 6; divide by 3: -6 <= x <= 2.",
           "skill": "Inequalities",
           "domain": "algebra",
           "difficulty": "medium",
@@ -21222,7 +21222,7 @@
         },
         {
           "num": 30,
-          "question": "Which of the following describes all values of x satisfying  -5 <= 3x - 1 <= 7?",
+          "question": "Which of the following describes all values of x satisfying  -5 <= 3x + 1 <= 7?",
           "choices": [
             "-2 <= x <= 2",
             "-2 < x < 2",
@@ -21230,7 +21230,7 @@
             "-3 <= x <= 2"
           ],
           "answer": "A",
-          "explanation": "Subtract (-1) from each part: -4 <= 3x <= 8; divide by 3: -2 <= x <= 2.",
+          "explanation": "Subtract (1) from each part: -6 <= 3x <= 6; divide by 3: -2 <= x <= 2.",
           "skill": "Inequalities",
           "domain": "algebra",
           "difficulty": "medium",
@@ -22544,7 +22544,7 @@
         },
         {
           "num": 20,
-          "question": "Which of the following describes all values of x satisfying  -10 <= 4x + 3 <= 22?",
+          "question": "Which of the following describes all values of x satisfying  -10 <= 4x + 6 <= 22?",
           "choices": [
             "x >= -4",
             "-4 <= x <= 4",
@@ -22552,7 +22552,7 @@
             "-4 < x < 4"
           ],
           "answer": "B",
-          "explanation": "Subtract (3) from each part: -13 <= 4x <= 19; divide by 4: -4 <= x <= 4.",
+          "explanation": "Subtract (6) from each part: -16 <= 4x <= 16; divide by 4: -4 <= x <= 4.",
           "skill": "Inequalities",
           "domain": "algebra",
           "difficulty": "medium",
