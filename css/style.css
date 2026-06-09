@@ -67,33 +67,34 @@ a:hover { color: var(--gold-dark); }
 .hero-swap { color: var(--gold); display: inline-block; min-width: 2.6em; text-align: center; transition: opacity 0.35s ease, transform 0.35s ease; }
 .hero-swap.fading { opacity: 0; transform: translateY(-6px); }
 
-/* Vertical floating book wall (replaces the 3-stack).
-   Two parallel marquee lanes scroll in opposite directions for a richer
-   sense of motion. The container has a soft fade at top and bottom. */
-.hero-books { position: relative; height: 540px; overflow: hidden;
-  -webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 12%, black 88%, transparent 100%);
-  mask-image: linear-gradient(to bottom, transparent 0%, black 12%, black 88%, transparent 100%);
-  display: flex; gap: 1.25rem; justify-content: center; padding: 0 0.5rem; }
-.hero-marquee { display: flex; flex-direction: column; gap: 1.25rem;
-  flex: 1 1 0; max-width: 220px;
-  animation: heroScrollUp 45s linear infinite;
-  will-change: transform; }
-.hero-marquee.reverse { animation: heroScrollDown 55s linear infinite; }
-.hero-books:hover .hero-marquee { animation-play-state: paused; }
-.hero-marquee-cover { display: block; width: 100%; aspect-ratio: 3 / 4; border-radius: 6px; overflow: hidden;
-  box-shadow: 0 14px 40px rgba(0, 0, 0, 0.35), 0 4px 12px rgba(0, 0, 0, 0.2);
-  background: var(--gray-100); transition: transform 0.3s ease, box-shadow 0.3s ease;
-  transform: rotate(-3deg); flex-shrink: 0; }
-.hero-marquee.reverse .hero-marquee-cover { transform: rotate(3deg); }
-.hero-marquee-cover:hover { transform: rotate(0) translateY(-6px) scale(1.04);
-  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.45), 0 6px 16px rgba(0, 0, 0, 0.25);
-  z-index: 5; }
-.hero-marquee-cover img { display: block; width: 100%; height: 100%; object-fit: cover; }
-@keyframes heroScrollUp   { from { transform: translateY(0); } to { transform: translateY(-50%); } }
-@keyframes heroScrollDown { from { transform: translateY(-50%); } to { transform: translateY(0); } }
+/* Featured hero book cover — swaps in lockstep with the rotating exam
+   name in the headline so the customer always sees the cover of the
+   exam they're being pitched. Subtle float + tilt give it personality. */
+.hero-books { position: relative; height: 540px; display: flex; align-items: center; justify-content: center; perspective: 1500px; }
+.hero-featured { position: relative; width: 320px; max-width: 80%; aspect-ratio: 3 / 4;
+  transform-style: preserve-3d; animation: heroFloat 7s ease-in-out infinite; }
+.hero-featured::after { content: ''; position: absolute; left: 8%; right: 8%; bottom: -2.5rem; height: 28px;
+  background: radial-gradient(ellipse, rgba(0,0,0,0.55) 0%, transparent 70%); filter: blur(8px); }
+.hero-featured-cover { position: absolute; inset: 0; border-radius: 8px; overflow: hidden;
+  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.5), 0 10px 24px rgba(0, 0, 0, 0.3), inset 0 0 0 1px rgba(255,255,255,0.08);
+  background: var(--gray-100); transform: rotate(-4deg);
+  opacity: 1; transition: opacity 0.45s ease, transform 0.45s ease; }
+.hero-featured-cover.fading { opacity: 0; transform: rotate(-4deg) scale(0.94) translateY(-12px); }
+.hero-featured-cover img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.hero-featured-cover:hover { transform: rotate(0deg) translateY(-6px); }
+.hero-featured-badge { position: absolute; bottom: -1.25rem; left: 50%; transform: translateX(-50%);
+  background: var(--gold); color: var(--navy); font-weight: 800; font-size: 0.72rem; letter-spacing: 1.5px;
+  text-transform: uppercase; padding: 0.45rem 1rem; border-radius: 999px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3); white-space: nowrap;
+  transition: opacity 0.45s ease; }
+.hero-featured-badge.fading { opacity: 0; }
+@keyframes heroFloat {
+  0%, 100% { transform: translateY(0) rotate(0); }
+  50%      { transform: translateY(-12px) rotate(0.5deg); }
+}
 @media (prefers-reduced-motion: reduce) {
-  .hero-marquee, .hero-marquee.reverse { animation: none; }
-  .hero-swap { transition: none; }
+  .hero-featured { animation: none; }
+  .hero-swap, .hero-featured-cover, .hero-featured-badge { transition: none; }
 }
 
 /* BUTTONS */

@@ -231,31 +231,67 @@
         // We split covers into two columns (one offset half-step) and double the
         // contents in each so the upward scroll loops seamlessly when the track
         // reaches -50%.
+        // Hero featured book — swaps in lockstep with the rotating exam
+        // name in the headline so the customer always sees the cover for the
+        // exam they're being pitched.
         const heroBooks = document.getElementById('heroBooks');
-        // Two parallel marquee lanes: shuffle covers so each lane has a varied
-        // mix, split in half, then duplicate each list inside its lane so the
-        // animation reaches translateY(-50%) and seamlessly loops.
-        const shuffled = [...published].sort(() => Math.random() - 0.5);
-        const half = Math.ceil(shuffled.length / 2);
-        const laneA = shuffled.slice(0, half);
-        const laneB = shuffled.slice(half);
-        const renderCover = b => `<a class="hero-marquee-cover" href="${b.amazonUrl || '#books'}" target="_blank" rel="noopener" aria-label="${b.title}"><img src="${b.cover}" alt="${b.title}" loading="eager"></a>`;
-        const renderLane = (covers, reverse) => `<div class="hero-marquee${reverse ? ' reverse' : ''}">${covers.map(renderCover).join('')}${covers.map(renderCover).join('')}</div>`;
-        heroBooks.innerHTML = renderLane(laneA, false) + renderLane(laneB, true);
-
-        // Rotating exam name in the headline — crossfade every 3.5s
         const swap = document.getElementById('heroSwap');
+
+        // Exam-name → website slug. Every entry must point to a published book.
+        const ROTATION = [
+          ['CAST',  'cast'],
+          ['SAT',   'sat-math'],
+          ['TABE',  'tabe-a'],
+          ['CCRN',  'ccrn'],
+          ['ACT',   'act-math'],
+          ['PSAT',  'psat-math'],
+          ['CHST',  'chst'],
+          ['GED',   'ged-math'],
+          ['CSP',   'csp'],
+          ['POSS',  'poss'],
+        ].map(([ex, slug]) => [ex, books.find(b => b.slug === slug)]).filter(([, b]) => b && b.published);
+
+        // Initial render — first exam in the rotation.
+        const [firstExam, firstBook] = ROTATION[0];
+        heroBooks.innerHTML = `
+          <div class="hero-featured">
+            <a id="heroFeaturedCover" class="hero-featured-cover" href="${firstBook.amazonUrl || '#books'}" target="_blank" rel="noopener" aria-label="${firstBook.title}">
+              <img id="heroFeaturedImg" src="${firstBook.cover}" alt="${firstBook.title}" loading="eager">
+            </a>
+            <span id="heroFeaturedBadge" class="hero-featured-badge">${firstExam} Exam · Free Online Tests</span>
+          </div>`;
+
         if (swap) {
-          const exams = ['CAST', 'SAT', 'TABE', 'CCRN', 'ACT', 'PSAT', 'CHST', 'GED', 'CSP', 'POSS'];
+          swap.textContent = firstExam;
+
+          const cover = document.getElementById('heroFeaturedCover');
+          const img = document.getElementById('heroFeaturedImg');
+          const badge = document.getElementById('heroFeaturedBadge');
           let idx = 0;
+
           setInterval(() => {
+            // Phase 1 — fade everything out together (350ms)
             swap.classList.add('fading');
+            cover.classList.add('fading');
+            badge.classList.add('fading');
+
             setTimeout(() => {
-              idx = (idx + 1) % exams.length;
-              swap.textContent = exams[idx];
+              // Phase 2 — swap content while invisible, then fade back in
+              idx = (idx + 1) % ROTATION.length;
+              const [ex, b] = ROTATION[idx];
+              swap.textContent = ex;
+              img.src = b.cover;
+              img.alt = b.title;
+              cover.setAttribute('href', b.amazonUrl || '#books');
+              cover.setAttribute('aria-label', b.title);
+              badge.textContent = `${ex} Exam · Free Online Tests`;
+              // Force a reflow so the transition restarts cleanly
+              void cover.offsetWidth;
               swap.classList.remove('fading');
-            }, 350);
-          }, 3500);
+              cover.classList.remove('fading');
+              badge.classList.remove('fading');
+            }, 450);
+          }, 3800);
         }
 
         // Build category filter from all books
