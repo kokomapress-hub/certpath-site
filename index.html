@@ -258,7 +258,6 @@
             <a id="heroFeaturedCover" class="hero-featured-cover" href="${firstBook.amazonUrl || '#books'}" target="_blank" rel="noopener" aria-label="${firstBook.title}">
               <img id="heroFeaturedImg" src="${firstBook.cover}" alt="${firstBook.title}" loading="eager">
             </a>
-            <span id="heroFeaturedBadge" class="hero-featured-badge">${firstExam} Exam · Free Online Tests</span>
           </div>`;
 
         if (swap) {
@@ -266,14 +265,12 @@
 
           const cover = document.getElementById('heroFeaturedCover');
           const img = document.getElementById('heroFeaturedImg');
-          const badge = document.getElementById('heroFeaturedBadge');
           let idx = 0;
 
           setInterval(() => {
-            // Phase 1 — fade everything out together (350ms)
+            // Phase 1 — fade both out together (450ms)
             swap.classList.add('fading');
             cover.classList.add('fading');
-            badge.classList.add('fading');
 
             setTimeout(() => {
               // Phase 2 — swap content while invisible, then fade back in
@@ -284,12 +281,9 @@
               img.alt = b.title;
               cover.setAttribute('href', b.amazonUrl || '#books');
               cover.setAttribute('aria-label', b.title);
-              badge.textContent = `${ex} Exam · Free Online Tests`;
-              // Force a reflow so the transition restarts cleanly
               void cover.offsetWidth;
               swap.classList.remove('fading');
               cover.classList.remove('fading');
-              badge.classList.remove('fading');
             }, 450);
           }, 3800);
         }
