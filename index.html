@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/css/style.css?v=9">
+  <link rel="stylesheet" href="/css/style.css?v=10">
 </head>
 <body>
   <!-- HEADER -->
@@ -33,7 +33,7 @@
     <div class="hero-inner">
       <div class="hero-grid">
         <div class="hero-content">
-          <h1>Pass Your Exam<br>on the <span class="gold">First Try</span></h1>
+          <h1>Pass Your <span class="hero-swap" id="heroSwap">CAST</span> Exam<br>on the <span class="gold">First Try</span></h1>
           <p class="subtitle">
             Professional study guides for trades, safety, and certification exams. Every book includes free online practice tests with timed exam simulation.
           </p>
@@ -227,11 +227,36 @@
         const books = data.books;
         const published = books.filter(b => b.published);
 
-        // Hero featured books — use first 3 published
+        // Hero floating book wall — vertical marquee through every live cover.
+        // We split covers into two columns (one offset half-step) and double the
+        // contents in each so the upward scroll loops seamlessly when the track
+        // reaches -50%.
         const heroBooks = document.getElementById('heroBooks');
-        heroBooks.innerHTML = published.slice(0, 3).map((b, i) => `
-          <img class="hero-book b${i+1}" src="${b.cover}" alt="${b.title}" loading="eager">
-        `).join('');
+        // Two parallel marquee lanes: shuffle covers so each lane has a varied
+        // mix, split in half, then duplicate each list inside its lane so the
+        // animation reaches translateY(-50%) and seamlessly loops.
+        const shuffled = [...published].sort(() => Math.random() - 0.5);
+        const half = Math.ceil(shuffled.length / 2);
+        const laneA = shuffled.slice(0, half);
+        const laneB = shuffled.slice(half);
+        const renderCover = b => `<a class="hero-marquee-cover" href="${b.amazonUrl || '#books'}" target="_blank" rel="noopener" aria-label="${b.title}"><img src="${b.cover}" alt="${b.title}" loading="eager"></a>`;
+        const renderLane = (covers, reverse) => `<div class="hero-marquee${reverse ? ' reverse' : ''}">${covers.map(renderCover).join('')}${covers.map(renderCover).join('')}</div>`;
+        heroBooks.innerHTML = renderLane(laneA, false) + renderLane(laneB, true);
+
+        // Rotating exam name in the headline — crossfade every 3.5s
+        const swap = document.getElementById('heroSwap');
+        if (swap) {
+          const exams = ['CAST', 'SAT', 'TABE', 'CCRN', 'ACT', 'PSAT', 'CHST', 'GED', 'CSP', 'POSS'];
+          let idx = 0;
+          setInterval(() => {
+            swap.classList.add('fading');
+            setTimeout(() => {
+              idx = (idx + 1) % exams.length;
+              swap.textContent = exams[idx];
+              swap.classList.remove('fading');
+            }, 350);
+          }, 3500);
+        }
 
         // Build category filter from all books
         const categories = [...new Set(published.map(b => b.category))].sort();

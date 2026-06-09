@@ -63,12 +63,38 @@ a:hover { color: var(--gold-dark); }
 .hero-stat .num { font-size: 2rem; font-weight: 800; color: var(--gold); display: block; line-height: 1; }
 .hero-stat .label { font-size: 0.8rem; opacity: 0.7; text-transform: uppercase; letter-spacing: 1px; margin-top: 0.4rem; }
 
-.hero-books { position: relative; height: 480px; }
-.hero-book { position: absolute; width: 200px; border-radius: 4px; box-shadow: var(--shadow-xl); transition: transform 0.3s ease; background: var(--gray-100); }
-.hero-book:hover { transform: translateY(-8px); }
-.hero-book.b1 { left: 0; top: 30px; transform: rotate(-6deg); z-index: 1; }
-.hero-book.b2 { left: 130px; top: 0; z-index: 3; }
-.hero-book.b3 { left: 260px; top: 30px; transform: rotate(6deg); z-index: 1; }
+/* Rotating exam name in the hero headline */
+.hero-swap { color: var(--gold); display: inline-block; min-width: 2.6em; text-align: center; transition: opacity 0.35s ease, transform 0.35s ease; }
+.hero-swap.fading { opacity: 0; transform: translateY(-6px); }
+
+/* Vertical floating book wall (replaces the 3-stack).
+   Two parallel marquee lanes scroll in opposite directions for a richer
+   sense of motion. The container has a soft fade at top and bottom. */
+.hero-books { position: relative; height: 540px; overflow: hidden;
+  -webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 12%, black 88%, transparent 100%);
+  mask-image: linear-gradient(to bottom, transparent 0%, black 12%, black 88%, transparent 100%);
+  display: flex; gap: 1.25rem; justify-content: center; padding: 0 0.5rem; }
+.hero-marquee { display: flex; flex-direction: column; gap: 1.25rem;
+  flex: 1 1 0; max-width: 220px;
+  animation: heroScrollUp 45s linear infinite;
+  will-change: transform; }
+.hero-marquee.reverse { animation: heroScrollDown 55s linear infinite; }
+.hero-books:hover .hero-marquee { animation-play-state: paused; }
+.hero-marquee-cover { display: block; width: 100%; aspect-ratio: 3 / 4; border-radius: 6px; overflow: hidden;
+  box-shadow: 0 14px 40px rgba(0, 0, 0, 0.35), 0 4px 12px rgba(0, 0, 0, 0.2);
+  background: var(--gray-100); transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transform: rotate(-3deg); flex-shrink: 0; }
+.hero-marquee.reverse .hero-marquee-cover { transform: rotate(3deg); }
+.hero-marquee-cover:hover { transform: rotate(0) translateY(-6px) scale(1.04);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.45), 0 6px 16px rgba(0, 0, 0, 0.25);
+  z-index: 5; }
+.hero-marquee-cover img { display: block; width: 100%; height: 100%; object-fit: cover; }
+@keyframes heroScrollUp   { from { transform: translateY(0); } to { transform: translateY(-50%); } }
+@keyframes heroScrollDown { from { transform: translateY(-50%); } to { transform: translateY(0); } }
+@media (prefers-reduced-motion: reduce) {
+  .hero-marquee, .hero-marquee.reverse { animation: none; }
+  .hero-swap { transition: none; }
+}
 
 /* BUTTONS */
 .btn { display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; padding: 0.85rem 1.75rem; background: var(--gold); color: var(--navy); font-weight: 700; font-size: 0.95rem; border-radius: 6px; border: none; cursor: pointer; text-transform: uppercase; letter-spacing: 0.5px; transition: all 0.15s; font-family: inherit; }
