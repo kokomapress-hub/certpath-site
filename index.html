@@ -42,9 +42,9 @@
             <a href="/access" class="btn btn-secondary btn-lg">Access Practice Tests</a>
           </div>
           <div class="hero-stats">
-            <div class="hero-stat"><span class="num">28</span><div class="label">Study Guides</div></div>
-            <div class="hero-stat"><span class="num">529</span><div class="label">Practice Tests</div></div>
-            <div class="hero-stat"><span class="num">25,578</span><div class="label">Questions</div></div>
+            <div class="hero-stat"><span class="num">24</span><div class="label">Study Guides</div></div>
+            <div class="hero-stat"><span class="num">517</span><div class="label">Practice Tests</div></div>
+            <div class="hero-stat"><span class="num">24,888</span><div class="label">Questions</div></div>
           </div>
         </div>
         <div class="hero-books" id="heroBooks"></div>
@@ -100,8 +100,8 @@
   <!-- TRUST BAR -->
   <section class="trust-bar">
     <div class="trust-grid">
-      <div class="trust-item"><div class="num"><span class="gold-text">28</span></div><div class="label">Exams Covered</div></div>
-      <div class="trust-item"><div class="num">25,578</div><div class="label">Practice Questions</div></div>
+      <div class="trust-item"><div class="num"><span class="gold-text">24</span></div><div class="label">Exams Covered</div></div>
+      <div class="trust-item"><div class="num">24,888</div><div class="label">Practice Questions</div></div>
       <div class="trust-item"><div class="num">100%</div><div class="label">Detailed Explanations</div></div>
       <div class="trust-item"><div class="num">FREE</div><div class="label">Online Tests with Every Book</div></div>
     </div>
@@ -234,7 +234,7 @@
         `).join('');
 
         // Build category filter from all books
-        const categories = [...new Set(books.map(b => b.category))].sort();
+        const categories = [...new Set(published.map(b => b.category))].sort();
         const filterBar = document.getElementById('filterBar');
         categories.forEach(cat => {
           const btn = document.createElement('button');
@@ -244,12 +244,11 @@
           filterBar.appendChild(btn);
         });
 
-        // Render book grid (published first, upcoming at end)
+        // Render book grid — only published books (upcoming hidden)
         const grid = document.getElementById('bookGrid');
         function renderBooks(filterCat) {
-          const filtered = (filterCat === 'all' ? books : books.filter(b => b.category === filterCat));
-          // Sort: published first, upcoming last
-          const sorted = [...filtered].sort((a, b) => (b.published ? 1 : 0) - (a.published ? 1 : 0));
+          const filtered = (filterCat === 'all' ? published : published.filter(b => b.category === filterCat));
+          const sorted = filtered;
           grid.innerHTML = sorted.map(book => {
             const upcoming = !book.published;
             const upcomingBadge = upcoming ? `<span class="upcoming-badge">Coming Soon</span>` : '';
@@ -299,9 +298,9 @@
           renderBooks(e.target.dataset.cat);
         });
 
-        // Cheat sheets grid (only show published; upcoming books go on the waitlist)
+        // Cheat sheets grid — only published books
         const csGrid = document.getElementById('cheatsheetGrid');
-        csGrid.innerHTML = books.filter(b => !b.bank).map(book => {
+        csGrid.innerHTML = published.filter(b => !b.bank).map(book => {
           const upcoming = !book.published;
           const price = (book.cheatsheetPrice ?? 1.99).toFixed(2);
           const previewImg = upcoming
@@ -330,10 +329,10 @@
             </div>`;
         }).join('');
 
-        // Footer book list
+        // Footer book list — only published
         const footerList = document.getElementById('footerBookList');
-        footerList.innerHTML = books.filter(b => !b.bank).map(b => `
-          <li><a href="${b.published ? `/access?book=${b.slug}` : '#books'}">${b.shortName}${b.published ? '' : ' <span style="color:var(--gold);font-size:0.75rem;">(Soon)</span>'}</a></li>
+        footerList.innerHTML = published.filter(b => !b.bank).map(b => `
+          <li><a href="/access?book=${b.slug}">${b.shortName}</a></li>
         `).join('');
 
         // Quick unlock form
