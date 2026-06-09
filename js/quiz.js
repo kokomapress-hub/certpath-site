@@ -37,10 +37,19 @@ async function init() {
     return;
   }
 
-  // Load book data
+  // Load book data. Books in books.json may set a `dataSlug` alias when
+  // they share a question bank with another book (e.g. sat-math-workbook
+  // and sat-math-tests both read sat-math.json). Look that up first.
   let data;
   try {
-    const r = await fetch(`/data/${slug}.json`);
+    let dataSlug = slug;
+    try {
+      const meta = await (await fetch('/data/books.json')).json();
+      const entry = meta.books.find(b => b.slug === slug);
+      if (entry && entry.dataSlug) dataSlug = entry.dataSlug;
+    } catch { /* fall back to slug == dataSlug */ }
+
+    const r = await fetch(`/data/${dataSlug}.json`);
     data = await r.json();
   } catch (e) {
     showError("Failed to load book data.");

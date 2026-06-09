@@ -415,7 +415,8 @@
       "amazonUrl": "https://www.amazon.com/dp/B0H49B1Q68",
       "cheatsheetPrice": 1.99,
       "payhipEbookUrl": "",
-      "payhipCheatsheetUrl": ""
+      "payhipCheatsheetUrl": "",
+      "dataSlug": "sat-math"
     },
     {
       "slug": "psat-math-workbook",
@@ -436,7 +437,8 @@
       "amazonUrl": "https://www.amazon.com/dp/B0H49TXZN7",
       "cheatsheetPrice": 1.99,
       "payhipEbookUrl": "",
-      "payhipCheatsheetUrl": ""
+      "payhipCheatsheetUrl": "",
+      "dataSlug": "psat-math"
     },
     {
       "slug": "act-math-workbook",
@@ -457,7 +459,8 @@
       "amazonUrl": "https://www.amazon.com/dp/B0H4C89CML",
       "cheatsheetPrice": 1.99,
       "payhipEbookUrl": "",
-      "payhipCheatsheetUrl": ""
+      "payhipCheatsheetUrl": "",
+      "dataSlug": "act-math"
     },
     {
       "slug": "ged-math-workbook",
@@ -478,7 +481,8 @@
       "amazonUrl": "https://www.amazon.com/dp/B0H4CJPMKT",
       "cheatsheetPrice": 1.99,
       "payhipEbookUrl": "",
-      "payhipCheatsheetUrl": ""
+      "payhipCheatsheetUrl": "",
+      "dataSlug": "ged-math"
     },
     {
       "slug": "psat-math-tests",
@@ -499,7 +503,8 @@
       "amazonUrl": "https://www.amazon.com/dp/B0H4C69P6F",
       "cheatsheetPrice": 1.99,
       "payhipEbookUrl": "",
-      "payhipCheatsheetUrl": ""
+      "payhipCheatsheetUrl": "",
+      "dataSlug": "psat-math"
     },
     {
       "slug": "act-math-tests",
@@ -520,7 +525,8 @@
       "amazonUrl": "https://www.amazon.com/dp/B0H4KG9WPQ",
       "cheatsheetPrice": 1.99,
       "payhipEbookUrl": "",
-      "payhipCheatsheetUrl": ""
+      "payhipCheatsheetUrl": "",
+      "dataSlug": "act-math"
     },
     {
       "slug": "ged-math-tests",
@@ -541,7 +547,8 @@
       "amazonUrl": "https://www.amazon.com/dp/B0H4L73NR3",
       "cheatsheetPrice": 1.99,
       "payhipEbookUrl": "",
-      "payhipCheatsheetUrl": ""
+      "payhipCheatsheetUrl": "",
+      "dataSlug": "ged-math"
     },
     {
       "slug": "sat-math-tests",
@@ -562,7 +569,8 @@
       "amazonUrl": "https://www.amazon.com/dp/B0H4L4FJH7",
       "cheatsheetPrice": 1.99,
       "payhipEbookUrl": "",
-      "payhipCheatsheetUrl": ""
+      "payhipCheatsheetUrl": "",
+      "dataSlug": "sat-math"
     }
   ],
   "adminCode": "PRASAD"
