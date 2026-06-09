@@ -479,7 +479,7 @@
       "cover": "/img/covers/cen.png",
       "shortName": "CEN",
       "category": "Nursing & Critical Care",
-      "published": true,
+      "published": false,
       "paperbackPrice": 19.99,
       "ebookPrice": 9.99,
       "asin": "",

@@ -42,8 +42,14 @@ async function validateCode(code) {
   if (cleanCode === data.adminCode) {
     return { success: true, isAdmin: true, books: data.books, message: "Admin access granted." };
   }
-  const book = data.books.find(b => b.code.toUpperCase() === cleanCode);
-  if (book) return { success: true, isAdmin: false, books: [book], message: `Access granted to ${book.title}.` };
+  // SAT/PSAT/ACT/GED math books share a single printed access code across
+  // the 3 SKUs (Prep + Workbook + 10 Practice Tests) — entering that code
+  // should unlock all matching books, not just the first one found.
+  const matches = data.books.filter(b => b.code && b.code.toUpperCase() === cleanCode);
+  if (matches.length) {
+    const titles = matches.length === 1 ? matches[0].title : `${matches.length} matching books`;
+    return { success: true, isAdmin: false, books: matches, message: `Access granted to ${titles}.` };
+  }
   return { success: false, message: "Invalid access code. Please check the code on the last page of your book." };
 }
 
