@@ -1,0 +1,5348 @@
+{
+  "slug": "sat-math-tests",
+  "title": "Digital SAT Math: 10 Practice Tests",
+  "code": "SAT-MATH-K9P3R-VTQ7M",
+  "timeMinutes": 2450,
+  "tests": [
+    {
+      "testNum": 1,
+      "title": "Full-Length Practice Test 1",
+      "questions": [
+        {
+          "num": 1,
+          "question": "Service A charges $25 plus $8 per visit. Service B charges $35 plus $7 per visit. After how many visits do the two services cost the same total amount?",
+          "choices": [
+            "9",
+            "1",
+            "10",
+            "11"
+          ],
+          "answer": "C",
+          "explanation": "Set $25 + $8m = $35 + $7m; (1)m = 10; m = 10."
+        },
+        {
+          "num": 2,
+          "question": "The polynomial  p(x) = x^3 + 3x^2 + (-4)x + k  has  (x - 3)  as a factor. What is the value of k?",
+          "choices": [
+            "-42",
+            "3",
+            "42",
+            "-41"
+          ],
+          "answer": "A",
+          "explanation": "By the factor theorem, p(3) = 0: 27 + 3(9) + (-4)(3) + k = 0; k = -42."
+        },
+        {
+          "num": 3,
+          "question": "A discount of 40% is applied to an item with a regular price of $300. What is the amount of the discount, in dollars?",
+          "choices": [
+            "12",
+            "340",
+            "180",
+            "120"
+          ],
+          "answer": "D",
+          "explanation": "40% of 300 = 0.40 * 300 = 120."
+        },
+        {
+          "num": 4,
+          "question": "In the xy-plane, the equation of a circle is  (x + 1)^2 + (y - 4)^2 = 9. What are the coordinates of the center of the circle?",
+          "choices": [
+            "(1, 4)",
+            "(1, -4)",
+            "(-1, -4)",
+            "(-1, 4)"
+          ],
+          "answer": "D",
+          "explanation": "Center is (h, k) = (-1, 4)."
+        },
+        {
+          "num": 5,
+          "question": "At a constant unit price, 6 pounds of a product cost $42. At the same unit price, what is the cost, in dollars, of 11 pounds?",
+          "choices": [
+            "70",
+            "47",
+            "18",
+            "77"
+          ],
+          "answer": "D",
+          "explanation": "Unit price = $42/6 = $7/lb; 11 * 7 = $77."
+        },
+        {
+          "num": 6,
+          "question": "Which expression is equivalent to  x^2 + (1)x + (-6)?",
+          "choices": [
+            "(x + (-2))(x + (-3))",
+            "(x + (-6)) (x + (1))",
+            "(x + (2))(x + (-3))",
+            "(x + (-2))(x + (3))"
+          ],
+          "answer": "D",
+          "explanation": "Factor: roots are 2 and -3; expression equals (x - 2)(x - -3)."
+        },
+        {
+          "num": 7,
+          "question": "After a 15% discount, an item costs $34. What was the original price, in dollars?",
+          "choices": [
+            "55",
+            "39.1",
+            "25",
+            "40"
+          ],
+          "answer": "D",
+          "explanation": "Discount factor 0.85; original = 34/0.85 = 40."
+        },
+        {
+          "num": 8,
+          "question": "In the xy-plane, the equation of a circle is  (x - 4)^2 + (y - 6)^2 = 25. What are the coordinates of the center of the circle?",
+          "choices": [
+            "(4, -6)",
+            "(4, 6)",
+            "(-4, 6)",
+            "(-4, -6)"
+          ],
+          "answer": "B",
+          "explanation": "Center is (h, k) = (4, 6)."
+        },
+        {
+          "num": 9,
+          "question": "If  (x + 10) / 2 = 3, what is the value of x?",
+          "choices": [
+            "-7",
+            "-14",
+            "-4",
+            "6"
+          ],
+          "answer": "C",
+          "explanation": "Multiply by 2: x + 10 = 6; x = -4."
+        },
+        {
+          "num": 10,
+          "question": "The functions f and g are defined by  f(x) = 2x + (-2)  and  g(x) = -2x + (3). What is the value of  g(f(-2))?",
+          "choices": [
+            "-3",
+            "15",
+            "7",
+            "9"
+          ],
+          "answer": "B",
+          "explanation": "f(-2) = -6; g(-6) = -2(-6) + (3) = 15."
+        },
+        {
+          "num": 11,
+          "question": "After a 10% discount, an item costs $27. What was the original price, in dollars?",
+          "choices": [
+            "40",
+            "30",
+            "20",
+            "29.7"
+          ],
+          "answer": "B",
+          "explanation": "Discount factor 0.9; original = 27/0.9 = 30."
+        },
+        {
+          "num": 12,
+          "question": "What is the volume of a rectangular box with dimensions 9 by 12 by 7?",
+          "choices": [
+            "510",
+            "28",
+            "115",
+            "756"
+          ],
+          "answer": "D",
+          "explanation": "V = lwh = 9 * 12 * 7 = 756."
+        },
+        {
+          "num": 13,
+          "question": "A line in the xy-plane passes through the points (-3, 2) and (-1, 6). What is the slope of the line?",
+          "choices": [
+            "-2",
+            "3",
+            "1",
+            "2"
+          ],
+          "answer": "D",
+          "explanation": "Slope = (6 - 2)/(-1 - -3) = 4/2 = 2."
+        },
+        {
+          "num": 14,
+          "question": "The function f is defined by  f(x) = 1000(0.85)^x. Which of the following best describes f?",
+          "choices": [
+            "20% decrease",
+            "15% increase",
+            "85% decrease",
+            "15% decrease"
+          ],
+          "answer": "D",
+          "explanation": "Base (0.85) = 1 - 0.15, so f represents a 15% per-period decrease."
+        },
+        {
+          "num": 15,
+          "question": "A discount of 25% is applied to an item with a regular price of $40. What is the amount of the discount, in dollars?",
+          "choices": [
+            "1",
+            "30",
+            "65",
+            "10"
+          ],
+          "answer": "D",
+          "explanation": "25% of 40 = 0.25 * 40 = 10."
+        },
+        {
+          "num": 16,
+          "question": "In the xy-plane, the equation of a circle is  (x + 3)^2 + (y - 6)^2 = 36. What is the radius of this circle?",
+          "choices": [
+            "7",
+            "36",
+            "3",
+            "6"
+          ],
+          "answer": "D",
+          "explanation": "Compare to (x - h)^2 + (y - k)^2 = r^2; r^2 = 36, so r = 6."
+        },
+        {
+          "num": 17,
+          "question": "What is the slope of a line in the xy-plane that is perpendicular to the line  y = (-3/4)x + 7?",
+          "choices": [
+            "-3/4",
+            "4/-3",
+            "4/3",
+            "3/4"
+          ],
+          "answer": "C",
+          "explanation": "The perpendicular slope is the negative reciprocal of -3/4, which is 4/3."
+        },
+        {
+          "num": 18,
+          "question": "What is the minimum value of  f(x) = (x - (3))^2 + (1)?",
+          "choices": [
+            "1",
+            "2",
+            "3",
+            "-1"
+          ],
+          "answer": "A",
+          "explanation": "The minimum occurs when (x - 3)^2 = 0, giving f = 1."
+        },
+        {
+          "num": 19,
+          "question": "An employee's salary changed from $20,000 to $28,000. What is the percent change?",
+          "choices": [
+            "45% increase",
+            "20% increase",
+            "40% increase",
+            "40% decrease"
+          ],
+          "answer": "C",
+          "explanation": "Change = 8; (8)/20 = 0.4 = 40% increase."
+        },
+        {
+          "num": 20,
+          "question": "What is the arc length, in terms of pi, of a 30-degree arc in a circle with radius 6?",
+          "choices": [
+            "2 pi",
+            "1 pi",
+            "3 pi",
+            "6 pi"
+          ],
+          "answer": "B",
+          "explanation": "Arc length = (theta/360)(2 pi r) = (30/360)(2 pi 6) = 1 pi."
+        },
+        {
+          "num": 21,
+          "question": "What is the slope of a line in the xy-plane that is perpendicular to the line  y = (-4/3)x + -3?",
+          "choices": [
+            "3/4",
+            "-4/3",
+            "4/3",
+            "3/-4"
+          ],
+          "answer": "A",
+          "explanation": "The perpendicular slope is the negative reciprocal of -4/3, which is 3/4."
+        },
+        {
+          "num": 22,
+          "question": "The functions f and g are defined by  f(x) = -3x + (-4)  and  g(x) = -2x + (-3). What is the value of  g(f(3))?",
+          "choices": [
+            "-16",
+            "-9",
+            "11",
+            "23"
+          ],
+          "answer": "D",
+          "explanation": "f(3) = -13; g(-13) = -2(-13) + (-3) = 23."
+        },
+        {
+          "num": 23,
+          "question": "What is the median of the data set 2, 35, 48, 3, 26?",
+          "choices": [
+            "2",
+            "22",
+            "48",
+            "26"
+          ],
+          "answer": "D",
+          "explanation": "Sort: [2, 3, 26, 35, 48]; median = middle value = 26."
+        },
+        {
+          "num": 24,
+          "question": "Two angles of a triangle measure 30 degrees and 103 degrees. What is the measure of the third angle?",
+          "choices": [
+            "57 degrees",
+            "37 degrees",
+            "133 degrees",
+            "47 degrees"
+          ],
+          "answer": "D",
+          "explanation": "Sum of triangle angles is 180: 30 + 103 + c = 180; c = 47."
+        },
+        {
+          "num": 25,
+          "question": "What is the solution (x, y) to the system  x + y = 13  and  x - y = 3?",
+          "choices": [
+            "(8, 5)",
+            "(13, 3)",
+            "(5, 8)",
+            "(9, 4)"
+          ],
+          "answer": "A",
+          "explanation": "Add: 2x = 16; x = 8; y = 5."
+        },
+        {
+          "num": 26,
+          "question": "Which expression is equivalent to  (x + (5))(x + (3))?",
+          "choices": [
+            "x^2 + 15x + 8",
+            "x^2 - 8x + 15",
+            "x^2 + 8x - 15",
+            "x^2 + 8x + 15"
+          ],
+          "answer": "D",
+          "explanation": "FOIL: x^2 + (5)x + (3)x + (5)(3) = x^2 + (8)x + (15)."
+        },
+        {
+          "num": 27,
+          "question": "What is the range of the data set 6, 29, 5, 34, 48?",
+          "choices": [
+            "5",
+            "44",
+            "48",
+            "43"
+          ],
+          "answer": "D",
+          "explanation": "Range = max - min = 48 - 5 = 43."
+        },
+        {
+          "num": 28,
+          "question": "What is the volume of a rectangular box with dimensions 5 by 4 by 2?",
+          "choices": [
+            "76",
+            "11",
+            "22",
+            "40"
+          ],
+          "answer": "D",
+          "explanation": "V = lwh = 5 * 4 * 2 = 40."
+        },
+        {
+          "num": 29,
+          "question": "What is the solution (x, y) to the system  4x + 2y = 20  and  x + y = 9?",
+          "choices": [
+            "(2, 7)",
+            "(1, 8)",
+            "(8, 1)",
+            "(9, 0)"
+          ],
+          "answer": "B",
+          "explanation": "From the second equation, x = 9 - y. Substitute: 4(9 - y) + 2y = 20; (-2)y = -16; y = 8; x = 1."
+        },
+        {
+          "num": 30,
+          "question": "The function f is defined by  f(x) = 100(1.10)^x. According to the model, f represents exponential growth at what rate per period?",
+          "choices": [
+            "1.0%",
+            "10%",
+            "15%",
+            "110%"
+          ],
+          "answer": "B",
+          "explanation": "Base (1.10) = 1 + 0.10 represents a 10% increase per period."
+        },
+        {
+          "num": 31,
+          "question": "What is the solution (x, y) to the system  x + y = 20  and  x - y = 4?",
+          "choices": [
+            "(12, 8)",
+            "(20, 4)",
+            "(8, 12)",
+            "(13, 7)"
+          ],
+          "answer": "A",
+          "explanation": "Add: 2x = 24; x = 12; y = 8."
+        },
+        {
+          "num": 32,
+          "question": "What is the value of x that satisfies the equation  sqrt(3x + (-8)) = 4?",
+          "choices": [
+            "16",
+            "9",
+            "8",
+            "24"
+          ],
+          "answer": "C",
+          "explanation": "Square both sides: 3x + (-8) = 16; 3x = 24; x = 8."
+        },
+        {
+          "num": 33,
+          "question": "What is the y-intercept of the graph of  2x + 4y = 16  in the xy-plane?",
+          "choices": [
+            "16",
+            "4",
+            "-4",
+            "2"
+          ],
+          "answer": "B",
+          "explanation": "Set x = 0: 4y = 16; y = 4."
+        },
+        {
+          "num": 34,
+          "question": "What is the y-intercept of the graph of  y = 2x^2 + (-4)x + (-2)  in the xy-plane?",
+          "choices": [
+            "-4",
+            "2",
+            "-2",
+            "-1"
+          ],
+          "answer": "C",
+          "explanation": "Set x = 0: y = -2."
+        },
+        {
+          "num": 35,
+          "question": "Which of the following describes all values of x satisfying  -2 <= 3x + (1) <= 22?",
+          "choices": [
+            "-1 <= x <= 7",
+            "-2 <= x <= 7",
+            "x >= -1",
+            "-1 < x < 7"
+          ],
+          "answer": "A",
+          "explanation": "Subtract (1) from each part: -3 <= 3x <= 21; divide by 3: -1 <= x <= 7."
+        },
+        {
+          "num": 36,
+          "question": "Which expression is equivalent to  (x + (3))(x + (4))?",
+          "choices": [
+            "x^2 + 12x + 7",
+            "x^2 + 7x - 12",
+            "x^2 + 7x + 12",
+            "x^2 - 7x + 12"
+          ],
+          "answer": "C",
+          "explanation": "FOIL: x^2 + (3)x + (4)x + (3)(4) = x^2 + (7)x + (12)."
+        },
+        {
+          "num": 37,
+          "question": "Which equation represents the line in the xy-plane that is parallel to  y = 2x + (-1)  and passes through (0, 2)?",
+          "choices": [
+            "y = 2x + -1",
+            "y = -2x + 2",
+            "y = 2x + 2",
+            "y = 0.5x + 2"
+          ],
+          "answer": "C",
+          "explanation": "Parallel lines share slope (2); the y-intercept is given as 2."
+        },
+        {
+          "num": 38,
+          "question": "Which expression is equivalent to  (x + (5))(x + (2))?",
+          "choices": [
+            "x^2 + 7x - 10",
+            "x^2 + 7x + 10",
+            "x^2 - 7x + 10",
+            "x^2 + 10x + 7"
+          ],
+          "answer": "B",
+          "explanation": "FOIL: x^2 + (5)x + (2)x + (5)(2) = x^2 + (7)x + (10)."
+        },
+        {
+          "num": 39,
+          "question": "Which value of x satisfies the equation  4(x - 4) = 3x + -12?",
+          "choices": [
+            "4",
+            "5",
+            "2",
+            "6"
+          ],
+          "answer": "A",
+          "explanation": "Distribute: 4x - 16 = 3x + -12; (1)x = 4; x = 4."
+        },
+        {
+          "num": 40,
+          "question": "What are the solutions to the equation  |2x + (-6)| = 12?",
+          "choices": [
+            "x = -3 and x = 9",
+            "x = 12",
+            "x = 9 only",
+            "x = 3 and x = -9"
+          ],
+          "answer": "A",
+          "explanation": "2x + (-6) = 12 or 2x + (-6) = -12; x = 9 or x = -3."
+        },
+        {
+          "num": 41,
+          "question": "What is the y-intercept of the graph of  7x + 5y = 25  in the xy-plane?",
+          "choices": [
+            "-5",
+            "5",
+            "7",
+            "25"
+          ],
+          "answer": "B",
+          "explanation": "Set x = 0: 5y = 25; y = 5."
+        },
+        {
+          "num": 42,
+          "question": "Which expression is equivalent to  (x + (-2))(x + (-5))?",
+          "choices": [
+            "x^2 - 7x + 10",
+            "x^2 + 10x - 7",
+            "x^2 + 7x + 10",
+            "x^2 + -7x - 10"
+          ],
+          "answer": "A",
+          "explanation": "FOIL: x^2 + (-2)x + (-5)x + (-2)(-5) = x^2 + (-7)x + (10)."
+        },
+        {
+          "num": 43,
+          "question": "The function f is defined by  f(x) = 3x + (-8). What is the value of f(-1)?",
+          "choices": [
+            "-11",
+            "-10",
+            "5",
+            "-5"
+          ],
+          "answer": "A",
+          "explanation": "f(-1) = 3(-1) + (-8) = -3 + (-8) = -11."
+        },
+        {
+          "num": 44,
+          "question": "Which expression is equivalent to  x^2 + (-6)x + (8)?",
+          "choices": [
+            "(x + (8)) (x + (-6))",
+            "(x + (4))(x + (2))",
+            "(x + (-4))(x + (-2))",
+            "(x + (-4))(x + (2))"
+          ],
+          "answer": "C",
+          "explanation": "Factor: roots are 4 and 2; expression equals (x - 4)(x - 2)."
+        }
+      ]
+    },
+    {
+      "testNum": 2,
+      "title": "Full-Length Practice Test 2",
+      "questions": [
+        {
+          "num": 1,
+          "question": "A linear function f satisfies  f(5) = 17  and  f(7) = 23. What is the slope of the graph of f in the xy-plane?",
+          "choices": [
+            "6",
+            "-3",
+            "4",
+            "3"
+          ],
+          "answer": "D",
+          "explanation": "Slope = (23 - 17)/(7 - 5) = 6/2 = 3."
+        },
+        {
+          "num": 2,
+          "question": "What are the solutions to the equation  x^2 + (-4)x + (-12) = 0?",
+          "choices": [
+            "x = -4 and x = -12",
+            "x = -2 and x = 6",
+            "x = 6 and x = 2",
+            "x = -6 and x = 2"
+          ],
+          "answer": "B",
+          "explanation": "Factor: (x - 6)(x - -2) = 0, giving x = 6 or x = -2."
+        },
+        {
+          "num": 3,
+          "question": "What is the mean of the values 9, 7, 6, 8, 5?",
+          "choices": [
+            "8",
+            "35",
+            "7",
+            "6"
+          ],
+          "answer": "C",
+          "explanation": "Sum = 35; mean = 35/5 = 7."
+        },
+        {
+          "num": 4,
+          "question": "What is the volume of a rectangular box with dimensions 11 by 2 by 9?",
+          "choices": [
+            "31",
+            "198",
+            "278",
+            "22"
+          ],
+          "answer": "B",
+          "explanation": "V = lwh = 11 * 2 * 9 = 198."
+        },
+        {
+          "num": 5,
+          "question": "Service A charges $20 plus $8 per visit. Service B charges $25 plus $7 per visit. After how many visits do the two services cost the same total amount?",
+          "choices": [
+            "5",
+            "1",
+            "4",
+            "6"
+          ],
+          "answer": "A",
+          "explanation": "Set $20 + $8m = $25 + $7m; (1)m = 5; m = 5."
+        },
+        {
+          "num": 6,
+          "question": "The functions f and g are defined by  f(x) = 4x + (-1)  and  g(x) = -2x + (5). What is the value of  g(f(3))?",
+          "choices": [
+            "-1",
+            "-17",
+            "16",
+            "-20"
+          ],
+          "answer": "B",
+          "explanation": "f(3) = 11; g(11) = -2(11) + (5) = -17."
+        },
+        {
+          "num": 7,
+          "question": "A random sample of 400 students from a school of 1000 students was surveyed; 25% reported playing a sport. Based on this sample, the best estimate of the number of students at the school who play a sport is closest to:",
+          "choices": [
+            "750",
+            "500",
+            "250",
+            "125"
+          ],
+          "answer": "C",
+          "explanation": "Estimate = sample proportion times population: 0.25 * 1000 = 250."
+        },
+        {
+          "num": 8,
+          "question": "In the xy-plane, the equation of a circle is  (x + 5)^2 + (y - 6)^2 = 36. What is the radius of this circle?",
+          "choices": [
+            "6",
+            "3",
+            "7",
+            "36"
+          ],
+          "answer": "A",
+          "explanation": "Compare to (x - h)^2 + (y - k)^2 = r^2; r^2 = 36, so r = 6."
+        },
+        {
+          "num": 9,
+          "question": "For what value of k does the equation  7x + 8 = 7x + k  have infinitely many solutions?",
+          "choices": [
+            "9",
+            "-8",
+            "7",
+            "8"
+          ],
+          "answer": "D",
+          "explanation": "For infinitely many solutions, both sides must be identical, so k = 8."
+        },
+        {
+          "num": 10,
+          "question": "The polynomial  p(x) = x^3 + 4x^2 + (2)x + k  has  (x - 2)  as a factor. What is the value of k?",
+          "choices": [
+            "-28",
+            "2",
+            "-27",
+            "28"
+          ],
+          "answer": "A",
+          "explanation": "By the factor theorem, p(2) = 0: 8 + 4(4) + (2)(2) + k = 0; k = -28."
+        },
+        {
+          "num": 11,
+          "question": "What is the range of the data set 37, 43, 4, 11, 5?",
+          "choices": [
+            "39",
+            "43",
+            "4",
+            "40"
+          ],
+          "answer": "A",
+          "explanation": "Range = max - min = 43 - 4 = 39."
+        },
+        {
+          "num": 12,
+          "question": "What is the volume of a rectangular box with dimensions 6 by 10 by 5?",
+          "choices": [
+            "280",
+            "21",
+            "300",
+            "65"
+          ],
+          "answer": "C",
+          "explanation": "V = lwh = 6 * 10 * 5 = 300."
+        },
+        {
+          "num": 13,
+          "question": "If  (x + 6) / 4 = 4, what is the value of x?",
+          "choices": [
+            "10",
+            "4",
+            "-2",
+            "16"
+          ],
+          "answer": "A",
+          "explanation": "Multiply by 4: x + 6 = 16; x = 10."
+        },
+        {
+          "num": 14,
+          "question": "The functions f and g are defined by  f(x) = 3x + (2)  and  g(x) = 3x + (-5). What is the value of  g(f(0))?",
+          "choices": [
+            "-5",
+            "1",
+            "2",
+            "-3"
+          ],
+          "answer": "B",
+          "explanation": "f(0) = 2; g(2) = 3(2) + (-5) = 1."
+        },
+        {
+          "num": 15,
+          "question": "An employee's salary changed from $120,000 to $150,000. What is the percent change?",
+          "choices": [
+            "30% increase",
+            "25% increase",
+            "25% decrease",
+            "12% increase"
+          ],
+          "answer": "B",
+          "explanation": "Change = 30; (30)/120 = 0.25 = 25% increase."
+        },
+        {
+          "num": 16,
+          "question": "What is the volume of a rectangular box with dimensions 5 by 6 by 8?",
+          "choices": [
+            "240",
+            "38",
+            "236",
+            "19"
+          ],
+          "answer": "A",
+          "explanation": "V = lwh = 5 * 6 * 8 = 240."
+        },
+        {
+          "num": 17,
+          "question": "The function f is defined by  f(x) = 4x + (-3). For what value of x is  f(x) = 25?",
+          "choices": [
+            "8",
+            "6",
+            "28",
+            "7"
+          ],
+          "answer": "D",
+          "explanation": "4x + (-3) = 25; 4x = 28; x = 7."
+        },
+        {
+          "num": 18,
+          "question": "The functions f and g are defined by  f(x) = 2x + (3)  and  g(x) = -2x + (-3). What is the value of  g(f(-2))?",
+          "choices": [
+            "1",
+            "8",
+            "-1",
+            "-4"
+          ],
+          "answer": "C",
+          "explanation": "f(-2) = -1; g(-1) = -2(-1) + (-3) = -1."
+        },
+        {
+          "num": 19,
+          "question": "A discount of 12% is applied to an item with a regular price of $250. What is the amount of the discount, in dollars?",
+          "choices": [
+            "262",
+            "30",
+            "220",
+            "3"
+          ],
+          "answer": "B",
+          "explanation": "12% of 250 = 0.12 * 250 = 30."
+        },
+        {
+          "num": 20,
+          "question": "What is the volume of a rectangular box with dimensions 7 by 8 by 5?",
+          "choices": [
+            "20",
+            "280",
+            "61",
+            "262"
+          ],
+          "answer": "B",
+          "explanation": "V = lwh = 7 * 8 * 5 = 280."
+        },
+        {
+          "num": 21,
+          "question": "What are the coordinates of the x-intercept of the graph of  6x + 4y = 42  in the xy-plane?",
+          "choices": [
+            "(-7, 0)",
+            "(7, 0)",
+            "(7, 4)",
+            "(0, 7)"
+          ],
+          "answer": "B",
+          "explanation": "Set y = 0: 6x = 42; x = 7, so x-intercept is (7, 0)."
+        },
+        {
+          "num": 22,
+          "question": "What is the y-intercept of the graph of  y = 1x^2 + (3)x + (-2)  in the xy-plane?",
+          "choices": [
+            "2",
+            "3",
+            "1",
+            "-2"
+          ],
+          "answer": "D",
+          "explanation": "Set x = 0: y = -2."
+        },
+        {
+          "num": 23,
+          "question": "A random sample of 100 students from a school of 4000 students was surveyed; 30% reported playing a sport. Based on this sample, the best estimate of the number of students at the school who play a sport is closest to:",
+          "choices": [
+            "2800",
+            "2400",
+            "1200",
+            "600"
+          ],
+          "answer": "C",
+          "explanation": "Estimate = sample proportion times population: 0.30 * 4000 = 1200."
+        },
+        {
+          "num": 24,
+          "question": "In the xy-plane, the equation of a circle is  (x - 6)^2 + (y + 3)^2 = 36. What is the radius of this circle?",
+          "choices": [
+            "3",
+            "6",
+            "36",
+            "7"
+          ],
+          "answer": "B",
+          "explanation": "Compare to (x - h)^2 + (y - k)^2 = r^2; r^2 = 36, so r = 6."
+        },
+        {
+          "num": 25,
+          "question": "The function f is defined by  f(x) = -2x + (-4). What is the value of f(2)?",
+          "choices": [
+            "-8",
+            "-6",
+            "0",
+            "-7"
+          ],
+          "answer": "A",
+          "explanation": "f(2) = -2(2) + (-4) = -4 + (-4) = -8."
+        },
+        {
+          "num": 26,
+          "question": "What is the value of x that satisfies the equation  sqrt(3x + (-5)) = 4?",
+          "choices": [
+            "7",
+            "16",
+            "21",
+            "8"
+          ],
+          "answer": "A",
+          "explanation": "Square both sides: 3x + (-5) = 16; 3x = 21; x = 7."
+        },
+        {
+          "num": 27,
+          "question": "What is the mean of the values 18, 15, 17, 19, 16?",
+          "choices": [
+            "16",
+            "85",
+            "17",
+            "18"
+          ],
+          "answer": "C",
+          "explanation": "Sum = 85; mean = 85/5 = 17."
+        },
+        {
+          "num": 28,
+          "question": "In the xy-plane, the equation of a circle is  (x + 1)^2 + (y - 2)^2 = 25. What is the radius of this circle?",
+          "choices": [
+            "5",
+            "2",
+            "6",
+            "25"
+          ],
+          "answer": "A",
+          "explanation": "Compare to (x - h)^2 + (y - k)^2 = r^2; r^2 = 25, so r = 5."
+        },
+        {
+          "num": 29,
+          "question": "A student wants an average of at least 90 across 3 tests, each scored out of 100. So far the student's combined score on the first 2 tests is 178. Which inequality represents the score t the student must achieve on the final test to meet the goal?",
+          "choices": [
+            "t <= 92",
+            "t >= 92",
+            "t > 92",
+            "t >= 97"
+          ],
+          "answer": "B",
+          "explanation": "(178 + t)/3 >= 90; 178 + t >= 270; t >= 92."
+        },
+        {
+          "num": 30,
+          "question": "What are the solutions to the equation  |4x + (2)| = 10?",
+          "choices": [
+            "x = 3 and x = -2",
+            "x = -3 and x = 2",
+            "x = 10",
+            "x = 2 only"
+          ],
+          "answer": "B",
+          "explanation": "4x + (2) = 10 or 4x + (2) = -10; x = 2 or x = -3."
+        },
+        {
+          "num": 31,
+          "question": "What is the y-intercept of the graph of  8x + 2y = 10  in the xy-plane?",
+          "choices": [
+            "-5",
+            "5",
+            "8",
+            "10"
+          ],
+          "answer": "B",
+          "explanation": "Set x = 0: 2y = 10; y = 5."
+        },
+        {
+          "num": 32,
+          "question": "What are the x-intercepts of the graph of  y = (x - (-1))(x - (-6))?",
+          "choices": [
+            "x = 1 and x = 6",
+            "x = -1 and x = 6",
+            "x = -1 and x = -6",
+            "x = 6"
+          ],
+          "answer": "C",
+          "explanation": "Set each factor equal to zero: x = -1 or x = -6."
+        },
+        {
+          "num": 33,
+          "question": "A linear function f satisfies  f(0) = 7  and  f(4) = 23. What is the slope of the graph of f in the xy-plane?",
+          "choices": [
+            "5",
+            "-4",
+            "4",
+            "8"
+          ],
+          "answer": "C",
+          "explanation": "Slope = (23 - 7)/(4 - 0) = 16/4 = 4."
+        },
+        {
+          "num": 34,
+          "question": "What is the y-intercept of the graph of  y = 2x^2 + (-6)x + (10)  in the xy-plane?",
+          "choices": [
+            "-10",
+            "2",
+            "10",
+            "-6"
+          ],
+          "answer": "C",
+          "explanation": "Set x = 0: y = 10."
+        },
+        {
+          "num": 35,
+          "question": "What is the solution (x, y) to the system  x + y = 11  and  x - y = 9?",
+          "choices": [
+            "(11, 9)",
+            "(10, 1)",
+            "(1, 10)",
+            "(11, 0)"
+          ],
+          "answer": "B",
+          "explanation": "Add: 2x = 20; x = 10; y = 1."
+        },
+        {
+          "num": 36,
+          "question": "What is the minimum value of  f(x) = 4(x - (-1))^2 + (-4)?",
+          "choices": [
+            "-4",
+            "-1",
+            "4",
+            "0"
+          ],
+          "answer": "A",
+          "explanation": "The minimum occurs when (x - -1)^2 = 0, giving f = -4."
+        },
+        {
+          "num": 37,
+          "question": "Which equation represents the line in the xy-plane that is parallel to  y = 4x + (3)  and passes through (0, -4)?",
+          "choices": [
+            "y = -4x + -4",
+            "y = 0.25x + -4",
+            "y = 4x + 3",
+            "y = 4x - 4"
+          ],
+          "answer": "D",
+          "explanation": "Parallel lines share slope (4); the y-intercept is given as -4."
+        },
+        {
+          "num": 38,
+          "question": "What is the y-intercept of the graph of  y = 3x^2 + (5)x + (4)  in the xy-plane?",
+          "choices": [
+            "3",
+            "4",
+            "5",
+            "-4"
+          ],
+          "answer": "B",
+          "explanation": "Set x = 0: y = 4."
+        },
+        {
+          "num": 39,
+          "question": "The function f is defined by  f(x) = 4x + (8). For what value of x is  f(x) = 44?",
+          "choices": [
+            "8",
+            "10",
+            "9",
+            "36"
+          ],
+          "answer": "C",
+          "explanation": "4x + (8) = 44; 4x = 36; x = 9."
+        },
+        {
+          "num": 40,
+          "question": "What are the solutions to the equation  |1x + (-6)| = 6?",
+          "choices": [
+            "x = 6",
+            "x = 12 only",
+            "x = 0 and x = -12",
+            "x = 0 and x = 12"
+          ],
+          "answer": "D",
+          "explanation": "1x + (-6) = 6 or 1x + (-6) = -6; x = 12 or x = 0."
+        },
+        {
+          "num": 41,
+          "question": "What is the solution (x, y) to the system  4x + 4y = 24  and  x + y = 6?",
+          "choices": [
+            "(4, 2)",
+            "(2, 4)",
+            "(3, 3)",
+            "(6, 0)"
+          ],
+          "answer": "B",
+          "explanation": "From the second equation, x = 6 - y. Substitute: 4(6 - y) + 4y = 24; (0)y = 0; y = 4; x = 2."
+        },
+        {
+          "num": 42,
+          "question": "What is the value of x that satisfies the equation  sqrt(1x + (18)) = 5?",
+          "choices": [
+            "7",
+            "25",
+            "9",
+            "8"
+          ],
+          "answer": "A",
+          "explanation": "Square both sides: 1x + (18) = 25; 1x = 7; x = 7."
+        },
+        {
+          "num": 43,
+          "question": "How many solutions does the system  y = 3x + (-1)  and  y = 3x + (1)  have?",
+          "choices": [
+            "Infinitely many solutions",
+            "Exactly two solutions",
+            "No solution",
+            "Exactly one solution"
+          ],
+          "answer": "C",
+          "explanation": "Same slope (3) and different y-intercepts (-1 vs 1) means parallel lines and no solution."
+        },
+        {
+          "num": 44,
+          "question": "The functions f and g are defined by  f(x) = 2x + (2)  and  g(x) = -2x + (3). What is the value of  g(f(-1))?",
+          "choices": [
+            "5",
+            "3",
+            "9",
+            "4"
+          ],
+          "answer": "B",
+          "explanation": "f(-1) = 0; g(0) = -2(0) + (3) = 3."
+        }
+      ]
+    },
+    {
+      "testNum": 3,
+      "title": "Full-Length Practice Test 3",
+      "questions": [
+        {
+          "num": 1,
+          "question": "Which value of x satisfies the equation  5(x - 6) = 1x + 18?",
+          "choices": [
+            "6",
+            "12",
+            "10",
+            "14"
+          ],
+          "answer": "B",
+          "explanation": "Distribute: 5x - 30 = 1x + 18; (4)x = 48; x = 12."
+        },
+        {
+          "num": 2,
+          "question": "A population doubles every 3 years. If the population starts at 1000, what is the population after 9 years?",
+          "choices": [
+            "6000",
+            "16000",
+            "1008",
+            "8000"
+          ],
+          "answer": "D",
+          "explanation": "In 9 years there are 3 doublings: 1000 * 2^3 = 8000."
+        },
+        {
+          "num": 3,
+          "question": "A bag contains 5 red, 5 blue, and 6 green marbles. If a marble is selected at random, what is the probability that it is NOT blue?",
+          "choices": [
+            "5/16",
+            "11/5",
+            "11/16",
+            "1/2"
+          ],
+          "answer": "C",
+          "explanation": "Not blue: 11 out of 16 = 11/16."
+        },
+        {
+          "num": 4,
+          "question": "What is the volume of a rectangular box with dimensions 7 by 5 by 5?",
+          "choices": [
+            "40",
+            "17",
+            "175",
+            "190"
+          ],
+          "answer": "C",
+          "explanation": "V = lwh = 7 * 5 * 5 = 175."
+        },
+        {
+          "num": 5,
+          "question": "A line in the xy-plane passes through the points (4, 4) and (6, 14). What is the slope of the line?",
+          "choices": [
+            "-5",
+            "4",
+            "5",
+            "6"
+          ],
+          "answer": "C",
+          "explanation": "Slope = (14 - 4)/(6 - 4) = 10/2 = 5."
+        },
+        {
+          "num": 6,
+          "question": "Which expression is equivalent to  (x + (-5))(x + (-3))?",
+          "choices": [
+            "x^2 + 15x - 8",
+            "x^2 + 8x + 15",
+            "x^2 + -8x - 15",
+            "x^2 - 8x + 15"
+          ],
+          "answer": "D",
+          "explanation": "FOIL: x^2 + (-5)x + (-3)x + (-5)(-3) = x^2 + (-8)x + (15)."
+        },
+        {
+          "num": 7,
+          "question": "An employee's salary changed from $50,000 to $56,000. What is the percent change?",
+          "choices": [
+            "17% increase",
+            "6% increase",
+            "12% decrease",
+            "12% increase"
+          ],
+          "answer": "D",
+          "explanation": "Change = 6; (6)/50 = 0.12 = 12% increase."
+        },
+        {
+          "num": 8,
+          "question": "Two angles of a triangle measure 25 degrees and 88 degrees. What is the measure of the third angle?",
+          "choices": [
+            "77 degrees",
+            "113 degrees",
+            "67 degrees",
+            "57 degrees"
+          ],
+          "answer": "C",
+          "explanation": "Sum of triangle angles is 180: 25 + 88 + c = 180; c = 67."
+        },
+        {
+          "num": 9,
+          "question": "The function f is defined by  f(x) = -5x + (-2). What is the value of f(7)?",
+          "choices": [
+            "-7",
+            "-37",
+            "-36",
+            "-33"
+          ],
+          "answer": "B",
+          "explanation": "f(7) = -5(7) + (-2) = -35 + (-2) = -37."
+        },
+        {
+          "num": 10,
+          "question": "What is the value of x that satisfies the equation  sqrt(1x + (1)) = 2?",
+          "choices": [
+            "4",
+            "5",
+            "3",
+            "2"
+          ],
+          "answer": "C",
+          "explanation": "Square both sides: 1x + (1) = 4; 1x = 3; x = 3."
+        },
+        {
+          "num": 11,
+          "question": "What is the mean of the values 13, 12, 14, 10, 11?",
+          "choices": [
+            "13",
+            "60",
+            "12",
+            "11"
+          ],
+          "answer": "C",
+          "explanation": "Sum = 60; mean = 60/5 = 12."
+        },
+        {
+          "num": 12,
+          "question": "What is the volume of a rectangular box with dimensions 10 by 12 by 9?",
+          "choices": [
+            "129",
+            "1080",
+            "636",
+            "31"
+          ],
+          "answer": "B",
+          "explanation": "V = lwh = 10 * 12 * 9 = 1080."
+        },
+        {
+          "num": 13,
+          "question": "If  4x + -9 = 23, what is the value of x?",
+          "choices": [
+            "8",
+            "9",
+            "32",
+            "7"
+          ],
+          "answer": "A",
+          "explanation": "4x = 32; x = 8."
+        },
+        {
+          "num": 14,
+          "question": "The polynomial  p(x) = x^3 + 2x^2 + (-3)x + k  has  (x - 4)  as a factor. What is the value of k?",
+          "choices": [
+            "84",
+            "-83",
+            "4",
+            "-84"
+          ],
+          "answer": "D",
+          "explanation": "By the factor theorem, p(4) = 0: 64 + 2(16) + (-3)(4) + k = 0; k = -84."
+        },
+        {
+          "num": 15,
+          "question": "What is the median of the data set 40, 32, 26, 2, 21?",
+          "choices": [
+            "2",
+            "40",
+            "24",
+            "26"
+          ],
+          "answer": "D",
+          "explanation": "Sort: [2, 21, 26, 32, 40]; median = middle value = 26."
+        },
+        {
+          "num": 16,
+          "question": "In the xy-plane, the equation of a circle is  (x - 2)^2 + (y - 2)^2 = 25. What are the coordinates of the center of the circle?",
+          "choices": [
+            "(2, 2)",
+            "(-2, -2)",
+            "(2, -2)",
+            "(-2, 2)"
+          ],
+          "answer": "A",
+          "explanation": "Center is (h, k) = (2, 2)."
+        },
+        {
+          "num": 17,
+          "question": "The function f is defined by  f(x) = 3x + (-5). What is the value of f(5)?",
+          "choices": [
+            "-2",
+            "10",
+            "11",
+            "20"
+          ],
+          "answer": "B",
+          "explanation": "f(5) = 3(5) + (-5) = 15 + (-5) = 10."
+        },
+        {
+          "num": 18,
+          "question": "The functions f and g are defined by  f(x) = 3x + (-2)  and  g(x) = -2x + (3). What is the value of  g(f(3))?",
+          "choices": [
+            "-11",
+            "10",
+            "-17",
+            "-3"
+          ],
+          "answer": "A",
+          "explanation": "f(3) = 7; g(7) = -2(7) + (3) = -11."
+        },
+        {
+          "num": 19,
+          "question": "An employee's salary changed from $60,000 to $69,000. What is the percent change?",
+          "choices": [
+            "15% increase",
+            "7% increase",
+            "20% increase",
+            "15% decrease"
+          ],
+          "answer": "A",
+          "explanation": "Change = 9; (9)/60 = 0.15 = 15% increase."
+        },
+        {
+          "num": 20,
+          "question": "What is the volume of a rectangular box with dimensions 7 by 3 by 12?",
+          "choices": [
+            "282",
+            "33",
+            "252",
+            "22"
+          ],
+          "answer": "C",
+          "explanation": "V = lwh = 7 * 3 * 12 = 252."
+        },
+        {
+          "num": 21,
+          "question": "The function f is defined by  f(x) = -1x + (3). What is the value of f(8)?",
+          "choices": [
+            "-11",
+            "-5",
+            "2",
+            "-4"
+          ],
+          "answer": "B",
+          "explanation": "f(8) = -1(8) + (3) = -8 + (3) = -5."
+        },
+        {
+          "num": 22,
+          "question": "The polynomial  p(x) = x^3 + 4x^2 + (-3)x + k  has  (x - 3)  as a factor. What is the value of k?",
+          "choices": [
+            "3",
+            "-54",
+            "-53",
+            "54"
+          ],
+          "answer": "B",
+          "explanation": "By the factor theorem, p(3) = 0: 27 + 4(9) + (-3)(3) + k = 0; k = -54."
+        },
+        {
+          "num": 23,
+          "question": "What is the mean of the values 11, 14, 15, 13, 12?",
+          "choices": [
+            "14",
+            "65",
+            "13",
+            "12"
+          ],
+          "answer": "C",
+          "explanation": "Sum = 65; mean = 65/5 = 13."
+        },
+        {
+          "num": 24,
+          "question": "In the xy-plane, the equation of a circle is  (x - 2)^2 + (y + 1)^2 = 9. What are the coordinates of the center of the circle?",
+          "choices": [
+            "(2, -1)",
+            "(2, 1)",
+            "(-2, -1)",
+            "(-2, 1)"
+          ],
+          "answer": "A",
+          "explanation": "Center is (h, k) = (2, -1)."
+        },
+        {
+          "num": 25,
+          "question": "What is the y-intercept of the graph of  8x + 5y = 10  in the xy-plane?",
+          "choices": [
+            "2",
+            "-2",
+            "8",
+            "10"
+          ],
+          "answer": "A",
+          "explanation": "Set x = 0: 5y = 10; y = 2."
+        },
+        {
+          "num": 26,
+          "question": "Which expression is equivalent to  x^2 + (-3)x + (-18)?",
+          "choices": [
+            "(x + (3))(x + (-6))",
+            "(x + (-3))(x + (6))",
+            "(x + (-18)) (x + (-3))",
+            "(x + (3))(x + (6))"
+          ],
+          "answer": "A",
+          "explanation": "Factor: roots are -3 and 6; expression equals (x - -3)(x - 6)."
+        },
+        {
+          "num": 27,
+          "question": "What is the median of the data set 25, 44, 8, 12, 38?",
+          "choices": [
+            "44",
+            "8",
+            "25",
+            "12"
+          ],
+          "answer": "C",
+          "explanation": "Sort: [8, 12, 25, 38, 44]; median = middle value = 25."
+        },
+        {
+          "num": 28,
+          "question": "Two angles of a triangle measure 33 degrees and 111 degrees. What is the measure of the third angle?",
+          "choices": [
+            "144 degrees",
+            "26 degrees",
+            "46 degrees",
+            "36 degrees"
+          ],
+          "answer": "D",
+          "explanation": "Sum of triangle angles is 180: 33 + 111 + c = 180; c = 36."
+        },
+        {
+          "num": 29,
+          "question": "The function f is defined by  f(x) = 4x + (-4). For what value of x is  f(x) = 24?",
+          "choices": [
+            "6",
+            "28",
+            "8",
+            "7"
+          ],
+          "answer": "D",
+          "explanation": "4x + (-4) = 24; 4x = 28; x = 7."
+        },
+        {
+          "num": 30,
+          "question": "What is the minimum value of  f(x) = 4(x - (2))^2 + (3)?",
+          "choices": [
+            "3",
+            "-3",
+            "2",
+            "7"
+          ],
+          "answer": "A",
+          "explanation": "The minimum occurs when (x - 2)^2 = 0, giving f = 3."
+        },
+        {
+          "num": 31,
+          "question": "The function f is defined by  f(x) = 5x + (0). What is the value of f(-3)?",
+          "choices": [
+            "-15",
+            "5",
+            "-13",
+            "-14"
+          ],
+          "answer": "A",
+          "explanation": "f(-3) = 5(-3) + (0) = -15 + (0) = -15."
+        },
+        {
+          "num": 32,
+          "question": "What is the minimum value of  f(x) = 4(x - (3))^2 + (3)?",
+          "choices": [
+            "7",
+            "4",
+            "3",
+            "-3"
+          ],
+          "answer": "C",
+          "explanation": "The minimum occurs when (x - 3)^2 = 0, giving f = 3."
+        },
+        {
+          "num": 33,
+          "question": "A linear function f satisfies  f(4) = 14  and  f(7) = 20. What is the slope of the graph of f in the xy-plane?",
+          "choices": [
+            "2",
+            "3",
+            "-2",
+            "4"
+          ],
+          "answer": "A",
+          "explanation": "Slope = (20 - 14)/(7 - 4) = 6/3 = 2."
+        },
+        {
+          "num": 34,
+          "question": "What is the minimum value of  f(x) = 3(x - (4))^2 + (0)?",
+          "choices": [
+            "4",
+            "3",
+            "0",
+            "1"
+          ],
+          "answer": "C",
+          "explanation": "The minimum occurs when (x - 4)^2 = 0, giving f = 0."
+        },
+        {
+          "num": 35,
+          "question": "The cost C, in dollars, of renting a piece of equipment is given by  C = 10h + 50, where h is the number of hours. Which of the following best describes the meaning of the constant 50 in this context?",
+          "choices": [
+            "The number of hours rented",
+            "The hourly rate",
+            "The total cost for one hour",
+            "A fixed fee charged regardless of the number of hours"
+          ],
+          "answer": "D",
+          "explanation": "When h = 0, C = $50. The constant represents a fixed fee charged regardless of the rental time."
+        },
+        {
+          "num": 36,
+          "question": "The polynomial  p(x) = x^3 + 4x^2 + (-5)x + k  has  (x - 4)  as a factor. What is the value of k?",
+          "choices": [
+            "-107",
+            "-108",
+            "4",
+            "108"
+          ],
+          "answer": "B",
+          "explanation": "By the factor theorem, p(4) = 0: 64 + 4(16) + (-5)(4) + k = 0; k = -108."
+        },
+        {
+          "num": 37,
+          "question": "A student wants an average of at least 85 across 3 tests, each scored out of 100. So far the student's combined score on the first 2 tests is 159. Which inequality represents the score t the student must achieve on the final test to meet the goal?",
+          "choices": [
+            "t >= 96",
+            "t <= 96",
+            "t > 96",
+            "t >= 101"
+          ],
+          "answer": "A",
+          "explanation": "(159 + t)/3 >= 85; 159 + t >= 255; t >= 96."
+        },
+        {
+          "num": 38,
+          "question": "What is the y-intercept of the graph of  y = 2x^2 + (5)x + (-5)  in the xy-plane?",
+          "choices": [
+            "-4",
+            "5",
+            "-5",
+            "2"
+          ],
+          "answer": "C",
+          "explanation": "Set x = 0: y = -5."
+        },
+        {
+          "num": 39,
+          "question": "The function f is defined by  f(x) = -3x + (-3). For what value of x is  f(x) = -18?",
+          "choices": [
+            "4",
+            "-15",
+            "5",
+            "6"
+          ],
+          "answer": "C",
+          "explanation": "-3x + (-3) = -18; -3x = -15; x = 5."
+        },
+        {
+          "num": 40,
+          "question": "What are the coordinates of the vertex of the graph of  y = -1(x - (2))^2 + (1)  in the xy-plane?",
+          "choices": [
+            "(2, -1)",
+            "(-2, -1)",
+            "(2, 1)",
+            "(-2, 1)"
+          ],
+          "answer": "C",
+          "explanation": "Vertex form y = a(x - h)^2 + k has vertex (h, k) = (2, 1)."
+        },
+        {
+          "num": 41,
+          "question": "Which of the following describes all values of x satisfying  -8 <= 4x + (4) <= 8?",
+          "choices": [
+            "-3 <= x <= 1",
+            "-4 <= x <= 1",
+            "x >= -3",
+            "-3 < x < 1"
+          ],
+          "answer": "A",
+          "explanation": "Subtract (4) from each part: -12 <= 4x <= 4; divide by 4: -3 <= x <= 1."
+        },
+        {
+          "num": 42,
+          "question": "What is the minimum value of  f(x) = 3(x - (3))^2 + (8)?",
+          "choices": [
+            "3",
+            "8",
+            "-8",
+            "11"
+          ],
+          "answer": "B",
+          "explanation": "The minimum occurs when (x - 3)^2 = 0, giving f = 8."
+        },
+        {
+          "num": 43,
+          "question": "If  (x + 11) / 2 = 5, what is the value of x?",
+          "choices": [
+            "-6",
+            "-1",
+            "10",
+            "-12"
+          ],
+          "answer": "B",
+          "explanation": "Multiply by 2: x + 11 = 10; x = -1."
+        },
+        {
+          "num": 44,
+          "question": "Which expression is equivalent to  (x + (-5))(x + (3))?",
+          "choices": [
+            "x^2 - 15x - 2",
+            "x^2 + 2x + -15",
+            "x^2 - 2x - 15",
+            "x^2 + -2x + 15"
+          ],
+          "answer": "C",
+          "explanation": "FOIL: x^2 + (-5)x + (3)x + (-5)(3) = x^2 + (-2)x + (-15)."
+        }
+      ]
+    },
+    {
+      "testNum": 4,
+      "title": "Full-Length Practice Test 4",
+      "questions": [
+        {
+          "num": 1,
+          "question": "Service A charges $5 plus $7 per visit. Service B charges $15 plus $5 per visit. After how many visits do the two services cost the same total amount?",
+          "choices": [
+            "2",
+            "5",
+            "6",
+            "4"
+          ],
+          "answer": "B",
+          "explanation": "Set $5 + $7m = $15 + $5m; (2)m = 10; m = 5."
+        },
+        {
+          "num": 2,
+          "question": "The polynomial  p(x) = x^3 + 4x^2 + (0)x + k  has  (x - 4)  as a factor. What is the value of k?",
+          "choices": [
+            "-128",
+            "-127",
+            "128",
+            "4"
+          ],
+          "answer": "A",
+          "explanation": "By the factor theorem, p(4) = 0: 64 + 4(16) + (0)(4) + k = 0; k = -128."
+        },
+        {
+          "num": 3,
+          "question": "A bag contains 7 red, 5 blue, and 3 green marbles. If a marble is selected at random, what is the probability that it is red?",
+          "choices": [
+            "8/15",
+            "7/8",
+            "7/15",
+            "7/12"
+          ],
+          "answer": "C",
+          "explanation": "7 red out of 15 total marbles = 7/15."
+        },
+        {
+          "num": 4,
+          "question": "What is the area, in terms of pi, of a 30-degree sector in a circle with radius 12?",
+          "choices": [
+            "144 pi",
+            "12 pi",
+            "2 pi",
+            "24 pi"
+          ],
+          "answer": "B",
+          "explanation": "Area = (theta/360)(pi r^2) = (30/360)(pi)(144) = 12 pi."
+        },
+        {
+          "num": 5,
+          "question": "What is the solution (x, y) to the system  x + y = 12  and  x - y = 10?",
+          "choices": [
+            "(11, 1)",
+            "(12, 0)",
+            "(1, 11)",
+            "(12, 10)"
+          ],
+          "answer": "A",
+          "explanation": "Add: 2x = 22; x = 11; y = 1."
+        },
+        {
+          "num": 6,
+          "question": "The functions f and g are defined by  f(x) = 4x + (-3)  and  g(x) = 2x + (-1). What is the value of  g(f(3))?",
+          "choices": [
+            "8",
+            "17",
+            "5",
+            "20"
+          ],
+          "answer": "B",
+          "explanation": "f(3) = 9; g(9) = 2(9) + (-1) = 17."
+        },
+        {
+          "num": 7,
+          "question": "What is the range of the data set 32, 19, 21, 35, 12?",
+          "choices": [
+            "24",
+            "23",
+            "35",
+            "12"
+          ],
+          "answer": "B",
+          "explanation": "Range = max - min = 35 - 12 = 23."
+        },
+        {
+          "num": 8,
+          "question": "What is the volume of a rectangular box with dimensions 2 by 9 by 7?",
+          "choices": [
+            "25",
+            "18",
+            "190",
+            "126"
+          ],
+          "answer": "D",
+          "explanation": "V = lwh = 2 * 9 * 7 = 126."
+        },
+        {
+          "num": 9,
+          "question": "What is the slope of a line in the xy-plane that is perpendicular to the line  y = (7/5)x + 3?",
+          "choices": [
+            "7/5",
+            "-5/7",
+            "5/7",
+            "-7/5"
+          ],
+          "answer": "B",
+          "explanation": "The perpendicular slope is the negative reciprocal of 7/5, which is -5/7."
+        },
+        {
+          "num": 10,
+          "question": "What are the coordinates of the vertex of the graph of  y = -2(x - (4))^2 + (3)  in the xy-plane?",
+          "choices": [
+            "(4, 3)",
+            "(4, -3)",
+            "(-4, -3)",
+            "(-4, 3)"
+          ],
+          "answer": "A",
+          "explanation": "Vertex form y = a(x - h)^2 + k has vertex (h, k) = (4, 3)."
+        },
+        {
+          "num": 11,
+          "question": "At a constant unit price, 5 pounds of a product cost $10. At the same unit price, what is the cost of 10 pounds?",
+          "choices": [
+            "$20",
+            "$30",
+            "$18",
+            "$22"
+          ],
+          "answer": "A",
+          "explanation": "Unit price = $10/5 = $2/lb; 10 * $2 = $20."
+        },
+        {
+          "num": 12,
+          "question": "Two angles of a triangle measure 39 degrees and 114 degrees. What is the measure of the third angle?",
+          "choices": [
+            "27 degrees",
+            "17 degrees",
+            "37 degrees",
+            "153 degrees"
+          ],
+          "answer": "A",
+          "explanation": "Sum of triangle angles is 180: 39 + 114 + c = 180; c = 27."
+        },
+        {
+          "num": 13,
+          "question": "If  6x + 7 = 31, what is the value of x?",
+          "choices": [
+            "5",
+            "4",
+            "24",
+            "3"
+          ],
+          "answer": "B",
+          "explanation": "6x = 24; x = 4."
+        },
+        {
+          "num": 14,
+          "question": "The function f is defined by  f(x) = 2000(0.98)^x. Which of the following best describes f?",
+          "choices": [
+            "2% decrease",
+            "7% decrease",
+            "2% increase",
+            "98% decrease"
+          ],
+          "answer": "A",
+          "explanation": "Base (0.98) = 1 - 0.02, so f represents a 2% per-period decrease."
+        },
+        {
+          "num": 15,
+          "question": "What is the range of the data set 37, 36, 13, 10, 41?",
+          "choices": [
+            "41",
+            "32",
+            "31",
+            "10"
+          ],
+          "answer": "C",
+          "explanation": "Range = max - min = 41 - 10 = 31."
+        },
+        {
+          "num": 16,
+          "question": "In the xy-plane, the equation of a circle is  (x - 2)^2 + (y - 2)^2 = 36. What is the radius of this circle?",
+          "choices": [
+            "3",
+            "6",
+            "36",
+            "7"
+          ],
+          "answer": "B",
+          "explanation": "Compare to (x - h)^2 + (y - k)^2 = r^2; r^2 = 36, so r = 6."
+        },
+        {
+          "num": 17,
+          "question": "What is the solution (x, y) to the system  4x + 2y = 12  and  x + y = 5?",
+          "choices": [
+            "(1, 4)",
+            "(4, 1)",
+            "(5, 0)",
+            "(2, 3)"
+          ],
+          "answer": "A",
+          "explanation": "From the second equation, x = 5 - y. Substitute: 4(5 - y) + 2y = 12; (-2)y = -8; y = 4; x = 1."
+        },
+        {
+          "num": 18,
+          "question": "What is the value of x that satisfies the equation  sqrt(3x + (-14)) = 4?",
+          "choices": [
+            "10",
+            "11",
+            "30",
+            "16"
+          ],
+          "answer": "A",
+          "explanation": "Square both sides: 3x + (-14) = 16; 3x = 30; x = 10."
+        },
+        {
+          "num": 19,
+          "question": "What is the range of the data set 9, 11, 34, 30, 42?",
+          "choices": [
+            "9",
+            "33",
+            "34",
+            "42"
+          ],
+          "answer": "B",
+          "explanation": "Range = max - min = 42 - 9 = 33."
+        },
+        {
+          "num": 20,
+          "question": "Two angles of a triangle measure 51 degrees and 59 degrees. What is the measure of the third angle?",
+          "choices": [
+            "80 degrees",
+            "110 degrees",
+            "60 degrees",
+            "70 degrees"
+          ],
+          "answer": "D",
+          "explanation": "Sum of triangle angles is 180: 51 + 59 + c = 180; c = 70."
+        },
+        {
+          "num": 21,
+          "question": "Which value of x satisfies the equation  6(x - 8) = 4x + -30?",
+          "choices": [
+            "7",
+            "11",
+            "9",
+            "8"
+          ],
+          "answer": "C",
+          "explanation": "Distribute: 6x - 48 = 4x + -30; (2)x = 18; x = 9."
+        },
+        {
+          "num": 22,
+          "question": "What is the value of x that satisfies the equation  sqrt(1x + (22)) = 5?",
+          "choices": [
+            "3",
+            "25",
+            "5",
+            "4"
+          ],
+          "answer": "A",
+          "explanation": "Square both sides: 1x + (22) = 25; 1x = 3; x = 3."
+        },
+        {
+          "num": 23,
+          "question": "What is the range of the data set 32, 20, 15, 45, 41?",
+          "choices": [
+            "30",
+            "15",
+            "45",
+            "31"
+          ],
+          "answer": "A",
+          "explanation": "Range = max - min = 45 - 15 = 30."
+        },
+        {
+          "num": 24,
+          "question": "Two angles of a triangle measure 72 degrees and 24 degrees. What is the measure of the third angle?",
+          "choices": [
+            "96 degrees",
+            "84 degrees",
+            "74 degrees",
+            "94 degrees"
+          ],
+          "answer": "B",
+          "explanation": "Sum of triangle angles is 180: 72 + 24 + c = 180; c = 84."
+        },
+        {
+          "num": 25,
+          "question": "Which value of x satisfies the equation  3(x - 1) = 2x + 5?",
+          "choices": [
+            "6",
+            "1",
+            "8",
+            "10"
+          ],
+          "answer": "C",
+          "explanation": "Distribute: 3x - 3 = 2x + 5; (1)x = 8; x = 8."
+        },
+        {
+          "num": 26,
+          "question": "What is the minimum value of  f(x) = 3(x - (5))^2 + (-10)?",
+          "choices": [
+            "10",
+            "5",
+            "-10",
+            "-7"
+          ],
+          "answer": "C",
+          "explanation": "The minimum occurs when (x - 5)^2 = 0, giving f = -10."
+        },
+        {
+          "num": 27,
+          "question": "At a constant unit price, 3 pounds of a product cost $15. At the same unit price, what is the cost of 6 pounds?",
+          "choices": [
+            "$25",
+            "$45",
+            "$35",
+            "$30"
+          ],
+          "answer": "D",
+          "explanation": "Unit price = $15/3 = $5/lb; 6 * $5 = $30."
+        },
+        {
+          "num": 28,
+          "question": "In the xy-plane, the equation of a circle is  (x + 3)^2 + (y - 4)^2 = 16. What are the coordinates of the center of the circle?",
+          "choices": [
+            "(-3, 4)",
+            "(3, 4)",
+            "(-3, -4)",
+            "(3, -4)"
+          ],
+          "answer": "A",
+          "explanation": "Center is (h, k) = (-3, 4)."
+        },
+        {
+          "num": 29,
+          "question": "Service A charges $10 plus $8 per visit. Service B charges $17 plus $7 per visit. After how many visits do the two services cost the same total amount?",
+          "choices": [
+            "8",
+            "1",
+            "7",
+            "6"
+          ],
+          "answer": "C",
+          "explanation": "Set $10 + $8m = $17 + $7m; (1)m = 7; m = 7."
+        },
+        {
+          "num": 30,
+          "question": "What are the coordinates of the vertex of the graph of  y = (x - (-5))^2 + (-2)  in the xy-plane?",
+          "choices": [
+            "(5, 2)",
+            "(-5, 2)",
+            "(-5, -2)",
+            "(5, -2)"
+          ],
+          "answer": "C",
+          "explanation": "Vertex form y = a(x - h)^2 + k has vertex (h, k) = (-5, -2)."
+        },
+        {
+          "num": 31,
+          "question": "A line in the xy-plane passes through the points (-3, 1) and (2, 6). What is the slope of the line?",
+          "choices": [
+            "-1",
+            "0",
+            "1",
+            "2"
+          ],
+          "answer": "C",
+          "explanation": "Slope = (6 - 1)/(2 - -3) = 5/5 = 1."
+        },
+        {
+          "num": 32,
+          "question": "How many distinct real solutions does the equation  x^2 + 8x + 11 = 0  have?",
+          "choices": [
+            "One",
+            "Infinitely many",
+            "Zero",
+            "Two"
+          ],
+          "answer": "D",
+          "explanation": "Discriminant b^2 - 4ac = 64 - 4(11) = 20, so two real solution(s)."
+        },
+        {
+          "num": 33,
+          "question": "Which of the following describes all values of x satisfying  -2x + (5) < -5?",
+          "choices": [
+            "x > -5",
+            "x < 5",
+            "x > 6",
+            "x > 5"
+          ],
+          "answer": "D",
+          "explanation": "Subtract (5): -2x < -10. Divide by -2 (and FLIP): x > 5."
+        },
+        {
+          "num": 34,
+          "question": "What is the minimum value of  f(x) = 4(x - (2))^2 + (-4)?",
+          "choices": [
+            "4",
+            "-4",
+            "0",
+            "2"
+          ],
+          "answer": "B",
+          "explanation": "The minimum occurs when (x - 2)^2 = 0, giving f = -4."
+        },
+        {
+          "num": 35,
+          "question": "If  2x + 6 = 24, what is the value of x?",
+          "choices": [
+            "9",
+            "8",
+            "18",
+            "10"
+          ],
+          "answer": "A",
+          "explanation": "2x = 18; x = 9."
+        },
+        {
+          "num": 36,
+          "question": "What are the solutions to the equation  x^2 + (-2)x + (-15) = 0?",
+          "choices": [
+            "x = 3 and x = -5",
+            "x = -3 and x = -5",
+            "x = -3 and x = 5",
+            "x = -2 and x = -15"
+          ],
+          "answer": "C",
+          "explanation": "Factor: (x - -3)(x - 5) = 0, giving x = -3 or x = 5."
+        },
+        {
+          "num": 37,
+          "question": "For what value of k does the equation  7x + 10 = 7x + k  have infinitely many solutions?",
+          "choices": [
+            "-10",
+            "10",
+            "7",
+            "11"
+          ],
+          "answer": "B",
+          "explanation": "For infinitely many solutions, both sides must be identical, so k = 10."
+        },
+        {
+          "num": 38,
+          "question": "The function f is defined by  f(x) = 2000(1.10)^x. According to the model, f represents exponential growth at what rate per period?",
+          "choices": [
+            "1.0%",
+            "10%",
+            "110%",
+            "15%"
+          ],
+          "answer": "B",
+          "explanation": "Base (1.10) = 1 + 0.10 represents a 10% increase per period."
+        },
+        {
+          "num": 39,
+          "question": "What is the y-intercept of the graph of  2x + 4y = 8  in the xy-plane?",
+          "choices": [
+            "2",
+            "3",
+            "-2",
+            "8"
+          ],
+          "answer": "A",
+          "explanation": "Set x = 0: 4y = 8; y = 2."
+        },
+        {
+          "num": 40,
+          "question": "The functions f and g are defined by  f(x) = -2x + (0)  and  g(x) = 2x + (-3). What is the value of  g(f(1))?",
+          "choices": [
+            "-5",
+            "-7",
+            "-1",
+            "-6"
+          ],
+          "answer": "B",
+          "explanation": "f(1) = -2; g(-2) = 2(-2) + (-3) = -7."
+        },
+        {
+          "num": 41,
+          "question": "If  (x + -3) / 5 = 7, what is the value of x?",
+          "choices": [
+            "38",
+            "35",
+            "41",
+            "10"
+          ],
+          "answer": "A",
+          "explanation": "Multiply by 5: x + -3 = 35; x = 38."
+        },
+        {
+          "num": 42,
+          "question": "The functions f and g are defined by  f(x) = 2x + (-3)  and  g(x) = 3x + (-4). What is the value of  g(f(4))?",
+          "choices": [
+            "1",
+            "11",
+            "8",
+            "17"
+          ],
+          "answer": "B",
+          "explanation": "f(4) = 5; g(5) = 3(5) + (-4) = 11."
+        },
+        {
+          "num": 43,
+          "question": "Which value of x satisfies the equation  6(x - 8) = 1x + 12?",
+          "choices": [
+            "12",
+            "8",
+            "14",
+            "10"
+          ],
+          "answer": "A",
+          "explanation": "Distribute: 6x - 48 = 1x + 12; (5)x = 60; x = 12."
+        },
+        {
+          "num": 44,
+          "question": "A population doubles every 2 years. If the population starts at 200, what is the population after 4 years?",
+          "choices": [
+            "801",
+            "204",
+            "1600",
+            "800"
+          ],
+          "answer": "D",
+          "explanation": "In 4 years there are 2 doublings: 200 * 2^2 = 800."
+        }
+      ]
+    },
+    {
+      "testNum": 5,
+      "title": "Full-Length Practice Test 5",
+      "questions": [
+        {
+          "num": 1,
+          "question": "What are the coordinates of the x-intercept of the graph of  2x + 5y = 8  in the xy-plane?",
+          "choices": [
+            "(4, 5)",
+            "(4, 0)",
+            "(0, 4)",
+            "(-4, 0)"
+          ],
+          "answer": "B",
+          "explanation": "Set y = 0: 2x = 8; x = 4, so x-intercept is (4, 0)."
+        },
+        {
+          "num": 2,
+          "question": "What are the coordinates of the vertex of the graph of  y = -1(x - (2))^2 + (-2)  in the xy-plane?",
+          "choices": [
+            "(2, -2)",
+            "(2, 2)",
+            "(-2, -2)",
+            "(-2, 2)"
+          ],
+          "answer": "A",
+          "explanation": "Vertex form y = a(x - h)^2 + k has vertex (h, k) = (2, -2)."
+        },
+        {
+          "num": 3,
+          "question": "What is the range of the data set 13, 21, 46, 42, 8?",
+          "choices": [
+            "8",
+            "39",
+            "46",
+            "38"
+          ],
+          "answer": "D",
+          "explanation": "Range = max - min = 46 - 8 = 38."
+        },
+        {
+          "num": 4,
+          "question": "Two angles of a triangle measure 36 degrees and 97 degrees. What is the measure of the third angle?",
+          "choices": [
+            "37 degrees",
+            "133 degrees",
+            "47 degrees",
+            "57 degrees"
+          ],
+          "answer": "C",
+          "explanation": "Sum of triangle angles is 180: 36 + 97 + c = 180; c = 47."
+        },
+        {
+          "num": 5,
+          "question": "What is the slope of a line in the xy-plane that is perpendicular to the line  y = (-4/5)x + 3?",
+          "choices": [
+            "-4/5",
+            "5/4",
+            "4/5",
+            "5/-4"
+          ],
+          "answer": "B",
+          "explanation": "The perpendicular slope is the negative reciprocal of -4/5, which is 5/4."
+        },
+        {
+          "num": 6,
+          "question": "How many distinct real solutions does the equation  x^2 + 8x + 3 = 0  have?",
+          "choices": [
+            "Zero",
+            "One",
+            "Two",
+            "Infinitely many"
+          ],
+          "answer": "C",
+          "explanation": "Discriminant b^2 - 4ac = 64 - 4(3) = 52, so two real solution(s)."
+        },
+        {
+          "num": 7,
+          "question": "What is the range of the data set 35, 37, 49, 41, 27?",
+          "choices": [
+            "22",
+            "49",
+            "23",
+            "27"
+          ],
+          "answer": "A",
+          "explanation": "Range = max - min = 49 - 27 = 22."
+        },
+        {
+          "num": 8,
+          "question": "In the xy-plane, the equation of a circle is  (x - 0)^2 + (y + 5)^2 = 9. What is the radius of this circle?",
+          "choices": [
+            "3",
+            "1",
+            "9",
+            "4"
+          ],
+          "answer": "A",
+          "explanation": "Compare to (x - h)^2 + (y - k)^2 = r^2; r^2 = 9, so r = 3."
+        },
+        {
+          "num": 9,
+          "question": "If  7x + 16 = 37, what is the value of x?",
+          "choices": [
+            "21",
+            "3",
+            "4",
+            "2"
+          ],
+          "answer": "B",
+          "explanation": "7x = 21; x = 3."
+        },
+        {
+          "num": 10,
+          "question": "The polynomial  p(x) = x^3 + 4x^2 + (-3)x + k  has  (x - 5)  as a factor. What is the value of k?",
+          "choices": [
+            "-209",
+            "210",
+            "5",
+            "-210"
+          ],
+          "answer": "D",
+          "explanation": "By the factor theorem, p(5) = 0: 125 + 4(25) + (-3)(5) + k = 0; k = -210."
+        },
+        {
+          "num": 11,
+          "question": "At a constant unit price, 2 pounds of a product cost $6. At the same unit price, what is the cost of 5 pounds?",
+          "choices": [
+            "$21",
+            "$15",
+            "$12",
+            "$18"
+          ],
+          "answer": "B",
+          "explanation": "Unit price = $6/2 = $3/lb; 5 * $3 = $15."
+        },
+        {
+          "num": 12,
+          "question": "What is the volume of a rectangular box with dimensions 12 by 7 by 3?",
+          "choices": [
+            "22",
+            "87",
+            "252",
+            "282"
+          ],
+          "answer": "C",
+          "explanation": "V = lwh = 12 * 7 * 3 = 252."
+        },
+        {
+          "num": 13,
+          "question": "A linear function f satisfies  f(4) = 17  and  f(7) = 29. What is the slope of the graph of f in the xy-plane?",
+          "choices": [
+            "4",
+            "5",
+            "-4",
+            "8"
+          ],
+          "answer": "A",
+          "explanation": "Slope = (29 - 17)/(7 - 4) = 12/3 = 4."
+        },
+        {
+          "num": 14,
+          "question": "What are the solutions to the equation  |2x + (-6)| = 4?",
+          "choices": [
+            "x = 4",
+            "x = 1 and x = 5",
+            "x = 5 only",
+            "x = -1 and x = -5"
+          ],
+          "answer": "B",
+          "explanation": "2x + (-6) = 4 or 2x + (-6) = -4; x = 5 or x = 1."
+        },
+        {
+          "num": 15,
+          "question": "A bag contains 3 red, 4 blue, and 8 green marbles. If a marble is selected at random, what is the probability that it is NOT blue?",
+          "choices": [
+            "11/15",
+            "1/2",
+            "11/4",
+            "4/15"
+          ],
+          "answer": "A",
+          "explanation": "Not blue: 11 out of 15 = 11/15."
+        },
+        {
+          "num": 16,
+          "question": "What is the area, in terms of pi, of a 60-degree sector in a circle with radius 12?",
+          "choices": [
+            "24 pi",
+            "4 pi",
+            "48 pi",
+            "144 pi"
+          ],
+          "answer": "A",
+          "explanation": "Area = (theta/360)(pi r^2) = (60/360)(pi)(144) = 24 pi."
+        },
+        {
+          "num": 17,
+          "question": "Which equation represents the line in the xy-plane that is parallel to  y = 4x + (0)  and passes through (0, 4)?",
+          "choices": [
+            "y = 4x + 0",
+            "y = -4x + 4",
+            "y = 4x + 4",
+            "y = 0.25x + 4"
+          ],
+          "answer": "C",
+          "explanation": "Parallel lines share slope (4); the y-intercept is given as 4."
+        },
+        {
+          "num": 18,
+          "question": "What is the value of x that satisfies the equation  sqrt(1x + (19)) = 5?",
+          "choices": [
+            "6",
+            "7",
+            "25",
+            "8"
+          ],
+          "answer": "A",
+          "explanation": "Square both sides: 1x + (19) = 25; 1x = 6; x = 6."
+        },
+        {
+          "num": 19,
+          "question": "A discount of 5% is applied to an item with a regular price of $250. What is the amount of the discount, in dollars?",
+          "choices": [
+            "12.5",
+            "255",
+            "237.5",
+            "1.25"
+          ],
+          "answer": "A",
+          "explanation": "5% of 250 = 0.05 * 250 = 12.5."
+        },
+        {
+          "num": 20,
+          "question": "What is the volume of a rectangular box with dimensions 11 by 3 by 7?",
+          "choices": [
+            "21",
+            "262",
+            "40",
+            "231"
+          ],
+          "answer": "D",
+          "explanation": "V = lwh = 11 * 3 * 7 = 231."
+        },
+        {
+          "num": 21,
+          "question": "The function f is defined by  f(x) = 4x + (-1). For what value of x is  f(x) = 39?",
+          "choices": [
+            "10",
+            "9",
+            "40",
+            "11"
+          ],
+          "answer": "A",
+          "explanation": "4x + (-1) = 39; 4x = 40; x = 10."
+        },
+        {
+          "num": 22,
+          "question": "What is the value of x that satisfies the equation  sqrt(2x + (9)) = 5?",
+          "choices": [
+            "8",
+            "16",
+            "25",
+            "9"
+          ],
+          "answer": "A",
+          "explanation": "Square both sides: 2x + (9) = 25; 2x = 16; x = 8."
+        },
+        {
+          "num": 23,
+          "question": "A bag contains 8 red, 6 blue, and 3 green marbles. If a marble is selected at random, what is the probability that it is red?",
+          "choices": [
+            "9/17",
+            "8/9",
+            "8/14",
+            "8/17"
+          ],
+          "answer": "D",
+          "explanation": "8 red out of 17 total marbles = 8/17."
+        },
+        {
+          "num": 24,
+          "question": "Two angles of a triangle measure 21 degrees and 89 degrees. What is the measure of the third angle?",
+          "choices": [
+            "80 degrees",
+            "70 degrees",
+            "110 degrees",
+            "60 degrees"
+          ],
+          "answer": "B",
+          "explanation": "Sum of triangle angles is 180: 21 + 89 + c = 180; c = 70."
+        },
+        {
+          "num": 25,
+          "question": "What are the coordinates of the x-intercept of the graph of  4x + 4y = -20  in the xy-plane?",
+          "choices": [
+            "(-5, 0)",
+            "(0, -5)",
+            "(5, 0)",
+            "(-5, 4)"
+          ],
+          "answer": "A",
+          "explanation": "Set y = 0: 4x = -20; x = -5, so x-intercept is (-5, 0)."
+        },
+        {
+          "num": 26,
+          "question": "What are the coordinates of the vertex of the graph of  y = (x - (4))^2 + (-2)  in the xy-plane?",
+          "choices": [
+            "(4, 2)",
+            "(-4, 2)",
+            "(-4, -2)",
+            "(4, -2)"
+          ],
+          "answer": "D",
+          "explanation": "Vertex form y = a(x - h)^2 + k has vertex (h, k) = (4, -2)."
+        },
+        {
+          "num": 27,
+          "question": "At a constant unit price, 6 pounds of a product cost $42. At the same unit price, what is the cost of 9 pounds?",
+          "choices": [
+            "$63",
+            "$105",
+            "$56",
+            "$70"
+          ],
+          "answer": "A",
+          "explanation": "Unit price = $42/6 = $7/lb; 9 * $7 = $63."
+        },
+        {
+          "num": 28,
+          "question": "What is the arc length, in terms of pi, of a 30-degree arc in a circle with radius 18?",
+          "choices": [
+            "3 pi",
+            "6 pi",
+            "18 pi",
+            "27 pi"
+          ],
+          "answer": "A",
+          "explanation": "Arc length = (theta/360)(2 pi r) = (30/360)(2 pi 18) = 3 pi."
+        },
+        {
+          "num": 29,
+          "question": "Which value of x satisfies the equation  2(x - 4) = 1x + 2?",
+          "choices": [
+            "10",
+            "8",
+            "4",
+            "12"
+          ],
+          "answer": "A",
+          "explanation": "Distribute: 2x - 8 = 1x + 2; (1)x = 10; x = 10."
+        },
+        {
+          "num": 30,
+          "question": "What is the y-intercept of the graph of  y = 2x^2 + (0)x + (7)  in the xy-plane?",
+          "choices": [
+            "0",
+            "7",
+            "-7",
+            "2"
+          ],
+          "answer": "B",
+          "explanation": "Set x = 0: y = 7."
+        },
+        {
+          "num": 31,
+          "question": "The function f is defined by  f(x) = 2x + (8). For what value of x is  f(x) = 32?",
+          "choices": [
+            "11",
+            "12",
+            "24",
+            "13"
+          ],
+          "answer": "B",
+          "explanation": "2x + (8) = 32; 2x = 24; x = 12."
+        },
+        {
+          "num": 32,
+          "question": "The polynomial  p(x) = x^3 + 2x^2 + (4)x + k  has  (x - 3)  as a factor. What is the value of k?",
+          "choices": [
+            "57",
+            "-57",
+            "-56",
+            "3"
+          ],
+          "answer": "B",
+          "explanation": "By the factor theorem, p(3) = 0: 27 + 2(9) + (4)(3) + k = 0; k = -57."
+        },
+        {
+          "num": 33,
+          "question": "If  (x + 10) / 2 = 8, what is the value of x?",
+          "choices": [
+            "16",
+            "-4",
+            "6",
+            "-2"
+          ],
+          "answer": "C",
+          "explanation": "Multiply by 2: x + 10 = 16; x = 6."
+        },
+        {
+          "num": 34,
+          "question": "A population doubles every 4 years. If the population starts at 1000, what is the population after 12 years?",
+          "choices": [
+            "16000",
+            "6000",
+            "1008",
+            "8000"
+          ],
+          "answer": "D",
+          "explanation": "In 12 years there are 3 doublings: 1000 * 2^3 = 8000."
+        },
+        {
+          "num": 35,
+          "question": "The function f is defined by  f(x) = 4x + (1). What is the value of f(-2)?",
+          "choices": [
+            "5",
+            "-6",
+            "-9",
+            "-7"
+          ],
+          "answer": "D",
+          "explanation": "f(-2) = 4(-2) + (1) = -8 + (1) = -7."
+        },
+        {
+          "num": 36,
+          "question": "The function f is defined by  f(x) = 500(1.02)^x. According to the model, f represents exponential growth at what rate per period?",
+          "choices": [
+            "7%",
+            "102%",
+            "2%",
+            "0.2%"
+          ],
+          "answer": "C",
+          "explanation": "Base (1.02) = 1 + 0.02 represents a 2% increase per period."
+        },
+        {
+          "num": 37,
+          "question": "A line in the xy-plane passes through the points (1, -1) and (3, 5). What is the slope of the line?",
+          "choices": [
+            "4",
+            "-3",
+            "2",
+            "3"
+          ],
+          "answer": "D",
+          "explanation": "Slope = (5 - -1)/(3 - 1) = 6/2 = 3."
+        },
+        {
+          "num": 38,
+          "question": "What is the value of x that satisfies the equation  sqrt(3x + (-5)) = 5?",
+          "choices": [
+            "10",
+            "11",
+            "30",
+            "25"
+          ],
+          "answer": "A",
+          "explanation": "Square both sides: 3x + (-5) = 25; 3x = 30; x = 10."
+        },
+        {
+          "num": 39,
+          "question": "What is the y-intercept of the graph of  8x + 4y = -8  in the xy-plane?",
+          "choices": [
+            "-8",
+            "2",
+            "-2",
+            "8"
+          ],
+          "answer": "C",
+          "explanation": "Set x = 0: 4y = -8; y = -2."
+        },
+        {
+          "num": 40,
+          "question": "What is the value of x that satisfies the equation  sqrt(1x + (-1)) = 3?",
+          "choices": [
+            "11",
+            "9",
+            "10",
+            "12"
+          ],
+          "answer": "C",
+          "explanation": "Square both sides: 1x + (-1) = 9; 1x = 10; x = 10."
+        },
+        {
+          "num": 41,
+          "question": "What is the slope of a line in the xy-plane that is perpendicular to the line  y = (5/3)x + -5?",
+          "choices": [
+            "-3/5",
+            "3/5",
+            "5/3",
+            "-5/3"
+          ],
+          "answer": "A",
+          "explanation": "The perpendicular slope is the negative reciprocal of 5/3, which is -3/5."
+        },
+        {
+          "num": 42,
+          "question": "What are the solutions to the equation  |2x + (-2)| = 8?",
+          "choices": [
+            "x = 5 only",
+            "x = 3 and x = -5",
+            "x = 8",
+            "x = -3 and x = 5"
+          ],
+          "answer": "D",
+          "explanation": "2x + (-2) = 8 or 2x + (-2) = -8; x = 5 or x = -3."
+        },
+        {
+          "num": 43,
+          "question": "For what value of k does the equation  kx + 7 = 7x + 6  have no solution?",
+          "choices": [
+            "7",
+            "9",
+            "6",
+            "14"
+          ],
+          "answer": "A",
+          "explanation": "Same x-coefficient (k = 7) and different constants (7 vs 6) means no solution."
+        },
+        {
+          "num": 44,
+          "question": "What are the coordinates of the vertex of the graph of  y = (x - (1))^2 + (8)  in the xy-plane?",
+          "choices": [
+            "(1, -8)",
+            "(-1, 8)",
+            "(-1, -8)",
+            "(1, 8)"
+          ],
+          "answer": "D",
+          "explanation": "Vertex form y = a(x - h)^2 + k has vertex (h, k) = (1, 8)."
+        }
+      ]
+    },
+    {
+      "testNum": 6,
+      "title": "Full-Length Practice Test 6",
+      "questions": [
+        {
+          "num": 1,
+          "question": "If  9x + 5 = 50, what is the value of x?",
+          "choices": [
+            "4",
+            "6",
+            "5",
+            "45"
+          ],
+          "answer": "C",
+          "explanation": "9x = 45; x = 5."
+        },
+        {
+          "num": 2,
+          "question": "How many distinct real solutions does the equation  x^2 + 10x + 6 = 0  have?",
+          "choices": [
+            "One",
+            "Zero",
+            "Two",
+            "Infinitely many"
+          ],
+          "answer": "C",
+          "explanation": "Discriminant b^2 - 4ac = 100 - 4(6) = 76, so two real solution(s)."
+        },
+        {
+          "num": 3,
+          "question": "A discount of 25% is applied to an item with a regular price of $400. What is the amount of the discount, in dollars?",
+          "choices": [
+            "425",
+            "100",
+            "300",
+            "10"
+          ],
+          "answer": "B",
+          "explanation": "25% of 400 = 0.25 * 400 = 100."
+        },
+        {
+          "num": 4,
+          "question": "Two angles of a triangle measure 48 degrees and 20 degrees. What is the measure of the third angle?",
+          "choices": [
+            "102 degrees",
+            "122 degrees",
+            "112 degrees",
+            "68 degrees"
+          ],
+          "answer": "C",
+          "explanation": "Sum of triangle angles is 180: 48 + 20 + c = 180; c = 112."
+        },
+        {
+          "num": 5,
+          "question": "What is the y-intercept of the graph of  5x + 2y = 10  in the xy-plane?",
+          "choices": [
+            "5",
+            "10",
+            "-5",
+            "6"
+          ],
+          "answer": "A",
+          "explanation": "Set x = 0: 2y = 10; y = 5."
+        },
+        {
+          "num": 6,
+          "question": "What are the coordinates of the vertex of the graph of  y = (x - (-1))^2 + (5)  in the xy-plane?",
+          "choices": [
+            "(1, -5)",
+            "(-1, -5)",
+            "(-1, 5)",
+            "(1, 5)"
+          ],
+          "answer": "C",
+          "explanation": "Vertex form y = a(x - h)^2 + k has vertex (h, k) = (-1, 5)."
+        },
+        {
+          "num": 7,
+          "question": "A bag contains 6 red, 5 blue, and 2 green marbles. If a marble is selected at random, what is the probability that it is NOT blue?",
+          "choices": [
+            "1/2",
+            "5/13",
+            "8/13",
+            "8/5"
+          ],
+          "answer": "C",
+          "explanation": "Not blue: 8 out of 13 = 8/13."
+        },
+        {
+          "num": 8,
+          "question": "Two angles of a triangle measure 36 degrees and 27 degrees. What is the measure of the third angle?",
+          "choices": [
+            "107 degrees",
+            "127 degrees",
+            "63 degrees",
+            "117 degrees"
+          ],
+          "answer": "D",
+          "explanation": "Sum of triangle angles is 180: 36 + 27 + c = 180; c = 117."
+        },
+        {
+          "num": 9,
+          "question": "A linear function f satisfies  f(3) = 2  and  f(6) = 8. What is the slope of the graph of f in the xy-plane?",
+          "choices": [
+            "4",
+            "-2",
+            "2",
+            "3"
+          ],
+          "answer": "C",
+          "explanation": "Slope = (8 - 2)/(6 - 3) = 6/3 = 2."
+        },
+        {
+          "num": 10,
+          "question": "What are the solutions to the equation  x^2 + (5)x + (4) = 0?",
+          "choices": [
+            "x = -4 and x = -1",
+            "x = 5 and x = 4",
+            "x = -1 and x = 4",
+            "x = 1 and x = 4"
+          ],
+          "answer": "A",
+          "explanation": "Factor: (x - -1)(x - -4) = 0, giving x = -1 or x = -4."
+        },
+        {
+          "num": 11,
+          "question": "A bag contains 2 red, 6 blue, and 3 green marbles. If a marble is selected at random, what is the probability that it is red?",
+          "choices": [
+            "2/11",
+            "2/8",
+            "9/11",
+            "2/9"
+          ],
+          "answer": "A",
+          "explanation": "2 red out of 11 total marbles = 2/11."
+        },
+        {
+          "num": 12,
+          "question": "In the xy-plane, the equation of a circle is  (x - 2)^2 + (y + 1)^2 = 36. What is the radius of this circle?",
+          "choices": [
+            "6",
+            "7",
+            "3",
+            "36"
+          ],
+          "answer": "A",
+          "explanation": "Compare to (x - h)^2 + (y - k)^2 = r^2; r^2 = 36, so r = 6."
+        },
+        {
+          "num": 13,
+          "question": "A line in the xy-plane passes through the points (-5, 10) and (-1, 14). What is the slope of the line?",
+          "choices": [
+            "0",
+            "1",
+            "-1",
+            "2"
+          ],
+          "answer": "B",
+          "explanation": "Slope = (14 - 10)/(-1 - -5) = 4/4 = 1."
+        },
+        {
+          "num": 14,
+          "question": "What is the y-intercept of the graph of  y = 1x^2 + (0)x + (-9)  in the xy-plane?",
+          "choices": [
+            "1",
+            "0",
+            "9",
+            "-9"
+          ],
+          "answer": "D",
+          "explanation": "Set x = 0: y = -9."
+        },
+        {
+          "num": 15,
+          "question": "At a constant unit price, 3 pounds of a product cost $18. At the same unit price, what is the cost of 8 pounds?",
+          "choices": [
+            "$66",
+            "$48",
+            "$42",
+            "$54"
+          ],
+          "answer": "B",
+          "explanation": "Unit price = $18/3 = $6/lb; 8 * $6 = $48."
+        },
+        {
+          "num": 16,
+          "question": "In the xy-plane, the equation of a circle is  (x - 4)^2 + (y - 4)^2 = 36. What are the coordinates of the center of the circle?",
+          "choices": [
+            "(-4, -4)",
+            "(4, 4)",
+            "(4, -4)",
+            "(-4, 4)"
+          ],
+          "answer": "B",
+          "explanation": "Center is (h, k) = (4, 4)."
+        },
+        {
+          "num": 17,
+          "question": "If  (x + 7) / 3 = 2, what is the value of x?",
+          "choices": [
+            "-8",
+            "6",
+            "-5",
+            "-1"
+          ],
+          "answer": "D",
+          "explanation": "Multiply by 3: x + 7 = 6; x = -1."
+        },
+        {
+          "num": 18,
+          "question": "What is the value of x that satisfies the equation  sqrt(3x + (7)) = 4?",
+          "choices": [
+            "16",
+            "9",
+            "4",
+            "3"
+          ],
+          "answer": "D",
+          "explanation": "Square both sides: 3x + (7) = 16; 3x = 9; x = 3."
+        },
+        {
+          "num": 19,
+          "question": "A bag contains 3 red, 7 blue, and 7 green marbles. If a marble is selected at random, what is the probability that it is NOT blue?",
+          "choices": [
+            "10/17",
+            "1/2",
+            "10/7",
+            "7/17"
+          ],
+          "answer": "A",
+          "explanation": "Not blue: 10 out of 17 = 10/17."
+        },
+        {
+          "num": 20,
+          "question": "In the xy-plane, the equation of a circle is  (x + 5)^2 + (y - 0)^2 = 16. What is the radius of this circle?",
+          "choices": [
+            "4",
+            "2",
+            "5",
+            "16"
+          ],
+          "answer": "A",
+          "explanation": "Compare to (x - h)^2 + (y - k)^2 = r^2; r^2 = 16, so r = 4."
+        },
+        {
+          "num": 21,
+          "question": "What is the y-intercept of the graph of  6x + 3y = 9  in the xy-plane?",
+          "choices": [
+            "3",
+            "-3",
+            "9",
+            "6"
+          ],
+          "answer": "A",
+          "explanation": "Set x = 0: 3y = 9; y = 3."
+        },
+        {
+          "num": 22,
+          "question": "The functions f and g are defined by  f(x) = 2x + (-2)  and  g(x) = 2x + (1). What is the value of  g(f(3))?",
+          "choices": [
+            "7",
+            "9",
+            "5",
+            "11"
+          ],
+          "answer": "B",
+          "explanation": "f(3) = 4; g(4) = 2(4) + (1) = 9."
+        },
+        {
+          "num": 23,
+          "question": "At a constant unit price, 4 pounds of a product cost $16. At the same unit price, what is the cost of 11 pounds?",
+          "choices": [
+            "$60",
+            "$40",
+            "$44",
+            "$48"
+          ],
+          "answer": "C",
+          "explanation": "Unit price = $16/4 = $4/lb; 11 * $4 = $44."
+        },
+        {
+          "num": 24,
+          "question": "Two angles of a triangle measure 65 degrees and 21 degrees. What is the measure of the third angle?",
+          "choices": [
+            "84 degrees",
+            "94 degrees",
+            "104 degrees",
+            "86 degrees"
+          ],
+          "answer": "B",
+          "explanation": "Sum of triangle angles is 180: 65 + 21 + c = 180; c = 94."
+        },
+        {
+          "num": 25,
+          "question": "How many solutions does the system  y = -2x + (-1)  and  y = -2x + (0)  have?",
+          "choices": [
+            "Infinitely many solutions",
+            "Exactly two solutions",
+            "No solution",
+            "Exactly one solution"
+          ],
+          "answer": "C",
+          "explanation": "Same slope (-2) and different y-intercepts (-1 vs 0) means parallel lines and no solution."
+        },
+        {
+          "num": 26,
+          "question": "The polynomial  p(x) = x^3 + 2x^2 + (0)x + k  has  (x - 4)  as a factor. What is the value of k?",
+          "choices": [
+            "96",
+            "-96",
+            "-95",
+            "4"
+          ],
+          "answer": "B",
+          "explanation": "By the factor theorem, p(4) = 0: 64 + 2(16) + (0)(4) + k = 0; k = -96."
+        },
+        {
+          "num": 27,
+          "question": "After a 20% discount, an item costs $40. What was the original price, in dollars?",
+          "choices": [
+            "48",
+            "70",
+            "50",
+            "30"
+          ],
+          "answer": "C",
+          "explanation": "Discount factor 0.8; original = 40/0.8 = 50."
+        },
+        {
+          "num": 28,
+          "question": "Two angles of a triangle measure 44 degrees and 74 degrees. What is the measure of the third angle?",
+          "choices": [
+            "62 degrees",
+            "72 degrees",
+            "118 degrees",
+            "52 degrees"
+          ],
+          "answer": "A",
+          "explanation": "Sum of triangle angles is 180: 44 + 74 + c = 180; c = 62."
+        },
+        {
+          "num": 29,
+          "question": "A line in the xy-plane passes through the points (2, 10) and (7, 20). What is the slope of the line?",
+          "choices": [
+            "-2",
+            "2",
+            "3",
+            "1"
+          ],
+          "answer": "B",
+          "explanation": "Slope = (20 - 10)/(7 - 2) = 10/5 = 2."
+        },
+        {
+          "num": 30,
+          "question": "What are the solutions to the equation  x^2 + (-3)x + (-18) = 0?",
+          "choices": [
+            "x = 3 and x = -6",
+            "x = -3 and x = -6",
+            "x = -3 and x = -18",
+            "x = -3 and x = 6"
+          ],
+          "answer": "D",
+          "explanation": "Factor: (x - -3)(x - 6) = 0, giving x = -3 or x = 6."
+        },
+        {
+          "num": 31,
+          "question": "Which of the following describes all values of x satisfying  -2x + (2) < -16?",
+          "choices": [
+            "x < 9",
+            "x > 9",
+            "x > -9",
+            "x > 10"
+          ],
+          "answer": "B",
+          "explanation": "Subtract (2): -2x < -18. Divide by -2 (and FLIP): x > 9."
+        },
+        {
+          "num": 32,
+          "question": "What are the solutions to the equation  x^2 + (-4)x + (3) = 0?",
+          "choices": [
+            "x = -4 and x = 3",
+            "x = -3 and x = -1",
+            "x = 1 and x = 3",
+            "x = 3 and x = -1"
+          ],
+          "answer": "C",
+          "explanation": "Factor: (x - 3)(x - 1) = 0, giving x = 3 or x = 1."
+        },
+        {
+          "num": 33,
+          "question": "The function f is defined by  f(x) = -1x + (6). What is the value of f(-4)?",
+          "choices": [
+            "10",
+            "-2",
+            "5",
+            "11"
+          ],
+          "answer": "A",
+          "explanation": "f(-4) = -1(-4) + (6) = 4 + (6) = 10."
+        },
+        {
+          "num": 34,
+          "question": "What is the y-intercept of the graph of  y = -2x^2 + (-2)x + (-5)  in the xy-plane?",
+          "choices": [
+            "-5",
+            "-2",
+            "5",
+            "-4"
+          ],
+          "answer": "A",
+          "explanation": "Set x = 0: y = -5."
+        },
+        {
+          "num": 35,
+          "question": "If  5x + 17 = 72, what is the value of x?",
+          "choices": [
+            "11",
+            "55",
+            "10",
+            "12"
+          ],
+          "answer": "A",
+          "explanation": "5x = 55; x = 11."
+        },
+        {
+          "num": 36,
+          "question": "What is the minimum value of  f(x) = 3(x - (2))^2 + (1)?",
+          "choices": [
+            "2",
+            "4",
+            "1",
+            "-1"
+          ],
+          "answer": "C",
+          "explanation": "The minimum occurs when (x - 2)^2 = 0, giving f = 1."
+        },
+        {
+          "num": 37,
+          "question": "A linear function f satisfies  f(2) = 2  and  f(4) = -2. What is the slope of the graph of f in the xy-plane?",
+          "choices": [
+            "-1",
+            "2",
+            "-2",
+            "-4"
+          ],
+          "answer": "C",
+          "explanation": "Slope = (-2 - 2)/(4 - 2) = -4/2 = -2."
+        },
+        {
+          "num": 38,
+          "question": "A population doubles every 5 years. If the population starts at 500, what is the population after 20 years?",
+          "choices": [
+            "516",
+            "16000",
+            "8000",
+            "4000"
+          ],
+          "answer": "C",
+          "explanation": "In 20 years there are 4 doublings: 500 * 2^4 = 8000."
+        },
+        {
+          "num": 39,
+          "question": "Service A charges $2 plus $12 per visit. Service B charges $12 plus $11 per visit. After how many visits do the two services cost the same total amount?",
+          "choices": [
+            "1",
+            "11",
+            "9",
+            "10"
+          ],
+          "answer": "D",
+          "explanation": "Set $2 + $12m = $12 + $11m; (1)m = 10; m = 10."
+        },
+        {
+          "num": 40,
+          "question": "What are the solutions to the equation  |2x + (-4)| = 8?",
+          "choices": [
+            "x = 8",
+            "x = 2 and x = -6",
+            "x = -2 and x = 6",
+            "x = 6 only"
+          ],
+          "answer": "C",
+          "explanation": "2x + (-4) = 8 or 2x + (-4) = -8; x = 6 or x = -2."
+        },
+        {
+          "num": 41,
+          "question": "Service A charges $2 plus $10 per visit. Service B charges $17 plus $7 per visit. After how many visits do the two services cost the same total amount?",
+          "choices": [
+            "4",
+            "3",
+            "5",
+            "6"
+          ],
+          "answer": "C",
+          "explanation": "Set $2 + $10m = $17 + $7m; (3)m = 15; m = 5."
+        },
+        {
+          "num": 42,
+          "question": "Which expression is equivalent to  (x + (-3))(x + (4))?",
+          "choices": [
+            "x^2 + 1x - 12",
+            "x^2 - 12x + 1",
+            "x^2 + 1x + 12",
+            "x^2 - 1x + -12"
+          ],
+          "answer": "A",
+          "explanation": "FOIL: x^2 + (-3)x + (4)x + (-3)(4) = x^2 + (1)x + (-12)."
+        },
+        {
+          "num": 43,
+          "question": "What is the slope of a line in the xy-plane that is perpendicular to the line  y = (3/2)x + 2?",
+          "choices": [
+            "-2/3",
+            "2/3",
+            "-3/2",
+            "3/2"
+          ],
+          "answer": "A",
+          "explanation": "The perpendicular slope is the negative reciprocal of 3/2, which is -2/3."
+        },
+        {
+          "num": 44,
+          "question": "What is the y-intercept of the graph of  y = 3x^2 + (3)x + (4)  in the xy-plane?",
+          "choices": [
+            "5",
+            "-4",
+            "3",
+            "4"
+          ],
+          "answer": "D",
+          "explanation": "Set x = 0: y = 4."
+        }
+      ]
+    },
+    {
+      "testNum": 7,
+      "title": "Full-Length Practice Test 7",
+      "questions": [
+        {
+          "num": 1,
+          "question": "If  (x + 7) / 5 = 3, what is the value of x?",
+          "choices": [
+            "1",
+            "-4",
+            "15",
+            "8"
+          ],
+          "answer": "D",
+          "explanation": "Multiply by 5: x + 7 = 15; x = 8."
+        },
+        {
+          "num": 2,
+          "question": "A population doubles every 3 years. If the population starts at 500, what is the population after 9 years?",
+          "choices": [
+            "508",
+            "8000",
+            "4000",
+            "3000"
+          ],
+          "answer": "C",
+          "explanation": "In 9 years there are 3 doublings: 500 * 2^3 = 4000."
+        },
+        {
+          "num": 3,
+          "question": "A discount of 20% is applied to an item with a regular price of $250. What is the amount of the discount, in dollars?",
+          "choices": [
+            "200",
+            "270",
+            "5",
+            "50"
+          ],
+          "answer": "D",
+          "explanation": "20% of 250 = 0.20 * 250 = 50."
+        },
+        {
+          "num": 4,
+          "question": "Two angles of a triangle measure 61 degrees and 71 degrees. What is the measure of the third angle?",
+          "choices": [
+            "58 degrees",
+            "48 degrees",
+            "132 degrees",
+            "38 degrees"
+          ],
+          "answer": "B",
+          "explanation": "Sum of triangle angles is 180: 61 + 71 + c = 180; c = 48."
+        },
+        {
+          "num": 5,
+          "question": "What is the solution (x, y) to the system  5x + 2y = 21  and  x + y = 9?",
+          "choices": [
+            "(9, 0)",
+            "(2, 7)",
+            "(1, 8)",
+            "(8, 1)"
+          ],
+          "answer": "C",
+          "explanation": "From the second equation, x = 9 - y. Substitute: 5(9 - y) + 2y = 21; (-3)y = -24; y = 8; x = 1."
+        },
+        {
+          "num": 6,
+          "question": "What are the coordinates of the vertex of the graph of  y = -2(x - (6))^2 + (-7)  in the xy-plane?",
+          "choices": [
+            "(-6, -7)",
+            "(6, 7)",
+            "(6, -7)",
+            "(-6, 7)"
+          ],
+          "answer": "C",
+          "explanation": "Vertex form y = a(x - h)^2 + k has vertex (h, k) = (6, -7)."
+        },
+        {
+          "num": 7,
+          "question": "A random sample of 400 students from a school of 2000 students was surveyed; 20% reported playing a sport. Based on this sample, the best estimate of the number of students at the school who play a sport is closest to:",
+          "choices": [
+            "1600",
+            "800",
+            "200",
+            "400"
+          ],
+          "answer": "D",
+          "explanation": "Estimate = sample proportion times population: 0.20 * 2000 = 400."
+        },
+        {
+          "num": 8,
+          "question": "In the xy-plane, the equation of a circle is  (x - 2)^2 + (y + 3)^2 = 16. What are the coordinates of the center of the circle?",
+          "choices": [
+            "(-2, 3)",
+            "(2, -3)",
+            "(2, 3)",
+            "(-2, -3)"
+          ],
+          "answer": "B",
+          "explanation": "Center is (h, k) = (2, -3)."
+        },
+        {
+          "num": 9,
+          "question": "A student wants an average of at least 80 across 4 tests, each scored out of 100. So far the student's combined score on the first 3 tests is 283. Which inequality represents the score t the student must achieve on the final test to meet the goal?",
+          "choices": [
+            "t >= 42",
+            "t >= 37",
+            "t <= 37",
+            "t > 37"
+          ],
+          "answer": "B",
+          "explanation": "(283 + t)/4 >= 80; 283 + t >= 320; t >= 37."
+        },
+        {
+          "num": 10,
+          "question": "The polynomial  p(x) = x^3 + 4x^2 + (-4)x + k  has  (x - 2)  as a factor. What is the value of k?",
+          "choices": [
+            "16",
+            "2",
+            "-16",
+            "-15"
+          ],
+          "answer": "C",
+          "explanation": "By the factor theorem, p(2) = 0: 8 + 4(4) + (-4)(2) + k = 0; k = -16."
+        },
+        {
+          "num": 11,
+          "question": "What is the range of the data set 3, 37, 40, 26, 48?",
+          "choices": [
+            "45",
+            "48",
+            "3",
+            "46"
+          ],
+          "answer": "A",
+          "explanation": "Range = max - min = 48 - 3 = 45."
+        },
+        {
+          "num": 12,
+          "question": "Two angles of a triangle measure 35 degrees and 35 degrees. What is the measure of the third angle?",
+          "choices": [
+            "120 degrees",
+            "70 degrees",
+            "100 degrees",
+            "110 degrees"
+          ],
+          "answer": "D",
+          "explanation": "Sum of triangle angles is 180: 35 + 35 + c = 180; c = 110."
+        },
+        {
+          "num": 13,
+          "question": "A linear function f satisfies  f(2) = -2  and  f(4) = -8. What is the slope of the graph of f in the xy-plane?",
+          "choices": [
+            "-6",
+            "3",
+            "-2",
+            "-3"
+          ],
+          "answer": "D",
+          "explanation": "Slope = (-8 - -2)/(4 - 2) = -6/2 = -3."
+        },
+        {
+          "num": 14,
+          "question": "The function f is defined by  f(x) = 2000(1.02)^x. According to the model, f represents exponential growth at what rate per period?",
+          "choices": [
+            "102%",
+            "0.2%",
+            "7%",
+            "2%"
+          ],
+          "answer": "D",
+          "explanation": "Base (1.02) = 1 + 0.02 represents a 2% increase per period."
+        },
+        {
+          "num": 15,
+          "question": "What is the range of the data set 18, 49, 14, 42, 20?",
+          "choices": [
+            "36",
+            "49",
+            "14",
+            "35"
+          ],
+          "answer": "D",
+          "explanation": "Range = max - min = 49 - 14 = 35."
+        },
+        {
+          "num": 16,
+          "question": "In the xy-plane, the equation of a circle is  (x + 5)^2 + (y - 0)^2 = 9. What is the radius of this circle?",
+          "choices": [
+            "3",
+            "1",
+            "9",
+            "4"
+          ],
+          "answer": "A",
+          "explanation": "Compare to (x - h)^2 + (y - k)^2 = r^2; r^2 = 9, so r = 3."
+        },
+        {
+          "num": 17,
+          "question": "If  5x + 12 = 87, what is the value of x?",
+          "choices": [
+            "75",
+            "14",
+            "15",
+            "16"
+          ],
+          "answer": "C",
+          "explanation": "5x = 75; x = 15."
+        },
+        {
+          "num": 18,
+          "question": "The function f is defined by  f(x) = 2000(1.05)^x. According to the model, f represents exponential growth at what rate per period?",
+          "choices": [
+            "105%",
+            "0.5%",
+            "10%",
+            "5%"
+          ],
+          "answer": "D",
+          "explanation": "Base (1.05) = 1 + 0.05 represents a 5% increase per period."
+        },
+        {
+          "num": 19,
+          "question": "A discount of 40% is applied to an item with a regular price of $120. What is the amount of the discount, in dollars?",
+          "choices": [
+            "160",
+            "48",
+            "4.8",
+            "72"
+          ],
+          "answer": "B",
+          "explanation": "40% of 120 = 0.40 * 120 = 48."
+        },
+        {
+          "num": 20,
+          "question": "In the xy-plane, the equation of a circle is  (x - 6)^2 + (y + 3)^2 = 9. What are the coordinates of the center of the circle?",
+          "choices": [
+            "(6, -3)",
+            "(-6, 3)",
+            "(6, 3)",
+            "(-6, -3)"
+          ],
+          "answer": "A",
+          "explanation": "Center is (h, k) = (6, -3)."
+        },
+        {
+          "num": 21,
+          "question": "If  (x + 9) / 2 = 2, what is the value of x?",
+          "choices": [
+            "4",
+            "-7",
+            "-5",
+            "-14"
+          ],
+          "answer": "C",
+          "explanation": "Multiply by 2: x + 9 = 4; x = -5."
+        },
+        {
+          "num": 22,
+          "question": "Which expression is equivalent to  x^2 + (8)x + (15)?",
+          "choices": [
+            "(x + (-5))(x + (-3))",
+            "(x + (5))(x + (-3))",
+            "(x + (15)) (x + (8))",
+            "(x + (5))(x + (3))"
+          ],
+          "answer": "D",
+          "explanation": "Factor: roots are -5 and -3; expression equals (x - -5)(x - -3)."
+        },
+        {
+          "num": 23,
+          "question": "What is the mean of the values 22, 23, 19, 21, 20?",
+          "choices": [
+            "20",
+            "22",
+            "105",
+            "21"
+          ],
+          "answer": "D",
+          "explanation": "Sum = 105; mean = 105/5 = 21."
+        },
+        {
+          "num": 24,
+          "question": "Two angles of a triangle measure 68 degrees and 47 degrees. What is the measure of the third angle?",
+          "choices": [
+            "75 degrees",
+            "115 degrees",
+            "55 degrees",
+            "65 degrees"
+          ],
+          "answer": "D",
+          "explanation": "Sum of triangle angles is 180: 68 + 47 + c = 180; c = 65."
+        },
+        {
+          "num": 25,
+          "question": "Which value of x satisfies the equation  6(x - 1) = 2x + 14?",
+          "choices": [
+            "7",
+            "5",
+            "3",
+            "1"
+          ],
+          "answer": "B",
+          "explanation": "Distribute: 6x - 6 = 2x + 14; (4)x = 20; x = 5."
+        },
+        {
+          "num": 26,
+          "question": "Which expression is equivalent to  (x + (3))(x + (-4))?",
+          "choices": [
+            "x^2 - 12x - 1",
+            "x^2 - 1x - 12",
+            "x^2 + -1x + 12",
+            "x^2 + 1x + -12"
+          ],
+          "answer": "B",
+          "explanation": "FOIL: x^2 + (3)x + (-4)x + (3)(-4) = x^2 + (-1)x + (-12)."
+        },
+        {
+          "num": 27,
+          "question": "A bag contains 8 red, 7 blue, and 2 green marbles. If a marble is selected at random, what is the probability that it is red?",
+          "choices": [
+            "8/9",
+            "9/17",
+            "8/15",
+            "8/17"
+          ],
+          "answer": "D",
+          "explanation": "8 red out of 17 total marbles = 8/17."
+        },
+        {
+          "num": 28,
+          "question": "What is the arc length, in terms of pi, of a 60-degree arc in a circle with radius 18?",
+          "choices": [
+            "18 pi",
+            "12 pi",
+            "6 pi",
+            "54 pi"
+          ],
+          "answer": "C",
+          "explanation": "Arc length = (theta/360)(2 pi r) = (60/360)(2 pi 18) = 6 pi."
+        },
+        {
+          "num": 29,
+          "question": "If  (x + 4) / 3 = 4, what is the value of x?",
+          "choices": [
+            "0",
+            "4",
+            "8",
+            "12"
+          ],
+          "answer": "C",
+          "explanation": "Multiply by 3: x + 4 = 12; x = 8."
+        },
+        {
+          "num": 30,
+          "question": "Which expression is equivalent to  x^7 / x^6  for x != 0?",
+          "choices": [
+            "x^13",
+            "x^42",
+            "x^1",
+            "x^2"
+          ],
+          "answer": "C",
+          "explanation": "Subtract exponents: 7 - 6 = 1."
+        },
+        {
+          "num": 31,
+          "question": "For what value of k does the equation  kx + 3 = 3x + 2  have no solution?",
+          "choices": [
+            "6",
+            "2",
+            "3",
+            "5"
+          ],
+          "answer": "C",
+          "explanation": "Same x-coefficient (k = 3) and different constants (3 vs 2) means no solution."
+        },
+        {
+          "num": 32,
+          "question": "How many distinct real solutions does the equation  x^2 + 8x + 4 = 0  have?",
+          "choices": [
+            "Infinitely many",
+            "One",
+            "Two",
+            "Zero"
+          ],
+          "answer": "C",
+          "explanation": "Discriminant b^2 - 4ac = 64 - 4(4) = 48, so two real solution(s)."
+        },
+        {
+          "num": 33,
+          "question": "What is the y-intercept of the graph of  3x + 3y = 12  in the xy-plane?",
+          "choices": [
+            "12",
+            "3",
+            "-4",
+            "4"
+          ],
+          "answer": "D",
+          "explanation": "Set x = 0: 3y = 12; y = 4."
+        },
+        {
+          "num": 34,
+          "question": "How many distinct real solutions does the equation  x^2 + 6x + 3 = 0  have?",
+          "choices": [
+            "Infinitely many",
+            "Two",
+            "One",
+            "Zero"
+          ],
+          "answer": "B",
+          "explanation": "Discriminant b^2 - 4ac = 36 - 4(3) = 24, so two real solution(s)."
+        },
+        {
+          "num": 35,
+          "question": "Which of the following describes all values of x satisfying  -3x + (-9) >= -24?",
+          "choices": [
+            "x <= 5",
+            "x >= 5",
+            "x <= -5",
+            "x <= 6"
+          ],
+          "answer": "A",
+          "explanation": "Subtract (-9): -3x >= -15. Divide by -3 (and FLIP): x <= 5."
+        },
+        {
+          "num": 36,
+          "question": "The function f is defined by  f(x) = 2000(0.90)^x. Which of the following best describes f?",
+          "choices": [
+            "15% decrease",
+            "90% decrease",
+            "10% increase",
+            "10% decrease"
+          ],
+          "answer": "D",
+          "explanation": "Base (0.90) = 1 - 0.10, so f represents a 10% per-period decrease."
+        },
+        {
+          "num": 37,
+          "question": "What is the solution (x, y) to the system  x + y = 19  and  x - y = 3?",
+          "choices": [
+            "(12, 7)",
+            "(8, 11)",
+            "(11, 8)",
+            "(19, 3)"
+          ],
+          "answer": "C",
+          "explanation": "Add: 2x = 22; x = 11; y = 8."
+        },
+        {
+          "num": 38,
+          "question": "A population doubles every 4 years. If the population starts at 200, what is the population after 8 years?",
+          "choices": [
+            "800",
+            "1600",
+            "801",
+            "204"
+          ],
+          "answer": "A",
+          "explanation": "In 8 years there are 2 doublings: 200 * 2^2 = 800."
+        },
+        {
+          "num": 39,
+          "question": "A linear function f satisfies  f(2) = -11  and  f(5) = -20. What is the slope of the graph of f in the xy-plane?",
+          "choices": [
+            "-2",
+            "3",
+            "-6",
+            "-3"
+          ],
+          "answer": "D",
+          "explanation": "Slope = (-20 - -11)/(5 - 2) = -9/3 = -3."
+        },
+        {
+          "num": 40,
+          "question": "The function f is defined by  f(x) = 1000(1.05)^x. According to the model, f represents exponential growth at what rate per period?",
+          "choices": [
+            "105%",
+            "10%",
+            "5%",
+            "0.5%"
+          ],
+          "answer": "C",
+          "explanation": "Base (1.05) = 1 + 0.05 represents a 5% increase per period."
+        },
+        {
+          "num": 41,
+          "question": "A linear function f satisfies  f(1) = 9  and  f(3) = 13. What is the slope of the graph of f in the xy-plane?",
+          "choices": [
+            "2",
+            "3",
+            "4",
+            "-2"
+          ],
+          "answer": "A",
+          "explanation": "Slope = (13 - 9)/(3 - 1) = 4/2 = 2."
+        },
+        {
+          "num": 42,
+          "question": "What is the minimum value of  f(x) = (x - (5))^2 + (8)?",
+          "choices": [
+            "-8",
+            "8",
+            "5",
+            "9"
+          ],
+          "answer": "B",
+          "explanation": "The minimum occurs when (x - 5)^2 = 0, giving f = 8."
+        },
+        {
+          "num": 43,
+          "question": "The function f is defined by  f(x) = 5x + (5). For what value of x is  f(x) = 35?",
+          "choices": [
+            "30",
+            "6",
+            "7",
+            "5"
+          ],
+          "answer": "B",
+          "explanation": "5x + (5) = 35; 5x = 30; x = 6."
+        },
+        {
+          "num": 44,
+          "question": "What is the minimum value of  f(x) = 2(x - (2))^2 + (8)?",
+          "choices": [
+            "2",
+            "-8",
+            "8",
+            "10"
+          ],
+          "answer": "C",
+          "explanation": "The minimum occurs when (x - 2)^2 = 0, giving f = 8."
+        }
+      ]
+    },
+    {
+      "testNum": 8,
+      "title": "Full-Length Practice Test 8",
+      "questions": [
+        {
+          "num": 1,
+          "question": "Which of the following describes all values of x satisfying  -3x + (5) < -4?",
+          "choices": [
+            "x < 3",
+            "x > -3",
+            "x > 4",
+            "x > 3"
+          ],
+          "answer": "D",
+          "explanation": "Subtract (5): -3x < -9. Divide by -3 (and FLIP): x > 3."
+        },
+        {
+          "num": 2,
+          "question": "What are the solutions to the equation  |1x + (-3)| = 6?",
+          "choices": [
+            "x = 9 only",
+            "x = 6",
+            "x = 3 and x = -9",
+            "x = -3 and x = 9"
+          ],
+          "answer": "D",
+          "explanation": "1x + (-3) = 6 or 1x + (-3) = -6; x = 9 or x = -3."
+        },
+        {
+          "num": 3,
+          "question": "At a constant unit price, 3 pounds of a product cost $12. At the same unit price, what is the cost of 8 pounds?",
+          "choices": [
+            "$28",
+            "$36",
+            "$32",
+            "$44"
+          ],
+          "answer": "C",
+          "explanation": "Unit price = $12/3 = $4/lb; 8 * $4 = $32."
+        },
+        {
+          "num": 4,
+          "question": "What is the volume of a rectangular box with dimensions 2 by 12 by 10?",
+          "choices": [
+            "240",
+            "328",
+            "24",
+            "34"
+          ],
+          "answer": "A",
+          "explanation": "V = lwh = 2 * 12 * 10 = 240."
+        },
+        {
+          "num": 5,
+          "question": "The function f is defined by  f(x) = 5x + (7). For what value of x is  f(x) = 32?",
+          "choices": [
+            "5",
+            "25",
+            "4",
+            "6"
+          ],
+          "answer": "A",
+          "explanation": "5x + (7) = 32; 5x = 25; x = 5."
+        },
+        {
+          "num": 6,
+          "question": "What is the value of x that satisfies the equation  sqrt(3x + (-11)) = 4?",
+          "choices": [
+            "10",
+            "9",
+            "16",
+            "27"
+          ],
+          "answer": "B",
+          "explanation": "Square both sides: 3x + (-11) = 16; 3x = 27; x = 9."
+        },
+        {
+          "num": 7,
+          "question": "What is the range of the data set 42, 26, 32, 41, 3?",
+          "choices": [
+            "39",
+            "42",
+            "3",
+            "40"
+          ],
+          "answer": "A",
+          "explanation": "Range = max - min = 42 - 3 = 39."
+        },
+        {
+          "num": 8,
+          "question": "In the xy-plane, the equation of a circle is  (x - 2)^2 + (y - 6)^2 = 25. What is the radius of this circle?",
+          "choices": [
+            "25",
+            "6",
+            "2",
+            "5"
+          ],
+          "answer": "D",
+          "explanation": "Compare to (x - h)^2 + (y - k)^2 = r^2; r^2 = 25, so r = 5."
+        },
+        {
+          "num": 9,
+          "question": "A line in the xy-plane passes through the points (0, 7) and (4, 11). What is the slope of the line?",
+          "choices": [
+            "2",
+            "0",
+            "-1",
+            "1"
+          ],
+          "answer": "D",
+          "explanation": "Slope = (11 - 7)/(4 - 0) = 4/4 = 1."
+        },
+        {
+          "num": 10,
+          "question": "What are the solutions to the equation  |3x + (-3)| = 12?",
+          "choices": [
+            "x = 3 and x = -5",
+            "x = -3 and x = 5",
+            "x = 12",
+            "x = 5 only"
+          ],
+          "answer": "B",
+          "explanation": "3x + (-3) = 12 or 3x + (-3) = -12; x = 5 or x = -3."
+        },
+        {
+          "num": 11,
+          "question": "What is the mean of the values 9, 5, 8, 7, 6?",
+          "choices": [
+            "6",
+            "7",
+            "35",
+            "8"
+          ],
+          "answer": "B",
+          "explanation": "Sum = 35; mean = 35/5 = 7."
+        },
+        {
+          "num": 12,
+          "question": "What is the area, in terms of pi, of a 120-degree sector in a circle with radius 18?",
+          "choices": [
+            "324 pi",
+            "108 pi",
+            "12 pi",
+            "216 pi"
+          ],
+          "answer": "B",
+          "explanation": "Area = (theta/360)(pi r^2) = (120/360)(pi)(324) = 108 pi."
+        },
+        {
+          "num": 13,
+          "question": "Which of the following describes all values of x satisfying  -3x + (-9) < -21?",
+          "choices": [
+            "x > 4",
+            "x < 4",
+            "x > 5",
+            "x > -4"
+          ],
+          "answer": "A",
+          "explanation": "Subtract (-9): -3x < -12. Divide by -3 (and FLIP): x > 4."
+        },
+        {
+          "num": 14,
+          "question": "The polynomial  p(x) = x^3 + 3x^2 + (2)x + k  has  (x - 5)  as a factor. What is the value of k?",
+          "choices": [
+            "-209",
+            "210",
+            "-210",
+            "5"
+          ],
+          "answer": "C",
+          "explanation": "By the factor theorem, p(5) = 0: 125 + 3(25) + (2)(5) + k = 0; k = -210."
+        },
+        {
+          "num": 15,
+          "question": "What is the median of the data set 46, 38, 49, 14, 5?",
+          "choices": [
+            "5",
+            "38",
+            "49",
+            "30"
+          ],
+          "answer": "B",
+          "explanation": "Sort: [5, 14, 38, 46, 49]; median = middle value = 38."
+        },
+        {
+          "num": 16,
+          "question": "In the xy-plane, the equation of a circle is  (x + 5)^2 + (y - 4)^2 = 9. What are the coordinates of the center of the circle?",
+          "choices": [
+            "(-5, -4)",
+            "(5, 4)",
+            "(5, -4)",
+            "(-5, 4)"
+          ],
+          "answer": "D",
+          "explanation": "Center is (h, k) = (-5, 4)."
+        },
+        {
+          "num": 17,
+          "question": "At a constant unit price, 4 pounds of a product cost $32. At the same unit price, what is the cost, in dollars, of 9 pounds?",
+          "choices": [
+            "64",
+            "72",
+            "37",
+            "17"
+          ],
+          "answer": "B",
+          "explanation": "Unit price = $32/4 = $8/lb; 9 * 8 = $72."
+        },
+        {
+          "num": 18,
+          "question": "What is the y-intercept of the graph of  y = -2x^2 + (-4)x + (1)  in the xy-plane?",
+          "choices": [
+            "1",
+            "-2",
+            "-1",
+            "-4"
+          ],
+          "answer": "A",
+          "explanation": "Set x = 0: y = 1."
+        },
+        {
+          "num": 19,
+          "question": "A bag contains 8 red, 4 blue, and 2 green marbles. If a marble is selected at random, what is the probability that it is red?",
+          "choices": [
+            "3/7",
+            "8/6",
+            "4/7",
+            "8/12"
+          ],
+          "answer": "C",
+          "explanation": "8 red out of 14 total marbles = 4/7."
+        },
+        {
+          "num": 20,
+          "question": "Two angles of a triangle measure 80 degrees and 23 degrees. What is the measure of the third angle?",
+          "choices": [
+            "103 degrees",
+            "87 degrees",
+            "77 degrees",
+            "67 degrees"
+          ],
+          "answer": "C",
+          "explanation": "Sum of triangle angles is 180: 80 + 23 + c = 180; c = 77."
+        },
+        {
+          "num": 21,
+          "question": "What is the slope of a line in the xy-plane that is perpendicular to the line  y = (1/5)x + -4?",
+          "choices": [
+            "-5",
+            "5/1",
+            "-1/5",
+            "1/5"
+          ],
+          "answer": "A",
+          "explanation": "The perpendicular slope is the negative reciprocal of 1/5, which is -5."
+        },
+        {
+          "num": 22,
+          "question": "Which expression is equivalent to  (x + (6))(x + (2))?",
+          "choices": [
+            "x^2 - 8x + 12",
+            "x^2 + 8x - 12",
+            "x^2 + 8x + 12",
+            "x^2 + 12x + 8"
+          ],
+          "answer": "C",
+          "explanation": "FOIL: x^2 + (6)x + (2)x + (6)(2) = x^2 + (8)x + (12)."
+        },
+        {
+          "num": 23,
+          "question": "A bag contains 4 red, 4 blue, and 2 green marbles. If a marble is selected at random, what is the probability that it is red?",
+          "choices": [
+            "3/5",
+            "4/8",
+            "4/6",
+            "2/5"
+          ],
+          "answer": "D",
+          "explanation": "4 red out of 10 total marbles = 2/5."
+        },
+        {
+          "num": 24,
+          "question": "In the xy-plane, the equation of a circle is  (x - 6)^2 + (y - 0)^2 = 64. What is the radius of this circle?",
+          "choices": [
+            "9",
+            "8",
+            "64",
+            "4"
+          ],
+          "answer": "B",
+          "explanation": "Compare to (x - h)^2 + (y - k)^2 = r^2; r^2 = 64, so r = 8."
+        },
+        {
+          "num": 25,
+          "question": "Which value of x satisfies the equation  6(x - 3) = 3x + 12?",
+          "choices": [
+            "8",
+            "3",
+            "12",
+            "10"
+          ],
+          "answer": "D",
+          "explanation": "Distribute: 6x - 18 = 3x + 12; (3)x = 30; x = 10."
+        },
+        {
+          "num": 26,
+          "question": "The polynomial  p(x) = x^3 + 2x^2 + (5)x + k  has  (x - 3)  as a factor. What is the value of k?",
+          "choices": [
+            "-59",
+            "60",
+            "3",
+            "-60"
+          ],
+          "answer": "D",
+          "explanation": "By the factor theorem, p(3) = 0: 27 + 2(9) + (5)(3) + k = 0; k = -60."
+        },
+        {
+          "num": 27,
+          "question": "What is the range of the data set 26, 22, 12, 32, 49?",
+          "choices": [
+            "49",
+            "38",
+            "12",
+            "37"
+          ],
+          "answer": "D",
+          "explanation": "Range = max - min = 49 - 12 = 37."
+        },
+        {
+          "num": 28,
+          "question": "In the xy-plane, the equation of a circle is  (x + 1)^2 + (y - 4)^2 = 36. What are the coordinates of the center of the circle?",
+          "choices": [
+            "(-1, 4)",
+            "(1, 4)",
+            "(1, -4)",
+            "(-1, -4)"
+          ],
+          "answer": "A",
+          "explanation": "Center is (h, k) = (-1, 4)."
+        },
+        {
+          "num": 29,
+          "question": "If  5x + 16 = 91, what is the value of x?",
+          "choices": [
+            "75",
+            "16",
+            "15",
+            "14"
+          ],
+          "answer": "C",
+          "explanation": "5x = 75; x = 15."
+        },
+        {
+          "num": 30,
+          "question": "The functions f and g are defined by  f(x) = -3x + (4)  and  g(x) = 3x + (0). What is the value of  g(f(-1))?",
+          "choices": [
+            "21",
+            "-3",
+            "7",
+            "13"
+          ],
+          "answer": "A",
+          "explanation": "f(-1) = 7; g(7) = 3(7) + (0) = 21."
+        },
+        {
+          "num": 31,
+          "question": "What is the slope of a line in the xy-plane that is perpendicular to the line  y = (7/3)x + 8?",
+          "choices": [
+            "-7/3",
+            "7/3",
+            "-3/7",
+            "3/7"
+          ],
+          "answer": "C",
+          "explanation": "The perpendicular slope is the negative reciprocal of 7/3, which is -3/7."
+        },
+        {
+          "num": 32,
+          "question": "A population doubles every 2 years. If the population starts at 2000, what is the population after 4 years?",
+          "choices": [
+            "8001",
+            "8000",
+            "2004",
+            "16000"
+          ],
+          "answer": "B",
+          "explanation": "In 4 years there are 2 doublings: 2000 * 2^2 = 8000."
+        },
+        {
+          "num": 33,
+          "question": "Which equation represents the line in the xy-plane that is parallel to  y = 2x + (7)  and passes through (0, 6)?",
+          "choices": [
+            "y = -2x + 6",
+            "y = 2x + 7",
+            "y = 0.5x + 6",
+            "y = 2x + 6"
+          ],
+          "answer": "D",
+          "explanation": "Parallel lines share slope (2); the y-intercept is given as 6."
+        },
+        {
+          "num": 34,
+          "question": "The functions f and g are defined by  f(x) = 4x + (3)  and  g(x) = 2x + (4). What is the value of  g(f(5))?",
+          "choices": [
+            "47",
+            "14",
+            "50",
+            "27"
+          ],
+          "answer": "C",
+          "explanation": "f(5) = 23; g(23) = 2(23) + (4) = 50."
+        },
+        {
+          "num": 35,
+          "question": "The function f is defined by  f(x) = -2x + (2). What is the value of f(3)?",
+          "choices": [
+            "0",
+            "-4",
+            "-8",
+            "-3"
+          ],
+          "answer": "B",
+          "explanation": "f(3) = -2(3) + (2) = -6 + (2) = -4."
+        },
+        {
+          "num": 36,
+          "question": "The functions f and g are defined by  f(x) = -3x + (-5)  and  g(x) = -2x + (-1). What is the value of  g(f(-1))?",
+          "choices": [
+            "-12",
+            "3",
+            "1",
+            "-3"
+          ],
+          "answer": "B",
+          "explanation": "f(-1) = -2; g(-2) = -2(-2) + (-1) = 3."
+        },
+        {
+          "num": 37,
+          "question": "If  2x + -8 = 2, what is the value of x?",
+          "choices": [
+            "6",
+            "10",
+            "4",
+            "5"
+          ],
+          "answer": "D",
+          "explanation": "2x = 10; x = 5."
+        },
+        {
+          "num": 38,
+          "question": "What is the y-intercept of the graph of  y = 1x^2 + (0)x + (10)  in the xy-plane?",
+          "choices": [
+            "10",
+            "1",
+            "0",
+            "-10"
+          ],
+          "answer": "A",
+          "explanation": "Set x = 0: y = 10."
+        },
+        {
+          "num": 39,
+          "question": "A linear function f satisfies  f(2) = 6  and  f(5) = 21. What is the slope of the graph of f in the xy-plane?",
+          "choices": [
+            "10",
+            "6",
+            "5",
+            "-5"
+          ],
+          "answer": "C",
+          "explanation": "Slope = (21 - 6)/(5 - 2) = 15/3 = 5."
+        },
+        {
+          "num": 40,
+          "question": "Which expression is equivalent to  x^11 / x^6  for x != 0?",
+          "choices": [
+            "x^66",
+            "x^17",
+            "x^6",
+            "x^5"
+          ],
+          "answer": "D",
+          "explanation": "Subtract exponents: 11 - 6 = 5."
+        },
+        {
+          "num": 41,
+          "question": "How many solutions does the system  y = 3x + (-5)  and  y = 3x + (-4)  have?",
+          "choices": [
+            "No solution",
+            "Infinitely many solutions",
+            "Exactly one solution",
+            "Exactly two solutions"
+          ],
+          "answer": "A",
+          "explanation": "Same slope (3) and different y-intercepts (-5 vs -4) means parallel lines and no solution."
+        },
+        {
+          "num": 42,
+          "question": "What are the solutions to the equation  x^2 + (3)x + (2) = 0?",
+          "choices": [
+            "x = -1 and x = 2",
+            "x = -2 and x = -1",
+            "x = 3 and x = 2",
+            "x = 1 and x = 2"
+          ],
+          "answer": "B",
+          "explanation": "Factor: (x - -1)(x - -2) = 0, giving x = -1 or x = -2."
+        },
+        {
+          "num": 43,
+          "question": "The function f is defined by  f(x) = 3x + (4). For what value of x is  f(x) = 31?",
+          "choices": [
+            "9",
+            "10",
+            "27",
+            "8"
+          ],
+          "answer": "A",
+          "explanation": "3x + (4) = 31; 3x = 27; x = 9."
+        },
+        {
+          "num": 44,
+          "question": "The functions f and g are defined by  f(x) = 3x + (1)  and  g(x) = -2x + (5). What is the value of  g(f(-1))?",
+          "choices": [
+            "3",
+            "12",
+            "9",
+            "7"
+          ],
+          "answer": "C",
+          "explanation": "f(-1) = -2; g(-2) = -2(-2) + (5) = 9."
+        }
+      ]
+    },
+    {
+      "testNum": 9,
+      "title": "Full-Length Practice Test 9",
+      "questions": [
+        {
+          "num": 1,
+          "question": "If  8x + 7 = 55, what is the value of x?",
+          "choices": [
+            "48",
+            "5",
+            "6",
+            "7"
+          ],
+          "answer": "C",
+          "explanation": "8x = 48; x = 6."
+        },
+        {
+          "num": 2,
+          "question": "The functions f and g are defined by  f(x) = 2x + (3)  and  g(x) = 2x + (-1). What is the value of  g(f(2))?",
+          "choices": [
+            "13",
+            "6",
+            "10",
+            "3"
+          ],
+          "answer": "A",
+          "explanation": "f(2) = 7; g(7) = 2(7) + (-1) = 13."
+        },
+        {
+          "num": 3,
+          "question": "A discount of 25% is applied to an item with a regular price of $250. What is the amount of the discount, in dollars?",
+          "choices": [
+            "187.5",
+            "62.5",
+            "6.25",
+            "275"
+          ],
+          "answer": "B",
+          "explanation": "25% of 250 = 0.25 * 250 = 62.5."
+        },
+        {
+          "num": 4,
+          "question": "What is the area, in terms of pi, of a 120-degree sector in a circle with radius 8?",
+          "choices": [
+            "128/3 pi",
+            "64/3 pi",
+            "16/3 pi",
+            "64 pi"
+          ],
+          "answer": "B",
+          "explanation": "Area = (theta/360)(pi r^2) = (120/360)(pi)(64) = 64/3 pi."
+        },
+        {
+          "num": 5,
+          "question": "If  7x + 0 = 14, what is the value of x?",
+          "choices": [
+            "14",
+            "2",
+            "3",
+            "1"
+          ],
+          "answer": "B",
+          "explanation": "7x = 14; x = 2."
+        },
+        {
+          "num": 6,
+          "question": "What is the value of x that satisfies the equation  sqrt(3x + (7)) = 5?",
+          "choices": [
+            "18",
+            "6",
+            "25",
+            "7"
+          ],
+          "answer": "B",
+          "explanation": "Square both sides: 3x + (7) = 25; 3x = 18; x = 6."
+        },
+        {
+          "num": 7,
+          "question": "After a 15% discount, an item costs $85. What was the original price, in dollars?",
+          "choices": [
+            "85",
+            "97.75",
+            "100",
+            "115"
+          ],
+          "answer": "C",
+          "explanation": "Discount factor 0.85; original = 85/0.85 = 100."
+        },
+        {
+          "num": 8,
+          "question": "Two angles of a triangle measure 49 degrees and 94 degrees. What is the measure of the third angle?",
+          "choices": [
+            "27 degrees",
+            "143 degrees",
+            "47 degrees",
+            "37 degrees"
+          ],
+          "answer": "D",
+          "explanation": "Sum of triangle angles is 180: 49 + 94 + c = 180; c = 37."
+        },
+        {
+          "num": 9,
+          "question": "Which value of x satisfies the equation  6(x - 5) = 5x + -22?",
+          "choices": [
+            "8",
+            "10",
+            "5",
+            "6"
+          ],
+          "answer": "A",
+          "explanation": "Distribute: 6x - 30 = 5x + -22; (1)x = 8; x = 8."
+        },
+        {
+          "num": 10,
+          "question": "Which expression is equivalent to  (x + (-4))(x + (5))?",
+          "choices": [
+            "x^2 - 20x + 1",
+            "x^2 - 1x + -20",
+            "x^2 + 1x + 20",
+            "x^2 + 1x - 20"
+          ],
+          "answer": "D",
+          "explanation": "FOIL: x^2 + (-4)x + (5)x + (-4)(5) = x^2 + (1)x + (-20)."
+        },
+        {
+          "num": 11,
+          "question": "A bag contains 8 red, 7 blue, and 5 green marbles. If a marble is selected at random, what is the probability that it is red?",
+          "choices": [
+            "2/5",
+            "8/12",
+            "3/5",
+            "8/15"
+          ],
+          "answer": "A",
+          "explanation": "8 red out of 20 total marbles = 2/5."
+        },
+        {
+          "num": 12,
+          "question": "What is the volume of a rectangular box with dimensions 9 by 10 by 10?",
+          "choices": [
+            "100",
+            "900",
+            "29",
+            "560"
+          ],
+          "answer": "B",
+          "explanation": "V = lwh = 9 * 10 * 10 = 900."
+        },
+        {
+          "num": 13,
+          "question": "Which value of x satisfies the equation  5(x - 6) = 1x + -14?",
+          "choices": [
+            "6",
+            "2",
+            "5",
+            "4"
+          ],
+          "answer": "D",
+          "explanation": "Distribute: 5x - 30 = 1x + -14; (4)x = 16; x = 4."
+        },
+        {
+          "num": 14,
+          "question": "The functions f and g are defined by  f(x) = -3x + (-2)  and  g(x) = 2x + (3). What is the value of  g(f(1))?",
+          "choices": [
+            "-2",
+            "-7",
+            "5",
+            "-5"
+          ],
+          "answer": "B",
+          "explanation": "f(1) = -5; g(-5) = 2(-5) + (3) = -7."
+        },
+        {
+          "num": 15,
+          "question": "At a constant unit price, 4 pounds of a product cost $24. At the same unit price, what is the cost of 7 pounds?",
+          "choices": [
+            "$66",
+            "$48",
+            "$42",
+            "$36"
+          ],
+          "answer": "C",
+          "explanation": "Unit price = $24/4 = $6/lb; 7 * $6 = $42."
+        },
+        {
+          "num": 16,
+          "question": "What is the volume of a rectangular box with dimensions 2 by 7 by 10?",
+          "choices": [
+            "19",
+            "140",
+            "24",
+            "208"
+          ],
+          "answer": "B",
+          "explanation": "V = lwh = 2 * 7 * 10 = 140."
+        },
+        {
+          "num": 17,
+          "question": "A student wants an average of at least 85 across 5 tests, each scored out of 100. So far the student's combined score on the first 4 tests is 363. Which inequality represents the score t the student must achieve on the final test to meet the goal?",
+          "choices": [
+            "t >= 67",
+            "t > 62",
+            "t <= 62",
+            "t >= 62"
+          ],
+          "answer": "D",
+          "explanation": "(363 + t)/5 >= 85; 363 + t >= 425; t >= 62."
+        },
+        {
+          "num": 18,
+          "question": "The functions f and g are defined by  f(x) = -2x + (-3)  and  g(x) = 2x + (5). What is the value of  g(f(5))?",
+          "choices": [
+            "15",
+            "-18",
+            "-21",
+            "-8"
+          ],
+          "answer": "C",
+          "explanation": "f(5) = -13; g(-13) = 2(-13) + (5) = -21."
+        },
+        {
+          "num": 19,
+          "question": "What is the median of the data set 47, 17, 24, 25, 35?",
+          "choices": [
+            "25",
+            "17",
+            "29",
+            "47"
+          ],
+          "answer": "A",
+          "explanation": "Sort: [17, 24, 25, 35, 47]; median = middle value = 25."
+        },
+        {
+          "num": 20,
+          "question": "What is the volume of a rectangular box with dimensions 11 by 3 by 12?",
+          "choices": [
+            "45",
+            "396",
+            "26",
+            "402"
+          ],
+          "answer": "B",
+          "explanation": "V = lwh = 11 * 3 * 12 = 396."
+        },
+        {
+          "num": 21,
+          "question": "A line in the xy-plane passes through the points (2, -1) and (4, -5). What is the slope of the line?",
+          "choices": [
+            "-3",
+            "-1",
+            "2",
+            "-2"
+          ],
+          "answer": "D",
+          "explanation": "Slope = (-5 - -1)/(4 - 2) = -4/2 = -2."
+        },
+        {
+          "num": 22,
+          "question": "The polynomial  p(x) = x^3 + 4x^2 + (0)x + k  has  (x - 2)  as a factor. What is the value of k?",
+          "choices": [
+            "24",
+            "-23",
+            "2",
+            "-24"
+          ],
+          "answer": "D",
+          "explanation": "By the factor theorem, p(2) = 0: 8 + 4(4) + (0)(2) + k = 0; k = -24."
+        },
+        {
+          "num": 23,
+          "question": "What is the mean of the values 8, 11, 10, 9, 12?",
+          "choices": [
+            "9",
+            "50",
+            "11",
+            "10"
+          ],
+          "answer": "D",
+          "explanation": "Sum = 50; mean = 50/5 = 10."
+        },
+        {
+          "num": 24,
+          "question": "In the xy-plane, the equation of a circle is  (x + 5)^2 + (y - 0)^2 = 25. What is the radius of this circle?",
+          "choices": [
+            "5",
+            "25",
+            "2",
+            "6"
+          ],
+          "answer": "A",
+          "explanation": "Compare to (x - h)^2 + (y - k)^2 = r^2; r^2 = 25, so r = 5."
+        },
+        {
+          "num": 25,
+          "question": "For what value of k does the equation  4x + 7 = 4x + k  have infinitely many solutions?",
+          "choices": [
+            "-7",
+            "8",
+            "7",
+            "4"
+          ],
+          "answer": "C",
+          "explanation": "For infinitely many solutions, both sides must be identical, so k = 7."
+        },
+        {
+          "num": 26,
+          "question": "A population doubles every 5 years. If the population starts at 100, what is the population after 15 years?",
+          "choices": [
+            "1600",
+            "800",
+            "600",
+            "108"
+          ],
+          "answer": "B",
+          "explanation": "In 15 years there are 3 doublings: 100 * 2^3 = 800."
+        },
+        {
+          "num": 27,
+          "question": "What is the mean of the values 9, 8, 7, 6, 10?",
+          "choices": [
+            "9",
+            "40",
+            "7",
+            "8"
+          ],
+          "answer": "D",
+          "explanation": "Sum = 40; mean = 40/5 = 8."
+        },
+        {
+          "num": 28,
+          "question": "What is the volume of a rectangular box with dimensions 4 by 3 by 11?",
+          "choices": [
+            "178",
+            "132",
+            "23",
+            "18"
+          ],
+          "answer": "B",
+          "explanation": "V = lwh = 4 * 3 * 11 = 132."
+        },
+        {
+          "num": 29,
+          "question": "The function f is defined by  f(x) = 2x + (5). For what value of x is  f(x) = 17?",
+          "choices": [
+            "5",
+            "7",
+            "6",
+            "12"
+          ],
+          "answer": "C",
+          "explanation": "2x + (5) = 17; 2x = 12; x = 6."
+        },
+        {
+          "num": 30,
+          "question": "What is the minimum value of  f(x) = 2(x - (2))^2 + (3)?",
+          "choices": [
+            "5",
+            "2",
+            "-3",
+            "3"
+          ],
+          "answer": "D",
+          "explanation": "The minimum occurs when (x - 2)^2 = 0, giving f = 3."
+        },
+        {
+          "num": 31,
+          "question": "Service A charges $3 plus $10 per visit. Service B charges $15 plus $7 per visit. After how many visits do the two services cost the same total amount?",
+          "choices": [
+            "3",
+            "4",
+            "6",
+            "5"
+          ],
+          "answer": "B",
+          "explanation": "Set $3 + $10m = $15 + $7m; (3)m = 12; m = 4."
+        },
+        {
+          "num": 32,
+          "question": "The polynomial  p(x) = x^3 + 3x^2 + (3)x + k  has  (x - 4)  as a factor. What is the value of k?",
+          "choices": [
+            "4",
+            "124",
+            "-124",
+            "-123"
+          ],
+          "answer": "C",
+          "explanation": "By the factor theorem, p(4) = 0: 64 + 3(16) + (3)(4) + k = 0; k = -124."
+        },
+        {
+          "num": 33,
+          "question": "If  3x + 2 = 35, what is the value of x?",
+          "choices": [
+            "10",
+            "11",
+            "33",
+            "12"
+          ],
+          "answer": "B",
+          "explanation": "3x = 33; x = 11."
+        },
+        {
+          "num": 34,
+          "question": "What are the coordinates of the vertex of the graph of  y = 3(x - (4))^2 + (5)  in the xy-plane?",
+          "choices": [
+            "(-4, -5)",
+            "(4, -5)",
+            "(4, 5)",
+            "(-4, 5)"
+          ],
+          "answer": "C",
+          "explanation": "Vertex form y = a(x - h)^2 + k has vertex (h, k) = (4, 5)."
+        },
+        {
+          "num": 35,
+          "question": "If  (x + -4) / 2 = 9, what is the value of x?",
+          "choices": [
+            "26",
+            "18",
+            "22",
+            "13"
+          ],
+          "answer": "C",
+          "explanation": "Multiply by 2: x + -4 = 18; x = 22."
+        },
+        {
+          "num": 36,
+          "question": "What are the x-intercepts of the graph of  y = (x - (5))(x - (-6))?",
+          "choices": [
+            "x = 5 and x = -6",
+            "x = 5 and x = 6",
+            "x = -5 and x = 6",
+            "x = -30"
+          ],
+          "answer": "A",
+          "explanation": "Set each factor equal to zero: x = 5 or x = -6."
+        },
+        {
+          "num": 37,
+          "question": "The function f is defined by  f(x) = 5x + (7). For what value of x is  f(x) = 67?",
+          "choices": [
+            "60",
+            "12",
+            "13",
+            "11"
+          ],
+          "answer": "B",
+          "explanation": "5x + (7) = 67; 5x = 60; x = 12."
+        },
+        {
+          "num": 38,
+          "question": "The functions f and g are defined by  f(x) = 3x + (-5)  and  g(x) = -2x + (1). What is the value of  g(f(-3))?",
+          "choices": [
+            "7",
+            "14",
+            "29",
+            "-13"
+          ],
+          "answer": "C",
+          "explanation": "f(-3) = -14; g(-14) = -2(-14) + (1) = 29."
+        },
+        {
+          "num": 39,
+          "question": "Service A charges $5 plus $6 per visit. Service B charges $10 plus $5 per visit. After how many visits do the two services cost the same total amount?",
+          "choices": [
+            "6",
+            "5",
+            "4",
+            "1"
+          ],
+          "answer": "B",
+          "explanation": "Set $5 + $6m = $10 + $5m; (1)m = 5; m = 5."
+        },
+        {
+          "num": 40,
+          "question": "What is the value of x that satisfies the equation  sqrt(3x + (10)) = 4?",
+          "choices": [
+            "6",
+            "2",
+            "3",
+            "16"
+          ],
+          "answer": "B",
+          "explanation": "Square both sides: 3x + (10) = 16; 3x = 6; x = 2."
+        },
+        {
+          "num": 41,
+          "question": "Which of the following describes all values of x satisfying  -2 <= 4x + (-2) <= 30?",
+          "choices": [
+            "0 < x < 8",
+            "0 <= x <= 8",
+            "x >= 0",
+            "-1 <= x <= 8"
+          ],
+          "answer": "B",
+          "explanation": "Subtract (-2) from each part: 0 <= 4x <= 32; divide by 4: 0 <= x <= 8."
+        },
+        {
+          "num": 42,
+          "question": "Which expression is equivalent to  x^2 + (-3)x + (2)?",
+          "choices": [
+            "(x + (-2))(x + (-1))",
+            "(x + (2))(x + (1))",
+            "(x + (2)) (x + (-3))",
+            "(x + (-2))(x + (1))"
+          ],
+          "answer": "A",
+          "explanation": "Factor: roots are 2 and 1; expression equals (x - 2)(x - 1)."
+        },
+        {
+          "num": 43,
+          "question": "If  5x + 18 = 63, what is the value of x?",
+          "choices": [
+            "45",
+            "10",
+            "8",
+            "9"
+          ],
+          "answer": "D",
+          "explanation": "5x = 45; x = 9."
+        },
+        {
+          "num": 44,
+          "question": "What is the minimum value of  f(x) = 3(x - (5))^2 + (1)?",
+          "choices": [
+            "1",
+            "5",
+            "-1",
+            "4"
+          ],
+          "answer": "A",
+          "explanation": "The minimum occurs when (x - 5)^2 = 0, giving f = 1."
+        }
+      ]
+    },
+    {
+      "testNum": 10,
+      "title": "Full-Length Practice Test 10",
+      "questions": [
+        {
+          "num": 1,
+          "question": "The function f is defined by  f(x) = 4x + (1). For what value of x is  f(x) = 33?",
+          "choices": [
+            "7",
+            "32",
+            "9",
+            "8"
+          ],
+          "answer": "D",
+          "explanation": "4x + (1) = 33; 4x = 32; x = 8."
+        },
+        {
+          "num": 2,
+          "question": "What are the x-intercepts of the graph of  y = (x - (5))(x - (-2))?",
+          "choices": [
+            "x = -5 and x = 2",
+            "x = 5 and x = -2",
+            "x = -10",
+            "x = 5 and x = 2"
+          ],
+          "answer": "B",
+          "explanation": "Set each factor equal to zero: x = 5 or x = -2."
+        },
+        {
+          "num": 3,
+          "question": "A bag contains 6 red, 5 blue, and 8 green marbles. If a marble is selected at random, what is the probability that it is red?",
+          "choices": [
+            "13/19",
+            "6/13",
+            "6/11",
+            "6/19"
+          ],
+          "answer": "D",
+          "explanation": "6 red out of 19 total marbles = 6/19."
+        },
+        {
+          "num": 4,
+          "question": "Two angles of a triangle measure 72 degrees and 66 degrees. What is the measure of the third angle?",
+          "choices": [
+            "32 degrees",
+            "138 degrees",
+            "52 degrees",
+            "42 degrees"
+          ],
+          "answer": "D",
+          "explanation": "Sum of triangle angles is 180: 72 + 66 + c = 180; c = 42."
+        },
+        {
+          "num": 5,
+          "question": "What is the solution (x, y) to the system  5x + 2y = 45  and  x + y = 12?",
+          "choices": [
+            "(12, 0)",
+            "(7, 5)",
+            "(5, 7)",
+            "(8, 4)"
+          ],
+          "answer": "B",
+          "explanation": "From the second equation, x = 12 - y. Substitute: 5(12 - y) + 2y = 45; (-3)y = -15; y = 5; x = 7."
+        },
+        {
+          "num": 6,
+          "question": "The polynomial  p(x) = x^3 + 4x^2 + (5)x + k  has  (x - 5)  as a factor. What is the value of k?",
+          "choices": [
+            "5",
+            "-249",
+            "-250",
+            "250"
+          ],
+          "answer": "C",
+          "explanation": "By the factor theorem, p(5) = 0: 125 + 4(25) + (5)(5) + k = 0; k = -250."
+        },
+        {
+          "num": 7,
+          "question": "A discount of 12% is applied to an item with a regular price of $300. What is the amount of the discount, in dollars?",
+          "choices": [
+            "36",
+            "312",
+            "3.6",
+            "264"
+          ],
+          "answer": "A",
+          "explanation": "12% of 300 = 0.12 * 300 = 36."
+        },
+        {
+          "num": 8,
+          "question": "Two angles of a triangle measure 79 degrees and 43 degrees. What is the measure of the third angle?",
+          "choices": [
+            "58 degrees",
+            "122 degrees",
+            "48 degrees",
+            "68 degrees"
+          ],
+          "answer": "A",
+          "explanation": "Sum of triangle angles is 180: 79 + 43 + c = 180; c = 58."
+        },
+        {
+          "num": 9,
+          "question": "Which of the following points satisfies the inequality  y > 3x + (-2)?",
+          "choices": [
+            "(3, 6)",
+            "(4, 14)",
+            "(5, 10)",
+            "(6, 16)"
+          ],
+          "answer": "B",
+          "explanation": "Test (4, 14): 14 > 3(4) + (-2) = 10? Yes. Other points fail."
+        },
+        {
+          "num": 10,
+          "question": "What is the value of x that satisfies the equation  sqrt(2x + (7)) = 5?",
+          "choices": [
+            "9",
+            "18",
+            "25",
+            "10"
+          ],
+          "answer": "A",
+          "explanation": "Square both sides: 2x + (7) = 25; 2x = 18; x = 9."
+        },
+        {
+          "num": 11,
+          "question": "What is the mean of the values 22, 20, 19, 18, 21?",
+          "choices": [
+            "20",
+            "21",
+            "19",
+            "100"
+          ],
+          "answer": "A",
+          "explanation": "Sum = 100; mean = 100/5 = 20."
+        },
+        {
+          "num": 12,
+          "question": "In the xy-plane, the equation of a circle is  (x + 1)^2 + (y - 4)^2 = 25. What are the coordinates of the center of the circle?",
+          "choices": [
+            "(-1, 4)",
+            "(1, -4)",
+            "(1, 4)",
+            "(-1, -4)"
+          ],
+          "answer": "A",
+          "explanation": "Center is (h, k) = (-1, 4)."
+        },
+        {
+          "num": 13,
+          "question": "The function f is defined by  f(x) = 1x + (7). What is the value of f(-1)?",
+          "choices": [
+            "-8",
+            "7",
+            "8",
+            "6"
+          ],
+          "answer": "D",
+          "explanation": "f(-1) = 1(-1) + (7) = -1 + (7) = 6."
+        },
+        {
+          "num": 14,
+          "question": "A population doubles every 4 years. If the population starts at 500, what is the population after 16 years?",
+          "choices": [
+            "4000",
+            "16000",
+            "8000",
+            "516"
+          ],
+          "answer": "C",
+          "explanation": "In 16 years there are 4 doublings: 500 * 2^4 = 8000."
+        },
+        {
+          "num": 15,
+          "question": "What is the range of the data set 24, 40, 37, 13, 46?",
+          "choices": [
+            "46",
+            "34",
+            "13",
+            "33"
+          ],
+          "answer": "D",
+          "explanation": "Range = max - min = 46 - 13 = 33."
+        },
+        {
+          "num": 16,
+          "question": "Two angles of a triangle measure 58 degrees and 36 degrees. What is the measure of the third angle?",
+          "choices": [
+            "96 degrees",
+            "86 degrees",
+            "76 degrees",
+            "94 degrees"
+          ],
+          "answer": "B",
+          "explanation": "Sum of triangle angles is 180: 58 + 36 + c = 180; c = 86."
+        },
+        {
+          "num": 17,
+          "question": "Which of the following describes all values of x satisfying  -7 <= 2x + (3) <= 1?",
+          "choices": [
+            "-5 < x < -1",
+            "-5 <= x <= -1",
+            "-6 <= x <= -1",
+            "x >= -5"
+          ],
+          "answer": "B",
+          "explanation": "Subtract (3) from each part: -10 <= 2x <= -2; divide by 2: -5 <= x <= -1."
+        },
+        {
+          "num": 18,
+          "question": "What are the solutions to the equation  |2x + (2)| = 4?",
+          "choices": [
+            "x = 4",
+            "x = 1 only",
+            "x = -3 and x = 1",
+            "x = 3 and x = -1"
+          ],
+          "answer": "C",
+          "explanation": "2x + (2) = 4 or 2x + (2) = -4; x = 1 or x = -3."
+        },
+        {
+          "num": 19,
+          "question": "A bag contains 6 red, 4 blue, and 4 green marbles. If a marble is selected at random, what is the probability that it is NOT blue?",
+          "choices": [
+            "2/7",
+            "10/4",
+            "1/2",
+            "5/7"
+          ],
+          "answer": "D",
+          "explanation": "Not blue: 10 out of 14 = 5/7."
+        },
+        {
+          "num": 20,
+          "question": "Two angles of a triangle measure 25 degrees and 67 degrees. What is the measure of the third angle?",
+          "choices": [
+            "88 degrees",
+            "78 degrees",
+            "92 degrees",
+            "98 degrees"
+          ],
+          "answer": "A",
+          "explanation": "Sum of triangle angles is 180: 25 + 67 + c = 180; c = 88."
+        },
+        {
+          "num": 21,
+          "question": "If  5x + 6 = 36, what is the value of x?",
+          "choices": [
+            "30",
+            "7",
+            "6",
+            "5"
+          ],
+          "answer": "C",
+          "explanation": "5x = 30; x = 6."
+        },
+        {
+          "num": 22,
+          "question": "What is the y-intercept of the graph of  y = 1x^2 + (5)x + (4)  in the xy-plane?",
+          "choices": [
+            "1",
+            "4",
+            "-4",
+            "5"
+          ],
+          "answer": "B",
+          "explanation": "Set x = 0: y = 4."
+        },
+        {
+          "num": 23,
+          "question": "What is the median of the data set 43, 8, 48, 4, 32?",
+          "choices": [
+            "48",
+            "32",
+            "4",
+            "27"
+          ],
+          "answer": "B",
+          "explanation": "Sort: [4, 8, 32, 43, 48]; median = middle value = 32."
+        },
+        {
+          "num": 24,
+          "question": "In the xy-plane, the equation of a circle is  (x + 3)^2 + (y - 2)^2 = 16. What is the radius of this circle?",
+          "choices": [
+            "2",
+            "16",
+            "4",
+            "5"
+          ],
+          "answer": "C",
+          "explanation": "Compare to (x - h)^2 + (y - k)^2 = r^2; r^2 = 16, so r = 4."
+        },
+        {
+          "num": 25,
+          "question": "Which of the following points satisfies the inequality  y > -2x + (4)?",
+          "choices": [
+            "(-1, 4)",
+            "(1, 0)",
+            "(0, 6)",
+            "(2, 0)"
+          ],
+          "answer": "C",
+          "explanation": "Test (0, 6): 6 > -2(0) + (4) = 4? Yes. Other points fail."
+        },
+        {
+          "num": 26,
+          "question": "A population doubles every 5 years. If the population starts at 1000, what is the population after 15 years?",
+          "choices": [
+            "8000",
+            "1008",
+            "6000",
+            "16000"
+          ],
+          "answer": "A",
+          "explanation": "In 15 years there are 3 doublings: 1000 * 2^3 = 8000."
+        },
+        {
+          "num": 27,
+          "question": "What is the mean of the values 15, 17, 16, 13, 14?",
+          "choices": [
+            "75",
+            "15",
+            "16",
+            "14"
+          ],
+          "answer": "B",
+          "explanation": "Sum = 75; mean = 75/5 = 15."
+        },
+        {
+          "num": 28,
+          "question": "What is the volume of a rectangular box with dimensions 4 by 10 by 11?",
+          "choices": [
+            "25",
+            "51",
+            "388",
+            "440"
+          ],
+          "answer": "D",
+          "explanation": "V = lwh = 4 * 10 * 11 = 440."
+        },
+        {
+          "num": 29,
+          "question": "Which equation represents the line in the xy-plane that is parallel to  y = -2x + (-5)  and passes through (0, 5)?",
+          "choices": [
+            "y = -2x + -5",
+            "y = -0.5x + 5",
+            "y = 2x + 5",
+            "y = -2x + 5"
+          ],
+          "answer": "D",
+          "explanation": "Parallel lines share slope (-2); the y-intercept is given as 5."
+        },
+        {
+          "num": 30,
+          "question": "The polynomial  p(x) = x^3 + 4x^2 + (-3)x + k  has  (x - 4)  as a factor. What is the value of k?",
+          "choices": [
+            "4",
+            "116",
+            "-116",
+            "-115"
+          ],
+          "answer": "C",
+          "explanation": "By the factor theorem, p(4) = 0: 64 + 4(16) + (-3)(4) + k = 0; k = -116."
+        },
+        {
+          "num": 31,
+          "question": "Which of the following describes all values of x satisfying  -6 <= 4x + (2) <= 18?",
+          "choices": [
+            "x >= -2",
+            "-2 <= x <= 4",
+            "-2 < x < 4",
+            "-3 <= x <= 4"
+          ],
+          "answer": "B",
+          "explanation": "Subtract (2) from each part: -8 <= 4x <= 16; divide by 4: -2 <= x <= 4."
+        },
+        {
+          "num": 32,
+          "question": "The polynomial  p(x) = x^3 + 4x^2 + (1)x + k  has  (x - 2)  as a factor. What is the value of k?",
+          "choices": [
+            "26",
+            "2",
+            "-25",
+            "-26"
+          ],
+          "answer": "D",
+          "explanation": "By the factor theorem, p(2) = 0: 8 + 4(4) + (1)(2) + k = 0; k = -26."
+        },
+        {
+          "num": 33,
+          "question": "What is the slope of a line in the xy-plane that is perpendicular to the line  y = (-1/3)x + -4?",
+          "choices": [
+            "3/-1",
+            "3",
+            "1/3",
+            "-1/3"
+          ],
+          "answer": "B",
+          "explanation": "The perpendicular slope is the negative reciprocal of -1/3, which is 3."
+        },
+        {
+          "num": 34,
+          "question": "What are the coordinates of the vertex of the graph of  y = -2(x - (6))^2 + (-4)  in the xy-plane?",
+          "choices": [
+            "(6, 4)",
+            "(-6, 4)",
+            "(6, -4)",
+            "(-6, -4)"
+          ],
+          "answer": "C",
+          "explanation": "Vertex form y = a(x - h)^2 + k has vertex (h, k) = (6, -4)."
+        },
+        {
+          "num": 35,
+          "question": "For what value of k does the equation  5x + 2 = 5x + k  have infinitely many solutions?",
+          "choices": [
+            "3",
+            "5",
+            "2",
+            "-2"
+          ],
+          "answer": "C",
+          "explanation": "For infinitely many solutions, both sides must be identical, so k = 2."
+        },
+        {
+          "num": 36,
+          "question": "The polynomial  p(x) = x^3 + 2x^2 + (-5)x + k  has  (x - 2)  as a factor. What is the value of k?",
+          "choices": [
+            "2",
+            "-6",
+            "6",
+            "-5"
+          ],
+          "answer": "B",
+          "explanation": "By the factor theorem, p(2) = 0: 8 + 2(4) + (-5)(2) + k = 0; k = -6."
+        },
+        {
+          "num": 37,
+          "question": "Which value of x satisfies the equation  3(x - 6) = 1x + -12?",
+          "choices": [
+            "3",
+            "5",
+            "1",
+            "6"
+          ],
+          "answer": "A",
+          "explanation": "Distribute: 3x - 18 = 1x + -12; (2)x = 6; x = 3."
+        },
+        {
+          "num": 38,
+          "question": "What are the coordinates of the vertex of the graph of  y = -2(x - (-3))^2 + (-4)  in the xy-plane?",
+          "choices": [
+            "(3, 4)",
+            "(-3, 4)",
+            "(3, -4)",
+            "(-3, -4)"
+          ],
+          "answer": "D",
+          "explanation": "Vertex form y = a(x - h)^2 + k has vertex (h, k) = (-3, -4)."
+        },
+        {
+          "num": 39,
+          "question": "A student wants an average of at least 90 across 3 tests, each scored out of 100. So far the student's combined score on the first 2 tests is 173. Which inequality represents the score t the student must achieve on the final test to meet the goal?",
+          "choices": [
+            "t <= 97",
+            "t > 97",
+            "t >= 102",
+            "t >= 97"
+          ],
+          "answer": "D",
+          "explanation": "(173 + t)/3 >= 90; 173 + t >= 270; t >= 97."
+        },
+        {
+          "num": 40,
+          "question": "The polynomial  p(x) = x^3 + 3x^2 + (3)x + k  has  (x - 5)  as a factor. What is the value of k?",
+          "choices": [
+            "-215",
+            "215",
+            "-214",
+            "5"
+          ],
+          "answer": "A",
+          "explanation": "By the factor theorem, p(5) = 0: 125 + 3(25) + (3)(5) + k = 0; k = -215."
+        },
+        {
+          "num": 41,
+          "question": "Which of the following points satisfies the inequality  y < -1x + (-3)?",
+          "choices": [
+            "(3, -5)",
+            "(2, -9)",
+            "(4, -7)",
+            "(1, -1)"
+          ],
+          "answer": "B",
+          "explanation": "Test (2, -9): -9 < -1(2) + (-3) = -5? Yes. Other points fail."
+        },
+        {
+          "num": 42,
+          "question": "What are the coordinates of the vertex of the graph of  y = -1(x - (6))^2 + (8)  in the xy-plane?",
+          "choices": [
+            "(-6, 8)",
+            "(-6, -8)",
+            "(6, 8)",
+            "(6, -8)"
+          ],
+          "answer": "C",
+          "explanation": "Vertex form y = a(x - h)^2 + k has vertex (h, k) = (6, 8)."
+        },
+        {
+          "num": 43,
+          "question": "The function f is defined by  f(x) = 5x + (5). For what value of x is  f(x) = 25?",
+          "choices": [
+            "5",
+            "4",
+            "3",
+            "20"
+          ],
+          "answer": "B",
+          "explanation": "5x + (5) = 25; 5x = 20; x = 4."
+        },
+        {
+          "num": 44,
+          "question": "What is the minimum value of  f(x) = 3(x - (2))^2 + (-10)?",
+          "choices": [
+            "-7",
+            "10",
+            "-10",
+            "2"
+          ],
+          "answer": "C",
+          "explanation": "The minimum occurs when (x - 2)^2 = 0, giving f = -10."
+        }
+      ]
+    }
+  ]
+}

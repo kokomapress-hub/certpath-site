@@ -403,8 +403,8 @@
       "code": "SAT-MATH-K9P3R-VTQ7M",
       "bank": "sat-math",
       "timeMinutes": 2450,
-      "testCount": 35,
-      "totalQuestions": 1540,
+      "testCount": 33,
+      "totalQuestions": 732,
       "cover": "/img/covers/sat-math-workbook.png",
       "shortName": "SAT Math Workbook",
       "category": "College Prep",
@@ -415,8 +415,7 @@
       "amazonUrl": "https://www.amazon.com/dp/B0H49B1Q68",
       "cheatsheetPrice": 1.99,
       "payhipEbookUrl": "",
-      "payhipCheatsheetUrl": "",
-      "dataSlug": "sat-math"
+      "payhipCheatsheetUrl": ""
     },
     {
       "slug": "psat-math-workbook",
@@ -425,8 +424,8 @@
       "code": "PSAT-MATH-H8K5T-ZRN3Q",
       "bank": "psat-math",
       "timeMinutes": 2450,
-      "testCount": 35,
-      "totalQuestions": 1540,
+      "testCount": 32,
+      "totalQuestions": 712,
       "cover": "/img/covers/psat-math-workbook.png",
       "shortName": "PSAT Math Workbook",
       "category": "College Prep",
@@ -437,8 +436,7 @@
       "amazonUrl": "https://www.amazon.com/dp/B0H49TXZN7",
       "cheatsheetPrice": 1.99,
       "payhipEbookUrl": "",
-      "payhipCheatsheetUrl": "",
-      "dataSlug": "psat-math"
+      "payhipCheatsheetUrl": ""
     },
     {
       "slug": "act-math-workbook",
@@ -447,8 +445,8 @@
       "code": "ACT-MATH-J4M8R-XQ2T9",
       "bank": "act-math",
       "timeMinutes": 1700,
-      "testCount": 34,
-      "totalQuestions": 1530,
+      "testCount": 32,
+      "totalQuestions": 715,
       "cover": "/img/covers/act-math-workbook.png",
       "shortName": "ACT Math Workbook",
       "category": "College Prep",
@@ -459,8 +457,7 @@
       "amazonUrl": "https://www.amazon.com/dp/B0H4C89CML",
       "cheatsheetPrice": 1.99,
       "payhipEbookUrl": "",
-      "payhipCheatsheetUrl": "",
-      "dataSlug": "act-math"
+      "payhipCheatsheetUrl": ""
     },
     {
       "slug": "ged-math-workbook",
@@ -469,8 +466,8 @@
       "code": "GED-MATH-T6B2K-WQ9XR",
       "bank": "ged-math",
       "timeMinutes": 3795,
-      "testCount": 33,
-      "totalQuestions": 1518,
+      "testCount": 28,
+      "totalQuestions": 638,
       "cover": "/img/covers/ged-math-workbook.png",
       "shortName": "GED Math Workbook",
       "category": "Adult Education",
@@ -481,8 +478,7 @@
       "amazonUrl": "https://www.amazon.com/dp/B0H4CJPMKT",
       "cheatsheetPrice": 1.99,
       "payhipEbookUrl": "",
-      "payhipCheatsheetUrl": "",
-      "dataSlug": "ged-math"
+      "payhipCheatsheetUrl": ""
     },
     {
       "slug": "psat-math-tests",
@@ -491,8 +487,8 @@
       "code": "PSAT-MATH-H8K5T-ZRN3Q",
       "bank": "psat-math",
       "timeMinutes": 2450,
-      "testCount": 35,
-      "totalQuestions": 1540,
+      "testCount": 10,
+      "totalQuestions": 440,
       "cover": "/img/covers/psat-math-tests.png",
       "shortName": "PSAT Math Tests",
       "category": "College Prep",
@@ -503,8 +499,7 @@
       "amazonUrl": "https://www.amazon.com/dp/B0H4C69P6F",
       "cheatsheetPrice": 1.99,
       "payhipEbookUrl": "",
-      "payhipCheatsheetUrl": "",
-      "dataSlug": "psat-math"
+      "payhipCheatsheetUrl": ""
     },
     {
       "slug": "act-math-tests",
@@ -513,8 +508,8 @@
       "code": "ACT-MATH-J4M8R-XQ2T9",
       "bank": "act-math",
       "timeMinutes": 1700,
-      "testCount": 34,
-      "totalQuestions": 1530,
+      "testCount": 10,
+      "totalQuestions": 450,
       "cover": "/img/covers/act-math-tests.png",
       "shortName": "ACT Math Tests",
       "category": "College Prep",
@@ -525,8 +520,7 @@
       "amazonUrl": "https://www.amazon.com/dp/B0H4KG9WPQ",
       "cheatsheetPrice": 1.99,
       "payhipEbookUrl": "",
-      "payhipCheatsheetUrl": "",
-      "dataSlug": "act-math"
+      "payhipCheatsheetUrl": ""
     },
     {
       "slug": "ged-math-tests",
@@ -535,8 +529,8 @@
       "code": "GED-MATH-T6B2K-WQ9XR",
       "bank": "ged-math",
       "timeMinutes": 3795,
-      "testCount": 33,
-      "totalQuestions": 1518,
+      "testCount": 10,
+      "totalQuestions": 460,
       "cover": "/img/covers/ged-math-tests.png",
       "shortName": "GED Math Tests",
       "category": "Adult Education",
@@ -547,8 +541,7 @@
       "amazonUrl": "https://www.amazon.com/dp/B0H4L73NR3",
       "cheatsheetPrice": 1.99,
       "payhipEbookUrl": "",
-      "payhipCheatsheetUrl": "",
-      "dataSlug": "ged-math"
+      "payhipCheatsheetUrl": ""
     },
     {
       "slug": "sat-math-tests",
@@ -557,8 +550,8 @@
       "code": "SAT-MATH-K9P3R-VTQ7M",
       "bank": "sat-math",
       "timeMinutes": 2450,
-      "testCount": 35,
-      "totalQuestions": 1540,
+      "testCount": 10,
+      "totalQuestions": 440,
       "cover": "/img/covers/sat-math-tests.png",
       "shortName": "SAT Math Tests",
       "category": "College Prep",
@@ -569,8 +562,7 @@
       "amazonUrl": "https://www.amazon.com/dp/B0H4L4FJH7",
       "cheatsheetPrice": 1.99,
       "payhipEbookUrl": "",
-      "payhipCheatsheetUrl": "",
-      "dataSlug": "sat-math"
+      "payhipCheatsheetUrl": ""
     }
   ],
   "adminCode": "PRASAD"

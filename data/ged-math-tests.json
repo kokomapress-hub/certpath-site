@@ -1,0 +1,5588 @@
+{
+  "slug": "ged-math-tests",
+  "title": "GED Math: 10 Practice Tests",
+  "code": "GED-MATH-T6B2K-WQ9XR",
+  "timeMinutes": 3795,
+  "tests": [
+    {
+      "testNum": 1,
+      "title": "Full-Length Practice Test 1",
+      "questions": [
+        {
+          "num": 1,
+          "question": "Subtract:  2/5 - 1/6.",
+          "choices": [
+            "17/30",
+            "1/15",
+            "2/5",
+            "7/30"
+          ],
+          "answer": "D",
+          "explanation": "Rewrite over a common denominator and subtract: 2/5 - 1/6 = 7/30."
+        },
+        {
+          "num": 2,
+          "question": "What is the volume of a rectangular box with dimensions 12 by 7 by 6?",
+          "choices": [
+            "90",
+            "504",
+            "25",
+            "396"
+          ],
+          "answer": "B",
+          "explanation": "V = lwh = 12 * 7 * 6 = 504."
+        },
+        {
+          "num": 3,
+          "question": "If  7x + 8 = 85, what is the value of x?",
+          "choices": [
+            "10",
+            "12",
+            "77",
+            "11"
+          ],
+          "answer": "D",
+          "explanation": "7x = 77; x = 11."
+        },
+        {
+          "num": 4,
+          "question": "A bag contains 7 red, 4 blue, and 2 green marbles. If a marble is selected at random, what is the probability that it is red?",
+          "choices": [
+            "6/13",
+            "7/13",
+            "7/6",
+            "7/11"
+          ],
+          "answer": "B",
+          "explanation": "7 red out of 13 total marbles = 7/13."
+        },
+        {
+          "num": 5,
+          "question": "At a constant unit price, 5 pounds of a product cost $35. At the same unit price, what is the cost of 15 pounds?",
+          "choices": [
+            "$98",
+            "$105",
+            "$112",
+            "$140"
+          ],
+          "answer": "B",
+          "explanation": "Unit price = $35/5 = $7/lb; 15 * $7 = $105."
+        },
+        {
+          "num": 6,
+          "question": "Two angles of a triangle measure 41 degrees and 118 degrees. What is the measure of the third angle?",
+          "choices": [
+            "11 degrees",
+            "159 degrees",
+            "31 degrees",
+            "21 degrees"
+          ],
+          "answer": "D",
+          "explanation": "Sum of triangle angles is 180: 41 + 118 + c = 180; c = 21."
+        },
+        {
+          "num": 7,
+          "question": "If  (x + 4) / 2 = 5, what is the value of x?",
+          "choices": [
+            "1",
+            "10",
+            "2",
+            "6"
+          ],
+          "answer": "D",
+          "explanation": "Multiply by 2: x + 4 = 10; x = 6."
+        },
+        {
+          "num": 8,
+          "question": "What is the range of the data set 37, 25, 34, 5, 46?",
+          "choices": [
+            "42",
+            "46",
+            "5",
+            "41"
+          ],
+          "answer": "D",
+          "explanation": "Range = max - min = 46 - 5 = 41."
+        },
+        {
+          "num": 9,
+          "question": "What is  10.4 × 4.4?",
+          "choices": [
+            "6.0",
+            "45.86",
+            "45.76",
+            "50.16"
+          ],
+          "answer": "C",
+          "explanation": "Line up the decimal points (or multiply, then place the decimal): 10.4 × 4.4 = 45.76."
+        },
+        {
+          "num": 10,
+          "question": "What is the distance between the points (5, 0) and (11, -8)?",
+          "choices": [
+            "14",
+            "10",
+            "48",
+            "11"
+          ],
+          "answer": "B",
+          "explanation": "Distance = √[(Δx)² + (Δy)²] = √[(6)² - 8²] = √[36 + 64] = √100 = 10."
+        },
+        {
+          "num": 11,
+          "question": "If  2x - 7 = 21, what is the value of x?",
+          "choices": [
+            "28",
+            "15",
+            "13",
+            "14"
+          ],
+          "answer": "D",
+          "explanation": "2x = 28; x = 14."
+        },
+        {
+          "num": 12,
+          "question": "What is the y-intercept of the graph of  6x + 3y = 18  in the xy-plane?",
+          "choices": [
+            "6",
+            "-6",
+            "18",
+            "7"
+          ],
+          "answer": "A",
+          "explanation": "Set x = 0: 3y = 18; y = 6."
+        },
+        {
+          "num": 13,
+          "question": "What is  (2 × 10^6)(3 × 10^2)  in scientific notation?",
+          "choices": [
+            "5 × 10^8",
+            "6 × 10^8",
+            "6 × 10^12",
+            "6 × 10^9"
+          ],
+          "answer": "B",
+          "explanation": "Multiply the coefficients (2 × 3 = 6) and add the exponents (6 + 2 = 8): 6 × 10^8."
+        },
+        {
+          "num": 14,
+          "question": "What is the distance between the points (-5, -1) and (3, -16)?",
+          "choices": [
+            "18",
+            "23",
+            "120",
+            "17"
+          ],
+          "answer": "D",
+          "explanation": "Distance = √[(Δx)² + (Δy)²] = √[(8)² - 15²] = √[64 + 225] = √289 = 17."
+        },
+        {
+          "num": 15,
+          "question": "What is the value of x that satisfies the equation  sqrt(2x - 9) = 3?",
+          "choices": [
+            "11",
+            "18",
+            "10",
+            "9"
+          ],
+          "answer": "D",
+          "explanation": "Square both sides: 2x - 9 = 9; 2x = 18; x = 9."
+        },
+        {
+          "num": 16,
+          "question": "What is the slope of a line in the xy-plane that is perpendicular to the line  y = (5/3)x + 0?",
+          "choices": [
+            "5/3",
+            "-3/5",
+            "-5/3",
+            "3/5"
+          ],
+          "answer": "B",
+          "explanation": "The perpendicular slope is the negative reciprocal of 5/3, which is -3/5."
+        },
+        {
+          "num": 17,
+          "question": "At a constant unit price, 2 pounds of a product cost $16. At the same unit price, what is the cost of 5 pounds?",
+          "choices": [
+            "$40",
+            "$56",
+            "$32",
+            "$48"
+          ],
+          "answer": "A",
+          "explanation": "Unit price = $16/2 = $8/lb; 5 * $8 = $40."
+        },
+        {
+          "num": 18,
+          "question": "What is the distance between the points (-5, -5) and (-10, -17)?",
+          "choices": [
+            "17",
+            "13",
+            "60",
+            "14"
+          ],
+          "answer": "B",
+          "explanation": "Distance = √[(Δx)² + (Δy)²] = √[(-5)² - 12²] = √[25 + 144] = √169 = 13."
+        },
+        {
+          "num": 19,
+          "question": "What is the value of x that satisfies the equation  sqrt(x + 13) = 4?",
+          "choices": [
+            "5",
+            "4",
+            "16",
+            "3"
+          ],
+          "answer": "D",
+          "explanation": "Square both sides: x + 13 = 16; x = 3; x = 3."
+        },
+        {
+          "num": 20,
+          "question": "A bag contains 6 red, 6 blue, and 3 green marbles. If a marble is selected at random, what is the probability that it is NOT blue?",
+          "choices": [
+            "3/5",
+            "1/2",
+            "2/5",
+            "9/6"
+          ],
+          "answer": "A",
+          "explanation": "Not blue: 9 out of 15 = 3/5."
+        },
+        {
+          "num": 21,
+          "question": "What is  2/3  of  36?",
+          "choices": [
+            "12",
+            "24",
+            "72",
+            "36"
+          ],
+          "answer": "B",
+          "explanation": "Divide by the denominator, then multiply: (36 ÷ 3) × 2 = 12 × 2 = 24."
+        },
+        {
+          "num": 22,
+          "question": "A rectangle is 7 units long and 2 units wide. What is its area, in square units?",
+          "choices": [
+            "14",
+            "9",
+            "21",
+            "18"
+          ],
+          "answer": "A",
+          "explanation": "Area = length × width = 7 × 2 = 14 square units."
+        },
+        {
+          "num": 23,
+          "question": "Service A charges $25 plus $7 per visit. Service B charges $37 plus $4 per visit. After how many visits do the two services cost the same total amount?",
+          "choices": [
+            "3",
+            "6",
+            "5",
+            "4"
+          ],
+          "answer": "D",
+          "explanation": "Set $25 + $7m = $37 + $4m; (3)m = 12; m = 4."
+        },
+        {
+          "num": 24,
+          "question": "What is the range of the data set 42, 16, 12, 8, 9?",
+          "choices": [
+            "34",
+            "8",
+            "35",
+            "42"
+          ],
+          "answer": "A",
+          "explanation": "Range = max - min = 42 - 8 = 34."
+        },
+        {
+          "num": 25,
+          "question": "A discount of 20% is applied to an item with a regular price of $40. What is the amount of the discount, in dollars?",
+          "choices": [
+            "8",
+            "0.8",
+            "60",
+            "32"
+          ],
+          "answer": "A",
+          "explanation": "20% of 40 = 0.20 * 40 = 8."
+        },
+        {
+          "num": 26,
+          "question": "A rectangle is 19 units long and 7 units wide. What is its perimeter, in units?",
+          "choices": [
+            "26",
+            "52",
+            "133",
+            "54"
+          ],
+          "answer": "B",
+          "explanation": "Perimeter = 2 × (length + width) = 2 × (19 + 7) = 52 units."
+        },
+        {
+          "num": 27,
+          "question": "What are the solutions to the equation  |x - 6| = 6?",
+          "choices": [
+            "x = 0 and x = 12",
+            "x = 6",
+            "x = 12 only",
+            "x = 0 and x = -12"
+          ],
+          "answer": "A",
+          "explanation": "x - 6 = 6 or x - 6 = -6; x = 12 or x = 0."
+        },
+        {
+          "num": 28,
+          "question": "The cost C, in dollars, of renting a piece of equipment is given by  C = 8h + 20, where h is the number of hours. Which of the following best describes the meaning of the constant 20 in this context?",
+          "choices": [
+            "The number of hours rented",
+            "A fixed fee charged regardless of the number of hours",
+            "The total cost for one hour",
+            "The hourly rate"
+          ],
+          "answer": "B",
+          "explanation": "When h = 0, C = $20. The constant represents a fixed fee charged regardless of the rental time."
+        },
+        {
+          "num": 29,
+          "question": "Evaluate:  (-11) + 9.",
+          "choices": [
+            "-11",
+            "7",
+            "-2",
+            "2"
+          ],
+          "answer": "C",
+          "explanation": "(-11) + 9 = -2.  Watch the signs."
+        },
+        {
+          "num": 30,
+          "question": "What is the midpoint of the segment joining (2, -8) and (10, 4)?",
+          "choices": [
+            "(-2, 6)",
+            "(7, -2)",
+            "(6, -2)",
+            "(12, -4)"
+          ],
+          "answer": "C",
+          "explanation": "Midpoint = ((x₁+x₂)/2, (y₁+y₂)/2) = ((2+10)/2, (-8+4)/2) = (6, -2)."
+        },
+        {
+          "num": 31,
+          "question": "Which of the following describes all values of x satisfying  -5 <= 3x + 7 <= 7?",
+          "choices": [
+            "x >= -4",
+            "-4 < x < 0",
+            "-5 <= x <= 0",
+            "-4 <= x <= 0"
+          ],
+          "answer": "D",
+          "explanation": "Subtract (7) from each part: -12 <= 3x <= 0; divide by 3: -4 <= x <= 0."
+        },
+        {
+          "num": 32,
+          "question": "A line in the xy-plane passes through the points (3, 8) and (7, 4). What is the slope of the line?",
+          "choices": [
+            "-1",
+            "-2",
+            "1",
+            "0"
+          ],
+          "answer": "A",
+          "explanation": "Slope = (4 - 8)/(7 - 3) = -4/4 = -1."
+        },
+        {
+          "num": 33,
+          "question": "Subtract:  4/6 - 1/3.",
+          "choices": [
+            "2/9",
+            "1/2",
+            "1",
+            "1/3"
+          ],
+          "answer": "D",
+          "explanation": "Rewrite over a common denominator and subtract: 4/6 - 1/3 = 1/3."
+        },
+        {
+          "num": 34,
+          "question": "A rectangle is 11 units long and 3 units wide. What is its area, in square units?",
+          "choices": [
+            "14",
+            "33",
+            "28",
+            "44"
+          ],
+          "answer": "B",
+          "explanation": "Area = length × width = 11 × 3 = 33 square units."
+        },
+        {
+          "num": 35,
+          "question": "If  7x + 11 = 39, what is the value of x?",
+          "choices": [
+            "4",
+            "5",
+            "28",
+            "3"
+          ],
+          "answer": "A",
+          "explanation": "7x = 28; x = 4."
+        },
+        {
+          "num": 36,
+          "question": "The function f is defined by  f(x) = 3x - 2. What is the value of f(-5)?",
+          "choices": [
+            "1",
+            "-13",
+            "-16",
+            "-17"
+          ],
+          "answer": "D",
+          "explanation": "f(-5) = 3(-5) - 2 = -15 - 2 = -17."
+        },
+        {
+          "num": 37,
+          "question": "Which expression is equivalent to  x^7 / x^2  for x != 0?",
+          "choices": [
+            "x^14",
+            "x^5",
+            "x^9",
+            "x^6"
+          ],
+          "answer": "B",
+          "explanation": "Subtract exponents: 7 - 2 = 5."
+        },
+        {
+          "num": 38,
+          "question": "Which of the following points satisfies the inequality  y > 2x + 3?",
+          "choices": [
+            "(4, 11)",
+            "(1, 4)",
+            "(3, 6)",
+            "(2, 10)"
+          ],
+          "answer": "D",
+          "explanation": "Test (2, 10): 10 > 2(2) + 3 = 7? Yes. Other points fail."
+        },
+        {
+          "num": 39,
+          "question": "Which equation represents the line in the xy-plane that is parallel to  y = -2x - 3  and passes through (0, 3)?",
+          "choices": [
+            "y = -2x + 3",
+            "y = 2x + 3",
+            "y = -2x - 3",
+            "y = -0.5x + 3"
+          ],
+          "answer": "A",
+          "explanation": "Parallel lines share slope (-2); the y-intercept is given as 3."
+        },
+        {
+          "num": 40,
+          "question": "What is  7.0 × 3.8?",
+          "choices": [
+            "26.7",
+            "3.2",
+            "30.4",
+            "26.6"
+          ],
+          "answer": "D",
+          "explanation": "Line up the decimal points (or multiply, then place the decimal): 7.0 × 3.8 = 26.6."
+        },
+        {
+          "num": 41,
+          "question": "If  4x + 18 = 30, what is the value of x?",
+          "choices": [
+            "12",
+            "4",
+            "2",
+            "3"
+          ],
+          "answer": "D",
+          "explanation": "4x = 12; x = 3."
+        },
+        {
+          "num": 42,
+          "question": "What are the coordinates of the x-intercept of the graph of  2x + 3y = 14  in the xy-plane?",
+          "choices": [
+            "(0, 7)",
+            "(-7, 0)",
+            "(7, 0)",
+            "(7, 3)"
+          ],
+          "answer": "C",
+          "explanation": "Set y = 0: 2x = 14; x = 7, so x-intercept is (7, 0)."
+        },
+        {
+          "num": 43,
+          "question": "What is  (3 × 10^3)(2 × 10^6)  in scientific notation?",
+          "choices": [
+            "6 × 10^18",
+            "6 × 10^9",
+            "6 × 10^10",
+            "5 × 10^9"
+          ],
+          "answer": "B",
+          "explanation": "Multiply the coefficients (3 × 2 = 6) and add the exponents (3 + 6 = 9): 6 × 10^9."
+        },
+        {
+          "num": 44,
+          "question": "If  (x - 1) / 3 = 2, what is the value of x?",
+          "choices": [
+            "6",
+            "3",
+            "8",
+            "7"
+          ],
+          "answer": "D",
+          "explanation": "Multiply by 3: x - 1 = 6; x = 7."
+        },
+        {
+          "num": 45,
+          "question": "Which of the following describes all values of x satisfying  -3x - 1 < -13?",
+          "choices": [
+            "x > 4",
+            "x < 4",
+            "x > -4",
+            "x > 5"
+          ],
+          "answer": "A",
+          "explanation": "Subtract (-1): -3x < -12. Divide by -3 (and FLIP): x > 4."
+        },
+        {
+          "num": 46,
+          "question": "Which of the following describes all values of x satisfying  -10 <= 3x + 2 <= 14?",
+          "choices": [
+            "-4 <= x <= 4",
+            "x >= -4",
+            "-4 < x < 4",
+            "-5 <= x <= 4"
+          ],
+          "answer": "A",
+          "explanation": "Subtract (2) from each part: -12 <= 3x <= 12; divide by 3: -4 <= x <= 4."
+        }
+      ]
+    },
+    {
+      "testNum": 2,
+      "title": "Full-Length Practice Test 2",
+      "questions": [
+        {
+          "num": 1,
+          "question": "An employee's salary changed from $60,000 to $72,000. What is the percent change?",
+          "choices": [
+            "25% increase",
+            "20% increase",
+            "20% decrease",
+            "10% increase"
+          ],
+          "answer": "B",
+          "explanation": "Change = 12; (12)/60 = 0.2 = 20% increase."
+        },
+        {
+          "num": 2,
+          "question": "A rectangle is 17 units long and 12 units wide. What is its area, in square units?",
+          "choices": [
+            "29",
+            "221",
+            "204",
+            "58"
+          ],
+          "answer": "C",
+          "explanation": "Area = length × width = 17 × 12 = 204 square units."
+        },
+        {
+          "num": 3,
+          "question": "If  4x + 11 = 55, what is the value of x?",
+          "choices": [
+            "10",
+            "12",
+            "44",
+            "11"
+          ],
+          "answer": "D",
+          "explanation": "4x = 44; x = 11."
+        },
+        {
+          "num": 4,
+          "question": "What is the range of the data set 2, 40, 38, 24, 11?",
+          "choices": [
+            "39",
+            "2",
+            "40",
+            "38"
+          ],
+          "answer": "D",
+          "explanation": "Range = max - min = 40 - 2 = 38."
+        },
+        {
+          "num": 5,
+          "question": "Evaluate:  (-12) - 8.",
+          "choices": [
+            "20",
+            "-20",
+            "-28",
+            "-12"
+          ],
+          "answer": "B",
+          "explanation": "(-12) - 8 = -20.  Watch the signs."
+        },
+        {
+          "num": 6,
+          "question": "What is the distance between the points (-2, 1) and (-10, -14)?",
+          "choices": [
+            "23",
+            "120",
+            "18",
+            "17"
+          ],
+          "answer": "D",
+          "explanation": "Distance = √[(Δx)² + (Δy)²] = √[(-8)² - 15²] = √[64 + 225] = √289 = 17."
+        },
+        {
+          "num": 7,
+          "question": "For what value of k does the equation  6x + 7 = 6x + k  have infinitely many solutions?",
+          "choices": [
+            "-7",
+            "7",
+            "6",
+            "8"
+          ],
+          "answer": "B",
+          "explanation": "For infinitely many solutions, both sides must be identical, so k = 7."
+        },
+        {
+          "num": 8,
+          "question": "A line in the xy-plane passes through the points (1, 10) and (6, 5). What is the slope of the line?",
+          "choices": [
+            "-2",
+            "-1",
+            "1",
+            "0"
+          ],
+          "answer": "B",
+          "explanation": "Slope = (5 - 10)/(6 - 1) = -5/5 = -1."
+        },
+        {
+          "num": 9,
+          "question": "What is the value of  9 + 3 × 4 - 2?",
+          "choices": [
+            "19",
+            "15",
+            "46",
+            "23"
+          ],
+          "answer": "A",
+          "explanation": "Multiply first (3 × 4 = 12), then add and subtract left to right: 9 + 12 - 2 = 19."
+        },
+        {
+          "num": 10,
+          "question": "A rectangle is 15 units long and 13 units wide. What is its area, in square units?",
+          "choices": [
+            "195",
+            "210",
+            "56",
+            "28"
+          ],
+          "answer": "A",
+          "explanation": "Area = length × width = 15 × 13 = 195 square units."
+        },
+        {
+          "num": 11,
+          "question": "If  (x - 2) / 2 = 2, what is the value of x?",
+          "choices": [
+            "6",
+            "7",
+            "8",
+            "4"
+          ],
+          "answer": "A",
+          "explanation": "Multiply by 2: x - 2 = 4; x = 6."
+        },
+        {
+          "num": 12,
+          "question": "On a test, 2 students averaged 62 and 2 students averaged 90. What is the average of all 4 students?",
+          "choices": [
+            "75",
+            "78",
+            "76",
+            "77"
+          ],
+          "answer": "C",
+          "explanation": "Weighted mean = (total points)/(total students) = (2·62 + 2·90)/4 = 304/4 = 76."
+        },
+        {
+          "num": 13,
+          "question": "Multiply:  2/5 × 1/3.",
+          "choices": [
+            "1/5",
+            "1/4",
+            "11/15",
+            "2/15"
+          ],
+          "answer": "D",
+          "explanation": "Multiply numerators and denominators: (2×1)/(5×3) = 2/15 = 2/15."
+        },
+        {
+          "num": 14,
+          "question": "A rectangle is 20 units long and 14 units wide. What is its perimeter, in units?",
+          "choices": [
+            "68",
+            "34",
+            "70",
+            "280"
+          ],
+          "answer": "A",
+          "explanation": "Perimeter = 2 × (length + width) = 2 × (20 + 14) = 68 units."
+        },
+        {
+          "num": 15,
+          "question": "If  (x + 11) / 3 = 7, what is the value of x?",
+          "choices": [
+            "-1",
+            "10",
+            "-4",
+            "21"
+          ],
+          "answer": "B",
+          "explanation": "Multiply by 3: x + 11 = 21; x = 10."
+        },
+        {
+          "num": 16,
+          "question": "Which equation represents the line in the xy-plane that is parallel to  y = -2x - 3  and passes through (0, 0)?",
+          "choices": [
+            "y = 2x + 0",
+            "y = -2x + 0",
+            "y = -0.5x + 0",
+            "y = -2x - 3"
+          ],
+          "answer": "B",
+          "explanation": "Parallel lines share slope (-2); the y-intercept is given as 0."
+        },
+        {
+          "num": 17,
+          "question": "What is  18.1 + 2.2?",
+          "choices": [
+            "20.4",
+            "20.3",
+            "15.9",
+            "22.5"
+          ],
+          "answer": "B",
+          "explanation": "Line up the decimal points (or multiply, then place the decimal): 18.1 + 2.2 = 20.3."
+        },
+        {
+          "num": 18,
+          "question": "What is the volume of a rectangular box with dimensions 12 by 12 by 7?",
+          "choices": [
+            "1008",
+            "31",
+            "151",
+            "624"
+          ],
+          "answer": "A",
+          "explanation": "V = lwh = 12 * 12 * 7 = 1008."
+        },
+        {
+          "num": 19,
+          "question": "What is the solution (x, y) to the system  2x + 3y = 22  and  x + y = 10?",
+          "choices": [
+            "(2, 8)",
+            "(8, 2)",
+            "(9, 1)",
+            "(10, 0)"
+          ],
+          "answer": "B",
+          "explanation": "From the second equation, x = 10 - y. Substitute: 2(10 - y) + 3y = 22; (1)y = 2; y = 2; x = 8."
+        },
+        {
+          "num": 20,
+          "question": "Which equation represents the line in the xy-plane that is parallel to  y = -2x + 8  and passes through (0, 2)?",
+          "choices": [
+            "y = -0.5x + 2",
+            "y = 2x + 2",
+            "y = -2x + 8",
+            "y = -2x + 2"
+          ],
+          "answer": "D",
+          "explanation": "Parallel lines share slope (-2); the y-intercept is given as 2."
+        },
+        {
+          "num": 21,
+          "question": "What is  4.1 + 3.5?",
+          "choices": [
+            "11.1",
+            "7.6",
+            "7.7",
+            "0.6"
+          ],
+          "answer": "B",
+          "explanation": "Line up the decimal points (or multiply, then place the decimal): 4.1 + 3.5 = 7.6."
+        },
+        {
+          "num": 22,
+          "question": "Two angles of a triangle measure 56 degrees and 54 degrees. What is the measure of the third angle?",
+          "choices": [
+            "70 degrees",
+            "110 degrees",
+            "80 degrees",
+            "60 degrees"
+          ],
+          "answer": "A",
+          "explanation": "Sum of triangle angles is 180: 56 + 54 + c = 180; c = 70."
+        },
+        {
+          "num": 23,
+          "question": "What is the solution (x, y) to the system  x + y = 14  and  x - y = 10?",
+          "choices": [
+            "(13, 1)",
+            "(12, 2)",
+            "(14, 10)",
+            "(2, 12)"
+          ],
+          "answer": "B",
+          "explanation": "Add: 2x = 24; x = 12; y = 2."
+        },
+        {
+          "num": 24,
+          "question": "What is the range of the data set 26, 4, 18, 24, 43?",
+          "choices": [
+            "4",
+            "39",
+            "43",
+            "40"
+          ],
+          "answer": "B",
+          "explanation": "Range = max - min = 43 - 4 = 39."
+        },
+        {
+          "num": 25,
+          "question": "What is  12.0 × 6.7?",
+          "choices": [
+            "87.1",
+            "80.4",
+            "5.3",
+            "80.5"
+          ],
+          "answer": "B",
+          "explanation": "Line up the decimal points (or multiply, then place the decimal): 12.0 × 6.7 = 80.4."
+        },
+        {
+          "num": 26,
+          "question": "What is the midpoint of the segment joining (-2, 4) and (2, 6)?",
+          "choices": [
+            "(5, 0)",
+            "(1, 5)",
+            "(0, 10)",
+            "(0, 5)"
+          ],
+          "answer": "D",
+          "explanation": "Midpoint = ((x₁+x₂)/2, (y₁+y₂)/2) = ((-2+2)/2, (4+6)/2) = (0, 5)."
+        },
+        {
+          "num": 27,
+          "question": "Service A charges $3 plus $6 per visit. Service B charges $8 plus $1 per visit. After how many visits do the two services cost the same total amount?",
+          "choices": [
+            "0",
+            "1",
+            "5",
+            "2"
+          ],
+          "answer": "B",
+          "explanation": "Set $3 + $6m = $8 + $1m; (5)m = 5; m = 1."
+        },
+        {
+          "num": 28,
+          "question": "What is the range of the data set 5, 26, 27, 2, 19?",
+          "choices": [
+            "26",
+            "2",
+            "27",
+            "25"
+          ],
+          "answer": "D",
+          "explanation": "Range = max - min = 27 - 2 = 25."
+        },
+        {
+          "num": 29,
+          "question": "What is the value of  7 + 4 × 6 - 3?",
+          "choices": [
+            "63",
+            "28",
+            "34",
+            "19"
+          ],
+          "answer": "B",
+          "explanation": "Multiply first (4 × 6 = 24), then add and subtract left to right: 7 + 24 - 3 = 28."
+        },
+        {
+          "num": 30,
+          "question": "What is the midpoint of the segment joining (-4, -2) and (6, 6)?",
+          "choices": [
+            "(2, 4)",
+            "(1, 2)",
+            "(2, 1)",
+            "(2, 2)"
+          ],
+          "answer": "B",
+          "explanation": "Midpoint = ((x₁+x₂)/2, (y₁+y₂)/2) = ((-4+6)/2, (-2+6)/2) = (1, 2)."
+        },
+        {
+          "num": 31,
+          "question": "Which of the following describes all values of x satisfying  -2x - 4 < -8?",
+          "choices": [
+            "x > -2",
+            "x > 3",
+            "x < 2",
+            "x > 2"
+          ],
+          "answer": "D",
+          "explanation": "Subtract (-4): -2x < -4. Divide by -2 (and FLIP): x > 2."
+        },
+        {
+          "num": 32,
+          "question": "A bag contains 4 red, 3 blue, and 3 green marbles. If a marble is selected at random, what is the probability that it is NOT blue?",
+          "choices": [
+            "7/3",
+            "3/10",
+            "1/2",
+            "7/10"
+          ],
+          "answer": "D",
+          "explanation": "Not blue: 7 out of 10 = 7/10."
+        },
+        {
+          "num": 33,
+          "question": "What is  6.5 × 8.1?",
+          "choices": [
+            "52.65",
+            "60.75",
+            "52.75",
+            "1.6"
+          ],
+          "answer": "A",
+          "explanation": "Line up the decimal points (or multiply, then place the decimal): 6.5 × 8.1 = 52.65."
+        },
+        {
+          "num": 34,
+          "question": "A rectangle is 19 units long and 19 units wide. What is its area, in square units?",
+          "choices": [
+            "380",
+            "38",
+            "76",
+            "361"
+          ],
+          "answer": "D",
+          "explanation": "Area = length × width = 19 × 19 = 361 square units."
+        },
+        {
+          "num": 35,
+          "question": "Which of the following points satisfies the inequality  y > -2x + 5?",
+          "choices": [
+            "(4, 2)",
+            "(5, -6)",
+            "(6, -7)",
+            "(3, -2)"
+          ],
+          "answer": "A",
+          "explanation": "Test (4, 2): 2 > -2(4) + 5 = -3? Yes. Other points fail."
+        },
+        {
+          "num": 36,
+          "question": "What is the range of the data set 27, 13, 40, 34, 10?",
+          "choices": [
+            "10",
+            "30",
+            "31",
+            "40"
+          ],
+          "answer": "B",
+          "explanation": "Range = max - min = 40 - 10 = 30."
+        },
+        {
+          "num": 37,
+          "question": "What is the value of  4 + 3 × 7 - 3?",
+          "choices": [
+            "46",
+            "22",
+            "16",
+            "28"
+          ],
+          "answer": "B",
+          "explanation": "Multiply first (3 × 7 = 21), then add and subtract left to right: 4 + 21 - 3 = 22."
+        },
+        {
+          "num": 38,
+          "question": "What is the solution (x, y) to the system  3x + 2y = 22  and  x + y = 10?",
+          "choices": [
+            "(10, 0)",
+            "(8, 2)",
+            "(2, 8)",
+            "(3, 7)"
+          ],
+          "answer": "C",
+          "explanation": "From the second equation, x = 10 - y. Substitute: 3(10 - y) + 2y = 22; (-1)y = -8; y = 8; x = 2."
+        },
+        {
+          "num": 39,
+          "question": "What is the y-intercept of the graph of  y = 2x^2 + 3x + 1  in the xy-plane?",
+          "choices": [
+            "1",
+            "-1",
+            "3",
+            "2"
+          ],
+          "answer": "A",
+          "explanation": "Set x = 0: y = 1."
+        },
+        {
+          "num": 40,
+          "question": "What is  (2 × 10^4)(4 × 10^5)  in scientific notation?",
+          "choices": [
+            "6 × 10^9",
+            "8 × 10^20",
+            "8 × 10^10",
+            "8 × 10^9"
+          ],
+          "answer": "D",
+          "explanation": "Multiply the coefficients (2 × 4 = 8) and add the exponents (4 + 5 = 9): 8 × 10^9."
+        },
+        {
+          "num": 41,
+          "question": "What is the solution (x, y) to the system  x + y = 19  and  x - y = 3?",
+          "choices": [
+            "(19, 3)",
+            "(12, 7)",
+            "(8, 11)",
+            "(11, 8)"
+          ],
+          "answer": "D",
+          "explanation": "Add: 2x = 22; x = 11; y = 8."
+        },
+        {
+          "num": 42,
+          "question": "What is the median of the data set 44, 49, 31, 19, 48?",
+          "choices": [
+            "49",
+            "19",
+            "38",
+            "44"
+          ],
+          "answer": "D",
+          "explanation": "Sort: [19, 31, 44, 48, 49]; median = middle value = 44."
+        },
+        {
+          "num": 43,
+          "question": "What is  18.0 × 3.4?",
+          "choices": [
+            "61.2",
+            "61.3",
+            "14.6",
+            "64.6"
+          ],
+          "answer": "A",
+          "explanation": "Line up the decimal points (or multiply, then place the decimal): 18.0 × 3.4 = 61.2."
+        },
+        {
+          "num": 44,
+          "question": "Which of the following points satisfies the inequality  y < -2x + 0?",
+          "choices": [
+            "(3, -8)",
+            "(5, -10)",
+            "(2, -3)",
+            "(4, -5)"
+          ],
+          "answer": "A",
+          "explanation": "Test (3, -8): -8 < -2(3) + 0 = -6? Yes. Other points fail."
+        },
+        {
+          "num": 45,
+          "question": "Which of the following describes all values of x satisfying  -2x - 2 < -12?",
+          "choices": [
+            "x > 5",
+            "x > -5",
+            "x > 6",
+            "x < 5"
+          ],
+          "answer": "A",
+          "explanation": "Subtract (-2): -2x < -10. Divide by -2 (and FLIP): x > 5."
+        },
+        {
+          "num": 46,
+          "question": "What is the solution (x, y) to the system  x + y = 20  and  x - y = 4?",
+          "choices": [
+            "(20, 4)",
+            "(13, 7)",
+            "(8, 12)",
+            "(12, 8)"
+          ],
+          "answer": "D",
+          "explanation": "Add: 2x = 24; x = 12; y = 8."
+        }
+      ]
+    },
+    {
+      "testNum": 3,
+      "title": "Full-Length Practice Test 3",
+      "questions": [
+        {
+          "num": 1,
+          "question": "At a constant unit price, 6 pounds of a product cost $42. At the same unit price, what is the cost, in dollars, of 13 pounds?",
+          "choices": [
+            "49",
+            "20",
+            "84",
+            "91"
+          ],
+          "answer": "D",
+          "explanation": "Unit price = $42/6 = $7/lb; 13 * 7 = $91."
+        },
+        {
+          "num": 2,
+          "question": "What is the arc length, in terms of pi, of a 45-degree arc in a circle with radius 10?",
+          "choices": [
+            "25/2 pi",
+            "5 pi",
+            "10 pi",
+            "5/2 pi"
+          ],
+          "answer": "D",
+          "explanation": "Arc length = (theta/360)(2 pi r) = (45/360)(2 pi 10) = 5/2 pi."
+        },
+        {
+          "num": 3,
+          "question": "Which of the following points satisfies the inequality  y > x - 3?",
+          "choices": [
+            "(3, 4)",
+            "(4, -2)",
+            "(5, 2)",
+            "(2, -2)"
+          ],
+          "answer": "A",
+          "explanation": "Test (3, 4): 4 > 1(3) - 3 = 0? Yes. Other points fail."
+        },
+        {
+          "num": 4,
+          "question": "What is the y-intercept of the graph of  7x + 3y = -18  in the xy-plane?",
+          "choices": [
+            "-18",
+            "6",
+            "-6",
+            "7"
+          ],
+          "answer": "C",
+          "explanation": "Set x = 0: 3y = -18; y = -6."
+        },
+        {
+          "num": 5,
+          "question": "Add:  1/5 + 2/3.",
+          "choices": [
+            "3/5",
+            "2/15",
+            "3/8",
+            "13/15"
+          ],
+          "answer": "D",
+          "explanation": "Rewrite over a common denominator and add: 1/5 + 2/3 = 13/15."
+        },
+        {
+          "num": 6,
+          "question": "What is the midpoint of the segment joining (-3, -3) and (1, -1)?",
+          "choices": [
+            "(-2, -4)",
+            "(-2, -1)",
+            "(-1, -2)",
+            "(0, -2)"
+          ],
+          "answer": "C",
+          "explanation": "Midpoint = ((x₁+x₂)/2, (y₁+y₂)/2) = ((-3+1)/2, (-3+-1)/2) = (-1, -2)."
+        },
+        {
+          "num": 7,
+          "question": "Which value of x satisfies the equation  3(x - 4) = x - 8?",
+          "choices": [
+            "2",
+            "0",
+            "3",
+            "4"
+          ],
+          "answer": "A",
+          "explanation": "Distribute: 3x - 12 = x - 8; 2x = 4; x = 2."
+        },
+        {
+          "num": 8,
+          "question": "What is the y-intercept of the graph of  y = 3x^2 + 3x - 9  in the xy-plane?",
+          "choices": [
+            "3",
+            "9",
+            "-8",
+            "-9"
+          ],
+          "answer": "D",
+          "explanation": "Set x = 0: y = -9."
+        },
+        {
+          "num": 9,
+          "question": "An employee's salary changed from $80,000 to $72,000. What is the percent change?",
+          "choices": [
+            "15% decrease",
+            "10% decrease",
+            "10% increase",
+            "5% decrease"
+          ],
+          "answer": "B",
+          "explanation": "Change = -8; (-8)/80 = 0.1 = 10% decrease."
+        },
+        {
+          "num": 10,
+          "question": "What is the midpoint of the segment joining (-6, -4) and (-2, 8)?",
+          "choices": [
+            "(-8, 4)",
+            "(-4, 2)",
+            "(2, -4)",
+            "(-3, 2)"
+          ],
+          "answer": "B",
+          "explanation": "Midpoint = ((x₁+x₂)/2, (y₁+y₂)/2) = ((-6+-2)/2, (-4+8)/2) = (-4, 2)."
+        },
+        {
+          "num": 11,
+          "question": "If  8x + 19 = 115, what is the value of x?",
+          "choices": [
+            "12",
+            "13",
+            "11",
+            "96"
+          ],
+          "answer": "A",
+          "explanation": "8x = 96; x = 12."
+        },
+        {
+          "num": 12,
+          "question": "A bag contains 5 red, 5 blue, and 6 green marbles. If a marble is selected at random, what is the probability that it is red?",
+          "choices": [
+            "5/10",
+            "5/11",
+            "5/16",
+            "11/16"
+          ],
+          "answer": "C",
+          "explanation": "5 red out of 16 total marbles = 5/16."
+        },
+        {
+          "num": 13,
+          "question": "An employee's salary changed from $20,000 to $15,000. What is the percent change?",
+          "choices": [
+            "25% increase",
+            "25% decrease",
+            "12% decrease",
+            "30% decrease"
+          ],
+          "answer": "B",
+          "explanation": "Change = -5; (-5)/20 = 0.25 = 25% decrease."
+        },
+        {
+          "num": 14,
+          "question": "What is the distance between the points (4, -3) and (-5, -15)?",
+          "choices": [
+            "21",
+            "108",
+            "16",
+            "15"
+          ],
+          "answer": "D",
+          "explanation": "Distance = √[(Δx)² + (Δy)²] = √[(-9)² - 12²] = √[81 + 144] = √225 = 15."
+        },
+        {
+          "num": 15,
+          "question": "Which value of x satisfies the equation  5(x - 7) = 2x - 8?",
+          "choices": [
+            "10",
+            "9",
+            "11",
+            "7"
+          ],
+          "answer": "B",
+          "explanation": "Distribute: 5x - 35 = 2x - 8; 3x = 27; x = 9."
+        },
+        {
+          "num": 16,
+          "question": "A line in the xy-plane passes through the points (-1, 4) and (2, 10). What is the slope of the line?",
+          "choices": [
+            "-2",
+            "2",
+            "1",
+            "3"
+          ],
+          "answer": "B",
+          "explanation": "Slope = (10 - 4)/(2 + 1) = 6/3 = 2."
+        },
+        {
+          "num": 17,
+          "question": "A discount of 60% is applied to an item with a regular price of $100. What is the amount of the discount, in dollars?",
+          "choices": [
+            "160",
+            "40",
+            "6",
+            "60"
+          ],
+          "answer": "D",
+          "explanation": "60% of 100 = 0.60 * 100 = 60."
+        },
+        {
+          "num": 18,
+          "question": "What is the distance between the points (5, 0) and (-3, -15)?",
+          "choices": [
+            "23",
+            "18",
+            "17",
+            "120"
+          ],
+          "answer": "C",
+          "explanation": "Distance = √[(Δx)² + (Δy)²] = √[(-8)² - 15²] = √[64 + 225] = √289 = 17."
+        },
+        {
+          "num": 19,
+          "question": "If  9x + 10 = 145, what is the value of x?",
+          "choices": [
+            "135",
+            "14",
+            "16",
+            "15"
+          ],
+          "answer": "D",
+          "explanation": "9x = 135; x = 15."
+        },
+        {
+          "num": 20,
+          "question": "A bag contains 2 red, 6 blue, and 7 green marbles. If a marble is selected at random, what is the probability that it is red?",
+          "choices": [
+            "2/13",
+            "13/15",
+            "2/15",
+            "2/8"
+          ],
+          "answer": "C",
+          "explanation": "2 red out of 15 total marbles = 2/15."
+        },
+        {
+          "num": 21,
+          "question": "What is  3/4  of  20?",
+          "choices": [
+            "15",
+            "60",
+            "20",
+            "5"
+          ],
+          "answer": "A",
+          "explanation": "Divide by the denominator, then multiply: (20 ÷ 4) × 3 = 5 × 3 = 15."
+        },
+        {
+          "num": 22,
+          "question": "What is the volume of a rectangular box with dimensions 8 by 4 by 7?",
+          "choices": [
+            "232",
+            "39",
+            "224",
+            "19"
+          ],
+          "answer": "C",
+          "explanation": "V = lwh = 8 * 4 * 7 = 224."
+        },
+        {
+          "num": 23,
+          "question": "What are the solutions to the equation  x^2 + 6x + 5 = 0?",
+          "choices": [
+            "x = 6 and x = 5",
+            "x = 1 and x = 5",
+            "x = -5 and x = -1",
+            "x = -1 and x = 5"
+          ],
+          "answer": "C",
+          "explanation": "Factor: (x + 1)(x + 5) = 0, giving x = -1 or x = -5."
+        },
+        {
+          "num": 24,
+          "question": "A random sample of 250 students from a school of 10000 students was surveyed; 30% reported playing a sport. Based on this sample, the best estimate of the number of students at the school who play a sport is closest to:",
+          "choices": [
+            "6000",
+            "3000",
+            "7000",
+            "1500"
+          ],
+          "answer": "B",
+          "explanation": "Estimate = sample proportion times population: 0.30 * 10000 = 3000."
+        },
+        {
+          "num": 25,
+          "question": "At a constant unit price, 5 pounds of a product cost $30. At the same unit price, what is the cost of 10 pounds?",
+          "choices": [
+            "$90",
+            "$54",
+            "$66",
+            "$60"
+          ],
+          "answer": "D",
+          "explanation": "Unit price = $30/5 = $6/lb; 10 * $6 = $60."
+        },
+        {
+          "num": 26,
+          "question": "A rectangle is 9 units long and 7 units wide. What is its area, in square units?",
+          "choices": [
+            "16",
+            "72",
+            "32",
+            "63"
+          ],
+          "answer": "D",
+          "explanation": "Area = length × width = 9 × 7 = 63 square units."
+        },
+        {
+          "num": 27,
+          "question": "What are the solutions to the equation  x^2 + 7x + 10 = 0?",
+          "choices": [
+            "x = -5 and x = -2",
+            "x = -5 and x = 2",
+            "x = 5 and x = 2",
+            "x = 7 and x = 10"
+          ],
+          "answer": "A",
+          "explanation": "Factor: (x + 5)(x + 2) = 0, giving x = -5 or x = -2."
+        },
+        {
+          "num": 28,
+          "question": "What is the range of the data set 2, 44, 47, 5, 29?",
+          "choices": [
+            "45",
+            "2",
+            "47",
+            "46"
+          ],
+          "answer": "A",
+          "explanation": "Range = max - min = 47 - 2 = 45."
+        },
+        {
+          "num": 29,
+          "question": "Evaluate:  (-6) + 12.",
+          "choices": [
+            "18",
+            "-6",
+            "7",
+            "6"
+          ],
+          "answer": "D",
+          "explanation": "(-6) + 12 = 6.  Watch the signs."
+        },
+        {
+          "num": 30,
+          "question": "What is the midpoint of the segment joining (4, -6) and (8, 2)?",
+          "choices": [
+            "(7, -2)",
+            "(6, -2)",
+            "(12, -4)",
+            "(-2, 6)"
+          ],
+          "answer": "B",
+          "explanation": "Midpoint = ((x₁+x₂)/2, (y₁+y₂)/2) = ((4+8)/2, (-6+2)/2) = (6, -2)."
+        },
+        {
+          "num": 31,
+          "question": "Which of the following describes all values of x satisfying  -3x - 9 > -39?",
+          "choices": [
+            "x < 10",
+            "x > 10",
+            "x < -10",
+            "x < 11"
+          ],
+          "answer": "A",
+          "explanation": "Subtract (-9): -3x > -30. Divide by -3 (and FLIP): x < 10."
+        },
+        {
+          "num": 32,
+          "question": "What is the mean of the values 19, 17, 21, 18, 20?",
+          "choices": [
+            "95",
+            "19",
+            "20",
+            "18"
+          ],
+          "answer": "B",
+          "explanation": "Sum = 95; mean = 95/5 = 19."
+        },
+        {
+          "num": 33,
+          "question": "What is  19.9 × 1.8?",
+          "choices": [
+            "35.92",
+            "37.62",
+            "35.82",
+            "18.1"
+          ],
+          "answer": "C",
+          "explanation": "Line up the decimal points (or multiply, then place the decimal): 19.9 × 1.8 = 35.82."
+        },
+        {
+          "num": 34,
+          "question": "What is the distance between the points (1, 1) and (10, -11)?",
+          "choices": [
+            "16",
+            "108",
+            "21",
+            "15"
+          ],
+          "answer": "D",
+          "explanation": "Distance = √[(Δx)² + (Δy)²] = √[(9)² - 12²] = √[81 + 144] = √225 = 15."
+        },
+        {
+          "num": 35,
+          "question": "Service A charges $20 plus $8 per visit. Service B charges $32 plus $5 per visit. After how many visits do the two services cost the same total amount?",
+          "choices": [
+            "4",
+            "6",
+            "5",
+            "3"
+          ],
+          "answer": "A",
+          "explanation": "Set $20 + $8m = $32 + $5m; (3)m = 12; m = 4."
+        },
+        {
+          "num": 36,
+          "question": "What is the y-intercept of the graph of  y = -2x^2 - 4x + 4  in the xy-plane?",
+          "choices": [
+            "-4",
+            "5",
+            "4",
+            "-2"
+          ],
+          "answer": "C",
+          "explanation": "Set x = 0: y = 4."
+        },
+        {
+          "num": 37,
+          "question": "A discount of 60% is applied to an item with a regular price of $400. What is the amount of the discount, in dollars?",
+          "choices": [
+            "240",
+            "24",
+            "160",
+            "460"
+          ],
+          "answer": "A",
+          "explanation": "60% of 400 = 0.60 * 400 = 240."
+        },
+        {
+          "num": 38,
+          "question": "If  8x + 5 = 85, what is the value of x?",
+          "choices": [
+            "80",
+            "10",
+            "9",
+            "11"
+          ],
+          "answer": "B",
+          "explanation": "8x = 80; x = 10."
+        },
+        {
+          "num": 39,
+          "question": "The function f is defined by  f(x) = 5x + 9. What is the value of f(5)?",
+          "choices": [
+            "34",
+            "14",
+            "35",
+            "16"
+          ],
+          "answer": "A",
+          "explanation": "f(5) = 5(5) + 9 = 25 + 9 = 34."
+        },
+        {
+          "num": 40,
+          "question": "Evaluate:  (-12) - 12.",
+          "choices": [
+            "-24",
+            "-12",
+            "24",
+            "-36"
+          ],
+          "answer": "A",
+          "explanation": "(-12) - 12 = -24.  Watch the signs."
+        },
+        {
+          "num": 41,
+          "question": "If  2x + 7 = 27, what is the value of x?",
+          "choices": [
+            "9",
+            "10",
+            "20",
+            "11"
+          ],
+          "answer": "B",
+          "explanation": "2x = 20; x = 10."
+        },
+        {
+          "num": 42,
+          "question": "A random sample of 100 students from a school of 1000 students was surveyed; 40% reported playing a sport. Based on this sample, the best estimate of the number of students at the school who play a sport is closest to:",
+          "choices": [
+            "400",
+            "200",
+            "600",
+            "800"
+          ],
+          "answer": "A",
+          "explanation": "Estimate = sample proportion times population: 0.40 * 1000 = 400."
+        },
+        {
+          "num": 43,
+          "question": "At a constant unit price, 3 pounds of a product cost $24. At the same unit price, what is the cost of 8 pounds?",
+          "choices": [
+            "$88",
+            "$64",
+            "$56",
+            "$72"
+          ],
+          "answer": "B",
+          "explanation": "Unit price = $24/3 = $8/lb; 8 * $8 = $64."
+        },
+        {
+          "num": 44,
+          "question": "If  3x - 7 = 11, what is the value of x?",
+          "choices": [
+            "6",
+            "5",
+            "18",
+            "7"
+          ],
+          "answer": "A",
+          "explanation": "3x = 18; x = 6."
+        },
+        {
+          "num": 45,
+          "question": "Which of the following points satisfies the inequality  y > -x + 1?",
+          "choices": [
+            "(3, -2)",
+            "(1, 2)",
+            "(2, -2)",
+            "(0, -1)"
+          ],
+          "answer": "B",
+          "explanation": "Test (1, 2): 2 > -1(1) + 1 = 0? Yes. Other points fail."
+        },
+        {
+          "num": 46,
+          "question": "What are the solutions to the equation  |4x - 4| = 8?",
+          "choices": [
+            "x = 1 and x = -3",
+            "x = -1 and x = 3",
+            "x = 3 only",
+            "x = 8"
+          ],
+          "answer": "B",
+          "explanation": "4x - 4 = 8 or 4x - 4 = -8; x = 3 or x = -1."
+        }
+      ]
+    },
+    {
+      "testNum": 4,
+      "title": "Full-Length Practice Test 4",
+      "questions": [
+        {
+          "num": 1,
+          "question": "What is  1.3 + 7.7?",
+          "choices": [
+            "9.1",
+            "16.7",
+            "9.0",
+            "6.4"
+          ],
+          "answer": "C",
+          "explanation": "Line up the decimal points (or multiply, then place the decimal): 1.3 + 7.7 = 9.0."
+        },
+        {
+          "num": 2,
+          "question": "What is the distance between the points (2, -5) and (11, -17)?",
+          "choices": [
+            "21",
+            "16",
+            "15",
+            "108"
+          ],
+          "answer": "C",
+          "explanation": "Distance = √[(Δx)² + (Δy)²] = √[(9)² - 12²] = √[81 + 144] = √225 = 15."
+        },
+        {
+          "num": 3,
+          "question": "How many solutions does the system  y = 2x + 1  and  y = 2x + 4  have?",
+          "choices": [
+            "No solution",
+            "Exactly one solution",
+            "Exactly two solutions",
+            "Infinitely many solutions"
+          ],
+          "answer": "A",
+          "explanation": "Same slope (2) and different y-intercepts (1 vs 4) means parallel lines and no solution."
+        },
+        {
+          "num": 4,
+          "question": "What is the y-intercept of the graph of  y = -x^2 + 5x - 5  in the xy-plane?",
+          "choices": [
+            "5",
+            "-5",
+            "-1",
+            "-4"
+          ],
+          "answer": "B",
+          "explanation": "Set x = 0: y = -5."
+        },
+        {
+          "num": 5,
+          "question": "What is  19.5 × 7.0?",
+          "choices": [
+            "12.5",
+            "136.6",
+            "143.5",
+            "136.5"
+          ],
+          "answer": "D",
+          "explanation": "Line up the decimal points (or multiply, then place the decimal): 19.5 × 7.0 = 136.5."
+        },
+        {
+          "num": 6,
+          "question": "What is the distance between the points (-3, -2) and (5, 13)?",
+          "choices": [
+            "18",
+            "23",
+            "17",
+            "120"
+          ],
+          "answer": "C",
+          "explanation": "Distance = √[(Δx)² + (Δy)²] = √[(8)² + 15²] = √[64 + 225] = √289 = 17."
+        },
+        {
+          "num": 7,
+          "question": "What is the value of x that satisfies the equation  sqrt(2x + 2) = 4?",
+          "choices": [
+            "7",
+            "8",
+            "16",
+            "14"
+          ],
+          "answer": "A",
+          "explanation": "Square both sides: 2x + 2 = 16; 2x = 14; x = 7."
+        },
+        {
+          "num": 8,
+          "question": "Which equation represents the line in the xy-plane that is parallel to  y = -4x + 7  and passes through (0, -3)?",
+          "choices": [
+            "y = -4x - 3",
+            "y = -4x + 7",
+            "y = 4x - 3",
+            "y = -0.25x - 3"
+          ],
+          "answer": "A",
+          "explanation": "Parallel lines share slope (-4); the y-intercept is given as -3."
+        },
+        {
+          "num": 9,
+          "question": "What is the value of  2 + 5 × 6 - 2?",
+          "choices": [
+            "34",
+            "40",
+            "30",
+            "22"
+          ],
+          "answer": "C",
+          "explanation": "Multiply first (5 × 6 = 30), then add and subtract left to right: 2 + 30 - 2 = 30."
+        },
+        {
+          "num": 10,
+          "question": "What is the distance between the points (-2, -3) and (3, 9)?",
+          "choices": [
+            "13",
+            "60",
+            "14",
+            "17"
+          ],
+          "answer": "A",
+          "explanation": "Distance = √[(Δx)² + (Δy)²] = √[(5)² + 12²] = √[25 + 144] = √169 = 13."
+        },
+        {
+          "num": 11,
+          "question": "Which value of x satisfies the equation  6(x - 4) = x + 1?",
+          "choices": [
+            "3",
+            "7",
+            "4",
+            "5"
+          ],
+          "answer": "D",
+          "explanation": "Distribute: 6x - 24 = x + 1; 5x = 25; x = 5."
+        },
+        {
+          "num": 12,
+          "question": "A line in the xy-plane passes through the points (4, 7) and (8, 27). What is the slope of the line?",
+          "choices": [
+            "4",
+            "-5",
+            "6",
+            "5"
+          ],
+          "answer": "D",
+          "explanation": "Slope = (27 - 7)/(8 - 4) = 20/4 = 5."
+        },
+        {
+          "num": 13,
+          "question": "Add:  2/3 + 1/4.",
+          "choices": [
+            "11/12",
+            "1/6",
+            "3/7",
+            "3/4"
+          ],
+          "answer": "A",
+          "explanation": "Rewrite over a common denominator and add: 2/3 + 1/4 = 11/12."
+        },
+        {
+          "num": 14,
+          "question": "What is the midpoint of the segment joining (-5, 0) and (-1, 12)?",
+          "choices": [
+            "(-2, 6)",
+            "(-6, 12)",
+            "(-3, 6)",
+            "(6, -3)"
+          ],
+          "answer": "C",
+          "explanation": "Midpoint = ((x₁+x₂)/2, (y₁+y₂)/2) = ((-5+-1)/2, (0+12)/2) = (-3, 6)."
+        },
+        {
+          "num": 15,
+          "question": "A student wants an average of at least 85 across 3 tests, each scored out of 100. So far the student's combined score on the first 2 tests is 186. Which inequality represents the score t the student must achieve on the final test to meet the goal?",
+          "choices": [
+            "t <= 69",
+            "t > 69",
+            "t >= 69",
+            "t >= 74"
+          ],
+          "answer": "C",
+          "explanation": "(186 + t)/3 >= 85; 186 + t >= 255; t >= 69."
+        },
+        {
+          "num": 16,
+          "question": "What is the range of the data set 16, 20, 35, 22, 36?",
+          "choices": [
+            "16",
+            "36",
+            "20",
+            "21"
+          ],
+          "answer": "C",
+          "explanation": "Range = max - min = 36 - 16 = 20."
+        },
+        {
+          "num": 17,
+          "question": "At a constant unit price, 3 pounds of a product cost $18. At the same unit price, what is the cost of 10 pounds?",
+          "choices": [
+            "$60",
+            "$54",
+            "$66",
+            "$78"
+          ],
+          "answer": "A",
+          "explanation": "Unit price = $18/3 = $6/lb; 10 * $6 = $60."
+        },
+        {
+          "num": 18,
+          "question": "A rectangle is 10 units long and 4 units wide. What is its area, in square units?",
+          "choices": [
+            "14",
+            "40",
+            "50",
+            "28"
+          ],
+          "answer": "B",
+          "explanation": "Area = length × width = 10 × 4 = 40 square units."
+        },
+        {
+          "num": 19,
+          "question": "Which of the following points satisfies the inequality  y < -2x + 1?",
+          "choices": [
+            "(1, 1)",
+            "(2, -5)",
+            "(3, -4)",
+            "(4, -7)"
+          ],
+          "answer": "B",
+          "explanation": "Test (2, -5): -5 < -2(2) + 1 = -3? Yes. Other points fail."
+        },
+        {
+          "num": 20,
+          "question": "A linear function f satisfies  f(1) = -1  and  f(4) = 8. What is the slope of the graph of f in the xy-plane?",
+          "choices": [
+            "4",
+            "3",
+            "-3",
+            "6"
+          ],
+          "answer": "B",
+          "explanation": "Slope = (8 + 1)/(4 - 1) = 9/3 = 3."
+        },
+        {
+          "num": 21,
+          "question": "A discount of 50% is applied to an item with a regular price of $120. What is the amount of the discount, in dollars?",
+          "choices": [
+            "6",
+            "61",
+            "170",
+            "60"
+          ],
+          "answer": "D",
+          "explanation": "50% of 120 = 0.50 * 120 = 60."
+        },
+        {
+          "num": 22,
+          "question": "What is the distance between the points (1, 2) and (-2, 6)?",
+          "choices": [
+            "5",
+            "7",
+            "6",
+            "12"
+          ],
+          "answer": "A",
+          "explanation": "Distance = √[(Δx)² + (Δy)²] = √[(-3)² + 4²] = √[9 + 16] = √25 = 5."
+        },
+        {
+          "num": 23,
+          "question": "Which of the following describes all values of x satisfying  -2x + 3 > -13?",
+          "choices": [
+            "x < 9",
+            "x > 8",
+            "x < 8",
+            "x < -8"
+          ],
+          "answer": "C",
+          "explanation": "Subtract (3): -2x > -16. Divide by -2 (and FLIP): x < 8."
+        },
+        {
+          "num": 24,
+          "question": "What is the mean of the values 13, 9, 12, 10, 11?",
+          "choices": [
+            "10",
+            "12",
+            "11",
+            "55"
+          ],
+          "answer": "C",
+          "explanation": "Sum = 55; mean = 55/5 = 11."
+        },
+        {
+          "num": 25,
+          "question": "An employee's salary changed from $100,000 to $125,000. What is the percent change?",
+          "choices": [
+            "25% increase",
+            "12% increase",
+            "25% decrease",
+            "30% increase"
+          ],
+          "answer": "A",
+          "explanation": "Change = 25; (25)/100 = 0.25 = 25% increase."
+        },
+        {
+          "num": 26,
+          "question": "What is the distance between the points (-3, -5) and (-12, -17)?",
+          "choices": [
+            "108",
+            "21",
+            "16",
+            "15"
+          ],
+          "answer": "D",
+          "explanation": "Distance = √[(Δx)² + (Δy)²] = √[(-9)² - 12²] = √[81 + 144] = √225 = 15."
+        },
+        {
+          "num": 27,
+          "question": "If  (x + 12) / 3 = 4, what is the value of x?",
+          "choices": [
+            "-12",
+            "0",
+            "-8",
+            "12"
+          ],
+          "answer": "B",
+          "explanation": "Multiply by 3: x + 12 = 12; x = 0."
+        },
+        {
+          "num": 28,
+          "question": "What is the y-intercept of the graph of  y = 2x^2 - 6x + 10  in the xy-plane?",
+          "choices": [
+            "10",
+            "-6",
+            "2",
+            "-10"
+          ],
+          "answer": "A",
+          "explanation": "Set x = 0: y = 10."
+        },
+        {
+          "num": 29,
+          "question": "Subtract:  4/5 - 1/3.",
+          "choices": [
+            "2/3",
+            "17/15",
+            "4/15",
+            "7/15"
+          ],
+          "answer": "D",
+          "explanation": "Rewrite over a common denominator and subtract: 4/5 - 1/3 = 7/15."
+        },
+        {
+          "num": 30,
+          "question": "A triangle has a base of 6 units and a height of 14 units. What is its area, in square units?",
+          "choices": [
+            "56",
+            "42",
+            "84",
+            "48"
+          ],
+          "answer": "B",
+          "explanation": "Area = (1/2) × base × height = (1/2) × 6 × 14 = 42 square units."
+        },
+        {
+          "num": 31,
+          "question": "Which of the following describes all values of x satisfying  -3x + 8 <= 2?",
+          "choices": [
+            "x >= 2",
+            "x <= 2",
+            "x >= -2",
+            "x >= 3"
+          ],
+          "answer": "A",
+          "explanation": "Subtract (8): -3x <= -6. Divide by -3 (and FLIP): x >= 2."
+        },
+        {
+          "num": 32,
+          "question": "A bag contains 7 red, 7 blue, and 6 green marbles. If a marble is selected at random, what is the probability that it is NOT blue?",
+          "choices": [
+            "7/20",
+            "13/7",
+            "1/2",
+            "13/20"
+          ],
+          "answer": "D",
+          "explanation": "Not blue: 13 out of 20 = 13/20."
+        },
+        {
+          "num": 33,
+          "question": "What is  13.4 × 2.3?",
+          "choices": [
+            "30.92",
+            "11.1",
+            "33.12",
+            "30.82"
+          ],
+          "answer": "D",
+          "explanation": "Line up the decimal points (or multiply, then place the decimal): 13.4 × 2.3 = 30.82."
+        },
+        {
+          "num": 34,
+          "question": "What is the distance between the points (5, -5) and (10, 7)?",
+          "choices": [
+            "60",
+            "13",
+            "14",
+            "17"
+          ],
+          "answer": "B",
+          "explanation": "Distance = √[(Δx)² + (Δy)²] = √[(5)² + 12²] = √[25 + 144] = √169 = 13."
+        },
+        {
+          "num": 35,
+          "question": "If  5x + 19 = 39, what is the value of x?",
+          "choices": [
+            "3",
+            "5",
+            "20",
+            "4"
+          ],
+          "answer": "D",
+          "explanation": "5x = 20; x = 4."
+        },
+        {
+          "num": 36,
+          "question": "On a test, 3 students averaged 72 and 5 students averaged 96. What is the average of all 8 students?",
+          "choices": [
+            "88",
+            "87",
+            "84",
+            "86"
+          ],
+          "answer": "B",
+          "explanation": "Weighted mean = (total points)/(total students) = (3·72 + 5·96)/8 = 696/8 = 87."
+        },
+        {
+          "num": 37,
+          "question": "Evaluate:  (-2) + 6.",
+          "choices": [
+            "10",
+            "4",
+            "-2",
+            "-4"
+          ],
+          "answer": "B",
+          "explanation": "(-2) + 6 = 4.  Watch the signs."
+        },
+        {
+          "num": 38,
+          "question": "Which of the following describes all values of x satisfying  -11 <= 2x - 3 <= 1?",
+          "choices": [
+            "-4 < x < 2",
+            "x >= -4",
+            "-4 <= x <= 2",
+            "-5 <= x <= 2"
+          ],
+          "answer": "C",
+          "explanation": "Subtract (-3) from each part: -8 <= 2x <= 4; divide by 2: -4 <= x <= 2."
+        },
+        {
+          "num": 39,
+          "question": "On a test, 2 students averaged 70 and 3 students averaged 85. What is the average of all 5 students?",
+          "choices": [
+            "79",
+            "77",
+            "78",
+            "80"
+          ],
+          "answer": "A",
+          "explanation": "Weighted mean = (total points)/(total students) = (2·70 + 3·85)/5 = 395/5 = 79."
+        },
+        {
+          "num": 40,
+          "question": "A discount of 5% is applied to an item with a regular price of $200. What is the amount of the discount, in dollars?",
+          "choices": [
+            "205",
+            "190",
+            "1",
+            "10"
+          ],
+          "answer": "D",
+          "explanation": "5% of 200 = 0.05 * 200 = 10."
+        },
+        {
+          "num": 41,
+          "question": "If  7x + 16 = 44, what is the value of x?",
+          "choices": [
+            "4",
+            "28",
+            "3",
+            "5"
+          ],
+          "answer": "A",
+          "explanation": "7x = 28; x = 4."
+        },
+        {
+          "num": 42,
+          "question": "A line in the xy-plane passes through the points (4, 5) and (7, 8). What is the slope of the line?",
+          "choices": [
+            "0",
+            "1",
+            "2",
+            "-1"
+          ],
+          "answer": "B",
+          "explanation": "Slope = (8 - 5)/(7 - 4) = 3/3 = 1."
+        },
+        {
+          "num": 43,
+          "question": "An employee's salary changed from $100,000 to $60,000. What is the percent change?",
+          "choices": [
+            "40% increase",
+            "40% decrease",
+            "20% decrease",
+            "45% decrease"
+          ],
+          "answer": "B",
+          "explanation": "Change = -40; (-40)/100 = 0.4 = 40% decrease."
+        },
+        {
+          "num": 44,
+          "question": "What is the solution (x, y) to the system  5x + 3y = 23  and  x + y = 7?",
+          "choices": [
+            "(6, 1)",
+            "(1, 6)",
+            "(2, 5)",
+            "(7, 0)"
+          ],
+          "answer": "B",
+          "explanation": "From the second equation, x = 7 - y. Substitute: 5(7 - y) + 3y = 23; (-2)y = -12; y = 6; x = 1."
+        },
+        {
+          "num": 45,
+          "question": "If  9x + 14 = 140, what is the value of x?",
+          "choices": [
+            "14",
+            "126",
+            "15",
+            "13"
+          ],
+          "answer": "A",
+          "explanation": "9x = 126; x = 14."
+        },
+        {
+          "num": 46,
+          "question": "What is the value of x that satisfies the equation  sqrt(x + 4) = 3?",
+          "choices": [
+            "5",
+            "7",
+            "9",
+            "6"
+          ],
+          "answer": "A",
+          "explanation": "Square both sides: x + 4 = 9; x = 5; x = 5."
+        }
+      ]
+    },
+    {
+      "testNum": 5,
+      "title": "Full-Length Practice Test 5",
+      "questions": [
+        {
+          "num": 1,
+          "question": "Subtract:  1/2 - 2/5.",
+          "choices": [
+            "1/10",
+            "1/5",
+            "3/10",
+            "9/10"
+          ],
+          "answer": "A",
+          "explanation": "Rewrite over a common denominator and subtract: 1/2 - 2/5 = 1/10."
+        },
+        {
+          "num": 2,
+          "question": "A triangle has a base of 20 units and a height of 10 units. What is its area, in square units?",
+          "choices": [
+            "100",
+            "200",
+            "110",
+            "120"
+          ],
+          "answer": "A",
+          "explanation": "Area = (1/2) × base × height = (1/2) × 20 × 10 = 100 square units."
+        },
+        {
+          "num": 3,
+          "question": "For what value of k does the equation  kx + 5 = 5x + 7  have no solution?",
+          "choices": [
+            "5",
+            "7",
+            "10",
+            "6"
+          ],
+          "answer": "A",
+          "explanation": "Same x-coefficient (k = 5) and different constants (5 vs 7) means no solution."
+        },
+        {
+          "num": 4,
+          "question": "What is the median of the data set 15, 37, 13, 2, 11?",
+          "choices": [
+            "37",
+            "13",
+            "15",
+            "2"
+          ],
+          "answer": "B",
+          "explanation": "Sort: [2, 11, 13, 15, 37]; median = middle value = 13."
+        },
+        {
+          "num": 5,
+          "question": "Evaluate:  (-11) - 5.",
+          "choices": [
+            "-11",
+            "16",
+            "-16",
+            "-21"
+          ],
+          "answer": "C",
+          "explanation": "(-11) - 5 = -16.  Watch the signs."
+        },
+        {
+          "num": 6,
+          "question": "What is the volume of a rectangular box with dimensions 4 by 12 by 4?",
+          "choices": [
+            "224",
+            "20",
+            "192",
+            "52"
+          ],
+          "answer": "C",
+          "explanation": "V = lwh = 4 * 12 * 4 = 192."
+        },
+        {
+          "num": 7,
+          "question": "If  3x + 14 = 59, what is the value of x?",
+          "choices": [
+            "45",
+            "14",
+            "16",
+            "15"
+          ],
+          "answer": "D",
+          "explanation": "3x = 45; x = 15."
+        },
+        {
+          "num": 8,
+          "question": "On a test, 3 students averaged 61 and 2 students averaged 91. What is the average of all 5 students?",
+          "choices": [
+            "73",
+            "76",
+            "72",
+            "74"
+          ],
+          "answer": "A",
+          "explanation": "Weighted mean = (total points)/(total students) = (3·61 + 2·91)/5 = 365/5 = 73."
+        },
+        {
+          "num": 9,
+          "question": "A discount of 24% is applied to an item with a regular price of $120. What is the amount of the discount, in dollars?",
+          "choices": [
+            "2.88",
+            "28.8",
+            "91.2",
+            "144"
+          ],
+          "answer": "B",
+          "explanation": "24% of 120 = 0.24 * 120 = 28.8."
+        },
+        {
+          "num": 10,
+          "question": "Two angles of a triangle measure 51 degrees and 109 degrees. What is the measure of the third angle?",
+          "choices": [
+            "10 degrees",
+            "20 degrees",
+            "30 degrees",
+            "160 degrees"
+          ],
+          "answer": "B",
+          "explanation": "Sum of triangle angles is 180: 51 + 109 + c = 180; c = 20."
+        },
+        {
+          "num": 11,
+          "question": "Service A charges $2 plus $9 per visit. Service B charges $14 plus $5 per visit. After how many visits do the two services cost the same total amount?",
+          "choices": [
+            "2",
+            "3",
+            "5",
+            "4"
+          ],
+          "answer": "B",
+          "explanation": "Set $2 + $9m = $14 + $5m; (4)m = 12; m = 3."
+        },
+        {
+          "num": 12,
+          "question": "A linear function f satisfies  f(3) = 16  and  f(5) = 26. What is the slope of the graph of f in the xy-plane?",
+          "choices": [
+            "-5",
+            "6",
+            "10",
+            "5"
+          ],
+          "answer": "D",
+          "explanation": "Slope = (26 - 16)/(5 - 3) = 10/2 = 5."
+        },
+        {
+          "num": 13,
+          "question": "Subtract:  2/3 - 1/6.",
+          "choices": [
+            "5/6",
+            "2/3",
+            "1/2",
+            "1/9"
+          ],
+          "answer": "C",
+          "explanation": "Rewrite over a common denominator and subtract: 2/3 - 1/6 = 1/2."
+        },
+        {
+          "num": 14,
+          "question": "Two angles of a triangle measure 53 degrees and 61 degrees. What is the measure of the third angle?",
+          "choices": [
+            "66 degrees",
+            "114 degrees",
+            "56 degrees",
+            "76 degrees"
+          ],
+          "answer": "A",
+          "explanation": "Sum of triangle angles is 180: 53 + 61 + c = 180; c = 66."
+        },
+        {
+          "num": 15,
+          "question": "Which expression is equivalent to  (x - 5)(x + 6)?",
+          "choices": [
+            "x^2 + x + 30",
+            "x^2 + x - 30",
+            "x^2 - 30x + 1",
+            "x^2 - x - 30"
+          ],
+          "answer": "B",
+          "explanation": "FOIL: x^2 - 5x + 6x - 5(6) = x^2 + x - 30."
+        },
+        {
+          "num": 16,
+          "question": "What is the y-intercept of the graph of  8x + 4y = -12  in the xy-plane?",
+          "choices": [
+            "-3",
+            "3",
+            "-12",
+            "8"
+          ],
+          "answer": "A",
+          "explanation": "Set x = 0: 4y = -12; y = -3."
+        },
+        {
+          "num": 17,
+          "question": "At a constant unit price, 5 pounds of a product cost $15. At the same unit price, what is the cost of 15 pounds?",
+          "choices": [
+            "$45",
+            "$60",
+            "$48",
+            "$42"
+          ],
+          "answer": "A",
+          "explanation": "Unit price = $15/5 = $3/lb; 15 * $3 = $45."
+        },
+        {
+          "num": 18,
+          "question": "What is the midpoint of the segment joining (-7, -3) and (3, 1)?",
+          "choices": [
+            "(-4, -2)",
+            "(-1, -2)",
+            "(-2, -1)",
+            "(-1, -1)"
+          ],
+          "answer": "C",
+          "explanation": "Midpoint = ((x₁+x₂)/2, (y₁+y₂)/2) = ((-7+3)/2, (-3+1)/2) = (-2, -1)."
+        },
+        {
+          "num": 19,
+          "question": "Which of the following points satisfies the inequality  y < -x + 0?",
+          "choices": [
+            "(4, -4)",
+            "(2, -7)",
+            "(1, 1)",
+            "(3, -1)"
+          ],
+          "answer": "B",
+          "explanation": "Test (2, -7): -7 < -1(2) + 0 = -2? Yes. Other points fail."
+        },
+        {
+          "num": 20,
+          "question": "What is the y-intercept of the graph of  3x + 2y = -6  in the xy-plane?",
+          "choices": [
+            "3",
+            "-3",
+            "-2",
+            "-6"
+          ],
+          "answer": "B",
+          "explanation": "Set x = 0: 2y = -6; y = -3."
+        },
+        {
+          "num": 21,
+          "question": "Which expression is equivalent to  x^12 / x^10  for x != 0?",
+          "choices": [
+            "x^22",
+            "x^120",
+            "x^3",
+            "x^2"
+          ],
+          "answer": "D",
+          "explanation": "Subtract exponents: 12 - 10 = 2."
+        },
+        {
+          "num": 22,
+          "question": "What is the distance between the points (0, 2) and (-5, -10)?",
+          "choices": [
+            "17",
+            "14",
+            "13",
+            "60"
+          ],
+          "answer": "C",
+          "explanation": "Distance = √[(Δx)² + (Δy)²] = √[(-5)² - 12²] = √[25 + 144] = √169 = 13."
+        },
+        {
+          "num": 23,
+          "question": "If  (x + 10) / 5 = 8, what is the value of x?",
+          "choices": [
+            "30",
+            "40",
+            "20",
+            "-2"
+          ],
+          "answer": "A",
+          "explanation": "Multiply by 5: x + 10 = 40; x = 30."
+        },
+        {
+          "num": 24,
+          "question": "What is the median of the data set 7, 5, 3, 2, 34?",
+          "choices": [
+            "2",
+            "10",
+            "5",
+            "34"
+          ],
+          "answer": "C",
+          "explanation": "Sort: [2, 3, 5, 7, 34]; median = middle value = 5."
+        },
+        {
+          "num": 25,
+          "question": "What is the value of  4 + 3 × 3 - 7?",
+          "choices": [
+            "20",
+            "-8",
+            "6",
+            "14"
+          ],
+          "answer": "C",
+          "explanation": "Multiply first (3 × 3 = 9), then add and subtract left to right: 4 + 9 - 7 = 6."
+        },
+        {
+          "num": 26,
+          "question": "What is the volume of a rectangular box with dimensions 2 by 2 by 5?",
+          "choices": [
+            "20",
+            "9",
+            "21",
+            "48"
+          ],
+          "answer": "A",
+          "explanation": "V = lwh = 2 * 2 * 5 = 20."
+        },
+        {
+          "num": 27,
+          "question": "If  6x - 6 = 72, what is the value of x?",
+          "choices": [
+            "13",
+            "78",
+            "14",
+            "12"
+          ],
+          "answer": "A",
+          "explanation": "6x = 78; x = 13."
+        },
+        {
+          "num": 28,
+          "question": "The function f is defined by  f(x) = 4x + 6. What is the value of f(7)?",
+          "choices": [
+            "10",
+            "34",
+            "22",
+            "35"
+          ],
+          "answer": "B",
+          "explanation": "f(7) = 4(7) + 6 = 28 + 6 = 34."
+        },
+        {
+          "num": 29,
+          "question": "Evaluate:  (-7) × 10.",
+          "choices": [
+            "70",
+            "-80",
+            "-60",
+            "-70"
+          ],
+          "answer": "D",
+          "explanation": "(-7) × 10 = -70.  Watch the signs."
+        },
+        {
+          "num": 30,
+          "question": "What is the midpoint of the segment joining (-7, 2) and (3, 10)?",
+          "choices": [
+            "(6, -2)",
+            "(-4, 12)",
+            "(-2, 6)",
+            "(-1, 6)"
+          ],
+          "answer": "C",
+          "explanation": "Midpoint = ((x₁+x₂)/2, (y₁+y₂)/2) = ((-7+3)/2, (2+10)/2) = (-2, 6)."
+        },
+        {
+          "num": 31,
+          "question": "Which of the following describes all values of x satisfying  -2x - 2 > -6?",
+          "choices": [
+            "x < 3",
+            "x < 2",
+            "x > 2",
+            "x < -2"
+          ],
+          "answer": "B",
+          "explanation": "Subtract (-2): -2x > -4. Divide by -2 (and FLIP): x < 2."
+        },
+        {
+          "num": 32,
+          "question": "What is the slope of a line in the xy-plane that is perpendicular to the line  y = -2x + 7?",
+          "choices": [
+            "2",
+            "-2",
+            "1/2",
+            "1/-2"
+          ],
+          "answer": "C",
+          "explanation": "The perpendicular slope is the negative reciprocal of -2/1, which is 1/2."
+        },
+        {
+          "num": 33,
+          "question": "Evaluate:  (-12) + 7.",
+          "choices": [
+            "5",
+            "-5",
+            "2",
+            "-12"
+          ],
+          "answer": "B",
+          "explanation": "(-12) + 7 = -5.  Watch the signs."
+        },
+        {
+          "num": 34,
+          "question": "Two angles of a triangle measure 21 degrees and 81 degrees. What is the measure of the third angle?",
+          "choices": [
+            "78 degrees",
+            "102 degrees",
+            "88 degrees",
+            "68 degrees"
+          ],
+          "answer": "A",
+          "explanation": "Sum of triangle angles is 180: 21 + 81 + c = 180; c = 78."
+        },
+        {
+          "num": 35,
+          "question": "Service A charges $3 plus $8 per visit. Service B charges $10 plus $7 per visit. After how many visits do the two services cost the same total amount?",
+          "choices": [
+            "1",
+            "7",
+            "6",
+            "8"
+          ],
+          "answer": "B",
+          "explanation": "Set $3 + $8m = $10 + $7m; (1)m = 7; m = 7."
+        },
+        {
+          "num": 36,
+          "question": "What is the range of the data set 2, 24, 7, 39, 35?",
+          "choices": [
+            "2",
+            "37",
+            "39",
+            "38"
+          ],
+          "answer": "B",
+          "explanation": "Range = max - min = 39 - 2 = 37."
+        },
+        {
+          "num": 37,
+          "question": "What is the value of  8 + 4 × 4 - 1?",
+          "choices": [
+            "25",
+            "47",
+            "23",
+            "20"
+          ],
+          "answer": "C",
+          "explanation": "Multiply first (4 × 4 = 16), then add and subtract left to right: 8 + 16 - 1 = 23."
+        },
+        {
+          "num": 38,
+          "question": "For what value of k does the equation  kx + 2 = 2x + 5  have no solution?",
+          "choices": [
+            "5",
+            "2",
+            "3",
+            "4"
+          ],
+          "answer": "B",
+          "explanation": "Same x-coefficient (k = 2) and different constants (2 vs 5) means no solution."
+        },
+        {
+          "num": 39,
+          "question": "What is the y-intercept of the graph of  7x + 3y = -9  in the xy-plane?",
+          "choices": [
+            "7",
+            "3",
+            "-9",
+            "-3"
+          ],
+          "answer": "D",
+          "explanation": "Set x = 0: 3y = -9; y = -3."
+        },
+        {
+          "num": 40,
+          "question": "A discount of 75% is applied to an item with a regular price of $250. What is the amount of the discount, in dollars?",
+          "choices": [
+            "18.75",
+            "325",
+            "62.5",
+            "187.5"
+          ],
+          "answer": "D",
+          "explanation": "75% of 250 = 0.75 * 250 = 187.5."
+        },
+        {
+          "num": 41,
+          "question": "If  4x + 1 = 45, what is the value of x?",
+          "choices": [
+            "44",
+            "10",
+            "11",
+            "12"
+          ],
+          "answer": "C",
+          "explanation": "4x = 44; x = 11."
+        },
+        {
+          "num": 42,
+          "question": "What is the y-intercept of the graph of  2x + 4y = 24  in the xy-plane?",
+          "choices": [
+            "2",
+            "6",
+            "-6",
+            "24"
+          ],
+          "answer": "B",
+          "explanation": "Set x = 0: 4y = 24; y = 6."
+        },
+        {
+          "num": 43,
+          "question": "What is  2/3  of  12?",
+          "choices": [
+            "8",
+            "12",
+            "24",
+            "4"
+          ],
+          "answer": "A",
+          "explanation": "Divide by the denominator, then multiply: (12 ÷ 3) × 2 = 4 × 2 = 8."
+        },
+        {
+          "num": 44,
+          "question": "If  (x + 3) / 5 = 8, what is the value of x?",
+          "choices": [
+            "37",
+            "34",
+            "40",
+            "5"
+          ],
+          "answer": "A",
+          "explanation": "Multiply by 5: x + 3 = 40; x = 37."
+        },
+        {
+          "num": 45,
+          "question": "What is the solution (x, y) to the system  x + y = 10  and  x - y = 2?",
+          "choices": [
+            "(6, 4)",
+            "(7, 3)",
+            "(10, 2)",
+            "(4, 6)"
+          ],
+          "answer": "A",
+          "explanation": "Add: 2x = 12; x = 6; y = 4."
+        },
+        {
+          "num": 46,
+          "question": "What is the solution (x, y) to the system  x + y = 14  and  x - y = 2?",
+          "choices": [
+            "(9, 5)",
+            "(14, 2)",
+            "(8, 6)",
+            "(6, 8)"
+          ],
+          "answer": "C",
+          "explanation": "Add: 2x = 16; x = 8; y = 6."
+        }
+      ]
+    },
+    {
+      "testNum": 6,
+      "title": "Full-Length Practice Test 6",
+      "questions": [
+        {
+          "num": 1,
+          "question": "What is the value of  8 + 6 × 9 - 5?",
+          "choices": [
+            "67",
+            "32",
+            "57",
+            "121"
+          ],
+          "answer": "C",
+          "explanation": "Multiply first (6 × 9 = 54), then add and subtract left to right: 8 + 54 - 5 = 57."
+        },
+        {
+          "num": 2,
+          "question": "What is the midpoint of the segment joining (1, 0) and (3, 6)?",
+          "choices": [
+            "(3, 3)",
+            "(3, 2)",
+            "(2, 3)",
+            "(4, 6)"
+          ],
+          "answer": "C",
+          "explanation": "Midpoint = ((x₁+x₂)/2, (y₁+y₂)/2) = ((1+3)/2, (0+6)/2) = (2, 3)."
+        },
+        {
+          "num": 3,
+          "question": "If  (x + 4) / 2 = 4, what is the value of x?",
+          "choices": [
+            "0",
+            "4",
+            "8",
+            "5"
+          ],
+          "answer": "B",
+          "explanation": "Multiply by 2: x + 4 = 8; x = 4."
+        },
+        {
+          "num": 4,
+          "question": "Which equation represents the line in the xy-plane that is parallel to  y = -4x - 1  and passes through (0, -4)?",
+          "choices": [
+            "y = -4x - 1",
+            "y = -4x - 4",
+            "y = -0.25x - 4",
+            "y = 4x - 4"
+          ],
+          "answer": "B",
+          "explanation": "Parallel lines share slope (-4); the y-intercept is given as -4."
+        },
+        {
+          "num": 5,
+          "question": "At a constant unit price, 2 pounds of a product cost $16. At the same unit price, what is the cost, in dollars, of 9 pounds?",
+          "choices": [
+            "64",
+            "72",
+            "17",
+            "23"
+          ],
+          "answer": "B",
+          "explanation": "Unit price = $16/2 = $8/lb; 9 * 8 = $72."
+        },
+        {
+          "num": 6,
+          "question": "A triangle has a base of 12 units and a height of 8 units. What is its area, in square units?",
+          "choices": [
+            "56",
+            "96",
+            "60",
+            "48"
+          ],
+          "answer": "D",
+          "explanation": "Area = (1/2) × base × height = (1/2) × 12 × 8 = 48 square units."
+        },
+        {
+          "num": 7,
+          "question": "A student wants an average of at least 80 across 3 tests, each scored out of 100. So far the student's combined score on the first 2 tests is 179. Which inequality represents the score t the student must achieve on the final test to meet the goal?",
+          "choices": [
+            "t <= 61",
+            "t >= 66",
+            "t > 61",
+            "t >= 61"
+          ],
+          "answer": "D",
+          "explanation": "(179 + t)/3 >= 80; 179 + t >= 240; t >= 61."
+        },
+        {
+          "num": 8,
+          "question": "What is the mean of the values 19, 18, 17, 15, 16?",
+          "choices": [
+            "85",
+            "18",
+            "16",
+            "17"
+          ],
+          "answer": "D",
+          "explanation": "Sum = 85; mean = 85/5 = 17."
+        },
+        {
+          "num": 9,
+          "question": "What is the value of  6 + 6 × 6 - 7?",
+          "choices": [
+            "49",
+            "65",
+            "0",
+            "35"
+          ],
+          "answer": "D",
+          "explanation": "Multiply first (6 × 6 = 36), then add and subtract left to right: 6 + 36 - 7 = 35."
+        },
+        {
+          "num": 10,
+          "question": "What is the midpoint of the segment joining (-3, -3) and (3, 7)?",
+          "choices": [
+            "(0, 4)",
+            "(2, 0)",
+            "(1, 2)",
+            "(0, 2)"
+          ],
+          "answer": "D",
+          "explanation": "Midpoint = ((x₁+x₂)/2, (y₁+y₂)/2) = ((-3+3)/2, (-3+7)/2) = (0, 2)."
+        },
+        {
+          "num": 11,
+          "question": "Which of the following describes all values of x satisfying  -3x + 4 < -11?",
+          "choices": [
+            "x < 5",
+            "x > 6",
+            "x > 5",
+            "x > -5"
+          ],
+          "answer": "C",
+          "explanation": "Subtract (4): -3x < -15. Divide by -3 (and FLIP): x > 5."
+        },
+        {
+          "num": 12,
+          "question": "What is the range of the data set 18, 4, 35, 37, 38?",
+          "choices": [
+            "38",
+            "35",
+            "34",
+            "4"
+          ],
+          "answer": "C",
+          "explanation": "Range = max - min = 38 - 4 = 34."
+        },
+        {
+          "num": 13,
+          "question": "What is  3.1 + 4.0?",
+          "choices": [
+            "7.1",
+            "11.1",
+            "0.9",
+            "7.2"
+          ],
+          "answer": "A",
+          "explanation": "Line up the decimal points (or multiply, then place the decimal): 3.1 + 4.0 = 7.1."
+        },
+        {
+          "num": 14,
+          "question": "What is the midpoint of the segment joining (-3, -1) and (3, 11)?",
+          "choices": [
+            "(1, 5)",
+            "(0, 5)",
+            "(5, 0)",
+            "(0, 10)"
+          ],
+          "answer": "B",
+          "explanation": "Midpoint = ((x₁+x₂)/2, (y₁+y₂)/2) = ((-3+3)/2, (-1+11)/2) = (0, 5)."
+        },
+        {
+          "num": 15,
+          "question": "Service A charges $2 plus $10 per visit. Service B charges $17 plus $5 per visit. After how many visits do the two services cost the same total amount?",
+          "choices": [
+            "5",
+            "3",
+            "2",
+            "4"
+          ],
+          "answer": "B",
+          "explanation": "Set $2 + $10m = $17 + $5m; (5)m = 15; m = 3."
+        },
+        {
+          "num": 16,
+          "question": "A bag contains 7 red, 6 blue, and 2 green marbles. If a marble is selected at random, what is the probability that it is red?",
+          "choices": [
+            "7/15",
+            "7/13",
+            "8/15",
+            "7/8"
+          ],
+          "answer": "A",
+          "explanation": "7 red out of 15 total marbles = 7/15."
+        },
+        {
+          "num": 17,
+          "question": "At a constant unit price, 2 pounds of a product cost $16. At the same unit price, what is the cost, in dollars, of 5 pounds?",
+          "choices": [
+            "40",
+            "19",
+            "13",
+            "32"
+          ],
+          "answer": "A",
+          "explanation": "Unit price = $16/2 = $8/lb; 5 * 8 = $40."
+        },
+        {
+          "num": 18,
+          "question": "What is the distance between the points (-1, 4) and (7, -11)?",
+          "choices": [
+            "23",
+            "18",
+            "120",
+            "17"
+          ],
+          "answer": "D",
+          "explanation": "Distance = √[(Δx)² + (Δy)²] = √[(8)² - 15²] = √[64 + 225] = √289 = 17."
+        },
+        {
+          "num": 19,
+          "question": "If  9x + 17 = 152, what is the value of x?",
+          "choices": [
+            "14",
+            "135",
+            "15",
+            "16"
+          ],
+          "answer": "C",
+          "explanation": "9x = 135; x = 15."
+        },
+        {
+          "num": 20,
+          "question": "The mean of 5 numbers is 17. 4 of the numbers are 18, 13, 12, 16. What is the remaining number?",
+          "choices": [
+            "17",
+            "31",
+            "9",
+            "26"
+          ],
+          "answer": "D",
+          "explanation": "The total must be 5 × 17 = 85. The known numbers sum to 59, so the last number is 85 - 59 = 26."
+        },
+        {
+          "num": 21,
+          "question": "What is  9.7 × 7.5?",
+          "choices": [
+            "72.85",
+            "2.2",
+            "72.75",
+            "80.25"
+          ],
+          "answer": "C",
+          "explanation": "Line up the decimal points (or multiply, then place the decimal): 9.7 × 7.5 = 72.75."
+        },
+        {
+          "num": 22,
+          "question": "Two angles of a triangle measure 79 degrees and 77 degrees. What is the measure of the third angle?",
+          "choices": [
+            "14 degrees",
+            "24 degrees",
+            "156 degrees",
+            "34 degrees"
+          ],
+          "answer": "B",
+          "explanation": "Sum of triangle angles is 180: 79 + 77 + c = 180; c = 24."
+        },
+        {
+          "num": 23,
+          "question": "Which value of x satisfies the equation  6(x - 8) = x - 38?",
+          "choices": [
+            "0",
+            "2",
+            "4",
+            "8"
+          ],
+          "answer": "B",
+          "explanation": "Distribute: 6x - 48 = x - 38; 5x = 10; x = 2."
+        },
+        {
+          "num": 24,
+          "question": "What is the range of the data set 34, 33, 29, 26, 31?",
+          "choices": [
+            "9",
+            "8",
+            "26",
+            "34"
+          ],
+          "answer": "B",
+          "explanation": "Range = max - min = 34 - 26 = 8."
+        },
+        {
+          "num": 25,
+          "question": "A discount of 60% is applied to an item with a regular price of $300. What is the amount of the discount, in dollars?",
+          "choices": [
+            "180",
+            "360",
+            "18",
+            "120"
+          ],
+          "answer": "A",
+          "explanation": "60% of 300 = 0.60 * 300 = 180."
+        },
+        {
+          "num": 26,
+          "question": "Two angles of a triangle measure 74 degrees and 75 degrees. What is the measure of the third angle?",
+          "choices": [
+            "31 degrees",
+            "21 degrees",
+            "149 degrees",
+            "41 degrees"
+          ],
+          "answer": "A",
+          "explanation": "Sum of triangle angles is 180: 74 + 75 + c = 180; c = 31."
+        },
+        {
+          "num": 27,
+          "question": "If  2x + 20 = 30, what is the value of x?",
+          "choices": [
+            "10",
+            "5",
+            "6",
+            "4"
+          ],
+          "answer": "B",
+          "explanation": "2x = 10; x = 5."
+        },
+        {
+          "num": 28,
+          "question": "A random sample of 100 students from a school of 1000 students was surveyed; 35% reported playing a sport. Based on this sample, the best estimate of the number of students at the school who play a sport is closest to:",
+          "choices": [
+            "650",
+            "175",
+            "350",
+            "700"
+          ],
+          "answer": "C",
+          "explanation": "Estimate = sample proportion times population: 0.35 * 1000 = 350."
+        },
+        {
+          "num": 29,
+          "question": "Evaluate:  (-12) × 7.",
+          "choices": [
+            "-91",
+            "-77",
+            "84",
+            "-84"
+          ],
+          "answer": "D",
+          "explanation": "(-12) × 7 = -84.  Watch the signs."
+        },
+        {
+          "num": 30,
+          "question": "What is the midpoint of the segment joining (5, -4) and (7, 6)?",
+          "choices": [
+            "(1, 6)",
+            "(12, 2)",
+            "(7, 1)",
+            "(6, 1)"
+          ],
+          "answer": "D",
+          "explanation": "Midpoint = ((x₁+x₂)/2, (y₁+y₂)/2) = ((5+7)/2, (-4+6)/2) = (6, 1)."
+        },
+        {
+          "num": 31,
+          "question": "What are the solutions to the equation  x^2 - x - 12 = 0?",
+          "choices": [
+            "x = -3 and x = -4",
+            "x = 3 and x = -4",
+            "x = -1 and x = -12",
+            "x = -3 and x = 4"
+          ],
+          "answer": "D",
+          "explanation": "Factor: (x + 3)(x - 4) = 0, giving x = -3 or x = 4."
+        },
+        {
+          "num": 32,
+          "question": "A line in the xy-plane passes through the points (2, 4) and (4, 10). What is the slope of the line?",
+          "choices": [
+            "4",
+            "-3",
+            "2",
+            "3"
+          ],
+          "answer": "D",
+          "explanation": "Slope = (10 - 4)/(4 - 2) = 6/2 = 3."
+        },
+        {
+          "num": 33,
+          "question": "After a 30% discount, an item costs $42. What was the original price, in dollars?",
+          "choices": [
+            "54.6",
+            "60",
+            "90",
+            "30"
+          ],
+          "answer": "B",
+          "explanation": "Discount factor 0.7; original = 42/0.7 = 60."
+        },
+        {
+          "num": 34,
+          "question": "What is the distance between the points (5, 3) and (2, 7)?",
+          "choices": [
+            "6",
+            "5",
+            "7",
+            "12"
+          ],
+          "answer": "B",
+          "explanation": "Distance = √[(Δx)² + (Δy)²] = √[(-3)² + 4²] = √[9 + 16] = √25 = 5."
+        },
+        {
+          "num": 35,
+          "question": "Which of the following describes all values of x satisfying  -11 <= 4x - 3 <= 21?",
+          "choices": [
+            "x >= -2",
+            "-3 <= x <= 6",
+            "-2 < x < 6",
+            "-2 <= x <= 6"
+          ],
+          "answer": "D",
+          "explanation": "Subtract (-3) from each part: -8 <= 4x <= 24; divide by 4: -2 <= x <= 6."
+        },
+        {
+          "num": 36,
+          "question": "What is the y-intercept of the graph of  y = -x^2 - 6x - 2  in the xy-plane?",
+          "choices": [
+            "-2",
+            "-6",
+            "-1",
+            "2"
+          ],
+          "answer": "A",
+          "explanation": "Set x = 0: y = -2."
+        },
+        {
+          "num": 37,
+          "question": "At a constant unit price, 6 pounds of a product cost $12. At the same unit price, what is the cost of 9 pounds?",
+          "choices": [
+            "$18",
+            "$16",
+            "$30",
+            "$20"
+          ],
+          "answer": "A",
+          "explanation": "Unit price = $12/6 = $2/lb; 9 * $2 = $18."
+        },
+        {
+          "num": 38,
+          "question": "If  (x + 5) / 5 = 2, what is the value of x?",
+          "choices": [
+            "10",
+            "0",
+            "-3",
+            "5"
+          ],
+          "answer": "D",
+          "explanation": "Multiply by 5: x + 5 = 10; x = 5."
+        },
+        {
+          "num": 39,
+          "question": "What are the x-intercepts of the graph of  y = (x + 2)(x - 7)?",
+          "choices": [
+            "x = -14",
+            "x = 2 and x = -7",
+            "x = -2 and x = 7",
+            "x = -2 and x = -7"
+          ],
+          "answer": "C",
+          "explanation": "Set each factor equal to zero: x = -2 or x = 7."
+        },
+        {
+          "num": 40,
+          "question": "What is  3/6  of  66?",
+          "choices": [
+            "33",
+            "198",
+            "44",
+            "11"
+          ],
+          "answer": "A",
+          "explanation": "Divide by the denominator, then multiply: (66 ÷ 6) × 3 = 11 × 3 = 33."
+        },
+        {
+          "num": 41,
+          "question": "What are the solutions to the equation  |2x - 2| = 4?",
+          "choices": [
+            "x = -1 and x = 3",
+            "x = 4",
+            "x = 1 and x = -3",
+            "x = 3 only"
+          ],
+          "answer": "A",
+          "explanation": "2x - 2 = 4 or 2x - 2 = -4; x = 3 or x = -1."
+        },
+        {
+          "num": 42,
+          "question": "The function f is defined by  f(x) = -5x + 0. What is the value of f(6)?",
+          "choices": [
+            "-28",
+            "-29",
+            "-5",
+            "-30"
+          ],
+          "answer": "D",
+          "explanation": "f(6) = -5(6) + 0 = -30 + 0 = -30."
+        },
+        {
+          "num": 43,
+          "question": "A discount of 15% is applied to an item with a regular price of $120. What is the amount of the discount, in dollars?",
+          "choices": [
+            "102",
+            "135",
+            "18",
+            "1.8"
+          ],
+          "answer": "C",
+          "explanation": "15% of 120 = 0.15 * 120 = 18."
+        },
+        {
+          "num": 44,
+          "question": "Which of the following describes all values of x satisfying  -2x + 9 >= 5?",
+          "choices": [
+            "x >= 2",
+            "x <= -2",
+            "x <= 2",
+            "x <= 3"
+          ],
+          "answer": "C",
+          "explanation": "Subtract (9): -2x >= -4. Divide by -2 (and FLIP): x <= 2."
+        },
+        {
+          "num": 45,
+          "question": "If  5x - 6 = 34, what is the value of x?",
+          "choices": [
+            "9",
+            "7",
+            "8",
+            "40"
+          ],
+          "answer": "C",
+          "explanation": "5x = 40; x = 8."
+        },
+        {
+          "num": 46,
+          "question": "For what value of k does the equation  4x + 11 = 4x + k  have infinitely many solutions?",
+          "choices": [
+            "-11",
+            "4",
+            "11",
+            "12"
+          ],
+          "answer": "C",
+          "explanation": "For infinitely many solutions, both sides must be identical, so k = 11."
+        }
+      ]
+    },
+    {
+      "testNum": 7,
+      "title": "Full-Length Practice Test 7",
+      "questions": [
+        {
+          "num": 1,
+          "question": "What is  15.4 + 3.1?",
+          "choices": [
+            "18.5",
+            "18.6",
+            "12.3",
+            "21.6"
+          ],
+          "answer": "A",
+          "explanation": "Line up the decimal points (or multiply, then place the decimal): 15.4 + 3.1 = 18.5."
+        },
+        {
+          "num": 2,
+          "question": "What is the distance between the points (1, -4) and (-5, -12)?",
+          "choices": [
+            "14",
+            "10",
+            "11",
+            "48"
+          ],
+          "answer": "B",
+          "explanation": "Distance = √[(Δx)² + (Δy)²] = √[(-6)² - 8²] = √[36 + 64] = √100 = 10."
+        },
+        {
+          "num": 3,
+          "question": "Which value of x satisfies the equation  5(x - 5) = 3x - 1?",
+          "choices": [
+            "14",
+            "5",
+            "10",
+            "12"
+          ],
+          "answer": "D",
+          "explanation": "Distribute: 5x - 25 = 3x - 1; 2x = 24; x = 12."
+        },
+        {
+          "num": 4,
+          "question": "A line in the xy-plane passes through the points (5, -3) and (8, 0). What is the slope of the line?",
+          "choices": [
+            "-1",
+            "1",
+            "2",
+            "0"
+          ],
+          "answer": "B",
+          "explanation": "Slope = (0 + 3)/(8 - 5) = 3/3 = 1."
+        },
+        {
+          "num": 5,
+          "question": "What is the value of  9 + 4 × 4 - 6?",
+          "choices": [
+            "46",
+            "19",
+            "31",
+            "1"
+          ],
+          "answer": "B",
+          "explanation": "Multiply first (4 × 4 = 16), then add and subtract left to right: 9 + 16 - 6 = 19."
+        },
+        {
+          "num": 6,
+          "question": "What is the volume of a rectangular box with dimensions 7 by 10 by 10?",
+          "choices": [
+            "480",
+            "27",
+            "700",
+            "80"
+          ],
+          "answer": "C",
+          "explanation": "V = lwh = 7 * 10 * 10 = 700."
+        },
+        {
+          "num": 7,
+          "question": "How many solutions does the system  y = 2x - 3  and  y = 2x - 1  have?",
+          "choices": [
+            "Exactly one solution",
+            "No solution",
+            "Infinitely many solutions",
+            "Exactly two solutions"
+          ],
+          "answer": "B",
+          "explanation": "Same slope (2) and different y-intercepts (-3 vs -1) means parallel lines and no solution."
+        },
+        {
+          "num": 8,
+          "question": "What is the mean of the values 15, 17, 18, 16, 19?",
+          "choices": [
+            "16",
+            "17",
+            "85",
+            "18"
+          ],
+          "answer": "B",
+          "explanation": "Sum = 85; mean = 85/5 = 17."
+        },
+        {
+          "num": 9,
+          "question": "A discount of 18% is applied to an item with a regular price of $500. What is the amount of the discount, in dollars?",
+          "choices": [
+            "410",
+            "90",
+            "518",
+            "9"
+          ],
+          "answer": "B",
+          "explanation": "18% of 500 = 0.18 * 500 = 90."
+        },
+        {
+          "num": 10,
+          "question": "What is the area, in terms of pi, of a 120-degree sector in a circle with radius 18?",
+          "choices": [
+            "108 pi",
+            "216 pi",
+            "12 pi",
+            "324 pi"
+          ],
+          "answer": "A",
+          "explanation": "Area = (theta/360)(pi r^2) = (120/360)(pi)(324) = 108 pi."
+        },
+        {
+          "num": 11,
+          "question": "What is the solution (x, y) to the system  5x + 3y = 26  and  x + y = 6?",
+          "choices": [
+            "(6, 0)",
+            "(2, 4)",
+            "(5, 1)",
+            "(4, 2)"
+          ],
+          "answer": "D",
+          "explanation": "From the second equation, x = 6 - y. Substitute: 5(6 - y) + 3y = 26; (-2)y = -4; y = 2; x = 4."
+        },
+        {
+          "num": 12,
+          "question": "A line in the xy-plane passes through the points (-1, -3) and (1, 3). What is the slope of the line?",
+          "choices": [
+            "2",
+            "-3",
+            "3",
+            "4"
+          ],
+          "answer": "C",
+          "explanation": "Slope = (3 + 3)/(1 + 1) = 6/2 = 3."
+        },
+        {
+          "num": 13,
+          "question": "A discount of 24% is applied to an item with a regular price of $400. What is the amount of the discount, in dollars?",
+          "choices": [
+            "304",
+            "9.6",
+            "424",
+            "96"
+          ],
+          "answer": "D",
+          "explanation": "24% of 400 = 0.24 * 400 = 96."
+        },
+        {
+          "num": 14,
+          "question": "What is the distance between the points (1, 0) and (-5, 8)?",
+          "choices": [
+            "11",
+            "10",
+            "48",
+            "14"
+          ],
+          "answer": "B",
+          "explanation": "Distance = √[(Δx)² + (Δy)²] = √[(-6)² + 8²] = √[36 + 64] = √100 = 10."
+        },
+        {
+          "num": 15,
+          "question": "How many solutions does the system  y = 3x - 5  and  y = 3x - 3  have?",
+          "choices": [
+            "No solution",
+            "Exactly two solutions",
+            "Infinitely many solutions",
+            "Exactly one solution"
+          ],
+          "answer": "A",
+          "explanation": "Same slope (3) and different y-intercepts (-5 vs -3) means parallel lines and no solution."
+        },
+        {
+          "num": 16,
+          "question": "A bag contains 4 red, 5 blue, and 8 green marbles. If a marble is selected at random, what is the probability that it is red?",
+          "choices": [
+            "4/13",
+            "4/9",
+            "13/17",
+            "4/17"
+          ],
+          "answer": "D",
+          "explanation": "4 red out of 17 total marbles = 4/17."
+        },
+        {
+          "num": 17,
+          "question": "At a constant unit price, 3 pounds of a product cost $9. At the same unit price, what is the cost, in dollars, of 10 pounds?",
+          "choices": [
+            "13",
+            "30",
+            "16",
+            "27"
+          ],
+          "answer": "B",
+          "explanation": "Unit price = $9/3 = $3/lb; 10 * 3 = $30."
+        },
+        {
+          "num": 18,
+          "question": "What is the volume of a rectangular box with dimensions 2 by 9 by 5?",
+          "choices": [
+            "90",
+            "16",
+            "146",
+            "23"
+          ],
+          "answer": "A",
+          "explanation": "V = lwh = 2 * 9 * 5 = 90."
+        },
+        {
+          "num": 19,
+          "question": "If  6x - 9 = 69, what is the value of x?",
+          "choices": [
+            "13",
+            "78",
+            "12",
+            "14"
+          ],
+          "answer": "A",
+          "explanation": "6x = 78; x = 13."
+        },
+        {
+          "num": 20,
+          "question": "What is the slope of a line in the xy-plane that is perpendicular to the line  y = (-4/5)x - 1?",
+          "choices": [
+            "5/4",
+            "-4/5",
+            "4/5",
+            "5/-4"
+          ],
+          "answer": "A",
+          "explanation": "The perpendicular slope is the negative reciprocal of -4/5, which is 5/4."
+        },
+        {
+          "num": 21,
+          "question": "What is  8.4 × 8.6?",
+          "choices": [
+            "72.34",
+            "0.2",
+            "72.24",
+            "80.84"
+          ],
+          "answer": "C",
+          "explanation": "Line up the decimal points (or multiply, then place the decimal): 8.4 × 8.6 = 72.24."
+        },
+        {
+          "num": 22,
+          "question": "Two angles of a triangle measure 25 degrees and 24 degrees. What is the measure of the third angle?",
+          "choices": [
+            "121 degrees",
+            "141 degrees",
+            "131 degrees",
+            "49 degrees"
+          ],
+          "answer": "C",
+          "explanation": "Sum of triangle angles is 180: 25 + 24 + c = 180; c = 131."
+        },
+        {
+          "num": 23,
+          "question": "Which of the following describes all values of x satisfying  -11 <= 2x - 3 <= 5?",
+          "choices": [
+            "x >= -4",
+            "-5 <= x <= 4",
+            "-4 <= x <= 4",
+            "-4 < x < 4"
+          ],
+          "answer": "C",
+          "explanation": "Subtract (-3) from each part: -8 <= 2x <= 8; divide by 2: -4 <= x <= 4."
+        },
+        {
+          "num": 24,
+          "question": "What is the median of the data set 4, 6, 25, 39, 42?",
+          "choices": [
+            "4",
+            "23",
+            "25",
+            "42"
+          ],
+          "answer": "C",
+          "explanation": "Sort: [4, 6, 25, 39, 42]; median = middle value = 25."
+        },
+        {
+          "num": 25,
+          "question": "At a constant unit price, 6 pounds of a product cost $30. At the same unit price, what is the cost, in dollars, of 11 pounds?",
+          "choices": [
+            "55",
+            "16",
+            "35",
+            "50"
+          ],
+          "answer": "A",
+          "explanation": "Unit price = $30/6 = $5/lb; 11 * 5 = $55."
+        },
+        {
+          "num": 26,
+          "question": "What is the distance between the points (4, 5) and (1, 9)?",
+          "choices": [
+            "7",
+            "6",
+            "5",
+            "12"
+          ],
+          "answer": "C",
+          "explanation": "Distance = √[(Δx)² + (Δy)²] = √[(-3)² + 4²] = √[9 + 16] = √25 = 5."
+        },
+        {
+          "num": 27,
+          "question": "Service A charges $25 plus $9 per visit. Service B charges $30 plus $8 per visit. After how many visits do the two services cost the same total amount?",
+          "choices": [
+            "1",
+            "4",
+            "5",
+            "6"
+          ],
+          "answer": "C",
+          "explanation": "Set $25 + $9m = $30 + $8m; (1)m = 5; m = 5."
+        },
+        {
+          "num": 28,
+          "question": "What are the coordinates of the vertex of the graph of  y = (x - 5)^2 - 7  in the xy-plane?",
+          "choices": [
+            "(5, -7)",
+            "(-5, -7)",
+            "(5, 7)",
+            "(-5, 7)"
+          ],
+          "answer": "A",
+          "explanation": "Vertex form y = a(x - h)^2 + k has vertex (h, k) = (5, -7)."
+        },
+        {
+          "num": 29,
+          "question": "Add:  1/4 + 1/3.",
+          "choices": [
+            "2/7",
+            "7/12",
+            "1/12",
+            "1/2"
+          ],
+          "answer": "B",
+          "explanation": "Rewrite over a common denominator and add: 1/4 + 1/3 = 7/12."
+        },
+        {
+          "num": 30,
+          "question": "A triangle has a base of 12 units and a height of 3 units. What is its area, in square units?",
+          "choices": [
+            "21",
+            "30",
+            "18",
+            "36"
+          ],
+          "answer": "C",
+          "explanation": "Area = (1/2) × base × height = (1/2) × 12 × 3 = 18 square units."
+        },
+        {
+          "num": 31,
+          "question": "If  2x - 6 = 22, what is the value of x?",
+          "choices": [
+            "28",
+            "13",
+            "14",
+            "15"
+          ],
+          "answer": "C",
+          "explanation": "2x = 28; x = 14."
+        },
+        {
+          "num": 32,
+          "question": "A line in the xy-plane passes through the points (0, 9) and (3, 18). What is the slope of the line?",
+          "choices": [
+            "4",
+            "-3",
+            "3",
+            "2"
+          ],
+          "answer": "C",
+          "explanation": "Slope = (18 - 9)/(3 - 0) = 9/3 = 3."
+        },
+        {
+          "num": 33,
+          "question": "An employee's salary changed from $40,000 to $46,000. What is the percent change?",
+          "choices": [
+            "15% increase",
+            "7% increase",
+            "15% decrease",
+            "20% increase"
+          ],
+          "answer": "A",
+          "explanation": "Change = 6; (6)/40 = 0.15 = 15% increase."
+        },
+        {
+          "num": 34,
+          "question": "What is the distance between the points (-4, 3) and (-7, 7)?",
+          "choices": [
+            "5",
+            "12",
+            "7",
+            "6"
+          ],
+          "answer": "A",
+          "explanation": "Distance = √[(Δx)² + (Δy)²] = √[(-3)² + 4²] = √[9 + 16] = √25 = 5."
+        },
+        {
+          "num": 35,
+          "question": "Which of the following describes all values of x satisfying  -3 <= 2x + 5 <= 9?",
+          "choices": [
+            "-4 <= x <= 2",
+            "-5 <= x <= 2",
+            "-4 < x < 2",
+            "x >= -4"
+          ],
+          "answer": "A",
+          "explanation": "Subtract (5) from each part: -8 <= 2x <= 4; divide by 2: -4 <= x <= 2."
+        },
+        {
+          "num": 36,
+          "question": "What is the median of the data set 19, 46, 13, 38, 47?",
+          "choices": [
+            "38",
+            "32",
+            "47",
+            "13"
+          ],
+          "answer": "A",
+          "explanation": "Sort: [13, 19, 38, 46, 47]; median = middle value = 38."
+        },
+        {
+          "num": 37,
+          "question": "A discount of 10% is applied to an item with a regular price of $120. What is the amount of the discount, in dollars?",
+          "choices": [
+            "130",
+            "12",
+            "108",
+            "1.2"
+          ],
+          "answer": "B",
+          "explanation": "10% of 120 = 0.10 * 120 = 12."
+        },
+        {
+          "num": 38,
+          "question": "How many solutions does the system  y = -3x + 4  and  y = -3x + 6  have?",
+          "choices": [
+            "Exactly two solutions",
+            "Exactly one solution",
+            "Infinitely many solutions",
+            "No solution"
+          ],
+          "answer": "D",
+          "explanation": "Same slope (-3) and different y-intercepts (4 vs 6) means parallel lines and no solution."
+        },
+        {
+          "num": 39,
+          "question": "What is the mean of the values 11, 10, 7, 8, 9?",
+          "choices": [
+            "45",
+            "10",
+            "8",
+            "9"
+          ],
+          "answer": "D",
+          "explanation": "Sum = 45; mean = 45/5 = 9."
+        },
+        {
+          "num": 40,
+          "question": "What is the value of  6 + 3 × 5 - 2?",
+          "choices": [
+            "19",
+            "23",
+            "15",
+            "43"
+          ],
+          "answer": "A",
+          "explanation": "Multiply first (3 × 5 = 15), then add and subtract left to right: 6 + 15 - 2 = 19."
+        },
+        {
+          "num": 41,
+          "question": "How many solutions does the system  y = 3x - 2  and  y = 3x - 1  have?",
+          "choices": [
+            "Exactly two solutions",
+            "Exactly one solution",
+            "No solution",
+            "Infinitely many solutions"
+          ],
+          "answer": "C",
+          "explanation": "Same slope (3) and different y-intercepts (-2 vs -1) means parallel lines and no solution."
+        },
+        {
+          "num": 42,
+          "question": "What are the coordinates of the x-intercept of the graph of  4x + 5y = 12  in the xy-plane?",
+          "choices": [
+            "(3, 5)",
+            "(-3, 0)",
+            "(0, 3)",
+            "(3, 0)"
+          ],
+          "answer": "D",
+          "explanation": "Set y = 0: 4x = 12; x = 3, so x-intercept is (3, 0)."
+        },
+        {
+          "num": 43,
+          "question": "An employee's salary changed from $200,000 to $180,000. What is the percent change?",
+          "choices": [
+            "15% decrease",
+            "10% decrease",
+            "10% increase",
+            "5% decrease"
+          ],
+          "answer": "B",
+          "explanation": "Change = -20; (-20)/200 = 0.1 = 10% decrease."
+        },
+        {
+          "num": 44,
+          "question": "Which value of x satisfies the equation  3(x - 6) = 2x - 6?",
+          "choices": [
+            "10",
+            "12",
+            "14",
+            "6"
+          ],
+          "answer": "B",
+          "explanation": "Distribute: 3x - 18 = 2x - 6; x = 12; x = 12."
+        },
+        {
+          "num": 45,
+          "question": "What is the solution (x, y) to the system  3x + 5y = 41  and  x + y = 11?",
+          "choices": [
+            "(4, 7)",
+            "(7, 4)",
+            "(11, 0)",
+            "(8, 3)"
+          ],
+          "answer": "B",
+          "explanation": "From the second equation, x = 11 - y. Substitute: 3(11 - y) + 5y = 41; (2)y = 8; y = 4; x = 7."
+        },
+        {
+          "num": 46,
+          "question": "Service A charges $10 plus $9 per visit. Service B charges $25 plus $8 per visit. After how many visits do the two services cost the same total amount?",
+          "choices": [
+            "16",
+            "15",
+            "1",
+            "14"
+          ],
+          "answer": "B",
+          "explanation": "Set $10 + $9m = $25 + $8m; (1)m = 15; m = 15."
+        }
+      ]
+    },
+    {
+      "testNum": 8,
+      "title": "Full-Length Practice Test 8",
+      "questions": [
+        {
+          "num": 1,
+          "question": "Which expression is equivalent to  x^11 / x^4  for x != 0?",
+          "choices": [
+            "x^15",
+            "x^7",
+            "x^44",
+            "x^8"
+          ],
+          "answer": "B",
+          "explanation": "Subtract exponents: 11 - 4 = 7."
+        },
+        {
+          "num": 2,
+          "question": "A rectangle is 19 units long and 14 units wide. What is its perimeter, in units?",
+          "choices": [
+            "33",
+            "266",
+            "68",
+            "66"
+          ],
+          "answer": "D",
+          "explanation": "Perimeter = 2 × (length + width) = 2 × (19 + 14) = 66 units."
+        },
+        {
+          "num": 3,
+          "question": "If  5x + 2 = 62, what is the value of x?",
+          "choices": [
+            "11",
+            "13",
+            "12",
+            "60"
+          ],
+          "answer": "C",
+          "explanation": "5x = 60; x = 12."
+        },
+        {
+          "num": 4,
+          "question": "What is the y-intercept of the graph of  y = x^2 - 4x + 4  in the xy-plane?",
+          "choices": [
+            "1",
+            "5",
+            "4",
+            "-4"
+          ],
+          "answer": "C",
+          "explanation": "Set x = 0: y = 4."
+        },
+        {
+          "num": 5,
+          "question": "At a constant unit price, 5 pounds of a product cost $40. At the same unit price, what is the cost of 12 pounds?",
+          "choices": [
+            "$104",
+            "$96",
+            "$136",
+            "$88"
+          ],
+          "answer": "B",
+          "explanation": "Unit price = $40/5 = $8/lb; 12 * $8 = $96."
+        },
+        {
+          "num": 6,
+          "question": "Two angles of a triangle measure 23 degrees and 80 degrees. What is the measure of the third angle?",
+          "choices": [
+            "87 degrees",
+            "103 degrees",
+            "67 degrees",
+            "77 degrees"
+          ],
+          "answer": "D",
+          "explanation": "Sum of triangle angles is 180: 23 + 80 + c = 180; c = 77."
+        },
+        {
+          "num": 7,
+          "question": "Which of the following describes all values of x satisfying  -2x + 9 < -3?",
+          "choices": [
+            "x < 6",
+            "x > 7",
+            "x > -6",
+            "x > 6"
+          ],
+          "answer": "D",
+          "explanation": "Subtract (9): -2x < -12. Divide by -2 (and FLIP): x > 6."
+        },
+        {
+          "num": 8,
+          "question": "A bag contains 8 red, 3 blue, and 2 green marbles. If a marble is selected at random, what is the probability that it is NOT blue?",
+          "choices": [
+            "3/13",
+            "10/3",
+            "10/13",
+            "1/2"
+          ],
+          "answer": "C",
+          "explanation": "Not blue: 10 out of 13 = 10/13."
+        },
+        {
+          "num": 9,
+          "question": "What is  14.6 + 5.8?",
+          "choices": [
+            "8.8",
+            "26.2",
+            "20.5",
+            "20.4"
+          ],
+          "answer": "D",
+          "explanation": "Line up the decimal points (or multiply, then place the decimal): 14.6 + 5.8 = 20.4."
+        },
+        {
+          "num": 10,
+          "question": "A triangle has a base of 14 units and a height of 10 units. What is its area, in square units?",
+          "choices": [
+            "80",
+            "70",
+            "84",
+            "140"
+          ],
+          "answer": "B",
+          "explanation": "Area = (1/2) × base × height = (1/2) × 14 × 10 = 70 square units."
+        },
+        {
+          "num": 11,
+          "question": "If  4x - 8 = 24, what is the value of x?",
+          "choices": [
+            "8",
+            "32",
+            "7",
+            "9"
+          ],
+          "answer": "A",
+          "explanation": "4x = 32; x = 8."
+        },
+        {
+          "num": 12,
+          "question": "A bag contains 8 red, 7 blue, and 2 green marbles. If a marble is selected at random, what is the probability that it is NOT blue?",
+          "choices": [
+            "7/17",
+            "1/2",
+            "10/7",
+            "10/17"
+          ],
+          "answer": "D",
+          "explanation": "Not blue: 10 out of 17 = 10/17."
+        },
+        {
+          "num": 13,
+          "question": "Add:  1/2 + 2/6.",
+          "choices": [
+            "1/6",
+            "5/6",
+            "1/2",
+            "3/8"
+          ],
+          "answer": "B",
+          "explanation": "Rewrite over a common denominator and add: 1/2 + 2/6 = 5/6."
+        },
+        {
+          "num": 14,
+          "question": "What is the distance between the points (2, -4) and (-7, 8)?",
+          "choices": [
+            "16",
+            "21",
+            "15",
+            "108"
+          ],
+          "answer": "C",
+          "explanation": "Distance = √[(Δx)² + (Δy)²] = √[(-9)² + 12²] = √[81 + 144] = √225 = 15."
+        },
+        {
+          "num": 15,
+          "question": "Service A charges $10 plus $8 per visit. Service B charges $22 plus $6 per visit. After how many visits do the two services cost the same total amount?",
+          "choices": [
+            "7",
+            "5",
+            "2",
+            "6"
+          ],
+          "answer": "D",
+          "explanation": "Set $10 + $8m = $22 + $6m; (2)m = 12; m = 6."
+        },
+        {
+          "num": 16,
+          "question": "A linear function f satisfies  f(3) = 6  and  f(6) = 15. What is the slope of the graph of f in the xy-plane?",
+          "choices": [
+            "3",
+            "6",
+            "-3",
+            "4"
+          ],
+          "answer": "A",
+          "explanation": "Slope = (15 - 6)/(6 - 3) = 9/3 = 3."
+        },
+        {
+          "num": 17,
+          "question": "What is  2.3 + 1.2?",
+          "choices": [
+            "4.7",
+            "1.1",
+            "3.5",
+            "3.6"
+          ],
+          "answer": "C",
+          "explanation": "Line up the decimal points (or multiply, then place the decimal): 2.3 + 1.2 = 3.5."
+        },
+        {
+          "num": 18,
+          "question": "What is the distance between the points (3, -3) and (12, -15)?",
+          "choices": [
+            "16",
+            "21",
+            "108",
+            "15"
+          ],
+          "answer": "D",
+          "explanation": "Distance = √[(Δx)² + (Δy)²] = √[(9)² - 12²] = √[81 + 144] = √225 = 15."
+        },
+        {
+          "num": 19,
+          "question": "Which of the following describes all values of x satisfying  -9 <= 2x - 5 <= -1?",
+          "choices": [
+            "-3 <= x <= 2",
+            "-2 < x < 2",
+            "-2 <= x <= 2",
+            "x >= -2"
+          ],
+          "answer": "C",
+          "explanation": "Subtract (-5) from each part: -4 <= 2x <= 4; divide by 2: -2 <= x <= 2."
+        },
+        {
+          "num": 20,
+          "question": "What is the slope of a line in the xy-plane that is perpendicular to the line  y = (-1/4)x - 2?",
+          "choices": [
+            "4/-1",
+            "-1/4",
+            "4",
+            "1/4"
+          ],
+          "answer": "C",
+          "explanation": "The perpendicular slope is the negative reciprocal of -1/4, which is 4."
+        },
+        {
+          "num": 21,
+          "question": "A discount of 15% is applied to an item with a regular price of $40. What is the amount of the discount, in dollars?",
+          "choices": [
+            "0.6",
+            "34",
+            "6",
+            "55"
+          ],
+          "answer": "C",
+          "explanation": "15% of 40 = 0.15 * 40 = 6."
+        },
+        {
+          "num": 22,
+          "question": "Two angles of a triangle measure 55 degrees and 90 degrees. What is the measure of the third angle?",
+          "choices": [
+            "145 degrees",
+            "45 degrees",
+            "35 degrees",
+            "25 degrees"
+          ],
+          "answer": "C",
+          "explanation": "Sum of triangle angles is 180: 55 + 90 + c = 180; c = 35."
+        },
+        {
+          "num": 23,
+          "question": "If  3x + 17 = 62, what is the value of x?",
+          "choices": [
+            "16",
+            "15",
+            "45",
+            "14"
+          ],
+          "answer": "B",
+          "explanation": "3x = 45; x = 15."
+        },
+        {
+          "num": 24,
+          "question": "What is the mean of the values 22, 19, 23, 20, 21?",
+          "choices": [
+            "21",
+            "20",
+            "105",
+            "22"
+          ],
+          "answer": "A",
+          "explanation": "Sum = 105; mean = 105/5 = 21."
+        },
+        {
+          "num": 25,
+          "question": "Evaluate:  (-10) × 2.",
+          "choices": [
+            "-20",
+            "-22",
+            "-18",
+            "20"
+          ],
+          "answer": "A",
+          "explanation": "(-10) × 2 = -20.  Watch the signs."
+        },
+        {
+          "num": 26,
+          "question": "What is the volume of a rectangular box with dimensions 4 by 11 by 7?",
+          "choices": [
+            "298",
+            "308",
+            "51",
+            "22"
+          ],
+          "answer": "B",
+          "explanation": "V = lwh = 4 * 11 * 7 = 308."
+        },
+        {
+          "num": 27,
+          "question": "What is the solution (x, y) to the system  x + y = 12  and  x - y = -2?",
+          "choices": [
+            "(12, -2)",
+            "(5, 7)",
+            "(7, 5)",
+            "(6, 6)"
+          ],
+          "answer": "B",
+          "explanation": "Add: 2x = 10; x = 5; y = 7."
+        },
+        {
+          "num": 28,
+          "question": "A line in the xy-plane passes through the points (4, -1) and (6, -7). What is the slope of the line?",
+          "choices": [
+            "-2",
+            "-3",
+            "3",
+            "-4"
+          ],
+          "answer": "B",
+          "explanation": "Slope = (-7 + 1)/(6 - 4) = -6/2 = -3."
+        },
+        {
+          "num": 29,
+          "question": "An employee's salary changed from $80,000 to $56,000. What is the percent change?",
+          "choices": [
+            "30% increase",
+            "35% decrease",
+            "30% decrease",
+            "15% decrease"
+          ],
+          "answer": "C",
+          "explanation": "Change = -24; (-24)/80 = 0.3 = 30% decrease."
+        },
+        {
+          "num": 30,
+          "question": "Two angles of a triangle measure 70 degrees and 80 degrees. What is the measure of the third angle?",
+          "choices": [
+            "40 degrees",
+            "30 degrees",
+            "150 degrees",
+            "20 degrees"
+          ],
+          "answer": "B",
+          "explanation": "Sum of triangle angles is 180: 70 + 80 + c = 180; c = 30."
+        },
+        {
+          "num": 31,
+          "question": "A student wants an average of at least 80 across 4 tests, each scored out of 100. So far the student's combined score on the first 3 tests is 270. Which inequality represents the score t the student must achieve on the final test to meet the goal?",
+          "choices": [
+            "t >= 50",
+            "t > 50",
+            "t >= 55",
+            "t <= 50"
+          ],
+          "answer": "A",
+          "explanation": "(270 + t)/4 >= 80; 270 + t >= 320; t >= 50."
+        },
+        {
+          "num": 32,
+          "question": "On a test, 4 students averaged 74 and 4 students averaged 84. What is the average of all 8 students?",
+          "choices": [
+            "78",
+            "80",
+            "81",
+            "79"
+          ],
+          "answer": "D",
+          "explanation": "Weighted mean = (total points)/(total students) = (4·74 + 4·84)/8 = 632/8 = 79."
+        },
+        {
+          "num": 33,
+          "question": "At a constant unit price, 5 pounds of a product cost $20. At the same unit price, what is the cost of 8 pounds?",
+          "choices": [
+            "$36",
+            "$28",
+            "$52",
+            "$32"
+          ],
+          "answer": "D",
+          "explanation": "Unit price = $20/5 = $4/lb; 8 * $4 = $32."
+        },
+        {
+          "num": 34,
+          "question": "What is the distance between the points (-5, 5) and (-13, 20)?",
+          "choices": [
+            "17",
+            "18",
+            "120",
+            "23"
+          ],
+          "answer": "A",
+          "explanation": "Distance = √[(Δx)² + (Δy)²] = √[(-8)² + 15²] = √[64 + 225] = √289 = 17."
+        },
+        {
+          "num": 35,
+          "question": "If  (x + 4) / 3 = 2, what is the value of x?",
+          "choices": [
+            "3",
+            "-2",
+            "2",
+            "6"
+          ],
+          "answer": "C",
+          "explanation": "Multiply by 3: x + 4 = 6; x = 2."
+        },
+        {
+          "num": 36,
+          "question": "A random sample of 500 students from a school of 1000 students was surveyed; 30% reported playing a sport. Based on this sample, the best estimate of the number of students at the school who play a sport is closest to:",
+          "choices": [
+            "150",
+            "700",
+            "600",
+            "300"
+          ],
+          "answer": "D",
+          "explanation": "Estimate = sample proportion times population: 0.30 * 1000 = 300."
+        },
+        {
+          "num": 37,
+          "question": "Add:  1/2 + 3/6.",
+          "choices": [
+            "1/2",
+            "1",
+            "1/4",
+            "2/3"
+          ],
+          "answer": "B",
+          "explanation": "Rewrite over a common denominator and add: 1/2 + 3/6 = 1."
+        },
+        {
+          "num": 38,
+          "question": "A student wants an average of at least 80 across 5 tests, each scored out of 100. So far the student's combined score on the first 4 tests is 312. Which inequality represents the score t the student must achieve on the final test to meet the goal?",
+          "choices": [
+            "t >= 88",
+            "t <= 88",
+            "t >= 93",
+            "t > 88"
+          ],
+          "answer": "A",
+          "explanation": "(312 + t)/5 >= 80; 312 + t >= 400; t >= 88."
+        },
+        {
+          "num": 39,
+          "question": "What is the y-intercept of the graph of  y = 3x^2 + 3x - 2  in the xy-plane?",
+          "choices": [
+            "-2",
+            "3",
+            "-1",
+            "2"
+          ],
+          "answer": "A",
+          "explanation": "Set x = 0: y = -2."
+        },
+        {
+          "num": 40,
+          "question": "What is  19.0 × 3.1?",
+          "choices": [
+            "62.0",
+            "58.9",
+            "59.0",
+            "15.9"
+          ],
+          "answer": "B",
+          "explanation": "Line up the decimal points (or multiply, then place the decimal): 19.0 × 3.1 = 58.9."
+        },
+        {
+          "num": 41,
+          "question": "For what value of k does the equation  kx + 7 = 7x + 5  have no solution?",
+          "choices": [
+            "9",
+            "7",
+            "5",
+            "14"
+          ],
+          "answer": "B",
+          "explanation": "Same x-coefficient (k = 7) and different constants (7 vs 5) means no solution."
+        },
+        {
+          "num": 42,
+          "question": "What is the y-intercept of the graph of  y = -x^2 + 3x + 7  in the xy-plane?",
+          "choices": [
+            "7",
+            "-7",
+            "3",
+            "-1"
+          ],
+          "answer": "A",
+          "explanation": "Set x = 0: y = 7."
+        },
+        {
+          "num": 43,
+          "question": "A discount of 24% is applied to an item with a regular price of $250. What is the amount of the discount, in dollars?",
+          "choices": [
+            "190",
+            "60",
+            "6",
+            "274"
+          ],
+          "answer": "B",
+          "explanation": "24% of 250 = 0.24 * 250 = 60."
+        },
+        {
+          "num": 44,
+          "question": "If  (x - 3) / 3 = 8, what is the value of x?",
+          "choices": [
+            "27",
+            "11",
+            "24",
+            "30"
+          ],
+          "answer": "A",
+          "explanation": "Multiply by 3: x - 3 = 24; x = 27."
+        },
+        {
+          "num": 45,
+          "question": "Which of the following describes all values of x satisfying  -3x + 4 <= -8?",
+          "choices": [
+            "x >= 4",
+            "x <= 4",
+            "x >= -4",
+            "x >= 5"
+          ],
+          "answer": "A",
+          "explanation": "Subtract (4): -3x <= -12. Divide by -3 (and FLIP): x >= 4."
+        },
+        {
+          "num": 46,
+          "question": "For what value of k does the equation  3x + 3 = 3x + k  have infinitely many solutions?",
+          "choices": [
+            "4",
+            "5",
+            "-3",
+            "3"
+          ],
+          "answer": "D",
+          "explanation": "For infinitely many solutions, both sides must be identical, so k = 3."
+        }
+      ]
+    },
+    {
+      "testNum": 9,
+      "title": "Full-Length Practice Test 9",
+      "questions": [
+        {
+          "num": 1,
+          "question": "What is  (3 × 10^5)(3 × 10^5)  in scientific notation?",
+          "choices": [
+            "6 × 10^10",
+            "9 × 10^10",
+            "9 × 10^11",
+            "9 × 10^25"
+          ],
+          "answer": "B",
+          "explanation": "Multiply the coefficients (3 × 3 = 9) and add the exponents (5 + 5 = 10): 9 × 10^10."
+        },
+        {
+          "num": 2,
+          "question": "Two angles of a triangle measure 29 degrees and 20 degrees. What is the measure of the third angle?",
+          "choices": [
+            "121 degrees",
+            "49 degrees",
+            "141 degrees",
+            "131 degrees"
+          ],
+          "answer": "D",
+          "explanation": "Sum of triangle angles is 180: 29 + 20 + c = 180; c = 131."
+        },
+        {
+          "num": 3,
+          "question": "Which value of x satisfies the equation  2(x - 4) = x - 3?",
+          "choices": [
+            "5",
+            "7",
+            "3",
+            "4"
+          ],
+          "answer": "A",
+          "explanation": "Distribute: 2x - 8 = x - 3; x = 5; x = 5."
+        },
+        {
+          "num": 4,
+          "question": "A bag contains 3 red, 7 blue, and 7 green marbles. If a marble is selected at random, what is the probability that it is NOT blue?",
+          "choices": [
+            "7/17",
+            "10/7",
+            "1/2",
+            "10/17"
+          ],
+          "answer": "D",
+          "explanation": "Not blue: 10 out of 17 = 10/17."
+        },
+        {
+          "num": 5,
+          "question": "What is  8.9 × 2.4?",
+          "choices": [
+            "21.46",
+            "21.36",
+            "6.5",
+            "23.76"
+          ],
+          "answer": "B",
+          "explanation": "Line up the decimal points (or multiply, then place the decimal): 8.9 × 2.4 = 21.36."
+        },
+        {
+          "num": 6,
+          "question": "What is the volume of a rectangular box with dimensions 12 by 3 by 12?",
+          "choices": [
+            "433",
+            "48",
+            "27",
+            "432"
+          ],
+          "answer": "D",
+          "explanation": "V = lwh = 12 * 3 * 12 = 432."
+        },
+        {
+          "num": 7,
+          "question": "What is the solution (x, y) to the system  4x + 4y = 28  and  x + y = 7?",
+          "choices": [
+            "(5, 2)",
+            "(6, 1)",
+            "(7, 0)",
+            "(2, 5)"
+          ],
+          "answer": "A",
+          "explanation": "From the second equation, x = 7 - y. Substitute: 4(7 - y) + 4y = 28; (0)y = 0; y = 2; x = 5."
+        },
+        {
+          "num": 8,
+          "question": "What is the range of the data set 36, 45, 18, 48, 14?",
+          "choices": [
+            "35",
+            "34",
+            "14",
+            "48"
+          ],
+          "answer": "B",
+          "explanation": "Range = max - min = 48 - 14 = 34."
+        },
+        {
+          "num": 9,
+          "question": "What is  4/5  of  25?",
+          "choices": [
+            "20",
+            "5",
+            "100",
+            "25"
+          ],
+          "answer": "A",
+          "explanation": "Divide by the denominator, then multiply: (25 ÷ 5) × 4 = 5 × 4 = 20."
+        },
+        {
+          "num": 10,
+          "question": "What is the distance between the points (4, 2) and (-1, -10)?",
+          "choices": [
+            "13",
+            "14",
+            "17",
+            "60"
+          ],
+          "answer": "A",
+          "explanation": "Distance = √[(Δx)² + (Δy)²] = √[(-5)² - 12²] = √[25 + 144] = √169 = 13."
+        },
+        {
+          "num": 11,
+          "question": "A student wants an average of at least 90 across 3 tests, each scored out of 100. So far the student's combined score on the first 2 tests is 173. Which inequality represents the score t the student must achieve on the final test to meet the goal?",
+          "choices": [
+            "t >= 97",
+            "t > 97",
+            "t <= 97",
+            "t >= 102"
+          ],
+          "answer": "A",
+          "explanation": "(173 + t)/3 >= 90; 173 + t >= 270; t >= 97."
+        },
+        {
+          "num": 12,
+          "question": "A line in the xy-plane passes through the points (0, -5) and (4, -9). What is the slope of the line?",
+          "choices": [
+            "1",
+            "0",
+            "-2",
+            "-1"
+          ],
+          "answer": "D",
+          "explanation": "Slope = (-9 + 5)/(4 - 0) = -4/4 = -1."
+        },
+        {
+          "num": 13,
+          "question": "What is  8.2 + 7.5?",
+          "choices": [
+            "23.2",
+            "0.7",
+            "15.7",
+            "15.8"
+          ],
+          "answer": "C",
+          "explanation": "Line up the decimal points (or multiply, then place the decimal): 8.2 + 7.5 = 15.7."
+        },
+        {
+          "num": 14,
+          "question": "What is the volume of a rectangular box with dimensions 5 by 8 by 12?",
+          "choices": [
+            "52",
+            "480",
+            "25",
+            "392"
+          ],
+          "answer": "B",
+          "explanation": "V = lwh = 5 * 8 * 12 = 480."
+        },
+        {
+          "num": 15,
+          "question": "Service A charges $2 plus $12 per visit. Service B charges $14 plus $9 per visit. After how many visits do the two services cost the same total amount?",
+          "choices": [
+            "4",
+            "5",
+            "6",
+            "3"
+          ],
+          "answer": "A",
+          "explanation": "Set $2 + $12m = $14 + $9m; (3)m = 12; m = 4."
+        },
+        {
+          "num": 16,
+          "question": "A linear function f satisfies  f(5) = -14  and  f(9) = -26. What is the slope of the graph of f in the xy-plane?",
+          "choices": [
+            "3",
+            "-2",
+            "-3",
+            "-6"
+          ],
+          "answer": "C",
+          "explanation": "Slope = (-26 + 14)/(9 - 5) = -12/4 = -3."
+        },
+        {
+          "num": 17,
+          "question": "At a constant unit price, 3 pounds of a product cost $9. At the same unit price, what is the cost of 13 pounds?",
+          "choices": [
+            "$42",
+            "$36",
+            "$48",
+            "$39"
+          ],
+          "answer": "D",
+          "explanation": "Unit price = $9/3 = $3/lb; 13 * $3 = $39."
+        },
+        {
+          "num": 18,
+          "question": "A rectangle is 16 units long and 6 units wide. What is its area, in square units?",
+          "choices": [
+            "112",
+            "96",
+            "22",
+            "44"
+          ],
+          "answer": "B",
+          "explanation": "Area = length × width = 16 × 6 = 96 square units."
+        },
+        {
+          "num": 19,
+          "question": "Which value of x satisfies the equation  5(x - 5) = 4x - 21?",
+          "choices": [
+            "2",
+            "6",
+            "4",
+            "5"
+          ],
+          "answer": "C",
+          "explanation": "Distribute: 5x - 25 = 4x - 21; x = 4; x = 4."
+        },
+        {
+          "num": 20,
+          "question": "What are the x-intercepts of the graph of  y = (x - 5)(x - 1)?",
+          "choices": [
+            "x = 5",
+            "x = -5 and x = -1",
+            "x = 5 and x = 1",
+            "x = 5 and x = -1"
+          ],
+          "answer": "C",
+          "explanation": "Set each factor equal to zero: x = 5 or x = 1."
+        },
+        {
+          "num": 21,
+          "question": "Evaluate:  (-6) × 9.",
+          "choices": [
+            "54",
+            "-54",
+            "-63",
+            "-45"
+          ],
+          "answer": "B",
+          "explanation": "(-6) × 9 = -54.  Watch the signs."
+        },
+        {
+          "num": 22,
+          "question": "What is the distance between the points (0, -1) and (9, -13)?",
+          "choices": [
+            "16",
+            "108",
+            "15",
+            "21"
+          ],
+          "answer": "C",
+          "explanation": "Distance = √[(Δx)² + (Δy)²] = √[(9)² - 12²] = √[81 + 144] = √225 = 15."
+        },
+        {
+          "num": 23,
+          "question": "How many solutions does the system  y = -3x - 1  and  y = -3x + 2  have?",
+          "choices": [
+            "No solution",
+            "Infinitely many solutions",
+            "Exactly one solution",
+            "Exactly two solutions"
+          ],
+          "answer": "A",
+          "explanation": "Same slope (-3) and different y-intercepts (-1 vs 2) means parallel lines and no solution."
+        },
+        {
+          "num": 24,
+          "question": "A line in the xy-plane passes through the points (-3, -4) and (-1, -10). What is the slope of the line?",
+          "choices": [
+            "-3",
+            "3",
+            "-4",
+            "-2"
+          ],
+          "answer": "A",
+          "explanation": "Slope = (-10 + 4)/(-1 + 3) = -6/2 = -3."
+        },
+        {
+          "num": 25,
+          "question": "Multiply:  2/3 × 3/4.",
+          "choices": [
+            "17/12",
+            "6/7",
+            "5/12",
+            "1/2"
+          ],
+          "answer": "D",
+          "explanation": "Multiply numerators and denominators: (2×3)/(3×4) = 6/12 = 1/2."
+        },
+        {
+          "num": 26,
+          "question": "What is the distance between the points (0, 4) and (-5, -8)?",
+          "choices": [
+            "60",
+            "17",
+            "14",
+            "13"
+          ],
+          "answer": "D",
+          "explanation": "Distance = √[(Δx)² + (Δy)²] = √[(-5)² - 12²] = √[25 + 144] = √169 = 13."
+        },
+        {
+          "num": 27,
+          "question": "If  4x + 8 = 24, what is the value of x?",
+          "choices": [
+            "5",
+            "3",
+            "16",
+            "4"
+          ],
+          "answer": "D",
+          "explanation": "4x = 16; x = 4."
+        },
+        {
+          "num": 28,
+          "question": "What is the mean of the values 20, 19, 17, 16, 18?",
+          "choices": [
+            "17",
+            "19",
+            "90",
+            "18"
+          ],
+          "answer": "D",
+          "explanation": "Sum = 90; mean = 90/5 = 18."
+        },
+        {
+          "num": 29,
+          "question": "Evaluate:  (-10) + 3.",
+          "choices": [
+            "7",
+            "-10",
+            "-7",
+            "-4"
+          ],
+          "answer": "C",
+          "explanation": "(-10) + 3 = -7.  Watch the signs."
+        },
+        {
+          "num": 30,
+          "question": "A triangle has a base of 16 units and a height of 9 units. What is its area, in square units?",
+          "choices": [
+            "81",
+            "72",
+            "144",
+            "88"
+          ],
+          "answer": "B",
+          "explanation": "Area = (1/2) × base × height = (1/2) × 16 × 9 = 72 square units."
+        },
+        {
+          "num": 31,
+          "question": "Service A charges $3 plus $8 per visit. Service B charges $15 plus $4 per visit. After how many visits do the two services cost the same total amount?",
+          "choices": [
+            "2",
+            "5",
+            "4",
+            "3"
+          ],
+          "answer": "D",
+          "explanation": "Set $3 + $8m = $15 + $4m; (4)m = 12; m = 3."
+        },
+        {
+          "num": 32,
+          "question": "What are the coordinates of the vertex of the graph of  y = (x - 1)^2 + 3  in the xy-plane?",
+          "choices": [
+            "(1, 3)",
+            "(-1, -3)",
+            "(-1, 3)",
+            "(1, -3)"
+          ],
+          "answer": "A",
+          "explanation": "Vertex form y = a(x - h)^2 + k has vertex (h, k) = (1, 3)."
+        },
+        {
+          "num": 33,
+          "question": "At a constant unit price, 3 pounds of a product cost $24. At the same unit price, what is the cost of 10 pounds?",
+          "choices": [
+            "$104",
+            "$88",
+            "$72",
+            "$80"
+          ],
+          "answer": "D",
+          "explanation": "Unit price = $24/3 = $8/lb; 10 * $8 = $80."
+        },
+        {
+          "num": 34,
+          "question": "What is the distance between the points (-1, -1) and (-10, 11)?",
+          "choices": [
+            "21",
+            "108",
+            "16",
+            "15"
+          ],
+          "answer": "D",
+          "explanation": "Distance = √[(Δx)² + (Δy)²] = √[(-9)² + 12²] = √[81 + 144] = √225 = 15."
+        },
+        {
+          "num": 35,
+          "question": "If  8x - 4 = 68, what is the value of x?",
+          "choices": [
+            "10",
+            "8",
+            "9",
+            "72"
+          ],
+          "answer": "C",
+          "explanation": "8x = 72; x = 9."
+        },
+        {
+          "num": 36,
+          "question": "Which equation represents the line in the xy-plane that is parallel to  y = 2x - 5  and passes through (0, 5)?",
+          "choices": [
+            "y = 0.5x + 5",
+            "y = -2x + 5",
+            "y = 2x - 5",
+            "y = 2x + 5"
+          ],
+          "answer": "D",
+          "explanation": "Parallel lines share slope (2); the y-intercept is given as 5."
+        },
+        {
+          "num": 37,
+          "question": "What is  6.1 + 4.5?",
+          "choices": [
+            "10.6",
+            "1.6",
+            "10.7",
+            "15.1"
+          ],
+          "answer": "A",
+          "explanation": "Line up the decimal points (or multiply, then place the decimal): 6.1 + 4.5 = 10.6."
+        },
+        {
+          "num": 38,
+          "question": "If  8x - 9 = 87, what is the value of x?",
+          "choices": [
+            "11",
+            "12",
+            "13",
+            "96"
+          ],
+          "answer": "B",
+          "explanation": "8x = 96; x = 12."
+        },
+        {
+          "num": 39,
+          "question": "What is the y-intercept of the graph of  y = 2x^2 - 6x - 2  in the xy-plane?",
+          "choices": [
+            "-6",
+            "-2",
+            "-1",
+            "2"
+          ],
+          "answer": "B",
+          "explanation": "Set x = 0: y = -2."
+        },
+        {
+          "num": 40,
+          "question": "What is the value of  5 + 5 × 3 - 8?",
+          "choices": [
+            "-20",
+            "22",
+            "12",
+            "28"
+          ],
+          "answer": "C",
+          "explanation": "Multiply first (5 × 3 = 15), then add and subtract left to right: 5 + 15 - 8 = 12."
+        },
+        {
+          "num": 41,
+          "question": "What are the solutions to the equation  x^2 + x - 20 = 0?",
+          "choices": [
+            "x = 4 and x = 5",
+            "x = -4 and x = 5",
+            "x = -5 and x = 4",
+            "x = 1 and x = -20"
+          ],
+          "answer": "C",
+          "explanation": "Factor: (x - 4)(x + 5) = 0, giving x = 4 or x = -5."
+        },
+        {
+          "num": 42,
+          "question": "What are the coordinates of the vertex of the graph of  y = -1(x + 2)^2 - 7  in the xy-plane?",
+          "choices": [
+            "(-2, 7)",
+            "(-2, -7)",
+            "(2, -7)",
+            "(2, 7)"
+          ],
+          "answer": "B",
+          "explanation": "Vertex form y = a(x - h)^2 + k has vertex (h, k) = (-2, -7)."
+        },
+        {
+          "num": 43,
+          "question": "Evaluate:  (-7) + 5.",
+          "choices": [
+            "-7",
+            "-2",
+            "2",
+            "3"
+          ],
+          "answer": "B",
+          "explanation": "(-7) + 5 = -2.  Watch the signs."
+        },
+        {
+          "num": 44,
+          "question": "What are the solutions to the equation  x^2 - 5x + 4 = 0?",
+          "choices": [
+            "x = -5 and x = 4",
+            "x = 1 and x = -4",
+            "x = -1 and x = -4",
+            "x = 1 and x = 4"
+          ],
+          "answer": "D",
+          "explanation": "Factor: (x - 1)(x - 4) = 0, giving x = 1 or x = 4."
+        },
+        {
+          "num": 45,
+          "question": "If  9x - 7 = 83, what is the value of x?",
+          "choices": [
+            "9",
+            "11",
+            "10",
+            "90"
+          ],
+          "answer": "C",
+          "explanation": "9x = 90; x = 10."
+        },
+        {
+          "num": 46,
+          "question": "What are the solutions to the equation  x^2 - 3x - 10 = 0?",
+          "choices": [
+            "x = -2 and x = 5",
+            "x = 2 and x = -5",
+            "x = -2 and x = -5",
+            "x = -3 and x = -10"
+          ],
+          "answer": "A",
+          "explanation": "Factor: (x + 2)(x - 5) = 0, giving x = -2 or x = 5."
+        }
+      ]
+    },
+    {
+      "testNum": 10,
+      "title": "Full-Length Practice Test 10",
+      "questions": [
+        {
+          "num": 1,
+          "question": "At a constant unit price, 2 pounds of a product cost $8. At the same unit price, what is the cost of 12 pounds?",
+          "choices": [
+            "$56",
+            "$52",
+            "$44",
+            "$48"
+          ],
+          "answer": "D",
+          "explanation": "Unit price = $8/2 = $4/lb; 12 * $4 = $48."
+        },
+        {
+          "num": 2,
+          "question": "What is the distance between the points (3, -3) and (-5, -18)?",
+          "choices": [
+            "23",
+            "120",
+            "18",
+            "17"
+          ],
+          "answer": "D",
+          "explanation": "Distance = √[(Δx)² + (Δy)²] = √[(-8)² - 15²] = √[64 + 225] = √289 = 17."
+        },
+        {
+          "num": 3,
+          "question": "Which of the following describes all values of x satisfying  -1 <= 4x + 3 <= 23?",
+          "choices": [
+            "-1 < x < 5",
+            "-1 <= x <= 5",
+            "x >= -1",
+            "-2 <= x <= 5"
+          ],
+          "answer": "B",
+          "explanation": "Subtract (3) from each part: -4 <= 4x <= 20; divide by 4: -1 <= x <= 5."
+        },
+        {
+          "num": 4,
+          "question": "The mean of 4 numbers is 20. 3 of the numbers are 8, 7, 18. What is the remaining number?",
+          "choices": [
+            "47",
+            "27",
+            "51",
+            "20"
+          ],
+          "answer": "A",
+          "explanation": "The total must be 4 × 20 = 80. The known numbers sum to 33, so the last number is 80 - 33 = 47."
+        },
+        {
+          "num": 5,
+          "question": "Evaluate:  (-3) - 11.",
+          "choices": [
+            "-25",
+            "-14",
+            "14",
+            "-3"
+          ],
+          "answer": "B",
+          "explanation": "(-3) - 11 = -14.  Watch the signs."
+        },
+        {
+          "num": 6,
+          "question": "A triangle has a base of 16 units and a height of 5 units. What is its area, in square units?",
+          "choices": [
+            "80",
+            "45",
+            "56",
+            "40"
+          ],
+          "answer": "D",
+          "explanation": "Area = (1/2) × base × height = (1/2) × 16 × 5 = 40 square units."
+        },
+        {
+          "num": 7,
+          "question": "Service A charges $3 plus $10 per visit. Service B charges $13 plus $5 per visit. After how many visits do the two services cost the same total amount?",
+          "choices": [
+            "1",
+            "2",
+            "3",
+            "5"
+          ],
+          "answer": "B",
+          "explanation": "Set $3 + $10m = $13 + $5m; (5)m = 10; m = 2."
+        },
+        {
+          "num": 8,
+          "question": "The function f is defined by  f(x) = x + 8. What is the value of f(-5)?",
+          "choices": [
+            "3",
+            "-13",
+            "4",
+            "9"
+          ],
+          "answer": "A",
+          "explanation": "f(-5) = 1(-5) + 8 = -5 + 8 = 3."
+        },
+        {
+          "num": 9,
+          "question": "Multiply:  1/3 × 4/5.",
+          "choices": [
+            "1/2",
+            "17/15",
+            "1/3",
+            "4/15"
+          ],
+          "answer": "D",
+          "explanation": "Multiply numerators and denominators: (1×4)/(3×5) = 4/15 = 4/15."
+        },
+        {
+          "num": 10,
+          "question": "What is the distance between the points (0, -5) and (9, 7)?",
+          "choices": [
+            "16",
+            "108",
+            "21",
+            "15"
+          ],
+          "answer": "D",
+          "explanation": "Distance = √[(Δx)² + (Δy)²] = √[(9)² + 12²] = √[81 + 144] = √225 = 15."
+        },
+        {
+          "num": 11,
+          "question": "How many solutions does the system  y = 4x + 2  and  y = 4x + 4  have?",
+          "choices": [
+            "No solution",
+            "Infinitely many solutions",
+            "Exactly two solutions",
+            "Exactly one solution"
+          ],
+          "answer": "A",
+          "explanation": "Same slope (4) and different y-intercepts (2 vs 4) means parallel lines and no solution."
+        },
+        {
+          "num": 12,
+          "question": "A line in the xy-plane passes through the points (3, -1) and (7, 3). What is the slope of the line?",
+          "choices": [
+            "1",
+            "-1",
+            "0",
+            "2"
+          ],
+          "answer": "A",
+          "explanation": "Slope = (3 + 1)/(7 - 3) = 4/4 = 1."
+        },
+        {
+          "num": 13,
+          "question": "At a constant unit price, 6 pounds of a product cost $24. At the same unit price, what is the cost of 13 pounds?",
+          "choices": [
+            "$52",
+            "$76",
+            "$56",
+            "$48"
+          ],
+          "answer": "A",
+          "explanation": "Unit price = $24/6 = $4/lb; 13 * $4 = $52."
+        },
+        {
+          "num": 14,
+          "question": "A rectangle is 8 units long and 3 units wide. What is its area, in square units?",
+          "choices": [
+            "24",
+            "32",
+            "11",
+            "22"
+          ],
+          "answer": "A",
+          "explanation": "Area = length × width = 8 × 3 = 24 square units."
+        },
+        {
+          "num": 15,
+          "question": "A student wants an average of at least 85 across 4 tests, each scored out of 100. So far the student's combined score on the first 3 tests is 261. Which inequality represents the score t the student must achieve on the final test to meet the goal?",
+          "choices": [
+            "t >= 79",
+            "t >= 84",
+            "t > 79",
+            "t <= 79"
+          ],
+          "answer": "A",
+          "explanation": "(261 + t)/4 >= 85; 261 + t >= 340; t >= 79."
+        },
+        {
+          "num": 16,
+          "question": "A random sample of 400 students from a school of 2000 students was surveyed; 35% reported playing a sport. Based on this sample, the best estimate of the number of students at the school who play a sport is closest to:",
+          "choices": [
+            "1300",
+            "700",
+            "1400",
+            "350"
+          ],
+          "answer": "B",
+          "explanation": "Estimate = sample proportion times population: 0.35 * 2000 = 700."
+        },
+        {
+          "num": 17,
+          "question": "What is the value of  8 + 5 × 6 - 1?",
+          "choices": [
+            "77",
+            "33",
+            "37",
+            "39"
+          ],
+          "answer": "C",
+          "explanation": "Multiply first (5 × 6 = 30), then add and subtract left to right: 8 + 30 - 1 = 37."
+        },
+        {
+          "num": 18,
+          "question": "What is the distance between the points (4, 0) and (-4, -15)?",
+          "choices": [
+            "17",
+            "18",
+            "120",
+            "23"
+          ],
+          "answer": "A",
+          "explanation": "Distance = √[(Δx)² + (Δy)²] = √[(-8)² - 15²] = √[64 + 225] = √289 = 17."
+        },
+        {
+          "num": 19,
+          "question": "If  (x + 4) / 4 = 7, what is the value of x?",
+          "choices": [
+            "28",
+            "3",
+            "24",
+            "20"
+          ],
+          "answer": "C",
+          "explanation": "Multiply by 4: x + 4 = 28; x = 24."
+        },
+        {
+          "num": 20,
+          "question": "What is the slope of a line in the xy-plane that is perpendicular to the line  y = (5/6)x + 6?",
+          "choices": [
+            "6/5",
+            "-6/5",
+            "-5/6",
+            "5/6"
+          ],
+          "answer": "B",
+          "explanation": "The perpendicular slope is the negative reciprocal of 5/6, which is -6/5."
+        },
+        {
+          "num": 21,
+          "question": "A discount of 60% is applied to an item with a regular price of $120. What is the amount of the discount, in dollars?",
+          "choices": [
+            "180",
+            "7.2",
+            "48",
+            "72"
+          ],
+          "answer": "D",
+          "explanation": "60% of 120 = 0.60 * 120 = 72."
+        },
+        {
+          "num": 22,
+          "question": "What is the midpoint of the segment joining (3, -3) and (7, 3)?",
+          "choices": [
+            "(6, 0)",
+            "(5, 0)",
+            "(0, 5)",
+            "(10, 0)"
+          ],
+          "answer": "B",
+          "explanation": "Midpoint = ((x₁+x₂)/2, (y₁+y₂)/2) = ((3+7)/2, (-3+3)/2) = (5, 0)."
+        },
+        {
+          "num": 23,
+          "question": "What is the solution (x, y) to the system  x + y = 16  and  x - y = -4?",
+          "choices": [
+            "(10, 6)",
+            "(16, -4)",
+            "(6, 10)",
+            "(7, 9)"
+          ],
+          "answer": "C",
+          "explanation": "Add: 2x = 12; x = 6; y = 10."
+        },
+        {
+          "num": 24,
+          "question": "What is the y-intercept of the graph of  y = 3x^2 + 5x - 5  in the xy-plane?",
+          "choices": [
+            "-5",
+            "-4",
+            "3",
+            "5"
+          ],
+          "answer": "A",
+          "explanation": "Set x = 0: y = -5."
+        },
+        {
+          "num": 25,
+          "question": "A discount of 5% is applied to an item with a regular price of $40. What is the amount of the discount, in dollars?",
+          "choices": [
+            "45",
+            "0.2",
+            "2",
+            "38"
+          ],
+          "answer": "C",
+          "explanation": "5% of 40 = 0.05 * 40 = 2."
+        },
+        {
+          "num": 26,
+          "question": "What is the volume of a rectangular box with dimensions 5 by 5 by 8?",
+          "choices": [
+            "210",
+            "18",
+            "33",
+            "200"
+          ],
+          "answer": "D",
+          "explanation": "V = lwh = 5 * 5 * 8 = 200."
+        },
+        {
+          "num": 27,
+          "question": "If  (x - 3) / 4 = 3, what is the value of x?",
+          "choices": [
+            "6",
+            "12",
+            "18",
+            "15"
+          ],
+          "answer": "D",
+          "explanation": "Multiply by 4: x - 3 = 12; x = 15."
+        },
+        {
+          "num": 28,
+          "question": "Which equation represents the line in the xy-plane that is parallel to  y = 4x - 3  and passes through (0, 2)?",
+          "choices": [
+            "y = -4x + 2",
+            "y = 4x - 3",
+            "y = 4x + 2",
+            "y = 0.25x + 2"
+          ],
+          "answer": "C",
+          "explanation": "Parallel lines share slope (4); the y-intercept is given as 2."
+        },
+        {
+          "num": 29,
+          "question": "At a constant unit price, 4 pounds of a product cost $20. At the same unit price, what is the cost, in dollars, of 7 pounds?",
+          "choices": [
+            "35",
+            "23",
+            "30",
+            "12"
+          ],
+          "answer": "A",
+          "explanation": "Unit price = $20/4 = $5/lb; 7 * 5 = $35."
+        },
+        {
+          "num": 30,
+          "question": "What is the distance between the points (-4, 2) and (-12, 17)?",
+          "choices": [
+            "17",
+            "18",
+            "23",
+            "120"
+          ],
+          "answer": "A",
+          "explanation": "Distance = √[(Δx)² + (Δy)²] = √[(-8)² + 15²] = √[64 + 225] = √289 = 17."
+        },
+        {
+          "num": 31,
+          "question": "What is the solution (x, y) to the system  5x + 3y = 38  and  x + y = 10?",
+          "choices": [
+            "(10, 0)",
+            "(4, 6)",
+            "(6, 4)",
+            "(5, 5)"
+          ],
+          "answer": "B",
+          "explanation": "From the second equation, x = 10 - y. Substitute: 5(10 - y) + 3y = 38; (-2)y = -12; y = 6; x = 4."
+        },
+        {
+          "num": 32,
+          "question": "A line in the xy-plane passes through the points (0, -4) and (5, -14). What is the slope of the line?",
+          "choices": [
+            "2",
+            "-1",
+            "-3",
+            "-2"
+          ],
+          "answer": "D",
+          "explanation": "Slope = (-14 + 4)/(5 - 0) = -10/5 = -2."
+        },
+        {
+          "num": 33,
+          "question": "An employee's salary changed from $25,000 to $22,000. What is the percent change?",
+          "choices": [
+            "6% decrease",
+            "12% decrease",
+            "17% decrease",
+            "12% increase"
+          ],
+          "answer": "B",
+          "explanation": "Change = -3; (-3)/25 = 0.12 = 12% decrease."
+        },
+        {
+          "num": 34,
+          "question": "What is the distance between the points (2, 3) and (-6, -12)?",
+          "choices": [
+            "17",
+            "23",
+            "18",
+            "120"
+          ],
+          "answer": "A",
+          "explanation": "Distance = √[(Δx)² + (Δy)²] = √[(-8)² - 15²] = √[64 + 225] = √289 = 17."
+        },
+        {
+          "num": 35,
+          "question": "Which of the following describes all values of x satisfying  -2x - 1 >= -11?",
+          "choices": [
+            "x <= -5",
+            "x >= 5",
+            "x <= 6",
+            "x <= 5"
+          ],
+          "answer": "D",
+          "explanation": "Subtract (-1): -2x >= -10. Divide by -2 (and FLIP): x <= 5."
+        },
+        {
+          "num": 36,
+          "question": "What is the range of the data set 10, 32, 48, 18, 22?",
+          "choices": [
+            "10",
+            "38",
+            "39",
+            "48"
+          ],
+          "answer": "B",
+          "explanation": "Range = max - min = 48 - 10 = 38."
+        },
+        {
+          "num": 37,
+          "question": "What is the value of  5 + 6 × 6 - 6?",
+          "choices": [
+            "35",
+            "60",
+            "47",
+            "5"
+          ],
+          "answer": "A",
+          "explanation": "Multiply first (6 × 6 = 36), then add and subtract left to right: 5 + 36 - 6 = 35."
+        },
+        {
+          "num": 38,
+          "question": "What is the solution (x, y) to the system  4x + 3y = 53  and  x + y = 15?",
+          "choices": [
+            "(15, 0)",
+            "(7, 8)",
+            "(8, 7)",
+            "(9, 6)"
+          ],
+          "answer": "C",
+          "explanation": "From the second equation, x = 15 - y. Substitute: 4(15 - y) + 3y = 53; (-1)y = -7; y = 7; x = 8."
+        },
+        {
+          "num": 39,
+          "question": "What is the mean of the values 24, 25, 27, 26, 23?",
+          "choices": [
+            "24",
+            "25",
+            "26",
+            "125"
+          ],
+          "answer": "B",
+          "explanation": "Sum = 125; mean = 125/5 = 25."
+        },
+        {
+          "num": 40,
+          "question": "What is the value of  7 + 6 × 7 - 1?",
+          "choices": [
+            "43",
+            "48",
+            "90",
+            "50"
+          ],
+          "answer": "B",
+          "explanation": "Multiply first (6 × 7 = 42), then add and subtract left to right: 7 + 42 - 1 = 48."
+        },
+        {
+          "num": 41,
+          "question": "Which expression is equivalent to  (x - 5)(x + 2)?",
+          "choices": [
+            "x^2 - 3x - 10",
+            "x^2 - 3x + 10",
+            "x^2 + 3x - 10",
+            "x^2 - 10x - 3"
+          ],
+          "answer": "A",
+          "explanation": "FOIL: x^2 - 5x + 2x - 5(2) = x^2 - 3x - 10."
+        },
+        {
+          "num": 42,
+          "question": "What is the mean of the values 10, 9, 12, 8, 11?",
+          "choices": [
+            "10",
+            "50",
+            "9",
+            "11"
+          ],
+          "answer": "A",
+          "explanation": "Sum = 50; mean = 50/5 = 10."
+        },
+        {
+          "num": 43,
+          "question": "A discount of 12% is applied to an item with a regular price of $250. What is the amount of the discount, in dollars?",
+          "choices": [
+            "30",
+            "3",
+            "262",
+            "220"
+          ],
+          "answer": "A",
+          "explanation": "12% of 250 = 0.12 * 250 = 30."
+        },
+        {
+          "num": 44,
+          "question": "What is the value of x that satisfies the equation  sqrt(3x + 10) = 4?",
+          "choices": [
+            "6",
+            "16",
+            "2",
+            "3"
+          ],
+          "answer": "C",
+          "explanation": "Square both sides: 3x + 10 = 16; 3x = 6; x = 2."
+        },
+        {
+          "num": 45,
+          "question": "Which of the following describes all values of x satisfying  -3x + 7 <= 1?",
+          "choices": [
+            "x >= 2",
+            "x >= 3",
+            "x <= 2",
+            "x >= -2"
+          ],
+          "answer": "A",
+          "explanation": "Subtract (7): -3x <= -6. Divide by -3 (and FLIP): x >= 2."
+        },
+        {
+          "num": 46,
+          "question": "For what value of k does the equation  3x + 6 = 3x + k  have infinitely many solutions?",
+          "choices": [
+            "7",
+            "6",
+            "-6",
+            "3"
+          ],
+          "answer": "B",
+          "explanation": "For infinitely many solutions, both sides must be identical, so k = 6."
+        }
+      ]
+    }
+  ]
+}
