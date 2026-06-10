@@ -1,0 +1,38 @@
+// Generate sitemap.xml from books.json + blog posts + static pages.
+// Run after adding a book or blog post: node scripts/build-sitemap.js
+const fs = require('fs');
+const path = require('path');
+
+const SITE = 'https://certpathpublishing.store';
+const ROOT = path.join(__dirname, '..');
+const today = new Date().toISOString().slice(0, 10);
+
+const urls = [
+  { loc: `${SITE}/`, priority: '1.0', changefreq: 'weekly' },
+  { loc: `${SITE}/access`, priority: '0.9', changefreq: 'monthly' },
+  { loc: `${SITE}/blog/`, priority: '0.7', changefreq: 'daily' },
+];
+
+// Per-book ebook landing pages (published only)
+const books = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/books.json'), 'utf8')).books;
+for (const b of books.filter(x => x.published)) {
+  urls.push({ loc: `${SITE}/ebook?book=${b.slug}`, priority: '0.8', changefreq: 'monthly' });
+}
+
+// Blog posts
+for (const f of fs.readdirSync(path.join(ROOT, 'blog'))) {
+  if (f.endsWith('.html') && f !== 'index.html') {
+    urls.push({ loc: `${SITE}/blog/${f.replace('.html', '')}`, priority: '0.6', changefreq: 'yearly' });
+  }
+}
+
+const xml = [
+  '<?xml version="1.0" encoding="UTF-8"?>',
+  '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
+  ...urls.map(u => `  <url><loc>${u.loc}</loc><lastmod>${today}</lastmod><changefreq>${u.changefreq}</changefreq><priority>${u.priority}</priority></url>`),
+  '</urlset>',
+  '',
+].join('\n');
+
+fs.writeFileSync(path.join(ROOT, 'sitemap.xml'), xml);
+console.log(`sitemap.xml written: ${urls.length} URLs`);

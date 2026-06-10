@@ -4,8 +4,34 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CertPath Publishing — Professional Exam Study Guides with Free Online Practice Tests</title>
-  <meta name="description" content="Professional study guides for CAST, Mechanical Aptitude, Journeyman Electrician, POSS, CSP, CHST, TABE Math, NHIE, STS, MSSC CPT, and NCIDQ. Every book includes free online practice tests.">
+  <meta name="description" content="Professional study guides for CAST, Mechanical Aptitude, Journeyman Electrician, POSS, CSP, CHST, TABE Math, SAT, PSAT, ACT, GED, and CCRN. Every book includes free online practice tests.">
   <link rel="icon" type="image/png" href="/img/logo-mark.png">
+  <link rel="canonical" href="https://certpathpublishing.store/">
+
+  <!-- Social sharing cards -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="CertPath Publishing">
+  <meta property="og:title" content="CertPath Publishing — Pass Your Exam on the First Try">
+  <meta property="og:description" content="23 professional study guides for trades, college prep, adult education, and nursing exams. Every book includes free timed online practice tests.">
+  <meta property="og:url" content="https://certpathpublishing.store/">
+  <meta property="og:image" content="https://certpathpublishing.store/img/covers/cast.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="CertPath Publishing — Pass Your Exam on the First Try">
+  <meta name="twitter:description" content="23 professional study guides with free timed online practice tests.">
+  <meta name="twitter:image" content="https://certpathpublishing.store/img/covers/cast.png">
+
+  <!-- Structured data: organization -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "CertPath Publishing",
+    "url": "https://certpathpublishing.store",
+    "logo": "https://certpathpublishing.store/img/logo-mark.png",
+    "email": "support@certpathpublishing.store",
+    "description": "Independent publisher of certification and test-prep study guides with free online practice tests."
+  }
+  </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -201,6 +227,11 @@
           <li><a href="/access">Access Practice Tests</a></li>
           <li><a href="#cheat-sheets">Cheat Sheets</a></li>
           <li><a href="#how-it-works">How It Works</a></li>
+          <li><a href="/blog/">Blog</a></li>
+        </ul>
+        <h4 style="margin-top: 1.5rem;">Support</h4>
+        <ul>
+          <li><a href="mailto:support@certpathpublishing.store">support@certpathpublishing.store</a></li>
         </ul>
       </div>
     </div>
@@ -389,6 +420,35 @@
         footerList.innerHTML = published.filter(b => !b.bank).map(b => `
           <li><a href="/access?book=${b.slug}">${b.shortName}</a></li>
         `).join('');
+
+        // Structured data: book catalog (kept in sync with books.json)
+        const ld = document.createElement('script');
+        ld.type = 'application/ld+json';
+        ld.textContent = JSON.stringify({
+          '@context': 'https://schema.org',
+          '@type': 'ItemList',
+          name: 'CertPath Publishing Study Guides',
+          itemListElement: published.map((b, i) => ({
+            '@type': 'ListItem',
+            position: i + 1,
+            item: {
+              '@type': 'Book',
+              name: b.title,
+              author: { '@type': 'Organization', name: 'CertPath Publishing' },
+              publisher: { '@type': 'Organization', name: 'CertPath Publishing' },
+              image: 'https://certpathpublishing.store' + b.cover,
+              url: b.amazonUrl || 'https://certpathpublishing.store/#books',
+              bookFormat: 'https://schema.org/Paperback',
+              offers: {
+                '@type': 'Offer',
+                price: String(b.paperbackPrice),
+                priceCurrency: 'USD',
+                availability: 'https://schema.org/InStock',
+              },
+            },
+          })),
+        });
+        document.head.appendChild(ld);
 
         // Quick unlock form
         const quickForm = document.getElementById('quickUnlockForm');
