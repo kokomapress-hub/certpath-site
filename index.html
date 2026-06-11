@@ -35,7 +35,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/css/style.css?v=10">
+  <link rel="stylesheet" href="/css/style.css?v=11">
 </head>
 <body>
   <!-- HEADER -->
@@ -59,7 +59,7 @@
     <div class="hero-inner">
       <div class="hero-grid">
         <div class="hero-content">
-          <h1>Pass Your <span class="hero-swap" id="heroSwap">CAST</span> Exam<br>on the <span class="gold">First Try</span></h1>
+          <h1>Pass Your <a class="hero-swap" id="heroSwap" href="/cast">CAST</a> Exam<br>on the <span class="gold">First Try</span></h1>
           <p class="subtitle">
             Professional study guides for trades, safety, and certification exams. Every book includes free online practice tests with timed exam simulation.
           </p>
@@ -78,20 +78,22 @@
     </div>
   </section>
 
-  <!-- QUICK UNLOCK (below hero) -->
-  <section class="quick-unlock">
+  <!-- FREE SAMPLE QUIZZES (below hero) -->
+  <section class="free-quiz">
     <div class="container">
-      <div class="quick-unlock-card">
-        <div class="quick-unlock-text">
-          <div class="section-eyebrow">Already have your book?</div>
-          <h2>Enter Your Access Code</h2>
-          <p>Unlock your free timed practice tests in seconds. Your access code is printed on the last page of your CertPath study guide.</p>
+      <div class="free-quiz-card">
+        <div class="free-quiz-text">
+          <div class="section-eyebrow">No signup needed</div>
+          <h2>Try 10 Free Questions</h2>
+          <p>See exactly how our practice tests work — real questions from our books with instant answer explanations.</p>
         </div>
-        <form id="quickUnlockForm" class="quick-unlock-form" autocomplete="off">
-          <input type="text" id="quickCode" required placeholder="XXXX-XXXXX-XXXXX" autocomplete="off">
-          <button type="submit" class="btn btn-lg">Unlock Tests</button>
-          <div class="quick-unlock-msg" id="quickMsg"></div>
-        </form>
+        <div class="free-quiz-links">
+          <a href="/sat" class="quiz-chip">Digital SAT Math</a>
+          <a href="/ged" class="quiz-chip">GED Math</a>
+          <a href="/tabe" class="quiz-chip">TABE 11 &amp; 12 Math</a>
+          <a href="/ccrn" class="quiz-chip">Adult CCRN</a>
+          <a href="/cast" class="quiz-chip">CAST Exam</a>
+        </div>
       </div>
     </div>
   </section>
@@ -126,9 +128,9 @@
   <!-- TRUST BAR -->
   <section class="trust-bar">
     <div class="trust-grid">
-      <div class="trust-item"><div class="num"><span class="gold-text">23</span></div><div class="label">Exams Covered</div></div>
-      <div class="trust-item"><div class="num">23,388</div><div class="label">Practice Questions</div></div>
-      <div class="trust-item"><div class="num">100%</div><div class="label">Detailed Explanations</div></div>
+      <div class="trust-item"><div class="num"><span class="gold-text">2026</span></div><div class="label">Up-to-Date Editions</div></div>
+      <div class="trust-item"><div class="num">100%</div><div class="label">Written to Official Exam Blueprints</div></div>
+      <div class="trust-item"><div class="num">50% OFF</div><div class="label">E-books Direct from Our Site</div></div>
       <div class="trust-item"><div class="num">FREE</div><div class="label">Online Tests with Every Book</div></div>
     </div>
   </section>
@@ -142,9 +144,9 @@
         <p>Paperback available on Amazon. E-book available direct from our site at 50% off. Every book includes free online practice tests.</p>
       </div>
 
-      <div class="filter-bar" id="filterBar">
-        <button class="filter-btn active" data-cat="all">All Books</button>
-      </div>
+      <div class="popular-row" id="popularRow"></div>
+
+      <div class="cat-tiles" id="catTiles"></div>
 
       <div class="book-grid" id="bookGrid"></div>
     </div>
@@ -179,6 +181,24 @@
     </div>
   </section>
 
+  <!-- QUICK UNLOCK -->
+  <section class="quick-unlock">
+    <div class="container">
+      <div class="quick-unlock-card">
+        <div class="quick-unlock-text">
+          <div class="section-eyebrow">Already have your book?</div>
+          <h2>Enter Your Access Code</h2>
+          <p>Unlock your free timed practice tests in seconds. Your access code is printed on the last page of your CertPath study guide.</p>
+        </div>
+        <form id="quickUnlockForm" class="quick-unlock-form" autocomplete="off">
+          <input type="text" id="quickCode" required placeholder="XXXX-XXXXX-XXXXX" autocomplete="off">
+          <button type="submit" class="btn btn-lg">Unlock Tests</button>
+          <div class="quick-unlock-msg" id="quickMsg"></div>
+        </form>
+      </div>
+    </div>
+  </section>
+
   <!-- FEATURES -->
   <section class="section features-section">
     <div class="container">
@@ -204,6 +224,22 @@
       <h2>Already Have Your <span class="gold">CertPath Book?</span></h2>
       <p>Enter your access code and start practicing in seconds.</p>
       <a href="/access" class="btn btn-lg">Unlock My Practice Tests</a>
+    </div>
+  </section>
+
+  <!-- NEWSLETTER -->
+  <section class="newsletter">
+    <div class="container newsletter-inner">
+      <div class="newsletter-text">
+        <div class="section-eyebrow">Stay Sharp</div>
+        <h2>Free Study Tips &amp; New-Book Alerts</h2>
+        <p>An occasional short email with study strategies, new titles, and launch discounts. No spam — unsubscribe anytime.</p>
+      </div>
+      <form id="newsletterForm" class="newsletter-form" autocomplete="off">
+        <input type="email" id="newsletterEmail" required placeholder="you@email.com" autocomplete="email">
+        <button type="submit" class="btn btn-lg">Subscribe</button>
+        <div class="newsletter-msg" id="newsletterMsg"></div>
+      </form>
     </div>
   </section>
 
@@ -292,6 +328,10 @@
           ['POSS',  'poss'],
         ].map(([ex, slug]) => [ex, books.find(b => b.slug === slug)]).filter(([, b]) => b && b.published);
 
+        // Exams with a free-sample landing page — the rotating headline
+        // links there; everything else falls back to the book grid.
+        const LANDING = { CAST: '/cast', SAT: '/sat', TABE: '/tabe', CCRN: '/ccrn', GED: '/ged' };
+
         // Initial render — first exam in the rotation.
         const [firstExam, firstBook] = ROTATION[0];
         heroBooks.innerHTML = `
@@ -303,6 +343,7 @@
 
         if (swap) {
           swap.textContent = firstExam;
+          swap.setAttribute('href', LANDING[firstExam] || '#books');
 
           const cover = document.getElementById('heroFeaturedCover');
           const img = document.getElementById('heroFeaturedImg');
@@ -318,6 +359,7 @@
               idx = (idx + 1) % ROTATION.length;
               const [ex, b] = ROTATION[idx];
               swap.textContent = ex;
+              swap.setAttribute('href', LANDING[ex] || '#books');
               img.src = b.cover;
               img.alt = b.title;
               cover.setAttribute('href', b.amazonUrl || '#books');
@@ -329,21 +371,45 @@
           }, 3800);
         }
 
-        // Build category filter from all books
-        const categories = [...new Set(published.map(b => b.category))].sort();
-        const filterBar = document.getElementById('filterBar');
-        categories.forEach(cat => {
-          const btn = document.createElement('button');
-          btn.className = 'filter-btn';
-          btn.dataset.cat = cat;
-          btn.textContent = cat;
-          filterBar.appendChild(btn);
-        });
+        // Most Popular — flagship book for each main audience.
+        const POPULAR = ['cast', 'sat-math', 'ged-math', 'ccrn']
+          .map(slug => published.find(b => b.slug === slug)).filter(Boolean);
+        document.getElementById('popularRow').innerHTML = `
+          <div class="popular-label">Most Popular</div>
+          <div class="popular-cards">` + POPULAR.map(b => `
+            <a class="popular-card" href="${b.amazonUrl}" target="_blank" rel="noopener" aria-label="${b.title}">
+              <img src="${b.cover}" alt="${b.title}" loading="lazy">
+              <div class="popular-info">
+                <div class="popular-name">${b.shortName}</div>
+                <div class="popular-meta">${b.totalQuestions.toLocaleString()} questions · $${b.paperbackPrice.toFixed(2)}</div>
+                <span class="popular-cta">View on Amazon →</span>
+              </div>
+            </a>`).join('') + `
+          </div>`;
+
+        // Category tiles — grouped audiences, each filtering the grid below.
+        const TILES = [
+          { label: 'All Books', icon: '📚', cats: null },
+          { label: 'College Prep', icon: '🎓', cats: ['College Prep'] },
+          { label: 'Adult Education', icon: '✏️', cats: ['Adult Education'] },
+          { label: 'Trades & Industrial', icon: '🔧', cats: ['Construction & Trades', 'Aptitude & Industrial', 'Electrical & Trades', 'Power & Utilities'] },
+          { label: 'Safety', icon: '🦺', cats: ['Safety & Environmental'] },
+          { label: 'Nursing', icon: '🩺', cats: ['Nursing & Critical Care'] },
+        ];
+        const tilesEl = document.getElementById('catTiles');
+        tilesEl.innerHTML = TILES.map((t, i) => {
+          const count = t.cats ? published.filter(b => t.cats.includes(b.category)).length : published.length;
+          return `<button class="cat-tile ${i === 0 ? 'active' : ''}" data-tile="${i}">
+            <span class="cat-tile-icon">${t.icon}</span>
+            <span class="cat-tile-label">${t.label}</span>
+            <span class="cat-tile-count">${count} book${count === 1 ? '' : 's'}</span>
+          </button>`;
+        }).join('');
 
         // Render book grid — only published books (upcoming hidden)
         const grid = document.getElementById('bookGrid');
-        function renderBooks(filterCat) {
-          const filtered = (filterCat === 'all' ? published : published.filter(b => b.category === filterCat));
+        function renderBooks(cats) {
+          const filtered = cats ? published.filter(b => cats.includes(b.category)) : published;
           const sorted = filtered;
           grid.innerHTML = sorted.map(book => {
             const upcoming = !book.published;
@@ -385,13 +451,14 @@
             `;
           }).join('');
         }
-        renderBooks('all');
+        renderBooks(null);
 
-        filterBar.addEventListener('click', e => {
-          if (!e.target.classList.contains('filter-btn')) return;
-          filterBar.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-          e.target.classList.add('active');
-          renderBooks(e.target.dataset.cat);
+        tilesEl.addEventListener('click', e => {
+          const tile = e.target.closest('.cat-tile');
+          if (!tile) return;
+          tilesEl.querySelectorAll('.cat-tile').forEach(t => t.classList.remove('active'));
+          tile.classList.add('active');
+          renderBooks(TILES[Number(tile.dataset.tile)].cats);
         });
 
         // Cheat sheets grid — only published books
@@ -495,6 +562,39 @@
           quickMsg.innerHTML = '✓ Code verified. Redirecting to enter your email…';
           const target = `/access?code=${encodeURIComponent(code)}&book=${book.slug}`;
           setTimeout(() => { location.href = target; }, 800);
+        });
+
+        // Newsletter signup — same MailerLite endpoint as the unlock flow,
+        // tagged so these subscribers are distinguishable from book buyers.
+        const nlForm = document.getElementById('newsletterForm');
+        const nlMsg = document.getElementById('newsletterMsg');
+        nlForm.addEventListener('submit', async (e) => {
+          e.preventDefault();
+          const email = document.getElementById('newsletterEmail').value.trim();
+          const btn = nlForm.querySelector('button');
+          btn.disabled = true;
+          btn.textContent = 'Subscribing…';
+          nlMsg.className = 'newsletter-msg';
+          try {
+            const r = await fetch('/api/subscribe', {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({ email, accessCode: 'NEWSLETTER', book: 'Homepage newsletter signup' }),
+            });
+            const j = await r.json();
+            if (j.ok) {
+              nlMsg.classList.add('success');
+              nlMsg.textContent = '✓ You\'re in! Watch your inbox for study tips and new-book alerts.';
+              nlForm.reset();
+            } else {
+              throw new Error(j.error || 'Subscribe failed');
+            }
+          } catch (err) {
+            nlMsg.classList.add('error');
+            nlMsg.textContent = 'Something went wrong — please try again or email support@certpathpublishing.store.';
+          }
+          btn.disabled = false;
+          btn.textContent = 'Subscribe';
         });
       })
       .catch(err => {
