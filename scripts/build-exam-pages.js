@@ -157,7 +157,7 @@ function renderPage(cfg) {
   <meta property="og:title" content="${esc(cfg.metaTitle)}">
   <meta property="og:description" content="${esc(cfg.metaDesc)}">
   <meta property="og:url" content="${SITE}/${cfg.file.replace('.html', '')}">
-  <meta property="og:image" content="${SITE}${heroBook.cover}">
+  <meta property="og:image" content="${SITE}${heroBook.cover.replace(/\.webp$/, '.png')}">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
