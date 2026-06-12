@@ -35,7 +35,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/css/style.css?v=11">
+  <link rel="stylesheet" href="/css/style.css?v=12">
 </head>
 <body>
   <!-- HEADER -->
@@ -60,12 +60,13 @@
       <div class="hero-grid">
         <div class="hero-content">
           <h1>Pass Your <a class="hero-swap" id="heroSwap" href="/cast">CAST</a> Exam<br>on the <span class="gold">First Try</span></h1>
+          <div class="hero-tabs" id="heroTabs" role="tablist" aria-label="Choose your exam"></div>
           <p class="subtitle">
             Professional study guides for trades, safety, and certification exams. Every book includes free online practice tests with timed exam simulation.
           </p>
           <div class="hero-cta">
-            <a href="#books" class="btn btn-lg">Browse Study Guides</a>
-            <a href="/access" class="btn btn-secondary btn-lg">Access Practice Tests</a>
+            <a href="/cast" class="btn btn-lg" id="heroQuizBtn">Try the Free CAST Quiz →</a>
+            <a href="#books" class="btn btn-secondary btn-lg">Browse Study Guides</a>
           </div>
           <div class="hero-stats">
             <div class="hero-stat"><span class="num">23</span><div class="label">Study Guides</div></div>
@@ -74,26 +75,6 @@
           </div>
         </div>
         <div class="hero-books" id="heroBooks"></div>
-      </div>
-    </div>
-  </section>
-
-  <!-- FREE SAMPLE QUIZZES (below hero) -->
-  <section class="free-quiz">
-    <div class="container">
-      <div class="free-quiz-card">
-        <div class="free-quiz-text">
-          <div class="section-eyebrow">No signup needed</div>
-          <h2>Try 10 Free Questions</h2>
-          <p>See exactly how our practice tests work — real questions from our books with instant answer explanations.</p>
-        </div>
-        <div class="free-quiz-links">
-          <a href="/sat" class="quiz-chip">Digital SAT Math</a>
-          <a href="/ged" class="quiz-chip">GED Math</a>
-          <a href="/tabe" class="quiz-chip">TABE 11 &amp; 12 Math</a>
-          <a href="/ccrn" class="quiz-chip">Adult CCRN</a>
-          <a href="/cast" class="quiz-chip">CAST Exam</a>
-        </div>
       </div>
     </div>
   </section>
@@ -308,68 +289,96 @@
         // We split covers into two columns (one offset half-step) and double the
         // contents in each so the upward scroll loops seamlessly when the track
         // reaches -50%.
-        // Hero featured book — swaps in lockstep with the rotating exam
-        // name in the headline so the customer always sees the cover for the
-        // exam they're being pitched.
+        // Tabbed hero — exam tabs drive the headline, the featured cover, and
+        // the free-quiz CTA together. Auto-rotates until the visitor hovers or
+        // taps a tab; a tap locks the hero to their choice.
         const heroBooks = document.getElementById('heroBooks');
         const swap = document.getElementById('heroSwap');
+        const tabsEl = document.getElementById('heroTabs');
+        const quizBtn = document.getElementById('heroQuizBtn');
 
-        // Exam-name → website slug. Every entry must point to a published book.
-        const ROTATION = [
-          ['CAST',  'cast'],
-          ['SAT',   'sat-math'],
-          ['TABE',  'tabe-a'],
-          ['CCRN',  'ccrn'],
-          ['ACT',   'act-math'],
-          ['PSAT',  'psat-math'],
-          ['CHST',  'chst'],
-          ['GED',   'ged-math'],
-          ['CSP',   'csp'],
-          ['POSS',  'poss'],
-        ].map(([ex, slug]) => [ex, books.find(b => b.slug === slug)]).filter(([, b]) => b && b.published);
+        // The five exams with a free-sample landing page.
+        const HERO_TABS = [
+          ['CAST', 'cast',     '/cast'],
+          ['SAT',  'sat-math', '/sat'],
+          ['GED',  'ged-math', '/ged'],
+          ['TABE', 'tabe-a',   '/tabe'],
+          ['CCRN', 'ccrn',     '/ccrn'],
+        ].map(([ex, slug, lp]) => ({ ex, lp, book: books.find(b => b.slug === slug) }))
+         .filter(t => t.book && t.book.published);
 
-        // Exams with a free-sample landing page — the rotating headline
-        // links there; everything else falls back to the book grid.
-        const LANDING = { CAST: '/cast', SAT: '/sat', TABE: '/tabe', CCRN: '/ccrn', GED: '/ged' };
-
-        // Initial render — first exam in the rotation.
-        const [firstExam, firstBook] = ROTATION[0];
+        const firstTab = HERO_TABS[0];
         heroBooks.innerHTML = `
           <div class="hero-featured">
-            <a id="heroFeaturedCover" class="hero-featured-cover" href="${firstBook.amazonUrl || '#books'}" target="_blank" rel="noopener" aria-label="${firstBook.title}">
-              <img id="heroFeaturedImg" src="${firstBook.cover}" alt="${firstBook.title}" loading="eager">
+            <a id="heroFeaturedCover" class="hero-featured-cover" href="${firstTab.book.amazonUrl || '#books'}" target="_blank" rel="noopener" aria-label="${firstTab.book.title}">
+              <img id="heroFeaturedImg" src="${firstTab.book.cover}" alt="${firstTab.book.title}" loading="eager">
             </a>
           </div>`;
+        tabsEl.innerHTML = HERO_TABS.map((t, i) =>
+          `<button class="hero-tab ${i === 0 ? 'active' : ''}" role="tab" aria-selected="${i === 0}" data-tab="${i}">${t.ex}</button>`
+        ).join('');
 
-        if (swap) {
-          swap.textContent = firstExam;
-          swap.setAttribute('href', LANDING[firstExam] || '#books');
+        const cover = document.getElementById('heroFeaturedCover');
+        const img = document.getElementById('heroFeaturedImg');
+        let idx = 0;
+        let locked = false;   // visitor tapped a tab — stop rotating for good
+        let hovering = false; // visitor is over the tabs — hold still
+        let gen = 0;          // invalidates an in-flight fade when a tap supersedes it
 
-          const cover = document.getElementById('heroFeaturedCover');
-          const img = document.getElementById('heroFeaturedImg');
-          let idx = 0;
-
-          setInterval(() => {
-            // Phase 1 — fade both out together (450ms)
-            swap.classList.add('fading');
-            cover.classList.add('fading');
-
-            setTimeout(() => {
-              // Phase 2 — swap content while invisible, then fade back in
-              idx = (idx + 1) % ROTATION.length;
-              const [ex, b] = ROTATION[idx];
-              swap.textContent = ex;
-              swap.setAttribute('href', LANDING[ex] || '#books');
-              img.src = b.cover;
-              img.alt = b.title;
-              cover.setAttribute('href', b.amazonUrl || '#books');
-              cover.setAttribute('aria-label', b.title);
-              void cover.offsetWidth;
-              swap.classList.remove('fading');
-              cover.classList.remove('fading');
-            }, 450);
-          }, 3800);
+        function setHero(i, instant) {
+          idx = i;
+          const myGen = ++gen;
+          const t = HERO_TABS[i];
+          const apply = () => {
+            swap.textContent = t.ex;
+            swap.setAttribute('href', t.lp);
+            img.src = t.book.cover;
+            img.alt = t.book.title;
+            cover.setAttribute('href', t.book.amazonUrl || '#books');
+            cover.setAttribute('aria-label', t.book.title);
+            quizBtn.textContent = `Try the Free ${t.ex} Quiz →`;
+            quizBtn.setAttribute('href', t.lp);
+            tabsEl.querySelectorAll('.hero-tab').forEach((b, j) => {
+              b.classList.toggle('active', j === i);
+              b.setAttribute('aria-selected', String(j === i));
+            });
+          };
+          if (instant) {
+            apply();
+            swap.classList.remove('fading');
+            cover.classList.remove('fading');
+            return;
+          }
+          swap.classList.add('fading');
+          cover.classList.add('fading');
+          setTimeout(() => {
+            if (myGen !== gen) return; // a tap superseded this fade
+            apply();
+            void cover.offsetWidth;
+            swap.classList.remove('fading');
+            cover.classList.remove('fading');
+          }, 450);
         }
+        setHero(0, true);
+
+        setInterval(() => {
+          if (locked || hovering) return;
+          setHero((idx + 1) % HERO_TABS.length);
+        }, 3800);
+
+        tabsEl.addEventListener('click', e => {
+          const tab = e.target.closest('.hero-tab');
+          if (!tab) return;
+          locked = true;
+          if (Number(tab.dataset.tab) !== idx) setHero(Number(tab.dataset.tab), true);
+        });
+        tabsEl.addEventListener('mouseover', e => {
+          const tab = e.target.closest('.hero-tab');
+          if (!tab) return;
+          hovering = true;
+          if (!locked && Number(tab.dataset.tab) !== idx) setHero(Number(tab.dataset.tab), true);
+        });
+        tabsEl.addEventListener('mouseleave', () => { hovering = false; });
 
         // Most Popular — flagship book for each main audience.
         const POPULAR = ['cast', 'sat-math', 'ged-math', 'ccrn']
