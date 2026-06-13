@@ -75,3 +75,22 @@
   .lp-hero-cover { order: -1; }
   .lp-hero-cover img { width: 180px; }
 }
+
+/* Book-suggestion CTA on the free sample page (js/sample.js) */
+.lp-book-cta { display: grid; grid-template-columns: 200px 1fr; gap: 2.5rem; align-items: center; background: #fff; border: 1px solid var(--gray-100); border-radius: 16px; padding: 2.5rem; box-shadow: 0 10px 40px rgba(15,26,48,0.08); }
+.lp-book-cta-cover img { width: 200px; border-radius: 6px; box-shadow: 0 16px 40px rgba(15,26,48,0.25); display: block; }
+.lp-book-cta-body .eyebrow { color: var(--gold); font-size: 0.78rem; font-weight: 800; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 0.5rem; }
+.lp-book-cta-body h2 { color: var(--navy); font-size: 1.6rem; font-weight: 800; margin: 0 0 0.75rem; letter-spacing: -0.5px; }
+.lp-book-cta-body p { color: var(--gray-700); line-height: 1.6; margin: 0 0 1.25rem; }
+.lp-book-cta-row { display: flex; gap: 0.75rem; flex-wrap: wrap; }
+.lp-book-cta-have { font-size: 0.9rem; color: var(--gray-500); margin: 1.1rem 0 0 !important; }
+.lp-book-cta-have a { color: var(--navy); font-weight: 700; }
+@media (max-width: 700px) {
+  .lp-book-cta { grid-template-columns: 1fr; gap: 1.5rem; padding: 1.75rem; text-align: center; }
+  .lp-book-cta-cover { justify-self: center; }
+  .lp-book-cta-row { justify-content: center; }
+}
+
+/* "Try free sample" link on homepage book cards */
+.book-sample-link { display: inline-block; margin-top: 0.5rem; font-size: 0.85rem; font-weight: 700; color: var(--gold-dark, #B8860B); text-decoration: none; }
+.book-sample-link:hover { text-decoration: underline; }
