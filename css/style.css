@@ -592,3 +592,26 @@ a.hero-swap:hover { border-bottom-color: var(--gold); }
 @media (max-width: 600px) {
   .hero-tab { padding: 0.4rem 0.85rem; font-size: 0.85rem; }
 }
+
+/* ===== No-subscription value comparison ===== */
+.compare-section { background: var(--gray-50); }
+.compare-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; max-width: 880px; margin: 0 auto; align-items: stretch; }
+.compare-col { background: var(--white); border: 1px solid var(--gray-100); border-radius: 16px; padding: 2rem 1.75rem; position: relative; display: flex; flex-direction: column; }
+.compare-them { opacity: 0.92; }
+.compare-us { border: 2px solid var(--gold); box-shadow: 0 16px 44px rgba(245, 179, 12, 0.18); }
+.compare-best { position: absolute; top: -13px; left: 50%; transform: translateX(-50%); background: var(--gold); color: var(--navy); font-size: 0.72rem; font-weight: 800; letter-spacing: 1px; text-transform: uppercase; padding: 0.3rem 0.9rem; border-radius: 999px; white-space: nowrap; }
+.compare-tag { font-size: 0.78rem; font-weight: 800; letter-spacing: 1.5px; text-transform: uppercase; color: var(--gray-500); margin-bottom: 0.6rem; }
+.compare-us .compare-tag { color: var(--navy); }
+.compare-price { display: flex; align-items: baseline; gap: 0.4rem; margin-bottom: 1.25rem; }
+.compare-price .amt { font-size: 2.6rem; font-weight: 800; color: var(--navy); line-height: 1; letter-spacing: -1.5px; }
+.compare-price .amt.gold { color: var(--gold-dark); }
+.compare-price .per { font-size: 1rem; color: var(--gray-500); font-weight: 600; }
+.compare-list { list-style: none; margin: 0 0 1.5rem; padding: 0; flex: 1; }
+.compare-list li { position: relative; padding: 0.5rem 0 0.5rem 1.9rem; font-size: 0.95rem; color: var(--gray-700); border-bottom: 1px solid var(--gray-50); }
+.compare-list li::before { position: absolute; left: 0; top: 0.5rem; width: 1.3rem; height: 1.3rem; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 0.8rem; font-weight: 800; }
+.compare-list li.no::before { content: '✕'; background: #FEE2E2; color: #DC2626; }
+.compare-list li.yes::before { content: '✓'; background: #DCFCE7; color: #16A34A; }
+.compare-foot { text-align: center; max-width: 720px; margin: 1.75rem auto 0; font-size: 0.8rem; color: var(--gray-500); line-height: 1.5; }
+@media (max-width: 700px) {
+  .compare-grid { grid-template-columns: 1fr; }
+}
