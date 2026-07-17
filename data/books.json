@@ -489,6 +489,26 @@
       "payhipCheatsheetUrl": ""
     },
     {
+      "slug": "cap",
+      "bookCode": "B35",
+      "title": "CAP Exam Study Guide",
+      "code": "CAP-7H4MK-Q9XRD",
+      "timeMinutes": 135,
+      "testCount": 10,
+      "totalQuestions": 1500,
+      "cover": "/img/covers/cap.webp",
+      "shortName": "CAP",
+      "category": "Administrative & Office",
+      "published": false,
+      "paperbackPrice": 19.99,
+      "ebookPrice": 9.99,
+      "asin": "",
+      "amazonUrl": "",
+      "cheatsheetPrice": 1.99,
+      "payhipEbookUrl": "",
+      "payhipCheatsheetUrl": ""
+    },
+    {
       "slug": "nhie",
       "title": "Home Inspector Exam Study Guide",
       "code": "NHIE-OG6WS-Z4YE9",
