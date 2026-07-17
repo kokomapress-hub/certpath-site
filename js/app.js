@@ -4,6 +4,11 @@ const STORAGE_KEY = "certpath_unlocked";
 const EMAIL_KEY = "certpath_email";
 const BONUS_KEY = "certpath_bonus";
 
+// Normalize an access code for comparison: uppercase and drop everything that
+// isn't a letter or digit. This makes hyphens, spaces, and case optional, so
+// "CAP-7H4MK-Q9XRD", "cap7h4mkq9xrd", and "CAP 7H4MK Q9XRD" all match.
+const normCode = (s) => (s || "").toUpperCase().replace(/[^A-Z0-9]/g, "");
+
 // Replace with your Formspree / Basin / Pages Function endpoint that accepts
 // multipart/form-data with fields: email, book, file (review screenshot).
 // Leave as "" to skip upload and rely on local confirmation only (trust-based).
@@ -38,14 +43,14 @@ function setBonusUnlocked(slug) {
 
 async function validateCode(code) {
   const data = await loadBooks();
-  const cleanCode = code.toUpperCase().trim();
-  if (cleanCode === data.adminCode) {
+  const cleanCode = normCode(code);
+  if (cleanCode === normCode(data.adminCode)) {
     return { success: true, isAdmin: true, books: data.books, message: "Admin access granted." };
   }
   // SAT/PSAT/ACT/GED math books share a single printed access code across
   // the 3 SKUs (Prep + Workbook + 10 Practice Tests) — entering that code
   // should unlock all matching books, not just the first one found.
-  const matches = data.books.filter(b => b.code && b.code.toUpperCase() === cleanCode);
+  const matches = data.books.filter(b => b.code && normCode(b.code) === cleanCode);
   if (matches.length) {
     const titles = matches.length === 1 ? matches[0].title : `${matches.length} matching books`;
     return { success: true, isAdmin: false, books: matches, message: `Access granted to ${titles}.` };
@@ -173,7 +178,7 @@ async function initAccessPage() {
   const syncAdminUI = async () => {
     if (!emailGroup) return;
     const data = await loadBooks();
-    const isAdmin = codeInput.value.toUpperCase().trim() === data.adminCode;
+    const isAdmin = normCode(codeInput.value) === normCode(data.adminCode);
     emailGroup.style.display = isAdmin ? 'none' : '';
   };
   codeInput.addEventListener('input', syncAdminUI);

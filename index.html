@@ -585,12 +585,13 @@
         const quickMsg = document.getElementById('quickMsg');
         quickForm.addEventListener('submit', (e) => {
           e.preventDefault();
-          const code = document.getElementById('quickCode').value.toUpperCase().trim();
+          const norm = (s) => (s || '').toUpperCase().replace(/[^A-Z0-9]/g, '');
+          const code = norm(document.getElementById('quickCode').value);
           quickMsg.className = 'quick-unlock-msg';
 
           // Validate locally so we can show an error before redirecting.
-          const isAdmin = code === data.adminCode;
-          const book = books.find(b => b.code.toUpperCase() === code);
+          const isAdmin = code === norm(data.adminCode);
+          const book = books.find(b => b.code && norm(b.code) === code);
 
           if (!isAdmin && !book) {
             quickMsg.classList.add('error');

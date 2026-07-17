@@ -6,6 +6,9 @@
   // Don't show on the /access page itself — the form is already there.
   if (/\/access(\.html)?$/.test(location.pathname) || location.pathname.startsWith('/quiz')) return;
 
+  // Uppercase + strip non-alphanumerics so hyphens/spaces/case are optional.
+  const normCode = (s) => (s || '').toUpperCase().replace(/[^A-Z0-9]/g, '');
+
   const css = `
     .fu-launcher { position: fixed; bottom: 24px; right: 24px; z-index: 9998; background: linear-gradient(135deg, #FFB800, #FFCB45); color: #1B2A4A; border: none; border-radius: 999px; padding: 0.9rem 1.4rem; font-weight: 700; font-size: 0.95rem; box-shadow: 0 8px 24px rgba(15, 26, 48, 0.25); cursor: pointer; font-family: inherit; display: inline-flex; align-items: center; gap: 0.5rem; transition: transform 0.15s, box-shadow 0.15s; }
     .fu-launcher:hover { transform: translateY(-2px); box-shadow: 0 12px 32px rgba(15, 26, 48, 0.35); }
@@ -64,7 +67,7 @@
 
   overlay.querySelector('#fuForm').addEventListener('submit', async (e) => {
     e.preventDefault();
-    const code = document.getElementById('fuCode').value.toUpperCase().trim();
+    const code = normCode(document.getElementById('fuCode').value);
     const msg = document.getElementById('fuMsg');
     msg.className = 'fu-msg';
 
@@ -75,8 +78,8 @@
       // Validate locally so we can show an inline error, but don't unlock
       // here — bounce the user to /access where they enter their email
       // and the backend records the signup in MailerLite.
-      const isAdmin = code === data.adminCode;
-      const book = data.books.find(b => b.code.toUpperCase() === code);
+      const isAdmin = code === normCode(data.adminCode);
+      const book = data.books.find(b => b.code && normCode(b.code) === code);
 
       if (!isAdmin && !book) {
         msg.classList.add('error');
