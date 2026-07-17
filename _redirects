@@ -1,2 +1,8 @@
 # Cloudflare Pages auto-serves /access.html at /access — no manual rewrites needed.
 # (Previous rules caused a 308 redirect loop on /access, /quiz, /bonus.)
+
+# Book-printed portal URLs → the universal access page. Some interiors print a
+# book-specific path (e.g. the CAP book says /cap, the CEN book says /cen-access)
+# that has no page of its own; send those to /access so the printed link works.
+/cap          /access?book=cap    302
+/cen-access   /access?book=cen    302
