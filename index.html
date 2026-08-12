@@ -12,12 +12,12 @@
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="CertPath Publishing">
   <meta property="og:title" content="CertPath Publishing — Pass Your Exam on the First Try">
-  <meta property="og:description" content="23 professional study guides for trades, college prep, adult education, and nursing exams. Every book includes free timed online practice tests.">
+  <meta property="og:description" content="27 professional study guides for trades, college prep, adult education, and nursing exams. Every book includes free timed online practice tests.">
   <meta property="og:url" content="https://certpathpublishing.store/">
   <meta property="og:image" content="https://certpathpublishing.store/img/covers/cast.png">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="CertPath Publishing — Pass Your Exam on the First Try">
-  <meta name="twitter:description" content="23 professional study guides with free timed online practice tests.">
+  <meta name="twitter:description" content="27 professional study guides with free timed online practice tests.">
   <meta name="twitter:image" content="https://certpathpublishing.store/img/covers/cast.png">
 
   <!-- Structured data: organization -->
@@ -35,7 +35,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/css/style.css?v=13">
+  <link rel="stylesheet" href="/css/style.css?v=14">
 </head>
 <body>
   <!-- HEADER -->
@@ -69,9 +69,9 @@
             <a href="#books" class="btn btn-secondary btn-lg">Browse Study Guides</a>
           </div>
           <div class="hero-stats">
-            <div class="hero-stat"><span class="num">23</span><div class="label">Study Guides</div></div>
-            <div class="hero-stat"><span class="num">507</span><div class="label">Practice Tests</div></div>
-            <div class="hero-stat"><span class="num">23,388</span><div class="label">Questions</div></div>
+            <div class="hero-stat"><span class="num">27</span><div class="label">Study Guides</div></div>
+            <div class="hero-stat"><span class="num">565</span><div class="label">Practice Tests</div></div>
+            <div class="hero-stat"><span class="num">28,358</span><div class="label">Questions</div></div>
           </div>
         </div>
         <div class="hero-books" id="heroBooks"></div>
@@ -473,15 +473,15 @@
             const buttons = upcoming
               ? `<button class="btn btn-block btn-outline" disabled>Coming Soon</button>`
               : `
-                <div class="buy-row">
+                <div class="buy-row${book.payhipEbookUrl ? '' : ' buy-row-single'}">
                   <a href="${book.amazonUrl}" class="buy-icon" target="_blank" rel="noopener" aria-label="Paperback on Amazon $${book.paperbackPrice.toFixed(2)}">
                     <span class="buy-icon-label">Paperback</span>
                     <span class="buy-icon-price">$${book.paperbackPrice.toFixed(2)}</span>
                   </a>
-                  <a href="${book.payhipEbookUrl}" class="buy-icon buy-icon-ebook" target="_blank" rel="noopener" aria-label="E-book $${book.ebookPrice.toFixed(2)} — 50% off">
+                  ${book.payhipEbookUrl ? `<a href="${book.payhipEbookUrl}" class="buy-icon buy-icon-ebook" target="_blank" rel="noopener" aria-label="E-book $${book.ebookPrice.toFixed(2)} — 50% off">
                     <span class="buy-icon-label">E-book <em>-50%</em></span>
                     <span class="buy-icon-price">$${book.ebookPrice.toFixed(2)}</span>
-                  </a>
+                  </a>` : ''}
                 </div>
                 <a href="/access?book=${book.slug}" class="btn btn-block btn-navy">Access Practice Tests</a>
                 <a href="/sample?book=${book.slug}" class="book-sample-link">▶ Try a free sample — no signup</a>
@@ -516,7 +516,9 @@
 
         // Cheat sheets grid — only published books
         const csGrid = document.getElementById('cheatsheetGrid');
-        csGrid.innerHTML = published.filter(b => !b.bank).map(book => {
+        // Only show cheat-sheet cards for books that actually have a purchasable
+        // Payhip product — otherwise the "Buy PDF" button would be a dead link.
+        csGrid.innerHTML = published.filter(b => !b.bank && b.payhipCheatsheetUrl).map(book => {
           const upcoming = !book.published;
           const price = (book.cheatsheetPrice ?? 1.99).toFixed(2);
           const previewImg = upcoming
