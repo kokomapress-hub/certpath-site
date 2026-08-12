@@ -490,7 +490,7 @@
     },
     {
       "slug": "cmsrn",
-      "bookCode": "B37",
+      "bookCode": "B27",
       "title": "CMSRN Exam Prep",
       "code": "CMSRN-PREP-9X4K2",
       "timeMinutes": 180,
@@ -510,7 +510,7 @@
     },
     {
       "slug": "cap",
-      "bookCode": "B35",
+      "bookCode": "B25",
       "title": "CAP Exam Study Guide",
       "code": "CAP-7H4MK-Q9XRD",
       "timeMinutes": 135,
@@ -606,7 +606,7 @@
     },
     {
       "slug": "cnor",
-      "bookCode": "B36",
+      "bookCode": "B26",
       "title": "CNOR Exam Study Guide",
       "code": "CNOR-SWMKV-QQ52C",
       "timeMinutes": 168,
@@ -626,7 +626,7 @@
     },
     {
       "slug": "asvab-math",
-      "bookCode": "B25",
+      "bookCode": "B24",
       "title": "ASVAB Math Prep",
       "code": "ASVAB-MATH-Q7M4D-XK9R2",
       "timeMinutes": 55,
