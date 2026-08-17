@@ -46,7 +46,24 @@
     .pmp-mod .lockmsg{font-size:.9rem;color:#7a869a;display:flex;gap:.4rem;align-items:center}
     .pmp-mod .done-badge{color:#3B7A57;font-weight:700;font-size:.85rem;margin-bottom:.5rem}
     .pmp-code-banner{background:#eef2f8;border:1px dashed #c3cede;border-radius:10px;padding:1rem 1.2rem;margin-top:1rem;color:#1B2A4A;font-size:.95rem;display:flex;justify-content:space-between;align-items:center;gap:1rem;flex-wrap:wrap}
-    @media(max-width:640px){.pmp-steps{grid-template-columns:repeat(2,1fr)}.pmp-hero-panel .big{font-size:2.1rem}}
+    /* why + outcomes */
+    .pmp-why{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:1.1rem;margin-top:1.5rem}
+    .pmp-why-card{background:#fff;border:1px solid #e3e8f0;border-radius:12px;padding:1.3rem}
+    .pmp-why-card .ic{font-size:1.6rem}
+    .pmp-why-card h4{color:#1B2A4A;margin:.5rem 0 .35rem;font-size:1.02rem}
+    .pmp-why-card p{color:#5a6b7b;font-size:.9rem;margin:0}
+    .pmp-outcomes{background:#1B2A4A;color:#eef2f8;border-radius:14px;padding:1.5rem 1.75rem;margin-top:1.5rem}
+    .pmp-outcomes strong{color:#E8B84B}
+    .pmp-outcomes ul{margin:.7rem 0 0;padding-left:1.2rem;columns:2;gap:1.5rem}
+    .pmp-outcomes li{margin:.35rem 0;font-size:.95rem}
+    /* get the book */
+    .pmp-book-cta{display:flex;gap:2rem;align-items:center;background:#fff;border:1px solid #e3e8f0;border-radius:16px;padding:1.75rem;margin-top:1.5rem}
+    .pmp-book-cta img{width:180px;border-radius:8px;box-shadow:0 12px 30px rgba(27,42,74,.2);flex-shrink:0}
+    .pmp-book-body h3{color:#1B2A4A;margin:0 0 .5rem;font-size:1.3rem}
+    .pmp-book-body p{color:#5a6b7b;margin:0 0 1rem}
+    .pmp-book-buy{display:flex;gap:.7rem;flex-wrap:wrap}
+    .pmp-book-note{font-size:.85rem;color:#7a869a;margin:.9rem 0 0}
+    @media(max-width:640px){.pmp-steps{grid-template-columns:repeat(2,1fr)}.pmp-hero-panel .big{font-size:2.1rem}.pmp-outcomes ul{columns:1}.pmp-book-cta{flex-direction:column;text-align:center}.pmp-book-buy{justify-content:center}}
   </style>
 </head>
 <body>
@@ -72,7 +89,7 @@
         <p class="lp-sub">Four full-length practice exams aligned to the new PMP Examination Content Outline and the PMBOK® Guide, Eighth Edition. Predictive, agile, and hybrid — with the interactive question styles the 2026 exam introduces.</p>
         <div class="lp-hero-cta">
           <a href="#tests" class="btn btn-lg">Start Practicing</a>
-          <a href="#how" class="btn btn-secondary btn-lg">How It Works</a>
+          <a href="https://a.co/d/0gQzUslX" class="btn btn-secondary btn-lg" target="_blank" rel="noopener">Get the Book on Amazon</a>
         </div>
         <div class="lp-trust">
           <div><strong>720</strong> practice questions</div>
@@ -90,6 +107,51 @@
             <li><span class="chk">✓</span><span><b>Every answer explained</b> — with the closest-miss reasoning</span></li>
           </ul>
         </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FREE SAMPLE QUIZ -->
+  <section class="lp-quiz-section" id="sample">
+    <div class="lp-quiz-wrap">
+      <div class="lp-section-head" style="margin-bottom: 2rem;">
+        <div class="eyebrow">Free Sample</div>
+        <h2>Try 6 Real PMP Questions</h2>
+        <p>A taste of the 2026-style bank — answer each one and see the step-by-step explanation instantly. No sign-up needed.</p>
+      </div>
+      <div class="lp-quiz-frame">
+        <div class="lp-quiz-top">
+          <div class="crumb">PMP &middot; Free Sample</div>
+          <div class="crumb" id="lpCounter">1 / 6</div>
+        </div>
+        <div class="lp-quiz-progress"><div class="lp-quiz-progress-fill" id="lpProgress"></div></div>
+        <div class="lp-quiz-body" id="lpBody"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY THIS BANK -->
+  <section class="lp-books">
+    <div class="lp-books-inner">
+      <div class="lp-section-head">
+        <div class="eyebrow">Why CertPath PMP</div>
+        <h2>Built For the Exam You'll Actually Sit</h2>
+        <p>Most PMP prep still teaches the 2021 outline. These exams are rebuilt for the July 2026 update — the format, the weighting, and the way questions are asked.</p>
+      </div>
+      <div class="pmp-why">
+        <div class="pmp-why-card"><div class="ic">🗓️</div><h4>July 2026 ECO — first</h4><p>Aligned to the new People 33% / Process 41% / Business 26% outline and PMBOK® 8, while many competitors sit on the 2021 blueprint.</p></div>
+        <div class="pmp-why-card"><div class="ic">🧩</div><h4>The new question formats</h4><p>Select-two items, graphic/exhibit questions (EVM, network, burndown, control charts, dashboards) and linked case-sets — not just plain multiple choice.</p></div>
+        <div class="pmp-why-card"><div class="ic">🎯</div><h4>Best-of-reasonable difficulty</h4><p>Every option is defensible; you learn to pick the best answer, not spot an obvious dud. Each explanation names the closest miss and why it loses.</p></div>
+        <div class="pmp-why-card"><div class="ic">⏱️</div><h4>Real exam conditions</h4><p>180 questions, 240 minutes, auto-scored, on any device — so test day feels familiar.</p></div>
+      </div>
+      <div class="pmp-outcomes">
+        <strong>After these four exams, you'll:</strong>
+        <ul>
+          <li>Know your weak domains and tasks before test day</li>
+          <li>Be comfortable with the 2026 interactive question styles</li>
+          <li>Have exam-day pacing and stamina for the full 240 minutes</li>
+          <li>Recognize the reasoning behind the best answer, not just the keyword</li>
+        </ul>
       </div>
     </div>
   </section>
@@ -125,6 +187,29 @@
     </div>
   </section>
 
+  <!-- GET THE BOOK -->
+  <section class="lp-books" id="book" style="background:#f6f8fb;">
+    <div class="lp-books-inner">
+      <div class="lp-section-head">
+        <div class="eyebrow">The Book</div>
+        <h2>Free Online Tests With Every Book</h2>
+        <p>These four full-length exams are included free with the CertPath PMP study guide. Buy the book, enter the access code on the last page, and start practicing.</p>
+      </div>
+      <div class="pmp-book-cta">
+        <a href="https://a.co/d/0gQzUslX" target="_blank" rel="noopener"><img src="/img/covers/pmp.webp" alt="PMP Exam Prep — CertPath Publishing" loading="lazy"></a>
+        <div class="pmp-book-body">
+          <h3>PMP® Exam Prep — 2026 Edition</h3>
+          <p>Complete review of the July 2026 ECO plus 4 full-length online practice exams (720 questions) with graphics, case-sets and select-two items — every answer explained.</p>
+          <div class="pmp-book-buy">
+            <a href="https://a.co/d/0gQzUslX" class="btn btn-lg" target="_blank" rel="noopener">Get the Book on Amazon</a>
+            <a href="/access" class="btn btn-outline btn-lg">I have a code — Unlock Tests</a>
+          </div>
+          <p class="pmp-book-note">Already have the book? Your access code is on the last page.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- FAQ -->
   <section class="lp-faq">
     <div class="lp-faq-inner">
@@ -146,6 +231,75 @@
       <p style="margin-top: 0.5rem; font-size: 0.78rem; opacity: 0.7;">PMP, PMBOK, and the PMI logo are registered marks of the Project Management Institute, Inc., which is not affiliated with and does not endorse this publication.</p>
     </div>
   </footer>
+
+  <!-- Free sample quiz -->
+  <script>
+  (function () {
+    var QUESTIONS = [
+      {"q":"Two senior developers on an agile team disagree sharply about a technical approach, and the debate is stalling the sprint. There is time to resolve it and no emergency. What should the project manager do FIRST?","choices":["Decide the approach yourself to remove the blockage quickly.","Bring the two together to understand each position and work toward a jointly owned solution.","Escalate the dispute to the engineering manager for a ruling.","Have the team vote and proceed with the majority."],"answer":"B","explanation":"With time available and no emergency, a collaborative, interest-based resolution produces the most durable, owned outcome. Deciding for them, escalating, or voting all settle it without the team's real ownership."},
+      {"q":"A key stakeholder keeps pushing 'must-have' items directly into the current sprint, putting the sprint goal at risk. What should the Scrum Master do?","choices":["Accept the items so the stakeholder stays satisfied.","Have the team work overtime to absorb the extra scope.","Protect the sprint goal and route new items through the product owner and backlog for a future sprint.","Quietly drop lower-priority committed work to make room."],"answer":"C","explanation":"The servant leader protects the sprint goal and directs new scope to the product owner and backlog, where it can be prioritized — rather than absorbing it, forcing overtime, or hiding trade-offs."},
+      {"q":"A project reports earned value (EV) of $180,000 and actual cost (AC) of $200,000. What is the cost performance index (CPI), and what does it indicate?","choices":["CPI = 1.11 — the project is under budget.","CPI = 0.90 — the project is over budget.","CPI = 0.90 — the project is ahead of schedule.","CPI = 1.11 — the project is behind schedule."],"answer":"B","explanation":"CPI = EV / AC = 180,000 / 200,000 = 0.90. A CPI below 1.0 means the project is over budget. Schedule status is measured by SPI, not CPI."},
+      {"q":"A project is on time and on budget, but a market shift has made the product's business case questionable. What should the project manager do?","choices":["Continue as planned, since cost and schedule are on track.","Raise the changed business case with the sponsor and reassess whether continuing still delivers value.","Cancel the project immediately to stop spending.","Wait until the project finishes, then evaluate the value."],"answer":"B","explanation":"Being on time and on budget does not guarantee value. When the business case changes, the PM surfaces it to the sponsor and reassesses continued value — rather than blindly finishing, unilaterally cancelling, or deferring the decision."},
+      {"q":"A capable, self-organizing team asks the project manager to assign their daily tasks 'to be more efficient.' What is the BEST response?","choices":["Assign the tasks each morning, since the team asked for it.","Coach the team to keep pulling and self-assigning work while you clear impediments and ensure they have what they need.","Ask the functional managers to allocate the team's daily work.","Assign tasks this iteration, then let them self-organize next time."],"answer":"B","explanation":"Empowerment keeps ownership with a capable team. The servant leader coaches self-assignment and removes impediments rather than taking over task allocation, which would erode the self-organization that drives performance."},
+      {"q":"During execution, a previously identified risk that has a planned response actually occurs. From which source should the project manager fund the planned response?","choices":["Management reserve, released by the sponsor.","The contingency reserve, which was set aside for identified risks.","A change request to the change control board for new funds.","Budget reallocated from another work package."],"answer":"B","explanation":"Contingency reserve exists to fund responses to identified ('known-unknown') risks that occur. Management reserve covers unforeseen work, and a change request or reallocation is unnecessary when a reserve was already budgeted for exactly this risk."}
+    ];
+    var idx = 0, score = 0, answered = false;
+    var body = document.getElementById('lpBody');
+    var counter = document.getElementById('lpCounter');
+    var progress = document.getElementById('lpProgress');
+    var LETTERS = ['A','B','C','D','E'];
+    function render(){
+      var q = QUESTIONS[idx]; answered = false;
+      counter.textContent = (idx + 1) + ' / ' + QUESTIONS.length;
+      progress.style.width = (idx / QUESTIONS.length * 100) + '%';
+      body.innerHTML = '<div class="lp-qnum">Question ' + (idx + 1) + ' of ' + QUESTIONS.length + '</div><div class="lp-question"></div><div id="lpChoices"></div><div id="lpAfter"></div>';
+      body.querySelector('.lp-question').textContent = q.q;
+      var wrap = document.getElementById('lpChoices');
+      q.choices.forEach(function (c, i) {
+        var btn = document.createElement('button');
+        btn.className = 'lp-choice';
+        btn.innerHTML = '<span class="letter">' + LETTERS[i] + '</span><span></span>';
+        btn.querySelector('span:last-child').textContent = c;
+        btn.addEventListener('click', function () { pick(i, btn); });
+        wrap.appendChild(btn);
+      });
+    }
+    function pick(i, btn){
+      if (answered) return; answered = true;
+      var q = QUESTIONS[idx], correctIdx = LETTERS.indexOf(q.answer);
+      var btns = body.querySelectorAll('.lp-choice');
+      btns.forEach(function (b) { b.disabled = true; });
+      btns[correctIdx].classList.add('correct');
+      if (i === correctIdx) score++; else btn.classList.add('wrong');
+      var after = document.getElementById('lpAfter');
+      var explain = document.createElement('div');
+      explain.className = 'lp-explain';
+      explain.innerHTML = '<strong>' + (i === correctIdx ? 'Correct. ' : 'Answer: ' + q.answer + '. ') + '</strong>';
+      explain.appendChild(document.createTextNode(q.explanation || ''));
+      after.appendChild(explain);
+      var next = document.createElement('button');
+      next.className = 'btn lp-next';
+      next.textContent = idx === QUESTIONS.length - 1 ? 'See My Score' : 'Next Question';
+      next.addEventListener('click', function () { idx++; if (idx < QUESTIONS.length) render(); else result(); });
+      after.appendChild(next);
+    }
+    function result(){
+      counter.textContent = 'Done'; progress.style.width = '100%';
+      var pct = Math.round(score / QUESTIONS.length * 100);
+      var verdict = pct >= 80 ? 'Strong start — polish the gaps and you are close.' : pct >= 50 ? 'Solid base — focused practice will close the gap fast.' : 'A structured plan will make a big difference — that is exactly what the full exams are for.';
+      body.innerHTML = '<div class="lp-result"><div class="lp-score-ring">' + score + '<span class="of"> / ' + QUESTIONS.length + '</span></div><h3>You scored ' + pct + '%</h3><p>' + verdict + ' Want a free PMP study plan and launch updates? Drop your email.</p><form class="lp-email-form" id="lpEmailForm"><input type="email" id="lpEmail" required placeholder="you@example.com" autocomplete="email"><button type="submit" class="btn">Send My Study Plan</button></form><div class="lp-email-msg" id="lpEmailMsg"></div><div class="or">— or —</div><a href="https://a.co/d/0gQzUslX" class="btn btn-outline btn-sm" target="_blank" rel="noopener" style="color:var(--navy);border-color:var(--navy);">Get the Full Book &amp; 720 Questions</a></div>';
+      document.getElementById('lpEmailForm').addEventListener('submit', function (e) {
+        e.preventDefault();
+        var email = document.getElementById('lpEmail').value.trim(), msg = document.getElementById('lpEmailMsg');
+        if (!email) return;
+        fetch('/api/subscribe', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ email: email, accessCode: 'FREE-SAMPLE', book: 'PMP sample quiz (' + score + '/' + QUESTIONS.length + ')' }) })
+          .then(function () { msg.className = 'lp-email-msg ok'; msg.textContent = 'Done! Check your inbox shortly.'; })
+          .catch(function () { msg.className = 'lp-email-msg err'; msg.textContent = 'Something went wrong — please try again.'; });
+      });
+    }
+    render();
+  })();
+  </script>
 
   <script>
   (function () {
