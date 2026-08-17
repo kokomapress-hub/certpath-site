@@ -37,6 +37,23 @@ function markCompleted(slug, testNum) {
   if (!list.includes(testNum)) { list.push(testNum); all[slug] = list; localStorage.setItem(COMPLETED_KEY, JSON.stringify(all)); }
 }
 
+const SCORES_KEY = "certpath_scores"; // { slug: { testNum: {pct, correct, total, domains:{name:[correct,total]}, at} } }
+function getScores() {
+  try { return JSON.parse(localStorage.getItem(SCORES_KEY) || '{}'); }
+  catch { return {}; }
+}
+function saveScore(slug, testNum, rec) {
+  const all = getScores();
+  all[slug] = all[slug] || {};
+  const prev = all[slug][testNum];
+  // Keep the best attempt (highest pct); always refresh the date/attempt count.
+  const attempts = (prev && prev.attempts || 0) + 1;
+  if (!prev || rec.pct >= prev.pct) all[slug][testNum] = Object.assign({}, rec, { attempts });
+  else all[slug][testNum] = Object.assign({}, prev, { attempts, last: rec.pct });
+  localStorage.setItem(SCORES_KEY, JSON.stringify(all));
+}
+const DOMAIN_LABEL = { people: 'People', process: 'Process', business: 'Business Environment' };
+
 async function init() {
   const params = new URLSearchParams(location.search);
   const slug = params.get('book');
@@ -311,14 +328,34 @@ function showResults() {
   let correct = 0;
   let wrong = 0;
   let unanswered = 0;
+  const domStats = {}; // { domain: [correct, total] }
   test.questions.forEach(q => {
     const ans = answers[q.num];
-    if (!ans) unanswered++;
-    else if (isCorrect(q, ans)) correct++;
-    else wrong++;
+    const ok = ans && isCorrect(q, ans);
+    if (!ans) unanswered++; else if (ok) correct++; else wrong++;
+    if (q.domain) {
+      const d = domStats[q.domain] || (domStats[q.domain] = [0, 0]);
+      d[1]++; if (ok) d[0]++;
+    }
   });
   const total = test.questions.length;
   const pct = Math.round((correct / total) * 100);
+
+  // Save score + per-domain breakdown for the progress dashboard.
+  saveScore(book.slug, test.testNum, { pct, correct, total, domains: domStats, at: new Date().toISOString() });
+  const domKeys = Object.keys(domStats);
+  const domainBreakdownHTML = domKeys.length >= 2 ? `
+    <div class="domain-breakdown">
+      <div class="db-title">Score by domain</div>
+      ${domKeys.map(d => {
+        const p = Math.round((domStats[d][0] / domStats[d][1]) * 100);
+        return `<div class="db-row">
+          <span class="db-name">${DOMAIN_LABEL[d] || d}</span>
+          <span class="db-bar"><span class="db-fill" style="width:${p}%"></span></span>
+          <span class="db-pct">${p}%</span>
+        </div>`;
+      }).join('')}
+    </div>` : '';
   const elapsedSec = Math.round((endTime - startTime) / 1000);
   const elapsedM = Math.floor(elapsedSec / 60);
   const elapsedS = elapsedSec % 60;
@@ -356,6 +393,8 @@ function showResults() {
             <div class="value">${elapsedM}:${String(elapsedS).padStart(2,'0')}</div>
           </div>
         </div>
+
+        ${domainBreakdownHTML}
 
         <p style="margin: 1.5rem 0; color: var(--gray-dark);">
           ${passed

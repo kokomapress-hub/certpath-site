@@ -14,7 +14,7 @@
   <meta property="og:url" content="https://certpathpublishing.store/pmp">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/css/style.css?v=11">
+  <link rel="stylesheet" href="/css/style.css?v=12">
   <link rel="stylesheet" href="/css/landing.css?v=2">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Which PMP exam are these tests for?","acceptedAnswer":{"@type":"Answer","text":"They are built to the NEW July 2026 PMP Examination Content Outline (People 33% / Process 41% / Business Environment 26%) and the PMBOK Guide, Eighth Edition — covering predictive, agile and hybrid ways of working."}},{"@type":"Question","name":"How many questions and tests are included?","acceptedAnswer":{"@type":"Answer","text":"Four full-length practice exams of 180 questions each — 720 questions total — each mirroring the real 180-question, 240-minute format, with detailed answer explanations."}},{"@type":"Question","name":"Why can't I open Test 2 right away?","acceptedAnswer":{"@type":"Answer","text":"The tests unlock in order. Finish Practice Test 1 and Test 2 opens; finish Test 2 and Test 3 opens, and so on. This builds your stamina and pacing the same way the real exam journey does."}},{"@type":"Question","name":"Do the tests include the new 2026 question formats?","acceptedAnswer":{"@type":"Answer","text":"Yes. Alongside single-answer items, the exams include select-two (multiple-response) questions, graphic/exhibit questions (EVM charts, network diagrams, burndown/burnup, control charts, dashboards) and linked case-sets — the more interactive, scenario-based style of the 2026 exam."}},{"@type":"Question","name":"How do I get access?","acceptedAnswer":{"@type":"Answer","text":"Enter the access code printed on the last page of your CertPath PMP book at certpathpublishing.store/access. Your tests are timed, auto-scored, and work on any device."}}]}</script>
   <style>
@@ -63,6 +63,17 @@
     .pmp-book-body p{color:#5a6b7b;margin:0 0 1rem}
     .pmp-book-buy{display:flex;gap:.7rem;flex-wrap:wrap}
     .pmp-book-note{font-size:.85rem;color:#7a869a;margin:.9rem 0 0}
+    /* progress dashboard */
+    .pmp-progress-bar{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;background:#1B2A4A;border-radius:14px;padding:1.2rem 1.5rem;margin:0 0 1.25rem;text-align:center}
+    .pmp-progress-bar .pp-num{color:#fff;font-size:2rem;font-weight:800;line-height:1}
+    .pmp-progress-bar .pp-num span{color:#E8B84B;font-size:1.1rem}
+    .pmp-progress-bar .pp-lbl{color:#aebbd0;font-size:.8rem;margin-top:.25rem}
+    .pmp-mod-score{background:#f6f8fb;border:1px solid #e6eaf1;border-radius:9px;padding:.7rem .8rem;margin:0 0 .9rem}
+    .pms-top{font-size:.85rem;color:#1B2A4A;margin-bottom:.45rem}
+    .pms-top strong{color:#3B7A57}
+    .pms-row{display:grid;grid-template-columns:70px 1fr 34px;align-items:center;gap:.4rem;font-size:.78rem;color:#5a6b7b;margin:.2rem 0}
+    .pms-bar{height:7px;background:#e6e9ef;border-radius:4px;overflow:hidden}
+    .pms-bar span{display:block;height:100%;background:linear-gradient(90deg,#1B2A4A,#E8B84B)}
     @media(max-width:640px){.pmp-steps{grid-template-columns:repeat(2,1fr)}.pmp-hero-panel .big{font-size:2.1rem}.pmp-outcomes ul{columns:1}.pmp-book-cta{flex-direction:column;text-align:center}.pmp-book-buy{justify-content:center}}
   </style>
 </head>
@@ -183,6 +194,7 @@
         <p>180 questions · 240 minutes each · instant scoring with detailed explanations.</p>
       </div>
       <div id="pmpCodeBanner"></div>
+      <div id="pmpProgress"></div>
       <div class="pmp-modules" id="pmpModules"></div>
     </div>
   </section>
@@ -320,10 +332,28 @@
       try { return (JSON.parse(localStorage.getItem('certpath_completed') || '{}')[SLUG]) || []; }
       catch { return []; }
     }
+    function getScores(){
+      try { return (JSON.parse(localStorage.getItem('certpath_scores') || '{}')[SLUG]) || {}; }
+      catch { return {}; }
+    }
+    var DOMLABEL = { people:'People', process:'Process', business:'Business' };
     function render(){
       var u = getUnlocked();
       var hasBook = u.isAdmin || (u.slugs || []).includes(SLUG);
       var done = getCompleted();
+      var scores = getScores();
+      // progress summary (only once there is at least one score)
+      var scoreNums = Object.keys(scores);
+      var prog = document.getElementById('pmpProgress');
+      if (scoreNums.length){
+        var best = scoreNums.map(function(k){ return scores[k].pct; });
+        var avg = Math.round(best.reduce(function(a,b){return a+b;},0) / best.length);
+        prog.innerHTML = '<div class="pmp-progress-bar">' +
+          '<div><div class="pp-num">' + done.length + '<span>/4</span></div><div class="pp-lbl">tests completed</div></div>' +
+          '<div><div class="pp-num">' + avg + '<span>%</span></div><div class="pp-lbl">average best score</div></div>' +
+          '<div><div class="pp-num">' + Math.max.apply(null, best) + '<span>%</span></div><div class="pp-lbl">top score</div></div>' +
+        '</div>';
+      } else { prog.innerHTML = ''; }
       // access-code banner
       var banner = document.getElementById('pmpCodeBanner');
       banner.innerHTML = hasBook ? '' :
@@ -340,6 +370,10 @@
             '<span>59 People · 74 Process · 47 Business</span>' +
             '<span>Select-two · graphics · case-sets</span>' +
           '</div>';
+        var sc = scores[m.n];
+        var scoreHTML = sc ? ('<div class="pmp-mod-score"><div class="pms-top">Best score <strong>' + sc.pct + '%</strong>' + (sc.attempts > 1 ? (' · ' + sc.attempts + ' attempts') : '') + '</div>' +
+          Object.keys(sc.domains || {}).map(function(d){ var a = sc.domains[d]; var p = Math.round(a[0] / a[1] * 100); return '<div class="pms-row"><span>' + (DOMLABEL[d] || d) + '</span><span class="pms-bar"><span style="width:' + p + '%"></span></span><span>' + p + '%</span></div>'; }).join('') +
+          '</div>') : '';
         var status;
         if (open) {
           status = (isDone ? '<div class="done-badge">✓ Completed — you can retake it</div>' : '') +
@@ -354,6 +388,7 @@
           '<div class="role">' + m.role + '</div>' +
           facts +
           '<p style="font-size:.88rem;color:#5a6b7b;margin:0 0 .9rem">' + m.note + '</p>' +
+          scoreHTML +
           '<div class="status">' + status + '</div>' +
         '</div>';
       }).join('');
