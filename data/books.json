@@ -703,6 +703,22 @@
       "cheatsheetPrice": 1.99,
       "payhipEbookUrl": "",
       "payhipCheatsheetUrl": ""
+    },
+    {
+      "slug": "pmp",
+      "bookCode": "B28",
+      "title": "PMP Exam Prep",
+      "code": "PMP-2X6KR-Q4M9T",
+      "timeMinutes": 240,
+      "testCount": 4,
+      "totalQuestions": 720,
+      "cover": "/img/covers/pmp.webp",
+      "shortName": "PMP",
+      "category": "Project Management",
+      "published": true,
+      "paperbackPrice": 19.99,
+      "ebookPrice": 9.99,
+      "sequential": true
     }
   ],
   "adminCode": "PRASAD"

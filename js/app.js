@@ -27,6 +27,11 @@ function getUnlocked() {
   try { return JSON.parse(localStorage.getItem(STORAGE_KEY) || '{"slugs":[],"isAdmin":false}'); }
   catch { return { slugs: [], isAdmin: false }; }
 }
+const COMPLETED_KEY = "certpath_completed";
+function getCompleted() {
+  try { return JSON.parse(localStorage.getItem(COMPLETED_KEY) || '{}'); }
+  catch { return {}; }
+}
 function setUnlocked(s) { localStorage.setItem(STORAGE_KEY, JSON.stringify(s)); }
 function getEmail() { return localStorage.getItem(EMAIL_KEY) || ""; }
 function setEmail(e) { localStorage.setItem(EMAIL_KEY, e); }
@@ -142,10 +147,19 @@ function renderUnlockedBooks(books, isAdmin) {
         </div>
       </div>
       <div class="bcu-tests">
-        ${Array.from({length: book.testCount}, (_, i) => `
-          <a href="/quiz?book=${book.slug}&test=${i+1}" class="btn btn-sm">Practice Test ${i+1}</a>
-        `).join('')}
+        ${(() => {
+          const done = (getCompleted()[book.slug] || []);
+          return Array.from({length: book.testCount}, (_, i) => {
+            const n = i + 1;
+            const locked = book.sequential && !isAdmin && n > 1 && !done.includes(n - 1);
+            if (locked) {
+              return `<span class="btn btn-sm btn-locked" title="Finish Test ${n - 1} first" aria-disabled="true">🔒 Test ${n}</span>`;
+            }
+            return `<a href="/quiz?book=${book.slug}&test=${n}" class="btn btn-sm">Practice Test ${n}${done.includes(n) ? ' ✓' : ''}</a>`;
+          }).join('');
+        })()}
       </div>
+      ${book.sequential ? `<div class="bcu-seq-note">Tests unlock in order — finish one to open the next.</div>` : ''}
       <div class="bonus-mount">${bonusSectionHTML(book)}</div>
     </div>
   `).join('');

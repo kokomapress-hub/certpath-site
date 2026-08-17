@@ -2,8 +2,10 @@
 // Loads a book's test data, runs a timed practice test, scores, and shows results.
 
 const STORAGE_KEY = "certpath_unlocked";
+const COMPLETED_KEY = "certpath_completed"; // { slug: [testNum, ...] } — tests the user has finished
 
 let book = null;
+let bookMeta = null; // books.json entry (carries the `sequential` flag)
 let test = null;
 let currentIdx = 0;
 let answers = {};
@@ -13,11 +15,26 @@ let timerInterval = null;
 let timeLeft = 0; // seconds
 
 function getUnlocked() {
+  // Dev convenience: on localhost, unlock everything so previews need no email or access code.
+  // Production hostnames (e.g. certpathpublishing.store) still require a valid code.
+  if (['localhost', '127.0.0.1', '0.0.0.0'].includes(location.hostname)) {
+    return { slugs: [], isAdmin: true };
+  }
   try {
     return JSON.parse(localStorage.getItem(STORAGE_KEY) || '{"slugs":[],"isAdmin":false}');
   } catch {
     return { slugs: [], isAdmin: false };
   }
+}
+
+function getCompleted() {
+  try { return JSON.parse(localStorage.getItem(COMPLETED_KEY) || '{}'); }
+  catch { return {}; }
+}
+function markCompleted(slug, testNum) {
+  const all = getCompleted();
+  const list = all[slug] || [];
+  if (!list.includes(testNum)) { list.push(testNum); all[slug] = list; localStorage.setItem(COMPLETED_KEY, JSON.stringify(all)); }
 }
 
 async function init() {
@@ -46,7 +63,7 @@ async function init() {
     try {
       const meta = await (await fetch('/data/books.json')).json();
       const entry = meta.books.find(b => b.slug === slug);
-      if (entry && entry.dataSlug) dataSlug = entry.dataSlug;
+      if (entry) { bookMeta = entry; if (entry.dataSlug) dataSlug = entry.dataSlug; }
     } catch { /* fall back to slug == dataSlug */ }
 
     const r = await fetch(`/data/${dataSlug}.json`);
@@ -61,6 +78,20 @@ async function init() {
   if (!test) {
     showError(`Test ${testNum} not found for ${data.title}.`);
     return;
+  }
+
+  // Progressive unlock: sequential books require finishing Test N-1 before Test N.
+  // Admin / localhost preview bypasses this gate.
+  if (bookMeta && bookMeta.sequential && !unlocked.isAdmin && testNum > 1) {
+    const done = getCompleted()[slug] || [];
+    if (!done.includes(testNum - 1)) {
+      showError(
+        `<strong>Practice Test ${testNum} is locked.</strong><br>` +
+        `Finish <strong>Practice Test ${testNum - 1}</strong> first — the tests unlock in order so you build up to the full exam.` +
+        `<br><br><a class="btn" href="/pmp?test=${testNum - 1}">Go to Test ${testNum - 1}</a>`
+      );
+      return;
+    }
   }
 
   // Calculate per-test time (proportional to total)
@@ -159,6 +190,20 @@ function qPassage(q) {
 function qFigure(q) {
   return q.image ? `<div class="q-figure"><img src="${q.image}" alt="Question figure" loading="lazy"></div>` : '';
 }
+// ---- item-type helpers (single-response is the default; multi-response added) ----
+function isMulti(q) { return q.type === 'multi'; }
+function normSet(s) { return (s || '').split(',').map(x => x.trim()).filter(Boolean).sort().join(','); }
+function isCorrect(q, ans) {
+  if (ans == null || ans === '') return false;
+  if (isMulti(q)) return normSet(ans) === normSet(q.answer);
+  return ans === q.answer;
+}
+function multiHint(q) {
+  if (!isMulti(q)) return '';
+  const n = normSet(q.answer).split(',').length;
+  const word = n === 2 ? 'TWO' : n === 3 ? 'THREE' : 'all that apply';
+  return `<div class="multi-hint" style="font-size:0.9rem;color:var(--navy);font-style:italic;margin:.25rem 0 .5rem;">Select ${word}.</div>`;
+}
 
 function renderQuiz() {
   const q = test.questions[currentIdx];
@@ -179,9 +224,17 @@ function renderQuiz() {
         ${qPassage(q)}
         <div class="question-text">${q.question}</div>
         ${qFigure(q)}
+        ${multiHint(q)}
         <div class="choices">
           ${q.choices.map((c, i) => {
             const letter = LETTERS[i];
+            if (isMulti(q)) {
+              const sel = normSet(selected).split(',').includes(letter);
+              return `<div class="${sel ? 'choice selected' : 'choice'}" onclick="toggleMulti('${letter}')">
+                <span class="letter">${sel ? '&#9745;' : '&#9744;'} ${letter}</span>
+                <span>${c}</span>
+              </div>`;
+            }
             const cls = selected === letter ? 'choice selected' : 'choice';
             return `<div class="${cls}" onclick="selectAnswer('${letter}')">
               <span class="letter">${letter}</span>
@@ -209,6 +262,15 @@ function renderQuiz() {
 function selectAnswer(letter) {
   const q = test.questions[currentIdx];
   answers[q.num] = letter;
+  renderQuiz();
+}
+
+function toggleMulti(letter) {
+  const q = test.questions[currentIdx];
+  let set = normSet(answers[q.num]).split(',').filter(Boolean);
+  set = set.includes(letter) ? set.filter(x => x !== letter) : set.concat(letter);
+  const val = set.sort().join(',');
+  if (val) answers[q.num] = val; else delete answers[q.num];
   renderQuiz();
 }
 
@@ -240,6 +302,8 @@ function confirmSubmit() {
 function submitQuiz() {
   endTime = Date.now();
   if (timerInterval) clearInterval(timerInterval);
+  // Record completion so the next test in a sequential book unlocks.
+  if (book && test) markCompleted(book.slug, test.testNum);
   showResults();
 }
 
@@ -250,7 +314,7 @@ function showResults() {
   test.questions.forEach(q => {
     const ans = answers[q.num];
     if (!ans) unanswered++;
-    else if (ans === q.answer) correct++;
+    else if (isCorrect(q, ans)) correct++;
     else wrong++;
   });
   const total = test.questions.length;
@@ -309,20 +373,23 @@ function showResults() {
 function showReview() {
   const html = test.questions.map((q, i) => {
     const userAns = answers[q.num];
-    const correct = userAns === q.answer;
+    const correct = isCorrect(q, userAns);
     const noAnswer = !userAns;
+    const ansSet = normSet(q.answer).split(',');
+    const userSet = normSet(userAns).split(',');
     return `
       <div class="question-card">
         <div class="question-num">Question ${i + 1} ${noAnswer ? '(Not Answered)' : correct ? '✓ Correct' : '✗ Incorrect'}</div>
         ${qPassage(q)}
         <div class="question-text">${q.question}</div>
         ${qFigure(q)}
+        ${multiHint(q)}
         <div class="choices">
           ${q.choices.map((c, j) => {
             const letter = LETTERS[j];
             let cls = 'choice';
-            if (letter === q.answer) cls = 'choice correct';
-            else if (letter === userAns && !correct) cls = 'choice wrong';
+            if (ansSet.includes(letter)) cls = 'choice correct';
+            else if (userSet.includes(letter)) cls = 'choice wrong';
             return `<div class="${cls}">
               <span class="letter">${letter}</span>
               <span>${c}</span>

@@ -616,3 +616,7 @@ a.hero-swap:hover { border-bottom-color: var(--gold); }
 @media (max-width: 700px) {
   .compare-grid { grid-template-columns: 1fr; }
 }
+
+/* Progressive-unlock (sequential books, e.g. PMP) */
+.btn-locked{opacity:.55;cursor:not-allowed;background:#e6e9ef;color:#7a869a;border-color:#d3d9e3;pointer-events:none}
+.bcu-seq-note{font-size:.82rem;color:#7a869a;margin:.5rem 0 0}
