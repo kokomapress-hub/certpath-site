@@ -47,7 +47,6 @@
       </a>
       <nav class="nav">
         <a href="#books">Study Guides</a>
-        <a href="#cheat-sheets">Cheat Sheets</a>
         <a href="#how-it-works">How It Works</a>
         <a href="/access" class="btn-nav">Access Tests</a>
       </nav>
@@ -130,18 +129,6 @@
       <div class="cat-tiles" id="catTiles"></div>
 
       <div class="book-grid" id="bookGrid"></div>
-    </div>
-  </section>
-
-  <!-- CHEAT SHEETS -->
-  <section class="section cheatsheets-section" id="cheat-sheets">
-    <div class="container">
-      <div class="section-header">
-        <div class="section-eyebrow">Digital Downloads</div>
-        <h2>Formula Cheat Sheets</h2>
-        <p>Condensed reference PDFs with every formula, code reference, and key fact for each exam. Instant download — perfect for the final week of prep.</p>
-      </div>
-      <div class="cheatsheet-grid" id="cheatsheetGrid"></div>
     </div>
   </section>
 
@@ -296,7 +283,6 @@
         <h4>Resources</h4>
         <ul>
           <li><a href="/access">Access Practice Tests</a></li>
-          <li><a href="#cheat-sheets">Cheat Sheets</a></li>
           <li><a href="#how-it-works">How It Works</a></li>
           <li><a href="/blog/">Blog</a></li>
         </ul>
@@ -514,39 +500,6 @@
           tile.classList.add('active');
           renderBooks(TILES[Number(tile.dataset.tile)].cats);
         });
-
-        // Cheat sheets grid — only published books
-        const csGrid = document.getElementById('cheatsheetGrid');
-        // Only show cheat-sheet cards for books that actually have a purchasable
-        // Payhip product — otherwise the "Buy PDF" button would be a dead link.
-        csGrid.innerHTML = published.filter(b => !b.bank && b.payhipCheatsheetUrl).map(book => {
-          const upcoming = !book.published;
-          const price = (book.cheatsheetPrice ?? 1.99).toFixed(2);
-          const previewImg = upcoming
-            ? `<div class="cheatsheet-preview-placeholder">Coming Soon</div>`
-            : `<div class="cheatsheet-preview-placeholder cheatsheet-locked">
-                 <svg viewBox="0 0 24 24" width="40" height="40" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                   <rect x="3" y="11" width="18" height="11" rx="2" ry="2"/>
-                   <path d="M7 11V7a5 5 0 0 1 10 0v4"/>
-                 </svg>
-                 <span>${book.shortName} Formula Sheet</span>
-                 <small>Unlock on purchase</small>
-               </div>`;
-          return `
-            <div class="cheatsheet-card ${upcoming ? 'cheatsheet-upcoming' : ''}">
-              ${previewImg}
-              <div class="cheatsheet-body">
-                <div class="cheatsheet-title">${book.shortName} Formula Cheat Sheet</div>
-                <div class="cheatsheet-desc">All key formulas, code refs, and quick-lookup tables for the ${book.shortName} exam. Printable 1–2 page PDF.</div>
-                <div class="cheatsheet-footer">
-                  <span class="cheatsheet-price">$${price}</span>
-                  ${upcoming
-                    ? `<button class="btn btn-sm btn-outline" disabled>Coming Soon</button>`
-                    : `<a href="${book.payhipCheatsheetUrl}" class="btn btn-sm btn-gold" target="_blank" rel="noopener">Buy PDF</a>`}
-                </div>
-              </div>
-            </div>`;
-        }).join('');
 
         // Footer book list — only published
         const footerList = document.getElementById('footerBookList');
