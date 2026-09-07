@@ -146,7 +146,7 @@ function showStartScreen() {
 
         <div style="background: var(--gray-light); padding: 1.5rem; border-radius: 6px; margin-bottom: 1.5rem;">
           <h3 style="color: var(--navy); margin-bottom: 0.8rem;">Test Details</h3>
-          <p><strong>${test.questions.length}</strong> multiple-choice questions</p>
+          <p><strong>${test.questions.length}</strong> exam-style questions</p>
           <p><strong>${minutes} minutes</strong> total time</p>
           <p>Instant scoring with detailed answer explanations</p>
         </div>
@@ -212,6 +212,9 @@ function isMulti(q) { return q.type === 'multi'; }
 function normSet(s) { return (s || '').split(',').map(x => x.trim()).filter(Boolean).sort().join(','); }
 function isCorrect(q, ans) {
   if (ans == null || ans === '') return false;
+  if (q.type === 'order') { try { return JSON.stringify(JSON.parse(ans)) === JSON.stringify(q.sequence); } catch { return false; } }
+  if (q.type === 'match') { try { const m = JSON.parse(ans); return q.pairs.every((p, i) => m[i] === p[1]); } catch { return false; } }
+  if (q.type === 'hotspot') return ans === q.answer;
   if (isMulti(q)) return normSet(ans) === normSet(q.answer);
   return ans === q.answer;
 }
@@ -222,7 +225,152 @@ function multiHint(q) {
   return `<div class="multi-hint" style="font-size:0.9rem;color:var(--navy);font-style:italic;margin:.25rem 0 .5rem;">Select ${word}.</div>`;
 }
 
+// ---- enhanced item types: matching / ordering / hotspot (additive; single/multi unchanged) ----
+function isEnhanced(q) { return q.type === 'match' || q.type === 'order' || q.type === 'hotspot'; }
+function ensureEnhStyles() {
+  if (document.getElementById('enh-styles')) return;
+  const s = document.createElement('style'); s.id = 'enh-styles';
+  s.textContent = `
+    .enh-hint{font-size:.9rem;color:var(--navy);font-style:italic;margin:.25rem 0 .75rem;}
+    .order-list{display:flex;flex-direction:column;gap:.5rem;}
+    .order-item{display:flex;align-items:center;gap:.6rem;padding:.6rem .8rem;border:1px solid var(--gray-light,#e2e2e2);border-radius:8px;background:#fff;}
+    .order-rank{flex:0 0 auto;width:1.6rem;height:1.6rem;border-radius:50%;background:var(--navy);color:#fff;font-weight:700;display:grid;place-items:center;font-size:.85rem;}
+    .order-text{flex:1;}
+    .order-btns{display:flex;gap:.25rem;}
+    .order-btns button{width:2rem;height:2rem;border:1px solid #cfd6e4;border-radius:6px;background:#f3f6fb;cursor:pointer;font-size:.85rem;color:var(--navy);}
+    .order-btns button:disabled{opacity:.35;cursor:default;}
+    .match-list{display:flex;flex-direction:column;gap:.55rem;}
+    .match-row{display:flex;align-items:center;gap:.6rem;flex-wrap:wrap;}
+    .match-left{flex:1 1 42%;min-width:150px;font-weight:600;color:var(--navy);}
+    .match-select{flex:1 1 42%;min-width:150px;padding:.5rem;border:1px solid #cfd6e4;border-radius:6px;font-size:.95rem;background:#fff;}
+    .hotspot-wrap{max-width:100%;overflow-x:auto;border:1px solid var(--gray-light,#e2e2e2);border-radius:8px;}
+    .hot-region{position:absolute;background:transparent;border:2px dashed transparent;border-radius:6px;cursor:pointer;}
+    .hot-region:hover{border-color:var(--gold);background:rgba(221,166,59,.12);}
+    .hot-region.sel{border-color:var(--navy);background:rgba(31,58,95,.18);border-style:solid;}
+    .hot-region.ans{border:3px solid var(--success,#177245);background:rgba(23,114,69,.15);}
+    .hot-region.wrong{border:3px solid var(--error,#b42318);background:rgba(180,35,24,.12);}
+    .rev-block{margin:.4rem 0;}
+    .rev-correct ol{margin:.3rem 0 .3rem 1.2rem;}
+    .rev-user{color:var(--gray,#666);font-size:.9rem;margin-top:.3rem;}`;
+  document.head.appendChild(s);
+}
+function seededShuffle(arr, seed) {
+  const a = arr.slice(); let s = (seed * 2654435761) >>> 0;
+  for (let i = a.length - 1; i > 0; i--) { s = (s * 1103515245 + 12345) & 0x7fffffff; const j = s % (i + 1); [a[i], a[j]] = [a[j], a[i]]; }
+  return a;
+}
+function getOrder(q) {
+  if (answers[q.num] != null) { try { return JSON.parse(answers[q.num]); } catch {} }
+  if (!q._shuf) { let sh = seededShuffle(q.sequence, (q.num || 1) + 3); if (JSON.stringify(sh) === JSON.stringify(q.sequence)) sh = sh.slice().reverse(); q._shuf = sh; }
+  return q._shuf.slice();
+}
+function getMatch(q) { if (answers[q.num] != null) { try { return JSON.parse(answers[q.num]); } catch {} } return {}; }
+function rightsPool(q) { if (!q._rights) q._rights = seededShuffle(q.pairs.map(p => p[1]), (q.num || 1) + 7); return q._rights; }
+function escAttr(s) { return String(s).replace(/&/g, '&amp;').replace(/"/g, '&quot;'); }
+
+function renderBody(q, selected) {
+  if (q.type === 'order') return renderOrder(q);
+  if (q.type === 'match') return renderMatch(q);
+  if (q.type === 'hotspot') return renderHotspot(q);
+  return renderChoices(q, selected);
+}
+function renderChoices(q, selected) {
+  return `<div class="choices">
+    ${q.choices.map((c, i) => {
+      const letter = LETTERS[i];
+      if (isMulti(q)) {
+        const sel = normSet(selected).split(',').includes(letter);
+        return `<div class="${sel ? 'choice selected' : 'choice'}" onclick="toggleMulti('${letter}')">
+          <span class="letter">${sel ? '&#9745;' : '&#9744;'} ${letter}</span><span>${c}</span></div>`;
+      }
+      const cls = selected === letter ? 'choice selected' : 'choice';
+      return `<div class="${cls}" onclick="selectAnswer('${letter}')">
+        <span class="letter">${letter}</span><span>${c}</span></div>`;
+    }).join('')}
+  </div>`;
+}
+function renderOrder(q) {
+  const order = getOrder(q);
+  return `<div class="enh-hint">Drag-free ordering: use the arrows to put the steps in the correct sequence.</div>
+    <div class="order-list">${order.map((step, i) => `
+      <div class="order-item">
+        <span class="order-rank">${i + 1}</span>
+        <span class="order-text">${step}</span>
+        <span class="order-btns">
+          <button ${i === 0 ? 'disabled' : ''} onclick="moveOrder(${i},-1)" aria-label="Move up">&#9650;</button>
+          <button ${i === order.length - 1 ? 'disabled' : ''} onclick="moveOrder(${i},1)" aria-label="Move down">&#9660;</button>
+        </span>
+      </div>`).join('')}</div>`;
+}
+function moveOrder(i, dir) {
+  const q = test.questions[currentIdx]; const o = getOrder(q); const j = i + dir;
+  if (j < 0 || j >= o.length) return; [o[i], o[j]] = [o[j], o[i]];
+  answers[q.num] = JSON.stringify(o); renderQuiz();
+}
+function renderMatch(q) {
+  const rights = rightsPool(q); const cur = getMatch(q);
+  return `<div class="enh-hint">Match each item on the left to the correct item on the right.</div>
+    <div class="match-list">${q.pairs.map((p, i) => `
+      <div class="match-row">
+        <span class="match-left">${p[0]}</span>
+        <select class="match-select" onchange="setMatch(${i}, this.value)">
+          <option value="">&mdash; choose &mdash;</option>
+          ${rights.map(r => `<option value="${escAttr(r)}" ${cur[i] === r ? 'selected' : ''}>${r}</option>`).join('')}
+        </select>
+      </div>`).join('')}</div>`;
+}
+function setMatch(i, val) {
+  const q = test.questions[currentIdx]; const cur = getMatch(q);
+  if (val) cur[i] = val; else delete cur[i];
+  if (Object.keys(cur).length) answers[q.num] = JSON.stringify(cur); else delete answers[q.num];
+  renderQuiz();
+}
+function renderHotspot(q) {
+  const cur = answers[q.num];
+  const img = q.image_svg ? q.image_svg : (q.image ? `<img src="${q.image}" alt="figure">` : '');
+  const regions = (q.regions || []).map(r =>
+    `<button class="hot-region ${cur === r.id ? 'sel' : ''}" style="left:${r.x}px;top:${r.y}px;width:${r.w}px;height:${r.h}px" onclick="selectHotspot('${r.id}')" title="${escAttr(r.label || '')}"></button>`).join('');
+  return `<div class="enh-hint">Click the correct area of the figure.</div>
+    <div class="hotspot-wrap"><div style="position:relative;display:inline-block">${img}<div style="position:absolute;inset:0">${regions}</div></div></div>`;
+}
+function selectHotspot(id) { const q = test.questions[currentIdx]; answers[q.num] = id; renderQuiz(); }
+
+function reviewBody(q, userAns) {
+  if (q.type === 'order') {
+    let uo = []; try { uo = JSON.parse(userAns || '[]'); } catch {}
+    return `<div class="rev-block"><div class="rev-correct"><strong>Correct order:</strong>
+      <ol>${q.sequence.map(s => `<li>${s}</li>`).join('')}</ol></div>
+      ${uo.length ? `<div class="rev-user">Your order: ${uo.join(' &rarr; ')}</div>` : '<div class="rev-user">Not answered</div>'}</div>`;
+  }
+  if (q.type === 'match') {
+    let m = {}; try { m = JSON.parse(userAns || '{}'); } catch {}
+    return `<div class="rev-block match-list">${q.pairs.map((p, i) => {
+      const ok = m[i] === p[1];
+      return `<div class="match-row"><span class="match-left">${p[0]}</span>
+        <span class="choice ${ok ? 'correct' : 'wrong'}" style="padding:.3rem .6rem;flex:1 1 42%;min-width:150px;">
+        ${m[i] || '(none)'} ${ok ? '&#10003;' : '&#10007; &mdash; correct: ' + p[1]}</span></div>`;
+    }).join('')}</div>`;
+  }
+  if (q.type === 'hotspot') {
+    const img = q.image_svg ? q.image_svg : (q.image ? `<img src="${q.image}">` : '');
+    const regions = (q.regions || []).map(r => {
+      const isC = r.id === q.answer, isU = r.id === userAns;
+      return `<div class="hot-region ${isC ? 'ans' : (isU ? 'wrong' : '')}" style="left:${r.x}px;top:${r.y}px;width:${r.w}px;height:${r.h}px"></div>`;
+    }).join('');
+    return `<div class="hotspot-wrap"><div style="position:relative;display:inline-block">${img}<div style="position:absolute;inset:0">${regions}</div></div></div>`;
+  }
+  const ansSet = normSet(q.answer).split(',');
+  const userSet = normSet(userAns).split(',');
+  return `<div class="choices">${q.choices.map((c, j) => {
+    const letter = LETTERS[j]; let cls = 'choice';
+    if (ansSet.includes(letter)) cls = 'choice correct';
+    else if (userSet.includes(letter)) cls = 'choice wrong';
+    return `<div class="${cls}"><span class="letter">${letter}</span><span>${c}</span></div>`;
+  }).join('')}</div>`;
+}
+
 function renderQuiz() {
+  ensureEnhStyles();
   const q = test.questions[currentIdx];
   const total = test.questions.length;
   const progress = ((currentIdx + 1) / total) * 100;
@@ -242,23 +390,7 @@ function renderQuiz() {
         <div class="question-text">${q.question}</div>
         ${qFigure(q)}
         ${multiHint(q)}
-        <div class="choices">
-          ${q.choices.map((c, i) => {
-            const letter = LETTERS[i];
-            if (isMulti(q)) {
-              const sel = normSet(selected).split(',').includes(letter);
-              return `<div class="${sel ? 'choice selected' : 'choice'}" onclick="toggleMulti('${letter}')">
-                <span class="letter">${sel ? '&#9745;' : '&#9744;'} ${letter}</span>
-                <span>${c}</span>
-              </div>`;
-            }
-            const cls = selected === letter ? 'choice selected' : 'choice';
-            return `<div class="${cls}" onclick="selectAnswer('${letter}')">
-              <span class="letter">${letter}</span>
-              <span>${c}</span>
-            </div>`;
-          }).join('')}
-        </div>
+        ${renderBody(q, selected)}
       </div>
 
       <div class="quiz-controls">
@@ -410,31 +542,19 @@ function showResults() {
 }
 
 function showReview() {
+  ensureEnhStyles();
   const html = test.questions.map((q, i) => {
     const userAns = answers[q.num];
     const correct = isCorrect(q, userAns);
-    const noAnswer = !userAns;
-    const ansSet = normSet(q.answer).split(',');
-    const userSet = normSet(userAns).split(',');
+    const noAnswer = userAns == null || userAns === '';
     return `
       <div class="question-card">
         <div class="question-num">Question ${i + 1} ${noAnswer ? '(Not Answered)' : correct ? '✓ Correct' : '✗ Incorrect'}</div>
         ${qPassage(q)}
         <div class="question-text">${q.question}</div>
         ${qFigure(q)}
-        ${multiHint(q)}
-        <div class="choices">
-          ${q.choices.map((c, j) => {
-            const letter = LETTERS[j];
-            let cls = 'choice';
-            if (ansSet.includes(letter)) cls = 'choice correct';
-            else if (userSet.includes(letter)) cls = 'choice wrong';
-            return `<div class="${cls}">
-              <span class="letter">${letter}</span>
-              <span>${c}</span>
-            </div>`;
-          }).join('')}
-        </div>
+        ${isEnhanced(q) ? '' : multiHint(q)}
+        ${reviewBody(q, userAns)}
         ${q.explanation ? `<div class="explanation show"><strong>Explanation:</strong> ${q.explanation}</div>` : ''}
       </div>
     `;

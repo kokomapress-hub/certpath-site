@@ -719,6 +719,22 @@
       "paperbackPrice": 19.99,
       "ebookPrice": 9.99,
       "sequential": true
+    },
+    {
+      "slug": "capm",
+      "bookCode": "B33",
+      "title": "CAPM Exam Prep",
+      "code": "CAPM-7X4KD-Q9M3R",
+      "timeMinutes": 180,
+      "testCount": 5,
+      "totalQuestions": 750,
+      "cover": "/img/covers/capm.webp",
+      "shortName": "CAPM",
+      "category": "Project Management",
+      "published": true,
+      "paperbackPrice": 16.99,
+      "ebookPrice": 9.99,
+      "sequential": false
     }
   ],
   "adminCode": "PRASAD"
