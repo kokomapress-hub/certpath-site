@@ -55,7 +55,10 @@ async function validateCode(code) {
   // SAT/PSAT/ACT/GED math books share a single printed access code across
   // the 3 SKUs (Prep + Workbook + 10 Practice Tests) — entering that code
   // should unlock all matching books, not just the first one found.
-  const matches = data.books.filter(b => b.code && normCode(b.code) === cleanCode);
+  // A book may list several valid printed codes ("codes": [...]) so that every
+  // edition's printed code keeps working (e.g. POSS V4 printed POSS-PREP-2GXW9).
+  const codesOf = b => [b.code, ...(Array.isArray(b.codes) ? b.codes : [])].filter(Boolean).map(normCode);
+  const matches = data.books.filter(b => codesOf(b).includes(cleanCode));
   if (matches.length) {
     const titles = matches.length === 1 ? matches[0].title : `${matches.length} matching books`;
     return { success: true, isAdmin: false, books: matches, message: `Access granted to ${titles}.` };
@@ -64,32 +67,15 @@ async function validateCode(code) {
 }
 
 function bonusSectionHTML(book) {
-  const bonus = getBonusUnlocked();
-  const unlocked = !!bonus[book.slug];
+  // Bonus materials are included with the book purchase and are never
+  // conditioned on an Amazon review (Amazon's review policy prohibits
+  // rewarding reviews, and the books promise the bonus "no review required").
   const pdfUrl = `/bonus-pdfs/${book.slug}-cheatsheet.pdf`;
-
-  if (unlocked) {
-    return `
-      <div class="bonus-box unlocked">
-        <div class="bonus-title">🎁 Bonus Content Unlocked</div>
-        <p>Thanks for your review! Download your printable formula cheat sheet:</p>
-        <a href="${pdfUrl}" class="btn btn-sm" download>Download Cheat Sheet (PDF)</a>
-      </div>`;
-  }
-
   return `
-    <div class="bonus-box">
-      <div class="bonus-title">🎁 Unlock Bonus Content</div>
-      <p>Leave an honest review on Amazon, then upload a screenshot to unlock the printable <strong>formula cheat sheet (PDF)</strong> for ${book.shortName || book.title}.</p>
-      <form class="bonus-form" data-slug="${book.slug}">
-        <label class="file-label">
-          <input type="file" accept="image/*,.pdf" required>
-          <span class="file-cta">Upload Review Screenshot</span>
-          <span class="file-name">No file selected</span>
-        </label>
-        <button type="submit" class="btn btn-sm">Unlock Cheat Sheet</button>
-        <div class="bonus-msg"></div>
-      </form>
+    <div class="bonus-box unlocked">
+      <div class="bonus-title">🎁 Bonus Study Materials</div>
+      <p>Included free with your book: the printable <strong>formula cheat sheet (PDF)</strong> for ${book.shortName || book.title}.</p>
+      <a href="${pdfUrl}" class="btn btn-sm" download>Download Cheat Sheet (PDF)</a>
     </div>`;
 }
 
