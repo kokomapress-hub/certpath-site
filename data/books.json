@@ -722,6 +722,22 @@
       "sequential": true
     },
     {
+      "slug": "pmi-acp",
+      "bookCode": "B41",
+      "title": "PMI-ACP Exam Prep",
+      "code": "ACP-2XQL2-UT2AR",
+      "timeMinutes": 180,
+      "testCount": 6,
+      "totalQuestions": 720,
+      "cover": "/img/covers/pmi-acp.webp",
+      "shortName": "PMI-ACP",
+      "category": "Project Management",
+      "published": true,
+      "paperbackPrice": 39.99,
+      "ebookPrice": 9.99,
+      "sequential": true
+    },
+    {
       "slug": "capm",
       "bookCode": "B33",
       "title": "CAPM Exam Prep",

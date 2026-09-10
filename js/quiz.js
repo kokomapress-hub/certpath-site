@@ -504,7 +504,7 @@ function showResults() {
     <div class="container">
       <div class="results-card">
         <h2>${passed ? 'Great Work!' : 'Keep Practicing'}</h2>
-        <p style="color: var(--gray);">${book.title} -- Test ${test.testNum}</p>
+        <p style="color: var(--gray);">${book.title} — Test ${test.testNum}</p>
 
         <div class="score-display">
           ${correct}<span class="total"> / ${total}</span>
