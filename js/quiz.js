@@ -52,7 +52,14 @@ function saveScore(slug, testNum, rec) {
   else all[slug][testNum] = Object.assign({}, prev, { attempts, last: rec.pct });
   localStorage.setItem(SCORES_KEY, JSON.stringify(all));
 }
-const DOMAIN_LABEL = { people: 'People', process: 'Process', business: 'Business Environment' };
+const DOMAIN_LABEL = {
+  people: 'People', process: 'Process', business: 'Business Environment',
+  algebra: 'Algebra', advanced_math: 'Advanced Math', psda: 'Problem-Solving & Data Analysis', geometry_trig: 'Geometry & Trigonometry',
+};
+// Any bank key without an explicit label reads as words, never as a raw key like 'basic_math'.
+function domainLabel(d) {
+  return DOMAIN_LABEL[d] || String(d).replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+}
 
 async function init() {
   const params = new URLSearchParams(location.search);
@@ -482,7 +489,7 @@ function showResults() {
       ${domKeys.map(d => {
         const p = Math.round((domStats[d][0] / domStats[d][1]) * 100);
         return `<div class="db-row">
-          <span class="db-name">${DOMAIN_LABEL[d] || d}</span>
+          <span class="db-name">${domainLabel(d)}</span>
           <span class="db-bar"><span class="db-fill" style="width:${p}%"></span></span>
           <span class="db-pct">${p}%</span>
         </div>`;
