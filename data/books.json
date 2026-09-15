@@ -245,7 +245,10 @@
       "amazonUrl": "https://www.amazon.com/dp/B0H2PBYBBQ",
       "cheatsheetPrice": 1.99,
       "payhipEbookUrl": "",
-      "payhipCheatsheetUrl": ""
+      "payhipCheatsheetUrl": "",
+      "codes": [
+        "PSAT-MATH-V2-AVMS8"
+      ]
     },
     {
       "slug": "act-math",

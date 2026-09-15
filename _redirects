@@ -8,3 +8,5 @@
 /cen-access   /access?book=cen    302
 /sat-access    /access?book=sat-math   302
 /sat-resources /access?book=sat-math   302
+/psat-access    /access?book=psat-math   302
+/psat-resources /access?book=psat-math   302
