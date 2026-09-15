@@ -65,7 +65,10 @@
       "bookCode": "B4",
       "title": "POSS Exam Study Guide",
       "code": "POSS-2LI3E-RUWFW",
-      "codes": ["POSS-2LI3E-RUWFW", "POSS-PREP-2GXW9"],
+      "codes": [
+        "POSS-2LI3E-RUWFW",
+        "POSS-PREP-2GXW9"
+      ],
       "timeMinutes": 40,
       "testCount": 3,
       "totalQuestions": 180,
@@ -219,7 +222,10 @@
       "amazonUrl": "https://www.amazon.com/dp/B0H2LHP2TY",
       "cheatsheetPrice": 1.99,
       "payhipEbookUrl": "",
-      "payhipCheatsheetUrl": ""
+      "payhipCheatsheetUrl": "",
+      "codes": [
+        "SAT-MATH-V11-7R2QX"
+      ]
     },
     {
       "slug": "psat-math",
