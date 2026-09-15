@@ -6,3 +6,5 @@
 # that has no page of its own; send those to /access so the printed link works.
 /cap          /access?book=cap    302
 /cen-access   /access?book=cen    302
+/sat-access    /access?book=sat-math   302
+/sat-resources /access?book=sat-math   302
