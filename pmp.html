@@ -329,7 +329,7 @@ footer.ft{background:var(--navy-2);color:rgba(255,255,255,.72);padding:64px 0 40
         <li><div class="ic">📘</div><div><b>Study guide (PDF)</b><span>The full CertPath guide to read, mark up and search on any device.</span></div></li>
       </ul>
       <div class="pkg-buy"><span class="price">$49.99</span><span class="per">one-time · lifetime access</span></div>
-      <a class="btn btn-primary" href="#" id="buyBtn" style="min-width:280px">Get the Complete PMP System →</a>
+      <a class="btn btn-primary" href="https://payhip.com/b/DMyl1" id="buyBtn" target="_blank" rel="noopener" style="min-width:280px">Get the Complete PMP System →</a>
       <div class="assure"><span>Instant access</span><span>Lifetime access</span><span>Secure checkout</span></div>
     </div>
     <div class="pkg-visual"><img src="img/product-hero.png" alt="CertPath PMP Complete System — course, exams, cheat sheets and study guide"></div>
@@ -524,8 +524,8 @@ footer.ft{background:var(--navy-2);color:rgba(255,255,255,.72);padding:64px 0 40
     location.href = code ? '/access?code='+encodeURIComponent(code) : '/access';
   });
 
-  // $49.99 Complete System → Payhip checkout.
-  document.getElementById('buyBtn').addEventListener('click',function(e){ e.preventDefault(); window.open(CHECKOUT,'_blank'); });
+  // $49.99 Complete System → Payhip checkout (the button is a real <a href> now,
+  // so it navigates reliably without being blocked as a popup).
 
   // Returning free lead: keep the exam ready.
   if(hasFree()){ hero.classList.add('done'); document.getElementById('startFreeBtn').setAttribute('href',FREE_QUIZ); }
