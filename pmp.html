@@ -301,13 +301,14 @@ footer.ft{background:var(--navy-2);color:rgba(255,255,255,.72);padding:64px 0 40
 <!-- BOOK OWNER (Door 1) -->
 <section class="section tight paper" id="owner">
   <div class="wrap center">
-    <span class="eyebrow">Already have the book?</span>
-    <h2 class="h2">Unlock your online tests</h2>
-    <p class="intro">Enter the access code printed on the last page of your CertPath PMP book to unlock all four practice exams — free.</p>
+    <span class="eyebrow">Already purchased?</span>
+    <h2 class="h2">Enter your access code</h2>
+    <p class="intro">Bought the PMP Complete System or a CertPath PMP book? Enter your access code to unlock your videos, practice exams, cheat sheets and study guide.</p>
     <form id="codeForm" style="display:flex;gap:10px;max-width:460px;margin:26px auto 0">
       <input type="text" id="codeInput" placeholder="PMP-XXXXX-XXXXX" autocomplete="off" style="flex:1;height:54px;border:1.5px solid var(--line);border-radius:12px;padding:0 16px;font-size:16px;font-family:inherit;text-transform:uppercase">
-      <button class="btn btn-nav" type="submit">Unlock My Tests</button>
+      <button class="btn btn-nav" type="submit">Unlock</button>
     </form>
+    <p style="font-size:13px;color:var(--muted);margin-top:14px">Complete System buyers: your code is in the PDF you downloaded after checkout. Book buyers: it's on the last page of your book.</p>
   </div>
 </section>
 
@@ -518,10 +519,23 @@ footer.ft{background:var(--navy-2);color:rgba(255,255,255,.72);padding:64px 0 40
   });
 
   // Book owners → the real access-code page (unlocks all 4 exams).
+  // SHA-256 of the normalized (A-Z0-9) Complete-System access code.
+  var COURSE_HASH='853cb5406b42b1422a53831ce38c9f5c39a9730206f2e3cb0f2e8e76cdc9ab54';
+  function normCode(s){return (s||'').toUpperCase().replace(/[^A-Z0-9]/g,'');}
+  function sha256hex(s){return crypto.subtle.digest('SHA-256',new TextEncoder().encode(s)).then(function(h){return Array.prototype.map.call(new Uint8Array(h),function(b){return ('0'+b.toString(16)).slice(-2)}).join('')});}
+  function unlockComplete(code){
+    try{localStorage.setItem('certpath_pmp_access',JSON.stringify({tier:'complete',code:code,ts:Date.now()}));}catch(e){}
+    grant('pmp'); // unlock the 4 full-length exams bank
+    location.href='/pmp-course';
+  }
   document.getElementById('codeForm').addEventListener('submit',function(e){
     e.preventDefault();
-    var code=document.getElementById('codeInput').value.trim().toUpperCase();
-    location.href = code ? '/access?code='+encodeURIComponent(code) : '/access';
+    var raw=document.getElementById('codeInput').value.trim(); if(!raw)return;
+    var btn=this.querySelector('button'), orig=btn.textContent; btn.disabled=true; btn.textContent='Checking…';
+    sha256hex(normCode(raw)).then(function(h){
+      if(h===COURSE_HASH){ unlockComplete(raw.toUpperCase()); }
+      else { location.href='/access?code='+encodeURIComponent(raw.toUpperCase()); } // book access code
+    }).catch(function(){ location.href='/access?code='+encodeURIComponent(raw.toUpperCase()); });
   });
 
   // $49.99 Complete System → Payhip checkout (the button is a real <a href> now,

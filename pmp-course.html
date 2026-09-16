@@ -61,7 +61,13 @@ a{color:var(--gold);text-decoration:none}
 .b-next{background:var(--gold);color:var(--navy-dark)}
 .hint{margin-top:16px;font-size:.85rem;color:var(--gray-300);background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.08);border-radius:10px;padding:12px 14px}
 .hint a{font-weight:700}
-@media(max-width:820px){.course{grid-template-columns:1fr}.side{max-height:none;border-right:0;border-bottom:1px solid rgba(255,255,255,.08)}}
+.resources{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;max-width:900px;margin:0 auto 22px}
+.res{display:flex;align-items:center;gap:12px;background:var(--navy);border:1px solid rgba(255,255,255,.12);border-radius:12px;padding:13px 15px;color:#fff;transition:border-color .15s}
+.res:hover{border-color:var(--gold)}
+.res .ric{font-size:1.45rem;line-height:1}
+.res b{display:block;font-size:.92rem;color:#fff;margin-bottom:1px}
+.res small{color:var(--gray-300);font-size:.74rem}
+@media(max-width:820px){.course{grid-template-columns:1fr}.side{max-height:none;border-right:0;border-bottom:1px solid rgba(255,255,255,.08)}.resources{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
@@ -91,6 +97,11 @@ a{color:var(--gold);text-decoration:none}
 <div id="course" class="course" hidden>
   <aside class="side" id="side"></aside>
   <main class="main">
+    <div class="resources">
+      <a class="res" href="/access"><span class="ric">📝</span><div><b>4 Practice Exams</b><small>720 questions, timed &amp; scored</small></div></a>
+      <a class="res" href="https://pub-cbd025ad91ad4eb69b2842d48ce26fa7.r2.dev/docs/pmp-cheat-sheets.pdf" target="_blank" rel="noopener"><span class="ric">⚡</span><div><b>Visual Cheat Sheets</b><small>4-page quick reference (PDF)</small></div></a>
+      <a class="res" href="https://pub-cbd025ad91ad4eb69b2842d48ce26fa7.r2.dev/docs/pmp-study-guide.pdf" target="_blank" rel="noopener"><span class="ric">📘</span><div><b>Study Guide</b><small>Full PMP guide (PDF)</small></div></a>
+    </div>
     <div class="player">
       <div class="videowrap" id="videoWrap"></div>
       <div class="lesson-head">
@@ -127,19 +138,26 @@ a{color:var(--gold);text-decoration:none}
   var st=access();
   var isComplete = st && st.tier==='complete';
 
-  // ---- unlock via Complete-System license key (validated against Payhip server-side) ----
+  // ---- unlock: Complete-System access code (hashed, client-side) OR Payhip license key (server) ----
+  var COURSE_HASH='853cb5406b42b1422a53831ce38c9f5c39a9730206f2e3cb0f2e8e76cdc9ab54';
+  function normCode(s){return (s||'').toUpperCase().replace(/[^A-Z0-9]/g,'');}
+  function sha256hex(s){return crypto.subtle.digest('SHA-256',new TextEncoder().encode(s)).then(function(h){return Array.prototype.map.call(new Uint8Array(h),function(b){return ('0'+b.toString(16)).slice(-2)}).join('')});}
+  function unlockExams(){try{var u=JSON.parse(localStorage.getItem('certpath_unlocked')||'{"slugs":[],"isAdmin":false}');if(!Array.isArray(u.slugs))u.slugs=[];if(u.slugs.indexOf('pmp')===-1)u.slugs.push('pmp');localStorage.setItem('certpath_unlocked',JSON.stringify(u));}catch(e){}}
   document.getElementById('codeBtn').addEventListener('click',function(e){
     e.preventDefault();
     var c=document.getElementById('codeInput').value.trim();
     if(!c) return;
     var btn=this, orig=btn.textContent; btn.textContent='Checking…';
-    fetch('/api/redeem-course',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({code:c})})
-      .then(function(r){return r.json()})
-      .then(function(d){
-        if(d && d.ok){ setAccess({tier:'complete',code:c,ts:Date.now()}); location.reload(); }
-        else { btn.textContent=orig; alert('That license key could not be verified. Please check the key from your purchase confirmation, or contact support@certpathpublishing.store.'); }
-      })
-      .catch(function(){ btn.textContent=orig; alert('Could not verify right now — please try again in a moment.'); });
+    sha256hex(normCode(c)).then(function(h){
+      if(h===COURSE_HASH){ setAccess({tier:'complete',code:c.toUpperCase(),ts:Date.now()}); unlockExams(); location.reload(); return; }
+      fetch('/api/redeem-course',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({code:c})})
+        .then(function(r){return r.json()})
+        .then(function(d){
+          if(d && d.ok){ setAccess({tier:'complete',code:c,ts:Date.now()}); unlockExams(); location.reload(); }
+          else { btn.textContent=orig; alert('That access code could not be verified. Check the code from your purchase PDF, or contact support@certpathpublishing.store.'); }
+        })
+        .catch(function(){ btn.textContent=orig; alert('Could not verify right now — please try again in a moment.'); });
+    }).catch(function(){ btn.textContent=orig; });
   });
   // demo helper: append ?demo=1 to preview the unlocked course locally
   if(new URLSearchParams(location.search).get('demo')==='1'){ setAccess({tier:'complete',code:'DEMO',ts:Date.now()}); isComplete=true; }
