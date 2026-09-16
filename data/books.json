@@ -731,6 +731,17 @@
       "sequential": true
     },
     {
+      "slug": "pmp-free",
+      "title": "Free PMP Practice Exam",
+      "shortName": "PMP Free",
+      "category": "Project Management",
+      "timeMinutes": 240,
+      "testCount": 1,
+      "totalQuestions": 180,
+      "published": false,
+      "sequential": false
+    },
+    {
       "slug": "pmi-acp",
       "bookCode": "B41",
       "title": "PMI-ACP Exam Prep",
