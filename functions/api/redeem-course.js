@@ -46,3 +46,5 @@ export async function onRequestOptions() {
     },
   });
 }
+
+// redeploy 2026-09-16 to load PAYHIP_API_KEY
