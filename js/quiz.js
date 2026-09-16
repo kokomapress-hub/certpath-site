@@ -499,6 +499,9 @@ function showResults() {
   const elapsedM = Math.floor(elapsedSec / 60);
   const elapsedS = elapsedSec % 60;
   const passed = pct >= 70;
+  // The SAT, PSAT/NMSQT and ACT are scaled admissions tests: they have no pass mark,
+  // so their results talk about accuracy and a score target instead of passing.
+  const noPassMark = /^(sat|psat|act)-math/.test(book.slug || '');
 
   document.getElementById('quizApp').innerHTML = `
     <header class="header">
@@ -536,9 +539,13 @@ function showResults() {
         ${domainBreakdownHTML}
 
         <p style="margin: 1.5rem 0; color: var(--gray-dark);">
-          ${passed
-            ? "You passed! Review the answers below to reinforce your knowledge."
-            : "Below the passing threshold. Review every wrong answer carefully."}
+          ${noPassMark
+            ? (passed
+              ? "Strong accuracy. Review the answers below, and keep working on the domain with your lowest percentage."
+              : "This test has no pass mark - accuracy is what moves your score. Review every wrong answer, starting with your weakest domain.")
+            : (passed
+              ? "You passed! Review the answers below to reinforce your knowledge."
+              : "Below the passing threshold. Review every wrong answer carefully.")}
         </p>
 
         <button class="btn" onclick="showReview()">Review All Answers</button>
