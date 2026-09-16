@@ -1,0 +1,248 @@
+{
+  "slug": "pmp",
+  "title": "PMP Exam Prep — Video Course",
+  "lessonCount": 30,
+  "totalMinutes": 248.1,
+  "lessons": [
+    {
+      "num": "00",
+      "module": "Orientation",
+      "title": "Course orientation & the PMP mindset",
+      "file": "00-orientation/00-course-orientation-and-the-pmp-mindset.mp4",
+      "minutes": 8.0,
+      "youtube": ""
+    },
+    {
+      "num": "01",
+      "module": "People",
+      "title": "Develop a common vision",
+      "file": "01-people/01-develop-a-common-vision.mp4",
+      "minutes": 7.8,
+      "youtube": ""
+    },
+    {
+      "num": "02",
+      "module": "People",
+      "title": "Manage conflicts",
+      "file": "01-people/02-manage-conflicts.mp4",
+      "minutes": 8.5,
+      "youtube": ""
+    },
+    {
+      "num": "03",
+      "module": "People",
+      "title": "Lead the project team",
+      "file": "01-people/03-lead-the-project-team.mp4",
+      "minutes": 9.5,
+      "youtube": ""
+    },
+    {
+      "num": "04",
+      "module": "People",
+      "title": "Engage stakeholders",
+      "file": "01-people/04-engage-stakeholders.mp4",
+      "minutes": 8.1,
+      "youtube": ""
+    },
+    {
+      "num": "05",
+      "module": "People",
+      "title": "Align stakeholder expectations",
+      "file": "01-people/05-align-stakeholder-expectations.mp4",
+      "minutes": 9.2,
+      "youtube": ""
+    },
+    {
+      "num": "06",
+      "module": "People",
+      "title": "Manage stakeholder expectations",
+      "file": "01-people/06-manage-stakeholder-expectations.mp4",
+      "minutes": 8.5,
+      "youtube": ""
+    },
+    {
+      "num": "07",
+      "module": "People",
+      "title": "Help ensure knowledge transfer",
+      "file": "01-people/07-help-ensure-knowledge-transfer.mp4",
+      "minutes": 8.3,
+      "youtube": ""
+    },
+    {
+      "num": "08",
+      "module": "People",
+      "title": "Plan & manage communication",
+      "file": "01-people/08-plan-and-manage-communication.mp4",
+      "minutes": 8.8,
+      "youtube": ""
+    },
+    {
+      "num": "09",
+      "module": "Process",
+      "title": "Develop an integrated project management plan & plan delivery",
+      "file": "02-process/09-develop-an-integrated-project-management-plan-and-plan-delivery.mp4",
+      "minutes": 8.3,
+      "youtube": ""
+    },
+    {
+      "num": "10",
+      "module": "Process",
+      "title": "Develop & manage project scope",
+      "file": "02-process/10-develop-and-manage-project-scope.mp4",
+      "minutes": 7.4,
+      "youtube": ""
+    },
+    {
+      "num": "11",
+      "module": "Process",
+      "title": "Help ensure value based delivery",
+      "file": "02-process/11-help-ensure-value-based-delivery.mp4",
+      "minutes": 8.7,
+      "youtube": ""
+    },
+    {
+      "num": "12",
+      "module": "Process",
+      "title": "Plan & manage resources",
+      "file": "02-process/12-plan-and-manage-resources.mp4",
+      "minutes": 7.6,
+      "youtube": ""
+    },
+    {
+      "num": "13",
+      "module": "Process",
+      "title": "Plan & manage procurement",
+      "file": "02-process/13-plan-and-manage-procurement.mp4",
+      "minutes": 8.9,
+      "youtube": ""
+    },
+    {
+      "num": "14",
+      "module": "Process",
+      "title": "Plan & manage finance",
+      "file": "02-process/14-plan-and-manage-finance.mp4",
+      "minutes": 8.2,
+      "youtube": ""
+    },
+    {
+      "num": "15",
+      "module": "Process",
+      "title": "Plan & optimize quality of products deliverables",
+      "file": "02-process/15-plan-and-optimize-quality-of-products-deliverables.mp4",
+      "minutes": 8.5,
+      "youtube": ""
+    },
+    {
+      "num": "16",
+      "module": "Process",
+      "title": "Plan & manage schedule",
+      "file": "02-process/16-plan-and-manage-schedule.mp4",
+      "minutes": 7.9,
+      "youtube": ""
+    },
+    {
+      "num": "17",
+      "module": "Process",
+      "title": "Evaluate project status",
+      "file": "02-process/17-evaluate-project-status.mp4",
+      "minutes": 8.4,
+      "youtube": ""
+    },
+    {
+      "num": "18",
+      "module": "Process",
+      "title": "Manage project closure",
+      "file": "02-process/18-manage-project-closure.mp4",
+      "minutes": 8.1,
+      "youtube": ""
+    },
+    {
+      "num": "19",
+      "module": "Business Environment",
+      "title": "Define & establish project governance",
+      "file": "03-business-environment/19-define-and-establish-project-governance.mp4",
+      "minutes": 7.1,
+      "youtube": ""
+    },
+    {
+      "num": "20",
+      "module": "Business Environment",
+      "title": "Plan & manage project compliance",
+      "file": "03-business-environment/20-plan-and-manage-project-compliance.mp4",
+      "minutes": 7.8,
+      "youtube": ""
+    },
+    {
+      "num": "21",
+      "module": "Business Environment",
+      "title": "Manage & control changes",
+      "file": "03-business-environment/21-manage-and-control-changes.mp4",
+      "minutes": 8.4,
+      "youtube": ""
+    },
+    {
+      "num": "22",
+      "module": "Business Environment",
+      "title": "Remove impediments & manage issues",
+      "file": "03-business-environment/22-remove-impediments-and-manage-issues.mp4",
+      "minutes": 8.2,
+      "youtube": ""
+    },
+    {
+      "num": "23",
+      "module": "Business Environment",
+      "title": "Plan & manage risk",
+      "file": "03-business-environment/23-plan-and-manage-risk.mp4",
+      "minutes": 7.8,
+      "youtube": ""
+    },
+    {
+      "num": "24",
+      "module": "Business Environment",
+      "title": "Continuous improvement",
+      "file": "03-business-environment/24-continuous-improvement.mp4",
+      "minutes": 7.2,
+      "youtube": ""
+    },
+    {
+      "num": "25",
+      "module": "Business Environment",
+      "title": "Support organizational change",
+      "file": "03-business-environment/25-support-organizational-change.mp4",
+      "minutes": 8.9,
+      "youtube": ""
+    },
+    {
+      "num": "26",
+      "module": "Business Environment",
+      "title": "Evaluate external business environment changes",
+      "file": "03-business-environment/26-evaluate-external-business-environment-changes.mp4",
+      "minutes": 8.2,
+      "youtube": ""
+    },
+    {
+      "num": "27",
+      "module": "Revision",
+      "title": "Formulas & calculation practice",
+      "file": "04-revision/27-formulas-and-calculation-practice.mp4",
+      "minutes": 10.6,
+      "youtube": ""
+    },
+    {
+      "num": "28",
+      "module": "Revision",
+      "title": "Final revision & test day strategy",
+      "file": "04-revision/28-final-revision-and-test-day-strategy.mp4",
+      "minutes": 7.3,
+      "youtube": ""
+    },
+    {
+      "num": "29",
+      "module": "Revision",
+      "title": "Practice exam debrief & remediation",
+      "file": "04-revision/29-practice-exam-debrief-and-remediation.mp4",
+      "minutes": 7.9,
+      "youtube": ""
+    }
+  ]
+}
