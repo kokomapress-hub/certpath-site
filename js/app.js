@@ -146,7 +146,7 @@ function renderUnlockedBooks(books, isAdmin) {
         })()}
       </div>
       ${book.sequential ? `<div class="bcu-seq-note">Tests unlock in order — finish one to open the next.</div>` : ''}
-      <div class="bonus-mount">${bonusSectionHTML(book)}</div>
+      <div class="bonus-mount">${book.slug === 'pmp' ? '' : bonusSectionHTML(book)}</div>
     </div>
   `).join('');
 
@@ -155,7 +155,7 @@ function renderUnlockedBooks(books, isAdmin) {
   if (welcome) {
     welcome.textContent = isAdmin
       ? "Admin access: All 10 books unlocked."
-      : "Your timed practice tests and bonus formula cheat sheet are below.";
+      : "Your timed practice tests are below.";
   }
   wireBonusForms();
 }
