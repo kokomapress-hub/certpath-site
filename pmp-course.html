@@ -57,6 +57,7 @@ a{color:var(--gold);text-decoration:none}
 .lesson-head .tag{font-size:.78rem;color:var(--gold);font-weight:700;text-transform:uppercase;letter-spacing:.05em}
 .lesson-actions{display:flex;gap:10px;margin-top:16px;flex-wrap:wrap}
 .lesson-actions button{font-family:inherit;font-weight:700;font-size:.92rem;padding:11px 20px;border-radius:10px;border:0;cursor:pointer}
+.lesson-actions button:disabled{opacity:.45;cursor:not-allowed}
 .b-done{background:var(--green);color:#fff}.b-done.is{background:rgba(255,255,255,.12);color:#fff}
 .b-next{background:var(--gold);color:var(--navy-dark)}
 .hint{margin-top:16px;font-size:.85rem;color:var(--gray-300);background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.08);border-radius:10px;padding:12px 14px}
@@ -191,8 +192,20 @@ a{color:var(--gold);text-decoration:none}
     function markActive(file){
       [].forEach.call(side.querySelectorAll('.lesson'),function(el){el.classList.toggle('active',el.dataset.file===file)});
     }
+    // A lesson only counts as complete once it has actually been watched
+    // (>=90% of the video reached, or it plays to the end). Navigating or
+    // clicking does NOT mark it complete on its own.
+    var watchedFrac=0;
+    var COMPLETE_AT=0.9;
+    function refreshDoneBtn(l){
+      var db=document.getElementById('doneBtn');
+      var done=!!progress()[l.file];
+      if(done){ db.disabled=false; db.classList.add('is'); db.textContent='✓ Completed'; }
+      else if(watchedFrac>=COMPLETE_AT){ db.disabled=false; db.classList.remove('is'); db.textContent='✓ Mark complete'; }
+      else { db.disabled=true; db.classList.remove('is'); db.textContent='Watch to complete'; }
+    }
     function load(l){
-      cur=l; markActive(l.file);
+      cur=l; watchedFrac=0; markActive(l.file);
       document.getElementById('lTag').textContent=l.module+' · Lesson '+l.num;
       document.getElementById('lTitle').textContent=l.title;
       var wrap=document.getElementById('videoWrap');
@@ -203,26 +216,34 @@ a{color:var(--gold);text-decoration:none}
           wrap.innerHTML='<div class="ph-video"><div class="ic">🎬</div><div><b>'+l.num+' — '+l.title+'</b></div>'+
             '<div style="font-size:.8rem">This lesson could not load.<br>Please refresh, or contact support.</div></div>';
         };
-        v.addEventListener('ended',function(){ setDone(l,true); }); // auto-complete on finish
+        v.addEventListener('timeupdate',function(){
+          if(v.duration){ var f=v.currentTime/v.duration; if(f>watchedFrac){ watchedFrac=f; if(!progress()[l.file]) refreshDoneBtn(l); } }
+        });
+        v.addEventListener('ended',function(){ setDone(l,true); }); // watched to the end
         wrap.innerHTML=''; wrap.appendChild(v);
       } else {
         wrap.innerHTML='<div class="ph-video"><div class="ic">🎬</div><div><b>'+l.num+' — '+l.title+'</b></div>'+
           '<div style="font-size:.8rem">This lesson is being added.<br>Check back shortly.</div></div>';
       }
-      var db=document.getElementById('doneBtn');
-      var isDone=!!progress()[l.file];
-      db.classList.toggle('is',isDone); db.textContent=isDone?'✓ Completed':'✓ Mark complete';
+      refreshDoneBtn(l);
     }
     function setDone(l,val){
       var p=progress(); if(val)p[l.file]=Date.now(); else delete p[l.file]; saveProgress(p);
       var el=side.querySelector('.lesson[data-file="'+l.file+'"]');
       if(el){ el.classList.toggle('done',val); el.querySelector('.tick').textContent=val?'✓':''; }
-      var db=document.getElementById('doneBtn'); db.classList.toggle('is',val); db.textContent=val?'✓ Completed':'✓ Mark complete';
+      if(cur&&cur.file===l.file) refreshDoneBtn(l);
       updateProg();
     }
-    document.getElementById('doneBtn').addEventListener('click',function(){ if(cur) setDone(cur,!progress()[cur.file]); });
+    // Manual "Mark complete" only works once the lesson has been watched (or to un-mark).
+    document.getElementById('doneBtn').addEventListener('click',function(){
+      if(!cur) return;
+      var done=!!progress()[cur.file];
+      if(done){ setDone(cur,false); }        // allow un-marking
+      else if(watchedFrac>=COMPLETE_AT){ setDone(cur,true); }
+    });
+    // Advancing does NOT mark the current lesson complete.
     document.getElementById('nextBtn').addEventListener('click',function(){
-      var i=lessons.indexOf(cur); if(cur&&!progress()[cur.file]) setDone(cur,true);
+      var i=lessons.indexOf(cur);
       load(lessons[(i+1)%lessons.length]);
       document.querySelector('.main').scrollTop=0;
     });
