@@ -155,16 +155,21 @@ function showStartScreen() {
           <h3 style="color: var(--navy); margin-bottom: 0.8rem;">Test Details</h3>
           <p><strong>${test.questions.length}</strong> exam-style questions</p>
           <p><strong>${minutes} minutes</strong> total time</p>
-          <p>Instant scoring with detailed answer explanations</p>
+          <p>${isInstant() ? 'Instant feedback — see the answer &amp; explanation as you go, with a running score' : 'Instant scoring with detailed answer explanations'}</p>
         </div>
 
         <div style="background: #FFF7E0; padding: 1.2rem; border-radius: 6px; border-left: 4px solid var(--gold); margin-bottom: 1.5rem;">
-          <strong style="color: var(--navy);">Important:</strong>
+          <strong style="color: var(--navy);">How it works:</strong>
           <ul style="margin: 0.5rem 0 0 1.2rem; color: var(--gray-dark); font-size: 0.95rem;">
-            <li>The timer starts when you click Begin Test</li>
-            <li>You can navigate between questions freely</li>
-            <li>Test auto-submits when time expires</li>
-            <li>Answers and explanations shown after submission</li>
+            ${isInstant()
+              ? `<li>Pick an answer to <strong>instantly</strong> see if you're right, the correct choice, and a full explanation</li>
+                 <li>Your running <strong>score</strong> shows at the top of the screen</li>
+                 <li>Move through questions freely with Previous / Next</li>
+                 <li>You have ${minutes} minutes; a full breakdown appears when you finish</li>`
+              : `<li>The timer starts when you click Begin Test</li>
+                 <li>You can navigate between questions freely</li>
+                 <li>Test auto-submits when time expires</li>
+                 <li>Answers and explanations shown after submission</li>`}
           </ul>
         </div>
 
@@ -258,7 +263,15 @@ function ensureEnhStyles() {
     .hot-region.wrong{border:3px solid var(--error,#b42318);background:rgba(180,35,24,.12);}
     .rev-block{margin:.4rem 0;}
     .rev-correct ol{margin:.3rem 0 .3rem 1.2rem;}
-    .rev-user{color:var(--gray,#666);font-size:.9rem;margin-top:.3rem;}`;
+    .rev-user{color:var(--gray,#666);font-size:.9rem;margin-top:.3rem;}
+    .choice.correct{border-color:#177245 !important;background:rgba(23,114,69,.10);}
+    .choice.wrong{border-color:#b42318 !important;background:rgba(180,35,24,.08);}
+    .fb-banner{margin:1rem 0 .2rem;padding:.7rem .9rem;border-radius:8px;font-weight:700;font-size:.95rem;}
+    .fb-banner.ok{background:rgba(23,114,69,.12);color:#177245;border:1px solid rgba(23,114,69,.35);}
+    .fb-banner.no{background:rgba(180,35,24,.10);color:#b42318;border:1px solid rgba(180,35,24,.35);}
+    .fb-expl{margin:.55rem 0 0;padding:.8rem .95rem;background:#f7f8fb;border-left:3px solid var(--gold,#DDA63B);border-radius:0 8px 8px 0;font-size:.92rem;line-height:1.55;color:#2a3a53;}
+    .score-chip{background:var(--navy,#1B2A4A);color:#fff;font-weight:700;font-size:.9rem;padding:.35rem .85rem;border-radius:20px;white-space:nowrap;}
+    .score-chip b{color:var(--gold,#FFB800);}`;
   document.head.appendChild(s);
 }
 function seededShuffle(arr, seed) {
@@ -281,10 +294,38 @@ function renderBody(q, selected) {
   if (q.type === 'hotspot') return renderHotspot(q);
   return renderChoices(q, selected);
 }
+// ---- Instant-feedback (study) mode: books.json { instantFeedback:true } ----
+function isInstant() { return !!(bookMeta && bookMeta.instantFeedback); }
+function normAns(v) { return normSet(v || '').split(',').filter(Boolean).sort().join(','); }
+function answerIsCorrect(q) { const u = normAns(answers[q.num]); return u !== '' && u === normAns(q.answer); }
+// A single-answer choice question that has been answered while in instant mode.
+function isRevealed(q) { return isInstant() && !isMulti(q) && q.type !== 'order' && q.type !== 'match' && q.type !== 'hotspot' && answers[q.num] != null; }
+function liveScore() {
+  let c = 0, a = 0;
+  test.questions.forEach(q => { if (answers[q.num] != null) { a++; if (answerIsCorrect(q)) c++; } });
+  return { c, a, t: test.questions.length };
+}
+function instantFeedbackHTML(q) {
+  if (!isRevealed(q)) return '';
+  const ok = answerIsCorrect(q);
+  const corr = normSet(q.answer).split(',').join(', ');
+  const banner = ok
+    ? `<div class="fb-banner ok">&#10003; Correct</div>`
+    : `<div class="fb-banner no">&#10007; Incorrect &mdash; correct answer: ${corr}</div>`;
+  const expl = q.explanation ? `<div class="fb-expl">${q.explanation}</div>` : '';
+  return banner + expl;
+}
 function renderChoices(q, selected) {
+  const reveal = isRevealed(q);
   return `<div class="choices">
     ${q.choices.map((c, i) => {
       const letter = LETTERS[i];
+      if (reveal) {
+        const corr = normSet(q.answer).split(',').includes(letter);
+        const user = normSet(selected).split(',').includes(letter);
+        const cls = corr ? 'choice correct' : (user ? 'choice wrong' : 'choice');
+        return `<div class="${cls}"><span class="letter">${letter}</span><span>${c}</span></div>`;
+      }
       if (isMulti(q)) {
         const sel = normSet(selected).split(',').includes(letter);
         return `<div class="${sel ? 'choice selected' : 'choice'}" onclick="toggleMulti('${letter}')">
@@ -386,6 +427,7 @@ function renderQuiz() {
   document.getElementById('quizApp').innerHTML = `
     <div class="quiz-header">
       <h2>${book.title} <span class="gold">/ Test ${test.testNum}</span></h2>
+      ${isInstant() ? `<div class="score-chip">Score <b>${liveScore().c}</b> / ${liveScore().a}</div>` : ''}
       <div class="timer" id="timer">--:--</div>
     </div>
     <div class="progress-bar"><div class="progress-fill" style="width: ${progress}%"></div></div>
@@ -398,12 +440,13 @@ function renderQuiz() {
         ${qFigure(q)}
         ${multiHint(q)}
         ${renderBody(q, selected)}
+        ${instantFeedbackHTML(q)}
       </div>
 
       <div class="quiz-controls">
         <button class="btn btn-outline" ${currentIdx === 0 ? 'disabled' : ''} onclick="prevQ()">&larr; Previous</button>
         <span style="color: var(--gray); font-size: 0.9rem;">
-          ${Object.keys(answers).length} / ${total} answered
+          ${isInstant() ? `<b style="color:var(--navy)">${liveScore().c}</b> correct &middot; ${liveScore().a} / ${total} answered` : `${Object.keys(answers).length} / ${total} answered`}
         </span>
         ${currentIdx === total - 1
           ? `<button class="btn" onclick="confirmSubmit()">Submit Test</button>`

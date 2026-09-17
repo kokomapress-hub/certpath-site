@@ -728,7 +728,8 @@
       "published": true,
       "paperbackPrice": 19.99,
       "ebookPrice": 9.99,
-      "sequential": true
+      "sequential": true,
+      "instantFeedback": true
     },
     {
       "slug": "pmp-free",
@@ -739,7 +740,8 @@
       "testCount": 1,
       "totalQuestions": 180,
       "published": false,
-      "sequential": false
+      "sequential": false,
+      "instantFeedback": true
     },
     {
       "slug": "pmi-acp",
