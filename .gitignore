@@ -2,3 +2,7 @@
 .claude/
 node_modules/
 *.log
+
+# local working backups of question banks
+data/*.bak-*
+data/*.pre-typeset
