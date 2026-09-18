@@ -14,8 +14,11 @@
 /css/*
   Cache-Control: public, max-age=31536000
 
+# Revalidate JS every load (etag → cheap 304s) so code fixes ship immediately.
+# A year-long immutable TTL here previously froze quiz.js at a pre-instant-feedback
+# build, so answered questions showed no correct/wrong marker or explanation.
 /js/*
-  Cache-Control: public, max-age=31536000
+  Cache-Control: public, max-age=0, must-revalidate
 
 /pdf-organizer/*
   Cache-Control: no-cache, must-revalidate
