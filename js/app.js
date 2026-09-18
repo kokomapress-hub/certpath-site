@@ -46,6 +46,28 @@ function setBonusUnlocked(slug) {
   localStorage.setItem(BONUS_KEY, JSON.stringify(b));
 }
 
+// Owner super code -> also open the paid video courses. On localhost this is immediate
+// (offline review). On the live site the course keys are written ONLY after
+// /api/redeem-course confirms the code against the SUPER_ACCESS_CODE secret, because the
+// adminCode in books.json is public and must never be enough to open a paid product.
+async function grantOwnerCourses(code) {
+  const write = () => {
+    const owner = JSON.stringify({ tier: 'complete', code: 'OWNER', ts: Date.now() });
+    localStorage.setItem('certpath_pmp_access', owner);
+    localStorage.setItem('certpath_capm_access', owner);
+  };
+  try {
+    if (/^(localhost|127\.0\.0\.1)$/.test(location.hostname)) { write(); return true; }
+    const r = await fetch('/api/redeem-course', {
+      method: 'POST', headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ code, superOnly: true }),
+    });
+    const d = await r.json();
+    if (d && d.ok && d.super) { write(); return true; }
+  } catch (e) { /* courses stay locked; tests are still unlocked */ }
+  return false;
+}
+
 async function validateCode(code) {
   const data = await loadBooks();
   const cleanCode = normCode(code);
@@ -63,7 +85,7 @@ async function validateCode(code) {
     const titles = matches.length === 1 ? matches[0].title : `${matches.length} matching books`;
     return { success: true, isAdmin: false, books: matches, message: `Access granted to ${titles}.` };
   }
-  return { success: false, message: "Invalid access code. Please check the code on the last page of your book." };
+  return { success: false, message: "We couldn't verify that code. Check the characters against the last page of your book, or email support@certpathpublishing.store and we'll help." };
 }
 
 function bonusSectionHTML(book) {
@@ -167,10 +189,24 @@ function renderUnlockedBooks(books, isAdmin) {
     }
   } catch (e) {}
 
+  // Owner / course customers: direct links to the video courses from the library.
+  try {
+    const tl2 = document.getElementById('testList');
+    const links = [['certpath_pmp_access', '/pmp-course', 'PMP video course'], ['certpath_capm_access', '/capm-course', 'CAPM video course']]
+      .filter(([k]) => !!JSON.parse(localStorage.getItem(k) || 'null'));
+    if (isAdmin && links.length && tl2 && !document.getElementById('ownerCourses')) {
+      const box = document.createElement('p');
+      box.id = 'ownerCourses';
+      box.style.cssText = 'margin:0 0 1.5rem;display:flex;gap:.75rem;flex-wrap:wrap';
+      box.innerHTML = links.map(([, href, label]) => `<a class="cp-btn cp-btn-navy cp-btn-sm" href="${href}">${label} →</a>`).join('');
+      tl2.insertBefore(box, tl2.firstChild);
+    }
+  } catch (e) {}
+
   const welcome = document.getElementById('welcomeMsg');
   if (welcome) {
     welcome.textContent = isAdmin
-      ? "Admin access: All 10 books unlocked."
+      ? "Owner access: every practice test and both video courses are unlocked."
       : "Your timed practice tests are below.";
   }
   wireBonusForms();
@@ -222,7 +258,22 @@ async function initAccessPage() {
     const errorMsg = document.getElementById('errorMsg');
     errorMsg.classList.remove('show');
 
-    const result = await validateCode(code);
+    // Checking state: keep the typed code visible, block duplicate submits, and
+    // never report a connection failure as an invalid code.
+    const submitBtn = form.querySelector('button[type="submit"]');
+    const submitLabel = submitBtn ? submitBtn.textContent : '';
+    if (submitBtn) { submitBtn.disabled = true; submitBtn.textContent = 'Checking your code…'; }
+    let result;
+    try {
+      result = await validateCode(code);
+    } catch (err) {
+      booksData = null; // allow a clean retry
+      errorMsg.textContent = "We couldn't connect. Your entry is still here — please try again.";
+      errorMsg.classList.add('show');
+      return;
+    } finally {
+      if (submitBtn) { submitBtn.disabled = false; submitBtn.textContent = submitLabel; }
+    }
     if (!result.success) { errorMsg.textContent = result.message; errorMsg.classList.add('show'); return; }
 
     // Email is required for regular book codes (we capture it to MailerLite).
@@ -236,6 +287,7 @@ async function initAccessPage() {
     if (email) setEmail(email);
     const current = getUnlocked();
     if (result.isAdmin) { current.isAdmin = true; current.slugs = result.books.map(b => b.slug); }
+    if (result.isAdmin) await grantOwnerCourses(code);
     else { current.slugs = Array.from(new Set([...current.slugs, ...result.books.map(b => b.slug)])); }
     setUnlocked(current);
 
@@ -246,7 +298,20 @@ async function initAccessPage() {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ email, accessCode: code, book: bookLabel }),
+        keepalive: true, // survives the redirect below
       }).catch(() => {});
+
+      // Each book has its own page (/books/<slug>) that doubles as the owner's
+      // home, so a valid code lands the customer there rather than in the
+      // generic library. ?book= (printed-book links) picks among a shared code's
+      // matches. Books without a dedicated page fall through to the library.
+      try {
+        const pages = await (await fetch('/data/book-pages.json')).json();
+        const wanted = new URLSearchParams(location.search).get('book');
+        const pick = result.books.find(b => b.slug === wanted) || result.books[0];
+        const target = pick && pages[pick.slug];
+        if (target && target.startsWith('/books/')) { location.href = target; return; }
+      } catch (e) { /* fall back to the library below */ }
     }
 
     renderUnlockedBooks(result.books, result.isAdmin);

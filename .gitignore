@@ -6,3 +6,5 @@ node_modules/
 # local working backups of question banks
 data/*.bak-*
 data/*.pre-typeset
+img/photo/_source/
+REVAMP_NOTES.md

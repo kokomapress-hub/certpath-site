@@ -1,0 +1,33 @@
+{
+  "_note": "Exam directory records. One record per exam a visitor would search for. `products` are slugs in books.json (the product source of truth) — titles, covers, links and published state are read from there, never duplicated here. `route` is an existing landing page; null means no hub yet (cards fall back to the free sample + retailer link). `freePractice` is true only where a free practice route is live today.",
+  "categories": [
+    { "id": "project", "label": "Project management & business" },
+    { "id": "trades", "label": "Trades & safety" },
+    { "id": "healthcare", "label": "Healthcare" },
+    { "id": "academic", "label": "Academic & math" }
+  ],
+  "exams": [
+    { "id": "pmp", "acronym": "PMP", "name": "Project Management Professional", "owner": "PMI", "category": "project", "route": "/pmp", "products": ["pmp"], "freePractice": true, "formats": ["Study guide", "Video course", "4 practice exams"], "aliases": ["pmi", "project manager", "pmbok"] },
+    { "id": "capm", "acronym": "CAPM", "name": "Certified Associate in Project Management", "owner": "PMI", "category": "project", "route": "/capm", "products": ["capm"], "freePractice": true, "formats": ["Study guide", "Video course", "5 practice exams"], "aliases": ["pmi", "associate project"] },
+    { "id": "pmi-acp", "acronym": "PMI-ACP", "name": "PMI Agile Certified Practitioner", "owner": "PMI", "category": "project", "route": null, "products": ["pmi-acp"], "freePractice": false, "formats": ["Study guide", "Online practice"], "aliases": ["agile", "acp", "scrum"] },
+    { "id": "cap", "acronym": "CAP", "name": "Certified Administrative Professional", "owner": "IAAP", "category": "project", "route": null, "products": ["cap"], "freePractice": false, "formats": ["Study guide", "Online practice"], "aliases": ["iaap", "administrative", "office"] },
+
+    { "id": "cast", "acronym": "CAST", "name": "Construction and Skilled Trades Selection System", "owner": "EEI", "category": "trades", "route": "/cast", "products": ["cast"], "freePractice": true, "formats": ["Study guide", "Online practice"], "aliases": ["eei", "utility", "lineman", "skilled trades"] },
+    { "id": "poss", "acronym": "POSS", "name": "Plant Operator Selection System", "owner": "EEI", "category": "trades", "route": "/poss", "products": ["poss"], "freePractice": true, "formats": ["Study guide", "Online practice"], "aliases": ["eei", "plant operator", "power plant"] },
+    { "id": "mech-apt", "acronym": "Mechanical Aptitude", "name": "Mechanical aptitude tests — BMCT, Wiesen, Ramsay", "owner": "", "category": "trades", "route": "/mechanical-aptitude", "products": ["mech-apt"], "freePractice": true, "formats": ["Study guide", "Online practice"], "aliases": ["bmct", "bennett", "wiesen", "ramsay", "wtma"] },
+    { "id": "journeyman", "acronym": "Journeyman Electrician", "name": "Journeyman electrician licensing exams — 2026 NEC", "owner": "", "category": "trades", "route": "/journeyman-electrician", "products": ["journeyman-elec"], "freePractice": true, "formats": ["Study guide", "Online practice"], "aliases": ["nec", "electrical", "nfpa 70", "electrician license"] },
+    { "id": "csp", "acronym": "CSP", "name": "Certified Safety Professional", "owner": "BCSP", "category": "trades", "route": "/csp", "products": ["csp"], "freePractice": true, "formats": ["Study guide", "Online practice"], "aliases": ["bcsp", "safety professional", "csp11"] },
+    { "id": "chst", "acronym": "CHST", "name": "Construction Health and Safety Technician", "owner": "BCSP", "category": "trades", "route": "/chst", "products": ["chst"], "freePractice": true, "formats": ["Study guide", "Online practice"], "aliases": ["bcsp", "construction safety"] },
+
+    { "id": "ccrn", "acronym": "CCRN (Adult)", "name": "Critical Care Registered Nurse — Adult", "owner": "AACN", "category": "healthcare", "route": "/ccrn", "products": ["ccrn"], "freePractice": true, "formats": ["Study guide", "Online practice"], "aliases": ["aacn", "critical care", "icu nurse"] },
+    { "id": "cnor", "acronym": "CNOR", "name": "Certified Perioperative Nurse", "owner": "CCI", "category": "healthcare", "route": "/cnor", "products": ["cnor"], "freePractice": false, "formats": ["Study guide", "Online practice"], "aliases": ["cci", "perioperative", "operating room", "or nurse"] },
+    { "id": "cmsrn", "acronym": "CMSRN", "name": "Certified Medical-Surgical Registered Nurse", "owner": "MSNCB", "category": "healthcare", "route": null, "products": ["cmsrn"], "freePractice": false, "formats": ["Practice questions", "Online practice"], "aliases": ["msncb", "med surg", "medical surgical"] },
+
+    { "id": "sat", "acronym": "Digital SAT Math", "name": "Digital SAT — Math section", "owner": "College Board", "category": "academic", "route": "/sat", "products": ["sat-math", "sat-math-workbook", "sat-math-tests"], "freePractice": true, "formats": ["Prep guide", "Workbook", "10 practice tests"], "aliases": ["college board", "sat"] },
+    { "id": "psat", "acronym": "PSAT/NMSQT Math", "name": "Digital PSAT/NMSQT — Math section", "owner": "College Board", "category": "academic", "route": "/psat", "products": ["psat-math", "psat-math-workbook", "psat-math-tests"], "freePractice": true, "formats": ["Prep guide", "Workbook", "10 practice tests"], "aliases": ["national merit", "nmsqt", "psat 10"] },
+    { "id": "act", "acronym": "ACT Math", "name": "Enhanced ACT — Math test", "owner": "ACT", "category": "academic", "route": "/act", "products": ["act-math", "act-math-workbook", "act-math-tests"], "freePractice": true, "formats": ["Prep guide", "Workbook", "10 practice tests"], "aliases": ["enhanced act"] },
+    { "id": "ged", "acronym": "GED Math", "name": "GED Mathematical Reasoning", "owner": "GED Testing Service", "category": "academic", "route": "/ged", "products": ["ged-math", "ged-math-workbook", "ged-math-tests"], "freePractice": true, "formats": ["Prep guide", "Workbook", "10 practice tests"], "aliases": ["high school equivalency", "mathematical reasoning"] },
+    { "id": "tabe", "acronym": "TABE 11 & 12 Math", "name": "Test of Adult Basic Education — Math, Levels E, M, D and A", "owner": "DRC", "category": "academic", "route": "/tabe", "products": ["tabe-a", "tabe-d", "tabe-m", "tabe-e"], "freePractice": true, "formats": ["4 level workbooks", "Online practice"], "aliases": ["adult education", "level a", "level d", "level m", "level e"] },
+    { "id": "asvab", "acronym": "ASVAB Math", "name": "ASVAB — Arithmetic Reasoning & Mathematics Knowledge", "owner": "", "category": "academic", "route": null, "products": ["asvab-math"], "freePractice": false, "formats": ["Prep guide", "Online practice"], "aliases": ["afqt", "military", "arithmetic reasoning"] }
+  ]
+}

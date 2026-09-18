@@ -434,8 +434,8 @@ footer.ft{background:var(--navy-2);color:rgba(255,255,255,.72);padding:64px 0 40
         <p>Take it at a Pearson VUE center or online with a proctor. Arrive early, present photo ID, sign the NDA. Two 10-minute breaks.</p>
       </div>
       <div class="info-cell">
-        <h3><svg viewBox="0 0 24 24"><path d="M4 19V5M4 19h16"/><path class="a" d="M8 15l3-4 3 2 4-6"/></svg> Scoring &amp; retakes</h3>
-        <p>Criterion-based scoring; no published pass mark. Preliminary result at the center, official report in a few days. Up to <b>3 retakes</b> within a year.</p>
+        <h3><svg viewBox="0 0 24 24"><path d="M4 19V5M4 19h16"/><path class="a" d="M8 15l3-4 3 2 4-6"/></svg> Scoring &amp; attempts</h3>
+        <p>Criterion-based scoring; no published pass mark. Preliminary result at the center, official report in a few days. Up to <b>three attempts</b> within your one-year eligibility period.</p>
       </div>
     </div>
   </div>
@@ -525,6 +525,25 @@ footer.ft{background:var(--navy-2);color:rgba(255,255,255,.72);padding:64px 0 40
   // Book owners → the real access-code page (unlocks all 4 exams).
   // SHA-256 of the normalized (A-Z0-9) Complete-System access code.
   var COURSE_HASH='f95267986b16310d4dfddfcc92af15951c3579979cc3a938035a4f861848f1eb';
+
+  // ---- owner super code ------------------------------------------------------
+  // On localhost the super code is checked against its hash so the whole site can be
+  // reviewed offline. On the live site it is only ever verified SERVER-SIDE
+  // (/api/redeem-course compares it with the SUPER_ACCESS_CODE secret in Cloudflare),
+  // so the code that opens the paid course never ships in a public file.
+  var IS_LOCAL=/^(localhost|127\.0\.0\.1)$/.test(location.hostname);
+  var SUPER_HASH='edaf8da41fcc6c2ffa37887f8d97f373b03943207a7580a927eb92ab1834116c';
+  function grantAll(){try{
+    var owner=JSON.stringify({tier:'complete',code:'OWNER',ts:Date.now()});
+    localStorage.setItem('certpath_unlocked',JSON.stringify({slugs:[],isAdmin:true}));
+    localStorage.setItem('certpath_pmp_access',owner);
+    localStorage.setItem('certpath_capm_access',owner);
+  }catch(e){}}
+  function checkSuper(code,hash){
+    if(IS_LOCAL) return Promise.resolve(hash===SUPER_HASH);
+    return fetch('/api/redeem-course',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({code:code,superOnly:true})})
+      .then(function(r){return r.json()}).then(function(d){return !!(d&&d.ok&&d.super)}).catch(function(){return false});
+  }
   function normCode(s){return (s||'').toUpperCase().replace(/[^A-Z0-9]/g,'');}
   function sha256hex(s){return crypto.subtle.digest('SHA-256',new TextEncoder().encode(s)).then(function(h){return Array.prototype.map.call(new Uint8Array(h),function(b){return ('0'+b.toString(16)).slice(-2)}).join('')});}
   function unlockComplete(code){
@@ -537,8 +556,11 @@ footer.ft{background:var(--navy-2);color:rgba(255,255,255,.72);padding:64px 0 40
     var raw=document.getElementById('codeInput').value.trim(); if(!raw)return;
     var btn=this.querySelector('button'), orig=btn.textContent; btn.disabled=true; btn.textContent='Checking…';
     sha256hex(normCode(raw)).then(function(h){
-      if(h===COURSE_HASH){ unlockComplete(raw.toUpperCase()); }
-      else { location.href='/access?code='+encodeURIComponent(raw.toUpperCase()); } // book access code
+      if(h===COURSE_HASH){ unlockComplete(raw.toUpperCase()); return; }
+      checkSuper(raw,h).then(function(isSuper){
+        if(isSuper){ grantAll(); unlockComplete('OWNER'); }
+        else { location.href='/access?code='+encodeURIComponent(raw.toUpperCase()); } // book access code
+      });
     }).catch(function(){ location.href='/access?code='+encodeURIComponent(raw.toUpperCase()); });
   });
 

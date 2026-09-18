@@ -19,21 +19,48 @@
   <link rel="stylesheet" href="/css/style.css?v=10">
   <link rel="stylesheet" href="/css/landing.css?v=1">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is on the journeyman electrician exam?","acceptedAnswer":{"@type":"Answer","text":"Most journeyman exams are open-book and based on the National Electrical Code: wiring and protection, wiring methods and materials, equipment for general use, special occupancies, services and feeders, branch circuits and conductors, motors, and general electrical theory. Many states use the ICC or a state-specific exam of roughly 80 questions in about 4 hours."}},{"@type":"Question","name":"Which NEC edition does the exam use?","acceptedAnswer":{"@type":"Answer","text":"It depends on your state — jurisdictions adopt the NEC on different cycles, so 2017, 2020, 2023, and 2026 are all in use somewhere. Our book is built on the 2026 NEC and includes an edition-comparison guide so you can translate the load-calculation rules back to an earlier code if your state is behind."}},{"@type":"Question","name":"Is the journeyman exam open book?","acceptedAnswer":{"@type":"Answer","text":"Usually yes. That makes code-navigation speed the real skill — knowing exactly which article and table to turn to. Our practice questions train that lookup habit, not just memorization."}},{"@type":"Question","name":"Can I use a calculator?","acceptedAnswer":{"@type":"Answer","text":"Yes, most journeyman exams allow a basic non-programmable calculator for load and conduit-fill calculations. Our book includes worked examples for every common calculation type."}},{"@type":"Question","name":"What is included with the CertPath book?","acceptedAnswer":{"@type":"Answer","text":"A full code-based review, calculation walkthroughs, 3 full-length practice tests, 180+ questions with explanations, and free timed online practice tests via the access code inside."}}]}</script>
+  <!-- premium-shell -->
+  <script>document.documentElement.classList.add('cp-js');setTimeout(function(){if(!window.__cpReady)document.documentElement.classList.remove('cp-js')},2500);</script>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;1,8..60,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/premium.css?v=9">
+  <link rel="stylesheet" href="/css/premium-bridge.css?v=1">
 </head>
-<body>
-  <header class="site-header">
-    <div class="header-inner">
-      <a href="/" class="logo">
-        <svg class="logo-shield" viewBox="0 0 40 40" width="36" height="36" aria-hidden="true"><path fill="#1B2A4A" d="M6 4h22l6 6v20l-14 6L6 30V4z"/><rect x="12" y="14" width="16" height="3" fill="#fff"/><rect x="12" y="20" width="16" height="3" fill="#fff"/></svg>
-        <span class="logo-text">CertPath <span class="gold">Publishing</span></span>
+<body class="cp">
+  <a class="cp-skip" href="#content">Skip to content</a>
+
+  <header class="cp-header">
+    <div class="cp-container cp-header-inner">
+      <a href="/" class="cp-logo" aria-label="CertPath Publishing — home">
+        <svg viewBox="0 0 40 46" width="30" height="35" aria-hidden="true"><path fill="#0E1F3F" d="M3 2h22l13 13v18L20.5 44 3 33z"/><path fill="#fff" d="M7.5 6.5H23V17h10.5v13.6L20.5 38.8 7.5 30.6z"/><path fill="#0E1F3F" d="M12.5 20.5h16v3h-16zM12.5 26.5h15v3h-15z"/></svg>
+        <span class="cp-logo-word">CertPath<small>Publishing</small></span>
       </a>
-      <nav class="nav">
-        <a href="/">Home</a>
-        <a href="/#books">Study Guides</a>
-        <a href="/access" class="btn-nav">Access Tests</a>
+      <nav class="cp-nav" aria-label="Primary">
+        <a href="/exams" data-mega-trigger>Explore exams</a>
+        <a href="/exams?practice=free">Free practice</a>
+        <a href="/#approach">How it works</a>
+        <a href="/blog/">Resources</a>
+        <a href="/access" class="cp-nav-access">Access my tests</a>
       </nav>
+      <button type="button" class="cp-menu-btn" aria-expanded="false" aria-label="Open menu">
+        <svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><path d="M2 5h16M2 10h16M2 15h16" stroke="currentColor" stroke-width="1.75" fill="none"/></svg>
+      </button>
+    </div>
+    <div class="cp-mega" id="cp-mega">
+      <div class="cp-container">
+        <div class="cp-mega-inner"><p><a href="/exams">Browse the full exam directory →</a></p></div>
+        <div class="cp-mega-foot"><span>Only exams with published CertPath titles are listed.</span><a class="cp-textlink" href="/exams">Search the full directory <span class="cp-arrow" aria-hidden="true">→</span></a></div>
+      </div>
     </div>
   </header>
+
+  <div class="cp-drawer" role="dialog" aria-modal="true" aria-label="Menu">
+    <div class="cp-drawer-top"><span class="cp-logo-word">CertPath</span><button type="button" class="cp-drawer-close" aria-label="Close menu">✕</button></div>
+    <a href="/exams">Explore exams <span aria-hidden="true">→</span></a>
+    <a href="/exams?practice=free">Free practice <span aria-hidden="true">→</span></a>
+    <a href="/#approach">How it works <span aria-hidden="true">→</span></a>
+    <a href="/blog/">Resources <span aria-hidden="true">→</span></a>
+    <a href="/access" class="cp-btn cp-btn-primary">Access my tests</a>
+  </div>
 
   <section class="lp-hero">
     <div class="lp-hero-inner">
@@ -108,10 +135,55 @@
     </div>
   </section>
 
-  <footer class="footer">
-    <div class="footer-bottom" style="border: none; padding: 2rem; text-align: center;">
-      <p>&copy; 2026 CertPath Publishing. All rights reserved.</p>
-      <p style="margin-top: 0.5rem; font-size: 0.78rem; opacity: 0.7;">The National Electrical Code (NEC) and NFPA 70 are registered trademarks of the National Fire Protection Association (NFPA). ICC is a trademark of the International Code Council. Neither is affiliated with nor endorses this publication.</p>
+  <footer class="cp-footer">
+    <div class="cp-container cp-footer-grid">
+      <div>
+        <a href="/" class="cp-logo" aria-label="CertPath Publishing — home">
+          <svg viewBox="0 0 40 46" width="30" height="35" aria-hidden="true"><path fill="#fff" d="M3 2h22l13 13v18L20.5 44 3 33z"/><path fill="#081326" d="M7.5 6.5H23V17h10.5v13.6L20.5 38.8 7.5 30.6z"/><path fill="#fff" d="M12.5 20.5h16v3h-16zM12.5 26.5h15v3h-15z"/></svg>
+          <span class="cp-logo-word">CertPath<small>Publishing</small></span>
+        </a>
+        <p class="cp-footer-about">Independent publisher of exam-preparation study guides with online practice tests.</p>
+      </div>
+      <div>
+        <h2>Explore exams</h2>
+        <ul>
+          <li><a href="/exams?category=project">Project management</a></li>
+          <li><a href="/exams?category=trades">Trades &amp; safety</a></li>
+          <li><a href="/exams?category=healthcare">Healthcare</a></li>
+          <li><a href="/exams?category=academic">Academic &amp; math</a></li>
+          <li><a href="/exams">All exams</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Resources</h2>
+        <ul>
+          <li><a href="/exams?practice=free">Free practice</a></li>
+          <li><a href="/blog/">Blog</a></li>
+          <li><a href="/#videos">Video lessons</a></li>
+          <li><a href="https://www.youtube.com/@certpathpublishing" target="_blank" rel="noopener">YouTube channel ↗</a></li>
+          <li><a href="https://www.amazon.com/CertPath-Publishing/e/B0GWVSPBJT" target="_blank" rel="noopener">Amazon author page ↗</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Company</h2>
+        <ul>
+          <li><a href="/#approach">How it works</a></li>
+          <li><a href="/#proof">How the books are made</a></li>
+          <li><a href="mailto:support@certpathpublishing.store">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Support</h2>
+        <ul>
+          <li><a href="/access">Access my tests</a></li>
+          <li><a href="mailto:support@certpathpublishing.store?subject=Help%20with%20my%20access%20code">Help with a code</a></li>
+          <li><a href="mailto:support@certpathpublishing.store?subject=Correction">Report a correction</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="cp-container cp-footer-legal">
+      <p>© 2026 CertPath Publishing. Online practice tests are included with eligible CertPath books; an access code is required.</p>
+      <p>CertPath Publishing is an independent publisher and is not affiliated with or endorsed by any exam owner. PMP, CAPM, PMI-ACP and PMBOK are registered marks of the Project Management Institute, Inc. SAT and PSAT/NMSQT are trademarks of the College Board. ACT, GED, TABE, CCRN, CNOR, CMSRN, CSP, CHST, CAST, POSS and CAP are trademarks of their respective owners.</p>
     </div>
   </footer>
 
@@ -214,6 +286,6 @@
     render();
   })();
   </script>
-  <script src="/js/floating-unlock.js"></script>
+  <script src="/js/premium.js?v=9" defer></script>
 </body>
 </html>

@@ -3,64 +3,147 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Access Practice Tests — CertPath Publishing</title>
+  <title>Access My Practice Tests — CertPath Publishing</title>
+  <meta name="description" content="Enter the access code printed in your CertPath book to open its included online practice tests.">
+  <link rel="icon" type="image/png" href="/img/logo-mark.png">
+  <link rel="canonical" href="https://certpathpublishing.store/access">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="CertPath Publishing">
+  <meta property="og:title" content="Access My Practice Tests — CertPath Publishing">
+  <meta property="og:description" content="Enter the access code printed in your CertPath book to open its included online practice tests.">
+  <meta property="og:url" content="https://certpathpublishing.store/access">
+  <script>document.documentElement.classList.add('cp-js');setTimeout(function(){if(!window.__cpReady)document.documentElement.classList.remove('cp-js')},2500);</script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;1,8..60,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/css/style.css?v=12">
+  <link rel="stylesheet" href="/css/premium.css?v=9">
+  <link rel="stylesheet" href="/css/premium-bridge.css?v=1">
 </head>
-<body>
-  <header class="site-header">
-    <div class="header-inner">
-      <a href="/" class="logo">
-        <svg class="logo-shield" viewBox="0 0 40 40" width="36" height="36" aria-hidden="true"><path fill="#1B2A4A" d="M6 4h22l6 6v20l-14 6L6 30V4z"/><rect x="12" y="14" width="16" height="3" fill="#fff"/><rect x="12" y="20" width="16" height="3" fill="#fff"/></svg>
-        <span class="logo-text">CertPath <span class="gold">Publishing</span></span>
+<body class="cp">
+  <a class="cp-skip" href="#main">Skip to content</a>
+
+  <header class="cp-header">
+    <div class="cp-container cp-header-inner">
+      <a href="/" class="cp-logo" aria-label="CertPath Publishing — home">
+        <svg viewBox="0 0 40 46" width="30" height="35" aria-hidden="true"><path fill="#0E1F3F" d="M3 2h22l13 13v18L20.5 44 3 33z"/><path fill="#fff" d="M7.5 6.5H23V17h10.5v13.6L20.5 38.8 7.5 30.6z"/><path fill="#0E1F3F" d="M12.5 20.5h16v3h-16zM12.5 26.5h15v3h-15z"/></svg>
+        <span class="cp-logo-word">CertPath<small>Publishing</small></span>
       </a>
-      <nav class="nav">
-        <a href="/">Home</a>
-        <a href="/#books">Study Guides</a>
-        <a href="/#cheat-sheets">Cheat Sheets</a>
-        <a href="/blog/">Blog</a>
+      <nav class="cp-nav" aria-label="Primary">
+        <a href="/exams" data-mega-trigger>Explore exams</a>
+        <a href="/exams?practice=free">Free practice</a>
+        <a href="/#approach">How it works</a>
+        <a href="/blog/">Resources</a>
+        <a href="/access" class="cp-nav-access">Access my tests</a>
       </nav>
+      <button type="button" class="cp-menu-btn" aria-expanded="false" aria-label="Open menu">
+        <svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><path d="M2 5h16M2 10h16M2 15h16" stroke="currentColor" stroke-width="1.75" fill="none"/></svg>
+      </button>
+    </div>
+    <div class="cp-mega" id="cp-mega">
+      <div class="cp-container">
+        <div class="cp-mega-inner"><p><a href="/exams">Browse the full exam directory →</a></p></div>
+        <div class="cp-mega-foot"><span>Only exams with published CertPath titles are listed.</span><a class="cp-textlink" href="/exams">Search the full directory <span class="cp-arrow" aria-hidden="true">→</span></a></div>
+      </div>
     </div>
   </header>
 
-  <main class="container" style="padding: 3rem 2rem 5rem;">
-    <div class="form-card">
-      <h2>Unlock Your Practice Tests</h2>
-      <p>Enter the access code from the last page of your CertPath Publishing book.</p>
+  <div class="cp-drawer" role="dialog" aria-modal="true" aria-label="Menu">
+    <div class="cp-drawer-top"><span class="cp-logo-word">CertPath</span><button type="button" class="cp-drawer-close" aria-label="Close menu">✕</button></div>
+    <a href="/exams">Explore exams <span aria-hidden="true">→</span></a>
+    <a href="/exams?practice=free">Free practice <span aria-hidden="true">→</span></a>
+    <a href="/#approach">How it works <span aria-hidden="true">→</span></a>
+    <a href="/blog/">Resources <span aria-hidden="true">→</span></a>
+    <a href="/access" class="cp-btn cp-btn-primary">Access my tests</a>
+  </div>
 
-      <form id="accessForm">
-        <div class="form-group" id="emailGroup">
-          <label for="email">Email Address</label>
-          <input type="email" id="email" placeholder="you@example.com" autocomplete="email">
-          <div class="hint">We'll save your progress and send tips for your exam prep.</div>
-        </div>
-        <div class="form-group">
-          <label for="code">Book Access Code</label>
-          <input type="text" id="code" required placeholder="XXXX-XXXXX-XXXXX" autocomplete="off" style="text-transform: uppercase; font-family: 'SF Mono', Monaco, monospace;">
-          <div class="hint">Found on the last page of your book. Format: XXXX-XXXXX-XXXXX</div>
-        </div>
-        <button type="submit" class="btn btn-block btn-lg">Unlock Practice Tests</button>
-        <div class="message error" id="errorMsg"></div>
-      </form>
+  <main id="main" class="cp-access">
+    <div class="cp-container">
+      <div class="cp-access-panel form-card">
+        <h1>Access your practice tests</h1>
+        <p>Enter the code from your book to open its included practice tests.</p>
+
+        <form id="accessForm" novalidate>
+          <div class="form-group">
+            <label for="code">Book access code</label>
+            <input type="text" id="code" required autocomplete="off" autocapitalize="characters" spellcheck="false" aria-describedby="codeHint errorMsg">
+            <div class="hint" id="codeHint">Printed on the last page of your book — for example <span style="font-family:ui-monospace,Menlo,monospace">CAST-XXXXX-XXXXX</span>. Paste it in; hyphens, spaces and capitals don't matter.</div>
+          </div>
+          <div class="form-group" id="emailGroup">
+            <label for="email">Email address</label>
+            <input type="email" id="email" autocomplete="email" aria-describedby="emailHint">
+            <div class="hint" id="emailHint">Used to register your access. We also send occasional study tips for your exam — unsubscribe any time.</div>
+          </div>
+          <button type="submit" class="btn btn-block btn-lg">Open my practice tests</button>
+          <div class="message error" id="errorMsg" role="alert"></div>
+        </form>
+      </div>
+      <p class="cp-access-help">Can't find your code, or it isn't working? <a href="mailto:support@certpathpublishing.store?subject=Help%20with%20my%20access%20code">Email support</a> — include the book title and we'll sort it out.</p>
     </div>
 
     <div id="testList" style="display: none;">
       <div class="section-header" style="margin: 3rem 0 2rem;">
-        <div class="section-eyebrow">Your Library</div>
-        <h2 id="welcomeTitle">Your Practice Tests</h2>
+        <div class="section-eyebrow">Your library</div>
+        <h2 id="welcomeTitle">Your practice tests</h2>
         <p id="welcomeMsg"></p>
       </div>
       <div class="book-grid" id="unlockedGrid"></div>
     </div>
   </main>
 
-  <footer class="footer">
-    <div class="footer-bottom" style="border: none; padding: 0;">
-      <p>&copy; 2026 CertPath Publishing. Practice tests for verified book owners only.</p>
+  <footer class="cp-footer">
+    <div class="cp-container cp-footer-grid">
+      <div>
+        <a href="/" class="cp-logo" aria-label="CertPath Publishing — home">
+          <svg viewBox="0 0 40 46" width="30" height="35" aria-hidden="true"><path fill="#fff" d="M3 2h22l13 13v18L20.5 44 3 33z"/><path fill="#081326" d="M7.5 6.5H23V17h10.5v13.6L20.5 38.8 7.5 30.6z"/><path fill="#fff" d="M12.5 20.5h16v3h-16zM12.5 26.5h15v3h-15z"/></svg>
+          <span class="cp-logo-word">CertPath<small>Publishing</small></span>
+        </a>
+        <p class="cp-footer-about">Independent publisher of exam-preparation study guides with online practice tests.</p>
+      </div>
+      <div>
+        <h2>Explore exams</h2>
+        <ul>
+          <li><a href="/exams?category=project">Project management</a></li>
+          <li><a href="/exams?category=trades">Trades &amp; safety</a></li>
+          <li><a href="/exams?category=healthcare">Healthcare</a></li>
+          <li><a href="/exams?category=academic">Academic &amp; math</a></li>
+          <li><a href="/exams">All exams</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Resources</h2>
+        <ul>
+          <li><a href="/exams?practice=free">Free practice</a></li>
+          <li><a href="/blog/">Blog</a></li>
+          <li><a href="/#videos">Video lessons</a></li>
+          <li><a href="https://www.youtube.com/@certpathpublishing" target="_blank" rel="noopener">YouTube channel ↗</a></li>
+          <li><a href="https://www.amazon.com/CertPath-Publishing/e/B0GWVSPBJT" target="_blank" rel="noopener">Amazon author page ↗</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Company</h2>
+        <ul>
+          <li><a href="/#approach">How it works</a></li>
+          <li><a href="/#proof">How the books are made</a></li>
+          <li><a href="mailto:support@certpathpublishing.store">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Support</h2>
+        <ul>
+          <li><a href="/access">Access my tests</a></li>
+          <li><a href="mailto:support@certpathpublishing.store?subject=Help%20with%20my%20access%20code">Help with a code</a></li>
+          <li><a href="mailto:support@certpathpublishing.store?subject=Correction">Report a correction</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="cp-container cp-footer-legal">
+      <p>© 2026 CertPath Publishing. Online practice tests are included with eligible CertPath books; an access code is required.</p>
+      <p>CertPath Publishing is an independent publisher and is not affiliated with or endorsed by any exam owner. PMP, CAPM, PMI-ACP and PMBOK are registered marks of the Project Management Institute, Inc. SAT and PSAT/NMSQT are trademarks of the College Board. ACT, GED, TABE, CCRN, CNOR, CMSRN, CSP, CHST, CAST, POSS and CAP are trademarks of their respective owners.</p>
     </div>
   </footer>
 
-  <script src="/js/app.js?v=20260918c"></script>
+  <script src="/js/premium.js?v=9" defer></script>
+  <script src="/js/app.js?v=20260918f"></script>
 </body>
 </html>

@@ -1,0 +1,35 @@
+{
+  "_note": "Only genuine reviews. Each quote is a short, unedited excerpt (capitalisation normalised) from a public Amazon Verified Purchase review, shown with the reviewer's first name + initial and a link to the full review on Amazon. Add new ones the same way: slug (books.json), quote, name, exam, source, date, stars, url.",
+  "reviews": [
+    {
+      "slug": "cnor",
+      "quote": "The book is well laid-out and easy to navigate",
+      "name": "Cassandra B.",
+      "exam": "CNOR Exam Study Guide",
+      "source": "Amazon · Verified Purchase",
+      "date": "2026-07-23",
+      "stars": 5,
+      "url": "https://www.amazon.com/dp/B0HK8CZT2V#customerReviews"
+    },
+    {
+      "slug": "ged-math",
+      "quote": "This book goes right into explaining the stuff I need to know",
+      "name": "Rayne A.",
+      "exam": "GED Math Prep",
+      "source": "Amazon · Verified Purchase",
+      "date": "2026-08-02",
+      "stars": 5,
+      "url": "https://www.amazon.com/dp/B0H2XXSTDL#customerReviews"
+    },
+    {
+      "slug": "chst",
+      "quote": "what I needed to push me over to be able to get that certification",
+      "name": "Faron W.",
+      "exam": "CHST Exam Study Guide",
+      "source": "Amazon · Verified Purchase",
+      "date": "2026-08-06",
+      "stars": 5,
+      "url": "https://www.amazon.com/dp/B0GXJ74XG7#customerReviews"
+    }
+  ]
+}
