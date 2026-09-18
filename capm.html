@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Free CAPM® Practice Exam + Complete Prep System | CertPath Publishing</title>
+<meta name="description" content="Take a free full-length CAPM practice exam (150 questions, timed &amp; scored) aligned to the 2023 CAPM Examination Content Outline. Plus a 50-lesson video course, 750 practice questions and cheat sheets — one-time $39.99.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --navy:#1B2A4A;--navy-2:#101A30;--navy-line:#2A3D63;
+  --gold:#FFB800;--gold-d:#D69A00;
+  --ink:#1B2A4A;--body:#3B4658;--muted:#6B7480;
+  --white:#fff;--paper:#F7F8FB;--line:#E6E9F0;--line-2:rgba(27,42,74,.10);
+  --green:#16A34A;
+  --sh-sm:0 1px 3px rgba(20,35,65,.06);
+  --sh:0 10px 30px rgba(20,35,65,.08);
+  --sh-lg:0 24px 64px rgba(20,35,65,.10);
+  --r:12px;--r-lg:18px;--maxw:1200px;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+[hidden]{display:none!important}
+html{scroll-behavior:smooth}
+body{font-family:Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:var(--white);color:var(--body);
+  font-size:16px;line-height:1.625;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+a{color:var(--navy);text-decoration:none}
+img{max-width:100%;display:block}
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 28px}
+.section{padding:104px 0}
+.section.tight{padding:80px 0}
+.paper{background:var(--paper)}
+.eyebrow{display:inline-block;font-size:12px;line-height:18px;font-weight:700;letter-spacing:.11em;text-transform:uppercase;color:var(--gold-d);margin-bottom:18px}
+h1,h2,h3,h4{color:var(--ink);letter-spacing:-.01em}
+.h2{font-size:40px;line-height:46px;font-weight:800;letter-spacing:-.02em}
+.intro{font-size:18px;line-height:29px;color:var(--muted);max-width:62ch}
+.center{text-align:center}.center .intro{margin-left:auto;margin-right:auto}
+
+/* buttons — two families only */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.5rem;font-weight:700;font-size:16px;line-height:24px;
+  height:54px;padding:0 26px;border-radius:12px;cursor:pointer;border:1.5px solid transparent;transition:transform .12s,box-shadow .15s,background .15s;font-family:inherit;white-space:nowrap}
+.btn:hover{transform:translateY(-1px)}
+.btn-primary{background:var(--gold);color:var(--navy-2);box-shadow:0 8px 22px rgba(255,184,0,.30)}
+.btn-primary:hover{background:#ffc42a}
+.btn-nav{background:var(--navy);color:#fff}
+.btn-nav:hover{background:var(--navy-line);color:#fff}
+.btn-outline{background:#fff;color:var(--navy);border-color:var(--line)}
+.btn-outline:hover{border-color:var(--navy)}
+.btn-block{width:100%}
+.btn-sm{height:44px;font-size:15px;padding:0 18px}
+
+/* ============ HEADER ============ */
+.hdr{background:rgba(255,255,255,.9);backdrop-filter:saturate(160%) blur(10px);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:100}
+.nav{display:flex;align-items:center;gap:20px;height:74px}
+.logo{display:flex;align-items:center;gap:10px}
+.logo img{height:32px;width:auto}
+.logo b{font-weight:800;color:var(--navy);font-size:16px;letter-spacing:.02em}
+.logo b span{color:var(--gold-d)}
+.nav .spacer{margin-left:auto}
+.nav .lnk{font-size:15px;font-weight:600;color:var(--body)}
+.nav .lnk:hover{color:var(--navy)}
+
+/* ============ HERO (bold centered card + confetti) ============ */
+.hero{position:relative;overflow:hidden;background:radial-gradient(1100px 520px at 50% -12%,var(--navy-line) 0%,var(--navy) 46%,var(--navy-2) 100%)}
+.hero .confetti{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}
+.hero .wrap{position:relative;z-index:2;padding:94px 28px 104px;display:flex;justify-content:center}
+.hero-card{background:#fff;border-radius:24px;box-shadow:0 40px 90px rgba(6,12,26,.5);max-width:760px;width:100%;text-align:center;padding:52px 56px 44px}
+.hero-badge{display:inline-block;font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--gold-d);background:#FFF6DE;border:1px solid #F3E2A8;border-radius:999px;padding:6px 14px;margin-bottom:20px}
+.hero-card h1{font-size:52px;line-height:56px;font-weight:800;letter-spacing:-.035em;color:var(--navy)}
+.hero-card .sub{font-size:18px;line-height:28px;color:var(--muted);margin:16px auto 26px;max-width:46ch}
+.hero-form{display:flex;gap:10px;max-width:520px;margin:0 auto}
+.hero-form input{flex:1;height:56px;border:1.5px solid var(--line);border-radius:12px;padding:0 16px;font-size:16px;font-family:inherit;color:var(--ink)}
+.hero-form input:focus{outline:none;border-color:var(--gold)}
+.hero-form .btn{height:56px}
+.proof-row{display:flex;flex-wrap:wrap;gap:8px 20px;justify-content:center;font-size:14px;color:var(--muted);font-weight:500;margin-top:18px}
+.proof-row span{display:inline-flex;align-items:center;gap:7px}
+.proof-row span::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--gold);flex:0 0 6px}
+.gate-note{font-size:13px;color:var(--muted);margin-top:20px}
+.gate-note a{color:var(--navy);font-weight:700}
+.hero-success{display:none}
+.hero.done .hero-form,.hero.done .proof-row,.hero.done .gate-note{display:none}
+.hero.done .hero-success{display:block}
+.hero-success h3{font-size:20px;color:var(--green);margin-bottom:10px}
+
+/* ============ TRUST BAND ============ */
+.trust{background:var(--navy);color:#fff}
+.trust .wrap{padding:34px 28px;display:flex;align-items:center;justify-content:space-between;gap:26px;flex-wrap:wrap}
+.trust .stat{text-align:center;flex:1;min-width:120px}
+.trust .stat b{display:block;font-size:30px;line-height:1;font-weight:800;color:var(--gold)}
+.trust .stat span{font-size:13px;color:rgba(255,255,255,.72);margin-top:6px;display:block}
+.trust .divider{width:1px;height:44px;background:rgba(255,255,255,.14)}
+
+/* ============ WHAT YOU GET / PACKAGE ============ */
+.pkg-card{max-width:1120px;margin:44px auto 0;background:#fff;border:1px solid var(--line-2);border-radius:20px;box-shadow:var(--sh-lg);overflow:hidden;
+  display:grid;grid-template-columns:1fr 480px}
+.pkg-visual{background:linear-gradient(160deg,var(--navy) 0%,var(--navy-2) 100%);padding:22px;display:flex;align-items:center;justify-content:center}
+.pkg-visual img{width:100%;border-radius:14px;box-shadow:0 22px 48px rgba(0,0,0,.4)}
+.pkg-body{padding:44px 42px}
+.pkg-body h3{font-size:24px;font-weight:800;margin-bottom:4px}
+.pkg-body .lead-sm{font-size:15px;color:var(--muted);margin-bottom:22px}
+.pkg-list{list-style:none;display:flex;flex-direction:column;gap:15px;margin-bottom:30px}
+.pkg-list li{display:flex;gap:12px;align-items:flex-start;font-size:15px}
+.pkg-list .ic{width:26px;height:26px;flex:0 0 26px;border-radius:7px;background:var(--paper);display:flex;align-items:center;justify-content:center;color:var(--navy)}
+.pkg-list b{color:var(--navy);font-weight:700}
+.pkg-list span{color:var(--muted);font-size:13.5px;display:block;line-height:1.5}
+.pkg-buy{display:flex;align-items:baseline;gap:10px;margin:6px 0 20px}
+.pkg-buy .price{font-size:54px;line-height:1;font-weight:800;color:var(--navy)}
+.pkg-buy .per{font-size:14px;font-weight:500;color:var(--muted)}
+.assure{display:flex;flex-wrap:wrap;gap:8px 16px;margin-top:14px;font-size:13px;color:var(--muted)}
+.assure span{display:inline-flex;align-items:center;gap:6px}
+.assure span::before{content:"✓";color:var(--green);font-weight:800}
+.quote{max-width:1080px;margin:18px auto 0;font-size:15px;color:var(--body);text-align:center;font-style:italic}
+.quote b{font-style:normal;color:var(--navy)}
+
+/* ============ DOMAIN CARDS ============ */
+.dom-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:44px}
+.dom-card{background:#fff;border:1px solid var(--line);border-radius:16px;padding:30px 28px;box-shadow:var(--sh-sm)}
+.dom-top{display:flex;align-items:center;justify-content:space-between;margin-bottom:16px}
+.dom-top h3{font-size:20px;font-weight:800;color:var(--navy)}
+.dom-chip{background:var(--navy);color:var(--gold);font-size:20px;font-weight:800;border-radius:10px;padding:6px 12px}
+.dom-card ul{list-style:none;display:flex;flex-direction:column;gap:9px}
+.dom-card li{font-size:14.5px;color:var(--body);padding-left:18px;position:relative}
+.dom-card li::before{content:"";position:absolute;left:0;top:9px;width:6px;height:6px;border-radius:50%;background:var(--gold)}
+
+/* ============ COURSE / SYLLABUS ============ */
+.course{background:var(--navy);color:#fff}
+.course .eyebrow{color:var(--gold)}
+.course .h2{color:#fff}
+.course .intro{color:rgba(255,255,255,.72)}
+.course-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:44px;align-items:start;margin-top:40px}
+.course-still{position:relative;border-radius:16px;overflow:hidden;box-shadow:var(--sh-lg);aspect-ratio:16/10}
+.course-still img{width:100%;height:100%;object-fit:cover}
+.course-still::after{content:"";position:absolute;inset:0;background:linear-gradient(transparent 40%,rgba(11,20,37,.55))}
+.course-still .play{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:66px;height:66px;border-radius:50%;background:var(--gold);color:var(--navy-2);display:flex;align-items:center;justify-content:center;font-size:1.5rem;z-index:2;box-shadow:0 10px 30px rgba(0,0,0,.4)}
+.course-still .cap{position:absolute;left:18px;bottom:16px;z-index:2;font-size:13px;color:#fff}
+.course-metrics{display:flex;gap:0;margin-top:20px;border:1px solid rgba(255,255,255,.12);border-radius:12px;overflow:hidden}
+.course-metrics div{flex:1;text-align:center;padding:16px 8px;border-left:1px solid rgba(255,255,255,.12)}
+.course-metrics div:first-child{border-left:0}
+.course-metrics b{display:block;font-size:22px;font-weight:800;color:var(--gold)}
+.course-metrics span{font-size:12px;color:rgba(255,255,255,.65)}
+.syllabus{display:flex;flex-direction:column}
+.syl{display:flex;align-items:center;gap:14px;padding:15px 4px;border-bottom:1px solid rgba(255,255,255,.1)}
+.syl .n{font-size:12px;font-weight:700;color:var(--gold);letter-spacing:.04em;min-width:78px}
+.syl .t{flex:1}
+.syl .t b{font-size:17px;font-weight:700;display:block}
+.syl .t span{font-size:13px;color:rgba(255,255,255,.62)}
+.syl .c{font-size:12.5px;color:rgba(255,255,255,.7);white-space:nowrap}
+
+/* ============ INFO (eligibility) ============ */
+.info-grid{display:grid;grid-template-columns:1fr 1fr;gap:0;margin-top:36px;background:#fff;border:1px solid var(--line);border-radius:16px;overflow:hidden}
+.info-cell{padding:28px 30px;border-right:1px solid var(--line);border-bottom:1px solid var(--line)}
+.info-cell:nth-child(2n){border-right:0}
+.info-cell:nth-last-child(-n+2){border-bottom:0}
+.info-cell h3{font-size:16px;font-weight:700;color:var(--navy);margin-bottom:10px;display:flex;align-items:center;gap:9px}
+.info-cell h3 svg{width:20px;height:20px;stroke:var(--navy);fill:none;stroke-width:1.7}
+.info-cell h3 svg .a{stroke:var(--gold-d)}
+.info-cell p,.info-cell li{font-size:15px;color:var(--body)}
+.info-cell ul{margin:8px 0 0 18px}.info-cell li{margin:5px 0}
+.info-cell .fee{display:flex;justify-content:space-between;padding:7px 0;border-bottom:1px solid var(--line);font-size:15px}
+.info-cell .fee b{color:var(--navy)}
+
+/* ============ FAQ ============ */
+.faq{max-width:800px;margin:36px auto 0}
+.faq details{border-bottom:1px solid var(--line)}
+.faq summary{padding:20px 4px;font-size:18px;font-weight:650;font-weight:600;color:var(--navy);cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;gap:16px}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary .pm{transition:transform .2s;color:var(--gold-d);font-size:1.4rem;line-height:1}
+.faq details[open] summary .pm{transform:rotate(45deg)}
+.faq details p{padding:0 4px 22px;color:var(--body);font-size:15.5px;max-width:70ch}
+.faq-cta{text-align:center;margin-top:40px}
+
+/* ============ AUTHOR ============ */
+.author{background:var(--paper);border-top:1px solid var(--line)}
+.author .wrap{padding:44px 28px;display:flex;gap:22px;align-items:center;max-width:900px}
+.author .av{width:76px;height:76px;flex:0 0 76px;border-radius:50%;background:var(--navy);border:3px solid var(--gold);color:#fff;display:flex;align-items:center;justify-content:center;font-size:26px;font-weight:800}
+.author b{color:var(--navy);font-size:17px}
+.author .role{font-size:13px;color:var(--gold-d);font-weight:700;text-transform:uppercase;letter-spacing:.05em;margin:2px 0 8px}
+.author p{font-size:15px;color:var(--body)}
+.author a{font-weight:700;color:var(--navy)}
+
+/* ============ FOOTER ============ */
+footer.ft{background:var(--navy-2);color:rgba(255,255,255,.72);padding:64px 0 40px;font-size:14px}
+.ft-top{display:flex;justify-content:space-between;gap:40px;flex-wrap:wrap}
+.ft-brand{max-width:280px}
+.ft-brand .lg{display:flex;align-items:center;gap:9px;color:#fff;font-weight:800;margin-bottom:12px}
+.ft-brand .lg img{height:28px}
+.ft-brand p{font-size:13.5px;color:rgba(255,255,255,.6)}
+.ft-cols{display:flex;gap:56px;flex-wrap:wrap}
+.ft-col h5{color:#fff;font-size:13px;text-transform:uppercase;letter-spacing:.06em;margin-bottom:14px}
+.ft-col a{display:block;color:rgba(255,255,255,.7);margin-bottom:9px;font-size:14px}
+.ft-col a:hover{color:var(--gold)}
+.ft-legal{margin-top:36px;padding-top:22px;border-top:1px solid rgba(255,255,255,.1);font-size:12.5px;color:rgba(255,255,255,.45);line-height:1.7}
+
+/* proof / authority band */
+.proof-band .grid{display:grid;grid-template-columns:repeat(4,1fr);gap:22px;margin-top:44px}
+.proof-item{text-align:left}
+.proof-item .ic{width:46px;height:46px;border-radius:12px;background:var(--paper);display:flex;align-items:center;justify-content:center;margin-bottom:14px;font-size:1.25rem}
+.proof-item b{display:block;color:var(--navy);font-size:16px;margin-bottom:6px}
+.proof-item p{font-size:14px;line-height:1.55;color:var(--muted)}
+.proof-author{display:flex;align-items:center;gap:14px;justify-content:center;margin-top:44px;padding-top:30px;border-top:1px solid var(--line)}
+.proof-author .av{width:56px;height:56px;flex:0 0 56px;border-radius:50%;background:var(--navy);border:2px solid var(--gold);color:#fff;display:flex;align-items:center;justify-content:center;font-weight:800}
+.proof-author b{color:var(--navy);font-size:15px}
+.proof-author span{font-size:13px;color:var(--muted)}
+
+@media(max-width:960px){
+  .section{padding:76px 0}
+  .proof-band .grid{grid-template-columns:1fr 1fr}
+  .pkg-card{grid-template-columns:1fr}
+  .hero .wrap{padding:56px 20px 64px}
+  .hero-card{padding:38px 26px 34px}
+  .hero-card h1{font-size:36px;line-height:40px}
+  .hero-form{flex-direction:column}
+  .h2{font-size:32px;line-height:38px}
+  .pkg-card{grid-template-columns:1fr}.pkg-visual{padding:24px}
+  .dom-grid,.info-grid{grid-template-columns:1fr}
+  .info-cell{border-right:0}
+  .course-grid{grid-template-columns:1fr}
+  .nav .lnk{display:none}
+}
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="hdr">
+  <div class="wrap nav">
+    <a class="logo" href="https://certpathpublishing.store"><img src="https://certpathpublishing.store/img/logo.png" alt="CertPath Publishing"><b>CERTPATH <span>PUBLISHING</span></b></a>
+    <span class="spacer"></span>
+    <a class="lnk" href="#outline">Exam Guide</a>
+    <a class="lnk" href="#system">Prep System</a>
+    <a class="lnk" href="#faq">FAQ</a>
+    <a class="btn btn-primary btn-sm" href="#free">Start Free Exam</a>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="free">
+  <svg class="confetti" viewBox="0 0 1440 750" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+       fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.9">
+    <!-- left cluster -->
+    <polygon points="120,150 172,242 68,242" stroke="#FFB800" stroke-width="5"/>
+    <circle cx="250" cy="342" r="26" stroke="#6EA8FF" stroke-width="5"/>
+    <path d="M100 470h34M117 453v34" stroke="#37C2B8" stroke-width="5"/>
+    <polyline points="60,610 100,568 140,610 180,568 220,610" stroke="#FFB800" stroke-width="5"/>
+    <circle cx="300" cy="176" r="9" fill="#FF7A6B"/>
+    <circle cx="188" cy="98" r="16" stroke="#FFB800" stroke-width="4"/>
+    <circle cx="60" cy="300" r="7" fill="#FFB800"/>
+    <circle cx="330" cy="470" r="7" fill="#6EA8FF"/>
+    <!-- right cluster -->
+    <polygon points="1322,176 1374,268 1270,268" stroke="#FF7A6B" stroke-width="5"/>
+    <circle cx="1152" cy="150" r="28" stroke="#FFB800" stroke-width="5"/>
+    <path d="M1366 300h34M1383 283v34" stroke="#6EA8FF" stroke-width="5"/>
+    <polyline points="1200,612 1240,570 1280,612 1320,570 1360,612" stroke="#37C2B8" stroke-width="5"/>
+    <circle cx="1120" cy="448" r="9" fill="#FFB800"/>
+    <circle cx="1392" cy="560" r="7" fill="#FFB800"/>
+    <circle cx="1300" cy="452" r="40" stroke="#FFB800" stroke-width="4" opacity="0.55"/>
+    <circle cx="1244" cy="120" r="8" fill="#6EA8FF"/>
+    <!-- top accents -->
+    <circle cx="690" cy="46" r="6" fill="#FFB800"/>
+    <path d="M760 40l14 14M774 40l-14 14" stroke="#FF7A6B" stroke-width="4"/>
+  </svg>
+
+  <div class="wrap">
+    <div class="hero-card">
+      <span class="hero-badge">CAPM® Certification · 2023 ECO</span>
+      <h1>Free CAPM Practice Exam</h1>
+      <p class="sub">Prepare with realistic, exam-aligned questions — full-length, timed and auto-scored. Free, instant, no credit card.</p>
+      <form class="hero-form" id="emailForm">
+        <input type="email" id="emailInput" placeholder="Enter your email" required autocomplete="email">
+        <button class="btn btn-primary" type="submit">Start Free CAPM Exam →</button>
+      </form>
+      <div class="proof-row">
+        <span>150 questions</span><span>Timed &amp; scored</span><span>Detailed explanations</span><span>No credit card</span>
+      </div>
+      <div class="gate-note">Already own the CertPath CAPM book? <a href="#owner">Unlock all 5 exams →</a></div>
+      <div class="hero-success">
+        <h3>✓ Exam 1 unlocked</h3>
+        <p style="font-size:14px;color:var(--muted);margin-bottom:14px">Your free full-length practice exam is ready.</p>
+        <a class="btn btn-nav btn-block" href="#" id="startFreeBtn" style="max-width:340px;margin:0 auto">Start Practice Exam 1 →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TRUST BAND -->
+<section class="trust">
+  <div class="wrap">
+    <div class="stat"><b>2023</b><span>CAPM ECO aligned</span></div>
+    <div class="divider"></div>
+    <div class="stat"><b>750</b><span>Exam-style questions</span></div>
+    <div class="divider"></div>
+    <div class="stat"><b>50</b><span>Video lessons</span></div>
+    <div class="divider"></div>
+    <div class="stat"><b>4</b><span>Exam domains</span></div>
+    <div class="divider"></div>
+    <div class="stat"><b>5</b><span>Full-length exams</span></div>
+  </div>
+</section>
+
+<!-- BOOK OWNER (Door 1) -->
+<section class="section tight paper" id="owner">
+  <div class="wrap center">
+    <span class="eyebrow">Already purchased?</span>
+    <h2 class="h2">Enter your access code</h2>
+    <p class="intro">Bought the CAPM Complete System or a CertPath CAPM book? Enter your access code to unlock your videos, practice exams, cheat sheets and study guide.</p>
+    <form id="codeForm" style="display:flex;gap:10px;max-width:460px;margin:26px auto 0">
+      <input type="text" id="codeInput" placeholder="CAPM-XXXXX-XXXXX" autocomplete="off" style="flex:1;height:54px;border:1.5px solid var(--line);border-radius:12px;padding:0 16px;font-size:16px;font-family:inherit;text-transform:uppercase">
+      <button class="btn btn-nav" type="submit">Unlock</button>
+    </form>
+    <p style="font-size:13px;color:var(--muted);margin-top:14px">Complete System buyers: your code is in the PDF you downloaded after checkout. Book buyers: it's on the last page of your book.</p>
+  </div>
+</section>
+
+<!-- WHAT YOU GET / $39.99 (Door 3) -->
+<section class="section" id="system">
+  <div class="wrap center">
+    <span class="eyebrow">The complete CAPM system</span>
+    <h2 class="h2">Everything you need to pass — one price.</h2>
+    <p class="intro">The 50-lesson video course, 750 practice questions, cheat sheets and study guide. One payment, lifetime access — no subscription.</p>
+  </div>
+  <div class="pkg-card">
+    <div class="pkg-body">
+      <h3>CertPath CAPM Complete System</h3>
+      <div class="lead-sm">Built to the July 2023 CAPM Examination Content Outline.</div>
+      <ul class="pkg-list">
+        <li><div class="ic">🎬</div><div><b>50-lesson video course</b><span>Every CAPM domain explained — fundamentals, predictive, agile and business analysis, plus worked calculations and test-day strategy.</span></div></li>
+        <li><div class="ic">📝</div><div><b>5 full-length exams — 750 questions</b><span>Timed, auto-scored, detailed explanations, and detailed rationale for every question.</span></div></li>
+        <li><div class="ic">⚡</div><div><b>Visual cheat sheets</b><span>Formulas, ITTOs and framework maps for fast final revision.</span></div></li>
+        <li><div class="ic">📘</div><div><b>Study guide (PDF)</b><span>The full CertPath guide to read, mark up and search on any device.</span></div></li>
+      </ul>
+      <div class="pkg-buy"><span class="price">$39.99</span><span class="per">one-time · lifetime access</span></div>
+      <a class="btn btn-primary" href="https://payhip.com/b/CAPMPLACEHOLDER" id="buyBtn" target="_blank" rel="noopener" style="min-width:280px">Get the Complete CAPM System →</a>
+      <div class="assure"><span>Instant access</span><span>Lifetime access</span><span>Secure checkout</span></div>
+    </div>
+    <div class="pkg-visual"><img src="img/capm-product-hero.png" alt="CertPath CAPM Complete System — course, exams, cheat sheets and study guide"></div>
+  </div>
+  <p class="quote">“The questions felt exactly like the real thing — the explanations are what made the difference.” — <b>a recent CertPath reader</b></p>
+</section>
+
+<!-- COURSE / SYLLABUS -->
+<section class="course section" id="course">
+  <div class="wrap">
+    <span class="eyebrow">Inside the video course</span>
+    <h2 class="h2">50 focused lessons. Every domain on the exam.</h2>
+    <p class="intro">Short, exam-focused lessons (~8 minutes each) that walk through the concepts and answer approach for all four CAPM domains.</p>
+    <div class="course-grid">
+      <div>
+        <div class="course-still">
+          <img src="img/capm-lesson-still.jpg" alt="Sample CAPM video lesson — Scheduling & the Critical Path Method">
+          <div class="play">▶</div>
+          <div class="cap">Lesson 24 — Scheduling &amp; the Critical Path Method</div>
+        </div>
+        <div class="course-metrics">
+          <div><b>50</b><span>lessons</span></div>
+          <div><b>6.7 hrs</b><span>instruction</span></div>
+          <div><b>4</b><span>Domains</span></div>
+        </div>
+      </div>
+      <div class="syllabus">
+        <div class="syl"><div class="n">MODULE 01</div><div class="t"><b>Fundamentals &amp; Core Concepts</b><span>Projects &amp; life cycles, roles, ethics, planning basics, risk &amp; stakeholder registers, closure</span></div><div class="c">20 lessons</div></div>
+        <div class="syl"><div class="n">MODULE 02</div><div class="t"><b>Predictive Methodologies</b><span>Process groups, WBS, critical path, EVM basics, quality, integration &amp; change control</span></div><div class="c">8 lessons</div></div>
+        <div class="syl"><div class="n">MODULE 03</div><div class="t"><b>Agile Frameworks</b><span>Adaptive mindset, iterations, Scrum, Kanban/XP/SAFe, backlogs, adaptive tracking</span></div><div class="c">8 lessons</div></div>
+        <div class="syl"><div class="n">MODULE 04</div><div class="t"><b>Business Analysis &amp; Revision</b><span>Elicitation, requirements, RTM, prioritization, roadmaps, plus worked calcs &amp; final revision</span></div><div class="c">14 lessons</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROOF / AUTHORITY BAND -->
+<section class="section proof-band">
+  <div class="wrap center">
+    <span class="eyebrow">Why candidates trust CertPath</span>
+    <h2 class="h2">Built to be trusted, not just sold.</h2>
+    <p class="intro">No repackaged old-edition content, no filler. Every question and lesson is written to the current exam and checked for accuracy.</p>
+    <div class="grid">
+      <div class="proof-item"><div class="ic">🎯</div><b>Written to the 2023 ECO</b><p>Mapped 1:1 to the current CAPM Examination Content Outline — the exam PMI gives today.</p></div>
+      <div class="proof-item"><div class="ic">🔍</div><b>Independently verified</b><p>Answer keys and explanations reviewed for accuracy, with balanced answer distribution.</p></div>
+      <div class="proof-item"><div class="ic">🧩</div><b>Blueprint-mapped</b><p>Every item mapped to the four current CAPM domains — the way the exam actually tests you.</p></div>
+      <div class="proof-item"><div class="ic">♾️</div><b>Yours for good</b><p>One payment, lifetime access on any device. No subscription and no expiry.</p></div>
+    </div>
+    <div class="proof-author">
+      <div class="av">PC</div>
+      <div style="text-align:left"><b>Created by Prasad Chandrasekaran, Founder — CertPath Publishing</b><br><span>An independent exam-prep publisher writing to the current official outline.</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- EXAM OUTLINE -->
+<section class="section paper" id="outline">
+  <div class="wrap center">
+    <span class="eyebrow">CAPM exam outline — 2023</span>
+    <h2 class="h2">What's actually on the CAPM exam</h2>
+    <p class="intro">150 questions in about 3 hours (180 minutes) — across the four current CAPM domains:</p>
+    <div class="dom-grid" style="text-align:left">
+      <div class="dom-card">
+        <div class="dom-top"><h3>Fundamentals &amp; Core Concepts</h3><div class="dom-chip">36%</div></div>
+        <ul><li>Projects, programs &amp; portfolios</li><li>Life cycles &amp; development approaches</li><li>Roles, ethics &amp; stakeholders</li><li>Planning basics &amp; artifacts</li><li>Issues, risks, assumptions &amp; constraints</li></ul>
+      </div>
+      <div class="dom-card">
+        <div class="dom-top"><h3>Predictive Methodologies</h3><div class="dom-chip">17%</div></div>
+        <ul><li>Process groups &amp; components</li><li>WBS &amp; work packages</li><li>Critical path &amp; scheduling</li><li>Cost/schedule variance (EVM)</li><li>Integration &amp; change control</li></ul>
+      </div>
+      <div class="dom-card">
+        <div class="dom-top"><h3>Agile Frameworks</h3><div class="dom-chip">20%</div></div>
+        <ul><li>Adaptive mindset &amp; when it fits</li><li>Iterative vs incremental</li><li>Scrum, Kanban, XP &amp; SAFe</li><li>Backlogs &amp; adaptive artifacts</li><li>Adaptive tracking</li></ul>
+      </div>
+      <div class="dom-card">
+        <div class="dom-top"><h3>Business Analysis</h3><div class="dom-chip">27%</div></div>
+        <ul><li>Elicitation techniques</li><li>Requirement types &amp; documentation</li><li>Traceability matrix &amp; backlog</li><li>Prioritization (MoSCoW)</li><li>Roadmaps &amp; validation</li></ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ELIGIBILITY -->
+<section class="section" id="requirements">
+  <div class="wrap">
+    <div class="center"><span class="eyebrow">Before you apply</span><h2 class="h2">Eligibility, fees &amp; test day</h2></div>
+    <div class="info-grid">
+      <div class="info-cell">
+        <h3><svg viewBox="0 0 24 24"><path d="M12 4 22 9l-10 5L2 9Z"/><path class="a" d="M6.5 11v4c0 1.3 2.5 2.5 5.5 2.5s5.5-1.2 5.5-2.5v-4"/></svg> Eligibility</h3>
+        <p>Meet <b>one</b> of these, plus <b>35 hours of PM education</b> (or a current CAPM):</p>
+        <ul><li>Four-year degree + 36 months leading projects</li><li>High-school / associate degree + 60 months leading projects</li></ul>
+      </div>
+      <div class="info-cell">
+        <h3><svg viewBox="0 0 24 24"><rect x="3" y="6" width="18" height="12" rx="2"/><path class="a" d="M3 10h18"/></svg> Fees &amp; registration</h3>
+        <div class="fee"><span>PMI member</span><b>$425</b></div>
+        <div class="fee"><span>Non-member</span><b>$675</b></div>
+        <p style="margin-top:10px;font-size:14px;color:var(--muted)">Apply on the PMI website with proof of eligibility.</p>
+      </div>
+      <div class="info-cell">
+        <h3><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="13" rx="2"/><path class="a" d="M9 21h6M12 17v4"/></svg> Test day</h3>
+        <p>Take it at a Pearson VUE center or online with a proctor. Arrive early, present photo ID, sign the NDA. Two 10-minute breaks.</p>
+      </div>
+      <div class="info-cell">
+        <h3><svg viewBox="0 0 24 24"><path d="M4 19V5M4 19h16"/><path class="a" d="M8 15l3-4 3 2 4-6"/></svg> Scoring &amp; retakes</h3>
+        <p>Criterion-based scoring; no published pass mark. Preliminary result at the center, official report in a few days. Up to <b>3 retakes</b> within a year.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="section paper" id="faq">
+  <div class="wrap center">
+    <span class="eyebrow">Questions</span>
+    <h2 class="h2">CAPM exam FAQ</h2>
+    <div class="faq" style="text-align:left">
+      <details open><summary>Is the free CAPM practice exam really free? <span class="pm">+</span></summary><p>Yes. Enter your email and you'll unlock a full-length, 150-question practice exam — timed, auto-scored, with explanations. No card, no trial. The other four exams and the video course are part of the $39.99 Complete System.</p></details>
+      <details><summary>How many questions is the real CAPM exam? <span class="pm">+</span></summary><p>150 questions in about 3 hours (180 minutes). CAPM is a knowledge-based exam — no eligibility hours of project experience required, just 23 hours of project management education.</p></details>
+      <details><summary>Is this aligned to the current (2023) exam? <span class="pm">+</span></summary><p>Yes — everything maps 1:1 to the current CAPM Examination Content Outline: Project Management Fundamentals &amp; Core Concepts 36%, Predictive Plan-Based Methodologies 17%, Agile Frameworks 20%, and Business Analysis Frameworks 27%.</p></details>
+      <details><summary>I bought the CertPath CAPM book — how do I get my tests? <span class="pm">+</span></summary><p>Use the access code printed on the last page in the "Already purchased?" box above — it unlocks all five practice exams free. The $39.99 system adds the 50-lesson video course on top.</p></details>
+      <details><summary>What do I get for $39.99? <span class="pm">+</span></summary><p>The 50-lesson video course, all five full-length exams (750 questions), the visual cheat sheets and the study-guide PDF — one payment, lifetime access, no subscription.</p></details>
+    </div>
+    <div class="faq-cta"><a class="btn btn-primary" href="#free">Start your free CAPM exam →</a></div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="ft">
+  <div class="wrap">
+    <div class="ft-top">
+      <div class="ft-brand">
+        <div class="lg"><img src="https://certpathpublishing.store/img/logo.png" alt="">CERTPATH PUBLISHING</div>
+        <p>Study guides + realistic online practice for certification, licensing and professional exams.</p>
+      </div>
+      <div class="ft-cols">
+        <div class="ft-col"><h5>Product</h5><a href="#free">Free Exam</a><a href="#system">Complete System</a><a href="#course">Video Course</a><a href="#outline">Exam Guide</a></div>
+        <div class="ft-col"><h5>Support</h5><a href="#owner">Redeem Book Code</a><a href="#faq">FAQ</a><a href="https://certpathpublishing.store">CertPath Home</a></div>
+        <div class="ft-col"><h5>Contact</h5><a href="mailto:support@certpathpublishing.store">support@certpathpublishing.store</a></div>
+      </div>
+    </div>
+    <div class="ft-legal">CAPM and PMI are registered marks of the Project Management Institute, Inc. CertPath Publishing is an independent publisher and is not affiliated with or endorsed by PMI. Practice materials are for exam preparation only. © 2026 CertPath Publishing.</div>
+  </div>
+</footer>
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"Is the free CAPM practice exam really free?","acceptedAnswer":{"@type":"Answer","text":"Yes. Enter your email to unlock a full-length 150-question practice exam — timed, auto-scored, with explanations. No card required."}},
+{"@type":"Question","name":"How many questions is the CAPM exam?","acceptedAnswer":{"@type":"Answer","text":"150 questions in about 3 hours (180 minutes). CAPM is knowledge-based and needs 23 hours of project management education, not project experience."}},
+{"@type":"Question","name":"What do I get for $39.99?","acceptedAnswer":{"@type":"Answer","text":"A 50-lesson video course, five full-length practice exams (750 questions), visual cheat sheets, and the study-guide PDF — one payment, lifetime access."}}
+]}
+</script>
+
+<script>
+(function(){
+  // ---- Access model -------------------------------------------------------
+  // Free online leads unlock ONLY Exam 1 (the "pmp-free" bank).
+  // Book owners enter their printed code at /access, which unlocks all 4
+  // exams (the "pmp" bank). The quiz engine gates on localStorage.certpath_unlocked.
+  var UNLOCK_KEY='certpath_unlocked';
+  var FREE_SLUG='capm-free';
+  var FREE_QUIZ='/quiz?book='+FREE_SLUG+'&test=1';
+  var CHECKOUT='https://payhip.com/b/CAPMPLACEHOLDER';   // CAPM Complete System — $39.99
+
+  function getUnlocked(){
+    try{return JSON.parse(localStorage.getItem(UNLOCK_KEY)||'{"slugs":[],"isAdmin":false}');}
+    catch(e){return {slugs:[],isAdmin:false};}
+  }
+  function grant(slug){
+    var u=getUnlocked();
+    if(!Array.isArray(u.slugs)) u.slugs=[];
+    if(u.slugs.indexOf(slug)===-1) u.slugs.push(slug);
+    try{localStorage.setItem(UNLOCK_KEY,JSON.stringify(u));}catch(e){}
+  }
+  function hasFree(){ return getUnlocked().slugs.indexOf(FREE_SLUG)!==-1; }
+
+  var hero=document.querySelector('.hero');
+
+  // Free Exam 1 — capture the lead, unlock the free bank, reveal the start button.
+  document.getElementById('emailForm').addEventListener('submit',function(e){
+    e.preventDefault();
+    var email=document.getElementById('emailInput').value.trim(); if(!email)return;
+    var btn=this.querySelector('button'); if(btn){btn.disabled=true;btn.textContent='Unlocking…';}
+    // Capture to MailerLite (no-ops server-side if keys aren't configured).
+    fetch('/api/subscribe',{method:'POST',headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({email:email,book:FREE_SLUG})}).catch(function(){});
+    grant(FREE_SLUG);
+    try{localStorage.setItem('certpath_capm_email',email);}catch(e){}
+    hero.classList.add('done');
+    document.getElementById('startFreeBtn').setAttribute('href',FREE_QUIZ);
+  });
+
+  // Book owners → the real access-code page (unlocks all 4 exams).
+  // SHA-256 of the normalized (A-Z0-9) Complete-System access code.
+  var COURSE_HASH='f95267986b16310d4dfddfcc92af15951c3579979cc3a938035a4f861848f1eb';
+  function normCode(s){return (s||'').toUpperCase().replace(/[^A-Z0-9]/g,'');}
+  function sha256hex(s){return crypto.subtle.digest('SHA-256',new TextEncoder().encode(s)).then(function(h){return Array.prototype.map.call(new Uint8Array(h),function(b){return ('0'+b.toString(16)).slice(-2)}).join('')});}
+  function unlockComplete(code){
+    try{localStorage.setItem('certpath_capm_access',JSON.stringify({tier:'complete',code:code,ts:Date.now()}));}catch(e){}
+    grant('capm'); // unlock the 5 full-length exams bank
+    location.href='/capm-course';
+  }
+  document.getElementById('codeForm').addEventListener('submit',function(e){
+    e.preventDefault();
+    var raw=document.getElementById('codeInput').value.trim(); if(!raw)return;
+    var btn=this.querySelector('button'), orig=btn.textContent; btn.disabled=true; btn.textContent='Checking…';
+    sha256hex(normCode(raw)).then(function(h){
+      if(h===COURSE_HASH){ unlockComplete(raw.toUpperCase()); }
+      else { location.href='/access?code='+encodeURIComponent(raw.toUpperCase()); } // book access code
+    }).catch(function(){ location.href='/access?code='+encodeURIComponent(raw.toUpperCase()); });
+  });
+
+  // $39.99 Complete System → Payhip checkout (the button is a real <a href> now,
+  // so it navigates reliably without being blocked as a popup).
+
+  // Returning free lead: keep the exam ready.
+  if(hasFree()){ hero.classList.add('done'); document.getElementById('startFreeBtn').setAttribute('href',FREE_QUIZ); }
+})();
+</script>
+</body>
+</html>

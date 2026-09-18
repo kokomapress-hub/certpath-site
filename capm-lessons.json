@@ -1,0 +1,358 @@
+{
+  "slug": "capm",
+  "title": "CAPM Exam Prep — Video Course",
+  "lessonCount": 50,
+  "totalMinutes": 401.2,
+  "lessons": [
+    {
+      "num": "01",
+      "module": "Orientation",
+      "title": "CAPM Certification, Eligibility and Education Requirements",
+      "file": "01-capm-certification-eligibility-and-education-requirements.mp4",
+      "minutes": 7.3
+    },
+    {
+      "num": "02",
+      "module": "Orientation",
+      "title": "Exam Structure, Question Formats and Blueprint",
+      "file": "02-exam-structure-question-formats-and-blueprint.mp4",
+      "minutes": 7.4
+    },
+    {
+      "num": "03",
+      "module": "Orientation",
+      "title": "How to Study and Use This Course",
+      "file": "03-how-to-study-and-use-this-course.mp4",
+      "minutes": 7.8
+    },
+    {
+      "num": "04",
+      "module": "Fundamentals & Core Concepts",
+      "title": "Projects, Programs, Portfolios & Operations",
+      "file": "04-projects-programs-portfolios-and-operations.mp4",
+      "minutes": 7.6
+    },
+    {
+      "num": "05",
+      "module": "Fundamentals & Core Concepts",
+      "title": "Life Cycles & Development Approaches",
+      "file": "05-life-cycles-and-development-approaches.mp4",
+      "minutes": 7.9
+    },
+    {
+      "num": "06",
+      "module": "Fundamentals & Core Concepts",
+      "title": "Issues, Risks, Assumptions & Constraints",
+      "file": "06-issues-risks-assumptions-and-constraints.mp4",
+      "minutes": 7.0
+    },
+    {
+      "num": "07",
+      "module": "Fundamentals & Core Concepts",
+      "title": "Project Scope Fundamentals",
+      "file": "07-project-scope-fundamentals.mp4",
+      "minutes": 7.2
+    },
+    {
+      "num": "08",
+      "module": "Fundamentals & Core Concepts",
+      "title": "PMI Code of Ethics & Professional Conduct",
+      "file": "08-pmi-code-of-ethics-and-professional-conduct.mp4",
+      "minutes": 8.7
+    },
+    {
+      "num": "09",
+      "module": "Fundamentals & Core Concepts",
+      "title": "Projects as Vehicles for Change",
+      "file": "09-projects-as-vehicles-for-change.mp4",
+      "minutes": 8.5
+    },
+    {
+      "num": "10",
+      "module": "Fundamentals & Core Concepts",
+      "title": "Planning — Cost, Quality, Risk, Schedule, Resources & Communications",
+      "file": "10-planning-cost-quality-risk-schedule-resources-and-communications.mp4",
+      "minutes": 8.2
+    },
+    {
+      "num": "11",
+      "module": "Fundamentals & Core Concepts",
+      "title": "Project Management Plan vs. Product Management Plan",
+      "file": "11-project-management-plan-vs-product-management-plan.mp4",
+      "minutes": 7.2
+    },
+    {
+      "num": "12",
+      "module": "Fundamentals & Core Concepts",
+      "title": "Milestones vs. Task Durations & Activities",
+      "file": "12-milestones-vs-task-durations-and-activities.mp4",
+      "minutes": 7.6
+    },
+    {
+      "num": "13",
+      "module": "Fundamentals & Core Concepts",
+      "title": "Resources - Number & Type",
+      "file": "13-resources-number-and-type.mp4",
+      "minutes": 7.3
+    },
+    {
+      "num": "14",
+      "module": "Fundamentals & Core Concepts",
+      "title": "The Risk Register & the Stakeholder Register",
+      "file": "14-the-risk-register-and-the-stakeholder-register.mp4",
+      "minutes": 8.4
+    },
+    {
+      "num": "15",
+      "module": "Fundamentals & Core Concepts",
+      "title": "Project Closure & Transitions",
+      "file": "15-project-closure-and-transitions.mp4",
+      "minutes": 9.0
+    },
+    {
+      "num": "16",
+      "module": "Fundamentals & Core Concepts",
+      "title": "Roles & Responsibilities - PM, Sponsor & Team",
+      "file": "16-roles-and-responsibilities-pm-sponsor-and-team.mp4",
+      "minutes": 8.0
+    },
+    {
+      "num": "17",
+      "module": "Fundamentals & Core Concepts",
+      "title": "Leadership vs. Management; Emotional Intelligence",
+      "file": "17-leadership-vs-management-emotional-intelligence.mp4",
+      "minutes": 6.1
+    },
+    {
+      "num": "18",
+      "module": "Fundamentals & Core Concepts",
+      "title": "Following and Executing Planned Strategies",
+      "file": "18-following-and-executing-planned-strategies.mp4",
+      "minutes": 8.1
+    },
+    {
+      "num": "19",
+      "module": "Fundamentals & Core Concepts",
+      "title": "Project Initiation and Benefits Planning",
+      "file": "19-project-initiation-and-benefits-planning.mp4",
+      "minutes": 7.8
+    },
+    {
+      "num": "20",
+      "module": "Fundamentals & Core Concepts",
+      "title": "Problem-Solving, Meetings, and SWOT",
+      "file": "20-problem-solving-meetings-and-swot.mp4",
+      "minutes": 7.2
+    },
+    {
+      "num": "21",
+      "module": "Predictive Methodologies",
+      "title": "When Predictive Fits; Organizational Structures",
+      "file": "21-when-predictive-fits-organizational-structures.mp4",
+      "minutes": 9.5
+    },
+    {
+      "num": "22",
+      "module": "Predictive Methodologies",
+      "title": "Process Groups, Typical Activities, and Predictive Components",
+      "file": "22-process-groups-typical-activities-and-predictive-components.mp4",
+      "minutes": 8.1
+    },
+    {
+      "num": "23",
+      "module": "Predictive Methodologies",
+      "title": "Scope — The WBS and Work Packages",
+      "file": "23-scope-the-wbs-and-work-packages.mp4",
+      "minutes": 7.0
+    },
+    {
+      "num": "24",
+      "module": "Predictive Methodologies",
+      "title": "Scheduling & the Critical Path Method",
+      "file": "24-scheduling-and-the-critical-path-method.mp4",
+      "minutes": 7.4
+    },
+    {
+      "num": "25",
+      "module": "Predictive Methodologies",
+      "title": "Schedule Variance & Cost Variance (EVM Basics)",
+      "file": "25-schedule-variance-and-cost-variance-evm-basics.mp4",
+      "minutes": 9.6
+    },
+    {
+      "num": "26",
+      "module": "Predictive Methodologies",
+      "title": "Quality Management Plan",
+      "file": "26-quality-management-plan.mp4",
+      "minutes": 8.3
+    },
+    {
+      "num": "27",
+      "module": "Predictive Methodologies",
+      "title": "Integration Management & Change Control",
+      "file": "27-integration-management-and-change-control.mp4",
+      "minutes": 8.8
+    },
+    {
+      "num": "28",
+      "module": "Predictive Methodologies",
+      "title": "Documenting Predictive Controls & Artifacts",
+      "file": "28-documenting-predictive-controls-and-artifacts.mp4",
+      "minutes": 7.1
+    },
+    {
+      "num": "29",
+      "module": "Agile Frameworks",
+      "title": "When Adaptive Fits and the Agile Mindset",
+      "file": "29-when-adaptive-fits-and-the-agile-mindset.mp4",
+      "minutes": 8.3
+    },
+    {
+      "num": "30",
+      "module": "Agile Frameworks",
+      "title": "Iterative vs Incremental and Planning Iterations",
+      "file": "30-iterative-vs-incremental-and-planning-iterations.mp4",
+      "minutes": 9.2
+    },
+    {
+      "num": "31",
+      "module": "Agile Frameworks",
+      "title": "From WBS to Backlog and Inputs for Scope",
+      "file": "31-from-wbs-to-backlog-and-inputs-for-scope.mp4",
+      "minutes": 6.6
+    },
+    {
+      "num": "32",
+      "module": "Agile Frameworks",
+      "title": "Adaptive vs Predictive Tracking",
+      "file": "32-adaptive-vs-predictive-tracking.mp4",
+      "minutes": 10.4
+    },
+    {
+      "num": "33",
+      "module": "Agile Frameworks",
+      "title": "Adaptive Artifacts",
+      "file": "33-adaptive-artifacts.mp4",
+      "minutes": 7.2
+    },
+    {
+      "num": "34",
+      "module": "Agile Frameworks",
+      "title": "Adaptive Framework Deep-Dive — Scrum",
+      "file": "34-adaptive-framework-deep-dive-scrum.mp4",
+      "minutes": 6.0
+    },
+    {
+      "num": "35",
+      "module": "Agile Frameworks",
+      "title": "Kanban, XP & SAFe (Awareness)",
+      "file": "35-kanban-xp-and-safe-awareness.mp4",
+      "minutes": 8.4
+    },
+    {
+      "num": "36",
+      "module": "Agile Frameworks",
+      "title": "Task Management — Success Criteria & Prioritization",
+      "file": "36-task-management-success-criteria-and-prioritization.mp4",
+      "minutes": 8.6
+    },
+    {
+      "num": "37",
+      "module": "Business Analysis",
+      "title": "What Business Analysis Is; Value Across the Life Cycle",
+      "file": "37-what-business-analysis-is-value-across-the-life-cycle.mp4",
+      "minutes": 8.2
+    },
+    {
+      "num": "38",
+      "module": "Business Analysis",
+      "title": "Business Analysis Roles and Stakeholders",
+      "file": "38-business-analysis-roles-and-stakeholders.mp4",
+      "minutes": 8.1
+    },
+    {
+      "num": "39",
+      "module": "Business Analysis",
+      "title": "Stakeholder Communication - Channels, Reporting, and Presentations",
+      "file": "39-stakeholder-communication-channels-reporting-and-presentations.mp4",
+      "minutes": 8.8
+    },
+    {
+      "num": "40",
+      "module": "Business Analysis",
+      "title": "Elicitation Techniques",
+      "file": "40-elicitation-techniques.mp4",
+      "minutes": 8.2
+    },
+    {
+      "num": "41",
+      "module": "Business Analysis",
+      "title": "Requirement Types, Documentation & Acceptance Criteria",
+      "file": "41-requirement-types-documentation-and-acceptance-criteria.mp4",
+      "minutes": 8.6
+    },
+    {
+      "num": "42",
+      "module": "Business Analysis",
+      "title": "Modeling Requirements — User Stories & Use Cases",
+      "file": "42-modeling-requirements-user-stories-and-use-cases.mp4",
+      "minutes": 8.4
+    },
+    {
+      "num": "43",
+      "module": "Business Analysis",
+      "title": "Requirements Traceability Matrix & Product Backlog",
+      "file": "43-requirements-traceability-matrix-and-product-backlog.mp4",
+      "minutes": 7.9
+    },
+    {
+      "num": "44",
+      "module": "Business Analysis",
+      "title": "Prioritization — MoSCoW & Other Methods",
+      "file": "44-prioritization-moscow-and-other-methods.mp4",
+      "minutes": 9.2
+    },
+    {
+      "num": "45",
+      "module": "Business Analysis",
+      "title": "Product Roadmaps & Releases",
+      "file": "45-product-roadmaps-and-releases.mp4",
+      "minutes": 6.8
+    },
+    {
+      "num": "46",
+      "module": "Business Analysis",
+      "title": "BA in Predictive vs Adaptive Environments",
+      "file": "46-ba-in-predictive-vs-adaptive-environments.mp4",
+      "minutes": 8.2
+    },
+    {
+      "num": "47",
+      "module": "Business Analysis",
+      "title": "Validating Requirements & Delivery Readiness",
+      "file": "47-validating-requirements-and-delivery-readiness.mp4",
+      "minutes": 7.7
+    },
+    {
+      "num": "48",
+      "module": "Revision",
+      "title": "Worked Calculations- Critical Path and Earned Value",
+      "file": "48-worked-calculations-critical-path-and-earned-value.mp4",
+      "minutes": 8.5
+    },
+    {
+      "num": "49",
+      "module": "Revision",
+      "title": "Final Revision Across the Four CAPM Domains",
+      "file": "49-final-revision-across-the-four-capm-domains.mp4",
+      "minutes": 8.9
+    },
+    {
+      "num": "50",
+      "module": "Revision",
+      "title": "Practice Exam Debrief and Remediation",
+      "file": "50-practice-exam-debrief-and-remediation.mp4",
+      "minutes": 8.9
+    }
+  ]
+}

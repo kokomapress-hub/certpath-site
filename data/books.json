@@ -773,7 +773,20 @@
       "published": true,
       "paperbackPrice": 16.99,
       "ebookPrice": 9.99,
-      "sequential": false
+      "sequential": false,
+      "instantFeedback": true
+    },
+    {
+      "slug": "capm-free",
+      "title": "Free CAPM Practice Exam",
+      "shortName": "CAPM Free",
+      "category": "Project Management",
+      "timeMinutes": 180,
+      "testCount": 1,
+      "totalQuestions": 150,
+      "published": false,
+      "sequential": false,
+      "instantFeedback": true
     }
   ],
   "adminCode": "PRASAD"
