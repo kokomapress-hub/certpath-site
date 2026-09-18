@@ -78,8 +78,10 @@
       // Validate locally so we can show an inline error, but don't unlock
       // here — bounce the user to /access where they enter their email
       // and the backend records the signup in MailerLite.
-      const isAdmin = code === normCode(data.adminCode);
-      const book = data.books.find(b => b.code && normCode(b.code) === code);
+      const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(code));
+      const hash = Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2, '0')).join('');
+      const isAdmin = hash === data.adminCodeHash;
+      const book = data.books.find(b => [b.codeHash, ...(b.codeHashes || [])].includes(hash));
 
       if (!isAdmin && !book) {
         msg.classList.add('error');
@@ -102,7 +104,7 @@
       // Regular book code: bounce to /access for email capture.
       msg.classList.add('success');
       msg.innerHTML = '✓ Code verified. Redirecting to enter your email…';
-      const target = `/access?code=${encodeURIComponent(code)}&book=${book.slug}`;
+      const target = `/access?book=${book.slug}`;
       setTimeout(() => { location.href = target; }, 800);
     } catch (err) {
       msg.classList.add('error');

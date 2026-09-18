@@ -13,6 +13,8 @@ const DATA_DIR = path.join(SITE_DIR, 'data');
 
 const booksMeta = JSON.parse(fs.readFileSync(path.join(DATA_DIR, 'books.json'), 'utf8'));
 const liveBooks = booksMeta.books.filter(b => b.published);
+// Plaintext codes are not in books.json any more (hashes only) — read the private, git-ignored list.
+const PRIVATE_CODES = (() => { try { return JSON.parse(fs.readFileSync(path.join(SITE_DIR, 'private/access-codes.json'), 'utf8')).books; } catch (e) { return {}; } })();
 
 console.log(`Building PDF for ${liveBooks.length} live books...`);
 
@@ -109,7 +111,7 @@ liveBooks.forEach((book, idx) => {
   children.push(new Paragraph({
     alignment: AlignmentType.CENTER,
     spacing: { after: 200 },
-    children: [new TextRun({ text: `Access code: ${book.code}`, size: 20, color: '6B7280' })],
+    children: [new TextRun({ text: `Access code: ${(PRIVATE_CODES[book.slug] || {}).code || 'see private/access-codes.json'}`, size: 20, color: '6B7280' })],
   }));
 
   data.tests.forEach((test) => {

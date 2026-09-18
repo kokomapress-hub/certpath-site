@@ -142,7 +142,6 @@ for (const book of BOOKS) {
   const bookOut = {
     slug: book.slug,
     title: book.title,
-    code: book.code,
     timeMinutes: book.timeMinutes,
     tests: [],
   };
@@ -163,7 +162,7 @@ for (const book of BOOKS) {
   booksMeta.push({
     slug: book.slug,
     title: book.title,
-    code: book.code,
+    codeHash: require('crypto').createHash('sha256').update(String(book.code || '').toUpperCase().replace(/[^A-Z0-9]/g, '')).digest('hex'),
     timeMinutes: book.timeMinutes,
     testCount: bookOut.tests.length,
     totalQuestions: totalQs,
@@ -173,7 +172,8 @@ for (const book of BOOKS) {
 
 fs.writeFileSync(path.join(OUTPUT_DIR, "books.json"), JSON.stringify({
   books: booksMeta,
-  adminCode: "PRASAD",
+  // plaintext codes live only in private/access-codes.json (git-ignored)
+  adminCodeHash: "dd5ae6084185c2278b0f461123219497afad35d8f089cd8a856b8d6f282dfce8",
 }, null, 2));
 
 console.log("\n=== SUMMARY ===");

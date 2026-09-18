@@ -33,6 +33,9 @@ function getCompleted() {
   catch { return {}; }
 }
 function setUnlocked(s) { localStorage.setItem(STORAGE_KEY, JSON.stringify(s)); }
+const NAME_KEY = "certpath_name";
+function getName() { return localStorage.getItem(NAME_KEY) || ""; }
+function setName(n) { if (n) localStorage.setItem(NAME_KEY, n.trim().slice(0, 40)); }
 function getEmail() { return localStorage.getItem(EMAIL_KEY) || ""; }
 function setEmail(e) { localStorage.setItem(EMAIL_KEY, e); }
 
@@ -49,7 +52,7 @@ function setBonusUnlocked(slug) {
 // Owner super code -> also open the paid video courses. On localhost this is immediate
 // (offline review). On the live site the course keys are written ONLY after
 // /api/redeem-course confirms the code against the SUPER_ACCESS_CODE secret, because the
-// adminCode in books.json is public and must never be enough to open a paid product.
+// books.json is public, so a client-side check must never be enough to open a paid product.
 async function grantOwnerCourses(code) {
   const write = () => {
     const owner = JSON.stringify({ tier: 'complete', code: 'OWNER', ts: Date.now() });
@@ -68,10 +71,17 @@ async function grantOwnerCourses(code) {
   return false;
 }
 
+// books.json ships only SHA-256 hashes of the (normalised) codes — never the codes
+// themselves — so reading the public file does not reveal a working code.
+async function sha256Hex(s) {
+  const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(s));
+  return Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2, '0')).join('');
+}
+
 async function validateCode(code) {
   const data = await loadBooks();
-  const cleanCode = normCode(code);
-  if (cleanCode === normCode(data.adminCode)) {
+  const cleanCode = await sha256Hex(normCode(code));
+  if (cleanCode === data.adminCodeHash) {
     return { success: true, isAdmin: true, books: data.books, message: "Admin access granted." };
   }
   // SAT/PSAT/ACT/GED math books share a single printed access code across
@@ -79,7 +89,7 @@ async function validateCode(code) {
   // should unlock all matching books, not just the first one found.
   // A book may list several valid printed codes ("codes": [...]) so that every
   // edition's printed code keeps working (e.g. POSS V4 printed POSS-PREP-2GXW9).
-  const codesOf = b => [b.code, ...(Array.isArray(b.codes) ? b.codes : [])].filter(Boolean).map(normCode);
+  const codesOf = b => [b.codeHash, ...(Array.isArray(b.codeHashes) ? b.codeHashes : [])].filter(Boolean);
   const matches = data.books.filter(b => codesOf(b).includes(cleanCode));
   if (matches.length) {
     const titles = matches.length === 1 ? matches[0].title : `${matches.length} matching books`;
@@ -223,6 +233,13 @@ async function initAccessPage() {
   const params = new URLSearchParams(location.search);
   const codeFromUrl = params.get('code');
   if (codeFromUrl) document.getElementById('code').value = codeFromUrl.toUpperCase();
+  // Codes handed over from /pmp, /capm travel in sessionStorage, never in the URL.
+  try {
+    const pending = sessionStorage.getItem('certpath_pending_code');
+    if (pending) { document.getElementById('code').value = pending; sessionStorage.removeItem('certpath_pending_code'); }
+  } catch (e) {}
+  const nameInput = document.getElementById('firstName');
+  if (nameInput && getName()) nameInput.value = getName();
 
   // Live-hide the email field if the user is typing the admin code.
   const codeInput = document.getElementById('code');
@@ -230,7 +247,7 @@ async function initAccessPage() {
   const syncAdminUI = async () => {
     if (!emailGroup) return;
     const data = await loadBooks();
-    const isAdmin = normCode(codeInput.value) === normCode(data.adminCode);
+    const isAdmin = (await sha256Hex(normCode(codeInput.value))) === data.adminCodeHash;
     emailGroup.style.display = isAdmin ? 'none' : '';
   };
   codeInput.addEventListener('input', syncAdminUI);
@@ -243,7 +260,7 @@ async function initAccessPage() {
     if (books.length > 0) {
       renderUnlockedBooks(books, unlocked.isAdmin);
       form.parentElement.innerHTML = `
-        <h2>Welcome Back</h2>
+        <h2>Welcome back${getName() ? ', ' + getName().replace(/[<>&"]/g, '') : ''}</h2>
         <p>You have ${unlocked.isAdmin ? 'admin access' : books.length === 1 ? '1 book' : books.length + ' books'} unlocked.</p>
         <button class="btn btn-outline" onclick="resetAccess()">Add Another Access Code</button>
       `;
@@ -285,6 +302,8 @@ async function initAccessPage() {
     }
 
     if (email) setEmail(email);
+    const firstName = (document.getElementById('firstName') || {}).value || '';
+    if (firstName.trim()) setName(firstName);
     const current = getUnlocked();
     if (result.isAdmin) { current.isAdmin = true; current.slugs = result.books.map(b => b.slug); }
     if (result.isAdmin) await grantOwnerCourses(code);
@@ -297,7 +316,7 @@ async function initAccessPage() {
       fetch('/api/subscribe', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ email, accessCode: code, book: bookLabel }),
+        body: JSON.stringify({ email, accessCode: code, book: bookLabel, name: firstName.trim() }),
         keepalive: true, // survives the redirect below
       }).catch(() => {});
 

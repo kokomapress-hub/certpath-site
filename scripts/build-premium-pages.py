@@ -35,7 +35,7 @@ HEAD = """<!DOCTYPE html>
 <body class="cp">
 """
 
-PREMIUM_CSS = '  <link rel="stylesheet" href="/css/premium.css?v=9">\n'
+PREMIUM_CSS = '  <link rel="stylesheet" href="/css/premium.css?v=10">\n'
 
 EXAMS_MAIN = """  <main id="main">
     <section class="cp-pagehead cp-dark has-photo">
@@ -108,6 +108,11 @@ ACCESS_MAIN = """  <main id="main" class="cp-access">
             <input type="text" id="code" required autocomplete="off" autocapitalize="characters" spellcheck="false" aria-describedby="codeHint errorMsg">
             <div class="hint" id="codeHint">Printed on the last page of your book — for example <span style="font-family:ui-monospace,Menlo,monospace">CAST-XXXXX-XXXXX</span>. Paste it in; hyphens, spaces and capitals don't matter.</div>
           </div>
+          <div class="form-group">
+            <label for="firstName">First name <span style="font-weight:400;color:#526176">(optional)</span></label>
+            <input type="text" id="firstName" autocomplete="given-name" maxlength="40">
+            <div class="hint">So we can greet you — it appears at the top of the site on this browser.</div>
+          </div>
           <div class="form-group" id="emailGroup">
             <label for="email">Email address</label>
             <input type="email" id="email" autocomplete="email" aria-describedby="emailHint">
@@ -137,7 +142,7 @@ PAGES = [
          title="Exam Directory — Find Your Exam | CertPath Publishing",
          desc="Search every exam with a published CertPath study guide: PMP, CAPM, CAST, POSS, CSP, CHST, CCRN, CNOR, SAT, ACT, GED, TABE and more. Filter by field or free practice.",
          extra_head="", styles=PREMIUM_CSS, main=EXAMS_MAIN,
-         scripts='  <script src="/js/premium.js?v=9" defer></script>\n'),
+         scripts='  <script src="/js/premium.js?v=10" defer></script>\n'),
     dict(out="access.html", path="/access",
          title="Access My Practice Tests — CertPath Publishing",
          desc="Enter the access code printed in your CertPath book to open its included online practice tests.",
@@ -145,7 +150,7 @@ PAGES = [
          # legacy style.css still styles the unlocked-library cards that app.js renders
          styles='  <link rel="stylesheet" href="/css/style.css?v=12">\n' + PREMIUM_CSS + '  <link rel="stylesheet" href="/css/premium-bridge.css?v=1">\n',
          main=ACCESS_MAIN,
-         scripts='  <script src="/js/premium.js?v=9" defer></script>\n  <script src="/js/app.js?v=20260918f"></script>\n'),
+         scripts='  <script src="/js/premium.js?v=10" defer></script>\n  <script src="/js/app.js?v=20260918g"></script>\n'),
 ]
 
 for p in PAGES:
@@ -183,12 +188,12 @@ for name in LEGACY:
     if "<!-- premium-shell -->" not in html:
         html = html.replace("</head>", SHELL_HEAD + "</head>", 1)
         html = re.sub(r"<body(\s[^>]*)?>", '<body class="cp">', html, count=1)
-        html = html.replace("</body>", '  <script src="/js/premium.js?v=9" defer></script>\n</body>', 1)
+        html = html.replace("</body>", '  <script src="/js/premium.js?v=10" defer></script>\n</body>', 1)
         # the floating unlock pill duplicates the header's "Access my tests"
         html = re.sub(r'\s*<script src="/js/floating-unlock\.js[^"]*"></script>', "", html)
     # keep cache-busting versions in step with the shell (css/js are cached for a year)
-    html = re.sub(r'premium\.css\?v=\d+', 'premium.css?v=9', html)
-    html = re.sub(r'premium\.js\?v=\d+', 'premium.js?v=9', html)
+    html = re.sub(r'premium\.css\?v=\d+', 'premium.css?v=10', html)
+    html = re.sub(r'premium\.js\?v=\d+', 'premium.js?v=10', html)
     if 'id="main"' not in html:
         html = html.replace('class="cp-skip" href="#main"', 'class="cp-skip" href="#content"', 1)
     f.write_text(html, encoding="utf-8")

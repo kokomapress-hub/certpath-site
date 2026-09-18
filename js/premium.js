@@ -672,6 +672,67 @@
     }, true);
   }
 
+  // ---------- Header account chip: greet a customer whose access is on this browser ----------
+  // There are no server accounts: "signed in" means this browser holds an unlocked book,
+  // a course key, or owner access. Signing out just clears that from this browser.
+  function initAccount() {
+    var slot = $('.cp-nav-access');
+    if (!slot) return;
+    var read = function (k) { try { return JSON.parse(localStorage.getItem(k) || 'null'); } catch (e) { return null; } };
+    var render = function () {
+      var u = read('certpath_unlocked') || {};
+      var pmp = read('certpath_pmp_access'), capm = read('certpath_capm_access');
+      var has = !!u.isAdmin || (u.slugs || []).length > 0 || !!pmp || !!capm;
+      var old = $('.cp-account'); if (old) old.remove();
+      slot.hidden = has;
+      $$('.cp-drawer [data-account]').forEach(function (n) { n.remove(); });
+      if (!has) return;
+      var name = '', email = '';
+      try { name = localStorage.getItem('certpath_name') || ''; email = localStorage.getItem('certpath_email') || ''; } catch (e) {}
+      var label = name || (email ? email.split('@')[0] : (u.isAdmin ? 'Owner' : 'My account'));
+      var items = [['/access', 'My practice tests']];
+      if (pmp) items.push(['/pmp-course', 'PMP video course']);
+      if (capm) items.push(['/capm-course', 'CAPM video course']);
+
+      var wrap = doc.createElement('div');
+      wrap.className = 'cp-account';
+      wrap.innerHTML =
+        '<button type="button" class="cp-account-btn" aria-expanded="false" aria-haspopup="true">' +
+          '<span class="cp-account-dot" aria-hidden="true">' + esc(label.charAt(0).toUpperCase()) + '</span>' +
+          '<span>Hi, ' + esc(label) + '</span>' +
+          '<svg class="cp-caret" viewBox="0 0 10 10" aria-hidden="true"><path d="M1 3l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></button>' +
+        '<div class="cp-account-menu" hidden>' +
+          (email ? '<p>' + esc(email) + '</p>' : '') +
+          items.map(function (it) { return '<a href="' + it[0] + '">' + it[1] + '</a>'; }).join('') +
+          '<button type="button" data-signout>Sign out on this browser</button></div>';
+      slot.parentNode.insertBefore(wrap, slot.nextSibling);
+
+      var btn = $('.cp-account-btn', wrap), menu = $('.cp-account-menu', wrap);
+      var setOpen = function (on) { btn.setAttribute('aria-expanded', String(on)); menu.hidden = !on; };
+      btn.addEventListener('click', function () { setOpen(menu.hidden); });
+      doc.addEventListener('click', function (ev) { if (!wrap.contains(ev.target)) setOpen(false); });
+      wrap.addEventListener('keydown', function (ev) { if (ev.key === 'Escape') { setOpen(false); btn.focus(); } });
+      $('[data-signout]', wrap).addEventListener('click', function () {
+        if (!window.confirm('Sign out on this browser? You will need your access code to open your tests again.')) return;
+        ['certpath_unlocked', 'certpath_pmp_access', 'certpath_capm_access', 'certpath_bonus', 'certpath_name', 'certpath_email'].forEach(function (k) { try { localStorage.removeItem(k); } catch (e) {} });
+        location.href = '/';
+      });
+
+      // mobile drawer: same greeting + links above the button
+      var drawerBtn = $('.cp-drawer .cp-btn');
+      if (drawerBtn) {
+        drawerBtn.textContent = 'Hi, ' + label + ' — my practice tests';
+        items.slice(1).forEach(function (it) {
+          var a = doc.createElement('a'); a.href = it[0]; a.setAttribute('data-account', '');
+          a.innerHTML = it[1] + ' <span aria-hidden="true">→</span>';
+          drawerBtn.parentNode.insertBefore(a, drawerBtn);
+        });
+      }
+    };
+    window.cpRefreshAccount = render;
+    render();
+  }
+
   // ---------- Reviews: shown only when real ones have been added ----------
   function initReviews() {
     var sec = $('[data-reviews]');
@@ -691,6 +752,6 @@
     }).catch(function () {});
   }
 
-  [initSplit, initTilt, initCount, initStory, initPathline, initCoverTransition, initReviews, initVideos, initHeader, initReveal, initSteps, initHeroTabs, initHeroDepth, initFinder, initShelf, initQuiz, initLightbox]
+  [initAccount, initSplit, initTilt, initCount, initStory, initPathline, initCoverTransition, initReviews, initVideos, initHeader, initReveal, initSteps, initHeroTabs, initHeroDepth, initFinder, initShelf, initQuiz, initLightbox]
     .forEach(function (fn) { try { fn(); } catch (e) { doc.documentElement.classList.remove('cp-js'); if (window.console) console.error('[premium] ' + (fn.name || 'init') + ' failed', e); } });
 })();

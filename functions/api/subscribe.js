@@ -10,7 +10,7 @@ export async function onRequestPost({ request, env }) {
   };
 
   try {
-    const { email, accessCode, book } = await request.json();
+    const { email, accessCode, book, name } = await request.json();
 
     if (!email || typeof email !== 'string') {
       return new Response(JSON.stringify({ ok: false, error: 'Missing email' }), { status: 400, headers: cors });
@@ -28,6 +28,7 @@ export async function onRequestPost({ request, env }) {
       email: email.trim().toLowerCase(),
       groups: [groupId],
       fields: {
+        ...(name && typeof name === 'string' ? { name: name.trim().slice(0, 40) } : {}),
         access_code: (accessCode || '').toUpperCase(),
         book_unlocked: book || '',
         unlock_date: new Date().toISOString().slice(0, 10),

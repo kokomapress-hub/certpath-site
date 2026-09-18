@@ -771,3 +771,17 @@ body.cp {
 .cp-finder-dark, .cp-closing.has-photo, .cp-hero.has-photo, .cp-pagehead.has-photo { background-color: var(--cp-midnight); }
 .cp-review figcaption .cp-textlink { display: flex; margin-top: .5rem; font-size: .875rem; min-height: 2rem; }
 .cp-reviews .cp-reviews-grid { max-width: 72rem; }
+
+/* ---------- Header account chip ---------- */
+.cp-account { position: relative; margin-left: .75rem; }
+.cp-account-btn { display: inline-flex; align-items: center; gap: .5rem; min-height: 2.75rem; padding: 0 .875rem 0 .375rem; border: 1px solid var(--cp-line); border-radius: 99px; background: #fff; font: 600 .9375rem var(--cp-sans); color: var(--cp-navy); cursor: pointer; max-width: 15rem; }
+.cp-account-btn > span:nth-child(2) { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.cp-account-btn:hover { border-color: var(--cp-navy); }
+.cp-account-dot { display: grid; place-items: center; flex: none; width: 2rem; height: 2rem; border-radius: 50%; background: var(--cp-navy); color: var(--cp-gold); font-size: .875rem; }
+.cp-account .cp-caret { width: 10px; height: 10px; flex: none; transition: transform var(--cp-fast) var(--cp-ease); }
+.cp-account-btn[aria-expanded="true"] .cp-caret { transform: rotate(180deg); }
+.cp-account-menu { position: absolute; right: 0; top: calc(100% + .5rem); z-index: 120; min-width: 15rem; padding: .5rem; background: #fff; border: 1px solid var(--cp-line); border-radius: var(--cp-r-card); box-shadow: var(--cp-shadow); }
+.cp-account-menu p { padding: .5rem .75rem .625rem; margin-bottom: .25rem; border-bottom: 1px solid var(--cp-line); font-size: .8125rem; color: var(--cp-muted); overflow: hidden; text-overflow: ellipsis; }
+.cp .cp-account-menu a, .cp-account-menu button { display: flex; align-items: center; width: 100%; min-height: 2.75rem; padding: 0 .75rem; border: 0; border-radius: 8px; background: none; font: 500 .9375rem var(--cp-sans); color: var(--cp-navy); text-decoration: none; text-align: left; cursor: pointer; }
+.cp .cp-account-menu a:hover, .cp-account-menu button:hover { background: var(--cp-paper); }
+.cp-account-menu button { color: var(--cp-muted); border-top: 1px solid var(--cp-line); border-radius: 0 0 8px 8px; margin-top: .25rem; }

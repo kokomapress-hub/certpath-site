@@ -528,7 +528,7 @@ footer.ft{background:var(--navy-2);color:rgba(255,255,255,.72);padding:64px 0 40
   // (/api/redeem-course compares it with the SUPER_ACCESS_CODE secret in Cloudflare),
   // so the code that opens the paid course never ships in a public file.
   var IS_LOCAL=/^(localhost|127\.0\.0\.1)$/.test(location.hostname);
-  var SUPER_HASH='edaf8da41fcc6c2ffa37887f8d97f373b03943207a7580a927eb92ab1834116c';
+  var SUPER_HASH='dd5ae6084185c2278b0f461123219497afad35d8f089cd8a856b8d6f282dfce8';
   function grantAll(){try{
     var owner=JSON.stringify({tier:'complete',code:'OWNER',ts:Date.now()});
     localStorage.setItem('certpath_unlocked',JSON.stringify({slugs:[],isAdmin:true}));
@@ -555,13 +555,44 @@ footer.ft{background:var(--navy-2);color:rgba(255,255,255,.72);padding:64px 0 40
       if(h===COURSE_HASH){ unlockComplete(raw.toUpperCase()); return; }
       checkSuper(raw,h).then(function(isSuper){
         if(isSuper){ grantAll(); unlockComplete('OWNER'); }
-        else { location.href='/access?code='+encodeURIComponent(raw.toUpperCase()); } // book access code
+        else { try{sessionStorage.setItem('certpath_pending_code',raw.toUpperCase());}catch(e){} location.href='/access?book=pmp'; } // book access code
       });
-    }).catch(function(){ location.href='/access?code='+encodeURIComponent(raw.toUpperCase()); });
+    }).catch(function(){ try{sessionStorage.setItem('certpath_pending_code',raw.toUpperCase());}catch(e){} location.href='/access?book=pmp'; });
   });
 
   // $49.99 Complete System → Payhip checkout (the button is a real <a href> now,
   // so it navigates reliably without being blocked as a popup).
+
+  // Returning customer: this browser already holds access, so don't ask for the code
+  // again — greet them and link straight to what they own. (Access lives in this
+  // browser's storage: a private window, another browser or another device starts clean.)
+  (function(){
+    var course=null; try{course=JSON.parse(localStorage.getItem('certpath_pmp_access')||'null');}catch(e){}
+    var u=getUnlocked();
+    var ownsCourse=!!(course&&course.tier==='complete');
+    var ownsBook=ownsCourse||!!u.isAdmin||(u.slugs||[]).indexOf('pmp')!==-1;
+    if(!ownsBook) return;
+    var owner=document.getElementById('owner');
+    if(owner){
+      owner.querySelector('.wrap').innerHTML=
+        '<span class="eyebrow">Welcome back'+(function(){var n='';try{n=(localStorage.getItem('certpath_name')||'').replace(/[<>&"]/g,'');}catch(e){}return n?', '+n:'';})()+'</span>'+
+        '<h2 class="h2">'+(ownsCourse?'Your PMP Complete System is unlocked':'Your PMP practice exams are unlocked')+'</h2>'+
+        '<p class="intro">'+(ownsCourse?'Pick up where you left off — your videos, practice exams, cheat sheets and study guide are all open on this browser.':'Your full-length practice exams are open on this browser.')+'</p>'+
+        '<div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:26px">'+
+          (ownsCourse?'<a class="btn btn-nav" href="/pmp-course">Open my video course →</a>':'')+
+          '<a class="btn '+(ownsCourse?'btn-primary':'btn-nav')+'" href="/pmp-exams">Open my practice exams →</a>'+
+        '</div>'+
+        '<p style="font-size:13px;color:var(--muted);margin-top:16px">Using a private window, another browser or a new device? Enter your code once there too. <a href="#" id="reenterCode" style="color:inherit;text-decoration:underline">Enter a different code</a></p>';
+      var re=document.getElementById('reenterCode');
+      if(re) re.addEventListener('click',function(e){e.preventDefault();location.href='/access';});
+    }
+    if(ownsCourse){
+      var buy=document.getElementById('buyBtn');
+      if(buy){ buy.textContent='You own this — open my course →'; buy.setAttribute('href','/pmp-course'); buy.removeAttribute('target'); }
+      var nav=document.querySelector('a.btn.btn-primary.btn-sm[href="#free"]');
+      if(nav){ nav.textContent='My course'; nav.setAttribute('href','/pmp-course'); }
+    }
+  })();
 
   // Returning free lead: keep the exam ready.
   if(hasFree()){ hero.classList.add('done'); document.getElementById('startFreeBtn').setAttribute('href',FREE_QUIZ); }

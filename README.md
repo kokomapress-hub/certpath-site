@@ -14,23 +14,8 @@ Static website serving timed practice tests for verified book owners of CertPath
 
 ## Access Codes
 
-| Book | Code |
-|---|---|
-| CAST Exam | `CAST-OHGI1-JNYT7` |
-| Mechanical Aptitude | `MECH-XAJI0-Y6DPB` |
-| Journeyman Electrician | `ELEC-BDOD6-BTL4F` |
-| POSS Exam | `POSS-2LI3E-RUWFW` |
-| CSP Exam | `CSP-D8F04-0KMZ8` |
-| CHST Exam | `CHST-CPIQJ-5U07R` |
-| TABE Level A Math | `TABE-24R9N-7AR5U` |
-| TABE Level D Math | `TABE-D6P3W-XQ8N5` |
-| TABE Level M Math | `TABE-MK7Q2-VPB94` |
-| TABE Level E Math | `TABE-EH9Z6-WMR3T` |
-| Home Inspector (NHIE) | `NHIE-OG6WS-Z4YE9` |
-| STS Exam | `STS-3H7RO-WGGPI` |
-| MSSC CPT | `CPT-2ILBI-0PCA7` |
-| NCIDQ Exam | `NCDQ-TM9CT-MJ8L2` |
-| **ADMIN (unlocks all books)** | `PRASAD` |
+Access codes are **not** stored in this repository or on the site. `data/books.json` holds only SHA-256 hashes of each code.
+The plaintext list (and the owner super code) lives in `private/access-codes.json`, which is git-ignored — keep a backup of it somewhere safe.
 
 ## Local Dev
 

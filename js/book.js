@@ -63,6 +63,7 @@
   // ---- Access code: unlock in place ----
   var form = $('#codeForm'), msg = $('#codeMsg');
   if (getEmail()) $('#ownerEmail').value = getEmail();
+  if (getName() && $('#ownerName')) $('#ownerName').value = getName();
 
   form.addEventListener('submit', async function (ev) {
     ev.preventDefault();
@@ -88,10 +89,12 @@
     else { cur.slugs = Array.from(new Set((cur.slugs || []).concat(slugs))); }
     setUnlocked(cur);
     if (email) setEmail(email);
+    var firstName = ($('#ownerName') || {}).value || '';
+    if (firstName.trim()) setName(firstName);
     if (!result.isAdmin) {
       fetch('/api/subscribe', {
         method: 'POST', headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ email: email, accessCode: code, book: result.books[0].shortName || result.books[0].slug })
+        body: JSON.stringify({ email: email, accessCode: code, book: result.books[0].shortName || result.books[0].slug, name: firstName.trim() })
       }).catch(function () {});
     }
 
@@ -102,6 +105,7 @@
     }
     setState(true);
     noteSiblings(result.books);
+    if (window.cpRefreshAccount) window.cpRefreshAccount();
     window.scrollTo({ top: 0, behavior: 'auto' });
     $('.cp-tests h2').setAttribute('tabindex', '-1');
     $('.cp-tests h2').focus();

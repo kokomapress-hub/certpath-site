@@ -10,3 +10,14 @@
 /sat-resources /access?book=sat-math   302
 /psat-access    /access?book=psat-math   302
 /psat-resources /access?book=psat-math   302
+
+# Internal working files are in the repo but must not be readable on the public site.
+/README.md                        /  302
+/AUDIT_B1_B23.md                  /  302
+/MAILERLITE_WELCOME_SEQUENCE.md   /  302
+/PAYHIP_SETUP.md                  /  302
+/PROJECT_STATUS.md                /  302
+/QA/*                             /  302
+/scripts/*                        /  302
+/extract-questions.js             /  302
+/bonus-pdfs/README.txt            /  302

@@ -148,7 +148,7 @@ a{color:var(--gold);text-decoration:none}
   // (/api/redeem-course compares it with the SUPER_ACCESS_CODE secret in Cloudflare),
   // so the code that opens the paid course never ships in a public file.
   var IS_LOCAL=/^(localhost|127\.0\.0\.1)$/.test(location.hostname);
-  var SUPER_HASH='edaf8da41fcc6c2ffa37887f8d97f373b03943207a7580a927eb92ab1834116c';
+  var SUPER_HASH='dd5ae6084185c2278b0f461123219497afad35d8f089cd8a856b8d6f282dfce8';
   function grantAll(){try{
     var owner=JSON.stringify({tier:'complete',code:'OWNER',ts:Date.now()});
     localStorage.setItem('certpath_unlocked',JSON.stringify({slugs:[],isAdmin:true}));
