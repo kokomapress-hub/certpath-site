@@ -735,6 +735,7 @@
       "slug": "pmp-free",
       "title": "Free PMP Practice Exam",
       "shortName": "PMP Free",
+      "cover": "/img/covers/pmp.webp",
       "category": "Project Management",
       "timeMinutes": 240,
       "testCount": 1,
