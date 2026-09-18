@@ -146,7 +146,7 @@ function renderUnlockedBooks(books, isAdmin) {
         })()}
       </div>
       ${book.sequential ? `<div class="bcu-seq-note">Tests unlock in order — finish one to open the next.</div>` : ''}
-      <div class="bonus-mount">${book.slug === 'pmp' ? '' : bonusSectionHTML(book)}</div>
+      <div class="bonus-mount">${['pmp', 'cnor'].includes(book.slug) ? '' : bonusSectionHTML(book)}</div>
     </div>
   `).join('');
 
