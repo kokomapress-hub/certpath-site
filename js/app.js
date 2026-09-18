@@ -151,6 +151,22 @@ function renderUnlockedBooks(books, isAdmin) {
   `).join('');
 
   document.getElementById('testList').style.display = 'block';
+
+  // Paid PMP video customers get a prominent, persistent link back to their
+  // video course, so /access never becomes a dead end away from their videos.
+  try {
+    const hasPmpVideo = !!JSON.parse(localStorage.getItem('certpath_pmp_access') || 'null');
+    const tl = document.getElementById('testList');
+    if (hasPmpVideo && tl && !document.getElementById('pmpCourseBanner')) {
+      const banner = document.createElement('a');
+      banner.id = 'pmpCourseBanner';
+      banner.href = '/pmp-course';
+      banner.textContent = '🎬 Back to your PMP Video Course →';
+      banner.style.cssText = 'display:block;max-width:640px;margin:0 auto 1.5rem;padding:.9rem 1.25rem;background:var(--navy,#1B2A4A);color:#fff;border-radius:10px;text-align:center;font-weight:700;text-decoration:none;box-shadow:0 2px 10px rgba(0,0,0,.12)';
+      tl.insertBefore(banner, tl.firstChild);
+    }
+  } catch (e) {}
+
   const welcome = document.getElementById('welcomeMsg');
   if (welcome) {
     welcome.textContent = isAdmin

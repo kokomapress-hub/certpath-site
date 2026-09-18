@@ -16,6 +16,7 @@
         <span class="logo-text">CertPath <span class="gold">Publishing</span></span>
       </a>
       <nav class="nav">
+        <a href="/pmp-course" id="pmpCourseLink" style="display:none;color:var(--gold,#e0a020);font-weight:700">🎬 My PMP Course</a>
         <a href="/">Home</a>
         <a href="/access">My Tests</a>
       </nav>
@@ -26,6 +27,22 @@
     <div id="quizApp">Loading practice test…</div>
   </main>
 
+  <script>
+    // Show a persistent link back to the PMP video course for paid PMP
+    // customers (or anyone taking a PMP test), so clicking around the quiz
+    // never strands them away from their videos.
+    (function () {
+      try {
+        var book = new URLSearchParams(location.search).get('book') || '';
+        var hasPmp = false;
+        try { hasPmp = !!JSON.parse(localStorage.getItem('certpath_pmp_access') || 'null'); } catch (e) {}
+        if (book === 'pmp' || book === 'pmp-free' || hasPmp) {
+          var l = document.getElementById('pmpCourseLink');
+          if (l) l.style.display = '';
+        }
+      } catch (e) {}
+    })();
+  </script>
   <script src="/js/quiz.js?v=20260918"></script>
 </body>
 </html>
