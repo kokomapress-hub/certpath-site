@@ -47,8 +47,8 @@
       ? { href: e.route, label: 'Explore ' + e.acronym + ' prep', ext: false }
       : { href: bookHref(first), label: 'View the ' + e.acronym + ' book', ext: !bookPages[first.slug] && !!first.amazonUrl };
     var secondary = e.freePractice
-      ? { href: e.route + (e.category === 'project' ? '' : '#sample-quiz'), label: 'Free practice' }
-      : { href: '/sample?book=' + first.slug, label: 'Free sample' };
+      ? { href: '/sample?book=' + first.slug, label: 'Free questions' }
+      : { href: '/sample?book=' + first.slug, label: 'Free questions' };
     return { primary: primary, secondary: secondary };
   }
 

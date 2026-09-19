@@ -1,0 +1,362 @@
+{
+ "slug": "cast-free25",
+ "title": "Free sample",
+ "free": true,
+ "note": "Original questions written for the free sample. They do not appear in the book or in the owners' online practice tests.",
+ "tests": [
+  {
+   "testNum": 1,
+   "questions": [
+    {
+     "num": 1,
+     "topic": "Mathematical Usage",
+     "question": "A transformer oil reservoir holds 275 gallons and is 60 % full. A transfer pump moves 12 quarts per minute for the first 20 minutes; a strainer then partly plugs and the rate falls to 9 quarts per minute for the rest of the job. How long does it take to move all of the oil that is in the reservoir, to the nearest minute?",
+     "choices": [
+      "73 minutes",
+      "55 minutes",
+      "116 minutes",
+      "67 minutes"
+     ],
+     "answer": "D",
+     "explanation": "The oil is 275 × 0.60 = 165 gallons, or 660 quarts. The first 20 minutes move 20 × 12 = 240 quarts, leaving 420 quarts at 9 quarts per minute, which takes 46.7 minutes, so 66.7 rounds to 67. The 55-minute answer holds 12 quarts per minute for the whole job and ignores the strainer; 73 minutes uses 9 throughout; 116 minutes empties the full 275 gallons."
+    },
+    {
+     "num": 2,
+     "topic": "Mathematical Usage",
+     "question": "Voltage drop on a single-phase run is found from VD = 2 × K × I × L ÷ CM, where L is the one-way length in feet and CM is the conductor area in circular mils. A designer allows 7.2 V of drop using K = 12.9, I = 40 A and L = 250 ft. What is the smallest conductor area that holds the drop to the allowance?",
+     "choices": [
+      "35,834 circular mils",
+      "3,583 circular mils",
+      "71,667 circular mils",
+      "17,917 circular mils"
+     ],
+     "answer": "A",
+     "explanation": "Rearranged, CM = 2 × K × I × L ÷ VD = 2 × 12.9 × 40 × 250 ÷ 7.2 = 35,833.33 circular mils, so the smallest whole-number area that does not exceed the drop allowance is 35,834 circular mils. The 17,917 result drops the factor of 2 that accounts for both conductors of the loop, the most common slip on this formula. The 71,667 result applies that factor twice, and 3,583 is a decimal-place error of ten."
+    },
+    {
+     "num": 3,
+     "topic": "Mathematical Usage",
+     "question": "One line crew sets 18 poles in 5 working days. A hardening job needs 80 poles set within an 8-working-day window, but weather is expected to cost every crew one full day out of those 8. If all crews work at the same rate, what is the smallest number of crews that still finishes inside the window?",
+     "choices": [
+      "4 crews",
+      "2 crews",
+      "3 crews",
+      "5 crews"
+     ],
+     "answer": "A",
+     "explanation": "A crew sets 18 ÷ 5 = 3.6 poles per day. Weather leaves 7 working days, so one crew sets 3.6 × 7 = 25.2 poles. Then 80 ÷ 25.2 = 3.17, so the job requires 4 crews. Three crews is the trap from incorrectly using all 8 days; five crews results from dividing 80 by 18 and rounding up; two crews would set only 50.4 poles in the seven usable days."
+    },
+    {
+     "num": 4,
+     "topic": "Mathematical Usage",
+     "question": "A pump motor fed from a 480 V three-phase feeder measures 26 A while running at full load. Its power factor is 0.85 and its efficiency is 0.90. Shaft horsepower = 1.732 × volts × amps × power factor × efficiency ÷ 746. What is the motor's shaft output, to the nearest horsepower?",
+     "choices": [
+      "22 hp",
+      "25 hp",
+      "13 hp",
+      "26 hp"
+     ],
+     "answer": "A",
+     "explanation": "1.732 × 480 × 26 = 21,615 volt-amperes; × 0.85 = 18,373 W drawn; × 0.90 = 16,536 W delivered; ÷ 746 = 22.2, so 22 hp. Leaving out efficiency gives about 25 hp, and leaving out power factor gives about 26 hp; both are strong traps because each term looks like a small correction. Dropping the 1.732 three-phase factor gives about 13 hp."
+    },
+    {
+     "num": 5,
+     "topic": "Mathematical Usage",
+     "question": "A digger derrick averages 7.5 miles per gallon when loaded and 11 miles per gallon when empty. It drives 132 miles to a job fully loaded and returns the same 132 miles empty. How much fuel does the round trip use?",
+     "choices": [
+      "29.6 gallons",
+      "28.5 gallons",
+      "24.0 gallons",
+      "35.2 gallons"
+     ],
+     "answer": "A",
+     "explanation": "Fuel must be figured leg by leg: 132 ÷ 7.5 = 17.6 gallons loaded and 132 ÷ 11 = 12.0 gallons empty, totalling 29.6 gallons. The 28.5-gallon answer averages the two mileage figures to 9.25 and divides 264 miles by it, which is wrong because the truck spends more gallons per mile on the loaded leg. The other results apply one mileage figure to the whole trip."
+    },
+    {
+     "num": 6,
+     "topic": "Mathematical Usage",
+     "question": "A transformer nameplate permits a 65°C average winding temperature rise above ambient. The yard thermometer reads 86°F. A Celsius temperature difference is converted to a Fahrenheit temperature difference by multiplying by 9/5. What average winding temperature corresponds to the permitted rise?",
+     "choices": [
+      "151 °F",
+      "149 °F",
+      "171 °F",
+      "203 °F"
+     ],
+     "answer": "D",
+     "explanation": "A 65°C rise equals 65 × 9/5 = 117°F of temperature rise. Therefore the winding temperature is 86 + 117 = 203°F. The 151°F answer simply adds 65 to 86, mixing Celsius-degree and Fahrenheit-degree sizes. The 171°F answer is obtained by converting the final 95°C value with ×9/5 but omitting the +32 offset. The 149°F answer incorrectly treats the 65°C temperature rise as an absolute 65°C temperature and applies the +32 offset."
+    },
+    {
+     "num": 7,
+     "topic": "Mathematical Usage",
+     "question": "A three-phase transformer is rated 45 kVA with a 480 V primary and a 208 V secondary. Line current is found from I = kVA × 1,000 ÷ (1.732 × line volts). At full rated load, what current flows in each primary line conductor?",
+     "choices": [
+      "31.2 A",
+      "124.9 A",
+      "54.1 A",
+      "93.8 A"
+     ],
+     "answer": "C",
+     "explanation": "Line current in a three-phase circuit is kVA × 1,000 ÷ (1.732 × line volts) = 45,000 ÷ (1.732 × 480) = 54.1 A. The 124.9 A figure is the secondary current, found by using 208 V, and is tempting because both voltages appear in the stem. The 93.8 A figure omits the 1.732 factor, and 31.2 A divides by 3 instead of the square root of 3."
+    },
+    {
+     "num": 8,
+     "topic": "Mathematical Usage",
+     "question": "A job used three workers at $46 per hour for 9 hours each and two workers at $58 per hour for 6 hours each, plus $1,240 of material. Sales tax of 8 % applies to the material only. What is the total job cost?",
+     "choices": [
+      "$3,432.24",
+      "$3,277.20",
+      "$3,178.00",
+      "$3,211.20"
+     ],
+     "answer": "B",
+     "explanation": "Labour is 3 × 46 × 9 = $1,242 plus 2 × 58 × 6 = $696, so $1,938. Material with tax is 1,240 × 1.08 = $1,339.20. The total is $3,277.20. The $3,432.24 result applies the 8 % to labour as well, the trap the stem's wording is set to catch. The $3,178.00 result leaves tax out, and $3,211.20 swaps the two crew sizes."
+    },
+    {
+     "num": 9,
+     "topic": "Mathematical Usage",
+     "question": "One trencher cuts 240 ft of trench in 6 hours. A second trencher cuts 180 ft in 5 hours. Both start together on a 1,050 ft run, work side by side at their own steady rates, and stop when the run is finished. How many feet does the slower machine cut?",
+     "choices": [
+      "553 feet",
+      "525 feet",
+      "450 feet",
+      "497 feet"
+     ],
+     "answer": "D",
+     "explanation": "Rates are 240 ÷ 6 = 40 and 180 ÷ 5 = 36 ft per hour, so together 76 ft per hour and the run takes 1,050 ÷ 76 = 13.82 hours. The slower machine cuts 36 × 13.82 = 497 ft. The 553-foot answer is the faster machine's share. The 525-foot answer splits the run evenly, and 450 ft divides it by the two trench lengths, 180 and 240, instead of by the rates."
+    },
+    {
+     "num": 10,
+     "topic": "Graphic Arithmetic",
+     "question": "The drawing is the plan of a concrete equipment pad with a square opening formed through it. Using only the drawing, how much concrete does the pad take?",
+     "choices": [
+      "13.6 cubic yards",
+      "4.9 cubic yards",
+      "9.5 cubic yards",
+      "9.1 cubic yards"
+     ],
+     "answer": "D",
+     "explanation": "The width is not dimensioned overall: 9'-0\" and 7'-0\" add to 16'-0\". Net area is 24 × 16 - 4 × 4 = 368 sq ft, and at 8 in thick that is 368 × 0.667 = 245.3 cu ft, or 9.1 cu yd. The 4.9 answer uses 9'-0\" as the whole width, the trap the split dimension sets. The 9.5 answer ignores the opening; 13.6 treats the slab as 12 in thick.",
+     "image": "/figures/free/cast-10.svg",
+     "image_alt": "Plan of a rectangular concrete pad with a square opening, dimensioned in feet, with a note on slab thickness."
+    },
+    {
+     "num": 11,
+     "topic": "Graphic Arithmetic",
+     "question": "The dashed line on the switchyard plan is a bare copper conductor run between the two marked corners. Using only the drawing, how long is that conductor, to the nearest tenth of a foot?",
+     "choices": [
+      "73.2 feet",
+      "81.5 feet",
+      "113.0 feet",
+      "51.0 feet"
+     ],
+     "answer": "B",
+     "explanation": "The east side is dimensioned in two parts, 27'-0\" and 18'-0\", so it is 45'-0\" overall, and the diagonal is √(68² + 45²) = 81.5 ft. The 73.2-foot answer uses 27 ft as the whole side, which is what happens when the second part is missed. The 113.0-foot answer adds the two sides instead of using the right triangle, and 51.0 subtracts the squares.",
+     "image": "/figures/free/cast-11.svg",
+     "image_alt": "Plan of a rectangular switchyard with a dashed diagonal line between two marked corners and dimensions on two sides."
+    },
+    {
+     "num": 12,
+     "topic": "Graphic Arithmetic",
+     "question": "The plan shows a storage yard fenced on three sides against an existing building, with the post spacing given in the note. Using only the drawing, how many posts does the fence take?",
+     "choices": [
+      "56 posts",
+      "39 posts",
+      "57 posts",
+      "70 posts"
+     ],
+     "answer": "C",
+     "explanation": "The dimensioned side is 120 + 90 = 210 ft, and the opposite side of the rectangle matches it, so the fenced run is 210 + 140 + 210 = 560 ft. At 10 ft spacing that is 56 spaces, and a run with two ends needs 57 posts. Answering 56 counts spaces rather than posts; 39 uses 120 ft as the whole side; 70 fences all four sides.",
+     "image": "/figures/free/cast-12.svg",
+     "image_alt": "Plan of a rectangular yard fenced on three sides against a hatched building, with two partial dimensions on one side."
+    },
+    {
+     "num": 13,
+     "topic": "Graphic Arithmetic",
+     "question": "The drawing shows a trench in section and in plan, with notes on swell and truck capacity. Using only the drawing, how many truckloads of spoil must be hauled away?",
+     "choices": [
+      "8 truckloads",
+      "30 truckloads",
+      "6 truckloads",
+      "10 truckloads"
+     ],
+     "answer": "D",
+     "explanation": "Depth is dimensioned in two parts, 2'-6\" and 2'-0\", so it is 4'-6\". Bank volume is 3 × 4.5 × 160 = 2,160 cu ft, or 80 cu yd, and swell makes it 100 cu yd, so 10 loads. The 6-load answer uses 2'-6\" as the full depth, the trap the split dimension sets. The 8-load answer ignores swell, and 30 uses 9 cu ft to the cubic yard.",
+     "image": "/figures/free/cast-13.svg",
+     "image_alt": "Cross-section of a trench with width and two depth dimensions, beside a plan view giving the trench length."
+    },
+    {
+     "num": 14,
+     "topic": "Graphic Arithmetic",
+     "question": "The partial floor plan shows three spaces in a row along one inside wall. Using only the drawing, what is the corridor dimension marked with a question mark?",
+     "choices": [
+      "16 ft 6 in",
+      "17 ft 2 in",
+      "17 ft 10 in",
+      "18 ft 6 in"
+     ],
+     "answer": "B",
+     "explanation": "Three spaces in a row are separated by two partitions, and at 8 in each they take 1 ft 4 in. The corridor is 48 - 18 - 11.5 - 1.333 = 17.167 ft, or 17 ft 2 in. The 18 ft 6 in answer subtracts the rooms but not the partitions, which is the easiest reading of the plan to make. The 17 ft 10 in answer counts one partition, and 16 ft 6 in counts three.",
+     "image": "/figures/free/cast-14.svg",
+     "image_alt": "Partial floor plan showing a relay room, a battery room and a corridor in a row, with the corridor dimension marked by a question mark."
+    },
+    {
+     "num": 15,
+     "topic": "Graphic Arithmetic",
+     "question": "The substation plan carries the scale in its title block, and the pad is dimensioned as measured on the print. Using only the drawing, what is the pad's actual area?",
+     "choices": [
+      "233.8 square feet",
+      "4,675 square feet",
+      "18,700 square feet",
+      "2,750 square feet"
+     ],
+     "answer": "B",
+     "explanation": "The long side is dimensioned in two parts, 2 1/2 in and 1 3/4 in, so it measures 4 1/4 in on the print. At 20 ft to the inch the pad is 85 ft by 55 ft, or 4,675 sq ft. The 2,750 answer uses only the 2 1/2 in part. The 233.8 answer scales the drawing area once instead of scaling each dimension, and 18,700 reads the scale as 40 ft to the inch.",
+     "image": "/figures/free/cast-15.svg",
+     "image_alt": "Plan of a rectangular control-house pad with print dimensions in inches and a stated drawing scale."
+    },
+    {
+     "num": 16,
+     "topic": "Mechanical Concepts",
+     "question": "The drawing shows four pry bars. Each one lifts the same block, which sits at the left end of the bar, and the marks along every bar are equally spaced. Which bar lets the worker raise the block with the least downward force at the arrow?",
+     "choices": [
+      "Bar X",
+      "Bar Z",
+      "Bar W",
+      "Bar Y"
+     ],
+     "answer": "C",
+     "explanation": "Force falls as the distance from the pivot to the hand grows against the distance from the pivot to the block. Counting marks, that ratio is 6 to 1 on the first bar, 4 to 1 where the pivot is two marks out and the hand is at the end, 2 to 1, and 3.5 to 1. The bar with the hand farthest from the block is the strongest trap, but its pivot has moved out with it.",
+     "image": "/figures/free/cast-16.svg",
+     "image_alt": "Four pry bars with equally spaced marks, each with a block at the left end, a pivot triangle and an arrow showing where a worker pushes down."
+    },
+    {
+     "num": 17,
+     "topic": "Mechanical Concepts",
+     "question": "The drawing shows a block and tackle made up with one continuous rope over sheaves that turn freely. Four runs of that rope between the blocks are labelled. Which labelled run carries the greatest tension while the load hangs still?",
+     "choices": [
+      "Every run carries the same tension as the others.",
+      "The run farthest from the hauling end carries more than the others.",
+      "The two runs leaving the lower block carry more than the others.",
+      "The run nearest the hauling end carries more than the others."
+     ],
+     "answer": "A",
+     "explanation": "One rope passing over sheaves that turn freely cannot hold different tensions along its length, because any difference would turn a sheave until it evened out. Each run therefore carries the same pull, and the load is shared between them. The run nearest the hauling end is the strongest trap, since that is where the worker applies force, but that force is what sets the tension everywhere.",
+     "image": "/figures/free/cast-17.svg",
+     "image_alt": "Block and tackle with an upper and a lower block and four labelled rope runs between them, a load below and a pull arrow to the side."
+    },
+    {
+     "num": 18,
+     "topic": "Mechanical Concepts",
+     "question": "In the gear train shown, the driver turns clockwise and two of the gears are keyed to one shaft. Which gear turns fastest, and how does it turn compared with the driver?",
+     "choices": [
+      "The 10-tooth gear, turning the same way as the driver",
+      "The 15-tooth gear, turning the same way as the driver",
+      "The 10-tooth gear, turning opposite to the driver",
+      "The 15-tooth gear, turning opposite to the driver"
+     ],
+     "answer": "B",
+     "explanation": "Speed rises as teeth fall at each mesh: the 40-tooth driver turns the 10-tooth gear four times as fast, and the 30-tooth gear on that same shaft turns the 15-tooth gear twice as fast again, eight times the driver. Two meshes reverse direction twice, so the last gear turns as the driver does. The small gear early in the train is the trap, since it is the smallest in the train.",
+     "image": "/figures/free/cast-18.svg",
+     "image_alt": "Gear train of four gears with tooth counts marked, two of them keyed to a common shaft, and an arrow showing the driver turning clockwise."
+    },
+    {
+     "num": 19,
+     "topic": "Mechanical Concepts",
+     "question": "The drawing shows a hydraulic press whose cylinders and connecting pipe are full of oil. The small piston is pushed down 9 in. How far does the large piston rise?",
+     "choices": [
+      "3 in",
+      "27 in",
+      "1 in",
+      "9 in"
+     ],
+     "answer": "C",
+     "explanation": "Oil is pushed out of the small cylinder and into the large one, so the volumes match. Area goes with the square of the diameter, and 6 in against 2 in is nine times the area, so the large piston moves one ninth as far: 9 ÷ 9 = 1 in. The 3-inch answer uses the diameter ratio instead of the area ratio, and 9 in assumes both pistons move together.",
+     "image": "/figures/free/cast-19.svg",
+     "image_alt": "Hydraulic press with a small piston and a large piston joined by an oil-filled pipe, both piston diameters dimensioned."
+    },
+    {
+     "num": 20,
+     "topic": "Mechanical Concepts",
+     "question": "Four crates are to be pushed up four ramps onto four loading docks, as shown. The crates roll on wheels, so friction can be ignored. Which crate takes the least push along its ramp to move it up at a steady speed?",
+     "choices": [
+      "The crate on ramp Z",
+      "The crate on ramp Y",
+      "The crate on ramp W",
+      "The crate on ramp X"
+     ],
+     "answer": "C",
+     "explanation": "The push equals the weight times the height divided by the ramp length, so both numbers on each ramp matter: 200 × 2 ÷ 6 = 67 lb, 300 × 3 ÷ 12 = 75 lb, 150 × 3 ÷ 5 = 90 lb and 400 × 4 ÷ 16 = 100 lb. The lightest crate is the strongest trap, but its ramp is the steepest of the four, which costs more than its lighter weight saves.",
+     "image": "/figures/free/cast-20.svg",
+     "image_alt": "Four ramps of different lengths and heights, each with a crate of a stated weight, drawn side by side."
+    },
+    {
+     "num": 21,
+     "topic": "Mechanical Concepts",
+     "question": "The drawing shows four tanks, all open at the top and all holding the same liquid, each with a valve at the bottom. On which valve is the pressure greatest?",
+     "choices": [
+      "The valve under tank W",
+      "The valve under tank Z",
+      "The valve under tank Y",
+      "The valve under tank X"
+     ],
+     "answer": "A",
+     "explanation": "Pressure at the bottom of an open tank depends on the depth of liquid above the point, not on how much liquid the tank holds, so the deepest tank wins at 10 ft. The widest tank is the strongest trap because it clearly holds the most liquid and weighs the most, but its liquid stands only 8 ft deep, and the extra width bears on the tank bottom, not on the valve.",
+     "image": "/figures/free/cast-21.svg",
+     "image_alt": "Four open tanks of different widths with different liquid depths dimensioned, each with a valve at the bottom."
+    },
+    {
+     "num": 22,
+     "topic": "Reading for Comprehension",
+     "question": "Read this excerpt from a utility work rule. \"Work on a de-energized circuit is authorized by a clearance issued to one named holder. The holder confirms the switching order is complete, sees protective grounds installed at the work site, and signs the crew on. A holder leaving the site transfers the clearance in person to a relief holder; a clearance is never left with a crew and no holder present. Grounds are moved only with the holder present, and every move is logged with its time. When work is finished the holder removes the crew, then the grounds, then reports clear to the system operator, who alone re-energizes. If a crew must work at a structure outside the grounded section, the operator extends the clearance and grounds are installed there first.\" Late in the day the holder must drive to another job while the crew keeps working, and the crew also needs to work two spans beyond the existing grounds. Which plan follows the rule?",
+     "choices": [
+      "Hand the clearance to a relief holder in person, then have the operator extend it and ground the new structure before work starts there.",
+      "Report clear so the operator can re-energize, then take a fresh clearance when the crew reaches the second structure.",
+      "Keep the clearance open and have the crew work the two spans while staying inside the section already grounded.",
+      "Leave the clearance with the crew foreman, then move the existing grounds two spans out and log the time of the move."
+     ],
+     "answer": "A",
+     "explanation": "Two separate requirements apply at once: a holder who leaves hands the clearance to a relief holder in person, and work outside the grounded section waits for the operator to extend the clearance and for grounds to go in there. Moving the existing grounds is the strongest trap, since the rule does allow grounds to be moved, but only with a holder present and it leaves the crew unattended."
+    },
+    {
+     "num": 23,
+     "topic": "Reading for Comprehension",
+     "question": "Read this excerpt from a relay test procedure. \"Before a relay is removed from a live current-transformer loop, a shorting jumper is placed across the transformer secondary and left in place until the replacement relay is landed and its terminals are tight. The jumper goes on at the shorting terminal block, never at the relay's own case terminals, because the drawout mechanism opens the case terminals before the block is reached. Voltage circuits are isolated at their own fuse block, and the isolating link is opened before the shorting jumper is applied, so that potential is not left on a shorted current circuit. Each jumper is entered on the test sheet as it goes on and initialled again as it comes off; the sheet is reconciled before the panel door is closed.\" A technician puts the jumper on the relay case terminals, draws the relay out, and then opens the voltage isolating link. Which pair of steps departs from the procedure?",
+     "choices": [
+      "Jumpering at the case terminals, and failing to reconcile the test sheet before the door is closed.",
+      "Jumpering at the case terminals, and opening the voltage link after the jumper instead of before it.",
+      "Drawing the relay out before the replacement is landed, and opening the voltage link after the jumper.",
+      "Jumpering at the shorting block, and drawing the relay out before the voltage link was opened."
+     ],
+     "answer": "B",
+     "explanation": "The procedure fixes both where the jumper goes and when the voltage link is opened, and this technician got both wrong: the case terminals open as the relay is drawn, so that jumper leaves the loop open, and the link should have been opened first. Reconciling the sheet has not been reached yet, and the replacement relay is landed after the old one is drawn, not before, so those pairs do not hold."
+    },
+    {
+     "num": 24,
+     "topic": "Reading for Comprehension",
+     "question": "Read this excerpt from a storm plan. \"Restoration is worked in stages: sources first, then main feeders, then branch lines, then services. Within a stage, crews take the work that restores the most customers per crew-hour. Two rules override that order. Wires down where the public can reach them are made safe whenever they are reported. And a circuit carrying a hospital, water plant or lift station within its first mile is restored ahead of other circuits in the same stage, even where another circuit would restore more customers. Crews are not moved from one stage to the next while a stage is incomplete, unless the control center closes the stage, which it does only when the work left in it needs equipment that is not on site.\" A crew working main feeders is offered a branch line that restores 400 customers, a feeder with a water plant in its first mile that restores 90, and a second feeder that restores 250. No wires are down. What does the plan direct?",
+     "choices": [
+      "Take the branch line restoring 400 customers, because it returns the most of the three.",
+      "Take the feeder restoring 250 customers, because it returns the most in this stage.",
+      "Take the feeder with the water plant, because that rule outranks customers per crew-hour.",
+      "Ask the control center to close the feeder stage so the branch line can be taken."
+     ],
+     "answer": "C",
+     "explanation": "Two of the three jobs are feeders, which is the stage the crew is in, and between them the water-plant rule decides, whatever the customer counts say. The 250-customer feeder is the strongest trap because customers per crew-hour is the normal basis for choosing inside a stage. The branch line belongs to a later stage, and a stage is closed only for missing equipment."
+    },
+    {
+     "num": 25,
+     "topic": "Reading for Comprehension",
+     "question": "Read this excerpt from an equipment manual. \"An insulated aerial device is rated for work at a stated voltage only while the insulated section of the boom is clean, dry and unbridged. A hose, rope or tag line run from the bucket to the ground bridges it, as does a tool left lying along the boom. The device is tested every year and again after any repair to the insulated section, and the test is repeated if the boom has been washed with a detergent that leaves a film. Crews bond the truck frame to a ground rod and keep others outside the rod's area, so that a boom contact raises the frame and the earth around it together rather than through a person standing between them.\" A crew washes the boom with a filming detergent in the morning and then rigs a synthetic tag line from the bucket to a worker on the ground. What does the excerpt imply about the device's rating for that job?",
+     "choices": [
+      "It does not hold, because the bond to the ground rod is what establishes the rating.",
+      "It holds, because the tag line is synthetic and the wash affects only the test date.",
+      "It holds until the next annual test, because the boom was washed and not repaired.",
+      "It does not hold: the wash calls for a repeat test, and the tag line bridges the insulation."
+     ],
+     "answer": "D",
+     "explanation": "Two separate conditions in the excerpt fail at once. The filming detergent calls for the test to be repeated, and a line run from bucket to ground bridges the insulated section whatever it is made of. Treating a synthetic line as harmless is the strongest trap, since synthetic rope is often assumed to insulate, but the excerpt names any line to the ground. The bond serves a different purpose."
+    }
+   ]
+  }
+ ]
+}

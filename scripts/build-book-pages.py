@@ -176,17 +176,12 @@ def page(book, stats):
           <h1 data-split>{esc(title)}</h1>
           <p class="cp-hero-copy">{esc(desc)}</p>
 
-          <!-- Visitor: free practice, email first (same model as /capm) -->
+          <!-- Visitor: 25 free questions — no email, no signup -->
           <div class="cp-gate" data-visitor-only>
-            <h2>Try {stats["sample"]} free {esc(short)} questions</h2>
-            <form id="freeForm" class="cp-gate-form">
-              <label class="cp-sr" for="freeEmail">Email address</label>
-              <input type="email" id="freeEmail" required autocomplete="email" placeholder="Enter your email">
-              <button type="submit" class="cp-btn cp-btn-primary">Start free practice <span class="cp-arrow" aria-hidden="true">→</span></button>
-            </form>
-            <a class="cp-btn cp-btn-primary cp-gate-start" id="freeStart" href="/sample?book={esc(slug)}" hidden>Start free practice <span class="cp-arrow" aria-hidden="true">→</span></a>
-            <ul class="cp-gate-proof"><li>{stats["sample"]} questions</li><li>Instant explanations</li><li>No credit card</li></ul>
-            <p class="cp-gate-note">We'll also email you occasional study tips for this exam — unsubscribe any time. Already own the book? <a href="#owner">Enter your access code →</a></p>
+            <h2>Try 25 tough {esc(short)} questions — free</h2>
+            <a class="cp-btn cp-btn-primary cp-gate-start" href="/sample?book={esc(slug)}">Start the 25 free questions <span class="cp-arrow" aria-hidden="true">→</span></a>
+            <ul class="cp-gate-proof"><li>No email, no signup</li><li>Full explanation after every answer</li><li>New questions — not in the book or the online tests</li></ul>
+            <p class="cp-gate-note">Already own the book? <a href="#owner">Enter your access code →</a></p>
           </div>
 
           <!-- Owner: this book's practice tests -->
@@ -257,9 +252,9 @@ def page(book, stats):
 {FOOTER}
 
   <script>window.CP_BOOK = {cfg};</script>
-  <script src="/js/premium.js?v=10" defer></script>
+  <script src="/js/premium.js?v=12" defer></script>
   <script src="/js/app.js?v=20260918g" defer></script>
-  <script src="/js/book.js?v=3" defer></script>
+  <script src="/js/book.js?v=4" defer></script>
 </body>
 </html>
 '''
@@ -280,7 +275,12 @@ for b in books:
         print("SKIP (no question bank):", b["slug"]); continue
     if (st["tests"], st["questions"]) != (b.get("testCount"), b.get("totalQuestions")):
         print(f"NOTE {b['slug']}: books.json says {b.get('testCount')} tests / {b.get('totalQuestions')} Qs, bank has {st['tests']} / {st['questions']} — page uses the bank")
-    (out / f"{b['slug']}.html").write_text(page(b, st), encoding="utf-8")
+    doc = page(b, st)
+    # a title whose free 25-question set has not cleared audit yet keeps the older sample, described honestly
+    if not (ROOT / "data" / "free" / f"{b.get('bank') or b['slug']}.json").is_file():
+        doc = (re.sub(r"Try 25 tough (.*?) questions — free", r"Try \1 sample questions — free", doc).replace("Start the 25 free questions", "Start the free sample questions")
+                  .replace("<li>New questions — not in the book or the online tests</li>", ""))
+    (out / f"{b['slug']}.html").write_text(doc, encoding="utf-8")
     pages[b["slug"]] = f"/books/{b['slug']}"
 
 pages.update(OWN_PAGE)

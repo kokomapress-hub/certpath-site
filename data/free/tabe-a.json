@@ -1,0 +1,338 @@
+{
+ "slug": "tabe-a-free25",
+ "title": "Free sample",
+ "free": true,
+ "note": "Original questions written for the free sample. They do not appear in the book or in the owners' online practice tests.",
+ "tests": [
+  {
+   "testNum": 1,
+   "questions": [
+    {
+     "num": 1,
+     "topic": "Number & Quantity — rational exponents and radicals",
+     "question": "A pump catalog rates a pipe with the formula Q = 18 × d^(3/2), where d is the inside diameter in inches and Q is the flow in gallons per minute. A processing line must carry 486 gallons per minute. What inside diameter does the formula call for?",
+     "choices": [
+      "18 inches",
+      "40.5 inches",
+      "3 inches",
+      "9 inches"
+     ],
+     "answer": "D",
+     "explanation": "Divide first: 486 ÷ 18 = 27, so d^(3/2) = 27. Undo the 3/2 power by raising both sides to the 2/3 power: d = 27^(2/3) = (³√27)² = 3² = 9 inches. Check: 18 × 9^(3/2) = 18 × 27 = 486. The tempting wrong answer is 3 inches, which comes from taking only the cube root of 27 and forgetting to square it."
+    },
+    {
+     "num": 2,
+     "topic": "Number & Quantity — quantities and scientific notation",
+     "question": "A water utility's annual report states that it delivered 3.2 × 10^9 gallons to 4.0 × 10^5 customer accounts during the year. Treating every day as equal, about how many gallons did one account use per day?",
+     "choices": [
+      "about 22 gallons",
+      "about 2.2 gallons",
+      "about 267 gallons",
+      "about 219 gallons"
+     ],
+     "answer": "A",
+     "explanation": "Divide the quantities: (3.2 ÷ 4.0) × 10^(9−5) = 0.8 × 10^4 = 8,000 gallons per account for the year. Then divide by 365 days: 8,000 ÷ 365 ≈ 21.9, about 22 gallons a day. The most tempting wrong answer, about 219 gallons, comes from misplacing the decimal in 3.2 ÷ 4.0 and using 8.0 × 10^4 gallons per account for the year instead of 8.0 × 10^3."
+    },
+    {
+     "num": 3,
+     "topic": "Number & Quantity — units and rates",
+     "question": "A line crew installs 3/4 of a mile of underground conduit in 5 workdays, and each workday is 9 hours of installation time. Working at the same steady rate, how many feet of conduit does the crew install per hour? (1 mile = 5,280 feet)",
+     "choices": [
+      "156 feet per hour",
+      "88 feet per hour",
+      "99 feet per hour",
+      "792 feet per hour"
+     ],
+     "answer": "B",
+     "explanation": "Convert the distance: 3/4 × 5,280 = 3,960 feet. Convert the time: 5 days × 9 hours = 45 hours. The rate is 3,960 ÷ 45 = 88 feet per hour. The most tempting wrong answer, 99 feet per hour, comes from assuming an 8-hour workday (40 hours) instead of the 9 hours the problem states; 792 feet per hour is the amount per day, not per hour."
+    },
+    {
+     "num": 4,
+     "topic": "Algebra — systems of linear equations",
+     "question": "A caterer bills $18 for each adult plate and $11 for each child plate. A company banquet is billed for 145 plates in all, and the total comes to $2,330. How many child plates were served?",
+     "choices": [
+      "35 child plates",
+      "40 child plates",
+      "105 child plates",
+      "80 child plates"
+     ],
+     "answer": "B",
+     "explanation": "Let c be child plates, so adult plates are 145 − c. Then 18(145 − c) + 11c = 2,330, or 2,610 − 7c = 2,330, so 7c = 280 and c = 40. Check: 105 × $18 + 40 × $11 = $1,890 + $440 = $2,330. The tempting wrong answer, 105, is the number of adult plates, which is also what you get if the two prices are swapped in the set-up."
+    },
+    {
+     "num": 5,
+     "topic": "Algebra — quadratic equations in context",
+     "question": "A landscaper encloses a rectangular storage yard on three sides, using the side of a building as the fourth side. He has exactly 84 feet of fencing and the finished yard must cover 882 square feet. How long is the side of the yard that runs along the building?",
+     "choices": [
+      "21 feet",
+      "42 feet",
+      "63 feet",
+      "28 feet"
+     ],
+     "answer": "B",
+     "explanation": "Let w be each of the two sides perpendicular to the building, so the parallel side is 84 − 2w and w(84 − 2w) = 882. That gives w² − 42w + 441 = 0, which factors as (w − 21)² = 0, so w = 21 and the side along the building is 84 − 2(21) = 42 feet. Check: 42 × 21 = 882. The tempting 28 feet comes from splitting 84 into three equal sides."
+    },
+    {
+     "num": 6,
+     "topic": "Algebra — linear inequalities in context",
+     "question": "A delivery driver is paid $780 a week plus $0.62 for every package delivered, and $96 is taken out each week for insurance. What is the least whole number of packages she must deliver in a week for her take-home pay to be at least $1,100?",
+     "choices": [
+      "671 packages",
+      "670 packages",
+      "517 packages",
+      "362 packages"
+     ],
+     "answer": "A",
+     "explanation": "Solve 780 + 0.62p − 96 ≥ 1,100. That is 0.62p ≥ 416, so p ≥ 670.97. Since packages are whole, she needs 671; at 670 the pay is $1,099.40, just short. The tempting 670 comes from rounding the answer down instead of up, and 517 comes from leaving the $96 deduction out of the set-up."
+    },
+    {
+     "num": 7,
+     "topic": "Algebra — operations with polynomials",
+     "question": "A rectangular concrete pad measures (2x + 5) feet by (3x − 4) feet. A gravel walkway exactly 2 feet wide is laid all the way around the outside of the pad. Which expression gives the area, in square feet, of the walkway alone?",
+     "choices": [
+      "20x + 4",
+      "10x + 6",
+      "20x − 20",
+      "20x + 20"
+     ],
+     "answer": "D",
+     "explanation": "The walkway adds 2 feet on each of two opposite sides, so the outer rectangle is (2x + 9) by (3x), with area 6x² + 27x. The pad is (2x + 5)(3x − 4) = 6x² + 7x − 20. Subtract: (6x² + 27x) − (6x² + 7x − 20) = 20x + 20. The tempting 20x − 20 comes from failing to distribute the subtraction over the −20, and 20x + 4 comes from leaving out the four 2-by-2 corner squares."
+    },
+    {
+     "num": 8,
+     "topic": "Algebra — creating equations from a description",
+     "question": "A hardware store sets prices so that gross margin, figured as (selling price − cost) ÷ selling price, is 35 percent. A cordless drill costs the store $52.00. What selling price gives exactly a 35 percent gross margin?",
+     "choices": [
+      "$80.00",
+      "$33.80",
+      "$38.52",
+      "$70.20"
+     ],
+     "answer": "A",
+     "explanation": "Margin is measured against the selling price, so cost is 65 percent of it: 0.65S = 52, giving S = 52 ÷ 0.65 = $80.00. Check: (80 − 52) ÷ 80 = 0.35. The tempting $70.20 is 52 × 1.35, which adds 35 percent to the cost; that is a 35 percent markup on cost, and its true margin is only about 26 percent."
+    },
+    {
+     "num": 9,
+     "topic": "Algebra — systems and break-even reasoning",
+     "question": "A contractor compares two van rentals for a job lasting 3 days. One company charges $89 per day plus $0.28 per mile. The other charges $129 per day plus $0.13 per mile. At how many miles driven over the 3 days do the two rentals cost the same?",
+     "choices": [
+      "800 miles",
+      "293 miles",
+      "267 miles",
+      "80 miles"
+     ],
+     "answer": "A",
+     "explanation": "For 3 days the daily charges are 3 × $89 = $267 and 3 × $129 = $387. Set 267 + 0.28m = 387 + 0.13m, so 0.15m = 120 and m = 800 miles. Check: both come to $491. The tempting 267 miles comes from comparing one day of fees ($40 difference) against the full per-mile difference, and 293 miles comes from adding the two mileage rates instead of subtracting them."
+    },
+    {
+     "num": 10,
+     "topic": "Algebra — rational equations in context",
+     "question": "A print shop has two folding machines. Running alone, the older machine needs 3 hours longer than the newer one to finish a mailing. Running together, the two machines finish the same mailing in exactly 2 hours. How long does the newer machine take by itself?",
+     "choices": [
+      "6 hours",
+      "4 hours",
+      "3 hours",
+      "1.5 hours"
+     ],
+     "answer": "C",
+     "explanation": "Let t be the newer machine's time; the older takes t + 3. Rates add: 1/t + 1/(t + 3) = 1/2. Multiplying by 2t(t + 3) gives 2(t + 3) + 2t = t² + 3t, or t² − t − 6 = 0, so t = 3 and the older takes 6. Check: 1/3 + 1/6 = 1/2. The tempting 4 hours comes from assuming the machines are equally fast, which would make each one take twice the joint time."
+    },
+    {
+     "num": 11,
+     "topic": "Functions — interpreting a piecewise function in reverse",
+     "question": "A manufacturer pays its reps a commission of 6 percent on the first $40,000 of a month's sales and 9.5 percent on any sales above $40,000. One rep's commission for March came to $5,250. What were that rep's March sales?",
+     "choices": [
+      "$55,263",
+      "$30,000",
+      "$70,000",
+      "$87,500"
+     ],
+     "answer": "C",
+     "explanation": "The first $40,000 of sales pays 0.06 × 40,000 = $2,400, and $5,250 is more than that, so some sales fall in the higher band. The rest of the commission, 5,250 − 2,400 = $2,850, comes from the 9.5 percent band: 2,850 ÷ 0.095 = $30,000 of sales above the break. Total sales are 40,000 + 30,000 = $70,000. The tempting $55,263 applies 9.5 percent to every dollar of sales."
+    },
+    {
+     "num": 12,
+     "topic": "Functions — average rate of change and linear models",
+     "question": "A fleet manager records that a delivery truck is worth $31,200 when it is 2 years old and $24,300 when it is 5 years old. She assumes the value drops by the same amount every year. Using that assumption, what is the truck worth when it is 10 years old?",
+     "choices": [
+      "$17,400",
+      "$12,800",
+      "$10,500",
+      "$1,300"
+     ],
+     "answer": "B",
+     "explanation": "The value falls $31,200 − $24,300 = $6,900 over 3 years, a rate of $2,300 per year. From age 5 to age 10 is 5 more years: $24,300 − 5 × $2,300 = $24,300 − $11,500 = $12,800. The tempting $17,400 stops at age 8 by subtracting only 3 years of decline, and $1,300 comes from subtracting 10 years of decline from the age-5 value instead of 5 years."
+    },
+    {
+     "num": 13,
+     "topic": "Functions — exponential models",
+     "question": "An accountant depreciates a $48,000 machine by 12 percent of its value at the start of each year, so its worth at the end of a year is 88 percent of its worth at the start. To the nearest dollar, what is the machine worth after 5 full years?",
+     "choices": [
+      "$28,785",
+      "$25,331",
+      "$19,200",
+      "$22,291"
+     ],
+     "answer": "B",
+     "explanation": "Each year multiplies the value by 0.88, so after 5 years the value is 48,000 × 0.88^5 = 48,000 × 0.52773 ≈ $25,331. The tempting $19,200 comes from taking 12 percent of the original $48,000 five times ($5,760 a year, straight-line), which removes too much because the 12 percent should apply to the shrinking value; $28,785 is the value after only 4 years."
+    },
+    {
+     "num": 14,
+     "topic": "Functions — comparing linear and exponential models",
+     "question": "Two job offers start on the same day. One pays $46,000 in the first year and adds a flat $1,800 raise to the yearly salary every year after that. The other pays $43,500 in the first year and raises the yearly salary by 4 percent every year after that. Which statement about the two offers is correct?",
+     "choices": [
+      "The two offers pay the same yearly salary from the fifth year onward because the raises balance out.",
+      "The percentage offer gains more dollars than the flat-raise offer from its very first raise, so it leads within two years.",
+      "The percentage offer raises pay by a larger dollar amount each year than it did the year before, so it eventually pays the higher yearly salary.",
+      "The flat-raise offer always pays the higher yearly salary because it starts $2,500 ahead and never falls behind."
+     ],
+     "answer": "C",
+     "explanation": "A flat $1,800 raise is the same every year, but a 4 percent raise grows as the salary grows, so the percentage offer's yearly increase keeps rising and its salary eventually passes the other (it does so in year 11). The tempting claim that the percentage offer leads within two years fails a quick check: 4 percent of $43,500 is only $1,740, less than $1,800, so the first raise is actually smaller."
+    },
+    {
+     "num": 15,
+     "topic": "Functions — building a function from a description",
+     "question": "A holding tank contains 12,400 gallons. A pump removes 260 gallons per hour while a feed line keeps adding 45 gallons per hour the whole time. If both run without stopping, how long does the tank take to empty, to the nearest tenth of an hour?",
+     "choices": [
+      "40.7 hours",
+      "57.7 hours",
+      "65.3 hours",
+      "47.7 hours"
+     ],
+     "answer": "B",
+     "explanation": "The amount left after t hours is g(t) = 12,400 − (260 − 45)t = 12,400 − 215t. Set that equal to zero: t = 12,400 ÷ 215 ≈ 57.67, so about 57.7 hours. The tempting 47.7 hours comes from using only the 260-gallon pump rate and ignoring the water still coming in; 40.7 hours comes from adding the two rates instead of subtracting."
+    },
+    {
+     "num": 16,
+     "topic": "Functions — interpreting a linear model",
+     "question": "A small shop's weekly cost of making x planter boxes is C(x) = 3,150 + 4.80x dollars, and each box sells for $12.00. In a week when the shop makes and sells 900 boxes, what is the shop's profit?",
+     "choices": [
+      "$7,650",
+      "$7,470",
+      "$6,480",
+      "$3,330"
+     ],
+     "answer": "D",
+     "explanation": "Revenue is 900 × $12.00 = $10,800. Cost is 3,150 + 4.80 × 900 = 3,150 + 4,320 = $7,470. Profit is $10,800 − $7,470 = $3,330. Equivalently, each box contributes $12.00 − $4.80 = $7.20, so 900 × $7.20 = $6,480 before covering the fixed $3,150. That $6,480 is the tempting wrong answer: it leaves the fixed weekly cost unpaid."
+    },
+    {
+     "num": 17,
+     "topic": "Functions — quadratic models and maximum value",
+     "question": "A community theater now sells 480 tickets at $22.00 each. Its manager finds that every $1.00 increase in the ticket price loses 20 ticket sales, and the pattern holds for small increases. What ticket price brings in the greatest total ticket revenue?",
+     "choices": [
+      "$24.00",
+      "$34.00",
+      "$23.00",
+      "$22.00"
+     ],
+     "answer": "C",
+     "explanation": "Writing sales in terms of the price gives 920 − 20p tickets, so revenue is p(920 − 20p), a downward parabola whose zeros are $0.00 and $46.00. Its high point sits midway between those zeros, at $23.00, selling 460 tickets for $10,580 and beating $10,560 at both $22.00 and $24.00. The tempting $34.00 averages the current $22.00 with the $46.00 zero-sales price; $46.00 is right, but $22.00 is not a zero of revenue — $0.00 is."
+    },
+    {
+     "num": 18,
+     "topic": "Geometry — volume of a cylinder with unit conversion",
+     "question": "A cylindrical fuel tank lying on its side is 4 feet across the round end and 12 feet long. One cubic foot holds 7.48 gallons. About how many gallons does the tank hold when it is completely full?",
+     "choices": [
+      "about 564 gallons",
+      "about 151 gallons",
+      "about 4,512 gallons",
+      "about 1,128 gallons"
+     ],
+     "answer": "D",
+     "explanation": "The radius is half of 4 feet, or 2 feet, so the volume is π × 2² × 12 ≈ 150.8 cubic feet. Multiply by 7.48: about 1,128 gallons. The tempting 4,512 gallons comes from using 4 feet as the radius instead of the diameter, which multiplies the volume by four; about 151 gallons is the volume in cubic feet with the gallon conversion left out."
+    },
+    {
+     "num": 19,
+     "topic": "Geometry — similarity and indirect measurement",
+     "question": "At the same moment on a level lot, a 6-foot-tall inspector casts a shadow 7.5 feet long and a light pole casts a shadow 41 feet long. Using similar triangles, how tall is the light pole?",
+     "choices": [
+      "51.3 feet",
+      "26.8 feet",
+      "39.5 feet",
+      "32.8 feet"
+     ],
+     "answer": "D",
+     "explanation": "The two triangles are similar, so height ÷ shadow is the same for both: 6 ÷ 7.5 = 0.8. The pole is 41 × 0.8 = 32.8 feet. The tempting 51.3 feet comes from flipping the ratio and computing 41 × (7.5 ÷ 6); 39.5 feet comes from reasoning by subtraction rather than ratio, adding the 33.5-foot shadow difference to the inspector's height."
+    },
+    {
+     "num": 20,
+     "topic": "Geometry — volume of a composite solid",
+     "question": "A feed hopper is built as a cylinder with a cone-shaped bottom. The cylinder is 6 feet across and 9 feet tall. The cone below it has the same 6-foot width where it meets the cylinder and narrows to a point 4 feet lower. About how many cubic feet of feed does the hopper hold when full?",
+     "choices": [
+      "about 292 cubic feet",
+      "about 254 cubic feet",
+      "about 368 cubic feet",
+      "about 1,169 cubic feet"
+     ],
+     "answer": "A",
+     "explanation": "The radius is half of 6 feet, or 3 feet. The cylinder holds π × 3² × 9 = 81π ≈ 254.5 cubic feet, and the cone holds one-third of π × 3² × 4, which is 12π ≈ 37.7 cubic feet. Together that is 93π ≈ 292 cubic feet. The tempting 368 cubic feet comes from using π r² h for the cone as well, leaving out the one-third; 254 cubic feet counts only the cylinder."
+    },
+    {
+     "num": 21,
+     "topic": "Geometry — density in a modelling situation",
+     "question": "A driveway 24 feet long and 15 feet wide is to be covered with crushed stone to a settled depth of 4 inches. Crushed stone weighs 105 pounds per cubic foot, and the quarry sells it only by the whole ton, where one ton is 2,000 pounds. How many tons must be ordered to cover the driveway?",
+     "choices": [
+      "76 tons",
+      "13 tons",
+      "6 tons",
+      "7 tons"
+     ],
+     "answer": "D",
+     "explanation": "A depth of 4 inches is 4/12 = 1/3 of a foot, so the stone occupies 24 × 15 × 1/3 = 120 cubic feet. At 105 pounds per cubic foot that weighs 120 × 105 = 12,600 pounds, which is 12,600 ÷ 2,000 = 6.3 tons. Since the quarry sells whole tons, 7 must be ordered. The tempting 6 tons rounds down and leaves the driveway short; 13 tons comes from dividing by 1,000 pounds instead of 2,000."
+    },
+    {
+     "num": 22,
+     "topic": "Statistics — center, spread, and effect of an extreme value",
+     "question": "A packing crew's output for five days was 34, 41, 28, 45, and 37 cartons. On the sixth day a rush order pushed output to 62 cartons. Comparing the six-day figures with the five-day figures, which statement is correct?",
+     "choices": [
+      "The median rises by about 4 cartons and the mean rises by 2, so the median moves more.",
+      "The median stays at 37 cartons because adding one value cannot change a median.",
+      "The mean rises by about 4 cartons and the median rises by 2, so the mean moves more.",
+      "The mean and the median each rise by the same amount, about 4 cartons."
+     ],
+     "answer": "C",
+     "explanation": "For the first five days the mean is 185 ÷ 5 = 37 and the middle value is also 37. Adding 62 makes the mean 247 ÷ 6 ≈ 41.2, a rise of about 4.2, while the median becomes the average of the two middle values 37 and 41, or 39, a rise of 2. A single high value pulls the mean more than the median. The claim that the median cannot change ignores that six values make the median an average of two."
+    },
+    {
+     "num": 23,
+     "topic": "Statistics — weighted means",
+     "question": "On Monday a 12-worker day shift averaged 148 finished units per worker. The 8-worker night shift works the same job. What must the night shift average, per worker, for all 20 workers together to average exactly 155 finished units per worker?",
+     "choices": [
+      "162.0 units",
+      "170.0 units",
+      "165.5 units",
+      "155.0 units"
+     ],
+     "answer": "C",
+     "explanation": "All 20 workers must total 20 × 155 = 3,100 units. The day shift produced 12 × 148 = 1,776, so the night shift must produce 3,100 − 1,776 = 1,324 units, which is 1,324 ÷ 8 = 165.5 per worker. The tempting 162.0 comes from treating the two shifts as equally weighted and computing 2 × 155 − 148, which ignores that the day shift has more workers pulling the combined average down."
+    },
+    {
+     "num": 24,
+     "topic": "Statistics — two-way frequency reasoning",
+     "question": "A repair company logged 260 service calls last month. Of those, 150 were heating calls and the rest were cooling calls. The technicians finished 96 of the heating calls and 44 of the cooling calls on the first visit. Of all the calls finished on the first visit, what percent were cooling calls?",
+     "choices": [
+      "about 31 percent",
+      "about 69 percent",
+      "about 17 percent",
+      "about 40 percent"
+     ],
+     "answer": "A",
+     "explanation": "Cooling calls numbered 260 − 150 = 110, and first-visit finishes numbered 96 + 44 = 140. The question asks what share of those 140 finishes were cooling: 44 ÷ 140 ≈ 0.314, about 31 percent. The tempting 40 percent is 44 ÷ 110, which answers a different question — the share of cooling calls that were finished on the first visit — by using the wrong total."
+    },
+    {
+     "num": 25,
+     "topic": "Statistics — interpreting a line of best fit",
+     "question": "A store owner records weekly advertising spending and weekly sales for one year. Every week's advertising fell between $200 and $1,500. The line of best fit for the data is: predicted sales = 940 + 6.2 × (advertising dollars). Which reading of that line is best supported?",
+     "choices": [
+      "Within the range of weeks studied, each extra advertising dollar went with about $6.20 more in weekly sales on average.",
+      "Spending $2,500 on advertising in a week would bring in about $16,440 in sales that week.",
+      "The line proves that the advertising caused sales to grow by 620 percent over the year.",
+      "Weeks with no advertising at all had sales of exactly $940, since that is where the line starts."
+     ],
+     "answer": "A",
+     "explanation": "The number multiplied by advertising is the slope, so it describes the average change in predicted sales per extra advertising dollar, and that description holds only over the $200 to $1,500 range that was actually observed. The tempting $2,500 answer applies the line far outside that range, where the relationship was never tested. The $940 value is a predicted starting point for the line, not a measured result, and a line of best fit alone does not establish cause."
+    }
+   ]
+  }
+ ]
+}

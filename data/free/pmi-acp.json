@@ -1,0 +1,338 @@
+{
+ "slug": "pmi-acp-free25",
+ "title": "Free sample",
+ "free": true,
+ "note": "Original questions written for the free sample. They do not appear in the book or in the owners' online practice tests.",
+ "tests": [
+  {
+   "testNum": 1,
+   "questions": [
+    {
+     "num": 1,
+     "topic": "Mindset",
+     "question": "A team spent an iteration on a spike to prove an on-device machine learning model could run inside the battery budget. It cannot; the model needs roughly three times the power available. The battery and processor order, which cannot be changed later, goes to the steering group for approval at the end of this week. At the review the team demonstrates its other work, says nothing about the spike, and tells the coach it wants one more iteration to find a workaround first. What should the coach do?",
+     "choices": [
+      "Agree to the extra iteration, since a result with no viable workaround attached will only alarm the steering group",
+      "Add the power shortfall to the risk register with an owner and a review date at the next iteration planning",
+      "Coach the team to present the spike result and its options at the review, while the hardware decision is still open",
+      "Report the spike result to the steering group directly, so the information reaches the decision makers this week"
+     ],
+     "answer": "C",
+     "explanation": "Transparency is the precondition for inspection and adaptation, and the hardware order closes this week, so a result that invalidates a design assumption has to reach the decision makers while the decision is still open. Granting the extra iteration is the strongest trap because the team's motive is genuine and a workaround might exist, yet it trades the last week of optionality for the team's comfort. Reporting over the team's head damages ownership, and logging a risk records what is already known."
+    },
+    {
+     "num": 2,
+     "topic": "Mindset",
+     "question": "A team has held a retrospective every iteration for a year. It has already tried two new formats this quarter, the same three grievances reappear, attendance is reluctant, and nothing from the last six retrospectives has changed how the team works. A team member proposes dropping retrospectives altogether because they consume ninety minutes and produce nothing. What should the coach do?",
+     "choices": [
+      "Try a third format with an outside facilitator, so the discussion is freshened and engagement recovers over time",
+      "Suspend retrospectives for three iterations and reinstate them once the team has something specific to inspect",
+      "Take the three recurring grievances to the manager who can resolve them, so the team stops raising items it cannot act on",
+      "Run the next retrospective on the retrospective itself, examining why improvements are agreed and then never adopted"
+     ],
+     "answer": "D",
+     "explanation": "The practice is being performed without producing its outcome, so the team inspects and adapts the practice itself, which is the mindset the event is meant to embody. A third format is the strongest trap, because stale facilitation is a real cause and two attempts might simply have been the wrong two, yet the stem shows format is not what stops agreed improvements from happening. Suspending removes the only place the problem can surface, and escalating skips the team's diagnosis."
+    },
+    {
+     "num": 3,
+     "topic": "Mindset",
+     "question": "A configuration change pushed by a junior developer took a payment service down for forty minutes. The change had passed the team's existing peer review and its automated checks. The head of engineering wants the individual named in the incident report and a rule limiting configuration pushes to two senior developers. The team is subdued, and two members say they will now route everything through those seniors regardless. What should the coach advocate?",
+     "choices": [
+      "The proposed restriction, since limiting configuration pushes to senior developers would prevent this failure recurring",
+      "A blameless review of how the change passed every existing control, with the resulting fixes owned by the team",
+      "An added approval step for configuration changes to the payment service, so a second person signs off every push",
+      "A named report plus a coaching plan for the developer, so accountability is visible without a permanent restriction"
+     ],
+     "answer": "B",
+     "explanation": "The change cleared peer review and automated checks, so the controls, not the person, are what failed; blameless analysis is also what keeps people reporting the near misses that prevent the next outage. The restriction is the strongest trap because it looks decisive, yet a senior developer would have passed the same controls, and the team is already routing around it. Naming the individual buys accountability at the cost of safety, and another sign-off repeats the control that just failed."
+    },
+    {
+     "num": 4,
+     "topic": "Mindset",
+     "question": "A team codes stories inside its two-week iteration, then hands them to a separate quality assurance group. Last quarter the two groups aligned their cadences to the same two-week boundaries, and feedback still arrives eleven days after a story is coded, because the work queues behind the group's other clients. Defects return when developers are deep in other work, and about a third of each iteration goes on re-reading old code. Both groups report high utilisation. What should the coach address first?",
+     "choices": [
+      "The handoff itself, working toward testing performed inside the team during the iteration",
+      "The iteration length, by shortening it to one week so that feedback from the testing group arrives sooner",
+      "The defect volume, by adding a code review gate before stories are handed over to the quality assurance group",
+      "The queue position, by negotiating priority with the quality assurance group so this team's work is tested first"
+     ],
+     "answer": "A",
+     "explanation": "Aligned cadences have already been tried and the delay persists, because the waste is the handoff and the queue it feeds, not the calendar. Moving testing inside the team removes the queue, the context switching and the relearning together. Negotiating priority is the strongest trap: it would shorten this team's wait and is achievable, yet it simply moves the queue onto someone else and leaves the handoff intact. A review gate adds a stage, and a shorter iteration cycles the same broken flow more often."
+    },
+    {
+     "num": 5,
+     "topic": "Mindset",
+     "question": "A sponsor is about to commit a marketing date for a release. The team's task burndown shows 78 percent of tasks complete and the team says the progress is real. Across three iterations, however, only two of fourteen stories have met the definition of done; the other twelve are code complete and awaiting an integration the team has never yet performed on this codebase. The sponsor asks the coach whether the release is on track. What should the coach do?",
+     "choices": [
+      "Report the two accepted stories as the progress to date and replan the date from what has actually been finished",
+      "Introduce a task-level definition of done, so a task counts as complete only once its story has been integrated",
+      "Report the task measure with the caveat that integration is outstanding, since the coding work genuinely is complete",
+      "Add an integration iteration to bring the twelve stories to done, and report the task measure until that is finished"
+     ],
+     "answer": "A",
+     "explanation": "Working software is the measure of progress, and twelve stories awaiting an integration never yet attempted on this codebase carry unknown work, so the honest position ahead of a date commitment is two accepted stories. Reporting tasks with a caveat is the strongest trap, because the coding effort is real and a caveat feels transparent, yet it puts a number the team cannot stand behind into a commitment. An integration iteration plans around that same figure, and a task-level standard just counts undone work more finely."
+    },
+    {
+     "num": 6,
+     "topic": "Delivery",
+     "question": "A delivery director publishes a monthly table ranking six teams by velocity and asks the two lowest to explain themselves. The six teams calibrated their points separately against different reference stories. Within two months the lowest team's velocity has doubled, its story count is unchanged, and its cycle time and escaped defects are both worse. The director regards the intervention as a success and plans to extend it. What should the coach explain?",
+     "choices": [
+      "Velocity is a team-internal planning measure, and ranking teams on it inflates estimates without improving delivery",
+      "Velocity should be normalised across the six teams first, so that a point carries the same meaning in each of them",
+      "Velocity should be averaged over at least six iterations before comparison, so short-term fluctuation does not distort it",
+      "Velocity should be reported with cycle time and escaped defects, so the ranking reflects quality as well as output"
+     ],
+     "answer": "A",
+     "explanation": "Points are calibrated separately by each team, so a cross-team ranking measures estimating behaviour; the doubled velocity on an unchanged story count with worse cycle time is that behaviour made visible. Adding quality measures to the ranking is the strongest trap because a balanced scorecard sounds right, yet any comparative target on a number the team itself sets keeps the incentive to inflate. Normalisation chases an equivalence the stem denies, and longer averaging smooths a gamed figure."
+    },
+    {
+     "num": 7,
+     "topic": "Mindset",
+     "question": "To hit a trade-show date, a team has worked evenings and two weekends for five iterations. Velocity rose for two iterations and then fell below its earlier level; escaped defects have doubled, one senior developer has resigned and a second has asked to move teams. The product owner proposes a final three-week push, arguing the team is nearly there and can recover afterwards. What should the coach recommend?",
+     "choices": [
+      "Keep the current pace but cut scope, so the team's effort is sustained while the trade-show commitment is still met",
+      "Agree the push but add a dedicated tester for the period, so the rise in escaped defects is contained until launch",
+      "Return to a sustainable pace and replan the trade-show scope around what the team can deliver reliably",
+      "Agree the three-week push with a recovery iteration afterwards, since the trade-show date is external and cannot move"
+     ],
+     "answer": "C",
+     "explanation": "The measurements already show the overtime destroying the capacity it was meant to buy, and a second departure is in progress, so the pace itself has to change before any scope conversation means anything. Cutting scope while holding the pace is the strongest trap, because reducing scope is the right half of the answer, yet it keeps the very condition that is driving defects and resignations. A recovery iteration afterwards assumes a team that is already leaving, and adding a tester treats the quality symptom while leaving the pace unchanged."
+    },
+    {
+     "num": 8,
+     "topic": "Leadership",
+     "question": "For three iterations a team has lost about a day each iteration waiting for a shared test environment held by another department. Each time the scrum master has phoned a contact there and the team has been unblocked within hours. That contact leaves the company next month. The team now raises the environment in every daily scrum and waits for the scrum master to make the call. What should the scrum master do next?",
+     "choices": [
+      "Escalate the recurring impediment to the delivery manager so the environment is permanently assigned to the team",
+      "Help the team build its own relationship and an agreed booking protocol with the other department",
+      "Log the waiting time as an impediment trend and review it with the other department at the next quarterly meeting",
+      "Introduce the team to the contact's successor and keep making the call until that relationship has settled"
+     ],
+     "answer": "B",
+     "explanation": "A repeating impediment is the signal to transfer capability rather than keep granting favours, and the contact's departure removes the single point the current arrangement depends on. A protocol the team owns survives both. Handing over to a successor is the strongest trap, because continuity sounds prudent and the relationship is real, yet it rebuilds the same dependency on one person and one intermediary. A dedicated environment may not be available, and a quarterly review defers relief."
+    },
+    {
+     "num": 9,
+     "topic": "Leadership",
+     "question": "A product owner specifies implementation in backlog items: which library to use, how data should be cached, which service owns each field. The developers comply and quietly rework the design later. Two of them raised it informally with her last month and nothing changed. In refinement the team no longer proposes alternatives. She says she is being helpful because she used to be an architect. What should the coach do?",
+     "choices": [
+      "Propose that the product owner and a developer pair on writing items, so her technical knowledge stays in the backlog",
+      "Coach the product owner to express items as outcomes and constraints, leaving design decisions with the developers",
+      "Ask the developers to raise their objections formally in refinement, so the product owner hears the cost of her direction",
+      "Agree that technical direction may stay in the items but is treated as advisory rather than binding on the developers"
+     ],
+     "answer": "B",
+     "explanation": "The accountability boundary is the issue: the product owner owns what and why, the developers own how, and the quiet rework shows the boundary already being defended informally. Asking the developers to raise it again is the strongest trap, because voice matters and it respects self-management, yet the stem says they tried and nothing changed, so it puts junior people back into a conflict with the person who orders their work. Pairing and advisory wording leave design authority ambiguous."
+    },
+    {
+     "num": 10,
+     "topic": "Leadership",
+     "question": "A team of nine works across three time zones. The daily scrum sits at the only hour everyone is awake, which is 7am for three members and 9pm for two. Updates have become read-aloud summaries, nobody asks questions, and two members routinely miss it. The scrum master has reminded everyone twice that attendance is expected. What should the scrum master do?",
+     "choices": [
+      "Rotate the meeting time each week so the inconvenience is shared evenly among the three time zones represented on the team",
+      "Replace the event with a written daily update in the team channel, so nobody has to attend outside their working hours",
+      "Facilitate the team in redesigning how it synchronises daily, then run the new approach for two iterations and inspect it",
+      "Split the team into two co-located sub-teams with their own events and a short weekly synchronisation between them"
+     ],
+     "answer": "C",
+     "explanation": "The team owns how it meets its own need to synchronise, and the coach's contribution is a facilitated redesign followed by an inspection of whether it worked. A written update is the strongest trap because it is a common and often effective remedy, yet imposing it repeats the mistake of deciding for the team and may drop the conversation the event exists to create. Rotating the pain spreads it without fixing it, and splitting the team is a structural change made to avoid a meeting."
+    },
+    {
+     "num": 11,
+     "topic": "Mindset",
+     "question": "Four teams build on a shared identity component. Two of them changed its interface in the same iteration and broke each other's builds twice. Each team has a competent technical lead, the component has no single owner, and the release train is eight weeks away. A programme manager proposes a central integration team that would review and approve every change to the component. What should the coach propose instead?",
+     "choices": [
+      "A central integration team as proposed, since a single approval point removes the conflicting changes immediately",
+      "Freezing the component's interface until the release train has passed, so no further breakages occur before the deadline",
+      "Assigning the component to one of the four teams, so that a single team owns every change made to the shared code",
+      "A regular cross-team synchronisation with an agreed interface contract and a shared change protocol"
+     ],
+     "answer": "D",
+     "explanation": "Scaling problems are coordination problems, and the lightweight answer is a standing cross-team forum plus an explicit interface contract, which keeps the teams autonomous and makes dependencies visible. A central approval team is the strongest trap because it would stop the breakages, yet it creates a queue every team waits in and moves the knowledge away from the people writing the code. Single-team ownership makes the other three dependent, and a freeze defers the collision."
+    },
+    {
+     "num": 12,
+     "topic": "Leadership",
+     "question": "Two developers disagree about whether the partner interface needs contract tests. Both approaches are technically viable and the rest of the team has said so. The disagreement has turned personal: review comments are sarcastic, and one has begun vetoing the other's changes, which now delays unrelated work. Two teammates have started taking sides. Each of the two has told the coach privately that he wants it to stop, and a week ago the coach asked them to settle it between themselves, which changed nothing. What should the coach do?",
+     "choices": [
+      "Bring the two together in a conversation he facilitates, about the effect on the team and what each of them needs",
+      "Raise it with their line manager as a conduct matter, since vetoed changes are now holding up the rest of the team",
+      "Settle the contract-testing question himself and record it as a team standard, so the argument has nothing left to feed on",
+      "Arrange the coming work so the two rarely touch the same changes, letting the friction cool without a confrontation"
+     ],
+     "answer": "A",
+     "explanation": "Both men want it to stop and leaving them to fix it alone has already been tried, so the coach supplies what was missing: a facilitated conversation about the effect on the team, with the two still owning the outcome. Settling the technical question is the strongest trap, because it looks decisive and removes the trigger, yet both approaches are viable and the damage is now to the relationship rather than the test strategy. Separating their work hides the conflict and leaves the team's split untouched."
+    },
+    {
+     "num": 13,
+     "topic": "Leadership",
+     "question": "A newly appointed engineering manager attends iteration planning and assigns each story to a named developer by who he thinks is fastest at that work; he has committed a delivery forecast upward and needs assurance that two specialised skills are covered. Over two iterations pairing has stopped, two stories sat blocked while their assignee was on leave, and the team stops volunteering for anything outside its allocation. What should the coach do?",
+     "choices": [
+      "Let the team raise the problem in its own retrospective, since a self-managing team should resolve such matters itself",
+      "Propose that assignments continue for the two specialised stories only, so the team selects the remainder of the work itself",
+      "Ask the manager to stop attending iteration planning, since assigning work to individuals removes the team's self-management",
+      "Work with the manager on covering his forecast and skill risk another way, and restore the team's pull-based selection"
+     ],
+     "answer": "D",
+     "explanation": "The manager has a legitimate need, an upward forecast and two thin skills, and it has to be met another way before the assignments will stop; the team then takes work by pull so knowledge spreads and blocked items get picked up. Keeping assignments for the specialised stories is the strongest trap, because it looks like a fair compromise that answers the skill risk, yet it preserves the practice that stopped pairing and stranded work. Excluding the manager makes an adversary of an ally."
+    },
+    {
+     "num": 14,
+     "topic": "Product",
+     "question": "A regulator-driven release is fixed for the end of the quarter. The product owner has classified fourteen items as must have, three as should have and two as could have. The team's forecast shows the must-have list alone needs about twenty per cent more capacity than the quarter contains, and the product owner says every must-have item is genuinely required. What should the coach facilitate?",
+     "choices": [
+      "Testing each must-have item against what actually fails at the regulatory date if it is absent, and reclassifying the rest",
+      "Asking the team for a firmer forecast, since a twenty per cent gap may close once the items have been refined and split",
+      "Reordering the must-have items by business value so the most valuable are delivered first if the release is short",
+      "Agreeing overtime for the final two iterations, since regulatory must-have items by definition cannot be deprioritised"
+     ],
+     "answer": "A",
+     "explanation": "Prioritisation only works when must have means the release fails without it; fourteen such items in an over-committed quarter means the category has not been tested, and the honest question is what breaks at the date. Reordering by value is the closest miss, because a value-ordered backlog is sound practice, yet it quietly accepts that some must-have items will be missed without anyone deciding which. A firmer forecast will not create capacity, and overtime trades quality for the same gap."
+    },
+    {
+     "num": 15,
+     "topic": "Product",
+     "question": "A product owner scores four candidates for the next quarter using weighted shortest job first. Renewal auto-billing scores business value 10, time criticality 8, risk reduction 3, job size 8. Tax-rule engine update scores 5, 9, 3, size 3. Mobile approvals scores 9, 4, 2, size 13. Audit-trail search scores 4, 2, 5, size 2. In which order should the four be sequenced?",
+     "choices": [
+      "Audit-trail search, tax-rule engine update, renewal auto-billing, mobile approvals",
+      "Renewal auto-billing, tax-rule engine update, mobile approvals, audit-trail search",
+      "Tax-rule engine update, audit-trail search, renewal auto-billing, mobile approvals",
+      "Renewal auto-billing, mobile approvals, tax-rule engine update, audit-trail search"
+     ],
+     "answer": "C",
+     "explanation": "Cost of delay is the sum of the first three scores, and the ranking metric divides it by job size: tax-rule 17 ÷ 3 = 5.67, audit-trail 11 ÷ 2 = 5.50, renewal 21 ÷ 8 = 2.63, mobile 15 ÷ 13 = 1.15. The sequence starting with renewal auto-billing is the strongest trap: it ranks by cost of delay alone and ignores that dividing by size is what puts the shortest job first. Ordering by size alone swaps the leading two."
+    },
+    {
+     "num": 16,
+     "topic": "Product",
+     "question": "Analytics on a booking app show three things. Median search response is 4.2 seconds against a one-second expectation in the category, and 38 percent of sessions are abandoned at the search step. Satisfaction scores rise steadily with each additional saved payment method. One-tap rebooking of a previous trip, which no competitor offers, drew strong unprompted enthusiasm from every test participant. The team can build one of the three next. What should the product owner choose?",
+     "choices": [
+      "One-tap rebooking, because unprompted enthusiasm from every test participant is the strongest demand signal available",
+      "Saved payment methods, because satisfaction rises measurably with each additional method the app supports",
+      "One-tap rebooking, because a capability no competitor offers differentiates the app in a way faster search never will",
+      "Search performance, because an unmet basic expectation is losing sessions that no distinctive feature can win back"
+     ],
+     "answer": "D",
+     "explanation": "The measures classify each finding: 4.2 seconds against a one-second expectation with 38 percent abandonment is a basic expectation failing, saved payment methods are a performance attribute scaling with satisfaction, and one-tap rebooking is a delighter. Delighters cannot compensate for an unmet basic, which makes the rebooking answers the tempting error; enthusiasm in a test measures appeal, not the sessions already being lost at search. Payment methods raise satisfaction gradually and leave the abandonment untouched."
+    },
+    {
+     "num": 17,
+     "topic": "Product",
+     "question": "A start-up wants to test whether independent mechanics will pay for a parts-price comparison service. The team has designed a four-month build with live supplier feeds, an account system and a mobile app; funding covers four months. Two of the three suppliers have already refused feed access. Mechanics currently order parts by phone and email. The team estimates a manually curated price list for two vehicle makes, emailed daily to twenty workshops, could run in two weeks. What should be built first?",
+     "choices": [
+      "The account system, because measuring who signs up and returns gives the clearest evidence of genuine demand",
+      "The manual list for two makes, because it tests willingness to pay before any automation is committed",
+      "The live supplier feeds, because accurate real-time pricing is the core of the value proposition being tested",
+      "The mobile app with sample data, because mechanics will only judge the service fairly in the form they would use it"
+     ],
+     "answer": "B",
+     "explanation": "A minimum viable product is the smallest thing that tests the riskiest assumption, here whether mechanics will pay at all, and a manual list answers that in two weeks using the email channel they already use. Starting with supplier feeds is the strongest trap because real-time accuracy is central to the eventual product, yet two suppliers have already refused and the build would consume the funding before the demand question is answered. An app shell or an account system measures interest in an unvalidated offer."
+    },
+    {
+     "num": 18,
+     "topic": "Product",
+     "question": "At iteration planning a story reads: as a policyholder I want to manage my beneficiaries. The team estimates it at 21 points against an average velocity of 24 and can fit nothing else. It has split stories by technical layer twice before and carried both over. The product owner proposes four items: database schema, service layer, user interface, and end-to-end testing. Beneficiary rules are identical across policy types. The team is uneasy but cannot say why. How should the coach guide the split?",
+     "choices": [
+      "Keep the story whole and reduce its scope to a single policy type, since splitting always adds coordination overhead",
+      "Split by policyholder outcome, such as viewing beneficiaries, then adding one, then editing shares, each usable alone",
+      "Split by user role, so the policyholder journey and the administrator journey become separate stories built in sequence",
+      "Split as the product owner proposes, since four smaller technical items are easier to estimate and each has a clear owner"
+     ],
+     "answer": "B",
+     "explanation": "Vertical slices each deliver something a user can exercise, so value and feedback arrive within the iteration and any slice can be dropped without stranding the others. The technical split is the strongest trap because the four parts look neat and estimable, yet the stem records two earlier layer splits that were carried over, and nothing is usable until the last part lands. Role splitting misses that administrators were never in the story, and identical rules make a policy-type cut pointless."
+    },
+    {
+     "num": 19,
+     "topic": "Delivery",
+     "question": "A platform team's Kanban board has an expedite lane for urgent production issues, agreed as one item at a time. Over the last month eleven items entered as expedites, seven of them feature requests labelled urgent by a sales director. Average cycle time for standard items has risen from six days to fifteen, and the team is asking for the expedite lane to be removed. What should the team do?",
+     "choices": [
+      "Add a second board column for the sales director's requests, so their effect on standard cycle time becomes visible",
+      "Raise the expedite limit to three, so genuine urgent items and the sales requests can flow without blocking each other",
+      "Agree explicit entry criteria and a cost for the expedite class, and review the eleven items against them with stakeholders",
+      "Remove the expedite lane, since seven of the eleven items were not genuine production issues and the class is being abused"
+     ],
+     "answer": "C",
+     "explanation": "Classes of service work only when entry criteria and the price of expediting are explicit and visible, so the fix is to define them and show stakeholders what the eleven items cost the standard class. Removing the lane is the strongest trap because the abuse is real, yet genuine production emergencies then queue behind ordinary work and the pressure simply reappears informally. Raising the limit multiplies the interruption, and another column displays the problem without governing it."
+    },
+    {
+     "num": 20,
+     "topic": "Delivery",
+     "question": "A team reviews a cumulative flow diagram covering twelve weeks. The band for items in development keeps a roughly constant vertical thickness. The band for items in test widens steadily from week four onward. The top line, showing items entering the workflow, rises at a steady rate throughout, and the bottom line, showing completed items, flattens from week six. What does the diagram indicate?",
+     "choices": [
+      "Testing has become faster, since a widening band in test shows more items moving through that stage over the period",
+      "Demand has fallen, since the flattening completion line shows fewer items are being requested by stakeholders each week",
+      "Development is producing more than it did earlier, since steady arrivals with a widening later band indicate faster coding",
+      "Work is accumulating in test while arrivals continue, so test is the bottleneck and overall cycle time is lengthening"
+     ],
+     "answer": "D",
+     "explanation": "Band thickness is the amount of work in that state, so a steadily widening test band with steady arrivals and flattening completions means work in progress is piling up in test while throughput out of the workflow slows, which lengthens cycle time. Reading the widening band as faster testing is the strongest trap: it confuses inventory with throughput, which is the slope of the completion line. A flat completion line shows delivery slowing, not demand falling."
+    },
+    {
+     "num": 21,
+     "topic": "Delivery",
+     "question": "A service team measures its flow over a stable quarter: on average 18 work items are in progress and 6 items are completed per week. Throughput has held at 6 per week for two quarters, and no staffing, tooling or process change is planned for the coming one. Stakeholders have asked for an average turnaround of two weeks. Which statement about the team's average work in progress is correct?",
+     "choices": [
+      "Average cycle time is 3 weeks now, and holding average work in progress at 12 items would give 2 weeks",
+      "Average cycle time is 3 weeks now, and no change in work in progress can shorten it while throughput is unchanged",
+      "Average cycle time is 3 weeks now, and holding average work in progress at 9 items would give 2 weeks",
+      "Average cycle time is 0.33 weeks now, and the two-week request is already met with room to spare"
+     ],
+     "answer": "A",
+     "explanation": "Little's Law gives average cycle time as average work in progress divided by average throughput: 18 ÷ 6 = 3 weeks. At the stated 6 items per week, a two-week average corresponds to average work in progress of 12 items, which the team pursues by tuning its limit, since a limit caps concurrent work rather than setting the average. Nine items would give 1.5 weeks, claiming no change can help ignores the law, and 0.33 inverts it."
+    },
+    {
+     "num": 22,
+     "topic": "Delivery",
+     "question": "A team's last five iterations delivered 26, 22, 28, 24 and 25 story points. The remaining backlog for a committed release is estimated at 210 points and the scope is fixed by a partner agreement. Eight two-week iterations remain before the release date. The team's composition and iteration length will not change. What should the team tell the stakeholders?",
+     "choices": [
+      "The forecast is 9 iterations using the average velocity of 25 points, so one iteration of overtime will close the gap",
+      "The forecast is 8 iterations, since eight iterations at the average of 25 points cover 200 of the 210 points remaining",
+      "The forecast is 8 to 10 iterations, so the date is at risk and scope or date must be renegotiated now",
+      "The forecast is 8 iterations using the best observed velocity of 28 points, so the date holds if the team sustains that pace"
+     ],
+     "answer": "C",
+     "explanation": "At the five-iteration average of 25 points, 210 points need 8.4 iterations, rounding to 9; at the best observed 28 it is 7.5, rounding to 8, and at the worst 22 it is 9.6, rounding to 10. An honest forecast is that 8 to 10 range, and only its most optimistic end fits the window. Treating eight iterations of average velocity as close enough is the strongest trap: 200 points is a 10-point shortfall on fixed scope, not a rounding difference."
+    },
+    {
+     "num": 23,
+     "topic": "Delivery",
+     "question": "A twelve-year-old pricing module has no automated tests. Two developers understand it, changes to it cause about seventy per cent of production defects, and the team must add three pricing rules over the next quarter. A developer proposes a full rewrite, which the team sizes at roughly two quarters. The product owner cannot pause pricing changes for that long. What should the team do?",
+     "choices": [
+      "Start the rewrite in parallel with the rule changes, so the new module is ready before the following quarter's work begins",
+      "Introduce mandatory pair programming on the module, so that knowledge spreads and defects are caught as code is written",
+      "Introduce a peer review gate for every change to the module, so no change reaches production without a second reviewer",
+      "Add characterisation tests around the areas being changed, then refactor those areas as each new rule is implemented"
+     ],
+     "answer": "D",
+     "explanation": "Tests written around existing behaviour give the safety net that makes refactoring possible, and doing it inside the work already scheduled improves the module where change is actually happening. A parallel rewrite is the strongest trap because the code genuinely deserves replacement, yet it doubles the work, leaves the legacy path live and delays any benefit by two quarters. Pairing and review gates spread knowledge and catch mistakes but change untested legacy code with no regression protection."
+    },
+    {
+     "num": 24,
+     "topic": "Leadership",
+     "question": "A finance manager must report project spend per department for the statutory accounts. She asks the team to convert story points to hours at six hours per point, a rate she derived from last quarter. The team's points are set by relative comparison to a reference story, and the implied rate has moved between four and nine hours across recent iterations. The organisation already records actual hours in its timekeeping system. How should the team respond?",
+     "choices": [
+      "Offer the recorded actual hours for the statutory report and keep points for the team's own forecasting",
+      "Agree the six-hour rate for reporting, since one consistent conversion keeps the departmental comparison meaningful",
+      "Recalculate the conversion rate each iteration from actual hours, so the reported figures track the real rate over time",
+      "Estimate future work in hours instead of points, so a single estimate serves both planning and the statutory report"
+     ],
+     "answer": "A",
+     "explanation": "The finance need is legitimate and is already met by data the organisation holds, so the team can serve it without converting a relative scale into currency. Recalculating the rate each iteration is the strongest trap, because it honestly acknowledges the variation, yet it still treats points as a measured quantity and produces a figure whose meaning changes every iteration. Estimating in hours abandons relative sizing to solve a problem the timekeeping system already solves."
+    },
+    {
+     "num": 25,
+     "topic": "Delivery",
+     "question": "A team's retrospectives produce five or six improvement ideas each iteration, written on a wiki page with nobody named against them. Two of thirty-one ideas from the last six iterations were acted on. The team reserved ten per cent of capacity for improvement work last quarter and the reserved time went unused. The team says the ideas are good but there is never room beside the product owner's committed stories. What should the team change?",
+     "choices": [
+      "Restore the reserved improvement capacity and protect it, so the ideas stop competing with the product owner's stories",
+      "Choose one improvement each iteration, put it in the iteration backlog with an owner, and review it at the next retrospective",
+      "Hold retrospectives every second iteration, so fewer ideas are generated and each one receives more attention",
+      "Move the thirty-one ideas into the product backlog so the product owner can order them alongside the product work"
+     ],
+     "answer": "B",
+     "explanation": "Improvements compete with delivery unless they become real work: one item, owned, in the iteration backlog, inspected next time. Restoring reserved capacity is the strongest trap because protected time looks like the structural fix, yet the stem shows reserved time went unused precisely because no named item claimed it. Moving improvements to the product backlog surrenders the team's own process work to product ordering, and fewer retrospectives reduce ideas without raising adoption."
+    }
+   ]
+  }
+ ]
+}

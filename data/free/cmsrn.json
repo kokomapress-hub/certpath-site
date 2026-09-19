@@ -1,0 +1,338 @@
+{
+ "slug": "cmsrn-free25",
+ "title": "Free sample",
+ "free": true,
+ "note": "Original questions written for the free sample. They do not appear in the book or in the owners' online practice tests.",
+ "tests": [
+  {
+   "testNum": 1,
+   "questions": [
+    {
+     "num": 1,
+     "topic": "Cardiovascular - acute decompensated heart failure",
+     "question": "A patient admitted with heart failure wakes at 3 a.m. gasping and sitting bolt upright. Respiratory rate is 34/min, oxygen saturation 84 percent on room air, coarse crackles extend to the scapulae, the sputum is pink and frothy, and blood pressure is 182/98 mmHg. Orders already on the chart include intravenous furosemide, a stat blood gas and electrocardiogram, and noninvasive ventilation. Which action should the nurse take first?",
+     "choices": [
+      "Sit the patient fully upright and apply oxygen by nonrebreather mask",
+      "Call respiratory therapy to set up the ordered noninvasive ventilation",
+      "Give the ordered intravenous furosemide to begin removing the fluid",
+      "Obtain the ordered stat arterial blood gas and 12-lead electrocardiogram"
+     ],
+     "answer": "A",
+     "explanation": "Every listed action is ordered and appropriate, so the question is sequence. Upright positioning and high-concentration oxygen take seconds, cut venous return to the flooded lungs and free the diaphragm, and they can be done while help is summoned. The diuretic is the tempting choice because it treats the cause, but drawing it up and giving it takes longer than the patient can tolerate at this saturation, and ventilation and diagnostics follow."
+    },
+    {
+     "num": 2,
+     "topic": "Cardiovascular - acute coronary syndrome recognition",
+     "question": "A woman with long-standing type 2 diabetes admitted for cellulitis tells the nurse she feels unusually exhausted, has an ache in her jaw and feels sick. She is diaphoretic. Heart rate is 98/min, blood pressure 148/88 mmHg, oxygen saturation 96 percent and the lungs are clear. Which action should the nurse take first?",
+     "choices": [
+      "Give the as-needed antacid for a likely gastro-oesophageal reflux episode",
+      "Give the as-needed antiemetic and reassess the symptoms within the hour",
+      "Draw a troponin level and wait for the result before calling the provider",
+      "Obtain a 12-lead electrocardiogram and notify the provider at once"
+     ],
+     "answer": "D",
+     "explanation": "Fatigue, jaw pain, nausea and diaphoresis are recognised anginal equivalents in women and in people with diabetes, whose neuropathy blunts classic chest pain. An electrocardiogram within about ten minutes decides the pathway. Waiting for a troponin result is the plausible trap: the first value can be normal early in infarction, and the delay costs myocardium. Antacids and antiemetics treat the look-alike diagnosis."
+    },
+    {
+     "num": 3,
+     "topic": "Pulmonary - COPD and oxygen therapy",
+     "question": "A patient admitted with a COPD exacerbation was placed on 6 L/min by simple face mask. Two hours later the oxygen saturation reads 99 percent, the patient is difficult to rouse, and the respiratory rate has fallen from 26 to 9/min with shallow effort. The ordered nebulised bronchodilator is due. Which action should the nurse take first?",
+     "choices": [
+      "Remove the oxygen completely and reassess the saturation in five minutes",
+      "Continue the present oxygen and request a blood gas at the next routine round",
+      "Titrate oxygen to the target range and summon urgent help for blood gases",
+      "Give the ordered nebulised bronchodilator and reassess the breathing after it"
+     ],
+     "answer": "C",
+     "explanation": "Excess oxygen in a patient who retains carbon dioxide worsens ventilation-perfusion matching in poorly ventilated lung and releases carbon dioxide from haemoglobin, so the level climbs and the patient becomes obtunded. Backing the oxygen down to the target range while urgently obtaining gases and ventilatory support addresses both. Removing oxygen altogether is the tempting overcorrection and risks sudden severe hypoxaemia; the bronchodilator is appropriate therapy but does not treat this."
+    },
+    {
+     "num": 4,
+     "topic": "Pulmonary - chest tube management",
+     "question": "A patient with a chest tube for a spontaneous pneumothorax has had no bubbling in the water seal chamber since yesterday. After the dressing is changed, continuous bubbling appears in that chamber. The patient is comfortable, breath sounds are unchanged, the saturation is 95 percent and the suction setting has not been altered. Which action should the nurse take first?",
+     "choices": [
+      "Exchange the drainage unit for a new one because the system is faulty",
+      "Notify the provider at once of a suspected recurrence of the pneumothorax",
+      "Inspect the dressing and every connection, starting at the insertion site",
+      "Increase the suction level to overcome the leak and restore the seal"
+     ],
+     "answer": "C",
+     "explanation": "New continuous bubbling that begins right after a dressing change, in a comfortable patient whose examination has not changed, points to air entering the system from outside rather than from the lung. Working from the patient outward locates it in seconds. Notifying for a recurrent pneumothorax is the tempting escalation, but nothing in the assessment supports it, and replacing the unit or raising suction treats a system fault that has not been shown."
+    },
+    {
+     "num": 5,
+     "topic": "Endocrine - hypoglycaemia in the older adult",
+     "question": "An 80-year-old taking a long-acting sulfonylurea and eating poorly was found with a glucose of 38 mg/dL and treated with intravenous dextrose. Thirty minutes later the patient is alert and oriented, the glucose is 96 mg/dL, and the patient asks for breakfast and to be left to sleep afterwards. Which action is the priority over the next several hours?",
+     "choices": [
+      "Hold only the next dose of the oral agent and continue the usual regimen",
+      "Document the resolved episode and resume the usual medication schedule",
+      "Provide a meal with complex carbohydrate and recheck before the next meal",
+      "Continue frequent glucose checks and anticipate that hypoglycaemia recurs"
+     ],
+     "answer": "D",
+     "explanation": "A long-acting sulfonylurea keeps stimulating insulin release for many hours, so a single correction commonly gives way to relapse once the dextrose is metabolised, particularly in an older adult eating poorly. Frequent monitoring, and often a dextrose infusion, must continue. Feeding the patient is genuinely correct care and is the tempting answer, but a meal alone does not cover the drug's remaining duration of action."
+    },
+    {
+     "num": 6,
+     "topic": "Endocrine - diabetic ketoacidosis management",
+     "question": "A patient with type 1 diabetes admitted with gastroenteritis has vomited repeatedly. Glucose is 438 mg/dL, urine ketones are large, respirations are deep at 30/min, blood pressure is 96/56 mmHg and the potassium is 3.2 mEq/L. The team has written for intravenous fluids, potassium replacement and an insulin infusion. Which action should the nurse take?",
+     "choices": [
+      "Start the fluids and potassium, withholding insulin until the potassium is corrected",
+      "Start the insulin infusion first because the ketoacidosis is the greater threat",
+      "Start the fluids and the insulin infusion together, adding potassium to the bag",
+      "Withhold fluids and insulin until the vomiting stops and intake is tolerated"
+     ],
+     "answer": "A",
+     "explanation": "Total body potassium is already depleted, and insulin drives what remains into the cells, so with a level of 3.2 mEq/L insulin is delayed until replacement brings the potassium back into a safe range, while fluids run. Starting insulin with potassium in the bag is the tempting reading of the order set, and it can produce life-threatening hypokalaemia and arrhythmia before the replacement catches up."
+    },
+    {
+     "num": 7,
+     "topic": "Gastrointestinal - hepatic encephalopathy",
+     "question": "A patient with cirrhosis is newly confused and has a flapping tremor of the outstretched hands. The spouse asks why a laxative is still being given when the patient has already had two stools today, and asks for something to settle the patient overnight. Which action is most appropriate?",
+     "choices": [
+      "Restrict dietary protein to the lowest amount the patient will tolerate",
+      "Continue the lactulose, titrated to two or three soft stools each day",
+      "Give the as-needed sedative so that the patient can rest through the night",
+      "Hold the lactulose until the stools decrease to one formed stool daily"
+     ],
+     "answer": "B",
+     "explanation": "Hepatic encephalopathy is assessed clinically, and serial ammonia levels are not used to grade it or to titrate therapy. Lactulose is dosed to effect, generally two or three soft stools a day, so two stools does not warrant stopping it. Holding it is the tempting kindness and lets encephalopathy deepen. Sedatives worsen mental status, and severe protein restriction is outdated because it promotes malnutrition and muscle loss."
+    },
+    {
+     "num": 8,
+     "topic": "Gastrointestinal - small bowel obstruction",
+     "question": "A patient with a small bowel obstruction has a nasogastric tube to low intermittent suction. Over two hours the drainage falls off, the abdomen becomes firm, and the pain changes from cramping waves to constant severe pain. The temperature is 38.4 degrees Celsius, heart rate 118/min, blood pressure 98/56 mmHg, and there is now guarding with rebound tenderness. Which action should the nurse take first?",
+     "choices": [
+      "Notify the surgeon of findings that suggest a strangulated obstruction",
+      "Withhold the tube irrigation and reposition the patient onto the side",
+      "Check the tube position and patency and irrigate it as ordered",
+      "Give the ordered analgesia and antiemetic and reassess within the hour"
+     ],
+     "answer": "A",
+     "explanation": "Cramping pain that becomes constant, with fever, tachycardia, falling pressure and peritoneal signs, marks a loss of blood supply to the bowel and the need for urgent surgery. Troubleshooting the tube is the tempting response because the drainage stopped, and it is appropriate for a blocked tube in a stable patient, but here it delays recognition of a surgical emergency. Analgesia alone masks the changing pain pattern."
+    },
+    {
+     "num": 9,
+     "topic": "Genitourinary - postoperative oliguria",
+     "question": "Six hours after a long abdominal operation with 900 mL of blood loss, a patient has passed 15 mL/hr of dark urine for four hours. The patient reports no bladder pressure, the heart rate is 112/min, blood pressure 96/58 mmHg (usual 136/80), the mucous membranes are dry, and a bladder scan shows 35 mL. Which action should the nurse take first?",
+     "choices": [
+      "Give the ordered diuretic to re-establish an adequate urinary output",
+      "Report the findings and anticipate a fluid challenge for hypovolaemia",
+      "Perform intermittent catheterisation for suspected urinary retention",
+      "Flush the existing urinary catheter to confirm that it is draining freely"
+     ],
+     "answer": "B",
+     "explanation": "An empty bladder on the scan rules out retention, so the low output reflects poor renal perfusion after blood loss, and volume is what restores it. Catheterising for retention is the strong reflex whenever urine output falls and is exactly what the scan excludes. A diuretic pushes urine out of a patient who is already volume depleted and can worsen the kidney injury."
+    },
+    {
+     "num": 10,
+     "topic": "Musculoskeletal - acute compartment syndrome",
+     "question": "Eight hours after a fibreglass cast is applied for a tibial fracture, a patient reports deep unrelenting pain that becomes much worse when the toes are passively extended. The pedal pulse is present, capillary refill is 3 seconds, and the foot feels tight and tense. Which action should the nurse take first?",
+     "choices": [
+      "Elevate the limb well above the level of the heart and apply ice packs",
+      "Notify the surgeon urgently and keep the limb at the level of the heart",
+      "Reassure the patient that a palpable pulse rules out vascular compromise",
+      "Give the ordered breakthrough opioid and reassess the pain in thirty minutes"
+     ],
+     "answer": "B",
+     "explanation": "Pain out of proportion that worsens with passive stretch is the earliest reliable sign of compartment syndrome, and the cast must be opened and the surgeon informed without delay. Elevating above the heart is the classic swelling reflex and is harmful here because it lowers arterial inflow. Pulses stay palpable until very late, so their presence is falsely reassuring, and analgesia only masks the marker."
+    },
+    {
+     "num": 11,
+     "topic": "Postoperative care - wound complications",
+     "question": "On the fifth day after a laparotomy for bowel obstruction, an obese patient with diabetes coughs hard and then says the wound felt like it gave way. The dressing is suddenly soaked with a large amount of clear pink fluid. The incision looks intact with staples in place, the abdomen is soft, and the vital signs are unchanged. Which action should the nurse take first?",
+     "choices": [
+      "Reinforce the saturated dressing and continue the routine postoperative care",
+      "Keep the patient still with knees flexed and notify the surgeon promptly",
+      "Encourage deep breathing and coughing with a pillow splint over the wound",
+      "Remove the dressing and clean the incision before applying a dry dressing"
+     ],
+     "answer": "B",
+     "explanation": "A sudden gush of clear pink serosanguineous fluid after a strain, in a patient with obesity and diabetes, signals that the deep layers have separated and frank dehiscence is imminent even though the skin still looks closed. Reducing abdominal tension and getting the surgeon there prevents it from opening. Reinforcing the dressing is the tempting routine response and treats the drainage as ordinary oozing."
+    },
+    {
+     "num": 12,
+     "topic": "Neurological - acute stroke deterioration",
+     "question": "On the first day after an acute ischaemic stroke treated with thrombolysis, a patient who was following commands becomes drowsy and will not lift the right arm at all. The right pupil is now larger and slower than the left. Blood pressure is 164/88 mmHg, point-of-care glucose is 112 mg/dL, and the airway is clear. Which action should the nurse take first?",
+     "choices": [
+      "Call for urgent reassessment and repeat imaging of the head",
+      "Give the ordered antihypertensive to bring the blood pressure down",
+      "Hold the scheduled anticoagulant and continue the routine neurological checks",
+      "Position the head midline with the bed raised and reassess in fifteen minutes"
+     ],
+     "answer": "A",
+     "explanation": "A new drop in consciousness with a fresh motor deficit and pupil asymmetry after thrombolysis points to bleeding into the infarct or to swelling with early herniation, and only urgent imaging changes what happens next. Head positioning and holding the anticoagulant are both correct measures and are the tempting choices because they are quick and harmless, but neither identifies nor treats the cause, and the pressure is already inside the post-thrombolysis target, so lowering it may worsen perfusion around the infarct."
+    },
+    {
+     "num": 13,
+     "topic": "Neurological - postictal management",
+     "question": "A generalised tonic-clonic seizure lasting six minutes has just stopped after an intravenous benzodiazepine. The patient is unresponsive with snoring respirations, the oxygen saturation is 86 percent on room air, there is vomit at the corner of the mouth, the point-of-care glucose is 62 mg/dL and an antiseizure loading dose has been ordered. Which action should the nurse take first?",
+     "choices": [
+      "Give the ordered loading dose of the antiseizure medication now",
+      "Obtain a 12-lead electrocardiogram and draw the ordered blood work",
+      "Turn the patient onto the side, clear the airway and apply oxygen",
+      "Treat the low glucose reading with the ordered intravenous dextrose"
+     ],
+     "answer": "C",
+     "explanation": "Snoring respirations with vomit in the mouth and a saturation of 86 percent mean the airway is obstructed and the patient is hypoxaemic, so positioning, clearing and oxygen come before any drug. The loading dose and the low glucose both need attention within minutes and are the tempting choices, since each treats a real problem, but neither restores oxygenation and giving either first leaves the airway unprotected."
+    },
+    {
+     "num": 14,
+     "topic": "Haematology - transfusion complications",
+     "question": "Forty-five minutes into the second unit of packed red cells an older patient with heart failure becomes breathless. Blood pressure has risen from 132/78 to 184/96 mmHg, heart rate is 104/min, oxygen saturation has fallen to 87 percent, the neck veins are distended and crackles are audible at both bases. The temperature is 36.9 degrees Celsius and there is no rash. Which action should the nurse take first?",
+     "choices": [
+      "Stop the transfusion and give the ordered antihistamine for an allergic reaction",
+      "Continue the unit and give the ordered diuretic between the two units",
+      "Slow the transfusion and give the ordered antipyretic for a febrile reaction",
+      "Stop the transfusion, sit the patient upright and notify the provider"
+     ],
+     "answer": "D",
+     "explanation": "A rising blood pressure with distended neck veins, crackles and falling saturation, without fever or rash, is circulatory overload rather than an immune reaction, so the infusion stops, the patient sits up and diuresis and oxygen are arranged. Treating it as a febrile reaction by slowing the rate is the classic error and keeps loading the circulation. Antihistamines address an allergic reaction that the absent rash excludes."
+    },
+    {
+     "num": 15,
+     "topic": "Oncology - tumour lysis syndrome",
+     "question": "Eighteen hours after the first chemotherapy for a bulky lymphoma, a patient who has had continuous intravenous hydration has a potassium of 6.2 mEq/L, a high phosphate and uric acid, a calcium of 7.4 mg/dL, and a creatinine that has doubled. Urine output remains 15 mL/hr. There is no tetany, no twitching and no change in the electrocardiogram. Which action should the nurse anticipate?",
+     "choices": [
+      "A loop diuretic to force urine output and lower the serum potassium",
+      "Urgent treatment of the hyperkalaemia with evaluation for renal replacement",
+      "Continued hydration alone with the electrolyte panel repeated in the morning",
+      "Intravenous calcium replacement to correct the low calcium level promptly"
+     ],
+     "answer": "B",
+     "explanation": "Hydration has already failed: the potassium is dangerous, the creatinine has doubled and the patient remains oliguric, so potassium-lowering treatment starts now and the renal team assesses for dialysis. Continuing fluids alone is the tempting choice because hydration is the mainstay of prevention, but it does not address a rising potassium in a kidney that is no longer clearing it. Calcium is withheld while phosphate is high and the patient is asymptomatic."
+    },
+    {
+     "num": 16,
+     "topic": "Infection - neutropenic sepsis",
+     "question": "A patient receiving chemotherapy with dexamethasone has an absolute neutrophil count of 210 per microlitre. The temperature is 37.1 degrees Celsius, but the patient had shaking rigors twenty minutes ago, the heart rate is 118/min, blood pressure 92/54 mmHg (usual 128/76) and the patient says something feels badly wrong. Which action should the nurse take first?",
+     "choices": [
+      "Arrange a chest radiograph and urine culture before any antibiotic is given",
+      "Recheck the temperature hourly and treat once a fever is documented",
+      "Give an antipyretic for the rigors and reassess the vital signs afterwards",
+      "Draw cultures and start the ordered antibiotic and fluids without delay"
+     ],
+     "answer": "D",
+     "explanation": "Corticosteroids blunt the febrile response, so a normal temperature does not exclude infection in a severely neutropenic patient, and rigors with tachycardia and a fall of more than 30 mmHg from the usual pressure signal sepsis. Waiting for a documented fever is the tempting rule-bound error that costs the critical hour. Imaging can proceed after antibiotics, and an antipyretic hides the one sign being relied on."
+    },
+    {
+     "num": 17,
+     "topic": "Infection - sepsis recognition and management",
+     "question": "On the third day after surgery for a perforated appendix a patient has a temperature of 38.7 degrees Celsius, heart rate 118/min, respiratory rate 26/min and blood pressure 94/52 mmHg against a usual 130/80. The patient is newly confused and the lactate is 3.4 mmol/L. The chart holds orders for cultures, a fluid bolus, a scheduled antibiotic due in four hours and a sepsis bundle. Which action should the nurse take first?",
+     "choices": [
+      "Give the ordered fluid bolus and reassess the pressure before calling anyone",
+      "Give the scheduled antibiotic early and continue the routine observations",
+      "Activate the sepsis bundle so cultures, antibiotics and fluid all start now",
+      "Draw the blood cultures and hold antibiotics until the results are reported"
+     ],
+     "answer": "C",
+     "explanation": "This is suspected sepsis with organ dysfunction and hypotension, so the bundle is activated immediately: cultures are drawn promptly and, when it does not materially delay therapy, before antibiotics; broad-spectrum antibiotics are started without delay and the ordered crystalloid begins with frequent reassessment. Giving only the fluid bolus and waiting to reassess is the tempting choice and delays the other time-critical elements."
+    },
+    {
+     "num": 18,
+     "topic": "Fluids and electrolytes - hyponatraemia correction",
+     "question": "A patient admitted with a sodium of 116 mEq/L and confusion from inappropriate antidiuretic hormone has been receiving hypertonic 3 percent saline. Six hours in, the patient is alert and orientated, urine output has become brisk and dilute, and the repeat sodium is 126 mEq/L. Which action should the nurse take?",
+     "choices": [
+      "Stop the hypertonic saline and report the rate of rise immediately",
+      "Slow the infusion and recheck the sodium level in another six hours",
+      "Restrict oral fluids and continue the infusion at the present rate",
+      "Continue the infusion until the sodium reaches the normal range"
+     ],
+     "answer": "A",
+     "explanation": "The sodium has climbed 10 mEq/L in six hours, which already meets or exceeds what is safe for a whole day, and the brisk dilute urine shows the antidiuresis has switched off so the level will keep rising on its own. Stopping and reporting allows relowering before demyelination occurs. Slowing the infusion is the tempting middle course and still adds sodium to a patient who is now correcting unaided."
+    },
+    {
+     "num": 19,
+     "topic": "Pain management - opioid-induced respiratory depression",
+     "question": "Four hours after patient-controlled analgesia is started, a postoperative patient rouses only briefly to vigorous stimulation. Respirations are 9/min and shallow, the oxygen saturation is 90 percent on 2 L nasal cannula despite an increase in flow, and the pupils are pinpoint. Which action should the nurse take?",
+     "choices": [
+      "Give the full naloxone dose by rapid push and continue the analgesia",
+      "Reduce the demand dose and continue the present level of monitoring",
+      "Stop the opioid, support ventilation, call for help and give titrated naloxone",
+      "Stop the opioid and stimulate the patient, holding naloxone in reserve"
+     ],
+     "answer": "C",
+     "explanation": "A patient who responds only to vigorous stimulation, with shallow respirations of 9/min and a saturation that will not rise on added oxygen, meets the pattern for severe opioid-induced respiratory depression: the opioid stops, ventilation is supported, help is summoned and naloxone is given in small titrated doses. Stopping the drug and stimulating alone is the tempting, gentler response and leaves inadequate ventilation untreated."
+    },
+    {
+     "num": 20,
+     "topic": "Nursing Teamwork and Collaboration - prioritisation",
+     "question": "A nurse receives handover for four patients, each with a finding reported in the last few minutes. Which patient should the nurse assess first?",
+     "choices": [
+      "A patient six hours after carotid surgery with neck swelling and a hoarse, muffled voice",
+      "A patient with new atrial fibrillation at 132/min who is alert with a pressure of 106/64",
+      "A patient one day after bowel resection with a heart rate of 114/min and 25 mL/hr of urine",
+      "A patient with a diabetic foot infection whose glucose is 386 mg/dL and who is very thirsty"
+     ],
+     "answer": "A",
+     "explanation": "All four need prompt attention, so the decision rests on which threatens life soonest. Expanding neck swelling with voice change after carotid surgery means a haematoma is compressing the airway, and that airway can close within minutes. The rapid atrial fibrillation is the strongest competitor because the rate is alarming, yet the patient is alert and perfusing; falling urine output and hyperglycaemia are urgent but measured in hours."
+    },
+    {
+     "num": 21,
+     "topic": "Nursing Teamwork and Collaboration - delegation and supervision",
+     "question": "A nurse is working with an experienced assistive person who is fully trained in all of the tasks below. Considering the condition of each patient, which task is appropriate to delegate?",
+     "choices": [
+      "Walking a patient for the first time after removal of an epidural catheter",
+      "Monitoring for a reaction during the first fifteen minutes of a transfusion",
+      "Feeding a patient admitted with a stroke who has not yet had a swallow screen",
+      "Recording intake and output for a patient on fluid restriction whose sodium is stable"
+     ],
+     "answer": "D",
+     "explanation": "Delegation depends on the patient's stability as well as the task. Recording intake and output is routine with a predictable outcome in a stable patient. Monitoring for a transfusion reaction is the tempting option because assistive personnel do record vital signs, but watching for and interpreting a reaction is nursing assessment and cannot be delegated. Feeding before a swallow screen risks aspiration, and a first walk after epidural removal needs assessment for weakness and hypotension."
+    },
+    {
+     "num": 22,
+     "topic": "Professional - interprofessional communication",
+     "question": "A patient's urine output has been under 20 mL/hr for four hours and the creatinine has risen since admission. The patient is receiving an ACE inhibitor and a nonsteroidal anti-inflammatory drug. The nurse pages the provider. Which statement best completes the call?",
+     "choices": [
+      "The creatinine result is filed in the chart for your review at the next ward round",
+      "Output is 15 mL/hr with a rising creatinine; please review the nephrotoxic drugs and fluids",
+      "The patient has not passed much urine today and looks uncomfortable to me; can you come?",
+      "The patient is on an ACE inhibitor and an anti-inflammatory; would you like them held?"
+     ],
+     "answer": "B",
+     "explanation": "The recommendation step of a structured handover pairs the objective finding with a specific request, which is what moves the plan forward on a time-sensitive problem. Asking whether the drugs should be held sounds collaborative and is the near miss: it hands the whole analysis back without stating the finding that prompted it. Vague description and deferring to rounds both delay treatment."
+    },
+    {
+     "num": 23,
+     "topic": "Holistic Patient Care - education of patients and families",
+     "question": "A patient with limited reading ability is going home on insulin. During teach-back the patient describes drawing up the evening dose correctly but states the morning dose as twice the prescribed number of units. Transport has arrived and the family is waiting downstairs. Which action is most appropriate?",
+     "choices": [
+      "Send written instructions in large print and ask the family to reinforce them",
+      "Document that teaching was given and that reinforcement is still required",
+      "Reteach the morning dose and repeat the demonstration before the patient leaves",
+      "Arrange home health nursing to complete the insulin teaching after discharge"
+     ],
+     "answer": "C",
+     "explanation": "Teach-back has done its job by exposing a dosing error that would double the morning insulin, and the gap has to be closed before the patient leaves, because the first dose is due before any follow-up can occur. Arranging home health is genuinely good practice and is the tempting compromise under time pressure, but it leaves the patient to give an unsafe dose in the meantime."
+    },
+    {
+     "num": 24,
+     "topic": "Professional Concepts - ethics and patient advocacy",
+     "question": "A patient with diabetes and a gangrenous foot refuses the recommended below-knee amputation, saying they would rather die whole and accepting that this may shorten their life. The patient can explain the diagnosis, the recommendation and the likely consequences. The family is distraught and the surgeon asks the nurse to help change the patient's mind. Which action is most appropriate?",
+     "choices": [
+      "Confirm the patient understands the consequences and advocate that the refusal stand",
+      "Ask the family to keep working on the patient until consent is given",
+      "Request a psychiatric evaluation of capacity because of the refusal to consent",
+      "Arrange for the next of kin to sign the consent form on the patient's behalf"
+     ],
+     "answer": "A",
+     "explanation": "A patient who understands the diagnosis, the proposal and the consequences has capacity, and an informed refusal must be honoured however unwise it seems; the nurse verifies understanding, explores what matters to the patient and advocates for that decision. Requesting a capacity evaluation is the tempting response because the choice looks self-destructive, but refusing recommended treatment is not by itself evidence of incapacity."
+    },
+    {
+     "num": 25,
+     "topic": "Professional Concepts - evidence-based practice and quality improvement",
+     "question": "A medical-surgical unit's catheter-associated infection rate has climbed for three quarters. An audit shows that catheters are placed appropriately but stay in an average of two days after the patient no longer meets any indication for one. Staff have already had two education sessions on indications. Which action is most likely to lower the rate?",
+     "choices": [
+      "Repeat the education session and add a reminder to the daily shift huddle",
+      "Ask each provider to write a removal order when the catheter is no longer needed",
+      "Audit the charts monthly and report the infection figures at staff meetings",
+      "Implement a nurse-driven removal protocol with a daily necessity review"
+     ],
+     "answer": "D",
+     "explanation": "The audit shows the failure is not knowledge but the delay in acting on it, so the fix has to change the process: a protocol that lets nurses remove a catheter once no indication remains, checked daily, closes the gap. More education is the tempting answer and has already failed twice. Measuring and reporting the rate describes the problem without changing anything, and waiting for orders preserves the delay."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,338 @@
+{
+ "slug": "capm-free25",
+ "title": "Free sample",
+ "free": true,
+ "note": "Original questions written for the free sample. They do not appear in the book or in the owners' online practice tests.",
+ "tests": [
+  {
+   "testNum": 1,
+   "questions": [
+    {
+     "num": 1,
+     "topic": "Project Management Fundamentals and Core Concepts",
+     "question": "An insurer has eight initiatives, each already chartered as its own project with a separate sponsor, budget and project manager. Five of them each replace part of the ageing claims platform: they share one integration layer and one migration team, none delivers much alone, and the projected savings appear only once all five are in service. The other three are unrelated to the platform and compete with the five for the same investment pool. Management wants the claims savings managed deliberately by whoever can be held to them. How should the five be organised?",
+     "choices": [
+      "As a portfolio with the other three, because all eight compete for one investment pool and must be balanced against strategy",
+      "As a programme, because coordinating the related initiatives produces benefits none of them can deliver separately",
+      "As a single project, by revoking the five charters and rechartering the work under one project manager",
+      "As five projects with a shared steering committee, because each has its own deliverable, schedule and project manager"
+     ],
+     "answer": "B",
+     "explanation": "A programme is a group of related projects managed together to obtain benefits unavailable from managing them individually, which is exactly the shared integration layer and the savings that appear only collectively. The portfolio answer is the strongest trap: the eight initiatives genuinely do compete for one pool, and a portfolio is the right structure for that investment decision, but it does not make the five deliver a joint benefit. Rechartering the five as one project would unnecessarily collapse five already distinct projects; because their coordinated management is needed to realise benefits that none can deliver independently, programme management is the structure that fits the situation."
+    },
+    {
+     "num": 2,
+     "topic": "Project Management Fundamentals and Core Concepts",
+     "question": "A sponsor needs an order-of-magnitude cost for a new distribution centre within two days, to decide whether the proposal goes further. No scope document exists. The company holds cost records for eighteen distribution centres completed to a similar specification, giving a reliable cost per square metre, and the new building's floor area is fixed by the site. Which estimating technique should the project manager use, and why?",
+     "choices": [
+      "Three-point, because weighting optimistic, most likely and pessimistic figures compensates for the missing scope document",
+      "Parametric, because a proven cost per square metre can be applied to a known floor area inside the time available",
+      "Bottom-up, because summing an estimate for each work package gives the accuracy a funding decision of this size requires",
+      "Analogous, because expert judgement comparing the new building with the most similar completed centre is the quickest route"
+     ],
+     "answer": "B",
+     "explanation": "Parametric estimating applies a statistical relationship between historical data and a project variable, and eighteen comparable buildings plus a known floor area give precisely that, quickly and with better accuracy than judgement alone. Analogous is the closest miss: it is also fast and legitimate this early, but it leans on one comparison and discards a usable data set. Bottom-up needs a decomposition that does not exist, and three-point estimating still needs an underlying estimate per activity."
+    },
+    {
+     "num": 3,
+     "topic": "Project Management Fundamentals and Core Concepts",
+     "question": "Two activities run in series on the critical path and both carry three-point estimates. Switchgear installation is 14 days if all pre-work is complete, 20 days under normal conditions and 38 days if the panels arrive damaged. Commissioning is 8 days at best, 12 days most likely and 22 days if the site power supply proves unstable. The estimating standard requires the beta (PERT) distribution. What total duration should be scheduled for the pair?",
+     "choices": [
+      "32 days",
+      "41 days",
+      "38 days",
+      "35 days"
+     ],
+     "answer": "D",
+     "explanation": "Each activity is weighted as (optimistic + 4 × most likely + pessimistic) ÷ 6: installation gives (14 + 80 + 38) ÷ 6 = 22 days and commissioning gives (8 + 48 + 22) ÷ 6 = 13 days, so the pair totals 35 days. The 38-day answer is the strongest trap: it uses the triangular formula, a plain average of the three values, which under-weights the most likely case. The 32-day answer sums the most likely figures alone, and 41 averages the optimistic and pessimistic totals."
+    },
+    {
+     "num": 4,
+     "topic": "Project Management Fundamentals and Core Concepts",
+     "question": "A newly assigned project manager asks a functional manager to release two analysts. The functional manager has already read the project's resource management plan, which names the analysts and their dates, and replies that a plan written by the project team does not bind her department and that her own priorities come first. The project has been formally authorised and funded by an executive sponsor. Which document establishes the project manager's authority here?",
+     "choices": [
+      "The project charter, because it authorises the project and the project manager to apply organisational resources",
+      "The resource management plan, because it names the two analysts and states the dates on which the project needs them",
+      "The business case, because it records the investment decision and the benefits the organisation expects to receive",
+      "The project management plan, because it integrates the subsidiary plans and carries the sponsor's approval for execution"
+     ],
+     "answer": "A",
+     "explanation": "The charter is issued by a sponsor with organisational standing and is what formally authorises the project manager to apply resources; that is why it outranks anything the project team wrote itself. The resource management plan is the strongest trap because it names the people and the dates, which feels like a commitment, yet the functional manager's objection is precisely that a team-authored plan carries no authority. The wider plan describes execution and the business case justifies investment."
+    },
+    {
+     "num": 5,
+     "topic": "Predictive, Plan-Based Methodologies",
+     "question": "A project manager reviews the work breakdown structure for a depot refurbishment. Contractors will supply and install the racking, and the team has left that scope out of the structure on the grounds that the contract and its statement of work already cover it and procurement will control the seller. The structure is about to be approved as part of the scope baseline. What is the consequence of this decision?",
+     "choices": [
+      "The structure is incomplete, so the contractor's own schedule activities must be decomposed into the structure before it is approved",
+      "The structure is acceptable, because contracted work is controlled through the procurement management plan and the seller's statement of work",
+      "The structure no longer represents the total scope, so the scope baseline is incomplete and the racking may be missed in cost and schedule control",
+      "The structure is acceptable, because the racking will be added as a single work package once the contract has been formally awarded"
+     ],
+     "answer": "C",
+     "explanation": "The work breakdown structure represents one hundred per cent of the project scope, including work performed by sellers, so omitting the racking leaves the scope baseline incomplete and its budget and schedule liable to be missed or misaligned in control. Arguing that procurement controls it is the strongest trap, because the contract genuinely does control the seller, yet the buyer still has to plan and measure that scope. The structure decomposes deliverables into work packages, not the seller's activities."
+    },
+    {
+     "num": 6,
+     "topic": "Project Management Fundamentals and Core Concepts",
+     "question": "Equipment for a project is priced in a foreign currency, and a 10 percent adverse move would add about 400,000 to the cost. Company policy reserves all currency hedging to the treasury function, which manages exposure across the whole portfolio, and forbids any project from entering a hedging contract or repricing an order to shift currency risk. The order cannot be placed before the supplier's design freeze in eight months, so the exposure stays open until then whatever the project does, and it cannot be funded from the approved budget. Which risk response should be recorded?",
+     "choices": [
+      "Mitigate the threat by shortening the payment terms agreed with the vendor, so less of the exposure stays open",
+      "Accept the threat and hold a contingency reserve sized to the estimated 400,000 impact of an adverse move",
+      "Transfer the threat to the vendor through a contract clause fixing the exchange rate at the date of order",
+      "Escalate the threat to treasury, so that ownership sits with the function able to respond to it"
+     ],
+     "answer": "D",
+     "explanation": "When a threat sits outside the project's objectives or authority, escalation is the response: ownership moves to the party that can act, here treasury, and the project stops carrying a risk it cannot manage. Acceptance with a reserve is the strongest trap, because acceptance is legitimate and the impact is quantified, yet the stem says the project cannot fund it and another function already owns the exposure. Shorter payment terms cannot close an exposure the design freeze holds open, and a fixed-rate clause is the repricing policy forbids."
+    },
+    {
+     "num": 7,
+     "topic": "Project Management Fundamentals and Core Concepts",
+     "question": "A component line ships to specification, so warranty claims are negligible. Last year it spent 400,000 on scrap, 250,000 on rework found at final inspection and 300,000 on a team that checks every finished unit. Analysis traces nearly all the defects to an inconsistent manual setup step performed at the start of each run. The sponsor wants total quality spend cut next year with no drop in what customers receive. What should the project manager propose?",
+     "choices": [
+      "Set a scrap-rate target for each shift, because the operators are best placed to reduce the material the line wastes",
+      "Add an inspection station straight after setup, because catching the defects early avoids scrapping finished units",
+      "Increase the sampling rate at final inspection, because more thorough checking reduces the units that need reworking",
+      "Redesign and train out the manual setup step, because prevention removes the defects that drive scrap and rework"
+     ],
+     "answer": "D",
+     "explanation": "Prevention is the only category that removes the defects themselves, and the stem names the cause: an inconsistent manual setup. Designing and training it out attacks the 650,000 of failure cost and eventually the 300,000 spent on checking. The early inspection station is the strongest trap, because catching defects before more value is added genuinely reduces scrap value, yet it raises appraisal cost while the defect rate stays put. Heavier sampling is appraisal again, and a shift target pressures people, not the process."
+    },
+    {
+     "num": 8,
+     "topic": "Project Management Fundamentals and Core Concepts",
+     "question": "A prototype sensor has an intermittent fault. Nobody can say what the investigation will involve or how long it will take, a specialist must start within a week, and the effort is expected to be small. Procurement will not sign an open-ended commitment and requires a cost ceiling, and no statement of work can be written beyond the objective of finding the cause. Which arrangement should the project manager recommend?",
+     "choices": [
+      "Firm fixed price set at the expected effort, so the cost risk of the investigation transfers entirely to the specialist",
+      "Time and materials with a not-to-exceed ceiling, so undefined work is paid by effort while exposure stays capped",
+      "Fixed price with economic price adjustment, so both parties are protected while the duration of the work is unknown",
+      "Cost plus incentive fee against a target cost, so sharing the savings motivates a fast resolution of the fault"
+     ],
+     "answer": "B",
+     "explanation": "Time and materials suits small, urgent work whose scope cannot be written, and a not-to-exceed ceiling meets procurement's requirement without pretending the scope is known. Firm fixed price is the strongest trap because it also caps the buyer's cost, yet a seller cannot price undefined scope and will either decline or load heavy contingency into the price. An incentive fee needs a target cost to share against, and economic price adjustment addresses inflation over long terms, not undefined scope."
+    },
+    {
+     "num": 9,
+     "topic": "Project Management Fundamentals and Core Concepts",
+     "question": "A project manager is planning her company's first project in another country. Four things shape her plan: the destination's labour law capping the working week, the company's estimating database of past actuals, the project management office's approved supplier list, and the standard risk register template. She wants to know which of them she must simply plan around because neither she nor her organisation can change it. Which one is it?",
+     "choices": [
+      "The labour law capping the working week, which is imposed from outside and cannot be altered by the organisation",
+      "The estimating database, which fixes the historical rates the project is expected to estimate its own work with",
+      "The approved supplier list, which restricts who the project may buy from regardless of what the project would prefer",
+      "The risk register template, which sets the format the project must use whenever it records or reports a risk"
+     ],
+     "answer": "A",
+     "explanation": "Enterprise environmental factors are conditions outside the organisation's control that the project must accommodate, and national labour law is the only one here the company cannot change. The approved supplier list is the strongest trap because it constrains the project just as firmly, yet the organisation created it and can amend it through its own governance, which makes it an organisational process asset. The database and the template are likewise internal assets the project draws on."
+    },
+    {
+     "num": 10,
+     "topic": "Predictive, Plan-Based Methodologies",
+     "question": "A plant upgrade is two weeks late and the project manager is looking for overlap opportunities. Concrete must cure for seven days before the load test can begin. Interior painting is scheduled after floor tiling only because the company's fit-out standard prefers that order. Both sequences lie on the current critical path, and the finishing crews can work in the same area if they accept touch-up work. Which overlap is available, and what follows from it?",
+     "choices": [
+      "The load test may overlap the cure period, because that dependency is discretionary and curing continues under load",
+      "Painting may overlap tiling, because that dependency is discretionary, though the overlap adds coordination and rework risk",
+      "Both may be overlapped, because fast tracking applies wherever two activities can physically proceed at the same time",
+      "Neither may be overlapped, because both sequences are mandatory and fast tracking cannot be applied to this schedule"
+     ],
+     "answer": "B",
+     "explanation": "Curing before load testing is mandatory logic rooted in the physical nature of the work and cannot be resequenced. The painting order is discretionary, a company preference, so it is the candidate for fast tracking, and because it sits on the critical path the overlap can genuinely shorten the project, at the price of coordination and touch-up rework. Overlapping the cure is the dangerous trap: a sequence many treat as convention is here a physical constraint that would compromise the test."
+    },
+    {
+     "num": 11,
+     "topic": "Predictive, Plan-Based Methodologies",
+     "question": "A schedule analysis shows the same two electricians assigned to three overlapping activities, requiring 160 hours in a week where 80 are available. The project finish date has been committed to a regulator and cannot move. Float exists on two of the three activities. Which technique should the project manager apply, and what is the consequence?",
+     "choices": [
+      "Resource levelling, splitting the three activities into shorter segments so that the electricians move between them each day",
+      "Resource smoothing, adjusting activities within their float so the finish date holds and the peak demand falls",
+      "Resource levelling, adjusting activity start dates to match the available electricians, which typically extends the finish date",
+      "Resource smoothing, adding a third electrician for the peak week so that all three activities can run as currently scheduled"
+     ],
+     "answer": "B",
+     "explanation": "Smoothing shifts work only within available free and total float, so the critical path and the committed finish date are preserved while the peak demand is reduced; float on two activities makes it feasible. Levelling is the closest miss and is the right tool when the resource limit is absolute, but it may move the critical path and typically lengthens the project, which the regulatory date forbids. Adding a resource is neither technique, and splitting activities adds switching loss."
+    },
+    {
+     "num": 12,
+     "topic": "Predictive, Plan-Based Methodologies",
+     "question": "At a stage review of a predictive project, the performance report shows a cost performance index of 1.08 and a schedule performance index of 0.85. The sponsor reads it and concludes the project is healthy, since it is clearly spending less than the plan allowed. How should the project manager explain the position?",
+     "choices": [
+      "The work performed is costing less than budgeted, but the project is well behind schedule, and cost efficiency does not offset delay",
+      "The work performed is costing more than budgeted and is behind schedule, because an index above one signals a cost overrun",
+      "The work performed is costing less than budgeted and is ahead of schedule, since both indexes sit within reporting tolerance",
+      "The work performed is costing less than budgeted, and the schedule lag is immaterial because cost efficiency compensates for it"
+     ],
+     "answer": "A",
+     "explanation": "Cost performance index is earned value divided by actual cost, so 1.08 means the work actually performed cost less than its budget. Schedule performance index is earned value divided by planned value, so 0.85 means only 85 per cent of the planned value has been earned. The sponsor cannot call that healthy from the cost figure alone. Reading an index above one as an overrun reverses the ratio, and treating cost efficiency as compensation ignores the delay."
+    },
+    {
+     "num": 13,
+     "topic": "Project Management Fundamentals and Core Concepts",
+     "question": "A project's approved cost baseline is 4,000,000, which includes a 250,000 contingency reserve for identified risks. A management reserve of 300,000 is held outside the baseline. A supplier insolvency that was recorded in the risk register, with a planned contingency response, has now occurred, and executing that response will cost 180,000. The project manager must fund it this month. What should she do?",
+     "choices": [
+      "Draw 180,000 from the contingency reserve and record the drawdown, leaving the cost baseline unchanged",
+      "Fund the response from unspent budget in later work packages and report the reallocation at the next review",
+      "Raise a change request to add 180,000 to the cost baseline, since the approved budget did not plan this spend",
+      "Request 180,000 from the management reserve, since a supplier insolvency was outside the project's control"
+     ],
+     "answer": "A",
+     "explanation": "Contingency reserve sits inside the cost baseline precisely to fund identified risks when they occur, so a 180,000 response to a registered risk is drawn from the 250,000 already held and recorded, with no baseline change. The management reserve answer is the strongest trap: the insolvency does feel outside anyone's control, yet management reserve covers unknown unknowns and its release needs governance approval and a baseline change. Raiding later work packages conceals the spend entirely."
+    },
+    {
+     "num": 14,
+     "topic": "Agile Frameworks and Methodologies",
+     "question": "Six days into a two-week sprint, testing of a partly built reporting story shows that two of its five acceptance criteria will take far longer than expected. The product owner says the sprint goal still depends on the story, but the two criteria are not what the goal needs. The developers ask how the sprint scope may be changed. What is correct under Scrum?",
+     "choices": [
+      "The sprint must be cancelled and replanned, because the sprint backlog no longer reflects what the developers can deliver",
+      "The product owner may change the story's scope at any time during the sprint, since backlog content is the product owner's decision",
+      "The developers and the product owner may renegotiate the story's scope, provided the sprint goal is not put at risk",
+      "The sprint scope is fixed once the sprint begins, so the story is carried over to the next sprint with its criteria intact"
+     ],
+     "answer": "C",
+     "explanation": "The sprint goal is fixed; the scope inside it is clarified and renegotiated between the developers and the product owner as more is learned. Treating the sprint backlog as frozen is the most tempting error, because it sounds like commitment discipline, yet it forces the team to carry over work the goal does not require. The product owner does not impose changes mid-sprint unilaterally, and cancelling a sprint is reserved for a goal that has become obsolete."
+    },
+    {
+     "num": 15,
+     "topic": "Agile Frameworks and Methodologies",
+     "question": "A support team's board has analysis, build, test and release columns, a limit of three on test, and a whole-board limit of eight agreed with its stakeholders. Eight items sit on the board: two in analysis, three in build, three in test. Two of the test items wait on a shared environment owned by a neighbouring team that responds to joint requests; one has been blocked six days and is the oldest item on the board. An analyst has just finished her item and new requests are queuing. What should the team do?",
+     "choices": [
+      "Move the two blocked items back into build, freeing test capacity and showing where the work really sits",
+      "Raise the limit on test to five, so that work keeps flowing while the environment problem is being resolved",
+      "Keep the analyst's capacity on the blocked items and take the environment need to the neighbouring team together",
+      "Let the analyst pull the next request into analysis, since that column sits below its own agreed limit of three"
+     ],
+     "answer": "C",
+     "explanation": "The board is already at the agreed whole-board limit of eight, so nothing new may be pulled whatever a single column allows, and the six-day-old item is the one ageing fastest. Joint escalation to the team that owns the environment is the route the stem makes available. Pulling into analysis is the strongest trap: that column limit really is unbreached, but the system limit is not. Raising limits or shuffling blocked items backwards hides the constraint rather than clearing it."
+    },
+    {
+     "num": 16,
+     "topic": "Agile Frameworks and Methodologies",
+     "question": "At a sprint review a story is demonstrated and the product owner confirms every acceptance criterion is met. The team's definition of done also requires a dependency security scan and updated operating documentation; the scan runs overnight and neither is finished. The release train leaves this evening. The product owner says the business is happy, the residual risk looks small, and asks for the story to be counted and shipped tonight. What is the correct position?",
+     "choices": [
+      "The story is done, because acceptance criteria define what the product owner accepts and the product owner has accepted it",
+      "The story is done if the product owner and the developers agree to waive the two outstanding items for this release",
+      "The story is done for reporting, and the outstanding scan and documentation are added to the backlog as new items",
+      "The story is not done, because the definition of done applies to every increment whatever the acceptance criteria say"
+     ],
+     "answer": "D",
+     "explanation": "Acceptance criteria describe what one story must do; the definition of done is the team's quality standard for every increment, and work that misses it is not releasable, however small the residual risk feels with a train leaving. Accepting the product owner's approval is the strongest trap, because the product owner does decide acceptance, but acceptance does not override the quality bar. Carrying the shortfall to the backlog or waiving it creates undone work and hides security debt."
+    },
+    {
+     "num": 17,
+     "topic": "Agile Frameworks and Methodologies",
+     "question": "A team completes three stories that meet its definition of done in the fourth sprint. The product owner decides not to deploy them yet: contact-centre training and the customer notice are not ready, and releasing now would generate calls the centre cannot answer. A stakeholder objects that a team practising Scrum must release every sprint, and a developer argues that work not in production cannot be called done. Who is right?",
+     "choices": [
+      "The product owner, because the increment must be usable while the timing of a release remains a business decision",
+      "The developer, because work that is not in production has delivered no value and so does not meet the definition of done",
+      "Nobody, because the definition of done should be widened to include training and customer communication before release",
+      "The stakeholder, because an increment not released each sprint removes the feedback the framework depends on"
+     ],
+     "answer": "A",
+     "explanation": "Scrum requires a usable increment each sprint but does not require deployment, and when to release is the product owner's business decision. Widening the definition of done is the strongest trap, because readiness activities are often added to it, yet contact-centre training is organisational readiness rather than the team's quality standard, and folding it in would block increments on work the team does not own. Releasing regardless would cause exactly the harm the stem describes."
+    },
+    {
+     "num": 18,
+     "topic": "Agile Frameworks and Methodologies",
+     "question": "A department manager attends his team's daily scrum, which the team itself invited him to three weeks ago so he could see progress, and he already receives a written weekly report. Developers now address their updates to him, the event runs to thirty minutes, and impediments are raised for him to solve. A developer tells the scrum master she no longer knows what her teammates are working on. What should the scrum master do?",
+     "choices": [
+      "Hold the event to fifteen minutes and take the impediments away for the scrum master to resolve afterwards",
+      "Ask the manager to stop attending, since a manager in the room is what has turned the event into a status report",
+      "Coach the manager and the team that the event is the developers' own re-planning toward the sprint goal",
+      "Offer the manager a fuller weekly briefing, so that his information needs are met outside the daily scrum entirely"
+     ],
+     "answer": "C",
+     "explanation": "The daily scrum belongs to the developers, who use it to inspect progress toward the sprint goal and re-plan the day; coaching resets that purpose for both the team and the observer, who may attend without running it. Excluding the manager is the closest miss because it would end the symptom at once, yet the team invited him and treating transparency as a threat teaches nothing. A tighter timebox or another report leaves the event still aimed at him."
+    },
+    {
+     "num": 19,
+     "topic": "Business Analysis Frameworks",
+     "question": "A business analyst must document how claims assessors handle complex cases. The written procedure is four years old; assessors have built personal spreadsheets and shortcuts. In a workshop last month the assessors described a process their own case data contradicts, and a survey last quarter, answered by every assessor, produced the same account as the workshop. Management needs an accurate picture before automation is designed. What should the analyst do next?",
+     "choices": [
+      "Run a second facilitated workshop, this time with supervisors present to challenge the assessors' account of the process",
+      "Observe assessors working real cases, recording the steps and workarounds they actually use",
+      "Re-issue the survey with questions about exceptions, so that the shortcuts missing from the first round are captured",
+      "Analyse the written procedure against a sample of recent complex case files and their recorded outcomes"
+     ],
+     "answer": "B",
+     "explanation": "Two self-reported methods have already produced an account the case data contradicts, which is the signal for observation: tacit knowledge and workarounds are visible in the doing but not in the telling. A second workshop is the strongest trap because facilitation is powerful and adding supervisors feels like a fix, yet it is the same self-reporting with more people. A reworded survey repeats the method that failed, and documents cannot reveal undocumented practice."
+    },
+    {
+     "num": 20,
+     "topic": "Business Analysis Frameworks",
+     "question": "During a pre-build review, the business analyst finds that one approved requirement, a configurable dashboard layout, traces forward to design and test cases but traces back to no business objective, while every other requirement traces to one. The sponsor is not aware of the requirement, and building it would consume about three weeks. What should the analyst do?",
+     "choices": [
+      "Remove the requirement from the baseline, since a requirement that traces to no business objective delivers no value",
+      "Add a business objective that the dashboard supports, so the traceability matrix is complete before the build begins",
+      "Take the gap to the sponsor and the product owner to confirm whether the requirement should be kept, changed or dropped",
+      "Keep the requirement and build it, since it is already approved, designed and covered by the prepared test cases"
+     ],
+     "answer": "C",
+     "explanation": "Traceability is a detection tool, not a decision tool; an orphan requirement is a finding to be resolved by the people who own scope and value. Removing it is the strongest trap, because the analyst has spotted a genuine candidate for scope creep, yet unilateral removal exceeds the analyst's authority and the objective may simply be missing from the record. Writing an objective to fit the requirement reverses the logic, and building it spends three weeks unexamined."
+    },
+    {
+     "num": 21,
+     "topic": "Business Analysis Frameworks",
+     "question": "On a payments modernisation project the chief financial officer controls the funding and can stop the work, but she has delegated day-to-day involvement and declines most invitations; the full weekly requirements pack the analyst sends her goes unread. In six weeks she must personally approve a funding change for the second release. How should the analyst engage her between now and then?",
+     "choices": [
+      "Send short decision-focused updates now and schedule a targeted briefing shortly before the funding decision",
+      "Continue the weekly pack unchanged, since her delegation shows that routine information is all she currently needs",
+      "Wait until the decision approaches and then request one meeting at which the complete case can be presented",
+      "Move to close management now, with the full requirements detail and a standing place in the weekly review meetings"
+     ],
+     "answer": "A",
+     "explanation": "High power with low current interest calls for concise, decision-relevant contact, and the six-week horizon adds a second step: her engagement has to be raised deliberately before a decision only she can make. Managing her closely now is the strongest trap because her power is real and over-communicating feels safe, yet that is what produced the unread pack. Continuing the pack changes nothing, and arriving cold at the decision leaves no time to shape it."
+    },
+    {
+     "num": 22,
+     "topic": "Business Analysis Frameworks",
+     "question": "A sponsor asks the analyst what the customer portal will deliver over the next four quarters, so she can brief the board and book a marketing campaign. The campaign's first burst needs a committed date; the rest of the year's marketing is indicative. The team works in two-week iterations: the next two are detailed and estimated, and everything beyond that is themes with rough sizes. What should the analyst present?",
+     "choices": [
+      "A release plan mapping features to iterations across all four quarters, with dates derived from the team's average velocity",
+      "The ordered product backlog with the team's estimates, so the board sees exactly what is planned and in what sequence",
+      "A roadmap of themes and horizons for the year with no dates at all, since iteration content cannot be forecast that far out",
+      "A roadmap of themes and horizons for the year, with a committed date only for the near-term release the campaign needs"
+     ],
+     "answer": "D",
+     "explanation": "A roadmap communicates direction with honestly declining certainty, and the near-term release is understood well enough to commit the single date the campaign actually requires. The full four-quarter release plan is the strongest trap, because release planning is a real artefact and the sponsor did ask about a year, yet projecting iteration content that far from current velocity is false precision. A dateless roadmap fails a genuine commitment, and a backlog is too granular for a board."
+    },
+    {
+     "num": 23,
+     "topic": "Business Analysis Frameworks",
+     "question": "A story reads: as a branch supervisor I want to see overdue deliveries so that I can reassign drivers. The team proposes acceptance criteria. One reads that the list shows deliveries more than 30 minutes past their promised time, ordered oldest first, and refreshes within 60 seconds. Which alternative criterion is the weakest and why?",
+     "choices": [
+      "The list is intuitive and easy for supervisors to use, because it states no condition that can be objectively tested",
+      "The list excludes deliveries already marked reassigned, because it narrows the scope the supervisor originally asked for",
+      "The list shows at most 50 rows with paging beyond that, because it introduces a limit the supervisor did not request",
+      "The list is implemented as a cached materialised view refreshed by a scheduled job, because it prescribes the technical design"
+     ],
+     "answer": "A",
+     "explanation": "Acceptance criteria must be objectively verifiable, so a criterion resting on intuitive and easy to use gives the team no way to agree whether the story is met. Prescribing a cached view is the strongest competing answer, and it is genuinely poor practice because criteria should state outcomes rather than design, but at least it can be checked. Excluding reassigned deliveries and paging at fifty rows are testable decisions that refine scope."
+    },
+    {
+     "num": 24,
+     "topic": "Business Analysis Frameworks",
+     "question": "An analyst moves from a predictive programme to an adaptive product team and writes full detail for every backlog item out to six months. Two months later priorities shift and about a third of that detail is discarded unused; refinement sessions are now spent correcting specifications written before anyone spoke to a user. She argues that disciplined analysis means specifying before building. How should the team respond?",
+     "choices": [
+      "Detail should be written one release ahead rather than six months ahead, so a release-level baseline is the right compromise",
+      "Requirements are not documented in adaptive work, because conversations and working software replace written specifications",
+      "The detail is valuable, so priorities should be frozen for two quarters to protect the analysis already completed",
+      "Detail is added through refinement shortly before an item is taken up, which is what limits the discarded work"
+     ],
+     "answer": "D",
+     "explanation": "Adaptive analysis is continuous: distant items stay coarse and are elaborated just before implementation, which is precisely what would have saved the third of the detail thrown away. The release-level compromise is the strongest trap, because it sounds moderate and does shorten the horizon, yet it still writes detail ahead of the learning that would shape it. Dropping documentation is a slogan, and freezing priorities protects the artefact at the product's expense."
+    },
+    {
+     "num": 25,
+     "topic": "Business Analysis Frameworks",
+     "question": "A pricing tool passes every test case, matches the signed specification line by line, and was formally reviewed and approved. In the first week of use the pricing team says it cannot handle multi-currency quotes, which is how a third of their business has always been priced, and they revert to their spreadsheet. What does this outcome indicate?",
+     "choices": [
+      "The requirements were validated with stakeholders, but the solution was never properly verified before it was released",
+      "The acceptance criteria were incomplete, so the multi-currency scenario was simply missed in the test case design",
+      "The solution was verified against the specification, but the requirements were never validated against the real business need",
+      "The requirements changed after the specification was signed, so the gap should be handled as a new change request"
+     ],
+     "answer": "C",
+     "explanation": "Verification asks whether the delivered solution conforms to the specified requirements; validation asks whether the requirements and the solution meet the real business need. Everything conformed, yet multi-currency pricing, already a third of the business, was never captured, so validation is what failed. Reversing the two terms is the most tempting error because the tool clearly failed its users. Treating it as a later change ignores that the need pre-existed, and blaming test design mistakes a missing requirement for a missing test."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,338 @@
+{
+ "slug": "tabe-d-free25",
+ "title": "Free sample",
+ "free": true,
+ "note": "Original questions written for the free sample. They do not appear in the book or in the owners' online practice tests.",
+ "tests": [
+  {
+   "testNum": 1,
+   "questions": [
+    {
+     "num": 1,
+     "topic": "Ratios and proportional relationships — unit rates",
+     "question": "A café buys the same ground coffee in two sizes. The small bag holds 32 ounces and costs $17.60. The large bag holds 2.5 pounds and costs $20.00. There are 16 ounces in a pound. How much less does the coffee in the large bag cost per pound?",
+     "choices": [
+      "$8.00 less per pound",
+      "$0.80 less per pound",
+      "$2.40 less per pound",
+      "$0.05 less per pound"
+     ],
+     "answer": "B",
+     "explanation": "The small bag is 32 ÷ 16 = 2 pounds, so it costs 17.60 ÷ 2 = $8.80 per pound. The large bag costs 20.00 ÷ 2.5 = $8.00 per pound. The difference is $0.80 per pound. The tempting $0.05 is the saving per ounce, not per pound, and $2.40 is just the difference in the two sticker prices, which ignores that the bags hold different amounts."
+    },
+    {
+     "num": 2,
+     "topic": "Ratios and proportional relationships — scaling a recipe",
+     "question": "A bakery's dinner-roll recipe makes 24 rolls and calls for 3 1/2 cups of flour and 3/4 cup of milk. A catering order needs 60 of the same rolls. The baker has 6 cups of flour on the shelf. How much more flour does she have to get?",
+     "choices": [
+      "2 3/4 cups",
+      "8 3/4 cups",
+      "1 cup",
+      "2 2/5 cups"
+     ],
+     "answer": "A",
+     "explanation": "The scale factor is 60 ÷ 24 = 2.5, so the batch needs 3 1/2 × 2.5 = 8 3/4 cups of flour. She already has 6 cups, so she must get 8 3/4 − 6 = 2 3/4 cups. The tempting 8 3/4 cups is the whole amount the batch takes, with the 6 cups on hand never subtracted; 1 cup comes from doubling instead of using the full 2.5 scale factor."
+    },
+    {
+     "num": 3,
+     "topic": "Ratios and proportional relationships — multi-step percent",
+     "question": "A power tool is marked $186.00 before tax. A store coupon takes 15 percent off the marked price, and sales tax of 8 percent is then charged on the amount the customer actually pays for the tool. What is the final total, to the nearest cent?",
+     "choices": [
+      "$172.98",
+      "$158.10",
+      "$170.75",
+      "$200.88"
+     ],
+     "answer": "C",
+     "explanation": "The coupon leaves 85 percent of the price: 186.00 × 0.85 = $158.10. Tax adds 8 percent of that: 158.10 × 1.08 = $170.748, or $170.75. The tempting $172.98 comes from combining the percents additively as 186 × (1 − 0.15 + 0.08) = 186 × 0.93, which wrongly figures the 8 percent tax on the full $186 instead of on the discounted price."
+    },
+    {
+     "num": 4,
+     "topic": "Ratios and proportional relationships — rate with two changing quantities",
+     "question": "Three labeling machines running together put labels on 2,400 bottles in 40 minutes. Every machine works at the same steady rate. How long would five of these machines, running together, take to label 6,000 bottles?",
+     "choices": [
+      "100 minutes",
+      "60 minutes",
+      "167 minutes",
+      "24 minutes"
+     ],
+     "answer": "B",
+     "explanation": "One machine labels 2,400 ÷ (3 × 40) = 20 bottles per minute, so five machines label 100 bottles per minute. Then 6,000 ÷ 100 = 60 minutes. The tempting 100 minutes scales only the bottles (6,000 is 2.5 times 2,400, so 2.5 × 40) and forgets that two more machines were added; 24 minutes scales only the machines and forgets the larger order."
+    },
+    {
+     "num": 5,
+     "topic": "Ratios and proportional relationships — parts of a whole",
+     "question": "A landscape supplier blends soil by volume in the ratio 5 parts topsoil to 3 parts compost to 2 parts sand. A crew has already tipped 14 cubic feet of compost into the mixer and wants to use all of it, keeping the ratio exact. How much topsoil must go in?",
+     "choices": [
+      "23 1/3 cubic feet",
+      "7 cubic feet",
+      "8 2/5 cubic feet",
+      "46 2/3 cubic feet"
+     ],
+     "answer": "A",
+     "explanation": "The compost is 3 parts, so one part is 14 ÷ 3 = 4 2/3 cubic feet. Topsoil is 5 parts: 5 × 4 2/3 = 23 1/3 cubic feet. The tempting 46 2/3 cubic feet is the whole finished batch, all 10 parts, rather than the topsoil alone. The 8 2/5 figure turns the ratio upside down, taking 3/5 of the compost instead of 5/3, and 7 cubic feet treats the 14 as the whole batch."
+    },
+    {
+     "num": 6,
+     "topic": "The number system — operations with signed rational numbers",
+     "question": "A checking account is overdrawn by $48.75 on Monday morning. Three automatic payments of $57.40 each clear that morning, and the bank charges a $34.00 overdraft fee for every payment that clears while the balance is below zero. A paycheck of $320.00 posts that afternoon, after all of it. What is the balance at the end of Monday?",
+     "choices": [
+      "−$36.95",
+      "$65.05",
+      "−$2.95",
+      "$99.05"
+     ],
+     "answer": "C",
+     "explanation": "The balance starts at −$48.75, so it is already below zero and stays there as each payment clears: all three draw a fee. Payments total 3 × 57.40 = $172.20 and fees total 3 × 34.00 = $102.00, so −48.75 − 172.20 − 102.00 + 320.00 = −$2.95, still overdrawn. The tempting $99.05 leaves the fees out entirely, and $65.05 charges one fee for the morning rather than one for each payment that clears."
+    },
+    {
+     "num": 7,
+     "topic": "The number system — multi-step operations with fractions",
+     "question": "A plumber starts with a straight length of pipe 12 feet long. From it he cuts three pieces 2 3/8 feet long and one piece 1 1/2 feet long. Each cut requires a 1/8-foot allowance for kerf and unusable trim. How much usable pipe is left after the four cuts?",
+     "choices": [
+      "3 feet",
+      "3 3/8 feet",
+      "3 5/8 feet",
+      "2 7/8 feet"
+     ],
+     "answer": "D",
+     "explanation": "The three long pieces use 3 × 2 3/8 = 7 1/8 feet, the short piece uses 1 1/2 feet, and the four cuts take an allowance of 4 × 1/8 = 1/2 foot. That is 7 1/8 + 1 1/2 + 1/2 = 9 1/8 feet, so 12 − 9 1/8 = 2 7/8 feet remain. The tempting 3 3/8 feet leaves the saw waste out entirely, and 3 feet counts only three cuts instead of four."
+    },
+    {
+     "num": 8,
+     "topic": "Expressions and equations — scientific notation",
+     "question": "A water district treats 2.4 × 10^8 gallons of water in a year and serves 3.0 × 10^4 households. If every household used the same amount and used it evenly over the 12 months, about how much water would one household use in one month?",
+     "choices": [
+      "8.0 × 10^3 gallons",
+      "9.6 × 10^4 gallons",
+      "6.7 × 10^3 gallons",
+      "6.7 × 10^2 gallons"
+     ],
+     "answer": "D",
+     "explanation": "Divide the front numbers and subtract the exponents: (2.4 ÷ 3.0) × 10^(8−4) = 0.8 × 10^4, which in proper form is 8.0 × 10^3 gallons per household per year. Divide by 12 months: 8,000 ÷ 12 ≈ 667, or 6.7 × 10^2 gallons. The tempting 8.0 × 10^3 stops at the yearly figure, and 6.7 × 10^3 comes from reading 0.8 × 10^4 as 8.0 × 10^4 before dividing by 12."
+    },
+    {
+     "num": 9,
+     "topic": "The number system — square roots in a multi-step problem",
+     "question": "A homeowner is pouring a square concrete pad that covers 275 square feet. Edging strip is sold only in 8-foot lengths, and the strip must run all the way around the pad. Strips may be cut and the cut pieces used. What is the smallest number of 8-foot lengths that will do the job?",
+     "choices": [
+      "9 lengths",
+      "3 lengths",
+      "35 lengths",
+      "8 lengths"
+     ],
+     "answer": "A",
+     "explanation": "A square with area 275 has side √275 ≈ 16.58 feet, since 16² = 256 and 17² = 289. The perimeter is about 4 × 16.58 = 66.33 feet, and 66.33 ÷ 8 ≈ 8.29, so 9 lengths are needed; 8 lengths give only 64 feet. The tempting 8 comes from rounding 8.29 down, which leaves a gap, and 35 comes from dividing the area by 8 instead of the perimeter."
+    },
+    {
+     "num": 10,
+     "topic": "Expressions and equations — multi-step equations in context",
+     "question": "A landscaping invoice lists an $85.00 trip charge, then mulch at $32.50 per cubic yard, then 8 percent sales tax charged on the mulch only, not on the trip charge. The invoice total is $506.20. How many cubic yards of mulch were delivered?",
+     "choices": [
+      "14.4 cubic yards",
+      "13.0 cubic yards",
+      "12.0 cubic yards",
+      "11.8 cubic yards"
+     ],
+     "answer": "C",
+     "explanation": "Tax applies only to the mulch, so each cubic yard bills at 32.50 × 1.08 = $35.10. The trip charge is untaxed, so 85.00 + 35.10y = 506.20, giving 35.10y = 421.20 and y = 12.0 cubic yards. The tempting 13.0 comes from dividing the $421.20 mulch portion by the untaxed $32.50, and 11.8 comes from taxing the whole invoice, including the trip charge, before dividing."
+    },
+    {
+     "num": 11,
+     "topic": "Expressions and equations — inequalities in context",
+     "question": "A moving van is rated to carry at most 3,600 pounds. A crew has already loaded 1,150 pounds of tools and pads. Each remaining carton weighs 38 pounds. What is the greatest number of cartons the crew can add without going over the rating?",
+     "choices": [
+      "61 cartons",
+      "64 cartons",
+      "65 cartons",
+      "94 cartons"
+     ],
+     "answer": "B",
+     "explanation": "Solve 1,150 + 38c ≤ 3,600, so 38c ≤ 2,450 and c ≤ 64.47. Cartons are whole, so 64 is the most: 1,150 + 38 × 64 = 3,582 pounds, while 65 cartons would reach 3,620 pounds and go over. The tempting 65 comes from rounding 64.47 up, which works for a minimum but not for a maximum; 94 comes from ignoring the 1,150 pounds already loaded."
+    },
+    {
+     "num": 12,
+     "topic": "Expressions and equations — equivalent expressions",
+     "question": "A shop's estimate adds 6(3x − 2) dollars of framing and 3x dollars of fasteners, then subtracts a supplier rebate of 4(2x − 5) dollars. Which expression is equivalent to the net estimate, 6(3x − 2) + 3x − 4(2x − 5)?",
+     "choices": [
+      "13x + 8",
+      "10x + 8",
+      "13x − 7",
+      "13x − 32"
+     ],
+     "answer": "A",
+     "explanation": "Distribute both products: 6(3x − 2) = 18x − 12 and 4(2x − 5) = 8x − 20. Then 18x − 12 + 3x − 8x + 20 = 13x + 8. Checking with x = 3: 6(7) + 9 − 4(1) = 42 + 9 − 4 = 47, and 13(3) + 8 = 47. The tempting 13x − 32 comes from subtracting only the first term of the rebate, writing −12 − 20 instead of −12 + 20."
+    },
+    {
+     "num": 13,
+     "topic": "Expressions and equations — multi-step equations in context",
+     "question": "A cabinet shop quotes a job as the cost of materials, plus labor at $46.00 an hour, plus a delivery charge equal to 9 percent of the materials cost. The quote comes to $1,210.80 for a job with 14 hours of labor. What is the materials cost in that quote?",
+     "choices": [
+      "$566.80",
+      "$457.83",
+      "$520.00",
+      "$515.79"
+     ],
+     "answer": "C",
+     "explanation": "Let m be the materials cost. Then m + 46.00 × 14 + 0.09m = 1,210.80, so 1.09m + 644.00 = 1,210.80 and 1.09m = 566.80, giving m = 566.80 ÷ 1.09 = $520.00. Check: 520.00 + 644.00 + 46.80 = $1,210.80. The tempting $566.80 stops one step early, at materials plus delivery, and $457.83 takes 9 percent of the whole quote instead of 9 percent of the materials."
+    },
+    {
+     "num": 14,
+     "topic": "Ratios and proportional relationships — finding the whole from a percent",
+     "question": "A homeowner signs a remodeling contract and pays a deposit of 15 percent of the contract price at signing, then a progress payment of 28 percent of the contract price when framing is done. After both payments, $4,218.00 of the contract price is still unpaid. What is the full contract price?",
+     "choices": [
+      "$6,031.74",
+      "$9,809.30",
+      "$4,962.35",
+      "$7,400.00"
+     ],
+     "answer": "D",
+     "explanation": "The two payments come to 15 + 28 = 43 percent of the price, so the unpaid $4,218.00 is the other 57 percent. Then 0.57P = 4,218, so P = 4,218 ÷ 0.57 = $7,400.00. Check: 0.15 × 7,400 = $1,110 and 0.28 × 7,400 = $2,072, leaving $4,218. The tempting $9,809.30 divides by 0.43, the share already paid, and $6,031.74 adds 43 percent back onto the unpaid balance."
+    },
+    {
+     "num": 15,
+     "topic": "Expressions and equations — order of operations",
+     "question": "A quality-control sheet scores a reading r with the formula: Score = 3 + 2(r − 8)² ÷ 6. One sample is read at r = 5 and another at r = 14. How much higher is the score for the reading of 14 than for the reading of 5?",
+     "choices": [
+      "21 points higher",
+      "22.5 points higher",
+      "15 points higher",
+      "9 points higher"
+     ],
+     "answer": "D",
+     "explanation": "Work inside the parentheses first. For r = 14: 14 − 8 = 6, 6² = 36, 2 × 36 = 72, 72 ÷ 6 = 12, and 3 + 12 = 15. For r = 5: 5 − 8 = −3, (−3)² = 9, 2 × 9 = 18, 18 ÷ 6 = 3, and 3 + 3 = 6. The difference is 15 − 6 = 9. The tempting 15 comes from writing (−3)² as −9, which makes the lower score 0 instead of 6."
+    },
+    {
+     "num": 16,
+     "topic": "Functions — building and using a linear function",
+     "question": "A tank is draining at a steady rate. A worker measures the depth of the water three times: 46 centimeters at 2 minutes, 40 centimeters at 5 minutes, and 34 centimeters at 8 minutes. If the draining keeps up at the same rate, at what time will the depth be 9 centimeters?",
+     "choices": [
+      "25 minutes",
+      "18.5 minutes",
+      "20.5 minutes",
+      "6.8 minutes"
+     ],
+     "answer": "C",
+     "explanation": "The depth drops 6 centimeters every 3 minutes, a rate of 2 centimeters per minute, so depth = starting depth − 2t. Working back from 46 centimeters at 2 minutes, the depth at 0 minutes was 46 + 4 = 50, giving d = 50 − 2t. Setting 50 − 2t = 9 gives t = 20.5 minutes. The tempting 18.5 minutes uses the first measured depth, 46, as the depth at 0 minutes."
+    },
+    {
+     "num": 17,
+     "topic": "Functions — rate of change of a linear relationship",
+     "question": "A warehouse tracks the number of pallets on its floor. At 8:00 there are 46 pallets, and from 8:00 to 10:00 the count rises at a steady 12 pallets per hour. From 10:00 to 11:30 the count does not change. From 11:30 to 2:00 the count falls at a steady rate, reaching 30 pallets at 2:00. At what rate is the count falling in the afternoon?",
+     "choices": [
+      "16 pallets per hour",
+      "20 pallets per hour",
+      "6.4 pallets per hour",
+      "12 pallets per hour"
+     ],
+     "answer": "A",
+     "explanation": "By 10:00 the count has risen for 2 hours: 46 + 2 × 12 = 70 pallets, and it is still 70 at 11:30 because nothing changed. From 11:30 to 2:00 is 2.5 hours, and the count drops from 70 to 30, a fall of 40. The rate is 40 ÷ 2.5 = 16 pallets per hour. The tempting 20 comes from counting 11:30 to 2:00 as 2 hours instead of 2.5."
+    },
+    {
+     "num": 18,
+     "topic": "Functions — comparing two linear functions given in different forms",
+     "question": "A print shop compares two copier leases. The Northside lease charges by the rule c = 0.021p + 96, where p is pages printed in a month and c is that month's cost in dollars. The Parkway lease publishes no rule; it billed $138.60 for a month of 4,200 pages and $237.60 for a month of 7,500 pages, and its charges are linear. For a month of 9,000 pages, which lease costs less, and by how much?",
+     "choices": [
+      "The Parkway lease, by $15.00",
+      "The Parkway lease, by $2.40",
+      "The Northside lease, by $2.40",
+      "The Northside lease, by $12.00"
+     ],
+     "answer": "B",
+     "explanation": "The Parkway rate is (237.60 − 138.60) ÷ (7,500 − 4,200) = $0.03 per page, and its base is 138.60 − 0.03 × 4,200 = $12.60, which the other month confirms. At 9,000 pages Parkway costs 0.03 × 9,000 + 12.60 = $282.60 and Northside costs 0.021 × 9,000 + 96 = $285.00, so Parkway saves $2.40. The tempting $15.00 gap drops Parkway's $12.60 base charge."
+    },
+    {
+     "num": 19,
+     "topic": "Geometry — surface area of a rectangular solid",
+     "question": "A closed wooden shipping crate measures 4 feet long, 3 feet wide, and 2.5 feet high. Every outside face, including the top and the bottom, gets two coats of sealer. One quart of sealer covers 40 square feet, and sealer is sold only by the whole quart. How many quarts must be bought?",
+     "choices": [
+      "4 quarts",
+      "3 quarts",
+      "2 quarts",
+      "6 quarts"
+     ],
+     "answer": "B",
+     "explanation": "The surface area is 2(4 × 3) + 2(4 × 2.5) + 2(3 × 2.5) = 24 + 20 + 15 = 59 square feet. Two coats cover 118 square feet, and 118 ÷ 40 = 2.95, so 3 whole quarts are needed. The tempting 2 quarts figures only one coat, and 4 quarts comes from rounding each coat up separately to 2 quarts before doubling."
+    },
+    {
+     "num": 20,
+     "topic": "Geometry — composite area with cost",
+     "question": "A rectangular room measures 14 feet by 11 feet. A square utility closet 3 feet on each side sits inside that rectangle and will not be carpeted. The store adds 8 percent to the carpeted area for waste and rounds the order up to the next whole square foot. Carpet costs $4.25 per square foot ordered. What does the job cost?",
+     "choices": [
+      "$667.25",
+      "$665.55",
+      "$709.75",
+      "$616.25"
+     ],
+     "answer": "A",
+     "explanation": "The carpeted area is 14 × 11 − 3 × 3 = 154 − 9 = 145 square feet. Adding 8 percent gives 145 × 1.08 = 156.6, which rounds up to 157 square feet ordered, so the cost is 157 × $4.25 = $667.25. The tempting $616.25 prices the 145 square feet with no waste allowance, and $709.75 keeps the waste but never takes the closet out."
+    },
+    {
+     "num": 21,
+     "topic": "Geometry — angles formed by parallel lines",
+     "question": "Two parallel steel beams are crossed by a single diagonal brace. On the same side of the brace, the interior angle at the first beam measures (4x − 6) degrees and the interior angle at the second beam measures (2x + 30) degrees. What is the measure of the larger of these two angles?",
+     "choices": [
+      "82 degrees",
+      "66 degrees",
+      "114 degrees",
+      "98 degrees"
+     ],
+     "answer": "D",
+     "explanation": "Interior angles on the same side of a transversal between parallel lines are supplementary, so (4x − 6) + (2x + 30) = 180. That gives 6x + 24 = 180, so x = 26, and the angles are 4(26) − 6 = 98 and 2(26) + 30 = 82 degrees, which do add to 180. The larger is 98 degrees. The tempting 66 degrees comes from setting the two expressions equal, which would be right for alternate interior angles, not same-side ones."
+    },
+    {
+     "num": 22,
+     "topic": "Geometry — Pythagorean theorem in context",
+     "question": "A rectangular farm gate is 3 1/2 feet wide, and its height is 1 foot less than twice its width. A single steel rod is fitted as a brace running corner to corner across the gate. The rod costs $6.80 per foot. To the nearest dollar, what does the brace rod for one gate cost?",
+     "choices": [
+      "about $65",
+      "about $53",
+      "about $33",
+      "about $47"
+     ],
+     "answer": "D",
+     "explanation": "The height is 2 × 3 1/2 − 1 = 6 feet. The brace is the diagonal, so its length is √(3.5² + 6²) = √(12.25 + 36) = √48.25 ≈ 6.95 feet, and 6.95 × 6.80 ≈ $47. The tempting $53 comes from taking the height as twice the width and forgetting to subtract the 1 foot, and $65 comes from adding the two sides instead of using the theorem."
+    },
+    {
+     "num": 23,
+     "topic": "Statistics and probability — choosing a measure of center for a purpose",
+     "question": "A shop recorded the sealant used, in ounces, on its last nine jobs: 6, 9, 9, 11, 14, 15, 19, 22, and 45. Jobs like these keep coming in the same mix. The owner wants the figure that best predicts the total sealant the next 40 jobs will use. Which figure should she use, and what does it give?",
+     "choices": [
+      "The most common amount, 9 ounces a job, giving 360 ounces",
+      "The mean, 16 2/3 ounces a job, giving about 667 ounces",
+      "The largest job, 45 ounces a job, giving 1,800 ounces",
+      "The median, 14 ounces a job, giving 560 ounces"
+     ],
+     "answer": "B",
+     "explanation": "A total is the number of jobs times the mean. The nine jobs total 150 ounces, so the mean is 150 ÷ 9 = 16 2/3 ounces per job, and 40 × 16 2/3 = 666 2/3, or about 667 ounces. The tempting median answer, 14 ounces giving 560, describes a typical single job, which is the right measure for a different question; used for a total it leaves out the heavy jobs like the 45-ounce one and under-stocks by about 107 ounces."
+    },
+    {
+     "num": 24,
+     "topic": "Statistics and probability — compound probability",
+     "question": "A supervisor puts 10 slips in a bowl to assign overtime: 4 say morning and 6 say evening. Two workers each draw one slip, one after the other, and a slip that is drawn is not put back. What is the probability that both workers draw an evening slip?",
+     "choices": [
+      "9/25",
+      "5/9",
+      "1/3",
+      "3/5"
+     ],
+     "answer": "C",
+     "explanation": "The first worker draws an evening slip with probability 6/10. Because that slip is not replaced, only 9 slips remain and 5 of them say evening, so the second draw has probability 5/9. Multiply: 6/10 × 5/9 = 30/90 = 1/3. The tempting 9/25 is (6/10)², which would be right only if the first slip were put back before the second draw."
+    },
+    {
+     "num": 25,
+     "topic": "Statistics and probability — estimates from random samples",
+     "question": "A hospital has 800 day-shift and 400 night-shift employees. A random sample of 150 day-shift employees contains 42 who ride the staff shuttle. A separate random sample of 50 night-shift employees contains 6 who ride it. Using each sample for its own shift, about how many of all 1,200 employees ride the shuttle?",
+     "choices": [
+      "about 272 employees",
+      "about 336 employees",
+      "about 288 employees",
+      "about 224 employees"
+     ],
+     "answer": "A",
+     "explanation": "The day-shift rate is 42 ÷ 150 = 0.28, so 0.28 × 800 = 224 riders. The night-shift rate is 6 ÷ 50 = 0.12, so 0.12 × 400 = 48 riders. Together that is 272. The tempting 288 pools the two samples as 48 out of 200 and applies that 24 percent to everyone, which over-weights the day shift because it supplied three-quarters of the sample but is only two-thirds of the staff."
+    }
+   ]
+  }
+ ]
+}

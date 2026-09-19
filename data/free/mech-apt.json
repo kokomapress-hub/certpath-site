@@ -1,0 +1,374 @@
+{
+ "slug": "mech-apt-free25",
+ "title": "Free sample",
+ "free": true,
+ "note": "Original questions written for the free sample. They do not appear in the book or in the owners' online practice tests.",
+ "tests": [
+  {
+   "testNum": 1,
+   "questions": [
+    {
+     "num": 1,
+     "topic": "Levers and moments",
+     "question": "The drawing shows a uniform plank resting on two supports, with a worker standing on it. Using only the drawing, how much weight does the support that is away from the end of the plank carry?",
+     "choices": [
+      "135 lb",
+      "175 lb",
+      "240 lb",
+      "65 lb"
+     ],
+     "answer": "B",
+     "explanation": "Take moments about the left support. The plank's own weight acts at its middle, 8 ft along: 60 × 8 = 480 lb-ft. The worker gives 180 × 9 = 1,620 lb-ft. Their sum, 2,100 lb-ft, is balanced by the far support at 12 ft, so it carries 2,100 ÷ 12 = 175 lb. The 135 lb answer leaves the plank's own weight out, and 65 lb is the load on the other support.",
+     "image": "/figures/free/mech-apt-01.svg",
+     "image_alt": "Uniform plank on two supports, one at the left end, with a worker's weight marked and the spacings dimensioned."
+    },
+    {
+     "num": 2,
+     "topic": "Levers and moments",
+     "question": "The drawing shows a loaded wheelbarrow. The wheel's axle is the pivot. Using only the drawing, how much lift must the operator apply at the handles?",
+     "choices": [
+      "120 lb",
+      "72 lb",
+      "55 lb",
+      "800 lb"
+     ],
+     "answer": "B",
+     "explanation": "Moments about the axle balance: effort × 60 = 240 × 18, so effort = 4,320 ÷ 60 = 72 lb. The 800 lb answer inverts the arms, multiplying by 60 and dividing by 18, which would make the wheelbarrow harder to use than carrying the load. The 120 lb answer assumes the operator simply takes half the weight, and 55 lb measures the 60 in from the load instead of from the axle.",
+     "image": "/figures/free/mech-apt-02.svg",
+     "image_alt": "Side view of a wheelbarrow with the load weight marked and the distances from the axle to the load and to the handles dimensioned."
+    },
+    {
+     "num": 3,
+     "topic": "Levers and moments",
+     "question": "The drawing shows a wrench with a pipe slipped over its handle, and the note gives the torque the bolt must reach. Using only the drawing, what force applied at the end of the pipe produces that torque?",
+     "choices": [
+      "7.1 lb",
+      "85.7 lb",
+      "120.0 lb",
+      "171.4 lb"
+     ],
+     "answer": "B",
+     "explanation": "Torque is force times the arm measured in the same units, so 21 in must become 21 ÷ 12 = 1.75 ft. Force = 150 ÷ 1.75 = 85.7 lb. The 120.0 lb answer uses the bare 15 in wrench and misses that the pipe changes the arm. The 171.4 lb answer uses half the extended arm, and 7.1 lb divides by 21 without converting inches to feet.",
+     "image": "/figures/free/mech-apt-03.svg",
+     "image_alt": "Wrench on a bolt with a pipe extension, showing the wrench length and the total length from the bolt centre, with a torque note."
+    },
+    {
+     "num": 4,
+     "topic": "Pulleys and block and tackle",
+     "question": "The drawing shows a block and tackle rigged with one continuous rope. Ignoring friction, what pull raises the load shown, and how much rope must be hauled in to raise it 4 ft?",
+     "choices": [
+      "120 lb of pull, hauling 20 ft of rope",
+      "120 lb of pull, hauling 4 ft of rope",
+      "150 lb of pull, hauling 16 ft of rope",
+      "600 lb of pull, hauling 4 ft of rope"
+     ],
+     "answer": "A",
+     "explanation": "Five runs of rope pass between the blocks and the dead end is made fast to the lower block, so five parts share the load: 600 ÷ 5 = 120 lb. Rigging saves force only by trading distance, so the hauling line moves 5 × 4 = 20 ft. Pairing the right pull with 4 ft of rope is the strongest trap. Counting four parts, as if the dead end were at the top, gives 150 lb and 16 ft.",
+     "image": "/figures/free/mech-apt-04.svg",
+     "image_alt": "Block and tackle with an upper block of three sheaves and a lower block of two, the rope's dead end fixed to the lower block, and a load hanging below."
+    },
+    {
+     "num": 5,
+     "topic": "Pulleys and block and tackle",
+     "question": "The drawing shows four riggings, each lifting the same load. The small black square on each one marks where the end of the rope is made fast, and the arrow shows where the worker pulls. Which rigging raises the load with the least pull?",
+     "choices": [
+      "Rigging X",
+      "Rigging Y",
+      "Rigging W",
+      "Rigging Z"
+     ],
+     "answer": "D",
+     "explanation": "Count the rope parts that run to the moving block, not the pulleys. One rigging has its rope end made fast to the moving block itself, so three parts hold that block and the pull is a third of the load. The other rigging with three sheaves has its rope end on the beam, leaving only two parts to the moving block, and it is the strongest trap because it looks identical at a glance.",
+     "image": "/figures/free/mech-apt-05.svg",
+     "image_alt": "Four rigging arrangements drawn side by side, each lifting an equal load, with the rope's fixed end marked on either the overhead beam or the moving block."
+    },
+    {
+     "num": 6,
+     "topic": "Belt drives",
+     "question": "The drawing shows a two-stage belt drive. Using only the drawing, what is the speed of the output shaft?",
+     "choices": [
+      "120 rpm",
+      "300 rpm",
+      "480 rpm",
+      "1,920 rpm"
+     ],
+     "answer": "A",
+     "explanation": "Speed falls in the ratio of driver diameter to driven diameter at each stage: 1,200 × 6 ÷ 15 = 480 rpm at the countershaft, then 480 × 5 ÷ 20 = 120 rpm at the output. The 480 rpm answer stops after the first belt. The 300 rpm answer applies only the second pair to the motor speed, and 1,920 rpm inverts the second ratio, turning a reduction into an increase.",
+     "image": "/figures/free/mech-apt-06.svg",
+     "image_alt": "Motor belted to a countershaft carrying two sheaves, which is belted to an output shaft, with motor speed and all sheave diameters marked."
+    },
+    {
+     "num": 7,
+     "topic": "Gear trains",
+     "question": "The drawing shows four gears in a line, each meshing with the next, with the driver's speed and direction marked. Using only the drawing, how does the last gear turn?",
+     "choices": [
+      "150 rpm, counterclockwise",
+      "300 rpm, clockwise",
+      "1,200 rpm, counterclockwise",
+      "300 rpm, counterclockwise"
+     ],
+     "answer": "D",
+     "explanation": "Gears between the first and last only pass the drive along, so speed depends on the end gears alone: 600 × 24 ÷ 48 = 300 rpm. Direction reverses at each of the three meshes, and three reversals leave the last gear turning against the driver. The 150-rpm answer multiplies the middle ratios as though the idlers changed speed, and the clockwise answer counts an even number of meshes.",
+     "image": "/figures/free/mech-apt-07.svg",
+     "image_alt": "Four gears in a line, each meshing with the next, with tooth counts marked and an arrow showing the driver turning clockwise."
+    },
+    {
+     "num": 8,
+     "topic": "Gear trains",
+     "question": "A 1.5 hp motor running at 1,750 rpm drives a worm reducer with a 25 to 1 ratio and an efficiency of 70 %. Torque in lb-ft equals horsepower × 5,252 ÷ rpm. What torque appears at the reducer's output shaft?",
+     "choices": [
+      "55.1 lb-ft",
+      "78.8 lb-ft",
+      "4.5 lb-ft",
+      "112.5 lb-ft"
+     ],
+     "answer": "B",
+     "explanation": "Motor torque is 1.5 × 5,252 ÷ 1,750 = 4.5 lb-ft. The reduction multiplies torque by 25, giving 112.5 lb-ft ideally, and the 70 % efficiency reduces that to 112.5 × 0.70 = 78.8 lb-ft. The 112.5 lb-ft answer ignores the losses, which worm gearing makes large. The 55.1 lb-ft answer applies efficiency twice, and 4.5 lb-ft stops at the motor shaft."
+    },
+    {
+     "num": 9,
+     "topic": "Chain drives",
+     "question": "The drawing shows a chain drive between two sprockets, with the pedal shaft's speed and torque noted. Ignoring friction, what happens at the wheel shaft?",
+     "choices": [
+      "15 rpm with 120 lb-ft of torque",
+      "240 rpm with 30 lb-ft of torque",
+      "240 rpm with 7.5 lb-ft of torque",
+      "240 rpm with 120 lb-ft of torque"
+     ],
+     "answer": "C",
+     "explanation": "The wheel sprocket has a quarter of the teeth, so it turns four times as fast: 60 × 44 ÷ 11 = 240 rpm. Power cannot increase, so torque falls by the same factor: 30 ÷ 4 = 7.5 lb-ft. Pairing the faster speed with four times the torque is the strongest trap, since it treats speed and torque as rising together. Unchanged torque and the inverted pairing repeat the same error in other forms.",
+     "image": "/figures/free/mech-apt-09.svg",
+     "image_alt": "Chain drive between a large pedal sprocket and a small wheel sprocket, with tooth counts and the pedal shaft's speed and torque noted."
+    },
+    {
+     "num": 10,
+     "topic": "Hydraulics",
+     "question": "The drawing shows a hydraulic cylinder with its bore dimensioned and its supply pressure noted. What force does it develop on the extend stroke, to the nearest hundred pounds?",
+     "choices": [
+      "6,300 lb",
+      "69,300 lb",
+      "8,700 lb",
+      "17,300 lb"
+     ],
+     "answer": "D",
+     "explanation": "Piston area is π ÷ 4 × 3.5² = 9.62 square inches, so force = 9.62 × 1,800 = 17,318 lb, about 17,300 lb. The 6,300 lb answer multiplies the bore itself by pressure, skipping area altogether. The 69,300 lb answer uses the 3.5 in bore as a radius, which multiplies the area by four, and 8,700 lb halves the correct result.",
+     "image": "/figures/free/mech-apt-10.svg",
+     "image_alt": "Hydraulic cylinder in section with the bore dimensioned, the supply pressure noted and an arrow showing the direction of the output force."
+    },
+    {
+     "num": 11,
+     "topic": "Pneumatics",
+     "question": "An 80 cubic foot air receiver is charged to 120 psig. Tools draw from it until the pressure falls to 90 psig. Atmospheric pressure is 14.7 psi and the air stays at the same temperature. How much free air, measured at atmospheric pressure, is drawn from the receiver?",
+     "choices": [
+      "733 cubic feet",
+      "80 cubic feet",
+      "163 cubic feet",
+      "570 cubic feet"
+     ],
+     "answer": "C",
+     "explanation": "At constant temperature, free air equals tank volume × absolute pressure ÷ 14.7. The receiver holds 80 × 134.7 ÷ 14.7 = 733 cubic feet of free air at the start and 80 × 104.7 ÷ 14.7 = 570 cubic feet at the end, so 163 cubic feet are drawn. The 733 answer is everything in the tank, ignoring that the tools stop at 90 psig, and 570 is what remains."
+    },
+    {
+     "num": 12,
+     "topic": "Hydraulics and pneumatics",
+     "question": "The drawing shows a hand hydraulic press and describes how it behaves now. What is the most likely cause?",
+     "choices": [
+      "Air trapped in the fluid, which compresses on the stroke and expands when pressure is released.",
+      "An overfilled reservoir, which leaves no room for the fluid the ram displaces.",
+      "A restriction in the return line, which slows fluid getting back to the reservoir.",
+      "A worn pump, which delivers less fluid on each stroke than it did when new."
+     ],
+     "answer": "A",
+     "explanation": "Liquid is nearly incompressible, so a well-bled hydraulic system moves in step with the lever. Springy, lagging motion with normal pressure points to a compressible pocket, which means air in the fluid. A worn pump is the strongest trap, but it would make the press slow and weak rather than springy, and a return-line restriction would slow retraction without causing spring-back at the ram.",
+     "image": "/figures/free/mech-apt-12.svg",
+     "image_alt": "Hand hydraulic press with a lever, reservoir, pressure gauge and ram, with a note describing jerky motion and spring-back."
+    },
+    {
+     "num": 13,
+     "topic": "Screws and inclined planes",
+     "question": "The drawing shows a screw jack with its handle dimensioned, the thread noted, and the push applied at the handle. Its ideal mechanical advantage is 2 × π × handle length ÷ pitch, and friction makes it 30 % efficient. What load does that push raise?",
+     "choices": [
+      "1,510 lb",
+      "720 lb",
+      "15,080 lb",
+      "4,520 lb"
+     ],
+     "answer": "D",
+     "explanation": "Pitch is 1 ÷ 4 = 0.25 in, so the ideal advantage is 2 × π × 20 ÷ 0.25 = 503. A 30 lb push gives an ideal 15,080 lb, and at 30 % efficiency the real load is 15,080 × 0.30 = 4,520 lb. The 15,080 lb answer ignores efficiency, which is very low in screw jacks. The 720 lb answer drops the 2 × π from the advantage, and 1,510 lb uses 10 % efficiency.",
+     "image": "/figures/free/mech-apt-13.svg",
+     "image_alt": "Screw jack with a load pad, threaded screw, base, dimensioned handle and a marked push force at the end of the handle."
+    },
+    {
+     "num": 14,
+     "topic": "Screws and inclined planes",
+     "question": "The drawing shows a drum that must be rolled up a plank onto a dock. Ignoring friction and using only the drawing, what is the shortest plank that lets the workers do it?",
+     "choices": [
+      "22.4 ft",
+      "1.4 ft",
+      "11.2 ft",
+      "2.8 ft"
+     ],
+     "answer": "C",
+     "explanation": "On an incline the push needed equals weight × height ÷ length, so length = 420 × 4 ÷ 150 = 11.2 ft. The 2.8 ft answer is the force ratio 420 ÷ 150 used directly as a length, which drops the height from the calculation and is the easiest slip here. The 1.4 ft answer divides the height by that ratio, and 22.4 ft doubles the correct result.",
+     "image": "/figures/free/mech-apt-14.svg",
+     "image_alt": "Drum of stated weight on a plank leaning against a dock of dimensioned height, with the workers' combined push marked and the plank length unknown."
+    },
+    {
+     "num": 15,
+     "topic": "Centre of gravity and stability",
+     "question": "The drawing shows a counterbalanced lift truck with the centres of gravity of the truck and its load marked and dimensioned from the front axle. What is the heaviest load the truck can carry before it begins to tip forward?",
+     "choices": [
+      "8,000 lb",
+      "14,000 lb",
+      "4,500 lb",
+      "6,000 lb"
+     ],
+     "answer": "A",
+     "explanation": "Tipping is decided by moments about the front axle. The truck resists with 6,000 × 32 = 192,000 lb-in, and the load acts with weight × 24. Setting them equal gives 192,000 ÷ 24 = 8,000 lb. The 4,500 lb answer swaps the two distances, using 24 for the truck and 32 for the load. The 6,000 lb answer assumes the load may not exceed the truck's own weight, and 14,000 lb adds the two.",
+     "image": "/figures/free/mech-apt-15.svg",
+     "image_alt": "Side view of a counterbalanced lift truck with the truck's weight noted and the distances from the front axle to the truck and load centres of gravity dimensioned."
+    },
+    {
+     "num": 16,
+     "topic": "Centre of gravity and stability",
+     "question": "The drawing shows a uniform crate on a surface whose slope is slowly increased. The surface grips well enough that the crate tips rather than slides. Using the crate dimensions shown, at about what slope angle does it begin to tip?",
+     "choices": [
+      "About 23 degrees",
+      "About 12 degrees",
+      "About 45 degrees",
+      "About 67 degrees"
+     ],
+     "answer": "A",
+     "explanation": "The crate tips when the vertical line through its centre of gravity passes outside the lower edge. The centre sits 15 in across and 36 in up, so tipping starts where the tangent of the angle equals 15 ÷ 36 = 0.417, about 23 degrees. The 67-degree answer inverts that ratio, using height over half-width. The 12-degree answer divides half-width by full height, and 45 degrees assumes a cube.",
+     "image": "/figures/free/mech-apt-16.svg",
+     "image_alt": "A uniform crate on a tilted surface with its centre of gravity marked, shown beside the same crate upright with its width and height dimensioned."
+    },
+    {
+     "num": 17,
+     "topic": "Springs",
+     "question": "The drawing shows two identical springs arranged in two different ways, each arrangement carrying the same load. How far does the load in the end-to-end arrangement descend compared with the load in the side-by-side arrangement?",
+     "choices": [
+      "Half as far",
+      "Twice as far",
+      "Four times as far",
+      "The same distance"
+     ],
+     "answer": "C",
+     "explanation": "End to end, each spring carries the whole load and each stretches 300 ÷ 40 = 7.5 in, so the load drops 15 in. Side by side, the springs share the load, 150 lb each, and each stretches 3.75 in, which is how far that load drops. Fifteen against 3.75 is four times. Answering twice as far counts the two springs in the first case but forgets that sharing halves the stretch in the second.",
+     "image": "/figures/free/mech-apt-17.svg",
+     "image_alt": "Two identical springs shown end to end carrying a load, beside the same two springs side by side carrying an equal load, with the spring rate noted."
+    },
+    {
+     "num": 18,
+     "topic": "Springs",
+     "question": "A coil spring shortens 0.6 in when a 90 lb load is set on it. Staying within the spring's elastic range, what load shortens it 1.5 in?",
+     "choices": [
+      "375 lb",
+      "135 lb",
+      "225 lb",
+      "36 lb"
+     ],
+     "answer": "C",
+     "explanation": "The spring rate is 90 ÷ 0.6 = 150 lb per inch, so 1.5 in needs 150 × 1.5 = 225 lb. The 135 lb answer multiplies the original 90 lb by the new deflection of 1.5, mixing a load with a length. The 375 lb answer multiplies the rate by the deflection ratio of 2.5 instead of by the deflection, and 36 lb inverts the proportion."
+    },
+    {
+     "num": 19,
+     "topic": "Friction",
+     "question": "The drawing shows a crate on a concrete floor with a steady horizontal push applied, and gives both friction coefficients. What happens?",
+     "choices": [
+      "The crate slides and keeps speeding up, because the push exceeds the sliding resistance.",
+      "The crate slides a short way and stops, as friction builds up while it moves.",
+      "The crate slides at a steady speed, because about 270 lb keeps it moving.",
+      "The crate does not move, because about 405 lb is needed to break it loose."
+     ],
+     "answer": "D",
+     "explanation": "The crate must first be broken loose, which takes 0.45 × 900 = 405 lb. A 350 lb push never reaches that figure, so the crate stays put and the sliding coefficient never comes into play. Comparing 350 lb with the 270 lb sliding resistance is the strongest trap, since that comparison only matters once the crate is already moving.",
+     "image": "/figures/free/mech-apt-19.svg",
+     "image_alt": "Crate of stated weight on a floor with a horizontal push arrow of stated size, and a note giving the static and sliding friction coefficients."
+    },
+    {
+     "num": 20,
+     "topic": "Friction",
+     "question": "A 1,200 lb crate is dragged on skids across a floor where the coefficient of friction is 0.35. Pipe rollers placed under the crate lower the effective coefficient to 0.05. How much less force is needed to keep the crate moving once the rollers are under it?",
+     "choices": [
+      "420 lb less",
+      "480 lb less",
+      "60 lb less",
+      "360 lb less"
+     ],
+     "answer": "D",
+     "explanation": "On skids the resistance is 0.35 × 1,200 = 420 lb; on rollers it is 0.05 × 1,200 = 60 lb. The saving is 420 - 60 = 360 lb. The 420 lb answer gives the skid force rather than the saving, and 60 lb gives the roller force, both of which respond to a question the stem did not ask. The 480 lb answer adds the two coefficients instead of taking their difference."
+    },
+    {
+     "num": 21,
+     "topic": "Fluid flow",
+     "question": "The drawing shows two pipes carrying water at the same velocity, with their inside diameters dimensioned. How many times as much water per minute does the larger pipe deliver as the smaller pipe?",
+     "choices": [
+      "3.4 times as much",
+      "2.25 times as much",
+      "4.5 times as much",
+      "1.5 times as much"
+     ],
+     "answer": "B",
+     "explanation": "At equal velocity, flow follows cross-sectional area, and area follows the square of diameter, so the ratio is 3² ÷ 2² = 9 ÷ 4 = 2.25. The 1.5 answer compares diameters directly, which is the most common pipe-sizing error and badly understates the larger pipe. The 3.4 answer cubes the ratio, and 4.5 squares only the larger diameter before dividing by the smaller.",
+     "image": "/figures/free/mech-apt-21.svg",
+     "image_alt": "Two lengths of pipe drawn one above the other with their inside diameters dimensioned and flow arrows at their inlets."
+    },
+    {
+     "num": 22,
+     "topic": "Heat transfer",
+     "question": "A 3 lb steel bar heated to 600 °F is dropped into 10 lb of water at 70 °F in an insulated container. Steel's specific heat is 0.11 BTU per lb per °F and water's is 1.0. What temperature do they settle at?",
+     "choices": [
+      "About 87 °F",
+      "About 335 °F",
+      "About 458 °F",
+      "About 192 °F"
+     ],
+     "answer": "A",
+     "explanation": "Heat lost by the steel equals heat gained by the water: 3 × 0.11 × (600 - T) = 10 × 1.0 × (T - 70), giving T = 87 °F. Water's high specific heat and greater mass keep the rise small. The 192 °F answer leaves the specific heats out, treating the two materials as storing heat alike, and 335 °F simply averages the temperatures. The 458 °F answer swaps the two specific heats."
+    },
+    {
+     "num": 23,
+     "topic": "Basic electricity",
+     "question": "The drawing shows a circuit supplied at the voltage marked. Using only the drawing, what current flows in the 8 ohm resistor?",
+     "choices": [
+      "2.22 A",
+      "1.33 A",
+      "3.00 A",
+      "1.11 A"
+     ],
+     "answer": "B",
+     "explanation": "The parallel pair is 8 × 12 ÷ 20 = 4.8 ohms, so the circuit totals 10.8 ohms and draws 24 ÷ 10.8 = 2.22 A. That current puts 2.22 × 4.8 = 10.67 V across the pair, so the 8 ohm branch carries 10.67 ÷ 8 = 1.33 A. The 2.22 A answer is the total supply current. The 3.00 A answer puts the whole 24 V across the 8 ohm resistor, and 1.11 A splits the total evenly between unequal branches.",
+     "image": "/figures/free/mech-apt-23.svg",
+     "image_alt": "Schematic of a 24 V source feeding a 6 ohm resistor in series with a parallel pair of 8 ohm and 12 ohm resistors."
+    },
+    {
+     "num": 24,
+     "topic": "Basic electricity",
+     "question": "A 1/2 hp motor runs on a 120 V supply and is 78 % efficient. One horsepower equals 746 W. What current does the motor draw at full load, assuming unity power factor?",
+     "choices": [
+      "4.0 A",
+      "2.4 A",
+      "3.1 A",
+      "8.0 A"
+     ],
+     "answer": "A",
+     "explanation": "Shaft output is 0.5 × 746 = 373 W, and the motor must draw more than it delivers, so input is 373 ÷ 0.78 = 478 W. Current is 478 ÷ 120 = 4.0 A. The 3.1 A answer uses the 373 W output directly and ignores losses. The 2.4 A answer multiplies by the efficiency instead of dividing, and 8.0 A treats the motor as a full horsepower."
+    },
+    {
+     "num": 25,
+     "topic": "Acoustics",
+     "question": "Sound travels about 1,130 ft per second in air. A worker facing a flat rock face shouts once and hears the echo 3.0 seconds later. About how far away is the rock face?",
+     "choices": [
+      "3,390 ft",
+      "847 ft",
+      "1,695 ft",
+      "377 ft"
+     ],
+     "answer": "C",
+     "explanation": "The sound covers the distance twice, out and back, in 3.0 seconds, so it travels 1,130 × 3.0 = 3,390 ft in all and the rock face is half that, 1,695 ft. The 3,390 ft answer forgets the return trip and is the strongest trap. The 847 ft answer halves the distance a second time, and 377 ft divides the speed by the time instead of multiplying."
+    }
+   ]
+  }
+ ]
+}

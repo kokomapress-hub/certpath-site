@@ -1,0 +1,338 @@
+{
+ "slug": "act-math-free25",
+ "title": "Free sample",
+ "free": true,
+ "note": "Original questions written for the free sample. They do not appear in the book or in the owners' online practice tests.",
+ "tests": [
+  {
+   "testNum": 1,
+   "questions": [
+    {
+     "num": 1,
+     "topic": "Preparing for Higher Math – Number & Quantity",
+     "question": "For the complex number z = (4 − i)/(2 + 3i), which of the following is z written in the form a + bi, where a and b are real numbers?",
+     "choices": [
+      "−1 + (14/5)i",
+      "11/13 − (14/13)i",
+      "5/13 − (14/13)i",
+      "5/13 + (14/13)i"
+     ],
+     "answer": "C",
+     "explanation": "Multiply numerator and denominator by the conjugate 2 − 3i. The numerator becomes 8 − 12i − 2i + 3i², and since i² = −1 that is 5 − 14i. The denominator becomes 4 + 9 = 13, so z = 5/13 − (14/13)i. The tempting near-miss keeps the real part as 11/13, which comes from treating i² as +1 instead of −1 in the numerator."
+    },
+    {
+     "num": 2,
+     "topic": "Preparing for Higher Math – Number & Quantity",
+     "question": "For all positive real numbers x and y, which expression is equivalent to (x^(-1/2) · y^(3/4))^4 ÷ (x · y²)^(1/2) ?",
+     "choices": [
+      "y²/x^(5/2)",
+      "y/x^(5/2)",
+      "y³/x^(5/2)",
+      "y²/x^(3/2)"
+     ],
+     "answer": "A",
+     "explanation": "Raising to the fourth power gives x^(-2)·y³ on top, and the square root gives x^(1/2)·y underneath. Dividing subtracts exponents: x^(−2 − 1/2) = x^(−5/2) and y^(3 − 1) = y², so the result is y²/x^(5/2). The tempting form with x^(3/2) comes from adding the denominator's x exponent instead of subtracting it."
+    },
+    {
+     "num": 3,
+     "topic": "Preparing for Higher Math – Number & Quantity",
+     "question": "A survey drone flies with a velocity of ⟨15, 8⟩, in miles per hour, relative to the air. The wind's velocity is ⟨−3, −4⟩, in miles per hour. The drone's velocity relative to the ground is the sum of these two vectors. To the nearest tenth of a mile per hour, what is the drone's ground speed?",
+     "choices": [
+      "21.6 mph",
+      "12.6 mph",
+      "22.0 mph",
+      "12.0 mph"
+     ],
+     "answer": "B",
+     "explanation": "Add components: ⟨15 + (−3), 8 + (−4)⟩ = ⟨12, 4⟩. The speed is the magnitude √(12² + 4²) = √160 ≈ 12.6 mph. The tempting value of 12.0 comes from subtracting the two speeds, 17 − 5, as if the wind opposed the drone head-on; the vectors are not parallel, so magnitudes cannot simply be combined that way."
+    },
+    {
+     "num": 4,
+     "topic": "Preparing for Higher Math – Algebra",
+     "question": "The equation 2x² + bx + 18 = 0 has exactly one real solution, and b is a positive number. What is the value of b?",
+     "choices": [
+      "−12",
+      "12",
+      "8.5",
+      "6"
+     ],
+     "answer": "B",
+     "explanation": "One real solution means the discriminant is zero: b² − 4(2)(18) = 0, so b² = 144 and b = ±12. Because b must be positive, b = 12. The value −12 is the tempting answer for anyone who solves the discriminant equation correctly but then ignores the stated condition that b is positive; 6 comes from setting b² equal to 2 × 18 instead of 4 × 2 × 18."
+    },
+    {
+     "num": 5,
+     "topic": "Preparing for Higher Math – Algebra",
+     "question": "A caterer charges a fixed setup fee plus a constant charge per guest. An event for 40 guests is billed $1,010, and an event for 65 guests is billed $1,510. At the same rates, what is the bill for an event for 100 guests?",
+     "choices": [
+      "$2,000",
+      "$2,323",
+      "$2,210",
+      "$2,525"
+     ],
+     "answer": "C",
+     "explanation": "The extra 25 guests add $500, so the per-guest charge is $20. The setup fee is 1,010 − 40(20) = $210. For 100 guests the bill is 210 + 100(20) = $2,210. The tempting $2,525 comes from scaling the $1,010 bill proportionally to 100 guests, which wrongly assumes the total is proportional to the number of guests even though a fixed fee is included."
+    },
+    {
+     "num": 6,
+     "topic": "Preparing for Higher Math – Algebra",
+     "question": "What is the sum of all real solutions of the equation √(2x + 15) = x ?",
+     "choices": [
+      "5",
+      "15",
+      "2",
+      "−3"
+     ],
+     "answer": "A",
+     "explanation": "Squaring gives 2x + 15 = x², or x² − 2x − 15 = 0, with roots 5 and −3. Checking in the original equation, √25 = 5 works, but √9 = 3 is not equal to −3, so −3 is extraneous and the only solution is 5. The tempting value of 2 is the sum of both roots of the quadratic, found by skipping the check that a square root cannot equal a negative number."
+    },
+    {
+     "num": 7,
+     "topic": "Preparing for Higher Math – Algebra",
+     "question": "When the polynomial p(x) = 2x³ − 5x² + kx − 9 is divided by x − 3, the remainder is 12. What is the value of k?",
+     "choices": [
+      "−2",
+      "0",
+      "4",
+      "−40"
+     ],
+     "answer": "C",
+     "explanation": "By the remainder theorem, p(3) = 12. Substituting gives 54 − 45 + 3k − 9 = 3k, so 3k = 12 and k = 4. The tempting −2 comes from a sign slip on the constant term, writing 54 − 45 + 3k + 9 = 12 and getting 3k = −6. The value −40 comes from evaluating at x = −3 instead of x = 3, misreading the divisor's sign."
+    },
+    {
+     "num": 8,
+     "topic": "Preparing for Higher Math – Functions",
+     "question": "The function f is defined by f(x) = (2x + 9)/(x − 3) for all x ≠ 3, and f has an inverse function f⁻¹. What is the value of f⁻¹(5)?",
+     "choices": [
+      "9.5",
+      "24",
+      "2",
+      "8"
+     ],
+     "answer": "D",
+     "explanation": "Finding f⁻¹(5) means solving f(x) = 5: (2x + 9)/(x − 3) = 5 gives 2x + 9 = 5x − 15, so 3x = 24 and x = 8. A check confirms f(8) = 25/5 = 5. The tempting 9.5 comes from evaluating f(5) = 19/2 instead of undoing the function; 24 comes from stopping at 3x = 24 without dividing by 3."
+    },
+    {
+     "num": 9,
+     "topic": "Preparing for Higher Math – Functions",
+     "question": "The loudness level of a sound, in decibels, is L = 10 log(I/I₀), where I is the sound's intensity and I₀ is a fixed reference intensity. An engineer increases a machine's sound intensity to 50 times its original value. To the nearest tenth, by how many decibels does the loudness level increase? (log 50 ≈ 1.699)",
+     "choices": [
+      "17.0 decibels",
+      "50.0 decibels",
+      "34.0 decibels",
+      "1.7 decibels"
+     ],
+     "answer": "A",
+     "explanation": "The new level minus the old is 10 log(50I/I₀) − 10 log(I/I₀) = 10 log 50 ≈ 10(1.699) = 17.0 decibels, because the ratio of intensities is 50 and the logarithm of a quotient is the difference of the logarithms. The tempting 1.7 comes from reporting log 50 while forgetting the factor of 10 that converts bels to decibels."
+    },
+    {
+     "num": 10,
+     "topic": "Preparing for Higher Math – Functions",
+     "question": "The depth of the water at a pier, in feet, t hours after midnight is modeled by d(t) = 9 − 4 cos(π t/6). What is the least positive value of t at which the depth is greatest?",
+     "choices": [
+      "6",
+      "3",
+      "12",
+      "9"
+     ],
+     "answer": "A",
+     "explanation": "The depth is greatest when the subtracted term is most negative, that is when cos(π t/6) = −1. This first happens when π t/6 = π, so t = 6, giving a maximum depth of 13 feet. The tempting 12 is the period of the function, 2π ÷ (π/6); at t = 12 the cosine returns to 1 and the depth is back to its minimum of 5 feet, not its maximum."
+    },
+    {
+     "num": 11,
+     "topic": "Preparing for Higher Math – Functions",
+     "question": "In an arithmetic sequence, the 4th term is 23 and the 11th term is 72. What is the sum of the first 20 terms?",
+     "choices": [
+      "2,740",
+      "1,790",
+      "1,370",
+      "1,230"
+     ],
+     "answer": "C",
+     "explanation": "Seven steps separate the 4th and 11th terms, so the common difference is (72 − 23)/7 = 7, and the first term is 23 − 3(7) = 2. The sum of 20 terms is (20/2)[2(2) + 19(7)] = 10(137) = 1,370. The tempting 1,230 comes from counting four steps back from the 4th term instead of three, giving a first term of −5."
+    },
+    {
+     "num": 12,
+     "topic": "Preparing for Higher Math – Functions",
+     "question": "Two functions are given by the rules f(x) = x² − 4x and g(x) = x + 3. There are exactly two values of a for which f(g(a)) = 12. What is the product of those two values?",
+     "choices": [
+      "−9",
+      "−2",
+      "−15",
+      "−3"
+     ],
+     "answer": "C",
+     "explanation": "Composing gives f(g(a)) = (a + 3)² − 4(a + 3) = a² + 2a − 3. Setting that equal to 12 gives a² + 2a − 15 = 0, which factors as (a + 5)(a − 3), so a = −5 or 3 and the product is −15. The tempting −9 comes from composing in the wrong order, using g(f(a)) = a² − 4a + 3 = 12, whose roots multiply to −9."
+    },
+    {
+     "num": 13,
+     "topic": "Preparing for Higher Math – Geometry",
+     "question": "A circular fountain is modeled in the standard coordinate plane by the equation x² + y² − 12x + 8y + 27 = 0, where 1 unit represents 1 metre. To the nearest tenth of a metre, what is the circumference of the fountain?",
+     "choices": [
+      "31.4 m",
+      "55.8 m",
+      "62.8 m",
+      "78.5 m"
+     ],
+     "answer": "A",
+     "explanation": "Completing the square gives (x − 6)² + (y + 4)² = 36 + 16 − 27 = 25, so the radius is 5 m and the circumference is 2π(5) ≈ 31.4 m. The tempting 78.5 is the area, π(5²), rather than the circumference. The value 55.8 comes from adding the constant 27 instead of subtracting it when completing the square, giving a radius of about 8.9."
+    },
+    {
+     "num": 14,
+     "topic": "Preparing for Higher Math – Geometry",
+     "question": "Two straight trails leave a ranger station, forming a 68° angle with each other. One hiker walks 12 km along one trail, and a second hiker walks 17 km along the other. To the nearest tenth of a kilometre, how far apart are the two hikers? (cos 68° ≈ 0.3746, sin 68° ≈ 0.9272)",
+     "choices": [
+      "20.8 km",
+      "24.2 km",
+      "7.4 km",
+      "16.7 km"
+     ],
+     "answer": "D",
+     "explanation": "By the law of cosines, the distance squared is 12² + 17² − 2(12)(17)cos 68° = 433 − 408(0.3746) ≈ 280.2, so the distance is about 16.7 km. The tempting 20.8 is √433, which treats the 68° angle as if it were a right angle and applies the Pythagorean theorem. Adding rather than subtracting the cosine term gives about 24.2."
+    },
+    {
+     "num": 15,
+     "topic": "Preparing for Higher Math – Geometry",
+     "question": "In triangle PQR, the measure of angle P is 38°, the measure of angle Q is 74°, and side PQ is 15 cm long. To the nearest tenth of a centimetre, how long is side QR? (sin 38° ≈ 0.6157, sin 68° ≈ 0.9272, sin 74° ≈ 0.9613)",
+     "choices": [
+      "9.6 cm",
+      "10.0 cm",
+      "22.6 cm",
+      "15.6 cm"
+     ],
+     "answer": "B",
+     "explanation": "Angle R measures 180° − 38° − 74° = 68°, and side PQ lies opposite angle R. The law of sines gives QR/sin P = PQ/sin R, so QR = 15(0.6157)/0.9272 ≈ 10.0 cm. The tempting 15.6 is the length of side PR, which lies opposite angle Q; it answers for the wrong side. Using sin 74° in the denominator instead of sin 68° gives about 9.6."
+    },
+    {
+     "num": 16,
+     "topic": "Preparing for Higher Math – Geometry",
+     "question": "A cone-shaped paper cup with a radius of 6 cm and a depth of 8 cm is filled to the brim with water. All of the water is then poured into an empty cylindrical jar with a radius of 4 cm. How deep is the water in the jar?",
+     "choices": [
+      "24.0 cm",
+      "6.0 cm",
+      "18.0 cm",
+      "7.5 cm"
+     ],
+     "answer": "B",
+     "explanation": "The cone holds (1/3)π(6²)(8) = 96π cubic centimetres. In the jar that volume fills π(4²)h, so 16h = 96 and h = 6.0 cm. The tempting 18.0 comes from omitting the factor of 1/3 in the cone volume, treating the cone as a cylinder. The value 24.0 comes from dividing the volume by π(4) instead of π(4²), using the radius in place of its square."
+    },
+    {
+     "num": 17,
+     "topic": "Preparing for Higher Math – Geometry",
+     "question": "A landscape designer lays out an elliptical garden bed modeled by (x²)/49 + (y²)/25 = 1, where 1 unit represents 1 metre. Two lamps are to be placed at the foci of the ellipse. To the nearest tenth of a metre, how far apart are the lamps?",
+     "choices": [
+      "17.2 m",
+      "9.8 m",
+      "4.9 m",
+      "4.0 m"
+     ],
+     "answer": "B",
+     "explanation": "For this ellipse a² = 49 and b² = 25, so c² = 49 − 25 = 24 and c ≈ 4.899. The foci sit on opposite sides of the centre, so they are 2c ≈ 9.8 m apart. The tempting 4.9 is the distance from the centre to one focus, not the distance between the two lamps. Adding instead of subtracting, c² = 74, gives about 17.2."
+    },
+    {
+     "num": 18,
+     "topic": "Preparing for Higher Math – Statistics & Probability",
+     "question": "A club has 7 women and 5 men. A 4-person committee will be chosen at random from the club, and it must include at least 2 women. How many different committees satisfy this requirement?",
+     "choices": [
+      "385",
+      "420",
+      "495",
+      "210"
+     ],
+     "answer": "B",
+     "explanation": "Count by cases: 2 women and 2 men gives 21 × 10 = 210; 3 women and 1 man gives 35 × 5 = 175; 4 women gives 35. The total is 210 + 175 + 35 = 420. The tempting 385 leaves out the all-women case, and 495 is the number of unrestricted 4-person committees, C(12,4), which ignores the at-least-2-women requirement entirely."
+    },
+    {
+     "num": 19,
+     "topic": "Preparing for Higher Math – Statistics & Probability",
+     "question": "A grocer buys crates of berries for $5.00 each. Records show that 20% of crates spoil and bring in nothing, 50% sell for $12.00 each, and the remaining 30% sell at a discount for $8.00 each. What is the grocer's expected profit per crate purchased?",
+     "choices": [
+      "$5.00",
+      "$8.40",
+      "$4.40",
+      "$3.40"
+     ],
+     "answer": "D",
+     "explanation": "Expected revenue per crate is 0.20(0) + 0.50(12) + 0.30(8) = $8.40. Every crate costs $5.00 whether it sells or not, so expected profit is 8.40 − 5.00 = $3.40. The tempting $4.40 comes from subtracting the cost only from crates that sell, 0.50(7) + 0.30(3), which forgets that the grocer also pays for the crates that spoil."
+    },
+    {
+     "num": 20,
+     "topic": "Preparing for Higher Math – Statistics & Probability",
+     "question": "At a clinic, 40% of patients take a certain medication. Among patients who take it, 12% report headaches; among patients who do not take it, 3% report headaches. One patient is selected at random from those who report headaches. To the nearest hundredth, what is the probability that this patient takes the medication?",
+     "choices": [
+      "0.73",
+      "0.12",
+      "0.27",
+      "0.40"
+     ],
+     "answer": "A",
+     "explanation": "Of every 100 patients, 40(0.12) = 4.8 take the medication and report headaches, while 60(0.03) = 1.8 do not take it and report headaches. Among the 6.6 headache reporters, the share taking the medication is 4.8/6.6 ≈ 0.73. The tempting 0.12 is the probability of a headache given the medication, which reverses the condition the question asks about."
+    },
+    {
+     "num": 21,
+     "topic": "Integrating Essential Skills",
+     "question": "A store marks up each jacket 60% above its own cost, later advertises it at 25% off the marked price, and at the register takes an extra 10% off the advertised sale price. A customer pays $162.00 for a jacket before tax. What was the store's cost for that jacket?",
+     "choices": [
+      "$135.00",
+      "$129.60",
+      "$155.77",
+      "$150.00"
+     ],
+     "answer": "D",
+     "explanation": "The register price is cost × 1.60 × 0.75 × 0.90 = cost × 1.08, so the cost is 162.00 ÷ 1.08 = $150.00. The tempting $155.77 comes from combining the two discounts into a single 35% off, dividing by 1.60 × 0.65; successive percent discounts multiply rather than add. Dividing by only 1.60 × 0.75 forgets the register discount and gives $135.00."
+    },
+    {
+     "num": 22,
+     "topic": "Integrating Essential Skills",
+     "question": "A pump fills an empty 4,500-gallon tank in 50 minutes when the tank's drain is closed. The drain, when open, removes water at a constant 30 gallons per minute. If the pump runs while the drain is left open, how long does it take to fill the empty tank?",
+     "choices": [
+      "50 minutes",
+      "37.5 minutes",
+      "150 minutes",
+      "75 minutes"
+     ],
+     "answer": "D",
+     "explanation": "The pump adds 4,500 ÷ 50 = 90 gallons per minute, and the drain removes 30, so the tank gains a net 60 gallons per minute. Filling 4,500 gallons takes 4,500 ÷ 60 = 75 minutes. The tempting 37.5 minutes comes from adding the two rates to get 120 gallons per minute; the drain opposes the pump, so its rate must be subtracted, not added."
+    },
+    {
+     "num": 23,
+     "topic": "Integrating Essential Skills",
+     "question": "On a map, 1 cm represents 2.5 km. A rectangular nature reserve appears on the map as a rectangle measuring 6.4 cm by 4.0 cm. What is the actual area of the reserve?",
+     "choices": [
+      "4.1 km²",
+      "25.6 km²",
+      "160 km²",
+      "64 km²"
+     ],
+     "answer": "C",
+     "explanation": "The actual sides are 6.4(2.5) = 16 km and 4.0(2.5) = 10 km, so the area is 16 × 10 = 160 km². The tempting 64 km² comes from finding the map area, 25.6 cm², and multiplying by the scale factor once; because area involves two dimensions, the map area must be multiplied by 2.5², or 6.25, to give 160."
+    },
+    {
+     "num": 24,
+     "topic": "Integrating Essential Skills",
+     "question": "A technician logged 12 repairs that averaged 84 minutes each. She then logged n more repairs that averaged 72 minutes each, and the average time for all of the repairs together was 80 minutes. What is n?",
+     "choices": [
+      "18",
+      "24",
+      "12",
+      "6"
+     ],
+     "answer": "D",
+     "explanation": "Total minutes are 12(84) + 72n, over 12 + n repairs: (1,008 + 72n)/(12 + n) = 80 gives 1,008 + 72n = 960 + 80n, so 8n = 48 and n = 6. The tempting 24 comes from setting up the balance ratio upside down, using 12 × 8/4 instead of 12 × 4/8; the group farther from the overall average must be the smaller group."
+    },
+    {
+     "num": 25,
+     "topic": "Integrating Essential Skills",
+     "question": "A room measures 14 ft by 18 ft and has 9-ft-high walls. A painter will give the four walls two coats of paint, but 120 square feet of doors and windows will not be painted. One gallon of the paint covers 350 square feet for a single coat, and the paint is sold only in whole gallons. What is the least number of gallons the painter must buy?",
+     "choices": [
+      "3 gallons",
+      "4 gallons",
+      "5 gallons",
+      "2 gallons"
+     ],
+     "answer": "A",
+     "explanation": "The wall area is 2(14 + 18)(9) = 576 square feet; removing the openings leaves 456. Two coats need 912 square feet of coverage, and 912 ÷ 350 ≈ 2.6, so 3 whole gallons are required. The tempting 2 gallons comes from painting a single coat, 456 ÷ 350 ≈ 1.3; the tempting 4 comes from forgetting to subtract the 120 square feet of openings."
+    }
+   ]
+  }
+ ]
+}

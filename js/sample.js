@@ -30,13 +30,17 @@
   }
 
   function run(book, allBooks, data) {
-    // 10% of one full test, floor of 5 so small tests still feel substantial.
+    // Preferred: the curated free set — 25 original, tough questions written for this sample
+    // (data/free/<bank>.json). They are not in the book or the owners' online tests.
+    // Fallback (no free set yet): 10% of test 1, floor of 5.
+    var isFreeSet = !!data.free;
     var t1 = (data.tests || []).find(function (t) { return t.testNum === 1; }) || (data.tests || [])[0];
     if (!t1 || !t1.questions || !t1.questions.length) { fail('This sample is not available yet.'); return; }
-    var count = Math.max(5, Math.ceil(t1.questions.length * 0.1));
+    var count = isFreeSet ? t1.questions.length : Math.max(5, Math.ceil(t1.questions.length * 0.1));
     var QUESTIONS = pickEvenly(t1.questions, count).map(function (q) {
-      return { q: q.question, choices: q.choices, answer: q.answer, explanation: q.explanation };
+      return { q: q.question, choices: q.choices, answer: q.answer, explanation: q.explanation, topic: q.topic || '', image: q.image || '', imageAlt: q.image_alt || 'Question figure' };
     });
+    var missed = {};
 
     var exam = book.shortName || book.title;
     var totalQ = (book.totalQuestions || 0).toLocaleString();
@@ -46,9 +50,11 @@
       '<section class="lp-quiz-section">' +
         '<div class="lp-quiz-wrap">' +
           '<div class="lp-section-head" style="margin-bottom:2rem;">' +
-            '<div class="eyebrow">Free Sample &middot; No Signup</div>' +
-            '<h2>Try ' + QUESTIONS.length + ' Real ' + esc(exam) + ' Questions</h2>' +
-            '<p>Straight from the ' + esc(book.title) + ' question bank. Answer each one and see the step-by-step explanation instantly.</p>' +
+            '<div class="eyebrow">Free &middot; No email &middot; No signup</div>' +
+            '<h2>' + QUESTIONS.length + (isFreeSet ? ' Tough ' : ' ') + esc(exam) + ' Questions</h2>' +
+            '<p>' + (isFreeSet
+              ? 'Written for this free sample at the hard end of the real exam — they are not in the book or in the owners&rsquo; online tests. Answer each one and see the full explanation straight away.'
+              : 'Answer each one and see the step-by-step explanation instantly.') + '</p>' +
           '</div>' +
           '<div class="lp-quiz-frame">' +
             '<div class="lp-quiz-top">' +
@@ -74,6 +80,22 @@
       body.innerHTML = '<div class="lp-qnum">Question ' + (idx + 1) + ' of ' + QUESTIONS.length + '</div>' +
         '<div class="lp-question"></div><div id="lpChoices"></div><div id="lpAfter"></div>';
       body.querySelector('.lp-question').textContent = q.q;
+      if (q.image) {
+        var fig = document.createElement('figure');
+        fig.style.cssText = 'margin:0 0 1.25rem;padding:.75rem;background:#fff;border:1px solid #DADFE5;border-radius:10px;text-align:center';
+        var im = document.createElement('img');
+        im.src = q.image; im.alt = q.imageAlt; im.style.cssText = 'max-width:100%;height:auto;max-height:340px';
+        var zoom = document.createElement('a');   // small labels are hard to read on a phone
+        zoom.href = q.image; zoom.target = '_blank'; zoom.rel = 'noopener';
+        zoom.setAttribute('aria-label', 'Open the figure at full size');
+        zoom.appendChild(im);
+        fig.appendChild(zoom);
+        var cap = document.createElement('figcaption');
+        cap.textContent = 'Tap the figure to enlarge';
+        cap.style.cssText = 'font-size:.75rem;color:#526176;margin-top:.4rem';
+        fig.appendChild(cap);
+        body.querySelector('.lp-question').insertAdjacentElement('afterend', fig);
+      }
       var wrap = document.getElementById('lpChoices');
       q.choices.forEach(function (c, i) {
         var btn = document.createElement('button');
@@ -93,7 +115,7 @@
       var btns = body.querySelectorAll('.lp-choice');
       btns.forEach(function (b) { b.disabled = true; });
       if (correctIdx >= 0 && btns[correctIdx]) btns[correctIdx].classList.add('correct');
-      if (i === correctIdx) { score++; } else { btn.classList.add('wrong'); }
+      if (i === correctIdx) { score++; } else { btn.classList.add('wrong'); if (q.topic) missed[q.topic] = (missed[q.topic] || 0) + 1; }
       var after = document.getElementById('lpAfter');
       var explain = document.createElement('div');
       explain.className = 'lp-explain';
@@ -121,17 +143,20 @@
         '<div class="lp-result">' +
           '<div class="lp-score-ring">' + score + '<span class="of"> / ' + QUESTIONS.length + '</span></div>' +
           '<h3>You scored ' + pct + '%</h3>' +
-          '<p>' + verdict + ' Want a free ' + esc(exam) + ' study plan and launch discounts? Drop your email below.</p>' +
+          '<p>' + verdict + '</p>' +
+          (Object.keys(missed).length ? '<p style="font-size:.95rem;color:var(--gray-500)"><strong style="color:var(--navy)">Review next:</strong> ' +
+            Object.keys(missed).sort(function (a, b) { return missed[b] - missed[a]; }).slice(0, 3).map(function (t) { return esc(t) + ' (' + missed[t] + ' missed)'; }).join(' &middot; ') + '</p>' : '') +
+          '<p style="font-size:.95rem">Optional: want occasional ' + esc(exam) + ' study tips by email? Leave your address — or skip it.</p>' +
           '<form class="lp-email-form" id="lpEmailForm">' +
             '<input type="email" id="lpEmail" required placeholder="you@example.com" autocomplete="email">' +
-            '<button type="submit" class="btn">Send My Study Plan</button>' +
+            '<button type="submit" class="btn">Send me study tips</button>' +
           '</form>' +
           '<div class="lp-email-msg" id="lpEmailMsg"></div>' +
           '<div class="or">— or —</div>' +
           '<a href="#" id="lpRetry" class="btn btn-outline btn-sm" style="color:var(--navy);border-color:var(--navy);">Retake the Sample</a>' +
         '</div>';
       document.getElementById('lpRetry').addEventListener('click', function (e) {
-        e.preventDefault(); idx = 0; score = 0; render();
+        e.preventDefault(); idx = 0; score = 0; missed = {}; render();
       });
       document.getElementById('lpEmailForm').addEventListener('submit', function (e) {
         e.preventDefault();
@@ -157,7 +182,7 @@
     function showBookCta() {
       var cta = document.getElementById('lpBookCta');
       var ebook = book.payhipEbookUrl
-        ? '<a href="' + book.payhipEbookUrl + '" class="btn btn-outline" target="_blank" rel="noopener" style="color:var(--navy);border-color:var(--navy);">E-book $' + book.ebookPrice.toFixed(2) + ' <span style="opacity:.7;">(50% off)</span></a>'
+        ? '<a href="' + book.payhipEbookUrl + '" class="btn btn-outline" target="_blank" rel="noopener" style="color:var(--navy);border-color:var(--navy);">Buy the e-book</a>'
         : '';
       cta.innerHTML =
         '<div class="lp-book-cta">' +
@@ -167,9 +192,9 @@
           '<div class="lp-book-cta-body">' +
             '<div class="eyebrow">Ready for the full thing?</div>' +
             '<h2>' + esc(book.title) + '</h2>' +
-            '<p>That was a quick taste. The book unlocks <strong>' + book.testCount + ' full timed online tests &middot; ' + totalQ + ' questions</strong> with step-by-step explanations — free with every copy, no subscription.</p>' +
+            '<p>Those were the hard ones. The book unlocks <strong>' + book.testCount + ' full timed online tests &middot; ' + totalQ + ' questions</strong> with step-by-step explanations — free with every copy, no subscription.</p>' +
             '<div class="lp-book-cta-row">' +
-              '<a href="' + (book.amazonUrl || '#') + '" class="btn btn-lg" target="_blank" rel="noopener">Paperback $' + book.paperbackPrice.toFixed(2) + '</a>' +
+              '<a href="' + (book.amazonUrl || '/books/' + book.slug) + '" class="btn btn-lg"' + (book.amazonUrl ? ' target="_blank" rel="noopener"' : '') + '>' + (book.amazonUrl ? 'Buy paperback on Amazon' : 'See the book') + '</a>' +
               ebook +
             '</div>' +
             '<p class="lp-book-cta-have">Already have the book? <a href="/access?book=' + book.slug + '">Enter your access code &rarr;</a></p>' +
@@ -188,9 +213,16 @@
     var allBooks = meta.books;
     var book = allBooks.find(function (b) { return b.slug === slug; });
     if (!book || !book.published) { fail('That sample is not available.'); return; }
-    document.title = 'Free ' + (book.shortName || book.title) + ' Sample Quiz — CertPath Publishing';
+    document.title = 'Free ' + (book.shortName || book.title) + ' Practice Questions — CertPath Publishing';
     var dataSlug = book.dataSlug || book.slug;
-    return fetch('/data/' + dataSlug + '.json').then(function (r) { return r.json(); }).then(function (data) {
+    var family = book.bank || book.slug;
+    return fetch('/data/free/' + family + '.json').then(function (r) {
+      if (!r.ok) throw new Error('no free set');
+      return r.json();
+    }).catch(function () {
+      return fetch('/data/' + dataSlug + '.json').then(function (r) { return r.json(); });
+    }).then(function (data) {
+      if (data.free) document.title = '25 ' + document.title;
       run(book, allBooks, data);
     });
   }).catch(function () { fail('We could not load that sample right now.'); });

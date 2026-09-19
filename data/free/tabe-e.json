@@ -1,0 +1,338 @@
+{
+ "slug": "tabe-e-free25",
+ "title": "Free sample",
+ "free": true,
+ "note": "Original questions written for the free sample. They do not appear in the book or in the owners' online practice tests.",
+ "tests": [
+  {
+   "testNum": 1,
+   "questions": [
+    {
+     "num": 1,
+     "topic": "Addition and subtraction within 1,000",
+     "question": "A small library has 428 books on its shelves. A donation brings in 175 more books. Later that week, readers borrow 260 books. How many books are on the shelves now?",
+     "choices": [
+      "513 books",
+      "603 books",
+      "343 books",
+      "443 books"
+     ],
+     "answer": "C",
+     "explanation": "First add the donation: 428 + 175 = 603 books. Then take out the borrowed books: 603 - 260 = 343 books. The tempting wrong answer is 603 books, which stops before the borrowing step. The answer 443 comes from regrouping 1 hundred as 10 tens but forgetting to reduce the hundreds digit from 6 to 5, giving 10 - 6 = 4 in the tens place and 6 - 2 = 4 in the hundreds place."
+    },
+    {
+     "num": 2,
+     "topic": "Addition and subtraction within 1,000",
+     "question": "A school needs 500 chairs for a concert. There are 186 chairs in the gym and 245 chairs in the hall. How many more chairs does the school still need?",
+     "choices": [
+      "69 chairs",
+      "314 chairs",
+      "179 chairs",
+      "431 chairs"
+     ],
+     "answer": "A",
+     "explanation": "Add the chairs the school already has: 186 + 245 = 431. Then subtract from the goal: 500 - 431 = 69 more chairs. The tempting wrong answer is 431 chairs, which is the number on hand, not the number still needed. The answer 179 comes from incorrectly writing 186 + 245 as 321 by dropping both carries, then computing 500 - 321 = 179."
+    },
+    {
+     "num": 3,
+     "topic": "Addition and subtraction within 1,000",
+     "question": "A driver set a goal of 700 miles for two days of work. He drove 268 miles on Monday and 349 miles on Tuesday. How many miles short of his goal is he?",
+     "choices": [
+      "183 miles",
+      "83 miles",
+      "351 miles",
+      "617 miles"
+     ],
+     "answer": "B",
+     "explanation": "Add the two days: 268 + 349 = 617 miles driven. Then compare with the goal: 700 - 617 = 83 miles short. The tempting wrong answer is 617 miles, which is what he drove rather than what is missing. The answer 183 comes from forgetting the carry in the tens column, which turns the total into 517."
+    },
+    {
+     "num": 4,
+     "topic": "Multiplication and division within 100",
+     "question": "A teacher has 9 packs of markers with 6 markers in each pack. She gives 7 markers to each of 5 students. How many markers does she have left?",
+     "choices": [
+      "19 markers",
+      "24 markers",
+      "54 markers",
+      "47 markers"
+     ],
+     "answer": "A",
+     "explanation": "Find the markers she starts with: 9 x 6 = 54. Then find the markers handed out: 5 x 7 = 35. What is left is 54 - 35 = 19 markers. The tempting wrong answer is 47 markers, which gives away only 7 markers in total instead of 7 to each of the 5 students. The answer 24 comes from multiplying 5 x 6 by mistake."
+    },
+    {
+     "num": 5,
+     "topic": "Multiplication and division within 100",
+     "question": "A teacher sorts 72 crayons into 8 boxes with the same number of crayons in each box. She then gives 3 of the boxes to another class. How many crayons does she give away?",
+     "choices": [
+      "63 crayons",
+      "24 crayons",
+      "27 crayons",
+      "9 crayons"
+     ],
+     "answer": "C",
+     "explanation": "Each box gets 72 / 8 = 9 crayons. Giving away 3 boxes means giving 3 x 9 = 27 crayons. The tempting wrong answer is 9 crayons, which is one box rather than the three she hands over. The answer 24 comes from dividing 72 by the 3 boxes given away instead of by the 8 boxes she filled, and 63 counts only one box leaving."
+    },
+    {
+     "num": 6,
+     "topic": "Multiplication and division within 100",
+     "question": "A club receives 36 new folding chairs and shares them equally among its 4 meeting rooms. Each room already had 2 chairs of its own. How many chairs does each room have now?",
+     "choices": [
+      "18 chairs",
+      "11 chairs",
+      "9 chairs",
+      "44 chairs"
+     ],
+     "answer": "B",
+     "explanation": "Share the new chairs: 36 / 4 = 9 for each room. Adding the 2 chairs each room already had gives 9 + 2 = 11 chairs. The tempting wrong answer is 9 chairs, which counts only the new chairs and forgets the ones already there. The answer 44 is the total for all four rooms, and 18 comes from dividing 36 by 2 instead of by 4."
+    },
+    {
+     "num": 7,
+     "topic": "Multiplication and division within 100",
+     "question": "Mia read 7 pages every day for 8 days. Leo read 9 pages every day for 5 days. How many more pages did Mia read than Leo?",
+     "choices": [
+      "101 pages",
+      "3 pages",
+      "56 pages",
+      "11 pages"
+     ],
+     "answer": "D",
+     "explanation": "Mia read 7 x 8 = 56 pages and Leo read 9 x 5 = 45 pages. The difference is 56 - 45 = 11 pages. The tempting wrong answer is 3 pages, which compares the number of days (8 and 5) instead of the pages read. The answer 101 pages comes from adding the two totals instead of subtracting, and 56 is just Mia's total."
+    },
+    {
+     "num": 8,
+     "topic": "Multiplication and division within 100",
+     "question": "A gardener plants 8 rows with 7 plants in each row. Deer eat 9 of the plants. The gardener then plants 4 new ones. How many plants are in the garden now?",
+     "choices": [
+      "47 plants",
+      "43 plants",
+      "61 plants",
+      "51 plants"
+     ],
+     "answer": "D",
+     "explanation": "Start with 8 x 7 = 56 plants. The deer take 9 away: 56 - 9 = 47. Then 4 are added back: 47 + 4 = 51 plants. The tempting wrong answer is 47 plants, which stops before the new plants are counted. The answer 43 subtracts the 4 new plants instead of adding them. The answer 61 reverses both changes after the initial 56 plants: it adds the 9 eaten plants and subtracts the 4 newly planted, giving 56 + 9 - 4 = 61."
+    },
+    {
+     "num": 9,
+     "topic": "Place value and rounding",
+     "question": "A store sold 348 bottles of water on Saturday and 275 bottles on Sunday. Round each day's count to the nearest ten, then add the two rounded numbers. What is the result?",
+     "choices": [
+      "620 bottles",
+      "630 bottles",
+      "623 bottles",
+      "600 bottles"
+     ],
+     "answer": "B",
+     "explanation": "Round each number first: 348 is between 340 and 350 and is closer to 350, and 275 is halfway, so it rounds up to 280. Adding gives 350 + 280 = 630 bottles. The tempting wrong answer is 623 bottles, the exact total, which skips the rounding the question asks for. The answer 600 rounds to the nearest hundred instead of the nearest ten."
+    },
+    {
+     "num": 10,
+     "topic": "Place value and rounding",
+     "question": "A clerk rounds the number of tickets sold to the nearest ten and writes 700. Which of these could be the exact number of tickets sold?",
+     "choices": [
+      "703 tickets",
+      "694 tickets",
+      "706 tickets",
+      "712 tickets"
+     ],
+     "answer": "A",
+     "explanation": "Rounding to the nearest ten keeps only numbers from 695 through 704, and 703 is in that group because its ones digit is 3, so it rounds down to 700. The tempting wrong answers are 694, 706, and 712, which all round to 700 when rounding to the nearest hundred but round to 690, 710, and 710 when rounding to the nearest ten."
+    },
+    {
+     "num": 11,
+     "topic": "Fractions",
+     "question": "A cake is cut into 8 equal pieces. Two friends each eat one piece. Then one more piece is carried to a neighbor. What fraction of the cake is left?",
+     "choices": [
+      "7/8",
+      "5/8",
+      "3/8",
+      "6/8"
+     ],
+     "answer": "B",
+     "explanation": "Three pieces leave the cake: one for each friend and one for the neighbor. That leaves 8 - 3 = 5 pieces out of 8, or 5/8 of the cake. The tempting wrong answer is 3/8, which is the part that was taken rather than the part left. The answer 6/8 counts the two friends as one piece, and 7/8 counts only a single piece leaving."
+    },
+    {
+     "num": 12,
+     "topic": "Fractions",
+     "question": "Two pans of cornbread are exactly the same size. One pan is cut into 4 equal pieces. The other pan is cut into 6 equal pieces. Sam takes one piece from each pan. Which piece is larger, and why?",
+     "choices": [
+      "Neither, because Sam took exactly one piece from each of the two pans",
+      "The piece from the pan cut into 6, because more pieces means more cornbread",
+      "The piece from the pan cut into 6, because 6 is a larger number than 4",
+      "The piece from the pan cut into 4, because fewer equal pieces from the same pan makes each piece larger"
+     ],
+     "answer": "D",
+     "explanation": "The two pans are the same size, so cutting one into fewer pieces makes each piece bigger. One fourth of a pan is larger than one sixth of the same pan. The tempting wrong answer says the pan cut into 6 gives the larger piece because 6 is the larger number, which compares the counting numbers instead of the size of the pieces."
+    },
+    {
+     "num": 13,
+     "topic": "Fractions",
+     "question": "A craft bag holds 24 beads. Exactly 1/4 of the beads are red and the rest are blue. How many blue beads are in the bag?",
+     "choices": [
+      "6 beads",
+      "20 beads",
+      "18 beads",
+      "12 beads"
+     ],
+     "answer": "C",
+     "explanation": "One fourth of 24 is 24 / 4 = 6 red beads. The blue beads are the rest: 24 - 6 = 18. The tempting wrong answer is 6 beads, which counts the red beads instead of the blue ones. The answer 20 comes from subtracting the 4 in the fraction from 24, and 12 comes from splitting the bag in half."
+    },
+    {
+     "num": 14,
+     "topic": "Time and elapsed time",
+     "question": "A bus leaves the stop at 10:45 a.m. The ride takes 50 minutes. The rider then waits 20 minutes for a second bus. At what time does the second bus leave?",
+     "choices": [
+      "11:55 a.m.",
+      "12:05 p.m.",
+      "11:35 a.m.",
+      "11:15 a.m."
+     ],
+     "answer": "A",
+     "explanation": "Add the ride first: 10:45 plus 50 minutes is 11:35 a.m. Then add the 20-minute wait: 11:35 plus 20 minutes is 11:55 a.m. The tempting wrong answer is 11:35 a.m., which stops after the bus ride and leaves out the wait. The answer 11:15 a.m. comes from treating 45 + 70 = 115 minutes as one hour and 15 minutes past 10:00."
+    },
+    {
+     "num": 15,
+     "topic": "Time and elapsed time",
+     "question": "A movie ends at 4:20 p.m. The movie ran for 1 hour and 45 minutes, with no break. At what time did the movie start?",
+     "choices": [
+      "2:35 p.m.",
+      "2:45 p.m.",
+      "3:35 p.m.",
+      "3:25 p.m."
+     ],
+     "answer": "A",
+     "explanation": "Go back 1 hour from 4:20 p.m. to 3:20 p.m., then back 45 more minutes. Since 3:20 is only 20 minutes past 3:00, going back 45 minutes lands at 2:35 p.m. The tempting wrong answer is 3:35 p.m., which takes away only the 45 minutes and forgets the hour. The answer 3:25 p.m. comes from doing 45 - 20 instead of regrouping an hour into minutes."
+    },
+    {
+     "num": 16,
+     "topic": "Time and elapsed time",
+     "question": "A class starts at 9:00 a.m. with three lessons of 25 minutes each. There is a 10-minute break after the first lesson and another after the second lesson. There is no break after the third lesson. At what time does the third lesson end?",
+     "choices": [
+      "10:15 a.m.",
+      "10:25 a.m.",
+      "10:35 a.m.",
+      "10:45 a.m."
+     ],
+     "answer": "C",
+     "explanation": "The lessons take 3 x 25 = 75 minutes and the two breaks add 2 x 10 = 20 minutes, for 95 minutes in all. That is 1 hour 35 minutes after 9:00, so the third lesson ends at 10:35 a.m. The tempting wrong answer is 10:45 a.m., which counts a third break that does not happen. The answer 10:15 a.m. leaves the breaks out entirely."
+    },
+    {
+     "num": 17,
+     "topic": "Perimeter and area",
+     "question": "A rectangular rug covers 48 square feet of floor. One side of the rug measures 6 feet. The owner wants to sew trim all the way around the edge of the rug. How many feet of trim are needed?",
+     "choices": [
+      "14 feet",
+      "54 feet",
+      "96 feet",
+      "28 feet"
+     ],
+     "answer": "D",
+     "explanation": "The missing side is 48 / 6 = 8 feet, because 6 x 8 = 48. The distance around is 6 + 8 + 6 + 8 = 28 feet of trim. The tempting wrong answer is 14 feet, which adds one length and one width and covers only half the way around. The answer 96 feet doubles the 48 square feet, using the area where the distance around belongs."
+    },
+    {
+     "num": 18,
+     "topic": "Measurement",
+     "question": "Three jugs sit on a counter. One holds 480 milliliters of broth, one holds 408 milliliters, and one holds 540 milliliters. A cook pours the jug holding the least and the jug holding the most into one pot. How many milliliters of broth are in the pot?",
+     "choices": [
+      "948 milliliters",
+      "132 milliliters",
+      "888 milliliters",
+      "1,020 milliliters"
+     ],
+     "answer": "A",
+     "explanation": "Order the three amounts by place value: 408 is the least and 540 is the most, because 4 hundreds is less than 5 hundreds and 408 has fewer tens than 480. Adding those two gives 408 + 540 = 948 milliliters. The tempting wrong answer is 888 milliliters, which picks 408 and 480 as the least and the most by reading only the last two digits."
+    },
+    {
+     "num": 19,
+     "topic": "Addition and subtraction within 1,000",
+     "question": "A theater has 650 seats. On Friday 418 seats were filled. On Saturday 96 more seats were filled than on Friday. How many seats were empty on Saturday?",
+     "choices": [
+      "232 seats",
+      "514 seats",
+      "146 seats",
+      "136 seats"
+     ],
+     "answer": "D",
+     "explanation": "Saturday's filled seats are 418 + 96 = 514. The empty seats are 650 - 514 = 136. The tempting wrong answer is 514 seats, which is how many were filled rather than how many stayed empty. The answer 232 uses Friday's count and skips the 96 extra seats, and 146 comes from subtracting the tens without regrouping."
+    },
+    {
+     "num": 20,
+     "topic": "Measurement",
+     "question": "A roll holds 250 centimeters of ribbon. Ana cuts 3 pieces from the roll, and each piece is 40 centimeters long. How many centimeters of ribbon are left on the roll?",
+     "choices": [
+      "210 centimeters",
+      "238 centimeters",
+      "90 centimeters",
+      "130 centimeters"
+     ],
+     "answer": "D",
+     "explanation": "The three pieces use 3 x 40 = 120 centimeters. What is left on the roll is 250 - 120 = 130 centimeters. The tempting wrong answer is 210 centimeters, which takes off only one 40-centimeter piece. The answer 238 comes from multiplying 3 x 4 and forgetting the zero, and 90 comes from cutting a fourth piece that was never mentioned."
+    },
+    {
+     "num": 21,
+     "topic": "Measurement",
+     "question": "A box of screws has a mass of 750 grams. A worker takes out 6 packs of screws, and each pack has a mass of 60 grams. What is the mass of the screws left in the box?",
+     "choices": [
+      "714 grams",
+      "390 grams",
+      "330 grams",
+      "690 grams"
+     ],
+     "answer": "B",
+     "explanation": "The packs removed have a mass of 6 x 60 = 360 grams. The box still holds 750 - 360 = 390 grams. The tempting wrong answer is 690 grams, which removes just one 60-gram pack instead of all six. The answer 714 grams comes from multiplying 6 x 6 and losing the zero, and 330 grams removes a seventh pack."
+    },
+    {
+     "num": 22,
+     "topic": "Perimeter and area",
+     "question": "A garden bed is a rectangle 9 feet long and 4 feet wide. A gardener lays wooden edging all the way around the bed. Each piece of edging is 2 feet long and the pieces are laid end to end. How many pieces of edging does the gardener need?",
+     "choices": [
+      "26 pieces",
+      "52 pieces",
+      "13 pieces",
+      "18 pieces"
+     ],
+     "answer": "C",
+     "explanation": "The distance around the bed is 9 + 4 + 9 + 4 = 26 feet. Each piece covers 2 feet, so the gardener needs 26 / 2 = 13 pieces. The tempting wrong answer is 26 pieces, which lays one piece for every foot and ignores that a piece covers 2 feet. The answer 18 pieces uses the area, 9 x 4 = 36 square feet, in place of the distance around."
+    },
+    {
+     "num": 23,
+     "topic": "Perimeter and area",
+     "question": "A room floor is a rectangle 8 feet by 6 feet. A square mat that measures 3 feet on each side lies flat on the floor. How much of the floor is not covered by the mat?",
+     "choices": [
+      "36 square feet",
+      "57 square feet",
+      "39 square feet",
+      "48 square feet"
+     ],
+     "answer": "C",
+     "explanation": "The floor covers 8 x 6 = 48 square feet and the mat covers 3 x 3 = 9 square feet. The uncovered part is 48 - 9 = 39 square feet. The tempting wrong answer is 36 square feet, which subtracts 12, the distance around the mat, instead of the 9 square feet the mat covers. The answer 57 adds the two areas."
+    },
+    {
+     "num": 24,
+     "topic": "Data in graphs",
+     "question": "A picture graph shows how many books each room read. A whole book symbol stands for 5 books. The Oak Room row shows 7 symbols, the Pine Room row shows 4 symbols, and the Elm Room row shows 6 symbols. How many more books did the Oak Room read than the Pine Room?",
+     "choices": [
+      "3 books",
+      "15 books",
+      "55 books",
+      "35 books"
+     ],
+     "answer": "B",
+     "explanation": "Use the scale first: the Oak Room read 7 x 5 = 35 books and the Pine Room read 4 x 5 = 20 books. The difference is 35 - 20 = 15 books. The tempting wrong answer is 3 books, which subtracts the symbols and forgets that one symbol stands for 5 books. The answer 35 books is the Oak Room's total, and 55 adds the two rooms."
+    },
+    {
+     "num": 25,
+     "topic": "Shapes and attributes",
+     "question": "A floor tile has 4 straight sides. All 4 sides are the same length, and all 4 corners are square corners. Which description fits this tile?",
+     "choices": [
+      "It is a square, so it is also a rectangle and a rhombus",
+      "It is a rectangle, but it cannot be called a rhombus",
+      "It is a rhombus, but it cannot be called a rectangle",
+      "It is a parallelogram, but it cannot have square corners"
+     ],
+     "answer": "A",
+     "explanation": "Four equal sides and four square corners describe a square. A square fits inside the larger groups as well: it is a rectangle because all its corners are square corners, and it is a rhombus because all four sides are equal. The tempting wrong answers split those groups apart, saying the tile can be only one of them when a square belongs to both."
+    }
+   ]
+  }
+ ]
+}

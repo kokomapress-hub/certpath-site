@@ -9,3 +9,4 @@ data/*.pre-typeset
 img/photo/_source/
 REVAMP_NOTES.md
 private/
+audit-packets/

@@ -1,0 +1,338 @@
+{
+ "slug": "cnor-free25",
+ "title": "Free sample",
+ "free": true,
+ "note": "Original questions written for the free sample. They do not appear in the book or in the owners' online practice tests.",
+ "tests": [
+  {
+   "testNum": 1,
+   "questions": [
+    {
+     "num": 1,
+     "topic": "Preoperative patient assessment and diagnosis",
+     "question": "During the preoperative assessment for an open abdominal procedure, the circulating nurse learns that the patient has an implanted cardioverter defibrillator. The surgeon plans to use monopolar electrosurgery, and no device management plan appears in the record. Which action best protects this patient?",
+     "choices": [
+      "Obtain a device management plan and route the current path away from the generator",
+      "Proceed with monopolar electrosurgery and watch the monitor for rhythm changes",
+      "Place a magnet over the generator before induction as a routine precaution",
+      "Position the dispersive electrode on the shoulder nearest the operative site"
+     ],
+     "answer": "A",
+     "explanation": "An implanted defibrillator can misread electrosurgical energy as a dysrhythmia and deliver a shock, so the team needs a documented plan for the device and a return electrode sited so the current travels away from the generator and leads. A magnet is not a universal answer; its effect depends on the device and how it is programmed. Monitoring alone leaves the hazard untouched, and a shoulder electrode drags the current across the chest."
+    },
+    {
+     "num": 2,
+     "topic": "Preoperative patient assessment and diagnosis",
+     "question": "In the holding area before a knee arthroscopy the consent reads right knee and the patient says the right knee has been painful for months. The surgeon's office note and the magnetic resonance report both describe a left meniscal tear. The surgeon is scrubbing for the previous case and the site has not been marked. Which action is correct?",
+     "choices": [
+      "Mark the right knee, since the patient is the most reliable source of the history",
+      "Have the consent corrected to the left knee to match the imaging, then proceed",
+      "Send the patient to the room and ask the surgeon to resolve it before incision",
+      "Stop the process until the surgeon reconciles the documents with the patient"
+     ],
+     "answer": "D",
+     "explanation": "A disagreement between the consent, the clinical notes and the imaging is exactly the pattern that precedes wrong-site surgery, and it is resolved by the surgeon with the patient before marking or moving the patient. Marking what the patient says is the tempting response because patient involvement is required, but agreement with one source does not reconcile the conflict. Deferring it to the room removes the last chance to stop safely."
+    },
+    {
+     "num": 3,
+     "topic": "Postoperative patient assessment",
+     "question": "After a five-hour robotic pelvic procedure in steep head-down position, a patient in the recovery area has marked facial and conjunctival swelling and says vision in one eye is blurred and dim. The pupils are equal and the patient is otherwise alert and comfortable. Which action is most appropriate?",
+     "choices": [
+      "Record it as an expected positioning effect and reassess before discharge",
+      "Reassure the patient that swelling and blurring are expected after this position",
+      "Apply cold compresses to the eyes and raise the head of the bed for comfort",
+      "Report the visual change urgently as a possible perioperative eye injury"
+     ],
+     "answer": "D",
+     "explanation": "Facial and conjunctival oedema is indeed expected after prolonged steep head-down positioning, but a change in vision is not, and perioperative visual loss needs urgent evaluation because the window for intervention is short. Reassurance is the tempting response precisely because the swelling explains so much of the picture, and it turns a reportable finding into a routine one. Comfort measures may follow the report."
+    },
+    {
+     "num": 4,
+     "topic": "Individualized plan of care and expected outcomes",
+     "question": "A thin 78-year-old is scheduled for a three-hour open abdominal procedure under general anaesthesia. The plan of care names normothermia at the end of the procedure as an expected outcome. Which intervention best supports that outcome?",
+     "choices": [
+      "Warm the irrigation fluids and leave other warming measures to anaesthesia",
+      "Start forced-air warming before induction and continue it through the case",
+      "Apply warmed cotton blankets as soon as the procedure has been completed",
+      "Raise the room temperature once the patient has been prepped and draped"
+     ],
+     "answer": "B",
+     "explanation": "Most heat is lost in the first hour, when anaesthesia redistributes warm blood from the core to the periphery, so warming that begins before induction prevents the drop rather than chasing it. Warmed irrigation and a higher room temperature are genuine adjuncts and are tempting because they are used in every long case, but neither prevents redistribution, and blankets applied at the end treat hypothermia that has already occurred."
+    },
+    {
+     "num": 5,
+     "topic": "Intraoperative activities - positioning",
+     "question": "A patient is positioned in the lateral decubitus position for a thoracotomy. The circulating nurse checks the position before prepping and finds that the roll placed to support the chest lies directly in the axilla, pressed against the dependent shoulder. Which action should the nurse take?",
+     "choices": [
+      "Pad between the knees and secure the legs with the safety strap",
+      "Support the dependent arm on a padded board at ninety degrees",
+      "Increase the table flexion so that exposure of the chest improves",
+      "Move the roll caudal to the axilla so the vessels and nerves are free"
+     ],
+     "answer": "D",
+     "explanation": "A support roll belongs below the axilla, on the chest wall, so it lifts the thorax off the table; placed inside the axilla it compresses the brachial plexus and axillary vessels against the humeral head and can cause a lasting nerve injury. Padding the knees and supporting the arm are both correct parts of this position and are tempting for that reason, but neither relieves the compression that is present now."
+    },
+    {
+     "num": 6,
+     "topic": "Intraoperative activities - surgical counts",
+     "question": "At the start of fascial closure the closing sponge count is off by one. The surgeon says the count must be wrong because nothing has been placed in the wound and wants to complete the closure. A search of the field, drapes, floor and trash has not found the sponge. Which action is correct?",
+     "choices": [
+      "Pause closure for a repeat count and search, then image if still unresolved",
+      "Record the count as incorrect and allow the closure to continue as planned",
+      "Arrange for a radiograph to be taken in the recovery area after the case",
+      "Repeat the count after the drapes are removed and the patient is moved"
+     ],
+     "answer": "A",
+     "explanation": "An unresolved count discrepancy is treated as a possible retained item: closure pauses, the count and a systematic search are repeated, and if the item is still not found an intraoperative radiograph is obtained before final closure when the patient's condition permits. Deferring the film to recovery is the tempting compromise that keeps the case moving, and it means closing over a possible retained sponge and a second procedure to retrieve it."
+    },
+    {
+     "num": 7,
+     "topic": "Intraoperative activities - retained item prevention",
+     "question": "During a difficult liver resection the surgeon intentionally leaves two laparotomy sponges packed in the abdomen and states the patient will return to theatre in 24 hours. The abdomen is temporarily closed. Which action by the circulating nurse is correct?",
+     "choices": [
+      "Remove the packed sponges from the count sheet so the totals reconcile",
+      "Record the count as incorrect and request a radiograph before transfer",
+      "Record the number and location of retained sponges and report them at handover",
+      "Note the packing in the nursing notes and reconcile it at the next case"
+     ],
+     "answer": "C",
+     "explanation": "Intentionally retained packing is documented by number and location, communicated in the handover and carried forward so that every sponge is accounted for at the definitive closure. Removing them from the count sheet makes the totals look tidy and destroys the trail that prevents a truly retained item. Calling the count incorrect mislabels a deliberate decision and triggers an unnecessary search and film."
+    },
+    {
+     "num": 8,
+     "topic": "Intraoperative activities - specimen handling",
+     "question": "During a partial nephrectomy the surgeon passes tissue for frozen section and says the margin result will decide how much more is removed. At that moment the circulating nurse is being relieved for a break and the anaesthesia professional is calling for blood. Which action by the circulating nurse is correct?",
+     "choices": [
+      "Verify the source and laterality with the surgeon and the relieving nurse",
+      "Have the scrub person confirm the details, since the surgeon is operating",
+      "Log the specimen and finish labelling it when the relieving nurse returns",
+      "Send the specimen at once so the frozen section result is not delayed"
+     ],
+     "answer": "A",
+     "explanation": "A specimen that will direct further resection must be identified correctly, and a handover in the middle of a busy case is exactly when that identification is lost, so the details are confirmed with the surgeon and passed explicitly to the nurse taking over. Rushing it to the laboratory is the tempting response to real time pressure and is how unlabelled or misidentified specimens reach pathology."
+    },
+    {
+     "num": 9,
+     "topic": "Intraoperative activities - surgical fire risk",
+     "question": "A patient having a facial lesion excised under sedation is receiving oxygen at 6 L/min by open nasal cannula under the drapes. The surgeon asks for the electrosurgical pencil to be used at the wound edge. Which action best reduces the risk of fire?",
+     "choices": [
+      "Stop the open oxygen if feasible, or reduce it below 30 percent and vent the drapes",
+      "Change to a bipolar instrument so the oxygen concentration no longer matters",
+      "Ask for the alcohol-based prep to be reapplied just before the incision",
+      "Moisten the drapes around the site and continue at the present oxygen flow"
+     ],
+     "answer": "A",
+     "explanation": "Open oxygen under drapes near the face creates an oxygen-enriched atmosphere and the electrosurgical pencil supplies ignition. Before activation the team stops open supplemental oxygen if the patient tolerates it, or reduces the concentration below 30 percent, lets accumulated oxygen dissipate and vents the drapes; a secured airway is considered if oxygenation cannot be maintained safely. Moist towels are the tempting adjunct but do not disperse the enriched pocket, and bipolar energy does not make it safe."
+    },
+    {
+     "num": 10,
+     "topic": "Intraoperative activities - electrosurgery",
+     "question": "Before a laparoscopic case the circulating nurse checks the dispersive electrode and finds it applied over the lateral thigh across an old scar, on skin with coarse hair, with two edges already lifting away. The generator has not yet been activated. Which action is correct?",
+     "choices": [
+      "Move the pad to clean, dry, hair-free skin over well-perfused muscle",
+      "Apply a second dispersive pad beside the first to increase contact area",
+      "Lower the generator power setting and leave the pad where it is now",
+      "Remove the hair and reapply the same pad over the existing scarred site"
+     ],
+     "answer": "A",
+     "explanation": "The return electrode works by spreading current over a large, uniform contact area; scar tissue is poorly vascularised and conducts badly, and hair and lifting edges shrink the effective area so heat concentrates where contact remains. Relocating the pad fixes all three. Removing the hair is the tempting partial fix because it addresses a genuine requirement while leaving the pad on scarred skin."
+    },
+    {
+     "num": 11,
+     "topic": "Intraoperative activities - pneumatic tourniquet",
+     "question": "The circulating nurse reports that the pneumatic tourniquet has been inflated for the agreed interval during a complex ankle reconstruction. The surgeon acknowledges this and asks for another twenty minutes to complete the fixation. Which action by the circulating nurse is correct?",
+     "choices": [
+      "Stop further reports now that the surgeon has acknowledged the first one",
+      "Reduce the cuff pressure slightly to lessen the pressure on the tissues",
+      "Deflate the cuff at the agreed interval whatever the surgeon decides",
+      "Document the report and the decision and keep reporting at set intervals"
+     ],
+     "answer": "D",
+     "explanation": "The surgeon weighs the risk of continued inflation against reopening a partly fixed reconstruction, and the nurse's duty is to make the elapsed time known, record the notification and the response, and keep the clock visible with continued reports. Stopping the reports once acknowledged is the tempting reading of a duty discharged. Lowering the pressure sounds gentler but produces venous congestion and a bloody field."
+    },
+    {
+     "num": 12,
+     "topic": "Intraoperative activities - medications on the sterile field",
+     "question": "Two clear solutions are on the sterile field in labelled containers: a local anaesthetic with epinephrine and heparinised saline. The scrub person who received and labelled both is being relieved for a meal break part way through the case. Which action best protects the patient?",
+     "choices": [
+      "Have the outgoing and incoming scrub persons verify each solution together",
+      "Rely on the labels, which were applied when the solutions were received",
+      "Discard both solutions and have fresh ones prepared after the handover",
+      "Ask the circulating nurse to state from memory what was passed to the field"
+     ],
+     "answer": "A",
+     "explanation": "At relief, the outgoing and incoming scrub persons should concurrently review and verify every medication and solution on the sterile field against its label, including each solution's identity, strength and amount remaining. Labelling is necessary but not sufficient at a change of personnel, because two clear solutions in identical containers are indistinguishable at a glance. Trusting the labels alone is the tempting answer since the rule has been followed, and it is the point at which the wrong clear solution is drawn up. Discarding both wastes medication and delays the case without need, and the circulating nurse's memory is not an independent check."
+    },
+    {
+     "num": 13,
+     "topic": "Intraoperative activities - blood product administration",
+     "question": "During a massive haemorrhage the patient has received eight units of red cells and four of plasma through a rapid infuser in forty minutes. The anaesthesia professional reports a lengthening QT interval, a falling blood pressure despite volume, and an ionised calcium below the reference range. Which therapy should the nurse anticipate?",
+     "choices": [
+      "Warming the next units to prevent further heat loss and coagulopathy",
+      "Intravenous calcium replacement for citrate-related hypocalcaemia",
+      "Potassium replacement for the changes appearing on the monitor",
+      "Slowing the transfusion so the citrate load can be metabolised"
+     ],
+     "answer": "B",
+     "explanation": "Citrate in stored blood binds ionised calcium, and during rapid large-volume transfusion the liver cannot clear it, so calcium falls and myocardial contractility and the QT interval suffer. Replacing calcium is the specific treatment. Slowing the transfusion is the tempting alternative and is not an option in active haemorrhage. Warming products is genuinely important but treats a different complication, and stored blood tends to raise potassium rather than lower it."
+    },
+    {
+     "num": 14,
+     "topic": "Communication and documentation - time out",
+     "question": "The patient is prepped and draped for a left inguinal hernia repair. During the time out the team states the left side, and the consent and imaging agree. The circulating nurse notices that the surgeon's site mark is covered by the drapes and cannot be seen anywhere in the exposed field. Which action is correct?",
+     "choices": [
+      "Check the consent and the imaging report once more before the incision is made",
+      "Ask the anaesthesia professional to confirm the side from the anaesthetic record",
+      "Accept the surgeon's verbal confirmation of the side and let the case proceed",
+      "Pause the time out until the mark is visible within the prepped field"
+     ],
+     "answer": "D",
+     "explanation": "The site mark has to remain visible after prepping and draping so that the team verifies the actual exposed anatomy rather than an intention recorded elsewhere. Re-reading the consent and accepting a verbal statement both confirm the plan, which is why they are tempting, but neither proves that the field now uncovered is the marked one, and that is the specific failure that produces wrong-site surgery."
+    },
+    {
+     "num": 15,
+     "topic": "Communication and documentation - hand-off",
+     "question": "The circulating nurse arrives in the recovery area to hand over a patient after a long procedure with an implant, a drain and a tourniquet. The receiving nurse is connecting monitors, calling for help with the oxygen and asking the nurse to just leave the chart. Which action is correct?",
+     "choices": [
+      "Give a rapid verbal summary now so that the room turnover is not delayed",
+      "Leave the written record at the bedside and return to prepare the next case",
+      "Wait until the receiving nurse can give attention, then hand over and take questions",
+      "Ask the anaesthesia professional to pass on the intraoperative information"
+     ],
+     "answer": "C",
+     "explanation": "An effective hand-off is interactive, given when the receiver can attend, and includes the chance to ask questions about implants, drains, tourniquet time, counts and any variance. Giving a rapid summary during a distracted moment feels efficient and is the point at which critical details are lost. A written record or a second-hand report cannot replace the circulating nurse's own account."
+    },
+    {
+     "num": 16,
+     "topic": "Communication and documentation - implant documentation",
+     "question": "A patient receives an orthopaedic implant during a case. After the wound is closed, the scrub person hands the circulating nurse the packaging, which carries the manufacturer's identification labels. Which documentation best meets perioperative requirements?",
+     "choices": [
+      "Record that an implant was used and file the packaging in the room log",
+      "Record the implant type and the name of the surgeon who inserted it",
+      "Record the implant type, manufacturer, lot or serial number, size and site",
+      "Attach the packaging to the preference card for entry the following day"
+     ],
+     "answer": "C",
+     "explanation": "Implant documentation must allow the exact device in this patient to be traced in the event of a recall or failure, which requires the manufacturer, lot or serial number, size, type and the site of placement in the patient's record. Recording type and surgeon only, or filing the packaging elsewhere, leaves the record unable to identify the specific device and delays notification if a recall is issued."
+    },
+    {
+     "num": 17,
+     "topic": "Infection prevention - sterile technique",
+     "question": "Midway through a case the scrub person notices that an area of the drape over the instrument table has become soaked where a basin overflowed, and the fluid has reached the unsterile table surface beneath. Instruments are still being passed across that area. Which action is correct?",
+     "choices": [
+      "Place an additional cloth towel over the wet area and continue the case",
+      "Treat the wet area as contaminated and re-drape it before continuing",
+      "Blot the area dry with a sterile towel and continue with the procedure",
+      "Mark the wet area and keep instruments away from that part of the table"
+     ],
+     "answer": "B",
+     "explanation": "Moisture that passes through a drape carries microorganisms from the unsterile surface into the sterile field, so the area is contaminated and must be covered with impervious sterile material or re-draped. Adding a cloth towel is the tempting quick fix, but cloth is permeable and wicks fluid, so contamination continues. Blotting does not restore a barrier once strike-through has occurred."
+    },
+    {
+     "num": 18,
+     "topic": "Infection prevention - immediate-use steam sterilization",
+     "question": "A sterile implant is dropped on the floor during an orthopaedic case. A properly packaged identical implant is available in the department, but the team suggests running the dropped one through an immediate-use steam sterilization cycle because it is quicker. Which action is correct?",
+     "choices": [
+      "Run the dropped implant through immediate-use sterilization and hand it up",
+      "Wipe the implant with disinfectant and return it to the field for insertion",
+      "Obtain the packaged replacement implant and set the dropped one aside",
+      "Send the dropped implant for a full cycle and hold the incision open meanwhile"
+     ],
+     "answer": "C",
+     "explanation": "Immediate-use sterilization of implants is reserved for documented emergencies in which no other option exists, and no emergency exists here because a correctly packaged sterile implant is on the shelf. That availability is what settles the decision. Using the quicker cycle is tempting under turnover pressure, and convenience is precisely the reason the restriction exists. Disinfectant wiping does not sterilise an implantable device."
+    },
+    {
+     "num": 19,
+     "topic": "Infection prevention - sterilization monitoring",
+     "question": "The scrub person opens a wrapped instrument tray. The external process indicator on the wrapper has changed colour, the wrapper is intact and dry, but no internal chemical indicator can be found anywhere inside the tray. The case is about to begin. Which action is correct?",
+     "choices": [
+      "Use the tray because the external indicator confirms the cycle was completed",
+      "Consider the tray unverified, remove it from use and obtain another set",
+      "Use the tray and check the load records for that cycle after the case ends",
+      "Use the tray and record the missing internal indicator as a processing variance"
+     ],
+     "answer": "B",
+     "explanation": "An external indicator only shows that the package was exposed to a sterilization process; it says nothing about whether the agent reached the inside of the tray, which is what an internal indicator demonstrates. Without that internal result the contents cannot be considered sterile and the set is not used. Treating the external change as proof is the common and specific misreading of what that indicator means."
+    },
+    {
+     "num": 20,
+     "topic": "Management of personnel, services and materials - industry representatives",
+     "question": "A company representative arrives for a case using new instrumentation. The representative offers to open the implant trays onto the sterile field, to scrub in and hand up the unfamiliar instruments, and to adjust the device settings during the procedure. Which action by the circulating nurse is correct?",
+     "choices": [
+      "Allow the representative to open the implant trays onto the sterile field",
+      "Exclude the representative from the room once the procedure has started",
+      "Ask the representative to scrub in and hand up the new instrumentation",
+      "Verify credentialing and attire and keep the representative to the approved role"
+     ],
+     "answer": "D",
+     "explanation": "A credentialed representative with the organisation's approval may give technical support, including calibrating or programming specified devices under the surgeon's direction, but may not deliver patient care, scrub in or open sterile supplies onto the field. Verifying credentialing and holding the representative to that sanctioned role covers all three requests. Excluding the representative outright is the tempting cautious answer and discards legitimate technical support."
+    },
+    {
+     "num": 21,
+     "topic": "Emergency situations - malignant hyperthermia",
+     "question": "The end-tidal carbon dioxide has climbed from 36 to 64 mmHg despite increased minute ventilation, the jaw is rigid and the heart rate is 142/min. The volatile agent has been stopped and the patient is on high-flow oxygen. The anaesthesia professional asks the circulating nurse to fetch the cooling blanket. Which action should the nurse take first?",
+     "choices": [
+      "Call for the malignant hyperthermia cart and extra help and prepare dantrolene",
+      "Fetch the cooling blanket as the anaesthesia professional has requested",
+      "Send an arterial blood gas to confirm the diagnosis before treating",
+      "Begin active cooling with iced saline lavage of the open abdomen"
+     ],
+     "answer": "A",
+     "explanation": "Dantrolene is the only therapy that stops the underlying process, it takes several people and several minutes to reconstitute, and survival falls with every minute of delay. Cooling matters and comes next, which is why fetching the blanket is tempting, particularly as it was asked for directly; one nurse leaving for equipment before help and drug are summoned costs the critical interval. Treatment does not wait on a blood gas."
+    },
+    {
+     "num": 22,
+     "topic": "Emergency situations - local anaesthetic systemic toxicity",
+     "question": "Shortly after a large-volume field block a patient reports ringing in the ears and a metallic taste, then has a generalised seizure. The injection has been stopped, the airway is supported with oxygen, and the heart rate has slowed to 44/min with frequent ventricular ectopy. Which intervention is the priority now?",
+     "choices": [
+      "Give a lidocaine bolus to suppress the ventricular ectopy",
+      "Give lipid emulsion without waiting for the seizure to stop",
+      "Give a benzodiazepine and observe, as the seizure is self-limiting",
+      "Delay lipid emulsion until the rhythm becomes haemodynamically unstable"
+     ],
+     "answer": "B",
+     "explanation": "Lipid emulsion is the specific antidote and is given as soon as toxicity is recognised, because cardiac collapse can follow the neurological signs within minutes. A benzodiazepine is genuinely part of care and is the tempting choice while the patient is convulsing, but treating the seizure alone leaves the drug in the circulation. Lidocaine adds more of the same drug class, and waiting for instability forfeits the window."
+    },
+    {
+     "num": 23,
+     "topic": "Emergency situations - surgical fire",
+     "question": "During a tracheostomy the drapes near the surgical site catch fire and flames are visible on the patient. The team is at the field and the airway is instrumented. Which action should be taken first?",
+     "choices": [
+      "Shut off the medical gas zone valve before taking any other action",
+      "Activate the fire alarm and begin evacuating the room immediately",
+      "Stop the flow of airway gases and remove the burning material from the patient",
+      "Discharge the carbon dioxide extinguisher directly onto the burning drape"
+     ],
+     "answer": "C",
+     "explanation": "For a fire on the patient the immediate steps are to stop the gases feeding it and remove the burning drapes and tubing from the patient, then extinguish with saline and care for the airway and burns. Alarm activation, evacuation and closing the zone valve all belong to a fire in the room or equipment, which makes them plausible, but performing them first leaves the patient burning."
+    },
+    {
+     "num": 24,
+     "topic": "Emergency situations - cardiac arrest in the prone position",
+     "question": "During a long posterior spinal fusion the anaesthesia professional reports loss of the pulse and an unresponsive rhythm. The patient is prone in a head holder with the wound open and the field fully draped. Which action should the team take first?",
+     "choices": [
+      "Deliver a precordial thump and reassess the rhythm before starting compressions",
+      "Pack and close the wound completely before starting any resuscitation effort",
+      "Begin compressions over the mid-thoracic spine while preparing to turn the patient",
+      "Delay compressions until the patient has been fully turned and resettled supine"
+     ],
+     "answer": "C",
+     "explanation": "Turning a prone patient with an open spinal wound and a head holder takes time that circulation cannot spare, so compressions are started in the prone position over the mid-thoracic spine while the team organises the turn. Waiting to be supine is the intuitive answer because that is how resuscitation is normally taught, and the delay is precisely what worsens survival. Wound packing happens during the turn."
+    },
+    {
+     "num": 25,
+     "topic": "Professional accountability",
+     "question": "A nurse who has never been oriented to the robotic system is assigned to circulate a robotic prostatectomy because of a staffing shortage. The vendor representative offers to talk the nurse through the docking and any problems that arise during the case. Which action is most appropriate?",
+     "choices": [
+      "Accept the assignment and read the manufacturer's manual during the case",
+      "Tell the charge nurse the competency is lacking and request an oriented nurse",
+      "Accept the assignment and rely on the representative's guidance in the room",
+      "Refuse the assignment outright and leave the department without reporting it"
+     ],
+     "answer": "B",
+     "explanation": "Accountability means practising within demonstrated competence and reporting the gap through the proper channel so the case is staffed safely. Relying on the representative is tempting because the expertise is genuinely in the room, but it substitutes an outside party for a competency the nurse is accountable for. Walking away without reporting abandons the patient and the team."
+    }
+   ]
+  }
+ ]
+}

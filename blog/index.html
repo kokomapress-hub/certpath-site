@@ -59,7 +59,13 @@
       <p>Fresh study advice, industry news, and exam strategies — updated daily.</p>
     </div>
 
-    <div id="blogList" class="blog-list">Loading posts…</div>
+    <div id="blogList" class="blog-list">
+      <!-- POSTS:START — static list for search engines and no-JS readers; newest first. The script below re-renders it from posts.json. -->
+      <ul>
+        <li><a href="/blog/2026-04-18-welcome">Welcome to the CertPath Blog</a> — April 18, 2026</li>
+      </ul>
+      <!-- POSTS:END -->
+    </div>
   </main>
 
   <footer class="cp-footer">
@@ -133,6 +139,6 @@
         document.getElementById('blogList').innerHTML = '<p>No posts yet. Check back soon.</p>';
       });
   </script>
-  <script src="/js/premium.js?v=10" defer></script>
+  <script src="/js/premium.js?v=12" defer></script>
 </body>
 </html>

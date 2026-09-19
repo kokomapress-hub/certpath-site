@@ -1,0 +1,338 @@
+{
+ "slug": "pmp-free25",
+ "title": "Free sample",
+ "free": true,
+ "note": "Original questions written for the free sample. They do not appear in the book or in the owners' online practice tests.",
+ "tests": [
+  {
+   "testNum": 1,
+   "questions": [
+    {
+     "num": 1,
+     "topic": "Process",
+     "question": "A plant-automation project has a budget at completion of 4,800,000, and the plan says work worth 2,250,000 should be finished at the month-15 review. Actual cost to date is 2,400,000. Three work packages have progressed: one budgeted at 1,200,000 is complete, one budgeted at 900,000 is 60 percent complete, and one budgeted at 700,000 is 60 percent complete; no other package has started. The overrun comes entirely from a renegotiated labour rate that applies to every remaining hour. Which forecast of cost at completion should the project manager present?",
+     "choices": [
+      "5,040,000, because the variance is a one-off event and remaining work will run at the planned rate",
+      "5,455,556, because both the cost and the schedule efficiency indexes should be applied to remaining work",
+      "5,000,000, because the schedule efficiency index is the better predictor of the final cost of the project",
+      "5,333,333, because the cost efficiency experienced so far will continue across the remaining work"
+     ],
+     "answer": "D",
+     "explanation": "Earned value is 1,200,000 + 540,000 + 420,000 = 2,160,000, so the cost performance index is 2,160,000 ÷ 2,400,000 = 0.90 and the forecast is 4,800,000 ÷ 0.90 = 5,333,333. A rate rise applying to every remaining hour makes the variance typical. The tempting 5,040,000 adds actual cost to the remaining budgeted work, the formula for a variance that will not recur, which the stated root cause rules out."
+    },
+    {
+     "num": 2,
+     "topic": "Process",
+     "question": "A substation project has six remaining activities. Site survey takes 5 days and starts the work. Foundation forms (8 days) and utility trench (6 days) both follow the survey. Rebar placement (4 days) follows foundation forms. Conduit pull (9 days) follows utility trench. Slab pour (3 days) can start only when both rebar placement and conduit pull are finished. All links are finish-to-start with no lead or lag, and the crews for each activity are independent. Which statement about this network is correct?",
+     "choices": [
+      "The longest path runs through foundation forms and rebar placement, and the remaining work will take twenty days",
+      "Foundation forms and rebar placement each have three days of free float, so either may slip three days independently",
+      "Foundation forms has three days of total float and no free float, while rebar placement has three days of both",
+      "Rebar placement has no float, because the slab pour cannot begin until both feeding activities have been completed"
+     ],
+     "answer": "C",
+     "explanation": "The survey, trench, conduit and pour path is 5+6+9+3 = 23 days and is critical; the forms and rebar path is 5+8+4+3 = 20 days, so both share three days of total float. Foundation forms finishes on day 13 and rebar placement starts on day 13, so delaying the forms delays its successor: no free float. Claiming three days of free float for both confuses total float, which is shared along the path, with free float."
+    },
+    {
+     "num": 3,
+     "topic": "Process",
+     "question": "During quantitative risk analysis on a refinery turnaround, the team agrees four items dominate the register: a permit delay with a 25 percent chance of costing 180,000; a corrosion find with a 40 percent chance of costing 95,000; an early vendor release that has a 30 percent chance of saving 150,000; and a crane availability failure with a 15 percent chance of costing 260,000. The sponsor asks what contingency should be set aside for these four items. What should the project manager recommend?",
+     "choices": [
+      "77,000, the net expected monetary value of the four items with the opportunity offsetting the threats",
+      "122,000, the expected monetary value of the three threats, because reserves are funded for downside events only",
+      "685,000, the sum of the four impact amounts, because any of them could occur before the turnaround is over",
+      "167,000, the sum of the expected values of all four items, because each carries a separate exposure to manage"
+     ],
+     "answer": "A",
+     "explanation": "Expected monetary values are 45,000, 38,000 and 39,000 of expected cost for the three threats and 45,000 of expected saving for the opportunity, netting to 77,000 of exposure. The 167,000 answer is the strongest trap: it uses the same probability-weighted values but treats the opportunity as a fourth cost instead of an offset. Dropping the opportunity altogether gives 122,000, and adding the raw impacts ignores probability weighting entirely."
+    },
+    {
+     "num": 4,
+     "topic": "People",
+     "question": "A hybrid product-launch project has run with a nine-person core team communicating informally. To hit a regulatory date the sponsor adds three vendor leads and two compliance specialists, all working remotely, and at the same time two of the original nine roll off to another programme. In the first week after the change, two duplicate decisions are made and a test environment is rebuilt twice. At the steering meeting the project manager is asked what changed and what will be done. What is the best response?",
+     "choices": [
+      "Channels rose from 36 to 66, so the communications plan will be reworked around who needs which information and when",
+      "Channels rose from 36 to 66, so the five joiners will be added to every existing distribution list and status call",
+      "Channels rose from 36 to 91, so the communications plan will be reworked around who needs which information and when",
+      "Channels rose from 45 to 78, so one daily all-hands call will be held until the regulatory launch date has passed"
+     ],
+     "answer": "A",
+     "explanation": "Channels equal n(n-1)/2. The team moves from nine people to twelve, not fourteen, because two members rolled off, so channels rise from 36 to 66 and the plan is reworked around information needs. The 91 figure is the strongest trap: it uses the right formula on the wrong headcount by ignoring the leavers. The 45 and 78 figures come from n(n+1)/2, which wrongly counts each person communicating with themselves."
+    },
+    {
+     "num": 5,
+     "topic": "Process",
+     "question": "A bank is replacing its loan origination platform. The regulatory reporting module must be delivered against a fixed specification with full audit evidence, while the customer-facing application journey is poorly understood and expected to change as usability testing proceeds. The sponsor asks the project manager to pick one delivery approach for the whole project so that governance stays simple. How should the project manager proceed?",
+     "choices": [
+      "Propose deferring the decision until the usability testing is complete and the customer journey requirements are stable",
+      "Propose running the whole project iteratively, since iterations still produce the evidence any regulator would require",
+      "Propose running the whole project predictively, since the regulatory module sets the audit evidence bar for everything",
+      "Propose tailoring the approach by component, running the reporting module predictively and the customer journey iteratively"
+     ],
+     "answer": "D",
+     "explanation": "Development approach is tailored to the characteristics of the work, and a project may carry more than one life cycle. A stable, evidence-heavy module suits a plan-based approach; a high-uncertainty journey suits short feedback loops. Choosing a single predictive approach for governance convenience is the strongest trap because it looks safe, but it forces the uncertain work into a baseline that will churn through change control. Deferring the decision stalls delivery for weeks."
+    },
+    {
+     "num": 6,
+     "topic": "Business Environment",
+     "question": "Three weeks into execution on a baselined warehouse-automation project, an operations director asks for two extra conveyor sensors, which are not in the approved scope. The vendor quotes 6,200 for the parts and 7,800 for installation and commissioning. The project's change management plan lets the project manager approve changes below 10,000 that do not alter a baseline. The director is a respected stakeholder and wants an answer by the end of the day. What should the project manager do?",
+     "choices": [
+      "Tell the operations director the baseline is fixed and the sensors must wait for a later phase of the programme",
+      "Assess the effect on scope, schedule, cost and risk, and submit a change request to the change control board",
+      "Ask the vendor to absorb the sensors in the existing purchase order so that no baseline change is needed at all",
+      "Approve the request under the delegated authority in the change management plan, since the parts cost only 6,200"
+     ],
+     "answer": "B",
+     "explanation": "The change costs 14,000 in total and adds approved scope, so it breaches the delegated threshold and belongs to the change control board once the project manager has assessed its impact. Approving under delegation is the strongest trap: the authority is real, but it covers the whole change rather than the parts line alone, and it excludes anything that alters a baseline. Refusing outright skips the analysis, and shifting cost to the vendor hides the change."
+    },
+    {
+     "num": 7,
+     "topic": "Process",
+     "question": "An agile team delivering a payments feature meets its sprint goal every sprint, but production defects have risen for three consecutive releases and the support queue is growing. The team says the work is done when the story demo passes; test automation is written afterwards when there is slack, and there rarely is. Two testers from another project become available next month, and the product owner is pressing for the next two features and does not want velocity to drop. What should the project manager do?",
+     "choices": [
+      "Facilitate the team and product owner in strengthening the definition of done so that testing is inside each story",
+      "Add two testers to the team so automation is written in parallel while the developers keep the current pace of delivery",
+      "Schedule a hardening sprint before the next release so the accumulated defects can be cleared in one focused effort",
+      "Introduce a defect-rate target for the team and review it at each sprint review to make the quality trend visible"
+     ],
+     "answer": "A",
+     "explanation": "Quality is built in, not inspected in later, and the definition of done is the team-owned lever that puts testing inside each increment. The two available testers are the strongest trap: capacity really is on offer and it costs the product owner no velocity, yet adding people after the demo preserves the very sequence that lets defects escape. A hardening sprint clears symptoms and the escape rate returns; a defect target measures the symptom without changing how work is finished."
+    },
+    {
+     "num": 8,
+     "topic": "Process",
+     "question": "Under a firm fixed-price contract, a supplier building a test rig writes to say that a paragraph in the statement of work can be read two ways and that its bid assumed the cheaper reading. The supplier has stopped work pending an answer. The project manager reads the paragraph and agrees it is genuinely ambiguous, and the clarification the project needs is the more expensive reading. The integration test window opens in eleven days. What should the project manager do?",
+     "choices": [
+      "Work with procurement and legal to settle the interpretation under the contract, recording any clarification or modification",
+      "Direct the supplier in writing to build to the more expensive reading, since fixed price puts that risk on the seller",
+      "Ask the supplier to continue at risk while the two organisations settle the interpretation after the test window",
+      "Escalate to the sponsor for approval to draw contingency, then instruct the supplier to resume work immediately"
+     ],
+     "answer": "A",
+     "explanation": "A genuine ambiguity is settled through the contract's own interpretation, claims and change mechanisms with procurement and legal, and only the agreed clarification or modification is then documented and directed. Directing the supplier in writing is the strongest trap: fixed price allocates the agreed performance cost risk to the seller, but it does not license a unilateral buyer reading of ambiguous scope and can create a constructive change. Work at risk and a reserve drawdown both skip the governing process."
+    },
+    {
+     "num": 9,
+     "topic": "Process",
+     "question": "A grid-connection project is four weeks behind on a twelve-month baseline. The sponsor wants the original finish date restored and says cost is a secondary concern. The critical path runs through detailed design, then long-lead panel manufacture, then commissioning. Design is 80 percent complete, the panel order is placed with a fixed lead time, and commissioning is staffed by a single certified team. The sponsor asks for a recommendation at tomorrow's meeting. What should the project manager do?",
+     "choices": [
+      "Start commissioning activities in parallel with the tail of detailed design, since the sponsor accepts additional cost",
+      "Reduce the commissioning test set to the regulator's minimum so the certified team can finish within the shorter window",
+      "Add a second shift to panel manufacture, since paying for extra capacity on the critical path recovers the four weeks",
+      "Model crashing and fast-tracking options on the critical path and present cost, quality and risk trade-offs for decision"
+     ],
+     "answer": "D",
+     "explanation": "Schedule compression choices belong to the sponsor once the project manager has analysed which activities can actually be crashed or overlapped, at what cost and with what added risk. A fixed manufacturing lead time does not shorten with a second shift, which is why that option is the strongest trap: it applies crashing to an activity whose duration is not effort-driven. Overlapping commissioning without analysis and cutting the test set both trade quality blindly."
+    },
+    {
+     "num": 10,
+     "topic": "Business Environment",
+     "question": "A hybrid telematics project depends on a partner's new application programming interface. The partner has published a draft specification and says the interface will be final in about four months. The team's ordered backlog puts the integration work in the last two iterations, six months out, because the reporting screens deliver value sooner. A developer points out that the draft already contains two authentication models. What should the project manager encourage the team to do?",
+     "choices": [
+      "Ask the partner for a written commitment to one authentication model before any integration work is undertaken",
+      "Keep the value-ordered backlog and add the interface as a high-impact risk with a mitigation owner and a review date",
+      "Build an abstraction layer now so that either authentication model can be swapped in when the specification is final",
+      "Pull a small integration spike forward into the next iteration to expose the interface risk while options remain open"
+     ],
+     "answer": "D",
+     "explanation": "In iterative delivery the backlog is ordered by value and by risk; a cheap spike converts an unknown into information while there is still time and cheap optionality. Logging the risk with an owner is the closest miss: it is real risk management, yet it defers learning to the point where the team has the least room to respond. Chasing a partner commitment depends on someone else, and building an abstraction layer buys insurance before the risk is even understood."
+    },
+    {
+     "num": 11,
+     "topic": "People",
+     "question": "Two senior engineers on a hybrid data-platform team have argued for a week over whether to use a managed streaming service or an in-house queue. Both options sit inside the organisation's approved reference architecture, which delegates choices within it to the delivery team; the architecture review board's remit covers only exceptions outside that reference, and it meets monthly. The team has stopped refining the related stories, the decision affects three iterations, and each engineer has privately asked the project manager to decide in their favour. What should the project manager do?",
+     "choices": [
+      "Decide in favour of the managed service, since it removes an in-house component the team would have to maintain",
+      "Refer the decision to the architecture review board so the choice carries organisational weight and formal approval",
+      "Ask the two engineers to write competing proposals and have the wider team vote on which one to adopt next iteration",
+      "Facilitate the team in agreeing decision criteria and a time-boxed spike that will test both options against them"
+     ],
+     "answer": "D",
+     "explanation": "The reference architecture delegates this class of choice to the team, so the project manager serves it by making the decision method explicit: agreed criteria plus evidence from a short experiment. Referring the matter to the board is the most tempting alternative, because a board exists and referral looks like proper governance, yet the stem places both options inside the delegated reference, so referral stalls the team on a decision it already owns. Deciding personally undermines ownership, and voting settles the argument without evidence."
+    },
+    {
+     "num": 12,
+     "topic": "People",
+     "question": "On a virtual project spanning three continents, one analyst who produced strong work for four months has become quiet: her camera stays off, she answers only when asked directly, and her last two deliverables were late without an explanation. Her functional manager tells the project manager that she is fine and to leave it alone. The next milestone depends on her analysis. What should the project manager do first?",
+     "choices": [
+      "Ask a team member in her time zone to find out informally what is wrong and report back before the milestone",
+      "Reassign the milestone analysis to another team member so the delivery date is protected while the issue is explored",
+      "Arrange a private conversation with the analyst to understand what has changed and what support she needs",
+      "Move the team to written asynchronous updates, so contributions no longer depend on anyone speaking in a live call"
+     ],
+     "answer": "C",
+     "explanation": "Assess and understand before acting: a sudden change in a strong performer has a cause only she can explain, and a private conversation is the most direct and most respectful route to it. Asking a colleague to find out and report back is the strongest trap, because it looks gentle and avoids confrontation, yet it turns her situation into hearsay. Reassigning the work removes her ownership, and an asynchronous format answers an individual situation with a process."
+    },
+    {
+     "num": 13,
+     "topic": "People",
+     "question": "On an agile marketing-platform team, a regional director regularly messages developers directly with urgent tweaks. The developers, wanting to be helpful, do the work, and two sprint goals have been missed. The product owner only learns about the extra work at the sprint review. The director says he is simply removing bureaucracy and that the tweaks take minutes. What should the project manager do?",
+     "choices": [
+      "Report the missed sprint goals and their cause to the sponsor so the director is told to respect the agreed process",
+      "Ask the product owner to reserve capacity each sprint for the director's requests so sprint goals stop being missed",
+      "Bring the director and the product owner together to agree how urgent requests enter the backlog and get ordered",
+      "Coach the developers to decline all direct requests and to forward every one of them to the product owner instead"
+     ],
+     "answer": "C",
+     "explanation": "The cause is an undefined path for urgent work, so the fix is a working agreement negotiated with both the requester and the person accountable for ordering the backlog. Reserving capacity is the closest miss and is a legitimate technique, but applied before that conversation it institutionalises the bypass and leaves the product owner uninformed. Coaching developers alone leaves them absorbing the pressure, and escalating first spends goodwill on a problem the parties can resolve."
+    },
+    {
+     "num": 14,
+     "topic": "Process",
+     "question": "In a matrix organisation, the functional manager who owns the only two certified hydraulics testers has moved them to a higher-priority programme for six weeks. The project manager's test window starts in three weeks and the testers are named in the resource management plan. The sponsor is travelling and has asked to be brought only decisions, not problems. What should the project manager do first?",
+     "choices": [
+      "Escalate to the sponsor immediately with the resource management plan, since the named testers were formally committed",
+      "Hire contract testers within the approved contingency, since the certification requirement leaves no realistic alternative",
+      "Quantify the schedule and cost effect and negotiate options with the functional manager, including partial or phased release",
+      "Resequence the test window to start six weeks later and issue a revised schedule baseline to the affected stakeholders"
+     ],
+     "answer": "C",
+     "explanation": "Negotiating for resources with the functional manager, armed with the quantified impact and workable alternatives, is inside the project manager's authority and usually produces an option neither party saw. Escalating first is the strongest trap: it is fast and the commitment is documented, but it spends sponsor capital before negotiation and damages a relationship needed for months. Contracting spends money before the cheaper option is tested, and rebaselining alone is not the project manager's decision."
+    },
+    {
+     "num": 15,
+     "topic": "People",
+     "question": "A tester who joined a hybrid team eight weeks ago is strong at exploratory testing, where she has found two of the last three production escapes, but she has never used the automation framework the team relies on, and her stories are the ones carrying over each iteration. She has told the project manager privately that she feels she is slowing everyone down. The vendor's next framework course runs in three months; two experienced automation engineers on the team have spare capacity next iteration. What should the project manager do?",
+     "choices": [
+      "Raise the skill gap with her functional manager so it can be addressed through the formal development review process",
+      "Agree a pairing and mentoring plan with the team so she builds the framework skill on real backlog items",
+      "Move her onto exploratory testing only, so the team plays to her strength and the automation work stays with the engineers",
+      "Arrange a vendor training course on the framework and reduce her story allocation until the course has been completed"
+     ],
+     "answer": "B",
+     "explanation": "Developing team members is a core project manager responsibility, and pairing builds the skill on real work while the spare capacity exists, keeping her inside the team's flow of value. Specialising her into exploratory testing is the strongest trap, because she demonstrably excels there and it fixes throughput this iteration, yet it hardens a single point of failure and confirms her own worry. The course is three months away, and a formal review turns a coachable gap into a performance matter."
+    },
+    {
+     "num": 16,
+     "topic": "People",
+     "question": "A newly formed hybrid team drawn from three departments is in its second week. A responsibility assignment matrix issued with the approved resource management plan already names one accountable owner for every deliverable, and every team member has read it. Even so, meetings run long, two members have rewritten the same component, and nobody is sure who may settle a design choice without consulting the others. The first increment is due in four weeks. What should the project manager do?",
+     "choices": [
+      "Appoint a technical lead who will settle design choices and coordinate the work of the three departments involved",
+      "Hold daily fifteen-minute coordination meetings so overlapping work is spotted before duplicated effort accumulates",
+      "Facilitate the team in writing working agreements covering decision rights, ways of working and escalation",
+      "Walk the team through the responsibility assignment matrix again, so each deliverable's accountable owner is clear"
+     ],
+     "answer": "C",
+     "explanation": "Deliverable accountability is already documented and read; what is missing is how people work between those owners, which is what team-authored working agreements cover: decision rights, ways of working and escalation. Re-walking the matrix is the strongest trap, because clarifying accountability is the standard remedy for duplicated work, yet the stem says that document exists and is understood. Appointing a lead centralises authority the team should hold, and daily meetings catch duplication only after it happens."
+    },
+    {
+     "num": 17,
+     "topic": "Business Environment",
+     "question": "Two department heads have been unable to agree for three weeks on which of their systems will own customer master data. The project manager has run two facilitated sessions, documented the options with costs, and both heads have restated their positions unchanged. The decision fixes an interface that the next two milestones depend on, and it commits budget outside the project's approved envelope. What should the project manager do now?",
+     "choices": [
+      "Run a third facilitated session with an independent enterprise architect to break the deadlock between the departments",
+      "Rebaseline the two milestones to reflect the delay and continue the design work that does not touch the interface",
+      "Escalate to the steering committee with the analysed options, the delay cost and a documented recommendation",
+      "Select the option with the lower total cost and record the two department heads as having been consulted on it"
+     ],
+     "answer": "C",
+     "explanation": "Facilitation has been tried and exhausted, the decision commits money outside the project's authority, and delay now carries a measurable cost; those conditions define a legitimate escalation, made useful by bringing options and a recommendation rather than a problem. A third session is the closest miss because facilitation is the preferred route, but repeating it ignores that the decision is not the project manager's or the departments' to make cheaply. Deciding personally exceeds authority; rebaselining accepts the delay."
+    },
+    {
+     "num": 18,
+     "topic": "People",
+     "question": "A high-performing agile team has started routing every decision through the project manager, including story splitting and which defects to fix first. The project manager notices that decisions now wait for her availability and that two team members have stopped offering opinions in refinement. She had answered such questions quickly for months because it kept the team unblocked, and the team has met every iteration goal so far. At the last retrospective nobody raised the pattern, although two members mentioned feeling less involved. What should she do?",
+     "choices": [
+      "Agree with the team which decisions it owns outright, which need consultation, and which are escalated",
+      "Ask the two quiet team members privately why they have stopped contributing to the refinement discussions",
+      "Attend every refinement session so that decisions are made in the room and no one waits for her availability later",
+      "Continue answering quickly, since fast decisions keep the team unblocked and the delivery pace has not yet suffered"
+     ],
+     "answer": "A",
+     "explanation": "The team's ownership is being eroded by a habit that started as helpfulness, and explicit delegation levels agreed with the team restore self-management while keeping genuine escalations visible. Attending every session is the strongest trap: it removes the waiting and feels supportive, yet it keeps the project manager at the centre of decisions the team should make. Answering faster deepens the dependency, and a private conversation addresses a symptom of the same cause."
+    },
+    {
+     "num": 19,
+     "topic": "Process",
+     "question": "A field-service scheduling system goes live in two weeks and is on budget. The business case promises a 12 percent reduction in travel time, measured six months after go-live against current performance. Reviewing the benefits management plan, the project manager finds that nobody in operations owns that measure and that the current travel-time figure has never been captured; the dispatch system holding the data is switched off at cutover. The sponsor considers the project finished at go-live. What should the project manager do?",
+     "choices": [
+      "Record the 12 percent target and the measurement method in the closure report so operations can act on them later",
+      "Agree a named benefits owner with the sponsor and capture the pre-go-live travel-time baseline before cutover",
+      "Add a post-implementation review six months after go-live and keep the project open until the benefit is measured",
+      "Raise a risk that the benefit cannot be evidenced and assign the sponsor as the accountable owner of that risk"
+     ],
+     "answer": "B",
+     "explanation": "Two opportunities expire at cutover: naming a benefits owner while the sponsor is still engaged, and capturing the baseline data, without which no reduction can ever be demonstrated. A post-implementation review is the strongest trap, because measuring six months later is exactly what the business case asks for, yet it arrives after the source system has been switched off. Documenting the target or logging a risk leaves the measurement impossible either way."
+    },
+    {
+     "num": 20,
+     "topic": "Business Environment",
+     "question": "Midway through building a customer analytics platform, a regulator publishes a rule requiring personal data of local customers to be stored in country. The design assumes a single overseas region. The rule takes effect in nine months; the project finishes in five. The sponsor says the platform will be live before the rule bites and wants no change to the plan. What should the project manager do first?",
+     "choices": [
+      "Raise a change request now to add in-country storage, since the rule will apply to the platform within the year",
+      "Assess the compliance and design impact with legal and the data architect, then present options through change control",
+      "Accept the sponsor's direction and record the residual compliance exposure in the risk register with a review date",
+      "Halt the storage design work until legal has issued a written interpretation of how the new rule applies to the platform"
+     ],
+     "answer": "B",
+     "explanation": "Compliance is assessed, not assumed, and the project manager first establishes with legal and architecture what the rule requires and what each option costs, then takes it through the agreed change path for a governance decision. Accepting the direction and logging a risk is the strongest trap: it respects the sponsor and documents exposure, yet compliance is not a risk to be quietly carried. Halting work overreacts; raising a change request first skips the analysis that gives it substance."
+    },
+    {
+     "num": 21,
+     "topic": "Business Environment",
+     "question": "Six weeks after a warehouse management system went live, scanner use is at 40 percent of plan overall and supervisors on two of the four shifts have quietly reinstated the paper pick lists the system replaced; the other two shifts use the scanners as intended. Everyone attended the same training before go-live and the system meets its acceptance criteria. The sponsor asks the project manager to run refresher training for the supervisors. What should the project manager do?",
+     "choices": [
+      "Ask the sponsor to withdraw the paper pick lists so that the new process becomes the only way to complete a pick",
+      "Add a supervisor adoption measure to the operations scorecard so that local managers are accountable for the shortfall",
+      "Run the refresher training the sponsor asked for and track scanner use weekly until adoption reaches the planned level",
+      "Assess with supervisors and pickers why the paper process is preferred, then target the barriers that surface"
+     ],
+     "answer": "D",
+     "explanation": "Two shifts trained identically use the scanners successfully, so the cause is local to the other two, a workflow, staffing or incentive difference rather than a knowledge gap, and the working shifts are the cheapest place to learn what it is. Running the refresher is the strongest trap: it is what the sponsor asked for and adoption problems often do involve training, yet the same training already worked elsewhere. Removing paper or adding a measure applies pressure without finding the barrier."
+    },
+    {
+     "num": 22,
+     "topic": "Business Environment",
+     "question": "A hybrid project to build a subscription portal is on schedule and has delivered three increments. A competitor has just released a free equivalent, and the head of sales tells the project manager that the pricing assumption underpinning the business case no longer holds. Two more quarters of funding are committed. The steering committee meets in a week and the sponsor has not mentioned the competitor. What should the project manager do?",
+     "choices": [
+      "Continue as planned, since the increments are on schedule and the business case is the sponsor's to maintain, not the project manager's",
+      "Prepare an analysis of the effect on the business case and take it to the steering committee for a continuation decision",
+      "Ask the team to reorder the backlog toward features that differentiate the portal from the competitor's free offering",
+      "Recommend that the project be closed early so the remaining two quarters of funding can be redeployed elsewhere"
+     ],
+     "answer": "B",
+     "explanation": "Projects are funded for value, and when the environment invalidates a business case assumption the project manager surfaces it with analysis so governance can decide whether to continue, pivot or stop. Reordering the backlog is the strongest trap because it is a genuine agile response and feels decisive, but it changes the product direction without the sponsor's economic decision. Carrying on treats the business case as somebody else's problem; recommending closure pre-empts the analysis."
+    },
+    {
+     "num": 23,
+     "topic": "Business Environment",
+     "question": "At a monthly review the sponsor asks the project manager to report the status as green. Testing has found a defect that delays the release by three weeks. The project manager has a recovery plan that would restore the committed date, but it needs funding the steering committee has not yet approved. The sponsor argues that an amber status would trigger a funding freeze making the delay far worse, and that the recovery plan makes green a fair forecast. What should the project manager do?",
+     "choices": [
+      "Ask the project management office to rule on the reporting treatment before the monthly review meeting takes place",
+      "Tell the sponsor first, then report the delay with the unapproved recovery plan so the committee can decide on funding",
+      "Report amber without informing the sponsor in advance, since the reporting obligation outweighs courtesy to the sponsor",
+      "Report green on the basis of the recovery plan, since status reflects the forecast finish date rather than a temporary slip"
+     ],
+     "answer": "B",
+     "explanation": "A forecast that depends on unapproved funding is not a status, so the honest report shows the slip and the recovery plan together and puts the funding decision in front of the people who can make it. Reporting green on the forecast is the strongest trap, because forecast-based reporting is legitimate and the plan is real, yet it presents a contingent outcome as fact and buries the decision. Reporting amber unannounced is accurate but needlessly damaging."
+    },
+    {
+     "num": 24,
+     "topic": "Process",
+     "question": "A hybrid claims-processing project has completed the intake and validation capabilities, which together would let the operations team retire an expensive external service. The approved plan releases everything at once in five months. The product owner and operations manager both believe an early release would start saving money now, and the technical team confirms the two capabilities work standalone. What should the project manager do?",
+     "choices": [
+      "Analyse the value, cost and risk of an early release and take the proposal to the sponsor for a governance decision",
+      "Ask operations to run the two capabilities in a pilot alongside the external service until the full release is ready",
+      "Release the two capabilities now, since they are complete, standalone and supported by the product owner and operations",
+      "Keep the single release, since the approved plan was built around one deployment and one cutover for the business"
+     ],
+     "answer": "A",
+     "explanation": "Delivering value earlier is the agile instinct, but changing the release approach affects the plan, support readiness and the benefits schedule, so the project manager prepares the case and lets the sponsor decide. Releasing immediately is the closest miss because everyone involved agrees and the capabilities work, yet it commits the organisation to an operational change through the wrong authority. Holding the plan ignores available value, and a pilot alongside the old service delays the saving it is meant to capture."
+    },
+    {
+     "num": 25,
+     "topic": "People",
+     "question": "In sprint reviews and design sessions on a hybrid analytics project, the only woman on an eight-person team is repeatedly interrupted mid-sentence by the same senior engineer, who then restates her point as his own; twice the team has adopted it under his name. She has not complained. Two other members have mentioned the pattern to the project manager privately, and the team's working agreements already include one about letting people finish. What should the project manager do?",
+     "choices": [
+      "Speak privately with the senior engineer about the effect of the pattern, then have the team revisit its working agreements",
+      "Ask the analyst whether she would like to raise it herself, and offer to support her if she decides to do so",
+      "Report the behaviour to the engineer's functional manager, since repeatedly taking another person's contribution is a conduct matter",
+      "Raise the pattern in the next retrospective without naming anyone, so the team addresses the behaviour collectively"
+     ],
+     "answer": "A",
+     "explanation": "The behaviour is specific and its source identifiable, so a private, direct conversation is what changes it, followed by the team reinforcing the agreement it already made. Raising it anonymously in a retrospective is the strongest trap: it uses an existing forum and avoids confrontation, yet on an eight-person team everyone will know who is meant, exposing her without her consent. Asking her to carry it, or escalating first, both sidestep the project manager's own responsibility."
+    }
+   ]
+  }
+ ]
+}

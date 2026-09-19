@@ -1,0 +1,338 @@
+{
+ "slug": "asvab-math-free25",
+ "title": "Free sample",
+ "free": true,
+ "note": "Original questions written for the free sample. They do not appear in the book or in the owners' online practice tests.",
+ "tests": [
+  {
+   "testNum": 1,
+   "questions": [
+    {
+     "num": 1,
+     "topic": "Arithmetic Reasoning",
+     "question": "A large pump can fill a holding tank in 6 hours working alone. A second pump can fill the same tank in 3 hours working alone. If both pumps run at the same time from an empty tank, how long does filling the tank take?",
+     "choices": [
+      "3 hours",
+      "9 hours",
+      "4 1/2 hours",
+      "2 hours"
+     ],
+     "answer": "D",
+     "explanation": "In one hour the pumps fill 1/6 and 1/3 of the tank, and 1/6 + 1/3 = 1/2 of the tank per hour. Filling one whole tank therefore takes 1 / (1/2) = 2 hours. The tempting wrong answer is 4 1/2 hours, the average of the two times, which ignores that two pumps must beat the faster pump alone. The answer 3 hours uses only the faster pump."
+    },
+    {
+     "num": 2,
+     "topic": "Arithmetic Reasoning",
+     "question": "A crew of 6 roofers, all working at the same rate, can finish a roof in 8 hours. All 6 start together, and after 3 hours 2 of them are sent to another job. How much longer do the remaining roofers need to finish the roof?",
+     "choices": [
+      "7 1/2 hours",
+      "9 hours",
+      "6 hours",
+      "5 hours"
+     ],
+     "answer": "A",
+     "explanation": "The whole roof takes 6 x 8 = 48 worker-hours. In the first 3 hours the full crew does 6 x 3 = 18 worker-hours, leaving 30. With 4 roofers left, that takes 30 / 4 = 7 1/2 hours. The tempting wrong answer is 5 hours, the time left on the original schedule, which ignores that a third of the crew is gone."
+    },
+    {
+     "num": 3,
+     "topic": "Arithmetic Reasoning",
+     "question": "A jacket is tagged at $80. A store takes 25 percent off the tag price, and then a 10 percent sales tax is added to the discounted price. What does the customer pay?",
+     "choices": [
+      "$72.00",
+      "$54.00",
+      "$68.00",
+      "$66.00"
+     ],
+     "answer": "D",
+     "explanation": "The discount gives 80 x 0.75 = $60. Tax adds 10 percent of $60, so the customer pays 60 x 1.10 = $66.00. The tempting wrong answer is $68.00, which nets the two percents to 15 percent off the original price; that fails because the tax is figured on $60, not on $80. The answer $54.00 subtracts the 10 percent instead of adding it."
+    },
+    {
+     "num": 4,
+     "topic": "Arithmetic Reasoning",
+     "question": "A shop raises the $50 price of a tool by 20 percent. A month later the shop advertises 25 percent off the new price. What is the sale price of the tool?",
+     "choices": [
+      "$37.50",
+      "$45.00",
+      "$47.50",
+      "$50.00"
+     ],
+     "answer": "B",
+     "explanation": "The raise gives 50 x 1.20 = $60. Taking 25 percent off that gives 60 x 0.75 = $45.00. The tempting wrong answer is $47.50, which combines the percents as a net 5 percent cut on $50; percents taken one after another apply to different amounts, so they cannot be added. The answer $50.00 assumes the raise and the cut simply cancel."
+    },
+    {
+     "num": 5,
+     "topic": "Arithmetic Reasoning",
+     "question": "A contractor borrows $2,400 at 6.5 percent simple annual interest and repays the loan in full after 8 months. How much interest does the contractor pay?",
+     "choices": [
+      "$104",
+      "$156",
+      "$1,248",
+      "$112"
+     ],
+     "answer": "A",
+     "explanation": "Simple interest is principal x rate x time in years: 2,400 x 0.065 = $156 for a full year, and 8 months is 2/3 of a year, so 156 x 2/3 = $104. The tempting wrong answer is $156, which charges a full 12 months on an 8-month loan. The answer $112 comes from rounding the rate up to 7 percent, and $1,248 treats the 8 months as 8 years."
+    },
+    {
+     "num": 6,
+     "topic": "Arithmetic Reasoning",
+     "question": "A savings account starts with $4,000 and earns 10 percent interest compounded once a year. No money is added or taken out. What is the balance at the end of 2 years?",
+     "choices": [
+      "$4,800",
+      "$4,840",
+      "$4,400",
+      "$5,324"
+     ],
+     "answer": "B",
+     "explanation": "After one year the balance is 4,000 x 1.10 = $4,400. The second year earns 10 percent of $4,400, so the balance is 4,400 x 1.10 = $4,840. The tempting wrong answer is $4,800, which uses simple interest of $400 a year and misses the interest earned on the first year's interest. The answer $4,400 stops after one year."
+    },
+    {
+     "num": 7,
+     "topic": "Arithmetic Reasoning",
+     "question": "A road map is drawn to a scale of 1 inch to 8 miles. Two depots are 4 1/2 inches apart on the map, measured along the highway. A driver averages 45 miles per hour on that highway. How long does the drive between the depots take?",
+     "choices": [
+      "1 hour 15 minutes",
+      "80 minutes",
+      "36 minutes",
+      "48 minutes"
+     ],
+     "answer": "D",
+     "explanation": "The real distance is 4 1/2 x 8 = 36 miles. At 45 miles per hour the drive takes 36 / 45 = 0.8 hour, and 0.8 x 60 = 48 minutes. The tempting wrong answer is 80 minutes, which reads the 0.8 hour as 80 minutes instead of converting with 60 minutes to the hour. The answer 1 hour 15 minutes divides 45 by 36 and turns the rate upside down."
+    },
+    {
+     "num": 8,
+     "topic": "Arithmetic Reasoning",
+     "question": "A paint mix combines white and blue in the ratio 7 to 3. A finished batch contains 12 more gallons of white than blue. How many gallons of paint are in the whole batch?",
+     "choices": [
+      "21 gallons",
+      "40 gallons",
+      "30 gallons",
+      "120 gallons"
+     ],
+     "answer": "C",
+     "explanation": "The ratio gap is 7 - 3 = 4 parts, and that gap equals 12 gallons, so one part is 12 / 4 = 3 gallons. The batch is 7 + 3 = 10 parts, or 10 x 3 = 30 gallons. The tempting wrong answer is 40 gallons, which divides the 12 gallons by the 3 blue parts instead of by the 4-part gap. The answer 21 gallons is the white share only."
+    },
+    {
+     "num": 9,
+     "topic": "Arithmetic Reasoning",
+     "question": "After 5 tests a student has an average score of 84. One test remains. What must the student score on the sixth test to finish with an average of 86 for all six tests?",
+     "choices": [
+      "88",
+      "96",
+      "92",
+      "86"
+     ],
+     "answer": "B",
+     "explanation": "Five tests at an average of 84 total 5 x 84 = 420 points. Six tests averaging 86 need 6 x 86 = 516 points, so the last test must be 516 - 420 = 96. The tempting wrong answer is 88, which adds the 2-point rise in the average to 86 as though the rise applied to one test only. The answer 86 assumes matching the target average is enough."
+    },
+    {
+     "num": 10,
+     "topic": "Arithmetic Reasoning",
+     "question": "A truck leaves a depot at 8:00 a.m. and averages 45 miles per hour on a straight road. A car leaves the same depot at 10:00 a.m., travels the same road, and averages 60 miles per hour. At what time does the car catch up with the truck?",
+     "choices": [
+      "12:00 noon",
+      "2:00 p.m.",
+      "4:00 p.m.",
+      "11:30 a.m."
+     ],
+     "answer": "C",
+     "explanation": "By 10:00 a.m. the truck is 2 x 45 = 90 miles ahead. The car closes the gap at 60 - 45 = 15 miles per hour, needing 90 / 15 = 6 hours, which is 4:00 p.m. Checking, the truck has gone 8 x 45 = 360 miles and the car 6 x 60 = 360 miles. The tempting wrong answer is 11:30 a.m., which divides the 90-mile gap by the car's full 60 miles per hour instead of using the 15-mile-per-hour closing rate."
+    },
+    {
+     "num": 11,
+     "topic": "Arithmetic Reasoning",
+     "question": "A driver covers 120 miles of highway at an average of 60 miles per hour, then covers the next 120 miles of city roads at an average of 40 miles per hour. What is the average speed for the whole 240-mile trip?",
+     "choices": [
+      "100 miles per hour",
+      "48 miles per hour",
+      "52 miles per hour",
+      "50 miles per hour"
+     ],
+     "answer": "B",
+     "explanation": "The highway leg takes 120 / 60 = 2 hours and the city leg takes 120 / 40 = 3 hours, so 240 miles take 5 hours. The average speed is 240 / 5 = 48 miles per hour. The tempting wrong answer is 50, the average of the two speeds, which would only be right if equal time, not equal distance, were spent at each speed."
+    },
+    {
+     "num": 12,
+     "topic": "Arithmetic Reasoning",
+     "question": "A tank holds 30 ounces of a salt solution that is 20 percent salt. How much pure water must be added so that the mixture becomes 12 percent salt?",
+     "choices": [
+      "20 ounces",
+      "12 ounces",
+      "8 ounces",
+      "50 ounces"
+     ],
+     "answer": "A",
+     "explanation": "The salt stays fixed at 30 x 0.20 = 6 ounces. For 6 ounces to be 12 percent of the mixture, the mixture must total 6 / 0.12 = 50 ounces, so 50 - 30 = 20 ounces of water is added. The tempting wrong answer is 50 ounces, which is the final volume rather than the water added. The answer 8 ounces subtracts the two percents."
+    },
+    {
+     "num": 13,
+     "topic": "Arithmetic Reasoning",
+     "question": "A bag holds 4 red marbles, 6 blue marbles, and 5 green marbles. Two marbles are drawn one after the other, and the first marble is not put back. What is the probability that both marbles are blue?",
+     "choices": [
+      "2/15",
+      "2/5",
+      "1/7",
+      "4/25"
+     ],
+     "answer": "C",
+     "explanation": "There are 15 marbles, so the first draw is blue with probability 6/15. After a blue marble is removed, 5 of the 14 left are blue, so the probability of both is 6/15 x 5/14 = 30/210 = 1/7. The tempting wrong answer is 4/25, which multiplies 6/15 by 6/15 as though the first marble were put back. The answer 2/5 covers only the first draw."
+    },
+    {
+     "num": 14,
+     "topic": "Mathematics Knowledge",
+     "question": "If (2x + 5)/3 = x - 4, what is the value of x?",
+     "choices": [
+      "7",
+      "-17",
+      "17",
+      "9"
+     ],
+     "answer": "C",
+     "explanation": "Multiply both sides by 3 to clear the fraction: 2x + 5 = 3x - 12. Subtracting 2x from both sides gives 5 = x - 12, so x = 17. Checking, (2 x 17 + 5)/3 = 39/3 = 13 and 17 - 4 = 13. The tempting wrong answer is 9, which comes from multiplying only the x term on the right by 3 and solving 2x + 5 = 3x - 4. The answer -17 is a sign slip in the final step."
+    },
+    {
+     "num": 15,
+     "topic": "Mathematics Knowledge",
+     "question": "Which binomial is a factor of x² - 5x - 24?",
+     "choices": [
+      "x + 8",
+      "x - 8",
+      "x + 6",
+      "x - 3"
+     ],
+     "answer": "B",
+     "explanation": "Look for two numbers whose product is -24 and whose sum is -5: those are -8 and +3, so x² - 5x - 24 = (x - 8)(x + 3), and x - 8 is a factor. The tempting wrong answer is x + 8, which uses the right number with the wrong sign and would give a middle term of +5x. The binomial x - 3 flips the sign on the other factor."
+    },
+    {
+     "num": 16,
+     "topic": "Mathematics Knowledge",
+     "question": "What are the solutions of the equation x² + 2x = 15?",
+     "choices": [
+      "5 and -3",
+      "5 and 3",
+      "-5 and 3",
+      "-5 and -3"
+     ],
+     "answer": "C",
+     "explanation": "Move everything to one side: x² + 2x - 15 = 0, which factors as (x + 5)(x - 3) = 0, giving x = -5 and x = 3. Checking, (-5)² + 2(-5) = 25 - 10 = 15 and 3² + 2(3) = 9 + 6 = 15. The tempting wrong answer is 5 and -3, which reads the signs straight off the factors instead of reversing them when each factor is set equal to zero."
+    },
+    {
+     "num": 17,
+     "topic": "Mathematics Knowledge",
+     "question": "Which describes every value of x that satisfies -3x + 7 > 22?",
+     "choices": [
+      "x < -5",
+      "x < 5",
+      "x > -5",
+      "x > 5"
+     ],
+     "answer": "A",
+     "explanation": "Subtract 7 from both sides to get -3x > 15. Dividing both sides by -3 reverses the inequality sign, giving x < -5. Testing x = -6: -3(-6) + 7 = 25, which is greater than 22. The tempting wrong answer is x > -5, which divides by the negative number without reversing the sign; testing x = 0 gives 7, which is not greater than 22."
+    },
+    {
+     "num": 18,
+     "topic": "Mathematics Knowledge",
+     "question": "Simplify (2x³y)⁴ ÷ (4x²y²), where x and y are not zero.",
+     "choices": [
+      "4x^10y²",
+      "2x^10y²",
+      "4x^14y^6",
+      "4x^5y³"
+     ],
+     "answer": "A",
+     "explanation": "Raise every factor to the fourth power: (2x³y)⁴ = 16x^12y⁴. Dividing by 4x²y² divides the coefficients and subtracts exponents: 16/4 = 4, x^(12-2) = x^10, and y^(4-2) = y². The result is 4x^10y². The tempting wrong answer is 2x^10y², which multiplies the 2 by 4 instead of raising it to the fourth power. The answer 4x^14y^6 adds exponents while dividing."
+    },
+    {
+     "num": 19,
+     "topic": "Mathematics Knowledge",
+     "question": "What is √288 written in simplest radical form?",
+     "choices": [
+      "12√3",
+      "24√2",
+      "8√2",
+      "12√2"
+     ],
+     "answer": "D",
+     "explanation": "Find the largest perfect square inside 288: since 288 = 144 x 2, √288 = √144 x √2 = 12√2. Squaring the result checks it: (12√2)² = 144 x 2 = 288. The tempting wrong answer is 12√3, which keeps the correct perfect square but leaves the wrong number under the radical, since 144 x 3 = 432. The answer 24√2 squares to 1,152."
+    },
+    {
+     "num": 20,
+     "topic": "Mathematics Knowledge",
+     "question": "The area of a circle is 49π square inches. What is the circumference of the same circle?",
+     "choices": [
+      "14π inches",
+      "28π inches",
+      "98π inches",
+      "7π inches"
+     ],
+     "answer": "A",
+     "explanation": "Area is πr², so πr² = 49π gives r² = 49 and r = 7 inches. Circumference is 2πr = 2π(7) = 14π inches. The tempting wrong answer is 28π inches, which puts the diameter of 14 inches into the formula 2πr, doubling the circumference. The answer 7π inches uses πr instead of 2πr, and 98π simply doubles the area."
+    },
+    {
+     "num": 21,
+     "topic": "Mathematics Knowledge",
+     "question": "An isosceles triangle has two equal sides of 13 inches each and a base of 10 inches. What is the area of the triangle?",
+     "choices": [
+      "65 square inches",
+      "78 square inches",
+      "120 square inches",
+      "60 square inches"
+     ],
+     "answer": "D",
+     "explanation": "The height to the base splits the base in half, forming a right triangle with a 5-inch leg and a 13-inch hypotenuse. The height is √(169 - 25) = √144 = 12 inches, so the area is (10 x 12) / 2 = 60 square inches. The tempting wrong answer is 65 square inches, which uses a 13-inch side as the height instead of finding the true height of 12."
+    },
+    {
+     "num": 22,
+     "topic": "Mathematics Knowledge",
+     "question": "A closed rectangular crate measures 4 inches by 5 inches by 10 inches. What is the total surface area of the crate?",
+     "choices": [
+      "220 square inches",
+      "180 square inches",
+      "200 square inches",
+      "110 square inches"
+     ],
+     "answer": "A",
+     "explanation": "The three different faces measure 4 x 5 = 20, 4 x 10 = 40, and 5 x 10 = 50 square inches, and each occurs twice: 2(20 + 40 + 50) = 220 square inches. The tempting wrong answer is 110 square inches, which counts each face only once instead of doubling. The answer 200 square inches is the volume value, 4 x 5 x 10, carried over with the wrong units."
+    },
+    {
+     "num": 23,
+     "topic": "Mathematics Knowledge",
+     "question": "Two parallel lines are cut by a transversal. One interior angle on one side of the transversal measures 4x + 10 degrees, and the interior angle on the same side of the transversal at the other parallel line measures 6x degrees. What is the measure of the larger of these two angles?",
+     "choices": [
+      "30 degrees",
+      "78 degrees",
+      "17 degrees",
+      "102 degrees"
+     ],
+     "answer": "D",
+     "explanation": "Interior angles on the same side of a transversal between parallel lines are supplementary, so (4x + 10) + 6x = 180. That gives 10x = 170 and x = 17, making the angles 78 degrees and 102 degrees, with 102 degrees the larger. The tempting wrong answer is 30 degrees, which sets the two angles equal as though they were alternate interior angles, giving x = 5."
+    },
+    {
+     "num": 24,
+     "topic": "Mathematics Knowledge",
+     "question": "A straight line passes through the points (-2, 5) and (4, -7) on the coordinate plane. What is the slope of this line?",
+     "choices": [
+      "1/2",
+      "-2",
+      "-1/2",
+      "2"
+     ],
+     "answer": "B",
+     "explanation": "Slope is the change in the second coordinate over the change in the first: (-7 - 5) / (4 - (-2)) = -12 / 6 = -2. The tempting wrong answer is -1/2, which divides the horizontal change by the vertical change, turning the slope upside down. The answer 2 keeps the size but loses the negative sign, even though the line falls as it moves to the right."
+    },
+    {
+     "num": 25,
+     "topic": "Mathematics Knowledge",
+     "question": "A technician divides the quantity 6 × 10^5 by the quantity 1.5 × 10^-2. Expressed in proper scientific notation, what is the quotient?",
+     "choices": [
+      "4 × 10^-7",
+      "4 × 10^3",
+      "4 × 10^7",
+      "0.25 × 10^7"
+     ],
+     "answer": "C",
+     "explanation": "Divide the front numbers and subtract the exponents: 6 / 1.5 = 4 and 10^(5 - (-2)) = 10^7, giving 4 × 10^7. A decimal check gives 600,000 / 0.015 = 40,000,000. The tempting wrong answer is 4 × 10^3, which adds the exponents as 5 + (-2) instead of subtracting. The answer 0.25 × 10^7 divides 1.5 by 6 and is also not in proper form."
+    }
+   ]
+  }
+ ]
+}

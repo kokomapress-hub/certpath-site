@@ -1,0 +1,338 @@
+{
+ "slug": "psat-math-free25",
+ "title": "Free sample",
+ "free": true,
+ "note": "Original questions written for the free sample. They do not appear in the book or in the owners' online practice tests.",
+ "tests": [
+  {
+   "testNum": 1,
+   "questions": [
+    {
+     "num": 1,
+     "topic": "Algebra",
+     "question": "A crew rents an aerator for a $65.00 delivery charge plus $22.50 for each hour the machine is kept, and the fuel it burns costs an additional $4.75 for each of those hours. A 7% sales tax is applied to the total of all of these charges. If the crew has $400.00 to spend, what is the greatest whole number of hours it can keep the aerator?",
+     "choices": [
+      "11",
+      "13",
+      "12",
+      "14"
+     ],
+     "answer": "A",
+     "explanation": "Each hour costs 22.50 + 4.75 = $27.25, so the pre-tax total is 65 + 27.25h and the taxed total is 1.07(65 + 27.25h) ≤ 400. That gives 27.25h ≤ 308.83, so h ≤ 11.3 and the answer is 11 hours, costing $390.28; 12 hours would cost $419.44. The value 12 is the tempting one: it drops the tax and solves (400 - 65)/27.25 = 12.3."
+    },
+    {
+     "num": 2,
+     "topic": "Algebra",
+     "question": "At a concession stand, 3 pretzels and 2 lemonades cost $16.10, and 5 pretzels and 4 lemonades cost $28.90. A customer buys 4 pretzels and 3 lemonades at these prices and pays with a $30.00 bill. How much change does the customer receive?",
+     "choices": [
+      "$7.70",
+      "$22.50",
+      "$7.50",
+      "$7.60"
+     ],
+     "answer": "C",
+     "explanation": "Doubling the first order gives 6 pretzels and 4 lemonades for $32.20; subtracting the second order leaves one pretzel at $3.30, so each lemonade costs (16.10 - 9.90)/2 = $3.10. Then 4(3.30) + 3(3.10) = $22.50 and the change is $7.50. The value $7.70 comes from swapping the two prices, an easy slip because the elimination step isolates the pretzel rather than the lemonade."
+    },
+    {
+     "num": 3,
+     "topic": "Algebra",
+     "question": "A shop begins a shift with 960 meters of wire on one spool and 1,200 meters on another. Wire is drawn from the first spool at a constant 15 meters per hour and from the second at a constant 25 meters per hour, and no wire is added. How many meters of wire remain on each spool at the moment the two spools hold equal amounts?",
+     "choices": [
+      "360",
+      "600",
+      "240",
+      "870"
+     ],
+     "answer": "B",
+     "explanation": "The spools hold 960 - 15h and 1,200 - 25h meters after h hours. Setting these equal gives 960 - 15h = 1,200 - 25h, so 10h = 240 and h = 24 hours, when each spool holds 960 - 15(24) = 600 meters, which 1,200 - 25(24) also confirms. The value 360 is the tempting one: it is the wire drawn off the first spool by then rather than the wire still on it."
+    },
+    {
+     "num": 4,
+     "topic": "Algebra",
+     "question": "In the equation 5(2x - 3) + a = b(x + 4) - 7, a and b are constants. If the equation is true for every value of x, what is the value of a - b?",
+     "choices": [
+      "8",
+      "38",
+      "58",
+      "-2"
+     ],
+     "answer": "B",
+     "explanation": "Matching the x-terms gives b = 10. Matching the constants gives -15 + a = 4(10) - 7 = 33, so a = 48 and a - b = 38; both sides then read 10x + 33. The value 8 is the tempting one: it comes from writing a = 33 - 15 instead of a = 33 + 15, moving the -15 to the wrong side while handling the rest of the work correctly."
+    },
+    {
+     "num": 5,
+     "topic": "Algebra",
+     "question": "The number of items in a distribution center, in thousands of items, h hours after restocking begins is modeled by N = 4.8 + 0.6h. The same model can be written as N = 4.8 + 0.01m, where m is the number of minutes after restocking begins. Which of the following is the best interpretation of the number 0.01 in the second form?",
+     "choices": [
+      "The model predicts that the center gains about 10 items each hour.",
+      "The model predicts that the center held about 10 items when restocking began.",
+      "The model predicts that the center gains about 10 items each minute.",
+      "The model predicts that the center gains about 0.01 item each minute."
+     ],
+     "answer": "C",
+     "explanation": "Because N counts thousands of items, the coefficient 0.01 means 0.01 thousand items per minute, which is 10 items per minute; this matches 0.6 thousand, or 600 items, per hour spread over 60 minutes. Reading 0.01 as 0.01 item each minute is the tempting error: it takes the number straight off the model and ignores that every value of N is measured in thousands."
+    },
+    {
+     "num": 6,
+     "topic": "Algebra",
+     "question": "The measure S, in degrees, of each interior angle of a regular polygon with n sides is given by S = 180(n - 2)/n. Which of the following correctly expresses n in terms of S?",
+     "choices": [
+      "n = 360/(180 - S)",
+      "n = 360/(S - 180)",
+      "n = (S + 360)/180",
+      "n = 180/(180 - S)"
+     ],
+     "answer": "A",
+     "explanation": "Multiplying by n gives Sn = 180n - 360, so 360 = 180n - Sn = n(180 - S) and n = 360/(180 - S). Testing a regular pentagon, S = 108 gives 360/72 = 5 sides. The version with S - 180 in the denominator comes from moving the terms the other way without flipping the sign, and it returns a negative number of sides for every polygon."
+    },
+    {
+     "num": 7,
+     "topic": "Algebra",
+     "question": "A club buys notebooks at $4.25 each and pens at $1.80 each, and it must buy at least twice as many pens as notebooks. The supplier takes $0.35 off the price of every pen in an order of 20 or more pens. The club has $60.00 and buys 6 notebooks. What is the greatest number of pens the club can buy?",
+     "choices": [
+      "19",
+      "20",
+      "24",
+      "23"
+     ],
+     "answer": "D",
+     "explanation": "Six notebooks cost $25.50, leaving $34.50 for pens. At the full price of $1.80 only 19 pens fit, but an order of 20 or more drops the price to $1.45, and 34.50/1.45 = 23.8, so 23 pens cost $33.35 and fit; 24 would cost $34.80. Since 23 is at least 20, the discount really applies. The value 19 is the trap: it prices every pen at $1.80 and never tests the discount."
+    },
+    {
+     "num": 8,
+     "topic": "Algebra",
+     "question": "In the xy-plane, the graph of 3x + ky = 18 is parallel to the line that passes through the points (2, 5) and (8, 1), where k is a constant. What is the value of k?",
+     "choices": [
+      "4.5",
+      "2",
+      "-4.5",
+      "-2"
+     ],
+     "answer": "A",
+     "explanation": "The line through the two points has slope (1 - 5)/(8 - 2) = -2/3. Rewriting 3x + ky = 18 as y = -(3/k)x + 18/k shows its slope is -3/k, and setting -3/k = -2/3 gives k = 4.5; with k = 4.5 the slope is -3/4.5 = -2/3. The value -2 comes from using the perpendicular slope 3/2 instead of the parallel slope, which reverses both the sign and the ratio."
+    },
+    {
+     "num": 9,
+     "topic": "Algebra",
+     "question": "A taxi charges $3.50 for the first 1/5 mile of a trip and $0.45 for each additional 1/5 mile, and it adds a flat $2.00 surcharge to any trip that starts after 10 p.m. A rider whose trip started at 11 p.m. was charged $19.00. How many miles long was the trip?",
+     "choices": [
+      "7.0 miles",
+      "6.2 miles",
+      "6.0 miles",
+      "5.2 miles"
+     ],
+     "answer": "B",
+     "explanation": "After the $2.00 surcharge and the $3.50 first segment, $13.50 remains, which buys 13.50/0.45 = 30 additional fifth-mile segments. With the first segment that is 31 segments, or 31/5 = 6.2 miles. The value 6.0 is the tempting one: it converts the 30 additional segments to miles and forgets that the $3.50 already paid for one more fifth of a mile."
+    },
+    {
+     "num": 10,
+     "topic": "Advanced Math",
+     "question": "A rectangular enclosure is built against a long straight barn wall, so fencing is needed on only the three sides that are not against the wall. A farmer has 96 meters of fencing and uses all of it. What is the greatest possible area of the enclosure, in square meters?",
+     "choices": [
+      "1,152",
+      "1,024",
+      "2,304",
+      "576"
+     ],
+     "answer": "A",
+     "explanation": "If each of the two sides perpendicular to the wall is w meters, the side parallel to the wall is 96 - 2w, so the area is w(96 - 2w) = -2w² + 96w. This quadratic peaks at w = 96/4 = 24, giving 24(48) = 1,152 square meters. The value 576 comes from assuming the best shape is a square with 96/4 = 24 on every side, which forgets that the wall replaces one side."
+    },
+    {
+     "num": 11,
+     "topic": "Advanced Math",
+     "question": "In the equation 3x² + kx + 27 = 0, k is a constant. For which values of k does the equation have two distinct real solutions?",
+     "choices": [
+      "k < -9 or k > 9",
+      "k > 18",
+      "-18 < k < 18",
+      "k < -18 or k > 18"
+     ],
+     "answer": "D",
+     "explanation": "Two distinct real solutions require a positive discriminant: k² - 4(3)(27) = k² - 324 > 0, so k² > 324 and k is beyond 18 in either direction. At k = 18 the discriminant is 0, giving one repeated solution. The range beyond 9 in either direction is the tempting error: it drops the factor 4 from 4ac and uses the square root of 3(27) = 81 as the cutoff."
+    },
+    {
+     "num": 12,
+     "topic": "Advanced Math",
+     "question": "Two accounts each open with $4,000 and receive no deposits or withdrawals. Account 1 grows by 6% each year. Account 2 grows by 1.5% each quarter, that is, every 3 months. Which statement correctly compares the two balances after 3 years?",
+     "choices": [
+      "Account 1 holds about $581 more than Account 2.",
+      "Account 1 holds about $18 more than Account 2.",
+      "The two accounts hold equal amounts.",
+      "Account 2 holds about $18 more than Account 1."
+     ],
+     "answer": "D",
+     "explanation": "Account 1 holds 4,000(1.06)³ = $4,764.06. Account 2 compounds 12 times: 4,000(1.015)¹² = $4,782.47, about $18 more, because each quarter's growth earns growth of its own. Saying the balances are equal is the tempting response, since 4 quarters at 1.5% appears to add up to the annual 6%; compounding four times a year beats a single 6% credit."
+    },
+    {
+     "num": 13,
+     "topic": "Advanced Math",
+     "question": "A patient is given a 400 milligram per liter dose of a medication whose blood concentration decreases by half every 6 hours. An identical 400 milligram per liter dose is given 12 hours after the first. What is the total concentration 18 hours after the first dose?",
+     "choices": [
+      "100 milligrams per liter",
+      "150 milligrams per liter",
+      "250 milligrams per liter",
+      "450 milligrams per liter"
+     ],
+     "answer": "C",
+     "explanation": "The first dose has been decaying for 18 hours, which is three half-lives, leaving 400/8 = 50. The second dose has been decaying for only 6 hours, one half-life, leaving 400/2 = 200. The total is 250 milligrams per liter. The value 150 is the tempting one: it ages the second dose 12 hours instead of 6, using the time since the first dose rather than the time since that dose was actually given."
+    },
+    {
+     "num": 14,
+     "topic": "Advanced Math",
+     "question": "For which values of x is the expression (x² - 9)/(x² - x - 6) undefined?",
+     "choices": [
+      "x = -3 and x = 2",
+      "x = 3 only",
+      "x = -2 and x = 3",
+      "x = -2 only"
+     ],
+     "answer": "C",
+     "explanation": "An expression is undefined exactly where its denominator is zero. Factoring, x² - x - 6 = (x - 3)(x + 2), which is zero at x = 3 and x = -2, so both values must be excluded. Answering with -2 only is the common error: the numerator also has a factor of x - 3, and cancelling it first hides the fact that the original expression still has no value at x = 3."
+    },
+    {
+     "num": 15,
+     "topic": "Advanced Math",
+     "question": "What value of x satisfies the equation 3/(x - 2) + 1 = 12/(x² - 4)?",
+     "choices": [
+      "-5",
+      "-2",
+      "5",
+      "2"
+     ],
+     "answer": "A",
+     "explanation": "Multiplying through by (x - 2)(x + 2) gives 3(x + 2) + (x² - 4) = 12, so x² + 3x - 10 = 0 and x = 2 or x = -5. Substituting x = -5 works: 3/(-7) + 1 = 4/7 and 12/21 = 4/7. Substituting x = 2 is impossible because both denominators become 0, so it is extraneous; reporting 2 is the usual error because the algebra produces it."
+    },
+    {
+     "num": 16,
+     "topic": "Advanced Math",
+     "question": "The function h is defined by h(x) = f(g(x)), where f(x) = 2x² - 5 and g(x) = x + k and k is a positive constant. If h(1) = 45, what is the value of k?",
+     "choices": [
+      "24",
+      "-6",
+      "4",
+      "48"
+     ],
+     "answer": "C",
+     "explanation": "Since h(1) = f(g(1)) = f(1 + k), the equation is 2(1 + k)² - 5 = 45, so (1 + k)² = 25 and 1 + k = 5 or -5, giving k = 4 or k = -6. Only k = 4 is positive, and f(5) = 45 checks. The value 48 comes from composing in the wrong order: g(f(1)) = -3 + k set equal to 45 treats the squaring as the outer step."
+    },
+    {
+     "num": 17,
+     "topic": "Advanced Math",
+     "question": "In the xy-plane, the graph of the function f defined by f(x) = a(x - 3)(x - 7), where a is a constant, has its lowest point at (5, -12). What is the value of f(0)?",
+     "choices": [
+      "21",
+      "63",
+      "105",
+      "-63"
+     ],
+     "answer": "B",
+     "explanation": "The lowest point sits halfway between the zeros 3 and 7, at x = 5, and there f(5) = a(2)(-2) = -4a. Setting -4a = -12 gives a = 3, so f(0) = 3(-3)(-7) = 63. The value 21 is the tempting one: it evaluates (0 - 3)(0 - 7) correctly but treats a as 1, skipping the step where the lowest point's height of -12 pins the stretch factor down."
+    },
+    {
+     "num": 18,
+     "topic": "Problem-Solving and Data Analysis",
+     "question": "A press prints 1,250 sheets per hour and uses 3.4 milliliters of ink per sheet. Ink is sold only in full 2-liter bottles that cost $46.50 each. What is the least amount a shop must spend on ink to cover a 6-hour run?",
+     "choices": [
+      "$1,209.00",
+      "$558.00",
+      "$592.88",
+      "$604.50"
+     ],
+     "answer": "D",
+     "explanation": "The run prints 6(1,250) = 7,500 sheets and uses 7,500(3.4) = 25,500 milliliters, which is 25.5 liters. Each bottle holds 2 liters, so 25.5/2 = 12.75 bottles are needed, and since only full bottles are sold the shop buys 13, at 13($46.50) = $604.50. The $592.88 choice prices 12.75 bottles, buying a part of a bottle that is not for sale."
+    },
+    {
+     "num": 19,
+     "topic": "Problem-Solving and Data Analysis",
+     "question": "Last year a store's revenue came 60% from online sales and 40% from in-store sales. This year its online sales rose 25% and its in-store sales fell 15%, and the store had no other sources of revenue in either year. By what percent did the store's total revenue change?",
+     "choices": [
+      "It increased by 15%.",
+      "It increased by 9%.",
+      "It increased by 10%.",
+      "It increased by 5%."
+     ],
+     "answer": "B",
+     "explanation": "Take last year's revenue as 100: online was 60 and in-store was 40. This year online is 60(1.25) = 75 and in-store is 40(0.85) = 34, for a total of 109, an increase of 9%. The 5% figure is the tempting one: it averages +25% and -15% as though the two parts of the business were the same size, ignoring that the growing part is the larger share."
+    },
+    {
+     "num": 20,
+     "topic": "Problem-Solving and Data Analysis",
+     "question": "A course has two sections. Section 1 has 18 students whose mean score on an exam was 76. Section 2 has 12 students. The instructor wants the mean score of all 30 students to be at least 82. What is the least mean score Section 2 can have for that to happen?",
+     "choices": [
+      "91",
+      "88",
+      "82",
+      "86"
+     ],
+     "answer": "A",
+     "explanation": "All 30 students must total at least 30(82) = 2,460 points, and Section 1 supplies 18(76) = 1,368, so Section 2's 12 students must total at least 1,092, a mean of at least 91. The value 88 is the tempting one: it solves (76 + x)/2 = 82, averaging the two section means as though the sections were equal in size, which understates what the smaller section must do."
+    },
+    {
+     "num": 21,
+     "topic": "Problem-Solving and Data Analysis",
+     "question": "Of the 250 people at a conference, 40% attended the morning workshop. Of the people who attended the morning workshop, 65% also attended the afternoon workshop. Of the people who did not attend the morning workshop, 30% attended the afternoon workshop. If a person who attended the afternoon workshop is selected at random, what is the probability that the person also attended the morning workshop?",
+     "choices": [
+      "13/50",
+      "13/22",
+      "13/20",
+      "9/22"
+     ],
+     "answer": "B",
+     "explanation": "The morning workshop drew 0.40(250) = 100 people, 65 of whom returned in the afternoon. Of the other 150, 0.30(150) = 45 attended the afternoon session, so 110 people attended in the afternoon and 65/110 = 13/22 of them were there in the morning. The fraction 13/20 reverses the condition: 65/100 is the chance a morning attendee returned, which divides by the wrong group."
+    },
+    {
+     "num": 22,
+     "topic": "Problem-Solving and Data Analysis",
+     "question": "For a group of used cars of one model, the line of best fit relating a car's age a, in years, to its price p, in dollars, is p = 24,800 - 1,950a. On a dealer's lot, a 5-year-old car of this model is priced $900 above the price the model predicts, and an 8-year-old car of this model is priced $450 below the price the model predicts. How much more is the 5-year-old car's price than the 8-year-old car's price?",
+     "choices": [
+      "$5,850",
+      "$4,500",
+      "$6,750",
+      "$7,200"
+     ],
+     "answer": "D",
+     "explanation": "The model predicts 24,800 - 1,950(5) = $15,050 and 24,800 - 1,950(8) = $9,200. The actual prices are 15,050 + 900 = $15,950 and 9,200 - 450 = $8,750, a difference of $7,200. The value $5,850 is the tempting one: it is 3(1,950), the difference the model alone predicts, and it ignores that one car is priced above the line while the other is priced below it."
+    },
+    {
+     "num": 23,
+     "topic": "Geometry and Trigonometry",
+     "question": "In triangle PQR, point S lies on side PQ and point T lies on side PR, and segment ST is parallel to side QR. The length of PS is 8, the length of SQ is 6, and the length of QR is 21. What is the length of ST?",
+     "choices": [
+      "15.75",
+      "9",
+      "12",
+      "28"
+     ],
+     "answer": "C",
+     "explanation": "Because ST is parallel to QR, triangle PST is similar to triangle PQR with corresponding sides PS and PQ. Here PQ = 8 + 6 = 14, so the ratio of similarity is 8/14 = 4/7 and ST = (4/7)(21) = 12. The value 15.75 is the tempting one: it scales 21 by 6/8, using the two pieces of side PQ against each other instead of the shorter piece against the whole side."
+    },
+    {
+     "num": 24,
+     "topic": "Geometry and Trigonometry",
+     "question": "A cone-shaped paper cup has a radius of 5 centimeters at its rim and a height of 12 centimeters, with its point at the bottom. Water is poured in until the surface of the water is exactly halfway up the height of the cup. To the nearest tenth of a cubic centimeter, what is the volume of the water?",
+     "choices": [
+      "39.3",
+      "78.5",
+      "157.1",
+      "314.2"
+     ],
+     "answer": "A",
+     "explanation": "The water forms a cone similar to the cup with every dimension halved, so its radius is 2.5 centimeters and its height is 6 centimeters: volume = (1/3)π(2.5²)(6) = 12.5π ≈ 39.3 cubic centimeters, one eighth of the cup's 100π. The value 157.1 is the trap: it takes half the full volume, assuming half the height holds half the water, which ignores how the cup narrows toward the point."
+    },
+    {
+     "num": 25,
+     "topic": "Geometry and Trigonometry",
+     "question": "A surveyor stands on level ground 84 feet from the base of a tower. From the surveyor's eye, which is 5.5 feet above the ground, the angle of elevation to the top of the tower measures 38°. To the nearest foot, what is the height of the tower?",
+     "choices": [
+      "66 feet",
+      "57 feet",
+      "113 feet",
+      "71 feet"
+     ],
+     "answer": "D",
+     "explanation": "The horizontal distance 84 is adjacent to the 38° angle and the rise above eye level is opposite it, so that rise is 84 tan(38°) = 65.6 feet. The tower also extends from the ground up to eye level, so its height is 65.6 + 5.5 = 71.1, or 71 feet. The value 66 is the tempting one: it stops at the rise above eye level and leaves out the 5.5 feet below the line of sight."
+    }
+   ]
+  }
+ ]
+}

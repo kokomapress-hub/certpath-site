@@ -41,7 +41,7 @@
   function hasLead() { try { return JSON.parse(localStorage.getItem(FREE_KEY) || '[]').indexOf(cfg.slug) !== -1; } catch (e) { return false; } }
   function showStart() { $('#freeForm').hidden = true; $('#freeStart').hidden = false; }
 
-  $('#freeForm').addEventListener('submit', function (ev) {
+  if ($('#freeForm')) $('#freeForm').addEventListener('submit', function (ev) {
     ev.preventDefault();
     var email = $('#freeEmail').value.trim();
     if (!email) return;
@@ -58,7 +58,7 @@
     } catch (e) {}
     location.href = $('#freeStart').getAttribute('href');
   });
-  if (hasLead()) showStart();
+  if ($('#freeForm') && hasLead()) showStart();
 
   // ---- Access code: unlock in place ----
   var form = $('#codeForm'), msg = $('#codeMsg');

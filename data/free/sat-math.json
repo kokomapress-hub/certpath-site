@@ -1,0 +1,338 @@
+{
+ "slug": "sat-math-free25",
+ "title": "Free sample",
+ "free": true,
+ "note": "Original questions written for the free sample. They do not appear in the book or in the owners' online practice tests.",
+ "tests": [
+  {
+   "testNum": 1,
+   "questions": [
+    {
+     "num": 1,
+     "topic": "Algebra",
+     "question": "A workshop's total cost, in dollars, of producing n identical lamps is C = 8.40n + 3,150, and each lamp sells for $14.65. If every lamp produced is sold, what is the least number of lamps the workshop must produce and sell for its revenue to be greater than its total cost?",
+     "choices": [
+      "375",
+      "504",
+      "216",
+      "505"
+     ],
+     "answer": "D",
+     "explanation": "Revenue exceeds cost when 14.65n > 8.40n + 3,150, so 6.25n > 3,150 and n > 504. Because 504 lamps give revenue exactly equal to cost, the least number that produces a profit is 505. The value 504 is the tempting choice: it comes from solving the break-even equation 6.25n = 3,150 and reporting that boundary even though the requirement is strict inequality."
+    },
+    {
+     "num": 2,
+     "topic": "Algebra",
+     "question": "In the system of equations 6x - 4y = 10 and -9x + cy = 21, c is a constant. For which value of c does the system have no solution?",
+     "choices": [
+      "6",
+      "-6",
+      "-8.4",
+      "13.5"
+     ],
+     "answer": "A",
+     "explanation": "A system of two linear equations has no solution when the lines are parallel but distinct, which requires 6c = (-9)(-4), so c = 6. Multiplying the first equation by -1.5 gives -9x + 6y = -15, and -15 is not 21, so the lines never meet. The value 13.5 comes from lining the ratios up incorrectly as 6/(-4) = c/(-9), which pairs coefficients from different variables."
+    },
+    {
+     "num": 3,
+     "topic": "Algebra",
+     "question": "The system of equations 3x + ky = 12 and mx - 6y = -18 has infinitely many solutions, where k and m are constants. What is the value of k + m?",
+     "choices": [
+      "0.5",
+      "-0.5",
+      "7",
+      "-3"
+     ],
+     "answer": "B",
+     "explanation": "Infinitely many solutions means the second equation is a nonzero multiple of the first. Comparing constants, -18 = t(12), so t = -1.5. Then m = 3(-1.5) = -4.5 and -6 = k(-1.5) gives k = 4, so k + m = -0.5. The value 7 comes from building the multiplier upside down as 12/(-18) = -2/3, which produces m = -2 and k = 9."
+    },
+    {
+     "num": 4,
+     "topic": "Algebra",
+     "question": "A delivery van bought for $24,600 loses value at a constant rate, so its value in dollars t years after purchase is V = 24,600 - 1,845t. After how long is the van worth 60% of its purchase price?",
+     "choices": [
+      "5 years 3 months",
+      "13 years 4 months",
+      "8 years 0 months",
+      "5 years 4 months"
+     ],
+     "answer": "D",
+     "explanation": "Sixty percent of $24,600 is $14,760, so the van must lose $9,840 in value. Dividing, 9,840/1,845 = 5 1/3 years, and one third of a year is 4 months. The choice of 8 years 0 months comes from dividing the target value $14,760 by 1,845, which finds how long it takes to lose 60% of the price rather than how long until 60% remains."
+    },
+    {
+     "num": 5,
+     "topic": "Algebra",
+     "question": "A chemist combines a 12% acid solution with a 30% acid solution to obtain 45 liters of a 22% acid solution. How many liters of the 12% solution are used?",
+     "choices": [
+      "25",
+      "30",
+      "20",
+      "22.5"
+     ],
+     "answer": "C",
+     "explanation": "If x liters of the 12% solution are used, then 0.12x + 0.30(45 - x) = 0.22(45) = 9.9. Simplifying gives 13.5 - 0.18x = 9.9, so 0.18x = 3.6 and x = 20 liters. The value 25 is what most candidates reach for: it is the correct amount of the 30% solution, obtained by solving for the other unknown and forgetting which one the question asks for."
+    },
+    {
+     "num": 6,
+     "topic": "Algebra",
+     "question": "A theater sold 420 tickets to a concert and collected $7,980. Adult tickets cost $24.00 each and student tickets cost $13.50 each, and every ticket sold was one of these two types. How many adult tickets were sold?",
+     "choices": [
+      "171",
+      "200",
+      "220",
+      "332"
+     ],
+     "answer": "C",
+     "explanation": "Let a be adult tickets and s student tickets: a + s = 420 and 24a + 13.5s = 7,980. Substituting s = 420 - a gives 24a + 5,670 - 13.5a = 7,980, so 10.5a = 2,310 and a = 220 (with 200 student tickets). The value 200 is the trap: it solves the system correctly but reports the number of student tickets instead of adult tickets."
+    },
+    {
+     "num": 7,
+     "topic": "Algebra",
+     "question": "A caterer is ordering chairs that cost $18 each and tables that cost $65 each. The order must contain at least 5 times as many chairs as tables, and the total cost must be no more than $2,400. If c is the number of chairs and t is the number of tables ordered, which system of inequalities represents these requirements?",
+     "choices": [
+      "65c + 18t ≤ 2400 and c ≥ 5t",
+      "18c + 65t ≤ 2400 and 5c ≥ t",
+      "18c + 65t ≤ 2400 and c ≥ 5t",
+      "18c + 65t ≥ 2400 and c ≥ 5t"
+     ],
+     "answer": "C",
+     "explanation": "Total cost is 18c + 65t, and \"no more than $2,400\" makes it at most 2,400. \"At least 5 times as many chairs as tables\" means the chair count is the larger quantity, so the chair count is at least 5 times the table count. Attaching the multiplier to the chairs instead, as 5c ≥ t, is the common error: it scales up the quantity named first in the sentence rather than the smaller one."
+    },
+    {
+     "num": 8,
+     "topic": "Algebra",
+     "question": "A pump lowers the water level in a tank at a constant rate. Eight minutes after the pump starts, the depth of the water is 62.4 centimeters; twenty minutes after the pump starts, the depth is 46.8 centimeters. How many minutes after the pump starts is the depth 33.8 centimeters?",
+     "choices": [
+      "18",
+      "22",
+      "30",
+      "50"
+     ],
+     "answer": "C",
+     "explanation": "The level drops (62.4 - 46.8)/(20 - 8) = 1.3 centimeters per minute, so at the moment the pump starts the depth is 62.4 + 8(1.3) = 72.8 centimeters. Setting 72.8 - 1.3t = 33.8 gives 1.3t = 39 and t = 30 minutes. The value 22 comes from (62.4 - 33.8)/1.3, which measures time from the 8-minute reading and never adds those 8 minutes back."
+    },
+    {
+     "num": 9,
+     "topic": "Algebra",
+     "question": "In the xy-plane, line L has slope -2/3 and passes through the point (-6, 11). The point (k, -1) also lies on line L. What is the value of k?",
+     "choices": [
+      "-24",
+      "12",
+      "2",
+      "18"
+     ],
+     "answer": "B",
+     "explanation": "Using the slope relationship, -1 - 11 = (-2/3)(k - (-6)), so -12 = (-2/3)(k + 6) and k + 6 = 18, giving k = 12. Checking, the run from x = -6 to x = 12 is 18 and (-2/3)(18) = -12, the required drop. The value 18 is the near miss: it is the run k + 6 reported as the coordinate, skipping the final subtraction of 6."
+    },
+    {
+     "num": 10,
+     "topic": "Advanced Math",
+     "question": "In the xy-plane, the graph of y = 2x² + bx + 10 has its vertex on the line y = x, where b is a constant and b < 0. What is the value of b?",
+     "choices": [
+      "10",
+      "-10",
+      "-20",
+      "-8"
+     ],
+     "answer": "D",
+     "explanation": "The vertex is at x = -b/4, where y = 10 - b²/8. Setting 10 - b²/8 = -b/4 and multiplying by 8 gives b² - 2b - 80 = 0, so b = 10 or b = -8; the condition b < 0 selects -8, and that vertex is (2, 2), which lies on y = x. The value 10 is the other root, chosen by anyone who solves correctly but ignores the restriction on b."
+    },
+    {
+     "num": 11,
+     "topic": "Advanced Math",
+     "question": "In the xy-plane, the graph of y = x² + 6x + c has no x-intercepts, where c is a constant. What is the least integer value of c?",
+     "choices": [
+      "9",
+      "10",
+      "37",
+      "8"
+     ],
+     "answer": "B",
+     "explanation": "The graph misses the x-axis when x² + 6x + c = 0 has no real solution, so the discriminant must be negative: 36 - 4c < 0, giving c > 9 and a least integer of 10. Equivalently the vertex value c - 9 must be positive. The value 9 is the tempting one: it is the boundary, and there the graph touches the x-axis at exactly one point rather than missing it."
+    },
+    {
+     "num": 12,
+     "topic": "Advanced Math",
+     "question": "A bacterial colony contains 4,800 cells, and the number of cells decreases by 12% every 5 days. Which expression gives the number of cells remaining d days after the count of 4,800?",
+     "choices": [
+      "4,800(0.88)^(d/5)",
+      "4,800(0.12)^(d/5)",
+      "4,800(1.12)^(-d/5)",
+      "4,800(0.88)^(5d)"
+     ],
+     "answer": "A",
+     "explanation": "A 12% decrease multiplies the population by 0.88 once per 5-day period, and d days contain d/5 periods, so the count is 4,800(0.88)^(d/5). At d = 5 this gives 4,224, which is 12% less than 4,800. The expression using 0.12 is the usual error: it multiplies by the percent lost rather than the percent remaining, wiping out 88% of the colony every 5 days."
+    },
+    {
+     "num": 13,
+     "topic": "Advanced Math",
+     "question": "The value of an investment fund increases by 50% every 4 years. The fund is worth $60,750 today. What was the fund worth 12 years ago?",
+     "choices": [
+      "$18,000",
+      "$27,000",
+      "$13,500",
+      "$40,500"
+     ],
+     "answer": "A",
+     "explanation": "Twelve years is three 4-year periods, so today's value is the earlier value multiplied by 1.5 three times: 1.5³ = 3.375. Dividing, 60,750/3.375 = $18,000, and 18,000(1.5)(1.5)(1.5) = 60,750 confirms it. The $13,500 choice comes from treating three periods of 50% growth as a single factor of 3 x 1.5 = 4.5, which adds the growth instead of compounding it."
+    },
+    {
+     "num": 14,
+     "topic": "Advanced Math",
+     "question": "The expression (6x² + x - 12)/(2x - 3), where 2x - 3 ≠ 0, can be rewritten in which of the following forms?",
+     "choices": [
+      "3x + 5 - 27/(2x - 3)",
+      "3x + 5 - 3/(2x - 3)",
+      "3x - 4 + 3/(2x - 3)",
+      "3x + 5 + 3/(2x - 3)"
+     ],
+     "answer": "D",
+     "explanation": "Dividing, 3x(2x - 3) = 6x² - 9x leaves 10x - 12; then 5(2x - 3) = 10x - 15 leaves a remainder of 3. So the quotient is 3x + 5 with remainder 3, giving 3x + 5 + 3/(2x - 3), and multiplying back reproduces 6x² + x - 12. The version with -27 comes from subtracting 15 from -12 instead of recognizing that -12 - (-15) = 3."
+    },
+    {
+     "num": 15,
+     "topic": "Advanced Math",
+     "question": "Which of the following gives all real values of x that satisfy the equation √(4x + 21) = x + 4?",
+     "choices": [
+      "x = 1",
+      "x = 5 and x = -1",
+      "x = 1 and x = -5",
+      "x = -5"
+     ],
+     "answer": "A",
+     "explanation": "Squaring both sides gives 4x + 21 = x² + 8x + 16, so x² + 4x - 5 = 0 and x = 1 or x = -5. Testing both, x = 1 gives √25 = 5 = 1 + 4, but x = -5 gives √1 = 1 while the right side is -1, so it is extraneous. Listing both values is the usual error: squaring can create solutions, so every candidate has to be checked in the original equation."
+    },
+    {
+     "num": 16,
+     "topic": "Advanced Math",
+     "question": "The function f is defined by f(x) = x² - 6x. In the xy-plane, the graph of g is the graph of f shifted 4 units to the left and 3 units up. What is the vertex of the graph of g?",
+     "choices": [
+      "(7, -6)",
+      "(-1, -6)",
+      "(-1, -12)",
+      "(3, -6)"
+     ],
+     "answer": "B",
+     "explanation": "The graph of f has its vertex at x = 3, where f(3) = -9. Shifting 4 units left moves the vertex to x = -1, and shifting 3 units up raises the minimum to -9 + 3 = -6, so the vertex of g is (-1, -6); expanding g(x) = (x + 4)² - 6(x + 4) + 3 confirms it. The point (7, -6) comes from replacing x with x - 4, which shifts the graph right instead of left."
+    },
+    {
+     "num": 17,
+     "topic": "Advanced Math",
+     "question": "In the xy-plane, the graphs of y = x² - 4x + 7 and y = 2x + k intersect at exactly one point, where k is a constant. What is the value of k?",
+     "choices": [
+      "-2",
+      "2",
+      "16",
+      "3"
+     ],
+     "answer": "A",
+     "explanation": "Setting the expressions equal gives x² - 4x + 7 = 2x + k, so x² - 6x + (7 - k) = 0. One intersection point means the discriminant is zero: 36 - 4(7 - k) = 0, so 8 + 4k = 0 and k = -2. Checking, x² - 6x + 9 = 0 has the single root x = 3. The value 3 comes from forgetting to move 2x across, which leaves the coefficient -4 in the discriminant."
+    },
+    {
+     "num": 18,
+     "topic": "Advanced Math",
+     "question": "The polynomial p is defined by p(x) = x³ + ax² + bx - 12, where a and b are constants. If x - 2 is a factor of p and p(1) = -18, what is the value of b?",
+     "choices": [
+      "-16",
+      "-10",
+      "16",
+      "-8"
+     ],
+     "answer": "A",
+     "explanation": "Since x - 2 is a factor, p(2) = 8 + 4a + 2b - 12 = 0, so 2a + b = 2. Also p(1) = 1 + a + b - 12 = -18 gives a + b = -7. Subtracting, a = 9 and b = -16, and p(x) = x³ + 9x² - 16x - 12 does satisfy both conditions. The value -8 comes from testing p(-2) instead of p(2), reversing the sign of the zero associated with the factor x - 2."
+    },
+    {
+     "num": 19,
+     "topic": "Problem-Solving and Data Analysis",
+     "question": "A retailer raises a jacket's price by 25%. The jacket is later offered at 30% off the raised price, and a member coupon then takes 10% off that sale price. A member pays $78.75. What was the jacket's price before the 25% increase?",
+     "choices": [
+      "$90.00",
+      "$87.50",
+      "$100.00",
+      "$92.65"
+     ],
+     "answer": "C",
+     "explanation": "Each change multiplies the price: 1.25 x 0.70 x 0.90 = 0.7875, so the final price is 0.7875 times the original. Dividing, 78.75/0.7875 = $100.00, and 100 -> 125 -> 87.50 -> 78.75 confirms the chain. The $92.65 choice comes from adding the percentages instead of multiplying the factors, treating the three changes as a single 15% net decrease and dividing by 0.85."
+    },
+    {
+     "num": 20,
+     "topic": "Problem-Solving and Data Analysis",
+     "question": "A transit agency surveyed 180 commuters. Of those surveyed, 108 own a bicycle, and 45 of the bicycle owners also hold a monthly transit pass. Altogether, 96 of the commuters surveyed hold a monthly transit pass. If one of the surveyed commuters who does not own a bicycle is selected at random, what is the probability that the commuter holds a monthly transit pass?",
+     "choices": [
+      "17/60",
+      "5/12",
+      "17/32",
+      "17/24"
+     ],
+     "answer": "D",
+     "explanation": "There are 180 - 108 = 72 commuters without a bicycle, and 96 - 45 = 51 of the pass holders do not own a bicycle. The probability is 51/72 = 17/24. The fraction 17/32 reverses the condition: 51/96 is the probability that a randomly chosen pass holder owns no bicycle, which answers a different question because it divides by the pass holders rather than by the non-owners."
+    },
+    {
+     "num": 21,
+     "topic": "Problem-Solving and Data Analysis",
+     "question": "A data set consists of 9 integers with a mean of 14 and a median of 12. The largest value in the set, 30, is replaced by 48, and no other value changes. Which statement correctly describes the resulting data set?",
+     "choices": [
+      "The mean and the median each increase by 2.",
+      "The mean increases by 2 and the median stays the same.",
+      "The mean increases by 18 and the median stays the same.",
+      "The mean stays the same and the median increases by 2."
+     ],
+     "answer": "B",
+     "explanation": "The total rises by 48 - 30 = 18, and spread over 9 values the mean rises by 18/9 = 2, from 14 to 16. The median is the fifth value in order, and raising the largest value keeps it the largest, so the ordering of the other values and the fifth value are unchanged. Saying both increase by 2 is the tempting error: it assumes the median follows the mean whenever the data shift."
+    },
+    {
+     "num": 22,
+     "topic": "Problem-Solving and Data Analysis",
+     "question": "A polling organization selects a random sample of 400 registered voters in a city and finds that 62% of the sample supports a bond measure, with a margin of error of 4.8 percentage points at the 95% confidence level. Which conclusion is best supported by these results?",
+     "choices": [
+      "It is plausible that between 57.2% and 66.8% of all adults in the city support the measure.",
+      "Between 57.2% and 66.8% of the 400 voters sampled support the measure.",
+      "It is plausible that between 57.2% and 66.8% of all registered voters in the city support the measure.",
+      "Exactly 62% of all registered voters in the city support the measure."
+     ],
+     "answer": "C",
+     "explanation": "The interval 62% plus or minus 4.8 points runs from 57.2% to 66.8%, and it estimates the percentage for the population that was randomly sampled, namely the city's registered voters. The statement about all adults is the tempting one: the arithmetic is right, but the sample was drawn only from registered voters, so the estimate cannot be extended to adults who are not registered."
+    },
+    {
+     "num": 23,
+     "topic": "Geometry and Trigonometry",
+     "question": "In the xy-plane, the equation x² + y² - 10x + 6y = 15 defines a circle. A sector of this circle has a central angle of 90°. What is the area of the sector?",
+     "choices": [
+      "12.25π",
+      "3.75π",
+      "24.5π",
+      "49π"
+     ],
+     "answer": "A",
+     "explanation": "Completing the square gives (x - 5)² + (y + 3)² = 15 + 25 + 9 = 49, so the radius is 7 and the circle's area is 49π. A 90° sector is one quarter of the circle, so its area is 49π/4 = 12.25π. The value 3.75π comes from reading r² as 15 straight off the right side, forgetting that completing the square adds 25 and 9 to both sides."
+    },
+    {
+     "num": 24,
+     "topic": "Geometry and Trigonometry",
+     "question": "In right triangle PQR, the right angle is at vertex Q and cos(P) = 5/13. Triangle STU is similar to triangle PQR, with vertices S, T, and U corresponding to P, Q, and R, respectively. What is the value of sin(U) + cos(U)?",
+     "choices": [
+      "10/13",
+      "7/13",
+      "24/13",
+      "17/13"
+     ],
+     "answer": "D",
+     "explanation": "Similar triangles have equal corresponding angles, so the angle at U equals the angle at R. The two acute angles are complementary, which makes sin(R) = cos(P) = 5/13 and cos(R) = sin(P) = 12/13, since 5² + 12² = 13². The sum is 5/13 + 12/13 = 17/13. The value 10/13 comes from using 5/13 for both ratios, treating the complementary angle as if its sine and cosine matched."
+    },
+    {
+     "num": 25,
+     "topic": "Geometry and Trigonometry",
+     "question": "A right circular cylinder with a radius of 6 centimeters and a height of 15 centimeters is completely filled with water. All of the water is then poured into an empty rectangular tank whose base measures 20 centimeters by 27 centimeters. To the nearest tenth of a centimeter, what is the depth of the water in the tank?",
+     "choices": [
+      "0.8",
+      "3.1",
+      "1.0",
+      "12.6"
+     ],
+     "answer": "B",
+     "explanation": "The cylinder holds π(6²)(15) = 540π ≈ 1,696.5 cubic centimeters. The tank's base area is 20 x 27 = 540 square centimeters, so the depth is 540π/540 = π ≈ 3.1 centimeters. The value 12.6 comes from using the 12-centimeter diameter as the radius, which multiplies the volume by four; the value 1.0 comes from dropping π and dividing 540 by 540."
+    }
+   ]
+  }
+ ]
+}

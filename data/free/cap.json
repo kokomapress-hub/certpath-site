@@ -1,0 +1,338 @@
+{
+ "slug": "cap-free25",
+ "title": "Free sample",
+ "free": true,
+ "note": "Original questions written for the free sample. They do not appear in the book or in the owners' online practice tests.",
+ "tests": [
+  {
+   "testNum": 1,
+   "questions": [
+    {
+     "num": 1,
+     "topic": "Business Communication and Deliverables",
+     "question": "The board has given an administrative professional a 10-minute slot and must vote at the same meeting on whether to fund a records-digitization contract. Two of the nine directors joined last month and have seen nothing on the project. The supporting analysis runs 24 pages and includes the vendor scoring methodology. Which approach best fits this audience and constraint?",
+     "choices": [
+      "Walk through the vendor scoring methodology first so the two new directors can follow how the recommendation was reached.",
+      "Open with the recommendation and its cost, add one line on why the work is needed, give three supporting points, and attach the analysis.",
+      "Describe both shortlisted vendors neutrally and let the board ask for whatever further detail it wants before recommending.",
+      "Hand out the 24-page analysis at the meeting and summarize it section by section in the order in which it is written."
+     ],
+     "answer": "B",
+     "explanation": "Directors are deciding, not auditing, so the recommendation and its cost lead, and the two newcomers need one line of context, not a methodology tutorial. Opening with the scoring method is the tempting choice because it looks rigorous and appears to serve the new directors, but it spends the whole slot on process and reaches the decision after the time is gone. Withholding a recommendation fails a board that must vote today."
+    },
+    {
+     "num": 2,
+     "topic": "Organizational Culture and Leadership",
+     "question": "In a hybrid meeting, eight people are in the conference room and four join online. The four online participants own the process being changed, and the group must agree on the new workflow before the meeting ends in 15 minutes. So far the room has twice talked over their attempts to speak. What should the facilitator do now?",
+     "choices": [
+      "Ask everyone in the room to rejoin from their own laptops so all twelve participants appear in one grid.",
+      "Note that the online participants are being crowded out and move the decision to a meeting everyone attends in person.",
+      "Stop the room discussion and ask each online participant by name for their position before the group decides.",
+      "Ask the online participants to type their comments in the chat and have someone in the room read them aloud."
+     ],
+     "answer": "C",
+     "explanation": "The people who own the process have 15 minutes to be heard before a decision binds them, so the facilitator should take the floor back and call on them directly by name. Routing them to chat and a reader is the tempting answer because it is standard hybrid practice, but it keeps them second in line and slows the exchange. Rejoining on laptops consumes the remaining time, and deferring breaks the deadline."
+    },
+    {
+     "num": 3,
+     "topic": "Business Communication and Deliverables",
+     "question": "A recurring project call links three offices; for participants in two of them English is a second language and the call falls at the end of their working day. A full set of notes is already posted to the shared workspace after every call, yet the action items missed are consistently the ones assigned to those participants. Which change is most likely to correct this?",
+     "choices": [
+      "Rotate the meeting time so that no office always takes the call at the end of its own working day.",
+      "Send each owner their own action items directly after the call and ask them to confirm or correct the wording in writing.",
+      "Open each call by reminding participants that the notes are posted and that checking them is each owner's responsibility.",
+      "Ask each participant to restate their own action items aloud at the end of the call so everyone hears the commitment."
+     ],
+     "answer": "B",
+     "explanation": "Posted notes are available but unconfirmed, so nobody knows whether an owner read or understood the item. Sending each owner only their own items and requiring a written reply closes the loop and creates evidence. Restating items aloud is the tempting fix, but it leans on the same end-of-day listening in a second language that is already failing. Reminders shift blame without changing the mechanism, and rotating times eases fatigue only."
+    },
+    {
+     "num": 4,
+     "topic": "Organizational Culture and Leadership",
+     "question": "An administrative professional finds that the assistant supporting another director routinely sends 'urgent' requests for meeting materials about two hours before the meeting, although the team's agreed standard is one business day. The two have no authority over each other and work together daily. What is the best first step?",
+     "choices": [
+      "Raise the pattern with the other assistant's director, who can enforce the agreed one-business-day standard.",
+      "Ask the other assistant to meet privately, describe the effect using two recent examples, and agree how real urgencies will be handled.",
+      "Bring it up at the next team meeting as a general reminder that everyone should honor the notice standard.",
+      "Reply to the next late request with the standard attached and a note that late requests are handled in the order received."
+     ],
+     "answer": "B",
+     "explanation": "A peer problem inside an ongoing working relationship starts with a direct, private, specific conversation that separates the behavior from the person and ends in a shared agreement. Going to the other director first is tempting because that director holds the authority, but escalating before any direct attempt damages the daily working relationship. A general reminder at a team meeting addresses everyone except the one person concerned."
+    },
+    {
+     "num": 5,
+     "topic": "Business Communication and Deliverables",
+     "question": "A director asks an administrative professional to let 12 staff know their team will move to another building in six weeks, then leaves for a four-day trip, saying to hold the news until the return 'unless it starts to get out.' Three of the 12 heard informally last week and two more have since asked whether a move is coming. What is the best approach?",
+     "choices": [
+      "Get the director's approval on a short written notice now, send it to all 12 at once, and set a team meeting for the return.",
+      "Send the notice to the three who already know and ask them to pass the details on to the rest of the team.",
+      "Answer questions one at a time as staff raise them, using the details the director has already shared informally.",
+      "Hold the news as the director asked and give it to the whole team in person once the director is back next week."
+     ],
+     "answer": "A",
+     "explanation": "The director's instruction carried a condition, and staff asking unprompted means the news is already out, so the condition is met. The right move respects the director's authority by getting approval for the wording while stopping the rumor with one message to all 12. Holding until the return is the tempting reading because it follows the words of the instruction, but it ignores the condition attached to it. Individual answers and peer relay guarantee inconsistent versions."
+    },
+    {
+     "num": 6,
+     "topic": "Business Communication and Deliverables",
+     "question": "A two-page memo asking approval for a scanning workstation must be cut to one page for a director who reads on a phone between meetings and who has twice returned proposals for lacking a cost comparison. The memo holds: the request and cost; a paragraph of backlog figures; a four-point comparison of three scanners; a paragraph thanking the IT team; and a closing that restates the request. What is the best cut?",
+     "choices": [
+      "Keep the request, cost and backlog figures, reduce the comparison to the recommended model and one runner-up, and drop the thanks and the closing.",
+      "Keep the full three-scanner comparison because it shows the evaluation was thorough, and cut the backlog figures and the closing.",
+      "Cut the cost and the comparison from the memo and attach them as a separate file the director can open if needed.",
+      "Keep all five parts and reduce the type size and the margins so that the whole memo fits onto a single page."
+     ],
+     "answer": "A",
+     "explanation": "The ask, the money, the evidence of need and a two-way price check all survive; courtesy paragraphs and a restated request add length without adding decision value. Keeping all three scanners is the tempting choice given a director who sends proposals back over cost comparisons, but two priced options satisfy that test on one screen. Shrinking type defeats the purpose on a phone, and moving cost into an attachment hides the number the approval turns on."
+    },
+    {
+     "num": 7,
+     "topic": "Business Communication and Deliverables",
+     "question": "At a committee meeting two members argue sharply about a supplier, and one calls the supplier's account manager 'incompetent.' The committee then votes 5-2 to extend the contract six months, and one member asks that their objection be noted. The minutes are an approved record that auditors may review. How should the minutes read?",
+     "choices": [
+      "Record the motion and the vote and note that two members opposed, without naming them, so the record stays neutral.",
+      "Record the motion, the vote and a verbatim account of the exchange, including the remark, so the record stays complete.",
+      "Record the motion, the mover, the 5-2 vote and the objection by name, and summarize the discussion as differing views.",
+      "Record the motion and the 5-2 vote only, since minutes are a record of decisions and discussion does not belong there."
+     ],
+     "answer": "C",
+     "explanation": "Minutes carry actions and outcomes in neutral, objective language, and a member who asks for their objection to be noted is recorded by name. Limiting the entry to the motion and the vote is tempting because decisions are the core of minutes, but it discards a request the member is entitled to make. A verbatim account preserves a personal insult in an auditable record, and omitting the name defeats the purpose of noting the objection."
+    },
+    {
+     "num": 8,
+     "topic": "Software, Data, and the Internet",
+     "question": "A Microsoft Word mail merge of 620 renewal letters uses an Excel workbook as its data source. Fourteen letters open with 'Dear ,'; the membership system holds a first name for all 14 records, but those names were lost when the Excel list was exported. Every letter also shows the renewal amount as 1250 rather than $1,250.00, even though Excel displays that column as currency. Word is using its normal data connection. What correction is needed?",
+     "choices": [
+      "Restore the 14 first names in the Excel source, reformat that amount column as currency in Excel, and merge again.",
+      "Add a rule printing 'Dear Member' where the first name is blank, widen the amount column in the Excel source, and merge again.",
+      "Restore the 14 first names in the Excel source, apply a numeric picture switch to the amount merge field in Word, and merge again.",
+      "Restore the 14 first names in the Excel source, then correct the amounts in the merged document with find and replace before printing."
+     ],
+     "answer": "C",
+     "explanation": "The greeting is a data defect and the names exist, so restore the 14 names in the data source. In Word, numeric display formatting from Excel is not reliably carried into a merge through the normal connection, so apply a numeric picture switch to the amount merge field and merge again. Reformatting the Excel cells does not repair the output shown here, and editing the merged results by hand is neither repeatable nor safe."
+    },
+    {
+     "num": 9,
+     "topic": "Business Communication and Deliverables",
+     "question": "An administrative professional is finalizing a letter drafted by a director for a regulator. The draft misuses a plural verb, names the regulator by the title it dropped two years ago, states a submission date of 14 March where the department's file copy shows 4 March, and uses a phrase the director always uses although the style guide prefers another. The director is unreachable for two hours; a courier at 6 p.m. still meets the regulator's deadline. What should the professional do?",
+     "choices": [
+      "Correct only the verb, since the name, the date and the wording are all the director's own choices, and send it now.",
+      "Send the letter exactly as drafted to clear it today, and send a corrected version once the director can be reached.",
+      "Correct the verb, the regulator's name and the date to match the file copy, apply the style guide's wording, and send it now.",
+      "Correct the verb and the regulator's current name, leave the director's phrasing, and hold the letter until the date is confirmed."
+     ],
+     "answer": "D",
+     "explanation": "Mechanical errors and an objectively outdated proper name sit inside the administrative professional's remit; a contested date is a fact only the author can settle, and the later courier means waiting costs nothing. Correcting everything including the date is the tempting choice because the file copy looks authoritative, but the file copy may be the wrong one and the writer owns the claim. Fixing only the verb sends a regulator an obsolete name."
+    },
+    {
+     "num": 10,
+     "topic": "Office and Records Management",
+     "question": "Finance is genuinely running a benefits audit this quarter. An email from an address on the organization's own domain, signed by a finance employee the administrative professional has never worked with, asks for a spreadsheet of all staff names, titles, home addresses and dates of birth, needed before 5 p.m. today. The file could be produced from the human resources system in minutes. What is the best response?",
+     "choices": [
+      "Produce the file and send it, since the audit is known to be running and the request comes from an internal address.",
+      "Send the names, titles and dates of birth and withhold the home addresses, so the audit can proceed before the deadline.",
+      "Reply to the message asking the sender to confirm the request and the audit authorization before the spreadsheet is sent.",
+      "Hold the file, phone the named person on the internal directory number, and confirm with the records owner that the release is approved."
+     ],
+     "answer": "D",
+     "explanation": "A real audit does not by itself authorize a release, so two controls apply: verify the requester through a channel the sender does not control, and confirm with the records owner that the disclosure is approved. Replying to ask for confirmation is the tempting answer because it sounds cautious, but the reply reaches whoever controls that address, so a forged request confirms itself. Trimming the fields still releases personal data without authority."
+    },
+    {
+     "num": 11,
+     "topic": "Office and Records Management",
+     "question": "An employee leaves the organization. Their manager asks the administrative professional, who administers the team's cloud workspace, to hand over everything in the departed employee's personal drive so the team can carry on the work. That drive holds project files, a folder of performance notes on people the employee supervised, and personal documents. Policy states that business records belong to the organization and that access to another person's stored files runs through a defined request process. What is best?",
+     "choices": [
+      "Ask the manager to file the access request, and support a release limited to the project files the team needs.",
+      "Decline until the departed employee gives written consent for the manager to see the contents of the drive.",
+      "Give the manager the whole drive, since business records belong to the organization and the manager can sort it out.",
+      "Copy the project folders across to the team's shared drive now and leave the rest of the personal drive untouched."
+     ],
+     "answer": "A",
+     "explanation": "Two things must both hold: the request goes through the process that authorizes access, and the release is scoped to what the business need requires. Copying the project folders straight across is the tempting answer because it is fast and looks restrained, but it has the administrator deciding alone what counts as a business record and leaves no authorization trail. Handing over the whole drive exposes performance notes, and consent is not the control the policy sets."
+    },
+    {
+     "num": 12,
+     "topic": "Software, Data, and the Internet",
+     "question": "Six reviewers, two in another time zone, must comment on a 30-page policy draft within four days, and one clean final version must result. All six can reach the organization's shared workspace, and the policy owner must be able to see who proposed each change. Which approach best protects the deadline, the attribution and the version history?",
+     "choices": [
+      "Route the draft to the six in turn so each reviewer can see the earlier comments before adding any of their own.",
+      "Give each reviewer one section of the master file and lock the other sections so that their edits cannot collide.",
+      "Keep one master file in the shared workspace, have all six comment in it, and rely on its version history and named comments.",
+      "Email the draft to all six, ask for tracked changes, which name each author, and merge the six returned files afterwards."
+     ],
+     "answer": "C",
+     "explanation": "A single master gives concurrent commenting, attribution on every comment and revision, and a version trail that can be rolled back, with no merge step at the end. Emailing for tracked changes is the strongest distractor because tracked changes do carry authorship, but six divergent copies still require manual reconciliation and create avoidable version-control risk inside four days. Locked sections block cross-cutting comment, and serial routing spends the four days queuing."
+    },
+    {
+     "num": 13,
+     "topic": "Software, Data, and the Internet",
+     "question": "A 30-page quarterly report must reach 40 external recipients. It has to look identical on any device, stay searchable and readable by screen readers, and must not be edited by recipients. The draft was assembled in a word processor from spreadsheet data, and an appendix table still holds two rows of personal data that the author concealed by colouring the text white and collapsing the row height. How should the file be prepared for distribution?",
+     "choices": [
+      "Send the word-processor file with the two rows kept hidden and an editing password applied to the document.",
+      "Delete the two concealed rows from the document, then export it as a tagged PDF and send that file.",
+      "Export the document as a tagged PDF as it stands, because concealed rows are dropped when a file is converted.",
+      "Export each page of the document as an image and combine those images into a PDF that nothing can alter."
+     ],
+     "answer": "B",
+     "explanation": "Concealing text by colour or row height changes only how it displays; the characters stay in the file and travel into a converted copy, where they can be selected or recovered, so the rows are deleted before any export. A tagged PDF then fixes the appearance and keeps the text available to screen readers. Trusting conversion to drop concealed content is the tempting error. Page images defeat searching and screen readers, and an editing password is removable."
+    },
+    {
+     "num": 14,
+     "topic": "Office and Records Management",
+     "question": "A records inventory finds 40 boxes of customer service files whose approved retention period ended three years ago. The files hold customer personal data, no preservation notice covers them, and the schedule has not been amended. The department head wants to keep them because they proved useful twice, and storage is already at capacity. What should the administrative professional do?",
+     "choices": [
+      "Destroy the boxes now without further paperwork, since the retention period ran out three years ago and nothing is on hold.",
+      "Arrange destruction under the approved schedule with the records owner's sign-off, and enter the boxes in the disposal log.",
+      "Digitize the boxes, keep the images indefinitely and destroy the paper, so the content is there if it is ever wanted again.",
+      "Send the boxes to off-site storage and put them up for review again in a year, since the department head finds them useful."
+     ],
+     "answer": "B",
+     "explanation": "Records held past their approved retention add privacy exposure and cost without adding rights, and with no hold in force the schedule governs, so the boxes go, authorized by the records owner and evidenced in the disposal log. Digitizing is the most tempting alternative because it feels modern and safe, but keeping images indefinitely preserves the same personal data and defeats the schedule. Destroying without sign-off or a log leaves no proof the disposal was proper."
+    },
+    {
+     "num": 15,
+     "topic": "Office and Records Management",
+     "question": "A department holds 900 active supplier contracts. Staff retrieve a contract by supplier name many times a day, the contracts manager needs a monthly list of everything expiring within 90 days, and finance refers to each contract by its unique contract number. There is no confidentiality restriction. Which arrangement serves all three needs with the least duplication?",
+     "choices": [
+      "File alphabetically by supplier name and keep one index carrying contract number and expiry date for sorting and cross-reference.",
+      "Keep three complete sets, arranged by supplier, by expiry month and by contract number, so any staff member can go straight to a file.",
+      "File numerically by contract number, which is unique to each contract, and keep a separate alphabetic index of supplier names.",
+      "File chronologically by expiry date so the 90-day list comes straight off the shelf, and cross-reference by supplier name."
+     ],
+     "answer": "A",
+     "explanation": "The primary arrangement should match the most frequent retrieval key, and secondary keys are served by an index rather than by rearranging or copying the files. Numeric filing is the strongest distractor, since it is genuinely preferred for large volumes and for confidential records, but here it adds a lookup to the many-times-a-day retrieval and buys protection that is not required. Filing by expiry optimizes a monthly task, and three sets triple the filing and the error rate."
+    },
+    {
+     "num": 16,
+     "topic": "Office and Records Management",
+     "question": "An organization is starting an off-site records protection program and can duplicate only one pair of holdings in the first phase. The candidates are the current insurance policies and property deeds; the accounts receivable ledger; the current supplier contracts, of which every supplier holds an executed counterpart; and last year's approved departmental budget file. Which pair should be duplicated first?",
+     "choices": [
+      "The current supplier contracts, and last year's approved departmental budget file.",
+      "The accounts receivable ledger, and the current supplier contracts.",
+      "The insurance policies and property deeds, and the current supplier contracts.",
+      "The insurance policies and property deeds, and the accounts receivable ledger."
+     ],
+     "answer": "D",
+     "explanation": "Vital records prove legal rights and let the organization resume operating; deeds and policies prove ownership and the right to claim, and the accounts-receivable ledger is essential to identifying and collecting money owed so financial operations can continue after a disruption. Pairing the deeds with supplier contracts is the tempting choice because contracts look vital, but every supplier holds a signed counterpart, so those can be replaced from outside. Last year's budget is superseded."
+    },
+    {
+     "num": 17,
+     "topic": "Office and Records Management",
+     "question": "In a small office one administrative professional places supply orders, receives deliveries, signs packing slips and approves the invoices for payment. Quarterly supply spend has drifted about 20 percent above budget with no growth in headcount, and no extra staff can be hired. Which change gives the largest control improvement at no added cost?",
+     "choices": [
+      "Have a second person check deliveries against the packing slip and approve the invoices, leaving ordering with the administrative professional.",
+      "Consolidate to a single supplier under a negotiated catalogue so prices are fixed and comparison shopping is unnecessary.",
+      "Produce a monthly report of spend by category and review it against the budget with the office manager.",
+      "Require a purchase order for every order above a set amount and file the purchase orders with the matching invoices."
+     ],
+     "answer": "A",
+     "explanation": "One person ordering, receiving and approving payment is an unbroken cycle with no independent check, so splitting the receiving and approval steps away from ordering is the control that closes it, and reassigning steps costs nothing. Purchase orders are the strongest distractor and do improve documentation, but the same person still raises, receives and approves, so the cycle stays closed. A catalogue manages price, and a monthly review detects problems after the money is spent."
+    },
+    {
+     "num": 18,
+     "topic": "Meeting, Event, and Project Management",
+     "question": "Three chains of work must all finish before a conference venue walk-through, and all three start on the same day. The venue chain is the contract (12 days) then the floor plan (6 days). The program chain is the speaker list (9 days) then the printed program (14 days). The catering chain is menu selection (7 days), then the tasting (5 days), then the final count (8 days). How many days can the catering chain slip without delaying the walk-through?",
+     "choices": [
+      "3 days",
+      "0 days",
+      "5 days",
+      "2 days"
+     ],
+     "answer": "A",
+     "explanation": "The chains run 12 + 6 = 18, 9 + 14 = 23 and 7 + 5 + 8 = 20 days, so the program chain at 23 days is critical and sets the earliest walk-through. The catering chain can therefore absorb 23 - 20 = 3 days. Two days is the tempting answer, from comparing catering with the 18-day venue chain instead of with the critical chain; five days is the venue chain's own slack, and the catering chain is not critical, so its slack is not zero."
+    },
+    {
+     "num": 19,
+     "topic": "Meeting, Event, and Project Management",
+     "question": "A one-day workshop carries fixed costs of $9,400 and a variable cost of $38 per attendee. A sponsor has committed $2,200 toward the fixed costs. The first 40 registrations are sold at an early rate of $95 and every registration after that is $122. What is the smallest total number of paid registrations that covers all costs?",
+     "choices": [
+      "112 registrations",
+      "125 registrations",
+      "86 registrations",
+      "99 registrations"
+     ],
+     "answer": "D",
+     "explanation": "The sponsorship cuts fixed costs to $9,400 - $2,200 = $7,200. Each early registration contributes $95 - $38 = $57, so 40 of them cover $2,280, leaving $4,920. Each later registration contributes $122 - $38 = $84, and $4,920 ÷ $84 = 58.6, rounded up to 59, for 99 in total. The tempting 86 applies the $122 rate to every seat and ignores the early tier; 125 forgets the sponsorship, and 112 ignores both."
+    },
+    {
+     "num": 20,
+     "topic": "Meeting, Event, and Project Management",
+     "question": "A conference contract guarantees a block of 180 hotel room nights. Attendees pay for their own rooms, and the organization pays 90 percent of the room rate for any part of the block that goes unbooked. Two years ago attendees booked 210 rooms and last year they booked 118. The event has run every year without being called off. Which contract term should the administrative professional press hardest to negotiate?",
+     "choices": [
+      "A rate guarantee holding the negotiated room rate for any rooms booked after the block is filled.",
+      "A cancellation clause setting a sliding scale of fees if the whole event has to be called off.",
+      "An attrition clause allowing the block to be reduced by a stated percentage up to an agreed date without penalty.",
+      "A force majeure clause listing the events that release both parties from their obligations."
+     ],
+     "answer": "C",
+     "explanation": "Only one of these years cost the organization anything: 62 unbooked rooms at 90 percent of the rate, because attendees pay for rooms they do book. An attrition clause is what permits the block to shrink before a cut-off date, so it attacks the one exposure the history shows. A cancellation clause is the strongest distractor and does limit money paid, but only if the whole event is called off, which has never happened. A rate guarantee protects attendees in a heavy year, not the organization."
+    },
+    {
+     "num": 21,
+     "topic": "Meeting, Event, and Project Management",
+     "question": "An executive must present at a client's office at 9:00 a.m. Thursday in a city three hours away by air, and the client has refused to move the meeting. The executive is committed elsewhere until 3:00 p.m. Wednesday. The last Wednesday flight departs at 6:40 p.m.; the only Thursday option arrives at 7:40 a.m. on a route whose flights are late or cancelled about a third of the time. Which itinerary best manages the risk?",
+     "choices": [
+      "Book the Thursday flight and ask the client's assistant for a 10:00 a.m. start as a precaution against an arrival delay.",
+      "Book the Wednesday evening flight and a hotel by the client's office, and rely on the airline to rebook if that flight is cancelled.",
+      "Book the Wednesday evening flight and a hotel by the client's office, and hold a refundable seat on the Thursday flight as a fallback.",
+      "Book the Thursday flight and arrange a car at the airport so no time is lost between the arrival and the client's office."
+     ],
+     "answer": "C",
+     "explanation": "Flying the night before takes a one-in-three failure rate off the critical path, and a nearby hotel removes morning traffic, but an evening cancellation would still strand the executive, so a refundable morning seat completes the plan at little cost. Relying on airline rebooking is the tempting economy, yet rebooking after an evening cancellation typically lands after 9:00 a.m. A car mitigates ground time, and the client has already refused to move the meeting."
+    },
+    {
+     "num": 22,
+     "topic": "Operational Functions",
+     "question": "A department's annual supplies budget is $54,000, spread evenly over 12 months. Through the end of month 8, actual spend is $38,400, which includes a one-time $3,600 purchase that will not recur. The remaining four months are expected to run at the same average rate as the first eight months excluding that purchase. What year-end result should the administrative professional report?",
+     "choices": [
+      "Over budget by $3,600",
+      "Under budget by $1,200",
+      "Over budget by $2,400",
+      "Over budget by $1,800"
+     ],
+     "answer": "D",
+     "explanation": "Stripping the one-time purchase leaves $34,800 over eight months, or $4,350 a month, so the last four months add $17,400 and the year ends at $38,400 + $17,400 = $55,800 against $54,000, which is $1,800 over. Being under the eight-month pro-rata budget of $36,000 by $1,200 on recurring spend is the tempting answer, but it reports the position to date, not the forecast, and ignores the one-time purchase already paid."
+    },
+    {
+     "num": 23,
+     "topic": "Operational Functions",
+     "question": "A department budgeted an in-house training day for 45 participants: a flat trainer fee of $3,600, materials at $27 per participant and catering at $18 per participant, with no room charge. The caterer's contract guarantees payment for 42 covers. Materials were produced for the 36 people who actually attended. What was the actual cost per attendee?",
+     "choices": [
+      "$145.00",
+      "$148.00",
+      "$125.00",
+      "$156.25"
+     ],
+     "answer": "B",
+     "explanation": "Actual cost is the $3,600 trainer fee, plus materials of 36 × $27 = $972, plus catering billed at the 42-cover guarantee, 42 × $18 = $756, giving $5,328, and $5,328 ÷ 36 = $148.00. The tempting $145.00 charges catering for the 36 who came and ignores the guarantee the contract still bills. The $125.00 figure is the budgeted rate at 45 participants, and $156.25 charges materials and catering for all 45."
+    },
+    {
+     "num": 24,
+     "topic": "Operational Functions",
+     "question": "An administrative professional maintains a shared team calendar. One team member has started a reduced-hours schedule arranged with human resources for a medical reason. A colleague asks why the schedule changed, and a supervisor in another department asks for the reason to be noted on the calendar so other teams can plan around it. What is the best response?",
+     "choices": [
+      "Note on the calendar that the team member is on an approved medical schedule so other teams stop asking, and say nothing more to the colleague.",
+      "Tell the supervisor that scheduling questions go to the team member's own manager, and give the colleague no answer at all.",
+      "Ask the team member for permission to explain the arrangement, and share the reason with anyone who asks if permission is given.",
+      "Show only the hours the team member is available, say that the reason is not something to share, and send questions about the arrangement to human resources."
+     ],
+     "answer": "D",
+     "explanation": "Other teams need availability, not a diagnosis, so publishing the hours meets the legitimate planning need while medical information stays with human resources on a need-to-know basis. Seeking the employee's permission is the most tempting alternative because consent sounds respectful, but the request itself pressures an employee to disclose health information to keep a colleague comfortable, and any consent is properly handled by human resources. Naming it a medical schedule discloses the very fact that should be protected."
+    },
+    {
+     "num": 25,
+     "topic": "Organizational Culture and Leadership",
+     "question": "An administrative professional is one of four panel members scoring bids for a catering contract, and has already scored three of the seven bids. Reading the fourth, the professional realizes its operations manager is the sibling of the professional's partner; they have met twice at family gatherings. The code of conduct says only that a panel member must disclose any interest a reasonable observer might think could affect judgment. That bid currently sits mid-field. What should the professional do?",
+     "choices": [
+      "Stop scoring, tell the chair in writing straight away, and ask the chair to rule on the three scores already entered.",
+      "Note the connection in the panel file, keep scoring, and raise it only if that bid reaches the final shortlist.",
+      "Finish scoring the remaining bids first so the panel's scores stay consistent, then tell the chair before the award.",
+      "Tell the chair straight away and withdraw the three scores already entered, so no score made in ignorance remains."
+     ],
+     "answer": "A",
+     "explanation": "A close personal connection that a reasonable observer could question meets the disclosure test even though the professional gains nothing, and the moment of discovery is the moment to stop and report. What happens to the three existing scores is a panel decision, not the conflicted member's. Finishing the round first is the tempting choice on consistency grounds, but every score added after the discovery is made while knowingly conflicted. Withdrawing scores unilaterally takes the chair's ruling away and disturbs the record."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,338 @@
+{
+ "slug": "csp-free25",
+ "title": "Free sample",
+ "free": true,
+ "note": "Original questions written for the free sample. They do not appear in the book or in the owners' online practice tests.",
+ "tests": [
+  {
+   "testNum": 1,
+   "questions": [
+    {
+     "num": 1,
+     "topic": "Occupational health - noise exposure",
+     "question": "A maintenance mechanic's dosimetry for a hearing conservation programme shows 92 dBA for 3 hours, 97 dBA for 2 hours and 85 dBA for 3 hours. The dose is computed on the OSHA hearing conservation basis: a 5 dB exchange rate, a 90 dBA criterion level for an 8-hour reference duration, and an 80 dBA threshold, so every measured level at or above 80 dBA is included. What is the 8-hour time-weighted average?",
+     "choices": [
+      "92.1 dBA",
+      "90.6 dBA",
+      "91.0 dBA",
+      "92.9 dBA"
+     ],
+     "answer": "A",
+     "explanation": "Reference durations are 6.06 h at 92 dBA, 3.03 h at 97 dBA and 16 h at 85 dBA, so the dose is 100 × (3/6.06 + 2/3.03 + 3/16) = 134.2 percent, and the time-weighted average is 16.61 × log(134.2/100) + 90 = 92.1 dBA. The most tempting answer is 91.0 dBA, which drops the 85 dBA period by applying a 90 dBA threshold; that threshold belongs to permissible-exposure compliance, not to the hearing conservation dose specified here."
+    },
+    {
+     "num": 2,
+     "topic": "Occupational Health and Applied Science - ventilation",
+     "question": "A solvent evaporates into a mixing room at a rate equivalent to 0.05 cfm of pure vapour. The substance has an 8-hour exposure limit of 200 ppm, the site designs general dilution ventilation to hold the concentration at 10 percent of the limit, and poor air distribution in the room justifies a mixing factor of 4. What exhaust rate does the design require?",
+     "choices": [
+      "1,000 cfm",
+      "10,000 cfm",
+      "2,500 cfm",
+      "250 cfm"
+     ],
+     "answer": "B",
+     "explanation": "The design concentration is 10 percent of 200 ppm, or 20 ppm, which is 0.000020 as a fraction. The ideal rate is 0.05 ÷ 0.000020 = 2,500 cfm, and multiplying by the mixing factor of 4 gives 10,000 cfm. The most tempting answer is 2,500 cfm, which reaches the design concentration only with perfect mixing and would leave the breathing zone well above it. Designing to the 200 ppm limit itself gives 1,000 cfm with the factor and 250 cfm without."
+    },
+    {
+     "num": 3,
+     "topic": "Program Management - performance measurement",
+     "question": "A contractor will record 262,000 work hours this year and has committed to its client that the DART rate will finish below 5.0. Two months in, no cases have been recorded. What is the greatest number of DART cases it can record over the year and still meet that commitment?",
+     "choices": [
+      "13",
+      "5",
+      "7",
+      "6"
+     ],
+     "answer": "D",
+     "explanation": "The DART rate is (cases × 200,000) ÷ hours worked, so the case count must satisfy n × 200,000 ÷ 262,000 < 5.0, giving n less than 6.55. Six cases produce 4.58 and meet the commitment; seven produce 5.34 and break it. The most tempting answer is 7, from rounding 6.55 up rather than down, which is the wrong direction when the figure is a ceiling. Using a 100,000 hour base gives 13."
+    },
+    {
+     "num": 4,
+     "topic": "Occupational Health and Applied Science - ergonomics",
+     "question": "A packer lifts 35 lb cartons. The evaluator determines these multipliers for the NIOSH lifting equation: horizontal 0.71, vertical 0.93, distance 0.88, asymmetric 0.90, frequency 0.75 and coupling 0.95, with a load constant of 51 lb. What is the lifting index for this task?",
+     "choices": [
+      "0.69",
+      "0.54",
+      "1.84",
+      "1.38"
+     ],
+     "answer": "C",
+     "explanation": "The recommended weight limit is 51 × 0.71 × 0.93 × 0.88 × 0.90 × 0.75 × 0.95 = 19.0 lb, and the lifting index is the load divided by that limit: 35 ÷ 19.0 = 1.84, well above 1.0 and therefore a priority for redesign. The most tempting error is 1.38, from omitting the frequency multiplier, which raises the limit to 25.3 lb and hides the risk. Dividing the limit by the load instead inverts the index to 0.54."
+    },
+    {
+     "num": 5,
+     "topic": "Occupational health - chemical exposure",
+     "question": "A worker in a parts-cleaning cell is exposed over a full shift to three substances: 400 ppm of one with a limit of 500 ppm and 100 ppm of a second with a limit of 200 ppm, both of which act on the same target organ, and 15 ppm of a third with a limit of 20 ppm whose effects are independent of the other two. What does the evaluation show?",
+     "choices": [
+      "The two substances acting on the same organ give a combined ratio of 1.3 and exceed the limit; the third is judged separately and is within its own limit.",
+      "All three substances are summed to a combined ratio of 2.05, so the mixture exceeds the limit on the strength of the third substance as well.",
+      "The combined ratio is 0.80, set by the largest single fraction, so no substance and no combination exceeds its limit.",
+      "The combined ratio is 0.68, the average of the three fractions, so the exposure is acceptable as a mixture."
+     ],
+     "answer": "A",
+     "explanation": "Fractions are added only for substances with similar effects on the same target organ: 400/500 + 100/200 = 0.80 + 0.50 = 1.30, above unity. The substance with independent effects is compared with its own limit, 15/20 = 0.75, and passes. The most tempting error sums all three to 2.05, which treats independent effects as additive and would force controls on the wrong substance while overstating the mixture."
+    },
+    {
+     "num": 6,
+     "topic": "Program Management - system safety analysis",
+     "question": "A fault tree shows the top event occurring if either subsystem fails. The first subsystem fails only when both of its redundant components fail, each with a failure probability of 0.2. The second subsystem fails if either of its two components fails, with probabilities of 0.1 and 0.05. All four component failures are independent of one another. What is the probability of the top event?",
+     "choices": [
+      "0.145",
+      "0.179",
+      "0.190",
+      "0.040"
+     ],
+     "answer": "B",
+     "explanation": "The redundant pair is an AND gate: 0.2 × 0.2 = 0.04. The second subsystem is an OR gate: 1 − (0.9 × 0.95) = 0.145. The two feed another OR gate: 1 − (0.96 × 0.855) = 0.179. The most tempting answer is 0.190, from adding 0.04, 0.10 and 0.05 straight down the tree, which double-counts the overlapping failures and grows steadily worse as probabilities rise. Reporting 0.145 stops at the second subsystem."
+    },
+    {
+     "num": 7,
+     "topic": "Program Management - engineering economics",
+     "question": "Two ventilation designs will control the same exposure over a 10-year life. One costs $60,000 to install and $5,000 per year to operate; the other costs $25,000 to install and $12,000 per year. The organisation compares alternatives on present worth at 8 percent, where the uniform series present worth factor for 10 years is 6.7101. Which is cheaper, and by how much?",
+     "choices": [
+      "The lower-capital design, by about $35,000 in present worth.",
+      "The higher-capital design, by about $12,000 in present worth.",
+      "The lower-capital design, by about $12,000 in present worth.",
+      "The higher-capital design, by about $35,000 in present worth."
+     ],
+     "answer": "B",
+     "explanation": "Present worth is 60,000 + (5,000 × 6.7101) = $93,551 against 25,000 + (12,000 × 6.7101) = $105,521, so the higher-capital design is cheaper by about $11,970. The most tempting answer keeps the right winner but reports $35,000, the undiscounted ten-year difference, which ignores that money spent in later years is worth less today. Comparing capital costs alone reverses the decision entirely."
+    },
+    {
+     "num": 8,
+     "topic": "Occupational health - heat stress",
+     "question": "During an outdoor turnaround in direct sun, readings at the work location are natural wet bulb 25°C, globe 40°C and dry bulb 34°C. Crews wear double-layer woven coveralls, for which the site applies a clothing adjustment of plus 3.5°C to the measured index. What effective wet bulb globe temperature should be compared with the screening criteria?",
+     "choices": [
+      "25.4°C",
+      "28.9°C",
+      "32.4°C",
+      "33.0°C"
+     ],
+     "answer": "C",
+     "explanation": "Outdoors with solar load the index is 0.7 × 25 + 0.2 × 40 + 0.1 × 34 = 28.9°C, and the clothing adjustment is added to give 32.4°C. The most tempting answer is 33.0°C, which uses the indoor formula 0.7 × wet bulb + 0.3 × globe before adding the adjustment; that formula drops the dry bulb term and misweights the globe reading. Reporting 28.9°C omits the clothing adjustment entirely."
+    },
+    {
+     "num": 9,
+     "topic": "Occupational Health and Applied Science - statistics for exposure data",
+     "question": "Daily 8-hour noise levels at a press line are normally distributed with a mean of 88 dBA and a standard deviation of 4 dBA. Given cumulative normal areas of 0.5987 at z = 0.25, 0.6915 at z = 0.50, 0.7734 at z = 0.75 and 0.8413 at z = 1.00, about what percentage of days exceeds 90 dBA?",
+     "choices": [
+      "69 percent",
+      "23 percent",
+      "16 percent",
+      "31 percent"
+     ],
+     "answer": "D",
+     "explanation": "The standard score is (90 − 88) ÷ 4 = 0.50. The cumulative area below 90 dBA is 0.6915, so the upper-tail probability is 1 − 0.6915 = 0.3085, about 31 percent of days. Reporting 69 percent reverses the tail and answers the opposite question. Using a standard score of 0.75 gives about 23 percent and using 1.00 gives about 16 percent; both come from forming the standard score with the wrong difference or the wrong standard deviation."
+    },
+    {
+     "num": 10,
+     "topic": "Risk Management - hierarchy of controls",
+     "question": "Solvent vapour at a degreasing line runs at twice the exposure limit. Reformulating to an aqueous cleaner would require customer requalification of the finished part, which engineering says will take at least eighteen months. Enclosing the line with local exhaust is feasible in about four months. What is the most defensible plan?",
+     "choices": [
+      "Provide respirators and restrict access now, start the enclosure and exhaust design immediately, and keep the substitution study open as the longer-term goal.",
+      "Rotate operators through the line so that no individual's time-weighted average exceeds the limit while the substitution study proceeds.",
+      "Suspend the substitution study because the requalification delay makes it infeasible, and direct the full budget to enclosure and exhaust.",
+      "Implement the respirator programme with fit testing and medical evaluation as the control, and revisit engineering controls only if sampling worsens."
+     ],
+     "answer": "A",
+     "explanation": "Use respirators and access restrictions immediately as interim protection, implement the feasible enclosure and local exhaust as soon as practicable, and continue evaluating substitution as the higher-order long-term control. Rotation is an administrative control that may reduce one individual's time-weighted average, but it does not reduce the source concentration and can expose additional workers; it is inferior to a feasible engineering control. Treating respirators as the permanent control while feasible engineering controls are available is also inconsistent with the hierarchy of controls."
+    },
+    {
+     "num": 11,
+     "topic": "Risk Management - risk assessment and prioritisation",
+     "question": "A site scores risk as severity times likelihood, each rated 1 to 5, and its matrix defines 15 to 25 as intolerable, 6 to 14 as tolerable subject to reduction so far as is reasonably practicable, and 1 to 5 as broadly acceptable. An ammonia release scenario is rated severity 5 and likelihood 3; a proposed control costs $180,000 and leaves a residual score of 10. A conveyor nip point is rated severity 3 and likelihood 4; its guard costs $40,000 and leaves a residual score of 4. A forklift and pedestrian conflict is rated severity 4 and likelihood 3; its control costs $60,000 and leaves a residual score of 6. Capital of $200,000 is available this quarter. What should the safety professional recommend?",
+     "choices": [
+      "Fund the conveyor guard and the forklift control together, because $100,000 removes 14 points of risk score against 5 points.",
+      "Fund the conveyor guard, because it delivers the largest drop in risk score for each dollar spent.",
+      "Fund the ammonia control, because that scenario is the only one whose score falls in the intolerable band.",
+      "Split the capital between the ammonia control design and the conveyor guard, so both scenarios improve within the quarter."
+     ],
+     "answer": "C",
+     "explanation": "Scoring gives 5 × 3 = 15 for the ammonia release, 3 × 4 = 12 for the conveyor and 4 × 3 = 12 for the forklift, so only the ammonia scenario sits in the intolerable band, and its control moves it to 10. The tempting answer funds the two cheaper controls for 14 points against 5, but ordinal scores are not units of risk to be traded off, and that choice leaves the intolerable scenario untouched."
+    },
+    {
+     "num": 12,
+     "topic": "Advanced Application of Safety Principles - prevention through design",
+     "question": "A safety professional joins a capital project at the 30 percent design review and finds that a planned mezzanine puts a filter housing, which needs weekly changeout, 9 ft above the floor with no permanent access. The project manager says fall protection anchors can be added after commissioning. What is the strongest response?",
+     "choices": [
+      "Accept the schedule but require the anchors to be certified by a qualified person for a 5,000 lb load before the first changeout is performed.",
+      "Accept the schedule and add the change to the pre-startup safety review, where design deviations are formally captured before the unit is handed over.",
+      "Accept the schedule and write a job hazard analysis for the changeout task that specifies a lift and a personal fall arrest system for each service visit.",
+      "Raise it now as a design change to relocate the housing or add permanent stair access, because control options are broadest and cheapest before the design is frozen."
+     ],
+     "answer": "D",
+     "explanation": "Prevention through design rests on the cost-influence curve: at 30 percent design a relocation is a drawing change, while after commissioning it becomes steel, downtime and a permanent recurring exposure. The tempting alternative is the pre-startup safety review, which is a real gate and sounds rigorous, but by then the layout is fixed and the review will only ratify a fall exposure that never needed to exist. The other answers manage the hazard rather than removing it."
+    },
+    {
+     "num": 13,
+     "topic": "Program Management - auditing",
+     "question": "During an internal audit of a certified occupational health and safety management system, an auditor finds a documented procedure requiring pre-task hazard assessments. Sampling twenty tasks across three crews, fifteen have no assessment on file and two supervisors say the form is only for high-risk work. How should this be reported?",
+     "choices": [
+      "A nonconformity, because objective evidence shows a documented requirement of the system is not being implemented across multiple crews.",
+      "A nonconformity against the documentation clause, because the procedure text is evidently unclear about which tasks require an assessment.",
+      "An opportunity for improvement, because the gap is one of supervisor understanding and is best corrected through additional training rather than formal findings.",
+      "An observation, because the procedure exists and is being applied to high-risk work, which shows the intent of the requirement is being met."
+     ],
+     "answer": "A",
+     "explanation": "A nonconformity is the non-fulfilment of a requirement, and fifteen of twenty missing records with supervisors describing a different rule is objective evidence of systemic failure of implementation, not a stray lapse. The most tempting alternative downgrades it to an observation because a procedure exists; that confuses having a document with operating the system. Writing it against the documentation clause misdirects the corrective action toward rewriting text rather than restoring control and competence."
+    },
+    {
+     "num": 14,
+     "topic": "Program Management - performance measurement",
+     "question": "A refinery has held a total recordable case rate near 0.6 for three years, but the last eighteen months produced two loss-of-containment near misses and a fire that was extinguished before injury. Executives cite the rate as proof the programme works. What should the safety professional recommend to the board?",
+     "choices": [
+      "Add first-aid and near-miss case counts to the recordable rate, because a larger denominator of events makes the trend statistically more reliable.",
+      "Add contractor hours to the recordable rate calculation, because excluding contractor exposure is the most likely reason the rate understates site risk.",
+      "Add process safety leading indicators such as safety-critical equipment overdue inspections and barrier failures, because injury rates do not measure low-frequency, high-consequence risk.",
+      "Add a severity-weighted injury rate alongside the recordable rate, so that the metric reflects the potential consequence of each case rather than its count."
+     ],
+     "answer": "C",
+     "explanation": "Personal injury rates measure slips, strains and cuts; they say almost nothing about whether the barriers preventing a major accident are intact, which is why several catastrophes were preceded by award-winning injury statistics. Leading process safety indicators measure barrier health directly. The severity-weighted rate is the strongest distractor because it sounds more sophisticated, yet it still counts only injuries that occurred and would remain flat while containment barriers degrade."
+    },
+    {
+     "num": 15,
+     "topic": "Program Management - incident investigation",
+     "question": "An operator was burned opening a filter housing that still held pressure. The investigation finds she skipped the depressurisation check, the pressure gauge on that housing had been broken for weeks, the work order for the gauge sat unassigned, and the crew had been told to cut changeout time. Which statement best identifies the root cause?",
+     "choices": [
+      "The operator failed to verify zero pressure before opening the housing, which was the last opportunity to prevent the burn.",
+      "The broken pressure gauge left the operator without the information she needed to confirm that the housing was safe to open.",
+      "Maintenance backlog management allowed a safety-critical indicator to stay out of service while production targets pushed the crew to work around it.",
+      "The procedure lacked a step requiring independent verification of depressurisation before any filter housing is opened."
+     ],
+     "answer": "C",
+     "explanation": "The root cause is the management-system failure that made the unsafe condition routine and rewarded working around it; fixing only the immediate acts leaves the same conditions to catch the next operator. The most tempting choice, the skipped verification, is the immediate cause and the one investigations most often stop at, producing retraining and discipline. The broken gauge is a contributing condition whose persistence, not its existence, points to the system failure."
+    },
+    {
+     "num": 16,
+     "topic": "Emergency Management - fire protection system design",
+     "question": "A storage area is protected by a dry-pipe sprinkler system. The hydraulic design calls for a density of 0.20 gpm per sq ft over a 2,500 sq ft area of operation. Given that a dry-pipe system's area of operation must be increased by 30 percent without changing the density, and that a hose stream allowance of 250 gpm must be added at the base of the riser, what total water supply must be available?",
+     "choices": [
+      "650 gpm",
+      "750 gpm",
+      "975 gpm",
+      "900 gpm"
+     ],
+     "answer": "D",
+     "explanation": "The dry-pipe adjustment enlarges the area to 2,500 × 1.30 = 3,250 sq ft, the sprinkler demand is 3,250 × 0.20 = 650 gpm, and adding the hose stream allowance gives 900 gpm. The most tempting answer is 750 gpm, which uses the unadjusted 2,500 sq ft area and misses the increase that compensates for the delay while air is exhausted from the piping. Omitting the hose allowance gives 650 gpm, and applying the 30 percent to the combined figure gives 975 gpm."
+    },
+    {
+     "num": 17,
+     "topic": "Environmental Management - air emissions",
+     "question": "A coating line releases a single hazardous air pollutant at 8.5 lb per hour before any control device. The line runs 24 hours a day for 350 days a year, and its thermal oxidiser destroys 95 percent of the pollutant whenever the line operates. What are the facility's actual emissions of that pollutant for the year?",
+     "choices": [
+      "35.70 tons",
+      "3.57 tons",
+      "1.79 tons",
+      "33.91 tons"
+     ],
+     "answer": "C",
+     "explanation": "The oxidiser leaves 5 percent of the stream, so the released rate is 8.5 × 0.05 = 0.425 lb per hour. Over 24 × 350 = 8,400 operating hours that is 3,570 lb, and dividing by 2,000 gives 1.79 tons. The most tempting answer is 33.91 tons, which treats the 95 percent as the fraction released rather than destroyed. Ignoring the oxidiser altogether gives 35.70 tons, and assuming a 90 percent efficiency gives 3.57 tons."
+    },
+    {
+     "num": 18,
+     "topic": "Emergency Management - toxic release protective action",
+     "question": "A rail tank car of anhydrous ammonia begins venting 400 yards upwind of a plating plant. The building has sealable HVAC, no ammonia-rated escape respirators, and its only two exits face the release. The community alert recommends protective action. What should the emergency coordinator direct?",
+     "choices": [
+      "Evacuate immediately in a direction perpendicular to the wind, using wetted cloth over the face for the short distance through the plume edge.",
+      "Shelter in place: shut down and seal the HVAC, move occupants to interior rooms away from the release side, and account for everyone while awaiting responder direction.",
+      "Hold occupants in place with the HVAC running on full fresh air, because positive pressure will keep the vapour out of the occupied areas.",
+      "Evacuate immediately by the shortest route to the designated assembly area, because ammonia is toxic and any delay increases inhalation exposure."
+     ],
+     "answer": "B",
+     "explanation": "With the release upwind and the exits facing it, evacuation moves people into the plume, and no escape respirators are available; a sealed building is a usable barrier for a passing plume. The immediate-evacuation answer is the strongest distractor because evacuation is the default reflex and is correct for fire, but for a short-duration toxic release upwind it increases exposure. Running the HVAC on fresh air actively draws contaminated air inside."
+    },
+    {
+     "num": 19,
+     "topic": "Fire prevention and protection",
+     "question": "A distribution warehouse protected by a sprinkler system designed for Class III commodities in 20 ft racks is converting to storing goods in expanded plastic packaging at the same height. The warehouse manager proposes adding extinguishers and monthly inspections. What is the correct assessment?",
+     "choices": [
+      "The existing design remains valid provided aisle width is increased and flue spaces are kept clear, since those control fire spread between racks.",
+      "The stored commodity class has changed, so the sprinkler design density and arrangement must be re-evaluated against the new hazard before the conversion proceeds.",
+      "The existing design remains valid provided the building's fire alarm is upgraded to transmit directly to the responding fire department.",
+      "The existing design remains valid because storage height is unchanged, and the added extinguishers and inspections give an acceptable margin."
+     ],
+     "answer": "B",
+     "explanation": "Sprinkler design density is driven by commodity classification as much as by height; expanded plastics burn far faster and release far more heat than Class III commodities, so a system sized for the old hazard can be overwhelmed regardless of housekeeping. The most tempting answer fixes on unchanged height, which is only one design input. Extinguishers, aisles and alarm transmission address early or manual intervention, not the water density a rack fire demands."
+    },
+    {
+     "num": 20,
+     "topic": "Security",
+     "question": "A distribution centre has had three after-dark confrontations in an employee parking lot that is separated from the building by an unlit landscaped berm, with a single unstaffed gate and no sightlines from occupied areas. Management wants the most durable improvement. Which approach best reflects crime prevention through environmental design?",
+     "choices": [
+      "Clear and relight the sightline between the lot and occupied areas and define the entry route so that the space is naturally observed and access is channelled.",
+      "Issue personal alarms to employees and require staff to walk to their vehicles in pairs after dark, verified by a buddy sign-out sheet.",
+      "Install cameras covering the lot with recording retained for thirty days, and post signage advising that the area is under surveillance.",
+      "Place a guard at the gate during shift changes and increase patrol frequency in the lot during hours of darkness."
+     ],
+     "answer": "A",
+     "explanation": "The design approach removes the conditions that make the space attractive to offenders: natural surveillance from occupied areas, lighting, and access control that channels movement, which work continuously without depending on staffing. The tempting alternative is guards and patrols, a real control but one that is intermittent, costly to sustain and lapses the moment budgets tighten. Cameras mainly support investigation after the fact, and buddy systems place the burden on the people at risk."
+    },
+    {
+     "num": 21,
+     "topic": "Occupational health - respiratory protection",
+     "question": "Air monitoring during the tank-cleaning task confirms that the vapour concentration remains at or below 1,000 ppm throughout the task, with no higher short-term peaks; oxygen is 20.9 percent and no other respiratory hazards are present. The vapour has an exposure limit of 25 ppm and an IDLH of 3,000 ppm. A NIOSH-approved cartridge for the vapour is certified for use up to 1,250 ppm, and the written respiratory protection programme has a compliant change schedule based on objective service-life data. Assigned protection factors are 10 for a half-mask air-purifying respirator, 25 for a loose-fitting powered hood, 50 for a full-facepiece air-purifying respirator and 1,000 for a full-facepiece supplied-air respirator in pressure demand. Which is the least protective respirator that is adequate?",
+     "choices": [
+      "A full-facepiece supplied-air respirator in pressure demand mode",
+      "A full-facepiece air-purifying respirator with the approved cartridge",
+      "A loose-fitting powered air-purifying respirator with a hood",
+      "A half-mask air-purifying respirator with the approved cartridge"
+     ],
+     "answer": "B",
+     "explanation": "The maximum use concentration is the lowest of the factor-based value, the IDLH and the cartridge certification limit. For the full-facepiece air-purifying respirator that is the lower of 50 × 25 = 1,250 ppm, 3,000 ppm and 1,250 ppm, so 1,250 ppm covers the 1,000 ppm maximum measured. The most tempting pick is the powered hood, which supplies filtered air yet allows only 625 ppm and would leave about 40 ppm inside it."
+    },
+    {
+     "num": 22,
+     "topic": "Occupational Health and Applied Science - ergonomics",
+     "question": "Order pickers push loaded four-wheel carts about 150 ft across a warehouse roughly forty times per shift. Measurements give an initial push force of 55 lbf and a sustained force of 30 lbf. Population push-pull tables for that distance, frequency and hand height give acceptable values of 47 lbf initial and 34 lbf sustained for three quarters of female workers. What does the evaluation support?",
+     "choices": [
+      "The task cannot be evaluated until the loaded cart weight is measured and compared with a recommended weight limit.",
+      "The task is acceptable because the sustained force governs a 150 ft push and it falls below the acceptable value.",
+      "The task is acceptable because the average of the initial and sustained forces falls below both acceptable values.",
+      "The task needs redesign because the initial force exceeds the acceptable value for the target population even though the sustained force does not."
+     ],
+     "answer": "D",
+     "explanation": "Push-pull tasks are compared with both the initial and sustained-force criteria for the selected target population. The initial force is 55 lbf against a 47 lbf acceptable value, so the task fails the target of accommodating three quarters of female workers, even though the sustained force is 30 lbf against a 34 lbf acceptable value. The sustained-force-only answer ignores the initial-force criterion, and averaging the two forces has no basis."
+    },
+    {
+     "num": 23,
+     "topic": "Environmental management",
+     "question": "A plating facility generates 900 kg of non-acute hazardous waste per calendar month, generates no acute hazardous waste, and holds no more than 4,000 kg on site at any time. It accumulates waste in a central area in marked, closed containers and ships through a permitted transporter to a designated facility 60 miles away. Which statement about its accumulation limit is correct?",
+     "choices": [
+      "As a small quantity generator it may accumulate waste on site for up to 270 days, because shipping to an off-site designated facility qualifies it for the extended period.",
+      "As a large quantity generator it may accumulate waste on site for up to 90 days, because the monthly generation rate is the only factor that sets the category.",
+      "As a very small quantity generator it has no accumulation time limit, because the quantity held on site never reaches the large quantity generator threshold.",
+      "As a small quantity generator it may accumulate waste on site for up to 180 days without a storage permit, provided the quantity on site stays within its limit."
+     ],
+     "answer": "D",
+     "explanation": "Generating more than 100 but less than 1,000 kg per month of non-acute waste, with no acute-waste threshold exceeded, makes the facility a small quantity generator, which may hold up to 6,000 kg on site for 180 days without a storage permit. The most tempting error claims 270 days; that extension applies only when the designated facility is more than 200 miles away, and this one is 60 miles."
+    },
+    {
+     "num": 24,
+     "topic": "Training",
+     "question": "After a fall from height, a company delivered refresher training on harness inspection and anchorage selection. Quiz scores averaged 94 percent and course ratings were high. Structured site observations before the training showed a correct harness inspection in 55 percent of cases and a compliant anchorage selection in 45 percent; six months after the training the same observations show 95 percent for harness inspection and 40 percent for anchorage selection. What conclusion does the evidence support?",
+     "choices": [
+      "The training changed inspection behaviour but not anchorage selection, so the anchorage content and the conditions affecting that choice need to be reworked.",
+      "The training was ineffective overall, since one of the two taught behaviours did not improve and the programme should be redelivered in full.",
+      "No conclusion is supportable until the site's fall-related incidence rate over the next year is compared with the rate before the training.",
+      "The training was effective overall, since the quiz results and the inspection observations both show the material was learned and applied."
+     ],
+     "answer": "A",
+     "explanation": "Behaviour data separates the two taught tasks: harness inspection rose from 55 to 95 percent while anchorage selection fell from 45 to 40 percent, so effort belongs on the anchorage content and on the site conditions driving that choice, such as available anchor points. The most tempting answer reads the high quiz scores and the inspection gain as overall effectiveness, which averages away the very behaviour that caused the fall."
+    },
+    {
+     "num": 25,
+     "topic": "Program Management - regulations and standards",
+     "question": "A new warehouse worker, on their first day and not acclimatised, worked a full shift indoors at a heat index near 105°F and collapsed with heat stroke. Cool drinking water was available and accessible throughout. The employer's own written heat programme calls for a graduated acclimatisation schedule and rest breaks, neither of which was applied; a similar heat illness occurred the previous summer, and the industry recognises the hazard. No federal standard sets a heat exposure limit for this work. What is the basis for enforcement action?",
+     "choices": [
+      "The general duty clause, because a recognised hazard likely to cause serious harm existed and feasible abatement such as acclimatisation and rest breaks was available.",
+      "No enforcement action is available, because the absence of a federal heat standard leaves no requirement the employer can be cited against.",
+      "The personal protective equipment requirements, because the employer did not assess the hazard and provide cooling garments to the worker.",
+      "The recordkeeping requirements, because the enforceable failure in a heat illness case is the employer's handling of the injury log entry."
+     ],
+     "answer": "A",
+     "explanation": "With no specific standard covering heat exposure for this work, the general duty clause applies, and its elements are met: the employer's own programme and last summer's case establish recognition, heat stroke is plainly capable of serious harm, and acclimatisation and rest breaks are feasible and effective. The most tempting answer treats the missing standard as the end of the analysis, which is precisely the gap the clause exists to close."
+    }
+   ]
+  }
+ ]
+}

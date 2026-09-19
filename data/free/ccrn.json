@@ -1,0 +1,338 @@
+{
+ "slug": "ccrn-free25",
+ "title": "Free sample",
+ "free": true,
+ "note": "Original questions written for the free sample. They do not appear in the book or in the owners' online practice tests.",
+ "tests": [
+  {
+   "testNum": 1,
+   "questions": [
+    {
+     "num": 1,
+     "topic": "Clinical Judgment - Cardiovascular (acute coronary syndrome)",
+     "question": "A patient with an inferior wall ST-elevation myocardial infarction is given sublingual nitroglycerin for ongoing chest pain. Within three minutes the blood pressure falls from 114/68 to 74/42 mmHg and the heart rate slows to 52/min. The lungs remain clear and the jugular veins are distended. Which action should the nurse take first?",
+     "choices": [
+      "Start a norepinephrine infusion titrated to a mean arterial pressure of 65 mmHg",
+      "Obtain right-sided precordial leads before any further treatment is given",
+      "Give the ordered intravenous furosemide for acute decompensated heart failure",
+      "Withhold further nitroglycerin and infuse a 250 mL isotonic crystalloid bolus"
+     ],
+     "answer": "D",
+     "explanation": "Clear lungs, distended neck veins and profound hypotension right after a nitrate in an inferior infarct point to right ventricular involvement, which is preload dependent. Stopping the nitrate and restoring volume corrects the problem immediately. Recording right-sided leads is the correct confirming step but belongs after perfusion is restored, and a diuretic strips the preload this ventricle needs."
+    },
+    {
+     "num": 2,
+     "topic": "Clinical Judgment - Cardiovascular (cardiogenic shock, haemodynamics)",
+     "question": "Two days after an anterior myocardial infarction a patient is on a norepinephrine infusion. Mean arterial pressure is now 74 mmHg, yet the skin stays cool and mottled and urine output is 12 mL/hr. Pulmonary artery catheter values are: cardiac index 1.6 L/min/m2, pulmonary artery occlusion pressure 28 mmHg, systemic vascular resistance 2150 dyn·s/cm^5, mixed venous oxygen saturation 46 percent, lactate rising from 2.8 to 4.1 mmol/L. Which therapy should the nurse anticipate?",
+     "choices": [
+      "Adding an inotrope to raise cardiac index and oxygen delivery",
+      "An intravenous beta-blocker to lower myocardial oxygen demand",
+      "A rapid 500 mL crystalloid bolus to improve ventricular filling",
+      "Increasing the norepinephrine to raise the perfusion pressure further"
+     ],
+     "answer": "A",
+     "explanation": "Perfusion pressure is already at target, so pressure is not the deficit; the low cardiac index, low venous saturation and rising lactate with a high filling pressure and very high resistance show the pump cannot deliver flow, which calls for inotropic support alongside the vasopressor. Escalating norepinephrine is the tempting move, since it is the first-line vasopressor when pressure is inadequate, but more vasoconstriction at an adequate pressure raises afterload and lowers output further."
+    },
+    {
+     "num": 3,
+     "topic": "Clinical Judgment - Cardiovascular (dysrhythmia)",
+     "question": "A patient with known Wolff-Parkinson-White syndrome develops a rapid, irregular rhythm at about 230/min in which the QRS complexes vary in width from beat to beat. Blood pressure is 76/40 mmHg and the patient is diaphoretic and confused. Which intervention should the nurse anticipate?",
+     "choices": [
+      "Intravenous digoxin to slow conduction through the atrioventricular node",
+      "Adenosine 6 mg by rapid intravenous push followed by a saline flush",
+      "A diltiazem infusion titrated to control the ventricular response",
+      "Immediate synchronised cardioversion with sedation as tolerated"
+     ],
+     "answer": "D",
+     "explanation": "An irregular tachycardia with beat-to-beat changes in QRS width in this syndrome is atrial fibrillation conducting down an accessory pathway. Drugs that block the atrioventricular node push more impulses down that pathway and can precipitate ventricular fibrillation. The patient is hypotensive and confused, so electrical therapy is indicated. Adenosine is the trap: correct for a regular narrow tachycardia, dangerous here."
+    },
+    {
+     "num": 4,
+     "topic": "Clinical Judgment - Cardiovascular (mechanical complication of infarction)",
+     "question": "On the third day after an inferior myocardial infarction a patient becomes acutely dyspnoeic. A new loud systolic murmur is heard throughout systole, crackles are now bilateral, the pulmonary artery occlusion tracing shows very large v waves with a mean of 30 mmHg, and the cardiac index is 1.5 L/min/m2. Which management should the nurse anticipate?",
+     "choices": [
+      "A large crystalloid bolus to raise preload and forward flow",
+      "Intra-aortic counterpulsation with urgent surgical consultation",
+      "Systemic fibrinolytic therapy for a suspected acute reinfarction",
+      "Emergent pericardiocentesis for a suspected pericardial tamponade"
+     ],
+     "answer": "B",
+     "explanation": "Giant v waves with a new holosystolic murmur and flash pulmonary oedema after an inferior infarct indicate acute mitral regurgitation from papillary muscle rupture. Counterpulsation reduces afterload and improves forward flow while surgery is arranged. Tamponade is the tempting look-alike but produces equalised chamber pressures, pulsus paradoxus and no murmur, and pericardiocentesis would do nothing for this lesion."
+    },
+    {
+     "num": 5,
+     "topic": "Clinical Judgment - Cardiovascular (acute decompensated heart failure)",
+     "question": "A patient with acute pulmonary oedema is started on noninvasive positive pressure ventilation. Blood pressure is 192/108 mmHg, heart rate 124/min, respiratory rate 34/min, oxygen saturation 86 percent, with diffuse crackles and frothy pink sputum. The weight is unchanged from a clinic visit two weeks ago, the jugular venous pressure is only mildly raised and there is no peripheral oedema. Which therapy should the nurse anticipate first?",
+     "choices": [
+      "An intravenous beta-blocker infusion to slow the heart rate",
+      "Intravenous morphine to relieve dyspnoea and reduce preload",
+      "An intravenous vasodilator infusion titrated to reduce afterload",
+      "A large intravenous loop diuretic bolus to remove the excess fluid"
+     ],
+     "answer": "C",
+     "explanation": "An unchanged weight with no peripheral oedema shows this crisis is fluid redistributed into the lungs by a sudden hypertensive surge, not accumulated total body volume, so rapid vasodilation with positive pressure reverses it fastest. A large diuretic bolus is the tempting reflex for frothy sputum and crackles, yet in a patient who is not volume overloaded it gives little early benefit and can cause hypotension and reflex vasoconstriction. Morphine is outdated."
+    },
+    {
+     "num": 6,
+     "topic": "Clinical Judgment - Respiratory (ARDS, lung-protective ventilation)",
+     "question": "A patient with ARDS whose predicted body weight is 70 kg is ventilated on volume assist-control with a tidal volume of 560 mL, PEEP 12 cm H2O and FiO2 0.80. Arterial blood gas: pH 7.36, PaCO2 44 mmHg, PaO2 68 mmHg. The plateau pressure measures 34 cm H2O. Which ventilator change should the nurse anticipate?",
+     "choices": [
+      "Reducing the tidal volume to 6 mL/kg of predicted body weight",
+      "Raising the PEEP to 18 cm H2O to recruit collapsed alveoli",
+      "Changing to pressure support ventilation to improve comfort",
+      "Raising the FiO2 to 1.0 to correct the oxygenation deficit"
+     ],
+     "answer": "A",
+     "explanation": "The delivered volume is 8 mL/kg predicted weight and the plateau pressure exceeds the protective limit of about 30 cm H2O, so the lung is being overdistended. Lowering the tidal volume is the change that protects the lung. Adding PEEP is tempting because the oxygenation ratio is poor, but it drives the plateau pressure higher still; more oxygen treats the number, not the injury."
+    },
+    {
+     "num": 7,
+     "topic": "Clinical Judgment - Respiratory (ventilator alarm interpretation)",
+     "question": "Shortly after a ventilated patient is repositioned, the high peak inspiratory pressure alarm sounds repeatedly. The peak inspiratory pressure has risen from 28 to 46 cm H2O while the plateau pressure remains 22 cm H2O. Breath sounds are equal bilaterally, the trachea is midline, and the patient is coughing. Which action should the nurse take first?",
+     "choices": [
+      "Add PEEP to compensate for the fall in lung compliance",
+      "Give the ordered sedative bolus to treat ventilator dyssynchrony",
+      "Prepare for needle decompression of a tension pneumothorax",
+      "Assess the airway for obstruction and suction the endotracheal tube"
+     ],
+     "answer": "D",
+     "explanation": "A rising peak pressure with an unchanged plateau pressure isolates the problem to airway resistance, which suctioning, a kink or bronchospasm can explain. A compliance problem such as pneumothorax or oedema would raise both pressures, and the tension pneumothorax option is the tempting one because the alarm followed repositioning, but equal breath sounds and a normal plateau pressure argue against it."
+    },
+    {
+     "num": 8,
+     "topic": "Clinical Judgment - Respiratory (status asthmaticus, ABG interpretation)",
+     "question": "A patient in status asthmaticus has had two hours of continuous bronchodilator therapy and steroids. The first blood gas was pH 7.49, PaCO2 27 mmHg, PaO2 72 mmHg. The repeat gas is pH 7.28, PaCO2 52 mmHg, PaO2 58 mmHg. The patient is now drowsy and the chest is quiet on auscultation. Which action is the priority?",
+     "choices": [
+      "Document the reduced wheeze and continue the current bronchodilator therapy",
+      "Call the team and prepare for immediate intubation and mechanical ventilation",
+      "Give intravenous sodium bicarbonate to correct the worsening acidosis",
+      "Give the ordered sedative so the patient can rest and lower oxygen demand"
+     ],
+     "answer": "B",
+     "explanation": "A carbon dioxide level that climbs from low to high during an asthma attack, with a drowsy patient and a silent chest, means airflow has nearly stopped and the patient is tiring. This is impending respiratory arrest. The quiet chest is the trap: it reads as improvement but signals almost no air movement. Sedation removes the last respiratory drive, and bicarbonate treats a number rather than the ventilation failure."
+    },
+    {
+     "num": 9,
+     "topic": "Clinical Judgment - Respiratory (pulmonary embolism)",
+     "question": "Two days after total knee arthroplasty a patient suddenly becomes dyspnoeic with sharp pain on inspiration. Respiratory rate is 34/min, heart rate 128/min, blood pressure 88/54 mmHg and oxygen saturation 88 percent on 4 L nasal cannula. Breath sounds are clear, the neck veins are distended and a portable chest film is clear. The electrocardiogram shows sinus tachycardia with new T wave inversion in the anterior leads, and the troponin is mildly raised. Which action should the nurse take first?",
+     "choices": [
+      "Give high-flow oxygen and escalate for urgent pulmonary embolism imaging",
+      "Give sublingual nitroglycerin for the ischaemic electrocardiogram changes",
+      "Start anticoagulation only once the coronary workup has been completed",
+      "Give the ordered opioid for the pleuritic pain and reassess in thirty minutes"
+     ],
+     "answer": "A",
+     "explanation": "Anterior T wave inversion and a small troponin rise are produced by acute right ventricular strain from a large embolus, and the clear lungs and clear film with distended neck veins and shock point to obstruction of the pulmonary circulation rather than coronary occlusion. Nitroglycerin is the dangerous temptation here: the tracing looks ischaemic, but dropping preload in a strained, preload-dependent right ventricle can precipitate collapse."
+    },
+    {
+     "num": 10,
+     "topic": "Clinical Judgment - Endocrine (hyperglycaemic crisis)",
+     "question": "An older adult is admitted obtunded after several days of a urinary tract infection and poor oral intake. Glucose is 968 mg/dL, sodium 149 mEq/L, chloride 103 mEq/L, potassium 5.4 mEq/L, urea nitrogen 42 mg/dL, serum osmolality 366 mOsm/kg, pH 7.24, bicarbonate 14 mEq/L, and beta-hydroxybutyrate is clearly raised. Heart rate is 124/min, blood pressure 86/50 mmHg, and no urine has been passed for eight hours. Which intervention is the priority?",
+     "choices": [
+      "Give intravenous sodium bicarbonate to correct the metabolic acidosis",
+      "Begin rapid isotonic crystalloid resuscitation before insulin is started",
+      "Add potassium to the first litre of fluid before the insulin is started",
+      "Start the insulin infusion now, since ketoacidosis is the greater threat"
+     ],
+     "answer": "B",
+     "explanation": "The raised ketones, anion gap of 32 and bicarbonate of 14 mEq/L mark true ketoacidosis, while the osmolality of 366 mOsm/kg marks a hyperosmolar state, so this is a mixed crisis; both components begin the same way, because the patient is litres behind and hypotensive. Starting insulin first is the tempting response to the acidosis and shifts water and potassium into cells, deepening the shock. Potassium is high with no urine output, and bicarbonate is not indicated at this pH."
+    },
+    {
+     "num": 11,
+     "topic": "Clinical Judgment - Endocrine (diabetes insipidus versus SIADH)",
+     "question": "Eight hours after transsphenoidal resection of a pituitary tumour a patient's urine output has been 380 mL/hr for three hours. Urine specific gravity is 1.002, serum sodium 152 mEq/L, serum osmolality 312 mOsm/kg and blood pressure 94/54 mmHg. The patient is intensely thirsty. Which management should the nurse anticipate?",
+     "choices": [
+      "Isotonic crystalloid to restore perfusion, then desmopressin and free water",
+      "Desmopressin alone, with intravenous fluids held until the sodium falls",
+      "Fluid restriction and hypertonic saline, as for inappropriate antidiuresis",
+      "Free water replacement alone, matched hourly to the measured urine output"
+     ],
+     "answer": "A",
+     "explanation": "Huge volumes of very dilute urine with hypernatraemia and a high osmolality after pituitary surgery indicate central diabetes insipidus. Because this patient is hypotensive and intravascularly depleted, circulating volume is restored first with isotonic crystalloid; desmopressin then replaces the missing hormone and free water is replaced in a controlled way with frequent sodium checks. Free water replacement alone is the tempting choice, as it targets the water deficit but leaves the perfusion deficit untreated."
+    },
+    {
+     "num": 12,
+     "topic": "Clinical Judgment - Gastrointestinal (upper gastrointestinal haemorrhage)",
+     "question": "A patient with known cirrhosis and previously banded varices vomits about 400 mL of bright red blood. Heart rate is 124/min, blood pressure 86/50 mmHg, the skin is cool, and the haemoglobin is 6.8 g/dL. Two large-bore catheters are in place and resuscitation has begun. A covering resident asks for enough red cells to reach a haemoglobin of 10 g/dL and two litres of crystalloid wide open. Which management should the nurse anticipate instead?",
+     "choices": [
+      "Withholding blood products until endoscopy identifies the bleeding source",
+      "Transfusion to a restrictive haemoglobin target with vasoactive drug therapy",
+      "Transfusion to a haemoglobin of 10 g/dL to maximise oxygen delivery",
+      "Rapid large-volume crystalloid until the blood pressure has normalised"
+     ],
+     "answer": "B",
+     "explanation": "In bleeding from varices, over-transfusion and large crystalloid volumes raise portal pressure and can worsen or restart the haemorrhage, so a restrictive transfusion target with early vasoactive therapy and antibiotic prophylaxis gives better survival. Transfusing to a normal haemoglobin is the powerful temptation with a value of 6.8 g/dL and visible shock. Withholding blood entirely goes too far in a patient who is already hypoperfused."
+    },
+    {
+     "num": 13,
+     "topic": "Clinical Judgment - Haematology (heparin-induced thrombocytopenia)",
+     "question": "A patient who has received subcutaneous heparin since surgery six days ago develops a swollen, painful left calf. The platelet count has fallen from 246,000 to 82,000 per microlitre over 48 hours, there is no bleeding, and the patient is also receiving antibiotics for a wound infection. The antibody assay has been sent and results are expected tomorrow. Which management should the nurse anticipate?",
+     "choices": [
+      "Stopping heparin and placing a vena cava filter instead of anticoagulating",
+      "Awaiting the antibody assay result before changing the anticoagulant",
+      "Stopping every heparin exposure now and starting a non-heparin anticoagulant",
+      "Transfusing platelets before any alternative anticoagulant is started"
+     ],
+     "answer": "C",
+     "explanation": "A fall of more than half the count five to ten days into heparin exposure, with new thrombosis and no bleeding, fits an antibody-mediated, strongly prothrombotic reaction; sepsis and surgery also lower platelets but do not explain new clot on prophylaxis. Waiting for the assay is the careful-sounding trap, because clinical probability drives treatment and thrombosis can progress overnight. Platelets add fuel, and a filter leaves the clotting state untreated."
+    },
+    {
+     "num": 14,
+     "topic": "Clinical Judgment - Renal (acute kidney injury with hyperkalaemia)",
+     "question": "A patient with oliguric acute kidney injury has a potassium of 6.9 mEq/L, reported from a sample the laboratory notes was slightly haemolysed; a repeat sample has been sent. The monitor shows tall peaked T waves and the QRS has widened from 0.08 to 0.14 seconds. A dialysis catheter is in place and the nephrologist is on the way. Which intervention should the nurse implement first?",
+     "choices": [
+      "Waiting for the repeat potassium result before giving any treatment",
+      "Preparing the patient for immediate haemodialysis with the nephrologist",
+      "Intravenous calcium to stabilise the cardiac membrane without delay",
+      "Intravenous regular insulin with dextrose to shift potassium into cells"
+     ],
+     "answer": "C",
+     "explanation": "The peaked T waves and new QRS widening are strongly consistent with clinically significant hyperkalaemic cardiotoxicity, so treatment cannot wait for a confirmatory sample; intravenous calcium antagonises the membrane effect within minutes. Waiting for the repeat is the careful-sounding trap that a haemolysed specimen invites, and it risks arrest. Insulin with dextrose is correct therapy but takes fifteen to thirty minutes, and dialysis is definitive yet slower to start."
+    },
+    {
+     "num": 15,
+     "topic": "Clinical Judgment - Neurological (acute ischaemic stroke)",
+     "question": "A patient arrives 95 minutes after the sudden onset of right-sided weakness and aphasia. Computed tomography shows no haemorrhage and the patient otherwise meets criteria for intravenous thrombolysis. Blood pressure is 198/112 mmHg on two readings five minutes apart and the point-of-care glucose is 122 mg/dL. Which action should the nurse anticipate?",
+     "choices": [
+      "Cancelling thrombolysis because this pressure is an absolute contraindication",
+      "Giving a rapid-acting oral antihypertensive and rechecking within the hour",
+      "Allowing permissive hypertension and withholding all antihypertensive therapy",
+      "Giving the ordered intravenous antihypertensive to reach the treatment threshold"
+     ],
+     "answer": "D",
+     "explanation": "Before thrombolysis the pressure must be brought below 185/110 mmHg, and a titratable intravenous agent does this safely within the treatment window. Permissive hypertension is the strong distractor because it is genuinely correct for a stroke patient who is not receiving thrombolysis; applying it here forfeits the clot-lysing window. The oral route is too slow and unpredictable to meet the deadline."
+    },
+    {
+     "num": 16,
+     "topic": "Clinical Judgment - Neurological (intracranial hypertension)",
+     "question": "A patient with severe traumatic brain injury has had an intracranial pressure of 26 mmHg for the past ten minutes with a mean arterial pressure of 78 mmHg. The head of the bed is at 30 degrees, the head is turned toward the ventilator, and the endotracheal tube tie is tight across the front of the neck. Which action should the nurse take first?",
+     "choices": [
+      "Return the head to midline and loosen the tube tie to free venous drainage",
+      "Hyperventilate the patient to a carbon dioxide level of 25 to 30 mmHg",
+      "Suction the endotracheal tube to clear any retained secretions",
+      "Give the ordered osmotic agent for the raised intracranial pressure"
+     ],
+     "answer": "A",
+     "explanation": "Cerebral perfusion pressure is 52 mmHg, below the usual 60 to 70 mmHg target, and two readily reversible causes of obstructed jugular outflow are present at the bedside. Correcting head position and neck constriction can drop the pressure within seconds at no risk. Osmotic therapy is genuinely indicated but comes after simple mechanical causes are excluded; prophylactic hyperventilation causes ischaemia, and suctioning transiently raises the pressure further."
+    },
+    {
+     "num": 17,
+     "topic": "Clinical Judgment - Neurological (status epilepticus)",
+     "question": "A patient has been having continuous generalised tonic-clonic activity for eight minutes. Two adequately dosed intravenous benzodiazepine doses have been given and the convulsion continues. The airway is patent with bag-mask support, oxygen saturation is 94 percent and the glucose is 108 mg/dL. Which intervention should the nurse anticipate next?",
+     "choices": [
+      "The patient's usual oral antiseizure medication given by gastric tube",
+      "A loading dose of a second-line intravenous antiseizure medication",
+      "A third dose of the same benzodiazepine before any other medication",
+      "A continuous anaesthetic infusion with intubation for refractory seizures"
+     ],
+     "answer": "B",
+     "explanation": "Benzodiazepines are the first-line therapy, and when two adequate doses fail the next step is a loading dose of a second-line agent such as fosphenytoin, valproate or levetiracetam. Repeating the benzodiazepine is the tempting error: it adds respiratory and haemodynamic depression without additional benefit. An anaesthetic infusion is the correct therapy one stage later, after second-line loading also fails."
+    },
+    {
+     "num": 18,
+     "topic": "Clinical Judgment - Behavioral and Psychosocial (delirium)",
+     "question": "An intubated patient who was calm and interactive yesterday is now inattentive with fluctuating disorganised thinking and restless movement, and the unit delirium screen is positive. The patient has been on a continuous benzodiazepine infusion for two days. The oxygen saturation is 91 percent, a bladder scan shows 620 mL and the patient grimaces when repositioned. The team asks the nurse to increase the infusion rate. Which action should the nurse take first?",
+     "choices": [
+      "Correct the identified causes and request a non-benzodiazepine sedation plan",
+      "Increase the benzodiazepine infusion rate until the patient settles as asked",
+      "Give the ordered as-needed antipsychotic to shorten the delirium episode",
+      "Apply soft wrist restraints and maintain the current infusion rate for now"
+     ],
+     "answer": "A",
+     "explanation": "Three reversible triggers are documented in this assessment, and the benzodiazepine infusion is itself a well-established cause of delirium, so treating the causes and moving off that sedative is the first step. Increasing the rate is tempting because it is what the team asked for and it will quieten the patient, yet it deepens the delirium. Antipsychotics do not shorten delirium, and restraints worsen agitation and immobility."
+    },
+    {
+     "num": 19,
+     "topic": "Clinical Judgment - Multisystem (septic shock)",
+     "question": "A patient with urosepsis has received 30 mL/kg of balanced crystalloid over the past hour. Mean arterial pressure is 56 mmHg, heart rate 128/min, urine output 10 mL/hr, and the lactate has risen from 3.4 to 4.6 mmol/L. A passive leg raise produces no rise in stroke volume, and the haemoglobin is 9.2 g/dL. Which intervention should the nurse anticipate?",
+     "choices": [
+      "Starting a norepinephrine infusion to restore perfusion pressure",
+      "Transfusing packed red cells to raise the haemoglobin above 10 g/dL",
+      "Starting a dobutamine infusion to raise the cardiac index and output",
+      "Giving a further 30 mL/kg of crystalloid before any vasopressor is started"
+     ],
+     "answer": "A",
+     "explanation": "Hypotension and worsening hypoperfusion persisting after the initial 30 mL/kg resuscitation warrant norepinephrine, the first-line vasopressor. Further fluid is the common error here and is guided by dynamic assessment of fluid responsiveness rather than static pressures; this patient's leg raise shows no response. Transfusing to a haemoglobin above 10 g/dL is not indicated, and an inotrope is reserved for cardiac dysfunction with persistent hypoperfusion despite adequate volume and arterial pressure."
+    },
+    {
+     "num": 20,
+     "topic": "Clinical Judgment - Multisystem (toxic ingestion)",
+     "question": "A patient is brought in obtunded after ingesting a large quantity of amitriptyline about ninety minutes earlier. Blood pressure is 84/50 mmHg, the QRS duration is 132 milliseconds and widening, and the patient has had one generalised seizure. The airway has been secured. Which therapy should the nurse anticipate?",
+     "choices": [
+      "Oral activated charcoal given now through the gastric tube",
+      "A class I antiarrhythmic infusion to treat the widening complexes",
+      "Intravenous sodium bicarbonate boluses titrated until the QRS narrows",
+      "Flumazenil to reverse the depressed level of consciousness"
+     ],
+     "answer": "C",
+     "explanation": "Tricyclic toxicity blocks fast sodium channels, producing a wide QRS, hypotension and seizures; sodium loading with bicarbonate overcomes the blockade and is the specific therapy. A class I antiarrhythmic is the dangerous trap because the rhythm looks ventricular, yet those drugs block the same channel and worsen toxicity. Flumazenil has no role and may provoke seizures."
+    },
+    {
+     "num": 21,
+     "topic": "Clinical Judgment - Gastrointestinal (abdominal compartment syndrome)",
+     "question": "A trauma patient has received nine litres of resuscitation fluid and blood products. The abdomen is now tense and distended, peak inspiratory pressure has climbed from 30 to 48 cm H2O, urine output has fallen to 8 mL/hr, and the measured intra-abdominal pressure is 28 mmHg despite deep sedation. Which management should the nurse anticipate?",
+     "choices": [
+      "A further crystalloid bolus to improve the falling urine output",
+      "A loop diuretic infusion to treat the oliguria and third spacing",
+      "An increase in PEEP to overcome the rising airway pressures",
+      "Surgical decompression of the abdominal compartment"
+     ],
+     "answer": "D",
+     "explanation": "A sustained intra-abdominal pressure above 20 mmHg with new respiratory and renal dysfunction defines abdominal compartment syndrome. In this severely deteriorating trauma patient, urgent decompressive laparotomy is the best option listed; additional crystalloid, diuresis and higher PEEP can worsen the physiology. Nonoperative measures such as gastric or colonic decompression, drainage of intra-abdominal fluid when feasible, neuromuscular blockade and avoidance of further positive fluid balance may be used as temporizing or adjunctive measures, but persistent overt ACS requires surgical decompression."
+    },
+    {
+     "num": 22,
+     "topic": "Professional Caring and Ethical Practice - advocacy and moral agency",
+     "question": "A patient whose signed advance directive in the chart specifies no intubation deteriorates and can no longer communicate. The daughter, who is not the documented decision maker, insists that everything be done, and the intensivist begins preparing for intubation without referring to the directive. Which action by the nurse is most appropriate?",
+     "choices": [
+      "Contact the ethics committee directly to settle the disagreement",
+      "Bring the documented directive to the physician and request a family meeting",
+      "Decline to assist with intubation and record the directive in the notes",
+      "Follow the daughter's wishes because the patient can no longer speak"
+     ],
+     "answer": "B",
+     "explanation": "Advocacy here means making sure the treating team and the family are working from the patient's own documented wishes, which requires speaking up now and convening the people who must decide together. Simply refusing to participate is tempting as a moral stand but leaves the plan unchanged and the family uninformed. An ethics consultation is appropriate only if the conflict persists after this discussion."
+    },
+    {
+     "num": 23,
+     "topic": "Professional Caring and Ethical Practice - response to diversity",
+     "question": "A biopsy has confirmed an advanced malignancy in an alert, oriented patient who speaks limited English. Before the physician arrives, the family says that in their culture such news is given to the family and not the patient, and asks the team to withhold the diagnosis so the patient does not lose hope. Which action is most appropriate?",
+     "choices": [
+      "Ask the physician to record that the family has declined disclosure of the result",
+      "Disclose the diagnosis to the patient directly, as patients have a right to know",
+      "Agree to withhold the diagnosis from the patient as the family has requested",
+      "Ask the patient through an interpreter how much they wish to be told and by whom"
+     ],
+     "answer": "D",
+     "explanation": "Self-determination includes the right to decline information or delegate it, but only the patient can make that choice, so the nurse asks the patient privately through a professional interpreter and the answer is honoured and documented. Agreeing with the family is the tempting act of cultural respect and assumes consent never given. Insisting on disclosure applies one cultural norm and can be its own harm."
+    },
+    {
+     "num": 24,
+     "topic": "Professional Caring and Ethical Practice - caring practices",
+     "question": "A patient goes into cardiac arrest and resuscitation is under way. The spouse, who has been at the bedside all day, asks to remain in the room and promises to stay out of the way. The unit is adequately staffed. Which action is most appropriate?",
+     "choices": [
+      "Allow the spouse back into the room only once a pulse has been restored",
+      "Escort the spouse to the waiting area and give updates every few minutes",
+      "Offer the spouse the option to stay, with a staff member assigned to support",
+      "Explain that visitors are not permitted in the room during a resuscitation"
+     ],
+     "answer": "C",
+     "explanation": "Evidence supports offering family members the choice to be present during resuscitation, provided a designated staff member accompanies and supports them; presence aids grieving and does not impair team performance. Removing the spouse to the waiting room is the familiar routine and feels protective, but it withholds an option the evidence and professional practice alerts say should be offered."
+    },
+    {
+     "num": 25,
+     "topic": "Professional Caring and Ethical Practice - systems thinking and clinical inquiry",
+     "question": "For the third time this month a nurse finds two infusion bags of the same drug in different concentrations stored side by side in the unit cabinet. On this occasion the wrong concentration was caught during the independent double check before it reached the patient. Which action best addresses the problem?",
+     "choices": [
+      "Tell colleagues at each handover to double-check that cabinet carefully",
+      "Counsel the nurse who almost hung the wrong concentration of the drug",
+      "File a near-miss report and take the storage issue to the unit safety committee",
+      "Put a handwritten warning label on the shelf where the bags are stored"
+     ],
+     "answer": "C",
+     "explanation": "A repeated near miss with look-alike storage is a system defect, and reporting it into the safety process is what triggers a durable fix such as separating stock or standardising to a single concentration. Counselling the individual is the traditional response and feels decisive, but it leaves the hazard in place for the next nurse. Homemade labels and verbal reminders are workarounds that decay."
+    }
+   ]
+  }
+ ]
+}

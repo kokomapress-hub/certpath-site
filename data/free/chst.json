@@ -1,0 +1,338 @@
+{
+ "slug": "chst-free25",
+ "title": "Free sample",
+ "free": true,
+ "note": "Original questions written for the free sample. They do not appear in the book or in the owners' online practice tests.",
+ "tests": [
+  {
+   "testNum": 1,
+   "questions": [
+    {
+     "num": 1,
+     "topic": "Hazard identification and control - fall protection",
+     "question": "Crews are installing roof sheathing on a 7 ft high equipment platform inside a building under construction. The platform has an open edge along one side, work will last two shifts, and the general contractor proposes a controlled access zone with a monitor because anchor points are difficult to install. What does the construction standard require here?",
+     "choices": [
+      "Guardrails, safety nets or personal fall arrest are required, because difficulty installing anchors does not by itself establish infeasibility or a greater hazard.",
+      "A warning line set 6 ft back from the open edge is acceptable, because it keeps workers outside the zone where a fall could occur.",
+      "No fall protection is required, because the 6 ft trigger applies only to exposures at the perimeter of a structure's outermost frame.",
+      "A controlled access zone with a competent monitor is acceptable, because the exposure is below 10 ft and of short duration."
+     ],
+     "answer": "A",
+     "explanation": "The open edge is 7 ft above the lower level, so guardrails, safety nets or personal fall arrest are required. A controlled access zone with a safety monitor may be used for qualifying work only under a compliant site-specific fall-protection plan, and only after the employer demonstrates that conventional systems are infeasible or create a greater hazard. The tempting answer accepts the monitor on the strength of a short exposure and awkward anchors, neither of which establishes that exception."
+    },
+    {
+     "num": 2,
+     "topic": "Hazard identification and control - fall protection",
+     "question": "A worker must be tied off at a leading edge with only 12 ft of clear space below the working surface before the next level. The distance from the worker's dorsal D-ring to their feet is 5 ft, the plan requires a 2 ft safety margin, and every shock-absorbing lanyard listed has a maximum deceleration distance of 3.5 ft. Which arrangement keeps the worker off the lower level?",
+     "choices": [
+      "A self-retracting lifeline anchored overhead with a maximum arrest distance of 2 ft.",
+      "A 6 ft shock-absorbing lanyard anchored at the walking surface near the worker's feet.",
+      "A 6 ft shock-absorbing lanyard anchored 4 ft above the dorsal D-ring.",
+      "A 6 ft shock-absorbing lanyard anchored level with the dorsal D-ring."
+     ],
+     "answer": "A",
+     "explanation": "Required clearance is free fall plus deceleration plus the 5 ft below the D-ring plus the 2 ft margin. The self-retracting lifeline needs 2 + 5 + 2 = 9 ft and fits. The most tempting arrangement raises the anchor 4 ft, cutting free fall to 2 ft but still needing 2 + 3.5 + 5 + 2 = 12.5 ft, just over what is available. Anchoring level with the D-ring needs 16.5 ft, and anchoring at foot level allows an 11 ft free fall and needs 21.5 ft."
+    },
+    {
+     "num": 3,
+     "topic": "Hazard identification and control - fall protection",
+     "question": "A superintendent inspecting a mechanical penthouse finds a pipefitter tied off to a 3 in diameter plumbing vent stack, with the anchor connector wrapped twice around the pipe. The fitter says the pipe is steel and rigidly supported. What is the correct determination?",
+     "choices": [
+      "The stack is acceptable because wrapping the connector twice distributes the arrest load over the pipe and reduces the peak force on any single point.",
+      "The stack is not an acceptable anchorage unless it is either capable of supporting 5,000 lb per attached worker or part of a system designed and supervised by a qualified person with a safety factor of at least two.",
+      "The stack is acceptable because arrest forces on a body harness are limited to 1,800 lb, which is well within the strength of rigidly supported steel pipe.",
+      "The stack is acceptable if the fitter uses a self-retracting lifeline instead of a lanyard, since the shorter arrest distance keeps the anchor load below 900 lb."
+     ],
+     "answer": "B",
+     "explanation": "Anchorages for personal fall arrest must support 5,000 lb per worker, or be designed, installed and used under the supervision of a qualified person as part of a system with a safety factor of at least two; a plumbing vent is not engineered for that load and its connection to the structure is unknown. The tempting answer about the 1,800 lb limit is true of the force on the worker's body but says nothing about the anchorage strength the standard actually demands."
+    },
+    {
+     "num": 4,
+     "topic": "Hazard identification and control - scaffolds",
+     "question": "A tubular welded frame scaffold has a work platform 11 ft above grade. The inspection finds a top rail and toeboard on the outboard side but no midrail, no guardrail along the front edge, a 16 in gap between that front edge and the building face, and fully planked decking. Masons will work from the platform today. Which condition must be corrected before use?",
+     "choices": [
+      "Only the missing midrail, since the platform is fully planked and the gap at the building face is permitted for masonry work.",
+      "Only the 16 in gap, since a top rail and toeboard together provide acceptable protection where the platform is fully planked.",
+      "Neither condition, since fall protection on a supported scaffold is not required until the platform exceeds 15 ft above the level below.",
+      "Both the missing midrail and the 16 in gap, since each leaves an opening a worker can fall through at a height where fall protection is required."
+     ],
+     "answer": "D",
+     "explanation": "Fall protection is required on a supported scaffold when the platform is more than 10 ft above a lower level, and a complete guardrail system includes a midrail. The front edge must be within 14 in of the face of the work unless a guardrail or fall arrest protects that edge; the 18 in allowance belongs to plastering and lathing, not to laying block, so 16 in is too far either way. The tempting choice treats full planking as compensating for the missing midrail, which it does not."
+    },
+    {
+     "num": 5,
+     "topic": "Hazard identification and control - scaffolds",
+     "question": "A supported scaffold bay will carry three mason-and-tool loads of 250 lb each, plus 450 lb of block staged on the platform. The scaffold bay itself weighs 600 lb. Considering the bay as a whole, what minimum load capacity is required under the four-to-one scaffold capacity rule?",
+     "choices": [
+      "1,800 lb",
+      "5,400 lb",
+      "4,800 lb",
+      "7,200 lb"
+     ],
+     "answer": "B",
+     "explanation": "The maximum intended live load on the bay is (3 × 250) + 450 = 1,200 lb, so the bay as a whole must support its 600 lb self-weight plus four times that load: 600 + (4 × 1,200) = 5,400 lb. Each component must meet the same rule for the load applied to it. The most tempting answer, 4,800 lb, omits self-weight; 7,200 lb multiplies self-weight and live load together by four, and 1,800 lb omits the design factor."
+    },
+    {
+     "num": 6,
+     "topic": "Hazard identification and control - excavations",
+     "question": "A competent person tests spoil from a 9 ft trench and measures an unconfined compressive strength of 1.8 tons per square foot. The trench runs through the backfill of a sewer line replaced four years ago, and a truck route sits 15 ft from one edge. How should the soil be classified?",
+     "choices": [
+      "Type B, because previously disturbed soil cannot be classified as Type A regardless of its measured strength.",
+      "Stable rock, because a measured strength above 1.5 tons per square foot indicates material that will stand vertically without support.",
+      "Type C, because any soil subject to vibration from nearby traffic must be classified in the least stable category.",
+      "Type A, because the measured unconfined compressive strength of 1.8 tons per square foot exceeds the 1.5 ton threshold for cohesive soil."
+     ],
+     "answer": "A",
+     "explanation": "Strength alone never settles the class: soil that has been previously disturbed is excluded from Type A, and so is soil subject to vibration, so this material drops to Type B and requires a 1 to 1 slope or an equivalent system. The most tempting answer applies the 1.5 ton figure mechanically and ignores the disqualifying conditions. Vibration and disturbance move soil down from Type A but do not by themselves force it all the way to Type C."
+    },
+    {
+     "num": 7,
+     "topic": "Hazard identification and control - excavations",
+     "question": "An 8 ft deep trench with a 4 ft wide bottom must be opened in soil the competent person has classified as Type C, using the maximum allowable slope of 1.5 horizontal to 1 vertical for that class. The only working space runs 26 ft between an existing curb and a building face. What should the competent person conclude?",
+     "choices": [
+      "Sloping alone needs 20 ft across the top and fits the available space, so no support or shield system is required.",
+      "Sloping alone needs 16 ft across the top and fits the available space, so no support or shield system is required.",
+      "Sloping alone needs 28 ft across the top, which exceeds the 26 ft available, so a support or shield system must be used instead.",
+      "Benching the walls fits the available space and is the appropriate alternative where sloping cannot be completed."
+     ],
+     "answer": "C",
+     "explanation": "Each side needs 1.5 × 8 = 12 ft of run, so the top width is 4 + 12 + 12 = 28 ft, which the 26 ft of working space cannot accommodate; a trench shield or shoring is then required. The most tempting answer, 20 ft, comes from applying the 1 to 1 slope that belongs to Type B soil. The 16 ft figure counts the run on one side only, and benching is not permitted in Type C soil at all."
+    },
+    {
+     "num": 8,
+     "topic": "Hazard identification and control - excavations",
+     "question": "A 120 ft long, 6 ft deep trench is being excavated for a storm line, and the crew will work along its full length. Ladders are the planned means of egress and each will be placed so workers can reach it from either direction. What is the minimum number of ladders required?",
+     "choices": [
+      "4",
+      "2",
+      "5",
+      "3"
+     ],
+     "answer": "D",
+     "explanation": "In a trench 4 ft or more deep no worker may travel more than 25 ft laterally to reach the means of egress, so each ladder serves 25 ft in each direction, or 50 ft of trench. Three ladders cover 150 ft while two cover only 100 ft, leaving 20 ft unserved. The most tempting answer is 2, from dividing 120 by the 50 ft a ladder covers and rounding down; 4 and 5 come from dividing by 25 ft, ignoring that workers reach a ladder from both sides."
+    },
+    {
+     "num": 9,
+     "topic": "Hazard identification and control - excavations",
+     "question": "Overnight rain partly fills a shored 7 ft trench and washes material from one wall. The competent person inspected the trench at the start of the previous shift and found it acceptable. The crew arrives and wants to resume pipe laying after pumping out the water. What is required before entry?",
+     "choices": [
+      "A new inspection by the competent person only if water remains in the trench, since standing water is the hazard the rule addresses.",
+      "A new inspection by a registered professional engineer, because water damage to a shored wall is a modification of the protective system.",
+      "Removal of the water and a visual check by the crew leader, since the shoring system was installed and inspected before the rain.",
+      "A new inspection by the competent person, because conditions changed and the excavation must be inspected after any event that could increase hazards."
+     ],
+     "answer": "D",
+     "explanation": "Inspections are required daily before each shift, as needed through the shift and after every rainstorm or other hazard-increasing occurrence, and they must be made by the competent person, who alone is authorised to take prompt corrective measures. The tempting answer accepts a crew leader check because the shoring was previously approved; rain undermines walls and loads the system, so the earlier inspection no longer describes the excavation that exists."
+    },
+    {
+     "num": 10,
+     "topic": "Hazard identification and control - cranes",
+     "question": "A hydraulic truck crane will set roof units on a building beneath a 34.5 kV overhead distribution line. The utility will neither de-energise nor insulate the line, and the owner will not permit a schedule delay. The lift plan must define the minimum clearance for crane operation. What applies?",
+     "choices": [
+      "20 ft minimum clearance, with a dedicated spotter and warning devices, because the line voltage exceeds 1,000 volts.",
+      "15 ft minimum clearance, with a dedicated spotter, because clearance scales at 0.4 in per kilovolt above nominal distribution voltage.",
+      "10 ft minimum clearance, with no additional measures required, because maintaining the clearance distance itself satisfies the standard.",
+      "10 ft minimum clearance, with planning measures such as a dedicated spotter, warning devices and a documented encroachment prevention meeting."
+     ],
+     "answer": "D",
+     "explanation": "For crane operation near energised lines up to 50 kV the minimum clearance is 10 ft, and it must be paired with encroachment prevention measures once the option to de-energise or to keep the equipment far outside the work zone is rejected. The most tempting answer is 20 ft, which is the clearance required during assembly and disassembly when voltage has not been determined, a figure many candidates recall and apply to operation."
+    },
+    {
+     "num": 11,
+     "topic": "Hazard identification and control - rigging",
+     "question": "A 4,000 lb precast panel will be lifted with a two-leg bridle sling whose legs share the load equally. Each leg is rated 2,600 lb. The rigging crew can set the legs at 30, 45, 60 or 75 degrees from the horizontal. What is the smallest of those angles that keeps each leg within its rating?",
+     "choices": [
+      "75 degrees",
+      "30 degrees",
+      "45 degrees",
+      "60 degrees"
+     ],
+     "answer": "D",
+     "explanation": "Leg tension is half the load divided by the sine of the angle from horizontal. At 60 degrees it is 2,000 ÷ 0.866 = 2,310 lb, within the 2,600 lb rating, and it is the smallest listed angle that qualifies. The most tempting answer is 45 degrees, a common default that many riggers assume is safe; there the tension is 2,000 ÷ 0.707 = 2,830 lb, which overloads the leg. At 30 degrees each leg carries the full 4,000 lb."
+    },
+    {
+     "num": 12,
+     "topic": "Hazard identification and control - rigging",
+     "question": "During a pre-lift check a rigger finds a nylon web sling whose identification tag is torn away and illegible. The sling itself shows no cuts, holes, burns or broken stitching, and the supervisor recalls that the same size slings are rated 6,400 lb vertical. The lift is 3,000 lb. What is the correct action?",
+     "choices": [
+      "Use the sling after attaching a replacement tag marked with the capacity the supervisor identified from the matching slings in stock.",
+      "Remove the sling from service, because a sling without legible identification cannot be verified for rated capacity or material.",
+      "Use the sling for this lift, since the visual inspection found no damage and the load is well under half the known rated capacity.",
+      "Use the sling only in a choker hitch, since reducing the effective capacity to about 75 percent compensates for the unverified rating."
+     ],
+     "answer": "B",
+     "explanation": "Slings must be marked with the manufacturer's name, rated capacities and material, and one that cannot be identified must be removed from service; capacity depends on the specific sling's construction and cannot be inferred from similar-looking stock. The tempting answer leans on the visual inspection and a large apparent margin, but that margin is only as good as the assumed rating. Re-tagging in the field substitutes a recollection for the manufacturer's rating."
+    },
+    {
+     "num": 13,
+     "topic": "Hazard identification and control - electrical",
+     "question": "A jobsite powers hand tools from 120 V, 20 A receptacles on temporary panels. The electrical subcontractor proposes to skip ground-fault circuit interrupters and instead run a written programme of daily cord and equipment inspections with quarterly continuity testing of equipment grounding conductors. What is the correct evaluation?",
+     "choices": [
+      "Acceptable only as a full assured equipment grounding conductor programme, which must be written, have a designated competent person, and include documented tests of continuity on a set schedule.",
+      "Not acceptable under any circumstances, because ground-fault circuit interrupters are mandatory on all temporary receptacles used by construction workers.",
+      "Acceptable as described, because daily visual inspection of cords and tools is the element that prevents the shock hazard from developing.",
+      "Acceptable only for tools that are double insulated, because the programme cannot verify a grounding path on tools that have none."
+     ],
+     "answer": "A",
+     "explanation": "The standard offers two routes for temporary power: ground-fault circuit interrupter protection, or an assured equipment grounding conductor programme that is written, administered by a designated person, and backed by documented continuity and terminal tests at required intervals. The proposal resembles that programme but omits its defining elements, which is why the flat prohibition answer tempts; the route does exist, and quarterly testing alone does not satisfy it."
+    },
+    {
+     "num": 14,
+     "topic": "Emergency preparedness and response",
+     "question": "An entrant in a permit-required confined space, a 14 ft deep vertical vault, stops answering the attendant. The attendant is alone at the opening, the retrieval line is attached to the entrant's harness and rigged to a mechanical device at the opening, and the off-site rescue service is 20 minutes away. What sequence should the attendant follow?",
+     "choices": [
+      "Summon the rescue service, ventilate the space at maximum rate, and begin non-entry retrieval only once the atmosphere has been re-tested.",
+      "Don a harness and lifeline, enter to assess the entrant, and have the next arriving worker summon the rescue service.",
+      "Summon the rescue service, begin non-entry retrieval with the mechanical device from outside the space, and keep monitoring conditions until rescuers arrive.",
+      "Summon the rescue service, secure the opening against unauthorised entry, and wait for trained rescuers to operate the retrieval system."
+     ],
+     "answer": "C",
+     "explanation": "The attendant summons rescue and then uses the retrieval system from outside, because a 20 minute wait is far longer than an unresponsive entrant can afford and the equipment is already rigged for exactly this. The most tempting alternative ventilates and re-tests first, which is the right order before entry but delays retrieval of someone already down. Attendant entry, however humane it feels, is the leading cause of multiple confined-space fatalities."
+    },
+    {
+     "num": 15,
+     "topic": "Hazard identification and control - ladders",
+     "question": "A 24 ft extension ladder provides access to a second-floor deck 16 ft above grade. The inspector observes that the base sits 4 ft from the wall on a compacted gravel pad, the ladder is tied off at the top and its side rails extend 3 ft above the deck, and a worker is climbing while carrying a bundle of shingles under one arm. Which observation must be corrected?",
+     "choices": [
+      "The base is set 4 ft from the wall for a 16 ft working height.",
+      "The base is set on a compacted gravel pad rather than a paved surface.",
+      "The side rails extend only 3 ft above the deck surface.",
+      "The worker is carrying a load up the ladder that could cause a loss of balance."
+     ],
+     "answer": "D",
+     "explanation": "A worker may not carry any object or load that could cause a loss of balance while climbing, and a shingle bundle under one arm does exactly that; a hoist line or material lift is required. The other observations comply: a 4 ft base at a 16 ft height is the required one-quarter working length, 3 ft is the minimum extension above the landing, and a firm, level compacted pad is an acceptable base. The most tempting pick is the 3 ft extension, misremembered as a larger figure."
+    },
+    {
+     "num": 16,
+     "topic": "Hazard identification and control - confined spaces",
+     "question": "Before a routine entry into a permit-required manhole, the atmosphere reads 19.0 percent oxygen, 0 percent of the lower flammable limit, and 15 ppm hydrogen sulphide. The employer's permit programme requires atmospheric hazards to be controlled before routine entry and does not authorise entry under IDLH respiratory-protection procedures. The entry supervisor notes that the hydrogen sulphide reading is within the site limit and that no flammable gas is present. What is the correct action?",
+     "choices": [
+      "Do not authorise entry; treat the space as immediately dangerous to life and health and require supplied air, because any oxygen deficiency is an IDLH condition.",
+      "Authorise entry with continuous monitoring, because 19.0 percent oxygen is within the acceptable range and the other readings are acceptable.",
+      "Do not authorise entry; ventilate and re-test until oxygen is at least 19.5 percent, because the atmosphere is oxygen deficient as read.",
+      "Authorise entry with air-purifying respirators, because filtering cartridges will control the hydrogen sulphide while oxygen is restored."
+     ],
+     "answer": "C",
+     "explanation": "An atmosphere below 19.5 percent oxygen is oxygen deficient, and under the stated permit programme routine entry is not authorised until ventilation and re-testing bring oxygen to at least 19.5 percent. The most tempting answer treats 19.0 percent as near enough to normal air; that margin exists because a depressed reading signals displacement or consumption that may continue. Air-purifying respirators cannot correct an oxygen deficiency because they supply no oxygen."
+    },
+    {
+     "num": 17,
+     "topic": "Hazard identification and control - silica",
+     "question": "A crew cuts concrete block outdoors with handheld power saws for about six hours each shift. The site follows the specified exposure control methods table, which for this task requires an integrated water delivery system operated per instructions, plus a respirator with an assigned protection factor of 10 when the task exceeds four hours per shift. The foreman plans water, no respirators, and a shop-vac backup if water runs out. What must change?",
+     "choices": [
+      "Respirators with an assigned protection factor of 25 must be provided, because outdoor tasks lasting more than four hours fall in the higher protection tier.",
+      "Air sampling must be conducted for each worker, because following the table without respirators requires exposure data to demonstrate compliance.",
+      "Respirators with an assigned protection factor of 10 must be provided and used, because the task exceeds four hours per shift, and the dry backup method is not permitted.",
+      "Nothing needs to change, because continuous water delivery keeps exposures low enough that the respirator requirement does not apply."
+     ],
+     "answer": "C",
+     "explanation": "An employer following the specified methods table must implement the control fully, including the respiratory protection tied to task duration, and cannot substitute its own judgement about how well the water works. The tempting answer assumes effective dust suppression makes the respirator optional, but the duration trigger is part of the control, not a fallback. Sampling would be required only if the employer chose the alternative exposure assessment route instead of the table."
+    },
+    {
+     "num": 18,
+     "topic": "Hazard identification and control - fire prevention and hot work",
+     "question": "A welder will cut a steel embed on the third floor of a concrete frame. Sparks will fall through a 10 in floor opening onto the second floor below, where another subcontractor has staged sealant, fibre insulation and a pallet of cardboard. The hot work permit requires combustibles to be moved at least 35 ft from the work or protected, with a fire watch. What is the right sequence?",
+     "choices": [
+      "Relocate the staged materials, cover the opening and any remaining combustibles with fire-resistant blankets, station a fire watch on both levels, then start work.",
+      "Cover the staged materials with fire-resistant blankets, then start work with a fire watch on the welding level only, since falling sparks lose energy over the drop.",
+      "Wet down the staged materials and the floor below, then start work with a fire watch on the second floor and monitoring after cutting ends.",
+      "Station a fire watch on the second floor with an extinguisher, start work, and relocate the staged materials at the next break in cutting."
+     ],
+     "answer": "A",
+     "explanation": "The permit's order is to move combustibles first and protect only what genuinely cannot be moved, with a fire watch on every level exposed to falling sparks before the arc is struck. The most tempting answer keeps a fire watch below but defers relocation to the next break, leaving ignition source and fuel together during the very period the permit exists to eliminate. Wetting can leave fibre insulation smouldering undetected."
+    },
+    {
+     "num": 19,
+     "topic": "Hazard identification and control - steel erection",
+     "question": "During column setting the crew finds that two of four anchor rods on a column base were bent during shipping. The erector's foreman proposes heating and straightening them on site so the sequence is not delayed, and says the detailer's shop drawings show a comfortable margin. What is required?",
+     "choices": [
+      "Repair, replacement or field modification of anchor rods requires approval of the project structural engineer of record before the work proceeds.",
+      "The erector may proceed if the crane keeps the load on the column until the base plate connection is complete and verified by the foreman.",
+      "The competent person for steel erection may approve the straightening, provided the column is guyed until the connections are made.",
+      "Straightening is permitted without approval because the anchor rods are not load bearing until the beams are connected and the base plate is grouted."
+     ],
+     "answer": "A",
+     "explanation": "Anchor rods are the column's only restraint during erection, and repair, replacement or field modification of them requires the approval of the project structural engineer of record, precisely because the erector cannot know the design assumptions behind them. The tempting answer hands the decision to the competent person, who is responsible for hazard recognition and prompt correction on site but is not authorised to accept a structural modification."
+    },
+    {
+     "num": 20,
+     "topic": "Hazard identification and control - concrete and masonry",
+     "question": "A crew is laying a 12 ft high concrete block wall that is not yet adequately supported to prevent overturning. The site must establish the limited access zone before work begins on the wall. How should it be set out?",
+     "choices": [
+      "16 ft wide on the side of the wall that is not scaffolded, running the entire length of the wall, restricted to workers actively laying the wall.",
+      "16 ft wide on both sides of the wall, running the entire length of the wall, restricted to workers actively laying the wall.",
+      "16 ft wide on the scaffolded side of the wall, running the entire length of the wall, restricted to workers actively laying the wall.",
+      "12 ft wide on the side of the wall that is not scaffolded, running the entire length of the wall, restricted to workers actively laying the wall."
+     ],
+     "answer": "A",
+     "explanation": "The zone equals the height of the wall plus 4 ft, so 16 ft, and it is established on the side of the wall that is not scaffolded because that is where an unbraced wall would fall and where no one has a reason to be. The most tempting answer uses the wall height alone and omits the 4 ft allowance, producing a zone that stops exactly where debris from an overturning wall would land."
+    },
+    {
+     "num": 21,
+     "topic": "Hazard identification and control - demolition",
+     "question": "A contractor is mobilising to demolish a fire-damaged two-storey masonry commercial building that shares a party wall with an occupied shop. What must be completed before demolition work begins?",
+     "choices": [
+      "A written engineering survey by a registered professional engineer, since fire damage requires structural analysis beyond a competent person's scope.",
+      "A written engineering survey by a competent person covering the condition of the structure, the possibility of unplanned collapse and the adjacent structure.",
+      "A written demolition work plan by the contractor identifying equipment, sequence and the means of protecting the adjacent occupied shop.",
+      "A written asbestos and lead survey of the structure, since the hazards of a fire-damaged building are primarily material hazards during handling."
+     ],
+     "answer": "B",
+     "explanation": "Before demolition begins an engineering survey must be made in writing by a competent person, covering the condition of the framing, floors and walls, the possibility of unplanned collapse, and adjacent structures, with the survey kept on site. The most tempting answer, a demolition work plan, is good practice and often contractually required but is not the regulatory prerequisite. Asbestos and lead obligations arise under their own standards when those materials are present and do not substitute for this survey."
+    },
+    {
+     "num": 22,
+     "topic": "Hazard identification and control - traffic and mobile equipment",
+     "question": "An articulated haul truck on a highway widening project must back about 120 ft to a stockpile. The machine has no rear-view camera, its mirrors do not show the ground directly behind the body, and the reverse signal alarm was found inoperative at the morning walkaround. Repair parts will not arrive until tomorrow. What allows the backing movement to proceed today?",
+     "choices": [
+      "The area behind the machine is barricaded with cones and tape before the movement begins.",
+      "An observer stationed in the operator's view signals that it is safe to back throughout the movement.",
+      "The operator walks the full backing path to confirm it is clear immediately before mounting the machine.",
+      "The operator sounds the horn twice before backing and proceeds slowly in short segments."
+     ],
+     "answer": "B",
+     "explanation": "Earthmoving equipment with an obstructed rear view may be backed only when it has a reverse signal alarm audible above the surrounding noise, or when an observer signals that it is safe; with no alarm and no rearward view from the cab, the observer is the only remaining route. The most tempting answer is the pre-movement walk of the path, which sounds diligent but confirms nothing once the machine is moving and the operator can no longer see behind it."
+    },
+    {
+     "num": 23,
+     "topic": "Safety program development - performance measurement",
+     "question": "A specialty contractor worked 92,000 hours on a project and recorded five OSHA recordable cases, three of which involved days away from work or job restriction. An owner's prequalification form sets limits of 8.0 for the total recordable case rate and 7.0 for the DART rate. How does the contractor stand?",
+     "choices": [
+      "The total recordable rate of 6.5 is within its limit and the DART rate of 3.3 is within its limit, so the contractor meets both criteria.",
+      "The total recordable rate of 10.9 exceeds its limit while the DART rate of 6.5 is within its limit, so the contractor fails on the recordable criterion.",
+      "The total recordable rate of 10.9 and the DART rate of 7.6 both exceed their limits, so the contractor fails on both criteria.",
+      "The total recordable rate of 5.4 and the DART rate of 3.3 are both within their limits, so the contractor meets both criteria."
+     ],
+     "answer": "B",
+     "explanation": "Both rates use a 200,000 hour base: (5 × 200,000) ÷ 92,000 = 10.9 and (3 × 200,000) ÷ 92,000 = 6.5, so the recordable rate fails and the DART rate passes. The most tempting error uses a 100,000 hour base and reports 5.4 and 3.3, which would clear both limits and misrepresent the contractor's record. Counting only the three DART cases as the recordable rate gives 6.5 and also clears the screen wrongly."
+    },
+    {
+     "num": 24,
+     "topic": "Safety program development and implementation",
+     "question": "A general contractor's site safety plan requires each subcontractor to submit its own plan and run its own inspections. The general contractor's subcontract agreements give it authority to require correction of any safety violation and to stop a subcontractor's work, and its superintendent walks the site daily. A framing subcontractor has now been observed three times in two weeks working from an unguarded leading edge, and its foreman says the general contractor has no authority over the sub's means and methods. What should the general contractor do?",
+     "choices": [
+      "Direct its own competent person to install guardrails at the leading edge, and back-charge the subcontractor for the corrective work.",
+      "Document the observations, forward them to the subcontractor's corporate safety office, and rely on the subcontract's indemnity language for exposure.",
+      "Exercise its controlling employer duty by directing correction, escalating to work stoppage if needed, and documenting the inspections and follow-up.",
+      "Require the subcontractor to reissue its site safety plan and retrain its crew, then resume normal monitoring of the plan's implementation."
+     ],
+     "answer": "C",
+     "explanation": "A controlling employer with general supervisory authority must exercise reasonable care to prevent and detect violations by others on site, and repeated exposure calls for direct intervention and, where needed, stopping the work, regardless of who controls means and methods. The tempting answer documents and defers, which preserves a paper trail but leaves workers on the edge. Installing guardrails for the sub corrects one instance without restoring the sub's own control."
+    },
+    {
+     "num": 25,
+     "topic": "Leadership, communication and training",
+     "question": "A contractor must designate someone for trenching on a utility project. The candidate has fifteen years of pipe-laying experience, has completed a soil classification and protective systems course, can identify sloping and shoring deficiencies, and reports to a superintendent who must approve any stop-work decision. Does the candidate meet the definition of a competent person?",
+     "choices": [
+      "Yes, because the superintendent's approval requirement affects only the chain of command and does not limit the candidate's hazard recognition duties.",
+      "No, because the designation for excavations requires a registered professional engineer wherever sloping or shoring systems are used.",
+      "No, because the designation also requires authority to take prompt corrective measures, which the approval requirement withholds.",
+      "Yes, because the candidate has both the training and the field experience needed to identify existing and predictable hazards in the excavation."
+     ],
+     "answer": "C",
+     "explanation": "A competent person must be capable of identifying existing and predictable hazards and be authorised to take prompt corrective measures to eliminate them; both halves are required, and a designee who must seek approval before stopping work cannot act promptly. The tempting answer stops at training and experience, which is how most sites make the designation, and is exactly the gap that surfaces after an incident when the stop-work decision was delayed."
+    }
+   ]
+  }
+ ]
+}

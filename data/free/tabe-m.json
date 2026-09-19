@@ -1,0 +1,338 @@
+{
+ "slug": "tabe-m-free25",
+ "title": "Free sample",
+ "free": true,
+ "note": "Original questions written for the free sample. They do not appear in the book or in the owners' online practice tests.",
+ "tests": [
+  {
+   "testNum": 1,
+   "questions": [
+    {
+     "num": 1,
+     "topic": "Whole-number operations",
+     "question": "A bakery packs 24 rolls in every tray. On Friday the crew packs 58 trays and the shop sells 1,275 rolls. How many packed rolls are left unsold?",
+     "choices": [
+      "123 rolls",
+      "117 rolls",
+      "1,392 rolls",
+      "2,667 rolls"
+     ],
+     "answer": "B",
+     "explanation": "Multiply to find the rolls packed: 24 x 58 = 1,392. Then subtract what sold: 1,392 - 1,275 = 117 rolls. The tempting wrong answer is 1,392 rolls, which is the number packed before any sale is taken out. The answer 123 comes from subtracting 5 from 2 in the ones place instead of regrouping, and 2,667 comes from adding the two numbers."
+    },
+    {
+     "num": 2,
+     "topic": "Whole-number operations",
+     "question": "A hall has 1,248 chairs. The crew sets them in rows of 36. Only full rows are used, and the rest go back to storage. How many chairs go back to storage?",
+     "choices": [
+      "36 chairs",
+      "12 chairs",
+      "24 chairs",
+      "34 chairs"
+     ],
+     "answer": "C",
+     "explanation": "Divide 1,248 by 36. Since 34 x 36 = 1,224, there are 34 full rows and 1,248 - 1,224 = 24 chairs left over. The most tempting wrong answer is 34 chairs, which is really the number of full rows, not the chairs in storage. The answer 12 comes from subtracting 24 from 36 instead of stopping at the remainder."
+    },
+    {
+     "num": 3,
+     "topic": "Whole-number operations",
+     "question": "A painting crew works on 3 office buildings. Each building has 6 floors with 14 windows on every floor. One can of cleaner covers 9 windows. How many cans does the crew need for all 3 buildings?",
+     "choices": [
+      "10 cans",
+      "30 cans",
+      "28 cans",
+      "42 cans"
+     ],
+     "answer": "C",
+     "explanation": "Each building has 6 x 14 = 84 windows, so all three have 84 x 3 = 252 windows. Dividing, 252 / 9 = 28 cans exactly. The closest wrong answer is 30 cans, which comes from rounding one building up to 10 cans and then tripling. The answer 42 comes from dividing 252 by 6 floors instead of by the 9 windows a can covers."
+    },
+    {
+     "num": 4,
+     "topic": "Fractions",
+     "question": "A dressing recipe calls for 2/3 cup of oil. Dana finds 1/4 cup of oil in one bottle and 1/6 cup in another. How much more oil does she still need?",
+     "choices": [
+      "1/4 cup",
+      "7/15 cup",
+      "1/2 cup",
+      "5/12 cup"
+     ],
+     "answer": "A",
+     "explanation": "First add what she has: 1/4 + 1/6 = 3/12 + 2/12 = 5/12 cup. The recipe needs 2/3 = 8/12 cup, so she still needs 8/12 - 5/12 = 3/12 = 1/4 cup. The tempting wrong answer is 5/12 cup, which is the oil she already has, not the missing amount. The answer 7/15 cup comes from adding the two bottles as 2/10 = 1/5 by adding tops and bottoms."
+    },
+    {
+     "num": 5,
+     "topic": "Fractions",
+     "question": "Each coat of paint on one wall uses 3/4 of a gallon. Tomas paints 5 walls and gives every wall 2 coats. Paint is sold only in 1-gallon cans. How many cans must he buy?",
+     "choices": [
+      "10 cans",
+      "4 cans",
+      "7 cans",
+      "8 cans"
+     ],
+     "answer": "D",
+     "explanation": "There are 5 x 2 = 10 coats, and each uses 3/4 gallon, so 10 x 3/4 = 7 1/2 gallons. Since paint comes in whole cans, he must buy 8. The tempting wrong answer is 7 cans, which drops the half gallon he still needs. The answer 4 cans comes from paying for only one coat per wall (3 3/4 gallons rounded up)."
+    },
+    {
+     "num": 6,
+     "topic": "Fractions",
+     "question": "A caterer has 6 pounds of rice. He packs all of it into containers that each hold 1/3 pound. At lunch he opens 5 of the containers. How many containers are still unopened?",
+     "choices": [
+      "23 containers",
+      "2 containers",
+      "13 containers",
+      "18 containers"
+     ],
+     "answer": "C",
+     "explanation": "Dividing a whole number by a unit fraction asks how many thirds are in 6 pounds: 6 / (1/3) = 6 x 3 = 18 containers. After 5 are opened, 18 - 5 = 13 remain. The tempting wrong answer is 18 containers, which skips the lunch step. The answer 2 containers comes from multiplying 6 x 1/3 instead of dividing, and 23 comes from adding the 5 instead of subtracting."
+    },
+    {
+     "num": 7,
+     "topic": "Fractions",
+     "question": "A cooler is 5/6 full of lemonade. A worker pours out an amount equal to 1/4 of the whole cooler. What fraction of the cooler is still filled?",
+     "choices": [
+      "2/3",
+      "5/24",
+      "1/2",
+      "7/12"
+     ],
+     "answer": "D",
+     "explanation": "Write both fractions in twelfths: 5/6 = 10/12 and 1/4 = 3/12. Then 10/12 - 3/12 = 7/12 of the cooler is still filled. The tempting wrong answer is 1/2, which comes from changing 1/4 into 4/12 instead of 3/12. The answer 2/3 comes from writing 1/4 as 2/12, and 5/24 comes from multiplying the two fractions instead of subtracting."
+    },
+    {
+     "num": 8,
+     "topic": "Fractions",
+     "question": "A parking lot has 480 spaces. Of those, 3/8 are marked for compact cars. Of the compact spaces, 1/3 are reserved for staff. How many compact spaces are open to anyone?",
+     "choices": [
+      "60 spaces",
+      "320 spaces",
+      "120 spaces",
+      "180 spaces"
+     ],
+     "answer": "C",
+     "explanation": "Find the compact spaces: 480 x 3/8 = 180. Of those, 1/3 are reserved: 180 / 3 = 60 reserved, so 180 - 60 = 120 are open to anyone. The tempting wrong answer is 180 spaces, which stops after the first step. The answer 60 spaces gives the reserved spaces instead, and 320 comes from taking 2/3 of the whole lot."
+    },
+    {
+     "num": 9,
+     "topic": "Decimals",
+     "question": "A pharmacy weighs four capsules and records these masses in grams: 0.407, 0.47, 0.074, and 0.417. The technician must report the heaviest capsule and the lightest capsule. Which report is correct?",
+     "choices": [
+      "Heaviest 0.47 gram, lightest 0.407 gram",
+      "Heaviest 0.417 gram, lightest 0.074 gram",
+      "Heaviest 0.417 gram, lightest 0.407 gram",
+      "Heaviest 0.47 gram, lightest 0.074 gram"
+     ],
+     "answer": "D",
+     "explanation": "Write each mass to three places: 0.470, 0.417, 0.074, 0.407. Comparing the tenths first shows 0.470 is the heaviest, and 0.074 has a 0 in the tenths place, so it is the lightest. The tempting wrong report names 0.417 as the heaviest, which compares 417 against 47 as whole numbers instead of lining up the decimal places."
+    },
+    {
+     "num": 10,
+     "topic": "Decimals",
+     "question": "A repair shop charges $45.75 for the service call plus $28.50 for each hour of labor. A job takes 3 hours of labor. The customer pays the bill with $150 in cash. How much change does the customer get?",
+     "choices": [
+      "$18.75",
+      "$64.50",
+      "$19.75",
+      "$75.75"
+     ],
+     "answer": "A",
+     "explanation": "Labor costs 3 x $28.50 = $85.50. Adding the service call gives $45.75 + $85.50 = $131.25, so the change is $150.00 - $131.25 = $18.75. The tempting wrong answer is $75.75, which pays for only one hour of labor. The answer $64.50 leaves the service call off the bill, and $19.75 comes from a carry slip that makes the labor $84.50."
+    },
+    {
+     "num": 11,
+     "topic": "Decimals",
+     "question": "A store sells the same juice two ways: a 6-bottle pack for $6.84 and a 4-bottle pack for $4.68. How much less does one bottle cost in the 6-bottle pack than in the 4-bottle pack?",
+     "choices": [
+      "$0.36",
+      "$2.16",
+      "$0.30",
+      "$0.03"
+     ],
+     "answer": "D",
+     "explanation": "Find each price per bottle: $6.84 / 6 = $1.14 and $4.68 / 4 = $1.17. The difference is $1.17 - $1.14 = $0.03 per bottle. The tempting wrong answer is $2.16, which is the difference between the two pack prices, not the per-bottle prices. The answer $0.36 comes from dividing both packs by 6, and $0.30 misplaces the decimal point."
+    },
+    {
+     "num": 12,
+     "topic": "Place value and powers of ten",
+     "question": "A lab weighs two samples. One sample has a mass of 80 grams. The other has a mass of 0.08 gram. The mass of the heavier sample is how many times the mass of the lighter one?",
+     "choices": [
+      "1,000 times",
+      "10 times",
+      "100 times",
+      "10,000 times"
+     ],
+     "answer": "A",
+     "explanation": "Going from 0.08 to 80 moves the digit 8 from the hundredths place to the tens place, which is three places to the left, so the mass is 10 x 10 x 10 = 1,000 times as great. Checking, 0.08 x 1,000 = 80. The tempting wrong answer is 100 times, which counts only two of the three place-value shifts."
+    },
+    {
+     "num": 13,
+     "topic": "Place value and powers of ten",
+     "question": "One sheet of cardstock is 0.24 millimeter thick. A printer stacks 100 sheets in a neat pile, then pulls 15 sheets off the top. How thick is the pile that is left?",
+     "choices": [
+      "20.4 millimeters",
+      "21.6 millimeters",
+      "9 millimeters",
+      "24 millimeters"
+     ],
+     "answer": "A",
+     "explanation": "Multiplying by 100 moves the decimal point two places: 0.24 x 100 = 24 millimeters for the full pile. The 15 sheets removed measure 15 x 0.24 = 3.6 millimeters, so 24 - 3.6 = 20.4 millimeters are left. The tempting wrong answer is 9 millimeters, which subtracts the 15 sheets as if each sheet were 1 millimeter thick."
+    },
+    {
+     "num": 14,
+     "topic": "Measurement conversion",
+     "question": "A soup recipe needs 3 quarts of stock. Jon has 4 pints of stock in the refrigerator plus 1 more cup in a jar. How many more cups of stock does he need?",
+     "choices": [
+      "4 cups",
+      "3 cups",
+      "7 cups",
+      "11 cups"
+     ],
+     "answer": "B",
+     "explanation": "Change everything to cups: 3 quarts = 3 x 4 = 12 cups, and 4 pints = 4 x 2 = 8 cups, plus the single cup makes 9 cups on hand. He needs 12 - 9 = 3 cups more. The tempting wrong answer is 4 cups, which leaves out the extra cup in the jar. The answer 7 cups counts each pint as only one cup."
+    },
+    {
+     "num": 15,
+     "topic": "Measurement conversion",
+     "question": "A clinic starts with a full 2-liter bottle of saline. A nurse fills 8 small cups with 150 milliliters each from the bottle. How many milliliters of saline are left in the bottle?",
+     "choices": [
+      "800 milliliters",
+      "1,850 milliliters",
+      "1,880 milliliters",
+      "1,200 milliliters"
+     ],
+     "answer": "A",
+     "explanation": "Change liters to milliliters: 2 liters = 2,000 milliliters. The cups use 8 x 150 = 1,200 milliliters, so 2,000 - 1,200 = 800 milliliters are left. The tempting wrong answer is 1,200 milliliters, which is the amount poured out rather than the amount left. The answer 1,880 comes from multiplying 8 x 15 and dropping a zero."
+    },
+    {
+     "num": 16,
+     "topic": "Measurement conversion",
+     "question": "A fence panel measures 6 feet 8 inches long. A worker sets 9 of these panels end to end in a straight line. How long is the finished fence?",
+     "choices": [
+      "60 feet 0 inches",
+      "51 feet 0 inches",
+      "61 feet 2 inches",
+      "54 feet 8 inches"
+     ],
+     "answer": "A",
+     "explanation": "Change the panel to inches: 6 feet 8 inches = 72 + 8 = 80 inches. Nine panels are 80 x 9 = 720 inches, and 720 / 12 = 60 feet. The tempting wrong answer is 54 feet 8 inches, which multiplies only the feet by 9 and leaves the 8 inches alone. The answer 51 feet comes from writing 6 feet 8 inches as 68 inches."
+    },
+    {
+     "num": 17,
+     "topic": "Area and perimeter",
+     "question": "A hallway floor is a rectangle 15 feet long and 4 feet wide. Carpet for the hallway costs $6 for each square foot, installed. What is the total cost to carpet the hallway?",
+     "choices": [
+      "$114",
+      "$360",
+      "$228",
+      "$60"
+     ],
+     "answer": "B",
+     "explanation": "Find the area first: 15 x 4 = 60 square feet. Then multiply by the price: 60 x $6 = $360. The tempting wrong answer is $228, which uses the distance around the hallway, 2 x (15 + 4) = 38 feet, instead of the area. The answer $60 stops at the area and never multiplies by the price."
+    },
+    {
+     "num": 18,
+     "topic": "Volume",
+     "question": "A storage box measures 12 inches by 8 inches by 6 inches on the inside. It is packed completely full with solid cubes that are 2 inches on every edge. How many cubes fit inside the box?",
+     "choices": [
+      "288 cubes",
+      "72 cubes",
+      "576 cubes",
+      "144 cubes"
+     ],
+     "answer": "B",
+     "explanation": "The box holds 12 x 8 x 6 = 576 cubic inches. Each cube takes up 2 x 2 x 2 = 8 cubic inches, so 576 / 8 = 72 cubes fit. The tempting wrong answer is 288 cubes, which divides by the 2-inch edge instead of by the cube's volume. The answer 144 divides by the 4-square-inch face, and 576 skips the division entirely."
+    },
+    {
+     "num": 19,
+     "topic": "Area and perimeter",
+     "question": "A rectangular garden covers 96 square feet. One side of the garden measures 12 feet. Fencing costs $3 for each foot, and the gardener fences all four sides. What is the cost of the fencing?",
+     "choices": [
+      "$240",
+      "$60",
+      "$288",
+      "$120"
+     ],
+     "answer": "D",
+     "explanation": "The missing side is 96 / 12 = 8 feet. The distance around is 2 x (12 + 8) = 40 feet, so the fence costs 40 x $3 = $120. The tempting wrong answer is $288, which charges $3 for every square foot of garden instead of every foot of fence. The answer $60 pays for only one length and one width."
+    },
+    {
+     "num": 20,
+     "topic": "Line plots and data",
+     "question": "A rain gauge line plot has one X for each day it rained last week. There are 3 X marks above 1/8 inch, 2 X marks above 1/4 inch, and 1 X mark above 1/2 inch. How much rain fell in all last week?",
+     "choices": [
+      "1 1/8 inches",
+      "1 3/8 inches",
+      "3/4 inch",
+      "7/8 inch"
+     ],
+     "answer": "B",
+     "explanation": "Multiply each amount by its number of X marks: 3 x 1/8 = 3/8, 2 x 1/4 = 4/8, and 1 x 1/2 = 4/8. Adding gives 11/8 = 1 3/8 inches. The tempting wrong answer is 7/8 inch, which adds 1/8, 1/4, and 1/2 once each and ignores how many days had each amount. The answer 3/4 inch counts all 6 marks as eighths."
+    },
+    {
+     "num": 21,
+     "topic": "Line plots and data",
+     "question": "A line plot shows how much juice is in each of 8 jars: 3 jars hold 1/2 cup, 4 jars hold 3/4 cup, and 1 jar holds 1 1/2 cups. All the juice is poured together and then shared equally among the 8 jars. How much juice is in each jar now?",
+     "choices": [
+      "2 cups",
+      "6 cups",
+      "3/4 cup",
+      "11/12 cup"
+     ],
+     "answer": "C",
+     "explanation": "Total the juice: 3 x 1/2 = 1 1/2, 4 x 3/4 = 3, and 1 x 1 1/2 = 1 1/2, giving 6 cups. Sharing among 8 jars gives 6 / 8 = 3/4 cup in each. The tempting wrong answer is 11/12 cup, which averages the three different amounts instead of all eight jars. The answer 2 cups divides 6 by the 3 different amounts."
+    },
+    {
+     "num": 22,
+     "topic": "Numerical expressions",
+     "question": "A caterer buys 6 trays of rolls. Every tray holds 45 rolls, but 8 rolls in each tray are crushed and thrown away. Which expression tells how many good rolls the caterer has?",
+     "choices": [
+      "6 x 45 - 8",
+      "45 - 6 x 8",
+      "6 x (45 - 8)",
+      "6 x (45 + 8)"
+     ],
+     "answer": "C",
+     "explanation": "Each tray keeps 45 - 8 = 37 good rolls, and there are 6 trays, so the expression is 6 x (45 - 8), which equals 222. The tempting wrong answer is 6 x 45 - 8, which throws away only 8 rolls in total instead of 8 from every tray. The expression 45 - 6 x 8 keeps just one tray and removes all the crushed rolls from it."
+    },
+    {
+     "num": 23,
+     "topic": "Patterns",
+     "question": "Ana writes a number pattern that starts at 4 and adds 4 each time. Ben writes a pattern that starts at 12 and adds 12 each time. The two patterns are lined up term by term. When Ana's term is 36, what is Ben's term?",
+     "choices": [
+      "44",
+      "108",
+      "48",
+      "432"
+     ],
+     "answer": "B",
+     "explanation": "Ana's terms are 4, 8, 12, ..., so 36 is her 9th term. Ben's terms are 12, 24, 36, ..., so his 9th term is 12 x 9 = 108. Every term of Ben's pattern is 3 times Ana's matching term, and 36 x 3 = 108. The tempting wrong answer is 48, which just adds one of Ben's steps to 36. The answer 44 adds the difference of the two step sizes."
+    },
+    {
+     "num": 24,
+     "topic": "Coordinate plane",
+     "question": "A town map is drawn on a grid where each unit stands for 1 mile. The post office is at (2, 3), the clinic is at (2, 11), and the bank is at (8, 11). A driver travels along grid lines from the post office to the clinic, then straight to the bank. How far does the driver travel?",
+     "choices": [
+      "14 miles",
+      "24 miles",
+      "6 miles",
+      "16 miles"
+     ],
+     "answer": "A",
+     "explanation": "From (2, 3) to (2, 11) the first number stays the same, so that leg is 11 - 3 = 8 miles. From (2, 11) to (8, 11) the second number stays the same, so that leg is 8 - 2 = 6 miles. The trip is 8 + 6 = 14 miles. The tempting wrong answer is 16 miles, which counts grid lines instead of the spaces between them. The answer 6 miles uses only the second leg."
+    },
+    {
+     "num": 25,
+     "topic": "Coordinate plane",
+     "question": "A graph shows packing time on the across axis and boxes packed on the up axis. Points on the line are (1, 7), (2, 14), and (3, 21). A worker keeps packing at this same rate. Which ordered pair belongs on the line for 6 hours of packing?",
+     "choices": [
+      "(6, 126)",
+      "(42, 6)",
+      "(6, 28)",
+      "(6, 42)"
+     ],
+     "answer": "D",
+     "explanation": "The pattern shows 7 boxes each hour, so in 6 hours the worker packs 6 x 7 = 42 boxes, giving the point (6, 42) with hours first. The tempting wrong answer is (42, 6), which has the right numbers but puts boxes in the hours position. The answer (6, 28) adds just one more hour of packing to 21 instead of going to 6 hours."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,338 @@
+{
+ "slug": "journeyman-elec-free25",
+ "title": "Free sample",
+ "free": true,
+ "note": "Original questions written for the free sample. They do not appear in the book or in the owners' online practice tests.",
+ "tests": [
+  {
+   "testNum": 1,
+   "questions": [
+    {
+     "num": 1,
+     "topic": "Electrical theory - Ohm's law and power",
+     "question": "A 240 V, 3,000 W resistance heater is fed by a long branch circuit. The element is essentially pure resistance and its resistance does not change appreciably with temperature. Under load a voltmeter at the heater terminals reads 216 V. What power does the heater actually deliver?",
+     "choices": [
+      "2,250 W",
+      "3,000 W",
+      "2,430 W",
+      "2,700 W"
+     ],
+     "answer": "C",
+     "explanation": "The element resistance is fixed at 240² ÷ 3,000 = 19.2 Ω. At 216 V the current falls to 216 ÷ 19.2 = 11.25 A, so power is 216 × 11.25 = 2,430 W, which is 81 percent of rating because power varies with the square of the applied voltage. The tempting 2,700 W comes from scaling power directly with voltage, or from holding the original 12.5 A constant, both of which ignore that the current drops along with the voltage."
+    },
+    {
+     "num": 2,
+     "topic": "Electrical theory - series and parallel circuits",
+     "question": "Three resistive heating elements are supplied from a 120 V source. A 30 Ω element and a 60 Ω element are connected in parallel with each other, and that parallel pair is connected in series with a 10 Ω element. What current flows in the 60 Ω element?",
+     "choices": [
+      "1.33 A",
+      "4.00 A",
+      "2.00 A",
+      "2.67 A"
+     ],
+     "answer": "A",
+     "explanation": "The parallel pair is (30 × 60) ÷ 90 = 20 Ω, so total resistance is 30 Ω and total current is 120 ÷ 30 = 4 A. That current develops 4 × 20 = 80 V across the parallel pair, so the 60 Ω element carries 80 ÷ 60 = 1.33 A. The common error is 2.00 A, which applies the full 120 V to the 60 Ω element and overlooks the 40 V dropped across the series element; 2.67 A is the current in the 30 Ω branch."
+    },
+    {
+     "num": 3,
+     "topic": "Voltage drop",
+     "question": "A 120 V single-phase branch circuit supplies a 20 A load 150 ft from the panel in 10 AWG copper, and the project specification limits branch-circuit voltage drop to 3 percent. Given K = 12.9 for copper and circular-mil areas of 10,380 for 10 AWG, 16,510 for 8 AWG and 26,240 for 6 AWG, which single change brings the circuit within the specification?",
+     "choices": [
+      "Rewire the run in 8 AWG copper, keeping the load and the 150 ft length unchanged.",
+      "Split the load onto two 10 A circuits in 10 AWG, keeping the 150 ft length unchanged.",
+      "Rewire the run in 6 AWG copper, keeping the load and the 150 ft length unchanged.",
+      "Relocate the panel so the run is 100 ft, keeping 10 AWG and the 20 A load unchanged."
+     ],
+     "answer": "C",
+     "explanation": "The allowable drop is 0.03 × 120 = 3.6 V, and the existing run drops 2 × 12.9 × 20 × 150 ÷ 10,380 = 7.46 V. Only 6 AWG meets it, at 2.95 V. The most tempting change is 8 AWG, the next size up, which still drops 4.69 V; shortening the run to 100 ft leaves 4.97 V, and splitting the load into two 10 A circuits halves the drop to 3.73 V, which still misses 3.6 V."
+    },
+    {
+     "num": 4,
+     "topic": "Voltage drop",
+     "question": "A 480 V three-phase feeder must carry 80 A to a pump house 400 ft away in aluminium conductors, and the design limits voltage drop to 3 percent. Given K = 21.2 for aluminium and circular-mil areas of 52,620 for 3 AWG, 66,360 for 2 AWG, 83,690 for 1 AWG and 105,600 for 1/0 AWG, what is the smallest conductor that meets the limit?",
+     "choices": [
+      "2 AWG",
+      "1/0 AWG",
+      "1 AWG",
+      "3 AWG"
+     ],
+     "answer": "C",
+     "explanation": "The allowable drop is 0.03 × 480 = 14.4 V, and required area is 1.732 × 21.2 × 80 × 400 ÷ 14.4 = 81,596 circular mils, so 1 AWG at 83,690 is the first size that qualifies. The likely wrong pick is 2 AWG, which results from using the copper constant 12.9 and getting 49,651 circular mils; 1/0 comes from using the single-phase multiplier of 2 instead of 1.732, which inflates the requirement to 94,222 circular mils."
+    },
+    {
+     "num": 5,
+     "topic": "Transformers",
+     "question": "A 45 kVA three-phase transformer has a 480 V delta primary and a 208Y/120 V secondary, and is protected on the primary side only. Given that the primary device may be rated at not more than 125 percent of the rated primary current, that the next higher standard rating is permitted where 125 percent does not correspond to a standard rating, and that standard ratings include 60, 70, 90 and 125 A, what is the maximum standard rating permitted for the primary device?",
+     "choices": [
+      "125 A",
+      "60 A",
+      "90 A",
+      "70 A"
+     ],
+     "answer": "D",
+     "explanation": "Rated primary current is 45,000 ÷ (1.732 × 480) = 54.1 A, and 125 percent of that is 67.7 A. Because 67.7 A is not a standard rating, the next higher standard rating, 70 A, is the maximum permitted. The most tempting answer is 60 A, the largest standard rating below the calculated value, which is chosen when the next-size-up permission stated in the stem is overlooked. Omitting the 1.732 gives 93.8 A and leads to 125 A."
+    },
+    {
+     "num": 6,
+     "topic": "Transformers",
+     "question": "A 75 kVA three-phase transformer with a 480 V delta primary and a 208Y/120 V secondary is marked 2.5 percent impedance. Assuming an infinite primary source, with no impedance ahead of the transformer, what is the available short-circuit current at the secondary terminals?",
+     "choices": [
+      "208 A",
+      "3,609 A",
+      "14,423 A",
+      "8,327 A"
+     ],
+     "answer": "D",
+     "explanation": "Secondary full-load current is 75,000 ÷ (1.732 × 208) = 208 A, and available fault current is that value divided by the per-unit impedance: 208 ÷ 0.025 = 8,327 A. The most tempting answer is 3,609 A, which divides the primary full-load current of 90.2 A by the impedance; the calculation must use the current on the side where the fault occurs. Omitting the 1.732 gives 14,423 A, and 208 A stops at full-load current."
+    },
+    {
+     "num": 7,
+     "topic": "Three-phase circuits",
+     "question": "Three identical 24 Ω resistive elements connected in delta across a 240 V three-phase supply are reconnected in wye across the same supply, with no other change. What total power does the bank now draw?",
+     "choices": [
+      "2,400 W",
+      "21,600 W",
+      "7,200 W",
+      "4,157 W"
+     ],
+     "answer": "A",
+     "explanation": "In delta each element sees 240 V and the bank draws 3 × 240² ÷ 24 = 7,200 W. In wye each element sees 240 ÷ 1.732 = 138.6 V, so the bank draws 3 × 138.6² ÷ 24 = 2,400 W, one third of the delta value. The tempting 7,200 W assumes the connection does not change the power because the supply and the elements are unchanged; 4,157 W divides by 1.732 once instead of by 3, and 21,600 W inverts the relationship."
+    },
+    {
+     "num": 8,
+     "topic": "Motor circuits",
+     "question": "A 25 hp, 460 V three-phase motor with a table full-load current of 34 A runs continuously. Given 75°C copper ampacities of 35 A for 10 AWG, 50 A for 8 AWG, 65 A for 6 AWG and 85 A for 4 AWG, what is the smallest conductor permitted for the motor branch circuit?",
+     "choices": [
+      "10 AWG",
+      "6 AWG",
+      "8 AWG",
+      "4 AWG"
+     ],
+     "answer": "C",
+     "explanation": "Motor branch-circuit conductors are sized at 125 percent of the table full-load current: 34 × 1.25 = 42.5 A. That rules out 10 AWG at 35 A and makes 8 AWG at 50 A the first adequate size. The most tempting error is 10 AWG, which sizes to the 34 A table value and skips the 125 percent continuous-duty multiplier; 6 AWG results from applying 125 percent twice, or from sizing the conductor to the branch-circuit protective device rating instead."
+    },
+    {
+     "num": 9,
+     "topic": "Motor circuits",
+     "question": "One feeder supplies three continuous-duty three-phase motors whose table full-load currents are 40 A, 28 A and 16 A. What is the minimum ampacity required for the feeder conductors?",
+     "choices": [
+      "94 A",
+      "84 A",
+      "105 A",
+      "100 A"
+     ],
+     "answer": "A",
+     "explanation": "A motor feeder carries 125 percent of the largest motor plus the full-load currents of the remaining motors: (40 × 1.25) + 28 + 16 = 50 + 44 = 94 A. The strongest distractor is 105 A, which applies 125 percent to all three motors; 84 A simply totals the three currents and omits the largest-motor allowance entirely. The 100 A value is the next standard overcurrent device rating, which answers a protection question rather than the required conductor ampacity."
+    },
+    {
+     "num": 10,
+     "topic": "Conductor ampacity adjustment and correction",
+     "question": "Six current-carrying 12 AWG THHN copper conductors share one raceway in a 43°C ambient. The 90°C column ampacity of 12 AWG copper is 30 A and the 75°C column is 25 A; terminations are rated 75°C. Given an adjustment factor of 80 percent for four to six current-carrying conductors and a correction factor of 0.87 for 90°C conductors in a 41 to 45°C ambient, what is the adjusted and corrected ampacity of each conductor?",
+     "choices": [
+      "24.0 A",
+      "26.1 A",
+      "17.4 A",
+      "20.9 A"
+     ],
+     "answer": "D",
+     "explanation": "Adjustment and correction start from the ampacity column matching the conductor insulation, so 30 × 0.80 × 0.87 = 20.9 A. The 75°C termination rating limits the final circuit size but is not the starting point, which is why 17.4 A, obtained from 25 × 0.80 × 0.87, is the most tempting wrong answer. The 24.0 A value applies only the conductor-count adjustment and 26.1 A applies only the ambient correction, each skipping one required factor."
+    },
+    {
+     "num": 11,
+     "topic": "Overcurrent protection",
+     "question": "A 277 V lighting branch circuit is protected by a 20 A device, a standard rating for a multi-outlet branch circuit, and the conductors have adequate ampacity. The circuit supplies luminaires drawing 1.45 A each that operate continuously for more than three hours, plus one 0.5 A control load that operates intermittently and is not a continuous load. Given that the device rating must be at least the non-continuous load plus 125 percent of the continuous load, how many luminaires may this circuit supply?",
+     "choices": [
+      "11",
+      "10",
+      "8",
+      "13"
+     ],
+     "answer": "B",
+     "explanation": "The requirement is 1.25 × (1.45 × n) + 0.5 ≤ 20, so 1.8125n ≤ 19.5 and n is at most 10; ten luminaires load the device to 18.6 A, while eleven would demand 20.4 A. The most tempting answer is 11, which applies the 125 percent factor correctly but forgets the 0.5 A non-continuous control load that shares the circuit. Skipping the 125 percent factor altogether gives 13, and applying it twice gives 8."
+    },
+    {
+     "num": 12,
+     "topic": "Boxes and enclosures",
+     "question": "An existing 22.5 in³ device box is fitted with one duplex receptacle on a yoke, internal cable clamps, and a single 12 AWG equipment grounding conductor. All added conductors will be 12 AWG. Given a volume allowance of 2.25 in³ for each 12 AWG conductor, with a yoke-mounted device counting as two allowances, all internal clamps together counting as one, and all equipment grounding conductors together counting as one, how many 12 AWG circuit conductors may the box contain?",
+     "choices": [
+      "6",
+      "8",
+      "10",
+      "7"
+     ],
+     "answer": "A",
+     "explanation": "The device takes 4.50 in³, the clamps 2.25 in³ and the grounding conductor 2.25 in³, using 9.00 in³ and leaving 13.50 in³, which divided by 2.25 allows 6 circuit conductors. The most tempting answer is 8, which omits the device allowance entirely; under the box-fill rule, a yoke-mounted duplex receptacle counts as two 12 AWG conductor-volume allowances. Omitting the clamp allowance gives 7, and counting only the circuit conductors gives 10."
+    },
+    {
+     "num": 13,
+     "topic": "Raceway fill",
+     "question": "A feeder pull consists of nine 10 AWG THHN conductors and six 12 AWG THHN conductors in one EMT, and ampacity adjustment has already been accounted for. Approximate conductor areas are 0.0211 in² for 10 AWG THHN and 0.0133 in² for 12 AWG THHN. For EMT the total internal area and the 40 percent allowable fill area are 0.304 and 0.122 in² for 1/2 in, 0.533 and 0.213 in² for 3/4 in, 0.864 and 0.346 in² for 1 in, 1.496 and 0.598 in² for 1-1/4 in, and 2.036 and 0.814 in² for 1-1/2 in. What is the smallest EMT that may be used?",
+     "choices": [
+      "1/2 in",
+      "1 in",
+      "1-1/2 in",
+      "3/4 in"
+     ],
+     "answer": "B",
+     "explanation": "Total conductor area is (9 × 0.0211) + (6 × 0.0133) = 0.1899 + 0.0798 = 0.2697 in², and the first raceway whose 40 percent allowable fill reaches that is 1 in EMT at 0.346 in². The most tempting answer is 1-1/2 in, which comes from taking 40 percent of the allowable fill column, a figure that already includes the 40 percent limit. Counting only the nine larger conductors gives 3/4 in, and comparing against the total internal area gives 1/2 in."
+    },
+    {
+     "num": 14,
+     "topic": "Dwelling load calculations",
+     "question": "A 2,400 sq ft single-family dwelling is being wired to the 2026 NEC. What is the minimum number of 20 A, 120 V general-lighting branch circuits required for the dwelling?",
+     "choices": [
+      "3",
+      "5",
+      "2",
+      "4"
+     ],
+     "answer": "A",
+     "explanation": "Counting general-lighting branch circuits still uses 3 VA per sq ft, so the load is 2,400 × 3 = 7,200 VA. Each 20 A, 120 V circuit carries 2,400 VA, giving 7,200 ÷ 2,400 = 3 circuits. The costly error is 2 circuits, which applies the 2 VA per sq ft figure that the 2026 Code uses for the service and feeder calculation, not for counting branch circuits. Using 15 A circuits at 1,800 VA each yields 4."
+    },
+    {
+     "num": 15,
+     "topic": "Dwelling load calculations",
+     "question": "A 2,000 sq ft dwelling is calculated by the standard method of the 2026 NEC, which applies 2 VA per sq ft to the general lighting and receptacle load in service and feeder calculations. The dwelling has two 1,500 VA small-appliance branch circuits and one 1,500 VA laundry circuit. Given demand factors of 100 percent for the first 3,000 VA of this group and 35 percent for the remainder, what is the demand load for the group?",
+     "choices": [
+      "5,625 VA",
+      "4,925 VA",
+      "2,975 VA",
+      "8,500 VA"
+     ],
+     "answer": "B",
+     "explanation": "Connected load is (2,000 × 2) + (2 × 1,500) + 1,500 = 8,500 VA. Applying the demand factors, the first 3,000 VA stays at 3,000 and the remaining 5,500 VA becomes 5,500 × 0.35 = 1,925, for 4,925 VA. The most tempting error is 5,625 VA, which uses 3 VA per sq ft, the figure the 2026 Code reserves for counting branch circuits; 8,500 VA omits the demand factors, and 2,975 VA applies 35 percent to the entire load including the first 3,000 VA."
+    },
+    {
+     "num": 16,
+     "topic": "Grounding and bonding",
+     "question": "A detached garage is being supplied by a new 120/240 V single-phase feeder installation. Only the two ungrounded conductors and the grounded conductor are run in PVC conduit; no equipment grounding conductor is pulled. An electrician proposes driving two ground rods at the garage and bonding them to the panel enclosure, reasoning that the earth will return fault current to the service. What is the correct assessment of that proposal?",
+     "choices": [
+      "The rods are acceptable once the measured resistance to earth is 25 ohms or less, since that value limits touch voltage on the enclosure during a fault.",
+      "The rods are acceptable if every garage receptacle is protected by a ground-fault circuit interrupter, since that device will clear the fault current.",
+      "The rods are acceptable because two rods spaced at least 6 ft apart satisfy the electrode requirement that applies to a separate structure.",
+      "Earth is not an effective ground-fault current path, so this new feeder requires an equipment grounding conductor run with the circuit conductors to let a fault open the device."
+     ],
+     "answer": "D",
+     "explanation": "Soil impedance is high enough that a fault through two rods might pass only a few amperes, far too little to operate the overcurrent device, leaving the enclosure energised indefinitely. The most tempting wrong choice invokes the 25 ohm figure, which governs when a supplemental electrode is required and says nothing about carrying fault current. Grounding electrodes handle lightning and voltage stabilisation; bonding plus an equipment grounding conductor is what clears faults."
+    },
+    {
+     "num": 17,
+     "topic": "GFCI and AFCI protection",
+     "question": "A contractor's drill trips a Class A ground-fault circuit interrupter receptacle within a second of starting, yet the same drill runs normally on a non-protected 20 A circuit whose breaker never opens. Which explanation best fits the way the protective device operates?",
+     "choices": [
+      "Inrush current when the drill starts briefly exceeds the 20 A circuit rating, and the protective device responds far faster than a thermal-magnetic breaker.",
+      "The low power factor of the drill motor draws more current than the device rating, which its electronic sensing circuit interprets as a fault.",
+      "The equipment grounding conductor in the drill cord is open, so the device loses its reference point and opens on the first half cycle of current.",
+      "Moisture in the drill is diverting a few milliamperes to a path other than the grounded conductor, and the device opens once that imbalance reaches roughly 5 mA."
+     ],
+     "answer": "D",
+     "explanation": "A Class A device compares current leaving on the ungrounded conductor with current returning on the grounded conductor and opens at about 4 to 6 mA of difference, which is a shock-protection threshold far below any overcurrent level. That is exactly why the ordinary breaker sees nothing wrong. The inrush answer is the usual trap because starting current does momentarily rise, but the device does not measure magnitude at all, only imbalance, and it works with no equipment grounding conductor present."
+    },
+    {
+     "num": 18,
+     "topic": "GFCI and AFCI protection",
+     "question": "A homeowner reports scorching around a receptacle on a 15 A circuit protected by a conventional inverse-time breaker that has never tripped. The electrician finds a loose terminal screw that produces intermittent arcing at the connection. What best explains the breaker's behaviour and the protection that addresses this condition?",
+     "choices": [
+      "The breaker failed to respond because it is a thermal-magnetic design; a purely magnetic instantaneous breaker would clear a loose connection quickly.",
+      "The breaker failed to respond because the arc increased circuit impedance; installing a device one standard size smaller would clear the fault.",
+      "The arcing current never reached the breaker's trip level; arc-fault protection is needed because it recognises the current signature of an arc rather than its magnitude.",
+      "The breaker failed to respond because arcing at a terminal is a ground fault; ground-fault circuit interrupter protection is the device for this condition."
+     ],
+     "answer": "C",
+     "explanation": "A series arc at a loose terminal is in line with the load, so it limits rather than raises current, and an overcurrent device sees a normal or reduced load all day while the connection glows. Arc-fault protection samples the waveform for the erratic, high-frequency pattern of arcing. The most tempting wrong pick calls the condition a ground fault, but no current is leaving the circuit conductors, so a ground-fault device would never see an imbalance."
+    },
+    {
+     "num": 19,
+     "topic": "Overcurrent protection",
+     "question": "A feeder supplying an 84 A non-continuous load is run in conductors whose allowable ampacity, after all adjustment and correction, is 88 A. The feeder supplies no cord-and-plug receptacle outlets. Standard overcurrent device ratings available are 70 A, 80 A, 90 A, 100 A and 110 A. What is the largest device permitted to protect these conductors?",
+     "choices": [
+      "100 A",
+      "90 A",
+      "80 A",
+      "110 A"
+     ],
+     "answer": "B",
+     "explanation": "Where the conductor ampacity does not match a standard rating, and the circuit does not supply receptacle outlets for cord-and-plug loads, the next higher standard rating above the ampacity is permitted at ratings of 800 A and below, so 90 A is allowed and it also covers the 84 A load. The most tempting answer is 80 A, the next size down, which is the correct approach only when the next-size-up allowance does not apply, and it would nuisance-trip on the 84 A load."
+    },
+    {
+     "num": 20,
+     "topic": "Three-phase circuits",
+     "question": "A three-phase 480 V load draws 60 A at a lagging power factor of 0.78. Capacitors are added at the load to raise the power factor to 0.95 while the real power drawn by the load stays the same. What line current does the feeder now carry?",
+     "choices": [
+      "57.0 A",
+      "60.0 A",
+      "46.8 A",
+      "49.3 A"
+     ],
+     "answer": "D",
+     "explanation": "Real power is 1.732 × 480 × 60 × 0.78 = 38.9 kW and does not change, so the new apparent power is 38.9 ÷ 0.95 = 40.96 kVA and the current is 40,960 ÷ (1.732 × 480) = 49.3 A; equivalently 60 × 0.78 ÷ 0.95. The most tempting answer is 57.0 A, from multiplying the original current by the new power factor, which treats current as proportional to power factor rather than inversely proportional."
+    },
+    {
+     "num": 21,
+     "topic": "Three-phase circuits",
+     "question": "A 120/208 V three-phase four-wire wye panel supplies only linear, unity-power-factor line-to-neutral lighting loads. The measured currents in the three ungrounded conductors are 25 A, 18 A and 10 A. Using the relationship for neutral current in a four-wire wye system, what current does the neutral conductor carry?",
+     "choices": [
+      "53 A",
+      "13 A",
+      "25 A",
+      "7 A"
+     ],
+     "answer": "B",
+     "explanation": "Neutral current is √(25² + 18² + 10² − 25×18 − 18×10 − 10×25) = √(1,049 − 880) = √169 = 13 A. The tempting 53 A adds the three currents arithmetically, ignoring that they are 120 degrees apart. Taking the difference of the two largest currents gives 7 A, which is the correct method only for a single-phase three-wire system, and 25 A simply reports the largest line current."
+    },
+    {
+     "num": 22,
+     "topic": "Motor circuits",
+     "question": "A three-phase motor has a nameplate full-load current of 32 A and a marked service factor of 1.15. The table full-load current for a motor of that horsepower and voltage is 34 A. Separate overload protection for this motor is permitted at up to 125 percent of full-load current. What is the maximum overload device rating?",
+     "choices": [
+      "40.0 A",
+      "42.5 A",
+      "32.0 A",
+      "36.8 A"
+     ],
+     "answer": "A",
+     "explanation": "Overload protection is sized from the nameplate current of the motor actually installed: 32 × 1.25 = 40.0 A. The classic error is 42.5 A, which uses the 34 A table value; that table figure is the basis for conductors and short-circuit protection, not for overload devices, and using it would let the motor run about 20 percent above its own rating before tripping. The 36.8 A figure applies the 115 percent multiplier reserved for motors without a 1.15 service factor or 40°C rise."
+    },
+    {
+     "num": 23,
+     "topic": "Conductor ampacity adjustment and correction",
+     "question": "A 208Y/120 V feeder consisting of three ungrounded conductors and a full-size neutral in a single conduit supplies a bank of switching power supplies and LED drivers, all connected line to neutral. An adjustment factor of 80 percent applies to four to six current-carrying conductors. How must this feeder be treated?",
+     "choices": [
+      "The neutral is not counted because it carries only unbalanced current from the ungrounded conductors, leaving three current-carrying conductors and no adjustment.",
+      "The neutral and the equipment grounding conductor are both counted as current-carrying conductors, giving five conductors and requiring the 80 percent adjustment.",
+      "The neutral counts as a current-carrying conductor because it carries harmonic current, giving four current-carrying conductors and requiring the 80 percent adjustment.",
+      "The neutral is not counted, but the nonlinear loads require an oversized neutral, and that oversizing alone triggers the 80 percent adjustment."
+     ],
+     "answer": "C",
+     "explanation": "With nonlinear line-to-neutral loads the third harmonic and its multiples add in the neutral rather than cancelling, so the neutral carries substantial current and heats the raceway just as an ungrounded conductor does. Counting it gives four current-carrying conductors. The strongest distractor is the familiar rule for linear loads, where the neutral of a balanced wye carries only unbalance and is not counted. An equipment grounding conductor carries no current in normal operation and is never counted."
+    },
+    {
+     "num": 24,
+     "topic": "Electrical theory - series and parallel circuits",
+     "question": "A 120/240 V multiwire branch circuit feeds a 300 W lighting load from one ungrounded conductor and a 1,200 W lighting load from the other. The shared neutral opens at a loose panel splice while both loads are energised. Treating both loads as fixed resistances, what voltage appears across the 300 W load?",
+     "choices": [
+      "192 V",
+      "240 V",
+      "120 V",
+      "48 V"
+     ],
+     "answer": "A",
+     "explanation": "Losing the neutral puts the two loads in series across 240 V. Their resistances are 120² ÷ 300 = 48 Ω and 120² ÷ 1,200 = 12 Ω, so current is 240 ÷ 60 = 4 A and the 48 Ω load sees 4 × 48 = 192 V while the larger load sees only 48 V. The tempting 48 V reverses the relationship, assuming the bigger load takes the bigger share; the smaller load has the higher resistance and therefore the higher voltage."
+    },
+    {
+     "num": 25,
+     "topic": "Boxes and enclosures",
+     "question": "Conductors larger than 4 AWG enter one wall of a pull box through one 3 in and two 2 in rigid metal conduits, all three in a single horizontal row on that wall, and all of them leave through an adjacent wall, making an angle pull. What is the minimum required distance from the wall the raceways enter to the opposite wall of the box?",
+     "choices": [
+      "18 in",
+      "22 in",
+      "28 in",
+      "24 in"
+     ],
+     "answer": "B",
+     "explanation": "For an angle pull each row is figured separately: six times the trade size of the largest raceway in the row plus the trade sizes of the other raceways in that same row, so (6 × 3) + 2 + 2 = 22 in. The most tempting answer is 18 in, which applies the six-times multiplier to the largest raceway but omits the others sharing its row. Using the eight-times straight-pull multiplier gives 28 in with the others added, or 24 in without them."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,338 @@
+{
+ "slug": "ged-math-free25",
+ "title": "Free sample",
+ "free": true,
+ "note": "Original questions written for the free sample. They do not appear in the book or in the owners' online practice tests.",
+ "tests": [
+  {
+   "testNum": 1,
+   "questions": [
+    {
+     "num": 1,
+     "topic": "Quantitative problem solving with rational numbers",
+     "question": "A phone is listed at $540.00. A store takes 15% off the listed price, then adds 6% sales tax on the discounted price, and the manufacturer later sends the buyer a $25.00 rebate cheque. What is the buyer's net cost for the phone?",
+     "choices": [
+      "$466.40",
+      "$461.54",
+      "$460.04",
+      "$486.54"
+     ],
+     "answer": "B",
+     "explanation": "The discounted price is 540.00 × 0.85 = $459.00. Tax makes it 459.00 × 1.06 = $486.54, and the rebate brings the net cost to 486.54 − 25.00 = $461.54. The tempting $466.40 comes from combining the percents into one step as 1 − 0.15 + 0.06 = 0.91, giving 540 × 0.91 = $491.40 before the same $25 rebate; tax applies to the discounted price, not the listed price."
+    },
+    {
+     "num": 2,
+     "topic": "Quantitative problem solving with rational numbers",
+     "question": "A courier is paid $0.58 for each mile driven plus $14.00 for each delivery stop. On Monday she drove 212 miles and made 19 stops. On Tuesday she made 24 stops and earned $22.44 more than she earned on Monday. How many miles did she drive on Tuesday?",
+     "choices": [
+      "130 miles",
+      "251 miles",
+      "53 miles",
+      "294 miles"
+     ],
+     "answer": "A",
+     "explanation": "Monday's pay is 212(0.58) + 19(14) = $388.96, so Tuesday's pay is $411.40. The five extra stops by themselves add 5(14) = $70.00, which is $47.56 more than the whole increase, so mileage pay must have dropped by 47.56 ÷ 0.58 = 82 miles, giving 212 − 82 = 130 miles. The tempting 251 miles treats the entire $22.44 increase as extra mileage and overlooks the added stops."
+    },
+    {
+     "num": 3,
+     "topic": "Quantitative problem solving with rational numbers",
+     "question": "Marisol's chequing account balance was −$42.18 on Monday morning. During that week the bank posted a paycheque deposit, a $35.00 overdraft fee, two automatic payments of $86.50 each, and a $19.75 refund from a returned item. On Friday her balance was $128.07. How large was the paycheque deposit?",
+     "choices": [
+      "$358.50",
+      "$398.00",
+      "$316.32",
+      "$272.00"
+     ],
+     "answer": "A",
+     "explanation": "Work backward: the deposit had to cover Friday's balance, the starting overdraft, the fee and both payments, less the refund that also came in: 128.07 + 42.18 + 35.00 + 173.00 − 19.75 = $358.50. The tempting $316.32 leaves out the $42.18 the account was already short, treating the week as though it began at zero. Adding the refund instead of subtracting it gives $398.00."
+    },
+    {
+     "num": 4,
+     "topic": "Quantitative problem solving with rational numbers",
+     "question": "A credit card balance of $2,400.00 is left unpaid, and interest of 1.5% of the current balance is added at the end of each month. No payments or new charges are made. To the nearest cent, what is the balance after 3 months?",
+     "choices": [
+      "$2,508.00",
+      "$2,436.00",
+      "$2,760.00",
+      "$2,509.63"
+     ],
+     "answer": "D",
+     "explanation": "Each month multiplies the balance by 1.015, so after three months the balance is 2,400 × 1.015³ = 2,400 × 1.045678 ≈ $2,509.63. The tempting $2,508.00 treats the interest as simple, adding 3 × 1.5% = 4.5% of the original $2,400; because each month's interest is charged on the new balance, the compounded total is slightly higher."
+    },
+    {
+     "num": 5,
+     "topic": "Quantitative problem solving with rational numbers",
+     "question": "A warehouse worker is paid $18.75 per hour for the first 40 hours in a week and time and a half for every hour beyond 40. Last week the worker's gross pay was $1,017.19. To the nearest tenth of an hour, how many hours did the worker work?",
+     "choices": [
+      "68.5 hours",
+      "36.2 hours",
+      "49.5 hours",
+      "54.3 hours"
+     ],
+     "answer": "C",
+     "explanation": "The first 40 hours account for 40 × 18.75 = $750.00, leaving $267.19 earned at the overtime rate of 1.5 × 18.75 = $28.125 per hour. That buys 267.19 ÷ 28.125 = 9.5 overtime hours, so the week totalled 49.5 hours. The tempting 54.3 hours divides the whole gross pay by the base rate, ignoring that every hour past 40 was paid at the higher rate."
+    },
+    {
+     "num": 6,
+     "topic": "Quantitative problem solving with rational numbers",
+     "question": "An employee received a 12% raise in January and a further 5% raise in July, each applied to the salary in effect at the time. The salary after both raises is $49,392. What was the salary before either raise?",
+     "choices": [
+      "$42,000",
+      "$44,100",
+      "$40,995",
+      "$42,215"
+     ],
+     "answer": "A",
+     "explanation": "Two successive raises multiply the salary by 1.12 and then by 1.05, a combined factor of 1.176. Undoing both gives 49,392 ÷ 1.176 = $42,000; a check gives 42,000 × 1.12 = 47,040 and 47,040 × 1.05 = 49,392. The tempting $44,100 undoes only the 12% raise and stops there, and $42,215 comes from adding the percents into a single 17% instead of compounding them."
+    },
+    {
+     "num": 7,
+     "topic": "Quantitative problem solving with measurement",
+     "question": "A grain bin is shaped like a cylinder 10 feet across and 12 feet tall, topped by a cone of the same diameter with a height of 4 feet. An auger loads grain into the bin at a steady 340 cubic feet per hour. To the nearest tenth of an hour, how long does it take to fill the bin to 80% of its total capacity?",
+     "choices": [
+      "3.0 hours",
+      "2.5 hours",
+      "2.2 hours",
+      "3.1 hours"
+     ],
+     "answer": "B",
+     "explanation": "The radius is 5 feet, so the cylinder holds π(5²)(12) ≈ 942.5 cubic feet and the cone holds (1/3)π(5²)(4) ≈ 104.7, for about 1,047.2 in total. Filling 80% means 837.8 cubic feet, which takes 837.8 ÷ 340 ≈ 2.5 hours. The tempting 3.1 hours fills the bin to the brim, ignoring the 80% limit the question sets."
+    },
+    {
+     "num": 8,
+     "topic": "Quantitative problem solving with measurement",
+     "question": "A feed trough is a rectangular box with no top. Its base measures 4 feet by 3 feet and it is 2.5 feet deep. A sealant costing $0.65 per square foot will be applied to every surface of the trough, inside and outside. Ignoring thickness, seams and waste, what does the sealant for one trough cost?",
+     "choices": [
+      "$38.35",
+      "$30.55",
+      "$61.10",
+      "$76.70"
+     ],
+     "answer": "C",
+     "explanation": "One face of the trough covers 4 × 3 = 12 square feet of base, two sides of 4 × 2.5 = 10, and two sides of 3 × 2.5 = 7.5, totalling 47 square feet. Coating inside and outside doubles this to 94 square feet, so the cost is 94 × 0.65 = $61.10. The tempting $30.55 seals one face only; $76.70 counts a top that the open trough does not have."
+    },
+    {
+     "num": 9,
+     "topic": "Quantitative problem solving with measurement",
+     "question": "A 26-foot ladder leans against a vertical wall with its base 10 feet from the wall. A worker then slides the base 4 feet farther from the wall, and the ladder keeps resting against the wall. To the nearest tenth of a foot, how far down the wall does the top of the ladder move?",
+     "choices": [
+      "12.0 feet",
+      "4.0 feet",
+      "21.9 feet",
+      "2.1 feet"
+     ],
+     "answer": "D",
+     "explanation": "At first the top is √(26² − 10²) = √576 = 24 feet up. With the base 14 feet out, the top is √(26² − 14²) = √480 ≈ 21.9 feet up, so it drops about 24 − 21.9 = 2.1 feet. The tempting 4.0 assumes the top slides down exactly as far as the base slides out; the relationship is not linear, so the top moves much less."
+    },
+    {
+     "num": 10,
+     "topic": "Quantitative problem solving with measurement",
+     "question": "On a blueprint drawn to a scale of 1/4 inch to 1 foot, a wall measures 7 3/8 inches long. Drywall for that wall comes in sheets 4 feet wide that run floor to ceiling, and each sheet costs $14.50. Only whole sheets can be bought. What is the least amount the drywall for this wall can cost?",
+     "choices": [
+      "$116.00",
+      "$106.94",
+      "$101.50",
+      "$427.75"
+     ],
+     "answer": "A",
+     "explanation": "The wall is 7.375 ÷ 0.25 = 29.5 feet long. At 4 feet per sheet, 29.5 ÷ 4 = 7.375 sheets are needed, and since only whole sheets can be bought, that means 8 sheets at $14.50, or $116.00. The tempting $106.94 charges for 7.375 sheets, which ignores that a partial sheet must still be purchased whole."
+    },
+    {
+     "num": 11,
+     "topic": "Quantitative problem solving with data analysis and statistics",
+     "question": "A server records these tips, in dollars, over seven shifts: 84, 96, 75, 110, 96, 88, and 130. The 130 shift was a private banquet and will be excluded from the report. How does removing that shift change the median of the tips?",
+     "choices": [
+      "The median stays the same.",
+      "The median decreases by $8.",
+      "The median decreases by $4.",
+      "The median decreases by $5.50."
+     ],
+     "answer": "C",
+     "explanation": "In order, the seven values are 75, 84, 88, 96, 96, 110, 130, so the median is the fourth value, 96. Removing 130 leaves six values with median (88 + 96)/2 = 92, a decrease of 4. The tempting decrease of 5.50 is what happens to the mean, which falls from 97 to 91.50; the mean is far more sensitive to the removed high value than the median."
+    },
+    {
+     "num": 12,
+     "topic": "Quantitative problem solving with probability",
+     "question": "A drawer holds 5 black socks, 4 navy socks, and 3 grey socks, all loose. Two socks are pulled out at random without looking and without putting the first one back. To the nearest hundredth, what is the probability that the two socks are the same colour?",
+     "choices": [
+      "0.15",
+      "0.35",
+      "0.29",
+      "0.71"
+     ],
+     "answer": "C",
+     "explanation": "There are C(12,2) = 66 equally likely pairs. Same-colour pairs number C(5,2) + C(4,2) + C(3,2) = 10 + 6 + 3 = 19, so the probability is 19/66 ≈ 0.29. The tempting 0.35 comes from treating the draws as independent, as with replacement: (5/12)² + (4/12)² + (3/12)² = 50/144 ≈ 0.35. Without replacement the first sock is gone, so each second draw has only 11 socks left."
+    },
+    {
+     "num": 13,
+     "topic": "Algebraic problem solving with expressions and equations",
+     "question": "One gym charges a $65 joining fee plus $38 per month. A second gym charges no joining fee but $51 per month. After how many whole months has the amount paid to the first gym first fallen at least $100 below the amount paid to the second?",
+     "choices": [
+      "5 months",
+      "12 months",
+      "13 months",
+      "8 months"
+     ],
+     "answer": "C",
+     "explanation": "After m months the gap is 51m − (65 + 38m) = 13m − 65, and that must reach 100, so 13m must reach 165 and m must be at least 12.7. The first whole month that qualifies is 13, where the gap is $104; at 12 months it is only $91. The tempting 12 months comes from cutting 12.7 down instead of up, which leaves the saving short of $100."
+    },
+    {
+     "num": 14,
+     "topic": "Algebraic problem solving with expressions and equations",
+     "question": "A coffee shop sells only two drink sizes: a 12-ounce cup for $3.25 and a 20-ounce cup for $4.75. One morning the shop sold 138 cups and took in $541.50. How many 20-ounce cups were sold?",
+     "choices": [
+      "20",
+      "69",
+      "76",
+      "62"
+     ],
+     "answer": "D",
+     "explanation": "If the shop had sold all 138 cups at $3.25, revenue would be $448.50. The actual revenue is $93.00 higher, and each 20-ounce cup adds $1.50 over a 12-ounce cup, so 93.00 ÷ 1.50 = 62 large cups were sold. The tempting 76 is the number of 12-ounce cups, the other unknown; a check gives 76(3.25) + 62(4.75) = $541.50."
+    },
+    {
+     "num": 15,
+     "topic": "Algebraic problem solving with expressions and equations",
+     "question": "A shop's weekly profit, in dollars, from selling a tool at a price of p dollars is modeled by the expression −5p² + 180p − 1200. Two different prices give a weekly profit of exactly $400. What is the lower of those two prices?",
+     "choices": [
+      "$18.00",
+      "$20.00",
+      "$8.83",
+      "$16.00"
+     ],
+     "answer": "D",
+     "explanation": "Set −5p² + 180p − 1200 = 400, which rearranges to 5p² − 180p + 1600 = 0, or p² − 36p + 320 = 0. The quadratic formula gives p = (36 ± 4)/2, so p = 16 or p = 20, and the lower price is $16.00. The tempting $18.00 is the price that maximizes profit, at the vertex, where profit is $420 rather than the $400 asked for."
+    },
+    {
+     "num": 16,
+     "topic": "Algebraic problem solving with expressions and equations",
+     "question": "What is the coefficient of x in the expanded form of (2x − 3)(x + 4)(x − 1)?",
+     "choices": [
+      "3",
+      "−17",
+      "−12",
+      "17"
+     ],
+     "answer": "B",
+     "explanation": "Multiply two factors first: (2x − 3)(x + 4) = 2x² + 5x − 12. Multiplying that by (x − 1) gives 2x³ + 3x² − 17x + 12, so the coefficient of x is −17. The tempting −12 is the constant term of the first product, taken before the third factor is applied; 3 is the coefficient of x² in the final expansion rather than the coefficient of x."
+    },
+    {
+     "num": 17,
+     "topic": "Algebraic problem solving with expressions and equations",
+     "question": "A workshop has fixed weekly costs of $4,500 and spends $12 in materials for each unit it makes. In a week when it makes n units, the average cost per unit is (4500 + 12n)/n. Last week the workshop made 400 units. How many more units per week than that must it make for the average cost per unit to come down to $19.50?",
+     "choices": [
+      "200 more units",
+      "600 more units",
+      "231 more units",
+      "375 more units"
+     ],
+     "answer": "A",
+     "explanation": "Set (4500 + 12n)/n = 19.50, so 4500 + 12n = 19.50n, leaving 7.50n = 4500 and n = 600 units in the week. Last week's output was 400, so the workshop must add 600 − 400 = 200 units. The tempting 600 is the total weekly output at the target average cost, reported without subtracting the 400 units already being made."
+    },
+    {
+     "num": 18,
+     "topic": "Algebraic problem solving with expressions and equations",
+     "question": "A delivery van can legally carry a total load of 3,200 pounds. The driver weighs 190 pounds and permanent equipment in the van weighs 240 pounds, and both count toward the load. Each crate to be loaded weighs 85 pounds. What is the greatest number of crates the van can legally carry?",
+     "choices": [
+      "35 crates",
+      "33 crates",
+      "32 crates",
+      "37 crates"
+     ],
+     "answer": "C",
+     "explanation": "The crates may total at most 3,200 − 190 − 240 = 2,770 pounds. Since 2,770 ÷ 85 ≈ 32.6, and a partial crate cannot be loaded, the greatest legal number is 32. The tempting 33 comes from rounding 32.6 up, which would put the van over its legal limit; 35 comes from subtracting the driver's weight but not the equipment's."
+    },
+    {
+     "num": 19,
+     "topic": "Algebraic problem solving with expressions and equations",
+     "question": "A day crew can clean an office building alone in 6 hours. When the day crew and the night crew clean the building together, the job takes 2.4 hours. How long would the night crew take to clean the building alone?",
+     "choices": [
+      "3.6 hours",
+      "4.0 hours",
+      "1.7 hours",
+      "8.4 hours"
+     ],
+     "answer": "B",
+     "explanation": "Rates add, not times. The day crew cleans 1/6 of the building per hour and the two crews together clean 1/2.4 of it per hour, so the night crew's rate is 1/2.4 − 1/6 = 0.4167 − 0.1667 = 0.25 of the building per hour. At that rate it needs 1 ÷ 0.25 = 4.0 hours alone. The tempting 3.6 hours subtracts the times, 6 − 2.4, which no rate equation supports."
+    },
+    {
+     "num": 20,
+     "topic": "Algebraic problem solving with graphs and functions",
+     "question": "A water tank drains at a constant rate. Six minutes after draining begins it holds 141 gallons, and 15 minutes after draining begins it holds 96 gallons. To the nearest tenth of a minute, how long after draining begins is the tank empty?",
+     "choices": [
+      "5.0 minutes",
+      "34.2 minutes",
+      "19.2 minutes",
+      "28.2 minutes"
+     ],
+     "answer": "B",
+     "explanation": "The rate of change is (96 − 141)/(15 − 6) = −5 gallons per minute. Working back from the 6-minute reading, the tank started with 141 + 6(5) = 171 gallons, so it empties after 171 ÷ 5 = 34.2 minutes. The tempting 19.2 is the time still remaining after the 15-minute mark, 96 ÷ 5, rather than the time measured from the start of draining."
+    },
+    {
+     "num": 21,
+     "topic": "Algebraic problem solving with graphs and functions",
+     "question": "A print shop's charge for a flyer order is a fixed setup charge plus a constant charge per flyer. An order of 200 flyers costs $70 and an order of 500 flyers costs $121. A customer has $200 to spend at these same rates. What is the greatest number of flyers the customer can order?",
+     "choices": [
+      "1,388 flyers",
+      "965 flyers",
+      "1,176 flyers",
+      "964 flyers"
+     ],
+     "answer": "D",
+     "explanation": "The charge per flyer is (121 − 70)/(500 − 200) = $0.17, and the setup charge is 70 − 200(0.17) = $36. The budget gives 0.17n + 36 = 200, so n = 164 ÷ 0.17 ≈ 964.7, and only 964 flyers stay within $200, at $199.88. The tempting 965 rounds that up and costs $200.05, just over the budget; 1,176 divides the full $200 by 0.17 and forgets the setup charge."
+    },
+    {
+     "num": 22,
+     "topic": "Algebraic problem solving with graphs and functions",
+     "question": "In the coordinate plane, one line has the equation 2x + 3y = 12. A second line passes through the point (6, −2) and is perpendicular to the first line. What is the equation of the second line?",
+     "choices": [
+      "y = (3/2)x − 11",
+      "y = (2/3)x − 6",
+      "y = −(3/2)x + 7",
+      "y = −(2/3)x + 2"
+     ],
+     "answer": "A",
+     "explanation": "Writing the given line as y = −(2/3)x + 4 shows its slope is −2/3, so a perpendicular line has slope 3/2, the opposite reciprocal. Through (6, −2): −2 = (3/2)(6) + b gives b = −11, so y = (3/2)x − 11. The tempting line with slope −2/3 through the same point is parallel to the given line, not perpendicular."
+    },
+    {
+     "num": 23,
+     "topic": "Algebraic problem solving with graphs and functions",
+     "question": "The function f is defined by f(x) = 2x² − 3x + 1. Which expression is equivalent to f(a + 1) − f(a) ?",
+     "choices": [
+      "2a² + a",
+      "−1",
+      "4a + 1",
+      "4a − 1"
+     ],
+     "answer": "D",
+     "explanation": "Substituting gives f(a + 1) = 2(a + 1)² − 3(a + 1) + 1 = 2a² + 4a + 2 − 3a − 2 = 2a² + a. Subtracting f(a) = 2a² − 3a + 1 leaves 2a² + a − 2a² + 3a − 1 = 4a − 1. The tempting 2a² + a is f(a + 1) by itself, reported before the subtraction that the expression calls for."
+    },
+    {
+     "num": 24,
+     "topic": "Algebraic problem solving with graphs and functions",
+     "question": "A sprinkler head sits 1.2 feet above level ground. The height of the water, in feet, at a horizontal distance of x feet from the head is modeled by h(x) = −0.05x² + 0.9x + 1.2. A gardener needs the water to pass at least 4 feet above the ground to clear a row of shrubs. Measured horizontally, how wide is the stretch over which the water is at least 4 feet above the ground?",
+     "choices": [
+      "10.0 feet",
+      "4.0 feet",
+      "18.0 feet",
+      "14.0 feet"
+     ],
+     "answer": "A",
+     "explanation": "Set the height equal to 4: −0.05x² + 0.9x + 1.2 = 4, so −0.05x² + 0.9x − 2.8 = 0. Multiplying by −20 gives x² − 18x + 56 = 0, which factors as (x − 4)(x − 14). The water is at least 4 feet high from x = 4 to x = 14, a stretch of 10.0 feet. The tempting 14.0 feet is the far crossing point, reported without subtracting the near one."
+    },
+    {
+     "num": 25,
+     "topic": "Algebraic problem solving with graphs and functions",
+     "question": "A utility bills water monthly. The charge, in dollars, for g thousand gallons is 21 when g is 4 or less, and 21 + 6.25(g − 4) when g is more than 4. A household's bill for one month was $102.25. How much water did the household use that month?",
+     "choices": [
+      "13,000 gallons",
+      "17,000 gallons",
+      "16,360 gallons",
+      "19,720 gallons"
+     ],
+     "answer": "B",
+     "explanation": "The bill is above $21, so the second rule applies: 102.25 = 21 + 6.25(g − 4). Subtracting the base charge leaves 81.25 = 6.25(g − 4), so g − 4 = 13 and g = 17 thousand gallons, or 17,000 gallons. The tempting 13,000 gallons stops at g − 4, reporting only the water billed above the 4,000 gallons covered by the base charge."
+    }
+   ]
+  }
+ ]
+}
