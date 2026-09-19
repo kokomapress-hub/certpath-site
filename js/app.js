@@ -98,16 +98,25 @@ async function validateCode(code) {
   return { success: false, message: "We couldn't verify that code. Check the characters against the last page of your book, or email support@certpathpublishing.store and we'll help." };
 }
 
+fetch('/cheatsheets/meta.json').then(r => r.ok ? r.json() : {}).then(m => {
+  window.__cpSheets = m || {};
+  document.querySelectorAll('a[data-sheet-bank]').forEach(a => { const b = a.dataset.sheetBank; if (m[b] && m[b].ready) a.href = `/cheatsheets/${b}.pdf`; });
+}).catch(() => {});
+
 function bonusSectionHTML(book) {
   // Bonus materials are included with the book purchase and are never
   // conditioned on an Amazon review (Amazon's review policy prohibits
   // rewarding reviews, and the books promise the bonus "no review required").
-  const pdfUrl = `/bonus-pdfs/${book.slug}-cheatsheet.pdf`;
+  // New audited two-page sheets live in /cheatsheets/<bank>.pdf once cleared (see cheatsheets/meta.json);
+  // until a title's sheet is cleared, its original bonus PDF stays in place.
+  const bank = book.bank || book.slug;
+  const pdfUrl = (window.__cpSheets && window.__cpSheets[bank] && window.__cpSheets[bank].ready)
+    ? `/cheatsheets/${bank}.pdf` : `/bonus-pdfs/${book.slug}-cheatsheet.pdf`;
   return `
     <div class="bonus-box unlocked">
       <div class="bonus-title">🎁 Bonus Study Materials</div>
-      <p>Included free with your book: the printable <strong>formula cheat sheet (PDF)</strong> for ${book.shortName || book.title}.</p>
-      <a href="${pdfUrl}" class="btn btn-sm" download>Download Cheat Sheet (PDF)</a>
+      <p>Included free with your book: the printable <strong>2-page cheat sheet (PDF)</strong> for ${book.shortName || book.title}.</p>
+      <a href="${pdfUrl}" data-sheet-bank="${bank}" class="btn btn-sm" download>Download Cheat Sheet (PDF)</a>
     </div>`;
 }
 

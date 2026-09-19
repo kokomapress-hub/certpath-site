@@ -1,0 +1,10 @@
+# bank   auditor score (ChatGPT thread "Audit Cheat Sheets") — only these are published
+pmi-acp   9.7
+pmp       9.4
+ged-math  9.4
+capm      9.2
+ccrn      9.2
+cap       9.8
+cmsrn     9.5
+cnor      9.5
+mech-apt  9.1

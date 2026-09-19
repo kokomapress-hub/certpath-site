@@ -1,0 +1,156 @@
+{
+ "cast": {
+  "book": "CAST Exam Study Guide",
+  "short": "CAST",
+  "slug": "cast",
+  "url": "https://certpathpublishing.store/books/cast",
+  "ready": false
+ },
+ "mech-apt": {
+  "book": "Mechanical Aptitude Study Guide",
+  "short": "Mechanical Aptitude",
+  "slug": "mech-apt",
+  "url": "https://certpathpublishing.store/books/mech-apt",
+  "ready": true
+ },
+ "journeyman-elec": {
+  "book": "Journeyman Electrician Exam Study Guide",
+  "short": "Journeyman Electrician",
+  "slug": "journeyman-elec",
+  "url": "https://certpathpublishing.store/books/journeyman-elec",
+  "ready": false
+ },
+ "poss": {
+  "book": "POSS Exam Study Guide",
+  "short": "POSS",
+  "slug": "poss",
+  "url": "https://certpathpublishing.store/books/poss",
+  "ready": false
+ },
+ "csp": {
+  "book": "CSP Exam Study Guide",
+  "short": "CSP",
+  "slug": "csp",
+  "url": "https://certpathpublishing.store/books/csp",
+  "ready": false
+ },
+ "chst": {
+  "book": "CHST Exam Study Guide",
+  "short": "CHST",
+  "slug": "chst",
+  "url": "https://certpathpublishing.store/books/chst",
+  "ready": false
+ },
+ "tabe-a": {
+  "book": "TABE 11 & 12 Math Workbook Level A",
+  "short": "TABE Level A",
+  "slug": "tabe-a",
+  "url": "https://certpathpublishing.store/books/tabe-a",
+  "ready": false
+ },
+ "tabe-d": {
+  "book": "TABE 11 & 12 Math Workbook Level D",
+  "short": "TABE Level D",
+  "slug": "tabe-d",
+  "url": "https://certpathpublishing.store/books/tabe-d",
+  "ready": false
+ },
+ "tabe-m": {
+  "book": "TABE 11 & 12 Math Workbook Level M",
+  "short": "TABE Level M",
+  "slug": "tabe-m",
+  "url": "https://certpathpublishing.store/books/tabe-m",
+  "ready": false
+ },
+ "tabe-e": {
+  "book": "TABE 11 & 12 Math Workbook Level E",
+  "short": "TABE Level E",
+  "slug": "tabe-e",
+  "url": "https://certpathpublishing.store/books/tabe-e",
+  "ready": false
+ },
+ "sat-math": {
+  "book": "Digital SAT Math Prep",
+  "short": "Digital SAT Math",
+  "slug": "sat-math",
+  "url": "https://certpathpublishing.store/books/sat-math",
+  "ready": false
+ },
+ "psat-math": {
+  "book": "Digital PSAT/NMSQT Math Prep",
+  "short": "Digital PSAT/NMSQT Math",
+  "slug": "psat-math",
+  "url": "https://certpathpublishing.store/books/psat-math",
+  "ready": false
+ },
+ "act-math": {
+  "book": "ACT Math Prep",
+  "short": "ACT Math",
+  "slug": "act-math",
+  "url": "https://certpathpublishing.store/books/act-math",
+  "ready": false
+ },
+ "ged-math": {
+  "book": "GED Math Prep",
+  "short": "GED Math",
+  "slug": "ged-math",
+  "url": "https://certpathpublishing.store/books/ged-math",
+  "ready": true
+ },
+ "ccrn": {
+  "book": "Adult CCRN Exam Prep",
+  "short": "Adult CCRN",
+  "slug": "ccrn",
+  "url": "https://certpathpublishing.store/books/ccrn",
+  "ready": true
+ },
+ "cmsrn": {
+  "book": "CMSRN Exam Prep",
+  "short": "CMSRN",
+  "slug": "cmsrn",
+  "url": "https://certpathpublishing.store/books/cmsrn",
+  "ready": true
+ },
+ "cap": {
+  "book": "CAP Exam Study Guide",
+  "short": "CAP",
+  "slug": "cap",
+  "url": "https://certpathpublishing.store/books/cap",
+  "ready": true
+ },
+ "cnor": {
+  "book": "CNOR Exam Study Guide",
+  "short": "CNOR",
+  "slug": "cnor",
+  "url": "https://certpathpublishing.store/books/cnor",
+  "ready": true
+ },
+ "asvab-math": {
+  "book": "ASVAB Math Prep",
+  "short": "ASVAB",
+  "slug": "asvab-math",
+  "url": "https://certpathpublishing.store/books/asvab-math",
+  "ready": false
+ },
+ "pmp": {
+  "book": "PMP Exam Prep",
+  "short": "PMP",
+  "slug": "pmp",
+  "url": "https://certpathpublishing.store/pmp",
+  "ready": true
+ },
+ "pmi-acp": {
+  "book": "PMI-ACP Exam Prep",
+  "short": "PMI-ACP",
+  "slug": "pmi-acp",
+  "url": "https://certpathpublishing.store/books/pmi-acp",
+  "ready": true
+ },
+ "capm": {
+  "book": "CAPM Exam Prep",
+  "short": "CAPM",
+  "slug": "capm",
+  "url": "https://certpathpublishing.store/capm",
+  "ready": true
+ }
+}

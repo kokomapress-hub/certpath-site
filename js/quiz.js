@@ -14,6 +14,27 @@ let endTime = 0;
 let timerInterval = null;
 let timeLeft = 0; // seconds
 
+// In-progress attempts, so a customer can leave and finish later on the same browser.
+// { "<slug>#<testNum>": { answers, idx, timeLeft, elapsed, total, at } }
+const PROGRESS_KEY = "certpath_progress";
+let elapsedBefore = 0; // ms spent in earlier sittings of a resumed attempt
+function progressId() { return book.slug + '#' + test.testNum; }
+function getProgressAll() { try { return JSON.parse(localStorage.getItem(PROGRESS_KEY) || '{}'); } catch { return {}; } }
+function getProgress() { const p = getProgressAll()[progressId()]; return p && p.answers && Object.keys(p.answers).length ? p : null; }
+function saveProgress() {
+  if (!book || !test || !startTime || endTime) return;
+  try {
+    const all = getProgressAll();
+    all[progressId()] = { answers, idx: currentIdx, timeLeft, elapsed: elapsedBefore + (Date.now() - startTime),
+      total: test.questions.length, title: book.title, at: new Date().toISOString() };
+    localStorage.setItem(PROGRESS_KEY, JSON.stringify(all));
+  } catch {}
+}
+window.addEventListener('pagehide', () => saveProgress());
+function clearProgress() {
+  try { const all = getProgressAll(); delete all[progressId()]; localStorage.setItem(PROGRESS_KEY, JSON.stringify(all)); } catch {}
+}
+
 function getUnlocked() {
   // Dev convenience: on localhost, unlock everything so previews need no email or access code.
   // Production hostnames (e.g. certpathpublishing.store) still require a valid code.
@@ -173,7 +194,12 @@ function showStartScreen() {
           </ul>
         </div>
 
-        <button class="btn" onclick="startQuiz()" style="width: 100%;">Begin Test</button>
+        ${(() => { const p = getProgress(); if (!p) return `<button class="btn" onclick="startQuiz()" style="width: 100%;">Begin Test</button>`;
+          return `<div style="background:#EEF3FB;border-left:4px solid var(--navy);padding:1rem 1.2rem;border-radius:6px;margin-bottom:1rem;">
+            <strong style="color:var(--navy);">You have an unfinished attempt.</strong>
+            <div style="color:var(--gray-dark);font-size:.95rem;margin-top:.3rem;">${Object.keys(p.answers).length} of ${test.questions.length} answered · ${Math.max(1, Math.round(p.timeLeft / 60))} minutes left</div></div>
+            <button class="btn" onclick="resumeQuiz()" style="width: 100%;">Resume where I left off</button>
+            <button class="btn btn-outline" onclick="startQuiz()" style="width: 100%; margin-top: .8rem;">Start over</button>`; })()}
         <a href="/access.html" class="btn btn-outline" style="display: block; text-align: center; margin-top: 0.8rem;">Back to My Tests</a>
       </div>
     </div>
@@ -181,9 +207,25 @@ function showStartScreen() {
 }
 
 function startQuiz() {
+  clearProgress();
+  elapsedBefore = 0;
+  endTime = 0;
   startTime = Date.now();
   currentIdx = 0;
   answers = {};
+  renderQuiz();
+  startTimer();
+}
+
+function resumeQuiz() {
+  const p = getProgress();
+  if (!p) return startQuiz();
+  answers = p.answers || {};
+  currentIdx = Math.min(Math.max(0, p.idx || 0), test.questions.length - 1);
+  if (p.timeLeft > 0) timeLeft = p.timeLeft;
+  elapsedBefore = p.elapsed || 0;
+  endTime = 0;
+  startTime = Date.now();
   renderQuiz();
   startTimer();
 }
@@ -193,6 +235,7 @@ function startTimer() {
   timerInterval = setInterval(() => {
     timeLeft--;
     updateTimer();
+    if (timeLeft % 10 === 0) saveProgress();
     if (timeLeft <= 0) {
       clearInterval(timerInterval);
       submitQuiz();
@@ -418,6 +461,7 @@ function reviewBody(q, userAns) {
 }
 
 function renderQuiz() {
+  saveProgress();
   ensureEnhStyles();
   const q = test.questions[currentIdx];
   const total = test.questions.length;
@@ -501,6 +545,7 @@ function confirmSubmit() {
 function submitQuiz() {
   endTime = Date.now();
   if (timerInterval) clearInterval(timerInterval);
+  clearProgress();
   // Record completion so the next test in a sequential book unlocks.
   if (book && test) markCompleted(book.slug, test.testNum);
   showResults();
@@ -538,7 +583,7 @@ function showResults() {
         </div>`;
       }).join('')}
     </div>` : '';
-  const elapsedSec = Math.round((endTime - startTime) / 1000);
+  const elapsedSec = Math.round((elapsedBefore + endTime - startTime) / 1000);
   const elapsedM = Math.floor(elapsedSec / 60);
   const elapsedS = elapsedSec % 60;
   const passed = pct >= 70;

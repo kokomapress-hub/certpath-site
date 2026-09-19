@@ -10,3 +10,9 @@ img/photo/_source/
 REVAMP_NOTES.md
 private/
 audit-packets/
+
+# cheat sheets: working files stay local; only cleared PDFs are committed
+cheatsheets/build/
+cheatsheets/src/*.verify.md
+cheatsheets/src/
+cheatsheets/AUTHORING.md

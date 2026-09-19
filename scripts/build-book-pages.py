@@ -159,7 +159,7 @@ def page(book, stats):
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;1,8..60,400&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/css/premium.css?v=10">
+  <link rel="stylesheet" href="/css/premium.css?v=11">
   <link rel="preload" as="image" href="{esc(book["cover"])}" fetchpriority="high">
 </head>
 <body class="cp" data-book-state="visitor">
@@ -181,13 +181,14 @@ def page(book, stats):
             <h2>Try 25 tough {esc(short)} questions — free</h2>
             <a class="cp-btn cp-btn-primary cp-gate-start" href="/sample?book={esc(slug)}">Start the 25 free questions <span class="cp-arrow" aria-hidden="true">→</span></a>
             <ul class="cp-gate-proof"><li>No email, no signup</li><li>Full explanation after every answer</li><li>New questions — not in the book or the online tests</li></ul>
+            <p class="cp-gate-note cp-sheetlink"><a href="/cheatsheets/{esc(book.get("bank") or slug)}.pdf" download>Download the free 2-page cheat sheet (PDF) ↓</a></p>
             <p class="cp-gate-note">Already own the book? <a href="#owner">Enter your access code →</a></p>
           </div>
 
           <!-- Owner: this book's practice tests -->
           <div class="cp-gate cp-tests" data-owner-only hidden>
             <h2>Your practice tests</h2>
-            <p class="cp-gate-note" style="margin:0 0 1rem">Timed and auto-scored, with an explanation for every question.</p>
+            <p class="cp-gate-note" style="margin:0 0 1rem">Timed and auto-scored, with an explanation for every question. Leave a test any time — it is saved on <a href="/my">your study page</a>.</p>
             <div class="cp-tests-grid" id="testsGrid"></div>
             <p class="cp-gate-note" id="seqNote" hidden>Tests unlock in order — finish one to open the next.</p>
             {f'<p style="margin-top:1rem"><a class="cp-textlink" href="/bonus-pdfs/{esc(slug)}-cheatsheet.pdf" download>Download your formula cheat sheet (PDF) <span class="cp-arrow" aria-hidden="true">↓</span></a></p>' if has_bonus else ''}
@@ -238,7 +239,7 @@ def page(book, stats):
     <section class="cp-section cp-ownernext" data-owner-only hidden>
       <div class="cp-container cp-owner-inner">
         <p id="alsoUnlocked"><b>Have another CertPath book?</b> Add its code and its tests appear on its own page.</p>
-        <a class="cp-btn cp-btn-ghost" href="/access">My library &amp; codes <span class="cp-arrow" aria-hidden="true">→</span></a>
+        <a class="cp-btn cp-btn-ghost" href="/my">My study page <span class="cp-arrow" aria-hidden="true">→</span></a>
       </div>
     </section>
 
@@ -252,7 +253,7 @@ def page(book, stats):
 {FOOTER}
 
   <script>window.CP_BOOK = {cfg};</script>
-  <script src="/js/premium.js?v=12" defer></script>
+  <script src="/js/premium.js?v=13" defer></script>
   <script src="/js/app.js?v=20260918g" defer></script>
   <script src="/js/book.js?v=4" defer></script>
 </body>
@@ -280,6 +281,8 @@ for b in books:
     if not (ROOT / "data" / "free" / f"{b.get('bank') or b['slug']}.json").is_file():
         doc = (re.sub(r"Try 25 tough (.*?) questions — free", r"Try \1 sample questions — free", doc).replace("Start the 25 free questions", "Start the free sample questions")
                   .replace("<li>New questions — not in the book or the online tests</li>", ""))
+    if not (ROOT / "cheatsheets" / f"{b.get('bank') or b['slug']}.pdf").is_file():
+        doc = re.sub(r'\s*<p class="cp-gate-note cp-sheetlink">.*?</p>', "", doc)
     (out / f"{b['slug']}.html").write_text(doc, encoding="utf-8")
     pages[b["slug"]] = f"/books/{b['slug']}"
 

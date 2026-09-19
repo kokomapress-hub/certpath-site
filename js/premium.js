@@ -690,7 +690,7 @@
       var name = '', email = '';
       try { name = localStorage.getItem('certpath_name') || ''; email = localStorage.getItem('certpath_email') || ''; } catch (e) {}
       var label = name || (email ? email.split('@')[0] : (u.isAdmin ? 'Owner' : 'My account'));
-      var items = [['/access', 'My practice tests']];
+      var items = [['/my', 'My study page'], ['/access', 'Add another access code']];
       if (pmp) items.push(['/pmp-course', 'PMP video course']);
       if (capm) items.push(['/capm-course', 'CAPM video course']);
 
