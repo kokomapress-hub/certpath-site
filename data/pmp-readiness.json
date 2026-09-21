@@ -1,0 +1,857 @@
+[
+ {
+  "id": "PMP-DIAG-P01",
+  "num": "1",
+  "domain": "people",
+  "task": "p-t1",
+  "taskName": "People T1 — Develop common vision",
+  "topic": "Shared vision alignment",
+  "approach": "hybrid",
+  "question": "On a hybrid product-modernization project, a one-page vision statement is posted in the team room, yet during backlog refinement the team keeps prioritizing items that a business analyst points out actually contradict that stated vision. What should the project manager do FIRST?",
+  "choices": [
+   "Ask the sponsor to rewrite the vision statement so that it is clearer, more specific, and far easier for every team member to apply in their day-to-day prioritization decisions.",
+   "Run a short working session in which the team traces each candidate item back to the vision and reconciles the contradictions together.",
+   "Use your authority to remove the items that conflict with the posted vision from the backlog.",
+   "Log the misalignment as a risk and let refinement continue so the team is not slowed down."
+  ],
+  "answer": "B",
+  "explanation": "A vision only guides behavior when the team genuinely shares and applies it, so facilitating the team to reconcile each item against the vision surfaces the real misunderstanding and rebuilds common direction. Having the sponsor reissue a statement or unilaterally deleting items imposes direction top-down without shared ownership, and treating it as a risk to monitor leaves the root disconnect unresolved.",
+  "type": "single"
+ },
+ {
+  "id": "PMP-DIAG-P02",
+  "num": "2",
+  "domain": "people",
+  "task": "p-t2",
+  "taskName": "People T2 — Manage conflicts",
+  "topic": "Conflict over quality standards",
+  "approach": "adaptive",
+  "question": "During sprint planning, two developers clash over what quality conditions must be met for work to be considered complete as part of the Increment: one insists on extensive automated test coverage, the other wants a lighter completion bar so the team can ship sooner and learn from real users. The exchange is turning personal and stalling planning. What should the project manager do NEXT?",
+  "choices": [
+   "Decide the matter yourself by mandating the higher automated test-coverage standard as a fixed and permanent team rule for every increment from now on, so that sprint planning can move on immediately without any further argument, escalation, or delay.",
+   "Ask the product owner to settle it by choosing either speed or coverage on the team's behalf.",
+   "Refocus both on the shared goal, surface the interests behind each position, review the applicable Definition of Done—including any organizational minimum—and facilitate agreement on any additional quality practices needed.",
+   "Escalate to the engineering manager to set a single mandatory coverage threshold that all teams in the department must follow."
+  ],
+  "answer": "C",
+  "explanation": "This is a substantive, values-based conflict with time to resolve it, so a collaborate/problem-solve approach that reconnects both to the shared goal and aligns them on the applicable Definition of Done addresses the root issue durably. The Definition of Done is the quality state the increment must meet—and any organizational Definition of Done is a minimum the team must follow, not a release policy the team can simply negotiate down; imposing a decision, delegating the choice to the product owner, or escalating for a department-wide threshold all resolve the moment without reconciling the conflict against that applicable standard.",
+  "type": "single"
+ },
+ {
+  "id": "PMP-DIAG-P03",
+  "num": "3",
+  "domain": "people",
+  "task": "p-t3",
+  "taskName": "People T3 — Lead the project team",
+  "topic": "Leading a newly formed team",
+  "approach": "predictive",
+  "question": "A project manager is assigned to a predictive construction project with a team whose members have never worked together. Early on, members wait for the project manager to direct nearly every task. To lead the team effectively, the project manager should MOST focus on:",
+  "choices": [
+   "Continuing to direct each task in detail until the members have built enough experience working with one another as a group.",
+   "Establishing clear roles, working agreements, and objectives so the team shares an understanding of how to operate.",
+   "Appointing a senior member as an informal lead to answer the team's day-to-day questions.",
+   "Delegating all task-level decisions right away to accelerate the team's independence."
+  ],
+  "answer": "B",
+  "explanation": "A newly formed team needs an explicit foundation of roles, objectives, and working agreements before it can self-organize, and establishing that shared operating model is the leader's early priority. Directing every task indefinitely keeps the team dependent, an informal lead only relays questions rather than building shared structure, and fully delegating to a team that lacks agreements invites dropped work and confusion.",
+  "type": "single"
+ },
+ {
+  "id": "PMP-DIAG-P04",
+  "num": "4",
+  "domain": "people",
+  "task": "p-t3",
+  "taskName": "People T3 — Lead the project team",
+  "topic": "Rebalancing team workload",
+  "approach": "adaptive",
+  "question": "An agile team's overall throughput looks steady, but two members are consistently overloaded while others have slack, and defect rates on the overloaded members' work are beginning to rise. What should the project manager do NEXT?",
+  "choices": [
+   "Direct the members who have slack to take over specific tasks from the two overloaded members to even out the load.",
+   "Raise the workload imbalance as a discussion topic at the next scheduled retrospective.",
+   "Begin tracking each person's individual utilization and set per-person productivity targets.",
+   "Make the imbalance visible on the team's workflow board and facilitate the team to rebalance the work themselves."
+  ],
+  "answer": "D",
+  "explanation": "A servant leader makes the flow problem visible and lets the self-organizing team rebalance, which fixes the overload and quality risk at its source while preserving ownership and sustainable pace. Directing reassignment is command-and-control, waiting for the retrospective lets quality keep slipping, and individual utilization targets pit members against one another and undermine collaboration.",
+  "type": "single"
+ },
+ {
+  "id": "PMP-DIAG-P05",
+  "num": "5",
+  "domain": "people",
+  "task": "p-t3",
+  "taskName": "People T3 — Lead the project team",
+  "topic": "Empowering the team",
+  "approach": "hybrid",
+  "question": "On a hybrid team, the project manager notices members escalate even low-risk decisions for approval. In conversation it emerges that a previous manager punished anyone whose decision went wrong. To lead the team toward greater autonomy, the project manager should FIRST:",
+  "choices": [
+   "Define with the team the decisions they can make without approval, and reinforce that reasonable mistakes are treated as learning.",
+   "Announce to the team that they are now fully empowered to make their own decisions from this point forward.",
+   "Continue approving each of their escalations very quickly so that they are never blocked or held up while they gradually adjust to having more autonomy over time.",
+   "Escalate the team's fear-of-mistakes culture to the sponsor and ask for help resolving it."
+  ],
+  "answer": "A",
+  "explanation": "Empowerment requires both clear boundaries within which the team can act and the psychological safety that makes them willing to use that authority, so defining decision limits while normalizing reasonable mistakes tackles the actual cause of the escalation. Simply declaring the team empowered ignores the fear driving the behavior, continuing to approve escalations reinforces dependence, and escalating to the sponsor sidesteps the leader's own responsibility to build that safety.",
+  "type": "single"
+ },
+ {
+  "id": "PMP-DIAG-P06",
+  "num": "6",
+  "domain": "people",
+  "task": "p-t2",
+  "taskName": "People T2 — Manage conflicts",
+  "topic": "Conflict and emotional intelligence",
+  "approach": "adaptive",
+  "question": "During a tense sprint review, a key stakeholder sharply criticizes the team's work, and a developer becomes visibly upset and defensive in front of everyone. What should the project manager do FIRST?",
+  "choices": [
+   "Stay composed, acknowledge the tension, and steer the discussion toward specific, actionable feedback.",
+   "Step in immediately to defend the developer's work and push back on the stakeholder's criticism in the moment.",
+   "End the review right away and reschedule it once everyone's emotions have had time to settle down completely.",
+   "Say nothing during the review and privately tell the developer afterward that they need to stay professional."
+  ],
+  "answer": "A",
+  "explanation": "Emotional intelligence begins with self-regulation and reading the room, so staying composed, naming the tension, and redirecting to concrete feedback defuses the moment while keeping the review productive and protecting the developer. Defending reflexively escalates the conflict, ending the meeting avoids the issue, and a private reprimand misreads a stress reaction as a discipline problem.",
+  "type": "single"
+ },
+ {
+  "id": "PMP-DIAG-P07",
+  "num": "7",
+  "domain": "people",
+  "task": "p-t3",
+  "taskName": "People T3 — Lead the project team",
+  "topic": "Leading a distributed team",
+  "approach": "hybrid",
+  "question": "On a hybrid team split between two countries, the remote members are growing quiet in meetings dominated by the co-located group, and their input has been drying up. What should the project manager do FIRST?",
+  "choices": [
+   "Restructure how meetings are run so remote and co-located members participate on equal footing, and find out what is driving the remote disengagement.",
+   "Arrange a multi-day in-person offsite so that members from both of the locations can build much stronger personal and working relationships with one another face to face over several days together.",
+   "Ask the co-located members to make a deliberate point of including the remote members more often.",
+   "Record every meeting so that the remote members are able to catch up asynchronously afterward."
+  ],
+  "answer": "A",
+  "explanation": "Virtual-team disengagement usually stems from meeting dynamics that privilege the co-located group, so changing how meetings run to level participation and investigating the cause tackles the root problem directly. An offsite can help relationships but is a slower, costlier move that does not fix the recurring meeting imbalance, asking colleagues to include people is a vague ask, and recordings let remote members observe without restoring their voice.",
+  "type": "single"
+ },
+ {
+  "id": "PMP-DIAG-P08",
+  "num": "8",
+  "domain": "people",
+  "task": "p-t4",
+  "taskName": "People T4 — Engage stakeholders",
+  "topic": "Re-engaging a drifting stakeholder",
+  "approach": "predictive",
+  "question": "On a predictive project, an influential operations manager who was supportive at charter has gone quiet and has begun voicing concerns about the project to peers rather than to the project manager. What should the project manager do FIRST?",
+  "choices": [
+   "Address the concerns publicly at the next steering committee meeting so that the record can be corrected for everyone at once.",
+   "Send the operations manager the full detailed status report to reassure them that the project is on track.",
+   "Ask the sponsor to remind the operations manager to bring any concerns directly to the project manager.",
+   "Meet with the operations manager to understand the underlying concerns and reset how they prefer to be engaged."
+  ],
+  "answer": "D",
+  "explanation": "A stakeholder shifting from support to quiet dissent signals an engagement gap best closed by a direct conversation to understand the real concern and adjust the engagement approach. Confronting it publicly risks embarrassing a key stakeholder, a status report answers a question they may not have, and asking the sponsor to intervene bypasses the project manager's own relationship-building responsibility.",
+  "type": "single"
+ },
+ {
+  "id": "PMP-DIAG-P09",
+  "num": "9",
+  "domain": "people",
+  "task": "p-t5",
+  "taskName": "People T5 — Align stakeholder expectations",
+  "topic": "Aligning on acceptance",
+  "approach": "adaptive",
+  "question": "On an agile team, the developers and the product owner keep interpreting a user story's acceptance differently, and the mismatch surfaces only at the review when completed work is rejected. To prevent this from recurring, what is the BEST action?",
+  "choices": [
+   "Require the product owner to write far more detailed and exhaustive written acceptance criteria for every story in the backlog before any development on it begins, so that nothing is left open to differing interpretation.",
+   "Add a rule that the product owner must formally approve each story before any development begins on it.",
+   "Hold refinement conversations where the team and product owner agree on concrete acceptance examples and the acceptance criteria for each story before it is pulled.",
+   "Demonstrate in-progress work to the product owner more frequently throughout the sprint."
+  ],
+  "answer": "C",
+  "explanation": "A shared understanding of what each story must satisfy to be accepted is built through conversation and concrete examples during refinement, aligning the team and product owner on the story's acceptance criteria before work starts rather than discovering the gap at review. These acceptance criteria are specific to the story and are distinct from the team's Definition of Done; heavier written criteria alone still leave interpretation open, a formal approval gate adds control without shared meaning, and more frequent demos catch the mismatch later instead of preventing it.",
+  "type": "single"
+ },
+ {
+  "id": "PMP-DIAG-P10",
+  "num": "10",
+  "domain": "people",
+  "task": "p-t5",
+  "taskName": "People T5 — Align stakeholder expectations",
+  "topic": "Mentoring to align expectations",
+  "approach": "predictive",
+  "question": "On a predictive project, a newer team member shows strong potential but hesitates to speak in stakeholder meetings and consistently defers to senior colleagues, and stakeholders have begun to overlook their input. The project manager wants to develop the member and set the right expectations on both sides. What is the BEST approach?",
+  "choices": [
+   "Assign the newer member to plan and lead the entire next stakeholder meeting on their own, on the reasoning that a high-visibility stretch assignment is the fastest way to build their confidence in front of stakeholders.",
+   "Ask the senior team members to hold back in meetings so the newer member has more room to speak.",
+   "Give the newer member detailed feedback after each meeting on exactly what they should have done better.",
+   "Offer progressively larger, well-supported chances to contribute, paired with coaching and feedback, and set clear expectations with the member and stakeholders about their growing role."
+  ],
+  "answer": "D",
+  "explanation": "Developing a stakeholder-facing team member means graduated, supported challenges combined with coaching while aligning expectations about their expanding role, which builds confidence and credibility at a pace they can absorb. Throwing them into leading a whole meeting risks a demoralizing failure, quieting the senior members addresses the room rather than the individual's growth, and after-the-fact critique alone offers correction without the scaffolding that builds skill.",
+  "type": "single"
+ },
+ {
+  "id": "PMP-DIAG-P11",
+  "num": "11",
+  "domain": "people",
+  "task": "p-t6",
+  "taskName": "People T6 — Manage stakeholder expectations",
+  "topic": "Managing an unfounded expectation",
+  "approach": "predictive",
+  "question": "On a predictive CRM implementation, the executive sponsor mentions in passing that business users are expecting a mobile app at go-live, but the approved scope and requirements contain only the desktop system. Users are already describing the mobile app to their own teams. What should the project manager do FIRST?",
+  "choices": [
+   "Meet with the sponsor to clarify what has been communicated to users, compare it against the agreed scope, and realign expectations to what the project is committed to deliver.",
+   "Add the mobile app to the next release so the project meets the expectation the users have already formed.",
+   "Tell the affected users directly that the mobile app is out of scope so the incorrect expectation is corrected right away.",
+   "Record the mismatch in the project issue log and raise it for discussion and resolution at the next scheduled steering committee meeting, where the sponsor and the key stakeholders can weigh in on it together."
+  ],
+  "answer": "A",
+  "explanation": "Managing stakeholder expectations means proactively reconciling what stakeholders believe with what the project is actually committed to deliver, working through the sponsor who owns that message. Adding the mobile app reacts before the impact is analyzed and bypasses change control, correcting the users directly can undercut the sponsor and damage the relationship, and deferring to a later meeting lets a false expectation harden and spread.",
+  "type": "single"
+ },
+ {
+  "id": "PMP-DIAG-P12",
+  "num": "12",
+  "domain": "people",
+  "task": "p-t6",
+  "taskName": "People T6 — Manage stakeholder expectations",
+  "topic": "Managing expectations against capacity",
+  "approach": "hybrid",
+  "question": "On a hybrid program, several senior stakeholders repeatedly expect new high-priority requests to be delivered within the current iteration without anything being removed, and they grow frustrated when the team cannot absorb it all. What should the project manager do to manage their expectations?",
+  "choices": [
+   "Make the team's capacity and current commitments transparent to the stakeholders, and facilitate trade-off decisions so new priorities are accommodated by re-sequencing work rather than overloading the team.",
+   "Ask the team to stretch to fit the additional requests this iteration and adjust in later iterations if the pace proves unsustainable.",
+   "Have the stakeholders route all new requests through the sponsor so the team is shielded from the pressure entirely.",
+   "Commit to the new high-priority requests to keep the senior stakeholders satisfied, then manage any resulting schedule slippage and quality trade-offs with the team quietly as and when they begin to arise."
+  ],
+  "answer": "A",
+  "explanation": "Expectations are managed by making capacity and the real trade-offs visible so stakeholders make informed prioritization choices, which keeps commitments credible and the pace sustainable. Stretching the team sacrifices sustainable pace and quality, shielding everything through the sponsor avoids the alignment conversation rather than having it, and over-committing to keep everyone happy sets up predictable disappointment and erodes trust.",
+  "type": "single"
+ },
+ {
+  "id": "PMP-DIAG-P13",
+  "num": "13",
+  "domain": "people",
+  "task": "p-t7",
+  "taskName": "People T7 — Ensure knowledge transfer",
+  "topic": "Knowledge transfer at handover",
+  "approach": "predictive",
+  "question": "A predictive project is nearing a phase transition where responsibility for a complex subsystem passes from the design team to a separate build team. The project manager wants to ensure the knowledge genuinely transfers. What is the BEST approach?",
+  "choices": [
+   "Require the design team to produce comprehensive written documentation covering every design decision and its rationale before the phase transition takes place.",
+   "Hold a single handover meeting in which the design team presents the subsystem to the build team.",
+   "Pair documented design artifacts with working sessions where the build team applies the knowledge while the design team is still available.",
+   "Have the build team study the design repository and raise any questions by email afterward."
+  ],
+  "answer": "C",
+  "explanation": "Effective transfer combines explicit knowledge in documents with tacit knowledge exchanged through hands-on collaboration, so pairing artifacts with working sessions while the design team remains available captures both. Documentation alone or a single presentation cannot convey the undocumented reasoning, and self-study with follow-up email leaves the build team without real-time access to the experts.",
+  "type": "single"
+ },
+ {
+  "id": "PMP-DIAG-P14",
+  "num": "14",
+  "domain": "people",
+  "task": "p-t8",
+  "taskName": "People T8 — Communication",
+  "topic": "Redesigning communications",
+  "approach": "hybrid",
+  "question": "On a hybrid program, executives complain they learn about problems too late, while the team feels the current reporting is repetitive and low-value. The project manager is redesigning communications. Which choice will MOST improve the new approach?",
+  "choices": [
+   "Increase how often status reports are issued so that all stakeholder groups receive updates more frequently.",
+   "Base the approach on each stakeholder group's information needs and add a feedback loop that confirms information is received and acted on.",
+   "Build one comprehensive, detailed real-time dashboard that every stakeholder group across the program can access on demand at any time whenever they happen to choose to look.",
+   "Add a governance rule requiring that any emerging problem be escalated within twenty-four hours."
+  ],
+  "answer": "B",
+  "explanation": "Communication effectiveness comes from matching content and channel to each audience's needs and closing the loop to confirm messages land, which directly addresses both the executives' late awareness and the team's sense of redundancy. More frequent reports or a single shared dashboard pushes volume without tailoring, and an escalation rule treats one symptom rather than redesigning the flow.",
+  "type": "single"
+ },
+ {
+  "id": "PMP-DIAG-P15",
+  "num": "15",
+  "domain": "people",
+  "task": "p-t8",
+  "taskName": "People T8 — Communication",
+  "topic": "Communicating bad news to a regulator",
+  "approach": "hybrid",
+  "question": "On a hybrid clinical-registry program, the project manager must inform a skeptical regulator that a newly discovered data-quality problem will delay an upcoming submission. The communications plan lists a monthly written report as the channel for regulator updates, and the next one is three weeks away. The regulator's protocol permits direct meetings or calls for material emerging issues, provided they are followed by formal written documentation. What is the BEST way to communicate this?",
+  "choices": [
+   "Include the delay in the next scheduled monthly written report, exactly as the communications plan specifies.",
+   "Send an immediate, highly detailed written report so that there is a precise and complete record of the problem.",
+   "Hold a prompt interactive conversation with the regulator, then follow it with written documentation.",
+   "Wait until a resolution has been identified so the regulator receives a complete and reassuring picture."
+  ],
+  "answer": "C",
+  "explanation": "A sensitive, time-critical message to a skeptical stakeholder calls for interactive communication first so questions can be addressed and trust preserved, with written follow-up for the record—and the regulator's own protocol expressly permits a direct meeting or call for a material emerging issue as long as it is documented afterward. Waiting for the scheduled report or for a full resolution delays disclosure, and a push-only written report forgoes the permitted interactive channel and offers no chance to gauge or address the regulator's reaction.",
+  "type": "single"
+ },
+ {
+  "id": "PMP-DIAG-PR01",
+  "num": "1",
+  "domain": "process",
+  "task": "pr-t1",
+  "taskName": "Process T1 — Integrated planning & delivery",
+  "topic": "Reconciling subsidiary plans",
+  "approach": "predictive",
+  "question": "A project manager is assembling the project management plan for a desalination-plant control-system upgrade from subsidiary plans drafted by separate leads. The schedule plan assumes commissioning in the third quarter, but the procurement plan shows the main control cabinets, a prerequisite for commissioning, arriving in the fourth quarter. What should the project manager do FIRST?",
+  "choices": [
+   "Baseline the plan now and manage the cabinet timing as a schedule change once execution begins.",
+   "Reconcile the conflicting assumptions and dependencies across the subsidiary plans before the integrated plan is baselined.",
+   "Direct the procurement lead to expedite the cabinets so the third-quarter commissioning assumption still holds.",
+   "Escalate the discrepancy to the sponsor and ask which of the two subsidiary plans should be treated as the authoritative one."
+  ],
+  "answer": "B",
+  "explanation": "Integration means the subsidiary plans must be internally consistent and their dependencies resolved before the plan is baselined; a schedule that assumes commissioning before its prerequisite arrives is not integrated. Baselining first and patching later invites cascading rework, expediting the cabinets fixes only one symptom without confirming the other linkages, and handing the conflict to the sponsor abdicates the project manager's integrating responsibility.",
+  "type": "single"
+ },
+ {
+  "id": "PMP-DIAG-PR02",
+  "num": "2",
+  "domain": "process",
+  "task": "pr-t1",
+  "taskName": "Process T1 — Integrated planning & delivery",
+  "topic": "Matching delivery approach to the work",
+  "approach": "hybrid",
+  "question": "A program combines installing automated pharmacy-dispensing robots, a physical build with fixed vendor milestones and mandatory safety sign-offs, with developing the pharmacist-facing control software, whose workflow the pharmacists want to refine as they trial it. Leadership asks which delivery approach is MOST appropriate for the program.",
+  "choices": [
+   "Run the entire program predictively across both parts so that the safety sign-offs and the evolving control software always remain tightly coordinated with one another.",
+   "Run the program adaptively across both parts so the pharmacists can shape every element of the system.",
+   "Install the robots first and begin software development only once the hardware has been fully accepted.",
+   "Deliver the robotics installation predictively against its fixed milestones and evolve the control software iteratively with pharmacist feedback."
+  ],
+  "answer": "D",
+  "explanation": "Matching the approach to each component's nature is the essence of an integrated hybrid delivery: hardware with fixed milestones and safety gates suits predictive delivery, while software with emerging workflow suits iteration, and the two can run concurrently. Forcing everything predictive stifles the software's needed feedback, forcing everything adaptive endangers the fixed physical and safety work, and fully serializing the two needlessly delays value.",
+  "type": "single"
+ },
+ {
+  "id": "PMP-DIAG-PR03",
+  "num": "3",
+  "domain": "process",
+  "task": "pr-t2",
+  "taskName": "Process T2 — Scope",
+  "topic": "In-scope work missing from the WBS",
+  "approach": "predictive",
+  "question": "On a predictive laboratory-relocation project, the WBS was built from the approved scope statement. During execution the facilities team is performing decontamination sign-offs and sample chain-of-custody tasks that appear in no work package, insisting the move cannot proceed without them. What should the project manager do FIRST?",
+  "choices": [
+   "Add the tasks to the WBS immediately so the team receives credit for the work already underway.",
+   "Halt the undocumented decontamination and chain-of-custody work until it can be formally chartered and separately funded as a standalone project.",
+   "Determine whether the work falls within the approved scope, then correct the WBS through integrated change control if it does.",
+   "Record the tasks in the project issue log and defer any decision about revising the WBS until the next scheduled phase-gate review is held."
+  ],
+  "answer": "C",
+  "explanation": "The first step is to confirm whether this is legitimately in-scope work missing from the WBS or genuine scope creep; in-scope omissions are corrected through integrated change control so the scope baseline and WBS stay authoritative. Adding tasks silently bypasses change control, treating essential move work as a new project is disproportionate, and parking it in the issue log leaves the team executing unbaselined work.",
+  "type": "single"
+ },
+ {
+  "id": "PMP-DIAG-PR04",
+  "num": "4",
+  "domain": "process",
+  "task": "pr-t2",
+  "taskName": "Process T2 — Scope",
+  "topic": "Controlling an inflating backlog",
+  "approach": "adaptive",
+  "question": "On an adaptive product build, mid-release the team notices the backlog has grown with many 'nice to have' items that stakeholders keep adding, and the release is drifting well beyond the outcome it was funded to achieve. What should the project manager do to keep scope under control?",
+  "choices": [
+   "Work with the product owner to re-anchor the backlog to the release's target outcome and acceptance criteria, so items that do not serve it are deferred or removed.",
+   "Freeze the backlog for the rest of the release so that no further items can be added by any stakeholder until the release ships.",
+   "Extend the release timeline so that the additional backlog items the stakeholders keep adding can all be accommodated within this release without having to cut or defer anything they have asked for.",
+   "Let the product owner keep accepting the items, since in an adaptive approach the backlog is expected to grow continuously."
+  ],
+  "answer": "A",
+  "explanation": "Adaptive scope control comes from continuously prioritizing the backlog against the intended outcome, so low-value additions are deferred rather than crowding out the goal. Freezing the backlog removes the flexibility adaptive delivery depends on, extending the timeline accommodates the creep instead of controlling it, and unbounded acceptance mistakes a healthy evolving backlog for uncontrolled growth.",
+  "type": "single"
+ },
+ {
+  "id": "PMP-DIAG-PR05",
+  "num": "5",
+  "domain": "process",
+  "task": "pr-t3",
+  "taskName": "Process T3 — Value-based delivery",
+  "topic": "Output without outcome",
+  "approach": "adaptive",
+  "question": "An adaptive team has shipped six sprints of features for a nonprofit's donor-management platform, but recurring-donation retention, the outcome the platform was funded to improve, has not moved. The product owner reports the roadmap is on track and velocity is strong. What should the team do NEXT?",
+  "choices": [
+   "Reprioritize the backlog around the recurring-donation retention outcome and validate each upcoming increment against the donor behavior that is actually being measured.",
+   "Continue delivering the planned product roadmap as scheduled, since both the team's velocity and its quality measures remain strong and the roadmap was the plan agreed with the stakeholders at the outset.",
+   "Add more features to the next release to give donors additional reasons to keep giving.",
+   "Ask the executive director to lower the retention target so that it more closely matches the results the platform has achieved so far."
+  ],
+  "answer": "A",
+  "explanation": "Value is measured by outcomes, not output; when the funded outcome is not improving, the team should steer the backlog toward it and test increments against real donor behavior. Staying the course mistakes activity for value, piling on features assumes more output equals more value, and lowering the target games the metric instead of delivering the benefit.",
+  "type": "single"
+ },
+ {
+  "id": "PMP-DIAG-PR06",
+  "num": "6",
+  "domain": "process",
+  "task": "pr-t3",
+  "taskName": "Process T3 — Value-based delivery",
+  "topic": "Releasing to realize value",
+  "approach": "adaptive",
+  "question": "An adaptive team completes many stories each sprint, but a large share sit finished in a staging environment for weeks, unreleased, awaiting a single quarterly release. Customers therefore see no benefit from the completed work for months. What should the team do to maximize value delivery?",
+  "choices": [
+   "Increase the team's sprint velocity so that an even larger batch of stories is completed before each quarterly release.",
+   "Move toward smaller, more frequent releases so that completed work reaches customers and begins producing value for them much sooner.",
+   "Add a hardening sprint before each quarterly release to ensure the batched work is stable.",
+   "Treat the team's steady completion rate as the measure of value delivered, since consistent throughput reflects steady progress toward the release."
+  ],
+  "answer": "B",
+  "explanation": "In this scenario, the intended customer benefit cannot be realized while completed functionality remains unreleased; reducing batch size and releasing more often shortens the time from completion to benefit. Raising velocity or adding hardening sprints keeps the large, delayed batch intact, and treating completion rate as value confuses output with the benefit customers have actually received.",
+  "type": "single"
+ },
+ {
+  "id": "PMP-DIAG-PR07",
+  "num": "7",
+  "domain": "process",
+  "task": "pr-t3",
+  "taskName": "Process T3 — Value-based delivery",
+  "topic": "Proving value is being delivered",
+  "approach": "adaptive",
+  "question": "An adaptive team building a customer self-service portal reports rising velocity and a growing set of accepted features, and the sponsor is pleased with the pace. However, the product owner batches everything into a single go-live at quarter-end, so no feature has yet reached real users. Leadership asks the project manager how the organization can know whether the product is actually delivering value. What should the project manager recommend FIRST?",
+  "choices": [
+   "Add a business-value score to each backlog item and re-rank the backlog so that higher-value work is scheduled earlier in the coming quarter.",
+   "Report cumulative story points, velocity trend, and feature-acceptance counts to leadership each sprint as evidence that value is steadily and measurably accruing across the successive releases.",
+   "Extend the current quarter so more features fit into the launch and the release lands with a stronger overall value proposition.",
+   "Move toward releasing usable increments to representative real users as governance permits, then measure adoption and outcomes to validate value continuously."
+  ],
+  "answer": "D",
+  "explanation": "For this customer-facing portal, the claimed user value cannot be validated while all functionality remains unreleased; usable increments need to reach representative users so adoption and outcomes can be measured, so the first move is to start getting usable increments in front of real users as the organization's release governance allows and to measure adoption. Re-ranking by value improves prioritization but still measures nothing until a release occurs, story points and acceptance counts describe output and effort rather than realized value, and extending the quarter compounds the delay and enlarges the unvalidated bet.",
+  "type": "single"
+ },
+ {
+  "id": "PMP-DIAG-PR08",
+  "num": "8",
+  "domain": "process",
+  "task": "pr-t4",
+  "taskName": "Process T4 — Resources",
+  "topic": "Securing shared resources",
+  "approach": "predictive",
+  "question": "On a predictive project, two functional managers who supply shared specialists each commit only part of what the project needs, and each expects the other to cover the remaining gap. The project manager must secure the full commitment. What is the BEST approach?",
+  "choices": [
+   "Escalate the shortfall to the sponsor and ask the sponsor to compel both functional managers to provide the resources the project requires.",
+   "Bring both managers together, share the project's needs and their impact, and seek an agreement that fits each one's constraints.",
+   "Accept the partial commitments for now and adjust the project schedule to fit the resources currently available.",
+   "Negotiate privately with each manager in turn to extract as much resource from each as possible."
+  ],
+  "answer": "B",
+  "explanation": "Securing shared resources is a collaborative negotiation: bringing both providers together around the shared need and their real constraints is most likely to produce a durable commitment neither can shift onto the other. Escalating immediately damages relationships and skips the negotiation, silently accepting the gap concedes project objectives, and separate bargaining lets each manager keep deferring responsibility to the other.",
+  "type": "single"
+ },
+ {
+  "id": "PMP-DIAG-PR09",
+  "num": "9",
+  "domain": "process",
+  "task": "pr-t4",
+  "taskName": "Process T4 — Resources",
+  "topic": "Relieving a single-specialist bottleneck",
+  "approach": "adaptive",
+  "question": "On a program running several adaptive teams, a single senior integration engineer is the only person able to configure the shared message-broker layer, so work across three teams keeps queuing behind this one specialist while other engineers sit idle waiting. This dependency is now the largest single cause of delay. What should the project manager do FIRST to optimize the use of the team's resources?",
+  "choices": [
+   "Cross-train other engineers on the broker configuration and have the specialist focus on the highest-value work and on knowledge transfer, so the single-point dependency is reduced and flow is restored.",
+   "Reprioritize the shared queue so the specialist always works the single most urgent broker task first, while leaving the rest of the cross-team sequencing and the current assignments otherwise unchanged for now.",
+   "Engage an external contractor who already holds the same message-broker expertise to add extra configuration capacity for the remainder of the program, so the work queued across the three teams can be cleared as quickly as possible.",
+   "Have each of the three teams take on noticeably less broker-dependent work in every iteration so that the specialist is no longer overloaded, the waiting queue stops growing, and the other engineers are not left idle."
+  ],
+  "answer": "A",
+  "explanation": "Optimizing resources means relieving the constraint itself: cross-training other engineers and reserving the specialist for the highest-value work and for knowledge transfer removes the single-point dependency and restores flow across all three teams. Resequencing the queue or capping how much broker-dependent work the teams take on only manages the symptom while the bottleneck persists, and adding a contractor adds cost and onboarding time yet still leaves the capability concentrated rather than shared.",
+  "type": "single"
+ },
+ {
+  "id": "PMP-DIAG-PR10",
+  "num": "10",
+  "domain": "process",
+  "task": "pr-t5",
+  "taskName": "Process T5 — Procurement",
+  "topic": "Selecting a contract type",
+  "approach": "predictive",
+  "question": "A predictive stadium project is about to procure a custom retractable-roof mechanism. The design is complete and stable, but only two firms worldwide can build it, and both expect the buyer to absorb any cost growth. Before committing to a contract type, what should the project manager do FIRST?",
+  "choices": [
+   "Issue a firm-fixed-price solicitation to both firms right away so that the two sellers, rather than the buyer, are made to contractually carry the full risk of any cost growth on the custom mechanism.",
+   "Analyze the procurement risk, the limited two-supplier market's leverage, and how cost-overrun risk should be allocated, then select the contract type that fits that analysis.",
+   "Select a cost-plus contract because these two suppliers together hold most of the negotiating leverage in this specialized global market.",
+   "Postpone the procurement entirely until additional qualified suppliers can be identified and developed to strengthen competitive tension in the market."
+  ],
+  "answer": "B",
+  "explanation": "Contract-type selection follows from analyzing the risk and market situation and deciding how cost-overrun risk should be allocated; stable scope alone favors fixed price, but a two-supplier market that expects the buyer to absorb overruns changes the leverage and risk picture, so that analysis comes first. Jumping straight to firm-fixed-price or cost-plus commits to a risk allocation before the analysis, and delaying to invent competitors is unrealistic for a highly specialized two-supplier market.",
+  "type": "single"
+ },
+ {
+  "id": "PMP-DIAG-PR11",
+  "num": "11",
+  "domain": "process",
+  "task": "pr-t6",
+  "taskName": "Process T6 — Finance",
+  "topic": "Earned-value forecasting",
+  "approach": "predictive",
+  "question": "A predictive project has a budget at completion (BAC) of $720,000. At the data date, earned value (EV) is $240,000 and actual cost (AC) is $300,000. Assuming the cost efficiency experienced to date continues for the remaining work, what are the estimate at completion (EAC) and the variance at completion (VAC)?",
+  "choices": [
+   "EAC $900,000; VAC -$180,000",
+   "EAC $780,000; VAC -$60,000",
+   "EAC $675,000; VAC +$45,000",
+   "EAC $900,000; VAC +$180,000"
+  ],
+  "answer": "A",
+  "explanation": "Cost performance index = EV / AC = 240,000 / 300,000 = 0.80, so with that efficiency continuing, EAC = BAC / CPI = 720,000 / 0.80 = $900,000. Variance at completion = BAC - EAC = 720,000 - 900,000 = -$180,000, i.e., a projected $180,000 overrun. The other combinations misapply the forecasting formulas or report the overrun with the wrong sign.",
+  "type": "single"
+ },
+ {
+  "id": "PMP-DIAG-PR12",
+  "num": "12",
+  "domain": "process",
+  "task": "pr-t6",
+  "taskName": "Process T6 — Finance",
+  "topic": "To-complete performance index",
+  "approach": "predictive",
+  "question": "A predictive project has a budget at completion (BAC) of $500,000. At the data date, earned value (EV) is $150,000 and actual cost (AC) is $200,000. The sponsor insists the project still finish within the original $500,000 budget. What cost efficiency (to-complete performance index, TCPI) must the remaining work achieve, and how should the project manager treat that number?",
+  "choices": [
+   "About 1.17, which requires the remaining work to run far more efficiently than the 0.75 cost performance achieved so far, so the sponsor's expectation should be tested with a feasibility assessment.",
+   "About 0.75, which is readily achievable because the remaining work would simply need to continue at the very same level of cost performance the team has already been demonstrating on all of the work completed so far.",
+   "About 1.00, which is achievable with only a modest improvement in efficiency.",
+   "About 1.43, which the team can comfortably achieve over the course of the remaining work."
+  ],
+  "answer": "A",
+  "explanation": "TCPI to finish within the original budget = (BAC - EV) / (BAC - AC) = (500,000 - 150,000) / (500,000 - 200,000) = 350,000 / 300,000, which is about 1.17. Because the work so far has run at a cost performance index of only 150,000 / 200,000 = 0.75, meeting the budget requires a substantial jump in efficiency, so rather than assume it, the project manager should assess its feasibility against the remaining work and options. The other values misapply the TCPI formula.",
+  "type": "single"
+ },
+ {
+  "id": "PMP-DIAG-PR13",
+  "num": "13",
+  "domain": "process",
+  "task": "pr-t6",
+  "taskName": "Process T6 — Finance",
+  "topic": "Value-based descoping to hit budget",
+  "approach": "predictive",
+  "question": "A predictive project's estimate at completion now exceeds its budget, and the sponsor asks the project manager to cut scope to stay within funding. Two candidate features remain. Feature X is only 20% built, has high remaining cost, and delivers low business value; Feature Y is 90% complete, has little remaining cost, and delivers high business value. What should the project manager recommend?",
+  "choices": [
+   "Cut whichever feature is furthest from completion so the largest amount of remaining budget is preserved, without regard to the business value each of the two features would ultimately carry.",
+   "Cut Feature Y, because most of its cost has already been incurred and that money is gone, so removing it frees the team from finishing it.",
+   "Descope Feature X and keep Feature Y: X has high remaining cost and low value, while Y is nearly done and high value.",
+   "Reduce both features to partial implementations so that some capability from each is retained within the reduced budget."
+  ],
+  "answer": "C",
+  "explanation": "Value-based descoping compares each feature's remaining cost against its remaining value, so cutting the low-value feature that still needs the most spend protects both the budget and the delivered value. Cutting by distance-from-done ignores value entirely, and reducing both to partial implementations risks delivering two features that are each incomplete and unusable. Money already spent is not part of the decision; only remaining cost and remaining value are, which is exactly why removing the nearly finished high-value feature is the wrong call.",
+  "type": "single"
+ },
+ {
+  "id": "PMP-DIAG-PR14",
+  "num": "14",
+  "domain": "process",
+  "task": "pr-t7",
+  "taskName": "Process T7 — Quality",
+  "topic": "Building quality in",
+  "approach": "hybrid",
+  "question": "A hybrid medical-billing platform runs its regulated claims-adjudication engine under formal verification and validation while its user-interface features iterate in sprints, and a formally required regulatory verification gate must be retained before any release. Adjudication defects keep being caught only at a late compliance test, forcing costly rework. The team debates adding a larger end-stage compliance test versus building automated checks into each adjudication build. What is the BEST approach?",
+  "choices": [
+   "Expand the end-stage compliance test cycle substantially so that a greater share of the recurring adjudication defects are caught before release.",
+   "Move all adjudication work into the two-week sprint cadence and retire the separate regulatory compliance gate entirely so the team can move faster.",
+   "Build quality into each adjudication build with automated checks so defects are caught at the source, while retaining the compliance gate.",
+   "Increase inspection sampling on finished builds to detect the recurring defects sooner."
+  ],
+  "answer": "C",
+  "explanation": "Preventing defects at the source is cheaper and more effective than detecting them later; building automated quality checks into each build catches problems early while the regulatory gate is preserved for a controlled product. Enlarging end-stage testing and increasing inspection sampling are appraisal activities that still find defects late, and dropping the compliance gate removes a mandatory control the regulated product requires.",
+  "type": "single"
+ },
+ {
+  "id": "PMP-DIAG-PR15",
+  "num": "15",
+  "domain": "process",
+  "task": "pr-t7",
+  "taskName": "Process T7 — Quality",
+  "topic": "Governing AI-assisted quality",
+  "approach": "hybrid",
+  "question": "A hybrid team adopts an AI code-analysis tool that automatically generates unit tests and flags defects. Within two sprints, test counts rise sharply, but two defects the AI marked 'low risk' reach production, and developers have begun merging AI-flagged fixes without review to save time. What should the project manager do FIRST?",
+  "choices": [
+   "Roll back the AI tool, since it has now allowed defects to reach production.",
+   "Expand the AI's role so that it also automatically approves and merges the fixes it classifies as low risk without human review, reserving scarce reviewer time only for the changes the tool itself flags as high risk.",
+   "Establish that the AI's output is an input the team must validate rather than an authority, requiring human review of AI-generated tests and fixes and defining where its judgments must be independently verified.",
+   "Add a full manual regression test suite at the end of each release to catch anything the AI's low-risk classifications may have missed."
+  ],
+  "answer": "C",
+  "explanation": "AI tools augment but do not replace professional judgment and accountability, so the first fix is to keep humans accountable for validating AI output and to define where its judgments must be verified, which addresses the root cause of the over-trust. Rolling back the tool discards a useful capability over a governance problem, automating merges deepens the over-reliance that caused the escapes, and a late regression suite detects defects downstream instead of correcting how the team uses the tool.",
+  "type": "single"
+ },
+ {
+  "id": "PMP-DIAG-PR16",
+  "num": "16",
+  "domain": "process",
+  "task": "pr-t8",
+  "taskName": "Process T8 — Schedule",
+  "topic": "Critical path and float",
+  "approach": "predictive",
+  "question": "On a predictive project the schedule network is: A (4 days) is followed by both B (6 days) and C (3 days); B is followed by D (5 days); C is followed by E (9 days); and D and E both precede F (2 days). There are no leads or lags. What is the total float of activity D?",
+  "choices": [
+   "0 days, since activity D lies on the project's critical path and therefore has no slack.",
+   "2 days, taken as the gap between the durations of activities E and B.",
+   "3 days, equal to the duration of activity C.",
+   "1 day, so D may slip that much before the finish date moves."
+  ],
+  "answer": "D",
+  "explanation": "The two paths to the finish are A-B-D-F = 4 + 6 + 5 + 2 = 17 days and A-C-E-F = 4 + 3 + 9 + 2 = 18 days, so the critical path is 18 days. Activity D sits on the 17-day path, giving total float = 18 - 17 = 1 day. Because D is not on the critical path, it can slip one day before it would delay project completion.",
+  "type": "single"
+ },
+ {
+  "id": "PMP-DIAG-PR17",
+  "num": "17",
+  "domain": "process",
+  "task": "pr-t9",
+  "taskName": "Process T9 — Evaluate & report status",
+  "topic": "Keeping artifacts current",
+  "approach": "hybrid",
+  "question": "A hybrid data-center migration maintains a risk register, a stakeholder register, and an assumption log, but all three were last updated at planning. Several assumptions have since been invalidated and two key stakeholders have changed roles. A team member questions whether updating the logs mid-delivery is worth the effort. What is the BEST guidance?",
+  "choices": [
+   "Keep the artifacts current throughout delivery so status evaluation and decisions rest on accurate information.",
+   "Update the artifacts only at phase gates to avoid the overhead of constant maintenance.",
+   "Update the risk register but treat the stakeholder register and assumption log as planning-only documents.",
+   "Freeze the three artifacts as fixed baselines now and record any subsequent changes to them only in a separate, standalone change log."
+  ],
+  "answer": "A",
+  "explanation": "Project artifacts are living documents, and keeping the risk register, stakeholder register, and assumption log current ensures that status evaluation and decisions rest on today's reality rather than planning-era information. Updating only at gates lets them drift stale between reviews, singling out one log neglects the others that have demonstrably changed, and freezing living logs as baselines confuses controlled baselines with information that must evolve.",
+  "type": "single"
+ },
+ {
+  "id": "PMP-DIAG-PR18",
+  "num": "18",
+  "domain": "process",
+  "task": "pr-t10",
+  "taskName": "Process T10 — Closure",
+  "topic": "Formal acceptance before closure",
+  "approach": "predictive",
+  "question": "A predictive municipal water-metering project has completed and internally verified every deliverable, and its contract and acceptance plan require formal written customer acceptance before closure. The project manager has already scheduled the team's release and the closure paperwork, but the customer has not yet issued that written acceptance. What should the project manager do FIRST?",
+  "choices": [
+   "Proceed with closure now, since the deliverables have already been verified against their full set of documented requirements.",
+   "Release the team on the planned schedule and collect the customer's written acceptance afterward.",
+   "Obtain the customer's formal written acceptance of the deliverables before proceeding with administrative closure.",
+   "Treat the completed internal verification as equivalent to acceptance, on the basis that it already confirms the requirements were met."
+  ],
+  "answer": "C",
+  "explanation": "The contract and acceptance plan make formal written customer acceptance a precondition for closing this project; internal verification is quality control and does not substitute for the customer's sign-off. Proceeding to close, releasing the team first, or equating verification with acceptance all skip the required acceptance step and can leave the project formally incomplete or in dispute.",
+  "type": "single"
+ },
+ {
+  "id": "PMP-DIAG-BE01",
+  "num": "1",
+  "domain": "business",
+  "task": "be-t1",
+  "taskName": "BE T1 — Governance",
+  "topic": "Tailoring decision authority",
+  "approach": "hybrid",
+  "question": "On a hybrid program, adaptive squads need same-day decisions on backlog reordering and minor design choices, but the change control board meets only monthly. Teams are stalling while waiting for the board, yet finance insists baseline and budget changes stay controlled. The project manager is asked to design the governance so it fits both needs. What is the BEST approach?",
+  "choices": [
+   "Route every change through the monthly change control board so that all decisions are consistent, fully documented, and easy to audit later.",
+   "Define a tiered framework: delegate in-scope backlog and prioritization decisions to the product owner within guardrails, and reserve baseline, scope, and budget changes for the board.",
+   "Let each squad make all of its own scope, budget, and vendor decisions independently and without board involvement, so that governance never slows the fast delivery cadence the teams have worked to build.",
+   "Escalate every decision to the sponsor for a fast ruling, since the sponsor has the authority to approve any change the teams encounter."
+  ],
+  "answer": "B",
+  "explanation": "Effective governance is tailored: routine, in-scope decisions are delegated to the accountable role within defined guardrails while baseline-affecting decisions stay with the control body, giving both speed and control. Sending everything to a monthly board is the bottleneck being solved, letting squads decide budget and vendor matters removes needed financial control, and escalating every decision to the sponsor neither scales nor respects delegated authority.",
+  "type": "single"
+ },
+ {
+  "id": "PMP-DIAG-BE02",
+  "num": "2",
+  "domain": "business",
+  "task": "be-t1",
+  "taskName": "BE T1 — Governance",
+  "topic": "Stage-gate go/kill decision",
+  "approach": "hybrid",
+  "question": "A hybrid new-product initiative reaches a governance stage gate. The increments delivered so far show market response well below the levels the business case assumed, yet the team has strong momentum and considerable money has already been spent. The gate exists to decide whether to continue, redirect, or stop. What should the project manager do?",
+  "choices": [
+   "Encourage the gate to approve continuation, given the team's momentum and the substantial investment already made in the product.",
+   "Present the updated business case and benefits-versus-actuals, and support a fact-based go, redirect, or stop decision, including termination.",
+   "Quietly redirect the product scope toward a more promising market segment without taking it through a formal gate decision, so that the team keeps its hard-won momentum and everyone avoids a difficult and demoralizing conversation.",
+   "Ask the gate to wait for one more increment of data before being informed, so the decision can rest on a fuller picture of the market response."
+  ],
+  "answer": "B",
+  "explanation": "Governance gates exist to make objective continue, redirect, or stop decisions, and the project manager serves the organization by presenting current evidence honestly, even when that points to termination. Pushing for continuation on the strength of momentum and money already spent is the sunk-cost trap, changing scope without a gate decision bypasses the governance the gate provides, and withholding information to wait for more data usurps a decision that belongs to the governance body.",
+  "type": "single"
+ },
+ {
+  "id": "PMP-DIAG-BE03",
+  "num": "3",
+  "domain": "business",
+  "task": "be-t2",
+  "taskName": "BE T2 — Compliance",
+  "topic": "Multi-jurisdiction compliance",
+  "approach": "hybrid",
+  "question": "A hybrid connected-vehicle telematics program is building shared platform services in two-week iterations while a fixed cybersecurity type-approval deadline looms for one launch market. The product must also satisfy a consent-based privacy regime in a second country and a data-localization mandate in a third. Early in the program, the project manager wants compliance handled proactively across all three jurisdictions rather than caught late. What should the project manager do FIRST?",
+  "choices": [
+   "Concentrate on the market with the fixed type-approval deadline first, treating it as the binding constraint, and defer the privacy-consent and data-localization work until those two countries confirm their own regulatory timelines.",
+   "Ask each country's local delivery team to own and manage its own jurisdiction's compliance obligations end to end, on the reasoning that the requirements then stay closest to the people who understand that market's regulators best and can respond fastest to their questions throughout the build without central coordination overhead.",
+   "Have the relevant legal, compliance, cybersecurity, and jurisdictional SMEs jointly build one integrated compliance register, build the routine product-quality conditions into acceptance criteria where appropriate, and keep required regulatory approvals, evidence, and gates as separately governed compliance controls.",
+   "Add a legal sign-off task before every release so that no increment can ship to any market without a compliance review of the completed work."
+  ],
+  "answer": "C",
+  "explanation": "Compliance across multiple jurisdictions is managed best by identifying all applicable obligations up front in a single integrated register and building the routine, verifiable conditions into the team's normal acceptance criteria, while regulatory approvals and formal evidence remain separately governed controls rather than being folded into a team's Definition of Done. Deferring the other markets leaves obligations undiscovered until late, pushing ownership to each local team fragments visibility and traceability, and a sign-off gate only at the end of each release is inspection after the fact rather than compliance designed in.",
+  "type": "single"
+ },
+ {
+  "id": "PMP-DIAG-BE04",
+  "num": "4",
+  "domain": "business",
+  "task": "be-t2",
+  "taskName": "BE T2 — Compliance",
+  "topic": "Responsible sourcing allegation",
+  "approach": "predictive",
+  "question": "A predictive consumer-electronics project sources components through a supplier bound by the organization's supplier code of conduct. An NGO report alleges that a tier-2 supplier in that chain uses unsafe labor practices, which would breach the organization's social-responsibility commitments. The project manager learns of the report today. What should the project manager do FIRST?",
+  "choices": [
+   "Immediately terminate the supplier relationship to protect the organization's reputation and signal zero tolerance for the alleged practices.",
+   "Treat the matter as outside the project's concern, since a tier-2 supplier is not under direct contract with the project.",
+   "Verify the allegation through procurement and compliance, assess the supplier against the code of conduct, then decide whether to continue.",
+   "Issue a public statement acknowledging the allegation and publicly committing to a full independent investigation, so that the organization gets ahead of any reputational fallout well before the underlying facts are established."
+  ],
+  "answer": "C",
+  "explanation": "Responsible-sourcing obligations extend down the supply chain, and the first step is to establish the facts through the right functions and pursue corrective action, consistent with due diligence rather than reaction. Terminating immediately acts before the allegation is verified and may be neither warranted nor contractually clean, dismissing it because the supplier is tier-2 ignores the organization's stated commitments, and a public statement before the facts are known risks misrepresenting the situation.",
+  "type": "single"
+ },
+ {
+  "id": "PMP-DIAG-BE05",
+  "num": "5",
+  "domain": "business",
+  "task": "be-t3",
+  "taskName": "BE T3 — Manage/control changes",
+  "topic": "Implementing an approved change",
+  "approach": "hybrid",
+  "question": "On a hybrid airport baggage-system program, the change control board approves adding an RFID tracking capability, authorizing its scope and budget but not directing how the plans should be updated. Part of the work runs predictively against a baseline and part runs from a product backlog, and the project manager has logged the approved decision. What should the project manager do NEXT?",
+  "choices": [
+   "Begin building the RFID capability immediately to protect the program timeline.",
+   "Update the affected baselines and the product backlog, then notify the impacted teams.",
+   "Add the change only to the product backlog, since adaptive delivery is expected to absorb incoming change without any baseline updates.",
+   "Reconvene the change control board to specify the exact implementation sequence before anyone proceeds."
+  ],
+  "answer": "B",
+  "explanation": "Once a change is approved, controlling it requires updating the affected baselines and plans, here both the predictive baseline and the product backlog, and communicating the revision to those it affects. Building before the plans are updated risks misalignment, updating only the backlog ignores the predictive baseline the change also touches, and the board's job was to decide, not to script the implementation.",
+  "type": "single"
+ },
+ {
+  "id": "PMP-DIAG-BE06",
+  "num": "6",
+  "domain": "business",
+  "task": "be-t4",
+  "taskName": "BE T4 — Impediments & issues",
+  "topic": "Issue versus risk",
+  "approach": "adaptive",
+  "question": "During backlog refinement on an adaptive team, a developer wants to open an entry in the issue log stating that the payments vendor 'may not deliver the test sandbox on time' and start a task to resolve it now. The delivery date is still ten days away and nothing has slipped yet. What should the scrum master do?",
+  "choices": [
+   "Log it as an issue and assign an owner to drive it to resolution today.",
+   "Track it as a risk with a proactive response and a trigger, since the event has not yet occurred.",
+   "Take no action until the vendor actually misses the sandbox delivery date.",
+   "Escalate it immediately to the sponsor as a current blocker threatening the team's committed sprint work."
+  ],
+  "answer": "B",
+  "explanation": "An issue is a condition that has already occurred; a future uncertainty such as a possible late delivery belongs in the risk register with a planned response and trigger so it can be managed before it bites. Logging it as an issue inflates the issue log with something that has not happened, taking no action ignores a manageable risk, and escalating it as a blocker overstates a threat that has not yet materialized.",
+  "type": "single"
+ },
+ {
+  "id": "PMP-DIAG-BE07",
+  "num": "7",
+  "domain": "business",
+  "task": "be-t5",
+  "taskName": "BE T5 — Risk",
+  "topic": "Reserve shortfall escalation",
+  "approach": "predictive",
+  "question": "A predictive tunnel-boring project's latest quantitative risk update shows the expected cost of remaining threats has climbed to $1.2 million, while only $400,000 of contingency reserve remains. The steering committee, which is the project's authorized reserve and governance authority, is unaware, and a team member suggests quietly drawing down the reserve to avoid alarming them. What should the project manager do FIRST?",
+  "choices": [
+   "Draw down the remaining contingency reserve and manage the resulting gap discreetly so the committee's confidence is not shaken.",
+   "Reprioritize responses to cover only the threats that fit within the $400,000 still available.",
+   "Wait to see whether the threats actually materialize before raising anything with the committee.",
+   "Inform the steering committee of the shortfall and ask for a decision on additional reserve or revised risk responses."
+  ],
+  "answer": "D",
+  "explanation": "Expected threat exposure that exceeds the available reserve is beyond what the project manager can absorb silently, and the steering committee holds the authority over reserve and governance, so transparency calls for informing it and seeking a decision on more reserve or changed responses. Quietly drawing down hides material information, capping responses to the current reserve leaves real exposure unmanaged, and waiting for the threats to hit is reactive.",
+  "type": "single"
+ },
+ {
+  "id": "PMP-DIAG-BE08",
+  "num": "8",
+  "domain": "business",
+  "task": "be-t6",
+  "taskName": "BE T6 — Continuous improvement",
+  "topic": "Making improvement real",
+  "approach": "hybrid",
+  "question": "Midway through a hybrid program, retrospectives keep surfacing the same recurring problems sprint after sprint, and the lessons captured are filed but never change how the teams actually work. Leadership asks the project manager to make continuous improvement real. What should the project manager do?",
+  "choices": [
+   "Increase the frequency of retrospectives so that more improvement ideas are captured each iteration.",
+   "Assign someone to maintain a comprehensive, well-structured lessons-learned repository that is formally reviewed at project closure and archived for future programs.",
+   "Escalate the recurring problems to senior leadership so that they can step in and direct the teams across the whole program to stop repeating them in future iterations, and hold each team accountable for doing so.",
+   "Turn recurring lessons into specific process changes with named owners and follow-up, and feed the durable ones into the organization's process assets so other teams benefit."
+  ],
+  "answer": "D",
+  "explanation": "Continuous improvement means acting on lessons: converting them into owned process changes with follow-up and updating the organization's process assets so the improvement persists and spreads beyond this team. Holding more retrospectives generates ideas without acting on them, a repository reviewed only at closure captures lessons too late to help the current work, and escalating for top-down direction skips the team-owned improvement loop that makes change stick.",
+  "type": "single"
+ },
+ {
+  "id": "PMP-DIAG-BE09",
+  "num": "9",
+  "domain": "business",
+  "task": "be-t6",
+  "taskName": "BE T6 — Continuous improvement",
+  "topic": "Acting on a deteriorating trend",
+  "approach": "adaptive",
+  "question": "An adaptive team's cycle time has been climbing for three iterations and rework is increasing, but the team treats each iteration in isolation and never examines the trend. As a servant leader focused on continuous improvement, what should the project manager do FIRST?",
+  "choices": [
+   "Set a firm cycle-time target for the team to meet in the very next iteration so the trend is forced back down quickly.",
+   "Add more reviewers to the workflow to reduce the amount of rework that is being observed each iteration.",
+   "Report the deteriorating cycle-time and rework trend to senior management so that they can review it and direct the team toward whatever corrective action they consider appropriate for the next iterations.",
+   "Make the cycle-time and rework trends visible to the team and facilitate a working session to find and address the underlying cause."
+  ],
+  "answer": "D",
+  "explanation": "Improvement starts with making the data visible and letting the team diagnose and own the cause of the trend, which is how a self-organizing team sustainably reverses it. Imposing a target pressures the number without addressing why it is rising, adding reviewers treats a symptom before the cause is known, and reporting upward for directed action removes the team's ownership of its own process.",
+  "type": "single"
+ },
+ {
+  "id": "PMP-DIAG-BE10",
+  "num": "10",
+  "domain": "business",
+  "task": "be-t7",
+  "taskName": "BE T7 — Organizational change",
+  "topic": "Protecting adoption",
+  "approach": "predictive",
+  "question": "A predictive ERP rollout goes live in six weeks and end-user training is scheduled. However, staff in the affected departments are anxious, rumors of role cuts are spreading, and informal resistance to the new system is growing. The project manager wants to protect adoption. What should the project manager do?",
+  "choices": [
+   "Schedule several additional rounds of hands-on technical training sessions across the affected departments so that users feel far more confident operating the new system well before the go-live date arrives.",
+   "Recommend delaying go-live until the anxiety among staff subsides and the resistance in the departments has visibly cooled down.",
+   "Ask the sponsor to send a single launch announcement email that explains the new system and reassures staff that the rollout will go smoothly.",
+   "Communicate the change vision with the sponsor, enlist respected peer influencers as change agents, and open two-way feedback."
+  ],
+  "answer": "D",
+  "explanation": "Adoption depends on people understanding why the change matters and having their concerns heard, which requires active sponsorship, credible peer influencers, and genuine two-way communication ahead of go-live. More technical training addresses capability but not the resistance driven by fear and uncertainty, delaying go-live treats the symptom without engaging the concern, and a one-way announcement email cannot surface or resolve the anxieties fueling the resistance.",
+  "type": "single"
+ },
+ {
+  "id": "PMP-DIAG-BE11",
+  "num": "11",
+  "domain": "business",
+  "task": "be-t7",
+  "taskName": "BE T7 — Organizational change",
+  "topic": "Realigning to changed strategy",
+  "approach": "hybrid",
+  "question": "Halfway through a portfolio-funded hybrid initiative, leadership publishes a new strategic direction that shifts the organization's emphasis from rapid market growth to profitability and cost efficiency. The project's current roadmap is built almost entirely around new-market expansion features. What should the project manager do?",
+  "choices": [
+   "Continue delivering the approved roadmap, since the scope was already sanctioned and mid-course strategy shifts are a portfolio-level concern rather than the project's.",
+   "Reduce the project's budget proportionally to demonstrate cost discipline that visibly aligns the project with the organization's new efficiency priorities.",
+   "Ask the sponsor to formally exempt the project from the new strategic direction so that the team can finish the market-expansion roadmap it has already committed to, planned around, and invested heavily in.",
+   "With the sponsor and governance, re-evaluate priorities against the new strategy and adjust the roadmap, or recommend closing the project if it no longer fits."
+  ],
+  "answer": "D",
+  "explanation": "Projects exist to advance organizational strategy, so a strategy change triggers a joint re-evaluation of objectives and priorities with the sponsor and governance, including an honest look at whether the project should continue. Continuing unchanged risks delivering work that no longer serves the organization, cutting the budget arbitrarily is a gesture rather than a strategic realignment, and seeking an exemption preserves the old roadmap at the expense of current strategic value.",
+  "type": "single"
+ },
+ {
+  "id": "PMP-DIAG-BE12",
+  "num": "12",
+  "domain": "business",
+  "task": "be-t8",
+  "taskName": "BE T8 — External business environment change",
+  "topic": "Responding to a market shift",
+  "approach": "hybrid",
+  "question": "Midway through a hybrid consumer-lending platform build, a competitor launches instant-approval underwriting, and the market's expectation for approval speed shifts sharply. The sponsor is anxious and the sales team is demanding a matching capability immediately. The project's baseline scope did not include instant approval. What should the project manager do FIRST?",
+  "choices": [
+   "Assess how the market shift affects the business case and objectives with the sponsor and product owner, then route any change that affects the baseline scope through the project's change process before the backlog is reprioritized.",
+   "Add an instant-approval feature to the top of the next iteration so the product keeps pace with the competitor and reassures the sales team quickly.",
+   "Continue delivering the approved baseline, since scope is set and a competitor's move is an external factor outside the project's control.",
+   "Escalate to the steering committee and recommend pausing the project entirely until the market's response to the competitor's launch becomes clearer and the demand for instant-approval underwriting stabilizes enough to be planned against with confidence."
+  ],
+  "answer": "A",
+  "explanation": "An external business change is evaluated first for its impact on the project's value proposition and objectives; because instant approval sits outside the baseline scope, any resulting change is routed through the defined change process before the backlog is reprioritized. Jumping straight to building a matching feature reacts before the value, effort, and baseline impact are understood, rigidly holding the baseline ignores a genuine threat to the business case, and pausing the whole project is a disproportionate response that forfeits momentum before the impact is even assessed.",
+  "type": "single"
+ }
+]
