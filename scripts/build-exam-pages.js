@@ -161,14 +161,14 @@ const PAGES = [
     quizSource: 'csp',
     relatedSlugs: ['csp', 'chst'],
     metaTitle: 'CSP Exam Prep (BCSP CSP11 Blueprint, 7 Domains) — Free Practice | CertPath Publishing',
-    metaDesc: 'Certified Safety Professional (CSP) exam prep aligned to the current CSP11 blueprint and 7 domains. 500+ questions, free online tests. Try 10 free sample questions.',
+    metaDesc: 'Certified Safety Professional (CSP) exam prep aligned to the current CSP11 blueprint and 7 domains. 400+ questions, free online tests. Try 10 free sample questions.',
     disclaimer: 'CSP and the Certified Safety Professional credential are administered by the Board of Certified Safety Professionals (BCSP), which is not affiliated with and does not endorse this publication.',
     faqs: [
       ['What is the CSP exam?', 'The Certified Safety Professional exam is the BCSP credential for experienced safety professionals. The current exam has 200 questions (175 scored) in 5.5 hours and follows the CSP11 blueprint, effective August 1, 2025.'],
       ['What are the CSP exam domains?', 'Seven: Advanced Application of Safety Principles (25%), Program Management (25%), Risk Management (15%), Emergency Management (9%), Environmental Management (6%), Occupational Health and Applied Science (10%), and Training and Communication (10%). Our book is weighted to match exactly.'],
       ['Am I eligible for the CSP?', 'BCSP requires a qualifying degree, four years of safety experience where safety is at least half your duties, and holding the Associate Safety Professional (ASP) credential first. Always confirm the current requirements with BCSP.'],
       ['How is the CSP different from older study guides?', 'Many older guides still teach a 9-domain scheme that is missing Risk Management entirely. Our edition is rebuilt to the 7-domain CSP11 blueprint, so you study what is actually on the current exam.'],
-      ['What is included with the CertPath book?', 'A full review of all seven CSP11 domains, 500+ practice questions with explanations, mixed practice sets, and free timed online practice tests via the access code inside.'],
+      ['What is included with the CertPath book?', 'A full review of all seven CSP11 domains, 400+ practice questions with explanations, mixed practice sets, and free timed online practice tests via the access code inside.'],
     ],
   },
   {
@@ -242,14 +242,19 @@ function sampleQuestions(slug, count) {
   return picked.map(q => ({ q: q.question, choices: q.choices, answer: q.answer, explanation: q.explanation }));
 }
 
+// A book with no amazonUrl is not on sale yet (or has been pulled) - link to its own
+// page instead of emitting a dead Amazon link.
+function bookHref(b) { return b.amazonUrl || `/books/${b.slug}`; }
+function bookExt(b) { return b.amazonUrl ? ' target="_blank" rel="noopener"' : ''; }
+
 function bookCard(b) {
   return `
         <div class="lp-book-card">
-          <a href="${b.amazonUrl}" target="_blank" rel="noopener"><img src="${b.cover}" alt="${esc(b.title)}" loading="lazy"></a>
+          <a href="${bookHref(b)}"${bookExt(b)}><img src="${b.cover}" alt="${esc(b.title)}" loading="lazy"></a>
           <h3>${esc(b.title)}</h3>
           <div class="meta">${b.testCount} online tests &middot; ${b.totalQuestions.toLocaleString()} questions included</div>
           <div class="row">
-            <a href="${b.amazonUrl}" class="btn btn-sm" target="_blank" rel="noopener">Paperback $${b.paperbackPrice.toFixed(2)}</a>
+            <a href="${bookHref(b)}" class="btn btn-sm"${bookExt(b)}>${b.amazonUrl ? `Paperback $${b.paperbackPrice.toFixed(2)}` : 'See the book'}</a>
             ${b.payhipEbookUrl ? `<a href="${b.payhipEbookUrl}" class="btn btn-sm btn-outline" target="_blank" rel="noopener">E-book $${b.ebookPrice.toFixed(2)}</a>` : ''}
           </div>
         </div>`;
@@ -257,7 +262,10 @@ function bookCard(b) {
 
 function renderPage(cfg) {
   const related = cfg.relatedSlugs.map(s => books.find(b => b.slug === s)).filter(b => b && b.published);
-  const heroBook = related[0];
+  // Lead with a book people can actually buy; a title with no Amazon listing (not yet
+  // published, or pulled) drops out of the hero and keeps only its card below.
+  const heroBook = related.find(b => b.amazonUrl) || related[0];
+  const ctaBook = heroBook;
   const questions = sampleQuestions(cfg.quizSource, 10);
 
   const faqLd = {
@@ -313,7 +321,7 @@ function renderPage(cfg) {
         <p class="lp-sub">${cfg.sub}</p>
         <div class="lp-hero-cta">
           <a href="#sample-quiz" class="btn btn-lg">Try 10 Free Questions</a>
-          <a href="${heroBook.amazonUrl}" class="btn btn-secondary btn-lg" target="_blank" rel="noopener">Get the Book — $${heroBook.paperbackPrice.toFixed(2)}</a>
+          ${ctaBook.amazonUrl ? `<a href="${ctaBook.amazonUrl}" class="btn btn-secondary btn-lg" target="_blank" rel="noopener">Get the Book — $${ctaBook.paperbackPrice.toFixed(2)}</a>` : ''}
         </div>
         <div class="lp-trust">
           <div><strong>${related.reduce((s, b) => s + b.totalQuestions, 0).toLocaleString()}+</strong> online questions</div>
@@ -322,7 +330,7 @@ function renderPage(cfg) {
         </div>
       </div>
       <div class="lp-hero-cover">
-        <a href="${heroBook.amazonUrl}" target="_blank" rel="noopener"><img src="${heroBook.cover}" alt="${esc(heroBook.title)}" loading="eager"></a>
+        <a href="${bookHref(heroBook)}"${bookExt(heroBook)}><img src="${heroBook.cover}" alt="${esc(heroBook.title)}" loading="eager"></a>
       </div>
     </div>
   </section>

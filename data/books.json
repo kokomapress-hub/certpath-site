@@ -264,8 +264,8 @@
       "published": true,
       "paperbackPrice": 19.99,
       "ebookPrice": 9.99,
-      "asin": "B0H2TZ3VMT",
-      "amazonUrl": "https://www.amazon.com/dp/B0H2TZ3VMT",
+      "asin": "",
+      "amazonUrl": "",
       "cheatsheetPrice": 1.99,
       "payhipEbookUrl": "",
       "payhipCheatsheetUrl": ""
@@ -501,7 +501,7 @@
     {
       "slug": "cmsrn",
       "bookCode": "B27",
-      "title": "CMSRN Exam Prep",
+      "title": "CMSRN Exam Practice Questions",
       "codeHash": "ed4bcbf70b43baab6525be2d530b0b42a3156e959877cff6890eca66f7c9f61e",
       "timeMinutes": 180,
       "testCount": 3,
