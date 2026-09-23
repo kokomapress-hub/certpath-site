@@ -729,7 +729,8 @@
       "paperbackPrice": 19.99,
       "ebookPrice": 9.99,
       "sequential": true,
-      "instantFeedback": true
+      "instantFeedback": true,
+      "amazonUrl": "https://www.amazon.com/dp/B0HG3LGPFL"
     },
     {
       "slug": "pmp-free",
@@ -758,7 +759,8 @@
       "published": true,
       "paperbackPrice": 39.99,
       "ebookPrice": 9.99,
-      "sequential": true
+      "sequential": true,
+      "amazonUrl": "https://www.amazon.com/dp/B0HJQ8BZRC"
     },
     {
       "slug": "capm",
@@ -775,7 +777,8 @@
       "paperbackPrice": 16.99,
       "ebookPrice": 9.99,
       "sequential": false,
-      "instantFeedback": true
+      "instantFeedback": true,
+      "amazonUrl": "https://www.amazon.com/dp/B0HHZQLD39"
     },
     {
       "slug": "capm-free",

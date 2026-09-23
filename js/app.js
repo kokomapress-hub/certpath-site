@@ -6,7 +6,7 @@ const BONUS_KEY = "certpath_bonus";
 
 // Normalize an access code for comparison: uppercase and drop everything that
 // isn't a letter or digit. This makes hyphens, spaces, and case optional, so
-// "CAP-7H4MK-Q9XRD", "cap7h4mkq9xrd", and "CAP 7H4MK Q9XRD" all match.
+// "ABC-12345-XYZ99", "abc12345xyz99", and "ABC 12345 XYZ99" all match.
 const normCode = (s) => (s || "").toUpperCase().replace(/[^A-Z0-9]/g, "");
 
 // Replace with your Formspree / Basin / Pages Function endpoint that accepts
@@ -88,7 +88,7 @@ async function validateCode(code) {
   // the 3 SKUs (Prep + Workbook + 10 Practice Tests) — entering that code
   // should unlock all matching books, not just the first one found.
   // A book may list several valid printed codes ("codes": [...]) so that every
-  // edition's printed code keeps working (e.g. POSS V4 printed POSS-PREP-2GXW9).
+  // edition's printed code keeps working (e.g. a V4 reprint whose printed code differs from V3).
   const codesOf = b => [b.codeHash, ...(Array.isArray(b.codeHashes) ? b.codeHashes : [])].filter(Boolean);
   const matches = data.books.filter(b => codesOf(b).includes(cleanCode));
   if (matches.length) {

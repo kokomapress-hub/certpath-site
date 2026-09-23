@@ -158,7 +158,7 @@ PAGES = [
          # legacy style.css still styles the unlocked-library cards that app.js renders
          styles='  <link rel="stylesheet" href="/css/style.css?v=12">\n' + PREMIUM_CSS + '  <link rel="stylesheet" href="/css/premium-bridge.css?v=1">\n',
          main=ACCESS_MAIN,
-         scripts='  <script src="/js/premium.js?v=13" defer></script>\n  <script src="/js/app.js?v=20260919b"></script>\n'),
+         scripts='  <script src="/js/premium.js?v=13" defer></script>\n  <script src="/js/app.js?v=20260923"></script>\n'),
     dict(out="my.html", path="/my",
          title="My Study Page — CertPath Publishing",
          desc="Your CertPath practice tests, scores, unfinished attempts and free cheat sheets in one place.",
@@ -184,7 +184,7 @@ for p in PAGES:
 # ---------------------------------------------------------------------------
 LEGACY = ["cast", "poss", "mechanical-aptitude", "journeyman-electrician", "csp", "chst",
           "ccrn", "cnor", "sat", "psat", "act", "ged", "tabe", "sample", "ebook", "404",
-          "blog/index", "blog/2026-04-18-welcome"]
+          "blog/index", "blog/2026-04-18-welcome", "privacy", "terms", "refunds"]
 
 SHELL_HEAD = ('  <!-- premium-shell -->\n'
               '  <script>document.documentElement.classList.add(\'cp-js\');setTimeout(function(){if(!window.__cpReady)document.documentElement.classList.remove(\'cp-js\')},2500);</script>\n'

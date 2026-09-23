@@ -20,7 +20,7 @@ Use these MailerLite merge tags inside any email:
 ## EMAIL 1 — Welcome (send: immediately)
 
 **Subject:** Welcome to CertPath — your practice tests are ready
-**Preview text:** Here's how to actually pass on the first try.
+**Preview text:** Three habits that make your practice count.
 **From name:** CertPath Publishing
 **Reply-to:** prasadgceb@gmail.com
 
@@ -30,7 +30,7 @@ Use these MailerLite merge tags inside any email:
 >
 > You just unlocked free online practice tests for the **{$fields.book_unlocked}** exam — welcome.
 >
-> Three things to make sure you actually pass on the first try:
+> Three things that make your study time count:
 >
 > **1. Take a practice test today**
 > Even if you haven't finished the book. Your first attempt gives you a baseline — you'll know which chapters need the most attention before you waste time re-reading material you already know.
@@ -52,7 +52,7 @@ Use these MailerLite merge tags inside any email:
 >
 > [Get the {$fields.book_unlocked} Cheat Sheet →](https://certpathpublishing.store/#cheat-sheets)
 >
-> Pass on the first try.
+> Good luck with your prep.
 >
 > — The CertPath Team
 >

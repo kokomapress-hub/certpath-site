@@ -133,7 +133,7 @@ async function init() {
       showError(
         `<strong>Practice Test ${testNum} is locked.</strong><br>` +
         `Finish <strong>Practice Test ${testNum - 1}</strong> first — the tests unlock in order so you build up to the full exam.` +
-        `<br><br><a class="btn" href="/pmp?test=${testNum - 1}">Go to Test ${testNum - 1}</a>`
+        `<br><br><a class="btn" href="/quiz?book=${encodeURIComponent(slug)}&test=${testNum - 1}">Go to Test ${testNum - 1}</a>`
       );
       return;
     }

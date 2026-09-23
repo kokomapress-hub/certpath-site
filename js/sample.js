@@ -16,7 +16,7 @@
       '<section class="lp-quiz-section"><div class="lp-quiz-wrap" style="text-align:center;padding:3rem 1rem;">' +
         '<h2 style="color:var(--navy);">' + esc(msg) + '</h2>' +
         '<p style="margin:1rem 0 1.5rem;color:var(--gray-500);">Browse our study guides and pick an exam to try.</p>' +
-        '<a href="/#books" class="btn btn-lg">See All Study Guides</a>' +
+        '<a href="/exams" class="btn btn-lg">See All Study Guides</a>' +
       '</div></section>';
   }
 

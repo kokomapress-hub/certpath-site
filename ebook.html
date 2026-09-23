@@ -100,6 +100,7 @@
           <li><a href="/access">Access my tests</a></li>
           <li><a href="mailto:support@certpathpublishing.store?subject=Help%20with%20my%20access%20code">Help with a code</a></li>
           <li><a href="mailto:support@certpathpublishing.store?subject=Correction">Report a correction</a></li>
+          <li><a href="/privacy">Privacy</a> · <a href="/terms">Terms</a> · <a href="/refunds">Refunds</a></li>
         </ul>
       </div>
     </div>
@@ -120,19 +121,37 @@
           info.innerHTML = '<h2>Book not found</h2><p>Please return to <a href="/">the home page</a> and choose a book.</p>';
           return;
         }
+        const money = n => (typeof n === 'number' ? '$' + n.toFixed(2) : '');
+        const amazon = book.amazonUrl
+          ? `<a href="${book.amazonUrl}" class="btn btn-outline" target="_blank" rel="noopener">Get it on Amazon</a>`
+          : '';
+        // No direct PDF edition for this title — send readers to the book page / Amazon instead of a dead button.
+        if (!book.payhipEbookUrl) {
+          info.innerHTML = `
+            <div class="section-eyebrow">E-book</div>
+            <h2>${book.title}</h2>
+            <p>A direct-download PDF edition isn't offered for this title. You can get the book on Amazon, and see what's included on the book page.</p>
+            <div class="book-actions" style="display: flex; gap: 0.75rem; flex-wrap: wrap; margin-top: 1.5rem; justify-content: center;">
+              ${amazon}
+              <a href="/books/${book.slug}" class="btn btn-gold">View the book</a>
+            </div>`;
+          return;
+        }
+        const save = (book.ebookPrice && book.paperbackPrice) ? Math.round((1 - book.ebookPrice / book.paperbackPrice) * 100) : 0;
+        const tests = book.testCount || 0;
         info.innerHTML = `
           <div class="section-eyebrow">E-book</div>
           <h2>${book.title}</h2>
           <div class="price-row" style="justify-content: center; margin: 1.5rem 0;">
-            <span class="price-ebook" style="font-size: 1.75rem;">$${book.ebookPrice.toFixed(2)}</span>
-            <span class="price-paperback">Paperback $${book.paperbackPrice.toFixed(2)}</span>
-            <span class="price-save">Save 50%</span>
+            <span class="price-ebook" style="font-size: 1.75rem;">${money(book.ebookPrice)}</span>
+            ${book.paperbackPrice ? `<span class="price-paperback">Paperback ${money(book.paperbackPrice)}</span>` : ''}
+            ${save > 0 ? `<span class="price-save">Save ${save}%</span>` : ''}
           </div>
           <p>Instant-download PDF of the complete <strong>${book.title}</strong>. Every chapter, every practice test, every answer explanation — identical content to the paperback edition, delivered as a searchable PDF immediately after payment.</p>
-          <p><strong>Included free:</strong> Access code for 3 timed online practice tests (same as the paperback).</p>
+          ${tests ? `<p><strong>Included free:</strong> Access code for ${tests} timed online practice test${tests === 1 ? '' : 's'} (same as the paperback).</p>` : ''}
           <div class="book-actions" style="display: flex; gap: 0.75rem; flex-wrap: wrap; margin-top: 1.5rem;">
-            <a href="${book.payhipEbookUrl}" class="btn btn-gold" target="_blank" rel="noopener">Buy E-book — $${book.ebookPrice.toFixed(2)}</a>
-            <a href="${book.amazonUrl}" class="btn btn-outline" target="_blank" rel="noopener">Paperback on Amazon ($${book.paperbackPrice.toFixed(2)})</a>
+            <a href="${book.payhipEbookUrl}" class="btn btn-gold" target="_blank" rel="noopener">Buy E-book — ${money(book.ebookPrice)}</a>
+            ${amazon}
             <a href="/" class="btn btn-outline">Back to Study Guides</a>
           </div>
           <p style="color: var(--gray-500); font-size: 0.85rem; margin-top: 1rem;">Secure checkout via Payhip. Instant PDF delivery + email receipt.</p>`;

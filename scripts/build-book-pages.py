@@ -254,7 +254,7 @@ def page(book, stats):
 
   <script>window.CP_BOOK = {cfg};</script>
   <script src="/js/premium.js?v=13" defer></script>
-  <script src="/js/app.js?v=20260918g" defer></script>
+  <script src="/js/app.js?v=20260923" defer></script>
   <script src="/js/book.js?v=4" defer></script>
 </body>
 </html>

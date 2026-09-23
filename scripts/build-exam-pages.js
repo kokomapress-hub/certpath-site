@@ -11,13 +11,14 @@ const books = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/books.json'), 'ut
 const PAGES = [
   {
     file: 'sat.html',
+    series: true, // one exam, several books: trust bar shows the per-book maximum
     exam: 'Digital SAT Math',
     headline: 'Pass the <span class="gold">Digital SAT Math</span> Section',
-    sub: 'Blueprint-aligned prep for the Digital SAT Math section — 44 questions, two adaptive modules, on-screen Desmos calculator. Try 10 real practice questions below, free.',
+    sub: 'Blueprint-aligned prep for the Digital SAT Math section — 44 questions, two adaptive modules, on-screen Desmos calculator. Try 10 exam-style practice questions below, free.',
     quizSource: 'sat-math',
     relatedSlugs: ['sat-math', 'sat-math-workbook', 'sat-math-tests'],
     metaTitle: 'Digital SAT Math Prep — Free Practice Questions | CertPath Publishing',
-    metaDesc: 'Prepare for the Digital SAT Math section with blueprint-aligned study guides, 4,500+ practice questions, and free timed online tests. Try 10 free sample questions.',
+    metaDesc: 'Prepare for the Digital SAT Math section with blueprint-aligned study guides, 4,500+ practice questions across the three-book series, and free timed online tests. Try 10 free sample questions.',
     disclaimer: 'SAT® is a registered trademark of College Board, which is not affiliated with and does not endorse this publication.',
     faqs: [
       ['How many questions are on the Digital SAT Math section?', 'The Digital SAT Math section has 44 questions across two 22-question adaptive modules, with 70 minutes total. The built-in Desmos calculator is available on every question.'],
@@ -29,27 +30,29 @@ const PAGES = [
   },
   {
     file: 'ged.html',
+    series: true, // one exam, several books: trust bar shows the per-book maximum
     exam: 'GED Math',
     headline: 'Pass the <span class="gold">GED Math</span> Test — No Math Background Needed',
-    sub: 'Plain-language prep for GED Mathematical Reasoning, built from the ground up for adult learners. Try 10 real practice questions below, free.',
+    sub: 'Plain-language prep for GED Mathematical Reasoning, built from the ground up for adult learners. Try 10 exam-style practice questions below, free.',
     quizSource: 'ged-math',
     relatedSlugs: ['ged-math', 'ged-math-workbook', 'ged-math-tests'],
     metaTitle: 'GED Math Prep — Free Practice Questions | CertPath Publishing',
-    metaDesc: 'Pass the GED Mathematical Reasoning test with plain-language study guides, 4,500+ practice questions, and free timed online tests. Try 10 free sample questions.',
+    metaDesc: 'Prepare for the GED Mathematical Reasoning test with plain-language study guides, 4,500+ practice questions across the three-book series, and free timed online tests. Try 10 free sample questions.',
     disclaimer: 'GED® is a registered trademark of the American Council on Education and GED Testing Service LLC, which are not affiliated with and do not endorse this publication.',
     faqs: [
       ['How hard is the GED math test?', 'GED Mathematical Reasoning is a 115-minute test with about 46 questions. Most test-takers find it manageable with focused practice — the key is steady work on the four content areas rather than cramming.'],
       ['What math is on the GED?', 'Four areas: quantitative problem solving with rational numbers, quantitative problem solving with measurement, algebraic problem solving with expressions and equations, and algebraic problem solving with graphs and functions.'],
       ['Can I use a calculator on the GED math test?', 'Yes — the on-screen TI-30XS calculator is available for most of the test. Our study guide includes a strategy chapter on using it efficiently.'],
-      ['What is included with the CertPath GED Math books?', 'Three SKUs: the complete study guide, a 600+ problem workbook, and 10 full-length practice tests. Each book unlocks 1,500+ additional timed online questions, with no repeats across books.'],
+      ['What is included with the CertPath GED Math books?', 'Three SKUs: the complete study guide, a 600+ problem workbook, and 10 full-length practice tests. Each book unlocks 1,500+ additional timed online questions.'],
       ['Are the online practice tests really free?', 'Yes. Every book has a unique access code printed on the last page. Enter it at certpathpublishing.store/access for timed, auto-scored tests on any device.'],
     ],
   },
   {
     file: 'tabe.html',
+    series: true, // one exam, several books: trust bar shows the per-book maximum
     exam: 'TABE 11 & 12 Math',
     headline: 'Master <span class="gold">TABE 11 &amp; 12 Math</span> — Every Level, A to E',
-    sub: 'The only TABE math workbook series with a book for each level — E, M, D, and A — written in plain language for adult learners. Try 10 real practice questions below, free.',
+    sub: 'The only TABE math workbook series with a book for each level — E, M, D, and A — written in plain language for adult learners. Try 10 exam-style practice questions below, free.',
     quizSource: 'tabe-a',
     relatedSlugs: ['tabe-a', 'tabe-d', 'tabe-m', 'tabe-e'],
     metaTitle: 'TABE 11 & 12 Math Workbooks (Levels A, D, M, E) — Free Practice | CertPath Publishing',
@@ -66,26 +69,26 @@ const PAGES = [
   {
     file: 'ccrn.html',
     exam: 'Adult CCRN',
-    headline: 'Pass the <span class="gold">Adult CCRN</span> on Your First Attempt',
-    sub: 'Updated for the revised AACN test plan — complete critical-care review with detailed rationales, Synergy Model coverage, and 750+ online questions. Try 10 real practice questions below, free.',
+    headline: 'Prepare to Pass the <span class="gold">Adult CCRN</span> with Confidence',
+    sub: 'Updated for the revised AACN test plan — complete critical-care review with detailed rationales, Synergy Model coverage, and 750 online questions. Try 10 exam-style practice questions below, free.',
     quizSource: 'ccrn',
     relatedSlugs: ['ccrn'],
     metaTitle: 'Adult CCRN Exam Prep (Revised AACN Test Plan) — Free Practice Questions | CertPath Publishing',
-    metaDesc: 'Adult CCRN exam prep updated for the revised AACN test plan. 3 full-length practice exams, 750+ online questions, detailed rationales. Try 10 free sample questions.',
+    metaDesc: 'Adult CCRN exam prep updated for the revised AACN test plan. 5 full-length online practice exams (750 questions), detailed rationales. Try 10 free sample questions.',
     disclaimer: 'CCRN® is a registered trademark of the AACN Certification Corporation, which is not affiliated with and does not endorse this publication.',
     faqs: [
       ['How many questions are on the Adult CCRN exam?', 'The Adult CCRN is a 150-question exam (125 scored, 25 unscored pilot items) with a 3-hour time limit. Roughly 80% covers clinical judgment and 20% covers professional caring and ethical practice.'],
       ['What changed in the revised AACN test plan?', 'The AACN periodically rebalances domain weightings and clinical content. Our book is mapped one-to-one to the current revised test plan — chapter weighting matches the exam blueprint, so you study in the same proportions you will be tested.'],
       ['Do I meet the requirements to sit for the CCRN?', 'AACN requires either 1,750 hours of direct care of acutely/critically ill adult patients in the last 2 years (875 in the most recent year), or 2,000 hours in the last 5 years (144 in the most recent year). Check aacn.org for current eligibility.'],
-      ['What is included with the CertPath CCRN book?', 'A complete blueprint-aligned review with detailed rationales, Synergy Model coverage woven through every chapter, 3 full-length 150-question practice exams, and 750+ additional timed online questions via the free Exam Simulator.'],
+      ['What is included with the CertPath CCRN book?', 'A complete blueprint-aligned review with detailed rationales, Synergy Model coverage woven through every chapter, 3 full-length 150-question practice exams, and 750 additional timed online questions (5 full-length exams) via the free Exam Simulator.'],
       ['Are the online practice tests really free?', 'Yes. The book includes a unique access code printed on the last page. Enter it at certpathpublishing.store/access for timed, auto-scored exams on any device.'],
     ],
   },
   {
     file: 'cast.html',
     exam: 'CAST',
-    headline: 'Pass the <span class="gold">CAST Exam</span> on the First Try',
-    sub: 'All-in-one prep for the EEI Construction and Skilled Trades test — graphic arithmetic, mechanical concepts, and reading comprehension. Try 10 real practice questions below, free.',
+    headline: 'Prepare to Pass the <span class="gold">CAST Exam</span> with Confidence',
+    sub: 'All-in-one prep for the EEI Construction and Skilled Trades test — graphic arithmetic, mechanical concepts, and reading comprehension. Try 10 exam-style practice questions below, free.',
     quizSource: 'cast',
     relatedSlugs: ['cast', 'mech-apt', 'poss'],
     metaTitle: 'CAST Exam Study Guide (EEI Construction & Skilled Trades) — Free Practice | CertPath Publishing',
@@ -103,7 +106,7 @@ const PAGES = [
     file: 'mechanical-aptitude.html',
     exam: 'Mechanical Aptitude',
     headline: 'Pass the <span class="gold">Mechanical Aptitude</span> Test',
-    sub: 'Build real intuition for the Bennett (BMCT-II), Wiesen (WTMA), Ramsay, and other mechanical aptitude tests used to screen for skilled-trade and industrial jobs. Try 10 real practice questions below, free.',
+    sub: 'Build real intuition for the Bennett (BMCT-II), Wiesen (WTMA), Ramsay, and other mechanical aptitude tests used to screen for skilled-trade and industrial jobs. Try 10 exam-style practice questions below, free.',
     quizSource: 'mech-apt',
     relatedSlugs: ['mech-apt'],
     metaTitle: 'Mechanical Aptitude Test Prep (BMCT, Wiesen, Ramsay) — Free Practice | CertPath Publishing',
@@ -121,7 +124,7 @@ const PAGES = [
     file: 'journeyman-electrician.html',
     exam: 'Journeyman Electrician',
     headline: 'Pass the <span class="gold">Journeyman Electrician</span> Exam',
-    sub: 'Code-based prep that teaches you to navigate the National Electrical Code under time pressure — aligned to the 2026 NEC, with an edition guide for jurisdictions still on 2017–2023. Try 10 real practice questions below, free.',
+    sub: 'Code-based prep that teaches you to navigate the National Electrical Code under time pressure — aligned to the 2026 NEC, with an edition guide for jurisdictions still on 2017–2023. Try 10 exam-style practice questions below, free.',
     quizSource: 'journeyman-elec',
     relatedSlugs: ['journeyman-elec'],
     metaTitle: 'Journeyman Electrician Exam Prep (2026 NEC) — Free Practice | CertPath Publishing',
@@ -139,7 +142,7 @@ const PAGES = [
     file: 'poss.html',
     exam: 'POSS',
     headline: 'Pass the <span class="gold">POSS</span> Power Plant Operator Test',
-    sub: 'Targeted prep for the EEI Plant Operator Selection System — the four-part battery utilities use to hire power-plant and operator trainees. Try 10 real practice questions below, free.',
+    sub: 'Targeted prep for the EEI Plant Operator Selection System — the four-part battery utilities use to hire power-plant and operator trainees. Try 10 exam-style practice questions below, free.',
     quizSource: 'poss',
     relatedSlugs: ['poss'],
     metaTitle: 'POSS Test Prep (EEI Plant Operator Selection System) — Free Practice | CertPath Publishing',
@@ -157,7 +160,7 @@ const PAGES = [
     file: 'csp.html',
     exam: 'CSP',
     headline: 'Pass the <span class="gold">CSP</span> Exam — CSP11 Blueprint',
-    sub: 'Complete prep for the BCSP Certified Safety Professional exam, rebuilt to the current CSP11 blueprint and its seven domains — including Risk Management, which older guides leave out. Try 10 real practice questions below, free.',
+    sub: 'Complete prep for the BCSP Certified Safety Professional exam, rebuilt to the current CSP11 blueprint and its seven domains — including Risk Management, which older guides leave out. Try 10 exam-style practice questions below, free.',
     quizSource: 'csp',
     relatedSlugs: ['csp', 'chst'],
     metaTitle: 'CSP Exam Prep (BCSP CSP11 Blueprint, 7 Domains) — Free Practice | CertPath Publishing',
@@ -175,7 +178,7 @@ const PAGES = [
     file: 'chst.html',
     exam: 'CHST',
     headline: 'Pass the <span class="gold">CHST</span> Construction Safety Exam',
-    sub: 'Focused prep for the BCSP Construction Health and Safety Technician exam — built around the four CHST domains and real construction-site scenarios. Try 10 real practice questions below, free.',
+    sub: 'Focused prep for the BCSP Construction Health and Safety Technician exam — built around the four CHST domains and real construction-site scenarios. Try 10 exam-style practice questions below, free.',
     quizSource: 'chst',
     relatedSlugs: ['chst', 'csp'],
     metaTitle: 'CHST Exam Prep (Construction Health & Safety Technician) — Free Practice | CertPath Publishing',
@@ -191,13 +194,14 @@ const PAGES = [
   },
   {
     file: 'psat.html',
+    series: true, // one exam, several books: trust bar shows the per-book maximum
     exam: 'PSAT/NMSQT Math',
     headline: 'Master <span class="gold">PSAT/NMSQT Math</span> — and Chase National Merit',
-    sub: 'Digital PSAT/NMSQT Math prep built to the same blueprint as the Digital SAT, with the higher accuracy you need to compete for National Merit recognition. Try 10 real practice questions below, free.',
+    sub: 'Digital PSAT/NMSQT Math prep built to the same blueprint as the Digital SAT, with the higher accuracy you need to compete for National Merit recognition. Try 10 exam-style practice questions below, free.',
     quizSource: 'psat-math',
     relatedSlugs: ['psat-math', 'psat-math-workbook', 'psat-math-tests'],
     metaTitle: 'Digital PSAT/NMSQT Math Prep — Free Practice Questions | CertPath Publishing',
-    metaDesc: 'Digital PSAT/NMSQT Math prep aligned to the College Board blueprint, with 4,500+ practice questions and free timed online tests. Try 10 free sample questions.',
+    metaDesc: 'Digital PSAT/NMSQT Math prep aligned to the College Board blueprint, with 4,500+ practice questions across the three-book series and free timed online tests. Try 10 free sample questions.',
     disclaimer: 'PSAT/NMSQT is a registered trademark of the College Board and the National Merit Scholarship Corporation, which are not affiliated with and do not endorse this publication.',
     faqs: [
       ['How is the PSAT/NMSQT scored and why does it matter?', 'The PSAT/NMSQT is digital and adaptive, scored on a 320–1520 scale. A strong junior-year score can qualify you for National Merit recognition and scholarships, which is why precision on the math section matters so much.'],
@@ -209,19 +213,20 @@ const PAGES = [
   },
   {
     file: 'act.html',
+    series: true, // one exam, several books: trust bar shows the per-book maximum
     exam: 'ACT Math',
     headline: 'Pass <span class="gold">ACT Math</span> — Built for the Enhanced ACT',
-    sub: 'Up-to-date prep for the enhanced ACT Math section, with blueprint-aligned practice across every category the test still rewards. Try 10 real practice questions below, free.',
+    sub: 'Up-to-date prep for the enhanced ACT Math section, with blueprint-aligned practice across every category the test still rewards. Try 10 exam-style practice questions below, free.',
     quizSource: 'act-math',
     relatedSlugs: ['act-math', 'act-math-workbook', 'act-math-tests'],
     metaTitle: 'ACT Math Prep (Enhanced ACT) — Free Practice Questions | CertPath Publishing',
-    metaDesc: 'ACT Math prep for the enhanced ACT, blueprint-aligned with 4,500+ practice questions and free timed online tests. Try 10 free sample questions.',
+    metaDesc: 'ACT Math prep for the enhanced ACT, blueprint-aligned with 4,500+ practice questions across the three-book series and free timed online tests. Try 10 free sample questions.',
     disclaimer: 'ACT is a registered trademark of ACT, Inc., which is not affiliated with and does not endorse this publication.',
     faqs: [
       ['What changed with the enhanced ACT?', 'The enhanced ACT shortened the test and made the science section optional, but the math section still rewards the same core skills. Our books are built to the current ACT math blueprint so you practice what is actually tested now.'],
       ['What topics are on ACT Math?', 'Pre-algebra and elementary algebra, intermediate algebra and coordinate geometry, plane geometry, and trigonometry. The questions get harder as the section goes on, so pacing strategy matters.'],
       ['Can I use a calculator on ACT Math?', 'Yes — a calculator is permitted on the entire ACT math section. Our study guide includes a chapter on using it efficiently without leaning on it for problems you should do by hand.'],
-      ['What is included with the CertPath ACT Math books?', 'Three SKUs — study guide, workbook, and 10 practice tests — each unlocking 1,500+ additional timed online questions, with no repeats across the three books.'],
+      ['What is included with the CertPath ACT Math books?', 'Three SKUs — study guide, workbook, and 10 practice tests — each unlocking 1,500+ additional timed online questions.'],
       ['Are the online practice tests really free?', 'Yes. Each book includes a unique access code printed on the last page. Enter it at certpathpublishing.store/access for timed, auto-scored tests on any device.'],
     ],
   },
@@ -258,6 +263,25 @@ function bookCard(b) {
             ${b.payhipEbookUrl ? `<a href="${b.payhipEbookUrl}" class="btn btn-sm btn-outline" target="_blank" rel="noopener">E-book $${b.ebookPrice.toFixed(2)}</a>` : ''}
           </div>
         </div>`;
+}
+
+// Trust-bar numbers must describe what ONE purchase unlocks - never a sum across
+// books. Single-book pages show that book's own bank; series pages (one exam,
+// several books) show the largest per-book bank, labelled as such.
+function trustBar(cfg, related) {
+  if (cfg.series) {
+    const maxQ = Math.max(...related.map(b => b.totalQuestions));
+    const maxT = Math.max(...related.map(b => b.testCount));
+    return `
+          <div>Up to <strong>${maxQ.toLocaleString()}</strong> online questions per book</div>
+          <div>Up to <strong>${maxT}</strong> timed tests per book</div>
+          <div><strong>FREE</strong> with every book</div>`;
+  }
+  const own = related.find(b => b.slug === cfg.quizSource) || related[0];
+  return `
+          <div><strong>${own.totalQuestions.toLocaleString()}</strong> online questions</div>
+          <div><strong>${own.testCount}</strong> timed practice tests</div>
+          <div><strong>FREE</strong> with the book</div>`;
 }
 
 function renderPage(cfg) {
@@ -323,10 +347,7 @@ function renderPage(cfg) {
           <a href="#sample-quiz" class="btn btn-lg">Try 10 Free Questions</a>
           ${ctaBook.amazonUrl ? `<a href="${ctaBook.amazonUrl}" class="btn btn-secondary btn-lg" target="_blank" rel="noopener">Get the Book — $${ctaBook.paperbackPrice.toFixed(2)}</a>` : ''}
         </div>
-        <div class="lp-trust">
-          <div><strong>${related.reduce((s, b) => s + b.totalQuestions, 0).toLocaleString()}+</strong> online questions</div>
-          <div><strong>${related.reduce((s, b) => s + b.testCount, 0)}</strong> timed practice tests</div>
-          <div><strong>FREE</strong> with every book</div>
+        <div class="lp-trust">${trustBar(cfg, related)}
         </div>
       </div>
       <div class="lp-hero-cover">
@@ -339,7 +360,7 @@ function renderPage(cfg) {
     <div class="lp-quiz-wrap">
       <div class="lp-section-head" style="margin-bottom: 2rem;">
         <div class="eyebrow">Free Sample</div>
-        <h2>Try 10 Real ${esc(cfg.exam)} Questions</h2>
+        <h2>Try 10 Exam-Style ${esc(cfg.exam)} Questions</h2>
         <p>Straight from our question bank — answer each one and see the step-by-step explanation instantly.</p>
       </div>
       <div class="lp-quiz-frame">
@@ -358,7 +379,7 @@ function renderPage(cfg) {
       <div class="lp-section-head">
         <div class="eyebrow">The Books</div>
         <h2>Complete ${esc(cfg.exam)} Prep</h2>
-        <p>Every book includes free timed online practice tests — no subscription, no repeats between books.</p>
+        <p>Every book includes free timed online practice tests — no subscription required.</p>
       </div>
       <div class="lp-books-grid">${related.map(bookCard).join('')}</div>
     </div>
@@ -452,6 +473,7 @@ function renderPage(cfg) {
             '<button type="submit" class="btn">Send My Study Plan</button>' +
           '</form>' +
           '<div class="lp-email-msg" id="lpEmailMsg"></div>' +
+          '<p style="font-size:12px;opacity:.75;margin:.5rem 0 0">Study tips and occasional offers by email. Unsubscribe anytime. <a href="/privacy">Privacy</a></p>' +
           '<div class="or">— or —</div>' +
           '<a href="#" id="lpRetry" class="btn btn-outline btn-sm" style="color: var(--navy); border-color: var(--navy);">Retake the Quiz</a>' +
         '</div>';
