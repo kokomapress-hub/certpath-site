@@ -49,11 +49,9 @@ for (const f of fs.existsSync(path.join(ROOT, 'books')) ? fs.readdirSync(path.jo
   if (f.endsWith('.html')) urls.push({ loc: `${SITE}/books/${f.replace('.html', '')}`, priority: '0.8', changefreq: 'monthly', file: `books/${f}` });
 }
 
-// Per-book ebook landing pages (published books that actually sell a PDF edition)
-const books = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/books.json'), 'utf8')).books;
-for (const b of books.filter(x => x.published && x.payhipEbookUrl)) {
-  urls.push({ loc: `${SITE}/ebook?book=${b.slug}`, priority: '0.8', changefreq: 'monthly', file: 'ebook.html' });
-}
+// Per-book ebook pages (/ebook?book=<slug>) are ONE JS-rendered template with the same
+// title and no canonical, so they are left out of the sitemap and ebook.html carries
+// <meta name="robots" content="noindex, follow"> (SEO fix, Sep 2026).
 
 // Blog posts
 for (const f of fs.readdirSync(path.join(ROOT, 'blog'))) {
