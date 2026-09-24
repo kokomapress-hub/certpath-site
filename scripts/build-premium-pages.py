@@ -145,6 +145,218 @@ MY_MAIN = """  <main id="main" class="cp-my">
 
 """
 
+# ---------------------------------------------------------------------------
+# /cast-course — free CAST video course (no gate). Lessons: data/cast-course.json,
+# videos on R2 (cast/ prefix), thumbnails in img/cast-course/NN.webp (+ NN-sm.webp).
+# ---------------------------------------------------------------------------
+import html as _html
+import json as _json
+
+_course = _json.loads((ROOT / "data" / "cast-course.json").read_text(encoding="utf-8"))
+_lessons = _course["lessons"]
+_total_min = round(sum(l["seconds"] for l in _lessons) / 60)
+
+
+def _mmss(s):
+    return f"{s // 60}:{s % 60:02d}"
+
+
+def _e(s):
+    return _html.escape(s, quote=True)
+
+
+_items = "\n".join(
+    f'''              <li><a class="cp-yt-item" href="#lesson-{l["num"]}" data-lesson="{l["num"]}">
+                <span class="cp-yt-thumb"><img src="/img/cast-course/{l["num"]}-sm.webp" alt="" width="240" height="135" loading="lazy" decoding="async"><em>{_mmss(l["seconds"])}</em><i class="cc-tick" aria-hidden="true">✓</i></span>
+                <span class="cc-item-text"><small>Lesson {l["num"]} · {_e(l["module"])}</small><span class="cp-yt-name">{_e(l["title"])}</span></span></a></li>'''
+    for l in _lessons)
+
+_first = _lessons[0]
+_ld = {
+    "@context": "https://schema.org",
+    "@type": "Course",
+    "name": "CAST Exam Prep — Free Video Course",
+    "description": f"{len(_lessons)} free video lessons for the EEI CAST (Construction and Skilled Trades) test: mechanical concepts, reading comprehension, mathematical usage and graphic arithmetic.",
+    "provider": {"@type": "Organization", "name": "CertPath Publishing", "sameAs": "https://certpathpublishing.store"},
+    "isAccessibleForFree": True,
+    "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD", "category": "Free"},
+    "hasCourseInstance": {"@type": "CourseInstance", "courseMode": "online", "courseWorkload": f"PT{_total_min}M"},
+    "hasPart": [{
+        "@type": "VideoObject",
+        "name": f'CAST Lesson {l["num"]}: {l["title"]}',
+        "description": f'CAST exam prep lesson {l["num"]} ({l["module"]}): {l["title"]}. Matches pages {l["pages"]} of the CertPath CAST Exam Study Guide.',
+        "thumbnailUrl": f'https://certpathpublishing.store/img/cast-course/{l["num"]}.webp',
+        "contentUrl": _course["videoBase"] + l["file"],
+        "uploadDate": "2026-09-24",
+        "duration": f'PT{l["seconds"] // 60}M{l["seconds"] % 60}S',
+    } for l in _lessons],
+}
+# the player reads only what it needs; keep the payload small
+_js_lessons = [{k: l[k] for k in ("num", "module", "title", "file", "seconds", "pages")} | ({"youtube": l["youtube"]} if l.get("youtube") else {}) for l in _lessons]
+
+CAST_COURSE_HEAD = f"""  <meta property="og:image" content="https://certpathpublishing.store/img/cast-course/01.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <script type="application/ld+json">{_json.dumps(_ld, ensure_ascii=False)}</script>
+  <style>
+    #course {{ scroll-margin-top: 5rem; }}
+    .cc-player .cp-yt-player video {{ position: absolute; inset: 0; width: 100%; height: 100%; background: #000; }}
+    .cc-now {{ margin-top: 1.25rem; }}
+    .cc-now small {{ display: block; font-size: .75rem; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--cp-bronze); margin-bottom: .375rem; }}
+    .cc-now h2 {{ font-size: clamp(1.25rem, 2vw, 1.5rem); font-weight: 650; letter-spacing: -.02em; line-height: 1.3; color: var(--cp-navy); }}
+    .cc-now p {{ margin-top: .5rem; font-size: .9375rem; color: var(--cp-muted); }}
+    .cc-actions {{ display: flex; flex-wrap: wrap; gap: .75rem; margin-top: 1.25rem; align-items: center; }}
+    .cc-actions .cc-yt {{ font-size: .875rem; font-weight: 600; }}
+    .cc-side-head {{ display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; padding: .25rem .5rem .75rem; }}
+    .cc-side-head b {{ font-size: 1rem; color: var(--cp-navy); }}
+    .cc-side-head span {{ font-size: .8125rem; color: var(--cp-muted); font-variant-numeric: tabular-nums; }}
+    .cc-bar {{ height: 6px; border-radius: 3px; background: #ECEEF1; margin: 0 .5rem .875rem; overflow: hidden; }}
+    .cc-bar i {{ display: block; height: 100%; width: 0; background: var(--cp-gold); transition: width var(--cp-medium) var(--cp-ease); }}
+    .cc-side .cp-yt-list ol {{ max-height: 34rem; }}
+    .cc-item-text {{ display: grid; gap: .125rem; min-width: 0; }}
+    .cc-item-text small {{ font-size: .6875rem; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--cp-muted); }}
+    .cc-tick {{ position: absolute; left: .25rem; top: .25rem; display: none; place-items: center; width: 1.25rem; height: 1.25rem; border-radius: 50%; background: var(--cp-green); color: #fff; font: 700 .6875rem var(--cp-sans); font-style: normal; }}
+    .cp-yt-item.is-done .cc-tick {{ display: grid; }}
+    .cc-book {{ display: grid; grid-template-columns: minmax(0, 12rem) 1fr; gap: clamp(1.5rem, 4vw, 3.5rem); align-items: center; }}
+    .cc-book img {{ width: 100%; height: auto; border-radius: 6px; box-shadow: var(--cp-shadow); }}
+    .cc-book ul {{ margin: 1.25rem 0 1.75rem; padding-left: 1.125rem; display: grid; gap: .5rem; color: var(--cp-body); }}
+    .cc-book .cc-btns {{ display: flex; flex-wrap: wrap; gap: .75rem; }}
+    .cc-note {{ margin-top: 2.5rem; font-size: .8125rem; line-height: 1.6; color: var(--cp-muted); max-width: 52rem; }}
+    @media (max-width: 40rem) {{ .cc-book {{ grid-template-columns: 1fr; }} .cc-book img {{ max-width: 11rem; }} }}
+  </style>
+"""
+
+CAST_COURSE_MAIN = f"""  <main id="main">
+    <section class="cp-pagehead cp-dark">
+      <div class="cp-container">
+        <nav class="cp-crumbs" aria-label="Breadcrumb"><a href="/">Home</a><span aria-hidden="true">/</span><a href="/cast">CAST</a><span aria-hidden="true">/</span><span>Free video course</span></nav>
+        <h1 data-split>The CAST video course. <em>Free.</em></h1>
+        <p class="cp-lead">{len(_lessons)} short lessons, about {_total_min} minutes in all, covering every part of the EEI CAST test: mechanical concepts, reading comprehension, math and graphic arithmetic. No sign-up, no email. Each lesson points you to the matching pages of the CertPath CAST Exam Study Guide.</p>
+        <div class="cp-hero-actions" style="margin-top:2rem;display:flex;flex-wrap:wrap;gap:.75rem">
+          <a class="cp-btn cp-btn-primary" href="#course">Start lesson 1 <span class="cp-arrow" aria-hidden="true">→</span></a>
+          <a class="cp-btn cp-btn-ghost" href="/sample?book=cast">Try free CAST questions</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="cp-section cp-yt" id="course" aria-label="Video lessons" style="padding-top:clamp(2rem,4vw,3.5rem)">
+      <div class="cp-container">
+        <div class="cp-yt-grid cc-player">
+          <div>
+            <div class="cp-yt-player" id="ccPlayer">
+              <button type="button" class="cp-yt-poster" id="ccPoster" aria-label="Play lesson {_first["num"]}: {_e(_first["title"])}">
+                <img id="ccPosterImg" src="/img/cast-course/{_first["num"]}.webp" alt="" width="1280" height="720" decoding="async">
+                <span class="cp-yt-play" aria-hidden="true"><svg width="28" height="28" viewBox="0 0 24 24"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></span>
+              </button>
+            </div>
+            <div class="cc-now">
+              <small id="ccTag">Lesson {_first["num"]} · {_e(_first["module"])}</small>
+              <h2 id="ccTitle">{_e(_first["title"])}</h2>
+              <p id="ccPages">Study guide pages {_first["pages"]} · {_mmss(_first["seconds"])}</p>
+            </div>
+            <div class="cc-actions">
+              <button type="button" class="cp-btn cp-btn-navy" id="ccNext">Next lesson <span class="cp-arrow" aria-hidden="true">→</span></button>
+              <a class="cc-yt" id="ccYt" href="#" target="_blank" rel="noopener" hidden>Also on YouTube ↗</a>
+            </div>
+          </div>
+          <div class="cp-yt-side cc-side">
+            <div class="cc-side-head"><b>Course lessons</b><span id="ccCount">0 of {len(_lessons)} watched</span></div>
+            <div class="cc-bar" aria-hidden="true"><i id="ccBar"></i></div>
+            <div class="cp-yt-list">
+              <ol>
+{_items}
+              </ol>
+            </div>
+          </div>
+        </div>
+        <p class="cc-note">A lesson is marked watched once you reach 90% of it; progress is saved in this browser only. Videos stream from CertPath's own servers. Nothing loads until you press play.</p>
+      </div>
+    </section>
+
+    <section class="cp-section" style="padding-top:0">
+      <div class="cp-container cc-book">
+        <a href="/books/cast"><img src="/img/covers/cast.webp" alt="CAST Exam Study Guide by CertPath Publishing" width="400" height="600" loading="lazy" decoding="async"></a>
+        <div>
+          <span class="cp-eyebrow">Built to pair with the book</span>
+          <h2 class="cp-h2">Watch the lesson, then <em>practice it.</em></h2>
+          <ul>
+            <li>The <b>CAST Exam Study Guide</b> covers all four test parts, with worked examples for every lesson here.</li>
+            <li>3 full-length practice tests in the book, with detailed answer explanations.</li>
+            <li>330 timed online questions, opened with the access code printed in the book.</li>
+          </ul>
+          <div class="cc-btns">
+            <a class="cp-btn cp-btn-primary" href="https://www.amazon.com/dp/B0GWWTVNPM" target="_blank" rel="noopener">Get the book on Amazon <span class="cp-arrow" aria-hidden="true">↗</span></a>
+            <a class="cp-btn cp-btn-ghost" href="/books/cast">Online practice tests</a>
+            <a class="cp-btn cp-btn-ghost" href="/cast">About the CAST test</a>
+          </div>
+          <p class="cc-note">CAST (Construction and Skilled Trades) is a selection test administered for Edison Electric Institute member companies. The Edison Electric Institute is not affiliated with and does not endorse CertPath Publishing or this course.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+"""
+
+CAST_COURSE_JS = """  <script>
+(function(){
+  var L=""" + _json.dumps(_js_lessons, ensure_ascii=False) + """;
+  var BASE='""" + _course["videoBase"] + """', KEY='certpath_cast_course_progress', DONE_AT=0.9;
+  var $=function(id){return document.getElementById(id)};
+  var player=$('ccPlayer'), items=[].slice.call(document.querySelectorAll('.cc-side .cp-yt-item'));
+  function prog(){try{return JSON.parse(localStorage.getItem(KEY)||'{}')||{}}catch(e){return {}}}
+  function save(p){try{localStorage.setItem(KEY,JSON.stringify(p))}catch(e){}}
+  function mmss(s){return Math.floor(s/60)+':'+('0'+s%60).slice(-2)}
+  var cur=L[0];
+  function paint(){
+    var p=prog(), n=0;
+    items.forEach(function(a){var d=!!p[a.dataset.lesson]; if(d)n++; a.classList.toggle('is-done',d);});
+    $('ccCount').textContent=n+' of '+L.length+' watched';
+    $('ccBar').style.width=Math.round(n/L.length*100)+'%';
+  }
+  function show(l){
+    cur=l;
+    $('ccTag').textContent='Lesson '+l.num+' · '+l.module;
+    $('ccTitle').textContent=l.title;
+    $('ccPages').textContent='Study guide pages '+l.pages+' · '+mmss(l.seconds);
+    var yt=$('ccYt'); if(l.youtube){yt.href='https://www.youtube.com/watch?v='+l.youtube; yt.hidden=false;} else yt.hidden=true;
+    items.forEach(function(a){ if(a.dataset.lesson===l.num) a.setAttribute('aria-current','true'); else a.removeAttribute('aria-current'); });
+  }
+  function poster(l){
+    player.innerHTML='<button type="button" class="cp-yt-poster" aria-label="Play lesson '+l.num+'"><img src="/img/cast-course/'+l.num+'.webp" alt="" width="1280" height="720" decoding="async"><span class="cp-yt-play" aria-hidden="true"><svg width="28" height="28" viewBox="0 0 24 24"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></span></button>';
+  }
+  function play(l){
+    var v=document.createElement('video');
+    v.controls=true; v.autoplay=true; v.playsInline=true; v.preload='metadata';
+    v.poster='/img/cast-course/'+l.num+'.webp'; v.src=BASE+l.file;
+    v.setAttribute('controlsList','nodownload');
+    v.addEventListener('timeupdate',function(){
+      if(v.duration && v.currentTime/v.duration>=DONE_AT){var p=prog(); if(!p[l.num]){p[l.num]=Date.now(); save(p); paint();}}
+    });
+    v.addEventListener('ended',function(){var i=L.indexOf(l); if(i<L.length-1) go(L[i+1],false);});
+    v.addEventListener('error',function(){player.innerHTML='<div style="position:absolute;inset:0;display:grid;place-items:center;color:#fff;padding:1.5rem;text-align:center">This lesson could not load. Please refresh, or email support@certpathpublishing.store.</div>';});
+    player.innerHTML=''; player.appendChild(v);
+    var pr=v.play(); if(pr&&pr.catch) pr.catch(function(){});
+  }
+  function go(l,autoplay){
+    show(l);
+    if(autoplay) play(l); else poster(l);
+    if(history.replaceState) history.replaceState(null,'','#lesson-'+l.num);
+  }
+  player.addEventListener('click',function(ev){ if(ev.target.closest('.cp-yt-poster')) play(cur); });
+  items.forEach(function(a){
+    a.addEventListener('click',function(ev){
+      ev.preventDefault();
+      go(L.filter(function(l){return l.num===a.dataset.lesson})[0],true);
+      if(window.innerWidth<960) player.scrollIntoView({block:'center',behavior:'smooth'});
+    });
+  });
+  $('ccNext').addEventListener('click',function(){ go(L[(L.indexOf(cur)+1)%L.length],true); });
+  var m=/^#lesson-(\\d\\d)$/.exec(location.hash), start=m&&L.filter(function(l){return l.num===m[1]})[0];
+  if(start){ go(start,false); document.getElementById('course').scrollIntoView(); } else show(cur);
+  paint();
+})();
+  </script>
+"""
+
 PAGES = [
     dict(out="exams.html", path="/exams",
          title="Exam Directory — Find Your Exam | CertPath Publishing",
@@ -164,6 +376,11 @@ PAGES = [
          desc="Your CertPath practice tests, scores, unfinished attempts and free cheat sheets in one place.",
          extra_head='  <meta name="robots" content="noindex">\n', styles=PREMIUM_CSS, main=MY_MAIN,
          scripts='  <script src="/js/premium.js?v=13" defer></script>\n  <script src="/js/my.js?v=1" defer></script>\n'),
+    dict(out="cast-course.html", path="/cast-course",
+         title="Free CAST Exam Video Course — 10 Lessons | CertPath Publishing",
+         desc=f"Free CAST test prep video course: {len(_lessons)} lessons (about {_total_min} minutes) on mechanical concepts, reading comprehension, math and graphic arithmetic for the EEI Construction and Skilled Trades test. No sign-up.",
+         extra_head=CAST_COURSE_HEAD, styles=PREMIUM_CSS, main=CAST_COURSE_MAIN,
+         scripts='  <script src="/js/premium.js?v=13" defer></script>\n' + CAST_COURSE_JS),
 ]
 
 for p in PAGES:

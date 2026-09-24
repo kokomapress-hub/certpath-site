@@ -33,7 +33,7 @@ const urls = [
 // ones. Anything indexable belongs here; /sample, /my and /quiz are deliberately
 // left out because they are noindex or gated app pages, not landing pages.
 for (const p of ['sat', 'ged', 'tabe', 'ccrn', 'cast', 'mechanical-aptitude', 'journeyman-electrician', 'poss', 'csp', 'chst', 'psat', 'act',
-                 'pmp', 'capm', 'cnor', 'pmp-readiness']) {
+                 'pmp', 'capm', 'cnor', 'pmp-readiness', 'cast-course']) {
   if (fs.existsSync(path.join(ROOT, `${p}.html`))) {
     urls.push({ loc: `${SITE}/${p}`, priority: '0.9', changefreq: 'weekly', file: `${p}.html` });
   }

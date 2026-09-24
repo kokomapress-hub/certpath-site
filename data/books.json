@@ -18,7 +18,14 @@
       "amazonUrl": "https://www.amazon.com/dp/B0GWWTVNPM",
       "cheatsheetPrice": 1.99,
       "payhipEbookUrl": "https://payhip.com/b/Fphcy",
-      "payhipCheatsheetUrl": "https://payhip.com/b/mcNUK"
+      "payhipCheatsheetUrl": "https://payhip.com/b/mcNUK",
+      "course": {
+        "url": "/cast-course",
+        "lessons": 10,
+        "minutes": 86,
+        "free": true,
+        "poster": "/img/cast-course/01.webp"
+      }
     },
     {
       "slug": "mech-apt",

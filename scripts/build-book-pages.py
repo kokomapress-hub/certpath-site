@@ -66,6 +66,8 @@ def page(book, stats):
     if exam:  # plural, generic exam families read better without the article
         exam_name = exam_name[0].lower() + exam_name[1:] if exam["id"] in ("mech-apt", "journeyman") else "the " + exam_name
     owner = f" ({exam['owner']})" if exam and exam.get("owner") else ""
+    if exam and exam.get("owner") and exam["name"].startswith(exam["owner"] + " "):
+        owner = f" ({exam['acronym']})"  # "PMI Agile Certified Practitioner (PMI-ACP)", not "(PMI)"
     desc = (f"{kind(book)} for {exam_name}{owner}. The book includes an access code for "
             f"{stats['tests']} timed online practice tests — {stats['questions']:,} questions, each with a written explanation.")
     has_bonus = (ROOT / "bonus-pdfs" / f"{slug}-cheatsheet.pdf").exists()
@@ -111,6 +113,28 @@ def page(book, stats):
         <p style="margin-top:1.5rem">{hub}</p>
       </div>
     </section>''' if siblings else (f'<div class="cp-container" style="padding-bottom:var(--cp-section)" data-visitor-only>{hub}</div>' if hub else "")
+
+    course = book.get("course")
+    course_html = "    <!-- COURSE_SLOT: video course section renders here once books.json has a `course` object for this slug. -->"
+    if course:
+        price = "Free" if course.get("free") else "Included"
+        course_html = f'''
+    <section class="cp-section" id="course" style="padding-bottom:0">
+      <div class="cp-container">
+        <div class="cp-yt-grid" data-reveal>
+          <a class="cp-yt-player" href="{esc(course["url"])}" style="display:block" aria-label="Open the {esc(short)} video course">
+            <img src="{esc(course["poster"])}" alt="" width="1280" height="720" loading="lazy" decoding="async" style="width:100%;height:100%;object-fit:cover">
+            <span class="cp-yt-play" aria-hidden="true"><svg width="28" height="28" viewBox="0 0 24 24"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></span>
+          </a>
+          <div>
+            <span class="cp-eyebrow">{price} video course</span>
+            <h2 class="cp-h2">Watch the {esc(short)} course <em>{"free" if course.get("free") else "online"}.</em></h2>
+            <p class="cp-lead" style="margin:1rem 0 1.75rem">{course["lessons"]} short lessons, about {course["minutes"]} minutes in all, each tied to the matching pages of this book.{" No sign-up needed." if course.get("free") else ""}</p>
+            <a class="cp-btn cp-btn-primary" href="{esc(course["url"])}">Start the course <span class="cp-arrow" aria-hidden="true">→</span></a>
+          </div>
+        </div>
+      </div>
+    </section>'''
 
     rv = [r for r in REVIEWS if r.get("slug") == slug]
     review_html = ""
@@ -243,7 +267,7 @@ def page(book, stats):
       </div>
     </section>
 
-    <!-- COURSE_SLOT: video course section renders here once books.json has a `course` object for this slug. -->
+{course_html}
     <!-- BUNDLE_SLOT: complete-system / bundle offer renders here once books.json has a `bundle` object for this slug. -->
 {review_html}
 {buy}

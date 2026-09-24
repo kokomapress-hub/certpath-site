@@ -90,6 +90,7 @@ const PAGES = [
     headline: 'Prepare to Pass the <span class="gold">CAST Exam</span> with Confidence',
     sub: 'All-in-one prep for the EEI Construction and Skilled Trades test — graphic arithmetic, mechanical concepts, and reading comprehension. Try 10 exam-style practice questions below, free.',
     quizSource: 'cast',
+    course: { url: '/cast-course', label: 'Watch the free 10-lesson CAST video course' },
     relatedSlugs: ['cast', 'mech-apt', 'poss'],
     metaTitle: 'CAST Exam Study Guide (EEI Construction & Skilled Trades) — Free Practice | CertPath Publishing',
     metaDesc: 'CAST test prep for utility and skilled trades jobs. 3 full-length practice tests, 500+ questions, free timed online tests. Try 10 free sample questions.',
@@ -347,7 +348,7 @@ function renderPage(cfg) {
           <a href="#sample-quiz" class="btn btn-lg">Try 10 Free Questions</a>
           ${ctaBook.amazonUrl ? `<a href="${ctaBook.amazonUrl}" class="btn btn-secondary btn-lg" target="_blank" rel="noopener">Get the Book — $${ctaBook.paperbackPrice.toFixed(2)}</a>` : ''}
         </div>
-        <div class="lp-trust">${trustBar(cfg, related)}
+        ${cfg.course ? `<p class="lp-course" style="margin:0 0 1rem"><a href="${cfg.course.url}" style="color:var(--gold,#FFB800);font-weight:700">▶ ${esc(cfg.course.label)} →</a></p>\n        ` : ''}<div class="lp-trust">${trustBar(cfg, related)}
         </div>
       </div>
       <div class="lp-hero-cover">
