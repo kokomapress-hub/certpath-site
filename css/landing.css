@@ -94,3 +94,54 @@
 /* "Try free sample" link on homepage book cards */
 .book-sample-link { display: inline-block; margin-top: 0.5rem; font-size: 0.85rem; font-weight: 700; color: var(--gold-dark, #B8860B); text-decoration: none; }
 .book-sample-link:hover { text-decoration: underline; }
+
+/* Exam page: free-course popup on the hero cover */
+.lp-cover-wrap { position: relative; display: inline-block; }
+.lp-cover-pop { position: absolute; z-index: 2; bottom: -26px; left: -48px; width: 118px; height: 118px; border-radius: 50%; background: var(--gold); color: var(--navy); display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; text-decoration: none; line-height: 1.05; box-shadow: 0 12px 30px rgba(0,0,0,0.45), inset 0 0 0 3px rgba(255,255,255,0.35); transform: rotate(-10deg); animation: lp-pop 0.55s cubic-bezier(.2,1.6,.4,1) 0.6s both; }
+.lp-cover-pop b { font-size: 1.35rem; font-weight: 800; letter-spacing: 1px; }
+.lp-cover-pop span { font-size: 0.8rem; font-weight: 800; text-transform: uppercase; letter-spacing: .5px; margin: 2px 0 3px; }
+.lp-cover-pop small { font-size: 0.66rem; font-weight: 600; }
+.lp-cover-pop:hover, .lp-cover-pop:focus-visible { transform: rotate(-10deg) scale(1.06); }
+@keyframes lp-pop { from { opacity: 0; transform: rotate(-10deg) scale(0.2); } to { opacity: 1; transform: rotate(-10deg) scale(1); } }
+@media (prefers-reduced-motion: reduce) { .lp-cover-pop { animation: none; } }
+
+/* Exam page: free video course lesson grid */
+.lp-course-section { padding: 4rem 2rem; }
+.lp-lessons { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 1.25rem; margin-top: 2rem; }
+.lp-lesson { display: flex; flex-direction: column; text-decoration: none; color: var(--navy); border-radius: 10px; }
+.lp-lesson-thumb { position: relative; display: block; border-radius: 8px; overflow: hidden; aspect-ratio: 16 / 9; background: var(--gray-100); box-shadow: 0 6px 18px rgba(15,26,48,0.14); }
+.lp-lesson-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform .25s; }
+.lp-lesson:hover .lp-lesson-thumb img { transform: scale(1.04); }
+.lp-lesson-thumb em { position: absolute; right: 6px; bottom: 6px; background: rgba(8,19,38,.85); color: #fff; font-style: normal; font-size: .72rem; font-weight: 700; padding: 1px 6px; border-radius: 4px; }
+.lp-lesson-meta { font-size: .72rem; font-weight: 700; letter-spacing: .5px; text-transform: uppercase; color: var(--gray-500); margin: .7rem 0 .2rem; }
+.lp-lesson-title { font-size: .95rem; font-weight: 700; line-height: 1.35; }
+.lp-lesson:hover .lp-lesson-title { text-decoration: underline; }
+.lp-course-cta { text-align: center; margin: 2.25rem 0 0; }
+
+/* Exam page: featured book extras */
+.lp-book-points { margin: 0 0 1.4rem; padding: 0; list-style: none; }
+.lp-book-points li { position: relative; padding-left: 1.5rem; margin-bottom: .45rem; color: var(--gray-700); line-height: 1.5; }
+.lp-book-points li::before { content: ""; position: absolute; left: 0; top: .5em; width: .6rem; height: .6rem; border-radius: 50%; background: var(--gold); }
+.lp-also { text-align: center; color: var(--navy); font-size: 1.15rem; margin: 3rem 0 0; }
+
+/* Exam page: facts at a glance */
+.lp-facts { padding: 4rem 2rem; background: var(--gray-50); }
+.lp-fact-stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 1rem; margin: 2rem 0 1.5rem; }
+.lp-fact-stats div { background: #fff; border: 1px solid var(--gray-100); border-radius: 12px; padding: 1.1rem 1.2rem; }
+.lp-fact-stats strong { display: block; color: var(--navy); font-size: 1.7rem; font-weight: 800; line-height: 1.1; }
+.lp-fact-stats span { display: block; color: var(--gray-500); font-size: .85rem; line-height: 1.4; margin-top: .3rem; }
+.lp-fact-table-wrap { overflow-x: auto; background: #fff; border: 1px solid var(--gray-100); border-radius: 12px; }
+.lp-fact-table { width: 100%; border-collapse: collapse; font-size: .95rem; min-width: 520px; }
+.lp-fact-table th, .lp-fact-table td { text-align: left; padding: .85rem 1.1rem; border-bottom: 1px solid var(--gray-100); color: var(--gray-700); vertical-align: top; }
+.lp-fact-table thead th { background: var(--navy); color: #fff; font-size: .8rem; letter-spacing: .5px; text-transform: uppercase; }
+.lp-fact-table tbody th { color: var(--navy); font-weight: 700; white-space: nowrap; }
+.lp-fact-table tbody tr:last-child > * { border-bottom: 0; }
+.lp-fact-table td:nth-child(2), .lp-fact-table td:nth-child(3) { white-space: nowrap; font-weight: 600; }
+@media (max-width: 860px) {
+  .lp-cover-pop { width: 96px; height: 96px; bottom: -18px; left: -40px; }
+  .lp-cover-pop b { font-size: 1.1rem; }
+  .lp-cover-pop span { font-size: .68rem; }
+  .lp-cover-pop small { font-size: .58rem; }
+  .lp-course-section, .lp-facts { padding: 3rem 1rem; }
+  .lp-lessons { grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+}

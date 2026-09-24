@@ -91,15 +91,34 @@ const PAGES = [
     sub: 'All-in-one prep for the EEI Construction and Skilled Trades test — graphic arithmetic, mechanical concepts, and reading comprehension. Try 10 exam-style practice questions below, free.',
     quizSource: 'cast',
     course: { url: '/cast-course', label: 'Watch the free 10-lesson CAST video course' },
+    // Buyer journey on this page: questions -> free course -> the book on Amazon -> CAST facts.
+    courseSection: 'data/cast-course.json',
+    featuredBook: true,
+    coverBadge: { top: 'FREE', main: 'Video course', sub: '10 lessons · 86 min', href: '#course' },
+    facts: {
+      intro: 'The CAST is the Edison Electric Institute (EEI) selection test that utilities and energy companies use to screen applicants for construction and skilled-trades jobs — line worker, substation, meter, gas and similar roles.',
+      sections: [
+        ['Mechanical Concepts', 44, 20, 'Pictures of levers, pulleys, gears and other machines; everyday physics'],
+        ['Reading for Comprehension', 32, 30, 'Short technical and safety passages'],
+        ['Mathematical Usage', 18, 7, 'Arithmetic, fractions, percents and basic algebra — about 23 seconds a question'],
+        ['Graphic Arithmetic', 16, 30, 'Reading measurements off drawings and floor plans to find lengths, areas and volumes'],
+      ],
+      points: [
+        ['1–10', 'Results are reported on an index; each employer sets its own qualifying score'],
+        ['4', 'Separately timed sections — you cannot carry spare time into the next one'],
+        ['7 min', 'For 18 math questions, the tightest clock on the test'],
+      ],
+    },
     relatedSlugs: ['cast', 'mech-apt', 'poss'],
     metaTitle: 'CAST Exam Study Guide (EEI Construction & Skilled Trades) — Free Practice | CertPath Publishing',
-    metaDesc: 'CAST test prep for utility and skilled trades jobs. 3 full-length practice tests, 500+ questions, free timed online tests. Try 10 free sample questions.',
+    metaDesc: 'CAST test prep for utility and skilled trades jobs: 10 free practice questions, a free 10-lesson video course, and the CAST Exam Study Guide with 3 timed online practice tests.',
     disclaimer: 'CAST and the Construction and Skilled Trades Selection System are trademarks of their respective owners, who are not affiliated with and do not endorse this publication.',
     faqs: [
-      ['What is the CAST test?', 'CAST (Construction and Skilled Trades) is the EEI selection test used by utilities and energy companies for trades roles — line worker, substation, meter, gas, and similar positions. It has four parts: graphic arithmetic, mechanical concepts, reading comprehension, and mathematical usage.'],
-      ['What score do I need to pass the CAST?', 'Each employer sets its own cutoff, reported on a 1-10 index. Most utilities look for a minimum index around 4-6 for trades positions. Higher scores improve your ranking against other applicants.'],
-      ['How should I prepare for the CAST?', 'Practice under timed conditions. The math is not advanced, but the pacing is aggressive — graphic arithmetic gives you about 30 problems in 30 minutes reading values off drawings. Our book includes 3 full-length timed tests that mirror the real pacing.'],
-      ['What is included with the CertPath CAST book?', 'A complete review of all four test parts, 500+ practice questions with detailed answer explanations, 3 full-length practice tests, and free timed online practice tests (330 questions) via the access code in the book.'],
+      ['What is the CAST test?', 'CAST (Construction and Skilled Trades) is the EEI selection test used by utilities and energy companies for trades roles — line worker, substation, meter, gas, and similar positions. It has four timed parts: mechanical concepts, reading for comprehension, mathematical usage, and graphic arithmetic — 110 questions in 87 minutes of testing.'],
+      ['What score do I need to pass the CAST?', 'There is no single passing score. Results are reported on a 1-10 index and each employer sets its own qualifying score for each job. A higher score also improves your ranking against other applicants.'],
+      ['How should I prepare for the CAST?', 'Practice under timed conditions. The math is not advanced, but the pacing is aggressive — the Mathematical Usage section gives you 7 minutes for 18 questions, about 23 seconds each. Watch the free video course, then take the timed practice tests to build speed.'],
+      ['What is included with the CertPath CAST book?', 'A complete review of all four test parts with worked examples, practice questions with answer explanations, 3 full-length practice tests in the book, and an access code for 3 timed online practice tests (330 questions, each explained). The free 10-lesson video course follows the book chapter by chapter.'],
+      ['Where can I buy the CertPath CAST book?', 'The paperback is sold only on Amazon — buy it new from Amazon.com to be sure you get the current edition. A PDF e-book edition is also available directly from CertPath.'],
       ['Are the online practice tests really free?', 'Yes. The book includes a unique access code printed on the last page. Enter it at certpathpublishing.store/access for timed, auto-scored tests on any device.'],
     ],
   },
@@ -285,6 +304,97 @@ function trustBar(cfg, related) {
           <div><strong>FREE</strong> with the book</div>`;
 }
 
+function mmss(s) { return `${Math.floor(s / 60)}:${String(s % 60).padStart(2, '0')}`; }
+
+// Free video course block: every lesson deep-links into the course player.
+function courseSection(cfg) {
+  if (!cfg.courseSection) return '';
+  const c = JSON.parse(fs.readFileSync(path.join(ROOT, cfg.courseSection), 'utf8'));
+  const mins = Math.round(c.lessons.reduce((t, l) => t + l.seconds, 0) / 60);
+  const cards = c.lessons.map(l => `
+        <a class="lp-lesson" href="${cfg.course.url}#lesson-${l.num}">
+          <span class="lp-lesson-thumb"><img src="/img/cast-course/${l.num}-sm.webp" alt="" width="240" height="135" loading="lazy" decoding="async"><em>${mmss(l.seconds)}</em></span>
+          <span class="lp-lesson-meta">Lesson ${l.num} · ${esc(l.module)}</span>
+          <span class="lp-lesson-title">${esc(l.title)}</span>
+        </a>`).join('');
+  return `
+  <section class="lp-course-section" id="course">
+    <div class="lp-books-inner">
+      <div class="lp-section-head">
+        <div class="eyebrow">Free Video Course</div>
+        <h2>Watch the ${esc(cfg.exam)} Course — Free</h2>
+        <p>${c.lessons.length} short lessons, about ${mins} minutes in all, covering every part of the test. No sign-up. Each lesson follows a chapter of the book.</p>
+      </div>
+      <div class="lp-lessons">${cards}
+      </div>
+      <p class="lp-course-cta"><a href="${cfg.course.url}" class="btn btn-lg">Start lesson 1 →</a></p>
+    </div>
+  </section>
+`;
+}
+
+// Single-book spotlight: the exam's own book first, sister titles as small cards after.
+function featuredBookSection(cfg, related, heroBook) {
+  const others = related.filter(b => b !== heroBook);
+  return `
+  <section class="lp-books" id="book">
+    <div class="lp-books-inner">
+      <div class="lp-book-cta">
+        <div class="lp-book-cta-cover"><a href="${bookHref(heroBook)}"${bookExt(heroBook)}><img src="${heroBook.cover}" alt="${esc(heroBook.title)}" loading="lazy"></a></div>
+        <div class="lp-book-cta-body">
+          <div class="eyebrow">The Book · Sold on Amazon</div>
+          <h2>${esc(heroBook.title)}</h2>
+          <p>Every part of the ${esc(cfg.exam)} explained with worked examples, practice questions with answer explanations and 3 full-length practice tests in the book — plus an access code for ${heroBook.testCount} timed online practice tests (${heroBook.totalQuestions.toLocaleString()} questions, each explained).</p>
+          <ul class="lp-book-points">
+            <li>${heroBook.testCount} timed online tests, auto-scored, on any device</li>
+            <li>Free ${cfg.course ? '10-lesson video course that follows the book' : 'online practice'}</li>
+            <li>Paperback sold only on Amazon — buy new from Amazon.com for the current edition</li>
+          </ul>
+          <div class="lp-book-cta-row">
+            ${heroBook.amazonUrl ? `<a href="${heroBook.amazonUrl}" class="btn btn-lg" target="_blank" rel="noopener">Buy on Amazon — $${heroBook.paperbackPrice.toFixed(2)}</a>` : ''}
+            ${heroBook.payhipEbookUrl ? `<a href="${heroBook.payhipEbookUrl}" class="btn btn-lg btn-outline" target="_blank" rel="noopener">PDF e-book $${heroBook.ebookPrice.toFixed(2)}</a>` : ''}
+          </div>
+          <p class="lp-book-cta-have">Already have the book? <a href="/books/${heroBook.slug}">Open your practice tests →</a></p>
+        </div>
+      </div>${others.length ? `
+      <h3 class="lp-also">Also for utility and trades candidates</h3>
+      <div class="lp-books-grid">${others.map(bookCard).join('')}</div>` : ''}
+    </div>
+  </section>
+`;
+}
+
+function factsSection(cfg) {
+  const f = cfg.facts;
+  if (!f) return '';
+  const totQ = f.sections.reduce((t, s) => t + s[1], 0);
+  const totM = f.sections.reduce((t, s) => t + s[2], 0);
+  return `
+  <section class="lp-facts" id="facts">
+    <div class="lp-books-inner">
+      <div class="lp-section-head">
+        <div class="eyebrow">About the Test</div>
+        <h2>${esc(cfg.exam)} Facts at a Glance</h2>
+        <p>${esc(f.intro)}</p>
+      </div>
+      <div class="lp-fact-stats">
+        <div><strong>${totQ}</strong><span>Questions</span></div>
+        <div><strong>${totM}</strong><span>Minutes of timed testing</span></div>${f.points.map(([big, txt]) => `
+        <div><strong>${esc(big)}</strong><span>${esc(txt)}</span></div>`).join('')}
+      </div>
+      <div class="lp-fact-table-wrap">
+        <table class="lp-fact-table">
+          <thead><tr><th scope="col">Section</th><th scope="col">Questions</th><th scope="col">Time</th><th scope="col">What it tests</th></tr></thead>
+          <tbody>${f.sections.map(([n, q, m, what]) => `
+            <tr><th scope="row">${esc(n)}</th><td>${q}</td><td>${m} min</td><td>${esc(what)}</td></tr>`).join('')}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+`;
+}
+
 function renderPage(cfg) {
   const related = cfg.relatedSlugs.map(s => books.find(b => b.slug === s)).filter(b => b && b.published);
   // Lead with a book people can actually buy; a title with no Amazon listing (not yet
@@ -321,7 +431,7 @@ function renderPage(cfg) {
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/css/style.css?v=10">
-  <link rel="stylesheet" href="/css/landing.css?v=1">
+  <link rel="stylesheet" href="/css/landing.css?v=2">
   <script type="application/ld+json">${JSON.stringify(faqLd)}</script>
 </head>
 <body>
@@ -352,7 +462,8 @@ function renderPage(cfg) {
         </div>
       </div>
       <div class="lp-hero-cover">
-        <a href="${bookHref(heroBook)}"${bookExt(heroBook)}><img src="${heroBook.cover}" alt="${esc(heroBook.title)}" loading="eager"></a>
+        ${cfg.coverBadge ? '<div class="lp-cover-wrap">' : ''}<a href="${bookHref(heroBook)}"${bookExt(heroBook)}><img src="${heroBook.cover}" alt="${esc(heroBook.title)}" loading="eager"></a>${cfg.coverBadge ? `
+        <a class="lp-cover-pop" href="${cfg.coverBadge.href}"><b>${esc(cfg.coverBadge.top)}</b><span>${esc(cfg.coverBadge.main)}</span><small>${esc(cfg.coverBadge.sub)}</small></a></div>` : ''}
       </div>
     </div>
   </section>
@@ -374,7 +485,7 @@ function renderPage(cfg) {
       </div>
     </div>
   </section>
-
+${courseSection(cfg)}${cfg.featuredBook ? featuredBookSection(cfg, related, heroBook) : `
   <section class="lp-books">
     <div class="lp-books-inner">
       <div class="lp-section-head">
@@ -385,7 +496,7 @@ function renderPage(cfg) {
       <div class="lp-books-grid">${related.map(bookCard).join('')}</div>
     </div>
   </section>
-
+`}${factsSection(cfg)}
   <section class="lp-faq">
     <div class="lp-faq-inner">
       <div class="lp-section-head" style="margin-bottom: 2rem;">
