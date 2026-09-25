@@ -370,7 +370,7 @@ PAGES = [
          # legacy style.css still styles the unlocked-library cards that app.js renders
          styles='  <link rel="stylesheet" href="/css/style.css?v=12">\n' + PREMIUM_CSS + '  <link rel="stylesheet" href="/css/premium-bridge.css?v=1">\n',
          main=ACCESS_MAIN,
-         scripts='  <script src="/js/premium.js?v=13" defer></script>\n  <script src="/js/app.js?v=20260923"></script>\n'),
+         scripts='  <script src="/js/premium.js?v=13" defer></script>\n  <script src="/js/app.js?v=20260925"></script>\n'),
     dict(out="my.html", path="/my",
          title="My Study Page — CertPath Publishing",
          desc="Your CertPath practice tests, scores, unfinished attempts and free cheat sheets in one place.",

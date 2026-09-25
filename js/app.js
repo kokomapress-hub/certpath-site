@@ -24,7 +24,11 @@ async function loadBooks() {
 }
 
 function getUnlocked() {
-  try { return JSON.parse(localStorage.getItem(STORAGE_KEY) || '{"slugs":[],"isAdmin":false}'); }
+  try {
+    const s = JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}');
+    if (Array.isArray(s)) return { slugs: s, isAdmin: false };
+    return { slugs: Array.isArray(s && s.slugs) ? s.slugs : [], isAdmin: !!(s && s.isAdmin) };
+  }
   catch { return { slugs: [], isAdmin: false }; }
 }
 const COMPLETED_KEY = "certpath_completed";
@@ -242,11 +246,15 @@ async function initAccessPage() {
   const params = new URLSearchParams(location.search);
   const codeFromUrl = params.get('code');
   if (codeFromUrl) document.getElementById('code').value = codeFromUrl.toUpperCase();
-  // Codes handed over from /pmp, /capm travel in sessionStorage, never in the URL.
+  // Codes handed over from /pmp, /capm, /check-code travel in sessionStorage, never in the URL.
+  let pending = null;
   try {
-    const pending = sessionStorage.getItem('certpath_pending_code');
+    pending = sessionStorage.getItem('certpath_pending_code');
     if (pending) { document.getElementById('code').value = pending; sessionStorage.removeItem('certpath_pending_code'); }
   } catch (e) {}
+  // A code arriving with the visit must be processed even when this browser already
+  // has other books unlocked — otherwise "Welcome back" swallows it.
+  const handedCode = !!(codeFromUrl || pending);
   const nameInput = document.getElementById('firstName');
   if (nameInput && getName()) nameInput.value = getName();
 
@@ -263,17 +271,32 @@ async function initAccessPage() {
   syncAdminUI(); // initial pass for prefilled code
 
   const unlocked = getUnlocked();
-  if (unlocked.slugs.length > 0 || unlocked.isAdmin) {
+  if (!handedCode && (unlocked.slugs.length > 0 || unlocked.isAdmin)) {
     const data = await loadBooks();
     const books = unlocked.isAdmin ? data.books : data.books.filter(b => unlocked.slugs.includes(b.slug));
     if (books.length > 0) {
       renderUnlockedBooks(books, unlocked.isAdmin);
-      form.parentElement.innerHTML = `
+      // Keep the form in the page (hidden) so "Add another access code" can reveal it
+      // without clearing the books already unlocked on this browser.
+      const panel = form.parentElement;
+      const intro = [...panel.children].filter(el => el !== form);
+      intro.forEach(el => { el.hidden = true; });
+      form.hidden = true;
+      const welcome = document.createElement('div');
+      welcome.innerHTML = `
         <h2>Welcome back${getName() ? ', ' + getName().replace(/[<>&"]/g, '') : ''}</h2>
         <p>You have ${unlocked.isAdmin ? 'admin access' : books.length === 1 ? '1 book' : books.length + ' books'} unlocked.</p>
-        <button class="btn btn-outline" onclick="resetAccess()">Add Another Access Code</button>
+        <button type="button" class="btn btn-outline" id="addCodeBtn">Add Another Access Code</button>
+        <p style="margin-top:.75rem;font-size:.85rem"><a href="#" id="clearBooksLink">Clear unlocked books on this browser</a></p>
       `;
-      return;
+      panel.prepend(welcome);
+      document.getElementById('addCodeBtn').addEventListener('click', () => {
+        welcome.remove();
+        intro.forEach(el => { el.hidden = false; });
+        form.hidden = false;
+        document.getElementById('code').focus();
+      });
+      document.getElementById('clearBooksLink').addEventListener('click', (e) => { e.preventDefault(); resetAccess(); });
     }
   }
 
@@ -336,15 +359,33 @@ async function initAccessPage() {
       try {
         const pages = await (await fetch('/data/book-pages.json')).json();
         const wanted = new URLSearchParams(location.search).get('book');
-        const pick = result.books.find(b => b.slug === wanted) || result.books[0];
+        const pick = result.books.find(b => b.slug === wanted) || (result.books.length === 1 ? result.books[0] : null);
         const target = pick && pages[pick.slug];
         if (target && target.startsWith('/books/')) { location.href = target; return; }
+        // A series code (SAT/PSAT/ACT/GED) covers several books: ask which one they own
+        // so each reader lands on their own book's page, not the first in the list.
+        const choices = pick ? [] : result.books.filter(b => (pages[b.slug] || '').startsWith('/books/'));
+        if (choices.length > 1) {
+          const panel = form.parentElement;
+          const esc = s => String(s).replace(/[<>&"]/g, '');
+          panel.innerHTML = `
+            <h2>Code accepted</h2>
+            <p>This code unlocks ${choices.length} books in the series. Which book do you have?</p>
+            <div style="display:grid;gap:.6rem;margin-top:1rem">
+              ${choices.map(b => `<a class="btn btn-outline" href="${esc(pages[b.slug])}">${esc(b.title || b.shortName || b.slug)}</a>`).join('')}
+            </div>`;
+          return;
+        }
       } catch (e) { /* fall back to the library below */ }
     }
 
     renderUnlockedBooks(result.books, result.isAdmin);
     form.parentElement.style.display = 'none';
   });
+
+  // Code handed over (from /check-code, /pmp, /capm, ?code=) and we already know this
+  // reader's email: open the book straight away instead of asking them to click again.
+  if (handedCode && getEmail()) form.requestSubmit();
 }
 
 function resetAccess() {
