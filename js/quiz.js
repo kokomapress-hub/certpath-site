@@ -9,6 +9,7 @@ let bookMeta = null; // books.json entry (carries the `sequential` flag)
 let test = null;
 let currentIdx = 0;
 let answers = {};
+let checked = {}; // instant mode: multi/order/match/hotspot questions the user has checked
 let startTime = 0;
 let endTime = 0;
 let timerInterval = null;
@@ -25,7 +26,7 @@ function saveProgress() {
   if (!book || !test || !startTime || endTime) return;
   try {
     const all = getProgressAll();
-    all[progressId()] = { answers, idx: currentIdx, timeLeft, elapsed: elapsedBefore + (Date.now() - startTime),
+    all[progressId()] = { answers, checked, idx: currentIdx, timeLeft, elapsed: elapsedBefore + (Date.now() - startTime),
       total: test.questions.length, title: book.title, at: new Date().toISOString() };
     localStorage.setItem(PROGRESS_KEY, JSON.stringify(all));
   } catch {}
@@ -212,7 +213,7 @@ function startQuiz() {
   endTime = 0;
   startTime = Date.now();
   currentIdx = 0;
-  answers = {};
+  answers = {}; checked = {};
   renderQuiz();
   startTimer();
 }
@@ -221,6 +222,7 @@ function resumeQuiz() {
   const p = getProgress();
   if (!p) return startQuiz();
   answers = p.answers || {};
+  checked = p.checked || {};
   currentIdx = Math.min(Math.max(0, p.idx || 0), test.questions.length - 1);
   if (p.timeLeft > 0) timeLeft = p.timeLeft;
   elapsedBefore = p.elapsed || 0;
@@ -332,30 +334,46 @@ function rightsPool(q) { if (!q._rights) q._rights = seededShuffle(q.pairs.map(p
 function escAttr(s) { return String(s).replace(/&/g, '&amp;').replace(/"/g, '&quot;'); }
 
 function renderBody(q, selected) {
+  if (isInstant() && needsCheck(q) && isRevealed(q)) return reviewBody(q, selected);
   if (q.type === 'order') return renderOrder(q);
   if (q.type === 'match') return renderMatch(q);
   if (q.type === 'hotspot') return renderHotspot(q);
   return renderChoices(q, selected);
 }
-// ---- Instant-feedback (study) mode: books.json { instantFeedback:true } ----
-function isInstant() { return !!(bookMeta && bookMeta.instantFeedback); }
+// ---- Instant-feedback (study) mode: on for every book unless books.json sets instantFeedback:false ----
+function isInstant() { return !(bookMeta && bookMeta.instantFeedback === false); }
 function normAns(v) { return normSet(v || '').split(',').filter(Boolean).sort().join(','); }
-function answerIsCorrect(q) { const u = normAns(answers[q.num]); return u !== '' && u === normAns(q.answer); }
-// A single-answer choice question that has been answered while in instant mode.
-function isRevealed(q) { return isInstant() && !isMulti(q) && q.type !== 'order' && q.type !== 'match' && q.type !== 'hotspot' && answers[q.num] != null; }
+function answerIsCorrect(q) { const a = answers[q.num]; return a != null && a !== '' && !!isCorrect(q, a); }
+// Single-answer choices reveal on click; multi / order / match / hotspot reveal after "Check answer".
+function needsCheck(q) { return isMulti(q) || q.type === 'order' || q.type === 'match' || q.type === 'hotspot'; }
+function isRevealed(q) {
+  if (!isInstant() || answers[q.num] == null) return false;
+  return needsCheck(q) ? !!checked[q.num] : true;
+}
+function checkAnswer() { const q = test.questions[currentIdx];
+  if (q.type === 'order' && answers[q.num] == null) answers[q.num] = JSON.stringify(getOrder(q));
+  if (answers[q.num] != null) { checked[q.num] = true; renderQuiz(); } }
 function liveScore() {
   let c = 0, a = 0;
-  test.questions.forEach(q => { if (answers[q.num] != null) { a++; if (answerIsCorrect(q)) c++; } });
+  test.questions.forEach(q => { if (isRevealed(q)) { a++; if (answerIsCorrect(q)) c++; } });
   return { c, a, t: test.questions.length };
 }
+function correctText(q) {
+  if (q.type === 'order') return 'the correct order is shown above';
+  if (q.type === 'match' || q.type === 'hotspot') return 'shown above';
+  return normSet(q.answer).split(',').join(', ');
+}
 function instantFeedbackHTML(q) {
-  if (!isRevealed(q)) return '';
+  if (!isInstant()) return '';
+  if (!isRevealed(q)) {
+    return needsCheck(q) && (answers[q.num] != null || q.type === 'order')
+      ? `<div style="margin-top:1rem"><button class="btn" onclick="checkAnswer()">Check answer</button></div>` : '';
+  }
   const ok = answerIsCorrect(q);
-  const corr = normSet(q.answer).split(',').join(', ');
   const banner = ok
     ? `<div class="fb-banner ok">&#10003; Correct</div>`
-    : `<div class="fb-banner no">&#10007; Incorrect &mdash; correct answer: ${corr}</div>`;
-  const expl = q.explanation ? `<div class="fb-expl">${q.explanation}</div>` : '';
+    : `<div class="fb-banner no">&#10007; Incorrect &mdash; correct answer: ${correctText(q)}</div>`;
+  const expl = q.explanation ? `<div class="fb-expl"><strong>Explanation:</strong> ${q.explanation}</div>` : '';
   return banner + expl;
 }
 function renderChoices(q, selected) {
