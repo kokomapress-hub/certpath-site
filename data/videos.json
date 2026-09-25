@@ -60,33 +60,158 @@
  ],
  "mech-apt": [
   {
-   "label": "Free lessons",
-   "playlist": null,
+   "label": "Full course",
+   "playlist": "PLFbmqdwVOD9Y",
    "videos": [
     {
      "id": "3xkp9s8ATm8",
-     "title": "Mechanical Aptitude Test Explained: Bennett, Wiesen, Ramsay and Criteria",
+     "title": "Lesson 1: Mechanical Aptitude Test Explained: Bennett, Wiesen, Ramsay and Criteria (How to Prepare)",
      "duration": "5:04"
     },
     {
      "id": "3IETx5lBJzo",
-     "title": "Speed vs Velocity and Distance vs Displacement",
+     "title": "Lesson 2: Speed vs Velocity and Distance vs Displacement",
      "duration": "5:43"
     },
     {
      "id": "iIO6039PjrA",
-     "title": "Acceleration and Free Fall: Which One Lands First?",
+     "title": "Lesson 3: Acceleration and Free Fall: Which One Lands First?",
      "duration": "5:45"
     },
     {
      "id": "k-qZ-KseFUY",
-     "title": "Newton's Three Laws of Motion Explained Simply",
+     "title": "Lesson 4: Newton's Three Laws of Motion Explained Simply",
      "duration": "6:00"
     },
     {
      "id": "77UIob1T5gc",
-     "title": "Friction Explained: Static vs Kinetic vs Rolling",
+     "title": "Lesson 5: Friction Explained: Static vs Kinetic vs Rolling",
      "duration": "5:07"
+    },
+    {
+     "id": "WpXSNfYf6D4",
+     "title": "Lesson 6: Work, Energy and Power Made Simple",
+     "duration": "6:26"
+    },
+    {
+     "id": "oFtlwX3hRN0",
+     "title": "Lesson 7: First-Class Levers: Solve Lever Math in Seconds",
+     "duration": "5:06"
+    },
+    {
+     "id": "yg50w80WWf8",
+     "title": "Lesson 8: Second- and Third-Class Levers: Wheelbarrows, Tweezers and the Trap",
+     "duration": "5:01"
+    },
+    {
+     "id": "CqdgOrScvq8",
+     "title": "Lesson 9: Inclined Planes, Wedges and Screws Explained",
+     "duration": "5:27"
+    },
+    {
+     "id": "Qq_m9gDxnKU",
+     "title": "Lesson 10: Fixed vs Movable Pulleys: Count the Ropes",
+     "duration": "5:17"
+    },
+    {
+     "id": "AutfZxFROP4",
+     "title": "Lesson 11: Block and Tackle and Wheel-and-Axle Explained",
+     "duration": "5:14"
+    },
+    {
+     "id": "OriMi8xnr9U",
+     "title": "Lesson 12: Mechanical Advantage and Efficiency: The Formulas You Need",
+     "duration": "5:17"
+    },
+    {
+     "id": "5BWs65uvXmc",
+     "title": "Lesson 13: Gear Direction and Idler Gears: Which Way Does It Turn?",
+     "duration": "4:37"
+    },
+    {
+     "id": "8udnxxmK9KQ",
+     "title": "Lesson 14: Gear Ratio, Speed and Torque Explained",
+     "duration": "5:04"
+    },
+    {
+     "id": "TnvHgu5iLtY",
+     "title": "Lesson 15: Belts, Chains and Sprockets Explained",
+     "duration": "4:42"
+    },
+    {
+     "id": "Byp4gYoJSoY",
+     "title": "Lesson 16: Torque and Rotational Motion Explained",
+     "duration": "7:34"
+    },
+    {
+     "id": "55J6YkR6fwg",
+     "title": "Lesson 17: Pressure and Pascal's Principle Explained",
+     "duration": "8:38"
+    },
+    {
+     "id": "V7m0DEiLl5c",
+     "title": "Lesson 18: Hydraulic and Pneumatic Systems: Hydraulic Lift Math",
+     "duration": "8:58"
+    },
+    {
+     "id": "zGaqD-8FA_Y",
+     "title": "Lesson 19: Fluid Flow and Bernoulli's Principle Explained",
+     "duration": "8:04"
+    },
+    {
+     "id": "Nzo1pBirLl0",
+     "title": "Lesson 20: Buoyancy and Archimedes' Principle: Will It Float?",
+     "duration": "9:13"
+    },
+    {
+     "id": "8KukWaIB6jk",
+     "title": "Lesson 21: Voltage, Current, Resistance and Ohm's Law",
+     "duration": "6:53"
+    },
+    {
+     "id": "FCVe68ko1Gc",
+     "title": "Lesson 22: Series vs Parallel Circuits Explained",
+     "duration": "7:47"
+    },
+    {
+     "id": "aSUrzO6Gg_4",
+     "title": "Lesson 23: Electrical Power, Grounding and AC vs DC",
+     "duration": "8:16"
+    },
+    {
+     "id": "qf7RYnhpVQs",
+     "title": "Lesson 24: Heat, Temperature and Thermal Expansion",
+     "duration": "6:46"
+    },
+    {
+     "id": "3IYa9auCi2A",
+     "title": "Lesson 25: Conduction, Convection and Radiation Explained",
+     "duration": "8:31"
+    },
+    {
+     "id": "ZuGf_lkbReY",
+     "title": "Lesson 26: Common Hand Tools and Their Uses",
+     "duration": "9:09"
+    },
+    {
+     "id": "2nI2tK2P7qc",
+     "title": "Lesson 27: Power Tools, Fasteners and Materials",
+     "duration": "8:27"
+    },
+    {
+     "id": "MHMMKLHnoCU",
+     "title": "Lesson 28: Spatial Reasoning: Rotation and Folding Questions",
+     "duration": "7:45"
+    },
+    {
+     "id": "coKs7Gmyeoc",
+     "title": "Lesson 29: Pattern Recognition and Assembly Problems",
+     "duration": "8:10"
+    },
+    {
+     "id": "IJGgRgEtuvM",
+     "title": "Lesson 30: Light, Sound, Centre of Gravity and Structures",
+     "duration": "8:36"
     }
    ]
   }
