@@ -3,15 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Access My Practice Tests — CertPath Publishing</title>
-  <meta name="description" content="Enter the access code printed in your CertPath book to open its included online practice tests.">
+  <title>Check an Access Code — CertPath Publishing</title>
+  <meta name="robots" content="noindex">
+  <meta name="description" content="Check whether a CertPath book access code works and which book it unlocks.">
   <link rel="icon" type="image/png" href="/img/logo-mark.png">
-  <link rel="canonical" href="https://certpathpublishing.store/access">
+  <link rel="canonical" href="https://certpathpublishing.store/check-code">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="CertPath Publishing">
-  <meta property="og:title" content="Access My Practice Tests — CertPath Publishing">
-  <meta property="og:description" content="Enter the access code printed in your CertPath book to open its included online practice tests.">
-  <meta property="og:url" content="https://certpathpublishing.store/access">
+  <meta property="og:title" content="Check an Access Code — CertPath Publishing">
+  <meta property="og:description" content="Check whether a CertPath book access code works and which book it unlocks.">
+  <meta property="og:url" content="https://certpathpublishing.store/check-code">
   <script>document.documentElement.classList.add('cp-js');setTimeout(function(){if(!window.__cpReady)document.documentElement.classList.remove('cp-js')},2500);</script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,6 +20,13 @@
   <link rel="stylesheet" href="/css/style.css?v=12">
   <link rel="stylesheet" href="/css/premium.css?v=11">
   <link rel="stylesheet" href="/css/premium-bridge.css?v=1">
+  <style>
+    .cc-result { margin-top: 1rem; padding: .9rem 1rem; border-radius: 10px; font-size: .95rem; line-height: 1.5; }
+    .cc-result ul { margin: .4rem 0 .8rem 1.1rem; }
+    .cc-result code { font-family: ui-monospace, Menlo, monospace; }
+    .cc-ok { background: #ECF8F1; border: 1px solid #9ED3B4; color: #14532D; }
+    .cc-bad { background: #FDF0EF; border: 1px solid #F0B4AE; color: #7F1D1D; }
+  </style>
 </head>
 <body class="cp">
   <a class="cp-skip" href="#main">Skip to content</a>
@@ -60,39 +68,20 @@
   <main id="main" class="cp-access">
     <div class="cp-container">
       <div class="cp-access-panel form-card">
-        <h1>Access your practice tests</h1>
-        <p>Enter the code from your book to open its included practice tests.</p>
+        <h1>Check an access code</h1>
+        <p>Find out whether a book access code works and which book it opens. This only checks the code. It does not unlock anything or ask for your email.</p>
 
-        <form id="accessForm" novalidate>
+        <form id="checkForm" novalidate>
           <div class="form-group">
             <label for="code">Book access code</label>
-            <input type="text" id="code" required autocomplete="off" autocapitalize="characters" spellcheck="false" aria-describedby="codeHint errorMsg">
-            <div class="hint" id="codeHint">Printed on the last page of your book — for example <span style="font-family:ui-monospace,Menlo,monospace">CAST-XXXXX-XXXXX</span>. Paste it in; hyphens, spaces and capitals don't matter.</div>
+            <input type="text" id="code" required autocomplete="off" autocapitalize="characters" spellcheck="false" aria-describedby="codeHint checkResult">
+            <div class="hint" id="codeHint">For example <span style="font-family:ui-monospace,Menlo,monospace">POSS-XXXXX-XXXXX</span>. Hyphens, spaces and capitals don't matter.</div>
           </div>
-          <div class="form-group">
-            <label for="firstName">First name <span style="font-weight:400;color:#526176">(optional)</span></label>
-            <input type="text" id="firstName" autocomplete="given-name" maxlength="40">
-            <div class="hint">So we can greet you — it appears at the top of the site on this browser.</div>
-          </div>
-          <div class="form-group" id="emailGroup">
-            <label for="email">Email address</label>
-            <input type="email" id="email" autocomplete="email" aria-describedby="emailHint">
-            <div class="hint" id="emailHint">Used to register your access. We also send occasional study tips for your exam — unsubscribe any time.</div>
-          </div>
-          <button type="submit" class="btn btn-block btn-lg">Open my practice tests</button>
-          <div class="message error" id="errorMsg" role="alert"></div>
+          <button type="submit" class="btn btn-block btn-lg">Check code</button>
+          <div id="checkResult" class="cc-result" role="status" aria-live="polite" hidden></div>
         </form>
       </div>
-      <p class="cp-access-help">Can't find your code, or it isn't working? <a href="mailto:support@certpathpublishing.store?subject=Help%20with%20my%20access%20code">Email support</a> — include the book title and we'll sort it out. You can also <a href="/check-code">check whether a code works</a> first.</p>
-    </div>
-
-    <div id="testList" style="display: none;">
-      <div class="section-header" style="margin: 3rem 0 2rem;">
-        <div class="section-eyebrow">Your library</div>
-        <h2 id="welcomeTitle">Your practice tests</h2>
-        <p id="welcomeMsg"></p>
-      </div>
-      <div class="book-grid" id="unlockedGrid"></div>
+      <p class="cp-access-help">Code not recognised? Check it against the last page of your book, or <a href="mailto:support@certpathpublishing.store?subject=Help%20with%20my%20access%20code">email support</a> with the book title.</p>
     </div>
   </main>
 
@@ -150,6 +139,6 @@
   </footer>
 
   <script src="/js/premium.js?v=13" defer></script>
-  <script src="/js/app.js?v=20260923"></script>
+  <script src="/js/check-code.js?v=1"></script>
 </body>
 </html>
