@@ -74,7 +74,8 @@
       "codeHash": "c2bb6c5b0b1e1fbcd8be528db84c291af2003c3677814db46eca74ebdf0504ca",
       "codeHashes": [
         "c2bb6c5b0b1e1fbcd8be528db84c291af2003c3677814db46eca74ebdf0504ca",
-        "76b6a626689307b96a8a840529c545e4271257c96ca157c8903ca891fd533d35"
+        "76b6a626689307b96a8a840529c545e4271257c96ca157c8903ca891fd533d35",
+        "8b417d7dab4180408ab31f75e858a16f88308c067529a58c6654f18ab21417bf"
       ],
       "timeMinutes": 40,
       "testCount": 3,
