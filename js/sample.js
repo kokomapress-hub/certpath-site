@@ -181,9 +181,6 @@
     // The whole point: suggest the relevant book right on the test page.
     function showBookCta() {
       var cta = document.getElementById('lpBookCta');
-      var ebook = book.payhipEbookUrl
-        ? '<a href="' + book.payhipEbookUrl + '" class="btn btn-outline" target="_blank" rel="noopener" style="color:var(--navy);border-color:var(--navy);">Buy the e-book</a>'
-        : '';
       cta.innerHTML =
         '<div class="lp-book-cta">' +
           '<a class="lp-book-cta-cover" href="' + (book.amazonUrl || '#') + '" target="_blank" rel="noopener">' +
@@ -195,7 +192,6 @@
             '<p>Those were the hard ones. The book unlocks <strong>' + book.testCount + ' full timed online tests &middot; ' + totalQ + ' questions</strong> with step-by-step explanations — free with every copy, no subscription.</p>' +
             '<div class="lp-book-cta-row">' +
               '<a href="' + (book.amazonUrl || '/books/' + book.slug) + '" class="btn btn-lg"' + (book.amazonUrl ? ' target="_blank" rel="noopener"' : '') + '>' + (book.amazonUrl ? 'Buy paperback on Amazon' : 'See the book') + '</a>' +
-              ebook +
             '</div>' +
             '<p class="lp-book-cta-have">Already have the book? <a href="/access?book=' + book.slug + '">Enter your access code &rarr;</a></p>' +
           '</div>' +

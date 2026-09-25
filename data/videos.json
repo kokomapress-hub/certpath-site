@@ -1,0 +1,361 @@
+{
+ "_note": "Free YouTube lessons shown on each /books/<slug> page. Videos with publishAt stay hidden until that time. Regenerate pages with scripts/build-book-pages.py.",
+ "cast": [
+  {
+   "label": "10-lesson course",
+   "playlist": "PLJb4GZ4sHPDA",
+   "videos": [
+    {
+     "id": "KiaCu99IBNo",
+     "title": "CAST Test Explained: Sections, Timing, Scoring and Strategy (EEI Construction & Skilled Trades)",
+     "duration": "7:52"
+    },
+    {
+     "id": "btTh5MYE_Uo",
+     "title": "CAST Mechanical Concepts: Motion, Newton's Laws and Friction Explained",
+     "duration": "9:19"
+    },
+    {
+     "id": "NiBzYT4m7lw",
+     "title": "CAST Mechanical Concepts: Work, Energy, Power, Momentum and Fluids",
+     "duration": "10:37"
+    },
+    {
+     "id": "EyzW1WOtTb4",
+     "title": "CAST Mechanical Concepts: Simple Machines and Mechanical Advantage Explained",
+     "duration": "9:14"
+    },
+    {
+     "id": "sFTtSCjJQ5c",
+     "title": "CAST Mechanical Concepts: Gears, Belts, Chains and Basic Electricity",
+     "duration": "8:17"
+    },
+    {
+     "id": "AUw_932743U",
+     "title": "CAST Reading Comprehension: Main Idea, Inference and the Two-Pass Method",
+     "duration": "8:23"
+    },
+    {
+     "id": "BPW9rySRv8s",
+     "title": "CAST Math: Integers, Fractions, Exponents and Ratios (Fast Mental Methods)",
+     "duration": "8:19"
+    },
+    {
+     "id": "3rDdfMVh1DA",
+     "title": "CAST Math: Geometry, Right Triangles, Word Problems and the 7-Minute Clock",
+     "duration": "8:25"
+    },
+    {
+     "id": "OIB2o8PTQzc",
+     "title": "CAST Graphic Arithmetic: Floor Plans, Missing Dimensions, Area and Volume",
+     "duration": "8:26"
+    },
+    {
+     "id": "Gwz16EtOtTA",
+     "title": "CAST Graphic Arithmetic: Scale Drawings, Charts and Tables",
+     "duration": "7:28"
+    }
+   ]
+  }
+ ],
+ "mech-apt": [
+  {
+   "label": "Free lessons",
+   "playlist": null,
+   "videos": [
+    {
+     "id": "3xkp9s8ATm8",
+     "title": "Mechanical Aptitude Test Explained: Bennett, Wiesen, Ramsay and Criteria",
+     "duration": "5:04"
+    },
+    {
+     "id": "3IETx5lBJzo",
+     "title": "Speed vs Velocity and Distance vs Displacement",
+     "duration": "5:43"
+    },
+    {
+     "id": "iIO6039PjrA",
+     "title": "Acceleration and Free Fall: Which One Lands First?",
+     "duration": "5:45"
+    },
+    {
+     "id": "k-qZ-KseFUY",
+     "title": "Newton's Three Laws of Motion Explained Simply",
+     "duration": "6:00"
+    },
+    {
+     "id": "77UIob1T5gc",
+     "title": "Friction Explained: Static vs Kinetic vs Rolling",
+     "duration": "5:07"
+    }
+   ]
+  }
+ ],
+ "pmp": [
+  {
+   "label": "Full course",
+   "playlist": "PLRLJLHb7S46Y",
+   "videos": [
+    {
+     "id": "eP9S1fUptes",
+     "title": "Lesson 00: Course Orientation and the PMP Mindset",
+     "duration": "7:58",
+     "publishAt": "2026-09-25T19:00:00Z"
+    },
+    {
+     "id": "HiAXrf96QMs",
+     "title": "Lesson 01: Develop a Common Vision",
+     "duration": "7:51",
+     "publishAt": "2026-09-26T19:00:00Z"
+    },
+    {
+     "id": "IaWQQKT6zN8",
+     "title": "Lesson 02: Manage Conflicts",
+     "duration": "8:32",
+     "publishAt": "2026-09-27T19:00:00Z"
+    },
+    {
+     "id": "EDca0l1RZLE",
+     "title": "Lesson 03: Lead the Project Team",
+     "duration": "9:29",
+     "publishAt": "2026-09-28T19:00:00Z"
+    },
+    {
+     "id": "Z_45btcV9lc",
+     "title": "Lesson 04: Engage Stakeholders",
+     "duration": "8:05",
+     "publishAt": "2026-09-29T19:00:00Z"
+    },
+    {
+     "id": "6HrvnlU81Ds",
+     "title": "Lesson 05: Align Stakeholder Expectations",
+     "duration": "9:12",
+     "publishAt": "2026-09-30T19:00:00Z"
+    },
+    {
+     "id": "-Tu2alz2aiY",
+     "title": "Lesson 06: Manage Stakeholder Expectations",
+     "duration": "8:31",
+     "publishAt": "2026-10-01T19:00:00Z"
+    },
+    {
+     "id": "WBzb8n48jE8",
+     "title": "Lesson 07: Help Ensure Knowledge Transfer",
+     "duration": "8:16",
+     "publishAt": "2026-10-02T19:00:00Z"
+    },
+    {
+     "id": "sbXvk6Q0JrM",
+     "title": "Lesson 08: Plan and Manage Communication",
+     "duration": "8:46",
+     "publishAt": "2026-10-03T19:00:00Z"
+    },
+    {
+     "id": "u2FmVKBK8BA",
+     "title": "Lesson 09: Develop an Integrated Project Management Plan and Plan Delivery",
+     "duration": "8:19",
+     "publishAt": "2026-10-04T19:00:00Z"
+    },
+    {
+     "id": "ukChHcPgie8",
+     "title": "Lesson 10: Develop and Manage Project Scope",
+     "duration": "7:27",
+     "publishAt": "2026-10-05T19:00:00Z"
+    },
+    {
+     "id": "AzIuia3-CXw",
+     "title": "Lesson 11: Help Ensure Value-Based Delivery",
+     "duration": "8:45",
+     "publishAt": "2026-10-06T19:00:00Z"
+    },
+    {
+     "id": "PT1DZA_rXX0",
+     "title": "Lesson 12: Plan and Manage Resources",
+     "duration": "7:35",
+     "publishAt": "2026-10-07T19:00:00Z"
+    },
+    {
+     "id": "cBSbUaJHiF8",
+     "title": "Lesson 13: Plan and Manage Procurement",
+     "duration": "8:54",
+     "publishAt": "2026-10-08T19:00:00Z"
+    },
+    {
+     "id": "2wL3dvR22hA",
+     "title": "Lesson 14: Plan and Manage Finance",
+     "duration": "8:10",
+     "publishAt": "2026-10-09T19:00:00Z"
+    },
+    {
+     "id": "c9CerTEms5M",
+     "title": "Lesson 15: Plan and Optimize Quality of Products/Deliverables",
+     "duration": "8:31",
+     "publishAt": "2026-10-10T19:00:00Z"
+    },
+    {
+     "id": "pH8dtTmHJSA",
+     "title": "Lesson 16: Plan and Manage Schedule",
+     "duration": "7:53",
+     "publishAt": "2026-10-11T19:00:00Z"
+    },
+    {
+     "id": "m77azUb38Uk",
+     "title": "Lesson 17: Evaluate Project Status",
+     "duration": "8:23",
+     "publishAt": "2026-10-12T19:00:00Z"
+    },
+    {
+     "id": "LJ7VW4sOaYg",
+     "title": "Lesson 18: Manage Project Closure",
+     "duration": "8:09",
+     "publishAt": "2026-10-13T19:00:00Z"
+    },
+    {
+     "id": "Onbs7XuCVHE",
+     "title": "Lesson 19: Define and Establish Project Governance",
+     "duration": "7:09",
+     "publishAt": "2026-10-14T19:00:00Z"
+    },
+    {
+     "id": "HIXtBEUCNUQ",
+     "title": "Lesson 20: Plan and Manage Project Compliance",
+     "duration": "7:46",
+     "publishAt": "2026-10-15T19:00:00Z"
+    },
+    {
+     "id": "ZzOZHpaOZuY",
+     "title": "Lesson 21: Manage and Control Changes",
+     "duration": "8:23",
+     "publishAt": "2026-10-16T19:00:00Z"
+    },
+    {
+     "id": "hGNLrk_fVqw",
+     "title": "Lesson 22: Remove Impediments and Manage Issues",
+     "duration": "8:15",
+     "publishAt": "2026-10-17T19:00:00Z"
+    },
+    {
+     "id": "LWLdCpPghMo",
+     "title": "Lesson 23: Plan and Manage Risk",
+     "duration": "7:50",
+     "publishAt": "2026-10-18T19:00:00Z"
+    },
+    {
+     "id": "UD3R9c6DYfM",
+     "title": "Lesson 24: Continuous Improvement",
+     "duration": "7:11",
+     "publishAt": "2026-10-19T19:00:00Z"
+    },
+    {
+     "id": "CTj4TpTL-wI",
+     "title": "Lesson 25: Support Organizational Change",
+     "duration": "8:55",
+     "publishAt": "2026-10-20T19:00:00Z"
+    },
+    {
+     "id": "xhdOJ2BExNQ",
+     "title": "Lesson 26: Evaluate External Business Environment Changes",
+     "duration": "8:14",
+     "publishAt": "2026-10-21T19:00:00Z"
+    },
+    {
+     "id": "a_ow_iY_Jdg",
+     "title": "Lesson 27: Formulas and Calculation Practice",
+     "duration": "10:35",
+     "publishAt": "2026-10-22T19:00:00Z"
+    },
+    {
+     "id": "Cmq_Pc9ONDg",
+     "title": "Lesson 28: Final Revision and Test-Day Strategy",
+     "duration": "7:19",
+     "publishAt": "2026-10-23T19:00:00Z"
+    },
+    {
+     "id": "Kd_iJeaDm-8",
+     "title": "Lesson 29: Practice Exam Debrief and Remediation",
+     "duration": "7:52",
+     "publishAt": "2026-10-24T19:00:00Z"
+    }
+   ]
+  },
+  {
+   "label": "Short lessons",
+   "playlist": "PLTU88iJyEheg",
+   "videos": [
+    {
+     "id": "sggvYafDLjY",
+     "title": "The PMP Mindset: How to Think Like a PM on Exam Day (2026 ECO)",
+     "duration": "8:08"
+    },
+    {
+     "id": "B7swAu10fug",
+     "title": "PMP Conflict Management: How to Pick the Best Answer (2026 Exam)",
+     "duration": "8:42"
+    },
+    {
+     "id": "X_lpMZ-kQ2s",
+     "title": "PMP Risk Management Explained: Plan, Analyze and Respond (2026 ECO)",
+     "duration": "8:00"
+    },
+    {
+     "id": "RhNyzs_Q-po",
+     "title": "Every PMP Formula You Need + EVM Practice Problems Solved (2026)",
+     "duration": "10:45"
+    },
+    {
+     "id": "omWFVdWLb0I",
+     "title": "PMP Test-Day Strategy: Your Final Revision Plan (2026 Exam)",
+     "duration": "7:29"
+    }
+   ]
+  }
+ ],
+ "capm": [
+  {
+   "label": "Free lessons",
+   "playlist": "PLCHm8DXS5KkA",
+   "videos": [
+    {
+     "id": "Jaq6BFJ29lE",
+     "title": "CAPM Eligibility Explained: Who Can Actually Sit the Exam (2026)",
+     "duration": "7:28"
+    },
+    {
+     "id": "W_u_kq_rRNY",
+     "title": "CAPM Exam Format 2026: Structure, Question Types and Blueprint",
+     "duration": "7:33"
+    },
+    {
+     "id": "JsuogQijzwU",
+     "title": "The WBS Explained: Scope, Work Packages and the 100% Rule (CAPM)",
+     "duration": "7:11"
+    },
+    {
+     "id": "HV9eI5fSl6Y",
+     "title": "Critical Path Method Explained Step by Step (CAPM 2026)",
+     "duration": "7:34"
+    },
+    {
+     "id": "jla6ncwyLmM",
+     "title": "EVM Basics for CAPM: Schedule Variance and Cost Variance",
+     "duration": "9:46"
+    },
+    {
+     "id": "anhv8GYph1s",
+     "title": "Scrum for CAPM: Roles, Events and Artifacts (Adaptive Deep-Dive)",
+     "duration": "6:10"
+    },
+    {
+     "id": "KKSkjoqW284",
+     "title": "Business Analysis Is 27% of CAPM — Here's What It Covers",
+     "duration": "8:21"
+    },
+    {
+     "id": "y5slGHVPVck",
+     "title": "CAPM Final Revision: All Four Domains in One Pass (2026)",
+     "duration": "9:02"
+    }
+   ]
+  }
+ ]
+}

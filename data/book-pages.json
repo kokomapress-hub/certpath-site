@@ -26,7 +26,7 @@
  "cap": "/books/cap",
  "cnor": "/books/cnor",
  "asvab-math": "/books/asvab-math",
+ "pmp": "/books/pmp",
  "pmi-acp": "/books/pmi-acp",
- "pmp": "/pmp",
- "capm": "/capm"
+ "capm": "/books/capm"
 }

@@ -118,7 +118,7 @@ const PAGES = [
       ['What score do I need to pass the CAST?', 'There is no single passing score. Results are reported on a 1-10 index and each employer sets its own qualifying score for each job. A higher score also improves your ranking against other applicants.'],
       ['How should I prepare for the CAST?', 'Practice under timed conditions. The math is not advanced, but the pacing is aggressive — the Mathematical Usage section gives you 7 minutes for 18 questions, about 23 seconds each. Watch the free video course, then take the timed practice tests to build speed.'],
       ['What is included with the CertPath CAST book?', 'A complete review of all four test parts with worked examples, practice questions with answer explanations, 3 full-length practice tests in the book, and an access code for 3 timed online practice tests (330 questions, each explained). The free 10-lesson video course follows the book chapter by chapter.'],
-      ['Where can I buy the CertPath CAST book?', 'The paperback is sold only on Amazon — buy it new from Amazon.com to be sure you get the current edition. A PDF e-book edition is also available directly from CertPath.'],
+      ['Where can I buy the CertPath CAST book?', 'The paperback is sold only on Amazon — buy it new from Amazon.com to be sure you get the current edition.'],
       ['Are the online practice tests really free?', 'Yes. The book includes a unique access code printed on the last page. Enter it at certpathpublishing.store/access for timed, auto-scored tests on any device.'],
     ],
   },
@@ -280,7 +280,6 @@ function bookCard(b) {
           <div class="meta">${b.testCount} online tests &middot; ${b.totalQuestions.toLocaleString()} questions included</div>
           <div class="row">
             <a href="${bookHref(b)}" class="btn btn-sm"${bookExt(b)}>${b.amazonUrl ? `Paperback $${b.paperbackPrice.toFixed(2)}` : 'See the book'}</a>
-            ${b.payhipEbookUrl ? `<a href="${b.payhipEbookUrl}" class="btn btn-sm btn-outline" target="_blank" rel="noopener">E-book $${b.ebookPrice.toFixed(2)}</a>` : ''}
           </div>
         </div>`;
 }
@@ -352,7 +351,6 @@ function featuredBookSection(cfg, related, heroBook) {
           </ul>
           <div class="lp-book-cta-row">
             ${heroBook.amazonUrl ? `<a href="${heroBook.amazonUrl}" class="btn btn-lg" target="_blank" rel="noopener">Buy on Amazon — $${heroBook.paperbackPrice.toFixed(2)}</a>` : ''}
-            ${heroBook.payhipEbookUrl ? `<a href="${heroBook.payhipEbookUrl}" class="btn btn-lg btn-outline" target="_blank" rel="noopener">PDF e-book $${heroBook.ebookPrice.toFixed(2)}</a>` : ''}
           </div>
           <p class="lp-book-cta-have">Already have the book? <a href="/books/${heroBook.slug}">Open your practice tests →</a></p>
         </div>

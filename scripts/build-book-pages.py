@@ -7,8 +7,8 @@ The same page is the owner's home: once a valid code is entered (here or on
 Everything on the page is read from data/books.json, data/exams.json and the
 book's own question bank, so counts can never drift from what is actually served.
 
-Later: add `course` / `bundle` objects to a book's record in books.json and the
-matching sections render automatically (see COURSE_SLOT / BUNDLE_SLOT below).
+Free YouTube lessons come from data/videos.json. Books are sold on Amazon only —
+no e-book or direct-sale offers are rendered.
 
 Run from the repo root:  python3 scripts/build-book-pages.py
 """
@@ -32,9 +32,77 @@ by_slug = {b["slug"]: b for b in books}
 REVIEWS = json.loads((ROOT / "data/reviews.json").read_text(encoding="utf-8")).get("reviews", [])
 exam_of = {slug: e for e in exams_doc["exams"] for slug in e["products"]}
 
-# Books that already have their own funnel page keep it.
-OWN_PAGE = {"pmp": "/pmp", "capm": "/capm"}
-SKIP = set(OWN_PAGE) | {"pmp-free", "capm-free"}
+# Every published book gets its own /books/<slug> page (PMP and CAPM included).
+# The free-exam records are banks, not books.
+OWN_PAGE = {}
+SKIP = {"pmp-free", "capm-free"}
+VIDEOS = json.loads((ROOT / "data/videos.json").read_text(encoding="utf-8"))
+PLAY_SVG = '<svg width="28" height="28" viewBox="0 0 24 24"><path d="M8 5v14l11-7z" fill="currentColor"/></svg>'
+
+
+def video_section(book, short):
+    """Free YouTube lessons for this book, in the homepage player (poster + lesson list,
+    click-to-play, nothing loads from YouTube until pressed). Lessons scheduled for later
+    carry data-publish and are hidden client-side until they go live."""
+    series = VIDEOS.get(book["slug"])
+    if not series:
+        return ""
+    first = series[0]["videos"][0]
+    tabs, panels = [], []
+    for i, s in enumerate(series):
+        sid = f"yt-{book['slug']}-{i}"
+        items = "".join(
+            f'''<li{f' data-publish="{esc(v["publishAt"])}"' if v.get("publishAt") else ""}><a class="cp-yt-item" href="https://www.youtube.com/watch?v={esc(v["id"])}" data-yt="{esc(v["id"])}" data-title="{esc(v["title"])}">
+                <span class="cp-yt-thumb"><img src="https://i.ytimg.com/vi/{esc(v["id"])}/mqdefault.jpg" alt="" width="160" height="90" loading="lazy" decoding="async"><em>{esc(v["duration"])}</em></span>
+                <span class="cp-yt-name">{esc(v["title"])}</span></a></li>''' for v in s["videos"])
+        more = (f'<a class="cp-textlink" href="https://www.youtube.com/playlist?list={esc(s["playlist"])}" target="_blank" rel="noopener">Open the playlist on YouTube <span class="cp-arrow" aria-hidden="true">↗</span></a>'
+                if s.get("playlist") else
+                '<a class="cp-textlink" href="https://www.youtube.com/@certpathpublishing" target="_blank" rel="noopener">More on our YouTube channel <span class="cp-arrow" aria-hidden="true">↗</span></a>')
+        panels.append(f'''<div class="cp-yt-list" id="{sid}" role="tabpanel"{f' aria-labelledby="{sid}-tab"' if len(series) > 1 else ""}{" hidden" if i else ""}><ol>{items}</ol>{more}</div>''')
+        ti = ' tabindex="-1"' if i else ""
+        tabs.append(f'<button type="button" role="tab" id="{sid}-tab" aria-controls="{sid}" aria-selected="{str(not i).lower()}"{ti}>{esc(s["label"])} <span>{len(s["videos"])}</span></button>')
+    tabbar = f'<div class="cp-yt-tabs" role="tablist" aria-label="Video lessons">{"".join(tabs)}</div>' if len(series) > 1 else ""
+    total = sum(len(s["videos"]) for s in series)
+    course = book.get("course")
+    course_btn = (f'<a class="cp-btn cp-btn-ghost" href="{esc(course["url"])}">Open the course player <span class="cp-arrow" aria-hidden="true">→</span></a>' if course else "")
+    return f'''
+    <section class="cp-section" id="videos" style="padding-bottom:0">
+      <div class="cp-container">
+        <div class="cp-section-head is-split" data-reveal>
+          <div>
+            <span class="cp-eyebrow">Free video lessons · YouTube</span>
+            <h2 class="cp-h2">Watch the {esc(short)} lessons <em>free.</em></h2>
+            <p class="cp-lead" style="margin-top:1rem">Short lessons that follow this book, free to watch. No sign-up needed.</p>
+          </div>
+          {course_btn}
+        </div>
+        <div class="cp-yt-grid" data-reveal>
+          <div>
+            <div class="cp-yt-player" id="ytPlayer">
+              <button type="button" class="cp-yt-poster" data-yt="{esc(first["id"])}" aria-label="Play video: {esc(first["title"])}">
+                <img src="https://i.ytimg.com/vi/{esc(first["id"])}/maxresdefault.jpg" alt="" width="1280" height="720" loading="lazy" decoding="async" onerror="this.onerror=null;this.src='https://i.ytimg.com/vi/{esc(first["id"])}/hqdefault.jpg'">
+                <span class="cp-yt-play" aria-hidden="true">{PLAY_SVG}</span>
+              </button>
+            </div>
+            <p class="cp-yt-now"><strong id="ytNow">{esc(first["title"])}</strong><span>Plays here from YouTube. Nothing loads from YouTube's player until you press play.</span></p>
+          </div>
+          <div class="cp-yt-side">{tabbar}{"".join(panels)}</div>
+        </div>
+      </div>
+    </section>
+    <script>(function(){{var now=Date.now(),sec=document.getElementById('videos');
+      sec.querySelectorAll('li[data-publish]').forEach(function(li){{if(Date.parse(li.dataset.publish)>now)li.remove();}});
+      var tabs=[].slice.call(sec.querySelectorAll('[role=tab]')),live=null;
+      sec.querySelectorAll('.cp-yt-list').forEach(function(p,i){{var n=p.querySelectorAll('li').length,t=tabs[i];
+        if(!n){{p.remove();if(t)t.remove();return;}}if(t)t.querySelector('span').textContent=n;if(!live)live=p;}});
+      if(!live){{sec.remove();return;}}
+      tabs=[].slice.call(sec.querySelectorAll('[role=tab]'));
+      tabs.forEach(function(t){{var on=t.getAttribute('aria-controls')===live.id;t.setAttribute('aria-selected',String(on));t.tabIndex=on?0:-1;document.getElementById(t.getAttribute('aria-controls')).hidden=!on;}});
+      if(tabs.length<2){{var bar=sec.querySelector('.cp-yt-tabs');if(bar)bar.remove();}}
+      var a=live.querySelector('.cp-yt-item'),b=sec.querySelector('.cp-yt-poster');
+      if(a.dataset.yt!==b.dataset.yt){{b.dataset.yt=a.dataset.yt;b.setAttribute('aria-label','Play video: '+a.dataset.title);var im=b.querySelector('img');im.src='https://i.ytimg.com/vi/'+a.dataset.yt+'/hqdefault.jpg';document.getElementById('ytNow').textContent=a.dataset.title;}}
+      a.setAttribute('aria-current','true');}})();</script>'''
+
 
 
 def bank_stats(book):
@@ -84,19 +152,13 @@ def page(book, stats):
             <p>The full {esc(kind(book).lower())}, with your access code for the online practice tests printed on the last page.</p>
             <a class="cp-btn cp-btn-navy" href="{esc(book["amazonUrl"])}" target="_blank" rel="noopener">Buy paperback on Amazon <span class="cp-arrow" aria-hidden="true">↗</span></a>
             <span class="cp-seller">Sold and shipped by Amazon. Price shown at checkout.</span></article>''')
-    if book.get("payhipEbookUrl"):
-        formats.append(f'''<article class="cp-format">
-            <span class="cp-type">E-book · PDF</span><h3>Digital edition</h3>
-            <p>The same book as a PDF to read on any device. Includes the same access code.</p>
-            <a class="cp-btn cp-btn-ghost" href="{esc(book["payhipEbookUrl"])}" target="_blank" rel="noopener">Buy the e-book <span class="cp-arrow" aria-hidden="true">↗</span></a>
-            <span class="cp-seller">Sold direct. Checkout is handled by Payhip.</span></article>''')
     buy = f'''
     <section class="cp-section" id="buy" data-visitor-only>
       <div class="cp-container">
         <div class="cp-section-head" data-reveal>
           <span class="cp-eyebrow">Get the book</span>
-          <h2 class="cp-h2">Choose your <em>format.</em></h2>
-          <p class="cp-lead">Every format includes the access code for all {stats['tests']} online practice tests.</p>
+          <h2 class="cp-h2">Get the <em>paperback.</em></h2>
+          <p class="cp-lead">The book includes the access code for all {stats['tests']} online practice tests.</p>
         </div>
         <div class="cp-formats" data-reveal>{''.join(formats)}</div>
       </div>
@@ -114,27 +176,7 @@ def page(book, stats):
       </div>
     </section>''' if siblings else (f'<div class="cp-container" style="padding-bottom:var(--cp-section)" data-visitor-only>{hub}</div>' if hub else "")
 
-    course = book.get("course")
-    course_html = "    <!-- COURSE_SLOT: video course section renders here once books.json has a `course` object for this slug. -->"
-    if course:
-        price = "Free" if course.get("free") else "Included"
-        course_html = f'''
-    <section class="cp-section" id="course" style="padding-bottom:0">
-      <div class="cp-container">
-        <div class="cp-yt-grid" data-reveal>
-          <a class="cp-yt-player" href="{esc(course["url"])}" style="display:block" aria-label="Open the {esc(short)} video course">
-            <img src="{esc(course["poster"])}" alt="" width="1280" height="720" loading="lazy" decoding="async" style="width:100%;height:100%;object-fit:cover">
-            <span class="cp-yt-play" aria-hidden="true"><svg width="28" height="28" viewBox="0 0 24 24"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></span>
-          </a>
-          <div>
-            <span class="cp-eyebrow">{price} video course</span>
-            <h2 class="cp-h2">Watch the {esc(short)} course <em>{"free" if course.get("free") else "online"}.</em></h2>
-            <p class="cp-lead" style="margin:1rem 0 1.75rem">{course["lessons"]} short lessons, about {course["minutes"]} minutes in all, each tied to the matching pages of this book.{" No sign-up needed." if course.get("free") else ""}</p>
-            <a class="cp-btn cp-btn-primary" href="{esc(course["url"])}">Start the course <span class="cp-arrow" aria-hidden="true">→</span></a>
-          </div>
-        </div>
-      </div>
-    </section>'''
+    course_html = video_section(book, short)
 
     rv = [r for r in REVIEWS if r.get("slug") == slug]
     review_html = ""
@@ -268,7 +310,6 @@ def page(book, stats):
     </section>
 
 {course_html}
-    <!-- BUNDLE_SLOT: complete-system / bundle offer renders here once books.json has a `bundle` object for this slug. -->
 {review_html}
 {buy}
 {related}

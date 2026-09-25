@@ -137,26 +137,67 @@
       </div>
     </section>
 
-    <!-- COURSE_SLOT: video course section renders here once books.json has a `course` object for this slug. -->
-    <!-- BUNDLE_SLOT: complete-system / bundle offer renders here once books.json has a `bundle` object for this slug. -->
+
+    <section class="cp-section" id="videos" style="padding-bottom:0">
+      <div class="cp-container">
+        <div class="cp-section-head is-split" data-reveal>
+          <div>
+            <span class="cp-eyebrow">Free video lessons · YouTube</span>
+            <h2 class="cp-h2">Watch the Mechanical Aptitude lessons <em>free.</em></h2>
+            <p class="cp-lead" style="margin-top:1rem">Short lessons that follow this book, free to watch. No sign-up needed.</p>
+          </div>
+          
+        </div>
+        <div class="cp-yt-grid" data-reveal>
+          <div>
+            <div class="cp-yt-player" id="ytPlayer">
+              <button type="button" class="cp-yt-poster" data-yt="3xkp9s8ATm8" aria-label="Play video: Mechanical Aptitude Test Explained: Bennett, Wiesen, Ramsay and Criteria">
+                <img src="https://i.ytimg.com/vi/3xkp9s8ATm8/maxresdefault.jpg" alt="" width="1280" height="720" loading="lazy" decoding="async" onerror="this.onerror=null;this.src='https://i.ytimg.com/vi/3xkp9s8ATm8/hqdefault.jpg'">
+                <span class="cp-yt-play" aria-hidden="true"><svg width="28" height="28" viewBox="0 0 24 24"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></span>
+              </button>
+            </div>
+            <p class="cp-yt-now"><strong id="ytNow">Mechanical Aptitude Test Explained: Bennett, Wiesen, Ramsay and Criteria</strong><span>Plays here from YouTube. Nothing loads from YouTube's player until you press play.</span></p>
+          </div>
+          <div class="cp-yt-side"><div class="cp-yt-list" id="yt-mech-apt-0" role="tabpanel"><ol><li><a class="cp-yt-item" href="https://www.youtube.com/watch?v=3xkp9s8ATm8" data-yt="3xkp9s8ATm8" data-title="Mechanical Aptitude Test Explained: Bennett, Wiesen, Ramsay and Criteria">
+                <span class="cp-yt-thumb"><img src="https://i.ytimg.com/vi/3xkp9s8ATm8/mqdefault.jpg" alt="" width="160" height="90" loading="lazy" decoding="async"><em>5:04</em></span>
+                <span class="cp-yt-name">Mechanical Aptitude Test Explained: Bennett, Wiesen, Ramsay and Criteria</span></a></li><li><a class="cp-yt-item" href="https://www.youtube.com/watch?v=3IETx5lBJzo" data-yt="3IETx5lBJzo" data-title="Speed vs Velocity and Distance vs Displacement">
+                <span class="cp-yt-thumb"><img src="https://i.ytimg.com/vi/3IETx5lBJzo/mqdefault.jpg" alt="" width="160" height="90" loading="lazy" decoding="async"><em>5:43</em></span>
+                <span class="cp-yt-name">Speed vs Velocity and Distance vs Displacement</span></a></li><li><a class="cp-yt-item" href="https://www.youtube.com/watch?v=iIO6039PjrA" data-yt="iIO6039PjrA" data-title="Acceleration and Free Fall: Which One Lands First?">
+                <span class="cp-yt-thumb"><img src="https://i.ytimg.com/vi/iIO6039PjrA/mqdefault.jpg" alt="" width="160" height="90" loading="lazy" decoding="async"><em>5:45</em></span>
+                <span class="cp-yt-name">Acceleration and Free Fall: Which One Lands First?</span></a></li><li><a class="cp-yt-item" href="https://www.youtube.com/watch?v=k-qZ-KseFUY" data-yt="k-qZ-KseFUY" data-title="Newton&#x27;s Three Laws of Motion Explained Simply">
+                <span class="cp-yt-thumb"><img src="https://i.ytimg.com/vi/k-qZ-KseFUY/mqdefault.jpg" alt="" width="160" height="90" loading="lazy" decoding="async"><em>6:00</em></span>
+                <span class="cp-yt-name">Newton&#x27;s Three Laws of Motion Explained Simply</span></a></li><li><a class="cp-yt-item" href="https://www.youtube.com/watch?v=77UIob1T5gc" data-yt="77UIob1T5gc" data-title="Friction Explained: Static vs Kinetic vs Rolling">
+                <span class="cp-yt-thumb"><img src="https://i.ytimg.com/vi/77UIob1T5gc/mqdefault.jpg" alt="" width="160" height="90" loading="lazy" decoding="async"><em>5:07</em></span>
+                <span class="cp-yt-name">Friction Explained: Static vs Kinetic vs Rolling</span></a></li></ol><a class="cp-textlink" href="https://www.youtube.com/@certpathpublishing" target="_blank" rel="noopener">More on our YouTube channel <span class="cp-arrow" aria-hidden="true">↗</span></a></div></div>
+        </div>
+      </div>
+    </section>
+    <script>(function(){var now=Date.now(),sec=document.getElementById('videos');
+      sec.querySelectorAll('li[data-publish]').forEach(function(li){if(Date.parse(li.dataset.publish)>now)li.remove();});
+      var tabs=[].slice.call(sec.querySelectorAll('[role=tab]')),live=null;
+      sec.querySelectorAll('.cp-yt-list').forEach(function(p,i){var n=p.querySelectorAll('li').length,t=tabs[i];
+        if(!n){p.remove();if(t)t.remove();return;}if(t)t.querySelector('span').textContent=n;if(!live)live=p;});
+      if(!live){sec.remove();return;}
+      tabs=[].slice.call(sec.querySelectorAll('[role=tab]'));
+      tabs.forEach(function(t){var on=t.getAttribute('aria-controls')===live.id;t.setAttribute('aria-selected',String(on));t.tabIndex=on?0:-1;document.getElementById(t.getAttribute('aria-controls')).hidden=!on;});
+      if(tabs.length<2){var bar=sec.querySelector('.cp-yt-tabs');if(bar)bar.remove();}
+      var a=live.querySelector('.cp-yt-item'),b=sec.querySelector('.cp-yt-poster');
+      if(a.dataset.yt!==b.dataset.yt){b.dataset.yt=a.dataset.yt;b.setAttribute('aria-label','Play video: '+a.dataset.title);var im=b.querySelector('img');im.src='https://i.ytimg.com/vi/'+a.dataset.yt+'/hqdefault.jpg';document.getElementById('ytNow').textContent=a.dataset.title;}
+      a.setAttribute('aria-current','true');})();</script>
 
 
     <section class="cp-section" id="buy" data-visitor-only>
       <div class="cp-container">
         <div class="cp-section-head" data-reveal>
           <span class="cp-eyebrow">Get the book</span>
-          <h2 class="cp-h2">Choose your <em>format.</em></h2>
-          <p class="cp-lead">Every format includes the access code for all 3 online practice tests.</p>
+          <h2 class="cp-h2">Get the <em>paperback.</em></h2>
+          <p class="cp-lead">The book includes the access code for all 3 online practice tests.</p>
         </div>
         <div class="cp-formats" data-reveal><article class="cp-format">
             <span class="cp-type">Paperback</span><h3>Print edition</h3>
             <p>The full study guide, with your access code for the online practice tests printed on the last page.</p>
             <a class="cp-btn cp-btn-navy" href="https://www.amazon.com/dp/B0GX5BKYDB" target="_blank" rel="noopener">Buy paperback on Amazon <span class="cp-arrow" aria-hidden="true">↗</span></a>
-            <span class="cp-seller">Sold and shipped by Amazon. Price shown at checkout.</span></article><article class="cp-format">
-            <span class="cp-type">E-book · PDF</span><h3>Digital edition</h3>
-            <p>The same book as a PDF to read on any device. Includes the same access code.</p>
-            <a class="cp-btn cp-btn-ghost" href="https://payhip.com/b/AURvd" target="_blank" rel="noopener">Buy the e-book <span class="cp-arrow" aria-hidden="true">↗</span></a>
-            <span class="cp-seller">Sold direct. Checkout is handled by Payhip.</span></article></div>
+            <span class="cp-seller">Sold and shipped by Amazon. Price shown at checkout.</span></article></div>
       </div>
     </section>
 <div class="cp-container" style="padding-bottom:var(--cp-section)" data-visitor-only><a class="cp-textlink" href="/mechanical-aptitude">About the Mechanical Aptitude exam — format and FAQ <span class="cp-arrow" aria-hidden="true">→</span></a></div>

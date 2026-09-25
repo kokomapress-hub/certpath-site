@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://certpathpublishing.store/</loc><lastmod>2026-09-24</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://certpathpublishing.store/access</loc><lastmod>2026-09-23</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://certpathpublishing.store/blog/</loc><lastmod>2026-09-24</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+  <url><loc>https://certpathpublishing.store/access</loc><lastmod>2026-09-25</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://certpathpublishing.store/blog/</loc><lastmod>2026-09-25</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
   <url><loc>https://certpathpublishing.store/sat</loc><lastmod>2026-09-24</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
   <url><loc>https://certpathpublishing.store/ged</loc><lastmod>2026-09-24</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
   <url><loc>https://certpathpublishing.store/tabe</loc><lastmod>2026-09-24</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
@@ -15,7 +15,7 @@
   <url><loc>https://certpathpublishing.store/chst</loc><lastmod>2026-09-24</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
   <url><loc>https://certpathpublishing.store/psat</loc><lastmod>2026-09-24</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
   <url><loc>https://certpathpublishing.store/act</loc><lastmod>2026-09-24</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://certpathpublishing.store/pmp</loc><lastmod>2026-09-23</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://certpathpublishing.store/pmp</loc><lastmod>2026-09-25</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
   <url><loc>https://certpathpublishing.store/capm</loc><lastmod>2026-09-23</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
   <url><loc>https://certpathpublishing.store/cnor</loc><lastmod>2026-09-23</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
   <url><loc>https://certpathpublishing.store/pmp-readiness</loc><lastmod>2026-09-23</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
@@ -24,34 +24,36 @@
   <url><loc>https://certpathpublishing.store/privacy</loc><lastmod>2026-09-23</lastmod><changefreq>yearly</changefreq><priority>0.2</priority></url>
   <url><loc>https://certpathpublishing.store/terms</loc><lastmod>2026-09-23</lastmod><changefreq>yearly</changefreq><priority>0.2</priority></url>
   <url><loc>https://certpathpublishing.store/refunds</loc><lastmod>2026-09-23</lastmod><changefreq>yearly</changefreq><priority>0.2</priority></url>
-  <url><loc>https://certpathpublishing.store/books/act-math-tests</loc><lastmod>2026-09-23</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://certpathpublishing.store/books/act-math-workbook</loc><lastmod>2026-09-23</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://certpathpublishing.store/books/act-math</loc><lastmod>2026-09-23</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://certpathpublishing.store/books/asvab-math</loc><lastmod>2026-09-23</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://certpathpublishing.store/books/cap</loc><lastmod>2026-09-23</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://certpathpublishing.store/books/cast</loc><lastmod>2026-09-24</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://certpathpublishing.store/books/ccrn</loc><lastmod>2026-09-23</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://certpathpublishing.store/books/chst</loc><lastmod>2026-09-23</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://certpathpublishing.store/books/cmsrn</loc><lastmod>2026-09-23</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://certpathpublishing.store/books/cnor</loc><lastmod>2026-09-23</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://certpathpublishing.store/books/csp</loc><lastmod>2026-09-23</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://certpathpublishing.store/books/ged-math-tests</loc><lastmod>2026-09-23</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://certpathpublishing.store/books/ged-math-workbook</loc><lastmod>2026-09-23</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://certpathpublishing.store/books/ged-math</loc><lastmod>2026-09-23</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://certpathpublishing.store/books/journeyman-elec</loc><lastmod>2026-09-23</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://certpathpublishing.store/books/mech-apt</loc><lastmod>2026-09-23</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://certpathpublishing.store/books/pmi-acp</loc><lastmod>2026-09-24</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://certpathpublishing.store/books/poss</loc><lastmod>2026-09-23</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://certpathpublishing.store/books/psat-math-tests</loc><lastmod>2026-09-23</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://certpathpublishing.store/books/psat-math-workbook</loc><lastmod>2026-09-23</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://certpathpublishing.store/books/psat-math</loc><lastmod>2026-09-23</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://certpathpublishing.store/books/sat-math-tests</loc><lastmod>2026-09-23</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://certpathpublishing.store/books/sat-math-workbook</loc><lastmod>2026-09-23</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://certpathpublishing.store/books/sat-math</loc><lastmod>2026-09-23</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://certpathpublishing.store/books/tabe-a</loc><lastmod>2026-09-23</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://certpathpublishing.store/books/tabe-d</loc><lastmod>2026-09-23</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://certpathpublishing.store/books/tabe-e</loc><lastmod>2026-09-23</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://certpathpublishing.store/books/tabe-m</loc><lastmod>2026-09-23</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://certpathpublishing.store/books/act-math-tests</loc><lastmod>2026-09-25</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://certpathpublishing.store/books/act-math-workbook</loc><lastmod>2026-09-25</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://certpathpublishing.store/books/act-math</loc><lastmod>2026-09-25</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://certpathpublishing.store/books/asvab-math</loc><lastmod>2026-09-25</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://certpathpublishing.store/books/cap</loc><lastmod>2026-09-25</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://certpathpublishing.store/books/capm</loc><lastmod>2026-09-25</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://certpathpublishing.store/books/cast</loc><lastmod>2026-09-25</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://certpathpublishing.store/books/ccrn</loc><lastmod>2026-09-25</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://certpathpublishing.store/books/chst</loc><lastmod>2026-09-25</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://certpathpublishing.store/books/cmsrn</loc><lastmod>2026-09-25</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://certpathpublishing.store/books/cnor</loc><lastmod>2026-09-25</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://certpathpublishing.store/books/csp</loc><lastmod>2026-09-25</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://certpathpublishing.store/books/ged-math-tests</loc><lastmod>2026-09-25</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://certpathpublishing.store/books/ged-math-workbook</loc><lastmod>2026-09-25</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://certpathpublishing.store/books/ged-math</loc><lastmod>2026-09-25</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://certpathpublishing.store/books/journeyman-elec</loc><lastmod>2026-09-25</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://certpathpublishing.store/books/mech-apt</loc><lastmod>2026-09-25</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://certpathpublishing.store/books/pmi-acp</loc><lastmod>2026-09-25</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://certpathpublishing.store/books/pmp</loc><lastmod>2026-09-25</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://certpathpublishing.store/books/poss</loc><lastmod>2026-09-25</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://certpathpublishing.store/books/psat-math-tests</loc><lastmod>2026-09-25</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://certpathpublishing.store/books/psat-math-workbook</loc><lastmod>2026-09-25</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://certpathpublishing.store/books/psat-math</loc><lastmod>2026-09-25</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://certpathpublishing.store/books/sat-math-tests</loc><lastmod>2026-09-25</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://certpathpublishing.store/books/sat-math-workbook</loc><lastmod>2026-09-25</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://certpathpublishing.store/books/sat-math</loc><lastmod>2026-09-25</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://certpathpublishing.store/books/tabe-a</loc><lastmod>2026-09-25</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://certpathpublishing.store/books/tabe-d</loc><lastmod>2026-09-25</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://certpathpublishing.store/books/tabe-e</loc><lastmod>2026-09-25</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://certpathpublishing.store/books/tabe-m</loc><lastmod>2026-09-25</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://certpathpublishing.store/blog/2026-04-18-welcome</loc><lastmod>2026-09-23</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
   <url><loc>https://certpathpublishing.store/blog/2026-09-19-free-cast-practice-test-questions</loc><lastmod>2026-09-23</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
   <url><loc>https://certpathpublishing.store/blog/2026-09-20-ccrn-exam-difficulty-test-plan</loc><lastmod>2026-09-20</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
