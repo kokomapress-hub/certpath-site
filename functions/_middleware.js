@@ -11,12 +11,11 @@ const TAG = `
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
   gtag('config', '${GA_ID}');
-  // Key events: Amazon, Payhip and sample/practice-test clicks
+  // Key events: Amazon and sample/practice-test clicks
   document.addEventListener('click', function (e) {
     var a = e.target.closest && e.target.closest('a');
     if (!a || !a.href) return;
     if (a.href.indexOf('amazon.') > -1) gtag('event', 'amazon_click', { link_url: a.href });
-    else if (a.href.indexOf('payhip.com') > -1) gtag('event', 'payhip_click', { link_url: a.href });
     else if (['/sample', '/quiz', '/access'].some(function (p) { return a.pathname.indexOf(p) === 0; })) gtag('event', 'practice_click', { link_url: a.href });
   }, true);
 </script>`;
