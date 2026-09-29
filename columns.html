@@ -177,6 +177,10 @@
       appearance: none;
     }
     .write:focus-visible { border-bottom-color: var(--ink); }
+    /* Lines are textareas so long text wraps instead of being cut off */
+    textarea.write { display: block; height: auto; min-height: 2.5rem; padding: .5rem 0 .4rem; resize: none; overflow: hidden; }
+    .row { align-items: flex-start; }
+    .row .box { margin-top: .25rem; }
     .row.done .write { color: var(--ink-soft); text-decoration: line-through; }
 
     /* Always-visible way to add another line */
@@ -346,6 +350,64 @@
       }
 
       var state = load();
+
+      // "25 New Books": what is still pending (from Top25_Tracker.md). Added once as its own list;
+      // bump SEED_VERSION to add new lines later (ticked or edited lines are never touched).
+      var SEED_KEY = 'certpath-todo-seed-25';
+      var SEED_ID = 'l25books';
+      var SEED_VERSION = 1;
+      var SEED = [
+        'FE Guide: publish paperback',
+        'FE Guide: hardcover (ISBN + upload)',
+        'FE Guide: Kindle EPUB upload',
+        'FE Exams: publish paperback',
+        'FE Exams: hardcover (ISBN + upload)',
+        'FE Exams: Kindle Create replica',
+        'FE A+: finish Exams 3-4, upload',
+        'FE site: add Amazon links',
+        'NGAT Gr 2: upload to KDP',
+        'NGAT K/1: Gemini audit, upload',
+        'NGAT Gr 3: Gemini confirm, upload',
+        'NGAT K/1 + Gr 3: upload A+',
+        'CogAT Grade 2: build',
+        'CogAT K/1: build',
+        'NNAT Grade 2: build',
+        'Nursing Dosage Calc: audit',
+        'HESI A2 Math: audit',
+        'TEAS 7 Math: audit',
+        'ASVAB Math Workbook: audit',
+        'ASVAB Math Tests: audit',
+        'ISEE Middle Math: start',
+        'SSAT Middle Math: start',
+        'SHSAT Math: start',
+        '6th Grade Math: start',
+        '7th Grade Math: start',
+        '8th Grade / Pre-Algebra: start',
+        'HS Reading Comprehension: start',
+        'FE Mechanical: start',
+        'FE Electrical: build content',
+        'CDL Study Guide: research',
+        'FAA A&P General: research',
+        'Claude for Solo Publishers: research'
+      ];
+      (function seed() {
+        var v = 0;
+        try { v = parseInt(localStorage.getItem(SEED_KEY), 10) || 0; } catch (e) {}
+        if (v >= SEED_VERSION) return;
+        var list = null;
+        state.lists.forEach(function (l) { if (l.id === SEED_ID) list = l; });
+        if (!list) {
+          list = { id: SEED_ID, name: '25 New Books', color: 4, rows: [] };
+          state.lists.push(list);
+        }
+        var kept = list.rows.filter(function (r) { return r.t || r.d; });
+        var have = {};
+        kept.forEach(function (r) { have[r.t] = true; });
+        SEED.forEach(function (t) { if (!have[t]) kept.push({ t: t, d: false }); });
+        list.rows = cleanRows(kept);
+        try { localStorage.setItem(SEED_KEY, String(SEED_VERSION)); } catch (e) {}
+        try { localStorage.setItem(KEY, JSON.stringify(state)); } catch (e) {}
+      })();
       var editingId = null;
 
       function save() {
@@ -357,6 +419,14 @@
 
       function labelOf(list) { return list.name.trim() || 'Untitled'; }
 
+      function fit(el) {
+        if (!el.offsetParent) return;          // hidden (inactive phone tab): fitted when shown
+        el.style.height = 'auto';
+        el.style.height = el.scrollHeight + 'px';
+      }
+      function fitAll() { Array.prototype.forEach.call(document.querySelectorAll('textarea.write'), fit); }
+      window.addEventListener('resize', fitAll);
+
       function makeRow(list, item, ul) {
         var li = h('li', 'row' + (item.d ? ' done' : ''));
 
@@ -366,12 +436,13 @@
         box.setAttribute('aria-checked', item.d ? 'true' : 'false');
         box.setAttribute('aria-label', 'Done');
 
-        var input = h('input', 'write');
-        input.type = 'text';
+        var input = h('textarea', 'write');
+        input.rows = 1;
         input.value = item.t;
         input.autocomplete = 'off';
         input.setAttribute('enterkeyhint', 'next');
         input.setAttribute('aria-label', labelOf(list) + ' item');
+        input.title = item.t;
 
         box.addEventListener('click', function () {
           item.d = !item.d;
@@ -381,7 +452,10 @@
         });
 
         input.addEventListener('input', function () {
+          if (input.value.indexOf('\n') !== -1) input.value = input.value.replace(/\n/g, ' ');
+          fit(input);
           item.t = input.value;
+          input.title = item.t;
           var rows = list.rows;
           if (rows[rows.length - 1] === item && item.t) {
             var extra = blank();
@@ -419,6 +493,7 @@
 
         li.appendChild(box);
         li.appendChild(input);
+        requestAnimationFrame(function () { fit(input); });
         return li;
       }
 
@@ -606,6 +681,7 @@
           var target = document.querySelector(opts.reveal);
           if (target && target.scrollIntoView) target.scrollIntoView({ block: 'nearest', inline: 'nearest' });
         }
+        requestAnimationFrame(fitAll);
         if (opts.focusSel) {
           var f = document.querySelector(opts.focusSel);
           if (f) { f.focus(); if (opts.select && f.select) f.select(); }
