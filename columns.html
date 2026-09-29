@@ -202,6 +202,48 @@
     .star:focus-visible { outline: 2px solid var(--ink); outline-offset: -2px; border-radius: 4px; }
     .row.starred { background: #FFF3C4; border-radius: 6px; }
     .row.starred .write { border-bottom-color: transparent; }
+
+    /* Handle: drag to move a task, tap for move/insert options */
+    .row { flex-wrap: wrap; }
+    .row > .write { flex: 1 1 0; }
+    .grip {
+      flex: none;
+      width: 2rem;
+      height: 2rem;
+      margin-top: .25rem;
+      padding: 0;
+      border: 0;
+      background: none;
+      color: var(--ink-soft);
+      cursor: grab;
+      touch-action: none;
+      -webkit-tap-highlight-color: transparent;
+    }
+    .grip svg { display: block; width: 1rem; height: 1rem; margin: auto; fill: currentColor; opacity: .45; }
+    .grip:hover svg, .grip[aria-expanded="true"] svg { opacity: 1; }
+    .grip:focus-visible { outline: 2px solid var(--ink); outline-offset: -2px; border-radius: 4px; }
+    .row.dragging { background: #F4F6F9; border-radius: 6px; box-shadow: 0 2px 10px rgba(38, 53, 75, .18); position: relative; z-index: 2; }
+    .row.dragging .grip { cursor: grabbing; }
+    body.is-dragging { user-select: none; -webkit-user-select: none; cursor: grabbing; }
+    .row-menu {
+      flex: 0 0 100%;
+      display: flex;
+      flex-wrap: wrap;
+      gap: .4rem;
+      padding: .4rem 0 .6rem 2.5rem;
+    }
+    .row-menu button {
+      padding: .4rem .65rem;
+      border: 1px solid var(--line-strong);
+      border-radius: 6px;
+      background: #FFFFFF;
+      color: var(--ink);
+      font: 500 .75rem/1.2 var(--sans);
+      cursor: pointer;
+    }
+    .row-menu button:hover { border-color: var(--ink); }
+    .row-menu button.danger { color: #A33232; }
+    .row-menu button:disabled { opacity: .4; cursor: default; }
     .row.done .write { color: var(--ink-soft); text-decoration: line-through; }
 
     /* Always-visible way to add another line */
@@ -607,11 +649,131 @@
           save();
         });
 
+        var grip = h('button', 'grip');
+        grip.type = 'button';
+        grip.setAttribute('aria-label', 'Move or insert');
+        grip.setAttribute('aria-expanded', 'false');
+        grip.title = 'Drag to move \u00b7 tap for options';
+        grip.innerHTML = '<svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="5" cy="3" r="1.5"/><circle cx="11" cy="3" r="1.5"/><circle cx="5" cy="8" r="1.5"/><circle cx="11" cy="8" r="1.5"/><circle cx="5" cy="13" r="1.5"/><circle cx="11" cy="13" r="1.5"/></svg>';
+
+        li._item = item;
         li.appendChild(box);
         li.appendChild(star);
         li.appendChild(input);
+        li.appendChild(grip);
+
+        // Drag with mouse or finger
+        var drag = null;
+        grip.addEventListener('pointerdown', function (e) {
+          if (e.button !== 0) return;
+          drag = { id: e.pointerId, y: e.clientY, moved: false };
+          try { grip.setPointerCapture(e.pointerId); } catch (err) {}
+        });
+        grip.addEventListener('pointermove', function (e) {
+          if (!drag || e.pointerId !== drag.id) return;
+          if (!drag.moved) {
+            if (Math.abs(e.clientY - drag.y) < 6) return;
+            drag.moved = true;
+            closeMenus();
+            li.classList.add('dragging');
+            document.body.classList.add('is-dragging');
+          }
+          e.preventDefault();
+          var prev = li.previousElementSibling, next = li.nextElementSibling, r;
+          if (prev) { r = prev.getBoundingClientRect(); if (e.clientY < r.top + r.height / 2) { ul.insertBefore(li, prev); return; } }
+          if (next) { r = next.getBoundingClientRect(); if (e.clientY > r.top + r.height / 2) { ul.insertBefore(next, li); } }
+          // keep the row in view near the screen edges
+          if (e.clientY < 60) window.scrollBy(0, -12);
+          else if (e.clientY > window.innerHeight - 60) window.scrollBy(0, 12);
+        });
+        function endDrag(e) {
+          if (!drag || e.pointerId !== drag.id) return;
+          var moved = drag.moved;
+          drag = null;
+          li.classList.remove('dragging');
+          document.body.classList.remove('is-dragging');
+          if (moved) { syncOrder(list, ul); save(); }
+          else if (e.type === 'pointerup') toggleMenu(list, ul, li);
+        }
+        grip.addEventListener('pointerup', endDrag);
+        grip.addEventListener('pointercancel', endDrag);
+        grip.addEventListener('click', function (e) {
+          // keyboard (Enter/Space) opens the options; mouse/touch handled above
+          if (e.detail === 0) toggleMenu(list, ul, li);
+        });
+
         requestAnimationFrame(function () { fit(input); });
         return li;
+      }
+
+      // Put the saved order in line with what is on screen, and keep one blank line at the end
+      function syncOrder(list, ul) {
+        var order = [];
+        Array.prototype.forEach.call(ul.children, function (el) { if (el._item) order.push(el._item); });
+        list.rows = order;
+        var last = order[order.length - 1];
+        if (!last || last.t || last.d || last.s) {
+          var nb = blank();
+          list.rows.push(nb);
+          ul.appendChild(makeRow(list, nb, ul));
+        }
+      }
+
+      function closeMenus() {
+        Array.prototype.forEach.call(document.querySelectorAll('.row-menu'), function (m) { m.remove(); });
+        Array.prototype.forEach.call(document.querySelectorAll('.grip[aria-expanded="true"]'), function (g) { g.setAttribute('aria-expanded', 'false'); });
+      }
+
+      function toggleMenu(list, ul, li) {
+        var open = li.querySelector('.row-menu');
+        closeMenus();
+        if (open) return;
+        var grip = li.querySelector('.grip');
+        grip.setAttribute('aria-expanded', 'true');
+        var m = h('div', 'row-menu');
+        function btn(label, fn, cls) {
+          var b = h('button', cls || '', label);
+          b.type = 'button';
+          b.addEventListener('click', fn);
+          m.appendChild(b);
+          return b;
+        }
+        function insert(before) {
+          closeMenus();
+          var nb = blank();
+          var el = makeRow(list, nb, ul);
+          ul.insertBefore(el, before ? li : li.nextElementSibling);
+          syncOrder(list, ul);
+          save();
+          var f = el.querySelector('.write');
+          f.focus();
+          if (f.scrollIntoView) f.scrollIntoView({ block: 'nearest' });
+        }
+        var up = btn('\u2191 Move up', function () {
+          if (li.previousElementSibling) { ul.insertBefore(li, li.previousElementSibling); syncOrder(list, ul); save(); refresh(); }
+        });
+        var down = btn('\u2193 Move down', function () {
+          var n = li.nextElementSibling;
+          if (n) { ul.insertBefore(n, li); syncOrder(list, ul); save(); refresh(); }
+        });
+        btn('+ Insert above', function () { insert(true); });
+        btn('+ Insert below', function () { insert(false); });
+        btn('Delete', function () {
+          closeMenus();
+          li.remove();
+          syncOrder(list, ul);
+          while (list.rows.length < MIN_ROWS) { var nb = blank(); list.rows.push(nb); ul.appendChild(makeRow(list, nb, ul)); }
+          save();
+        }, 'danger');
+        btn('Close', closeMenus);
+        function refresh() {
+          up.disabled = !li.previousElementSibling;
+          down.disabled = !li.nextElementSibling;
+          grip.focus();
+        }
+        li.appendChild(m);
+        up.disabled = !li.previousElementSibling;
+        down.disabled = !li.nextElementSibling;
       }
 
       function makePanel(list) {
