@@ -799,6 +799,20 @@
       "published": false,
       "sequential": false,
       "instantFeedback": true
+    },
+    {
+      "slug": "fe-civil",
+      "bookCode": "B43",
+      "title": "FE Civil Exam Simulator",
+      "shortName": "FE Civil",
+      "cover": "/img/covers/fe-civil.webp",
+      "category": "Engineering",
+      "timeMinutes": 1280,
+      "testCount": 4,
+      "totalQuestions": 464,
+      "published": false,
+      "sequential": false,
+      "instantFeedback": true
     }
   ],
   "adminCodeHash": "dd5ae6084185c2278b0f461123219497afad35d8f089cd8a856b8d6f282dfce8"

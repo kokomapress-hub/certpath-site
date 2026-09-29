@@ -272,9 +272,24 @@ function isCorrect(q, ans) {
   if (q.type === 'order') { try { return JSON.stringify(JSON.parse(ans)) === JSON.stringify(q.sequence); } catch { return false; } }
   if (q.type === 'match') { try { const m = JSON.parse(ans); return q.pairs.every((p, i) => m[i] === p[1]); } catch { return false; } }
   if (q.type === 'hotspot') return ans === q.answer;
+  if (q.type === 'numeric') { const v = parseNum(ans); return v != null && Array.isArray(q.range) && v >= q.range[0] - 1e-9 && v <= q.range[1] + 1e-9; }
   if (isMulti(q)) return normSet(ans) === normSet(q.answer);
   return ans === q.answer;
 }
+// ---- numerical-entry items (FE-style): answer is correct when it falls inside q.range [lo, hi] ----
+function parseNum(s) {
+  if (s == null) return null;
+  const t = String(s).replace(/[,\s$]/g, '').replace(/[−–]/g, '-').match(/^[-+]?(\d+\.?\d*|\.\d+)(e[-+]?\d+)?/i);
+  return t ? parseFloat(t[0]) : null;
+}
+function renderNumeric(q) {
+  const cur = answers[q.num] != null ? answers[q.num] : '';
+  return `<div class="enh-hint">Numerical entry: type your answer as a number (no units).</div>
+    <input class="num-input" type="text" inputmode="decimal" autocomplete="off" value="${escAttr(cur)}"
+      style="font-size:1.1rem;padding:.6rem .8rem;border:1px solid #cfd6e4;border-radius:8px;width:14rem;max-width:100%;"
+      oninput="setNumeric(this.value)" onkeydown="if(event.key==='Enter'){setNumeric(this.value);checkAnswer();}">`;
+}
+function setNumeric(v) { const q = test.questions[currentIdx]; if (String(v).trim() === '') delete answers[q.num]; else answers[q.num] = String(v).trim(); saveProgress(); }
 function multiHint(q) {
   if (!isMulti(q)) return '';
   const n = normSet(q.answer).split(',').length;
@@ -338,6 +353,7 @@ function renderBody(q, selected) {
   if (q.type === 'order') return renderOrder(q);
   if (q.type === 'match') return renderMatch(q);
   if (q.type === 'hotspot') return renderHotspot(q);
+  if (q.type === 'numeric') return renderNumeric(q);
   return renderChoices(q, selected);
 }
 // ---- Instant-feedback (study) mode: on for every book unless books.json sets instantFeedback:false ----
@@ -345,7 +361,7 @@ function isInstant() { return !(bookMeta && bookMeta.instantFeedback === false);
 function normAns(v) { return normSet(v || '').split(',').filter(Boolean).sort().join(','); }
 function answerIsCorrect(q) { const a = answers[q.num]; return a != null && a !== '' && !!isCorrect(q, a); }
 // Single-answer choices reveal on click; multi / order / match / hotspot reveal after "Check answer".
-function needsCheck(q) { return isMulti(q) || q.type === 'order' || q.type === 'match' || q.type === 'hotspot'; }
+function needsCheck(q) { return isMulti(q) || q.type === 'order' || q.type === 'match' || q.type === 'hotspot' || q.type === 'numeric'; }
 function isRevealed(q) {
   if (!isInstant() || answers[q.num] == null) return false;
   return needsCheck(q) ? !!checked[q.num] : true;
@@ -361,12 +377,13 @@ function liveScore() {
 function correctText(q) {
   if (q.type === 'order') return 'the correct order is shown above';
   if (q.type === 'match' || q.type === 'hotspot') return 'shown above';
+  if (q.type === 'numeric') return q.answer;
   return normSet(q.answer).split(',').join(', ');
 }
 function instantFeedbackHTML(q) {
   if (!isInstant()) return '';
   if (!isRevealed(q)) {
-    return needsCheck(q) && (answers[q.num] != null || q.type === 'order')
+    return needsCheck(q) && (answers[q.num] != null || q.type === 'order' || q.type === 'numeric')
       ? `<div style="margin-top:1rem"><button class="btn" onclick="checkAnswer()">Check answer</button></div>` : '';
   }
   const ok = answerIsCorrect(q);
@@ -459,6 +476,12 @@ function reviewBody(q, userAns) {
         <span class="choice ${ok ? 'correct' : 'wrong'}" style="padding:.3rem .6rem;flex:1 1 42%;min-width:150px;">
         ${m[i] || '(none)'} ${ok ? '&#10003;' : '&#10007; &mdash; correct: ' + p[1]}</span></div>`;
     }).join('')}</div>`;
+  }
+  if (q.type === 'numeric') {
+    const ok = isCorrect(q, userAns);
+    return `<div class="rev-block"><div class="choice ${ok ? 'correct' : 'wrong'}" style="padding:.5rem .8rem;display:block;">
+      Your entry: <strong>${userAns != null && userAns !== '' ? escAttr(userAns) : '(none)'}</strong> ${ok ? '&#10003;' : '&#10007;'}</div>
+      <div class="rev-user">Accepted answer: ${q.answer}</div></div>`;
   }
   if (q.type === 'hotspot') {
     const img = q.image_svg ? q.image_svg : (q.image ? `<img src="${q.image}">` : '');
@@ -607,7 +630,7 @@ function showResults() {
   const passed = pct >= 70;
   // The SAT, PSAT/NMSQT and ACT are scaled admissions tests: they have no pass mark,
   // so their results talk about accuracy and a score target instead of passing.
-  const noPassMark = /^(sat|psat|act)-math/.test(book.slug || '');
+  const noPassMark = /^(sat|psat|act)-math|^fe-civil/.test(book.slug || '');
 
   document.getElementById('quizApp').innerHTML = `
     <header class="header">
