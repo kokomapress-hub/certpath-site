@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Four Columns — CertPath Publishing</title>
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="icon" type="image/png" href="/img/logo-mark.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #26354B;
+      --ink-soft: #6B7788;
+      --col-1: #E4ECDF;   /* sage */
+      --col-2: #F4EBD3;   /* sand */
+      --col-3: #DDE7EF;   /* mist */
+      --col-4: #F1E0DB;   /* blush */
+      --tick-1: #A9BFA0;
+      --tick-2: #D9C48C;
+      --tick-3: #9DB6CB;
+      --tick-4: #D4A99F;
+      --sans: "Inter", system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
+    }
+    * { box-sizing: border-box; }
+    html, body { min-height: 100%; }
+    body {
+      margin: 0;
+      font-family: var(--sans);
+      color: var(--ink);
+      background: var(--col-1);
+    }
+    .columns {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      min-height: 100vh;
+      min-height: 100dvh;
+    }
+    .col {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+      padding: clamp(1.25rem, 3vw, 2.5rem);
+    }
+    .col:nth-child(1) { background: var(--col-1); --tick: var(--tick-1); }
+    .col:nth-child(2) { background: var(--col-2); --tick: var(--tick-2); }
+    .col:nth-child(3) { background: var(--col-3); --tick: var(--tick-3); }
+    .col:nth-child(4) { background: var(--col-4); --tick: var(--tick-4); }
+    .square {
+      width: 1.75rem;
+      height: 1.75rem;
+      background: var(--tick);
+      border-radius: 2px;
+      flex: none;
+    }
+    .write {
+      flex: 1;
+      width: 100%;
+      min-height: 12rem;
+      padding: 0;
+      border: 0;
+      outline: 0;
+      resize: none;
+      background: transparent;
+      color: var(--ink);
+      font: 400 1rem/1.7 var(--sans);
+    }
+    .write::placeholder { color: var(--ink-soft); opacity: .7; }
+    .write:focus-visible { box-shadow: 0 2px 0 var(--tick); }
+
+    @media (max-width: 860px) {
+      .columns { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .col { min-height: 50vh; min-height: 50dvh; }
+    }
+    @media (max-width: 480px) {
+      .columns { grid-template-columns: minmax(0, 1fr); }
+      .col { min-height: 18rem; }
+    }
+  </style>
+</head>
+<body>
+  <main class="columns">
+    <section class="col" aria-label="Column 1">
+      <div class="square" aria-hidden="true"></div>
+      <textarea class="write" id="write-1" aria-label="Column 1 notes" placeholder="Write here"></textarea>
+    </section>
+    <section class="col" aria-label="Column 2">
+      <div class="square" aria-hidden="true"></div>
+      <textarea class="write" id="write-2" aria-label="Column 2 notes" placeholder="Write here"></textarea>
+    </section>
+    <section class="col" aria-label="Column 3">
+      <div class="square" aria-hidden="true"></div>
+      <textarea class="write" id="write-3" aria-label="Column 3 notes" placeholder="Write here"></textarea>
+    </section>
+    <section class="col" aria-label="Column 4">
+      <div class="square" aria-hidden="true"></div>
+      <textarea class="write" id="write-4" aria-label="Column 4 notes" placeholder="Write here"></textarea>
+    </section>
+  </main>
+
+  <script>
+    // Text stays in this browser only; nothing is sent anywhere.
+    (function () {
+      var key = 'certpath-columns-';
+      document.querySelectorAll('.write').forEach(function (box) {
+        try { box.value = localStorage.getItem(key + box.id) || ''; } catch (e) {}
+        box.addEventListener('input', function () {
+          try { localStorage.setItem(key + box.id, box.value); } catch (e) {}
+        });
+      });
+    })();
+  </script>
+</body>
+</html>
