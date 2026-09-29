@@ -45,7 +45,7 @@
     .col {
       display: flex;
       flex-direction: column;
-      gap: 1.5rem;
+      gap: 1.25rem;
       padding: clamp(1.25rem, 3vw, 2.5rem);
     }
     .col:nth-child(1) { background: var(--col-1); --tick: var(--tick-1); }
@@ -60,19 +60,21 @@
       flex: none;
     }
     .write {
-      flex: 1;
       width: 100%;
-      min-height: 12rem;
-      padding: 0;
+      height: 2.5rem;
+      padding: 0 0 .25rem;
       border: 0;
+      border-bottom: 1px solid var(--tick);
+      border-radius: 0;
       outline: 0;
-      resize: none;
       background: transparent;
       color: var(--ink);
-      font: 400 1rem/1.7 var(--sans);
+      font: 400 1rem/1.5 var(--sans);
+      -webkit-appearance: none;
+      appearance: none;
     }
     .write::placeholder { color: var(--ink-soft); opacity: .7; }
-    .write:focus-visible { box-shadow: 0 2px 0 var(--tick); }
+    .write:focus-visible { border-bottom-color: var(--ink); }
 
     @media (max-width: 860px) and (min-width: 641px) {
       .columns { grid-template-columns: repeat(2, minmax(0, 1fr)); }
@@ -128,7 +130,6 @@
       .col { display: none; min-height: calc(100vh - 4.5rem); min-height: calc(100dvh - 4.5rem); padding-top: .5rem; }
       .col.is-active { display: flex; }
       .col .square { display: none; }
-      .write { min-height: 16rem; }
     }
   </style>
 </head>
@@ -143,19 +144,19 @@
   <main class="columns">
     <section class="col is-active" id="col-1" role="tabpanel" aria-labelledby="tab-1">
       <div class="square" aria-hidden="true"></div>
-      <textarea class="write" id="write-1" aria-label="Column 1 notes" placeholder="Write here"></textarea>
+      <input class="write" type="text" id="write-1" aria-label="Column 1 notes" placeholder="Write here" autocomplete="off" autocapitalize="sentences" enterkeyhint="done">
     </section>
     <section class="col" id="col-2" role="tabpanel" aria-labelledby="tab-2">
       <div class="square" aria-hidden="true"></div>
-      <textarea class="write" id="write-2" aria-label="Column 2 notes" placeholder="Write here"></textarea>
+      <input class="write" type="text" id="write-2" aria-label="Column 2 notes" placeholder="Write here" autocomplete="off" autocapitalize="sentences" enterkeyhint="done">
     </section>
     <section class="col" id="col-3" role="tabpanel" aria-labelledby="tab-3">
       <div class="square" aria-hidden="true"></div>
-      <textarea class="write" id="write-3" aria-label="Column 3 notes" placeholder="Write here"></textarea>
+      <input class="write" type="text" id="write-3" aria-label="Column 3 notes" placeholder="Write here" autocomplete="off" autocapitalize="sentences" enterkeyhint="done">
     </section>
     <section class="col" id="col-4" role="tabpanel" aria-labelledby="tab-4">
       <div class="square" aria-hidden="true"></div>
-      <textarea class="write" id="write-4" aria-label="Column 4 notes" placeholder="Write here"></textarea>
+      <input class="write" type="text" id="write-4" aria-label="Column 4 notes" placeholder="Write here" autocomplete="off" autocapitalize="sentences" enterkeyhint="done">
     </section>
   </main>
 
@@ -168,6 +169,10 @@
         box.addEventListener('input', function () {
           try { localStorage.setItem(key + box.id, box.value); } catch (e) {}
         });
+      });
+
+      document.querySelectorAll('.write').forEach(function (box) {
+        box.addEventListener('keydown', function (e) { if (e.key === 'Enter') box.blur(); });
       });
 
       // Phone tabs
