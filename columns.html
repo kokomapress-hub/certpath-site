@@ -32,6 +32,10 @@
       color: var(--ink);
       background: var(--col-1);
     }
+
+    /* Tab bar: phone only */
+    .tabs { display: none; }
+
     .columns {
       display: grid;
       grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -70,31 +74,86 @@
     .write::placeholder { color: var(--ink-soft); opacity: .7; }
     .write:focus-visible { box-shadow: 0 2px 0 var(--tick); }
 
-    @media (max-width: 860px) {
+    @media (max-width: 860px) and (min-width: 641px) {
       .columns { grid-template-columns: repeat(2, minmax(0, 1fr)); }
       .col { min-height: 50vh; min-height: 50dvh; }
     }
-    @media (max-width: 480px) {
-      .columns { grid-template-columns: minmax(0, 1fr); }
-      .col { min-height: 18rem; }
+
+    /* Phone: one column at a time, switched with the four squares */
+    @media (max-width: 640px) {
+      body { background: var(--page, var(--col-1)); }
+      body[data-tab="1"] { --page: var(--col-1); }
+      body[data-tab="2"] { --page: var(--col-2); }
+      body[data-tab="3"] { --page: var(--col-3); }
+      body[data-tab="4"] { --page: var(--col-4); }
+
+      .tabs {
+        display: flex;
+        gap: 1rem;
+        position: sticky;
+        top: 0;
+        z-index: 1;
+        padding: 1rem 1.25rem;
+        background: var(--page);
+      }
+      .tab {
+        position: relative;
+        width: 2.25rem;
+        height: 2.25rem;
+        padding: 0;
+        border: 0;
+        border-radius: 3px;
+        background: var(--tick);
+        color: var(--ink);
+        font: 500 .8125rem/1 var(--sans);
+        cursor: pointer;
+        opacity: .55;
+        -webkit-tap-highlight-color: transparent;
+      }
+      .tab:nth-child(1) { --tick: var(--tick-1); }
+      .tab:nth-child(2) { --tick: var(--tick-2); }
+      .tab:nth-child(3) { --tick: var(--tick-3); }
+      .tab:nth-child(4) { --tick: var(--tick-4); }
+      .tab[aria-selected="true"] { opacity: 1; }
+      .tab[aria-selected="true"]::after {
+        content: "";
+        position: absolute;
+        left: 0; right: 0; bottom: -.5rem;
+        height: 2px;
+        background: var(--ink);
+      }
+      .tab:focus-visible { outline: 2px solid var(--ink); outline-offset: 3px; }
+
+      .columns { display: block; min-height: 0; }
+      .col { display: none; min-height: calc(100vh - 4.5rem); min-height: calc(100dvh - 4.5rem); padding-top: .5rem; }
+      .col.is-active { display: flex; }
+      .col .square { display: none; }
+      .write { min-height: 16rem; }
     }
   </style>
 </head>
-<body>
+<body data-tab="1">
+  <div class="tabs" role="tablist" aria-label="Columns">
+    <button class="tab" role="tab" id="tab-1" aria-controls="col-1" aria-selected="true">1</button>
+    <button class="tab" role="tab" id="tab-2" aria-controls="col-2" aria-selected="false" tabindex="-1">2</button>
+    <button class="tab" role="tab" id="tab-3" aria-controls="col-3" aria-selected="false" tabindex="-1">3</button>
+    <button class="tab" role="tab" id="tab-4" aria-controls="col-4" aria-selected="false" tabindex="-1">4</button>
+  </div>
+
   <main class="columns">
-    <section class="col" aria-label="Column 1">
+    <section class="col is-active" id="col-1" role="tabpanel" aria-labelledby="tab-1">
       <div class="square" aria-hidden="true"></div>
       <textarea class="write" id="write-1" aria-label="Column 1 notes" placeholder="Write here"></textarea>
     </section>
-    <section class="col" aria-label="Column 2">
+    <section class="col" id="col-2" role="tabpanel" aria-labelledby="tab-2">
       <div class="square" aria-hidden="true"></div>
       <textarea class="write" id="write-2" aria-label="Column 2 notes" placeholder="Write here"></textarea>
     </section>
-    <section class="col" aria-label="Column 3">
+    <section class="col" id="col-3" role="tabpanel" aria-labelledby="tab-3">
       <div class="square" aria-hidden="true"></div>
       <textarea class="write" id="write-3" aria-label="Column 3 notes" placeholder="Write here"></textarea>
     </section>
-    <section class="col" aria-label="Column 4">
+    <section class="col" id="col-4" role="tabpanel" aria-labelledby="tab-4">
       <div class="square" aria-hidden="true"></div>
       <textarea class="write" id="write-4" aria-label="Column 4 notes" placeholder="Write here"></textarea>
     </section>
@@ -110,6 +169,33 @@
           try { localStorage.setItem(key + box.id, box.value); } catch (e) {}
         });
       });
+
+      // Phone tabs
+      var tabs = Array.prototype.slice.call(document.querySelectorAll('.tab'));
+      var cols = Array.prototype.slice.call(document.querySelectorAll('.col'));
+      function show(n, focus) {
+        tabs.forEach(function (t, i) {
+          var on = i === n - 1;
+          t.setAttribute('aria-selected', on ? 'true' : 'false');
+          t.tabIndex = on ? 0 : -1;
+        });
+        cols.forEach(function (c, i) { c.classList.toggle('is-active', i === n - 1); });
+        document.body.setAttribute('data-tab', String(n));
+        try { localStorage.setItem(key + 'tab', String(n)); } catch (e) {}
+        if (focus) cols[n - 1].querySelector('.write').focus();
+      }
+      tabs.forEach(function (t, i) {
+        t.addEventListener('click', function () { show(i + 1, true); });
+        t.addEventListener('keydown', function (e) {
+          var n = null;
+          if (e.key === 'ArrowRight') n = (i + 1) % 4 + 1;
+          if (e.key === 'ArrowLeft') n = (i + 3) % 4 + 1;
+          if (n) { e.preventDefault(); show(n, false); tabs[n - 1].focus(); }
+        });
+      });
+      var saved = 1;
+      try { saved = parseInt(localStorage.getItem(key + 'tab'), 10) || 1; } catch (e) {}
+      if (saved >= 1 && saved <= 4) show(saved, false);
     })();
   </script>
 </body>
