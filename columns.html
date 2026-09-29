@@ -12,13 +12,14 @@
   <style>
     :root {
       color-scheme: light;
+      --bg: #FFFFFF;
       --ink: #26354B;
       --ink-soft: #6B7788;
       --line: rgba(38, 53, 75, .16);
-      --col-1: #E4ECDF;   /* sage */
-      --col-2: #F4EBD3;   /* sand */
-      --col-3: #DDE7EF;   /* mist */
-      --col-4: #F1E0DB;   /* blush */
+      --tab-1: #D3E3CB;   /* sage  */
+      --tab-2: #F0E1B8;   /* sand  */
+      --tab-3: #CBDDEB;   /* mist  */
+      --tab-4: #EDCFC7;   /* blush */
       --tick-1: #9DB593;
       --tick-2: #D3BB7C;
       --tick-3: #8FAAC1;
@@ -26,12 +27,11 @@
       --sans: "Inter", system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
     }
     * { box-sizing: border-box; }
-    html, body { min-height: 100%; }
+    html, body { min-height: 100%; background: var(--bg); }
     body {
       margin: 0;
       font-family: var(--sans);
       color: var(--ink);
-      background: var(--col-1);
     }
 
     /* Tab bar: phone only */
@@ -45,11 +45,23 @@
     }
     .col {
       padding: clamp(1rem, 2.5vw, 2rem);
+      border-left: 1px solid var(--line);
     }
-    .col:nth-child(1) { background: var(--col-1); --tick: var(--tick-1); }
-    .col:nth-child(2) { background: var(--col-2); --tick: var(--tick-2); }
-    .col:nth-child(3) { background: var(--col-3); --tick: var(--tick-3); }
-    .col:nth-child(4) { background: var(--col-4); --tick: var(--tick-4); }
+    .col:first-child { border-left: 0; }
+    .col:nth-child(1) { --tab: var(--tab-1); --tick: var(--tick-1); }
+    .col:nth-child(2) { --tab: var(--tab-2); --tick: var(--tick-2); }
+    .col:nth-child(3) { --tab: var(--tab-3); --tick: var(--tick-3); }
+    .col:nth-child(4) { --tab: var(--tab-4); --tick: var(--tick-4); }
+
+    .col-head { margin: 0 0 1rem; }
+    .col-head span {
+      display: inline-block;
+      padding: .4rem .8rem;
+      border-radius: 6px;
+      background: var(--tab);
+      font: 500 .8125rem/1.2 var(--sans);
+      color: var(--ink);
+    }
 
     .list { list-style: none; margin: 0; padding: 0; }
     .row { display: flex; align-items: center; gap: .5rem; }
@@ -109,72 +121,80 @@
     @media (max-width: 860px) and (min-width: 641px) {
       .columns { grid-template-columns: repeat(2, minmax(0, 1fr)); }
       .col { min-height: 50vh; min-height: 50dvh; }
+      .col:nth-child(3) { border-left: 0; }
+      .col:nth-child(n+3) { border-top: 1px solid var(--line); }
     }
 
-    /* Phone: one column at a time, switched with the four squares */
+    /* Phone: one list at a time, switched with the colored tabs */
     @media (max-width: 640px) {
-      body { background: var(--page, var(--col-1)); }
-      body[data-tab="1"] { --page: var(--col-1); }
-      body[data-tab="2"] { --page: var(--col-2); }
-      body[data-tab="3"] { --page: var(--col-3); }
-      body[data-tab="4"] { --page: var(--col-4); }
-
       .tabs {
         display: flex;
-        gap: 1rem;
+        flex-wrap: wrap;
+        gap: .5rem;
         position: sticky;
         top: 0;
         z-index: 1;
-        padding: 1rem 1.25rem;
-        background: var(--page);
+        padding: 1rem 1rem 1.1rem;
+        background: var(--bg);
       }
       .tab {
         position: relative;
-        width: 2.25rem;
-        height: 2.25rem;
-        padding: 0;
+        padding: .55rem .8rem;
         border: 0;
-        border-radius: 3px;
-        background: var(--tick);
+        border-radius: 6px;
+        background: var(--tab);
         color: var(--ink);
-        font: 500 .8125rem/1 var(--sans);
+        font: 500 .8125rem/1.2 var(--sans);
         cursor: pointer;
-        opacity: .55;
+        opacity: .6;
         -webkit-tap-highlight-color: transparent;
       }
-      .tab:nth-child(1) { --tick: var(--tick-1); }
-      .tab:nth-child(2) { --tick: var(--tick-2); }
-      .tab:nth-child(3) { --tick: var(--tick-3); }
-      .tab:nth-child(4) { --tick: var(--tick-4); }
+      .tab:nth-child(1) { --tab: var(--tab-1); }
+      .tab:nth-child(2) { --tab: var(--tab-2); }
+      .tab:nth-child(3) { --tab: var(--tab-3); }
+      .tab:nth-child(4) { --tab: var(--tab-4); }
       .tab[aria-selected="true"] { opacity: 1; }
       .tab[aria-selected="true"]::after {
         content: "";
         position: absolute;
-        left: 0; right: 0; bottom: -.5rem;
+        left: 0; right: 0; bottom: -.4rem;
         height: 2px;
         background: var(--ink);
       }
       .tab:focus-visible { outline: 2px solid var(--ink); outline-offset: 3px; }
 
       .columns { display: block; min-height: 0; }
-      .col { display: none; min-height: calc(100vh - 4.5rem); min-height: calc(100dvh - 4.5rem); padding: .25rem 1.25rem 2rem 1rem; }
+      .col { display: none; border-left: 0; min-height: calc(100vh - 5rem); min-height: calc(100dvh - 5rem); padding: .25rem 1.25rem 2rem 1rem; }
       .col.is-active { display: block; }
+      .col-head { display: none; }
     }
   </style>
 </head>
-<body data-tab="1">
+<body>
   <div class="tabs" role="tablist" aria-label="Lists">
-    <button class="tab" role="tab" id="tab-1" aria-controls="col-1" aria-selected="true">1</button>
-    <button class="tab" role="tab" id="tab-2" aria-controls="col-2" aria-selected="false" tabindex="-1">2</button>
-    <button class="tab" role="tab" id="tab-3" aria-controls="col-3" aria-selected="false" tabindex="-1">3</button>
-    <button class="tab" role="tab" id="tab-4" aria-controls="col-4" aria-selected="false" tabindex="-1">4</button>
+    <button class="tab" role="tab" id="tab-1" aria-controls="col-1" aria-selected="true">4 Little Dinos</button>
+    <button class="tab" role="tab" id="tab-2" aria-controls="col-2" aria-selected="false" tabindex="-1">Prasad Audio</button>
+    <button class="tab" role="tab" id="tab-3" aria-controls="col-3" aria-selected="false" tabindex="-1">CPP</button>
+    <button class="tab" role="tab" id="tab-4" aria-controls="col-4" aria-selected="false" tabindex="-1">KDP</button>
   </div>
 
   <main class="columns">
-    <section class="col is-active" id="col-1" role="tabpanel" aria-labelledby="tab-1"><ul class="list" aria-label="List 1"></ul></section>
-    <section class="col" id="col-2" role="tabpanel" aria-labelledby="tab-2"><ul class="list" aria-label="List 2"></ul></section>
-    <section class="col" id="col-3" role="tabpanel" aria-labelledby="tab-3"><ul class="list" aria-label="List 3"></ul></section>
-    <section class="col" id="col-4" role="tabpanel" aria-labelledby="tab-4"><ul class="list" aria-label="List 4"></ul></section>
+    <section class="col is-active" id="col-1" role="tabpanel" aria-labelledby="tab-1">
+      <h2 class="col-head"><span>4 Little Dinos</span></h2>
+      <ul class="list" aria-label="4 Little Dinos"></ul>
+    </section>
+    <section class="col" id="col-2" role="tabpanel" aria-labelledby="tab-2">
+      <h2 class="col-head"><span>Prasad Audio</span></h2>
+      <ul class="list" aria-label="Prasad Audio"></ul>
+    </section>
+    <section class="col" id="col-3" role="tabpanel" aria-labelledby="tab-3">
+      <h2 class="col-head"><span>CPP</span></h2>
+      <ul class="list" aria-label="CPP"></ul>
+    </section>
+    <section class="col" id="col-4" role="tabpanel" aria-labelledby="tab-4">
+      <h2 class="col-head"><span>KDP</span></h2>
+      <ul class="list" aria-label="KDP"></ul>
+    </section>
   </main>
 
   <script>
@@ -182,6 +202,7 @@
     (function () {
       var KEY = 'certpath-todo-v1';
       var TAB_KEY = 'certpath-todo-tab';
+      var LABELS = ['4 Little Dinos', 'Prasad Audio', 'CPP', 'KDP'];
       var START_ROWS = 10;
       var MIN_ROWS = 5;
 
@@ -231,7 +252,7 @@
         input.placeholder = '';
         input.autocomplete = 'off';
         input.setAttribute('enterkeyhint', 'next');
-        input.setAttribute('aria-label', 'List ' + (ci + 1) + ' item');
+        input.setAttribute('aria-label', LABELS[ci] + ' item');
 
         box.addEventListener('click', function () {
           item.d = !item.d;
@@ -292,7 +313,6 @@
           t.tabIndex = on ? 0 : -1;
         });
         cols.forEach(function (c, i) { c.classList.toggle('is-active', i === n - 1); });
-        document.body.setAttribute('data-tab', String(n));
         try { localStorage.setItem(TAB_KEY, String(n)); } catch (e) {}
       }
       tabs.forEach(function (t, i) {
