@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lists — CertPath Publishing</title>
+  <title>Four Columns — CertPath Publishing</title>
   <meta name="robots" content="noindex, nofollow">
   <link rel="icon" type="image/png" href="/img/logo-mark.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -30,58 +30,29 @@
     }
     button { font-family: inherit; }
 
-    /* Tab bar: real links, one per list. Each list is its own page. */
-    .tabs {
+    /* Tab bar: phone only */
+    .tabs { display: none; }
+
+    /* Desktop: lists side by side, scrolls sideways when there are many */
+    .columns {
       display: flex;
-      flex-wrap: wrap;
-      gap: .5rem;
-      position: sticky;
-      top: 0;
-      z-index: 1;
-      padding: 1rem clamp(1rem, 4vw, 2rem) 1.1rem;
-      background: var(--bg);
+      align-items: stretch;
+      overflow-x: auto;
+      min-height: 100vh;
+      min-height: 100dvh;
     }
-    .tab, .tab-add {
-      position: relative;
-      display: inline-block;
-      max-width: 100%;
-      padding: .55rem .8rem;
-      border-radius: 6px;
-      font: 500 .8125rem/1.2 var(--sans);
-      cursor: pointer;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      white-space: nowrap;
-      text-decoration: none;
-      -webkit-tap-highlight-color: transparent;
+    .col {
+      flex: 1 0 16rem;
+      min-width: 16rem;
+      padding: clamp(1rem, 2.5vw, 2rem);
+      border-right: 1px solid var(--line);
     }
-    .tab { border: 0; background: var(--tab); color: var(--ink); opacity: .6; }
-    .tab:hover { opacity: .85; }
-    .tab[aria-current="page"] { opacity: 1; overflow: visible; }
-    .tab[aria-current="page"]::after {
-      content: "";
-      position: absolute;
-      left: 0; right: 0; bottom: -.4rem;
-      height: 2px;
-      background: var(--ink);
+    .col-new {
+      flex: 0 0 auto;
+      padding: clamp(1rem, 2.5vw, 2rem);
     }
 
-    /* The list on this page */
-    .page {
-      max-width: 42rem;
-      margin: 0;
-      padding: .25rem clamp(1rem, 4vw, 2rem) 3rem;
-      min-height: 70vh;
-    }
-    .page-head {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 1rem;
-      margin: 0 0 1rem;
-    }
-    .page-title { margin: 0; min-width: 0; font-size: inherit; font-weight: inherit; }
-
+    .col-head { margin: 0 0 1rem; }
     .chip {
       display: inline-block;
       max-width: 100%;
@@ -243,14 +214,66 @@
     .add:hover { color: var(--ink); }
     .add:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; border-radius: 4px; }
 
+    /* Phone: one list at a time, switched with the colored tabs */
+    @media (max-width: 640px) {
+      .tabs {
+        display: flex;
+        flex-wrap: wrap;
+        gap: .5rem;
+        position: sticky;
+        top: 0;
+        z-index: 1;
+        padding: 1rem 1rem 1.1rem;
+        background: var(--bg);
+      }
+      .tab, .tab-add {
+        position: relative;
+        max-width: 100%;
+        padding: .55rem .8rem;
+        border-radius: 6px;
+        font: 500 .8125rem/1.2 var(--sans);
+        cursor: pointer;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        -webkit-tap-highlight-color: transparent;
+      }
+      .tab {
+        border: 0;
+        background: var(--tab);
+        color: var(--ink);
+        opacity: .6;
+      }
+      .tab[aria-selected="true"] { opacity: 1; overflow: visible; }
+      .tab[aria-selected="true"]::after {
+        content: "";
+        position: absolute;
+        left: 0; right: 0; bottom: -.4rem;
+        height: 2px;
+        background: var(--ink);
+      }
+
+      .columns { display: block; overflow: visible; min-height: 0; }
+      .col {
+        display: none;
+        min-width: 0;
+        border-right: 0;
+        min-height: calc(100vh - 5rem);
+        min-height: calc(100dvh - 5rem);
+        padding: .25rem 1.25rem 2rem 1rem;
+      }
+      .col.is-active { display: block; }
+      .col-head { display: none; }
+      .col-new { display: none; }
+    }
   </style>
 </head>
 <body>
-  <nav class="tabs" id="tabs" aria-label="Lists"></nav>
-  <main class="page" id="page"></main>
+  <div class="tabs" id="tabs" role="tablist" aria-label="Lists"></div>
+  <main class="columns" id="columns"></main>
+
   <script>
-    // Every list is its own page: /columns?list=<name>. Everything is saved in
-    // this browser only; nothing is sent anywhere.
+    // Everything is saved in this browser only; nothing is sent anywhere.
     (function () {
       var KEY = 'certpath-todo-v2';
       var OLD_KEY = 'certpath-todo-v1';
@@ -272,14 +295,10 @@
         { n: 'Slate',    tab: '#D6DCE4', tick: '#9AA7B7' }
       ];
       var DEFAULT_NAMES = ['4 Little Dinos', 'Prasad Audio', 'CPP', 'KDP'];
-      // Readable page addresses for the first four lists
-      var DEFAULT_SLUGS = { l1: 'dinos', l2: 'audio', l3: 'cpp', l4: 'kdp', l25books: 'books' };
 
       function blank() { return { t: '', d: false }; }
       function blankRows(n) { var r = []; for (var i = 0; i < n; i++) r.push(blank()); return r; }
       function newId() { return 'l' + Date.now().toString(36) + Math.random().toString(36).slice(2, 6); }
-      function slugOf(list) { return DEFAULT_SLUGS[list.id] || list.id; }
-      function hrefOf(list, edit) { return '?list=' + encodeURIComponent(slugOf(list)) + (edit ? '&edit=1' : ''); }
       function h(tag, cls, text) {
         var e = document.createElement(tag);
         if (cls) e.className = cls;
@@ -314,7 +333,7 @@
             return v2;
           }
         } catch (e) {}
-        // First run: bring over the four original lists and their items
+        // First run on the new version: bring over the four original lists and their items
         var lists = DEFAULT_NAMES.map(function (name, i) {
           return { id: 'l' + (i + 1), name: name, color: i, rows: blankRows(START_ROWS) };
         });
@@ -330,15 +349,8 @@
         return { lists: lists, active: active };
       }
 
-      function write(s) {
-        try { localStorage.setItem(KEY, JSON.stringify(s)); } catch (e) {}
-      }
-      function find(s, id) {
-        for (var i = 0; i < s.lists.length; i++) if (s.lists[i].id === id) return s.lists[i];
-        return null;
-      }
-
       var state = load();
+
       // "25 New Books": what is still pending (from Top25_Tracker.md). Added once as its own list;
       // bump SEED_VERSION to add new lines later (ticked or edited lines are never touched).
       var SEED_KEY = 'certpath-todo-seed-25';
@@ -394,43 +406,21 @@
         SEED.forEach(function (t) { if (!have[t]) kept.push({ t: t, d: false }); });
         list.rows = cleanRows(kept);
         try { localStorage.setItem(SEED_KEY, String(SEED_VERSION)); } catch (e) {}
-        write(state);
+        try { localStorage.setItem(KEY, JSON.stringify(state)); } catch (e) {}
       })();
-      var params = new URLSearchParams(location.search);
-      var want = params.get('list');
-      var cur = null;
-      state.lists.forEach(function (l) { if (slugOf(l) === want || l.id === want) cur = l; });
+      var editingId = null;
 
-      if (!cur) {
-        // No (or unknown) list in the address: go to the last one opened
-        var back = find(state, state.active) || state.lists[0];
-        location.replace(location.pathname + hrefOf(back));
-        return;
-      }
-
-      var editing = params.get('edit') === '1';
-      if (editing && window.history && history.replaceState) {
-        history.replaceState(null, '', location.pathname + hrefOf(cur));
-      }
-
-      // Save only this page's list into the freshest stored copy, so other
-      // pages open at the same time never overwrite each other.
       function save() {
-        var fresh = load();
-        var mine = find(fresh, cur.id);
-        if (mine) { mine.name = cur.name; mine.color = cur.color; mine.rows = cur.rows; }
-        fresh.active = cur.id;
-        write(fresh);
+        try { localStorage.setItem(KEY, JSON.stringify(state)); } catch (e) {}
       }
-      save();
 
       var tabsEl = document.getElementById('tabs');
-      var pageEl = document.getElementById('page');
+      var colsEl = document.getElementById('columns');
 
       function labelOf(list) { return list.name.trim() || 'Untitled'; }
 
       function fit(el) {
-        if (!el.offsetParent) return;
+        if (!el.offsetParent) return;          // hidden (inactive phone tab): fitted when shown
         el.style.height = 'auto';
         el.style.height = el.scrollHeight + 'px';
       }
@@ -521,14 +511,12 @@
           list.name = name.value;
           save();
           var label = labelOf(list);
-          document.title = label + ' — CertPath';
-          var t = tabsEl.querySelector('.tab[data-id="' + list.id + '"]');
-          if (t) t.textContent = label;
-          var c = pageEl.querySelector('.chip');
-          if (c) c.textContent = label;
+          document.querySelectorAll('.tab[data-id="' + list.id + '"], .chip[data-id="' + list.id + '"]').forEach(function (n) {
+            n.textContent = label;
+          });
         });
         name.addEventListener('keydown', function (e) {
-          if (e.key === 'Enter' || e.key === 'Escape') { e.preventDefault(); editing = false; render(); }
+          if (e.key === 'Enter' || e.key === 'Escape') { e.preventDefault(); editingId = null; render(); }
         });
         p.appendChild(name);
 
@@ -545,7 +533,7 @@
           b.addEventListener('click', function () {
             list.color = i;
             save();
-            render({ focusSel: '.sw[data-i="' + i + '"]' });
+            render({ focusSel: '#col-' + list.id + ' .sw[data-i="' + i + '"]' });
           });
           sw.appendChild(b);
         });
@@ -554,7 +542,7 @@
         var actions = h('div', 'panel-actions');
         var done = h('button', 'link', 'Done');
         done.type = 'button';
-        done.addEventListener('click', function () { editing = false; render(); });
+        done.addEventListener('click', function () { editingId = null; render(); });
         actions.appendChild(done);
 
         if (state.lists.length > 1) {
@@ -568,14 +556,12 @@
               setTimeout(function () { armed = false; del.textContent = 'Delete list'; }, 4000);
               return;
             }
-            var fresh = load();
-            var i = -1;
-            fresh.lists.forEach(function (l, n) { if (l.id === list.id) i = n; });
-            if (i > -1 && fresh.lists.length > 1) fresh.lists.splice(i, 1);
-            var next = fresh.lists[Math.max(0, i - 1)];
-            fresh.active = next.id;
-            write(fresh);
-            location.replace(location.pathname + hrefOf(next));
+            var i = state.lists.indexOf(list);
+            state.lists.splice(i, 1);
+            if (state.active === list.id) state.active = state.lists[Math.max(0, i - 1)].id;
+            editingId = null;
+            save();
+            render();
           });
           actions.appendChild(del);
         }
@@ -583,34 +569,100 @@
         return p;
       }
 
+      function toggleEdit(id) {
+        editingId = editingId === id ? null : id;
+        render(editingId ? { focusSel: '#col-' + id + ' .name', select: true } : null);
+      }
+
       function addList() {
-        var fresh = load();
-        var used = fresh.lists.map(function (l) { return l.color % PALETTE.length; });
+        var used = state.lists.map(function (l) { return l.color % PALETTE.length; });
         var color = -1;
         for (var i = 0; i < PALETTE.length; i++) { if (used.indexOf(i) === -1) { color = i; break; } }
-        if (color === -1) color = fresh.lists.length % PALETTE.length;
+        if (color === -1) color = state.lists.length % PALETTE.length;
         var list = { id: newId(), name: 'New list', color: color, rows: blankRows(START_ROWS) };
-        fresh.lists.push(list);
-        fresh.active = list.id;
-        write(fresh);
-        location.href = location.pathname + hrefOf(list, true);
+        state.lists.push(list);
+        state.active = list.id;
+        editingId = list.id;
+        save();
+        render({ focusSel: '#col-' + list.id + ' .name', select: true, reveal: '#col-' + list.id });
       }
 
       function render(opts) {
         opts = opts || {};
         tabsEl.textContent = '';
-        pageEl.textContent = '';
-        var label = labelOf(cur);
-        document.title = label + ' — CertPath';
+        colsEl.textContent = '';
 
         state.lists.forEach(function (list) {
-          var isCur = list.id === cur.id;
-          var tab = h('a', 'tab', isCur ? label : labelOf(list));
-          tab.href = hrefOf(list);
+          var isActive = list.id === state.active;
+          var label = labelOf(list);
+
+          var tab = h('button', 'tab', label);
+          tab.type = 'button';
+          tab.id = 'tab-' + list.id;
           tab.dataset.id = list.id;
-          if (isCur) tab.setAttribute('aria-current', 'page');
-          applyColor(tab, isCur ? cur.color : list.color);
+          tab.setAttribute('role', 'tab');
+          tab.setAttribute('aria-controls', 'col-' + list.id);
+          tab.setAttribute('aria-selected', isActive ? 'true' : 'false');
+          tab.tabIndex = isActive ? 0 : -1;
+          applyColor(tab, list.color);
+          tab.addEventListener('click', function () {
+            if (state.active === list.id) { toggleEdit(list.id); return; }
+            state.active = list.id;
+            editingId = null;
+            save();
+            render();
+          });
+          tab.addEventListener('keydown', function (e) {
+            var i = state.lists.indexOf(list), n = state.lists.length, to = null;
+            if (e.key === 'ArrowRight') to = state.lists[(i + 1) % n];
+            if (e.key === 'ArrowLeft') to = state.lists[(i + n - 1) % n];
+            if (to) {
+              e.preventDefault();
+              state.active = to.id; editingId = null; save();
+              render({ focusSel: '#tab-' + to.id });
+            }
+          });
           tabsEl.appendChild(tab);
+
+          var col = h('section', 'col' + (isActive ? ' is-active' : ''));
+          col.id = 'col-' + list.id;
+          col.setAttribute('role', 'tabpanel');
+          col.setAttribute('aria-labelledby', 'tab-' + list.id);
+          applyColor(col, list.color);
+
+          var head = h('h2', 'col-head');
+          var chip = h('button', 'chip', label);
+          chip.type = 'button';
+          chip.dataset.id = list.id;
+          chip.title = 'Rename, recolor or delete this list';
+          chip.addEventListener('click', function () { toggleEdit(list.id); });
+          head.appendChild(chip);
+          col.appendChild(head);
+
+          if (editingId === list.id) col.appendChild(makePanel(list));
+
+          var ul = h('ul', 'list');
+          ul.setAttribute('aria-label', label);
+          list.rows.forEach(function (item) { ul.appendChild(makeRow(list, item, ul)); });
+          col.appendChild(ul);
+
+          var add = h('button', 'add');
+          add.type = 'button';
+          add.setAttribute('aria-label', 'Add a line to ' + label);
+          add.innerHTML = '<span class="add-box" aria-hidden="true"></span><span>Add line</span>';
+          add.addEventListener('click', function () {
+            var nb = blank();
+            list.rows.push(nb);
+            var el = makeRow(list, nb, ul);
+            ul.appendChild(el);
+            save();
+            var field = el.querySelector('.write');
+            field.focus();
+            if (field.scrollIntoView) field.scrollIntoView({ block: 'center', behavior: 'smooth' });
+          });
+          col.appendChild(add);
+
+          colsEl.appendChild(col);
         });
 
         var tabAdd = h('button', 'tab-add', '+ New list');
@@ -618,48 +670,17 @@
         tabAdd.addEventListener('click', addList);
         tabsEl.appendChild(tabAdd);
 
-        applyColor(pageEl, cur.color);
+        var colNew = h('div', 'col-new');
+        var chipAdd = h('button', 'chip chip-add', '+ New list');
+        chipAdd.type = 'button';
+        chipAdd.addEventListener('click', addList);
+        colNew.appendChild(chipAdd);
+        colsEl.appendChild(colNew);
 
-        var head = h('div', 'page-head');
-        var title = h('h1', 'page-title');
-        var chip = h('button', 'chip', label);
-        chip.type = 'button';
-        chip.title = 'Rename, recolor or delete this list';
-        chip.addEventListener('click', function () {
-          editing = !editing;
-          render(editing ? { focusSel: '.name', select: true } : null);
-        });
-        title.appendChild(chip);
-        head.appendChild(title);
-        var edit = h('button', 'link', editing ? 'Close' : 'Edit list');
-        edit.type = 'button';
-        edit.addEventListener('click', function () { chip.click(); });
-        head.appendChild(edit);
-        pageEl.appendChild(head);
-
-        if (editing) pageEl.appendChild(makePanel(cur));
-
-        var ul = h('ul', 'list');
-        ul.setAttribute('aria-label', label);
-        cur.rows.forEach(function (item) { ul.appendChild(makeRow(cur, item, ul)); });
-        pageEl.appendChild(ul);
-
-        var add = h('button', 'add');
-        add.type = 'button';
-        add.setAttribute('aria-label', 'Add a line to ' + label);
-        add.innerHTML = '<span class="add-box" aria-hidden="true"></span><span>Add line</span>';
-        add.addEventListener('click', function () {
-          var nb = blank();
-          cur.rows.push(nb);
-          var el = makeRow(cur, nb, ul);
-          ul.appendChild(el);
-          save();
-          var field = el.querySelector('.write');
-          field.focus();
-          if (field.scrollIntoView) field.scrollIntoView({ block: 'center', behavior: 'smooth' });
-        });
-        pageEl.appendChild(add);
-
+        if (opts.reveal) {
+          var target = document.querySelector(opts.reveal);
+          if (target && target.scrollIntoView) target.scrollIntoView({ block: 'nearest', inline: 'nearest' });
+        }
         requestAnimationFrame(fitAll);
         if (opts.focusSel) {
           var f = document.querySelector(opts.focusSel);
@@ -667,10 +688,7 @@
         }
       }
 
-      // Coming back with the Back button: reload so this page shows what is saved now
-      window.addEventListener('pageshow', function (e) { if (e.persisted) location.reload(); });
-
-      render(editing ? { focusSel: '.name', select: true } : null);
+      render();
     })();
   </script>
 </body>
