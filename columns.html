@@ -14,14 +14,15 @@
       color-scheme: light;
       --ink: #26354B;
       --ink-soft: #6B7788;
+      --line: rgba(38, 53, 75, .16);
       --col-1: #E4ECDF;   /* sage */
       --col-2: #F4EBD3;   /* sand */
       --col-3: #DDE7EF;   /* mist */
       --col-4: #F1E0DB;   /* blush */
-      --tick-1: #A9BFA0;
-      --tick-2: #D9C48C;
-      --tick-3: #9DB6CB;
-      --tick-4: #D4A99F;
+      --tick-1: #9DB593;
+      --tick-2: #D3BB7C;
+      --tick-3: #8FAAC1;
+      --tick-4: #CB9C91;
       --sans: "Inter", system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
     }
     * { box-sizing: border-box; }
@@ -43,28 +44,57 @@
       min-height: 100dvh;
     }
     .col {
-      display: flex;
-      flex-direction: column;
-      gap: 1.25rem;
-      padding: clamp(1.25rem, 3vw, 2.5rem);
+      padding: clamp(1rem, 2.5vw, 2rem);
     }
     .col:nth-child(1) { background: var(--col-1); --tick: var(--tick-1); }
     .col:nth-child(2) { background: var(--col-2); --tick: var(--tick-2); }
     .col:nth-child(3) { background: var(--col-3); --tick: var(--tick-3); }
     .col:nth-child(4) { background: var(--col-4); --tick: var(--tick-4); }
-    .square {
-      width: 1.75rem;
-      height: 1.75rem;
-      background: var(--tick);
-      border-radius: 2px;
+
+    .list { list-style: none; margin: 0; padding: 0; }
+    .row { display: flex; align-items: center; gap: .5rem; }
+
+    /* Small square you tick off */
+    .box {
+      position: relative;
       flex: none;
-    }
-    .write {
-      width: 100%;
-      height: 2.5rem;
-      padding: 0 0 .25rem;
+      width: 2rem;
+      height: 2rem;
+      padding: 0;
       border: 0;
-      border-bottom: 1px solid var(--tick);
+      background: none;
+      cursor: pointer;
+      -webkit-tap-highlight-color: transparent;
+    }
+    .box::before {
+      content: "";
+      position: absolute;
+      inset: .4rem;
+      border: 2px solid var(--tick);
+      border-radius: 2px;
+    }
+    .box[aria-checked="true"]::before { background: var(--tick); }
+    .box[aria-checked="true"]::after {
+      content: "";
+      position: absolute;
+      left: .82rem;
+      top: .52rem;
+      width: .3rem;
+      height: .6rem;
+      border: solid var(--ink);
+      border-width: 0 2px 2px 0;
+      transform: rotate(45deg);
+    }
+    .box:focus-visible { outline: 2px solid var(--ink); outline-offset: -2px; border-radius: 4px; }
+
+    /* One line of text */
+    .write {
+      flex: 1;
+      min-width: 0;
+      height: 2.5rem;
+      padding: 0 0 .1rem;
+      border: 0;
+      border-bottom: 1px solid var(--line);
       border-radius: 0;
       outline: 0;
       background: transparent;
@@ -73,8 +103,8 @@
       -webkit-appearance: none;
       appearance: none;
     }
-    .write::placeholder { color: var(--ink-soft); opacity: .7; }
     .write:focus-visible { border-bottom-color: var(--ink); }
+    .row.done .write { color: var(--ink-soft); text-decoration: line-through; }
 
     @media (max-width: 860px) and (min-width: 641px) {
       .columns { grid-template-columns: repeat(2, minmax(0, 1fr)); }
@@ -127,14 +157,13 @@
       .tab:focus-visible { outline: 2px solid var(--ink); outline-offset: 3px; }
 
       .columns { display: block; min-height: 0; }
-      .col { display: none; min-height: calc(100vh - 4.5rem); min-height: calc(100dvh - 4.5rem); padding-top: .5rem; }
-      .col.is-active { display: flex; }
-      .col .square { display: none; }
+      .col { display: none; min-height: calc(100vh - 4.5rem); min-height: calc(100dvh - 4.5rem); padding: .25rem 1.25rem 2rem 1rem; }
+      .col.is-active { display: block; }
     }
   </style>
 </head>
 <body data-tab="1">
-  <div class="tabs" role="tablist" aria-label="Columns">
+  <div class="tabs" role="tablist" aria-label="Lists">
     <button class="tab" role="tab" id="tab-1" aria-controls="col-1" aria-selected="true">1</button>
     <button class="tab" role="tab" id="tab-2" aria-controls="col-2" aria-selected="false" tabindex="-1">2</button>
     <button class="tab" role="tab" id="tab-3" aria-controls="col-3" aria-selected="false" tabindex="-1">3</button>
@@ -142,43 +171,121 @@
   </div>
 
   <main class="columns">
-    <section class="col is-active" id="col-1" role="tabpanel" aria-labelledby="tab-1">
-      <div class="square" aria-hidden="true"></div>
-      <input class="write" type="text" id="write-1" aria-label="Column 1 notes" placeholder="Write here" autocomplete="off" autocapitalize="sentences" enterkeyhint="done">
-    </section>
-    <section class="col" id="col-2" role="tabpanel" aria-labelledby="tab-2">
-      <div class="square" aria-hidden="true"></div>
-      <input class="write" type="text" id="write-2" aria-label="Column 2 notes" placeholder="Write here" autocomplete="off" autocapitalize="sentences" enterkeyhint="done">
-    </section>
-    <section class="col" id="col-3" role="tabpanel" aria-labelledby="tab-3">
-      <div class="square" aria-hidden="true"></div>
-      <input class="write" type="text" id="write-3" aria-label="Column 3 notes" placeholder="Write here" autocomplete="off" autocapitalize="sentences" enterkeyhint="done">
-    </section>
-    <section class="col" id="col-4" role="tabpanel" aria-labelledby="tab-4">
-      <div class="square" aria-hidden="true"></div>
-      <input class="write" type="text" id="write-4" aria-label="Column 4 notes" placeholder="Write here" autocomplete="off" autocapitalize="sentences" enterkeyhint="done">
-    </section>
+    <section class="col is-active" id="col-1" role="tabpanel" aria-labelledby="tab-1"><ul class="list" aria-label="List 1"></ul></section>
+    <section class="col" id="col-2" role="tabpanel" aria-labelledby="tab-2"><ul class="list" aria-label="List 2"></ul></section>
+    <section class="col" id="col-3" role="tabpanel" aria-labelledby="tab-3"><ul class="list" aria-label="List 3"></ul></section>
+    <section class="col" id="col-4" role="tabpanel" aria-labelledby="tab-4"><ul class="list" aria-label="List 4"></ul></section>
   </main>
 
   <script>
-    // Text stays in this browser only; nothing is sent anywhere.
+    // Lists are saved in this browser only; nothing is sent anywhere.
     (function () {
-      var key = 'certpath-columns-';
-      document.querySelectorAll('.write').forEach(function (box) {
-        try { box.value = localStorage.getItem(key + box.id) || ''; } catch (e) {}
-        box.addEventListener('input', function () {
-          try { localStorage.setItem(key + box.id, box.value); } catch (e) {}
-        });
+      var KEY = 'certpath-todo-v1';
+      var TAB_KEY = 'certpath-todo-tab';
+      var START_ROWS = 10;
+      var MIN_ROWS = 5;
+
+      function blank() { return { t: '', d: false }; }
+      function fresh() {
+        var cols = [];
+        for (var c = 0; c < 4; c++) {
+          var rows = [];
+          for (var r = 0; r < START_ROWS; r++) rows.push(blank());
+          cols.push(rows);
+        }
+        return cols;
+      }
+
+      var state;
+      try {
+        state = JSON.parse(localStorage.getItem(KEY));
+        if (!Array.isArray(state) || state.length !== 4) state = null;
+      } catch (e) { state = null; }
+      if (!state) state = fresh();
+      state.forEach(function (rows) {
+        while (rows.length < START_ROWS) rows.push(blank());
+        if (rows[rows.length - 1].t) rows.push(blank());
       });
 
-      document.querySelectorAll('.write').forEach(function (box) {
-        box.addEventListener('keydown', function (e) { if (e.key === 'Enter') box.blur(); });
+      function save() {
+        try { localStorage.setItem(KEY, JSON.stringify(state)); } catch (e) {}
+      }
+
+      var lists = Array.prototype.slice.call(document.querySelectorAll('.list'));
+
+      function makeRow(ci, item) {
+        var li = document.createElement('li');
+        li.className = 'row' + (item.d ? ' done' : '');
+
+        var box = document.createElement('button');
+        box.type = 'button';
+        box.className = 'box';
+        box.setAttribute('role', 'checkbox');
+        box.setAttribute('aria-checked', item.d ? 'true' : 'false');
+        box.setAttribute('aria-label', 'Done');
+
+        var input = document.createElement('input');
+        input.type = 'text';
+        input.className = 'write';
+        input.value = item.t;
+        input.placeholder = '';
+        input.autocomplete = 'off';
+        input.setAttribute('enterkeyhint', 'next');
+        input.setAttribute('aria-label', 'List ' + (ci + 1) + ' item');
+
+        box.addEventListener('click', function () {
+          item.d = !item.d;
+          box.setAttribute('aria-checked', item.d ? 'true' : 'false');
+          li.classList.toggle('done', item.d);
+          save();
+        });
+
+        input.addEventListener('input', function () {
+          item.t = input.value;
+          var rows = state[ci];
+          if (rows[rows.length - 1] === item && item.t) {
+            var extra = blank();
+            rows.push(extra);
+            lists[ci].appendChild(makeRow(ci, extra));
+          }
+          save();
+        });
+
+        input.addEventListener('keydown', function (e) {
+          var rows = state[ci];
+          var i = rows.indexOf(item);
+          if (e.key === 'Enter') {
+            e.preventDefault();
+            var next = lists[ci].children[i + 1];
+            if (!next) {
+              rows.push(blank());
+              lists[ci].appendChild(makeRow(ci, rows[rows.length - 1]));
+              next = lists[ci].children[i + 1];
+            }
+            next.querySelector('.write').focus();
+          } else if (e.key === 'Backspace' && !input.value && rows.length > MIN_ROWS && i > 0) {
+            e.preventDefault();
+            var prev = lists[ci].children[i - 1].querySelector('.write');
+            rows.splice(i, 1);
+            li.remove();
+            prev.focus();
+            save();
+          }
+        });
+
+        li.appendChild(box);
+        li.appendChild(input);
+        return li;
+      }
+
+      lists.forEach(function (ul, ci) {
+        state[ci].forEach(function (item) { ul.appendChild(makeRow(ci, item)); });
       });
 
       // Phone tabs
       var tabs = Array.prototype.slice.call(document.querySelectorAll('.tab'));
       var cols = Array.prototype.slice.call(document.querySelectorAll('.col'));
-      function show(n, focus) {
+      function show(n) {
         tabs.forEach(function (t, i) {
           var on = i === n - 1;
           t.setAttribute('aria-selected', on ? 'true' : 'false');
@@ -186,21 +293,20 @@
         });
         cols.forEach(function (c, i) { c.classList.toggle('is-active', i === n - 1); });
         document.body.setAttribute('data-tab', String(n));
-        try { localStorage.setItem(key + 'tab', String(n)); } catch (e) {}
-        if (focus) cols[n - 1].querySelector('.write').focus();
+        try { localStorage.setItem(TAB_KEY, String(n)); } catch (e) {}
       }
       tabs.forEach(function (t, i) {
-        t.addEventListener('click', function () { show(i + 1, true); });
+        t.addEventListener('click', function () { show(i + 1); });
         t.addEventListener('keydown', function (e) {
           var n = null;
           if (e.key === 'ArrowRight') n = (i + 1) % 4 + 1;
           if (e.key === 'ArrowLeft') n = (i + 3) % 4 + 1;
-          if (n) { e.preventDefault(); show(n, false); tabs[n - 1].focus(); }
+          if (n) { e.preventDefault(); show(n); tabs[n - 1].focus(); }
         });
       });
       var saved = 1;
-      try { saved = parseInt(localStorage.getItem(key + 'tab'), 10) || 1; } catch (e) {}
-      if (saved >= 1 && saved <= 4) show(saved, false);
+      try { saved = parseInt(localStorage.getItem(TAB_KEY), 10) || 1; } catch (e) {}
+      if (saved >= 1 && saved <= 4) show(saved);
     })();
   </script>
 </body>
