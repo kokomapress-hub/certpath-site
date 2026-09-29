@@ -181,6 +181,27 @@
     textarea.write { display: block; height: auto; min-height: 2.5rem; padding: .5rem 0 .4rem; resize: none; overflow: hidden; }
     .row { align-items: flex-start; }
     .row .box { margin-top: .25rem; }
+
+    /* Star: click to highlight the task */
+    .star {
+      flex: none;
+      width: 2rem;
+      height: 2rem;
+      margin-top: .25rem;
+      padding: 0;
+      border: 0;
+      background: none;
+      color: var(--ink-soft);
+      cursor: pointer;
+      -webkit-tap-highlight-color: transparent;
+    }
+    .star svg { display: block; width: 1.25rem; height: 1.25rem; margin: auto; fill: none; stroke: currentColor; stroke-width: 1.6; stroke-linejoin: round; opacity: .55; }
+    .star:hover svg { opacity: 1; }
+    .star[aria-pressed="true"] { color: #C88F00; }
+    .star[aria-pressed="true"] svg { fill: #F2BE2E; stroke: #C88F00; opacity: 1; }
+    .star:focus-visible { outline: 2px solid var(--ink); outline-offset: -2px; border-radius: 4px; }
+    .row.starred { background: #FFF3C4; border-radius: 6px; }
+    .row.starred .write { border-bottom-color: transparent; }
     .row.done .write { color: var(--ink-soft); text-decoration: line-through; }
 
     /* Always-visible way to add another line */
@@ -296,7 +317,7 @@
       ];
       var DEFAULT_NAMES = ['4 Little Dinos', 'Prasad Audio', 'CPP', 'KDP'];
 
-      function blank() { return { t: '', d: false }; }
+      function blank() { return { t: '', d: false, s: false }; }
       function blankRows(n) { var r = []; for (var i = 0; i < n; i++) r.push(blank()); return r; }
       function newId() { return 'l' + Date.now().toString(36) + Math.random().toString(36).slice(2, 6); }
       function h(tag, cls, text) {
@@ -313,7 +334,7 @@
       function cleanRows(rows) {
         var out = [];
         (Array.isArray(rows) ? rows : []).forEach(function (r) {
-          if (r && typeof r === 'object') out.push({ t: String(r.t || ''), d: !!r.d });
+          if (r && typeof r === 'object') out.push({ t: String(r.t || ''), d: !!r.d, s: !!r.s });
         });
         while (out.length < START_ROWS) out.push(blank());
         if (out[out.length - 1].t) out.push(blank());
@@ -400,7 +421,7 @@
           list = { id: SEED_ID, name: '25 New Books', color: 4, rows: [] };
           state.lists.push(list);
         }
-        var kept = list.rows.filter(function (r) { return r.t || r.d; });
+        var kept = list.rows.filter(function (r) { return r.t || r.d || r.s; });
         var have = {};
         kept.forEach(function (r) { have[r.t] = true; });
         SEED.forEach(function (t) { if (!have[t]) kept.push({ t: t, d: false }); });
@@ -428,7 +449,7 @@
       window.addEventListener('resize', fitAll);
 
       function makeRow(list, item, ul) {
-        var li = h('li', 'row' + (item.d ? ' done' : ''));
+        var li = h('li', 'row' + (item.d ? ' done' : '') + (item.s ? ' starred' : ''));
 
         var box = h('button', 'box');
         box.type = 'button';
@@ -472,7 +493,7 @@
             e.preventDefault();
             var nextEl = ul.children[i + 1];
             var nextItem = rows[i + 1];
-            if (!nextItem || nextItem.t || nextItem.d) {
+            if (!nextItem || nextItem.t || nextItem.d || nextItem.s) {
               var nb = blank();
               rows.splice(i + 1, 0, nb);
               var el = makeRow(list, nb, ul);
@@ -491,7 +512,21 @@
           }
         });
 
+        var star = h('button', 'star');
+        star.type = 'button';
+        star.setAttribute('aria-pressed', item.s ? 'true' : 'false');
+        star.setAttribute('aria-label', 'Highlight');
+        star.title = 'Highlight this task';
+        star.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.2l2.6 5.5 6 .8-4.4 4.2 1.1 6-5.3-2.9-5.3 2.9 1.1-6-4.4-4.2 6-.8z"/></svg>';
+        star.addEventListener('click', function () {
+          item.s = !item.s;
+          star.setAttribute('aria-pressed', item.s ? 'true' : 'false');
+          li.classList.toggle('starred', item.s);
+          save();
+        });
+
         li.appendChild(box);
+        li.appendChild(star);
         li.appendChild(input);
         requestAnimationFrame(function () { fit(input); });
         return li;
