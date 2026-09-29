@@ -287,6 +287,23 @@
       .col-head { display: none; }
       .col-new { display: none; }
     }
+    /* Small "Saved" note */
+    .saved {
+      position: fixed;
+      right: 1rem;
+      bottom: 1rem;
+      z-index: 5;
+      padding: .35rem .7rem;
+      border-radius: 6px;
+      background: #26354B;
+      color: #FFFFFF;
+      font: 500 .75rem/1.2 var(--sans);
+      opacity: 0;
+      transition: opacity .2s;
+      pointer-events: none;
+    }
+    .saved.on { opacity: .85; }
+    .saved.bad { background: #A33232; opacity: 1; }
   </style>
 </head>
 <body>
@@ -431,9 +448,74 @@
       })();
       var editingId = null;
 
-      function save() {
-        try { localStorage.setItem(KEY, JSON.stringify(state)); } catch (e) {}
+      // Saved on every keystroke, tick and star; the note at the bottom confirms it.
+      var statusEl = null, statusTimer = null;
+      function showStatus(ok) {
+        if (!statusEl) {
+          statusEl = h('div', 'saved');
+          statusEl.setAttribute('role', 'status');
+          statusEl.setAttribute('aria-live', 'polite');
+          document.body.appendChild(statusEl);
+        }
+        statusEl.textContent = ok ? 'Saved' : 'Not saved \u2014 this browser is blocking storage';
+        statusEl.classList.toggle('bad', !ok);
+        statusEl.classList.add('on');
+        clearTimeout(statusTimer);
+        if (ok) statusTimer = setTimeout(function () { statusEl.classList.remove('on'); }, 1200);
       }
+      // If another tab saved in the meantime, keep its lists and replace only the one being edited here
+      function mergeFresh() {
+        if (!pendingSync) return;
+        var a = document.activeElement;
+        var col = a && a.closest ? a.closest('.col') : null;
+        var id = col ? col.id.replace(/^col-/, '') : state.active;
+        var mine = null;
+        state.lists.forEach(function (l) { if (l.id === id) mine = l; });
+        var fresh = load();
+        if (mine) {
+          var found = false;
+          fresh.lists = fresh.lists.map(function (l) { if (l.id === id) { found = true; return mine; } return l; });
+          if (!found) fresh.lists.push(mine);
+        }
+        fresh.active = state.active;
+        state = fresh;
+      }
+      function save() {
+        mergeFresh();
+        var ok = true;
+        try {
+          var json = JSON.stringify(state);
+          localStorage.setItem(KEY, json);
+          ok = localStorage.getItem(KEY) === json;   // read back to be sure it stuck
+        } catch (e) { ok = false; }
+        showStatus(ok);
+      }
+      // Extra safety: save again when the page is hidden or closed
+      function saveQuiet() { if (pendingSync) return; try { localStorage.setItem(KEY, JSON.stringify(state)); } catch (e) {} }
+      window.addEventListener('pagehide', saveQuiet);
+      document.addEventListener('visibilitychange', function () { if (document.hidden) saveQuiet(); });
+
+      // Same page open in another tab: pick up its changes so an old tab never overwrites newer ones
+      var pendingSync = false;
+      function syncFromStorage() {
+        pendingSync = false;
+        var keepActive = state.active;
+        state = load();
+        if (state.lists.some(function (l) { return l.id === keepActive; })) state.active = keepActive;
+        render();
+      }
+      window.addEventListener('storage', function (e) {
+        if (e.key !== KEY) return;
+        var a = document.activeElement;
+        if (a && (a.tagName === 'TEXTAREA' || a.tagName === 'INPUT')) pendingSync = true;
+        else syncFromStorage();
+      });
+      document.addEventListener('focusout', function () {
+        setTimeout(function () {
+          var a = document.activeElement;
+          if (pendingSync && !(a && (a.tagName === 'TEXTAREA' || a.tagName === 'INPUT'))) syncFromStorage();
+        }, 0);
+      });
 
       var tabsEl = document.getElementById('tabs');
       var colsEl = document.getElementById('columns');
