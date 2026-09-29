@@ -16,14 +16,9 @@
       --ink: #26354B;
       --ink-soft: #6B7788;
       --line: rgba(38, 53, 75, .16);
-      --tab-1: #D3E3CB;   /* sage  */
-      --tab-2: #F0E1B8;   /* sand  */
-      --tab-3: #CBDDEB;   /* mist  */
-      --tab-4: #EDCFC7;   /* blush */
-      --tick-1: #9DB593;
-      --tick-2: #D3BB7C;
-      --tick-3: #8FAAC1;
-      --tick-4: #CB9C91;
+      --line-strong: rgba(38, 53, 75, .35);
+      --tab: #D3E3CB;     /* set per list from the palette in the script */
+      --tick: #9DB593;
       --sans: "Inter", system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
     }
     * { box-sizing: border-box; }
@@ -33,35 +28,101 @@
       font-family: var(--sans);
       color: var(--ink);
     }
+    button { font-family: inherit; }
 
     /* Tab bar: phone only */
     .tabs { display: none; }
 
+    /* Desktop: lists side by side, scrolls sideways when there are many */
     .columns {
-      display: grid;
-      grid-template-columns: repeat(4, minmax(0, 1fr));
+      display: flex;
+      align-items: stretch;
+      overflow-x: auto;
       min-height: 100vh;
       min-height: 100dvh;
     }
     .col {
+      flex: 1 0 16rem;
+      min-width: 16rem;
       padding: clamp(1rem, 2.5vw, 2rem);
-      border-left: 1px solid var(--line);
+      border-right: 1px solid var(--line);
     }
-    .col:first-child { border-left: 0; }
-    .col:nth-child(1) { --tab: var(--tab-1); --tick: var(--tick-1); }
-    .col:nth-child(2) { --tab: var(--tab-2); --tick: var(--tick-2); }
-    .col:nth-child(3) { --tab: var(--tab-3); --tick: var(--tick-3); }
-    .col:nth-child(4) { --tab: var(--tab-4); --tick: var(--tick-4); }
+    .col-new {
+      flex: 0 0 auto;
+      padding: clamp(1rem, 2.5vw, 2rem);
+    }
 
     .col-head { margin: 0 0 1rem; }
-    .col-head span {
+    .chip {
       display: inline-block;
+      max-width: 100%;
       padding: .4rem .8rem;
+      border: 0;
       border-radius: 6px;
       background: var(--tab);
-      font: 500 .8125rem/1.2 var(--sans);
       color: var(--ink);
+      font: 500 .8125rem/1.2 var(--sans);
+      text-align: left;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      cursor: pointer;
     }
+    .chip:focus-visible, .tab:focus-visible, .tab-add:focus-visible { outline: 2px solid var(--ink); outline-offset: 3px; }
+    .chip-add, .tab-add {
+      background: transparent;
+      border: 1px dashed var(--line-strong);
+      color: var(--ink-soft);
+    }
+
+    /* Edit panel: name, color, delete */
+    .panel {
+      display: flex;
+      flex-direction: column;
+      gap: .9rem;
+      margin: 0 0 1rem;
+      padding: .9rem;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+    }
+    .name {
+      width: 100%;
+      height: 2.25rem;
+      padding: 0 0 .1rem;
+      border: 0;
+      border-bottom: 1px solid var(--line-strong);
+      border-radius: 0;
+      outline: 0;
+      background: transparent;
+      color: var(--ink);
+      font: 500 1rem/1.4 var(--sans);
+      -webkit-appearance: none;
+      appearance: none;
+    }
+    .name:focus-visible { border-bottom-color: var(--ink); }
+    .swatches { display: flex; flex-wrap: wrap; gap: .5rem; }
+    .sw {
+      width: 1.75rem;
+      height: 1.75rem;
+      padding: 0;
+      border: 2px solid transparent;
+      border-radius: 4px;
+      cursor: pointer;
+      -webkit-tap-highlight-color: transparent;
+    }
+    .sw[aria-pressed="true"] { border-color: var(--ink); }
+    .sw:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
+    .panel-actions { display: flex; flex-wrap: wrap; gap: .5rem 1rem; }
+    .link {
+      padding: .25rem 0;
+      border: 0;
+      background: none;
+      color: var(--ink);
+      font: 500 .8125rem/1.2 var(--sans);
+      cursor: pointer;
+    }
+    .link.danger { color: #A33232; }
+    .link:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; border-radius: 3px; }
 
     .list { list-style: none; margin: 0; padding: 0; }
     .row { display: flex; align-items: center; gap: .5rem; }
@@ -149,13 +210,6 @@
     .add:hover { color: var(--ink); }
     .add:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; border-radius: 4px; }
 
-    @media (max-width: 860px) and (min-width: 641px) {
-      .columns { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-      .col { min-height: 50vh; min-height: 50dvh; }
-      .col:nth-child(3) { border-left: 0; }
-      .col:nth-child(n+3) { border-top: 1px solid var(--line); }
-    }
-
     /* Phone: one list at a time, switched with the colored tabs */
     @media (max-width: 640px) {
       .tabs {
@@ -168,23 +222,25 @@
         padding: 1rem 1rem 1.1rem;
         background: var(--bg);
       }
-      .tab {
+      .tab, .tab-add {
         position: relative;
+        max-width: 100%;
         padding: .55rem .8rem;
-        border: 0;
         border-radius: 6px;
-        background: var(--tab);
-        color: var(--ink);
         font: 500 .8125rem/1.2 var(--sans);
         cursor: pointer;
-        opacity: .6;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
         -webkit-tap-highlight-color: transparent;
       }
-      .tab:nth-child(1) { --tab: var(--tab-1); }
-      .tab:nth-child(2) { --tab: var(--tab-2); }
-      .tab:nth-child(3) { --tab: var(--tab-3); }
-      .tab:nth-child(4) { --tab: var(--tab-4); }
-      .tab[aria-selected="true"] { opacity: 1; }
+      .tab {
+        border: 0;
+        background: var(--tab);
+        color: var(--ink);
+        opacity: .6;
+      }
+      .tab[aria-selected="true"] { opacity: 1; overflow: visible; }
       .tab[aria-selected="true"]::after {
         content: "";
         position: absolute;
@@ -192,98 +248,130 @@
         height: 2px;
         background: var(--ink);
       }
-      .tab:focus-visible { outline: 2px solid var(--ink); outline-offset: 3px; }
 
-      .columns { display: block; min-height: 0; }
-      .col { display: none; border-left: 0; min-height: calc(100vh - 5rem); min-height: calc(100dvh - 5rem); padding: .25rem 1.25rem 2rem 1rem; }
+      .columns { display: block; overflow: visible; min-height: 0; }
+      .col {
+        display: none;
+        min-width: 0;
+        border-right: 0;
+        min-height: calc(100vh - 5rem);
+        min-height: calc(100dvh - 5rem);
+        padding: .25rem 1.25rem 2rem 1rem;
+      }
       .col.is-active { display: block; }
       .col-head { display: none; }
+      .col-new { display: none; }
     }
   </style>
 </head>
 <body>
-  <div class="tabs" role="tablist" aria-label="Lists">
-    <button class="tab" role="tab" id="tab-1" aria-controls="col-1" aria-selected="true">4 Little Dinos</button>
-    <button class="tab" role="tab" id="tab-2" aria-controls="col-2" aria-selected="false" tabindex="-1">Prasad Audio</button>
-    <button class="tab" role="tab" id="tab-3" aria-controls="col-3" aria-selected="false" tabindex="-1">CPP</button>
-    <button class="tab" role="tab" id="tab-4" aria-controls="col-4" aria-selected="false" tabindex="-1">KDP</button>
-  </div>
-
-  <main class="columns">
-    <section class="col is-active" id="col-1" role="tabpanel" aria-labelledby="tab-1">
-      <h2 class="col-head"><span>4 Little Dinos</span></h2>
-      <ul class="list" aria-label="4 Little Dinos"></ul>
-    </section>
-    <section class="col" id="col-2" role="tabpanel" aria-labelledby="tab-2">
-      <h2 class="col-head"><span>Prasad Audio</span></h2>
-      <ul class="list" aria-label="Prasad Audio"></ul>
-    </section>
-    <section class="col" id="col-3" role="tabpanel" aria-labelledby="tab-3">
-      <h2 class="col-head"><span>CPP</span></h2>
-      <ul class="list" aria-label="CPP"></ul>
-    </section>
-    <section class="col" id="col-4" role="tabpanel" aria-labelledby="tab-4">
-      <h2 class="col-head"><span>KDP</span></h2>
-      <ul class="list" aria-label="KDP"></ul>
-    </section>
-  </main>
+  <div class="tabs" id="tabs" role="tablist" aria-label="Lists"></div>
+  <main class="columns" id="columns"></main>
 
   <script>
-    // Lists are saved in this browser only; nothing is sent anywhere.
+    // Everything is saved in this browser only; nothing is sent anywhere.
     (function () {
-      var KEY = 'certpath-todo-v1';
-      var TAB_KEY = 'certpath-todo-tab';
-      var LABELS = ['4 Little Dinos', 'Prasad Audio', 'CPP', 'KDP'];
+      var KEY = 'certpath-todo-v2';
+      var OLD_KEY = 'certpath-todo-v1';
+      var OLD_TAB_KEY = 'certpath-todo-tab';
       var START_ROWS = 10;
       var MIN_ROWS = 5;
 
+      // Mild colors: tab/chip color and the darker tick-square color
+      var PALETTE = [
+        { n: 'Sage',     tab: '#D3E3CB', tick: '#9DB593' },
+        { n: 'Sand',     tab: '#F0E1B8', tick: '#D3BB7C' },
+        { n: 'Mist',     tab: '#CBDDEB', tick: '#8FAAC1' },
+        { n: 'Blush',    tab: '#EDCFC7', tick: '#CB9C91' },
+        { n: 'Lavender', tab: '#DDD5EC', tick: '#A99BC9' },
+        { n: 'Aqua',     tab: '#C6E6E0', tick: '#86BAB0' },
+        { n: 'Peach',    tab: '#F6DCC3', tick: '#DEAA80' },
+        { n: 'Lime',     tab: '#E1EBBE', tick: '#B2C36A' },
+        { n: 'Rose',     tab: '#F0D0DD', tick: '#CD91AB' },
+        { n: 'Slate',    tab: '#D6DCE4', tick: '#9AA7B7' }
+      ];
+      var DEFAULT_NAMES = ['4 Little Dinos', 'Prasad Audio', 'CPP', 'KDP'];
+
       function blank() { return { t: '', d: false }; }
-      function fresh() {
-        var cols = [];
-        for (var c = 0; c < 4; c++) {
-          var rows = [];
-          for (var r = 0; r < START_ROWS; r++) rows.push(blank());
-          cols.push(rows);
-        }
-        return cols;
+      function blankRows(n) { var r = []; for (var i = 0; i < n; i++) r.push(blank()); return r; }
+      function newId() { return 'l' + Date.now().toString(36) + Math.random().toString(36).slice(2, 6); }
+      function h(tag, cls, text) {
+        var e = document.createElement(tag);
+        if (cls) e.className = cls;
+        if (text != null) e.textContent = text;
+        return e;
+      }
+      function applyColor(node, idx) {
+        var c = PALETTE[idx % PALETTE.length];
+        node.style.setProperty('--tab', c.tab);
+        node.style.setProperty('--tick', c.tick);
+      }
+      function cleanRows(rows) {
+        var out = [];
+        (Array.isArray(rows) ? rows : []).forEach(function (r) {
+          if (r && typeof r === 'object') out.push({ t: String(r.t || ''), d: !!r.d });
+        });
+        while (out.length < START_ROWS) out.push(blank());
+        if (out[out.length - 1].t) out.push(blank());
+        return out;
       }
 
-      var state;
-      try {
-        state = JSON.parse(localStorage.getItem(KEY));
-        if (!Array.isArray(state) || state.length !== 4) state = null;
-      } catch (e) { state = null; }
-      if (!state) state = fresh();
-      state.forEach(function (rows) {
-        while (rows.length < START_ROWS) rows.push(blank());
-        if (rows[rows.length - 1].t) rows.push(blank());
-      });
+      function load() {
+        try {
+          var v2 = JSON.parse(localStorage.getItem(KEY));
+          if (v2 && Array.isArray(v2.lists) && v2.lists.length) {
+            v2.lists.forEach(function (l) {
+              l.rows = cleanRows(l.rows);
+              if (typeof l.color !== 'number') l.color = 0;
+              if (typeof l.name !== 'string') l.name = '';
+            });
+            if (!v2.lists.some(function (l) { return l.id === v2.active; })) v2.active = v2.lists[0].id;
+            return v2;
+          }
+        } catch (e) {}
+        // First run on the new version: bring over the four original lists and their items
+        var lists = DEFAULT_NAMES.map(function (name, i) {
+          return { id: 'l' + (i + 1), name: name, color: i, rows: blankRows(START_ROWS) };
+        });
+        try {
+          var v1 = JSON.parse(localStorage.getItem(OLD_KEY));
+          if (Array.isArray(v1) && v1.length === 4) v1.forEach(function (rows, i) { lists[i].rows = cleanRows(rows); });
+        } catch (e) {}
+        var active = 'l1';
+        try {
+          var t = parseInt(localStorage.getItem(OLD_TAB_KEY), 10);
+          if (t >= 1 && t <= 4) active = 'l' + t;
+        } catch (e) {}
+        return { lists: lists, active: active };
+      }
+
+      var state = load();
+      var editingId = null;
 
       function save() {
         try { localStorage.setItem(KEY, JSON.stringify(state)); } catch (e) {}
       }
 
-      var lists = Array.prototype.slice.call(document.querySelectorAll('.list'));
+      var tabsEl = document.getElementById('tabs');
+      var colsEl = document.getElementById('columns');
 
-      function makeRow(ci, item) {
-        var li = document.createElement('li');
-        li.className = 'row' + (item.d ? ' done' : '');
+      function labelOf(list) { return list.name.trim() || 'Untitled'; }
 
-        var box = document.createElement('button');
+      function makeRow(list, item, ul) {
+        var li = h('li', 'row' + (item.d ? ' done' : ''));
+
+        var box = h('button', 'box');
         box.type = 'button';
-        box.className = 'box';
         box.setAttribute('role', 'checkbox');
         box.setAttribute('aria-checked', item.d ? 'true' : 'false');
         box.setAttribute('aria-label', 'Done');
 
-        var input = document.createElement('input');
+        var input = h('input', 'write');
         input.type = 'text';
-        input.className = 'write';
         input.value = item.t;
-        input.placeholder = '';
         input.autocomplete = 'off';
         input.setAttribute('enterkeyhint', 'next');
-        input.setAttribute('aria-label', LABELS[ci] + ' item');
+        input.setAttribute('aria-label', labelOf(list) + ' item');
 
         box.addEventListener('click', function () {
           item.d = !item.d;
@@ -294,34 +382,34 @@
 
         input.addEventListener('input', function () {
           item.t = input.value;
-          var rows = state[ci];
+          var rows = list.rows;
           if (rows[rows.length - 1] === item && item.t) {
             var extra = blank();
             rows.push(extra);
-            lists[ci].appendChild(makeRow(ci, extra));
+            ul.appendChild(makeRow(list, extra, ul));
           }
           save();
         });
 
         input.addEventListener('keydown', function (e) {
-          var rows = state[ci];
+          var rows = list.rows;
           var i = rows.indexOf(item);
           if (e.key === 'Enter') {
             e.preventDefault();
-            var nextEl = lists[ci].children[i + 1];
+            var nextEl = ul.children[i + 1];
             var nextItem = rows[i + 1];
             if (!nextItem || nextItem.t || nextItem.d) {
               var nb = blank();
               rows.splice(i + 1, 0, nb);
-              var el = makeRow(ci, nb);
-              lists[ci].insertBefore(el, nextEl || null);
+              var el = makeRow(list, nb, ul);
+              ul.insertBefore(el, nextEl || null);
               nextEl = el;
               save();
             }
             nextEl.querySelector('.write').focus();
           } else if (e.key === 'Backspace' && !input.value && rows.length > MIN_ROWS && i > 0) {
             e.preventDefault();
-            var prev = lists[ci].children[i - 1].querySelector('.write');
+            var prev = ul.children[i - 1].querySelector('.write');
             rows.splice(i, 1);
             li.remove();
             prev.focus();
@@ -334,51 +422,197 @@
         return li;
       }
 
-      lists.forEach(function (ul, ci) {
-        state[ci].forEach(function (item) { ul.appendChild(makeRow(ci, item)); });
+      function makePanel(list) {
+        var p = h('div', 'panel');
 
-        var add = document.createElement('button');
-        add.type = 'button';
-        add.className = 'add';
-        add.setAttribute('aria-label', 'Add a line to ' + LABELS[ci]);
-        add.innerHTML = '<span class="add-box" aria-hidden="true"></span><span>Add line</span>';
-        add.addEventListener('click', function () {
-          var nb = blank();
-          state[ci].push(nb);
-          var el = makeRow(ci, nb);
-          ul.appendChild(el);
+        var name = h('input', 'name');
+        name.type = 'text';
+        name.value = list.name;
+        name.maxLength = 24;
+        name.placeholder = 'List name';
+        name.autocomplete = 'off';
+        name.setAttribute('aria-label', 'List name');
+        name.addEventListener('input', function () {
+          list.name = name.value;
           save();
-          var field = el.querySelector('.write');
-          field.focus();
-          if (field.scrollIntoView) field.scrollIntoView({ block: 'center', behavior: 'smooth' });
+          var label = labelOf(list);
+          document.querySelectorAll('.tab[data-id="' + list.id + '"], .chip[data-id="' + list.id + '"]').forEach(function (n) {
+            n.textContent = label;
+          });
         });
-        ul.parentNode.appendChild(add);
-      });
+        name.addEventListener('keydown', function (e) {
+          if (e.key === 'Enter' || e.key === 'Escape') { e.preventDefault(); editingId = null; render(); }
+        });
+        p.appendChild(name);
 
-      // Phone tabs
-      var tabs = Array.prototype.slice.call(document.querySelectorAll('.tab'));
-      var cols = Array.prototype.slice.call(document.querySelectorAll('.col'));
-      function show(n) {
-        tabs.forEach(function (t, i) {
-          var on = i === n - 1;
-          t.setAttribute('aria-selected', on ? 'true' : 'false');
-          t.tabIndex = on ? 0 : -1;
+        var sw = h('div', 'swatches');
+        sw.setAttribute('role', 'group');
+        sw.setAttribute('aria-label', 'Color');
+        PALETTE.forEach(function (c, i) {
+          var b = h('button', 'sw');
+          b.type = 'button';
+          b.style.background = c.tab;
+          b.dataset.i = String(i);
+          b.setAttribute('aria-label', c.n);
+          b.setAttribute('aria-pressed', list.color === i ? 'true' : 'false');
+          b.addEventListener('click', function () {
+            list.color = i;
+            save();
+            render({ focusSel: '#col-' + list.id + ' .sw[data-i="' + i + '"]' });
+          });
+          sw.appendChild(b);
         });
-        cols.forEach(function (c, i) { c.classList.toggle('is-active', i === n - 1); });
-        try { localStorage.setItem(TAB_KEY, String(n)); } catch (e) {}
+        p.appendChild(sw);
+
+        var actions = h('div', 'panel-actions');
+        var done = h('button', 'link', 'Done');
+        done.type = 'button';
+        done.addEventListener('click', function () { editingId = null; render(); });
+        actions.appendChild(done);
+
+        if (state.lists.length > 1) {
+          var del = h('button', 'link danger', 'Delete list');
+          del.type = 'button';
+          var armed = false;
+          del.addEventListener('click', function () {
+            if (!armed) {
+              armed = true;
+              del.textContent = 'Tap again to delete';
+              setTimeout(function () { armed = false; del.textContent = 'Delete list'; }, 4000);
+              return;
+            }
+            var i = state.lists.indexOf(list);
+            state.lists.splice(i, 1);
+            if (state.active === list.id) state.active = state.lists[Math.max(0, i - 1)].id;
+            editingId = null;
+            save();
+            render();
+          });
+          actions.appendChild(del);
+        }
+        p.appendChild(actions);
+        return p;
       }
-      tabs.forEach(function (t, i) {
-        t.addEventListener('click', function () { show(i + 1); });
-        t.addEventListener('keydown', function (e) {
-          var n = null;
-          if (e.key === 'ArrowRight') n = (i + 1) % 4 + 1;
-          if (e.key === 'ArrowLeft') n = (i + 3) % 4 + 1;
-          if (n) { e.preventDefault(); show(n); tabs[n - 1].focus(); }
+
+      function toggleEdit(id) {
+        editingId = editingId === id ? null : id;
+        render(editingId ? { focusSel: '#col-' + id + ' .name', select: true } : null);
+      }
+
+      function addList() {
+        var used = state.lists.map(function (l) { return l.color % PALETTE.length; });
+        var color = -1;
+        for (var i = 0; i < PALETTE.length; i++) { if (used.indexOf(i) === -1) { color = i; break; } }
+        if (color === -1) color = state.lists.length % PALETTE.length;
+        var list = { id: newId(), name: 'New list', color: color, rows: blankRows(START_ROWS) };
+        state.lists.push(list);
+        state.active = list.id;
+        editingId = list.id;
+        save();
+        render({ focusSel: '#col-' + list.id + ' .name', select: true, reveal: '#col-' + list.id });
+      }
+
+      function render(opts) {
+        opts = opts || {};
+        tabsEl.textContent = '';
+        colsEl.textContent = '';
+
+        state.lists.forEach(function (list) {
+          var isActive = list.id === state.active;
+          var label = labelOf(list);
+
+          var tab = h('button', 'tab', label);
+          tab.type = 'button';
+          tab.id = 'tab-' + list.id;
+          tab.dataset.id = list.id;
+          tab.setAttribute('role', 'tab');
+          tab.setAttribute('aria-controls', 'col-' + list.id);
+          tab.setAttribute('aria-selected', isActive ? 'true' : 'false');
+          tab.tabIndex = isActive ? 0 : -1;
+          applyColor(tab, list.color);
+          tab.addEventListener('click', function () {
+            if (state.active === list.id) { toggleEdit(list.id); return; }
+            state.active = list.id;
+            editingId = null;
+            save();
+            render();
+          });
+          tab.addEventListener('keydown', function (e) {
+            var i = state.lists.indexOf(list), n = state.lists.length, to = null;
+            if (e.key === 'ArrowRight') to = state.lists[(i + 1) % n];
+            if (e.key === 'ArrowLeft') to = state.lists[(i + n - 1) % n];
+            if (to) {
+              e.preventDefault();
+              state.active = to.id; editingId = null; save();
+              render({ focusSel: '#tab-' + to.id });
+            }
+          });
+          tabsEl.appendChild(tab);
+
+          var col = h('section', 'col' + (isActive ? ' is-active' : ''));
+          col.id = 'col-' + list.id;
+          col.setAttribute('role', 'tabpanel');
+          col.setAttribute('aria-labelledby', 'tab-' + list.id);
+          applyColor(col, list.color);
+
+          var head = h('h2', 'col-head');
+          var chip = h('button', 'chip', label);
+          chip.type = 'button';
+          chip.dataset.id = list.id;
+          chip.title = 'Rename, recolor or delete this list';
+          chip.addEventListener('click', function () { toggleEdit(list.id); });
+          head.appendChild(chip);
+          col.appendChild(head);
+
+          if (editingId === list.id) col.appendChild(makePanel(list));
+
+          var ul = h('ul', 'list');
+          ul.setAttribute('aria-label', label);
+          list.rows.forEach(function (item) { ul.appendChild(makeRow(list, item, ul)); });
+          col.appendChild(ul);
+
+          var add = h('button', 'add');
+          add.type = 'button';
+          add.setAttribute('aria-label', 'Add a line to ' + label);
+          add.innerHTML = '<span class="add-box" aria-hidden="true"></span><span>Add line</span>';
+          add.addEventListener('click', function () {
+            var nb = blank();
+            list.rows.push(nb);
+            var el = makeRow(list, nb, ul);
+            ul.appendChild(el);
+            save();
+            var field = el.querySelector('.write');
+            field.focus();
+            if (field.scrollIntoView) field.scrollIntoView({ block: 'center', behavior: 'smooth' });
+          });
+          col.appendChild(add);
+
+          colsEl.appendChild(col);
         });
-      });
-      var saved = 1;
-      try { saved = parseInt(localStorage.getItem(TAB_KEY), 10) || 1; } catch (e) {}
-      if (saved >= 1 && saved <= 4) show(saved);
+
+        var tabAdd = h('button', 'tab-add', '+ New list');
+        tabAdd.type = 'button';
+        tabAdd.addEventListener('click', addList);
+        tabsEl.appendChild(tabAdd);
+
+        var colNew = h('div', 'col-new');
+        var chipAdd = h('button', 'chip chip-add', '+ New list');
+        chipAdd.type = 'button';
+        chipAdd.addEventListener('click', addList);
+        colNew.appendChild(chipAdd);
+        colsEl.appendChild(colNew);
+
+        if (opts.reveal) {
+          var target = document.querySelector(opts.reveal);
+          if (target && target.scrollIntoView) target.scrollIntoView({ block: 'nearest', inline: 'nearest' });
+        }
+        if (opts.focusSel) {
+          var f = document.querySelector(opts.focusSel);
+          if (f) { f.focus(); if (opts.select && f.select) f.select(); }
+        }
+      }
+
+      render();
     })();
   </script>
 </body>
