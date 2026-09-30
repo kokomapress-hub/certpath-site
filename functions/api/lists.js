@@ -1,7 +1,7 @@
 // Cross-device storage for the private to-do page at /columns.
-// Needs, in the Cloudflare Pages project settings:
-//   - a KV namespace bound as TODO_KV
-//   - a secret environment variable TODO_KEY (the passcode typed once on each device)
+// Needs, in the Cloudflare Pages project settings, a KV namespace bound as TODO_KV.
+// Passcode: if a TODO_KEY secret is set it is used; otherwise the first passcode
+// entered on the page (6+ characters) becomes the passcode, stored only as a hash.
 // GET  /api/lists            -> { data, updated }   (data is null if nothing saved yet)
 // PUT  /api/lists  {data, updated} -> { ok, updated }
 // Every request must send the passcode in the X-Todo-Key header.
@@ -24,9 +24,27 @@ function sameKey(a, b) {
   return diff === 0;
 }
 
+async function hash(text) {
+  const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode('certpath-todo:' + text));
+  return [...new Uint8Array(buf)].map(b => b.toString(16).padStart(2, '0')).join('');
+}
+
+async function passOk(env, given) {
+  if (env.TODO_KEY) return sameKey(given, env.TODO_KEY);
+  const saved = await env.TODO_KV.get('passhash');
+  if (!saved) {
+    if (given.length < 6) return 'short';
+    await env.TODO_KV.put('passhash', await hash(given));   // first passcode becomes the passcode
+    return true;
+  }
+  return sameKey(await hash(given), saved);
+}
+
 export async function onRequest({ request, env }) {
-  if (!env.TODO_KV || !env.TODO_KEY) return reply({ error: 'not-configured' }, 503);
-  if (!sameKey(request.headers.get('x-todo-key') || '', env.TODO_KEY)) {
+  if (!env.TODO_KV) return reply({ error: 'not-configured' }, 503);
+  const ok = await passOk(env, request.headers.get('x-todo-key') || '');
+  if (ok === 'short') return reply({ error: 'too-short' }, 400);
+  if (ok !== true) {
     await new Promise(r => setTimeout(r, 400));
     return reply({ error: 'wrong-passcode' }, 401);
   }

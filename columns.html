@@ -361,7 +361,7 @@
       cursor: pointer;
     }
     .sync.is-ok { color: #3E7A43; border-color: #9DC4A0; }
-    .sync.is-error, .sync.is-wrong { color: #A33232; border-color: #E0AFAF; }
+    .sync.is-error, .sync.is-wrong, .sync.is-short { color: #A33232; border-color: #E0AFAF; }
     .sync-panel {
       position: fixed;
       left: 1rem;
@@ -1031,7 +1031,7 @@
       document.body.appendChild(syncBtn);
       var syncPanel = null;
       function paintSync() {
-        var t = { off: 'Sync: off', busy: 'Syncing…', ok: 'Synced ✓', error: 'Offline — saved here', wrong: 'Sync: wrong passcode', unavailable: 'Sync not set up yet' }[syncMode];
+        var t = { off: 'Sync: off', busy: 'Syncing…', ok: 'Synced ✓', error: 'Offline — saved here', wrong: 'Sync: wrong passcode', short: 'Passcode too short (6+)', unavailable: 'Sync not set up yet' }[syncMode];
         syncBtn.textContent = t;
         syncBtn.className = 'sync is-' + syncMode;
       }
@@ -1054,6 +1054,7 @@
       function setBase(v) { base = v || 0; setLS(BASE_KEY, String(base)); }
       function handleFail(j) {
         if (j && j._status === 401) { syncMode = 'wrong'; }
+        else if (j && j._status === 400 && j.error === 'too-short') { syncMode = 'short'; }
         else if (j && j._status === 503) { syncMode = 'unavailable'; }
         else {
           syncMode = 'error';
@@ -1140,7 +1141,7 @@
       }
 
       function schedulePush() {
-        if (!pass || syncMode === 'wrong' || syncMode === 'unavailable') return;
+        if (!pass || syncMode === 'wrong' || syncMode === 'short' || syncMode === 'unavailable') return;
         clearTimeout(pushTimer);
         pushTimer = setTimeout(push, 600);
       }
@@ -1151,7 +1152,7 @@
         syncPanel = h('div', 'sync-panel');
         var p = h('p', '', pass
           ? 'This device is syncing. Use the same passcode on your phone and computer.'
-          : 'Type your sync passcode to keep these lists the same on your phone and computer.');
+          : 'Type your sync passcode to keep these lists the same on your phone and computer. The first time, choose one (6 or more characters) and use the same one on every device.');
         var inp = h('input', 'pass');
         inp.type = 'password';
         inp.placeholder = 'Passcode';
