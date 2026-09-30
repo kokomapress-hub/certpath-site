@@ -346,6 +346,51 @@
     }
     .saved.on { opacity: .85; }
     .saved.bad { background: #A33232; opacity: 1; }
+    /* Sync button and panel */
+    .sync {
+      position: fixed;
+      left: 1rem;
+      bottom: 1rem;
+      z-index: 4;
+      padding: .35rem .7rem;
+      border: 1px solid var(--line-strong);
+      border-radius: 6px;
+      background: #FFFFFF;
+      color: var(--ink-soft);
+      font: 500 .75rem/1.2 var(--sans);
+      cursor: pointer;
+    }
+    .sync.is-ok { color: #3E7A43; border-color: #9DC4A0; }
+    .sync.is-error, .sync.is-wrong { color: #A33232; border-color: #E0AFAF; }
+    .sync-panel {
+      position: fixed;
+      left: 1rem;
+      right: 1rem;
+      bottom: 3.4rem;
+      z-index: 6;
+      max-width: 22rem;
+      display: flex;
+      flex-direction: column;
+      gap: .7rem;
+      padding: .9rem;
+      border: 1px solid var(--line-strong);
+      border-radius: 8px;
+      background: #FFFFFF;
+      box-shadow: 0 6px 24px rgba(38, 53, 75, .15);
+      font: 400 .8125rem/1.45 var(--sans);
+    }
+    .sync-panel p { margin: 0; color: var(--ink-soft); }
+    .sync-panel .pass {
+      height: 2.25rem;
+      padding: 0 .6rem;
+      border: 1px solid var(--line-strong);
+      border-radius: 6px;
+      font: 400 1rem/1 var(--sans);
+      color: var(--ink);
+    }
+    .sync-actions { display: flex; flex-wrap: wrap; gap: .5rem 1rem; }
+    .list:last-of-type { padding-bottom: 0; }
+    .add { margin-bottom: 3rem; }
   </style>
 </head>
 <body>
@@ -524,6 +569,7 @@
       }
       function save() {
         mergeFresh();
+        state.updated = Date.now();
         var ok = true;
         try {
           var json = JSON.stringify(state);
@@ -531,6 +577,7 @@
           ok = localStorage.getItem(KEY) === json;   // read back to be sure it stuck
         } catch (e) { ok = false; }
         showStatus(ok);
+        if (typeof schedulePush === 'function') schedulePush();
       }
       // Extra safety: save again when the page is hidden or closed
       function saveQuiet() { if (pendingSync) return; try { localStorage.setItem(KEY, JSON.stringify(state)); } catch (e) {} }
@@ -967,6 +1014,199 @@
         }
       }
 
+
+      // ---- Sync across devices (phone <-> computer) through /api/lists ----
+      var PASS_KEY = 'certpath-todo-pass';
+      var LINKED_KEY = 'certpath-todo-linked';
+      var BASE_KEY = 'certpath-todo-base';
+      function getLS(k) { try { return localStorage.getItem(k) || ''; } catch (e) { return ''; } }
+      function setLS(k, v) { try { if (v) localStorage.setItem(k, v); else localStorage.removeItem(k); } catch (e) {} }
+      var pass = getLS(PASS_KEY);
+      var base = parseInt(getLS(BASE_KEY), 10) || 0;    // server version this device last saw
+      var syncMode = pass ? 'busy' : 'off';
+      var pushTimer = null, pushing = false, pushAgain = false, retryTimer = null, remoteWaiting = false;
+
+      var syncBtn = h('button', 'sync');
+      syncBtn.type = 'button';
+      document.body.appendChild(syncBtn);
+      var syncPanel = null;
+      function paintSync() {
+        var t = { off: 'Sync: off', busy: 'Syncing…', ok: 'Synced ✓', error: 'Offline — saved here', wrong: 'Sync: wrong passcode', unavailable: 'Sync not set up yet' }[syncMode];
+        syncBtn.textContent = t;
+        syncBtn.className = 'sync is-' + syncMode;
+      }
+      paintSync();
+
+      function typing() {
+        var a = document.activeElement;
+        return !!(a && (a.tagName === 'TEXTAREA' || (a.tagName === 'INPUT' && a.className !== 'pass')));
+      }
+      function api(method, body) {
+        return fetch('/api/lists', {
+          method: method,
+          cache: 'no-store',
+          headers: { 'x-todo-key': pass, 'content-type': 'application/json' },
+          body: body ? JSON.stringify(body) : undefined
+        }).then(function (r) {
+          return r.json().catch(function () { return {}; }).then(function (j) { j._status = r.status; return j; });
+        });
+      }
+      function setBase(v) { base = v || 0; setLS(BASE_KEY, String(base)); }
+      function handleFail(j) {
+        if (j && j._status === 401) { syncMode = 'wrong'; }
+        else if (j && j._status === 503) { syncMode = 'unavailable'; }
+        else {
+          syncMode = 'error';
+          clearTimeout(retryTimer);
+          retryTimer = setTimeout(function () { pull(); }, 15000);
+        }
+        paintSync();
+      }
+
+      // Adopt data from the server, keeping this device's open tab
+      function adopt(data, updated) {
+        var keep = state.active;
+        data.updated = updated;
+        try { localStorage.setItem(KEY, JSON.stringify(data)); } catch (e) {}
+        state = load();
+        state.updated = updated;
+        if (state.lists.some(function (l) { return l.id === keep; })) state.active = keep;
+        render();
+      }
+
+      // Combine two copies without losing anything: lists and lines missing from one are added
+      function combine(a, b) {
+        var out = JSON.parse(JSON.stringify(a));
+        b.lists.forEach(function (lb) {
+          var la = null;
+          out.lists.forEach(function (l) { if (l.id === lb.id) la = l; });
+          if (!la) { out.lists.push(JSON.parse(JSON.stringify(lb))); return; }
+          var have = {};
+          la.rows.forEach(function (r) { if (r.t) have[r.t] = true; });
+          var filled = la.rows.filter(function (r) { return r.t || r.d || r.s; });
+          lb.rows.forEach(function (r) { if (r.t && !have[r.t]) { filled.push({ t: r.t, d: !!r.d, s: !!r.s }); have[r.t] = true; } });
+          la.rows = filled;
+        });
+        return out;
+      }
+
+      function pull() {
+        if (!pass) return Promise.resolve();
+        return api('GET').then(function (j) {
+          if (j._status !== 200) return handleFail(j);
+          var linked = getLS(LINKED_KEY) === '1';
+          if (!j.data) { setLS(LINKED_KEY, '1'); setBase(0); return push(); }
+          if (!linked) {
+            // first time on this device: merge what is here with what is online
+            setLS(LINKED_KEY, '1');
+            setBase(j.updated);
+            adopt(combine(j.data, state), j.updated);
+            return push();
+          }
+          if (j.updated > base) {
+            if (typing()) { remoteWaiting = true; syncMode = 'ok'; paintSync(); return; }
+            setBase(j.updated);
+            adopt(j.data, j.updated);
+          } else if ((state.updated || 0) > base) {
+            return push();
+          }
+          syncMode = 'ok';
+          paintSync();
+        }).catch(function () { handleFail(null); });
+      }
+
+      function push() {
+        if (!pass) return Promise.resolve();
+        pushTimer = null;
+        if (pushing) { pushAgain = true; return Promise.resolve(); }
+        pushing = true;
+        syncMode = 'busy'; paintSync();
+        var body = { data: state, updated: state.updated || Date.now(), base: base };
+        return api('PUT', body).then(function (j) {
+          pushing = false;
+          if (j._status === 409 && j.data) {
+            // changed on the other device meanwhile: keep both, then save the combined copy
+            setBase(j.updated);
+            var merged = combine(j.data, state);
+            merged.updated = Date.now();
+            adopt(merged, merged.updated);
+            return push();
+          }
+          if (j._status !== 200) return handleFail(j);
+          setBase(j.updated);
+          syncMode = 'ok'; paintSync();
+          if (pushAgain) { pushAgain = false; return push(); }
+        }).catch(function () { pushing = false; handleFail(null); });
+      }
+
+      function schedulePush() {
+        if (!pass || syncMode === 'wrong' || syncMode === 'unavailable') return;
+        clearTimeout(pushTimer);
+        pushTimer = setTimeout(push, 600);
+      }
+
+      function closeSyncPanel() { if (syncPanel) { syncPanel.remove(); syncPanel = null; } }
+      syncBtn.addEventListener('click', function () {
+        if (syncPanel) { closeSyncPanel(); return; }
+        syncPanel = h('div', 'sync-panel');
+        var p = h('p', '', pass
+          ? 'This device is syncing. Use the same passcode on your phone and computer.'
+          : 'Type your sync passcode to keep these lists the same on your phone and computer.');
+        var inp = h('input', 'pass');
+        inp.type = 'password';
+        inp.placeholder = 'Passcode';
+        inp.autocomplete = 'current-password';
+        inp.value = pass;
+        var row = h('div', 'sync-actions');
+        var go = h('button', 'link', pass ? 'Update' : 'Turn on sync');
+        go.type = 'button';
+        go.addEventListener('click', function () {
+          var v = inp.value.trim();
+          if (!v) return;
+          pass = v; setLS(PASS_KEY, v);
+          syncMode = 'busy'; paintSync();
+          closeSyncPanel();
+          pull();
+        });
+        inp.addEventListener('keydown', function (e) { if (e.key === 'Enter') { e.preventDefault(); go.click(); } });
+        row.appendChild(go);
+        if (pass) {
+          var off = h('button', 'link danger', 'Turn off on this device');
+          off.type = 'button';
+          off.addEventListener('click', function () {
+            pass = ''; setLS(PASS_KEY, ''); setLS(LINKED_KEY, ''); setBase(0);
+            syncMode = 'off'; paintSync(); closeSyncPanel();
+          });
+          row.appendChild(off);
+        }
+        var close = h('button', 'link', 'Close');
+        close.type = 'button';
+        close.addEventListener('click', closeSyncPanel);
+        row.appendChild(close);
+        syncPanel.appendChild(p);
+        syncPanel.appendChild(inp);
+        syncPanel.appendChild(row);
+        document.body.appendChild(syncPanel);
+        inp.focus();
+      });
+
+      // Check for changes from the other device when coming back to the page, and every 20 s while open
+      document.addEventListener('visibilitychange', function () { if (!document.hidden) pull(); });
+      window.addEventListener('focus', function () { pull(); });
+      setInterval(function () { if (!document.hidden && !typing()) pull(); }, 20000);
+      document.addEventListener('focusout', function () {
+        setTimeout(function () { if (remoteWaiting && !typing()) { remoteWaiting = false; pull(); } }, 50);
+      });
+      window.addEventListener('pagehide', function () {
+        // last-moment send if a change is still waiting
+        if (!pass || !pushTimer) return;
+        clearTimeout(pushTimer); pushTimer = null;
+        try {
+          fetch('/api/lists', { method: 'PUT', keepalive: true, headers: { 'x-todo-key': pass, 'content-type': 'application/json' },
+            body: JSON.stringify({ data: state, updated: state.updated || Date.now(), base: base }) });
+        } catch (e) {}
+      });
+      pull();
       render();
     })();
   </script>
