@@ -291,6 +291,29 @@
     .add:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; border-radius: 4px; }
 
     /* Phone: one list at a time, switched with the colored tabs */
+    /* Master Taskbar: starred tasks from every list, pinned on the left */
+    .master {
+      flex: 0 0 15rem; min-width: 15rem;
+      padding: clamp(1rem, 2.5vw, 2rem) 1rem;
+      border-right: 2px solid var(--line-strong);
+      background: #FBF6E4;
+      position: sticky; left: 0; z-index: 2;
+      align-self: stretch;
+    }
+    .master h2 { margin: 0 0 1rem; font-size: 1rem; display: flex; align-items: center; gap: .4rem; }
+    .master h2 svg { width: 1rem; height: 1rem; fill: #E0A800; }
+    .master ul { list-style: none; margin: 0; padding: 0; }
+    .master li { display: flex; align-items: flex-start; gap: .35rem; padding: .4rem 0; border-bottom: 1px solid var(--line); }
+    .master .m-go { flex: 1; text-align: left; background: none; border: 0; padding: 0; cursor: pointer; color: var(--ink); font: 400 .95rem/1.35 var(--sans); }
+    .master .m-go small { display: block; color: var(--ink-soft); font-size: .72rem; }
+    .master li.done .m-go span { text-decoration: line-through; color: var(--ink-soft); }
+    .master .m-un { background: none; border: 0; cursor: pointer; padding: .1rem; }
+    .master .m-un svg { width: 1rem; height: 1rem; fill: #E0A800; }
+    .master .m-un:hover svg { fill: none; stroke: #E0A800; stroke-width: 2; }
+    .master .m-empty { color: var(--ink-soft); font-size: .85rem; margin: 0; }
+    @media (max-width: 640px) {
+      .master { position: static; flex-basis: auto; min-width: 0; border-right: 0; border-bottom: 2px solid var(--line-strong); }
+    }
     @media (max-width: 640px) {
       .tabs {
         display: flex;
@@ -595,6 +618,7 @@
           ok = localStorage.getItem(KEY) === json;   // read back to be sure it stuck
         } catch (e) { ok = false; }
         showStatus(ok);
+        if (typeof renderMaster === 'function') renderMaster();
         if (typeof schedulePush === 'function') schedulePush();
       }
       // Extra safety: save again when the page is hidden or closed
@@ -758,6 +782,9 @@
             if (Math.abs(e.clientY - drag.y) < 6) return;
             drag.moved = true;
             closeMenus();
+            // sub-tasks ride along: take them out while dragging, put them back under the task on drop
+            drag.kids = kidsOf(li);
+            drag.kids.forEach(function (k) { k.remove(); });
             li.classList.add('dragging');
             document.body.classList.add('is-dragging');
           }
@@ -771,8 +798,10 @@
         });
         function endDrag(e) {
           if (!drag || e.pointerId !== drag.id) return;
-          var moved = drag.moved;
+          var moved = drag.moved, kids = drag.kids || [];
           drag = null;
+          var after = li.nextElementSibling;
+          kids.forEach(function (k) { ul.insertBefore(k, after); });
           li.classList.remove('dragging');
           document.body.classList.remove('is-dragging');
           if (moved) { syncOrder(list, ul); save(); }
@@ -792,7 +821,16 @@
       // Put the saved order in line with what is on screen, and keep one blank line at the end
       function syncOrder(list, ul) {
         var order = [];
-        Array.prototype.forEach.call(ul.children, function (el) { if (el._item) order.push(el._item); });
+        var prevLvl = -1;
+        Array.prototype.forEach.call(ul.children, function (el) {
+          if (!el._item) return;
+          // a sub-task can only sit one level under the row above it (fixes rows moved to the top etc.)
+          var lvl = Math.min(levelOf(el._item), prevLvl + 1);
+          withLevel(el._item, lvl);
+          el.dataset.lvl = String(lvl);
+          prevLvl = lvl;
+          order.push(el._item);
+        });
         list.rows = order;
         var last = order[order.length - 1];
         if (!last || last.t || last.d || last.s) {
@@ -802,18 +840,53 @@
         }
       }
 
-      // Indent or outdent a task. A sub-task can sit at most one level deeper than the row above it.
+      function lvlEl(el) { return el && el._item ? levelOf(el._item) : -1; }
+      // The rows right below a task that are deeper than it: its sub-tasks
+      function kidsOf(li) {
+        var out = [], n = li.nextElementSibling, me = lvlEl(li);
+        while (n && lvlEl(n) > me) { out.push(n); n = n.nextElementSibling; }
+        return out;
+      }
+
+      // Indent or outdent a task; its sub-tasks shift with it.
+      // A sub-task can sit at most one level deeper than the row above it.
       function setLevel(list, item, li, lvl) {
         var i = list.rows.indexOf(item);
         var above = i > 0 ? levelOf(list.rows[i - 1]) : -1;
-        lvl = Math.max(0, Math.min(lvl, above + 1, MAX_LEVEL));
-        if (lvl === levelOf(item)) return;
-        withLevel(item, lvl);
-        li.dataset.lvl = String(lvl);
+        var kids = kidsOf(li);
+        var deepest = kids.reduce(function (m, k) { return Math.max(m, lvlEl(k)); }, levelOf(item));
+        lvl = Math.max(0, Math.min(lvl, above + 1, MAX_LEVEL - (deepest - levelOf(item))));
+        var delta = lvl - levelOf(item);
+        if (!delta) return;
+        [li].concat(kids).forEach(function (el) {
+          withLevel(el._item, lvlEl(el) + delta);
+          el.dataset.lvl = String(levelOf(el._item));
+        });
         save();
       }
 
+      // Move a task and its sub-tasks past the neighbouring task block (dir -1 up, +1 down)
+      function moveBlock(list, ul, li, dir) {
+        var block = [li].concat(kidsOf(li)), me = lvlEl(li);
+        if (dir < 0) {
+          var t = li.previousElementSibling;
+          while (t && lvlEl(t) > me) t = t.previousElementSibling;
+          if (!t) return false;
+          block.forEach(function (el) { ul.insertBefore(el, t); });
+        } else {
+          var n = block[block.length - 1].nextElementSibling;
+          if (!n || !n._item) return false;
+          var nb = [n].concat(kidsOf(n));
+          var after = nb[nb.length - 1].nextElementSibling;
+          block.forEach(function (el) { ul.insertBefore(el, after); });
+        }
+        syncOrder(list, ul);
+        save();
+        return true;
+      }
+
       function removeRow(list, ul, li) {
+        kidsOf(li).forEach(function (k) { k.remove(); });
         li.remove();
         syncOrder(list, ul);
         while (list.rows.length < MIN_ROWS) { var nb = blank(); list.rows.push(nb); ul.appendChild(makeRow(list, nb, ul)); }
@@ -868,11 +941,10 @@
           if (f.scrollIntoView) f.scrollIntoView({ block: 'nearest' });
         }
         var up = btn('\u2191 Move up', function () {
-          if (li.previousElementSibling) { ul.insertBefore(li, li.previousElementSibling); syncOrder(list, ul); save(); refresh(); }
+          if (moveBlock(list, ul, li, -1)) refresh();
         });
         var down = btn('\u2193 Move down', function () {
-          var n = li.nextElementSibling;
-          if (n) { ul.insertBefore(n, li); syncOrder(list, ul); save(); refresh(); }
+          if (moveBlock(list, ul, li, 1)) refresh();
         });
         btn('+ Insert above', function () { insert(true); });
         btn('+ Insert below', function () { insert(false); });
@@ -885,8 +957,11 @@
         btn('Delete', function () { closeMenus(); removeRow(list, ul, li); }, 'danger');
         btn('Close', closeMenus);
         function refresh() {
-          up.disabled = !li.previousElementSibling;
-          down.disabled = !li.nextElementSibling;
+          var me = lvlEl(li), p = li.previousElementSibling;
+          while (p && lvlEl(p) > me) p = p.previousElementSibling;
+          var k = kidsOf(li), last = k.length ? k[k.length - 1] : li;
+          up.disabled = !p;
+          down.disabled = !(last.nextElementSibling && last.nextElementSibling._item);
           grip.focus();
         }
         li.appendChild(m);
@@ -986,10 +1061,65 @@
         render({ focusSel: '#col-' + list.id + ' .name', select: true, reveal: '#col-' + list.id });
       }
 
+      var STAR_SVG = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.2l2.6 5.5 6 .8-4.4 4.2 1.1 6-5.3-2.9-5.3 2.9 1.1-6-4.4-4.2 6-.8z"/></svg>';
+      var masterEl = null;
+      // Starred tasks from all lists. Rebuilt on every save so stars added or removed show up at once.
+      function renderMaster() {
+        if (!masterEl) return;
+        masterEl.textContent = '';
+        var head = h('h2');
+        head.innerHTML = STAR_SVG;
+        head.appendChild(document.createTextNode('Master Taskbar'));
+        masterEl.appendChild(head);
+        var ul = h('ul'), n = 0;
+        state.lists.forEach(function (list) {
+          list.rows.forEach(function (item) {
+            if (!item.s || !item.t) return;
+            n++;
+            var li = h('li', item.d ? 'done' : '');
+            var go = h('button', 'm-go');
+            go.type = 'button';
+            go.title = 'Go to this task';
+            go.appendChild(h('span', '', item.t));
+            go.appendChild(h('small', '', labelOf(list)));
+            go.addEventListener('click', function () {
+              if (state.active !== list.id) { state.active = list.id; save(); render(); }
+              var col = document.getElementById('col-' + list.id);
+              var rowEl = col && Array.prototype.find.call(col.querySelectorAll('li.row'), function (r) { return r._item === item; });
+              if (rowEl) { rowEl.scrollIntoView({ block: 'center' }); rowEl.querySelector('.write').focus(); }
+            });
+            var un = h('button', 'm-un');
+            un.type = 'button';
+            un.title = 'Remove star';
+            un.setAttribute('aria-label', 'Remove star from ' + item.t);
+            un.innerHTML = STAR_SVG;
+            un.addEventListener('click', function () {
+              item.s = false;
+              var col = document.getElementById('col-' + list.id);
+              var rowEl = col && Array.prototype.find.call(col.querySelectorAll('li.row'), function (r) { return r._item === item; });
+              if (rowEl) {
+                rowEl.classList.remove('starred');
+                var st = rowEl.querySelector('.star');
+                if (st) st.setAttribute('aria-pressed', 'false');
+              }
+              save();
+            });
+            li.appendChild(go); li.appendChild(un);
+            ul.appendChild(li);
+          });
+        });
+        if (n) masterEl.appendChild(ul);
+        else masterEl.appendChild(h('p', 'm-empty', 'Star a task and it shows up here.'));
+      }
+
       function render(opts) {
         opts = opts || {};
         tabsEl.textContent = '';
         colsEl.textContent = '';
+        masterEl = h('aside', 'master');
+        masterEl.setAttribute('aria-label', 'Master Taskbar');
+        colsEl.appendChild(masterEl);
+        renderMaster();
 
         state.lists.forEach(function (list) {
           var isActive = list.id === state.active;
