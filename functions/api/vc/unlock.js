@@ -1,8 +1,8 @@
-// POST /api/vc/unlock  { course, email, key }
+// POST /api/vc/unlock  { course, email, key }  (key = Payhip access key, or the code printed in the book)
 // Checks the Payhip access key for that course (and that the email matches the buyer),
 // then sets a signed cookie that lets the browser stream the course videos for 30 days.
 // GET /api/vc/unlock?course=slug  -> { ok } whether this browser already has access.
-import { COURSES, json, makeToken, hasAccess, cookieFor, verifyLicence } from '../../_vc.js';
+import { COURSES, json, makeToken, hasAccess, cookieFor, verifyLicence, isBookCode } from '../../_vc.js';
 
 const norm = (s) => String(s || '').toUpperCase().replace(/[^A-Z0-9]/g, '');
 
@@ -18,16 +18,19 @@ export async function onRequestPost({ request, env }) {
 
   const superCode = norm(env.SUPER_ACCESS_CODE);
   let ok = !!superCode && norm(key) === superCode;
+  let via = ok ? 'super' : '';
+  if (!ok && (await isBookCode(request, env, slug, key))) { ok = true; via = 'book'; }
   if (!ok) {
+    via = 'payhip';
     const v = await verifyLicence(env, slug, key);
     if (v.error === 'not_configured') return json({ ok: false, error: 'Course access is not set up yet.' }, 503);
-    if (!v.ok) return json({ ok: false, error: 'That access key is not valid for this course.' });
+    if (!v.ok) return json({ ok: false, error: 'That key or book code is not valid for this course.' });
     // The key must be used with the email it was bought with, so a shared key alone is not enough.
     if (v.email && email !== v.email) return json({ ok: false, error: 'Use the same email address you bought the course with.' });
     ok = true;
   }
   const token = await makeToken(env, slug);
-  return json({ ok: true }, 200, { 'Set-Cookie': cookieFor(slug, token) });
+  return json({ ok: true, via }, 200, { 'Set-Cookie': cookieFor(slug, token) });
 }
 
 export async function onRequestGet({ request, env }) {

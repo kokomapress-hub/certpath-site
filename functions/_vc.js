@@ -65,3 +65,29 @@ export async function verifyLicence(env, slug, key) {
   if (!data || data.enabled !== true) return { ok: false };
   return { ok: true, email: String(data.buyer_email || '').trim().toLowerCase() };
 }
+
+// Book owners get the course free: the access code printed in their book unlocks it.
+// data/books.json holds only SHA-256 hashes of the normalised printed codes.
+export const BOOKS_FOR_COURSE = {
+  'pmp': ['pmp'],
+  'sat-math': ['sat-math', 'sat-math-workbook', 'sat-math-tests'],
+  'tabe-a': ['tabe-a'],
+  'tabe-d': ['tabe-d'],
+  'tabe-e': ['tabe-e'],
+};
+
+const sha256Hex = async (s) => [...new Uint8Array(await crypto.subtle.digest('SHA-256', enc.encode(s)))]
+  .map((b) => b.toString(16).padStart(2, '0')).join('');
+
+// Returns true when `code` is the printed code of a book that includes this course (or the admin code).
+export async function isBookCode(request, env, slug, code) {
+  const norm = String(code || '').toUpperCase().replace(/[^A-Z0-9]/g, '');
+  if (!norm || !env.ASSETS) return false;
+  let data;
+  try { data = await (await env.ASSETS.fetch(new URL('/data/books.json', request.url))).json(); } catch (e) { return false; }
+  const h = await sha256Hex(norm);
+  if (h === data.adminCodeHash) return true;
+  const allowed = BOOKS_FOR_COURSE[slug] || [];
+  return (data.books || []).some((b) => allowed.includes(b.slug)
+    && [b.codeHash, ...(Array.isArray(b.codeHashes) ? b.codeHashes : [])].includes(h));
+}

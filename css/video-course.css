@@ -54,3 +54,14 @@
 .vc-sec>summary span{color:var(--vm);font-weight:500;white-space:nowrap}
 .vc-sec ol{columns:1}
 @media(max-width:900px){.vc{padding:64px 16px}.vc-card{grid-template-columns:1fr;gap:28px}.vc-cur ol{columns:1}}
+
+/* Balanced layout: cover | details side by side, buy bar spans the full width beneath. */
+.vc-card{align-items:center;row-gap:30px}
+.vc-card>.vc-buy{grid-column:1/-1;display:grid;grid-template-columns:auto 1fr minmax(260px,340px);grid-template-areas:"price note btn" "alt alt alt" "trust trust trust";align-items:center;column-gap:28px;padding:24px 30px}
+.vc-card>.vc-buy .vc-price{grid-area:price}
+.vc-card>.vc-buy .vc-note{grid-area:note;margin:0;font-size:14px}
+.vc-card>.vc-buy .vc-btn{grid-area:btn}
+.vc-card>.vc-buy .vc-alt{grid-area:alt}
+.vc-card>.vc-buy .vc-trust{grid-area:trust}
+.vc-list{margin-bottom:0}
+@media(max-width:900px){.vc-card>.vc-buy{grid-template-columns:1fr;grid-template-areas:"price" "note" "btn" "alt" "trust";row-gap:10px;padding:22px}}

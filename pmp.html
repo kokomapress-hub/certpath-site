@@ -223,6 +223,31 @@ footer.ft{background:var(--navy-2);color:rgba(255,255,255,.72);padding:64px 0 40
 .owner-strip{max-width:760px;margin:0 auto;background:#fff;border:1px solid var(--line);border-radius:18px;padding:30px 32px;box-shadow:var(--sh-sm);text-align:center}
 .owner-strip .h3{font-size:22px;font-weight:800;color:var(--navy);margin-bottom:6px}
 .dom-card .n{display:block;font-size:12.5px;color:var(--muted);margin-bottom:12px}
+
+/* ============ BOOK-CODE HERO ============ */
+.code-form{display:grid;gap:12px;max-width:540px;margin:6px auto 0;text-align:left}
+.code-form label{font-size:13px;font-weight:700;color:var(--navy);letter-spacing:.02em}
+.code-form .big{height:68px;font-size:22px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;text-align:center;border:2px solid var(--gold);border-radius:14px;padding:0 16px;font-family:inherit;color:var(--navy);width:100%;background:#FFFCF2}
+.code-form .big::placeholder{color:#C5B98F;font-weight:600}
+.code-form .em{height:52px;font-size:16px;border:1.5px solid var(--line);border-radius:12px;padding:0 16px;font-family:inherit;width:100%}
+.code-form input:focus{outline:none;border-color:var(--navy)}
+.code-form .btn{height:60px;font-size:18px;width:100%}
+.code-msg{min-height:20px;font-size:14px;color:#B91C1C;margin-top:10px}
+.gets{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin:0 0 22px}
+.gets span{background:var(--paper);border:1px solid var(--line);border-radius:999px;padding:6px 14px;font-size:13.5px;font-weight:600;color:var(--navy)}
+.code-ok{display:none}
+.code-ok h3{font-size:24px;color:var(--green);margin-bottom:8px}
+.code-ok .btns{display:grid;gap:12px;max-width:420px;margin:18px auto 0}
+#unlock.done .code-form,#unlock.done .code-help,#unlock.done .gets,#unlock.done .code-msg{display:none}
+#unlock.done .code-ok{display:block}
+.hero-alt{margin-top:22px;padding-top:18px;border-top:1px solid var(--line);font-size:14px;color:var(--muted)}
+.hero-alt a{color:var(--navy);font-weight:700;text-decoration:underline;text-underline-offset:3px}
+/* free exam card */
+.free-card{max-width:760px;margin:0 auto;background:#fff;border:1px solid var(--line);border-radius:20px;box-shadow:var(--sh);padding:44px 40px;text-align:center}
+#free.done .hero-form,#free.done .proof-row,#free.done .gate-note{display:none}
+#free.done .hero-success{display:block}
+@media(max-width:960px){.free-card{padding:32px 22px}.code-form .big{font-size:18px}}
+
 @media(max-width:960px){.paths{grid-template-columns:1fr}.path.feat{transform:none}}
 
 @media(max-width:960px){
@@ -249,16 +274,16 @@ footer.ft{background:var(--navy-2);color:rgba(255,255,255,.72);padding:64px 0 40
   <div class="wrap nav">
     <a class="logo" href="https://certpathpublishing.store"><svg viewBox="0 0 40 46" width="28" height="32" aria-hidden="true"><path fill="#0E1F3F" d="M3 2h22l13 13v18L20.5 44 3 33z"/><path fill="#fff" d="M7.5 6.5H23V17h10.5v13.6L20.5 38.8 7.5 30.6z"/><path fill="#0E1F3F" d="M12.5 20.5h16v3h-16zM12.5 26.5h15v3h-15z"/></svg><b>CERTPATH <span>PUBLISHING</span></b></a>
     <span class="spacer"></span>
-    <a class="lnk" href="#paths">Free vs Course</a>
     <a class="lnk" href="#video-course">Video Course</a>
+    <a class="lnk" href="#free">Free Exam</a>
     <a class="lnk" href="#outline">Exam Guide</a>
     <a class="lnk" href="#faq">FAQ</a>
-    <a class="btn btn-primary btn-sm" href="#free">Start Free Exam</a>
+    <a class="btn btn-primary btn-sm" href="#unlock">Enter book code</a>
   </div>
 </header>
 
-<!-- HERO -->
-<section class="hero" id="free">
+<!-- HERO: book owners enter the printed code -> course + 4 exams -->
+<section class="hero" id="unlock">
   <svg class="confetti" viewBox="0 0 1440 720" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
        fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.9">
     <!-- left cluster -->
@@ -283,43 +308,31 @@ footer.ft{background:var(--navy-2);color:rgba(255,255,255,.72);padding:64px 0 40
     <circle cx="690" cy="46" r="6" fill="#FFB800"/>
     <path d="M760 40l14 14M774 40l-14 14" stroke="#FF7A6B" stroke-width="4"/>
   </svg>
-
   <div class="wrap">
     <div class="hero-card">
-      <span class="hero-badge">PMP® Certification · 2026 Edition</span>
-      <h1>Free 2026 PMP Practice Exam</h1>
-      <p class="sub">Prepare with realistic, exam-aligned questions — full-length, timed and auto-scored. Free, instant, no credit card.</p>
-      <form class="hero-form" id="emailForm">
-        <input type="email" id="emailInput" placeholder="Enter your email" required autocomplete="email">
-        <button class="btn btn-primary" type="submit">Start Free PMP Exam →</button>
+      <span class="hero-badge">For CertPath PMP book owners</span>
+      <h1>Unlock your PMP course &amp; practice exams</h1>
+      <p class="sub">Enter the access code printed on the last page of your book. Your book includes all of this, free.</p>
+      <div class="gets"><span>🎬 290-lesson video course</span><span>📝 4 full-length exams</span><span>⏱ 720 timed questions</span></div>
+      <form class="code-form" id="codeForm">
+        <label for="codeInput">Book access code</label>
+        <input class="big" type="text" id="codeInput" placeholder="PMP-XXXXX-XXXXX" autocomplete="off" autocapitalize="characters" spellcheck="false" required>
+        <label for="codeEmail">Your email</label>
+        <input class="em" type="email" id="codeEmail" placeholder="you@example.com" autocomplete="email" required>
+        <button class="btn btn-primary" type="submit">Unlock my course &amp; exams →</button>
       </form>
-      <div class="gate-note" style="margin-top:8px;font-size:12px;opacity:.8">We'll email you study tips and occasional offers. Unsubscribe anytime. <a href="/privacy">Privacy</a></div>
-      <div class="proof-row">
-        <span>180 questions</span><span>Timed &amp; scored</span><span>Detailed explanations</span><span>No credit card</span>
+      <div class="code-msg" id="codeMsg" role="alert"></div>
+      <div class="gate-note code-help">Can't find your code? <a href="mailto:support@certpathpublishing.store?subject=Help%20with%20my%20PMP%20access%20code">Email support</a>. Bought the $9.99 course? Enter your Payhip key here too.</div>
+      <div class="code-ok">
+        <h3>✓ You're in</h3>
+        <p style="font-size:15px;color:var(--muted)" id="codeOkText">Your video course and all 4 practice exams are unlocked on this browser.</p>
+        <div class="btns">
+          <a class="btn btn-primary" href="/learn/pmp">▶ Watch the video course</a>
+          <a class="btn btn-nav" href="/pmp-exams" id="okExams">Open my 4 practice exams</a>
+        </div>
       </div>
-      <div class="gate-note">No email? <a href="/sample?book=pmp">Try 25 questions, no signup</a> &nbsp;·&nbsp; Have a book code? <a href="#owner">Unlock all 4 exams</a></div>
-      <div class="hero-success">
-        <h3>✓ Exam 1 unlocked</h3>
-        <p style="font-size:14px;color:var(--muted);margin-bottom:14px">Your free full-length practice exam is ready.</p>
-        <a class="btn btn-nav btn-block" href="#" id="startFreeBtn" style="max-width:340px;margin:0 auto">Start Practice Exam 1 →</a>
-      </div>
+      <div class="hero-alt">Don't have the book? <a href="#paths">Compare your options</a>: free exam, $9.99 course or the book bundle.</div>
     </div>
-  </div>
-</section>
-
-
-<!-- TRUST BAND -->
-<section class="trust">
-  <div class="wrap">
-    <div class="stat"><b>2026</b><span>PMP ECO aligned</span></div>
-    <div class="divider"></div>
-    <div class="stat"><b>26/26</b><span>ECO tasks covered</span></div>
-    <div class="divider"></div>
-    <div class="stat"><b>290</b><span>Video lessons</span></div>
-    <div class="divider"></div>
-    <div class="stat"><b>46 hrs</b><span>Of instruction</span></div>
-    <div class="divider"></div>
-    <div class="stat"><b>720</b><span>Online exam questions</span></div>
   </div>
 </section>
 
@@ -327,7 +340,7 @@ footer.ft{background:var(--navy-2);color:rgba(255,255,255,.72);padding:64px 0 40
 <section class="section" id="paths">
   <div class="wrap center">
     <span class="eyebrow">Choose how you prepare</span>
-    <h2 class="h2">Start free. Go deeper when you're ready.</h2>
+    <h2 class="h2">No book yet? Choose how you prepare.</h2>
     <div class="paths">
       <div class="path">
         <h3>Free starter</h3>
@@ -354,26 +367,26 @@ footer.ft{background:var(--navy-2);color:rgba(255,255,255,.72);padding:64px 0 40
         <a class="btn btn-primary" href="https://payhip.com/b/Atjx3" target="_blank" rel="noopener">Get the course — $9.99</a>
       </div>
       <div class="path">
-        <h3>The books</h3>
-        <div class="pr">3 books <small>on Amazon</small></div>
+        <h3>The PMP book bundle</h3>
+        <div class="pr">3 books <small>one click</small></div>
         <div class="who">Study on paper, then test online.</div>
         <ul>
           <li><a href="https://www.amazon.com/dp/B0HFJCVSN4" target="_blank" rel="noopener">PMP Exam Prep</a>: the full color study guide</li>
           <li><a href="https://www.amazon.com/dp/B0HFYF2ZY6" target="_blank" rel="noopener">PMP Practice Exams</a>: 6 tests, 1,080 questions</li>
           <li><a href="https://www.amazon.com/dp/B0HFQC99Q4" target="_blank" rel="noopener">Visual Cheat Sheets</a>: 60 memory sheets</li>
-          <li>Book code unlocks all 4 online exams</li>
+          <li><b>Includes the video course + 4 online exams free</b></li>
         </ul>
-        <a class="btn btn-outline" href="https://www.amazon.com/dp/B0HFJCVSN4" target="_blank" rel="noopener">See the books on Amazon</a>
+        <a class="btn btn-nav" href="https://www.amazon.com/gp/aws/cart/add.html?ASIN.1=B0HFJCVSN4&amp;Quantity.1=1&amp;ASIN.2=B0HFYF2ZY6&amp;Quantity.2=1&amp;ASIN.3=B0HFQC99Q4&amp;Quantity.3=1" target="_blank" rel="noopener">Add all 3 to Amazon cart</a>
       </div>
     </div>
   </div>
 </section>
 
 <!-- VIDEO COURSE ($9.99, Payhip key -> /learn/<slug>) -->
-<link rel="stylesheet" href="/css/video-course.css?v=1">
+<link rel="stylesheet" href="/css/video-course.css?v=2">
 <section class="vc" id="video-course">
  <div class="vc-in">
-  <div class="vc-head"><span class="vc-eye"><i></i>The complete video course</span><h2>Go all the way: <em>290 lessons</em>, 46 hours, every task.</h2><p>Every task on the 2026 exam, taught in depth with scenario labs, formulas and full question walkthroughs — for less than the price of lunch.</p></div>
+  <div class="vc-head"><span class="vc-eye"><i></i>No book? Get the course</span><h2>The complete PMP video course — <em>just $9.99</em>.</h2><p>Every task on the 2026 exam, taught in depth with scenario labs, formulas and full question walkthroughs — for less than the price of lunch.</p></div>
   <div class="vc-card" id="vc-pmp" role="tabpanel">
   <div>
     <a class="vc-cover" href="https://payhip.com/b/Atjx3" target="_blank" rel="noopener"><img src="/img/video-courses/PMP.jpg" alt="PMP Exam Prep — Complete Video Course" loading="lazy"><span class="pl">▶ 290 HD video lessons</span></a>
@@ -383,17 +396,44 @@ footer.ft{background:var(--navy-2);color:rgba(255,255,255,.72);padding:64px 0 40
     <h3 class="vc-title">PMP Exam Prep — Complete Video Course</h3>
     <p class="vc-sub">Every task of the July 2026 Exam Content Outline, taught in depth, with worked exam scenarios throughout.</p>
     <ul class="vc-list"><li>290 lessons across 28 sections — orientation, all three domains, agile &amp; hybrid, formulas and final revision</li><li>Every ECO task broken into focused 8–12 minute lessons you can finish on a lunch break</li><li>Situational question walk-throughs: how to pick the answer PMI is looking for</li><li>Built on PMBOK&reg; 8 and the Agile Practice Guide, matched to the 2026 exam</li><li>Progress tracking, speed control and auto-play — pick up exactly where you left off</li></ul>
+  </div>
     <div class="vc-buy">
       <div class="vc-price"><b>$9.99</b><span>One-time payment</span></div>
       <div class="vc-note">No subscription. Instant access key by email — stream on phone, tablet or computer.</div>
       <a class="vc-btn" href="https://payhip.com/b/Atjx3" target="_blank" rel="noopener">Get the video course — $9.99</a>
-      <div class="vc-alt"><a href="/learn/pmp">Already bought? Start watching →</a><span>Own the book? <a href="mailto:support@certpathpublishing.store?subject=Free%20video%20course%20for%20book%20owners%20(pmp)">Ask for free access</a></span></div>
+      <div class="vc-alt"><a href="/learn/pmp">Already bought? Start watching →</a><span>Own the book? <a href="#unlock">It's free with your code</a></span></div>
       <div class="vc-trust"><span>🔒 Secure checkout by Payhip</span><span>💳 Card &amp; PayPal</span><span>🎓 CertPath Publishing</span></div>
     </div>
-  </div>
 </div>
 <details class="vc-cur" data-for="vc-pmp"><summary>See the full curriculum — 290 lessons in 28 sections</summary><details class="vc-sec"><summary>Orientation, the 2026 Exam and Foundations<span>11 lessons</span></summary><ol><li><b>001</b>Course Orientation and the PMP Mindset</li><li><b>002</b>The July 2026 PMP Exam Format</li><li><b>003</b>Eligibility and the 35 Education Hours</li><li><b>004</b>Reading the Approach — Question Mix</li><li><b>005</b>Exam Mindset I — Servant Leadership and Root Cause</li><li><b>006</b>Exam Mindset II — What Should the PM Do Next</li><li><b>007</b>PMBOK 8 — The Six Principles</li><li><b>008</b>PMBOK 8 — Domains and Focus Areas</li><li><b>009</b>Life Cycles and Development Approaches</li><li><b>010</b>Agile Foundations — Scrum and Kanban</li><li><b>011</b>AI and Sustainability</li></ol></details><details class="vc-sec"><summary>Domain I — People · Develop a common vision<span>9 lessons</span></summary><ol><li><b>012</b>Develop a Common Vision (Task Overview)</li><li><b>013</b>Building a Shared Vision</li><li><b>014</b>Vision in Agile Teams</li><li><b>015</b>Promoting the Vision</li><li><b>016</b>Keeping the Vision Current</li><li><b>017</b>Root Cause of a Misunderstood Vision</li><li><b>018</b>Vision in Hybrid Programs</li><li><b>019</b>Scenario Lab — Common Vision Questions</li><li><b>020</b>Scenario Lab — Vision Case Study</li></ol></details><details class="vc-sec"><summary>Domain I — People · Manage conflicts<span>11 lessons</span></summary><ol><li><b>021</b>Manage Conflicts (Task Overview)</li><li><b>022</b>Project Conflict Sources</li><li><b>023</b>Analyzing Conflict Context</li><li><b>024</b>Conflict Resolution Modes</li><li><b>025</b>Collaborative Resolution</li><li><b>026</b>Agile Team Agreements</li><li><b>027</b>Ground-Rule Violations</li><li><b>028</b>Escalation vs Resolution</li><li><b>029</b>Agile Team Conflicts</li><li><b>030</b>PMP Conflict Scenario Lab</li><li><b>031</b>Hybrid Team Conflicts</li></ol></details><details class="vc-sec"><summary>Domain I — People · Lead the project team<span>12 lessons</span></summary><ol><li><b>032</b>Lead the Project Team (Task Overview)</li><li><b>033</b>Setting Team Expectations</li><li><b>034</b>Lesson 34 Empowering Teams</li><li><b>035</b>Leadership Styles</li><li><b>036</b>Tuckman&#x27;s Stages &amp; EI</li><li><b>037</b>Problem Solving with the Team</li><li><b>038</b>Voice of Team &amp; Diversity</li><li><b>039</b>Roles &amp; RACI Charts</li><li><b>040</b>Motivation &amp; Virtual Teams</li><li><b>041</b>Servant Leadership in Practice</li><li><b>042</b>Leading Hybrid Teams</li><li><b>043</b>PMP Scenario Lab</li></ol></details><details class="vc-sec"><summary>Domain I — People · Engage stakeholders<span>11 lessons</span></summary><ol><li><b>044</b>Engage Stakeholders (Task Overview)</li><li><b>045</b>Identify Stakeholders</li><li><b>046</b>Stakeholder Analysis</li><li><b>047</b>Engagement Matrix</li><li><b>048</b>Tailoring Communication</li><li><b>049</b>Execute Engagement Plan</li><li><b>050</b>Agile Stakeholders</li><li><b>051</b>Trust Without Authority</li><li><b>052</b>Hybrid Program Engagement</li><li><b>053</b>PMP Stakeholder Scenarios</li><li><b>054</b>Resistant Stakeholder Case</li></ol></details><details class="vc-sec"><summary>Domain I — People · Align stakeholder expectations<span>10 lessons</span></summary><ol><li><b>055</b>Align Stakeholder Expectations (Task Overview)</li><li><b>056</b>Categorizing Stakeholders</li><li><b>057</b>Needs &amp; Expectations</li><li><b>058</b>Facilitating Alignment</li><li><b>059</b>PMP Agile Expectations</li><li><b>060</b>Predictive Alignment</li><li><b>061</b>PMP ECO Task 5</li><li><b>062</b>Managing Expectations Early</li><li><b>063</b>Aligning Hybrid Projects</li><li><b>064</b>PMP Alignment Questions</li></ol></details><details class="vc-sec"><summary>Domain I — People · Manage stakeholder expectations<span>10 lessons</span></summary><ol><li><b>065</b>Manage Stakeholder Expectations (Task Overview)</li><li><b>066</b>PMP Customer Types</li><li><b>067</b>Align Outcomes &amp; Expectations</li><li><b>068</b>Measuring Satisfaction</li><li><b>069</b>Continuous Customer Feedback</li><li><b>070</b>Expectation Drift</li><li><b>071</b>Handling Unhappy Customers</li><li><b>072</b>Hybrid Acceptance</li><li><b>073</b>PMP Stakeholder Lab</li><li><b>074</b>Scenario Lab Case Study</li></ol></details><details class="vc-sec"><summary>Domain I — People · Help ensure knowledge transfer<span>10 lessons</span></summary><ol><li><b>075</b>Help Ensure Knowledge Transfer (Task Overview)</li><li><b>076</b>Explicit &amp; Tacit Knowledge</li><li><b>077</b>Identify Critical Knowledge</li><li><b>078</b>Gathering Knowledge</li><li><b>079</b>Knowledge-Sharing Culture</li><li><b>080</b>Agile Knowledge Transfer</li><li><b>081</b>PMP Knowledge Transfer</li><li><b>082</b>AI Knowledge Management</li><li><b>083</b>Master Knowledge Transfer</li><li><b>084</b>Key-Person Departure Case</li></ol></details><details class="vc-sec"><summary>Domain I — People · Plan and manage communication<span>12 lessons</span></summary><ol><li><b>085</b>Plan and Manage Communication (Task Overview)</li><li><b>086</b>Comm Strategy &amp; Plan</li><li><b>087</b>Communication Complexity</li><li><b>088</b>Comm Methods &amp; Models</li><li><b>089</b>PMP Mastery Transparency</li><li><b>090</b>PMP Enabler P8.3</li><li><b>091</b>Reporting Requirements</li><li><b>092</b>Project Governance</li><li><b>093</b>Agile Communication</li><li><b>094</b>Hybrid Team Communication</li><li><b>095</b>Cracking PMP Scenarios</li><li><b>096</b>PMP People Domain Lab</li></ol></details><details class="vc-sec"><summary>Domain II — Process · Develop an integrated project management plan and plan delivery<span>13 lessons</span></summary><ol><li><b>097</b>Develop an Integrated Project Management Plan and Plan Delivery (Task Overview)</li><li><b>098</b>Assess Project Needs</li><li><b>099</b>Choosing &amp; Tailoring Approach</li><li><b>100</b>Critical Info Requirements</li><li><b>101</b>PMP 101 Execution Strategy</li><li><b>102</b>Integrated Project Plan</li><li><b>103</b>PMP Prep Estimating</li><li><b>104</b>Integrating Plans for PMP</li><li><b>105</b>PMP 105 Plan &amp; Data</li><li><b>106</b>Hybrid Planning Concepts</li><li><b>107</b>Tailoring Hybrid Life Cycles</li><li><b>108</b>Adaptive Planning Levels</li><li><b>109</b>PMP Exam Planning Scenarios</li></ol></details><details class="vc-sec"><summary>Domain II — Process · Develop and manage project scope<span>10 lessons</span></summary><ol><li><b>110</b>Develop and Manage Project Scope (Task Overview)</li><li><b>111</b>Defining Project Scope</li><li><b>112</b>PMP 112 Traceability</li><li><b>113</b>Agreeing on Scope</li><li><b>114</b>Demystifying Scope Breakdown</li><li><b>115</b>Lesson 115 Agile Scope</li><li><b>116</b>Validate Scope vs Quality</li><li><b>117</b>Lesson 117 Hybrid Scope</li><li><b>118</b>Scope Scenario Lab</li><li><b>119</b>WBS and Backlog Practice</li></ol></details><details class="vc-sec"><summary>Domain II — Process · Help ensure value-based delivery<span>10 lessons</span></summary><ol><li><b>120</b>Help Ensure Value-Based Delivery (Task Overview)</li><li><b>121</b>Identifying Value Components</li><li><b>122</b>Prioritizing by Value</li><li><b>123</b>MVP, MMF and Release Planning</li><li><b>124</b>Examine Business Value</li><li><b>125</b>Benefits Realization</li><li><b>126</b>Evaluating Delivery Options</li><li><b>127</b>Value in Hybrid Projects</li><li><b>128</b>Value Stream Mapping</li><li><b>129</b>Scenario Lab Value Delivery</li></ol></details><details class="vc-sec"><summary>Domain II — Process · Plan and manage resources<span>10 lessons</span></summary><ol><li><b>130</b>Plan and Manage Resources (Task Overview)</li><li><b>131</b>Resource Planning — Resource Breakdown Structure and Estimating Resources</li><li><b>132</b>Acquiring the Team — Pre-assignment, Negotiation and Virtual Teams</li><li><b>133</b>Leveling vs Smoothing</li><li><b>134</b>Resources in Agile</li><li><b>135</b>Managing Resource Conflicts</li><li><b>136</b>Physical Resources and JIT</li><li><b>137</b>Assessing Team and Resource Performance</li><li><b>138</b>Capacity Planning Across Multiple Agile Teams</li><li><b>139</b>Scenario Lab — Resource Questions Worked Step by Step</li></ol></details><details class="vc-sec"><summary>Domain II — Process · Plan and manage procurement<span>11 lessons</span></summary><ol><li><b>140</b>Plan and Manage Procurement (Task Overview)</li><li><b>141</b>Planning Procurement — Make-or-Buy and the Procurement Strategy</li><li><b>142</b>Contract Types I — Fixed-Price Contracts</li><li><b>143</b>Contract Types II — Cost-Reimbursable and Time-and-Materials</li><li><b>144</b>Procurement Documents and Source Selection</li><li><b>145</b>Negotiation Strategy and Agreement Negotiations</li><li><b>146</b>Agile Contracting — Capped TandM, Incremental Delivery and Collaboration</li><li><b>147</b>Managing Suppliers, Contracts, Claims and Disputes</li><li><b>148</b>Evaluating Vendor Performance and Closing Procurements</li><li><b>149</b>Procurement in Hybrid Projects — Fixed Deliverables Plus Iterative Work</li><li><b>150</b>Scenario Lab — Procurement Questions Worked Step by Step</li></ol></details><details class="vc-sec"><summary>Domain II — Process · Plan and manage finance<span>10 lessons</span></summary><ol><li><b>151</b>Plan and Manage Finance (Task Overview)</li><li><b>152</b>Analyzing Financial Needs — Estimating Costs and Building the Budget</li><li><b>153</b>Contingency and Management Reserves — Quantifying Risk in the Budget</li><li><b>154</b>The Cost Baseline, Funding Limits and Spend Tracking</li><li><b>155</b>Project Selection Finance — NPV, IRR, Payback and BCR</li><li><b>156</b>Financial Reporting to Sponsors and Governance</li><li><b>157</b>Finance in Agile — Budgeting by Team, Burn Rate and Value Tracking</li><li><b>158</b>Monitoring Financial Variation and Managing Reserves</li><li><b>159</b>Funding Adaptive Delivery — Incremental Funding and Lean Portfolio Budgets</li><li><b>160</b>Scenario Lab — Finance Questions Worked Step by Step</li></ol></details><details class="vc-sec"><summary>Domain II — Process · Plan and optimize quality of products/deliverables<span>10 lessons</span></summary><ol><li><b>161</b>Plan and Optimize Quality of Products-Deliverables (Task Overview)</li><li><b>162</b>Gathering Quality Requirements and Metrics</li><li><b>163</b>Planning Quality — Quality Assurance vs Quality Control</li><li><b>164</b>The Seven Basic Quality Tools with Worked Examples</li><li><b>165</b>Cost of Quality — Prevention, Appraisal and Failure Costs, Plus Sustainability</li><li><b>166</b>Regulatory Compliance for Deliverables</li><li><b>167</b>Quality in Agile — Definition of Done, Testing and Built-in Quality</li><li><b>168</b>Quality Reviews, Audits and Continuous Improvement</li><li><b>169</b>Hybrid Quality — Stage-Gate Acceptance and Continuous Testing Together</li><li><b>170</b>Scenario Lab — Quality Questions Worked Step by Step</li></ol></details><details class="vc-sec"><summary>Domain II — Process · Plan and manage schedule<span>12 lessons</span></summary><ol><li><b>171</b>Plan and Manage Schedule (Task Overview)</li><li><b>172</b>Defining Activities, Sequencing and Dependency Types</li><li><b>173</b>Estimating Durations — Analogous, Parametric, Three-Point and Story Points</li><li><b>174</b>The Critical Path Method with a Worked Network Diagram</li><li><b>175</b>Float, Leads, Lags and Schedule Baselines</li><li><b>176</b>Analyzing Schedule Variation and Compression — Crashing vs Fast-Tracking</li><li><b>177</b>Adaptive Scheduling — Timeboxes, Release Plans and Velocity</li><li><b>178</b>Coordinating with Other Projects and Operations, Benchmarks and History</li><li><b>179</b>Kanban Scheduling — Cycle Time, Throughput and Service-Level Expectations</li><li><b>180</b>Hybrid Schedules — Integrating Sprint Cadence with a Milestone Plan</li><li><b>181</b>Scenario Lab — Schedule Questions Worked Step by Step</li><li><b>182</b>Scenario Lab — Network Diagram Practicum</li></ol></details><details class="vc-sec"><summary>Domain II — Process · Evaluate project status<span>12 lessons</span></summary><ol><li><b>183</b>Evaluate Project Status (Task Overview)</li><li><b>184</b>Metrics and Artifacts — Choosing and Tailoring What to Track</li><li><b>185</b>Artifact Management — Created, Reviewed, Updated and Accessible</li><li><b>186</b>Earned Value I — PV, EV, AC, Variances and Indices</li><li><b>187</b>Earned Value II — Forecasting with EAC, ETC, VAC and TCPI</li><li><b>188</b>Earned Value III — Reading Combined Indicators and Status Scenarios</li><li><b>189</b>Adaptive Status — Burndown, Burnup, Velocity and Cumulative Flow</li><li><b>190</b>Communicating and Reconciling Status</li><li><b>191</b>Hybrid Status Reporting — Combining EVM with Agile Metrics</li><li><b>192</b>Data-Driven Status — Dashboards, Throughput Forecasts and AI-Assisted Analytics</li><li><b>193</b>Scenario Lab — Status and EVM Questions Worked Step by Step</li><li><b>194</b>Scenario Lab — EVM Practicum with Data Tables</li></ol></details><details class="vc-sec"><summary>Domain II — Process · Manage project closure<span>9 lessons</span></summary><ol><li><b>195</b>Manage Project Closure (Task Overview)</li><li><b>196</b>Closure Criteria and Final Acceptance</li><li><b>197</b>Transition Readiness — Handover to Operations or the Next Phase</li><li><b>198</b>Closing Activities — Lessons Learned, Procurement, Finance and Resources</li><li><b>199</b>Closing Cancelled or Early-Terminated Projects</li><li><b>200</b>Transition in Agile — Releases, Operational Readiness and Handover</li><li><b>201</b>Closing Iterations and Releases vs Closing the Project</li><li><b>202</b>Scenario Lab — Closure Questions Worked Step by Step</li><li><b>203</b>Scenario Lab — Process Domain Mixed Review</li></ol></details><details class="vc-sec"><summary>Domain III — Business Environment · Define and establish project governance<span>9 lessons</span></summary><ol><li><b>204</b>Define and Establish Project Governance (Task Overview)</li><li><b>205</b>Governance Structures, OPAs and Enterprise Environmental Factors</li><li><b>206</b>Organizational Structures and the PMO — Functional, Matrix and Projectized</li><li><b>207</b>Ethics and the PMI Code of Ethics and Professional Conduct</li><li><b>208</b>Defining Success Metrics</li><li><b>209</b>Escalation Paths and Tolerance Thresholds</li><li><b>210</b>Governance in Agile and Hybrid Environments</li><li><b>211</b>Lean and Adaptive Governance — Guardrails and Decentralized Decision-Making</li><li><b>212</b>Scenario Lab — Governance and Ethics Questions Worked Step by Step</li></ol></details><details class="vc-sec"><summary>Domain III — Business Environment · Plan and manage project compliance<span>8 lessons</span></summary><ol><li><b>213</b>Plan and Manage Project Compliance (Task Overview)</li><li><b>214</b>Confirming and Classifying Compliance Requirements</li><li><b>215</b>Threats to Compliance and Methods to Support It</li><li><b>216</b>Security, Health and Safety and Data Privacy on Projects</li><li><b>217</b>Sustainability and ESG Compliance</li><li><b>218</b>Consequences of Non-compliance and Measuring Compliance</li><li><b>219</b>Compliance in Agile Delivery — Building Compliance into the Definition of Done</li><li><b>220</b>Scenario Lab — Compliance Questions Worked Step by Step</li></ol></details><details class="vc-sec"><summary>Domain III — Business Environment · Manage and control changes<span>9 lessons</span></summary><ol><li><b>221</b>Manage and Control Changes (Task Overview)</li><li><b>222</b>The Integrated Change Control Process Step by Step</li><li><b>223</b>The Change Control Board, Change Requests and the Change Log</li><li><b>224</b>Managing Change in Adaptive Delivery — Product Backlog, Product Ownership and Lightweight</li><li><b>225</b>Communicating the Status of Proposed Changes</li><li><b>226</b>Implementing Approved Changes and Updating Documentation</li><li><b>227</b>Change in Hybrid Projects — When the Backlog and the Change Control Board Work Together</li><li><b>228</b>Scenario Lab — Change Control Questions Worked Step by Step</li><li><b>229</b>Scenario Lab — Change Request Sequencing Drag-and-Drop</li></ol></details><details class="vc-sec"><summary>Domain III — Business Environment · Remove impediments and manage issues<span>7 lessons</span></summary><ol><li><b>230</b>Remove Impediments and Manage Issues (Task Overview)</li><li><b>231</b>Evaluating and Prioritizing Impediments</li><li><b>232</b>Removing Blockers — Intervention Strategies and Continual Reassessment</li><li><b>233</b>When a Risk Becomes an Issue — The Issue Log and Workarounds</li><li><b>234</b>Collaborating with Stakeholders to Resolve Issues</li><li><b>235</b>Impediments at Scale — Escalating Blockers Across Multiple Agile Teams</li><li><b>236</b>Scenario Lab — Impediments and Issues Questions Worked Step by Step</li></ol></details><details class="vc-sec"><summary>Domain III — Business Environment · Plan and manage risk<span>13 lessons</span></summary><ol><li><b>237</b>Plan and Manage Risk (Task Overview)</li><li><b>238</b>The Risk Management Plan — Appetite, Thresholds and Categories</li><li><b>239</b>Identifying Risks — Techniques and Writing Good Risk Statements</li><li><b>240</b>Qualitative Risk Analysis — Probability and Impact</li><li><b>241</b>Quantitative Risk Analysis — EMV, Decision Trees and Monte Carlo</li><li><b>242</b>Risk Responses for Threats and Opportunities</li><li><b>243</b>Contingency vs Management Reserves and Contingency Plans</li><li><b>244</b>Executing, Monitoring and Communicating Risk — The Risk Register and Risk Owners</li><li><b>245</b>Risk in Agile — Risk-Adjusted Backlog, Spikes and Short Iterations</li><li><b>246</b>Risk in Hybrid Projects — Risk Registers Plus Iterative Risk Burndown</li><li><b>247</b>Security, Privacy and Sustainability Risks</li><li><b>248</b>Scenario Lab — Risk Questions Worked Step by Step</li><li><b>249</b>Scenario Lab — Decision Tree and EMV Practicum</li></ol></details><details class="vc-sec"><summary>Domain III — Business Environment · Continuous improvement<span>7 lessons</span></summary><ol><li><b>250</b>Continuous Improvement (Task Overview)</li><li><b>251</b>PDCA and Kaizen — The Engine of Continuous Improvement</li><li><b>252</b>Retrospectives and Lessons Learned That Actually Work</li><li><b>253</b>Process Tailoring and Organizational Maturity</li><li><b>254</b>Updating Organizational Process Assets</li><li><b>255</b>Continuous Improvement at Scale — Inspect-and-Adapt, Flow and Kaizen Events</li><li><b>256</b>Scenario Lab — Continuous Improvement Questions Worked Step by Step</li></ol></details><details class="vc-sec"><summary>Domain III — Business Environment · Support organizational change<span>8 lessons</span></summary><ol><li><b>257</b>Support Organizational Change (Task Overview)</li><li><b>258</b>Assessing Organizational Culture</li><li><b>259</b>Why Organizational Change Struggles and How to Build Readiness</li><li><b>260</b>Change Management Models — ADKAR, Kotter and the Satir Model</li><li><b>261</b>Evaluating the Impact of Organizational Change on the Project</li><li><b>262</b>Organizational Change Across Development Approaches, Including Agile Transformations</li><li><b>263</b>Change Readiness for AI and Digital Transformation Projects</li><li><b>264</b>Scenario Lab — Organizational Change Questions Worked Step by Step</li></ol></details><details class="vc-sec"><summary>Domain III — Business Environment · Evaluate external business environment changes<span>8 lessons</span></summary><ol><li><b>265</b>Evaluate External Business Environment Changes (Task Overview)</li><li><b>266</b>Surveying and Continually Reviewing the External Environment — PESTLE and Market Scanning</li><li><b>267</b>Assessing and Prioritizing External Impact on Scope and Backlog</li><li><b>268</b>AI in Project Environments — Uses, Limits and Governance</li><li><b>269</b>AI Risks — Data Privacy, Bias, Accuracy and Human Oversight</li><li><b>270</b>Responding to Market and Technology Shifts with Adaptive Planning</li><li><b>271</b>Scenario Lab — External Environment and AI Questions Worked Step by Step</li><li><b>272</b>Scenario Lab — Business Environment Domain Mixed Review</li></ol></details><details class="vc-sec"><summary>Module 4 — Integration and Exam Readiness<span>18 lessons</span></summary><ol><li><b>273</b>Formulas and Calculation Practice</li><li><b>274</b>Final Revision and Test-Day Strategy</li><li><b>275</b>Practice Exam Debrief and Remediation</li><li><b>276</b>Interpreting Agile and Hybrid Metrics — Worked Data Scenarios</li><li><b>277</b>Formula Masterclass II — Schedule, Communication, Risk and Finance Formulas</li><li><b>278</b>Commonly Confused Terms — The Pairs That Trap Candidates</li><li><b>279</b>Case-Scenario and Graphic-Based Items</li><li><b>280</b>Practicum and Data-Driven Items</li><li><b>281</b>Multiple Response, Enhanced Matching, Point-and-Click, Matching and Pull-Down Items</li><li><b>282</b>Full Walkthrough I — People Domain Question Set</li><li><b>283</b>Full Walkthrough II — Process Domain Question Set (Predictive Focus)</li><li><b>284</b>Full Walkthrough III — Process Domain Question Set (Agile and Hybrid Focus)</li><li><b>285</b>Full Walkthrough IV — Business Environment Question Set</li><li><b>286</b>Full Walkthrough V — Mixed Hard Questions and the Traps Behind Them</li><li><b>287</b>Final Review — People Domain in One Session</li><li><b>288</b>Final Review — Process Domain in One Session</li><li><b>289</b>Final Review — Business Environment Domain in One Session</li><li><b>290</b>The Last 48 Hours — Exam-Day Plan, Timing and Mindset</li></ol></details></details>
  </div>
+</section>
+
+
+<!-- FREE EXAM (email gate) for visitors without the book -->
+<section class="section paper" id="free">
+  <div class="wrap">
+    <div class="free-card">
+      <span class="hero-badge">Free · No book needed</span>
+      <h2 class="h2">Try a free full-length PMP exam</h2>
+      <p class="intro" style="margin:12px auto 24px">Prepare with realistic, exam-aligned questions — full-length, timed and auto-scored. Free, instant, no credit card.</p>
+      <form class="hero-form" id="emailForm">
+        <input type="email" id="emailInput" placeholder="Enter your email" required autocomplete="email">
+        <button class="btn btn-primary" type="submit">Start Free PMP Exam →</button>
+      </form>
+      <div class="gate-note" style="margin-top:8px;font-size:12px;opacity:.8">We'll email you study tips and occasional offers. Unsubscribe anytime. <a href="/privacy">Privacy</a></div>
+      <div class="proof-row">
+        <span>180 questions</span><span>Timed &amp; scored</span><span>Detailed explanations</span><span>No credit card</span>
+      </div>
+      <div class="gate-note">No email? <a href="/sample?book=pmp">Try 25 questions, no signup</a></div>
+      <div class="hero-success">
+        <h3>✓ Exam 1 unlocked</h3>
+        <p style="font-size:14px;color:var(--muted);margin-bottom:14px">Your free full-length practice exam is ready.</p>
+        <a class="btn btn-nav btn-block" href="#" id="startFreeBtn" style="max-width:340px;margin:0 auto">Start Practice Exam 1 →</a>
+      </div>
+    </div>
+
+  </div>
 </section>
 
 <!-- EXAM GUIDE: outline + eligibility -->
@@ -461,21 +501,6 @@ footer.ft{background:var(--navy-2);color:rgba(255,255,255,.72);padding:64px 0 40
   </div>
 </section>
 
-<!-- BOOK / CODE OWNERS (Door 1) -->
-<section class="section tight" id="owner">
-  <div class="wrap center">
-    <div class="owner-strip">
-      <div class="h3">Have an access code?</div>
-      <p style="font-size:15px;color:var(--muted)">Book buyers: the code is on the last page of your book. Complete System buyers: it's in your checkout PDF.</p>
-      <form id="codeForm" style="display:flex;gap:10px;max-width:460px;margin:18px auto 0">
-        <input type="text" id="codeInput" placeholder="PMP-XXXXX-XXXXX" autocomplete="off" aria-label="Access code" style="flex:1;min-width:0;height:54px;border:1.5px solid var(--line);border-radius:12px;padding:0 16px;font-size:16px;font-family:inherit;text-transform:uppercase">
-        <button class="btn btn-nav" type="submit">Unlock</button>
-      </form>
-      <p style="font-size:13px;color:var(--muted);margin-top:12px">Bought the $9.99 video course? <a href="/learn/pmp" style="font-weight:700;text-decoration:underline">Start watching here</a> with your Payhip key.</p>
-    </div>
-  </div>
-</section>
-
 <!-- FAQ -->
 <section class="section paper" id="faq">
   <div class="wrap center">
@@ -487,7 +512,7 @@ footer.ft{background:var(--navy-2);color:rgba(255,255,255,.72);padding:64px 0 40
       <details><summary>How do I watch the course after I buy it? <span class="pm">+</span></summary><p>Payhip emails you an access key right away. Go to <a href="/learn/pmp">certpathpublishing.store/learn/pmp</a>, enter the email you bought with and your key, and press Unlock. It works on phone, tablet and computer.</p></details>
       <details><summary>How many questions is the real PMP exam? <span class="pm">+</span></summary><p>180 questions (five unscored) in 240 minutes — four hours — with two 10-minute breaks.</p></details>
       <details><summary>Is this aligned to the 2026 exam? <span class="pm">+</span></summary><p>Yes — everything maps to the current PMP Examination Content Outline: People 33%, Process 41%, Business Environment 26%, across predictive, agile and hybrid ways of working, including select-two and exhibit formats.</p></details>
-      <details><summary>I bought a CertPath PMP book — how do I get my tests? <span class="pm">+</span></summary><p>Enter the access code from the last page of your book in the <a href="#owner">access code box</a>. It unlocks all four full-length online exams.</p></details>
+      <details><summary>I bought a CertPath PMP book — how do I get my tests? <span class="pm">+</span></summary><p>Enter the access code from the last page of your book in the <a href="#unlock">box at the top of this page</a>. It unlocks the full 290-lesson video course and all four full-length online exams, free.</p></details>
     </div>
     <div class="faq-cta"><a class="btn btn-primary" href="#free">Start your free PMP exam →</a></div>
   </div>
@@ -498,12 +523,12 @@ footer.ft{background:var(--navy-2);color:rgba(255,255,255,.72);padding:64px 0 40
   <div class="wrap">
     <div class="ft-top">
       <div class="ft-brand">
-        <div class="lg"><svg viewBox="0 0 40 46" width="28" height="32" aria-hidden="true"><path fill="#F6B61F" d="M3 2h22l13 13v18L20.5 44 3 33z"/><path fill="#fff" d="M7.5 6.5H23V17h10.5v13.6L20.5 38.8 7.5 30.6z"/><path fill="#0B1529" d="M12.5 20.5h16v3h-16zM12.5 26.5h15v3h-15z"/></svg>CERTPATH PUBLISHING</div>
+        <div class="lg"><svg viewBox="0 0 40 46" width="28" height="32" aria-hidden="true"><path fill="#fff" d="M3 2h22l13 13v18L20.5 44 3 33z"/><path fill="#fff" d="M7.5 6.5H23V17h10.5v13.6L20.5 38.8 7.5 30.6z"/><path fill="#0B1529" d="M12.5 20.5h16v3h-16zM12.5 26.5h15v3h-15z"/></svg>CERTPATH PUBLISHING</div>
         <p>Study guides + realistic online practice for certification, licensing and professional exams.</p>
       </div>
       <div class="ft-cols">
-        <div class="ft-col"><h5>Product</h5><a href="#free">Free Exam</a><a href="#video-course">Video Course ($9.99)</a><a href="/learn/pmp">Watch my course</a><a href="#paths">Books</a><a href="#outline">Exam Guide</a></div>
-        <div class="ft-col"><h5>Support</h5><a href="#owner">Redeem Book Code</a><a href="#faq">FAQ</a><a href="https://certpathpublishing.store">CertPath Home</a><a href="/exams">All exams</a><a href="/blog/">Blog</a><a href="/privacy">Privacy</a><a href="/terms">Terms</a><a href="/refunds">Refunds</a></div>
+        <div class="ft-col"><h5>Product</h5><a href="#free">Free Exam</a><a href="#video-course">Video Course ($9.99)</a><a href="/learn/pmp">Watch my course</a><a href="https://www.amazon.com/dp/B0HFJCVSN4" target="_blank" rel="noopener">The book on Amazon</a><a href="#outline">Exam Guide</a></div>
+        <div class="ft-col"><h5>Support</h5><a href="#unlock">Redeem Book Code</a><a href="#faq">FAQ</a><a href="https://certpathpublishing.store">CertPath Home</a><a href="/exams">All exams</a><a href="/blog/">Blog</a><a href="/privacy">Privacy</a><a href="/terms">Terms</a><a href="/refunds">Refunds</a></div>
         <div class="ft-col"><h5>Contact</h5><a href="mailto:support@certpathpublishing.store">support@certpathpublishing.store</a></div>
       </div>
     </div>
@@ -541,7 +566,8 @@ footer.ft{background:var(--navy-2);color:rgba(255,255,255,.72);padding:64px 0 40
   }
   function hasFree(){ return getUnlocked().slugs.indexOf(FREE_SLUG)!==-1; }
 
-  var hero=document.querySelector('.hero');
+  var hero=document.getElementById('free');
+  var unlockEl=document.getElementById('unlock');
 
   // Free Exam 1 — capture the lead, unlock the free bank, reveal the start button.
   document.getElementById('emailForm').addEventListener('submit',function(e){
@@ -586,49 +612,45 @@ footer.ft{background:var(--navy-2);color:rgba(255,255,255,.72);padding:64px 0 40
     grant('pmp'); // unlock the 4 full-length exams bank
     location.href='/pmp-course';
   }
+  function showUnlocked(withExams){
+    unlockEl.classList.add('done');
+    if(!withExams){
+      document.getElementById('okExams').style.display='none';
+      document.getElementById('codeOkText').textContent='Your video course is unlocked on this browser.';
+    }
+  }
+  var msg=document.getElementById('codeMsg');
   document.getElementById('codeForm').addEventListener('submit',function(e){
     e.preventDefault();
     var raw=document.getElementById('codeInput').value.trim(); if(!raw)return;
-    var btn=this.querySelector('button'), orig=btn.textContent; btn.disabled=true; btn.textContent='Checking…';
+    var email=document.getElementById('codeEmail').value.trim();
+    var btn=this.querySelector('button'), orig=btn.innerHTML; btn.disabled=true; btn.textContent='Checking…'; msg.textContent='';
+    function done(){ btn.disabled=false; btn.innerHTML=orig; }
     sha256hex(normCode(raw)).then(function(h){
+      // Older PMP Complete System buyers keep their existing course page.
       if(h===COURSE_HASH){ unlockComplete(raw.toUpperCase()); return; }
-      checkSuper(raw,h).then(function(isSuper){
-        if(isSuper){ grantAll(); unlockComplete('OWNER'); }
-        else { try{sessionStorage.setItem('certpath_pending_code',raw.toUpperCase());}catch(e){} location.href='/access?book=pmp'; } // book access code
-      });
-    }).catch(function(){ try{sessionStorage.setItem('certpath_pending_code',raw.toUpperCase());}catch(e){} location.href='/access?book=pmp'; });
+      // Book code (or Payhip key / owner code): the server checks it and sets the course cookie.
+      return fetch('/api/vc/unlock',{method:'POST',credentials:'same-origin',headers:{'Content-Type':'application/json'},
+        body:JSON.stringify({course:'pmp',email:email,key:raw})})
+        .then(function(r){return r.json()})
+        .then(function(d){
+          done();
+          if(!d||!d.ok){ msg.textContent=(d&&d.error)||'That code was not recognised. Check it and try again.'; return; }
+          try{localStorage.setItem('certpath_email',email);}catch(e){}
+          if(d.via==='book'||d.via==='super'){
+            if(d.via==='super') grantAll();
+            grant('pmp'); // the 4 full-length exams
+            fetch('/api/subscribe',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({email:email,book:'pmp'})}).catch(function(){});
+            showUnlocked(true);
+          } else showUnlocked(false);
+        });
+    }).catch(function(){ done(); msg.textContent='Network problem, please try again.'; });
   });
 
-
-  // Returning customer: this browser already holds access, so don't ask for the code
-  // again — greet them and link straight to what they own. (Access lives in this
-  // browser's storage: a private window, another browser or another device starts clean.)
+  // Returning owner: this browser already holds the exams, so show the open buttons straight away.
   (function(){
-    var course=null; try{course=JSON.parse(localStorage.getItem('certpath_pmp_access')||'null');}catch(e){}
     var u=getUnlocked();
-    var ownsCourse=!!(course&&course.tier==='complete');
-    var ownsBook=ownsCourse||!!u.isAdmin||(u.slugs||[]).indexOf('pmp')!==-1;
-    if(!ownsBook) return;
-    var owner=document.getElementById('owner');
-    if(owner){
-      owner.querySelector('.wrap').innerHTML=
-        '<span class="eyebrow">Welcome back'+(function(){var n='';try{n=(localStorage.getItem('certpath_name')||'').replace(/[<>&"]/g,'');}catch(e){}return n?', '+n:'';})()+'</span>'+
-        '<h2 class="h2">'+(ownsCourse?'Your PMP Complete System is unlocked':'Your PMP practice exams are unlocked')+'</h2>'+
-        '<p class="intro">'+(ownsCourse?'Pick up where you left off — your videos, practice exams and cheat sheets are all open on this browser.':'Your full-length practice exams are open on this browser.')+'</p>'+
-        '<div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:26px">'+
-          (ownsCourse?'<a class="btn btn-nav" href="/pmp-course">Open my video course →</a>':'')+
-          '<a class="btn '+(ownsCourse?'btn-primary':'btn-nav')+'" href="/pmp-exams">Open my practice exams →</a>'+
-        '</div>'+
-        '<p style="font-size:13px;color:var(--muted);margin-top:16px">Using a private window, another browser or a new device? Enter your code once there too. <a href="#" id="reenterCode" style="color:inherit;text-decoration:underline">Enter a different code</a></p>';
-      var re=document.getElementById('reenterCode');
-      if(re) re.addEventListener('click',function(e){e.preventDefault();location.href='/access';});
-    }
-    if(ownsCourse){
-      var buy=document.getElementById('buyBtn');
-      if(buy){ buy.textContent='You own this — open my course →'; buy.setAttribute('href','/pmp-course'); buy.removeAttribute('target'); }
-      var nav=document.querySelector('a.btn.btn-primary.btn-sm[href="#free"]');
-      if(nav){ nav.textContent='My course'; nav.setAttribute('href','/pmp-course'); }
-    }
+    if(u.isAdmin||(u.slugs||[]).indexOf('pmp')!==-1) showUnlocked(true);
   })();
 
   // Returning free lead: keep the exam ready.
