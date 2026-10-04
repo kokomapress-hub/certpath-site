@@ -53,6 +53,19 @@
     }
 
     .col-head { margin: 0 0 1rem; display: flex; align-items: center; gap: .4rem; }
+    /* Expand/collapse arrow for tasks that have sub-tasks */
+    .fold {
+      flex: none; width: 1.1rem; height: 2rem; margin-top: .25rem; margin-right: -.2rem; padding: 0;
+      border: 0; background: none; cursor: pointer; color: var(--ink-soft);
+      display: inline-flex; align-items: center; justify-content: center; visibility: hidden;
+    }
+    .fold svg { width: .8rem; height: .8rem; fill: currentColor; transition: transform .15s; }
+    .row.has-kids .fold { visibility: visible; }
+    .row.collapsed .fold svg { transform: rotate(-90deg); }
+    .fold:hover { color: var(--ink); }
+    .row.folded-away { display: none; }
+    .fold-count { display: none; font-size: .72rem; color: var(--ink-soft); margin-top: .75rem; white-space: nowrap; }
+    .row.collapsed .fold-count { display: inline; }
     /* Add sub-task button on each task */
     .sub-row {
       flex: none; display: inline-flex; align-items: center; justify-content: center;
@@ -631,6 +644,7 @@
         } catch (e) { ok = false; }
         showStatus(ok);
         if (typeof renderMaster === 'function') renderMaster();
+        if (typeof updateTree === 'function') updateTree();
         if (typeof schedulePush === 'function') schedulePush();
       }
       // Extra safety: save again when the page is hidden or closed
@@ -717,6 +731,7 @@
           var i = rows.indexOf(item);
           if (e.key === 'Enter') {
             e.preventDefault();
+            if (item.c) { delete item.c; updateTree(); }   // expand so the new line doesn't swallow hidden sub-tasks
             var nextEl = ul.children[i + 1];
             var nextItem = rows[i + 1];
             if (!nextItem || nextItem.t || nextItem.d || nextItem.s) {
@@ -774,6 +789,16 @@
         del.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>';
         del.addEventListener('click', function () { removeRow(list, ul, li); });
 
+        var fold = h('button', 'fold');
+        fold.type = 'button';
+        fold.setAttribute('aria-label', 'Show or hide sub-tasks');
+        fold.innerHTML = '<svg viewBox="0 0 12 12" aria-hidden="true"><path d="M2 4h8L6 9z"/></svg>';
+        fold.addEventListener('click', function () {
+          if (item.c) delete item.c; else item.c = 1;
+          save();
+        });
+        var foldCount = h('span', 'fold-count');
+
         // Visible "add sub-task": new line one level in, after this task's existing sub-tasks
         var sub = h('button', 'sub-row');
         sub.type = 'button';
@@ -782,6 +807,7 @@
         sub.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4v8a3 3 0 0 0 3 3h7"/><path d="M12 11l4 4-4 4"/><path d="M19 4v6M16 7h6"/></svg>';
         sub.addEventListener('click', function () {
           if (levelOf(item) >= MAX_LEVEL) return;
+          delete item.c;   // open the task so the new sub-task is visible
           var kids = kidsOf(li), last = kids.length ? kids[kids.length - 1] : li;
           var nb = withLevel(blank(), levelOf(item) + 1);
           var el = makeRow(list, nb, ul);
@@ -794,9 +820,11 @@
         });
 
         li._item = item;
+        li.appendChild(fold);
         li.appendChild(box);
         li.appendChild(star);
         li.appendChild(input);
+        li.appendChild(foldCount);
         li.appendChild(sub);
         li.appendChild(del);
         li.appendChild(grip);
@@ -1093,6 +1121,36 @@
         render({ focusSel: '#col-' + list.id + ' .name', select: true, reveal: '#col-' + list.id });
       }
 
+      // Show the arrow on tasks with sub-tasks and hide the sub-tasks of collapsed ones
+      function updateTree() {
+        Array.prototype.forEach.call(document.querySelectorAll('ul.list'), function (ul) {
+          var rows = Array.prototype.filter.call(ul.children, function (el) { return el._item; });
+          var hideDeeperThan = null;
+          rows.forEach(function (li, i) {
+            var lvl = levelOf(li._item);
+            var next = rows[i + 1];
+            var kids = 0;
+            for (var j = i + 1; j < rows.length && levelOf(rows[j]._item) > lvl; j++) if (rows[j]._item.t) kids++;
+            var hasKids = !!(next && levelOf(next._item) > lvl);
+            if (hideDeeperThan !== null && lvl > hideDeeperThan) { li.classList.add('folded-away'); }
+            else {
+              hideDeeperThan = null;
+              li.classList.remove('folded-away');
+              if (hasKids && li._item.c) hideDeeperThan = lvl;
+            }
+            li.classList.toggle('has-kids', hasKids);
+            li.classList.toggle('collapsed', hasKids && !!li._item.c);
+            var fb = li.querySelector('.fold');
+            if (fb) {
+              fb.setAttribute('aria-expanded', hasKids && li._item.c ? 'false' : 'true');
+              fb.title = li._item.c ? 'Show sub-tasks' : 'Hide sub-tasks';
+            }
+            var fc = li.querySelector('.fold-count');
+            if (fc) fc.textContent = kids ? '+' + kids : '';
+          });
+        });
+      }
+
       var STAR_SVG = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.2l2.6 5.5 6 .8-4.4 4.2 1.1 6-5.3-2.9-5.3 2.9 1.1-6-4.4-4.2 6-.8z"/></svg>';
       var masterEl = null;
       // Starred tasks from all lists. Rebuilt on every save so stars added or removed show up at once.
@@ -1213,6 +1271,7 @@
           ul.setAttribute('aria-label', label);
           list.rows.forEach(function (item) { ul.appendChild(makeRow(list, item, ul)); });
           col.appendChild(ul);
+          setTimeout(updateTree, 0);
 
           var add = h('button', 'add');
           add.type = 'button';
