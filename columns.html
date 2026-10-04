@@ -53,6 +53,20 @@
     }
 
     .col-head { margin: 0 0 1rem; display: flex; align-items: center; gap: .4rem; }
+    /* Minimized list: a slim strip with the name written sideways; click to open again */
+    .head-min {
+      flex: 0 0 auto; border: 0; background: transparent; color: var(--ink-soft);
+      cursor: pointer; padding: .25rem; border-radius: 4px; line-height: 0; margin-left: auto;
+    }
+    .head-min svg { width: 1rem; height: 1rem; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; }
+    .head-min:hover { color: var(--ink); background: rgba(0,0,0,.05); }
+    .col.is-min { flex: 0 0 3.25rem; min-width: 3.25rem; padding: 1rem .4rem; cursor: pointer; }
+    .col.is-min > :not(.col-head) { display: none; }
+    .col.is-min .col-head { flex-direction: column; gap: .6rem; }
+    .col.is-min .col-head .chip { writing-mode: vertical-rl; padding: .8rem .4rem; }
+    .col.is-min .head-del { display: none; }
+    .col.is-min .head-min { margin-left: 0; order: -1; }
+    @media (max-width: 640px) { .head-min { display: none; } .col.is-min > :not(.col-head) { display: revert; } }
     /* Expand/collapse arrow for tasks that have sub-tasks */
     .fold {
       flex: none; width: 1.1rem; height: 2rem; margin-top: .25rem; margin-right: -.2rem; padding: 0;
@@ -1284,7 +1298,7 @@
           chip.type = 'button';
           chip.dataset.id = list.id;
           chip.title = 'Rename, recolor or delete this list';
-          chip.addEventListener('click', function () { toggleEdit(list.id); });
+          chip.addEventListener('click', function (e) { if (list.min) return; toggleEdit(list.id); });
           head.appendChild(chip);
           var hd = h('button', 'head-del');
           hd.type = 'button';
@@ -1293,6 +1307,26 @@
           hd.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M10 11v6M14 11v6M6 7l1 13h10l1-13M9 7V4h6v3"/></svg>';
           hd.addEventListener('click', function () { toggleEdit(list.id); });
           head.appendChild(hd);
+          var mn = h('button', 'head-min');
+          mn.type = 'button';
+          mn.title = list.min ? 'Open this list' : 'Minimize this list';
+          mn.setAttribute('aria-label', (list.min ? 'Open ' : 'Minimize ') + label);
+          mn.setAttribute('aria-expanded', list.min ? 'false' : 'true');
+          mn.innerHTML = list.min
+            ? '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg>'
+            : '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14"/></svg>';
+          mn.addEventListener('click', function (e) {
+            e.stopPropagation();
+            if (list.min) delete list.min; else list.min = 1;
+            save();
+            render();
+          });
+          head.appendChild(mn);
+          if (list.min) {
+            col.classList.add('is-min');
+            col.title = 'Open ' + label;
+            col.addEventListener('click', function () { delete list.min; save(); render(); });
+          }
           col.appendChild(head);
 
           if (editingId === list.id) col.appendChild(makePanel(list));
