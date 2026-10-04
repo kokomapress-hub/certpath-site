@@ -332,6 +332,10 @@
     .master .m-go { flex: 1; text-align: left; background: none; border: 0; padding: 0; cursor: pointer; color: var(--ink); font: 400 .95rem/1.35 var(--sans); }
     .master .m-go small { display: block; color: var(--ink-soft); font-size: .72rem; }
     .master li.done .m-go span { text-decoration: line-through; color: var(--ink-soft); }
+    .master .m-mv { display: flex; flex-direction: column; flex: none; }
+    .master .m-mv button { background: none; border: 0; cursor: pointer; padding: 0 .15rem; line-height: 1; font-size: .7rem; color: var(--ink-soft); }
+    .master .m-mv button:hover:not(:disabled) { color: var(--ink); }
+    .master .m-mv button:disabled { opacity: .25; cursor: default; }
     .master .m-un { background: none; border: 0; cursor: pointer; padding: .1rem; }
     .master .m-un svg { width: 1rem; height: 1rem; fill: #E0A800; }
     .master .m-un:hover svg { fill: none; stroke: #E0A800; stroke-width: 2; }
@@ -770,6 +774,7 @@
         star.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.2l2.6 5.5 6 .8-4.4 4.2 1.1 6-5.3-2.9-5.3 2.9 1.1-6-4.4-4.2 6-.8z"/></svg>';
         star.addEventListener('click', function () {
           item.s = !item.s;
+          if (!item.s) delete item.m;
           star.setAttribute('aria-pressed', item.s ? 'true' : 'false');
           li.classList.toggle('starred', item.s);
           save();
@@ -1161,11 +1166,20 @@
         head.innerHTML = STAR_SVG;
         head.appendChild(document.createTextNode('Master Taskbar'));
         masterEl.appendChild(head);
-        var ul = h('ul'), n = 0;
+        var ul = h('ul');
+        // Starred tasks in the user's own Master order (item.m); newly starred ones go to the end
+        var entries = [];
         state.lists.forEach(function (list) {
-          list.rows.forEach(function (item) {
-            if (!item.s || !item.t) return;
-            n++;
+          list.rows.forEach(function (item) { if (item.s && item.t) entries.push({ list: list, item: item }); });
+        });
+        entries.sort(function (a, b) {
+          return (a.item.m == null ? 1e15 : a.item.m) - (b.item.m == null ? 1e15 : b.item.m);
+        });
+        entries.forEach(function (e, idx) { e.item.m = idx; });
+        var n = entries.length;
+        entries.forEach(function (e, idx) {
+          var list = e.list, item = e.item;
+          (function () {
             var li = h('li', item.d ? 'done' : '');
             var go = h('button', 'm-go');
             go.type = 'button';
@@ -1185,6 +1199,7 @@
             un.innerHTML = STAR_SVG;
             un.addEventListener('click', function () {
               item.s = false;
+              delete item.m;
               var col = document.getElementById('col-' + list.id);
               var rowEl = col && Array.prototype.find.call(col.querySelectorAll('li.row'), function (r) { return r._item === item; });
               if (rowEl) {
@@ -1194,9 +1209,24 @@
               }
               save();
             });
-            li.appendChild(go); li.appendChild(un);
+            var mv = h('span', 'm-mv');
+            [[-1, '\u25B2', 'Move up'], [1, '\u25BC', 'Move down']].forEach(function (d) {
+              var b = h('button', '', d[1]);
+              b.type = 'button';
+              b.title = d[2];
+              b.setAttribute('aria-label', d[2] + ': ' + item.t);
+              var other = entries[idx + d[0]];
+              b.disabled = !other;
+              b.addEventListener('click', function () {
+                if (!other) return;
+                var t = item.m; item.m = other.item.m; other.item.m = t;
+                save();
+              });
+              mv.appendChild(b);
+            });
+            li.appendChild(mv); li.appendChild(go); li.appendChild(un);
             ul.appendChild(li);
-          });
+          })();
         });
         if (n) masterEl.appendChild(ul);
         else masterEl.appendChild(h('p', 'm-empty', 'Star a task and it shows up here.'));
