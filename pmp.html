@@ -246,6 +246,22 @@ footer.ft{background:var(--navy-2);color:rgba(255,255,255,.72);padding:64px 0 40
 .free-card{max-width:760px;margin:0 auto;background:#fff;border:1px solid var(--line);border-radius:20px;box-shadow:var(--sh);padding:44px 40px;text-align:center}
 #free.done .hero-form,#free.done .proof-row,#free.done .gate-note{display:none}
 #free.done .hero-success{display:block}
+
+/* ============ DARK BANDS (alternate navy / white) ============ */
+.section.dark{background:radial-gradient(900px 420px at 50% -10%,var(--navy-line) 0%,var(--navy) 50%,var(--navy-2) 100%);color:rgba(255,255,255,.8)}
+.dark .eyebrow{color:var(--gold)}
+.dark .h2{color:#fff}
+.dark .intro{color:rgba(255,255,255,.72)}
+.dark .dom-card{border-color:transparent;box-shadow:0 18px 40px rgba(0,0,0,.25)}
+.dark .info-grid{border-color:transparent;box-shadow:0 18px 40px rgba(0,0,0,.25)}
+.dark .faq details{border-bottom-color:rgba(255,255,255,.14)}
+.dark .faq summary{color:#fff}
+.dark .faq summary .pm{color:var(--gold)}
+.dark .faq details p{color:rgba(255,255,255,.75)}
+.dark .faq details p a{color:var(--gold)}
+#free .free-card{background:var(--paper)}
+footer.ft{border-top:1px solid rgba(255,255,255,.08)}
+
 @media(max-width:960px){.free-card{padding:32px 22px}.code-form .big{font-size:18px}}
 
 @media(max-width:960px){.paths{grid-template-columns:1fr}.path.feat{transform:none}}
@@ -411,7 +427,7 @@ footer.ft{background:var(--navy-2);color:rgba(255,255,255,.72);padding:64px 0 40
 
 
 <!-- FREE EXAM (email gate) for visitors without the book -->
-<section class="section paper" id="free">
+<section class="section" id="free">
   <div class="wrap">
     <div class="free-card">
       <span class="hero-badge">Free · No book needed</span>
@@ -437,7 +453,7 @@ footer.ft{background:var(--navy-2);color:rgba(255,255,255,.72);padding:64px 0 40
 </section>
 
 <!-- EXAM GUIDE: outline + eligibility -->
-<section class="section paper" id="outline">
+<section class="section dark" id="outline">
   <div class="wrap center">
     <span class="eyebrow">PMP exam guide — 2026</span>
     <h2 class="h2">What's on the PMP exam</h2>
@@ -502,7 +518,7 @@ footer.ft{background:var(--navy-2);color:rgba(255,255,255,.72);padding:64px 0 40
 </section>
 
 <!-- FAQ -->
-<section class="section paper" id="faq">
+<section class="section dark" id="faq">
   <div class="wrap center">
     <span class="eyebrow">Questions</span>
     <h2 class="h2">PMP FAQ</h2>
