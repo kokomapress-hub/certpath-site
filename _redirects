@@ -29,3 +29,6 @@
 
 # E-books are no longer sold; the old per-book e-book page goes to the exam directory.
 /ebook         /exams  301
+
+# Video course player: /learn/<course> is served by learn.html.
+/learn/*   /learn.html   200

@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="robots" content="noindex, nofollow">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Video Course | CertPath Publishing</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--navy:#1B2A4A;--navy-light:#2A3D63;--navy-dark:#0F1A30;--navy-deep:#0B1425;
+  --gold:#FFB800;--gold-dark:#D69A00;--gray-300:#9AA3B2;--green:#16A34A;}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+[hidden]{display:none!important}
+body{font-family:Inter,system-ui,sans-serif;background:var(--navy-deep);color:#fff;-webkit-font-smoothing:antialiased}
+a{color:var(--gold);text-decoration:none}
+button{font-family:inherit}
+.topbar{background:var(--navy-dark);border-bottom:1px solid rgba(255,255,255,.08);position:sticky;top:0;z-index:20}
+.topbar .in{max-width:1400px;margin:0 auto;padding:0 20px;height:58px;display:flex;align-items:center;gap:14px}
+.logo{font-weight:800;color:#fff;font-size:.98rem;letter-spacing:.02em;white-space:nowrap}
+.logo span{color:var(--gold)}
+.ctitle{font-size:.9rem;color:var(--gray-300);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.prog{margin-left:auto;display:flex;align-items:center;gap:10px;font-size:.85rem;color:var(--gray-300);white-space:nowrap}
+.prog b{color:var(--gold)}
+.bar{width:150px;height:7px;border-radius:5px;background:rgba(255,255,255,.12);overflow:hidden}
+.bar i{display:block;height:100%;background:var(--gold);width:0}
+
+.locked{max-width:600px;margin:50px auto;background:var(--navy);border:1px solid rgba(255,255,255,.1);border-radius:16px;padding:0 0 32px;text-align:center;box-shadow:0 20px 60px rgba(0,0,0,.4);overflow:hidden}
+.locked img{width:100%;display:block}
+.locked .body{padding:26px 34px 0}
+.locked h1{font-size:1.4rem;margin:0 0 8px}
+.locked p{color:var(--gray-300);margin-bottom:18px;line-height:1.5}
+.btn{display:inline-block;background:var(--gold);color:var(--navy-dark);font-weight:700;padding:13px 24px;border-radius:10px;border:0;cursor:pointer;font-size:1rem}
+.btn:disabled{opacity:.6;cursor:default}
+.or{margin:26px 0 14px;color:var(--gray-300);font-size:.85rem;text-transform:uppercase;letter-spacing:.1em}
+.form{display:grid;gap:10px;max-width:380px;margin:0 auto}
+.form input{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.2);color:#fff;border-radius:10px;padding:12px 14px;font:inherit}
+.msg{min-height:1.3em;margin-top:10px;font-size:.9rem;color:#FCA5A5}
+.small{font-size:.8rem;color:var(--gray-300);margin-top:16px}
+
+.course{display:grid;grid-template-columns:360px 1fr;min-height:calc(100vh - 58px)}
+.side{background:var(--navy-dark);border-right:1px solid rgba(255,255,255,.08);overflow-y:auto;max-height:calc(100vh - 58px);position:sticky;top:58px}
+.sec{padding:16px 18px 6px;font-size:.72rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--gold-dark);cursor:pointer;display:flex;gap:8px;align-items:baseline}
+.sec .c{margin-left:auto;color:var(--gray-300);font-weight:500;letter-spacing:0;text-transform:none}
+.sec.shut + .ls{display:none}
+.lesson{display:flex;align-items:flex-start;gap:11px;padding:10px 18px;cursor:pointer;border-left:3px solid transparent;font-size:.88rem;color:rgba(255,255,255,.82);line-height:1.35}
+.lesson:hover{background:rgba(255,255,255,.04)}
+.lesson.on{background:rgba(255,184,0,.1);border-left-color:var(--gold);color:#fff}
+.lesson .n{flex:none;width:30px;color:var(--gray-300);font-variant-numeric:tabular-nums}
+.lesson .t{flex:1}
+.lesson .d{flex:none;color:var(--gray-300);font-size:.78rem}
+.lesson.done .n{color:var(--green)}
+.lesson.done .n::before{content:"\2713 "}
+.main{padding:24px clamp(16px,3vw,40px);max-width:1100px;width:100%}
+video{width:100%;aspect-ratio:16/9;background:#000;border-radius:12px;display:block}
+.now{margin:18px 0 6px;font-size:1.3rem}
+.meta{color:var(--gray-300);font-size:.88rem}
+.ctrl{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px;align-items:center}
+.ctrl button,.ctrl select{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.18);color:#fff;border-radius:9px;padding:9px 14px;cursor:pointer;font:inherit;font-size:.9rem}
+.ctrl button.pri{background:var(--gold);color:var(--navy-dark);border-color:var(--gold);font-weight:700}
+.ctrl button:disabled{opacity:.4;cursor:default}
+.ctrl label{font-size:.88rem;color:var(--gray-300);display:flex;gap:6px;align-items:center}
+.mtoggle{display:none}
+@media (max-width:860px){
+  .course{grid-template-columns:1fr}
+  .side{position:static;max-height:none;border-right:0;border-top:1px solid rgba(255,255,255,.08);order:2}
+  .main{padding:14px 16px}
+  .bar{width:70px}
+  .ctitle{display:none}
+}
+</style>
+</head>
+<body>
+<div class="topbar"><div class="in">
+  <a class="logo" href="/">CertPath <span>Publishing</span></a>
+  <span class="ctitle" id="ctitle"></span>
+  <div class="prog" id="prog" hidden><b id="pct">0%</b><span class="bar"><i id="barfill"></i></span></div>
+</div></div>
+
+<div class="locked" id="locked" hidden>
+  <img id="cover" alt="">
+  <div class="body">
+    <h1 id="ltitle"></h1>
+    <p id="lsub"></p>
+    <a class="btn" id="buy" href="#">Buy the course — $9.99</a>
+    <div class="or">Already bought it?</div>
+    <form class="form" id="form">
+      <input type="email" id="email" placeholder="Email you bought with" autocomplete="email" required>
+      <input type="text" id="key" placeholder="Access key (XXXXX-XXXXX-XXXXX-XXXXX)" autocomplete="off" required>
+      <button class="btn" type="submit" id="go">Unlock</button>
+    </form>
+    <div class="msg" id="msg" role="alert"></div>
+    <p class="small">Your access key is on your Payhip receipt and in your purchase email.</p>
+  </div>
+</div>
+
+<div class="locked" id="missing" hidden><div class="body" style="padding-top:30px"><h1>Course not found</h1><p>Check the link, or see <a href="/exams">all exams</a>.</p></div></div>
+
+<div class="course" id="course" hidden>
+  <aside class="side" id="side"></aside>
+  <main class="main">
+    <video id="vid" controls playsinline preload="metadata" controlslist="nodownload" oncontextmenu="return false"></video>
+    <h2 class="now" id="now"></h2>
+    <div class="meta" id="meta"></div>
+    <div class="ctrl">
+      <button id="prev">&larr; Previous</button>
+      <button id="next" class="pri">Next lesson &rarr;</button>
+      <label>Speed <select id="speed"><option>0.75</option><option selected>1</option><option>1.25</option><option>1.5</option><option>1.75</option><option>2</option></select></label>
+      <label><input type="checkbox" id="auto" checked> Autoplay next</label>
+    </div>
+  </main>
+</div>
+
+<script>
+(function () {
+  var BUY = { 'pmp': 'https://payhip.com/b/Atjx3', 'sat-math': 'https://payhip.com/b/KbAzN', 'tabe-a': 'https://payhip.com/b/pw4Rs', 'tabe-d': 'https://payhip.com/b/Mavlg', 'tabe-e': 'https://payhip.com/b/vxU07' };
+  var COVER = { 'pmp': 'PMP', 'sat-math': 'SAT_Math', 'tabe-a': 'TABE_A', 'tabe-d': 'TABE_D', 'tabe-e': 'TABE_E' };
+  var slug = (location.pathname.match(/^\/learn\/([a-z0-9-]+)/) || [])[1] || new URLSearchParams(location.search).get('course') || '';
+  var $ = function (id) { return document.getElementById(id); };
+  var store = {
+    get: function (k) { try { return JSON.parse(localStorage.getItem(k)); } catch (e) { return null; } },
+    set: function (k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} }
+  };
+  var PK = 'vc-progress-' + slug, KK = 'vc-key-' + slug;
+  var course, lessons = [], cur = 0, done = store.get(PK) || {};
+
+  function fmt(s) { var m = Math.floor(s / 60), r = s % 60; return m + ':' + (r < 10 ? '0' : '') + r; }
+
+  fetch('/data/video-courses.json').then(function (r) { return r.json(); }).then(function (d) {
+    course = d.courses.filter(function (c) { return c.slug === slug; })[0];
+    if (!course) { $('missing').hidden = false; return; }
+    document.title = course.title + ' | CertPath Publishing';
+    $('ctitle').textContent = course.title;
+    course.sections.forEach(function (s) { s.lessons.forEach(function (l) { l.section = s.title; lessons.push(l); }); });
+    return fetch('/api/vc/unlock?course=' + slug, { credentials: 'same-origin' }).then(function (r) { return r.json(); }).then(function (a) {
+      if (a.ok) return openCourse();
+      // Saved key from an earlier visit: unlock again quietly after the 30-day cookie runs out.
+      var saved = store.get(KK);
+      if (saved) return unlock(saved.email, saved.key, true);
+      showLocked();
+    });
+  }).catch(function () { showLocked(); });
+
+  function showLocked() {
+    $('locked').hidden = false;
+    $('cover').src = '/img/video-courses/' + COVER[slug] + '.jpg';
+    $('cover').alt = course.title;
+    $('ltitle').textContent = course.title;
+    $('lsub').textContent = course.count + ' video lessons · ' + (course.seconds / 3600).toFixed(1) + ' hours · watch on any device';
+    $('buy').href = BUY[slug];
+  }
+
+  function unlock(email, key, quiet) {
+    $('go').disabled = true; $('msg').textContent = '';
+    return fetch('/api/vc/unlock', { method: 'POST', credentials: 'same-origin', headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ course: slug, email: email, key: key }) })
+      .then(function (r) { return r.json(); })
+      .then(function (a) {
+        $('go').disabled = false;
+        if (a.ok) { store.set(KK, { email: email, key: key }); $('locked').hidden = true; openCourse(); return; }
+        if (quiet) { try { localStorage.removeItem(KK); } catch (e) {} showLocked(); return; }
+        $('msg').textContent = a.error || 'Could not unlock. Check your email and key.';
+      })
+      .catch(function () { $('go').disabled = false; if (quiet) showLocked(); else $('msg').textContent = 'Network problem, please try again.'; });
+  }
+
+  $('form').addEventListener('submit', function (e) {
+    e.preventDefault();
+    unlock($('email').value.trim(), $('key').value.trim(), false);
+  });
+
+  function openCourse() {
+    $('course').hidden = false; $('prog').hidden = false;
+    var side = $('side');
+    course.sections.forEach(function (s) {
+      var h = document.createElement('div');
+      h.className = 'sec';
+      h.innerHTML = '<span></span><span class="c"></span>';
+      h.firstChild.textContent = s.title;
+      h.lastChild.textContent = s.lessons.length;
+      h.addEventListener('click', function () { h.classList.toggle('shut'); });
+      var ls = document.createElement('div');
+      ls.className = 'ls';
+      s.lessons.forEach(function (l) {
+        var row = document.createElement('div');
+        row.className = 'lesson';
+        row.id = 'l' + l.n;
+        row.innerHTML = '<span class="n"></span><span class="t"></span><span class="d"></span>';
+        row.children[0].textContent = l.n;
+        row.children[1].textContent = l.title;
+        row.children[2].textContent = fmt(l.sec);
+        row.addEventListener('click', function () { play(lessons.indexOf(l), true); });
+        ls.appendChild(row);
+      });
+      if (course.sections.length > 1) side.appendChild(h);
+      side.appendChild(ls);
+    });
+    paintDone();
+    var last = store.get(PK + '-last');
+    var start = 0;
+    if (last != null) start = Math.max(0, lessons.findIndex(function (l) { return l.n === last; }));
+    else { var f = lessons.findIndex(function (l) { return !done[l.n]; }); start = f < 0 ? 0 : f; }
+    play(start, false);
+  }
+
+  function paintDone() {
+    var c = 0;
+    lessons.forEach(function (l) { var el = $('l' + l.n); var d = !!done[l.n]; if (d) c++; if (el) el.classList.toggle('done', d); });
+    var p = Math.round(100 * c / lessons.length);
+    $('pct').textContent = p + '%'; $('barfill').style.width = p + '%';
+  }
+
+  var vid = $('vid');
+  function play(i, autoplay) {
+    if (i < 0 || i >= lessons.length) return;
+    cur = i;
+    var l = lessons[i];
+    vid.src = '/api/vc/video/' + slug + '/' + ('00' + l.n).slice(-3) + '.mp4';
+    vid.playbackRate = Number($('speed').value);
+    if (autoplay) vid.play().catch(function () {});
+    $('now').textContent = l.n + '. ' + l.title;
+    $('meta').textContent = (course.sections.length > 1 ? l.section + ' · ' : '') + fmt(l.sec);
+    document.querySelectorAll('.lesson.on').forEach(function (e) { e.classList.remove('on'); });
+    var row = $('l' + l.n);
+    if (row) { row.classList.add('on'); if (row.scrollIntoView && window.innerWidth > 860) row.scrollIntoView({ block: 'nearest' }); }
+    $('prev').disabled = i === 0; $('next').disabled = i === lessons.length - 1;
+    store.set(PK + '-last', l.n);
+  }
+  vid.addEventListener('timeupdate', function () {
+    var l = lessons[cur];
+    if (l && !done[l.n] && vid.duration && vid.currentTime / vid.duration >= 0.9) { done[l.n] = 1; store.set(PK, done); paintDone(); }
+  });
+  vid.addEventListener('ended', function () { if ($('auto').checked) play(cur + 1, true); });
+  vid.addEventListener('error', function () {
+    // Cookie expired mid-session: check access again and show the unlock box if needed.
+    fetch('/api/vc/unlock?course=' + slug, { credentials: 'same-origin' }).then(function (r) { return r.json(); }).then(function (a) {
+      if (!a.ok) { var s = store.get(KK); if (s) unlock(s.email, s.key, true).then(function () { play(cur, false); }); else { $('course').hidden = true; showLocked(); } }
+    });
+  });
+  $('prev').addEventListener('click', function () { play(cur - 1, true); });
+  $('next').addEventListener('click', function () { play(cur + 1, true); });
+  $('speed').addEventListener('change', function () { vid.playbackRate = Number(this.value); });
+})();
+</script>
+</body>
+</html>
