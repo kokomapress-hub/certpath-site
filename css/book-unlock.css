@@ -1,0 +1,56 @@
+/* Book-owner unlock hero + "choose how you prepare" comparison (sat, tabe). bu- prefix only. */
+.bu-hero{position:relative;overflow:hidden;background:radial-gradient(1100px 520px at 50% -12%,#2A3D63 0%,#1B2A4A 46%,#101A30 100%);padding:80px 20px 90px;font-family:Inter,system-ui,sans-serif}
+.bu-hero::before{content:"";position:absolute;inset:0;background-image:radial-gradient(rgba(255,255,255,.05) 1px,transparent 1px);background-size:22px 22px;pointer-events:none}
+.bu-card{position:relative;max-width:780px;margin:0 auto;background:#fff;border-radius:24px;box-shadow:0 40px 90px rgba(6,12,26,.5);padding:48px 52px 40px;text-align:center}
+.bu-badge{display:inline-block;font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:#D69A00;background:#FFF6DE;border:1px solid #F3E2A8;border-radius:999px;padding:6px 14px;margin-bottom:18px}
+.bu-card h1{font-size:46px;line-height:1.08;font-weight:800;letter-spacing:-.035em;color:#1B2A4A;margin:0}
+.bu-card h1 .gold{color:#D69A00}
+.bu-sub{font-size:17px;line-height:1.6;color:#6B7480;margin:14px auto 20px;max-width:52ch}
+.bu-gets{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin:0 0 22px}
+.bu-gets span{background:#F7F8FB;border:1px solid #E6E9F0;border-radius:999px;padding:6px 14px;font-size:13.5px;font-weight:600;color:#1B2A4A}
+.bu-form{display:grid;gap:10px;max-width:540px;margin:0 auto;text-align:left}
+.bu-form label{font-size:13px;font-weight:700;color:#1B2A4A}
+.bu-form .big{height:68px;font-size:21px;font-weight:700;letter-spacing:.07em;text-transform:uppercase;text-align:center;border:2px solid #FFB800;border-radius:14px;padding:0 14px;font-family:inherit;color:#1B2A4A;width:100%;background:#FFFCF2;box-sizing:border-box}
+.bu-form .big::placeholder{color:#C5B98F;font-weight:600}
+.bu-form .em{height:52px;font-size:16px;border:1.5px solid #E6E9F0;border-radius:12px;padding:0 16px;font-family:inherit;width:100%;box-sizing:border-box}
+.bu-form input:focus{outline:none;border-color:#1B2A4A}
+.bu-btn{display:flex;align-items:center;justify-content:center;height:60px;border:0;border-radius:12px;background:#FFB800;color:#101A30!important;font:800 18px Inter,sans-serif;cursor:pointer;box-shadow:0 8px 22px rgba(255,184,0,.3);text-decoration:none!important;width:100%;margin-top:6px}
+.bu-btn.navy{background:#1B2A4A;color:#fff!important;box-shadow:none}
+.bu-btn:disabled{opacity:.6}
+.bu-msg{min-height:20px;font-size:14px;color:#B91C1C;margin-top:10px}
+.bu-help{font-size:13px;color:#6B7480;margin-top:6px}
+.bu-help a,.bu-alt a{color:#1B2A4A;font-weight:700;text-decoration:underline;text-underline-offset:3px}
+.bu-alt{margin-top:22px;padding-top:18px;border-top:1px solid #E6E9F0;font-size:14px;color:#6B7480}
+.bu-ok{display:none}
+.bu-ok h3{font-size:24px;color:#16A34A;margin:0 0 6px}
+.bu-ok p{color:#6B7480;margin:0}
+.bu-ok .btns{display:grid;gap:12px;max-width:420px;margin:18px auto 0}
+.bu-hero.done .bu-form,.bu-hero.done .bu-help,.bu-hero.done .bu-gets,.bu-hero.done .bu-msg{display:none}
+.bu-hero.done .bu-ok{display:block}
+
+.bu-paths{background:#fff;padding:88px 20px;font-family:Inter,system-ui,sans-serif;text-align:center}
+.bu-eye{font-size:12px;font-weight:700;letter-spacing:.11em;text-transform:uppercase;color:#D69A00}
+.bu-paths h2{font-size:clamp(28px,4vw,40px);font-weight:800;letter-spacing:-.02em;color:#1B2A4A;margin:12px 0 0}
+.bu-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;max-width:1120px;margin:44px auto 0;text-align:left;align-items:stretch}
+.bu-path{background:#fff;border:1px solid #E6E9F0;border-radius:18px;padding:30px 28px;box-shadow:0 1px 3px rgba(20,35,65,.06);display:flex;flex-direction:column;position:relative}
+.bu-path.feat{border:2px solid #FFB800;box-shadow:0 24px 64px rgba(20,35,65,.10);transform:translateY(-8px)}
+.bu-path .tag{position:absolute;top:-13px;left:50%;transform:translateX(-50%);background:#FFB800;color:#101A30;font-size:11.5px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;padding:5px 12px;border-radius:999px;white-space:nowrap}
+.bu-path h3{font-size:19px;font-weight:800;color:#1B2A4A;margin:0 0 4px}
+.bu-path .pr{font-size:38px;font-weight:800;color:#1B2A4A;letter-spacing:-.03em;line-height:1.1;margin:10px 0 2px}
+.bu-path .pr small{font-size:14px;font-weight:500;color:#6B7480;letter-spacing:0}
+.bu-path .who{font-size:14px;color:#6B7480;margin-bottom:18px}
+.bu-path ul{list-style:none;display:flex;flex-direction:column;gap:10px;margin:0 0 24px;padding:0;flex:1}
+.bu-path li{font-size:14.5px;line-height:1.45;padding-left:24px;position:relative;color:#3B4658}
+.bu-path li::before{content:"✓";position:absolute;left:0;color:#16A34A;font-weight:800}
+.bu-path li a{color:#1B2A4A;font-weight:700;text-decoration:underline;text-underline-offset:3px}
+.bu-path .bu-btn{height:52px;font-size:16px}
+.bu-path .bu-btn.ghost{background:#fff;color:#1B2A4A!important;border:1.5px solid #E6E9F0;box-shadow:none}
+
+/* alternate navy / white below the course block */
+.lp-quiz-section{background:#fff!important}
+.lp-books.bu-dark{background:radial-gradient(900px 420px at 50% -10%,#2A3D63 0%,#1B2A4A 50%,#101A30 100%)!important}
+.lp-books.bu-dark .lp-section-head h2{color:#fff!important}
+.lp-books.bu-dark .lp-section-head p{color:rgba(255,255,255,.72)!important}
+.lp-books.bu-dark .lp-book-card{border-color:transparent;box-shadow:0 18px 40px rgba(0,0,0,.25)}
+.lp-faq{background:#fff!important}
+@media(max-width:900px){.bu-card{padding:34px 22px 30px}.bu-card h1{font-size:32px}.bu-form .big{font-size:18px}.bu-grid{grid-template-columns:1fr}.bu-path.feat{transform:none}}

@@ -9,11 +9,19 @@ const norm = (s) => String(s || '').toUpperCase().replace(/[^A-Z0-9]/g, '');
 export async function onRequestPost({ request, env }) {
   let body = {};
   try { body = await request.json(); } catch (e) {}
-  const slug = String(body.course || '');
+  let slug = String(body.course || '');
   const key = String(body.key || '').trim();
   const email = String(body.email || '').trim().toLowerCase();
-  if (!COURSES.includes(slug)) return json({ ok: false, error: 'Unknown course' }, 400);
   if (!key) return json({ ok: false, error: 'Enter your access key.' }, 400);
+  // course "auto": a book page with one code box; find the course this book code belongs to.
+  if (slug === 'auto' || (slug.startsWith('auto:'))) {
+    const pool = slug === 'auto' ? COURSES : slug.slice(5).split(',').filter((c) => COURSES.includes(c));
+    let found = '';
+    for (const c of pool) { if (await isBookCode(request, env, c, key)) { found = c; break; } }
+    if (!found) return json({ ok: false, error: 'That code was not recognised. Check it against the last page of your book.' });
+    slug = found;
+  }
+  if (!COURSES.includes(slug)) return json({ ok: false, error: 'Unknown course' }, 400);
   if (!env.VC_SESSION_SECRET) return json({ ok: false, error: 'Course access is not set up yet.' }, 503);
 
   const superCode = norm(env.SUPER_ACCESS_CODE);
@@ -30,7 +38,7 @@ export async function onRequestPost({ request, env }) {
     ok = true;
   }
   const token = await makeToken(env, slug);
-  return json({ ok: true, via }, 200, { 'Set-Cookie': cookieFor(slug, token) });
+  return json({ ok: true, via, course: slug }, 200, { 'Set-Cookie': cookieFor(slug, token) });
 }
 
 export async function onRequestGet({ request, env }) {
