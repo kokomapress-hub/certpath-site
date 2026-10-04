@@ -42,9 +42,9 @@
       min-height: 100dvh;
     }
     .col {
-      flex: 1 0 16rem;
-      min-width: 16rem;
-      padding: clamp(1rem, 2.5vw, 2rem);
+      flex: 1 0 19rem;
+      min-width: 19rem;
+      padding: clamp(1rem, 2.5vw, 2rem) clamp(.75rem, 1.2vw, 1.25rem);
       border-right: 1px solid var(--line);
     }
     .col-new {
@@ -53,6 +53,18 @@
     }
 
     .col-head { margin: 0 0 1rem; display: flex; align-items: center; gap: .4rem; }
+    /* Add sub-task button on each task */
+    .sub-row {
+      flex: none; display: inline-flex; align-items: center; justify-content: center;
+      width: 1.6rem; height: 1.6rem; padding: 0; border: 0; background: none; border-radius: 4px;
+      cursor: pointer; color: var(--ink-soft); opacity: .45;
+    }
+    .sub-row svg { width: 1.05rem; height: 1.05rem; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+    .row:hover .sub-row, .sub-row:focus-visible { opacity: 1; }
+    .sub-row:hover { color: #2E6B3A; background: rgba(0,0,0,.05); }
+    .sub-row:focus-visible { outline: 2px solid var(--ink); outline-offset: 1px; }
+    .row[data-lvl="2"] .sub-row { visibility: hidden; }
+    @media (hover: none) { .sub-row { opacity: .7; } }
     .head-del, .del-row {
       flex: 0 0 auto; border: 0; background: transparent; color: var(--ink-soft);
       cursor: pointer; padding: .25rem; border-radius: 4px; line-height: 0;
@@ -135,7 +147,7 @@
     .link:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; border-radius: 3px; }
 
     .list { list-style: none; margin: 0; padding: 0; }
-    .row { display: flex; align-items: center; gap: .5rem; }
+    .row { display: flex; align-items: center; gap: .3rem; }
     .row[data-lvl="1"] { margin-left: 1.1rem; }
     .row[data-lvl="2"] { margin-left: 2.2rem; }
     .row[data-lvl="1"] .box, .row[data-lvl="2"] .box { transform: scale(.85); }
@@ -762,10 +774,30 @@
         del.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>';
         del.addEventListener('click', function () { removeRow(list, ul, li); });
 
+        // Visible "add sub-task": new line one level in, after this task's existing sub-tasks
+        var sub = h('button', 'sub-row');
+        sub.type = 'button';
+        sub.setAttribute('aria-label', 'Add sub-task');
+        sub.title = 'Add a sub-task under this task';
+        sub.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4v8a3 3 0 0 0 3 3h7"/><path d="M12 11l4 4-4 4"/><path d="M19 4v6M16 7h6"/></svg>';
+        sub.addEventListener('click', function () {
+          if (levelOf(item) >= MAX_LEVEL) return;
+          var kids = kidsOf(li), last = kids.length ? kids[kids.length - 1] : li;
+          var nb = withLevel(blank(), levelOf(item) + 1);
+          var el = makeRow(list, nb, ul);
+          ul.insertBefore(el, last.nextElementSibling);
+          syncOrder(list, ul);
+          save();
+          var f = el.querySelector('.write');
+          f.focus();
+          if (f.scrollIntoView) f.scrollIntoView({ block: 'nearest' });
+        });
+
         li._item = item;
         li.appendChild(box);
         li.appendChild(star);
         li.appendChild(input);
+        li.appendChild(sub);
         li.appendChild(del);
         li.appendChild(grip);
 
