@@ -31,4 +31,4 @@
 /ebook         /exams  301
 
 # Video course player: /learn/<course> is served by learn.html.
-/learn/*   /learn.html   200
+/learn/*   /learn   200
