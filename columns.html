@@ -136,6 +136,9 @@
 
     .list { list-style: none; margin: 0; padding: 0; }
     .row { display: flex; align-items: center; gap: .5rem; }
+    .row[data-lvl="1"] { margin-left: 1.1rem; }
+    .row[data-lvl="2"] { margin-left: 2.2rem; }
+    .row[data-lvl="1"] .box, .row[data-lvl="2"] .box { transform: scale(.85); }
 
     /* Small square you tick off */
     .box {
@@ -448,12 +451,17 @@
       function cleanRows(rows) {
         var out = [];
         (Array.isArray(rows) ? rows : []).forEach(function (r) {
-          if (r && typeof r === 'object') out.push({ t: String(r.t || ''), d: !!r.d, s: !!r.s });
+          if (r && typeof r === 'object') out.push(withLevel({ t: String(r.t || ''), d: !!r.d, s: !!r.s }, r.i));
         });
         while (out.length < START_ROWS) out.push(blank());
         if (out[out.length - 1].t) out.push(blank());
         return out;
       }
+
+      // Sub-task depth: 0 = main task, 1-2 = sub-task levels (stored as `i`, left out when 0)
+      var MAX_LEVEL = 2;
+      function levelOf(r) { return Math.max(0, Math.min(MAX_LEVEL, (r && r.i) | 0)); }
+      function withLevel(r, lvl) { lvl = levelOf({ i: lvl }); if (lvl) r.i = lvl; else delete r.i; return r; }
 
       function load() {
         try {
@@ -631,6 +639,7 @@
 
       function makeRow(list, item, ul) {
         var li = h('li', 'row' + (item.d ? ' done' : '') + (item.s ? ' starred' : ''));
+        li.dataset.lvl = String(levelOf(item));
 
         var box = h('button', 'box');
         box.type = 'button';
@@ -675,14 +684,23 @@
             var nextEl = ul.children[i + 1];
             var nextItem = rows[i + 1];
             if (!nextItem || nextItem.t || nextItem.d || nextItem.s) {
-              var nb = blank();
+              var nb = withLevel(blank(), item.i);
               rows.splice(i + 1, 0, nb);
               var el = makeRow(list, nb, ul);
               ul.insertBefore(el, nextEl || null);
               nextEl = el;
               save();
             }
+            else if (levelOf(nextItem) !== levelOf(item)) {
+              withLevel(nextItem, item.i); nextEl.dataset.lvl = String(levelOf(nextItem)); save();
+            }
             nextEl.querySelector('.write').focus();
+          } else if (e.key === 'Tab') {
+            e.preventDefault();
+            setLevel(list, item, li, levelOf(item) + (e.shiftKey ? -1 : 1));
+          } else if (e.key === 'Backspace' && !input.value && levelOf(item) && input.selectionStart === 0) {
+            e.preventDefault();
+            setLevel(list, item, li, levelOf(item) - 1);
           } else if (e.key === 'Backspace' && !input.value && rows.length > MIN_ROWS && i > 0) {
             e.preventDefault();
             var prev = ul.children[i - 1].querySelector('.write');
@@ -784,6 +802,17 @@
         }
       }
 
+      // Indent or outdent a task. A sub-task can sit at most one level deeper than the row above it.
+      function setLevel(list, item, li, lvl) {
+        var i = list.rows.indexOf(item);
+        var above = i > 0 ? levelOf(list.rows[i - 1]) : -1;
+        lvl = Math.max(0, Math.min(lvl, above + 1, MAX_LEVEL));
+        if (lvl === levelOf(item)) return;
+        withLevel(item, lvl);
+        li.dataset.lvl = String(lvl);
+        save();
+      }
+
       function removeRow(list, ul, li) {
         li.remove();
         syncOrder(list, ul);
@@ -827,9 +856,9 @@
           m.appendChild(b);
           return b;
         }
-        function insert(before) {
+        function insert(before, lvl) {
           closeMenus();
-          var nb = blank();
+          var nb = withLevel(blank(), lvl == null ? li._item.i : lvl);
           var el = makeRow(list, nb, ul);
           ul.insertBefore(el, before ? li : li.nextElementSibling);
           syncOrder(list, ul);
@@ -847,6 +876,12 @@
         });
         btn('+ Insert above', function () { insert(true); });
         btn('+ Insert below', function () { insert(false); });
+        var item = li._item, idx = list.rows.indexOf(item);
+        if (levelOf(item) < MAX_LEVEL) btn('+ Add sub-task', function () { insert(false, levelOf(item) + 1); });
+        if (idx > 0 && levelOf(item) < Math.min(MAX_LEVEL, levelOf(list.rows[idx - 1]) + 1)) {
+          btn('\u2192 Make sub-task', function () { closeMenus(); setLevel(list, item, li, levelOf(item) + 1); });
+        }
+        if (levelOf(item)) btn('\u2190 Make main task', function () { closeMenus(); setLevel(list, item, li, levelOf(item) - 1); });
         btn('Delete', function () { closeMenus(); removeRow(list, ul, li); }, 'danger');
         btn('Close', closeMenus);
         function refresh() {
@@ -1130,7 +1165,7 @@
           var have = {};
           la.rows.forEach(function (r) { if (r.t) have[r.t] = true; });
           var filled = la.rows.filter(function (r) { return r.t || r.d || r.s; });
-          lb.rows.forEach(function (r) { if (r.t && !have[r.t]) { filled.push({ t: r.t, d: !!r.d, s: !!r.s }); have[r.t] = true; } });
+          lb.rows.forEach(function (r) { if (r.t && !have[r.t]) { filled.push(withLevel({ t: r.t, d: !!r.d, s: !!r.s }, r.i)); have[r.t] = true; } });
           la.rows = filled;
         });
         return out;
