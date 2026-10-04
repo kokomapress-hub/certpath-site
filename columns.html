@@ -52,7 +52,17 @@
       padding: clamp(1rem, 2.5vw, 2rem);
     }
 
-    .col-head { margin: 0 0 1rem; }
+    .col-head { margin: 0 0 1rem; display: flex; align-items: center; gap: .4rem; }
+    .head-del, .del-row {
+      flex: 0 0 auto; border: 0; background: transparent; color: var(--ink-soft);
+      cursor: pointer; padding: .25rem; border-radius: 4px; line-height: 0;
+    }
+    .head-del svg, .del-row svg { width: 1rem; height: 1rem; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; }
+    .del-row { opacity: .35; }
+    .row:hover .del-row, .del-row:focus-visible { opacity: 1; }
+    .head-del:hover, .del-row:hover { color: #A33232; }
+    .head-del:focus-visible, .del-row:focus-visible { outline: 2px solid var(--ink); outline-offset: 1px; }
+    @media (hover: none) { .del-row { opacity: .6; } }
     .chip {
       display: inline-block;
       max-width: 100%;
@@ -703,10 +713,18 @@
         grip.title = 'Drag to move \u00b7 tap for options';
         grip.innerHTML = '<svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="5" cy="3" r="1.5"/><circle cx="11" cy="3" r="1.5"/><circle cx="5" cy="8" r="1.5"/><circle cx="11" cy="8" r="1.5"/><circle cx="5" cy="13" r="1.5"/><circle cx="11" cy="13" r="1.5"/></svg>';
 
+        var del = h('button', 'del-row');
+        del.type = 'button';
+        del.setAttribute('aria-label', 'Delete task');
+        del.title = 'Delete this task';
+        del.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>';
+        del.addEventListener('click', function () { removeRow(list, ul, li); });
+
         li._item = item;
         li.appendChild(box);
         li.appendChild(star);
         li.appendChild(input);
+        li.appendChild(del);
         li.appendChild(grip);
 
         // Drag with mouse or finger
@@ -766,6 +784,30 @@
         }
       }
 
+      function removeRow(list, ul, li) {
+        li.remove();
+        syncOrder(list, ul);
+        while (list.rows.length < MIN_ROWS) { var nb = blank(); list.rows.push(nb); ul.appendChild(makeRow(list, nb, ul)); }
+        save();
+      }
+
+      // A button that needs a second tap within 4 s before it acts
+      function armedButton(label, fn) {
+        var b = h('button', 'link danger', label);
+        b.type = 'button';
+        var armed = false;
+        b.addEventListener('click', function () {
+          if (!armed) {
+            armed = true;
+            b.textContent = 'Tap again to confirm';
+            setTimeout(function () { armed = false; b.textContent = label; }, 4000);
+            return;
+          }
+          fn();
+        });
+        return b;
+      }
+
       function closeMenus() {
         Array.prototype.forEach.call(document.querySelectorAll('.row-menu'), function (m) { m.remove(); });
         Array.prototype.forEach.call(document.querySelectorAll('.grip[aria-expanded="true"]'), function (g) { g.setAttribute('aria-expanded', 'false'); });
@@ -805,13 +847,7 @@
         });
         btn('+ Insert above', function () { insert(true); });
         btn('+ Insert below', function () { insert(false); });
-        btn('Delete', function () {
-          closeMenus();
-          li.remove();
-          syncOrder(list, ul);
-          while (list.rows.length < MIN_ROWS) { var nb = blank(); list.rows.push(nb); ul.appendChild(makeRow(list, nb, ul)); }
-          save();
-        }, 'danger');
+        btn('Delete', function () { closeMenus(); removeRow(list, ul, li); }, 'danger');
         btn('Close', closeMenus);
         function refresh() {
           up.disabled = !li.previousElementSibling;
@@ -871,26 +907,28 @@
         done.addEventListener('click', function () { editingId = null; render(); });
         actions.appendChild(done);
 
-        if (state.lists.length > 1) {
-          var del = h('button', 'link danger', 'Delete list');
-          del.type = 'button';
-          var armed = false;
-          del.addEventListener('click', function () {
-            if (!armed) {
-              armed = true;
-              del.textContent = 'Tap again to delete';
-              setTimeout(function () { armed = false; del.textContent = 'Delete list'; }, 4000);
-              return;
-            }
-            var i = state.lists.indexOf(list);
-            state.lists.splice(i, 1);
-            if (state.active === list.id) state.active = state.lists[Math.max(0, i - 1)].id;
-            editingId = null;
-            save();
-            render();
-          });
-          actions.appendChild(del);
+        if (list.rows.some(function (r) { return r.d; })) {
+          actions.appendChild(armedButton('Clear done tasks', function () {
+            list.rows = list.rows.filter(function (r) { return !r.d; });
+            while (list.rows.length < MIN_ROWS) list.rows.push(blank());
+            save(); render();
+          }));
         }
+        if (list.rows.some(function (r) { return r.t || r.d || r.s; })) {
+          actions.appendChild(armedButton('Clear all tasks', function () {
+            list.rows = blankRows(START_ROWS);
+            save(); render();
+          }));
+        }
+        actions.appendChild(armedButton('Delete list', function () {
+          var i = state.lists.indexOf(list);
+          state.lists.splice(i, 1);
+          if (!state.lists.length) state.lists.push({ id: newId(), name: 'New list', color: 0, rows: blankRows(START_ROWS) });
+          if (state.active === list.id) state.active = state.lists[Math.max(0, i - 1)].id;
+          editingId = null;
+          save();
+          render();
+        }));
         p.appendChild(actions);
         return p;
       }
@@ -963,6 +1001,13 @@
           chip.title = 'Rename, recolor or delete this list';
           chip.addEventListener('click', function () { toggleEdit(list.id); });
           head.appendChild(chip);
+          var hd = h('button', 'head-del');
+          hd.type = 'button';
+          hd.setAttribute('aria-label', 'Delete or clear ' + label);
+          hd.title = 'Delete this list or clear its tasks';
+          hd.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M10 11v6M14 11v6M6 7l1 13h10l1-13M9 7V4h6v3"/></svg>';
+          hd.addEventListener('click', function () { toggleEdit(list.id); });
+          head.appendChild(hd);
           col.appendChild(head);
 
           if (editingId === list.id) col.appendChild(makePanel(list));
