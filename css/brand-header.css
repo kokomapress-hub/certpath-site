@@ -1,0 +1,9 @@
+/* One logo, same size and position on every page (matches the home page .cp-logo). */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600;650&display=swap');
+.cpb-bar{width:min(calc(100% - 2 * clamp(1.25rem, 3vw, 3rem)), 80rem)!important;max-width:none!important;margin-inline:auto!important;padding-left:0!important;padding-right:0!important}
+a.cpb-logo{display:inline-flex;align-items:center;gap:.7rem;text-decoration:none;color:#0E1F3F;min-height:2.75rem;flex:none}
+a.cpb-logo svg{flex:none}
+.cpb-logo-word{font-family:Inter,system-ui,-apple-system,"Segoe UI",Arial,sans-serif;font-size:1.3125rem;font-weight:650;letter-spacing:-.04em;line-height:1;color:inherit}
+.cpb-logo-word small{display:block;font-size:.5625rem;font-weight:600;letter-spacing:.24em;text-transform:uppercase;color:#526176;margin-top:.3rem}
+a.cpb-logo.dark{color:#fff}
+a.cpb-logo.dark .cpb-logo-word small{color:#9FB2CC}
