@@ -2468,6 +2468,199 @@
    ]
   },
   {
+   "slug": "tabe-m",
+   "title": "TABE Level M Math — Complete Video Course",
+   "count": 30,
+   "seconds": 9670,
+   "sections": [
+    {
+     "title": "Lessons",
+     "lessons": [
+      {
+       "n": 1,
+       "title": "How the TABE Level M Math Test Works",
+       "key": "vc/tabe-m/001.mp4",
+       "sec": 328
+      },
+      {
+       "n": 2,
+       "title": "Place Value and Rounding Whole Numbers",
+       "key": "vc/tabe-m/002.mp4",
+       "sec": 268
+      },
+      {
+       "n": 3,
+       "title": "Adding, Subtracting and Multiplying Multi-Digit Numbers",
+       "key": "vc/tabe-m/003.mp4",
+       "sec": 388
+      },
+      {
+       "n": 4,
+       "title": "Dividing, Remainders and Estimation",
+       "key": "vc/tabe-m/004.mp4",
+       "sec": 303
+      },
+      {
+       "n": 5,
+       "title": "Decimal Place Value, Rounding and Comparing",
+       "key": "vc/tabe-m/005.mp4",
+       "sec": 339
+      },
+      {
+       "n": 6,
+       "title": "Adding, Subtracting, Multiplying and Dividing Decimals",
+       "key": "vc/tabe-m/006.mp4",
+       "sec": 268
+      },
+      {
+       "n": 7,
+       "title": "Multiplicative Comparison and Multistep Word Problems",
+       "key": "vc/tabe-m/007.mp4",
+       "sec": 369
+      },
+      {
+       "n": 8,
+       "title": "Factors, Multiples, Primes and Patterns",
+       "key": "vc/tabe-m/008.mp4",
+       "sec": 306
+      },
+      {
+       "n": 9,
+       "title": "What a Fraction Means and Equivalent Fractions",
+       "key": "vc/tabe-m/009.mp4",
+       "sec": 327
+      },
+      {
+       "n": 10,
+       "title": "Comparing Fractions and Mixed Numbers",
+       "key": "vc/tabe-m/010.mp4",
+       "sec": 317
+      },
+      {
+       "n": 11,
+       "title": "Adding and Subtracting Fractions with Unlike Denominators",
+       "key": "vc/tabe-m/011.mp4",
+       "sec": 328
+      },
+      {
+       "n": 12,
+       "title": "A Fraction Is a Division",
+       "key": "vc/tabe-m/012.mp4",
+       "sec": 307
+      },
+      {
+       "n": 13,
+       "title": "Multiplying Fractions",
+       "key": "vc/tabe-m/013.mp4",
+       "sec": 305
+      },
+      {
+       "n": 14,
+       "title": "Multiplication as Scaling and Mixed-Number Problems",
+       "key": "vc/tabe-m/014.mp4",
+       "sec": 254
+      },
+      {
+       "n": 15,
+       "title": "Dividing with Unit Fractions",
+       "key": "vc/tabe-m/015.mp4",
+       "sec": 270
+      },
+      {
+       "n": 16,
+       "title": "Measurement Conversions",
+       "key": "vc/tabe-m/016.mp4",
+       "sec": 357
+      },
+      {
+       "n": 17,
+       "title": "Line Plots with Fractions",
+       "key": "vc/tabe-m/017.mp4",
+       "sec": 344
+      },
+      {
+       "n": 18,
+       "title": "Volume of Rectangular Prisms",
+       "key": "vc/tabe-m/018.mp4",
+       "sec": 275
+      },
+      {
+       "n": 19,
+       "title": "Measuring Angles",
+       "key": "vc/tabe-m/019.mp4",
+       "sec": 337
+      },
+      {
+       "n": 20,
+       "title": "Lines, Parallel and Perpendicular, and Classifying Shapes",
+       "key": "vc/tabe-m/020.mp4",
+       "sec": 265
+      },
+      {
+       "n": 21,
+       "title": "The Coordinate Plane",
+       "key": "vc/tabe-m/021.mp4",
+       "sec": 322
+      },
+      {
+       "n": 22,
+       "title": "Nets of Solid Figures",
+       "key": "vc/tabe-m/022.mp4",
+       "sec": 332
+      },
+      {
+       "n": 23,
+       "title": "Writing and Evaluating Expressions",
+       "key": "vc/tabe-m/023.mp4",
+       "sec": 423
+      },
+      {
+       "n": 24,
+       "title": "Writing Equivalent Expressions",
+       "key": "vc/tabe-m/024.mp4",
+       "sec": 452
+      },
+      {
+       "n": 25,
+       "title": "One-Step Equations, Inequalities and Variables",
+       "key": "vc/tabe-m/025.mp4",
+       "sec": 264
+      },
+      {
+       "n": 26,
+       "title": "Dividing Fractions by Fractions",
+       "key": "vc/tabe-m/026.mp4",
+       "sec": 407
+      },
+      {
+       "n": 27,
+       "title": "Long Division, GCF and LCM",
+       "key": "vc/tabe-m/027.mp4",
+       "sec": 327
+      },
+      {
+       "n": 28,
+       "title": "Unit Rates",
+       "key": "vc/tabe-m/028.mp4",
+       "sec": 295
+      },
+      {
+       "n": 29,
+       "title": "Statistical Questions and Data Displays",
+       "key": "vc/tabe-m/029.mp4",
+       "sec": 297
+      },
+      {
+       "n": 30,
+       "title": "Mixed Word Problems and Test Strategy",
+       "key": "vc/tabe-m/030.mp4",
+       "sec": 296
+      }
+     ]
+    }
+   ]
+  },
+  {
    "slug": "tabe-e",
    "title": "TABE Level E Math — Complete Video Course",
    "count": 27,
