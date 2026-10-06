@@ -22,7 +22,7 @@ window.CP_EXAMS = [
   { key: 'ged', short: 'GED Math', name: 'GED Mathematical Reasoning', field: 'Adult education', page: '/ged', books: ['ged-math', 'ged-math-workbook', 'ged-math-tests'], sheet: 'ged-math', photo: '/img/photo/step-review.webp' },
   { key: 'tabe-a', short: 'TABE A', name: 'TABE 11 & 12 Math · Level A', field: 'Adult education', page: '/tabe', books: ['tabe-a'], course: 'tabe-a', photo: '/img/photo/step-study.webp', pack: 'https://payhip.com/b/pw4Rs' },
   { key: 'tabe-d', short: 'TABE D', name: 'TABE 11 & 12 Math · Level D', field: 'Adult education', page: '/tabe', books: ['tabe-d'], course: 'tabe-d', photo: '/img/photo/step-study.webp', pack: 'https://payhip.com/b/Mavlg' },
-  { key: 'tabe-m', short: 'TABE M', name: 'TABE 11 & 12 Math · Level M', field: 'Adult education', page: '/tabe', books: ['tabe-m'], photo: '/img/photo/step-study.webp' },
+  { key: 'tabe-m', short: 'TABE M', name: 'TABE 11 & 12 Math · Level M', field: 'Adult education', page: '/tabe', books: ['tabe-m'], course: 'tabe-m', photo: '/img/photo/step-study.webp', pack: 'https://payhip.com/b/YTJqK' },
   { key: 'tabe-e', short: 'TABE E', name: 'TABE 11 & 12 Math · Level E', field: 'Adult education', page: '/tabe', books: ['tabe-e'], course: 'tabe-e', photo: '/img/photo/step-study.webp', pack: 'https://payhip.com/b/vxU07' },
   { key: 'asvab', short: 'ASVAB Math', name: 'ASVAB Arithmetic Reasoning & Math Knowledge', field: 'Military', page: '/books/asvab-math', books: ['asvab-math'], photo: '/img/photo/step-practice.webp' }
 ];
