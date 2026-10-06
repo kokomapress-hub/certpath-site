@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <link rel="canonical" href="https://certpathpublishing.store/blog/">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Blog — CertPath Publishing</title>
-  <meta name="description" content="Exam prep tips, study strategies, and industry insights for trades, safety, and certification professionals.">
+  <title>Exam Prep Articles — CertPath Publishing</title>
+  <meta name="description" content="Free exam prep articles from CertPath: practice questions explained, exam difficulty, formats and which certification to choose, for PMP, CAPM, CCRN, CAST, SAT and more.">
   <link rel="icon" type="image/png" href="/img/logo-mark.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -13,7 +13,7 @@
   <!-- premium-shell -->
   <script>document.documentElement.classList.add('cp-js');setTimeout(function(){if(!window.__cpReady)document.documentElement.classList.remove('cp-js')},2500);</script>
   <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;1,8..60,400&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/css/premium.css?v=11">
+  <link rel="stylesheet" href="/css/premium.css?v=24">
   <link rel="stylesheet" href="/css/premium-bridge.css?v=1">
 </head>
 <body class="cp">
@@ -27,9 +27,8 @@
       </a>
       <nav class="cp-nav" aria-label="Primary">
         <a href="/exams" data-mega-trigger>Explore exams</a>
-        <a href="/exams?practice=free">Free practice</a>
-        <a href="/#approach">How it works</a>
-        <a href="/blog/">Resources</a>
+        <a href="/free-practice">Free practice</a>
+        <a href="/blog/">Articles</a>
         <a href="/access" class="cp-nav-access">Access my tests</a>
       </nav>
       <button type="button" class="cp-menu-btn" aria-expanded="false" aria-label="Open menu">
@@ -39,7 +38,7 @@
     <div class="cp-mega" id="cp-mega">
       <div class="cp-container">
         <div class="cp-mega-inner"><p><a href="/exams">Browse the full exam directory →</a></p></div>
-        <div class="cp-mega-foot"><span>Only exams with published CertPath titles are listed.</span><a class="cp-textlink" href="/exams">Search the full directory <span class="cp-arrow" aria-hidden="true">→</span></a></div>
+        <div class="cp-mega-foot"><span>Only exams with published CertPath titles are listed.</span><a class="cp-textlink" href="/complete-prep">Search the full directory <span class="cp-arrow" aria-hidden="true">→</span></a></div>
       </div>
     </div>
   </header>
@@ -47,19 +46,21 @@
   <div class="cp-drawer" role="dialog" aria-modal="true" aria-label="Menu">
     <div class="cp-drawer-top"><span class="cp-logo-word">CertPath</span><button type="button" class="cp-drawer-close" aria-label="Close menu">✕</button></div>
     <a href="/exams">Explore exams <span aria-hidden="true">→</span></a>
-    <a href="/exams?practice=free">Free practice <span aria-hidden="true">→</span></a>
-    <a href="/#approach">How it works <span aria-hidden="true">→</span></a>
-    <a href="/blog/">Resources <span aria-hidden="true">→</span></a>
+    <a href="/free-practice">Free practice <span aria-hidden="true">→</span></a>
+    <a href="/blog/">Articles <span aria-hidden="true">→</span></a>
     <a href="/access" class="cp-btn cp-btn-primary">Access my tests</a>
   </div>
 
-  <main class="container" style="padding: 3rem 2rem 5rem; max-width: 900px;">
-    <div class="section-header">
-      <div class="section-eyebrow">The CertPath Blog</div>
-      <h2>Exam Prep Tips, Strategies, and Insights</h2>
-      <p>Fresh study advice, industry news, and exam strategies — updated daily.</p>
-    </div>
-
+  <main id="content" class="ar">
+    <section class="ar-hero">
+      <div class="cp-container">
+        <span class="ar-eyebrow">CertPath articles</span>
+        <h1>Study smarter for your exam</h1>
+        <p>Practice questions worked step by step, what each exam really tests, and how to choose the right certification. Written by the CertPath team, free to read.</p>
+        <div class="ar-chips" id="arChips" role="toolbar" aria-label="Filter articles by field"></div>
+      </div>
+    </section>
+    <section class="cp-container ar-body">
     <div id="blogList" class="blog-list">
       <!-- POSTS:START — static list for search engines and no-JS readers; newest first. The script below re-renders it from posts.json. -->
       <ul>
@@ -84,6 +85,7 @@
       </ul>
       <!-- POSTS:END -->
     </div>
+    </section>
   </main>
 
   <footer class="cp-footer">
@@ -108,8 +110,8 @@
       <div>
         <h2>Resources</h2>
         <ul>
-          <li><a href="/exams?practice=free">Free practice</a></li>
-          <li><a href="/blog/">Blog</a></li>
+          <li><a href="/free-practice">Free practice</a></li>
+          <li><a href="/blog/">Articles</a></li>
           <li><a href="/#videos">Video lessons</a></li>
           <li><a href="https://www.youtube.com/@certpathpublishing" target="_blank" rel="noopener">YouTube channel ↗</a></li>
           <li><a href="https://www.amazon.com/CertPath-Publishing/e/B0GWVSPBJT" target="_blank" rel="noopener">Amazon author page ↗</a></li>
@@ -118,8 +120,6 @@
       <div>
         <h2>Company</h2>
         <ul>
-          <li><a href="/#approach">How it works</a></li>
-          <li><a href="/#proof">How the books are made</a></li>
           <li><a href="mailto:support@certpathpublishing.store">Contact</a></li>
         </ul>
       </div>
@@ -140,24 +140,71 @@
   </footer>
 
   <script>
-    fetch('/blog/posts.json')
-      .then(r => r.json())
-      .then(posts => {
-        const list = document.getElementById('blogList');
-        if (!posts.length) { list.innerHTML = '<p>No posts yet. Check back soon.</p>'; return; }
-        list.innerHTML = posts.map(p => `
-          <article class="blog-item">
-            <div class="blog-date">${new Date(p.date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</div>
-            <h3><a href="/blog/${p.slug}">${p.title}</a></h3>
-            <p>${p.excerpt}</p>
-            <a href="/blog/${p.slug}" class="blog-read">Read more →</a>
-          </article>
-        `).join('');
-      })
-      .catch(() => {
-        document.getElementById('blogList').innerHTML = '<p>No posts yet. Check back soon.</p>';
-      });
+  (function () {
+    // Field and exam tag for each article, taken from its slug.
+    var EXAMS = [
+      ['pmi-acp','PMI-ACP','pm'],['capm','CAPM','pm'],['pmp','PMP','pm'],['cap-','CAP','pm'],
+      ['ccrn','CCRN','nursing'],['cnor','CNOR','nursing'],['cmsrn','CMSRN','nursing'],
+      ['csp','CSP','safety'],['chst','CHST','safety'],
+      ['cast','CAST','trades'],['poss','POSS','trades'],['electrician','Electrician','trades'],['mechanical','Mechanical aptitude','trades'],
+      ['psat','PSAT','academic'],['sat','SAT','academic'],['-act-','ACT','academic'],['-ged-','GED','academic'],['tabe','TABE','academic'],
+      ['asvab','ASVAB','military']];
+    var FIELDS = [['all','All articles'],['pm','Project management'],['nursing','Nursing'],['safety','Safety'],['trades','Trades'],['academic','College & adult ed'],['military','Military']];
+    function tag(slug) { for (var i = 0; i < EXAMS.length; i++) if (slug.indexOf(EXAMS[i][0]) !== -1) return EXAMS[i]; return null; }
+    function esc(t) { return String(t).replace(/[<>&"]/g, function (c) { return {'<':'&lt;','>':'&gt;','&':'&amp;','"':'&quot;'}[c]; }); }
+    var list = document.getElementById('blogList'), chips = document.getElementById('arChips'), all = [];
+    function render(field) {
+      var posts = all.filter(function (p) { return field === 'all' || p.t[2] === field; });
+      list.innerHTML = '<div class="ar-grid">' + posts.map(function (p, i) {
+        var d = new Date(p.date + 'T12:00:00').toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+        return '<a class="ar-card' + (i === 0 && field === 'all' ? ' is-lead' : '') + '" href="/blog/' + esc(p.slug) + '">' +
+          '<span class="ar-meta"><b class="ar-tag f-' + p.t[2] + '">' + esc(p.t[1]) + '</b><time datetime="' + esc(p.date) + '">' + d + '</time></span>' +
+          '<h2>' + esc(p.title) + '</h2><p>' + esc(p.excerpt) + '</p><span class="ar-read">Read the article <i aria-hidden="true">→</i></span></a>';
+      }).join('') + '</div>';
+      [].forEach.call(chips.children, function (c) { c.setAttribute('aria-pressed', c.dataset.f === field); });
+    }
+    fetch('/blog/posts.json').then(function (r) { return r.json(); }).then(function (posts) {
+      // Only real exam articles: the old welcome note has no exam and is left out.
+      all = posts.map(function (p) { p.t = tag(p.slug); return p; }).filter(function (p) { return p.t; });
+      var used = {}; all.forEach(function (p) { used[p.t[2]] = 1; });
+      chips.innerHTML = FIELDS.filter(function (f) { return f[0] === 'all' || used[f[0]]; }).map(function (f) {
+        return '<button type="button" data-f="' + f[0] + '">' + f[1] + '</button>'; }).join('');
+      chips.onclick = function (e) { var b = e.target.closest('button'); if (b) render(b.dataset.f); };
+      render('all');
+    }).catch(function () {});
+  })();
   </script>
-  <script src="/js/premium.js?v=13" defer></script>
+  <style>
+    .ar{background:#fff}
+    .ar-hero{background:#f3eee3;padding:4.5rem 0 2.5rem;border-bottom:1px solid #e7dfcd}
+    .ar-eyebrow{display:inline-block;font-size:.74rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#a87a12}
+    .ar-hero h1{font-family:"Source Serif 4",Georgia,serif;font-weight:500;font-size:clamp(2.1rem,4.4vw,3.3rem);color:#0e1f3f;letter-spacing:-.02em;margin:.5rem 0 .8rem;line-height:1.1}
+    .ar-hero p{max-width:640px;color:#475569;font-size:1.08rem;line-height:1.6}
+    .ar-chips{display:flex;flex-wrap:wrap;gap:.5rem;margin-top:1.8rem}
+    .ar-chips button{font:600 .88rem Inter,system-ui,sans-serif;padding:.55rem 1rem;border-radius:999px;border:1px solid #d9cfb8;background:#fff;color:#0e1f3f;cursor:pointer;transition:all .2s}
+    .ar-chips button:hover{border-color:#0e1f3f}
+    .ar-chips button[aria-pressed="true"]{background:#0e1f3f;border-color:#0e1f3f;color:#fff}
+    .ar-body{padding:3rem 0 5rem}
+    .ar-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.25rem}
+    .ar-card{display:flex;flex-direction:column;gap:.7rem;padding:1.5rem 1.5rem 1.35rem;border:1px solid #e6e1d6;border-radius:16px;background:#fff;text-decoration:none;color:inherit;transition:transform .2s,box-shadow .2s,border-color .2s}
+    .ar-card:hover{transform:translateY(-3px);box-shadow:0 18px 40px rgba(14,31,63,.1);border-color:#d4c49a}
+    .ar-card.is-lead{grid-column:1/-1;background:linear-gradient(135deg,#0e1f3f,#1d3566);border:0;color:#fff;padding:2.3rem 2.4rem}
+    .ar-card.is-lead h2{font-size:clamp(1.5rem,2.6vw,2.05rem);color:#fff;max-width:780px}
+    .ar-card.is-lead p{color:rgba(255,255,255,.75);max-width:720px;font-size:1.02rem}
+    .ar-card.is-lead time{color:rgba(255,255,255,.65)}
+    .ar-card.is-lead .ar-read{color:#ffb800}
+    .ar-meta{display:flex;align-items:center;gap:.75rem;font-size:.8rem;color:#64748b}
+    .ar-tag{font-size:.72rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:.28rem .6rem;border-radius:6px;background:#eef2f9;color:#1d3566}
+    .ar-tag.f-nursing{background:#fdecef;color:#9f1239}.ar-tag.f-safety{background:#fff4e0;color:#9a5b00}
+    .ar-tag.f-trades{background:#e9f6ef;color:#166534}.ar-tag.f-academic{background:#f0ecfb;color:#5b21b6}.ar-tag.f-military{background:#eef1e6;color:#4d5b1f}
+    .ar-card h2{font-family:"Source Serif 4",Georgia,serif;font-weight:500;font-size:1.28rem;line-height:1.3;color:#0e1f3f;letter-spacing:-.01em;margin:0}
+    .ar-card p{color:#526176;font-size:.93rem;line-height:1.55;margin:0;flex:1}
+    .ar-read{font-weight:700;font-size:.88rem;color:#0e1f3f}
+    .ar-read i{display:inline-block;font-style:normal;transition:transform .2s}
+    .ar-card:hover .ar-read i{transform:translateX(4px)}
+    @media(max-width:960px){.ar-grid{grid-template-columns:1fr 1fr}}
+    @media(max-width:620px){.ar-grid{grid-template-columns:1fr}.ar-hero{padding:3rem 0 2rem}.ar-card.is-lead{padding:1.6rem}}
+  </style>
+  <script src="/js/premium.js?v=21" defer></script>
 </body>
 </html>

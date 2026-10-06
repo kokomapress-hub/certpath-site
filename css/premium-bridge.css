@@ -28,3 +28,7 @@ body.cp .cp-access-panel .btn { text-transform: none; letter-spacing: 0; display
 body.cp .cp-access-panel .hint span { white-space: nowrap; }
 body.cp #testList .section-header { text-align: left; }
 body.cp #testList .btn { color: #0E1F3F; }
+
+/* Landing pages: neighbouring sections alternate white / paper so no two in a row share a colour */
+body.cp > .lp-hero ~ section:nth-of-type(even) { background: #fff; }
+body.cp > .lp-hero ~ section:nth-of-type(odd) { background: #F5F3EE; }

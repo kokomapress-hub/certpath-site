@@ -143,6 +143,7 @@
     }
   }
 
+  var PACK_EXAMS = ['pmp', 'sat', 'tabe']; // data/exams.json ids with a $19.99 Complete Prep pack (see js/exams.js pack)
   function buildMega(mega) {
     var inner = $('.cp-mega-inner', mega);
     loadCatalog().then(function (c) {
@@ -151,6 +152,8 @@
           .sort(function (a, b) { return a.acronym.localeCompare(b.acronym); });
         if (!list.length) return '';
         return '<div><h3>' + esc(cat.label) + '</h3><ul>' + list.map(function (e) {
+          // Only exams with a Complete Prep pack open their page; the rest are marked Coming soon.
+          if (PACK_EXAMS.indexOf(e.id) < 0) return '<li><span class="cp-mega-off" aria-disabled="true">' + esc(e.acronym) + ' <em>Coming soon</em><span>' + esc(e.name) + '</span></span></li>';
           var href = e.route || '/exams?q=' + encodeURIComponent(e.acronym);
           return '<li><a href="' + esc(href) + '">' + esc(e.acronym) + '<span>' + esc(e.name) + '</span></a></li>';
         }).join('') + '</ul></div>';
@@ -754,4 +757,70 @@
 
   [initAccount, initSplit, initTilt, initCount, initStory, initPathline, initCoverTransition, initReviews, initVideos, initHeader, initReveal, initSteps, initHeroTabs, initHeroDepth, initFinder, initShelf, initQuiz, initLightbox]
     .forEach(function (fn) { try { fn(); } catch (e) { doc.documentElement.classList.remove('cp-js'); if (window.console) console.error('[premium] ' + (fn.name || 'init') + ' failed', e); } });
+})();
+
+/* Book access code: one router for the nav field and the home hero box.
+   Every matched book opens its exam's study hub (/study/<exam>), which redeems the code. */
+(function(){
+  function norm(c){return String(c||'').toUpperCase().replace(/[^A-Z0-9]/g,'')}
+  async function sha(t){var b=await crypto.subtle.digest('SHA-256',new TextEncoder().encode(t));return [].map.call(new Uint8Array(b),function(x){return x.toString(16).padStart(2,'0')}).join('')}
+  window.cpRouteCode=async function(code,email){
+    var data=await (await fetch('/data/books.json',{cache:'no-cache'})).json(),h=await sha(norm(code));
+    var hit=data.books.filter(function(b){return [b.codeHash].concat(b.codeHashes||[]).indexOf(h)>-1});
+    if(!hit.length&&h!==data.adminCodeHash) return false;
+    if(!email){try{email=localStorage.getItem('certpath_email')||''}catch(x){}}
+    try{if(email)localStorage.setItem('certpath_email',email);sessionStorage.setItem('certpath_pending_code',code.trim().toUpperCase());}catch(x){}
+    if(hit.length&&!window.CP_EXAM_FOR_BOOK)await new Promise(function(ok){var s=document.createElement('script');s.src='/js/exams.js?v=1';s.onload=s.onerror=ok;document.head.appendChild(s)});
+    var exam=null;hit.forEach(function(b){if(!exam&&window.CP_EXAM_FOR_BOOK)exam=window.CP_EXAM_FOR_BOOK(b.slug)});
+    if(exam){try{sessionStorage.setItem('certpath_home_handoff',JSON.stringify({code:code.trim(),email:email}))}catch(x){}location.href='/study/'+exam.key;}
+    else location.href='/access';
+    return true;
+  };
+  function navField(){
+    var nav=document.querySelector('.cp-header .cp-nav');if(!nav||nav.querySelector('.cp-navcode'))return;
+    var f=document.createElement('form');f.className='cp-navcode';f.setAttribute('autocomplete','off');
+    f.innerHTML='<svg class="cp-navcode-key" viewBox="0 0 24 24" aria-hidden="true"><circle cx="8" cy="15" r="4"/><path d="M11 12l8-8M16 7l3 3M14 9l2 2"/></svg><input type="text" aria-label="Book access code" placeholder="Book access code" autocapitalize="characters" spellcheck="false" required><button type="submit" aria-label="Unlock"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>';
+    var acc=nav.querySelector('.cp-nav-access');
+    // One control, not two: owners (something already unlocked here) get "My study hub",
+    // everyone else gets the code box.
+    var owns=false;try{var u=JSON.parse(localStorage.getItem('certpath_unlocked')||'null')||{};owns=!!u.isAdmin||(u.slugs||[]).length>0;}catch(x){}
+    if(owns){if(acc){acc.textContent='My study hub';acc.setAttribute('href','/study');}return;}
+    if(acc)acc.remove();
+    nav.appendChild(f);
+    f.addEventListener('submit',async function(e){e.preventDefault();var i=f.querySelector('input');f.classList.remove('bad');
+      try{if(!(await window.cpRouteCode(i.value,''))){f.classList.add('bad');i.value='';i.placeholder='Code not recognised';}}catch(x){}});
+  }
+  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',navField);else navField();
+})();
+
+// ---------- Home: floating "book code" button (replaces the old owner strip) ----------
+(function(){
+  function init(){
+    var box=document.querySelector('[data-codefloat]');if(!box)return;
+    var has=false;try{var u=JSON.parse(localStorage.getItem('certpath_unlocked')||'null')||{};has=!!u.isAdmin||(u.slugs||[]).length>0;}catch(e){}
+    try{if(sessionStorage.getItem('cp_codefloat_off'))return;}catch(e){}
+    if(has)return;
+    box.innerHTML=
+      '<button type="button" class="cp-cf-fab" aria-expanded="false" aria-controls="cpCfPanel">'+
+        '<span class="cp-cf-ico" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M5 6.5c3.5-1.4 7-1.4 10 .8v18.4c-3-2.2-6.5-2.2-10-.8z"/><path d="M27 6.5c-3.5-1.4-7-1.4-10 .8v18.4c3-2.2 6.5-2.2 10-.8z"/><circle class="k" cx="21.5" cy="21.5" r="3.2"/><path class="k" d="M23.8 23.8l4 4M26.3 26.3l-1.5 1.5"/></svg></span>'+
+        '<span class="cp-cf-txt"><b>Have a CertPath book?</b><span>Enter your access code</span></span></button>'+
+      '<form class="cp-cf-panel" id="cpCfPanel" hidden autocomplete="off">'+
+        '<button type="button" class="cp-cf-x" aria-label="Close">×</button>'+
+        '<p class="cp-cf-h">Unlock your practice tests</p>'+
+        '<p class="cp-cf-s">The code is printed on the last page of your book.</p>'+
+        '<label class="cp-cf-in"><input type="text" placeholder="e.g. CAPM-XXXXX-XXXXX" aria-label="Book access code" autocapitalize="characters" spellcheck="false" required><button type="submit" aria-label="Unlock">→</button></label>'+
+        '<p class="cp-cf-err" hidden>Code not recognised. Check the last page of your book.</p>'+
+        '<a class="cp-cf-alt" href="/access">Bought the video pack? Use your Payhip key</a></form>';
+    box.hidden=false;
+    var fab=box.querySelector('.cp-cf-fab'),pan=box.querySelector('.cp-cf-panel'),inp=pan.querySelector('input'),err=pan.querySelector('.cp-cf-err');
+    var open=function(o){pan.hidden=!o;fab.hidden=o;fab.setAttribute('aria-expanded',o);if(o)setTimeout(function(){inp.focus()},30);};
+    fab.addEventListener('click',function(){open(true)});
+    pan.querySelector('.cp-cf-x').addEventListener('click',function(){open(false)});
+    document.addEventListener('keydown',function(e){if(e.key==='Escape'&&!pan.hidden)open(false)});
+    pan.addEventListener('submit',async function(e){e.preventDefault();err.hidden=true;
+      try{if(!(window.cpRouteCode&&await window.cpRouteCode(inp.value,''))){err.hidden=false;inp.select();}}catch(x){err.hidden=false;}});
+    var show=function(){box.classList.toggle('is-up',window.scrollY>window.innerHeight*.6)};
+    window.addEventListener('scroll',show,{passive:true});show();
+  }
+  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init);else init();
 })();

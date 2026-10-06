@@ -31,4 +31,9 @@
 /ebook         /exams  301
 
 # Video course player: /learn/<course> is served by learn.html.
+# The old CAPM course page now lives in the protected player.
+/capm-course   /learn/capm   301
 /learn/*   /learn   200
+
+# Study hub: /study/<exam> is served by study.html.
+/study/*   /study   200

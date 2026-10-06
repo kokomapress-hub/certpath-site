@@ -15,7 +15,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/css/style.css?v=12">
-  <link rel="stylesheet" href="/css/landing.css?v=2">
+  <link rel="stylesheet" href="/css/landing.css?v=4">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Which PMP exam are these tests for?","acceptedAnswer":{"@type":"Answer","text":"They are built to the NEW July 2026 PMP Examination Content Outline (People 33% / Process 41% / Business Environment 26%) and the PMBOK Guide, Eighth Edition — covering predictive, agile and hybrid ways of working."}},{"@type":"Question","name":"How many questions and tests are included?","acceptedAnswer":{"@type":"Answer","text":"Four full-length practice exams of 180 questions each — 720 questions total — each mirroring the real 180-question, 240-minute format, with detailed answer explanations."}},{"@type":"Question","name":"Why can't I open Test 2 right away?","acceptedAnswer":{"@type":"Answer","text":"The tests unlock in order. Finish Practice Test 1 and Test 2 opens; finish Test 2 and Test 3 opens, and so on. This builds your stamina and pacing the same way the real exam journey does."}},{"@type":"Question","name":"Do the tests include the new 2026 question formats?","acceptedAnswer":{"@type":"Answer","text":"Yes. Alongside single-answer items, the exams include select-two (multiple-response) questions, graphic/exhibit questions (EVM charts, network diagrams, burndown/burnup, control charts, dashboards) and linked case-sets — the more interactive, scenario-based style of the 2026 exam."}},{"@type":"Question","name":"How do I get access?","acceptedAnswer":{"@type":"Answer","text":"Enter the access code printed on the last page of your CertPath PMP book at certpathpublishing.store/access. Your tests are timed, auto-scored, and work on any device."}}]}</script>
   <style>
     .pmp-hero-panel{background:linear-gradient(135deg,#1B2A4A,#26406e);color:#fff;border-radius:16px;padding:2rem 1.75rem;box-shadow:0 18px 40px rgba(27,42,74,.28)}
@@ -77,18 +77,43 @@
     @media(max-width:640px){.pmp-steps{grid-template-columns:repeat(2,1fr)}.pmp-hero-panel .big{font-size:2.1rem}.pmp-outcomes ul{columns:1}.pmp-book-cta{flex-direction:column;text-align:center}.pmp-book-buy{justify-content:center}}
   </style>
 <link rel="stylesheet" href="/css/brand-header.css?v=1">
+<link rel="stylesheet" href="/css/premium.css?v=24">
+<style>.cp-shell{display:contents}.cp-shell .cp-header,.cp-shell .cp-drawer{font-family:var(--cp-sans);-webkit-font-smoothing:antialiased}</style>
+<style>#sample,#how,#tests,.lp-faq{background:#F5F3EE}#sample+.lp-books,#book{background:#fff}</style>
 </head>
 <body>
-  <header class="site-header">
-    <div class="header-inner cpb-bar">
-      <a href="/" class="cpb-logo" aria-label="CertPath Publishing — home"><svg viewBox="0 0 40 46" width="30" height="35" aria-hidden="true"><path fill="#0E1F3F" d="M3 2h22l13 13v18L20.5 44 3 33z"/><path fill="#fff" d="M7.5 6.5H23V17h10.5v13.6L20.5 38.8 7.5 30.6z"/><path fill="#0E1F3F" d="M12.5 20.5h16v3h-16zM12.5 26.5h15v3h-15z"/></svg><span class="cpb-logo-word">CertPath<small>Publishing</small></span></a>
-      <nav class="nav">
-        <a href="/">Home</a>
-        <a href="/exams">Study Guides</a>
-        <a href="/access" class="btn-nav">Access Tests</a>
+  <div class="cp cp-shell">
+<header class="cp-header">
+    <div class="cp-container cp-header-inner">
+      <a href="/" class="cp-logo" aria-label="CertPath Publishing — home">
+        <svg viewBox="0 0 40 46" width="30" height="35" aria-hidden="true"><path fill="#0E1F3F" d="M3 2h22l13 13v18L20.5 44 3 33z"/><path fill="#fff" d="M7.5 6.5H23V17h10.5v13.6L20.5 38.8 7.5 30.6z"/><path fill="#0E1F3F" d="M12.5 20.5h16v3h-16zM12.5 26.5h15v3h-15z"/></svg>
+        <span class="cp-logo-word">CertPath<small>Publishing</small></span>
+      </a>
+      <nav class="cp-nav" aria-label="Primary">
+        <a href="/exams" data-mega-trigger>Explore exams</a>
+        <a href="/free-practice">Free practice</a>
+        <a href="/blog/">Articles</a>
+        <a href="/access" class="cp-nav-access">Access my tests</a>
       </nav>
+      <button type="button" class="cp-menu-btn" aria-expanded="false" aria-label="Open menu">
+        <svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><path d="M2 5h16M2 10h16M2 15h16" stroke="currentColor" stroke-width="1.75" fill="none"/></svg>
+      </button>
+    </div>
+    <div class="cp-mega" id="cp-mega">
+      <div class="cp-container">
+        <div class="cp-mega-inner"><p><a href="/exams">Browse the full exam directory →</a></p></div>
+        <div class="cp-mega-foot"><span>Only exams with published CertPath titles are listed.</span><a class="cp-textlink" href="/complete-prep">Search the full directory <span class="cp-arrow" aria-hidden="true">→</span></a></div>
+      </div>
     </div>
   </header>
+<div class="cp-drawer" role="dialog" aria-modal="true" aria-label="Menu">
+    <div class="cp-drawer-top"><span class="cp-logo-word">CertPath</span><button type="button" class="cp-drawer-close" aria-label="Close menu">✕</button></div>
+    <a href="/exams">Explore exams <span aria-hidden="true">→</span></a>
+    <a href="/free-practice">Free practice <span aria-hidden="true">→</span></a>
+    <a href="/blog/">Articles <span aria-hidden="true">→</span></a>
+    <a href="/access" class="cp-btn cp-btn-primary">Access my tests</a>
+  </div>
+</div>
 
   <!-- HERO -->
   <section class="lp-hero">
@@ -198,7 +223,7 @@
   </section>
 
   <!-- GET THE BOOK -->
-  <section class="lp-books" id="book" style="background:#f6f8fb;">
+  <section class="lp-books" id="book">
     <div class="lp-books-inner">
       <div class="lp-section-head">
         <div class="eyebrow">The Book</div>
@@ -235,13 +260,58 @@
     </div>
   </section>
 
-  <footer class="footer">
-    <div class="footer-bottom" style="border: none; padding: 2rem; text-align: center;">
-      <p>&copy; 2026 CertPath Publishing. All rights reserved.</p>
-      <p style="margin-top: 0.5rem; font-size: 0.85rem;"><a href="mailto:support@certpathpublishing.store">support@certpathpublishing.store</a> · <a href="/exams">All exams</a> · <a href="/privacy">Privacy</a> · <a href="/terms">Terms</a> · <a href="/refunds">Refunds</a></p>
-      <p style="margin-top: 0.5rem; font-size: 0.78rem; opacity: 0.7;">PMP, PMBOK, and the PMI logo are registered marks of the Project Management Institute, Inc., which is not affiliated with and does not endorse this publication.</p>
+  <div class="cp cp-shell">
+<footer class="cp-footer">
+    <div class="cp-container cp-footer-grid">
+      <div>
+        <a href="/" class="cp-logo" aria-label="CertPath Publishing — home">
+          <svg viewBox="0 0 40 46" width="30" height="35" aria-hidden="true"><path fill="#fff" d="M3 2h22l13 13v18L20.5 44 3 33z"/><path fill="#081326" d="M7.5 6.5H23V17h10.5v13.6L20.5 38.8 7.5 30.6z"/><path fill="#fff" d="M12.5 20.5h16v3h-16zM12.5 26.5h15v3h-15z"/></svg>
+          <span class="cp-logo-word">CertPath<small>Publishing</small></span>
+        </a>
+        <p class="cp-footer-about">Independent publisher of exam-preparation study guides with online practice tests.</p>
+      </div>
+      <div>
+        <h2>Explore exams</h2>
+        <ul>
+          <li><a href="/exams?category=project">Project management</a></li>
+          <li><a href="/exams?category=trades">Trades &amp; safety</a></li>
+          <li><a href="/exams?category=healthcare">Healthcare</a></li>
+          <li><a href="/exams?category=academic">Academic &amp; math</a></li>
+          <li><a href="/exams">All exams</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Resources</h2>
+        <ul>
+          <li><a href="/free-practice">Free practice</a></li>
+          <li><a href="/blog/">Articles</a></li>
+          <li><a href="/#videos">Video lessons</a></li>
+          <li><a href="https://www.youtube.com/@certpathpublishing" target="_blank" rel="noopener">YouTube channel ↗</a></li>
+          <li><a href="https://www.amazon.com/CertPath-Publishing/e/B0GWVSPBJT" target="_blank" rel="noopener">Amazon author page ↗</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Company</h2>
+        <ul>
+          <li><a href="mailto:support@certpathpublishing.store">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Support</h2>
+        <ul>
+          <li><a href="/access">Access my tests</a></li>
+          <li><a href="mailto:support@certpathpublishing.store?subject=Help%20with%20my%20access%20code">Help with a code</a></li>
+          <li><a href="mailto:support@certpathpublishing.store?subject=Correction">Report a correction</a></li>
+          <li><a href="/privacy">Privacy</a> · <a href="/terms">Terms</a> · <a href="/refunds">Refunds</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="cp-container cp-footer-legal">
+      <p>© 2026 CertPath Publishing. Online practice tests are included with eligible CertPath books; an access code is required.</p>
+      <p>CertPath Publishing is an independent publisher and is not affiliated with or endorsed by any exam owner. PMP, CAPM, PMI-ACP and PMBOK are registered marks of the Project Management Institute, Inc. SAT and PSAT/NMSQT are trademarks of the College Board. ACT, GED, TABE, CCRN, CNOR, CMSRN, CSP, CHST, CAST, POSS and CAP are trademarks of their respective owners.</p>
     </div>
   </footer>
+</div>
 
   <!-- Free sample quiz -->
   <script>
@@ -400,5 +470,6 @@
   })();
   </script>
   <script src="/js/floating-unlock.js"></script>
+<script src="/js/premium.js?v=21" defer></script>
 </body>
 </html>

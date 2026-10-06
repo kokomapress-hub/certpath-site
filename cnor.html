@@ -22,8 +22,8 @@
   <!-- premium-shell -->
   <script>document.documentElement.classList.add('cp-js');setTimeout(function(){if(!window.__cpReady)document.documentElement.classList.remove('cp-js')},2500);</script>
   <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;1,8..60,400&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/css/premium.css?v=11">
-  <link rel="stylesheet" href="/css/premium-bridge.css?v=1">
+  <link rel="stylesheet" href="/css/premium.css?v=24">
+  <link rel="stylesheet" href="/css/premium-bridge.css?v=2">
 </head>
 <body class="cp">
   <a class="cp-skip" href="#content">Skip to content</a>
@@ -36,9 +36,8 @@
       </a>
       <nav class="cp-nav" aria-label="Primary">
         <a href="/exams" data-mega-trigger>Explore exams</a>
-        <a href="/exams?practice=free">Free practice</a>
-        <a href="/#approach">How it works</a>
-        <a href="/blog/">Resources</a>
+        <a href="/free-practice">Free practice</a>
+        <a href="/blog/">Articles</a>
         <a href="/access" class="cp-nav-access">Access my tests</a>
       </nav>
       <button type="button" class="cp-menu-btn" aria-expanded="false" aria-label="Open menu">
@@ -48,17 +47,16 @@
     <div class="cp-mega" id="cp-mega">
       <div class="cp-container">
         <div class="cp-mega-inner"><p><a href="/exams">Browse the full exam directory →</a></p></div>
-        <div class="cp-mega-foot"><span>Only exams with published CertPath titles are listed.</span><a class="cp-textlink" href="/exams">Search the full directory <span class="cp-arrow" aria-hidden="true">→</span></a></div>
+        <div class="cp-mega-foot"><span>Only exams with published CertPath titles are listed.</span><a class="cp-textlink" href="/complete-prep">Search the full directory <span class="cp-arrow" aria-hidden="true">→</span></a></div>
       </div>
     </div>
   </header>
 
-  <div class="cp-drawer" role="dialog" aria-modal="true" aria-label="Menu">
+  <span id="content"></span><div class="cp-drawer" role="dialog" aria-modal="true" aria-label="Menu">
     <div class="cp-drawer-top"><span class="cp-logo-word">CertPath</span><button type="button" class="cp-drawer-close" aria-label="Close menu">✕</button></div>
     <a href="/exams">Explore exams <span aria-hidden="true">→</span></a>
-    <a href="/exams?practice=free">Free practice <span aria-hidden="true">→</span></a>
-    <a href="/#approach">How it works <span aria-hidden="true">→</span></a>
-    <a href="/blog/">Resources <span aria-hidden="true">→</span></a>
+    <a href="/free-practice">Free practice <span aria-hidden="true">→</span></a>
+    <a href="/blog/">Articles <span aria-hidden="true">→</span></a>
     <a href="/access" class="cp-btn cp-btn-primary">Access my tests</a>
   </div>
 
@@ -101,23 +99,23 @@
     </div>
   </section>
 
-  <section class="lp-books">
+  <section class="lp-books" id="book">
     <div class="lp-books-inner">
-      <div class="lp-section-head">
-        <div class="eyebrow">The Books</div>
-        <h2>Complete CNOR Prep</h2>
-        <p>Every book includes free timed online practice tests — no subscription required.</p>
-      </div>
-      <div class="lp-books-grid">
-        <div class="lp-book-card">
-          <a href="https://www.amazon.com/dp/B0H55G629X" target="_blank" rel="noopener"><img src="/img/covers/cnor.webp" alt="CNOR Exam Study Guide" loading="lazy"></a>
-          <h3>CNOR Exam Study Guide</h3>
-          <div class="meta">10 online exams &middot; 1,500 questions included</div>
-          <div class="row">
-            <a href="https://www.amazon.com/dp/B0H55G629X" class="btn btn-sm" target="_blank" rel="noopener">Paperback $19.99</a>
-            
+      <div class="lp-book-cta">
+        <div class="lp-book-cta-body">
+          <div class="eyebrow">The Book · Sold on Amazon</div>
+          <h2>CNOR Exam Study Guide</h2>
+          <p>A perioperative review organized by subject area with detailed rationales — plus an access code for 10 timed online exams (1,500 questions, each explained).</p>
+          <ul class="lp-book-points">
+            <li>10 timed online tests, auto-scored, on any device</li>
+            <li>Paperback sold only on Amazon — buy new from Amazon.com for the current edition</li>
+          </ul>
+          <div class="lp-book-cta-row">
+            <a href="https://www.amazon.com/dp/B0H55G629X" class="btn btn-lg" target="_blank" rel="noopener">Buy on Amazon — $19.99</a>
           </div>
-        </div></div>
+          <p class="lp-book-cta-have">Already have the book? <a href="/books/cnor">Open your practice tests →</a></p>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -157,8 +155,8 @@
       <div>
         <h2>Resources</h2>
         <ul>
-          <li><a href="/exams?practice=free">Free practice</a></li>
-          <li><a href="/blog/">Blog</a></li>
+          <li><a href="/free-practice">Free practice</a></li>
+          <li><a href="/blog/">Articles</a></li>
           <li><a href="/#videos">Video lessons</a></li>
           <li><a href="https://www.youtube.com/@certpathpublishing" target="_blank" rel="noopener">YouTube channel ↗</a></li>
           <li><a href="https://www.amazon.com/CertPath-Publishing/e/B0GWVSPBJT" target="_blank" rel="noopener">Amazon author page ↗</a></li>
@@ -167,8 +165,6 @@
       <div>
         <h2>Company</h2>
         <ul>
-          <li><a href="/#approach">How it works</a></li>
-          <li><a href="/#proof">How the books are made</a></li>
           <li><a href="mailto:support@certpathpublishing.store">Contact</a></li>
         </ul>
       </div>
@@ -190,7 +186,7 @@
 
   <script>
   (function () {
-    var QUESTIONS = [{"q": "During the preoperative assessment, which two patient identifiers are most appropriate for verifying patient identity before surgery?", "choices": ["Room number and bed assignment", "Diagnosis and attending surgeon", "Full name and date of birth", "Insurance number and home address"], "answer": "C", "explanation": "Acceptable identifiers must be specific to the individual and not change with location; full name and date of birth meet this standard, whereas room and bed numbers do not."}, {"q": "In the perioperative nursing process (ADPIE), which phase immediately follows assessment?", "choices": ["Nursing diagnosis", "Evaluation", "Implementation", "Outcome identification"], "answer": "A", "explanation": "The ADPIE sequence is Assessment, Nursing Diagnosis, Outcome identification/Planning, Implementation, and Evaluation; nursing diagnosis directly follows assessment."}, {"q": "According to AORN, which area of a sterile gown is considered sterile?", "choices": ["From chest level to the level of the sterile field and the sleeves from 2 inches above the elbow to the cuff", "Only the cuffs of the sleeves", "From the neckline to the waist on all sides", "The entire gown front and back"], "answer": "A", "explanation": "A sterile gown is considered sterile in front from chest level to the level of the sterile field and at the sleeves from 2 inches above the elbow to the cuff."}, {"q": "Which element must always be documented on the intraoperative nursing record regarding surgical counts?", "choices": ["The results of initial, closing, and final counts and any actions taken for a discrepancy", "The surgeon's verbal agreement that counts are unnecessary", "Counts only for cases involving open cavities", "Only the final count if it is correct"], "answer": "A", "explanation": "The intraoperative record must reflect the results of all counts performed and any corrective actions taken if a discrepancy occurs, providing a complete account of count reconciliation."}, {"q": "According to the Spaulding classification, which category of medical device requires sterilization?", "choices": ["Environmental surfaces such as bed rails", "Semicritical items that contact mucous membranes", "Noncritical items that contact intact skin", "Critical items that enter sterile tissue or the vascular system"], "answer": "D", "explanation": "Spaulding classifies items entering sterile tissue or the vascular system as critical, mandating sterilization because any microbial contamination poses a high infection risk."}, {"q": "Which class of agents is a recognized trigger for malignant hyperthermia (MH)?", "choices": ["Benzodiazepines", "Opioid analgesics", "Volatile inhalational anesthetics", "Propofol"], "answer": "C", "explanation": "Volatile inhalational anesthetics such as sevoflurane, desflurane, and isoflurane are classic MH triggers; opioids, benzodiazepines, and propofol are nontriggering."}, {"q": "A patient refuses a recommended surgical procedure after being fully informed of the risks and benefits. Which ethical principle does the nurse uphold by supporting the patient's decision?", "choices": ["Autonomy", "Nonmaleficence", "Beneficence", "Justice"], "answer": "A", "explanation": "Autonomy is the patient's right to self-determination, including the right to refuse treatment after being adequately informed."}, {"q": "A patient with well-controlled hypertension and no functional limitations presents for an elective procedure. Which ASA Physical Status classification is most appropriate?", "choices": ["ASA III", "ASA I", "ASA IV", "ASA II"], "answer": "D", "explanation": "ASA II describes a patient with mild systemic disease without substantive functional limitations, such as well-controlled hypertension."}, {"q": "The modified Aldrete score evaluates five parameters to assess PACU recovery. Which is NOT one of them?", "choices": ["Urine output", "Respiration", "Circulation", "Oxygen saturation"], "answer": "A", "explanation": "The modified Aldrete score assesses activity, respiration, circulation, consciousness, and oxygen saturation; urine output is not a component."}, {"q": "The Universal Protocol for preventing wrong-site, wrong-procedure, and wrong-person surgery consists of which three principal components?", "choices": ["History, physical, and laboratory review", "Handoff, count, and specimen labeling", "Consent, anesthesia review, and discharge planning", "Preprocedure verification, site marking, and time-out"], "answer": "D", "explanation": "The Joint Commission Universal Protocol comprises a preprocedure verification process, marking of the operative site, and a time-out immediately before the procedure begins."}];
+    var QUESTIONS = [{"q": "During the preoperative assessment, which two patient identifiers are most appropriate for verifying patient identity before surgery?", "choices": ["Room number and bed assignment", "Diagnosis and attending surgeon", "Full name and date of birth", "Insurance number and home address"], "answer": "C", "explanation": "Acceptable identifiers must be specific to the individual and not change with location; full name and date of birth meet this standard, whereas room and bed numbers do not."}, {"q": "In the perioperative nursing process (ADPIE), which phase immediately follows assessment?", "choices": ["Nursing diagnosis", "Evaluation", "Implementation", "Outcome identification"], "answer": "A", "explanation": "The ADPIE sequence is Assessment, Nursing Diagnosis, Outcome identification/Planning, Implementation, and Evaluation; nursing diagnosis directly follows assessment."}, {"q": "According to AORN, which area of a sterile gown is considered sterile?", "choices": ["Chest to sterile-field level, plus sleeves", "Only the cuffs of the sleeves", "From the neckline to the waist on all sides", "The entire gown, front and back"], "answer": "A", "explanation": "A sterile gown is considered sterile in front from chest level to the level of the sterile field and at the sleeves from 2 inches above the elbow to the cuff."}, {"q": "Which element must always be documented on the intraoperative nursing record regarding surgical counts?", "choices": ["Initial, closing and final counts, plus any discrepancy actions", "The surgeon's verbal agreement that counts were unnecessary", "Counts only for cases that involve an open body cavity", "Only the final count, and only when it is correct"], "answer": "A", "explanation": "The intraoperative record must reflect the results of all counts performed and any corrective actions taken if a discrepancy occurs, providing a complete account of count reconciliation."}, {"q": "According to the Spaulding classification, which category of medical device requires sterilization?", "choices": ["Environmental surfaces such as bed rails", "Semicritical items that touch mucous membranes", "Noncritical items that touch intact skin", "Critical items that enter sterile tissue"], "answer": "D", "explanation": "Spaulding classifies items entering sterile tissue or the vascular system as critical, mandating sterilization because any microbial contamination poses a high infection risk."}, {"q": "Which class of agents is a recognized trigger for malignant hyperthermia (MH)?", "choices": ["Benzodiazepines such as midazolam", "Opioid analgesics such as fentanyl", "Volatile inhalational anesthetics", "Propofol given as an infusion"], "answer": "C", "explanation": "Volatile inhalational anesthetics such as sevoflurane, desflurane, and isoflurane are classic MH triggers; opioids, benzodiazepines, and propofol are nontriggering."}, {"q": "A patient refuses a recommended surgical procedure after being fully informed of the risks and benefits. Which ethical principle does the nurse uphold by supporting the patient's decision?", "choices": ["Autonomy", "Nonmaleficence", "Beneficence", "Justice"], "answer": "A", "explanation": "Autonomy is the patient's right to self-determination, including the right to refuse treatment after being adequately informed."}, {"q": "A patient with well-controlled hypertension and no functional limitations presents for an elective procedure. Which ASA Physical Status classification is most appropriate?", "choices": ["ASA III", "ASA I", "ASA IV", "ASA II"], "answer": "D", "explanation": "ASA II describes a patient with mild systemic disease without substantive functional limitations, such as well-controlled hypertension."}, {"q": "The modified Aldrete score evaluates five parameters to assess PACU recovery. Which is NOT one of them?", "choices": ["Urine output", "Respiration", "Circulation", "Oxygen saturation"], "answer": "A", "explanation": "The modified Aldrete score assesses activity, respiration, circulation, consciousness, and oxygen saturation; urine output is not a component."}, {"q": "The Universal Protocol for preventing wrong-site, wrong-procedure, and wrong-person surgery consists of which three principal components?", "choices": ["History, physical, and laboratory review", "Handoff, count, and specimen labeling", "Consent, anesthesia review, and discharge planning", "Preprocedure verification, site marking, and time-out"], "answer": "D", "explanation": "The Joint Commission Universal Protocol comprises a preprocedure verification process, marking of the operative site, and a time-out immediately before the procedure begins."}];
     var EXAM = "CNOR";
     var idx = 0, score = 0, answered = false;
     var body = document.getElementById('lpBody');
@@ -288,6 +284,6 @@
     render();
   })();
   </script>
-  <script src="/js/premium.js?v=13" defer></script>
+  <script src="/js/premium.js?v=21" defer></script>
 </body>
 </html>

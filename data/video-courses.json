@@ -2641,6 +2641,319 @@
      ]
     }
    ]
+  },
+  {
+   "slug": "capm",
+   "title": "CAPM Exam Prep — Complete Video Course",
+   "count": 50,
+   "seconds": 24071,
+   "sections": [
+    {
+     "title": "Lessons",
+     "lessons": [
+      {
+       "n": 1,
+       "title": "CAPM Certification, Eligibility and Education Requirements",
+       "key": "vc/capm/001.mp4",
+       "sec": 437
+      },
+      {
+       "n": 2,
+       "title": "Exam Structure, Question Formats and Blueprint",
+       "key": "vc/capm/002.mp4",
+       "sec": 442
+      },
+      {
+       "n": 3,
+       "title": "How to Study and Use This Course",
+       "key": "vc/capm/003.mp4",
+       "sec": 469
+      },
+      {
+       "n": 4,
+       "title": "Projects, Programs, Portfolios & Operations",
+       "key": "vc/capm/004.mp4",
+       "sec": 457
+      },
+      {
+       "n": 5,
+       "title": "Life Cycles & Development Approaches",
+       "key": "vc/capm/005.mp4",
+       "sec": 476
+      },
+      {
+       "n": 6,
+       "title": "Issues, Risks, Assumptions & Constraints",
+       "key": "vc/capm/006.mp4",
+       "sec": 418
+      },
+      {
+       "n": 7,
+       "title": "Project Scope Fundamentals",
+       "key": "vc/capm/007.mp4",
+       "sec": 429
+      },
+      {
+       "n": 8,
+       "title": "PMI Code of Ethics & Professional Conduct",
+       "key": "vc/capm/008.mp4",
+       "sec": 522
+      },
+      {
+       "n": 9,
+       "title": "Projects as Vehicles for Change",
+       "key": "vc/capm/009.mp4",
+       "sec": 512
+      },
+      {
+       "n": 10,
+       "title": "Planning — Cost, Quality, Risk, Schedule, Resources & Communications",
+       "key": "vc/capm/010.mp4",
+       "sec": 492
+      },
+      {
+       "n": 11,
+       "title": "Project Management Plan vs. Product Management Plan",
+       "key": "vc/capm/011.mp4",
+       "sec": 433
+      },
+      {
+       "n": 12,
+       "title": "Milestones vs. Task Durations & Activities",
+       "key": "vc/capm/012.mp4",
+       "sec": 459
+      },
+      {
+       "n": 13,
+       "title": "Resources - Number & Type",
+       "key": "vc/capm/013.mp4",
+       "sec": 438
+      },
+      {
+       "n": 14,
+       "title": "The Risk Register & the Stakeholder Register",
+       "key": "vc/capm/014.mp4",
+       "sec": 505
+      },
+      {
+       "n": 15,
+       "title": "Project Closure & Transitions",
+       "key": "vc/capm/015.mp4",
+       "sec": 538
+      },
+      {
+       "n": 16,
+       "title": "Roles & Responsibilities - PM, Sponsor & Team",
+       "key": "vc/capm/016.mp4",
+       "sec": 477
+      },
+      {
+       "n": 17,
+       "title": "Leadership vs. Management; Emotional Intelligence",
+       "key": "vc/capm/017.mp4",
+       "sec": 366
+      },
+      {
+       "n": 18,
+       "title": "Following and Executing Planned Strategies",
+       "key": "vc/capm/018.mp4",
+       "sec": 486
+      },
+      {
+       "n": 19,
+       "title": "Project Initiation and Benefits Planning",
+       "key": "vc/capm/019.mp4",
+       "sec": 470
+      },
+      {
+       "n": 20,
+       "title": "Problem-Solving, Meetings, and SWOT",
+       "key": "vc/capm/020.mp4",
+       "sec": 431
+      },
+      {
+       "n": 21,
+       "title": "When Predictive Fits; Organizational Structures",
+       "key": "vc/capm/021.mp4",
+       "sec": 567
+      },
+      {
+       "n": 22,
+       "title": "Process Groups, Typical Activities, and Predictive Components",
+       "key": "vc/capm/022.mp4",
+       "sec": 488
+      },
+      {
+       "n": 23,
+       "title": "Scope — The WBS and Work Packages",
+       "key": "vc/capm/023.mp4",
+       "sec": 421
+      },
+      {
+       "n": 24,
+       "title": "Scheduling & the Critical Path Method",
+       "key": "vc/capm/024.mp4",
+       "sec": 443
+      },
+      {
+       "n": 25,
+       "title": "Schedule Variance & Cost Variance (EVM Basics)",
+       "key": "vc/capm/025.mp4",
+       "sec": 576
+      },
+      {
+       "n": 26,
+       "title": "Quality Management Plan",
+       "key": "vc/capm/026.mp4",
+       "sec": 500
+      },
+      {
+       "n": 27,
+       "title": "Integration Management & Change Control",
+       "key": "vc/capm/027.mp4",
+       "sec": 530
+      },
+      {
+       "n": 28,
+       "title": "Documenting Predictive Controls & Artifacts",
+       "key": "vc/capm/028.mp4",
+       "sec": 426
+      },
+      {
+       "n": 29,
+       "title": "When Adaptive Fits and the Agile Mindset",
+       "key": "vc/capm/029.mp4",
+       "sec": 499
+      },
+      {
+       "n": 30,
+       "title": "Iterative vs Incremental and Planning Iterations",
+       "key": "vc/capm/030.mp4",
+       "sec": 553
+      },
+      {
+       "n": 31,
+       "title": "From WBS to Backlog and Inputs for Scope",
+       "key": "vc/capm/031.mp4",
+       "sec": 394
+      },
+      {
+       "n": 32,
+       "title": "Adaptive vs Predictive Tracking",
+       "key": "vc/capm/032.mp4",
+       "sec": 625
+      },
+      {
+       "n": 33,
+       "title": "Adaptive Artifacts",
+       "key": "vc/capm/033.mp4",
+       "sec": 432
+      },
+      {
+       "n": 34,
+       "title": "Adaptive Framework Deep-Dive — Scrum",
+       "key": "vc/capm/034.mp4",
+       "sec": 359
+      },
+      {
+       "n": 35,
+       "title": "Kanban, XP & SAFe (Awareness)",
+       "key": "vc/capm/035.mp4",
+       "sec": 504
+      },
+      {
+       "n": 36,
+       "title": "Task Management — Success Criteria & Prioritization",
+       "key": "vc/capm/036.mp4",
+       "sec": 518
+      },
+      {
+       "n": 37,
+       "title": "What Business Analysis Is; Value Across the Life Cycle",
+       "key": "vc/capm/037.mp4",
+       "sec": 491
+      },
+      {
+       "n": 38,
+       "title": "Business Analysis Roles and Stakeholders",
+       "key": "vc/capm/038.mp4",
+       "sec": 484
+      },
+      {
+       "n": 39,
+       "title": "Stakeholder Communication - Channels, Reporting, and Presentations",
+       "key": "vc/capm/039.mp4",
+       "sec": 530
+      },
+      {
+       "n": 40,
+       "title": "Elicitation Techniques",
+       "key": "vc/capm/040.mp4",
+       "sec": 492
+      },
+      {
+       "n": 41,
+       "title": "Requirement Types, Documentation & Acceptance Criteria",
+       "key": "vc/capm/041.mp4",
+       "sec": 513
+      },
+      {
+       "n": 42,
+       "title": "Modeling Requirements — User Stories & Use Cases",
+       "key": "vc/capm/042.mp4",
+       "sec": 503
+      },
+      {
+       "n": 43,
+       "title": "Requirements Traceability Matrix & Product Backlog",
+       "key": "vc/capm/043.mp4",
+       "sec": 476
+      },
+      {
+       "n": 44,
+       "title": "Prioritization — MoSCoW & Other Methods",
+       "key": "vc/capm/044.mp4",
+       "sec": 550
+      },
+      {
+       "n": 45,
+       "title": "Product Roadmaps & Releases",
+       "key": "vc/capm/045.mp4",
+       "sec": 410
+      },
+      {
+       "n": 46,
+       "title": "BA in Predictive vs Adaptive Environments",
+       "key": "vc/capm/046.mp4",
+       "sec": 491
+      },
+      {
+       "n": 47,
+       "title": "Validating Requirements & Delivery Readiness",
+       "key": "vc/capm/047.mp4",
+       "sec": 463
+      },
+      {
+       "n": 48,
+       "title": "Worked Calculations- Critical Path and Earned Value",
+       "key": "vc/capm/048.mp4",
+       "sec": 510
+      },
+      {
+       "n": 49,
+       "title": "Final Revision Across the Four CAPM Domains",
+       "key": "vc/capm/049.mp4",
+       "sec": 532
+      },
+      {
+       "n": 50,
+       "title": "Practice Exam Debrief and Remediation",
+       "key": "vc/capm/050.mp4",
+       "sec": 534
+      }
+     ]
+    }
+   ]
   }
  ]
 }

@@ -17,13 +17,13 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/css/style.css?v=10">
-  <link rel="stylesheet" href="/css/landing.css?v=2">
+  <link rel="stylesheet" href="/css/landing.css?v=4">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How hard is the GED math test?","acceptedAnswer":{"@type":"Answer","text":"GED Mathematical Reasoning is a 115-minute test with about 46 questions. Most test-takers find it manageable with focused practice — the key is steady work on the four content areas rather than cramming."}},{"@type":"Question","name":"What math is on the GED?","acceptedAnswer":{"@type":"Answer","text":"Four areas: quantitative problem solving with rational numbers, quantitative problem solving with measurement, algebraic problem solving with expressions and equations, and algebraic problem solving with graphs and functions."}},{"@type":"Question","name":"Can I use a calculator on the GED math test?","acceptedAnswer":{"@type":"Answer","text":"Yes — the on-screen TI-30XS calculator is available for most of the test. Our study guide includes a strategy chapter on using it efficiently."}},{"@type":"Question","name":"What is included with the CertPath GED Math books?","acceptedAnswer":{"@type":"Answer","text":"Three SKUs: the complete study guide, a 600+ problem workbook, and 10 full-length practice tests. Each book unlocks 1,500+ additional timed online questions."}},{"@type":"Question","name":"Are the online practice tests really free?","acceptedAnswer":{"@type":"Answer","text":"Yes. Every book has a unique access code printed on the last page. Enter it at certpathpublishing.store/access for timed, auto-scored tests on any device."}}]}</script>
   <!-- premium-shell -->
   <script>document.documentElement.classList.add('cp-js');setTimeout(function(){if(!window.__cpReady)document.documentElement.classList.remove('cp-js')},2500);</script>
   <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;1,8..60,400&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/css/premium.css?v=11">
-  <link rel="stylesheet" href="/css/premium-bridge.css?v=1">
+  <link rel="stylesheet" href="/css/premium.css?v=24">
+  <link rel="stylesheet" href="/css/premium-bridge.css?v=2">
 </head>
 <body class="cp">
   <a class="cp-skip" href="#content">Skip to content</a>
@@ -36,9 +36,8 @@
       </a>
       <nav class="cp-nav" aria-label="Primary">
         <a href="/exams" data-mega-trigger>Explore exams</a>
-        <a href="/exams?practice=free">Free practice</a>
-        <a href="/#approach">How it works</a>
-        <a href="/blog/">Resources</a>
+        <a href="/free-practice">Free practice</a>
+        <a href="/blog/">Articles</a>
         <a href="/access" class="cp-nav-access">Access my tests</a>
       </nav>
       <button type="button" class="cp-menu-btn" aria-expanded="false" aria-label="Open menu">
@@ -48,17 +47,16 @@
     <div class="cp-mega" id="cp-mega">
       <div class="cp-container">
         <div class="cp-mega-inner"><p><a href="/exams">Browse the full exam directory →</a></p></div>
-        <div class="cp-mega-foot"><span>Only exams with published CertPath titles are listed.</span><a class="cp-textlink" href="/exams">Search the full directory <span class="cp-arrow" aria-hidden="true">→</span></a></div>
+        <div class="cp-mega-foot"><span>Only exams with published CertPath titles are listed.</span><a class="cp-textlink" href="/complete-prep">Search the full directory <span class="cp-arrow" aria-hidden="true">→</span></a></div>
       </div>
     </div>
   </header>
 
-  <div class="cp-drawer" role="dialog" aria-modal="true" aria-label="Menu">
+  <span id="content"></span><div class="cp-drawer" role="dialog" aria-modal="true" aria-label="Menu">
     <div class="cp-drawer-top"><span class="cp-logo-word">CertPath</span><button type="button" class="cp-drawer-close" aria-label="Close menu">✕</button></div>
     <a href="/exams">Explore exams <span aria-hidden="true">→</span></a>
-    <a href="/exams?practice=free">Free practice <span aria-hidden="true">→</span></a>
-    <a href="/#approach">How it works <span aria-hidden="true">→</span></a>
-    <a href="/blog/">Resources <span aria-hidden="true">→</span></a>
+    <a href="/free-practice">Free practice <span aria-hidden="true">→</span></a>
+    <a href="/blog/">Articles <span aria-hidden="true">→</span></a>
     <a href="/access" class="cp-btn cp-btn-primary">Access my tests</a>
   </div>
 
@@ -78,7 +76,7 @@
         </div>
       </div>
       <div class="lp-hero-cover">
-        <a href="https://www.amazon.com/dp/B0H2XXSTDL" target="_blank" rel="noopener"><img src="/img/covers/ged-math.webp" alt="GED Math Prep" loading="eager"></a>
+        <img class="lp-hero-photo" src="/img/photo/step-review.webp" alt="An adult learner studying for the GED at home" loading="eager">
       </div>
     </div>
   </section>
@@ -175,8 +173,8 @@
       <div>
         <h2>Resources</h2>
         <ul>
-          <li><a href="/exams?practice=free">Free practice</a></li>
-          <li><a href="/blog/">Blog</a></li>
+          <li><a href="/free-practice">Free practice</a></li>
+          <li><a href="/blog/">Articles</a></li>
           <li><a href="/#videos">Video lessons</a></li>
           <li><a href="https://www.youtube.com/@certpathpublishing" target="_blank" rel="noopener">YouTube channel ↗</a></li>
           <li><a href="https://www.amazon.com/CertPath-Publishing/e/B0GWVSPBJT" target="_blank" rel="noopener">Amazon author page ↗</a></li>
@@ -185,8 +183,6 @@
       <div>
         <h2>Company</h2>
         <ul>
-          <li><a href="/#approach">How it works</a></li>
-          <li><a href="/#proof">How the books are made</a></li>
           <li><a href="mailto:support@certpathpublishing.store">Contact</a></li>
         </ul>
       </div>
@@ -306,6 +302,6 @@
     render();
   })();
   </script>
-  <script src="/js/premium.js?v=13" defer></script>
+  <script src="/js/premium.js?v=21" defer></script>
 </body>
 </html>

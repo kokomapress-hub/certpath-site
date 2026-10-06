@@ -57,6 +57,29 @@ function setBonusUnlocked(slug) {
 // (offline review). On the live site the course keys are written ONLY after
 // /api/redeem-course confirms the code against the SUPER_ACCESS_CODE secret, because the
 // books.json is public, so a client-side check must never be enough to open a paid product.
+// One code, everything: a book code also opens that book's video course (a server
+// cookie set by /api/vc/unlock), so owners never type it twice.
+const VIDEO_FOR_BOOK = {
+  'pmp': ['pmp', 290, 46], 'capm': ['capm', 50, 6.7],
+  'sat-math': ['sat-math', 30, 2.5], 'sat-math-workbook': ['sat-math', 30, 2.5], 'sat-math-tests': ['sat-math', 30, 2.5],
+  'tabe-a': ['tabe-a', 30, 2.8], 'tabe-d': ['tabe-d', 30, 2.8], 'tabe-e': ['tabe-e', 27, 2.2],
+};
+async function unlockVideoFor(code, slugs) {
+  const courses = Array.from(new Set((slugs || []).map(s => VIDEO_FOR_BOOK[s] && VIDEO_FOR_BOOK[s][0]).filter(Boolean)));
+  if (!courses.length) return;
+  try {
+    await fetch('/api/vc/unlock', { method: 'POST', credentials: 'same-origin', headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ course: 'auto:' + courses.join(','), key: code }) });
+  } catch (e) {}
+}
+function videoTileHTML(bookSlug) {
+  const v = VIDEO_FOR_BOOK[bookSlug];
+  if (!v) return '';
+  return `<a class="cp-vtile" href="/learn/${v[0]}"><span class="cp-vtile-play" aria-hidden="true"></span>` +
+    `<span><b>Your video course</b><small>${v[1]} lessons · ${v[2]} hours · included with your book</small></span>` +
+    `<span class="cp-vtile-go" aria-hidden="true">Watch →</span></a>`;
+}
+
 async function grantOwnerCourses(code) {
   const write = () => {
     const owner = JSON.stringify({ tier: 'complete', code: 'OWNER', ts: Date.now() });
@@ -82,7 +105,7 @@ async function sha256Hex(s) {
   return Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2, '0')).join('');
 }
 
-async function validateCode(code) {
+async function validateCode(code, email) {
   const data = await loadBooks();
   const cleanCode = await sha256Hex(normCode(code));
   if (cleanCode === data.adminCodeHash) {
@@ -99,6 +122,18 @@ async function validateCode(code) {
     const titles = matches.length === 1 ? matches[0].title : `${matches.length} matching books`;
     return { success: true, isAdmin: false, books: matches, message: `Access granted to ${titles}.` };
   }
+  // Not a book code: it may be the Payhip key from the $19.99 video + practice-test pack.
+  // The server checks it, sets the video cookie and says which test banks it opens.
+  try {
+    const r = await fetch('/api/vc/unlock', { method: 'POST', credentials: 'same-origin', headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ course: 'auto', key: code, email: email || '' }) });
+    const a = await r.json();
+    if (a.ok && a.via === 'payhip' && Array.isArray(a.books) && a.books.length) {
+      const books = data.books.filter(b => a.books.includes(b.slug));
+      if (books.length) return { success: true, isAdmin: false, viaPack: true, books, message: 'Pack unlocked.' };
+    }
+    if (a.error && /same email/.test(a.error)) return { success: false, message: a.error };
+  } catch (e) {}
   return { success: false, message: "We couldn't verify that code. Check the characters against the last page of your book, or email support@certpathpublishing.store and we'll help." };
 }
 
@@ -191,6 +226,7 @@ function renderUnlockedBooks(books, isAdmin) {
         })()}
       </div>
       ${book.sequential ? `<div class="bcu-seq-note">Tests unlock in order — finish one to open the next.</div>` : ''}
+      ${videoTileHTML(book.slug)}
       <div class="bonus-mount">${['pmp', 'pmp-free', 'cnor'].includes(book.slug) ? '' : bonusSectionHTML(book)}</div>
     </div>
   `).join('');
@@ -215,7 +251,7 @@ function renderUnlockedBooks(books, isAdmin) {
   // Owner / course customers: direct links to the video courses from the library.
   try {
     const tl2 = document.getElementById('testList');
-    const links = [['certpath_pmp_access', '/pmp-course', 'PMP video course'], ['certpath_capm_access', '/capm-course', 'CAPM video course']]
+    const links = [['certpath_pmp_access', '/pmp-course', 'PMP video course'], ['certpath_capm_access', '/learn/capm', 'CAPM video course']]
       .filter(([k]) => !!JSON.parse(localStorage.getItem(k) || 'null'));
     if (isAdmin && links.length && tl2 && !document.getElementById('ownerCourses')) {
       const box = document.createElement('p');
@@ -314,7 +350,7 @@ async function initAccessPage() {
     if (submitBtn) { submitBtn.disabled = true; submitBtn.textContent = 'Checking your code…'; }
     let result;
     try {
-      result = await validateCode(code);
+      result = await validateCode(code, email);
     } catch (err) {
       booksData = null; // allow a clean retry
       errorMsg.textContent = "We couldn't connect. Your entry is still here — please try again.";
@@ -341,6 +377,7 @@ async function initAccessPage() {
     if (result.isAdmin) await grantOwnerCourses(code);
     else { current.slugs = Array.from(new Set([...current.slugs, ...result.books.map(b => b.slug)])); }
     setUnlocked(current);
+    await unlockVideoFor(code, result.books.map(b => b.slug));
 
     // MailerLite subscribe — only for real customers, not admin.
     if (!result.isAdmin) {

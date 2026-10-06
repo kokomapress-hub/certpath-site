@@ -66,7 +66,7 @@ def video_section(book, short):
     course = book.get("course")
     course_btn = (f'<a class="cp-btn cp-btn-ghost" href="{esc(course["url"])}">Open the course player <span class="cp-arrow" aria-hidden="true">→</span></a>' if course else "")
     return f'''
-    <section class="cp-section" id="videos" style="padding-bottom:0">
+    <section class="cp-section" id="videos" style="padding-bottom:0" data-visitor-only>
       <div class="cp-container">
         <div class="cp-section-head is-split" data-reveal>
           <div>
@@ -302,7 +302,7 @@ def page(book, stats):
       </div>
     </section>
 
-    <section class="cp-section cp-ownernext" data-owner-only hidden>
+    <section class="cp-section cp-ownernext" id="siblings" hidden>
       <div class="cp-container cp-owner-inner">
         <p id="alsoUnlocked"><b>Have another CertPath book?</b> Add its code and its tests appear on its own page.</p>
         <a class="cp-btn cp-btn-ghost" href="/my">My study page <span class="cp-arrow" aria-hidden="true">→</span></a>
@@ -320,7 +320,7 @@ def page(book, stats):
   <script>window.CP_BOOK = {cfg};</script>
   <script src="/js/premium.js?v=13" defer></script>
   <script src="/js/app.js?v=20260925" defer></script>
-  <script src="/js/book.js?v=4" defer></script>
+  <script src="/js/book.js?v=6" defer></script>
 </body>
 </html>
 '''

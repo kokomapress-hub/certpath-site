@@ -17,13 +17,13 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/css/style.css?v=10">
-  <link rel="stylesheet" href="/css/landing.css?v=2">
+  <link rel="stylesheet" href="/css/landing.css?v=4">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What are the TABE levels and which book do I need?","acceptedAnswer":{"@type":"Answer","text":"TABE 11 & 12 has four levels: E (foundational), M (upper elementary), D (pre-high-school), and A (high-school equivalent). If you are unsure, start with the level your program assigned, or take the diagnostic pretest in any of our books — each one tells you whether to move up or down a level."}},{"@type":"Question","name":"What is on the TABE math test?","acceptedAnswer":{"@type":"Answer","text":"TABE 11 & 12 math covers numbers and quantity, algebra and functions, geometry, and statistics and probability, weighted by level. Our workbooks mirror the official domain weighting at each level."}},{"@type":"Question","name":"How is the CertPath TABE series different?","acceptedAnswer":{"@type":"Answer","text":"One dedicated book per level instead of a single generic book. Every concept is taught from the ground up in plain language, with 500-1,200+ problems per book and full-length timed practice tests matching the real format."}},{"@type":"Question","name":"Are the online practice tests really free?","acceptedAnswer":{"@type":"Answer","text":"Yes. Every book includes a unique access code printed on the last page. Enter it at certpathpublishing.store/access for timed, auto-scored tests on any device."}},{"@type":"Question","name":"Will these books help me get into a trade or training program?","acceptedAnswer":{"@type":"Answer","text":"TABE scores are widely used for workforce program placement and adult education. Higher placement means skipping remedial coursework — most readers prep for two to four weeks per level."}}]}</script>
   <!-- premium-shell -->
   <script>document.documentElement.classList.add('cp-js');setTimeout(function(){if(!window.__cpReady)document.documentElement.classList.remove('cp-js')},2500);</script>
   <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;1,8..60,400&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/css/premium.css?v=11">
-  <link rel="stylesheet" href="/css/premium-bridge.css?v=1">
+  <link rel="stylesheet" href="/css/premium.css?v=24">
+  <link rel="stylesheet" href="/css/premium-bridge.css?v=2">
 </head>
 <body class="cp">
   <a class="cp-skip" href="#content">Skip to content</a>
@@ -36,9 +36,8 @@
       </a>
       <nav class="cp-nav" aria-label="Primary">
         <a href="/exams" data-mega-trigger>Explore exams</a>
-        <a href="/exams?practice=free">Free practice</a>
-        <a href="/#approach">How it works</a>
-        <a href="/blog/">Resources</a>
+        <a href="/free-practice">Free practice</a>
+        <a href="/blog/">Articles</a>
         <a href="/access" class="cp-nav-access">Access my tests</a>
       </nav>
       <button type="button" class="cp-menu-btn" aria-expanded="false" aria-label="Open menu">
@@ -48,113 +47,55 @@
     <div class="cp-mega" id="cp-mega">
       <div class="cp-container">
         <div class="cp-mega-inner"><p><a href="/exams">Browse the full exam directory →</a></p></div>
-        <div class="cp-mega-foot"><span>Only exams with published CertPath titles are listed.</span><a class="cp-textlink" href="/exams">Search the full directory <span class="cp-arrow" aria-hidden="true">→</span></a></div>
+        <div class="cp-mega-foot"><span>Only exams with published CertPath titles are listed.</span><a class="cp-textlink" href="/complete-prep">Search the full directory <span class="cp-arrow" aria-hidden="true">→</span></a></div>
       </div>
     </div>
   </header>
 
-  <div class="cp-drawer" role="dialog" aria-modal="true" aria-label="Menu">
+  <span id="content"></span><div class="cp-drawer" role="dialog" aria-modal="true" aria-label="Menu">
     <div class="cp-drawer-top"><span class="cp-logo-word">CertPath</span><button type="button" class="cp-drawer-close" aria-label="Close menu">✕</button></div>
     <a href="/exams">Explore exams <span aria-hidden="true">→</span></a>
-    <a href="/exams?practice=free">Free practice <span aria-hidden="true">→</span></a>
-    <a href="/#approach">How it works <span aria-hidden="true">→</span></a>
-    <a href="/blog/">Resources <span aria-hidden="true">→</span></a>
+    <a href="/free-practice">Free practice <span aria-hidden="true">→</span></a>
+    <a href="/blog/">Articles <span aria-hidden="true">→</span></a>
     <a href="/access" class="cp-btn cp-btn-primary">Access my tests</a>
   </div>
 
 <!-- BOOK OWNERS: printed code -> video course + online tests -->
 <link rel="stylesheet" href="/css/book-unlock.css?v=1">
-<section class="bu-hero" id="unlock">
-  <div class="bu-card">
-    <span class="bu-badge">For CertPath TABE workbook owners</span>
-    <h1>Unlock your <span class="gold">TABE</span> course &amp; practice tests</h1>
-    <p class="bu-sub">Enter the access code printed on the last page of your workbook. We open the video course for your level automatically.</p>
-    <div class="bu-gets"><span>🎬 Video course for your level</span><span>📝 Timed online practice tests</span><span>✓ Levels A, D, M &amp; E</span></div>
-    <form class="bu-form" id="buForm">
-      <label for="buCode">Book access code</label>
-      <input class="big" type="text" id="buCode" placeholder="TABE-XXXXX-XXXXX" autocomplete="off" autocapitalize="characters" spellcheck="false" required>
-      <label for="buEmail">Your email</label>
-      <input class="em" type="email" id="buEmail" placeholder="you@example.com" autocomplete="email" required>
-      <button class="bu-btn" type="submit">Unlock my course &amp; tests →</button>
-    </form>
-    <div class="bu-msg" id="buMsg" role="alert"></div>
-    <div class="bu-help">The code is on the last page of your workbook. Level M codes open your online tests. <a href="mailto:support@certpathpublishing.store?subject=Help%20with%20my%20TABE%20access%20code">Email support</a> if it won't work.</div>
-    <div class="bu-ok">
-      <h3>✓ You're in</h3>
-      <p>Your video course and online practice tests are unlocked on this browser.</p>
-      <div class="btns">
-        <a class="bu-btn" id="buWatch" href="#">▶ Watch the video course</a>
-        <a class="bu-btn navy" id="buTests" href="/access">Open my practice tests</a>
-      </div>
-    </div>
-    <div class="bu-alt">Don't have the book? <a href="#paths">Compare your options</a>: free questions, the $9.99 course or the books.</div>
-  </div>
-</section>
-<script>
-(function(){
-  var POOL='auto:tabe-a,tabe-d,tabe-e', root=document.getElementById('unlock'), msg=document.getElementById('buMsg');
-  function show(course){
-    root.classList.add('done');
-    document.getElementById('buWatch').href='/learn/'+course;
-  }
-  // Returning reader: this browser already holds a course cookie, so open straight away.
-  POOL.split(':')[1].split(',').reduce(function(p,c){return p.then(function(f){ if(f) return f;
-    return fetch('/api/vc/unlock?course='+c,{credentials:'same-origin'}).then(function(r){return r.json()}).then(function(d){return d.ok?c:''}).catch(function(){return ''});});},Promise.resolve('')).then(function(c){ if(c) show(c); });
-  document.getElementById('buForm').addEventListener('submit',function(e){
-    e.preventDefault();
-    var code=document.getElementById('buCode').value.trim(), email=document.getElementById('buEmail').value.trim();
-    if(!code) return;
-    var btn=this.querySelector('button'), orig=btn.innerHTML; btn.disabled=true; btn.textContent='Checking…'; msg.textContent='';
-    try{localStorage.setItem('certpath_email',email);}catch(x){}
-    // The access page opens the online practice tests for this code (it reads the hand-over code).
-    function handToAccess(){ try{sessionStorage.setItem('certpath_pending_code',code.toUpperCase());}catch(x){} }
-    fetch('/api/vc/unlock',{method:'POST',credentials:'same-origin',headers:{'Content-Type':'application/json'},body:JSON.stringify({course:POOL,email:email,key:code})})
-      .then(function(r){return r.json()})
-      .then(function(d){
-        btn.disabled=false; btn.innerHTML=orig;
-        if(d&&d.ok){
-          fetch('/api/subscribe',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({email:email,book:d.course})}).catch(function(){});
-          document.getElementById('buTests').addEventListener('click',handToAccess);
-          show(d.course); return;
-        }
-        // Not a course code (e.g. a book without a video course yet): let the access page open its tests.
-        handToAccess(); location.href='/access';
-      })
-      .catch(function(){ btn.disabled=false; btn.innerHTML=orig; msg.textContent='Network problem, please try again.'; });
-  });
-})();
-</script>
 
 <!-- CHOOSE YOUR PATH -->
-<section class="bu-paths" id="paths">
-  <div class="bu-eye">Choose how you prepare</div>
-  <h2>No book yet? Choose how you prepare.</h2>
-  <div class="bu-grid">
-    <div class="bu-path"><h3>Free sample</h3><div class="pr">$0</div><div class="who">See the question style before you commit.</div><ul><li>10 exam-style TABE math questions</li><li>Step-by-step explanation for every answer</li><li>No signup, right on this page</li></ul><a class="bu-btn ghost" href="#sample-quiz">Try 10 free questions</a></div>
-    <div class="bu-path feat"><span class="tag">Best value</span><h3>Video course for your level</h3><div class="pr">$9.99 <small>one-time</small></div><div class="who">Levels A, D and E, taught step by step.</div><ul><li>27–30 lessons per level, about 2–3 hours</li><li>Follows the TABE 11 &amp; 12 blueprint lesson by lesson</li><li>Patient, plain-English teaching for adult learners</li><li>Watch on any device, with progress tracking</li></ul><a class="bu-btn" href="#video-course">Choose your level — $9.99</a></div>
-    <div class="bu-path"><h3>The TABE workbooks</h3><div class="pr">4 levels <small>on Amazon</small></div><div class="who">One dedicated workbook per level.</div><ul><li>Levels E, M, D and A</li><li>Hundreds of practice problems per book</li><li>Timed online practice tests included</li><li><b>Levels A, D &amp; E include the video course free</b></li></ul><a class="bu-btn navy" style="display:block;margin-top:8px;padding:9px 12px;font-size:.88rem;text-align:center" href="https://www.amazon.com/dp/B0H12F299V" target="_blank" rel="noopener">Buy Level E on Amazon →</a><a class="bu-btn navy" style="display:block;margin-top:8px;padding:9px 12px;font-size:.88rem;text-align:center" href="https://www.amazon.com/dp/B0GZGYP2QD" target="_blank" rel="noopener">Buy Level M on Amazon →</a><a class="bu-btn navy" style="display:block;margin-top:8px;padding:9px 12px;font-size:.88rem;text-align:center" href="https://www.amazon.com/dp/B0GZK4TXKK" target="_blank" rel="noopener">Buy Level D on Amazon →</a><a class="bu-btn navy" style="display:block;margin-top:8px;padding:9px 12px;font-size:.88rem;text-align:center" href="https://www.amazon.com/dp/B0GZCNBK3V" target="_blank" rel="noopener">Buy Level A on Amazon →</a></div>
+<link rel="stylesheet" href="/css/exam-paths.css?v=1">
+<section class="ep" id="paths">
+  <div class="ep-band">
+    <div class="ep-eye">TABE 11 &amp; 12 math prep</div>
+    <h1>Choose how you prepare.</h1>
+    <p>Two ways to get ready for TABE math: start free, or get everything for your level in one pack.</p>
+  </div>
+  <div class="ep-grid">
+    <div class="ep-card" id="free"><h3>Free starter</h3><div class="pr">$0</div><div class="who">See the question style before you commit.</div><ul><li>10 exam-style TABE math questions, right on this page</li><li>Step-by-step explanation for every answer</li><li>Lesson 1 of every level's video course, free to watch</li></ul><a class="ep-btn ghost" href="#sample-quiz">Try 10 free questions</a></div>
+    <div class="ep-card feat"><span class="tag">Complete Prep · everything included</span><h3>The TABE prep pack for your level</h3><div class="pr">$19.99 <small>one-time</small></div><div class="who">Levels A, D and E, taught step by step.</div><ul><li><b>Video course</b>: 27–30 lessons per level, about 2–3 hours</li><li>13–20 timed online practice tests for your level</li><li>Follows the TABE 11 &amp; 12 blueprint lesson by lesson</li><li>Patient, plain-English teaching for adult learners</li><li>One study hub on any device, with progress tracking</li></ul><a class="ep-btn" href="#video-course">Choose your level — $19.99</a><p class="ep-have">Bought the pack or own the book? <a href="/study">Open your study hub →</a></p></div>
   </div>
 </section>
-<!-- VIDEO COURSE ($9.99, Payhip key -> /learn/<slug>) -->
+<!-- VIDEO COURSE + PRACTICE TESTS PACK ($19.99, Payhip key -> /learn/<slug> + online tests) -->
 <link rel="stylesheet" href="/css/video-course.css?v=2">
 <section class="vc" id="video-course">
  <div class="vc-in">
-  <div class="vc-head"><span class="vc-eye"><i></i>New · Video courses</span><h2>See every TABE math skill <em>taught step by step.</em></h2><p>Pick your level. Each course follows the TABE 11 &amp; 12 blueprint, lesson by lesson, so you know exactly what to study.</p></div>
+  <div class="vc-head"><h2>See every TABE math skill <em>taught step by step.</em></h2><p>Pick your level. Each course follows the TABE 11 &amp; 12 blueprint, lesson by lesson, so you know exactly what to study.</p></div>
   <div class="vc-tabs" role="tablist"><button class="vc-tab" role="tab" aria-selected="true" data-t="vc-tabe-a">Level A</button><button class="vc-tab" role="tab" aria-selected="false" data-t="vc-tabe-d">Level D</button><button class="vc-tab" role="tab" aria-selected="false" data-t="vc-tabe-e">Level E</button></div><div class="vc-card" id="vc-tabe-a" role="tabpanel">
   <div>
     <a class="vc-cover" href="https://payhip.com/b/pw4Rs" target="_blank" rel="noopener"><img src="/img/video-courses/TABE_A.jpg" alt="TABE Level A Math — Complete Video Course" loading="lazy"><span class="pl">▶ 30 HD video lessons</span></a>
     <div class="vc-stats"><div><b>30</b><span>lessons</span></div><div><b>2.8 h</b><span>of video</span></div><div><b>24/7</b><span>any device</span></div></div>
   </div>
   <div>
-    <h3 class="vc-title">TABE Level A Math — Complete Video Course</h3>
+    <h3 class="vc-title">TABE Level A Math — Video Course + Practice Tests</h3>
     <p class="vc-sub">The highest TABE math level — algebra, functions, geometry and statistics — taught clearly from the ground up.</p>
-    <ul class="vc-list"><li>30 lessons that follow the TABE 11 &amp; 12 Level A blueprint</li><li>Foundation review first, so no learner is left behind</li><li>Step-by-step worked examples on every skill tested</li><li>About 2.8 hours — ideal for a two-week study plan</li><li>Pairs with the Level A workbook and its 20 online tests</li></ul>
+    <ul class="vc-list"><li><b>Includes 20 timed online practice tests (1,000 questions)</b>, every answer explained</li><li>30 lessons that follow the TABE 11 &amp; 12 Level A blueprint</li><li>Foundation review first, so no learner is left behind</li><li>Step-by-step worked examples on every skill tested</li><li>About 2.8 hours — ideal for a two-week study plan</li><li>Pairs with the Level A workbook and its 20 online tests</li></ul>
   </div>
     <div class="vc-buy">
-      <div class="vc-price"><b>$9.99</b><span>One-time payment</span></div>
+      <div class="vc-price"><b>$19.99</b><span>One-time payment</span></div>
       <div class="vc-note">No subscription. Instant access key by email — stream on phone, tablet or computer.</div>
-      <a class="vc-btn" href="https://payhip.com/b/pw4Rs" target="_blank" rel="noopener">Get the video course — $9.99</a>
-      <div class="vc-alt"><a href="/learn/tabe-a">Already bought? Start watching →</a><span>Own the book? <a href="#unlock">It's free with your book code</a></span></div>
+      <a class="vc-btn" href="https://payhip.com/b/pw4Rs" target="_blank" rel="noopener">Get the pack — $19.99</a>
+      <div class="vc-alt"><a href="/learn/tabe-a">Already bought? Start watching →</a><span>Own the book? <a href="/study">It's free with your book code</a></span></div>
       <div class="vc-trust"><span>🔒 Secure checkout by Payhip</span><span>💳 Card &amp; PayPal</span><span>🎓 CertPath Publishing</span></div>
     </div>
 </div>
@@ -164,15 +105,15 @@
     <div class="vc-stats"><div><b>30</b><span>lessons</span></div><div><b>2.8 h</b><span>of video</span></div><div><b>24/7</b><span>any device</span></div></div>
   </div>
   <div>
-    <h3 class="vc-title">TABE Level D Math — Complete Video Course</h3>
+    <h3 class="vc-title">TABE Level D Math — Video Course + Practice Tests</h3>
     <p class="vc-sub">Signed numbers, ratios, percents, expressions, equations and geometry — the middle-school skills Level D tests.</p>
-    <ul class="vc-list"><li>30 lessons that follow the TABE 11 &amp; 12 Level D blueprint</li><li>Real-world percent, tax, tip and interest problems made simple</li><li>Step-by-step worked examples on every skill tested</li><li>About 2.8 hours — easy to finish in a week or two</li><li>Pairs with the Level D workbook and its 13 online tests</li></ul>
+    <ul class="vc-list"><li><b>Includes 13 timed online practice tests (650 questions)</b>, every answer explained</li><li>30 lessons that follow the TABE 11 &amp; 12 Level D blueprint</li><li>Real-world percent, tax, tip and interest problems made simple</li><li>Step-by-step worked examples on every skill tested</li><li>About 2.8 hours — easy to finish in a week or two</li><li>Pairs with the Level D workbook and its 13 online tests</li></ul>
   </div>
     <div class="vc-buy">
-      <div class="vc-price"><b>$9.99</b><span>One-time payment</span></div>
+      <div class="vc-price"><b>$19.99</b><span>One-time payment</span></div>
       <div class="vc-note">No subscription. Instant access key by email — stream on phone, tablet or computer.</div>
-      <a class="vc-btn" href="https://payhip.com/b/Mavlg" target="_blank" rel="noopener">Get the video course — $9.99</a>
-      <div class="vc-alt"><a href="/learn/tabe-d">Already bought? Start watching →</a><span>Own the book? <a href="#unlock">It's free with your book code</a></span></div>
+      <a class="vc-btn" href="https://payhip.com/b/Mavlg" target="_blank" rel="noopener">Get the pack — $19.99</a>
+      <div class="vc-alt"><a href="/learn/tabe-d">Already bought? Start watching →</a><span>Own the book? <a href="/study">It's free with your book code</a></span></div>
       <div class="vc-trust"><span>🔒 Secure checkout by Payhip</span><span>💳 Card &amp; PayPal</span><span>🎓 CertPath Publishing</span></div>
     </div>
 </div>
@@ -182,15 +123,15 @@
     <div class="vc-stats"><div><b>27</b><span>lessons</span></div><div><b>2.2 h</b><span>of video</span></div><div><b>24/7</b><span>any device</span></div></div>
   </div>
   <div>
-    <h3 class="vc-title">TABE Level E Math — Complete Video Course</h3>
+    <h3 class="vc-title">TABE Level E Math — Video Course + Practice Tests</h3>
     <p class="vc-sub">Place value, the four operations, fractions, measurement and story problems — a calm, confidence-building start.</p>
-    <ul class="vc-list"><li>27 lessons that follow the TABE 11 &amp; 12 Level E blueprint</li><li>Patient, plain-English teaching for adult learners returning to math</li><li>Lots of story-problem practice — exactly how the test asks</li><li>About 2.2 hours of video in short, friendly lessons</li><li>Pairs with the Level E workbook and its 14 online tests</li></ul>
+    <ul class="vc-list"><li><b>Includes 14 timed online practice tests (490 questions)</b>, every answer explained</li><li>27 lessons that follow the TABE 11 &amp; 12 Level E blueprint</li><li>Patient, plain-English teaching for adult learners returning to math</li><li>Lots of story-problem practice — exactly how the test asks</li><li>About 2.2 hours of video in short, friendly lessons</li><li>Pairs with the Level E workbook and its 14 online tests</li></ul>
   </div>
     <div class="vc-buy">
-      <div class="vc-price"><b>$9.99</b><span>One-time payment</span></div>
+      <div class="vc-price"><b>$19.99</b><span>One-time payment</span></div>
       <div class="vc-note">No subscription. Instant access key by email — stream on phone, tablet or computer.</div>
-      <a class="vc-btn" href="https://payhip.com/b/vxU07" target="_blank" rel="noopener">Get the video course — $9.99</a>
-      <div class="vc-alt"><a href="/learn/tabe-e">Already bought? Start watching →</a><span>Own the book? <a href="#unlock">It's free with your book code</a></span></div>
+      <a class="vc-btn" href="https://payhip.com/b/vxU07" target="_blank" rel="noopener">Get the pack — $19.99</a>
+      <div class="vc-alt"><a href="/learn/tabe-e">Already bought? Start watching →</a><span>Own the book? <a href="/study">It's free with your book code</a></span></div>
       <div class="vc-trust"><span>🔒 Secure checkout by Payhip</span><span>💳 Card &amp; PayPal</span><span>🎓 CertPath Publishing</span></div>
     </div>
 </div>
@@ -302,8 +243,8 @@
       <div>
         <h2>Resources</h2>
         <ul>
-          <li><a href="/exams?practice=free">Free practice</a></li>
-          <li><a href="/blog/">Blog</a></li>
+          <li><a href="/free-practice">Free practice</a></li>
+          <li><a href="/blog/">Articles</a></li>
           <li><a href="/#videos">Video lessons</a></li>
           <li><a href="https://www.youtube.com/@certpathpublishing" target="_blank" rel="noopener">YouTube channel ↗</a></li>
           <li><a href="https://www.amazon.com/CertPath-Publishing/e/B0GWVSPBJT" target="_blank" rel="noopener">Amazon author page ↗</a></li>
@@ -312,8 +253,6 @@
       <div>
         <h2>Company</h2>
         <ul>
-          <li><a href="/#approach">How it works</a></li>
-          <li><a href="/#proof">How the books are made</a></li>
           <li><a href="mailto:support@certpathpublishing.store">Contact</a></li>
         </ul>
       </div>
@@ -433,6 +372,6 @@
     render();
   })();
   </script>
-  <script src="/js/premium.js?v=13" defer></script>
+  <script src="/js/premium.js?v=21" defer></script>
 </body>
 </html>

@@ -220,73 +220,81 @@ footer.ft{background:var(--navy-2);color:rgba(255,255,255,.72);padding:64px 0 40
   .course-grid{grid-template-columns:1fr}
   .nav .lnk{display:none}
 }
+.paths{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:44px;text-align:left;align-items:stretch}
+.path{background:#fff;border:1px solid var(--line);border-radius:18px;padding:30px 28px;box-shadow:var(--sh-sm);display:flex;flex-direction:column;position:relative}
+.path.feat{border:2px solid var(--gold);box-shadow:var(--sh-lg);transform:translateY(-8px)}
+.path .tag{position:absolute;top:-13px;left:50%;transform:translateX(-50%);background:var(--gold);color:var(--navy-2);font-size:11.5px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;padding:5px 12px;border-radius:999px;white-space:nowrap}
+.path h3{font-size:19px;font-weight:800;color:var(--navy);margin-bottom:4px}
+.path .pr{font-size:38px;font-weight:800;color:var(--navy);letter-spacing:-.03em;line-height:1.1;margin:10px 0 2px}
+.path .pr small{font-size:14px;font-weight:500;color:var(--muted);letter-spacing:0}
+.path .who{font-size:14px;color:var(--muted);margin-bottom:18px}
+.path ul{list-style:none;display:flex;flex-direction:column;gap:10px;margin-bottom:24px;flex:1}
+.path li{font-size:14.5px;line-height:1.45;padding-left:24px;position:relative;color:var(--body)}
+.path li::before{content:"✓";position:absolute;left:0;color:var(--green);font-weight:800}
+.path li a{font-weight:700;text-decoration:underline;text-underline-offset:3px}
+.path .btn{width:100%}
+.paths.two{grid-template-columns:repeat(2,1fr);max-width:860px;margin-left:auto;margin-right:auto}
+@media(max-width:960px){.paths,.paths.two{grid-template-columns:1fr}.path.feat{transform:none}}
+.paths-band{background:radial-gradient(1100px 520px at 50% -12%,var(--navy-line) 0%,var(--navy) 46%,var(--navy-2) 100%);padding:64px 0 120px}
+.paths-band .eyebrow{color:var(--gold)}
+.paths-band .paths-h{color:#fff}
+.paths-band .ownbar{box-shadow:0 40px 90px rgba(6,12,26,.45)}
+.paths-h{font-size:46px;line-height:52px;color:var(--navy)}
+.paths-lead{color:#cbd5e1;font-size:18px;line-height:28px;max-width:44ch;margin:16px auto 0}
+.paths-band+.wrap .paths{margin-top:-56px;position:relative;z-index:2}
+.free-form{flex-direction:column;max-width:none;margin:0}
+.free-form input{flex:none;height:50px}
+.free-form .btn{height:50px}
+.free-note{margin-top:10px;font-size:12px;text-align:center}
+#free .hero-success h3{font-size:17px;text-align:center}
+.path-have{margin:12px 0 0;font-size:13.5px;color:var(--muted);text-align:center}
+#free.done .hero-form,#free.done .proof-row,#free.done .gate-note{display:none}
+#free.done .hero-success{display:block}
+.section.top{padding:0 0 104px}
+@media (max-width:860px){.paths-h{font-size:34px;line-height:40px}.section.top{padding:0 0 72px}.paths-band{padding:44px 0 96px}}
 </style>
 <link rel="stylesheet" href="/css/brand-header.css?v=1">
+<link rel="stylesheet" href="/css/premium.css?v=24">
+<style>.cp-shell{display:contents}.cp-shell .cp-header,.cp-shell .cp-drawer{font-family:var(--cp-sans);-webkit-font-smoothing:antialiased}</style>
 </head>
 <body>
 
 <!-- HEADER -->
-<header class="hdr">
-  <div class="wrap nav cpb-bar">
-    <a href="/" class="cpb-logo" aria-label="CertPath Publishing — home"><svg viewBox="0 0 40 46" width="30" height="35" aria-hidden="true"><path fill="#0E1F3F" d="M3 2h22l13 13v18L20.5 44 3 33z"/><path fill="#fff" d="M7.5 6.5H23V17h10.5v13.6L20.5 38.8 7.5 30.6z"/><path fill="#0E1F3F" d="M12.5 20.5h16v3h-16zM12.5 26.5h15v3h-15z"/></svg><span class="cpb-logo-word">CertPath<small>Publishing</small></span></a>
-    <span class="spacer"></span>
-    <a class="lnk" href="#outline">Exam Guide</a>
-    <a class="lnk" href="#system">Free Lessons</a>
-    <a class="lnk" href="#faq">FAQ</a>
-    <a class="btn btn-primary btn-sm" href="#free">Start Free Exam</a>
-  </div>
-</header>
-
-<!-- HERO -->
-<section class="hero" id="free">
-  <svg class="confetti" viewBox="0 0 1440 750" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
-       fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.9">
-    <!-- left cluster -->
-    <polygon points="120,150 172,242 68,242" stroke="#FFB800" stroke-width="5"/>
-    <circle cx="250" cy="342" r="26" stroke="#6EA8FF" stroke-width="5"/>
-    <path d="M100 470h34M117 453v34" stroke="#37C2B8" stroke-width="5"/>
-    <polyline points="60,610 100,568 140,610 180,568 220,610" stroke="#FFB800" stroke-width="5"/>
-    <circle cx="300" cy="176" r="9" fill="#FF7A6B"/>
-    <circle cx="188" cy="98" r="16" stroke="#FFB800" stroke-width="4"/>
-    <circle cx="60" cy="300" r="7" fill="#FFB800"/>
-    <circle cx="330" cy="470" r="7" fill="#6EA8FF"/>
-    <!-- right cluster -->
-    <polygon points="1322,176 1374,268 1270,268" stroke="#FF7A6B" stroke-width="5"/>
-    <circle cx="1152" cy="150" r="28" stroke="#FFB800" stroke-width="5"/>
-    <path d="M1366 300h34M1383 283v34" stroke="#6EA8FF" stroke-width="5"/>
-    <polyline points="1200,612 1240,570 1280,612 1320,570 1360,612" stroke="#37C2B8" stroke-width="5"/>
-    <circle cx="1120" cy="448" r="9" fill="#FFB800"/>
-    <circle cx="1392" cy="560" r="7" fill="#FFB800"/>
-    <circle cx="1300" cy="452" r="40" stroke="#FFB800" stroke-width="4" opacity="0.55"/>
-    <circle cx="1244" cy="120" r="8" fill="#6EA8FF"/>
-    <!-- top accents -->
-    <circle cx="690" cy="46" r="6" fill="#FFB800"/>
-    <path d="M760 40l14 14M774 40l-14 14" stroke="#FF7A6B" stroke-width="4"/>
-  </svg>
-
-  <div class="wrap">
-    <div class="hero-card">
-      <span class="hero-badge">CAPM® Certification · 2023 ECO</span>
-      <h1>Free CAPM Practice Exam</h1>
-      <p class="sub">Prepare with realistic, exam-aligned questions — full-length, timed and auto-scored. Free, instant, no credit card.</p>
-      <form class="hero-form" id="emailForm">
-        <input type="email" id="emailInput" placeholder="Enter your email" required autocomplete="email">
-        <button class="btn btn-primary" type="submit">Start Free CAPM Exam →</button>
-      </form>
-      <div class="gate-note" style="margin-top:8px;font-size:12px;opacity:.8">We'll email you study tips and occasional offers. Unsubscribe anytime. <a href="/privacy">Privacy</a></div>
-      <div class="proof-row">
-        <span>150 questions</span><span>Timed &amp; scored</span><span>Detailed explanations</span><span>No credit card</span>
-      </div>
-      <div class="gate-note">Already own the CertPath CAPM book? <a href="#owner">Unlock all 5 exams →</a></div>
-      <div class="gate-note" style="margin-top:6px">Rather not share an email? <a href="/sample?book=capm">Try 25 tough CAPM questions — no signup →</a></div>
-      <div class="hero-success">
-        <h3>✓ Exam 1 unlocked</h3>
-        <p style="font-size:14px;color:var(--muted);margin-bottom:14px">Your free full-length practice exam is ready.</p>
-        <a class="btn btn-nav btn-block" href="#" id="startFreeBtn" style="max-width:340px;margin:0 auto">Start Practice Exam 1 →</a>
+<div class="cp cp-shell">
+<header class="cp-header">
+    <div class="cp-container cp-header-inner">
+      <a href="/" class="cp-logo" aria-label="CertPath Publishing — home">
+        <svg viewBox="0 0 40 46" width="30" height="35" aria-hidden="true"><path fill="#0E1F3F" d="M3 2h22l13 13v18L20.5 44 3 33z"/><path fill="#fff" d="M7.5 6.5H23V17h10.5v13.6L20.5 38.8 7.5 30.6z"/><path fill="#0E1F3F" d="M12.5 20.5h16v3h-16zM12.5 26.5h15v3h-15z"/></svg>
+        <span class="cp-logo-word">CertPath<small>Publishing</small></span>
+      </a>
+      <nav class="cp-nav" aria-label="Primary">
+        <a href="/exams" data-mega-trigger>Explore exams</a>
+        <a href="/free-practice">Free practice</a>
+        <a href="/blog/">Articles</a>
+        <a href="/access" class="cp-nav-access">Access my tests</a>
+      </nav>
+      <button type="button" class="cp-menu-btn" aria-expanded="false" aria-label="Open menu">
+        <svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><path d="M2 5h16M2 10h16M2 15h16" stroke="currentColor" stroke-width="1.75" fill="none"/></svg>
+      </button>
+    </div>
+    <div class="cp-mega" id="cp-mega">
+      <div class="cp-container">
+        <div class="cp-mega-inner"><p><a href="/exams">Browse the full exam directory →</a></p></div>
+        <div class="cp-mega-foot"><span>Only exams with published CertPath titles are listed.</span><a class="cp-textlink" href="/complete-prep">Search the full directory <span class="cp-arrow" aria-hidden="true">→</span></a></div>
       </div>
     </div>
+  </header>
+<div class="cp-drawer" role="dialog" aria-modal="true" aria-label="Menu">
+    <div class="cp-drawer-top"><span class="cp-logo-word">CertPath</span><button type="button" class="cp-drawer-close" aria-label="Close menu">✕</button></div>
+    <a href="/exams">Explore exams <span aria-hidden="true">→</span></a>
+    <a href="/free-practice">Free practice <span aria-hidden="true">→</span></a>
+    <a href="/blog/">Articles <span aria-hidden="true">→</span></a>
+    <a href="/access" class="cp-btn cp-btn-primary">Access my tests</a>
   </div>
-</section>
+</div>
+
+<!-- HERO -->
+
 
 <!-- TRUST BAND -->
 <section class="trust">
@@ -303,59 +311,8 @@ footer.ft{background:var(--navy-2);color:rgba(255,255,255,.72);padding:64px 0 40
   </div>
 </section>
 
-<!-- BOOK OWNER (Door 1) -->
-<section class="section tight paper" id="owner">
-  <div class="wrap center">
-    <span class="eyebrow">Already purchased?</span>
-    <h2 class="h2">Enter your access code</h2>
-    <p class="intro">Bought the CertPath CAPM book? Enter the access code from the last page to unlock all five practice exams.</p>
-    <form id="codeForm" style="display:flex;gap:10px;max-width:460px;margin:26px auto 0">
-      <input type="text" id="codeInput" placeholder="CAPM-XXXXX-XXXXX" autocomplete="off" style="flex:1;height:54px;border:1.5px solid var(--line);border-radius:12px;padding:0 16px;font-size:16px;font-family:inherit;text-transform:uppercase">
-      <button class="btn btn-nav" type="submit">Unlock</button>
-    </form>
-    <p style="font-size:13px;color:var(--muted);margin-top:14px">Your code is printed on the last page of your book.</p>
-  </div>
-</section>
 
-<!-- FREE LESSONS ON YOUTUBE + BOOK -->
-<section class="section" id="system">
-  <div class="wrap center">
-    <span class="eyebrow">Free CAPM video lessons</span>
-    <h2 class="h2">Watch free, then drill with the book.</h2>
-    <p class="intro">Short CAPM lessons on YouTube, built to the 2023 CAPM Examination Content Outline — free, no sign-up.</p>
-  </div>
-  <div class="pkg-card">
-    <div class="pkg-body">
-      <h3>CertPath CAPM Exam Prep</h3>
-      <div class="lead-sm">Built to the 2023 CAPM Examination Content Outline.</div>
-      <ul class="pkg-list">
-        <li><div class="ic">🎬</div><div><b>8 video lessons — free</b><span>Eligibility, exam format, the WBS, critical path, EVM, Scrum, business analysis and a final revision pass.</span></div></li>
-        <li><div class="ic">📘</div><div><b>CAPM Exam Prep (paperback)</b><span>The full study guide, with an access code for 5 full-length online exams — 750 questions with explanations. <a href="https://www.amazon.com/dp/B0HHZQLD39" target="_blank" rel="noopener">Buy on Amazon ↗</a></span></div></li>
-      </ul>
-      <a class="btn btn-primary" href="/books/capm" id="buyBtn" style="min-width:280px">Watch the free lessons →</a>
-    </div>
-    <div class="pkg-visual"><img src="img/capm-product-hero.png" alt="CertPath CAPM Exam Prep"></div>
-  </div>
-</section>
 
-<!-- PROOF / AUTHORITY BAND -->
-<section class="section proof-band">
-  <div class="wrap center">
-    <span class="eyebrow">Why candidates trust CertPath</span>
-    <h2 class="h2">Built to be trusted, not just sold.</h2>
-    <p class="intro">No repackaged old-edition content, no filler. Every question and lesson is written to the current exam and checked for accuracy.</p>
-    <div class="grid">
-      <div class="proof-item"><div class="ic">🎯</div><b>Written to the 2023 ECO</b><p>Mapped 1:1 to the current CAPM Examination Content Outline — the exam PMI gives today.</p></div>
-      <div class="proof-item"><div class="ic">🔍</div><b>Independently verified</b><p>Answer keys and explanations reviewed for accuracy, with balanced answer distribution.</p></div>
-      <div class="proof-item"><div class="ic">🧩</div><b>Blueprint-mapped</b><p>Every item mapped to the four current CAPM domains — the way the exam actually tests you.</p></div>
-      <div class="proof-item"><div class="ic">♾️</div><b>Yours for good</b><p>One payment, lifetime access on any device. No subscription and no expiry.</p></div>
-    </div>
-    <div class="proof-author">
-      <div class="av">PC</div>
-      <div style="text-align:left"><b>Created by Prasad Chandrasekaran, Founder — CertPath Publishing</b><br><span>An independent exam-prep publisher writing to the current official outline.</span></div>
-    </div>
-  </div>
-</section>
 
 <!-- EXAM OUTLINE -->
 <section class="section paper" id="outline">
@@ -423,7 +380,6 @@ footer.ft{background:var(--navy-2);color:rgba(255,255,255,.72);padding:64px 0 40
       <details><summary>Is this aligned to the current (2023) exam? <span class="pm">+</span></summary><p>Yes — everything maps 1:1 to the current CAPM Examination Content Outline: Project Management Fundamentals &amp; Core Concepts 36%, Predictive Plan-Based Methodologies 17%, Agile Frameworks 20%, and Business Analysis Frameworks 27%.</p></details>
       <details><summary>I bought the CertPath CAPM book — how do I get my tests? <span class="pm">+</span></summary><p>Use the access code printed on the last page in the "Already purchased?" box above — it unlocks all five practice exams free.</p></details>
     </div>
-    <div class="faq-cta"><a class="btn btn-primary" href="#free">Start your free CAPM exam →</a></div>
   </div>
 </section>
 
@@ -432,12 +388,12 @@ footer.ft{background:var(--navy-2);color:rgba(255,255,255,.72);padding:64px 0 40
   <div class="wrap">
     <div class="ft-top">
       <div class="ft-brand">
-        <div class="lg"><svg viewBox="0 0 40 46" width="28" height="32" aria-hidden="true"><path fill="#fff" d="M3 2h22l13 13v18L20.5 44 3 33z"/><path fill="#fff" d="M7.5 6.5H23V17h10.5v13.6L20.5 38.8 7.5 30.6z"/><path fill="#0B1529" d="M12.5 20.5h16v3h-16zM12.5 26.5h15v3h-15z"/></svg>CERTPATH PUBLISHING</div>
+        <a href="/" class="cpb-logo dark lg" aria-label="CertPath Publishing — home"><svg viewBox="0 0 40 46" width="30" height="35" aria-hidden="true"><path fill="#fff" d="M3 2h22l13 13v18L20.5 44 3 33z"/><path fill="#101A30" d="M7.5 6.5H23V17h10.5v13.6L20.5 38.8 7.5 30.6z"/><path fill="#fff" d="M12.5 20.5h16v3h-16zM12.5 26.5h15v3h-15z"/></svg><span class="cpb-logo-word">CertPath<small>Publishing</small></span></a>
         <p>Study guides + realistic online practice for certification, licensing and professional exams.</p>
       </div>
       <div class="ft-cols">
-        <div class="ft-col"><h5>Product</h5><a href="#free">Free Exam</a><a href="#system">Free Lessons &amp; Book</a><a href="#outline">Exam Guide</a></div>
-        <div class="ft-col"><h5>Support</h5><a href="#owner">Redeem Book Code</a><a href="#faq">FAQ</a><a href="https://certpathpublishing.store">CertPath Home</a><a href="/exams">All exams</a><a href="/blog/">Blog</a><a href="/privacy">Privacy</a><a href="/terms">Terms</a><a href="/refunds">Refunds</a></div>
+        <div class="ft-col"><h5>Product</h5><a href="/free-practice">Free practice</a><a href="#system">Book &amp; video course</a><a href="#outline">Exam Guide</a></div>
+        <div class="ft-col"><h5>Support</h5><a href="/study/capm">Redeem Book Code</a><a href="#faq">FAQ</a><a href="https://certpathpublishing.store">CertPath Home</a><a href="/exams">All exams</a><a href="/blog/">Articles</a><a href="/privacy">Privacy</a><a href="/terms">Terms</a><a href="/refunds">Refunds</a></div>
         <div class="ft-col"><h5>Contact</h5><a href="mailto:support@certpathpublishing.store">support@certpathpublishing.store</a></div>
       </div>
     </div>
@@ -474,7 +430,8 @@ footer.ft{background:var(--navy-2);color:rgba(255,255,255,.72);padding:64px 0 40
   }
   function hasFree(){ return getUnlocked().slugs.indexOf(FREE_SLUG)!==-1; }
 
-  var hero=document.querySelector('.hero');
+  var hero=document.getElementById('free');
+  if(!hero) return;
 
   // Free Exam 1 — capture the lead, unlock the free bank, reveal the start button.
   document.getElementById('emailForm').addEventListener('submit',function(e){
@@ -490,83 +447,11 @@ footer.ft{background:var(--navy-2);color:rgba(255,255,255,.72);padding:64px 0 40
     document.getElementById('startFreeBtn').setAttribute('href',FREE_QUIZ);
   });
 
-  // Book owners → the real access-code page (unlocks all 5 exams).
-  // SHA-256 of the normalized (A-Z0-9) Complete-System access code.
-  var COURSE_HASH='f95267986b16310d4dfddfcc92af15951c3579979cc3a938035a4f861848f1eb';
-
-  // ---- owner super code ------------------------------------------------------
-  // On localhost the super code is checked against its hash so the whole site can be
-  // reviewed offline. On the live site it is only ever verified SERVER-SIDE
-  // (/api/redeem-course compares it with the SUPER_ACCESS_CODE secret in Cloudflare),
-  // so the code that opens the paid course never ships in a public file.
-  var IS_LOCAL=/^(localhost|127\.0\.0\.1)$/.test(location.hostname);
-  var SUPER_HASH='dd5ae6084185c2278b0f461123219497afad35d8f089cd8a856b8d6f282dfce8';
-  function grantAll(){try{
-    var owner=JSON.stringify({tier:'complete',code:'OWNER',ts:Date.now()});
-    localStorage.setItem('certpath_unlocked',JSON.stringify({slugs:[],isAdmin:true}));
-    localStorage.setItem('certpath_pmp_access',owner);
-    localStorage.setItem('certpath_capm_access',owner);
-  }catch(e){}}
-  function checkSuper(code,hash){
-    if(IS_LOCAL) return Promise.resolve(hash===SUPER_HASH);
-    return fetch('/api/redeem-course',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({code:code,superOnly:true})})
-      .then(function(r){return r.json()}).then(function(d){return !!(d&&d.ok&&d.super)}).catch(function(){return false});
-  }
-  function normCode(s){return (s||'').toUpperCase().replace(/[^A-Z0-9]/g,'');}
-  function sha256hex(s){return crypto.subtle.digest('SHA-256',new TextEncoder().encode(s)).then(function(h){return Array.prototype.map.call(new Uint8Array(h),function(b){return ('0'+b.toString(16)).slice(-2)}).join('')});}
-  function unlockComplete(code){
-    try{localStorage.setItem('certpath_capm_access',JSON.stringify({tier:'complete',code:code,ts:Date.now()}));}catch(e){}
-    grant('capm'); // unlock the 5 full-length exams bank
-    location.href='/capm-course';
-  }
-  document.getElementById('codeForm').addEventListener('submit',function(e){
-    e.preventDefault();
-    var raw=document.getElementById('codeInput').value.trim(); if(!raw)return;
-    var btn=this.querySelector('button'), orig=btn.textContent; btn.disabled=true; btn.textContent='Checking…';
-    sha256hex(normCode(raw)).then(function(h){
-      if(h===COURSE_HASH){ unlockComplete(raw.toUpperCase()); return; }
-      checkSuper(raw,h).then(function(isSuper){
-        if(isSuper){ grantAll(); unlockComplete('OWNER'); }
-        else { try{sessionStorage.setItem('certpath_pending_code',raw.toUpperCase());}catch(e){} location.href='/access?book=capm'; } // book access code
-      });
-    }).catch(function(){ try{sessionStorage.setItem('certpath_pending_code',raw.toUpperCase());}catch(e){} location.href='/access?book=capm'; });
-  });
-
-
-  // Returning customer: this browser already holds access, so don't ask for the code
-  // again — greet them and link straight to what they own. (Access lives in this
-  // browser's storage: a private window, another browser or another device starts clean.)
-  (function(){
-    var course=null; try{course=JSON.parse(localStorage.getItem('certpath_capm_access')||'null');}catch(e){}
-    var u=getUnlocked();
-    var ownsCourse=!!(course&&course.tier==='complete');
-    var ownsBook=ownsCourse||!!u.isAdmin||(u.slugs||[]).indexOf('capm')!==-1;
-    if(!ownsBook) return;
-    var owner=document.getElementById('owner');
-    if(owner){
-      owner.querySelector('.wrap').innerHTML=
-        '<span class="eyebrow">Welcome back'+(function(){var n='';try{n=(localStorage.getItem('certpath_name')||'').replace(/[<>&"]/g,'');}catch(e){}return n?', '+n:'';})()+'</span>'+
-        '<h2 class="h2">'+(ownsCourse?'Your CAPM course and exams are unlocked':'Your CAPM practice exams are unlocked')+'</h2>'+
-        '<p class="intro">'+(ownsCourse?'Pick up where you left off — your videos, practice exams and cheat sheets are all open on this browser.':'Your full-length practice exams are open on this browser.')+'</p>'+
-        '<div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:26px">'+
-          (ownsCourse?'<a class="btn btn-nav" href="/capm-course">Open my video course →</a>':'')+
-          '<a class="btn '+(ownsCourse?'btn-primary':'btn-nav')+'" href="/access?book=capm">Open my practice exams →</a>'+
-        '</div>'+
-        '<p style="font-size:13px;color:var(--muted);margin-top:16px">Using a private window, another browser or a new device? Enter your code once there too. <a href="#" id="reenterCode" style="color:inherit;text-decoration:underline">Enter a different code</a></p>';
-      var re=document.getElementById('reenterCode');
-      if(re) re.addEventListener('click',function(e){e.preventDefault();location.href='/access';});
-    }
-    if(ownsCourse){
-      var buy=document.getElementById('buyBtn');
-      if(buy){ buy.textContent='You own this — open my course →'; buy.setAttribute('href','/capm-course'); buy.removeAttribute('target'); }
-      var nav=document.querySelector('a.btn.btn-primary.btn-sm[href="#free"]');
-      if(nav){ nav.textContent='My course'; nav.setAttribute('href','/capm-course'); }
-    }
-  })();
 
   // Returning free lead: keep the exam ready.
   if(hasFree()){ hero.classList.add('done'); document.getElementById('startFreeBtn').setAttribute('href',FREE_QUIZ); }
 })();
 </script>
+<script src="/js/premium.js?v=21" defer></script>
 </body>
 </html>

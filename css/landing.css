@@ -145,3 +145,7 @@
   .lp-course-section, .lp-facts { padding: 3rem 1rem; }
   .lp-lessons { grid-template-columns: repeat(2, 1fr); gap: 1rem; }
 }
+/* Book CTA without a second cover (the hero already shows it): one column with a gold accent */
+.lp-book-cta:not(:has(.lp-book-cta-cover)) { grid-template-columns: 1fr; border-left: 4px solid #FFB800; }
+/* Multi-book pages: a study photo in the hero, since every cover already appears in the book cards */
+.lp-hero-photo { display: block; width: 100%; max-width: 400px; aspect-ratio: 4 / 5; object-fit: cover; border-radius: 18px; box-shadow: 0 24px 60px rgba(8, 19, 38, .35); margin-left: auto; }

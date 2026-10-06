@@ -27,6 +27,10 @@
     }
     $('#testsGrid').innerHTML = html;
     $('#seqNote').hidden = !cfg.sequential;
+    // Book owners also get the video course: show it right under their tests.
+    var vt = document.getElementById('videoTile');
+    if (!vt) { vt = document.createElement('div'); vt.id = 'videoTile'; $('.cp-tests').appendChild(vt); }
+    vt.innerHTML = videoTileHTML(cfg.slug);
   }
 
   function setState(owner) {
@@ -75,7 +79,7 @@
 
     btn.disabled = true; btn.textContent = 'Checking your code…';
     var result;
-    try { result = await validateCode(code); }
+    try { result = await validateCode(code, email); }
     catch (e) { fail("We couldn't connect. Your entry is still here — please try again."); return; }
     finally { btn.disabled = false; btn.textContent = label; }
 
@@ -88,6 +92,7 @@
     if (result.isAdmin) await grantOwnerCourses(code);
     else { cur.slugs = Array.from(new Set((cur.slugs || []).concat(slugs))); }
     setUnlocked(cur);
+    await unlockVideoFor(code, slugs);
     if (email) setEmail(email);
     var firstName = ($('#ownerName') || {}).value || '';
     if (firstName.trim()) setName(firstName);
@@ -118,6 +123,7 @@
     $('#alsoUnlocked').innerHTML = '<b>Your code also unlocked:</b> ' + others.map(function (b) {
       return '<a href="/books/' + encodeURIComponent(b.slug) + '">' + String(b.title).replace(/</g, '&lt;') + '</a>';
     }).join(' · ');
+    $('#siblings').hidden = false;
   }
 
   setState(owns());

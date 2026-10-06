@@ -17,13 +17,13 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/css/style.css?v=10">
-  <link rel="stylesheet" href="/css/landing.css?v=2">
+  <link rel="stylesheet" href="/css/landing.css?v=4">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is the CSP exam?","acceptedAnswer":{"@type":"Answer","text":"The Certified Safety Professional exam is the BCSP credential for experienced safety professionals. The current exam has 200 questions (175 scored) in 5.5 hours and follows the CSP11 blueprint, effective August 1, 2025."}},{"@type":"Question","name":"What are the CSP exam domains?","acceptedAnswer":{"@type":"Answer","text":"Seven: Advanced Application of Safety Principles (25%), Program Management (25%), Risk Management (15%), Emergency Management (9%), Environmental Management (6%), Occupational Health and Applied Science (10%), and Training and Communication (10%). Our book is weighted to match exactly."}},{"@type":"Question","name":"Am I eligible for the CSP?","acceptedAnswer":{"@type":"Answer","text":"BCSP requires a qualifying degree, four years of safety experience where safety is at least half your duties, and holding the Associate Safety Professional (ASP) credential first. Always confirm the current requirements with BCSP."}},{"@type":"Question","name":"How is the CSP different from older study guides?","acceptedAnswer":{"@type":"Answer","text":"Many older guides still teach a 9-domain scheme that is missing Risk Management entirely. Our edition is rebuilt to the 7-domain CSP11 blueprint, so you study what is actually on the current exam."}},{"@type":"Question","name":"What is included with the CertPath book?","acceptedAnswer":{"@type":"Answer","text":"A full review of all seven CSP11 domains, 400+ practice questions with explanations, mixed practice sets, and free timed online practice tests via the access code inside."}}]}</script>
   <!-- premium-shell -->
   <script>document.documentElement.classList.add('cp-js');setTimeout(function(){if(!window.__cpReady)document.documentElement.classList.remove('cp-js')},2500);</script>
   <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;1,8..60,400&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/css/premium.css?v=11">
-  <link rel="stylesheet" href="/css/premium-bridge.css?v=1">
+  <link rel="stylesheet" href="/css/premium.css?v=24">
+  <link rel="stylesheet" href="/css/premium-bridge.css?v=2">
 </head>
 <body class="cp">
   <a class="cp-skip" href="#content">Skip to content</a>
@@ -36,9 +36,8 @@
       </a>
       <nav class="cp-nav" aria-label="Primary">
         <a href="/exams" data-mega-trigger>Explore exams</a>
-        <a href="/exams?practice=free">Free practice</a>
-        <a href="/#approach">How it works</a>
-        <a href="/blog/">Resources</a>
+        <a href="/free-practice">Free practice</a>
+        <a href="/blog/">Articles</a>
         <a href="/access" class="cp-nav-access">Access my tests</a>
       </nav>
       <button type="button" class="cp-menu-btn" aria-expanded="false" aria-label="Open menu">
@@ -48,17 +47,16 @@
     <div class="cp-mega" id="cp-mega">
       <div class="cp-container">
         <div class="cp-mega-inner"><p><a href="/exams">Browse the full exam directory →</a></p></div>
-        <div class="cp-mega-foot"><span>Only exams with published CertPath titles are listed.</span><a class="cp-textlink" href="/exams">Search the full directory <span class="cp-arrow" aria-hidden="true">→</span></a></div>
+        <div class="cp-mega-foot"><span>Only exams with published CertPath titles are listed.</span><a class="cp-textlink" href="/complete-prep">Search the full directory <span class="cp-arrow" aria-hidden="true">→</span></a></div>
       </div>
     </div>
   </header>
 
-  <div class="cp-drawer" role="dialog" aria-modal="true" aria-label="Menu">
+  <span id="content"></span><div class="cp-drawer" role="dialog" aria-modal="true" aria-label="Menu">
     <div class="cp-drawer-top"><span class="cp-logo-word">CertPath</span><button type="button" class="cp-drawer-close" aria-label="Close menu">✕</button></div>
     <a href="/exams">Explore exams <span aria-hidden="true">→</span></a>
-    <a href="/exams?practice=free">Free practice <span aria-hidden="true">→</span></a>
-    <a href="/#approach">How it works <span aria-hidden="true">→</span></a>
-    <a href="/blog/">Resources <span aria-hidden="true">→</span></a>
+    <a href="/free-practice">Free practice <span aria-hidden="true">→</span></a>
+    <a href="/blog/">Articles <span aria-hidden="true">→</span></a>
     <a href="/access" class="cp-btn cp-btn-primary">Access my tests</a>
   </div>
 
@@ -101,30 +99,23 @@
     </div>
   </section>
 
-  <section class="lp-books">
+  <section class="lp-books" id="book">
     <div class="lp-books-inner">
-      <div class="lp-section-head">
-        <div class="eyebrow">The Books</div>
-        <h2>Complete CSP Prep</h2>
-        <p>Every book includes free timed online practice tests — no subscription required.</p>
-      </div>
-      <div class="lp-books-grid">
-        <div class="lp-book-card">
-          <a href="https://www.amazon.com/dp/B0GXDZ91DZ" target="_blank" rel="noopener"><img src="/img/covers/csp.webp" alt="CSP Exam Study Guide" loading="lazy"></a>
-          <h3>CSP Exam Study Guide</h3>
-          <div class="meta">3 online tests &middot; 180 questions included</div>
-          <div class="row">
-            <a href="https://www.amazon.com/dp/B0GXDZ91DZ" class="btn btn-sm" target="_blank" rel="noopener">Paperback $19.99</a>
+      <div class="lp-book-cta">
+        <div class="lp-book-cta-body">
+          <div class="eyebrow">The Book · Sold on Amazon</div>
+          <h2>CSP Exam Study Guide</h2>
+          <p>All seven CSP11 blueprint domains explained with worked examples and practice questions — plus an access code for 3 timed online practice tests (180 questions, each explained).</p>
+          <ul class="lp-book-points">
+            <li>3 timed online tests, auto-scored, on any device</li>
+            <li>Paperback sold only on Amazon — buy new from Amazon.com for the current edition</li>
+          </ul>
+          <div class="lp-book-cta-row">
+            <a href="https://www.amazon.com/dp/B0GXDZ91DZ" class="btn btn-lg" target="_blank" rel="noopener">Buy on Amazon — $19.99</a>
           </div>
+          <p class="lp-book-cta-have">Already have the book? <a href="/books/csp">Open your practice tests →</a></p>
         </div>
-        <div class="lp-book-card">
-          <a href="https://www.amazon.com/dp/B0GXJ74XG7" target="_blank" rel="noopener"><img src="/img/covers/chst.webp" alt="CHST Exam Study Guide" loading="lazy"></a>
-          <h3>CHST Exam Study Guide</h3>
-          <div class="meta">3 online tests &middot; 180 questions included</div>
-          <div class="row">
-            <a href="https://www.amazon.com/dp/B0GXJ74XG7" class="btn btn-sm" target="_blank" rel="noopener">Paperback $19.99</a>
-          </div>
-        </div></div>
+      </div>
     </div>
   </section>
 
@@ -164,8 +155,8 @@
       <div>
         <h2>Resources</h2>
         <ul>
-          <li><a href="/exams?practice=free">Free practice</a></li>
-          <li><a href="/blog/">Blog</a></li>
+          <li><a href="/free-practice">Free practice</a></li>
+          <li><a href="/blog/">Articles</a></li>
           <li><a href="/#videos">Video lessons</a></li>
           <li><a href="https://www.youtube.com/@certpathpublishing" target="_blank" rel="noopener">YouTube channel ↗</a></li>
           <li><a href="https://www.amazon.com/CertPath-Publishing/e/B0GWVSPBJT" target="_blank" rel="noopener">Amazon author page ↗</a></li>
@@ -174,8 +165,6 @@
       <div>
         <h2>Company</h2>
         <ul>
-          <li><a href="/#approach">How it works</a></li>
-          <li><a href="/#proof">How the books are made</a></li>
           <li><a href="mailto:support@certpathpublishing.store">Contact</a></li>
         </ul>
       </div>
@@ -197,7 +186,7 @@
 
   <script>
   (function () {
-    var QUESTIONS = [{"q":"A facility with 250 employees recorded 5 OSHA-recordable injuries in one year. Employees worked a total of 500,000 hours. What is the OSHA Total Recordable Incident Rate (TRIR)?","choices":["10.0","5.0","2.0","1.0"],"answer":"C","explanation":"TRIR = (Number of recordable injuries x 200,000) / Total hours worked = (5 x 200,000) / 500,000 = 2.0. The 200,000 factor represents 100 full-time equivalent workers at 2,000 hours/year."},{"q":"In a risk assessment matrix, risk is typically defined as:","choices":["Frequency multiplied by duration","Vulnerability multiplied by threat","Hazard multiplied by exposure","Probability multiplied by severity"],"answer":"D","explanation":"Risk is classically defined as the product of probability (likelihood of occurrence) and severity (consequence if it occurs). Risk assessment matrices plot these two dimensions to categorize and prioritize risks."},{"q":"Under OSHA recordkeeping requirements (29 CFR 1904), which of the following injuries must be recorded on the OSHA 300 Log?","choices":["A minor cut requiring only antiseptic treatment","A pre-existing condition unrelated to work","A first-aid-only injury treated with a bandage","A work-related injury resulting in days away from work"],"answer":"D","explanation":"Under 29 CFR 1904, work-related injuries resulting in death, days away from work, restricted work or transfer, medical treatment beyond first aid, loss of consciousness, or significant injury/illness must be recorded."},{"q":"In office ergonomics, the top of a computer monitor should be positioned at approximately:","choices":["Eye level or slightly below","12 inches below eye level","6 inches above eye level","The same height as the keyboard"],"answer":"A","explanation":"Ergonomic guidelines recommend positioning the top of the monitor at or slightly below eye level, approximately 20-26 inches from the eyes, with a slight downward viewing angle of 10-20 degrees to reduce neck strain."},{"q":"In James Reason's Swiss Cheese model, accidents occur when:","choices":["Employees refuse to wear PPE","Holes in multiple defense layers align simultaneously","A single unsafe act occurs","Management fails to conduct inspections"],"answer":"B","explanation":"James Reason's Swiss Cheese model describes how accidents result from holes (weaknesses) in multiple layers of defense aligning simultaneously, allowing a hazard to pass through all barriers."},{"q":"Ground-fault circuit interrupters (GFCIs) protect workers by:","choices":["Eliminating static electricity buildup","Preventing overloaded circuits","Detecting current imbalances between hot and neutral conductors and disconnecting power","Reducing voltage to safe levels"],"answer":"C","explanation":"GFCIs detect imbalances (as small as 4-6 milliamps) between the hot and neutral conductors, indicating current leakage through an unintended path (possibly a person). They disconnect power in approximately 1/40 of a second."},{"q":"Business continuity planning differs from emergency response planning in that business continuity:","choices":["Is only required for large corporations","Focuses only on life safety","Addresses the recovery and restoration of critical business functions after a disruption","Deals exclusively with natural disasters"],"answer":"C","explanation":"Business continuity planning focuses on maintaining and recovering critical business functions during and after a disruption. Emergency response focuses on immediate life safety and incident stabilization."},{"q":"A facility calculates its lost workday case rate at 4.2 compared to the BLS industry average of 2.8. The safety professional should FIRST:","choices":["Terminate the safety program","Analyze the types and causes of lost workday cases to identify trends","Immediately hire additional safety staff","Report the rate to OSHA"],"answer":"B","explanation":"When a rate exceeds the industry average, the first step is to analyze the data -- identifying types, causes, departments, and trends of lost workday cases to target improvement efforts effectively."},{"q":"Which route of chemical exposure is often the MOST overlooked in industrial settings?","choices":["Dermal (skin) absorption","Ingestion","Inhalation","Injection"],"answer":"A","explanation":"Dermal (skin) absorption is often the most overlooked route of exposure. Many solvents, pesticides, and other chemicals can be absorbed through intact skin. Air monitoring alone does not capture dermal exposure."},{"q":"Under the Emergency Planning and Community Right-to-Know Act (EPCRA), facilities storing hazardous chemicals above threshold quantities must submit inventory reports to:","choices":["The EPA Regional Administrator only","The facility's insurance provider","OSHA only","The local emergency planning committee (LEPC), state emergency response commission (SERC), and local fire department"],"answer":"D","explanation":"Under EPCRA Sections 311 and 312, facilities with hazardous chemicals above thresholds must submit Material Safety Data Sheets (or lists) and Tier I/II inventory reports to the LEPC, SERC, and local fire department."}];
+    var QUESTIONS = [{"q": "A facility with 250 employees recorded 5 OSHA-recordable injuries in one year. Employees worked a total of 500,000 hours. What is the OSHA Total Recordable Incident Rate (TRIR)?", "choices": ["10.0", "5.0", "2.0", "1.0"], "answer": "C", "explanation": "TRIR = (Number of recordable injuries x 200,000) / Total hours worked = (5 x 200,000) / 500,000 = 2.0. The 200,000 factor represents 100 full-time equivalent workers at 2,000 hours/year."}, {"q": "In a risk assessment matrix, risk is typically defined as:", "choices": ["Frequency multiplied by duration", "Vulnerability multiplied by threat", "Hazard multiplied by exposure", "Probability multiplied by severity"], "answer": "D", "explanation": "Risk is classically defined as the product of probability (likelihood of occurrence) and severity (consequence if it occurs). Risk assessment matrices plot these two dimensions to categorize and prioritize risks."}, {"q": "Under OSHA recordkeeping requirements (29 CFR 1904), which of the following injuries must be recorded on the OSHA 300 Log?", "choices": ["A minor cut treated only with antiseptic", "A pre-existing condition unrelated to work", "An injury causing days away from work", "A first-aid-only injury with a bandage"], "answer": "C", "explanation": "Under 29 CFR 1904, work-related injuries resulting in death, days away from work, restricted work or transfer, medical treatment beyond first aid, loss of consciousness, or significant injury/illness must be recorded."}, {"q": "In office ergonomics, the top of a computer monitor should be positioned at approximately:", "choices": ["Eye level or slightly below", "12 inches below eye level", "6 inches above eye level", "The same height as the keyboard"], "answer": "A", "explanation": "Ergonomic guidelines recommend positioning the top of the monitor at or slightly below eye level, approximately 20-26 inches from the eyes, with a slight downward viewing angle of 10-20 degrees to reduce neck strain."}, {"q": "In James Reason's Swiss Cheese model, accidents occur when:", "choices": ["Employees refuse to wear their PPE", "Holes in several defense layers line up", "A single unsafe act occurs on site", "Management skips scheduled inspections"], "answer": "B", "explanation": "James Reason's Swiss Cheese model describes how accidents result from holes (weaknesses) in multiple layers of defense aligning simultaneously, allowing a hazard to pass through all barriers."}, {"q": "Ground-fault circuit interrupters (GFCIs) protect workers by:", "choices": ["Draining static charge from tools and cords", "Stopping circuits from carrying too much load", "Sensing current imbalance and cutting power", "Lowering supply voltage to a safe touch level"], "answer": "C", "explanation": "GFCIs detect imbalances (as small as 4-6 milliamps) between the hot and neutral conductors, indicating current leakage through an unintended path (possibly a person). They disconnect power in approximately 1/40 of a second."}, {"q": "Business continuity planning differs from emergency response planning in that business continuity:", "choices": ["Is required only for large public companies", "Restores critical functions after a disruption", "Focuses only on life safety during evacuation", "Deals only with natural disasters like floods"], "answer": "B", "explanation": "Business continuity planning focuses on maintaining and recovering critical business functions during and after a disruption. Emergency response focuses on immediate life safety and incident stabilization."}, {"q": "A facility calculates its lost workday case rate at 4.2 compared to the BLS industry average of 2.8. The safety professional should FIRST:", "choices": ["Terminate the safety program and restart", "Analyze the types and causes of the cases", "Immediately hire additional safety staff", "Report the elevated rate to OSHA at once"], "answer": "B", "explanation": "When a rate exceeds the industry average, the first step is to analyze the data -- identifying types, causes, departments, and trends of lost workday cases to target improvement efforts effectively."}, {"q": "Which route of chemical exposure is often the MOST overlooked in industrial settings?", "choices": ["Dermal (skin) absorption", "Ingestion", "Inhalation", "Injection"], "answer": "A", "explanation": "Dermal (skin) absorption is often the most overlooked route of exposure. Many solvents, pesticides, and other chemicals can be absorbed through intact skin. Air monitoring alone does not capture dermal exposure."}, {"q": "Under the Emergency Planning and Community Right-to-Know Act (EPCRA), facilities storing hazardous chemicals above threshold quantities must submit inventory reports to:", "choices": ["The LEPC, the SERC and the local fire department", "The EPA Regional Administrator only", "The facility's insurance provider only", "The OSHA area office only"], "answer": "A", "explanation": "Under EPCRA Sections 311 and 312, facilities with hazardous chemicals above thresholds must submit Material Safety Data Sheets (or lists) and Tier I/II inventory reports to the LEPC, SERC, and local fire department."}];
     var EXAM = "CSP";
     var idx = 0, score = 0, answered = false;
     var body = document.getElementById('lpBody');
@@ -295,6 +284,6 @@
     render();
   })();
   </script>
-  <script src="/js/premium.js?v=13" defer></script>
+  <script src="/js/premium.js?v=21" defer></script>
 </body>
 </html>

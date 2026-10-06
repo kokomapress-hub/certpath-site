@@ -17,13 +17,13 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/css/style.css?v=10">
-  <link rel="stylesheet" href="/css/landing.css?v=2">
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How many questions are on the Digital SAT Math section?","acceptedAnswer":{"@type":"Answer","text":"The Digital SAT Math section has 44 questions across two 22-question adaptive modules, with 70 minutes total. The built-in Desmos calculator is available on every question."}},{"@type":"Question","name":"What topics does Digital SAT Math cover?","acceptedAnswer":{"@type":"Answer","text":"Four domains: Algebra (about 35%), Advanced Math (about 35%), Problem-Solving & Data Analysis (about 15%), and Geometry & Trigonometry (about 15%). Our books mirror this exact weighting."}},{"@type":"Question","name":"What is included with the CertPath SAT Math books?","acceptedAnswer":{"@type":"Answer","text":"Three SKUs: the complete study guide (lessons + 700+ questions), the workbook (700+ fresh drill problems), and 10 full-length practice tests. Every book unlocks 1,500+ additional timed online questions — and no question repeats across the three books."}},{"@type":"Question","name":"Are the online practice tests really free?","acceptedAnswer":{"@type":"Answer","text":"Yes. Every CertPath book includes a unique access code printed on the last page. Enter it at certpathpublishing.store/access to unlock timed, auto-scored practice tests on any device — no subscription."}},{"@type":"Question","name":"How do these questions compare to the real exam?","acceptedAnswer":{"@type":"Answer","text":"Questions follow the official College Board skill blueprint in format, difficulty range, and domain weighting, including multiple-choice and student-produced response formats."}}]}</script>
+  <link rel="stylesheet" href="/css/landing.css?v=4">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How many questions are on the Digital SAT Math section?","acceptedAnswer":{"@type":"Answer","text":"The Digital SAT Math section has 44 questions across two 22-question adaptive modules, with 70 minutes total. The built-in Desmos calculator is available on every question."}},{"@type":"Question","name":"What topics does Digital SAT Math cover?","acceptedAnswer":{"@type":"Answer","text":"Four domains: Algebra (about 35%), Advanced Math (about 35%), Problem-Solving & Data Analysis (about 15%), and Geometry & Trigonometry (about 15%). Our books mirror this exact weighting."}},{"@type":"Question","name":"What is included with the CertPath SAT Math books?","acceptedAnswer":{"@type":"Answer","text":"Three books: the complete study guide (lessons + 700+ questions), the workbook (700+ fresh drill problems), and a book of 10 full-length practice tests. Every book also unlocks 35+ timed online practice tests (1,500+ questions) — and no question repeats across the three books."}},{"@type":"Question","name":"Are the online practice tests really free?","acceptedAnswer":{"@type":"Answer","text":"Yes. Every CertPath book includes a unique access code printed on the last page. Enter it at certpathpublishing.store/access to unlock timed, auto-scored practice tests on any device — no subscription."}},{"@type":"Question","name":"How do these questions compare to the real exam?","acceptedAnswer":{"@type":"Answer","text":"Questions follow the official College Board skill blueprint in format, difficulty range, and domain weighting, including multiple-choice and student-produced response formats."}}]}</script>
   <!-- premium-shell -->
   <script>document.documentElement.classList.add('cp-js');setTimeout(function(){if(!window.__cpReady)document.documentElement.classList.remove('cp-js')},2500);</script>
   <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;1,8..60,400&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/css/premium.css?v=11">
-  <link rel="stylesheet" href="/css/premium-bridge.css?v=1">
+  <link rel="stylesheet" href="/css/premium.css?v=24">
+  <link rel="stylesheet" href="/css/premium-bridge.css?v=2">
 </head>
 <body class="cp">
   <a class="cp-skip" href="#content">Skip to content</a>
@@ -36,9 +36,8 @@
       </a>
       <nav class="cp-nav" aria-label="Primary">
         <a href="/exams" data-mega-trigger>Explore exams</a>
-        <a href="/exams?practice=free">Free practice</a>
-        <a href="/#approach">How it works</a>
-        <a href="/blog/">Resources</a>
+        <a href="/free-practice">Free practice</a>
+        <a href="/blog/">Articles</a>
         <a href="/access" class="cp-nav-access">Access my tests</a>
       </nav>
       <button type="button" class="cp-menu-btn" aria-expanded="false" aria-label="Open menu">
@@ -48,113 +47,55 @@
     <div class="cp-mega" id="cp-mega">
       <div class="cp-container">
         <div class="cp-mega-inner"><p><a href="/exams">Browse the full exam directory →</a></p></div>
-        <div class="cp-mega-foot"><span>Only exams with published CertPath titles are listed.</span><a class="cp-textlink" href="/exams">Search the full directory <span class="cp-arrow" aria-hidden="true">→</span></a></div>
+        <div class="cp-mega-foot"><span>Only exams with published CertPath titles are listed.</span><a class="cp-textlink" href="/complete-prep">Search the full directory <span class="cp-arrow" aria-hidden="true">→</span></a></div>
       </div>
     </div>
   </header>
 
-  <div class="cp-drawer" role="dialog" aria-modal="true" aria-label="Menu">
+  <span id="content"></span><div class="cp-drawer" role="dialog" aria-modal="true" aria-label="Menu">
     <div class="cp-drawer-top"><span class="cp-logo-word">CertPath</span><button type="button" class="cp-drawer-close" aria-label="Close menu">✕</button></div>
     <a href="/exams">Explore exams <span aria-hidden="true">→</span></a>
-    <a href="/exams?practice=free">Free practice <span aria-hidden="true">→</span></a>
-    <a href="/#approach">How it works <span aria-hidden="true">→</span></a>
-    <a href="/blog/">Resources <span aria-hidden="true">→</span></a>
+    <a href="/free-practice">Free practice <span aria-hidden="true">→</span></a>
+    <a href="/blog/">Articles <span aria-hidden="true">→</span></a>
     <a href="/access" class="cp-btn cp-btn-primary">Access my tests</a>
   </div>
 
 <!-- BOOK OWNERS: printed code -> video course + online tests -->
 <link rel="stylesheet" href="/css/book-unlock.css?v=1">
-<section class="bu-hero" id="unlock">
-  <div class="bu-card">
-    <span class="bu-badge">For CertPath SAT Math book owners</span>
-    <h1>Unlock your <span class="gold">SAT Math</span> course &amp; practice tests</h1>
-    <p class="bu-sub">Enter the access code printed on the last page of your book. Your book includes all of this, free.</p>
-    <div class="bu-gets"><span>🎬 30-lesson video course</span><span>📝 Up to 36 timed online tests</span><span>✓ Step-by-step explanations</span></div>
-    <form class="bu-form" id="buForm">
-      <label for="buCode">Book access code</label>
-      <input class="big" type="text" id="buCode" placeholder="SAT-MATH-XXXXX-XXXXX" autocomplete="off" autocapitalize="characters" spellcheck="false" required>
-      <label for="buEmail">Your email</label>
-      <input class="em" type="email" id="buEmail" placeholder="you@example.com" autocomplete="email" required>
-      <button class="bu-btn" type="submit">Unlock my course &amp; tests →</button>
-    </form>
-    <div class="bu-msg" id="buMsg" role="alert"></div>
-    <div class="bu-help">Can't find your code? It's on the last page of every CertPath SAT Math book. <a href="mailto:support@certpathpublishing.store?subject=Help%20with%20my%20SAT%20access%20code">Email support</a> if it won't work.</div>
-    <div class="bu-ok">
-      <h3>✓ You're in</h3>
-      <p>Your video course and online practice tests are unlocked on this browser.</p>
-      <div class="btns">
-        <a class="bu-btn" id="buWatch" href="#">▶ Watch the video course</a>
-        <a class="bu-btn navy" id="buTests" href="/access">Open my practice tests</a>
-      </div>
-    </div>
-    <div class="bu-alt">Don't have the book? <a href="#paths">Compare your options</a>: free questions, the $9.99 course or the books.</div>
-  </div>
-</section>
-<script>
-(function(){
-  var POOL='auto:sat-math', root=document.getElementById('unlock'), msg=document.getElementById('buMsg');
-  function show(course){
-    root.classList.add('done');
-    document.getElementById('buWatch').href='/learn/'+course;
-  }
-  // Returning reader: this browser already holds a course cookie, so open straight away.
-  POOL.split(':')[1].split(',').reduce(function(p,c){return p.then(function(f){ if(f) return f;
-    return fetch('/api/vc/unlock?course='+c,{credentials:'same-origin'}).then(function(r){return r.json()}).then(function(d){return d.ok?c:''}).catch(function(){return ''});});},Promise.resolve('')).then(function(c){ if(c) show(c); });
-  document.getElementById('buForm').addEventListener('submit',function(e){
-    e.preventDefault();
-    var code=document.getElementById('buCode').value.trim(), email=document.getElementById('buEmail').value.trim();
-    if(!code) return;
-    var btn=this.querySelector('button'), orig=btn.innerHTML; btn.disabled=true; btn.textContent='Checking…'; msg.textContent='';
-    try{localStorage.setItem('certpath_email',email);}catch(x){}
-    // The access page opens the online practice tests for this code (it reads the hand-over code).
-    function handToAccess(){ try{sessionStorage.setItem('certpath_pending_code',code.toUpperCase());}catch(x){} }
-    fetch('/api/vc/unlock',{method:'POST',credentials:'same-origin',headers:{'Content-Type':'application/json'},body:JSON.stringify({course:POOL,email:email,key:code})})
-      .then(function(r){return r.json()})
-      .then(function(d){
-        btn.disabled=false; btn.innerHTML=orig;
-        if(d&&d.ok){
-          fetch('/api/subscribe',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({email:email,book:d.course})}).catch(function(){});
-          document.getElementById('buTests').addEventListener('click',handToAccess);
-          show(d.course); return;
-        }
-        // Not a course code (e.g. a book without a video course yet): let the access page open its tests.
-        handToAccess(); location.href='/access';
-      })
-      .catch(function(){ btn.disabled=false; btn.innerHTML=orig; msg.textContent='Network problem, please try again.'; });
-  });
-})();
-</script>
 
 <!-- CHOOSE YOUR PATH -->
-<section class="bu-paths" id="paths">
-  <div class="bu-eye">Choose how you prepare</div>
-  <h2>No book yet? Choose how you prepare.</h2>
-  <div class="bu-grid">
-    <div class="bu-path"><h3>Free sample</h3><div class="pr">$0</div><div class="who">See the question style before you commit.</div><ul><li>10 exam-style Digital SAT Math questions</li><li>Step-by-step explanation for every answer</li><li>No signup, right on this page</li></ul><a class="bu-btn ghost" href="#sample-quiz">Try 10 free questions</a></div>
-    <div class="bu-path feat"><span class="tag">Best value</span><h3>Complete video course</h3><div class="pr">$9.99 <small>one-time</small></div><div class="who">Every SAT Math skill, taught step by step.</div><ul><li>30 lessons · 2.5 hours · all four domains</li><li>When to use Desmos and when to solve by hand</li><li>Worked examples in real Bluebook style</li><li>Watch on any device, with progress tracking</li></ul><a class="bu-btn" href="https://payhip.com/b/KbAzN" target="_blank" rel="noopener">Get the course — $9.99</a></div>
-    <div class="bu-path"><h3>The SAT Math book bundle</h3><div class="pr">3 books <small>on Amazon</small></div><div class="who">Study on paper, then test online.</div><ul><li><a href="https://www.amazon.com/dp/B0H2LHP2TY" target="_blank" rel="noopener">Digital SAT Math Prep</a>: the full study guide</li><li><a href="https://www.amazon.com/dp/B0H49B1Q68" target="_blank" rel="noopener">SAT Math Workbook</a>: fresh drill problems</li><li><a href="https://www.amazon.com/dp/B0H4L4FJH7" target="_blank" rel="noopener">10 Practice Tests</a>: full-length exams</li><li><b>Includes the video course + online tests free</b></li></ul><a class="bu-btn navy" style="display:block;margin-top:8px;padding:9px 12px;font-size:.88rem;text-align:center" href="https://www.amazon.com/dp/B0H2LHP2TY" target="_blank" rel="noopener">Buy Math Prep on Amazon →</a><a class="bu-btn navy" style="display:block;margin-top:8px;padding:9px 12px;font-size:.88rem;text-align:center" href="https://www.amazon.com/dp/B0H49B1Q68" target="_blank" rel="noopener">Buy Workbook on Amazon →</a><a class="bu-btn navy" style="display:block;margin-top:8px;padding:9px 12px;font-size:.88rem;text-align:center" href="https://www.amazon.com/dp/B0H4L4FJH7" target="_blank" rel="noopener">Buy 10 Practice Tests on Amazon →</a></div>
+<link rel="stylesheet" href="/css/exam-paths.css?v=1">
+<section class="ep" id="paths">
+  <div class="ep-band">
+    <div class="ep-eye">Digital SAT Math prep</div>
+    <h1>Choose how you prepare.</h1>
+    <p>Two ways to get ready for SAT Math: start free, or get everything in one pack.</p>
+  </div>
+  <div class="ep-grid">
+    <div class="ep-card" id="free"><h3>Free starter</h3><div class="pr">$0</div><div class="who">See the question style before you commit.</div><ul><li>10 exam-style Digital SAT Math questions, right on this page</li><li>Step-by-step explanation for every answer</li><li><a href="/learn/sat-math">Lesson 1 of the video course</a>, free to watch</li></ul><a class="ep-btn ghost" href="#sample-quiz">Try 10 free questions</a></div>
+    <div class="ep-card feat"><span class="tag">Complete Prep · everything included</span><h3>The SAT Math prep pack</h3><div class="pr">$19.99 <small>one-time</small></div><div class="who">Every SAT Math skill, taught step by step.</div><ul><li><b>Video course</b>: 30 lessons, 2.5 hours, all four domains</li><li>35+ timed online practice tests (1,500+ questions), each explained</li><li>When to use Desmos and when to solve by hand</li><li>Worked examples in real Bluebook style</li><li>One study hub on any device, with progress tracking</li></ul><a class="ep-btn" href="https://payhip.com/b/KbAzN" target="_blank" rel="noopener">Get the pack — $19.99</a><p class="ep-have">Bought the pack or own the book? <a href="/study/sat">Open your study hub →</a></p></div>
   </div>
 </section>
-<!-- VIDEO COURSE ($9.99, Payhip key -> /learn/<slug>) -->
+<!-- VIDEO COURSE + PRACTICE TESTS PACK ($19.99, Payhip key -> /learn/<slug> + online tests) -->
 <link rel="stylesheet" href="/css/video-course.css?v=2">
 <section class="vc" id="video-course">
  <div class="vc-in">
-  <div class="vc-head"><span class="vc-eye"><i></i>New · Video course</span><h2>Learn it on video. <em>Ace it on test day.</em></h2><p>Watch a teacher solve every type of Digital SAT Math question — then practice it in the book.</p></div>
+  <div class="vc-head"><h2>Learn it on video. <em>Ace it on test day.</em></h2><p>Watch a teacher solve every type of Digital SAT Math question — then practice it in the book.</p></div>
   <div class="vc-card" id="vc-sat-math" role="tabpanel">
   <div>
-    <a class="vc-cover" href="https://payhip.com/b/KbAzN" target="_blank" rel="noopener"><img src="/img/video-courses/SAT_Math.jpg" alt="SAT Math — Complete Video Course" loading="lazy"><span class="pl">▶ 30 HD video lessons</span></a>
+    <a class="vc-cover" href="https://payhip.com/b/KbAzN" target="_blank" rel="noopener"><img src="/img/video-courses/SAT_Math.jpg" alt="SAT Math — Complete Video Course" loading="lazy"><span class="pl">▶ 30 lessons + online tests</span></a>
     <div class="vc-stats"><div><b>30</b><span>lessons</span></div><div><b>2.5 h</b><span>of video</span></div><div><b>24/7</b><span>any device</span></div></div>
   </div>
   <div>
-    <h3 class="vc-title">SAT Math — Complete Video Course</h3>
+    <h3 class="vc-title">SAT Math — Video Course + Practice Tests</h3>
     <p class="vc-sub">Every Digital SAT Math skill, explained step by step with exam-style examples and smart Desmos shortcuts.</p>
-    <ul class="vc-list"><li>30 lessons covering Algebra, Advanced Math, Problem Solving &amp; Data, and Geometry &amp; Trig</li><li>When to solve by hand and when Desmos is faster — on every topic</li><li>Worked examples written to match real Bluebook question styles</li><li>Short, focused lessons — the whole course in about 2.5 hours</li><li>Pairs perfectly with the CertPath SAT Math workbook and online tests</li></ul>
+    <ul class="vc-list"><li><b>Includes 35+ timed online practice tests (1,500+ questions)</b>, every answer explained</li><li>30 lessons covering Algebra, Advanced Math, Problem Solving &amp; Data, and Geometry &amp; Trig</li><li>When to solve by hand and when Desmos is faster — on every topic</li><li>Worked examples written to match real Bluebook question styles</li><li>Short, focused lessons — the whole course in about 2.5 hours</li><li>Pairs perfectly with the CertPath SAT Math workbook and online tests</li></ul>
   </div>
     <div class="vc-buy">
-      <div class="vc-price"><b>$9.99</b><span>One-time payment</span></div>
+      <div class="vc-price"><b>$19.99</b><span>One-time payment</span></div>
       <div class="vc-note">No subscription. Instant access key by email — stream on phone, tablet or computer.</div>
-      <a class="vc-btn" href="https://payhip.com/b/KbAzN" target="_blank" rel="noopener">Get the video course — $9.99</a>
-      <div class="vc-alt"><a href="/learn/sat-math">Already bought? Start watching →</a><span>Own the book? <a href="#unlock">It's free with your book code</a></span></div>
+      <a class="vc-btn" href="https://payhip.com/b/KbAzN" target="_blank" rel="noopener">Get the pack — $19.99</a>
+      <div class="vc-alt"><a href="/learn/sat-math">Already bought? Start watching →</a><span>Own the book? <a href="/study/sat">It's free with your book code</a></span></div>
       <div class="vc-trust"><span>🔒 Secure checkout by Payhip</span><span>💳 Card &amp; PayPal</span><span>🎓 CertPath Publishing</span></div>
     </div>
 </div>
@@ -229,7 +170,7 @@
       </div>
       <details><summary>How many questions are on the Digital SAT Math section?</summary><p>The Digital SAT Math section has 44 questions across two 22-question adaptive modules, with 70 minutes total. The built-in Desmos calculator is available on every question.</p></details>
       <details><summary>What topics does Digital SAT Math cover?</summary><p>Four domains: Algebra (about 35%), Advanced Math (about 35%), Problem-Solving &amp; Data Analysis (about 15%), and Geometry &amp; Trigonometry (about 15%). Our books mirror this exact weighting.</p></details>
-      <details><summary>What is included with the CertPath SAT Math books?</summary><p>Three SKUs: the complete study guide (lessons + 700+ questions), the workbook (700+ fresh drill problems), and 10 full-length practice tests. Every book unlocks 1,500+ additional timed online questions — and no question repeats across the three books.</p></details>
+      <details><summary>What is included with the CertPath SAT Math books?</summary><p>Three books: the complete study guide (lessons + 700+ questions), the workbook (700+ fresh drill problems), and a book of 10 full-length practice tests. Every book also unlocks 35+ timed online practice tests (1,500+ questions) — and no question repeats across the three books.</p></details>
       <details><summary>Are the online practice tests really free?</summary><p>Yes. Every CertPath book includes a unique access code printed on the last page. Enter it at certpathpublishing.store/access to unlock timed, auto-scored practice tests on any device — no subscription.</p></details>
       <details><summary>How do these questions compare to the real exam?</summary><p>Questions follow the official College Board skill blueprint in format, difficulty range, and domain weighting, including multiple-choice and student-produced response formats.</p></details>
     </div>
@@ -257,8 +198,8 @@
       <div>
         <h2>Resources</h2>
         <ul>
-          <li><a href="/exams?practice=free">Free practice</a></li>
-          <li><a href="/blog/">Blog</a></li>
+          <li><a href="/free-practice">Free practice</a></li>
+          <li><a href="/blog/">Articles</a></li>
           <li><a href="/#videos">Video lessons</a></li>
           <li><a href="https://www.youtube.com/@certpathpublishing" target="_blank" rel="noopener">YouTube channel ↗</a></li>
           <li><a href="https://www.amazon.com/CertPath-Publishing/e/B0GWVSPBJT" target="_blank" rel="noopener">Amazon author page ↗</a></li>
@@ -267,8 +208,6 @@
       <div>
         <h2>Company</h2>
         <ul>
-          <li><a href="/#approach">How it works</a></li>
-          <li><a href="/#proof">How the books are made</a></li>
           <li><a href="mailto:support@certpathpublishing.store">Contact</a></li>
         </ul>
       </div>
@@ -388,6 +327,6 @@
     render();
   })();
   </script>
-  <script src="/js/premium.js?v=13" defer></script>
+  <script src="/js/premium.js?v=21" defer></script>
 </body>
 </html>

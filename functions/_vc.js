@@ -1,4 +1,4 @@
-// Shared helpers for the $9.99 video courses (functions/api/vc/*). Not a route: no onRequest exports.
+// Shared helpers for the $19.99 video course + practice test packs (functions/api/vc/*). Not a route: no onRequest exports.
 //
 // Bindings (Cloudflare Pages -> Settings):
 //   VC_BUCKET          R2 bucket "certpath-video-courses"; videos live at vc/<slug>/<NNN>.mp4
@@ -6,7 +6,7 @@
 //   VC_SESSION_SECRET  signs the per-course access cookie
 //   SUPER_ACCESS_CODE  optional owner code that unlocks every course
 
-export const COURSES = ['pmp', 'sat-math', 'tabe-a', 'tabe-d', 'tabe-e'];
+export const COURSES = ['pmp', 'sat-math', 'tabe-a', 'tabe-d', 'tabe-e', 'capm'];
 export const COOKIE_DAYS = 30;
 
 export function json(body, status = 200, headers = {}) {
@@ -74,6 +74,7 @@ export const BOOKS_FOR_COURSE = {
   'tabe-a': ['tabe-a'],
   'tabe-d': ['tabe-d'],
   'tabe-e': ['tabe-e'],
+  'capm': ['capm'],
 };
 
 const sha256Hex = async (s) => [...new Uint8Array(await crypto.subtle.digest('SHA-256', enc.encode(s)))]

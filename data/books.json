@@ -775,6 +775,7 @@
       "bookCode": "B33",
       "title": "CAPM Exam Prep",
       "codeHash": "0d5871fd3d556e92e50f4245f053f3906c22a19779c7dbf8a6f1904f593e25c0",
+      "codeHashes": ["f95267986b16310d4dfddfcc92af15951c3579979cc3a938035a4f861848f1eb"],
       "timeMinutes": 180,
       "testCount": 5,
       "totalQuestions": 750,

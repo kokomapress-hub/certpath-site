@@ -17,8 +17,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;1,8..60,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/css/style.css?v=12">
-  <link rel="stylesheet" href="/css/premium.css?v=11">
-  <link rel="stylesheet" href="/css/premium-bridge.css?v=1">
+  <link rel="stylesheet" href="/css/premium.css?v=24">
+  <link rel="stylesheet" href="/css/premium-bridge.css?v=2">
 </head>
 <body class="cp">
   <a class="cp-skip" href="#main">Skip to content</a>
@@ -31,9 +31,8 @@
       </a>
       <nav class="cp-nav" aria-label="Primary">
         <a href="/exams" data-mega-trigger>Explore exams</a>
-        <a href="/exams?practice=free">Free practice</a>
-        <a href="/#approach">How it works</a>
-        <a href="/blog/">Resources</a>
+        <a href="/free-practice">Free practice</a>
+        <a href="/blog/">Articles</a>
         <a href="/access" class="cp-nav-access">Access my tests</a>
       </nav>
       <button type="button" class="cp-menu-btn" aria-expanded="false" aria-label="Open menu">
@@ -43,7 +42,7 @@
     <div class="cp-mega" id="cp-mega">
       <div class="cp-container">
         <div class="cp-mega-inner"><p><a href="/exams">Browse the full exam directory →</a></p></div>
-        <div class="cp-mega-foot"><span>Only exams with published CertPath titles are listed.</span><a class="cp-textlink" href="/exams">Search the full directory <span class="cp-arrow" aria-hidden="true">→</span></a></div>
+        <div class="cp-mega-foot"><span>Only exams with published CertPath titles are listed.</span><a class="cp-textlink" href="/complete-prep">Search the full directory <span class="cp-arrow" aria-hidden="true">→</span></a></div>
       </div>
     </div>
   </header>
@@ -51,21 +50,20 @@
   <div class="cp-drawer" role="dialog" aria-modal="true" aria-label="Menu">
     <div class="cp-drawer-top"><span class="cp-logo-word">CertPath</span><button type="button" class="cp-drawer-close" aria-label="Close menu">✕</button></div>
     <a href="/exams">Explore exams <span aria-hidden="true">→</span></a>
-    <a href="/exams?practice=free">Free practice <span aria-hidden="true">→</span></a>
-    <a href="/#approach">How it works <span aria-hidden="true">→</span></a>
-    <a href="/blog/">Resources <span aria-hidden="true">→</span></a>
+    <a href="/free-practice">Free practice <span aria-hidden="true">→</span></a>
+    <a href="/blog/">Articles <span aria-hidden="true">→</span></a>
     <a href="/access" class="cp-btn cp-btn-primary">Access my tests</a>
   </div>
 
   <main id="main" class="cp-access">
     <div class="cp-container">
       <div class="cp-access-panel form-card">
-        <h1>Access your practice tests</h1>
-        <p>Enter the code from your book to open its included practice tests.</p>
+        <h1>Access your practice tests &amp; videos</h1>
+        <p>Enter the code from your book, or the Payhip key from your $19.99 pack, to open your practice tests and video course.</p>
 
         <form id="accessForm" novalidate>
           <div class="form-group">
-            <label for="code">Book access code</label>
+            <label for="code">Book code or Payhip key</label>
             <input type="text" id="code" required autocomplete="off" autocapitalize="characters" spellcheck="false" aria-describedby="codeHint errorMsg">
             <div class="hint" id="codeHint">Printed on the last page of your book — for example <span style="font-family:ui-monospace,Menlo,monospace">CAST-XXXXX-XXXXX</span>. Paste it in; hyphens, spaces and capitals don't matter.</div>
           </div>
@@ -77,9 +75,9 @@
           <div class="form-group" id="emailGroup">
             <label for="email">Email address</label>
             <input type="email" id="email" autocomplete="email" aria-describedby="emailHint">
-            <div class="hint" id="emailHint">Used to register your access. We also send occasional study tips for your exam — unsubscribe any time.</div>
+            <div class="hint" id="emailHint">Used to register your access. Bought the pack? Use the email you paid with. We also send occasional study tips — unsubscribe any time.</div>
           </div>
-          <button type="submit" class="btn btn-block btn-lg">Open my practice tests</button>
+          <button type="submit" class="btn btn-block btn-lg">Open my tests &amp; videos</button>
           <div class="message error" id="errorMsg" role="alert"></div>
         </form>
       </div>
@@ -118,8 +116,8 @@
       <div>
         <h2>Resources</h2>
         <ul>
-          <li><a href="/exams?practice=free">Free practice</a></li>
-          <li><a href="/blog/">Blog</a></li>
+          <li><a href="/free-practice">Free practice</a></li>
+          <li><a href="/blog/">Articles</a></li>
           <li><a href="/#videos">Video lessons</a></li>
           <li><a href="https://www.youtube.com/@certpathpublishing" target="_blank" rel="noopener">YouTube channel ↗</a></li>
           <li><a href="https://www.amazon.com/CertPath-Publishing/e/B0GWVSPBJT" target="_blank" rel="noopener">Amazon author page ↗</a></li>
@@ -128,8 +126,6 @@
       <div>
         <h2>Company</h2>
         <ul>
-          <li><a href="/#approach">How it works</a></li>
-          <li><a href="/#proof">How the books are made</a></li>
           <li><a href="mailto:support@certpathpublishing.store">Contact</a></li>
         </ul>
       </div>
@@ -149,7 +145,7 @@
     </div>
   </footer>
 
-  <script src="/js/premium.js?v=13" defer></script>
-  <script src="/js/app.js?v=20260925"></script>
+  <script src="/js/premium.js?v=21" defer></script>
+  <script src="/js/app.js?v=20261005"></script>
 </body>
 </html>

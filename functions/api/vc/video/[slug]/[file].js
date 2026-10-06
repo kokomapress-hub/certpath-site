@@ -6,7 +6,8 @@ export async function onRequestGet({ request, env, params }) {
   const slug = params.slug;
   const file = params.file;
   if (!COURSES.includes(slug) || !/^\d{3}\.mp4$/.test(file)) return new Response('Not found', { status: 404 });
-  if (!(await hasAccess(request, env, slug))) return new Response('Locked', { status: 403, headers: { 'Cache-Control': 'no-store' } });
+  // Lesson 1 of every course is a free preview; the rest need the course cookie.
+  if (file !== '001.mp4' && !(await hasAccess(request, env, slug))) return new Response('Locked', { status: 403, headers: { 'Cache-Control': 'no-store' } });
 
   const key = 'vc/' + slug + '/' + file;
   const rangeHeader = request.headers.get('Range');

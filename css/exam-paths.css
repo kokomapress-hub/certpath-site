@@ -1,0 +1,29 @@
+/* Exam landing "Choose how you prepare": navy heading band, then two cards (free / paid pack)
+   lifted over its lower edge. Used by /sat and /tabe (the PMP page has its own copy). */
+.ep { background: #fff; padding: 0 1.25rem 4.5rem; }
+.ep-band { background: radial-gradient(1100px 520px at 50% -12%, #1d3a66 0%, #0E1F3F 46%, #081326 100%); margin: 0 -1.25rem; padding: 4rem 1.25rem 7.5rem; text-align: center; }
+.ep-eye { color: #DDA63B; font-size: .75rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; }
+.ep-band h1 { font-family: "Source Serif 4", Georgia, serif; font-weight: 400; letter-spacing: -.03em; color: #fff; font-size: clamp(2.125rem, 4vw, 2.875rem); line-height: 1.12; margin: .75rem 0 0; }
+.ep-band p { color: #cbd5e1; font-size: 1.125rem; line-height: 1.6; max-width: 44ch; margin: 1rem auto 0; }
+.ep-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 440px)); justify-content: center; gap: 1.375rem; margin-top: -3.5rem; position: relative; z-index: 2; }
+.ep-card { background: #fff; border: 1px solid #DADFE5; border-radius: 18px; padding: 1.875rem 1.75rem; box-shadow: 0 10px 30px rgba(14,31,63,.10); display: flex; flex-direction: column; position: relative; text-align: left; }
+.ep-card.feat { border: 2px solid #DDA63B; box-shadow: 0 24px 60px rgba(14,31,63,.18); }
+.ep-card .tag { position: absolute; top: -13px; left: 50%; transform: translateX(-50%); background: #DDA63B; color: #081326; font-size: .72rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; padding: 5px 12px; border-radius: 999px; white-space: nowrap; }
+.ep-card h3 { font-size: 1.2rem; font-weight: 800; color: #0E1F3F; margin: 0 0 .25rem; }
+.ep-card .pr { font-size: 2.375rem; font-weight: 800; color: #0E1F3F; letter-spacing: -.03em; line-height: 1.1; margin: .6rem 0 .1rem; }
+.ep-card .pr small { font-size: .875rem; font-weight: 500; color: #526176; letter-spacing: 0; }
+.ep-card .who { font-size: .875rem; color: #526176; margin-bottom: 1.1rem; }
+.ep-card ul { list-style: none; display: flex; flex-direction: column; gap: .625rem; margin: 0 0 1.5rem; padding: 0; flex: 1; }
+.ep-card li { font-size: .906rem; line-height: 1.45; padding-left: 1.5rem; position: relative; color: #26354B; }
+.ep-card li::before { content: "✓"; position: absolute; left: 0; color: #1F8A55; font-weight: 800; }
+.ep-card li a { font-weight: 700; color: #0E1F3F; text-decoration: underline; text-underline-offset: 3px; }
+.ep-btn { display: block; text-align: center; border-radius: 10px; padding: .9rem 1rem; font-weight: 700; text-decoration: none; background: #DDA63B; color: #081326; }
+.ep-btn:hover { background: #E6B656; }
+.ep-btn.ghost { background: #fff; color: #0E1F3F; border: 1.5px solid #0E1F3F; }
+.ep-btn.ghost:hover { background: #F5F3EE; }
+.ep-have { margin: .75rem 0 0; font-size: .844rem; color: #526176; text-align: center; }
+.ep-have a { color: #0E1F3F; font-weight: 700; }
+@media (max-width: 860px) {
+  .ep-grid { grid-template-columns: minmax(0, 1fr); }
+  .ep-band { padding: 3rem 1.25rem 6.5rem; }
+}

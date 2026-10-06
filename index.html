@@ -34,23 +34,194 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;1,8..60,400&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/css/premium.css?v=11">
-  <link rel="preload" as="image" href="/img/covers/pmp.webp" fetchpriority="high">
+  <link rel="stylesheet" href="/css/premium.css?v=24">
+  <link rel="preload" as="image" href="/img/photo/hero-v3.webp" fetchpriority="high">
+<style>
+.hc-box{margin:1.6rem 0 .6rem;padding:1.1rem 1.1rem 1rem;background:rgb(255 255 255 / .97);border-radius:14px;box-shadow:0 18px 40px rgb(0 0 0 / .28);max-width:40rem}
+.hc-label{display:block;font-size:.9rem;font-weight:650;color:#0E1F3F;margin-bottom:.6rem}
+.hc-row{display:grid;grid-template-columns:1fr auto;gap:.6rem}
+.hc-code{grid-column:1/-1;min-height:4.2rem!important;font-size:1.4rem!important;text-align:center}
+.hc-row input{min-height:3.4rem;border:2px solid #D9DEE7;border-radius:10px;padding:0 1rem;font:inherit;color:#0E1F3F;background:#fff;width:100%;box-sizing:border-box}
+.hc-code{font-size:1.15rem!important;font-weight:700;letter-spacing:.06em;text-transform:uppercase;border-color:#F6B61F!important;background:#FFFBEF!important}
+.hc-row input:focus{outline:none;border-color:#0E1F3F!important}
+.hc-go{min-height:3.4rem;white-space:nowrap}
+.hc-msg{margin:.5rem 0 0;font-size:.88rem;color:#B42318;min-height:1em}
+.hc-alt{margin-top:.4rem}
+@media (max-width:520px){.hc-row{grid-template-columns:1fr}}
+.hx-tag{margin:1.5rem 0 0;max-width:34rem;font:400 1.125rem/1.55 var(--cp-sans,Inter,sans-serif);color:#26354B}
+.hx-btns{display:flex;flex-wrap:wrap;gap:1rem;margin:1.75rem 0 0}
+.hx-btn{display:inline-flex;align-items:center;justify-content:center;height:52px;padding:0 1.75rem;border-radius:8px;background:#DDA63B;border:1.5px solid #DDA63B;color:#0E1F3F!important;font:600 1rem/1 var(--cp-sans,Inter,sans-serif);text-decoration:none;white-space:nowrap;box-shadow:0 8px 20px rgb(14 31 63 / .12);transition:background .2s,transform .2s,box-shadow .2s}
+.hx-btn:hover,.hx-btn:focus-visible{background:#E6B656;border-color:#E6B656;transform:translateY(-2px);box-shadow:0 12px 26px rgb(14 31 63 / .16)}
+.hx-btn.hx-ghost{background:rgb(255 255 255 / .55);border-color:#0E1F3F;box-shadow:none}
+.hx-btn.hx-ghost:hover,.hx-btn.hx-ghost:focus-visible{background:#0E1F3F;border-color:#0E1F3F;color:#fff!important}
+.hx-links{margin:1.15rem 0 0;font:500 .94rem/1.5 var(--cp-sans,Inter,sans-serif);color:#0E1F3F}
+.hx-links a{color:#0E1F3F;text-decoration:none;white-space:nowrap}.hx-links a:hover{text-decoration:underline;text-underline-offset:3px}
+.hx-dot{margin:0 .6rem;color:#B98A0E}
+.cp-hero.hero-light.hx-low h1{font-size:clamp(2.4rem,2.5vw,3.4rem)!important;line-height:1.16!important}
+.cp-hero.hero-light.hx-low .cp-eyebrow{display:block;margin-bottom:1rem}
+.cp-hero.hero-light.hx-low .hx-tag{margin-top:1.4rem;font-size:1rem;line-height:1.7}
+.cp-hero.hero-light.hx-low .hx-btns{margin-top:1.8rem;flex-wrap:nowrap}
+.cp-hero.hero-light.hx-low .hx-links{margin-top:1.3rem;font-size:.88rem}
+
+@media (max-width:640px){.hx-btns{flex-direction:column;gap:.75rem}.hx-btn{width:100%}.hx-links a{display:block;margin:.35rem 0;white-space:normal}.hx-dot{display:none}}
+</style>
+<script>
+addEventListener('DOMContentLoaded',function(){var bs=document.querySelectorAll('.cg-btn');
+  bs.forEach(function(b){b.addEventListener('click',function(){var on=!b.classList.contains('is-on');
+    bs.forEach(function(x){x.classList.remove('is-on');x.setAttribute('aria-expanded','false');var p=document.getElementById(x.getAttribute('aria-controls'));if(p)p.hidden=true;});
+    if(on){b.classList.add('is-on');b.setAttribute('aria-expanded','true');var p=document.getElementById(b.getAttribute('aria-controls'));p.hidden=false;
+      // On one column, move the panel right under the tapped button.
+      if(matchMedia('(max-width:800px)').matches)b.after(p);else b.parentNode.after(p);}
+  });});});
+</script>
+<style>
+.ft-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.25rem;margin-top:2rem;align-items:start}
+.ft-card{background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 10px 30px rgb(14 31 63 / .10);display:flex;flex-direction:column}
+.ft-img{position:relative;min-height:22rem;background-size:cover;background-position:center;display:flex;flex-direction:column;justify-content:flex-end;padding:1.5rem;color:#fff;isolation:isolate}
+.ft-img::before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgb(14 31 63 / .05) 25%,rgb(14 31 63 / .92) 100%)}
+.ft-num{position:absolute;top:1.1rem;left:1.25rem;font-weight:800;letter-spacing:.12em;font-size:.8rem;background:#F6B61F;color:#0E1F3F;border-radius:999px;padding:.3rem .7rem}
+.ft-img h3{font-size:1.75rem;line-height:1.1;margin:0 0 .5rem;color:#fff;font-weight:750;letter-spacing:-.02em}
+.ft-img p{margin:0;font-size:1rem;opacity:.92}
+.ft-card details{padding:0 1.5rem}
+.ft-card summary{cursor:pointer;list-style:none;padding:1rem 0;font-weight:700;color:#0E1F3F;display:flex;justify-content:space-between}
+.ft-card summary::-webkit-details-marker{display:none}
+.ft-card summary::after{content:"+";font-size:1.3rem;line-height:1;color:#B98A0E}
+.ft-card details[open] summary::after{content:"\2212"}
+.ft-card ul{margin:0 0 1.25rem;padding-left:1.1rem;color:#334155;line-height:1.55;font-size:.95rem}
+.ft-card li{margin:.45rem 0}
+@media (max-width:900px){.ft-grid{grid-template-columns:1fr}.ft-img{min-height:17rem}}
+</style>
+<style>
+/* Hero v2: full-bleed learner photo, text + code box on the left */
+.cp-hero.hero-v2{min-height:min(88vh,760px);display:flex;align-items:center}
+.cp-hero.hero-v2::before{background:linear-gradient(90deg,rgb(8 19 38 / .97) 0%,rgb(10 24 48 / .94) 38%,rgb(14 31 63 / .55) 52%,rgb(14 31 63 / 0) 66%)!important}
+.hero-v2 > .cp-container,.hero-v2 .cp-hero-grid{max-width:none!important;width:100%;margin:0!important;padding-left:clamp(1.25rem,5vw,5rem)!important;padding-right:1.25rem!important;justify-items:start;display:block!important}
+.hero-v2 .cp-hero-grid{padding:0!important}
+.hero-v2 .cp-hero-grid > :first-child{margin-left:clamp(1.5rem,5.5vw,6rem)!important;padding-right:1.25rem}
+.hero-v2 .cp-hero-grid > :first-child{max-width:34rem;text-align:left}
+.hero-v2 h1{font-size:clamp(2.4rem,4.2vw,3.6rem)!important;line-height:1.08!important;margin-bottom:1rem!important}
+.hero-v2 .cp-lead,.hero-v2 h1 + p{font-size:1.05rem!important;line-height:1.6!important;max-width:30rem;color:#d6deea!important;margin-bottom:1.6rem!important}
+.hero-v2 .hc-alt{gap:1.5rem;font-size:.95rem}
+@media (min-width:901px) and (max-width:1250px){.cp-hero.hero-v2::before{background:linear-gradient(90deg,rgb(8 19 38 / .97) 0%,rgb(10 24 48 / .95) 50%,rgb(14 31 63 / .6) 64%,rgb(14 31 63 / .1) 80%)!important}.hero-v2 > .cp-bgphoto{object-position:100% 40%}}
+.hero-v2 .cp-hero-grid{grid-template-columns:minmax(0,40rem) 1fr!important}
+.hero-v2 .cp-hero-grid > :nth-child(2),.hero-v2 .cp-hero-rings,.hero-v2 .cp-hero-path,.hero-v2 .cp-hero-steps{display:none!important}
+.hero-v2 > .cp-bgphoto{object-position:100% 40%}
+@media (max-width:900px){.cp-hero.hero-v2::before{background:linear-gradient(0deg,rgb(8 19 38 / .95) 45%,rgb(14 31 63 / .55) 100%)!important}}
+</style>
+<style>
+.hero-v2 > .hero-vid{object-position:100% 40%;z-index:-3}
+@media (max-width:700px),(prefers-reduced-motion:reduce){.hero-v2 > .hero-vid{display:none}}
+</style>
+<script>
+// Load the hero loop only on wide screens without reduced motion; the still stays as fallback.
+addEventListener('DOMContentLoaded',function(){var v=document.querySelector('.hero-vid');if(!v)return;
+  if(matchMedia('(max-width:700px),(prefers-reduced-motion:reduce)').matches)return;
+  v.src=v.dataset.src;v.play&&v.play().catch(function(){});});
+</script>
+<style>
+/* Bright hero (Mometrix-style): light wash on the window side, dark ink text, full screen */
+.cp-hero.hero-v2.hero-light{min-height:calc(100vh - 72px);background:#F5F3EE}
+.cp-hero.hero-light::before{background:linear-gradient(90deg,rgb(250 248 243 / .94) 0%,rgb(250 248 243 / .82) 30%,rgb(250 248 243 / .25) 48%,rgb(250 248 243 / 0) 60%)!important}
+.hero-light > .cp-bgphoto{object-position:62% 0%!important}
+/* Text block sits high-left, above the coffee cup in the photo (cup starts ~56% down the image) */
+@media (min-width:901px){.cp-hero.hero-light{align-items:flex-start}.cp-hero.hero-light > .cp-hero-grid{display:flow-root!important}.cp-hero.hero-light > .cp-hero-grid > :first-child{margin-top:var(--hx-top,3rem)!important}}
+.hero-light h1{color:#0E1F3F!important}
+.hero-light h1 em{color:#B98A0E!important;background:none!important;animation:none!important}
+.hero-light .cp-eyebrow{color:#9a7209!important}
+.hero-light h1 + p,.hero-light .cp-lead{color:#334155!important}
+.hero-light .hc-alt a{color:#0E1F3F!important;font-weight:600}
+@media (min-width:1500px){.hero-light h1{font-size:clamp(3.6rem,3.6vw,4.6rem)!important}.hero-light .cp-hero-grid > :first-child{max-width:42rem;margin-left:clamp(4rem,7vw,9rem)!important}.hero-light h1 + p{font-size:1.2rem!important;max-width:36rem}.hero-light #hcForm{max-width:36rem;padding:1.4rem!important}.hero-light #hcForm .hc-label{font-size:1rem!important}.hero-light #hcForm input,.hero-light #hcForm .hc-go{height:3.4rem!important}}
+@media (max-width:900px){.cp-hero.hero-light::before{background:linear-gradient(0deg,rgb(250 248 243 / .97) 50%,rgb(250 248 243 / .6) 100%)!important}}
+@media (min-width:901px){.cp-header-inner.hx-wide{width:auto!important;max-width:none!important;margin-left:clamp(1.5rem,5.5vw,6rem)!important;margin-right:clamp(1.5rem,5.5vw,6rem)!important}}
+@media (min-width:1500px){.cp-header-inner.hx-wide{margin-left:clamp(4rem,7vw,9rem)!important;margin-right:clamp(4rem,7vw,9rem)!important}}
+</style>
+<style>
+.ts{background:#0E1F3F;color:#fff}
+.ts-in{max-width:1240px;margin:0 auto;padding:1.1rem 1.25rem;display:grid;grid-template-columns:repeat(5,1fr);gap:.5rem}
+.ts-i{display:flex;flex-direction:column;align-items:center;text-align:center;padding:.2rem .5rem;border-left:1px solid rgb(255 255 255 / .14)}
+.ts-i:first-child{border-left:0}
+.ts-i b{font:600 1.45rem/1.15 var(--cp-serif,Georgia,serif);color:#DDA63B}
+.ts-i b.ts-stars{font-size:1.1rem;letter-spacing:.12em;line-height:1.6}
+.ts-i span{font-size:.82rem;color:#c9d6e9;margin-top:.15rem}
+@media (max-width:760px){.ts-in{grid-template-columns:repeat(2,1fr);row-gap:1rem}.ts-i{border-left:0}.ts-i:first-child{grid-column:1/-1}}
+.rv-top .cp-reviews-grid{max-width:none!important;grid-template-columns:repeat(3,1fr)}@media (max-width:900px){.rv-top .cp-reviews-grid{grid-template-columns:1fr}}
+.rv-top{padding-top:4rem!important;padding-bottom:4rem!important}
+</style>
+<style>body.cp > .cp-footer{background:#0E1F3F;border-top:3px solid #DDA63B}.bg-w{background:#ffffff!important}.bg-c{background:#F5F3EE!important}.bg-c .ft-card,.bg-c .cp-review{background:#fff}</style>
+<style>
+.cg-head{display:grid;grid-template-columns:1.3fr 1fr;gap:2.5rem;align-items:center;margin-bottom:2rem}
+.cg-head p{color:#334155;line-height:1.6;max-width:36rem;margin-top:.8rem}
+.cg-head img{width:100%;height:auto;display:block}
+.cg-grid{display:grid;grid-template-columns:1fr 1fr;gap:.75rem}
+.cg-btn{display:flex;align-items:center;gap:.9rem;width:100%;padding:1rem 1.1rem;background:#fff;border:1px solid #ddd6c8;border-radius:10px;font:600 1rem/1.3 inherit;color:#0E1F3F;cursor:pointer;text-align:left;transition:background .2s,color .2s,border-color .2s,box-shadow .2s}
+.cg-btn svg{width:28px;height:28px;flex:none;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;color:#B98A0E}
+.cg-btn span{flex:1}
+.cg-btn i{font-style:normal;font-size:1.4rem;color:#B98A0E;transition:transform .2s}
+.cg-btn:hover{border-color:#B98A0E;box-shadow:0 6px 16px rgb(14 31 63 / .08)}
+.cg-btn.is-on{background:#0E1F3F;border-color:#0E1F3F;color:#fff}
+.cg-btn.is-on svg,.cg-btn.is-on i{color:#DDA63B}
+.cg-btn.is-on i{transform:rotate(90deg)}
+.cg-btn:focus-visible{outline:3px solid #DDA63B;outline-offset:2px}
+.cg-panel{margin-top:1rem;background:#fff;border:2px solid #0E1F3F;border-radius:12px;padding:1.25rem 1.4rem;animation:cgIn .25s ease}
+.cg-panel h3{font-size:.8rem;letter-spacing:.12em;text-transform:uppercase;color:#9a7209;margin:0 0 .6rem}
+.cg-panel ul{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(16rem,1fr));gap:.6rem}
+.cg-panel a{display:flex;flex-direction:column;position:relative;padding:.85rem 2.2rem .85rem 1rem;border-radius:8px;background:#F5F3EE;color:#0E1F3F;text-decoration:none}
+.cg-panel a:hover{background:#DDA63B}
+.cg-panel a span{font-size:.85rem;color:#475569}
+.cg-panel a em{position:absolute;right:1rem;top:50%;transform:translateY(-50%);font-style:normal}.cg-panel .cg-off{display:flex;flex-direction:column;position:relative;padding:.85rem 1rem 2.1rem;border-radius:8px;background:#f3f4f6;color:#64748b;cursor:not-allowed}.cg-panel .cg-off span{font-size:.85rem;color:#94a3b8}.cg-panel .cg-off em.soon{position:absolute;left:1rem;bottom:.7rem;font-style:normal;font-size:.72rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#94a3b8}
+@keyframes cgIn{from{opacity:0;transform:translateY(-6px)}}
+.cg-navy{background:#0E1F3F!important;color:#fff}
+.cg-navy .cp-eyebrow{color:#DDA63B}
+.cg-navy .cp-h2{color:#fff}
+.cg-navy .cp-h2 em{color:#DDA63B}
+.cg-navy .cg-head p{color:rgb(255 255 255 / .78)}
+.cg-navy .cg-btn{border-color:transparent}
+.cg-navy .cg-btn:hover{border-color:#DDA63B;box-shadow:0 6px 16px rgb(0 0 0 / .25)}
+.cg-navy .cg-btn.is-on{background:#DDA63B;border-color:#DDA63B;color:#0E1F3F}
+.cg-navy .cg-btn.is-on svg,.cg-navy .cg-btn.is-on i{color:#0E1F3F}
+.cg-navy .cg-panel{border-color:#DDA63B}
+.cg-navy .cg-head img{filter:drop-shadow(0 18px 30px rgb(0 0 0 / .35))}
+@media (max-width:800px){.cg-head{grid-template-columns:1fr}.cg-head img{display:none}.cg-grid{grid-template-columns:1fr}}
+</style>
+<style>
+.cp-sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+.wy{background:#0E1F3F;padding:4.5rem 1.25rem}
+.wy-in{max-width:1180px;margin:0 auto}
+.wy h2{font:500 clamp(2rem,3.4vw,2.8rem)/1.15 var(--cp-serif,Georgia,serif);color:#fff;margin:0 0 2rem}
+.wy h2 em{color:#DDA63B}
+.wy-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:1.75rem}
+.wy-card{background:#fff;border-radius:10px;padding:1.6rem 1.6rem 1.4rem;box-shadow:0 14px 34px rgb(0 0 0 / .28);border-top:4px solid #DDA63B;text-align:center;transition:transform .2s,box-shadow .2s}
+.wy-card:hover{transform:translateY(-3px);box-shadow:0 18px 40px rgb(0 0 0 / .34)}
+.wy-card svg{width:120px;height:80px;fill:none;stroke:#0E1F3F;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.wy-card svg .g{fill:#DDA63B}
+.wy-card h3{font-size:1.45rem;color:#0E1F3F;margin:.6rem 0 .8rem}
+.wy-card ul{text-align:left;margin:0;padding-left:1.1rem;color:#334155;line-height:1.55;font-size:.97rem}
+.wy-card li{margin:.25rem 0}
+.wy-find{display:flex;max-width:52rem;margin:2.8rem auto 2.4rem;box-shadow:0 10px 30px rgb(0 0 0 / .3)}
+.wy-find input{flex:1;min-width:0;border:0;padding:1rem 1.2rem;font-size:1.05rem;border-radius:8px 0 0 8px;outline:none}
+.wy-find button{border:0;background:#DDA63B;color:#0E1F3F;font-weight:800;letter-spacing:.06em;text-transform:uppercase;padding:0 2.2rem;border-radius:0 8px 8px 0;cursor:pointer}
+.wy-find button:hover{background:#E6B656}
+.wy-stats{display:grid;grid-template-columns:repeat(4,1fr);gap:1.25rem}
+.wy-stats div{background:#fff;border-radius:10px;box-shadow:0 10px 26px rgb(0 0 0 / .25);border-top:3px solid #DDA63B;padding:1rem 1.1rem;text-align:center;color:#0E1F3F;font-size:1.05rem;line-height:1.4}
+.wy-stats b{display:block;font:700 2.1rem/1.15 var(--cp-serif,Georgia,serif);color:#B98A0E;background:linear-gradient(transparent 78%,rgb(221 166 59 / .3) 78%);display:inline-block;margin:0 .2rem}
+@media (max-width:900px){.wy-cards{grid-template-columns:1fr}.wy-stats{grid-template-columns:1fr 1fr}}
+@media (max-width:520px){.wy-stats{grid-template-columns:1fr}.wy-find button{padding:0 1rem}}
+</style>
+<style>.yt-soon{opacity:.62}.yt-soon a{cursor:default;pointer-events:none}.yt-soon .cp-yt-thumb img{filter:grayscale(.6)}.cp-yt-thumb{position:relative}.yt-soon-tag{position:absolute;left:4px;top:4px;padding:.12rem .5rem;border-radius:999px;background:#0E1F3F;color:#DDA63B;font:600 .7rem/1.4 var(--cp-sans,sans-serif);letter-spacing:.04em;text-transform:uppercase}</style>
 </head>
 <body class="cp">
   <a class="cp-skip" href="#main">Skip to content</a>
 
   <header class="cp-header">
-    <div class="cp-container cp-header-inner">
+    <div class="cp-container cp-header-inner hx-wide">
       <a href="/" class="cp-logo" aria-label="CertPath Publishing — home">
         <svg viewBox="0 0 40 46" width="30" height="35" aria-hidden="true"><path fill="#0E1F3F" d="M3 2h22l13 13v18L20.5 44 3 33z"/><path fill="#fff" d="M7.5 6.5H23V17h10.5v13.6L20.5 38.8 7.5 30.6z"/><path fill="#0E1F3F" d="M12.5 20.5h16v3h-16zM12.5 26.5h15v3h-15z"/></svg>
         <span class="cp-logo-word">CertPath<small>Publishing</small></span>
       </a>
       <nav class="cp-nav" aria-label="Primary">
         <a href="/exams" data-mega-trigger>Explore exams</a>
-        <a href="/exams?practice=free">Free practice</a>
-        <a href="/#approach">How it works</a>
-        <a href="/blog/">Resources</a>
+        <a href="/free-practice">Free practice</a>
+        <a href="/blog/">Articles</a>
         <a href="/access" class="cp-nav-access">Access my tests</a>
       </nav>
       <button type="button" class="cp-menu-btn" aria-expanded="false" aria-label="Open menu">
@@ -60,7 +231,7 @@
     <div class="cp-mega" id="cp-mega">
       <div class="cp-container">
         <div class="cp-mega-inner"><p><a href="/exams">Browse the full exam directory →</a></p></div>
-        <div class="cp-mega-foot"><span>Only exams with published CertPath titles are listed.</span><a class="cp-textlink" href="/exams">Search the full directory <span class="cp-arrow" aria-hidden="true">→</span></a></div>
+        <div class="cp-mega-foot"><span>Only exams with published CertPath titles are listed.</span><a class="cp-textlink" href="/complete-prep">Search the full directory <span class="cp-arrow" aria-hidden="true">→</span></a></div>
       </div>
     </div>
   </header>
@@ -68,26 +239,26 @@
   <div class="cp-drawer" role="dialog" aria-modal="true" aria-label="Menu">
     <div class="cp-drawer-top"><span class="cp-logo-word">CertPath</span><button type="button" class="cp-drawer-close" aria-label="Close menu">✕</button></div>
     <a href="/exams">Explore exams <span aria-hidden="true">→</span></a>
-    <a href="/exams?practice=free">Free practice <span aria-hidden="true">→</span></a>
-    <a href="/#approach">How it works <span aria-hidden="true">→</span></a>
-    <a href="/blog/">Resources <span aria-hidden="true">→</span></a>
+    <a href="/free-practice">Free practice <span aria-hidden="true">→</span></a>
+    <a href="/blog/">Articles <span aria-hidden="true">→</span></a>
     <a href="/access" class="cp-btn cp-btn-primary">Access my tests</a>
   </div>
 
-  <main id="main" data-pathline>
+  <main id="main">
     <!-- 02 · Editorial hero -->
-    <section class="cp-hero cp-dark has-photo">
-      <img class="cp-bgphoto" src="/img/photo/hero-study.webp" alt="" width="1920" height="1280" decoding="async">
+    <section class="cp-hero has-photo hero-v2 hero-light">
+      <img class="cp-bgphoto" src="/img/photo/hero-v3.webp" alt="" width="1920" height="1072" decoding="async">
       <svg class="cp-hero-rings" viewBox="0 0 400 400" aria-hidden="true"><circle cx="200" cy="200" r="120" style="--o:.34" opacity=".34"/><circle cx="200" cy="200" r="160" style="--o:.2" opacity=".2"/><circle cx="200" cy="200" r="199" style="--o:.1" opacity=".1"/></svg>
       <div class="cp-container cp-hero-grid">
         <div>
-          <span class="cp-eyebrow">A clear path to your next exam</span>
+          <span class="cp-eyebrow">Exam prep that gives you a clear path</span>
           <h1 data-split>Prepare with purpose. Practice with <em>confidence.</em></h1>
-          <p class="cp-hero-copy">Focused study guides and online practice tests that help you understand the material, work through realistic questions and see exactly why each answer is right.</p>
-          <div class="cp-hero-actions">
-            <a class="cp-btn cp-btn-primary" href="#find">Find my exam <span class="cp-arrow" aria-hidden="true">→</span></a>
-            <a class="cp-textlink" href="/exams?practice=free">Explore free practice <span class="cp-arrow" aria-hidden="true">→</span></a>
+          <p class="hx-tag">Study guides, realistic practice exams and video courses that get you ready for exam day.</p>
+          <div class="hx-btns">
+            <a class="hx-btn" href="/complete-prep">Explore Complete Prep</a>
+            <a class="hx-btn hx-ghost" href="/free-practice">Take a free practice test</a>
           </div>
+          <p class="hx-links"><a href="https://www.amazon.com/CertPath-Publishing/e/B0GWVSPBJT" target="_blank" rel="noopener">Shop the books on Amazon <span aria-hidden="true">↗</span></a><span aria-hidden="true" class="hx-dot">·</span><a href="/access">Have a CertPath book? Unlock your resources <span aria-hidden="true">→</span></a></p>
           <svg class="cp-hero-path" viewBox="0 0 480 28" data-draw aria-hidden="true">
             <path pathLength="1" d="M0 14 H480"/>
             <circle cx="6" cy="14" r="5"/><circle cx="170" cy="14" r="5"/><circle cx="334" cy="14" r="5"/>
@@ -140,7 +311,44 @@
     </section>
 
     <!-- Featured on Amazon -->
-    <section class="cp-amazon" aria-labelledby="amazonTitle">
+    <!-- Trust strip -->
+    <section class="ts" aria-label="Why readers trust CertPath">
+      <div class="ts-in">
+        <div class="ts-i"><b class="ts-stars" aria-hidden="true">★★★★★</b><span>Verified Amazon reviews</span></div>
+        <div class="ts-i"><b>30</b><span>Published study guides</span></div>
+        <div class="ts-i"><b>580</b><span>Online practice tests</span></div>
+        <div class="ts-i"><b>30,500+</b><span>Practice questions</span></div>
+        <div class="ts-i"><b>Free</b><span>Video lessons on YouTube</span></div>
+      </div>
+    </section>
+
+    <!-- Reader reviews — renders only when data/reviews.json contains real, permissioned reviews -->
+    <section class="bg-w cp-section cp-reviews rv-top" id="reviews" data-reviews hidden aria-labelledby="reviewsTitle">
+      <div class="cp-container">
+        <div class="cp-section-head is-split">
+          <div><span class="cp-eyebrow">What readers say</span><h2 class="cp-h2" id="reviewsTitle">In their <em>own words.</em></h2></div>
+          <a class="cp-textlink" href="https://www.amazon.com/CertPath-Publishing/e/B0GWVSPBJT" target="_blank" rel="noopener">Read reviews on Amazon <span class="cp-arrow" aria-hidden="true">↗</span></a>
+        </div>
+        <div class="cp-reviews-grid"></div>
+      </div>
+    </section>
+
+    <section class="cp-section cg cg-navy" id="features" aria-labelledby="cgTitle">
+      <div class="cp-container cg-wrap">
+        <div class="cg-head">
+          <div>
+            <span class="cp-eyebrow">Find your exam</span>
+            <h2 class="cp-h2" id="cgTitle">Study guides, practice tests and <em>video courses.</em></h2>
+            <p>Wherever you're headed, the right preparation helps you move forward with confidence. Choose a category below to find the CertPath prep that fits your exam.</p>
+          </div>
+          <img src="/img/photo/devices-pmp.webp" alt="CertPath PMP Exam Prep: the book, an online practice test on a laptop and the video course on a tablet" width="1600" height="1060" loading="lazy" decoding="async">
+        </div>
+        <div class="cg-grid" role="group" aria-label="Exam categories"><button type="button" class="cg-btn" data-cat="pm" aria-expanded="false" aria-controls="cg-pm"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg><span>Project Management</span><i aria-hidden="true">›</i></button><button type="button" class="cg-btn" data-cat="biz" aria-expanded="false" aria-controls="cg-biz"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 8h18v12H3zM8 8V5h8v3M3 13h18"/></svg><span>Business & Administration</span><i aria-hidden="true">›</i></button><button type="button" class="cg-btn" data-cat="trades" aria-expanded="false" aria-controls="cg-trades"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 20h20M5 20V9l7-5 7 5v11M9 20v-6h6v6"/></svg><span>Construction & Skilled Trades</span><i aria-hidden="true">›</i></button><button type="button" class="cg-btn" data-cat="mech" aria-expanded="false" aria-controls="cg-mech"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M4.9 19.1L7 17M17 7l2.1-2.1"/></svg><span>Plant & Mechanical Aptitude</span><i aria-hidden="true">›</i></button><button type="button" class="cg-btn" data-cat="safety" aria-expanded="false" aria-controls="cg-safety"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6zM9 12l2 2 4-4"/></svg><span>Safety & Health</span><i aria-hidden="true">›</i></button><button type="button" class="cg-btn" data-cat="nursing" aria-expanded="false" aria-controls="cg-nursing"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-8-5-8-11a4.5 4.5 0 0 1 8-2.8A4.5 4.5 0 0 1 20 10c0 6-8 11-8 11zM12 9v5M9.5 11.5h5"/></svg><span>Nursing</span><i aria-hidden="true">›</i></button><button type="button" class="cg-btn" data-cat="college" aria-expanded="false" aria-controls="cg-college"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 9l10-5 10 5-10 5zM6 11v5c3 2 9 2 12 0v-5M22 9v6"/></svg><span>College Admissions</span><i aria-hidden="true">›</i></button><button type="button" class="cg-btn" data-cat="adult" aria-expanded="false" aria-controls="cg-adult"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h7a3 3 0 0 1 3 3v13a2 2 0 0 0-2-2H4zM20 4h-5a3 3 0 0 0-3 3"/></svg><span>Adult Education</span><i aria-hidden="true">›</i></button><button type="button" class="cg-btn" data-cat="military" aria-expanded="false" aria-controls="cg-military"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17l-5.9 3 1.2-6.5L2.5 8.9 9.1 8z"/></svg><span>Military</span><i aria-hidden="true">›</i></button><button type="button" class="cg-btn" data-cat="free" aria-expanded="false" aria-controls="cg-free"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 11l3 3 8-8M20 12v7a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h9"/></svg><span>Free Practice Tests</span><i aria-hidden="true">›</i></button></div>
+        <div class="cg-panel" id="cg-pm" hidden><h3>Project Management</h3><ul><li><a href="/pmp"><b>PMP</b><span>Project Management Professional</span><em>→</em></a></li><li><span class="cg-off" aria-disabled="true"><b>CAPM</b><span>Certified Associate in Project Management</span><em class="soon">Complete Prep coming soon</em></span></li><li><span class="cg-off" aria-disabled="true"><b>PMI-ACP</b><span>PMI Agile Certified Practitioner</span><em class="soon">Complete Prep coming soon</em></span></li></ul></div><div class="cg-panel" id="cg-biz" hidden><h3>Business & Administration</h3><ul><li><span class="cg-off" aria-disabled="true"><b>CAP</b><span>Certified Administrative Professional</span><em class="soon">Complete Prep coming soon</em></span></li></ul></div><div class="cg-panel" id="cg-trades" hidden><h3>Construction & Skilled Trades</h3><ul><li><span class="cg-off" aria-disabled="true"><b>CAST</b><span>Construction and Skilled Trades Selection System</span><em class="soon">Complete Prep coming soon</em></span></li><li><span class="cg-off" aria-disabled="true"><b>Journeyman Electrician</b><span>2026 NEC licensing exams</span><em class="soon">Complete Prep coming soon</em></span></li></ul></div><div class="cg-panel" id="cg-mech" hidden><h3>Plant & Mechanical Aptitude</h3><ul><li><span class="cg-off" aria-disabled="true"><b>POSS</b><span>Plant Operator Selection System</span><em class="soon">Complete Prep coming soon</em></span></li><li><span class="cg-off" aria-disabled="true"><b>Mechanical Aptitude</b><span>BMCT, Wiesen, Ramsay</span><em class="soon">Complete Prep coming soon</em></span></li></ul></div><div class="cg-panel" id="cg-safety" hidden><h3>Safety & Health</h3><ul><li><span class="cg-off" aria-disabled="true"><b>CSP</b><span>Certified Safety Professional</span><em class="soon">Complete Prep coming soon</em></span></li><li><span class="cg-off" aria-disabled="true"><b>CHST</b><span>Construction Health and Safety Technician</span><em class="soon">Complete Prep coming soon</em></span></li></ul></div><div class="cg-panel" id="cg-nursing" hidden><h3>Nursing</h3><ul><li><span class="cg-off" aria-disabled="true"><b>CCRN (Adult)</b><span>Critical Care Registered Nurse</span><em class="soon">Complete Prep coming soon</em></span></li><li><span class="cg-off" aria-disabled="true"><b>CNOR</b><span>Certified Perioperative Nurse</span><em class="soon">Complete Prep coming soon</em></span></li><li><span class="cg-off" aria-disabled="true"><b>CMSRN</b><span>Certified Medical-Surgical Registered Nurse</span><em class="soon">Complete Prep coming soon</em></span></li></ul></div><div class="cg-panel" id="cg-college" hidden><h3>College Admissions</h3><ul><li><a href="/sat"><b>Digital SAT Math</b><span>SAT math section</span><em>→</em></a></li><li><span class="cg-off" aria-disabled="true"><b>PSAT/NMSQT Math</b><span>PSAT math section</span><em class="soon">Complete Prep coming soon</em></span></li><li><span class="cg-off" aria-disabled="true"><b>ACT Math</b><span>Enhanced ACT math test</span><em class="soon">Complete Prep coming soon</em></span></li></ul></div><div class="cg-panel" id="cg-adult" hidden><h3>Adult Education</h3><ul><li><span class="cg-off" aria-disabled="true"><b>GED Math</b><span>Mathematical Reasoning</span><em class="soon">Complete Prep coming soon</em></span></li><li><a href="/tabe"><b>TABE 11 & 12 Math</b><span>Levels E, M, D and A</span><em>→</em></a></li></ul></div><div class="cg-panel" id="cg-military" hidden><h3>Military</h3><ul><li><span class="cg-off" aria-disabled="true"><b>ASVAB Math</b><span>Arithmetic Reasoning & Mathematics Knowledge</span><em class="soon">Complete Prep coming soon</em></span></li></ul></div><div class="cg-panel" id="cg-free" hidden><h3>Free Practice Tests</h3><ul><li><a href="/free-practice"><b>Browse all free exams</b><span>Timed practice, no signup needed</span><em>→</em></a></li></ul></div>
+      </div>
+    </section>
+
+    <section class="bg-w cp-amazon" aria-labelledby="amazonTitle">
       <div class="cp-container cp-amazon-inner">
         <div class="cp-amazon-copy" data-reveal>
           <span class="cp-eyebrow">Featured on Amazon</span>
@@ -149,19 +357,54 @@
           <a class="cp-btn cp-btn-navy" href="https://www.amazon.com/CertPath-Publishing/e/B0GWVSPBJT" target="_blank" rel="noopener">Visit our Amazon author page <span class="cp-arrow" aria-hidden="true">↗</span></a>
         </div>
         <div class="cp-amazon-covers" data-reveal>
-            <a href="https://www.amazon.com/dp/B0GWWTVNPM" target="_blank" rel="noopener" data-tilt style="--cp-i:0"><img src="/img/covers/cast.webp" alt="CAST Exam Study Guide — view on Amazon" width="170" height="220" loading="lazy" decoding="async"></a>
-            <a href="https://www.amazon.com/dp/B0GX5PYHC9" target="_blank" rel="noopener" data-tilt style="--cp-i:1"><img src="/img/covers/journeyman-elec.webp" alt="Journeyman Electrician Exam Study Guide — view on Amazon" width="170" height="220" loading="lazy" decoding="async"></a>
-            <a href="https://www.amazon.com/dp/B0GXDZ91DZ" target="_blank" rel="noopener" data-tilt style="--cp-i:2"><img src="/img/covers/csp.webp" alt="CSP Exam Study Guide — view on Amazon" width="170" height="220" loading="lazy" decoding="async"></a>
-            <a href="https://www.amazon.com/dp/B0H344Q8HL" target="_blank" rel="noopener" data-tilt style="--cp-i:3"><img src="/img/covers/ccrn.webp" alt="Adult CCRN Exam Prep — view on Amazon" width="170" height="220" loading="lazy" decoding="async"></a>
-            <a href="https://www.amazon.com/dp/B0H2LHP2TY" target="_blank" rel="noopener" data-tilt style="--cp-i:4"><img src="/img/covers/sat-math.webp" alt="Digital SAT Math Prep — view on Amazon" width="170" height="220" loading="lazy" decoding="async"></a>
-            <a href="https://www.amazon.com/dp/B0H2XXSTDL" target="_blank" rel="noopener" data-tilt style="--cp-i:5"><img src="/img/covers/ged-math.webp" alt="GED Math Prep — view on Amazon" width="170" height="220" loading="lazy" decoding="async"></a>
-            <a href="https://www.amazon.com/dp/B0H55G629X" target="_blank" rel="noopener" data-tilt style="--cp-i:6"><img src="/img/covers/cnor.webp" alt="CNOR Exam Study Guide — view on Amazon" width="170" height="220" loading="lazy" decoding="async"></a>
+            <a href="https://www.amazon.com/dp/B0GWWTVNPM" target="_blank" rel="noopener" style="--cp-i:0"><img src="/img/covers/cast.webp" alt="CAST Exam Study Guide — view on Amazon" width="170" height="220" loading="lazy" decoding="async"></a>
+            <a href="https://www.amazon.com/dp/B0GX5PYHC9" target="_blank" rel="noopener" style="--cp-i:1"><img src="/img/covers/journeyman-elec.webp" alt="Journeyman Electrician Exam Study Guide — view on Amazon" width="170" height="220" loading="lazy" decoding="async"></a>
+            <a href="https://www.amazon.com/dp/B0GXDZ91DZ" target="_blank" rel="noopener" style="--cp-i:2"><img src="/img/covers/csp.webp" alt="CSP Exam Study Guide — view on Amazon" width="170" height="220" loading="lazy" decoding="async"></a>
+            <a href="https://www.amazon.com/dp/B0H51YG24M" target="_blank" rel="noopener" style="--cp-i:3"><img src="/img/covers/cap.webp" alt="CAP Exam Study Guide — view on Amazon" width="170" height="220" loading="lazy" decoding="async"></a>
+            <a href="https://www.amazon.com/dp/B0GXJ74XG7" target="_blank" rel="noopener" style="--cp-i:4"><img src="/img/covers/chst.webp" alt="CHST Exam Study Guide — view on Amazon" width="170" height="220" loading="lazy" decoding="async"></a>
+            <a href="https://www.amazon.com/dp/B0GX5BKYDB" target="_blank" rel="noopener" style="--cp-i:5"><img src="/img/covers/mech-apt.webp" alt="Mechanical Aptitude Exam Study Guide — view on Amazon" width="170" height="220" loading="lazy" decoding="async"></a>
+            <a href="https://www.amazon.com/dp/B0H55G629X" target="_blank" rel="noopener" style="--cp-i:6"><img src="/img/covers/cnor.webp" alt="CNOR Exam Study Guide — view on Amazon" width="170" height="220" loading="lazy" decoding="async"></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why test-takers choose CertPath -->
+    <section class="wy" id="how" aria-labelledby="wyTitle">
+      <div class="wy-in">
+        <h2 id="wyTitle">Why test-takers choose <em>CertPath</em></h2>
+        <div class="wy-cards">
+          <article class="wy-card">
+            <svg viewBox="0 0 120 80" aria-hidden="true"><rect x="8" y="10" width="34" height="46" rx="3"/><path d="M14 20h22M14 27h22M14 34h16"/><rect x="40" y="18" width="52" height="36" rx="3"/><path d="M34 60h64" /><path class="g" d="M60 28l12 8-12 8z"/><rect class="g" x="84" y="44" width="26" height="22" rx="3"/><path d="M89 52h16M89 58h12"/></svg>
+            <h3>Three ways to study</h3>
+            <ul><li>Full-color study guides cover every exam domain.</li><li>Timed online tests feel like the real thing.</li><li>Video courses walk you through each topic.</li></ul>
+          </article>
+          <article class="wy-card">
+            <svg viewBox="0 0 120 80" aria-hidden="true"><path d="M60 8a32 32 0 1 1-28 16"/><path d="M26 16l6 8 8-5"/><rect x="46" y="20" width="28" height="38" rx="3"/><rect class="g" x="53" y="16" width="14" height="7" rx="2"/><path class="g" d="M51 32l3 3 5-5M51 42l3 3 5-5"/><path d="M62 33h8M62 43h8M51 51h19"/></svg>
+            <h3>Built on the current exams</h3>
+            <ul><li>Written to the official exam content outlines.</li><li>New editions as the exams change (PMP July 2026).</li><li>Every answer explained, not just marked.</li></ul>
+          </article>
+          <article class="wy-card">
+            <svg viewBox="0 0 120 80" aria-hidden="true"><path d="M60 22c-10-7-26-8-40-4v46c14-4 30-3 40 4 10-7 26-8 40-4V18c-14-4-30-3-40 4zM60 22v46"/><path d="M28 30h22M28 38h22M28 46h18"/><circle class="g" cx="86" cy="52" r="14"/><path d="M82 45l10 7-10 7z"/></svg>
+            <h3>Free resources</h3>
+            <ul><li>A free full-length practice exam for most tests.</li><li>Free video lessons on our YouTube channel.</li><li>Your book code unlocks the online extras.</li></ul>
+          </article>
+        </div>
+        <form class="wy-find" action="/exams" method="get" role="search">
+          <label for="wyQ" class="cp-sr-only">Find your prep</label>
+          <input id="wyQ" name="q" type="search" placeholder="Find your prep: PMP, SAT, CAST, CCRN…" autocomplete="off">
+          <button type="submit">Get started</button>
+        </form>
+        <div class="wy-stats">
+          <div>Covering <b>19</b> exams across four fields</div>
+          <div><b>580</b> timed online practice tests</div>
+          <div><b>30,500+</b> questions with explanations</div>
+          <div><b>290</b> lessons in the PMP video course</div>
         </div>
       </div>
     </section>
 
     <!-- YouTube channel -->
-    <section class="cp-section cp-yt" id="videos" aria-labelledby="ytTitle">
+    <section class="bg-c cp-section cp-yt" id="videos" aria-labelledby="ytTitle">
       <div class="cp-container">
         <div class="cp-section-head is-split" data-reveal>
           <div>
@@ -316,325 +559,11 @@
       </div>
     </section>
     <script>(function(){var now=Date.now(),l=document.getElementById('yt-list-pmp');if(!l)return;
-      l.querySelectorAll('li[data-publish]').forEach(function(li){if(Date.parse(li.dataset.publish)>now)li.remove();});
+      l.querySelectorAll('li[data-publish]').forEach(function(li){if(Date.parse(li.dataset.publish)>now){var a=li.querySelector('a');li.classList.add('yt-soon');if(a){a.removeAttribute('href');a.removeAttribute('data-yt');a.setAttribute('aria-disabled','true');a.tabIndex=-1;var n=a.querySelector('.cp-yt-thumb');if(n){var b=document.createElement('small');b.className='yt-soon-tag';b.textContent='Coming '+new Date(li.dataset.publish).toLocaleDateString(undefined,{month:'short',day:'numeric'});n.appendChild(b);}}}});
       var t=document.querySelector('#yt-tab-pmp span');if(t)t.textContent=l.querySelectorAll('li').length;})();</script>
 
-    <!-- 05 · Featured prep pathways -->
-    <section class="cp-section" id="pathways" style="padding-top:0">
-      <div class="cp-container">
-        <div class="cp-section-head" data-reveal>
-          <span class="cp-eyebrow">Featured preparation</span>
-          <h2 class="cp-h2">Choose the format that fits <em>how you study.</em></h2>
-          <p class="cp-lead">Every book is sold on Amazon and includes timed online practice tests. Where we have them, the video lessons are free on YouTube.</p>
-        </div>
-        <div class="cp-paths">
-          <article class="cp-path is-flagship" data-reveal>
-            <div class="cp-path-media" data-tilt="nosheen"><img src="/img/covers/pmp.webp" alt="Cover of PMP Exam Prep" width="626" height="810" loading="lazy" decoding="async"></div>
-            <div class="cp-path-body">
-              <span class="cp-type">Study guide · PMP®</span>
-              <h3>PMP Exam Prep</h3>
-              <p>Written to the July 2026 PMP Examination Content Outline. Start with the free full-length practice exam and the free video course.</p>
-              <ul class="cp-incl">
-                <li>30-lesson video course — free on YouTube</li>
-                <li>4 full-length online exams — 720 questions</li>
-                <li>Free full-length practice exam</li>
-              </ul>
-              <div class="cp-offer">
-                <a class="cp-btn cp-btn-primary" href="/books/pmp">See the PMP book <span class="cp-arrow" aria-hidden="true">→</span></a>
-                <span class="cp-price">Paperback sold on Amazon</span>
-              </div>
-            </div>
-          </article>
-
-          <article class="cp-path" data-reveal style="--cp-i:1">
-            <div class="cp-path-media" data-tilt="nosheen"><img src="/img/covers/capm.webp" alt="Cover of CAPM Exam Prep" width="600" height="776" loading="lazy" decoding="async"></div>
-            <div>
-              <span class="cp-type">Study guide · CAPM®</span>
-              <h3>CAPM Exam Prep</h3>
-              <p>Built to the 2023 CAPM Examination Content Outline.</p>
-              <ul class="cp-incl"><li>8 video lessons — free on YouTube</li><li>5 full-length online exams — 750 questions</li><li>Free full-length practice exam</li></ul>
-              <div class="cp-offer">
-                <a class="cp-btn cp-btn-navy cp-btn-sm" href="/books/capm">See the CAPM book <span class="cp-arrow" aria-hidden="true">→</span></a>
-                <span class="cp-price">Paperback sold on Amazon</span>
-              </div>
-            </div>
-          </article>
-
-          <article class="cp-path" data-reveal style="--cp-i:2">
-            <div class="cp-path-media" data-tilt="nosheen"><img src="/img/covers/cast.webp" alt="Cover of CAST Exam Study Guide" width="615" height="810" loading="lazy" decoding="async"></div>
-            <div>
-              <span class="cp-type">Study guide · Paperback</span>
-              <h3>CAST Exam Study Guide</h3>
-              <p>For the EEI Construction and Skilled Trades test — all four sections.</p>
-              <ul class="cp-incl"><li>Full review plus practice tests in the book</li><li>3 timed online practice tests included</li><li>Free sample questions on the CAST page</li></ul>
-              <div class="cp-offer">
-                <a class="cp-btn cp-btn-navy cp-btn-sm" href="/cast">Explore CAST prep <span class="cp-arrow" aria-hidden="true">→</span></a>
-                <span class="cp-price">Paperback sold on Amazon</span>
-              </div>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <!-- Fields we publish for -->
-    <section class="cp-section" style="padding-bottom:0" aria-labelledby="fieldsTitle">
-      <div class="cp-container">
-        <div class="cp-section-head" data-reveal>
-          <span class="cp-eyebrow">Who we publish for</span>
-          <h2 class="cp-h2" id="fieldsTitle">Four fields. One way of <em>preparing.</em></h2>
-        </div>
-        <div class="cp-fields" data-reveal>
-          <a class="cp-field-tile" href="/exams?category=project">
-            <img src="/img/photo/field-project.webp" alt="" width="800" height="1200" loading="lazy" decoding="async">
-            <div><i></i><h3>Project management &amp; business</h3><p>PMP, CAPM, PMI-ACP and CAP.</p><span>Explore <span aria-hidden="true">→</span></span></div>
-          </a>
-          <a class="cp-field-tile" href="/exams?category=trades">
-            <img src="/img/photo/field-trades.webp" alt="" width="800" height="1200" loading="lazy" decoding="async">
-            <div><i></i><h3>Trades &amp; safety</h3><p>CAST, POSS, journeyman electrician, mechanical aptitude, CSP and CHST.</p><span>Explore <span aria-hidden="true">→</span></span></div>
-          </a>
-          <a class="cp-field-tile" href="/exams?category=healthcare">
-            <img src="/img/photo/field-healthcare.webp" alt="" width="800" height="1200" loading="lazy" decoding="async">
-            <div><i></i><h3>Healthcare</h3><p>Adult CCRN, CNOR and CMSRN.</p><span>Explore <span aria-hidden="true">→</span></span></div>
-          </a>
-          <a class="cp-field-tile" href="/exams?category=academic">
-            <img src="/img/photo/field-academic.webp" alt="" width="800" height="1200" loading="lazy" decoding="async">
-            <div><i></i><h3>Academic &amp; math</h3><p>Digital SAT, PSAT/NMSQT, ACT, GED, TABE and ASVAB math.</p><span>Explore <span aria-hidden="true">→</span></span></div>
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <!-- 03 · Find your exam -->
-    <section class="cp-section cp-dark has-photo cp-finder-dark" id="find" data-finder data-limit="6" data-featured="pmp,cast,ccrn,sat,capm,ged">
-      <img class="cp-bgphoto" src="/img/photo/band-ridge.webp" alt="" width="1920" height="1280" loading="lazy" decoding="async">
-      <div class="cp-container">
-        <div class="cp-section-head" data-reveal>
-          <span class="cp-eyebrow">Popular exams</span>
-          <h2 class="cp-h2">Your exam. Your <em>next step.</em></h2>
-          <p class="cp-lead">Search by exam name or acronym, or browse by field. Every exam listed has a published CertPath title you can buy today.</p>
-        </div>
-        <div class="cp-finder-bar" data-reveal>
-          <div class="cp-field">
-            <label for="examSearch">Search exams</label>
-            <div class="cp-search">
-              <svg width="18" height="18" viewBox="0 0 20 20" aria-hidden="true"><circle cx="9" cy="9" r="6.25" fill="none" stroke="currentColor" stroke-width="1.75"/><path d="M13.5 13.5L18 18" stroke="currentColor" stroke-width="1.75"/></svg>
-              <input type="search" id="examSearch" placeholder="e.g. PMP, journeyman, GED math" autocomplete="off">
-              <button type="button" data-clear hidden aria-label="Clear search">✕</button>
-            </div>
-          </div>
-          <div class="cp-chips" role="group" aria-label="Filter by field"></div>
-        </div>
-        <p class="cp-count" role="status" aria-live="polite"></p>
-        <div class="cp-exam-grid">
-          <!-- No-JS fallback: plain links to every exam hub. -->
-          <ul>
-            <li><a href="/pmp">PMP — Project Management Professional</a></li>
-            <li><a href="/capm">CAPM — Certified Associate in Project Management</a></li>
-            <li><a href="/cast">CAST — Construction and Skilled Trades</a></li>
-            <li><a href="/poss">POSS — Plant Operator Selection System</a></li>
-            <li><a href="/mechanical-aptitude">Mechanical Aptitude</a></li>
-            <li><a href="/journeyman-electrician">Journeyman Electrician</a></li>
-            <li><a href="/csp">CSP — Certified Safety Professional</a></li>
-            <li><a href="/chst">CHST — Construction Health and Safety Technician</a></li>
-            <li><a href="/ccrn">Adult CCRN</a></li><li><a href="/cnor">CNOR</a></li>
-            <li><a href="/sat">Digital SAT Math</a></li><li><a href="/psat">PSAT/NMSQT Math</a></li>
-            <li><a href="/act">ACT Math</a></li><li><a href="/ged">GED Math</a></li><li><a href="/tabe">TABE 11 &amp; 12 Math</a></li>
-          </ul>
-        </div>
-        <div class="cp-finder-foot">
-          <span>Looking for something else? The full directory lists every exam and title.</span>
-          <a class="cp-btn cp-btn-ghost" href="/exams">Open the exam directory <span class="cp-arrow" aria-hidden="true">→</span></a>
-        </div>
-      </div>
-    </section>
-
-    <!-- By the numbers — every figure is counted from the published catalog -->
-    <section class="cp-numbers" aria-labelledby="numbersTitle">
-      <div class="cp-container cp-numbers-inner">
-        <div data-reveal>
-          <span class="cp-eyebrow">By the numbers</span>
-          <h2 class="cp-h2" id="numbersTitle">Real books. <em>Real practice.</em></h2>
-        </div>
-        <dl class="cp-numbers-grid" data-reveal>
-          <div><dt data-count="30">30</dt><dd>Published titles</dd></div>
-          <div><dt data-count="19">19</dt><dd>Exams covered</dd></div>
-          <div><dt data-count="18000" data-suffix="+">18,000+</dt><dd>Online practice questions</dd></div>
-          <div><dt data-count="16">16</dt><dd>Free video lessons</dd></div>
-        </dl>
-      </div>
-    </section>
-
-    <!-- Reader reviews — renders only when data/reviews.json contains real, permissioned reviews -->
-    <section class="cp-section cp-reviews" id="reviews" data-reviews hidden aria-labelledby="reviewsTitle">
-      <div class="cp-container">
-        <div class="cp-section-head is-split">
-          <div><span class="cp-eyebrow">What readers say</span><h2 class="cp-h2" id="reviewsTitle">In their <em>own words.</em></h2></div>
-          <a class="cp-textlink" href="https://www.amazon.com/CertPath-Publishing/e/B0GWVSPBJT" target="_blank" rel="noopener">Read reviews on Amazon <span class="cp-arrow" aria-hidden="true">↗</span></a>
-        </div>
-        <div class="cp-reviews-grid"></div>
-      </div>
-    </section>
-
-    <!-- 04 · The CertPath approach -->
-    <section class="cp-section cp-approach" id="approach">
-      <div class="cp-container">
-        <div class="cp-section-head" data-reveal>
-          <span class="cp-eyebrow">The CertPath approach</span>
-          <h2 class="cp-h2">Understand it. Practice it. <em>Review it.</em></h2>
-          <p class="cp-lead">Every CertPath title follows the same three steps — on the page first, then online. Here they are with real material from PMP Exam Prep.</p>
-        </div>
-
-        <div class="cp-trio" data-reveal>
-          <figure><div class="cp-trio-img"><img src="/img/photo/step-study.webp" alt="A learner at a kitchen table highlighting a passage in a study guide, a hard hat beside him." width="900" height="900" loading="lazy" decoding="async"><b>01</b></div><figcaption><strong>Study</strong>Clear chapters built around the exam's own outline.</figcaption></figure>
-          <svg width="44" height="12" viewBox="0 0 44 12" aria-hidden="true"><path d="M0 6h40M35 1l5 5-5 5" fill="none" stroke="#DDA63B" stroke-width="1.5"/></svg>
-          <figure><div class="cp-trio-img"><img src="/img/photo/step-practice.webp" alt="A nurse in scrubs answering practice questions on a tablet during a break." width="900" height="900" loading="lazy" decoding="async"><b>02</b></div><figcaption><strong>Practice</strong>Timed online tests on any device, included with the book.</figcaption></figure>
-          <svg width="44" height="12" viewBox="0 0 44 12" aria-hidden="true"><path d="M0 6h40M35 1l5 5-5 5" fill="none" stroke="#DDA63B" stroke-width="1.5"/></svg>
-          <figure><div class="cp-trio-img"><img src="/img/photo/step-review.webp" alt="A professional at a laptop in the evening, noting what to review next." width="900" height="900" loading="lazy" decoding="async"><b>03</b></div><figcaption><strong>Review</strong>A written explanation for every answer, so you know what to study next.</figcaption></figure>
-        </div>
-
-        <div class="cp-story" data-story>
-        <div class="cp-steps">
-          <div class="cp-steps-path" aria-hidden="true"><i></i></div>
-
-          <div class="cp-step" data-reveal>
-            <div class="cp-step-node">01</div>
-            <div>
-              <h3>Understand it.</h3>
-              <p>Plain-language chapters organised around the exam's own outline, with figures, tables and exam tips where they help — not pages of theory you will never be asked about.</p>
-              <p class="cp-step-note">Shown: an unedited page from the print edition.</p>
-            </div>
-            <figure class="cp-frame" style="margin:0">
-              <button type="button" class="cp-page" data-lightbox="/img/preview/pmp-page-26.webp" data-alt="Page 26 of PMP Exam Prep: Tuckman's team-development stages, with a figure, a table of stages and an exam tip.">
-                <img src="/img/preview/pmp-page-26.webp" alt="Page 26 of PMP Exam Prep: Tuckman's team-development stages, with a figure, a summary table and an exam tip." width="900" height="1165" loading="lazy" decoding="async">
-                <span>View full page</span>
-              </button>
-              <figcaption>PMP Exam Prep, page 26 — “How teams come together: Tuckman's stages.”</figcaption>
-            </figure>
-          </div>
-
-          <div class="cp-step" data-reveal>
-            <div class="cp-step-node">02</div>
-            <div>
-              <h3>Practice it.</h3>
-              <p>Timed online practice tests come with the book. Enter the access code printed inside and work through exam-style questions on your phone, tablet or laptop.</p>
-              <p class="cp-step-note">Try it: this is question 1 of the free PMP practice exam. Choose an answer.</p>
-            </div>
-            <div class="cp-quiz">
-              <div class="cp-quiz-top"><span>FREE PMP PRACTICE EXAM</span><span>QUESTION 1 OF 180</span></div>
-              <div class="cp-quiz-body">
-                <p class="cp-quiz-q" id="demoQ">A newly formed hybrid team drawn from three departments describes the project's purpose differently in casual conversation. What should the project manager do FIRST?</p>
-                <div class="cp-quiz-opts" role="group" aria-labelledby="demoQ">
-                  <button type="button" class="cp-opt"><b>A</b><span>Draft a vision statement from the charter and circulate it to the leads for comment.</span></button>
-                  <button type="button" class="cp-opt"><b>B</b><span>Have the sponsor issue a formal statement of purpose to settle the differences.</span></button>
-                  <button type="button" class="cp-opt" data-correct><b>C</b><span>Facilitate a session with the sponsor and department leads to co-create a shared vision.</span></button>
-                  <button type="button" class="cp-opt"><b>D</b><span>Decompose the requirements in detail so the differing interpretations converge as work proceeds.</span></button>
-                </div>
-                <p class="cp-step-note" role="status" aria-live="polite" data-quiz-status></p>
-                <div class="cp-explain" hidden>
-                  <strong>Why C is the best answer</strong>
-                  A shared vision is built collaboratively with the sponsor and key leads. Drafting from the charter and circulating for comment feels efficient but imposes one interpretation; a sponsor edict settles by authority without buy-in; decomposing requirements presumes an alignment that does not yet exist.
-                </div>
-                <p style="margin-top:1rem"><button type="button" class="cp-btn cp-btn-ghost cp-btn-sm" data-quiz-reset hidden>Try again</button></p>
-              </div>
-            </div>
-          </div>
-
-          <div class="cp-step" data-reveal>
-            <div class="cp-step-node">03</div>
-            <div>
-              <h3>Review it.</h3>
-              <p>Every question comes with a written explanation — why the best answer is best, and why the tempting one is not. Use your results to decide what to study next.</p>
-              <p class="cp-step-note">Answer the question above to see its explanation appear, exactly as it does in the practice tests.</p>
-            </div>
-            <div class="cp-frame">
-              <div class="cp-explain" style="margin:0;background:#fff">
-                <strong>Closest distractor: A</strong>
-                A draft to react to is not the same as co-creating shared understanding.
-              </div>
-              <p class="cp-step-note">From the same question's explanation. Practice results are a study aid — they are not an official score or a prediction of your exam result.</p>
-            </div>
-          </div>
-        </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- The catalog, on one shelf (user-scrolled) -->
-    <section class="cp-section cp-shelf-wrap cp-dark" aria-labelledby="shelfTitle">
-      <div class="cp-container">
-        <div class="cp-section-head is-split" data-reveal>
-          <div>
-            <span class="cp-eyebrow">The catalog</span>
-            <h2 class="cp-h2" id="shelfTitle">Every title, on <em>one shelf.</em></h2>
-          </div>
-          <div class="cp-shelf-controls">
-            <button type="button" data-shelf-prev aria-label="Scroll shelf left">←</button>
-            <button type="button" data-shelf-next aria-label="Scroll shelf right">→</button>
-          </div>
-        </div>
-        <div class="cp-shelf" tabindex="0" role="region" aria-label="Published CertPath titles">
-          <p><a href="/exams" style="color:#fff">Browse all published titles in the exam directory →</a></p>
-        </div>
-        <div class="cp-shelf-rail" aria-hidden="true"></div>
-      </div>
-    </section>
-
-    <!-- 06 · Proof of the product -->
-    <section class="cp-section" id="proof">
-      <div class="cp-container cp-proof">
-        <div data-reveal>
-          <span class="cp-eyebrow">How the books are made</span>
-          <h2 class="cp-h2">Evidence you can <em>check.</em></h2>
-          <p class="cp-lead" style="margin-top:1rem">We would rather show you the product than describe it. Read a page, answer a question, and check the edition details before you buy.</p>
-          <p style="margin-top:1.5rem"><a class="cp-textlink" href="#approach">See a real page and question <span class="cp-arrow" aria-hidden="true">→</span></a></p>
-        </div>
-        <dl class="cp-facts" data-reveal style="--cp-i:1">
-          <div><dt>Written to a named outline</dt><dd>Each title states the exam outline or edition it was written to — for example the July 2026 PMP Examination Content Outline, the 2026 National Electrical Code, or the AACN test plan effective 12 November 2025.</dd></div>
-          <div><dt>Book and practice together</dt><dd>Most titles include an access code for timed online practice tests. What a specific title includes is listed on its exam page and on its cover.</dd></div>
-          <div><dt>Corrections</dt><dd>Found an error? Email <a href="mailto:support@certpathpublishing.store?subject=Correction">support@certpathpublishing.store</a>. Confirmed corrections are applied to the online question banks and to the next printing.</dd></div>
-          <div><dt>Independent publisher</dt><dd>CertPath Publishing is an independent publisher. We are not affiliated with, or endorsed by, any exam owner or certifying body.</dd></div>
-        </dl>
-      </div>
-    </section>
-
-    <!-- 07 · Resources -->
-    <section class="cp-section" style="padding-top:0">
-      <div class="cp-container">
-        <div class="cp-section-head" data-reveal>
-          <span class="cp-eyebrow">Resources</span>
-          <h2 class="cp-h2">Free, and worth <em>your time.</em></h2>
-        </div>
-        <div class="cp-resources" data-reveal>
-          <a class="cp-resource" href="/pmp">
-            <small>Practice exam · PMP</small>
-            <h3>A full-length, timed PMP practice exam</h3>
-            <p>180 questions in 240 minutes, auto-scored, with an explanation for every answer.</p>
-            <span>Start the free exam →</span>
-          </a>
-          <a class="cp-resource" href="/capm">
-            <small>Practice exam · CAPM</small>
-            <h3>A full-length, timed CAPM practice exam</h3>
-            <p>150 questions across all four CAPM domains, with a written rationale for each.</p>
-            <span>Start the free exam →</span>
-          </a>
-          <a class="cp-resource" href="/cast#sample-quiz">
-            <small>Sample questions · CAST</small>
-            <h3>Ten CAST questions, answered and explained</h3>
-            <p>Graphic arithmetic, mechanical concepts and reading — no sign-up needed.</p>
-            <span>Try the questions →</span>
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <!-- 08 · Owner shortcut + closing action -->
-    <section class="cp-owner" aria-label="Book owners">
-      <div class="cp-container cp-owner-inner">
-        <p><b>Already have a CertPath book?</b> Your practice tests are one code away.</p>
-        <a class="cp-btn cp-btn-navy" href="/access">Access my tests <span class="cp-arrow" aria-hidden="true">→</span></a>
-      </div>
-    </section>
+    <!-- 08 · Book owners: floating code entry (built by premium.js) -->
+    <div class="cp-codefloat" data-codefloat hidden></div>
 
     <section class="cp-section cp-closing cp-dark has-photo">
       <img class="cp-bgphoto" src="/img/photo/band-summit.webp" alt="" width="1920" height="1280" loading="lazy" decoding="async">
@@ -670,8 +599,8 @@
       <div>
         <h2>Resources</h2>
         <ul>
-          <li><a href="/exams?practice=free">Free practice</a></li>
-          <li><a href="/blog/">Blog</a></li>
+          <li><a href="/free-practice">Free practice</a></li>
+          <li><a href="/blog/">Articles</a></li>
           <li><a href="/#videos">Video lessons</a></li>
           <li><a href="https://www.youtube.com/@certpathpublishing" target="_blank" rel="noopener">YouTube channel ↗</a></li>
           <li><a href="https://www.amazon.com/CertPath-Publishing/e/B0GWVSPBJT" target="_blank" rel="noopener">Amazon author page ↗</a></li>
@@ -680,8 +609,6 @@
       <div>
         <h2>Company</h2>
         <ul>
-          <li><a href="/#approach">How it works</a></li>
-          <li><a href="/#proof">How the books are made</a></li>
           <li><a href="mailto:support@certpathpublishing.store">Contact</a></li>
         </ul>
       </div>
@@ -706,6 +633,31 @@
     <img src="" alt="">
   </dialog>
 
-  <script src="/js/premium.js?v=13" defer></script>
+  <script src="/js/premium.js?v=21" defer></script>
+<script>
+// Home hero: book code -> that book's page (router lives in premium.js).
+(function(){var f=document.getElementById('hxForm');if(!f)return;
+  try{var e=localStorage.getItem('certpath_email');if(e)document.getElementById('hxEmail').value=e;}catch(x){}
+  f.addEventListener('submit',async function(ev){ev.preventDefault();var m=document.getElementById('hxMsg'),btn=f.querySelector('button');m.textContent='';btn.disabled=true;
+    try{if(!(await window.cpRouteCode(document.getElementById('hxCode').value,document.getElementById('hxEmail').value.trim()))){m.textContent="We couldn't verify that code. Check it against the last page of your book.";btn.disabled=false;}}
+    catch(x){m.textContent='Network problem, please try again.';btn.disabled=false;}});
+})();
+</script>
+<script>
+// Hero text placement. Wide screens: compact block in the bottom-left, left of the coffee cup.
+// Otherwise: block ends ~40px above the cup. Cup in the photo: x 28.6-39.6%, top 55.6% (object-fit cover, anchored 62% 0).
+(function(){function fit(){var h=document.querySelector('.cp-hero.hero-light'),g=h&&h.querySelector('.cp-hero-grid'),c=g&&g.firstElementChild;if(!c)return;
+  h.classList.remove('hx-low');c.style.maxWidth='';
+  if(innerWidth<901){h.style.removeProperty('--hx-top');return;}
+  var W=h.clientWidth,H=h.clientHeight,sc=Math.max(W/1920,H/1072),rw=1920*sc,rh=1072*sc,ox=(W-rw)*.62;
+  var cupLeft=ox+rw*.286,cupTop=rh*.556,left=c.getBoundingClientRect().left-h.getBoundingClientRect().left,avail=cupLeft-left-32;
+  if(avail>=470){h.classList.add('hx-low');c.style.maxWidth=avail+'px';
+    var btns=c.querySelector('.hx-btns'),block=c.offsetHeight;
+    var vis=Math.min(H,innerHeight-Math.max(0,h.getBoundingClientRect().top+scrollY));
+    if(btns.scrollWidth<=avail+1&&block<vis*.6){h.style.setProperty('--hx-top',Math.max(24,vis-block-Math.max(56,vis*.09))+'px');return;}
+    h.classList.remove('hx-low');c.style.maxWidth='';}
+  var blk=c.offsetHeight;h.style.setProperty('--hx-top',Math.max(24,Math.min(cupTop-40-blk,(H-blk)/2))+'px');}
+  addEventListener('DOMContentLoaded',fit);addEventListener('load',fit);addEventListener('resize',fit);})();
+</script>
 </body>
 </html>

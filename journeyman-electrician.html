@@ -17,13 +17,13 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/css/style.css?v=10">
-  <link rel="stylesheet" href="/css/landing.css?v=2">
+  <link rel="stylesheet" href="/css/landing.css?v=4">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is on the journeyman electrician exam?","acceptedAnswer":{"@type":"Answer","text":"Most journeyman exams are open-book and based on the National Electrical Code: wiring and protection, wiring methods and materials, equipment for general use, special occupancies, services and feeders, branch circuits and conductors, motors, and general electrical theory. Many states use the ICC or a state-specific exam of roughly 80 questions in about 4 hours."}},{"@type":"Question","name":"Which NEC edition does the exam use?","acceptedAnswer":{"@type":"Answer","text":"It depends on your state — jurisdictions adopt the NEC on different cycles, so 2017, 2020, 2023, and 2026 are all in use somewhere. Our book is built on the 2026 NEC and includes an edition-comparison guide so you can translate the load-calculation rules back to an earlier code if your state is behind."}},{"@type":"Question","name":"Is the journeyman exam open book?","acceptedAnswer":{"@type":"Answer","text":"Usually yes. That makes code-navigation speed the real skill — knowing exactly which article and table to turn to. Our practice questions train that lookup habit, not just memorization."}},{"@type":"Question","name":"Can I use a calculator?","acceptedAnswer":{"@type":"Answer","text":"Yes, most journeyman exams allow a basic non-programmable calculator for load and conduit-fill calculations. Our book includes worked examples for every common calculation type."}},{"@type":"Question","name":"What is included with the CertPath book?","acceptedAnswer":{"@type":"Answer","text":"A full code-based review, calculation walkthroughs, 3 full-length practice tests, 180+ questions with explanations, and free timed online practice tests via the access code inside."}}]}</script>
   <!-- premium-shell -->
   <script>document.documentElement.classList.add('cp-js');setTimeout(function(){if(!window.__cpReady)document.documentElement.classList.remove('cp-js')},2500);</script>
   <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;1,8..60,400&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/css/premium.css?v=11">
-  <link rel="stylesheet" href="/css/premium-bridge.css?v=1">
+  <link rel="stylesheet" href="/css/premium.css?v=24">
+  <link rel="stylesheet" href="/css/premium-bridge.css?v=2">
 </head>
 <body class="cp">
   <a class="cp-skip" href="#content">Skip to content</a>
@@ -36,9 +36,8 @@
       </a>
       <nav class="cp-nav" aria-label="Primary">
         <a href="/exams" data-mega-trigger>Explore exams</a>
-        <a href="/exams?practice=free">Free practice</a>
-        <a href="/#approach">How it works</a>
-        <a href="/blog/">Resources</a>
+        <a href="/free-practice">Free practice</a>
+        <a href="/blog/">Articles</a>
         <a href="/access" class="cp-nav-access">Access my tests</a>
       </nav>
       <button type="button" class="cp-menu-btn" aria-expanded="false" aria-label="Open menu">
@@ -48,17 +47,16 @@
     <div class="cp-mega" id="cp-mega">
       <div class="cp-container">
         <div class="cp-mega-inner"><p><a href="/exams">Browse the full exam directory →</a></p></div>
-        <div class="cp-mega-foot"><span>Only exams with published CertPath titles are listed.</span><a class="cp-textlink" href="/exams">Search the full directory <span class="cp-arrow" aria-hidden="true">→</span></a></div>
+        <div class="cp-mega-foot"><span>Only exams with published CertPath titles are listed.</span><a class="cp-textlink" href="/complete-prep">Search the full directory <span class="cp-arrow" aria-hidden="true">→</span></a></div>
       </div>
     </div>
   </header>
 
-  <div class="cp-drawer" role="dialog" aria-modal="true" aria-label="Menu">
+  <span id="content"></span><div class="cp-drawer" role="dialog" aria-modal="true" aria-label="Menu">
     <div class="cp-drawer-top"><span class="cp-logo-word">CertPath</span><button type="button" class="cp-drawer-close" aria-label="Close menu">✕</button></div>
     <a href="/exams">Explore exams <span aria-hidden="true">→</span></a>
-    <a href="/exams?practice=free">Free practice <span aria-hidden="true">→</span></a>
-    <a href="/#approach">How it works <span aria-hidden="true">→</span></a>
-    <a href="/blog/">Resources <span aria-hidden="true">→</span></a>
+    <a href="/free-practice">Free practice <span aria-hidden="true">→</span></a>
+    <a href="/blog/">Articles <span aria-hidden="true">→</span></a>
     <a href="/access" class="cp-btn cp-btn-primary">Access my tests</a>
   </div>
 
@@ -101,22 +99,23 @@
     </div>
   </section>
 
-  <section class="lp-books">
+  <section class="lp-books" id="book">
     <div class="lp-books-inner">
-      <div class="lp-section-head">
-        <div class="eyebrow">The Books</div>
-        <h2>Complete Journeyman Electrician Prep</h2>
-        <p>Every book includes free timed online practice tests — no subscription required.</p>
-      </div>
-      <div class="lp-books-grid">
-        <div class="lp-book-card">
-          <a href="https://www.amazon.com/dp/B0GX5PYHC9" target="_blank" rel="noopener"><img src="/img/covers/journeyman-elec.webp" alt="Journeyman Electrician Exam Study Guide" loading="lazy"></a>
-          <h3>Journeyman Electrician Exam Study Guide</h3>
-          <div class="meta">3 online tests &middot; 180 questions included</div>
-          <div class="row">
-            <a href="https://www.amazon.com/dp/B0GX5PYHC9" class="btn btn-sm" target="_blank" rel="noopener">Paperback $19.99</a>
+      <div class="lp-book-cta">
+        <div class="lp-book-cta-body">
+          <div class="eyebrow">The Book · Sold on Amazon</div>
+          <h2>Journeyman Electrician Exam Study Guide</h2>
+          <p>NEC navigation, calculations and theory explained with worked examples and practice questions — plus an access code for 3 timed online practice tests (180 questions, each explained).</p>
+          <ul class="lp-book-points">
+            <li>3 timed online tests, auto-scored, on any device</li>
+            <li>Paperback sold only on Amazon — buy new from Amazon.com for the current edition</li>
+          </ul>
+          <div class="lp-book-cta-row">
+            <a href="https://www.amazon.com/dp/B0GX5PYHC9" class="btn btn-lg" target="_blank" rel="noopener">Buy on Amazon — $19.99</a>
           </div>
-        </div></div>
+          <p class="lp-book-cta-have">Already have the book? <a href="/books/journeyman-elec">Open your practice tests →</a></p>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -156,8 +155,8 @@
       <div>
         <h2>Resources</h2>
         <ul>
-          <li><a href="/exams?practice=free">Free practice</a></li>
-          <li><a href="/blog/">Blog</a></li>
+          <li><a href="/free-practice">Free practice</a></li>
+          <li><a href="/blog/">Articles</a></li>
           <li><a href="/#videos">Video lessons</a></li>
           <li><a href="https://www.youtube.com/@certpathpublishing" target="_blank" rel="noopener">YouTube channel ↗</a></li>
           <li><a href="https://www.amazon.com/CertPath-Publishing/e/B0GWVSPBJT" target="_blank" rel="noopener">Amazon author page ↗</a></li>
@@ -166,8 +165,6 @@
       <div>
         <h2>Company</h2>
         <ul>
-          <li><a href="/#approach">How it works</a></li>
-          <li><a href="/#proof">How the books are made</a></li>
           <li><a href="mailto:support@certpathpublishing.store">Contact</a></li>
         </ul>
       </div>
@@ -189,7 +186,7 @@
 
   <script>
   (function () {
-    var QUESTIONS = [{"q":"A 240-volt circuit supplies a 4,800-watt resistive load. What is the current draw?","choices":["20 amps","30 amps","10 amps","40 amps"],"answer":"A","explanation":"P = E x I; I = P / E = 4,800 / 240 = 20 amps. Ohm's law applied to power."},{"q":"NEC 300.5(A) requires that direct-buried UF cable under a residential driveway be installed at a minimum depth of:","choices":["18 inches","6 inches","12 inches","24 inches"],"answer":"D","explanation":"NEC Table 300.5 requires UF cable under a one- or two-family dwelling driveway to be buried at least 24 inches."},{"q":"A single-family dwelling has a 12 kW electric range. Per NEC Table 220.55, Column C, the demand load for one range not exceeding 12 kW is:","choices":["6 kW","8 kW","10 kW","12 kW"],"answer":"B","explanation":"NEC Table 220.55, Column C -- one range not over 12 kW: maximum demand 8 kW."},{"q":"Per NEC 680.26, the equipotential bonding grid for a permanently installed swimming pool must extend ___ feet horizontally beyond the inside walls of the pool.","choices":["1 foot","2 feet","3 feet","5 feet"],"answer":"C","explanation":"NEC 680.26(B)(2) -- the bonding grid extends 3 feet horizontally beyond the inside walls of the pool."},{"q":"Per NEC Table 110.26(A)(1), the minimum clear working space in front of electrical equipment rated 120-277 volts (Condition 1) is:","choices":["2 feet","3 feet","3.5 feet","4 feet"],"answer":"B","explanation":"NEC Table 110.26(A)(1) -- Condition 1, 120-277V: minimum 3 feet of clear working space."},{"q":"A 3,000 square foot dwelling unit has a general lighting load of:","choices":["9,000 VA","6,000 VA","10,500 VA","15,000 VA"],"answer":"A","explanation":"NEC Table 220.12: 3,000 sq ft x 3 VA/sq ft = 9,000 VA."},{"q":"NEC 430.6(A)(1) requires motor branch-circuit sizing be based on:","choices":["Nameplate current","Full-load current from NEC tables","Service factor current","Locked-rotor current"],"answer":"B","explanation":"NEC 430.6(A)(1) -- motor branch-circuit sizing is based on FLC values from NEC tables, not the motor nameplate."},{"q":"A 120-volt circuit has a load at the end of a run that draws 16 amps. If the maximum voltage drop allowed is 3%, the maximum voltage drop in volts is:","choices":["3.0 volts","3.6 volts","4.8 volts","2.4 volts"],"answer":"B","explanation":"3% of 120V = 0.03 x 120 = 3.6 volts maximum voltage drop."},{"q":"Per NEC Chapter 9, Table 4, the internal area of a 1-inch EMT conduit is approximately:","choices":["1.049 sq in","0.864 sq in.","0.304 sq in.","0.519 sq in."],"answer":"B","explanation":"NEC Chapter 9, Table 4 -- 1-inch EMT has an internal area of approximately 0.864 square inches."},{"q":"Per NEC 250.20(B), AC systems of 50 to 1,000 volts shall be grounded when the system can be grounded so that the maximum voltage to ground does not exceed:","choices":["120 volts","150 volts","277 volts","300 volts"],"answer":"B","explanation":"NEC 250.20(B)(1) -- the system shall be grounded where the maximum voltage to ground does not exceed 150 volts."}];
+    var QUESTIONS = [{"q": "A 240-volt circuit supplies a 4,800-watt resistive load. What is the current draw?", "choices": ["20 amps", "30 amps", "10 amps", "40 amps"], "answer": "A", "explanation": "P = E x I; I = P / E = 4,800 / 240 = 20 amps. Ohm's law applied to power."}, {"q": "NEC 300.5(A) requires that direct-buried UF cable under a residential driveway be installed at a minimum depth of:", "choices": ["18 inches", "6 inches", "12 inches", "24 inches"], "answer": "D", "explanation": "NEC Table 300.5 requires UF cable under a one- or two-family dwelling driveway to be buried at least 24 inches."}, {"q": "A single-family dwelling has a 12 kW electric range. Per NEC Table 220.55, Column C, the demand load for one range not exceeding 12 kW is:", "choices": ["6 kW", "8 kW", "10 kW", "12 kW"], "answer": "B", "explanation": "NEC Table 220.55, Column C -- one range not over 12 kW: maximum demand 8 kW."}, {"q": "Per NEC 680.26, the equipotential bonding grid for a permanently installed swimming pool must extend ___ feet horizontally beyond the inside walls of the pool.", "choices": ["1 foot", "2 feet", "3 feet", "5 feet"], "answer": "C", "explanation": "NEC 680.26(B)(2) -- the bonding grid extends 3 feet horizontally beyond the inside walls of the pool."}, {"q": "Per NEC Table 110.26(A)(1), the minimum clear working space in front of electrical equipment rated 120-277 volts (Condition 1) is:", "choices": ["2 feet", "3 feet", "3.5 feet", "4 feet"], "answer": "B", "explanation": "NEC Table 110.26(A)(1) -- Condition 1, 120-277V: minimum 3 feet of clear working space."}, {"q": "A 3,000 square foot dwelling unit has a general lighting load of:", "choices": ["9,000 VA", "6,000 VA", "10,500 VA", "15,000 VA"], "answer": "A", "explanation": "NEC Table 220.12: 3,000 sq ft x 3 VA/sq ft = 9,000 VA."}, {"q": "NEC 430.6(A)(1) requires motor branch-circuit sizing be based on:", "choices": ["Nameplate full-load current", "Full-load current from NEC tables", "Service factor current", "Locked-rotor current"], "answer": "B", "explanation": "NEC 430.6(A)(1) -- motor branch-circuit sizing is based on FLC values from NEC tables, not the motor nameplate."}, {"q": "A 120-volt circuit has a load at the end of a run that draws 16 amps. If the maximum voltage drop allowed is 3%, the maximum voltage drop in volts is:", "choices": ["3.0 volts", "3.6 volts", "4.8 volts", "2.4 volts"], "answer": "B", "explanation": "3% of 120V = 0.03 x 120 = 3.6 volts maximum voltage drop."}, {"q": "Per NEC Chapter 9, Table 4, the internal area of a 1-inch EMT conduit is approximately:", "choices": ["1.049 sq in", "0.864 sq in.", "0.304 sq in.", "0.519 sq in."], "answer": "B", "explanation": "NEC Chapter 9, Table 4 -- 1-inch EMT has an internal area of approximately 0.864 square inches."}, {"q": "Per NEC 250.20(B), AC systems of 50 to 1,000 volts shall be grounded when the system can be grounded so that the maximum voltage to ground does not exceed:", "choices": ["120 volts", "150 volts", "277 volts", "300 volts"], "answer": "B", "explanation": "NEC 250.20(B)(1) -- the system shall be grounded where the maximum voltage to ground does not exceed 150 volts."}];
     var EXAM = "Journeyman Electrician";
     var idx = 0, score = 0, answered = false;
     var body = document.getElementById('lpBody');
@@ -287,6 +284,6 @@
     render();
   })();
   </script>
-  <script src="/js/premium.js?v=13" defer></script>
+  <script src="/js/premium.js?v=21" defer></script>
 </body>
 </html>
