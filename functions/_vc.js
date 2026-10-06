@@ -6,7 +6,7 @@
 //   VC_SESSION_SECRET  signs the per-course access cookie
 //   SUPER_ACCESS_CODE  optional owner code that unlocks every course
 
-export const COURSES = ['pmp', 'sat-math', 'tabe-a', 'tabe-d', 'tabe-e', 'capm'];
+export const COURSES = ['pmp', 'sat-math', 'tabe-a', 'tabe-d', 'tabe-m', 'tabe-e', 'capm'];
 export const COOKIE_DAYS = 30;
 
 export function json(body, status = 200, headers = {}) {
@@ -73,6 +73,7 @@ export const BOOKS_FOR_COURSE = {
   'sat-math': ['sat-math', 'sat-math-workbook', 'sat-math-tests'],
   'tabe-a': ['tabe-a'],
   'tabe-d': ['tabe-d'],
+  'tabe-m': ['tabe-m'],
   'tabe-e': ['tabe-e'],
   'capm': ['capm'],
 };
