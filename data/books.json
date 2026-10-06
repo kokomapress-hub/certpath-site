@@ -150,7 +150,11 @@
       "amazonUrl": "https://www.amazon.com/dp/B0GZCNBK3V",
       "cheatsheetPrice": 1.99,
       "payhipEbookUrl": "",
-      "payhipCheatsheetUrl": ""
+      "payhipCheatsheetUrl": "",
+      "codeHashes": [
+        "3459d6fcc231e7aeb6bfd2fffa99dacb6dafd424ea76cd24793d2d53c57f5d13"
+      ],
+      "packCodeHash": "3459d6fcc231e7aeb6bfd2fffa99dacb6dafd424ea76cd24793d2d53c57f5d13"
     },
     {
       "slug": "tabe-d",
@@ -170,7 +174,11 @@
       "amazonUrl": "https://www.amazon.com/dp/B0GZK4TXKK",
       "cheatsheetPrice": 1.99,
       "payhipEbookUrl": "",
-      "payhipCheatsheetUrl": ""
+      "payhipCheatsheetUrl": "",
+      "codeHashes": [
+        "b6888227d03405a32e680627fb703513ca5348b8a9cb67f16776c9846e7ec460"
+      ],
+      "packCodeHash": "b6888227d03405a32e680627fb703513ca5348b8a9cb67f16776c9846e7ec460"
     },
     {
       "slug": "tabe-m",
@@ -190,7 +198,11 @@
       "amazonUrl": "https://www.amazon.com/dp/B0GZGYP2QD",
       "cheatsheetPrice": 1.99,
       "payhipEbookUrl": "",
-      "payhipCheatsheetUrl": ""
+      "payhipCheatsheetUrl": "",
+      "codeHashes": [
+        "fa06fa14192ed62ec9d033c8681cc2f5544d95cdd5c1fc73a6e3abd99feaafb2"
+      ],
+      "packCodeHash": "fa06fa14192ed62ec9d033c8681cc2f5544d95cdd5c1fc73a6e3abd99feaafb2"
     },
     {
       "slug": "tabe-e",
@@ -210,7 +222,11 @@
       "amazonUrl": "https://www.amazon.com/dp/B0H12F299V",
       "cheatsheetPrice": 1.99,
       "payhipEbookUrl": "",
-      "payhipCheatsheetUrl": ""
+      "payhipCheatsheetUrl": "",
+      "codeHashes": [
+        "2ceff6636aed5a5d2c1d3b51d19fa94128390056497d3364a95448ad11ea750a"
+      ],
+      "packCodeHash": "2ceff6636aed5a5d2c1d3b51d19fa94128390056497d3364a95448ad11ea750a"
     },
     {
       "slug": "sat-math",
@@ -232,8 +248,10 @@
       "payhipEbookUrl": "",
       "payhipCheatsheetUrl": "",
       "codeHashes": [
-        "4cc42afc3b9ba28f133f50da5c7410b476ff30f62f2cafdaf11fd08ce5ea0e47"
-      ]
+        "4cc42afc3b9ba28f133f50da5c7410b476ff30f62f2cafdaf11fd08ce5ea0e47",
+        "979b2d619a55512c771a861c9d02c6d2e947c25bfeecdc93c09da8a107f7475e"
+      ],
+      "packCodeHash": "979b2d619a55512c771a861c9d02c6d2e947c25bfeecdc93c09da8a107f7475e"
     },
     {
       "slug": "psat-math",
@@ -738,7 +756,11 @@
       "ebookPrice": 9.99,
       "sequential": true,
       "instantFeedback": true,
-      "amazonUrl": "https://www.amazon.com/dp/B0HG3LGPFL"
+      "amazonUrl": "https://www.amazon.com/dp/B0HG3LGPFL",
+      "codeHashes": [
+        "206820d42623e912414bd8d66df2832bd86966cad151937037db002fed5369f9"
+      ],
+      "packCodeHash": "206820d42623e912414bd8d66df2832bd86966cad151937037db002fed5369f9"
     },
     {
       "slug": "pmp-free",
@@ -775,7 +797,9 @@
       "bookCode": "B33",
       "title": "CAPM Exam Prep",
       "codeHash": "0d5871fd3d556e92e50f4245f053f3906c22a19779c7dbf8a6f1904f593e25c0",
-      "codeHashes": ["f95267986b16310d4dfddfcc92af15951c3579979cc3a938035a4f861848f1eb"],
+      "codeHashes": [
+        "f95267986b16310d4dfddfcc92af15951c3579979cc3a938035a4f861848f1eb"
+      ],
       "timeMinutes": 180,
       "testCount": 5,
       "totalQuestions": 750,
