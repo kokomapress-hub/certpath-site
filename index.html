@@ -62,6 +62,7 @@
 .cp-hero.hero-light.hx-low .hx-tag{margin-top:1.4rem;font-size:1rem;line-height:1.7}
 .cp-hero.hero-light.hx-low .hx-btns{margin-top:1.8rem;flex-wrap:nowrap}
 .cp-hero.hero-light.hx-low .hx-links{margin-top:1.3rem;font-size:.88rem}
+.cp-hero.hero-light.hx-wash::after{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;background:radial-gradient(ellipse 62% 70% at 12% 88%,rgb(250 248 243 / .9) 0%,rgb(250 248 243 / .7) 45%,rgb(250 248 243 / 0) 80%)}
 
 @media (max-width:640px){.hx-btns{flex-direction:column;gap:.75rem}.hx-btn{width:100%}.hx-links a{display:block;margin:.35rem 0;white-space:normal}.hx-dot{display:none}}
 </style>
@@ -116,6 +117,9 @@ addEventListener('DOMContentLoaded',function(){var bs=document.querySelectorAll(
 // Load the hero loop only on wide screens without reduced motion; the still stays as fallback.
 addEventListener('DOMContentLoaded',function(){var v=document.querySelector('.hero-vid');if(!v)return;
   if(matchMedia('(max-width:700px),(prefers-reduced-motion:reduce)').matches)return;
+  v.addEventListener('playing',function(){v.classList.add('is-on');},{once:true});
+  // Follow the still photo's scroll parallax so the two stay aligned.
+  var img=v.previousElementSibling;addEventListener('scroll',function(){requestAnimationFrame(function(){v.style.transform=img.style.transform;});},{passive:true});
   v.src=v.dataset.src;v.play&&v.play().catch(function(){});});
 </script>
 <style>
@@ -123,6 +127,7 @@ addEventListener('DOMContentLoaded',function(){var v=document.querySelector('.he
 .cp-hero.hero-v2.hero-light{min-height:calc(100vh - 72px);background:#F5F3EE}
 .cp-hero.hero-light::before{background:linear-gradient(90deg,rgb(250 248 243 / .94) 0%,rgb(250 248 243 / .82) 30%,rgb(250 248 243 / .25) 48%,rgb(250 248 243 / 0) 60%)!important}
 .hero-light > .cp-bgphoto{object-position:62% 0%!important}
+.hero-light > .hero-vid{opacity:0;transition:opacity .8s ease}.hero-light > .hero-vid.is-on{opacity:1}
 /* Text block sits high-left, above the coffee cup in the photo (cup starts ~56% down the image) */
 @media (min-width:901px){.cp-hero.hero-light{align-items:flex-start}.cp-hero.hero-light > .cp-hero-grid{display:flow-root!important}.cp-hero.hero-light > .cp-hero-grid > :first-child{margin-top:var(--hx-top,3rem)!important}}
 .hero-light h1{color:#0E1F3F!important}
@@ -249,6 +254,7 @@ addEventListener('DOMContentLoaded',function(){var v=document.querySelector('.he
     <!-- 02 · Editorial hero -->
     <section class="cp-hero has-photo hero-v2 hero-light">
       <img class="cp-bgphoto" src="/img/photo/hero-v3.webp" alt="" width="1920" height="1072" decoding="async">
+      <video class="cp-bgphoto hero-vid" muted loop playsinline preload="none" aria-hidden="true" data-src="/img/photo/hero-v3.mp4" poster="/img/photo/hero-v3.webp"></video>
       <svg class="cp-hero-rings" viewBox="0 0 400 400" aria-hidden="true"><circle cx="200" cy="200" r="120" style="--o:.34" opacity=".34"/><circle cx="200" cy="200" r="160" style="--o:.2" opacity=".2"/><circle cx="200" cy="200" r="199" style="--o:.1" opacity=".1"/></svg>
       <div class="cp-container cp-hero-grid">
         <div>
@@ -645,19 +651,19 @@ addEventListener('DOMContentLoaded',function(){var v=document.querySelector('.he
 })();
 </script>
 <script>
-// Hero text placement. Wide screens: compact block in the bottom-left, left of the coffee cup.
-// Otherwise: block ends ~40px above the cup. Cup in the photo: x 28.6-39.6%, top 55.6% (object-fit cover, anchored 62% 0).
+// Hero text placement (desktop): always a compact block in the bottom-left with a fixed
+// offset from the bottom. Where the coffee cup sits under the text (narrow/short windows),
+// hx-wash adds a stronger light wash so the copy stays readable.
+// Cup in the photo: x 28.6-39.6% (object-fit cover, anchored 62% 0).
 (function(){function fit(){var h=document.querySelector('.cp-hero.hero-light'),g=h&&h.querySelector('.cp-hero-grid'),c=g&&g.firstElementChild;if(!c)return;
-  h.classList.remove('hx-low');c.style.maxWidth='';
+  h.classList.remove('hx-low','hx-wash');c.style.maxWidth='';
   if(innerWidth<901){h.style.removeProperty('--hx-top');return;}
-  var W=h.clientWidth,H=h.clientHeight,sc=Math.max(W/1920,H/1072),rw=1920*sc,rh=1072*sc,ox=(W-rw)*.62;
-  var cupLeft=ox+rw*.286,cupTop=rh*.556,left=c.getBoundingClientRect().left-h.getBoundingClientRect().left,avail=cupLeft-left-32;
-  if(avail>=470){h.classList.add('hx-low');c.style.maxWidth=avail+'px';
-    var btns=c.querySelector('.hx-btns'),block=c.offsetHeight;
-    var vis=Math.min(H,innerHeight-Math.max(0,h.getBoundingClientRect().top+scrollY));
-    if(btns.scrollWidth<=avail+1&&block<vis*.6){h.style.setProperty('--hx-top',Math.max(24,vis-block-Math.max(56,vis*.09))+'px');return;}
-    h.classList.remove('hx-low');c.style.maxWidth='';}
-  var blk=c.offsetHeight;h.style.setProperty('--hx-top',Math.max(24,Math.min(cupTop-40-blk,(H-blk)/2))+'px');}
+  var W=h.clientWidth,H=h.clientHeight,sc=Math.max(W/1920,H/1072),rw=1920*sc,ox=(W-rw)*.62;
+  var cupLeft=ox+rw*.286,left=c.getBoundingClientRect().left-h.getBoundingClientRect().left,avail=cupLeft-left-32;
+  h.classList.add('hx-low');c.style.maxWidth=Math.max(avail,620)+'px';
+  if(avail<620)h.classList.add('hx-wash');
+  var block=c.offsetHeight,vis=Math.min(H,innerHeight-Math.max(0,h.getBoundingClientRect().top+scrollY));
+  h.style.setProperty('--hx-top',Math.max(24,vis-block-Math.max(64,vis*.1))+'px');}
   addEventListener('DOMContentLoaded',fit);addEventListener('load',fit);addEventListener('resize',fit);})();
 </script>
 </body>
