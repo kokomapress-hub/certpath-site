@@ -117,6 +117,9 @@ async function validateCode(code, email) {
   // A book may list several valid printed codes ("codes": [...]) so that every
   // edition's printed code keeps working (e.g. a V4 reprint whose printed code differs from V3).
   const codesOf = b => [b.codeHash, ...(Array.isArray(b.codeHashes) ? b.codeHashes : [])].filter(Boolean);
+  // Store (Payhip) access codes give 12 months from first use (js/term.js).
+  const term = window.CPTerm ? window.CPTerm.check(cleanCode, data) : { paid: false };
+  if (term.expired) return { success: false, message: window.CPTerm.expiredMsg };
   const matches = data.books.filter(b => codesOf(b).includes(cleanCode));
   if (matches.length) {
     const titles = matches.length === 1 ? matches[0].title : `${matches.length} matching books`;

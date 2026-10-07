@@ -51,6 +51,9 @@
       try { localStorage.setItem('certpath_capm_access', JSON.stringify({ tier: 'complete', code: code.trim().toUpperCase(), ts: Date.now() })); } catch (e) {}
       grant(['capm']); post({ course: 'capm', key: code, email: email }); return { ok: true, books: ['capm'] };
     }
+    // Store (Payhip) access codes give 12 months from first use (js/term.js).
+    var term = window.CPTerm ? window.CPTerm.check(h, books) : { paid: false };
+    if (term.expired) return { ok: false, error: window.CPTerm.expiredMsg };
     var hit = books.books.filter(function (b) { return [b.codeHash].concat(b.codeHashes || []).indexOf(h) > -1; }).map(function (b) { return b.slug; });
     var pool = exam && exam.course ? 'auto:' + exam.course : 'auto';
     if (hit.length) {
@@ -68,7 +71,7 @@
 
   var parts = location.pathname.replace(/\/+$/, '').split('/');
   var key = parts[1] === 'study' ? decodeURIComponent(parts[2] || '') : '';
-  var exam = EXAMS.filter(function (e) { return e.key === key; })[0];
+  var exam = EXAMS.filter(function (e) { return e.key === key; })[0] || (key && window.CP_EXAM_FOR_BOOK ? window.CP_EXAM_FOR_BOOK(key) : null);
   var meta = { sheets: {}, courses: {} };
 
   function setBg(src) { if (bg && src) bg.style.backgroundImage = 'url("' + src + '")'; }

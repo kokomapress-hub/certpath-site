@@ -179,7 +179,7 @@ video{width:100%;aspect-ratio:16/9;background:#000;border-radius:12px;display:bl
   <div class="body">
     <h1 id="ltitle"></h1>
     <p id="lsub"></p>
-    <a class="btn" id="buy" href="#">Get videos + practice tests — $19.99</a>
+    <a class="btn" id="buy" href="#">Get Complete Prep — $19.99</a>
     <div class="or">Already bought it?</div>
     <form class="form" id="form">
       <input type="email" id="email" placeholder="Email you bought with" autocomplete="email" hidden>
@@ -187,7 +187,7 @@ video{width:100%;aspect-ratio:16/9;background:#000;border-radius:12px;display:bl
       <button class="btn" type="submit" id="go">Unlock</button>
     </form>
     <div class="msg" id="msg" role="alert"></div>
-    <p class="small">Bought the pack? Your pack code is in the PDF you downloaded from Payhip. Own the book? Use the code on its last page.</p>
+    <p class="small">Bought on Payhip? Your access code is in the PDF you downloaded. Own the book? Use the code on its last page.</p>
   </div>
 </div>
 
@@ -229,6 +229,8 @@ video{width:100%;aspect-ratio:16/9;background:#000;border-radius:12px;display:bl
 (function () {
   var BUY = { 'pmp': 'https://payhip.com/b/Atjx3', 'sat-math': 'https://payhip.com/b/KbAzN', 'tabe-a': 'https://payhip.com/b/pw4Rs', 'tabe-d': 'https://payhip.com/b/Mavlg', 'tabe-m': 'https://payhip.com/b/tRLN4', 'tabe-e': 'https://payhip.com/b/vxU07', 'capm': 'https://payhip.com/b/M89UW', 'mech-apt': 'https://payhip.com/b/XPpzo' };
   var BOOK_ONLY = {};
+  // Exams sold as the $9.99 Exam Simulator: the lessons come free with it.
+  var SIM = { 'mech-apt': 1 };
   var COVER = { 'pmp': 'PMP', 'sat-math': 'SAT_Math', 'tabe-a': 'TABE_A', 'tabe-d': 'TABE_D', 'tabe-m': 'TABE_M', 'tabe-e': 'TABE_E', 'capm': 'CAPM', 'mech-apt': 'Mech_Apt' };
   var slug = (location.pathname.match(/^\/learn\/([a-z0-9-]+)/) || [])[1] || new URLSearchParams(location.search).get('course') || '';
   var $ = function (id) { return document.getElementById(id); };
@@ -277,6 +279,10 @@ video{width:100%;aspect-ratio:16/9;background:#000;border-radius:12px;display:bl
     $('ltitle').textContent = course.title;
     $('lsub').textContent = course.count + ' video lessons · ' + (course.seconds / 3600).toFixed(1) + ' hours · plus the online practice tests';
     $('buy').href = BUY[slug];
+    if (SIM[slug]) {
+      $('buy').textContent = 'Get the Exam Simulator — $9.99';
+      $('lsub').textContent = course.count + ' video lessons · ' + (course.seconds / 3600).toFixed(1) + ' hours · free with the Exam Simulator';
+    }
     // Lesson 1 is a free preview: play it in place of the cover.
     $('pvPlay').onclick = function () {
       var v = document.createElement('video');
@@ -309,7 +315,17 @@ video{width:100%;aspect-ratio:16/9;background:#000;border-radius:12px;display:bl
 
   $('form').addEventListener('submit', function (e) {
     e.preventDefault();
-    unlock($('email').value.trim(), $('key').value.trim(), false);
+    var email = $('email').value.trim(), key = $('key').value.trim();
+    // Store (Payhip) access codes give 12 months from first use (js/term.js).
+    if (!window.CPTerm || !crypto.subtle) { unlock(email, key, false); return; }
+    var norm = key.toUpperCase().replace(/[^A-Z0-9]/g, '');
+    Promise.all([fetch('/data/books.json').then(function (r) { return r.json(); }), crypto.subtle.digest('SHA-256', new TextEncoder().encode(norm))])
+      .then(function (x) {
+        var h = Array.prototype.map.call(new Uint8Array(x[1]), function (b) { return ('0' + b.toString(16)).slice(-2); }).join('');
+        if (window.CPTerm.check(h, x[0]).expired) { $('msg').textContent = window.CPTerm.expiredMsg; return; }
+        unlock(email, key, false);
+      })
+      .catch(function () { unlock(email, key, false); });
   });
 
   function openCourse() {
