@@ -948,6 +948,5 @@ a.sh-tile:hover, a.sh-tile:focus-visible { color: #fff; transform: translateY(-4
 .cp-mega .cp-mega-off > span { display: block; font-weight: 400; font-size: .8125rem; color: #A0A9B8; }
 
 /* Two header dropdowns (Complete Prep / Exam Simulator): drop "Explore" and tighten padding when space is tight. */
-.cp-nav-x { margin-right: -.125rem; }
 @media (max-width: 1280px) { .cp-nav-x { display: none; } }
 @media (max-width: 1180px) { .cp-nav > a, .cp-nav > button { padding: 0 .6rem; } }

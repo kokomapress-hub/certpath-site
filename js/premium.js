@@ -94,7 +94,7 @@
         btn.setAttribute('aria-expanded', 'false');
         btn.setAttribute('aria-controls', 'cp-mega');
         btn.dataset.tier = link.getAttribute('data-mega-trigger') || 'prep';
-        btn.innerHTML = esc(link.textContent.trim()).replace(/^Explore /, '<span class="cp-nav-x">Explore</span>') + ' <svg class="cp-caret" viewBox="0 0 10 10" aria-hidden="true"><path d="M1 3l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>';
+        btn.innerHTML = '<span>' + esc(link.textContent.trim()).replace(/^Explore /, '<span class="cp-nav-x">Explore </span>') + '</span> <svg class="cp-caret" viewBox="0 0 10 10" aria-hidden="true"><path d="M1 3l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>';
         link.replaceWith(btn);
         return btn;
       });
