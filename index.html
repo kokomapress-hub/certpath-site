@@ -49,11 +49,14 @@
 .hc-alt{margin-top:.4rem}
 @media (max-width:520px){.hc-row{grid-template-columns:1fr}}
 .hx-tag{margin:1.5rem 0 0;max-width:34rem;font:400 1.125rem/1.55 var(--cp-sans,Inter,sans-serif);color:#26354B}
-.hx-sim{display:inline-flex;align-items:center;gap:.7rem;margin:1.25rem 0 0;padding:.45rem .9rem .45rem .45rem;border:1.5px solid #DDA63B;border-radius:999px;background:rgba(255,255,255,.72);color:#0E1F3F;font:500 .92rem/1.3 var(--cp-sans,Inter,sans-serif);text-decoration:none;transition:background .2s}
-.hx-sim:hover{background:#FFF6DF}
-.hx-sim-b{background:#0E1F3F;color:#F5C518;font-weight:700;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;padding:.4rem .7rem;border-radius:999px;white-space:nowrap}
-.hx-sim b{color:#805600}
-@media (max-width:560px){.hx-sim{border-radius:14px;align-items:flex-start;flex-wrap:wrap}}
+.hx-sim{display:grid;gap:.3rem;margin:1.6rem 0 0;padding:.15rem 0 .15rem 1.1rem;border-left:2px solid var(--cp-gold,#DDA63B);max-width:34rem;color:var(--cp-navy,#0E1F3F);text-decoration:none}
+.hx-sim-k{font:600 .7rem/1 var(--cp-sans,Inter,sans-serif);letter-spacing:.18em;text-transform:uppercase;color:var(--cp-bronze,#805600)}
+.hx-sim-t{font:400 1.2rem/1.35 var(--cp-serif,Georgia,serif);color:var(--cp-navy,#0E1F3F)}
+.hx-sim-p{font:500 .875rem/1.4 var(--cp-sans,Inter,sans-serif);color:var(--cp-body,#26354B)}
+.hx-sim-p b{font-weight:600;color:var(--cp-navy,#0E1F3F)}
+.hx-sim-p i{font-style:normal;display:inline-block;margin-left:.35rem;color:var(--cp-bronze,#805600);transition:transform .2s}
+.hx-sim:hover .hx-sim-p b{text-decoration:underline;text-decoration-color:var(--cp-gold,#DDA63B);text-underline-offset:3px}
+.hx-sim:hover .hx-sim-p i{transform:translateX(3px)}
 .hx-btns{display:flex;flex-wrap:wrap;gap:1rem;margin:1.75rem 0 0}
 .hx-btn{display:inline-flex;align-items:center;justify-content:center;height:52px;padding:0 1.75rem;border-radius:8px;background:#DDA63B;border:1.5px solid #DDA63B;color:#0E1F3F!important;font:600 1rem/1 var(--cp-sans,Inter,sans-serif);text-decoration:none;white-space:nowrap;box-shadow:0 8px 20px rgb(14 31 63 / .12);transition:background .2s,transform .2s,box-shadow .2s}
 .hx-btn:hover,.hx-btn:focus-visible{background:#E6B656;border-color:#E6B656;transform:translateY(-2px);box-shadow:0 12px 26px rgb(14 31 63 / .16)}
@@ -268,7 +271,7 @@ addEventListener('DOMContentLoaded',function(){var v=document.querySelector('.he
           <span class="cp-eyebrow">Exam prep that gives you a clear path</span>
           <h1 data-split>Prepare with purpose. Practice with <em>confidence.</em></h1>
           <p class="hx-tag">Study guides, realistic practice exams and video courses that get you ready for exam day.</p>
-          <a class="hx-sim" href="/complete-prep"><span class="hx-sim-b">Exam Simulator</span><span class="hx-sim-t">Timed practice tests, every answer explained · <b>from $9.99</b></span><span aria-hidden="true">→</span></a>
+          <a class="hx-sim" href="/complete-prep"><span class="hx-sim-k">Exam Simulator</span><span class="hx-sim-t">Timed practice tests, with every answer explained.</span><span class="hx-sim-p">From <b>$9.99</b> per exam<i aria-hidden="true">→</i></span></a>
           <div class="hx-btns">
             <a class="hx-btn" href="/complete-prep">Explore Complete Prep</a>
             <a class="hx-btn hx-ghost" href="/free-practice">Take a free practice test</a>
