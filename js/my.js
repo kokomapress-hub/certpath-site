@@ -1,7 +1,7 @@
 // CertPath Publishing — My Study Page (/my)
 // A customer's own page on this browser: the books their access code opened, every test with its
 // status (not started / in progress → resume / finished with best score), their video courses, and
-// the free two-page cheat sheets. Everything is read from localStorage — there are no server accounts.
+// the two-page cheat sheet for each unlocked book. Everything is read from localStorage — there are no server accounts.
 (function () {
   var root = document.getElementById('myApp');
   if (!root) return;
@@ -83,7 +83,7 @@
           '<div><h3>' + esc(b.title) + '</h3>' +
           '<div class="cp-my-tests">' + (tests || '<p class="cp-my-note">Print-only title — no online tests.</p>') + '</div>' +
           '<p class="cp-my-links">' +
-            (sheet ? '<a href="' + sheet.href + '" download>Download the free 2-page cheat sheet (PDF)</a>' : '') +
+            (sheet ? '<a href="' + sheet.href + '" download>Download your 2-page cheat sheet (PDF)</a>' : '') +
             (pages[b.slug] ? '<a href="' + esc(pages[b.slug]) + '">Book page</a>' : '') +
           '</p></div></article>';
       }).join('') + '</div></section>';
@@ -102,16 +102,6 @@
           '<span class="sh-tt">' + esc(e.short) + ' video course</span><span class="sh-meta">' + esc(e.name) + '</span>' +
           '<span class="sh-cta">Watch now <span aria-hidden="true">→</span></span></a>';
       }).join('') + '</div></section>';
-    }
-
-    // ---- free cheat sheets: only for visitors without a code (owners get their own sheet on each book card) ----
-    var seen = {}, all = published.map(function (b) {
-      var bank = b.bank || b.slug; if (seen[bank] || !sheets[bank] || !sheets[bank].ready) return ''; seen[bank] = 1;
-      return '<a class="cp-my-sheet" href="/cheatsheets/' + bank + '.pdf" download><b>' + esc(sheets[bank].short) + '</b><span>2 pages · PDF</span></a>';
-    }).join('');
-    if (all && !signedIn) {
-      h += '<section class="cp-my-sec"><h2>Free cheat sheets</h2><p class="cp-my-note">Two printable pages per exam — the formulas, rules and exam facts worth memorising. Free to download, no email.</p>' +
-           '<div class="cp-my-sheets">' + all + '</div></section>';
     }
 
     h += '<p class="sh-foot">' + (ex ? '<a href="/study/' + ex.key + '">My study page</a><span aria-hidden="true">·</span>' : '') +
