@@ -33,8 +33,8 @@
     var signedIn = mine.length > 0 || !!pmp || !!capm;
 
     var h = '';
-    h += '<header class="cp-my-head"><span class="cp-eyebrow">My study page</span>' +
-         '<h1>' + (signedIn ? 'Welcome back' + (name ? ', ' + esc(name) : '') + '.' : 'Your study page') + '</h1>' +
+    h += '<header class="cp-my-head"><span class="cp-eyebrow">My practice tests</span>' +
+         '<h1>' + (signedIn ? 'Welcome back' + (name ? ', ' + esc(name) : '') + '.' : 'Your practice tests') + '</h1>' +
          '<p class="cp-lead">' + (signedIn
            ? 'Everything your access code opened, saved on this browser. Leave a test any time — it will be waiting here.'
            : 'Enter the access code from your book once, and this page keeps your tests, scores and unfinished attempts ready for next time.') + '</p>' +
@@ -87,12 +87,12 @@
         (capm ? '<a class="cp-btn cp-btn-navy" href="/capm-course">Open the CAPM course</a>' : '') + '</p></section>';
     }
 
-    // ---- free cheat sheets (everyone) ----
+    // ---- free cheat sheets: only for visitors without a code (owners get their own sheet on each book card) ----
     var seen = {}, all = published.map(function (b) {
       var bank = b.bank || b.slug; if (seen[bank] || !sheets[bank] || !sheets[bank].ready) return ''; seen[bank] = 1;
       return '<a class="cp-my-sheet" href="/cheatsheets/' + bank + '.pdf" download><b>' + esc(sheets[bank].short) + '</b><span>2 pages · PDF</span></a>';
     }).join('');
-    if (all) {
+    if (all && !signedIn) {
       h += '<section class="cp-my-sec"><h2>Free cheat sheets</h2><p class="cp-my-note">Two printable pages per exam — the formulas, rules and exam facts worth memorising. Free to download, no email.</p>' +
            '<div class="cp-my-sheets">' + all + '</div></section>';
     }

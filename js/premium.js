@@ -692,24 +692,34 @@
       if (!has) return;
       var name = '', email = '';
       try { name = localStorage.getItem('certpath_name') || ''; email = localStorage.getItem('certpath_email') || ''; } catch (e) {}
-      var label = name || (email ? email.split('@')[0] : (u.isAdmin ? 'Owner' : 'My account'));
+      var first = (name || '').trim().split(/\s+/)[0] || '';
+      var label = first || (u.isAdmin ? 'Owner' : 'My study page');
+      var ICO = {
+        cap: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2.5 9 12 4.5 21.5 9 12 13.5z"/><path d="M6.5 11v4.2c0 1.5 2.5 3.3 5.5 3.3s5.5-1.8 5.5-3.3V11"/><path d="M21.5 9v5"/></svg>',
+        hub: '<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="3.5" width="7" height="7" rx="1.6"/><rect x="13.5" y="3.5" width="7" height="7" rx="1.6"/><rect x="3.5" y="13.5" width="7" height="7" rx="1.6"/><rect x="13.5" y="13.5" width="7" height="7" rx="1.6"/></svg>',
+        list: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6.5h11M9 12h11M9 17.5h11"/><path d="m3.5 6.5 1.2 1.2 2-2.4M3.5 12l1.2 1.2 2-2.4M3.5 17.5l1.2 1.2 2-2.4"/></svg>',
+        key: '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="8" cy="15.5" r="4"/><path d="m11 12.5 8.5-8.5M16.5 7l2.5 2.5M14.5 9l1.8 1.8"/></svg>',
+        play: '<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="m10 9 5 3-5 3z"/></svg>',
+        out: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 4.5h4a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2h-4"/><path d="M10 16.5 5.5 12 10 7.5M5.5 12H15"/></svg>'
+      };
       // "My study page" = the exam hub: /study sends one-exam owners straight to /study/<exam>
       // and shows a picker when this browser holds more than one exam.
-      var items = [['/study', 'My study page'], ['/my', 'All my practice tests'], ['/access', 'Add another access code']];
-      if (pmp) items.push(['/pmp-course', 'PMP video course']);
-      if (capm) items.push(['/capm-course', 'CAPM video course']);
+      var items = [['/study', 'My study page', 'hub'], ['/my', 'All my practice tests', 'list'], ['/access', 'Add another access code', 'key']];
+      if (pmp) items.push(['/pmp-course', 'PMP video course', 'play']);
+      if (capm) items.push(['/capm-course', 'CAPM video course', 'play']);
 
       var wrap = doc.createElement('div');
       wrap.className = 'cp-account';
       wrap.innerHTML =
-        '<button type="button" class="cp-account-btn" aria-expanded="false" aria-haspopup="true">' +
-          '<span class="cp-account-dot" aria-hidden="true">' + esc(label.charAt(0).toUpperCase()) + '</span>' +
-          '<span>Hi, ' + esc(label) + '</span>' +
+        '<button type="button" class="cp-account-btn" aria-expanded="false" aria-haspopup="true" aria-label="Account menu: ' + esc(label) + '">' +
+          '<span class="cp-account-dot" aria-hidden="true">' + (first ? esc(first.charAt(0).toUpperCase()) : ICO.cap) + '</span>' +
+          '<span class="cp-account-label">' + esc(label) + '</span>' +
           '<svg class="cp-caret" viewBox="0 0 10 10" aria-hidden="true"><path d="M1 3l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></button>' +
         '<div class="cp-account-menu" hidden>' +
-          (email ? '<p>' + esc(email) + '</p>' : '') +
-          items.map(function (it) { return '<a href="' + it[0] + '">' + it[1] + '</a>'; }).join('') +
-          '<button type="button" data-signout>Sign out on this browser</button></div>';
+          '<div class="cp-account-head"><span class="cp-account-dot" aria-hidden="true">' + (first ? esc(first.charAt(0).toUpperCase()) : ICO.cap) + '</span>' +
+            '<span><b>' + esc(first ? 'Hi, ' + first : 'Your study space') + '</b><small>' + esc(email || 'Saved on this browser') + '</small></span></div>' +
+          items.map(function (it) { return '<a href="' + it[0] + '"><span class="cp-mi" aria-hidden="true">' + ICO[it[2]] + '</span>' + it[1] + '</a>'; }).join('') +
+          '<button type="button" data-signout><span class="cp-mi" aria-hidden="true">' + ICO.out + '</span>Sign out on this browser</button></div>';
       slot.parentNode.insertBefore(wrap, slot.nextSibling);
 
       var btn = $('.cp-account-btn', wrap), menu = $('.cp-account-menu', wrap);
@@ -726,7 +736,7 @@
       // mobile drawer: same greeting + links above the button
       var drawerBtn = $('.cp-drawer .cp-btn');
       if (drawerBtn) {
-        drawerBtn.textContent = 'Hi, ' + label + ' — my study page';
+        drawerBtn.textContent = first ? 'Hi, ' + first + ' — my study page' : 'My study page';
         drawerBtn.setAttribute('href', '/study');
         items.slice(1).forEach(function (it) {
           var a = doc.createElement('a'); a.href = it[0]; a.setAttribute('data-account', '');
