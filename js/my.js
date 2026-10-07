@@ -7,6 +7,10 @@
   if (!root) return;
 
   function read(k, fallback) { try { return JSON.parse(localStorage.getItem(k) || 'null') || fallback; } catch (e) { return fallback; } }
+  var ICO = {
+    video: '<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2.5" y="5" width="15" height="14" rx="2.5"/><path d="M17.5 10l4-2.5v9l-4-2.5"/><path d="M8.5 9.5v5l4-2.5z" class="f"/></svg>',
+    sim: '<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3.5" width="18" height="17" rx="2.5"/><path d="M7 9l1.6 1.6L11.5 7.6M7 15.5l1.6 1.6 2.9-3M14 9.5h3.5M14 16h3.5"/></svg>'
+  };
   function esc(s) { return String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;'); }
 
   Promise.all([
@@ -14,7 +18,7 @@
     fetch('/cheatsheets/meta.json').then(function (r) { return r.ok ? r.json() : {}; }).catch(function () { return {}; }),
     fetch('/data/book-pages.json').then(function (r) { return r.ok ? r.json() : {}; }).catch(function () { return {}; })
   ]).then(function (res) { render(res[0].books || [], res[1] || {}, res[2] || {}); })
-    .catch(function () { root.innerHTML = '<p class="cp-lead">We could not load your page right now. Please refresh.</p>'; });
+    .catch(function () { root.innerHTML = '<p class="sh-lead">We could not load your page right now. Please refresh.</p>'; });
 
   function sheetFor(book, sheets) {
     var bank = book.bank || book.slug;
@@ -33,13 +37,16 @@
     var signedIn = mine.length > 0 || !!pmp || !!capm;
 
     var h = '';
-    h += '<header class="cp-my-head"><span class="cp-eyebrow">My practice tests</span>' +
-         '<h1>' + (signedIn ? 'Welcome back' + (name ? ', ' + esc(name) : '') + '.' : 'Your practice tests') + '</h1>' +
-         '<p class="cp-lead">' + (signedIn
-           ? 'Everything your access code opened, saved on this browser. Leave a test any time — it will be waiting here.'
+    // Same backdrop as the /study hub: the photo of the first exam this browser owns.
+    var ex = mine.length && window.CP_EXAM_FOR_BOOK ? window.CP_EXAM_FOR_BOOK(mine[0].slug) : null;
+    var bg = document.getElementById('myBg');
+    if (bg) bg.style.backgroundImage = 'url("' + ((ex && ex.photo) || '/img/photo/hero-study.webp') + '")';
+    h += '<p class="sh-eyebrow">' + (signedIn ? 'Welcome back' + (name ? ', ' + esc(name) : '') : 'My practice tests') + '</p>' +
+         '<h1 class="sh-h1">' + (signedIn ? 'All my practice tests, <em>in one place.</em>' : 'Your practice tests, <em>in one place.</em>') + '</h1>' +
+         '<p class="sh-lead">' + (signedIn
+           ? 'Every test your code opened, saved on this browser. Leave a test any time — it will be waiting here.'
            : 'Enter the access code from your book once, and this page keeps your tests, scores and unfinished attempts ready for next time.') + '</p>' +
-         (signedIn ? '' : '<p><a class="cp-btn cp-btn-primary" href="/access">Enter my access code <span class="cp-arrow" aria-hidden="true">→</span></a></p>') +
-         '</header>';
+         (signedIn ? '' : '<p style="margin-top:2rem"><a class="sh-go" href="/access" style="text-decoration:none">Enter my access code <span aria-hidden="true">→</span></a></p>');
 
     // ---- unfinished attempts ----
     var open = Object.keys(progress).map(function (id) {
@@ -48,11 +55,13 @@
       return { b: b, n: parts[1], answered: Object.keys(p.answers).length, total: p.total || 0, left: Math.max(1, Math.round((p.timeLeft || 0) / 60)), at: p.at || '' };
     }).filter(Boolean).sort(function (a, c) { return a.at < c.at ? 1 : -1; });
     if (open.length) {
-      h += '<section class="cp-my-sec"><h2>Pick up where you left off</h2><div class="cp-my-resume">' + open.map(function (o) {
-        return '<a class="cp-my-resume-card" href="/quiz?book=' + encodeURIComponent(o.b.slug) + '&test=' + encodeURIComponent(o.n) + '">' +
-          '<b>' + esc(o.b.shortName || o.b.title) + ' · Practice Test ' + esc(o.n) + '</b>' +
-          '<span>' + o.answered + (o.total ? ' of ' + o.total : '') + ' answered · ' + o.left + ' min left</span>' +
-          '<span class="cp-my-go">Resume <span aria-hidden="true">→</span></span></a>';
+      h += '<section class="cp-my-sec"><h2>Pick up where you left off</h2><div class="sh-tiles">' + open.slice(0, 3).map(function (o) {
+        return '<a class="sh-tile" href="/quiz?book=' + encodeURIComponent(o.b.slug) + '&test=' + encodeURIComponent(o.n) + '">' +
+          '<span class="sh-ico">' + ICO.sim + '</span>' +
+          '<span class="sh-tt">' + esc(o.b.shortName || o.b.title) + ' · Test ' + esc(o.n) + '</span>' +
+          '<span class="sh-meta">' + o.answered + (o.total ? ' of ' + o.total : '') + ' answered · ' + o.left + ' min left</span>' +
+          '<span class="sh-cta">Resume <span aria-hidden="true">→</span></span>' +
+          (o.total ? '<span class="sh-prog"><b style="width:' + Math.round(100 * o.answered / o.total) + '%"></b></span>' : '') + '</a>';
       }).join('') + '</div></section>';
     }
 
@@ -80,11 +89,19 @@
       }).join('') + '</div></section>';
     }
 
-    // ---- courses ----
-    if (pmp || capm) {
-      h += '<section class="cp-my-sec"><h2>My video courses</h2><p class="cp-my-links">' +
-        (pmp ? '<a class="cp-btn cp-btn-navy" href="/pmp-course">Open the PMP course</a> ' : '') +
-        (capm ? '<a class="cp-btn cp-btn-navy" href="/capm-course">Open the CAPM course</a>' : '') + '</p></section>';
+    // ---- video courses: one tile per owned exam that has a course (same tiles as /study) ----
+    var courses = [], seenC = {};
+    (window.CP_EXAMS || []).forEach(function (e) {
+      if (!e.course || seenC[e.course]) return;
+      var owns = unlocked.isAdmin || e.books.some(function (s) { return (unlocked.slugs || []).indexOf(s) >= 0; }) || (e.key === 'pmp' && pmp) || (e.key === 'capm' && capm);
+      if (owns) { seenC[e.course] = 1; courses.push(e); }
+    });
+    if (courses.length) {
+      h += '<section class="cp-my-sec"><h2>My video courses</h2><div class="sh-tiles">' + courses.map(function (e) {
+        return '<a class="sh-tile" href="/learn/' + e.course + '"><span class="sh-ico">' + ICO.video + '</span>' +
+          '<span class="sh-tt">' + esc(e.short) + ' video course</span><span class="sh-meta">' + esc(e.name) + '</span>' +
+          '<span class="sh-cta">Watch now <span aria-hidden="true">→</span></span></a>';
+      }).join('') + '</div></section>';
     }
 
     // ---- free cheat sheets: only for visitors without a code (owners get their own sheet on each book card) ----
@@ -97,7 +114,9 @@
            '<div class="cp-my-sheets">' + all + '</div></section>';
     }
 
-    h += '<p class="cp-my-foot">Your progress is saved in this browser only. On another device, enter your access code again — your code keeps working.</p>';
+    h += '<p class="sh-foot">' + (ex ? '<a href="/study/' + ex.key + '">My study page</a><span aria-hidden="true">·</span>' : '') +
+         '<a href="/access">Add another code</a><span aria-hidden="true">·</span><a href="mailto:support@certpathpublishing.store?subject=Help%20with%20my%20practice%20tests">Need help?</a></p>' +
+         '<p class="sh-foot" style="margin-top:.6rem">Your progress is saved in this browser only. On another device, enter your access code again — your code keeps working.</p>';
     root.innerHTML = h;
   }
 })();
