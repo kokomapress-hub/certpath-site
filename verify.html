@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Verify a Certificate — CertPath Publishing</title>
+  <meta name="description" content="Check that a CertPath Publishing course completion certificate is genuine.">
+  <link rel="canonical" href="https://certpathpublishing.store/verify">
+  <meta name="robots" content="index, follow">
+  <link rel="icon" type="image/png" href="/img/logo-mark.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css?v=10">
+  <!-- premium-shell -->
+  <script>document.documentElement.classList.add('cp-js');setTimeout(function(){if(!window.__cpReady)document.documentElement.classList.remove('cp-js')},2500);</script>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;1,8..60,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/premium.css?v=29">
+  <link rel="stylesheet" href="/css/premium-bridge.css?v=2">
+  <script src="/js/term.js?v=1"></script>
+</head>
+<body class="cp">
+  <a class="cp-skip" href="#content">Skip to content</a>
+
+  <header class="cp-header">
+    <div class="cp-container cp-header-inner">
+      <a href="/" class="cp-logo" aria-label="CertPath Publishing — home">
+        <svg viewBox="0 0 40 46" width="30" height="35" aria-hidden="true"><path fill="#0E1F3F" d="M3 2h22l13 13v18L20.5 44 3 33z"/><path fill="#fff" d="M7.5 6.5H23V17h10.5v13.6L20.5 38.8 7.5 30.6z"/><path fill="#0E1F3F" d="M12.5 20.5h16v3h-16zM12.5 26.5h15v3h-15z"/></svg>
+        <span class="cp-logo-word">CertPath<small>Publishing</small></span>
+      </a>
+      <nav class="cp-nav" aria-label="Primary">
+        <a href="/complete-prep" data-mega-trigger="prep">Explore Complete Prep</a>
+        <a href="/complete-prep" data-mega-trigger="sim">Explore Exam Simulator</a>
+        <a href="/free-practice">Free practice</a>
+        <a href="/blog/">Articles</a>
+        <a href="/access" class="cp-nav-access">Access my tests</a>
+      </nav>
+      <button type="button" class="cp-menu-btn" aria-expanded="false" aria-label="Open menu">
+        <svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><path d="M2 5h16M2 10h16M2 15h16" stroke="currentColor" stroke-width="1.75" fill="none"/></svg>
+      </button>
+    </div>
+    <div class="cp-mega" id="cp-mega">
+      <div class="cp-container">
+        <div class="cp-mega-inner"><p><a href="/exams">Browse the full exam directory →</a></p></div>
+        <div class="cp-mega-foot"><span>Only exams with published CertPath titles are listed.</span><a class="cp-textlink" href="/complete-prep">Search the full directory <span class="cp-arrow" aria-hidden="true">→</span></a></div>
+      </div>
+    </div>
+  </header>
+
+  <div class="cp-drawer" role="dialog" aria-modal="true" aria-label="Menu">
+    <div class="cp-drawer-top"><span class="cp-logo-word">CertPath</span><button type="button" class="cp-drawer-close" aria-label="Close menu">✕</button></div>
+    <a href="/complete-prep">Explore Complete Prep <span aria-hidden="true">→</span></a>
+    <a href="/complete-prep">Explore Exam Simulator <span aria-hidden="true">→</span></a>
+    <a href="/free-practice">Free practice <span aria-hidden="true">→</span></a>
+    <a href="/blog/">Articles <span aria-hidden="true">→</span></a>
+    <a href="/access" class="cp-btn cp-btn-primary">Access my tests</a>
+  </div>
+
+  <main id="content" class="container legal-page" style="padding: 4rem 1.25rem 5rem; max-width: 640px;">
+    <style>.legal-page h1{color:var(--navy);margin:0 0 .5rem}.legal-page p{line-height:1.65}.vf{display:grid;gap:.75rem;margin:1.75rem 0 0}.vf label{font-weight:600;font-size:.9rem;color:var(--navy)}.vf input{width:100%;font:inherit;padding:.75rem .9rem;border:1px solid #c9cfd9;border-radius:10px;background:#fff}.vf button{justify-self:start;font:inherit;font-weight:700;background:var(--navy);color:#fff;border:0;border-radius:10px;padding:.75rem 1.4rem;cursor:pointer}.vr{margin-top:1.5rem;padding:1rem 1.15rem;border-radius:12px;line-height:1.6}.vr.ok{background:#ecf7ef;border:1px solid #9fd3ad;color:#14532d}.vr.bad{background:#fdf0ef;border:1px solid #f0b4ae;color:#7f1d1d}</style>
+    <h1>Verify a certificate</h1>
+    <p>Enter the certificate ID and the learner's name exactly as they appear on a CertPath Publishing course certificate.</p>
+    <form class="vf" id="vf">
+      <label for="vid">Certificate ID</label>
+      <input id="vid" placeholder="CP-PMP-261007-XXXXXXXX" autocomplete="off" required>
+      <label for="vname">Learner's name</label>
+      <input id="vname" autocomplete="off" required>
+      <button type="submit" id="vgo">Verify</button>
+    </form>
+    <div class="vr" id="vr" role="status" hidden></div>
+    <script>
+    (function () {
+      var M = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+      var f = document.getElementById('vf'), r = document.getElementById('vr');
+      function show(cls, html) { r.className = 'vr ' + cls; r.innerHTML = html; r.hidden = false; }
+      var esc = function (s) { return String(s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); };
+      f.addEventListener('submit', function (e) {
+        e.preventDefault();
+        var id = document.getElementById('vid').value, name = document.getElementById('vname').value;
+        document.getElementById('vgo').disabled = true;
+        fetch('/api/cert?verify=1', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ id: id, name: name }) })
+          .then(function (x) { return x.json(); })
+          .then(function (a) {
+            if (a.valid) {
+              var p = a.date.split('-');
+              show('ok', '<b>Valid certificate.</b> ' + esc(name.replace(/\s+/g, ' ').trim()) + ' completed the <b>' + esc(a.course) + '</b> on ' + (+p[2]) + ' ' + M[+p[1] - 1] + ' ' + p[0] + '.');
+            } else show('bad', '<b>Not verified.</b> No CertPath certificate matches that ID and name. Check both for typos.');
+          })
+          .catch(function () { show('bad', 'Could not check right now. Please try again.'); })
+          .then(function () { document.getElementById('vgo').disabled = false; });
+      });
+    })();
+    </script>
+  </main>
+
+  <footer class="cp-footer">
+    <div class="cp-container cp-footer-grid">
+      <div>
+        <a href="/" class="cp-logo" aria-label="CertPath Publishing — home">
+          <svg viewBox="0 0 40 46" width="30" height="35" aria-hidden="true"><path fill="#fff" d="M3 2h22l13 13v18L20.5 44 3 33z"/><path fill="#081326" d="M7.5 6.5H23V17h10.5v13.6L20.5 38.8 7.5 30.6z"/><path fill="#fff" d="M12.5 20.5h16v3h-16zM12.5 26.5h15v3h-15z"/></svg>
+          <span class="cp-logo-word">CertPath<small>Publishing</small></span>
+        </a>
+        <p class="cp-footer-about">Independent publisher of exam-preparation study guides with online practice tests.</p>
+      </div>
+      <div>
+        <h2>Explore exams</h2>
+        <ul>
+          <li><a href="/exams?category=project">Project management</a></li>
+          <li><a href="/exams?category=trades">Trades &amp; safety</a></li>
+          <li><a href="/exams?category=healthcare">Healthcare</a></li>
+          <li><a href="/exams?category=academic">Academic &amp; math</a></li>
+          <li><a href="/exams">All exams</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Resources</h2>
+        <ul>
+          <li><a href="/free-practice">Free practice</a></li>
+          <li><a href="/blog/">Articles</a></li>
+          <li><a href="/#videos">Video lessons</a></li>
+          <li><a href="https://www.youtube.com/@certpathpublishing" target="_blank" rel="noopener">YouTube channel ↗</a></li>
+          <li><a href="https://www.amazon.com/CertPath-Publishing/e/B0GWVSPBJT" target="_blank" rel="noopener">Amazon author page ↗</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Company</h2>
+        <ul>
+          <li><a href="mailto:support@certpathpublishing.store">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Support</h2>
+        <ul>
+          <li><a href="/access">Access my tests</a></li>
+          <li><a href="mailto:support@certpathpublishing.store?subject=Help%20with%20my%20access%20code">Help with a code</a></li>
+          <li><a href="mailto:support@certpathpublishing.store?subject=Correction">Report a correction</a></li>
+          <li><a href="/privacy">Privacy</a> · <a href="/terms">Terms</a> · <a href="/refunds">Refunds</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="cp-container cp-footer-legal">
+      <p>© 2026 CertPath Publishing. Online practice tests are included with eligible CertPath books; an access code is required.</p>
+      <p>CertPath Publishing is an independent publisher and is not affiliated with or endorsed by any exam owner. PMP, CAPM, PMI-ACP and PMBOK are registered marks of the Project Management Institute, Inc. SAT and PSAT/NMSQT are trademarks of the College Board. ACT, GED, TABE, CCRN, CNOR, CMSRN, CSP, CHST, CAST, POSS and CAP are trademarks of their respective owners.</p>
+    </div>
+  </footer>
+  <script src="/js/premium.js?v=26" defer></script>
+</body>
+</html>
