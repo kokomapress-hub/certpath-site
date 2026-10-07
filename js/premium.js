@@ -693,7 +693,9 @@
       var name = '', email = '';
       try { name = localStorage.getItem('certpath_name') || ''; email = localStorage.getItem('certpath_email') || ''; } catch (e) {}
       var label = name || (email ? email.split('@')[0] : (u.isAdmin ? 'Owner' : 'My account'));
-      var items = [['/my', 'My study page'], ['/access', 'Add another access code']];
+      // "My study page" = the exam hub: /study sends one-exam owners straight to /study/<exam>
+      // and shows a picker when this browser holds more than one exam.
+      var items = [['/study', 'My study page'], ['/my', 'All my practice tests'], ['/access', 'Add another access code']];
       if (pmp) items.push(['/pmp-course', 'PMP video course']);
       if (capm) items.push(['/capm-course', 'CAPM video course']);
 
@@ -724,7 +726,8 @@
       // mobile drawer: same greeting + links above the button
       var drawerBtn = $('.cp-drawer .cp-btn');
       if (drawerBtn) {
-        drawerBtn.textContent = 'Hi, ' + label + ' — my practice tests';
+        drawerBtn.textContent = 'Hi, ' + label + ' — my study page';
+        drawerBtn.setAttribute('href', '/study');
         items.slice(1).forEach(function (it) {
           var a = doc.createElement('a'); a.href = it[0]; a.setAttribute('data-account', '');
           a.innerHTML = it[1] + ' <span aria-hidden="true">→</span>';

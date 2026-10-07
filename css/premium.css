@@ -897,7 +897,7 @@ body.cp {
 .sh-lead { margin: 1rem 0 0; max-width: 42rem; font-size: 1.08rem; color: rgb(255 255 255 / .78); }
 .sh-tiles { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.1rem; margin-top: 2.5rem; }
 .sh-tile { position: relative; display: flex; flex-direction: column; gap: .4rem; min-height: 15rem; padding: 1.6rem; border: 1px solid rgb(255 255 255 / .16); border-radius: var(--cp-r-media); background: rgb(14 31 63 / .55); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px); color: #fff; text-decoration: none; transition: transform var(--cp-medium) var(--cp-ease), border-color var(--cp-fast), background var(--cp-fast); }
-a.sh-tile:hover, a.sh-tile:focus-visible { transform: translateY(-4px); border-color: var(--cp-gold); background: rgb(14 31 63 / .78); }
+a.sh-tile:hover, a.sh-tile:focus-visible { color: #fff; transform: translateY(-4px); border-color: var(--cp-gold); background: rgb(14 31 63 / .78); }
 .sh-tile.is-soon { opacity: .62; }
 .sh-ico { display: grid; place-items: center; width: 3rem; height: 3rem; margin-bottom: .6rem; border-radius: .75rem; background: rgb(221 166 59 / .16); color: var(--cp-gold); }
 .sh-ico svg, .sh-go svg { width: 1.6rem; height: 1.6rem; fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
@@ -922,7 +922,7 @@ a.sh-tile:hover, a.sh-tile:focus-visible { transform: translateY(-4px); border-c
 .sh-err { grid-column: 1 / -1; margin: 0; color: #FFB4A8; font-size: .92rem; }
 .sh-pick { display: grid; grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr)); gap: .8rem; margin-top: 2rem; }
 .sh-pick a { display: grid; gap: .2rem; padding: 1.1rem 1.25rem; border: 1px solid rgb(255 255 255 / .18); border-radius: var(--cp-r-card); background: rgb(14 31 63 / .6); color: #fff; text-decoration: none; }
-.sh-pick a:hover { border-color: var(--cp-gold); }
+.sh-pick a:hover { color: #fff; border-color: var(--cp-gold); }
 .sh-pick b { font: 500 1.3rem var(--cp-serif); }
 .sh-pick span { font-size: .85rem; color: rgb(255 255 255 / .7); }
 @media (max-width: 860px) {

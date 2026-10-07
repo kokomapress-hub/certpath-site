@@ -122,7 +122,7 @@
       '<h1 class="sh-h1">Everything for the ' + esc(exam.short) + ', <em>in one place.</em></h1>' +
       '<p class="sh-lead">' + esc(exam.name) + ' — unlocked on this browser. Pick up where you left off.</p>' +
       '<div class="sh-tiles">' + video + sim + sheet + '</div>' +
-      '<p class="sh-foot"><a href="/my">My study page</a><span aria-hidden="true">·</span><a href="/access">Add another code</a><span aria-hidden="true">·</span><a href="mailto:support@certpathpublishing.store?subject=Help%20with%20my%20' + encodeURIComponent(exam.short) + '%20access">Need help?</a></p>';
+      '<p class="sh-foot"><a href="/my">All my practice tests</a><span aria-hidden="true">·</span><a href="/access">Add another code</a><span aria-hidden="true">·</span><a href="mailto:support@certpathpublishing.store?subject=Help%20with%20my%20' + encodeURIComponent(exam.short) + '%20access">Need help?</a></p>';
     app.querySelectorAll('.sh-sub i').forEach(function (i) {
       i.addEventListener('click', function (e) { e.preventDefault(); e.stopPropagation(); location.href = i.dataset.href; });
     });
