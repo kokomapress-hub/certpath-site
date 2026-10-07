@@ -48,28 +48,23 @@
 .hc-msg{margin:.5rem 0 0;font-size:.88rem;color:#B42318;min-height:1em}
 .hc-alt{margin-top:.4rem}
 @media (max-width:520px){.hc-row{grid-template-columns:1fr}}
-.hx-tag{margin:1.5rem 0 0;max-width:34rem;font:400 1.125rem/1.55 var(--cp-sans,Inter,sans-serif);color:#26354B}
-.hx-sim{display:grid;gap:.3rem;margin:1.6rem 0 0;padding:.15rem 0 .15rem 1.1rem;border-left:2px solid var(--cp-gold,#DDA63B);max-width:34rem;color:var(--cp-navy,#0E1F3F);text-decoration:none}
-.hx-sim-k{font:600 .7rem/1 var(--cp-sans,Inter,sans-serif);letter-spacing:.18em;text-transform:uppercase;color:var(--cp-bronze,#805600)}
-.hx-sim-t{font:400 1.2rem/1.35 var(--cp-serif,Georgia,serif);color:var(--cp-navy,#0E1F3F)}
-.hx-sim-p{font:500 .875rem/1.4 var(--cp-sans,Inter,sans-serif);color:var(--cp-body,#26354B)}
-.hx-sim-p b{font-weight:600;color:var(--cp-navy,#0E1F3F)}
-.hx-sim-p i{font-style:normal;display:inline-block;margin-left:.35rem;color:var(--cp-bronze,#805600);transition:transform .2s}
-.hx-sim:hover .hx-sim-p b{text-decoration:underline;text-decoration-color:var(--cp-gold,#DDA63B);text-underline-offset:3px}
-.hx-sim:hover .hx-sim-p i{transform:translateX(3px)}
+.hx-tag{margin:1.5rem 0 0;max-width:28rem;font:400 1.125rem/1.55 var(--cp-sans,Inter,sans-serif);color:#26354B}
+.hx-sim{margin:.85rem 0 0;font:400 .84rem/1.5 var(--cp-sans,Inter,sans-serif);color:#526176}
+.hx-sim a{color:#526176;text-decoration:none}.hx-sim a:hover{text-decoration:underline;text-underline-offset:3px}
+.hx-sim b{font-weight:600;color:#805600}
 .hx-btns{display:flex;flex-wrap:wrap;gap:1rem;margin:1.75rem 0 0}
 .hx-btn{display:inline-flex;align-items:center;justify-content:center;height:52px;padding:0 1.75rem;border-radius:8px;background:#DDA63B;border:1.5px solid #DDA63B;color:#0E1F3F!important;font:600 1rem/1 var(--cp-sans,Inter,sans-serif);text-decoration:none;white-space:nowrap;box-shadow:0 8px 20px rgb(14 31 63 / .12);transition:background .2s,transform .2s,box-shadow .2s}
 .hx-btn:hover,.hx-btn:focus-visible{background:#E6B656;border-color:#E6B656;transform:translateY(-2px);box-shadow:0 12px 26px rgb(14 31 63 / .16)}
 .hx-btn.hx-ghost{background:rgb(255 255 255 / .55);border-color:#0E1F3F;box-shadow:none}
 .hx-btn.hx-ghost:hover,.hx-btn.hx-ghost:focus-visible{background:#0E1F3F;border-color:#0E1F3F;color:#fff!important}
-.hx-links{margin:1.15rem 0 0;font:500 .94rem/1.5 var(--cp-sans,Inter,sans-serif);color:#0E1F3F}
+.hx-links{margin:1.6rem 0 0;font:500 .94rem/1.5 var(--cp-sans,Inter,sans-serif);color:#0E1F3F}
 .hx-links a{color:#0E1F3F;text-decoration:none;white-space:nowrap}.hx-links a:hover{text-decoration:underline;text-underline-offset:3px}
 .hx-dot{margin:0 .6rem;color:#B98A0E}
 .cp-hero.hero-light.hx-low h1{font-size:clamp(2.4rem,2.5vw,3.4rem)!important;line-height:1.16!important}
 .cp-hero.hero-light.hx-low .cp-eyebrow{display:block;margin-bottom:1rem}
 .cp-hero.hero-light.hx-low .hx-tag{margin-top:1.4rem;font-size:1rem;line-height:1.7}
 .cp-hero.hero-light.hx-low .hx-btns{margin-top:1.8rem;flex-wrap:nowrap}
-.cp-hero.hero-light.hx-low .hx-links{margin-top:1.3rem;font-size:.88rem}
+.cp-hero.hero-light.hx-low .hx-links{margin-top:1.6rem;font-size:.88rem}
 .cp-hero.hero-light.hx-wash::after{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;background:radial-gradient(ellipse 62% 70% at 12% 88%,rgb(250 248 243 / .9) 0%,rgb(250 248 243 / .7) 45%,rgb(250 248 243 / 0) 80%)}
 
 @media (max-width:640px){.hx-btns{flex-direction:column;gap:.75rem}.hx-btn{width:100%}.hx-links a{display:block;margin:.35rem 0;white-space:normal}.hx-dot{display:none}}
@@ -270,13 +265,13 @@ addEventListener('DOMContentLoaded',function(){var v=document.querySelector('.he
         <div>
           <span class="cp-eyebrow">Exam prep that gives you a clear path</span>
           <h1 data-split>Prepare with purpose. Practice with <em>confidence.</em></h1>
-          <p class="hx-tag">Study guides, realistic practice exams and video courses that get you ready for exam day.</p>
-          <a class="hx-sim" href="/complete-prep"><span class="hx-sim-k">Exam Simulator</span><span class="hx-sim-t">Timed practice tests, with every answer explained.</span><span class="hx-sim-p">From <b>$9.99</b> per exam<i aria-hidden="true">→</i></span></a>
+          <p class="hx-tag">Study guides, timed practice tests and video courses built to get you exam-ready.</p>
           <div class="hx-btns">
-            <a class="hx-btn" href="/complete-prep">Explore Complete Prep</a>
-            <a class="hx-btn hx-ghost" href="/free-practice">Take a free practice test</a>
+            <a class="hx-btn" href="/complete-prep">Get Complete Prep — $19.99</a>
+            <a class="hx-btn hx-ghost" href="/free-practice">Try a free practice test</a>
           </div>
-          <p class="hx-links"><a href="https://www.amazon.com/CertPath-Publishing/e/B0GWVSPBJT" target="_blank" rel="noopener">Shop the books on Amazon <span aria-hidden="true">↗</span></a><span aria-hidden="true" class="hx-dot">·</span><a href="/access">Have a CertPath book? Unlock your resources <span aria-hidden="true">→</span></a></p>
+          <p class="hx-sim"><a href="/complete-prep"><b>Exam Simulator</b> — $9.99 · timed tests only</a></p>
+          <p class="hx-links"><a href="/access">Have a CertPath book? Unlock your resources <span aria-hidden="true">→</span></a></p>
           <svg class="cp-hero-path" viewBox="0 0 480 28" data-draw aria-hidden="true">
             <path pathLength="1" d="M0 14 H480"/>
             <circle cx="6" cy="14" r="5"/><circle cx="170" cy="14" r="5"/><circle cx="334" cy="14" r="5"/>
