@@ -27,8 +27,8 @@
 .vc-title{font-size:24px;font-weight:800;margin:0 0 8px;letter-spacing:-.02em;color:#fff}
 .vc-sub{color:var(--vm);margin:0 0 20px;line-height:1.55}
 .vc-list{list-style:none;padding:0;margin:0 0 24px;display:grid;gap:11px}
-.vc-list li{display:flex;gap:11px;line-height:1.45;color:#E6EBF4;font-size:15px}
-.vc-list li::before{content:"✓";flex:0 0 22px;height:22px;border-radius:50%;background:rgba(255,184,0,.15);color:var(--vg);font-size:12px;font-weight:800;display:flex;align-items:center;justify-content:center;margin-top:1px}
+.vc-list li{position:relative;padding-left:33px;line-height:1.45;color:#E6EBF4;font-size:15px}
+.vc-list li::before{content:"✓";position:absolute;left:0;top:0;width:22px;height:22px;border-radius:50%;background:rgba(255,184,0,.15);color:var(--vg);font-size:12px;font-weight:800;display:flex;align-items:center;justify-content:center;margin-top:1px}
 .vc-buy{background:#fff;color:var(--vn);border-radius:18px;padding:22px 24px;box-shadow:0 20px 50px rgba(0,0,0,.35)}
 .vc-price{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
 .vc-price b{font-size:44px;font-weight:800;letter-spacing:-.03em;line-height:1}
