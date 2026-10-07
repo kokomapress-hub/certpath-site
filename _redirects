@@ -10,6 +10,8 @@
 /sat-resources /access?book=sat-math   302
 /psat-access    /access?book=psat-math   302
 /psat-resources /access?book=psat-math   302
+/ccrn-access    /access?book=ccrn        302
+/sat-bonus      /access?book=sat-math    302
 
 # Internal working files are in the repo but must not be readable on the public site.
 /README.md                        /  302
