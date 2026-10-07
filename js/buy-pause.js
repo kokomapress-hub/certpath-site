@@ -1,7 +1,8 @@
 // Purchases paused: every Payhip buy link becomes a disabled "Coming soon" button.
+// The PMP pack link is left on for test purchases (2026-10-07).
 // Remove this script (and its <script> tags) to switch buying back on.
 (function () {
-  var SEL = 'a[href*="payhip.com/b/"]';
+  var SEL = 'a[href*="payhip.com/b/"]:not([href*="/b/Atjx3"])'; // PMP pack (Atjx3) stays on for testing
   function pause(a) {
     if (a.dataset.paused) return;
     a.dataset.paused = '1';
