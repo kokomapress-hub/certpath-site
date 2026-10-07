@@ -6,7 +6,7 @@
 //   VC_SESSION_SECRET  signs the per-course access cookie
 //   SUPER_ACCESS_CODE  optional owner code that unlocks every course
 
-export const COURSES = ['pmp', 'sat-math', 'tabe-a', 'tabe-d', 'tabe-m', 'tabe-e', 'capm'];
+export const COURSES = ['pmp', 'sat-math', 'tabe-a', 'tabe-d', 'tabe-m', 'tabe-e', 'capm', 'mech-apt'];
 export const COOKIE_DAYS = 30;
 
 export function json(body, status = 200, headers = {}) {
@@ -76,6 +76,7 @@ export const BOOKS_FOR_COURSE = {
   'tabe-m': ['tabe-m'],
   'tabe-e': ['tabe-e'],
   'capm': ['capm'],
+  'mech-apt': ['mech-apt'],
 };
 
 const sha256Hex = async (s) => [...new Uint8Array(await crypto.subtle.digest('SHA-256', enc.encode(s)))]

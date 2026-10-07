@@ -3,6 +3,8 @@
   background:radial-gradient(900px 480px at 85% -10%,#24375c 0%,var(--vn) 45%,var(--vn2) 100%);
   color:#fff;padding:88px 20px;font-family:Inter,system-ui,sans-serif;position:relative;overflow:hidden}
 .vc *{box-sizing:border-box}
+/* landing pages alternate section backgrounds (premium-bridge.css); the pack block stays navy */
+body.cp > .lp-hero ~ section.vc{background:radial-gradient(900px 480px at 85% -10%,#24375c 0%,var(--vn) 45%,var(--vn2) 100%)}
 .vc::before{content:"";position:absolute;inset:0;background-image:radial-gradient(rgba(255,255,255,.05) 1px,transparent 1px);background-size:22px 22px;pointer-events:none}
 .vc-in{max-width:1160px;margin:0 auto;position:relative}
 .vc-head{text-align:center;max-width:760px;margin:0 auto 44px}

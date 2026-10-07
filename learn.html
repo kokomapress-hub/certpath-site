@@ -182,7 +182,7 @@ video{width:100%;aspect-ratio:16/9;background:#000;border-radius:12px;display:bl
     <a class="btn" id="buy" href="#">Get videos + practice tests — $19.99</a>
     <div class="or">Already bought it?</div>
     <form class="form" id="form">
-      <input type="email" id="email" placeholder="Email you bought with" autocomplete="email" required>
+      <input type="email" id="email" placeholder="Email you bought with" autocomplete="email" hidden>
       <input type="text" id="key" placeholder="Pack code or book code" autocomplete="off" required>
       <button class="btn" type="submit" id="go">Unlock</button>
     </form>
@@ -227,10 +227,9 @@ video{width:100%;aspect-ratio:16/9;background:#000;border-radius:12px;display:bl
 
 <script>
 (function () {
-  var BUY = { 'pmp': 'https://payhip.com/b/Atjx3', 'sat-math': 'https://payhip.com/b/KbAzN', 'tabe-a': 'https://payhip.com/b/pw4Rs', 'tabe-d': 'https://payhip.com/b/Mavlg', 'tabe-m': 'https://payhip.com/b/tRLN4', 'tabe-e': 'https://payhip.com/b/vxU07' };
-  // CAPM is not sold separately: it comes with the CertPath CAPM book, unlocked by the book's code.
-  var BOOK_ONLY = { 'capm': '/capm' };
-  var COVER = { 'pmp': 'PMP', 'sat-math': 'SAT_Math', 'tabe-a': 'TABE_A', 'tabe-d': 'TABE_D', 'tabe-m': 'TABE_M', 'tabe-e': 'TABE_E', 'capm': 'CAPM' };
+  var BUY = { 'pmp': 'https://payhip.com/b/Atjx3', 'sat-math': 'https://payhip.com/b/KbAzN', 'tabe-a': 'https://payhip.com/b/pw4Rs', 'tabe-d': 'https://payhip.com/b/Mavlg', 'tabe-m': 'https://payhip.com/b/tRLN4', 'tabe-e': 'https://payhip.com/b/vxU07', 'capm': 'https://payhip.com/b/M89UW', 'mech-apt': 'https://payhip.com/b/XPpzo' };
+  var BOOK_ONLY = {};
+  var COVER = { 'pmp': 'PMP', 'sat-math': 'SAT_Math', 'tabe-a': 'TABE_A', 'tabe-d': 'TABE_D', 'tabe-m': 'TABE_M', 'tabe-e': 'TABE_E', 'capm': 'CAPM', 'mech-apt': 'Mech_Apt' };
   var slug = (location.pathname.match(/^\/learn\/([a-z0-9-]+)/) || [])[1] || new URLSearchParams(location.search).get('course') || '';
   var $ = function (id) { return document.getElementById(id); };
   var store = {

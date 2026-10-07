@@ -3147,6 +3147,199 @@
      ]
     }
    ]
+  },
+  {
+   "slug": "mech-apt",
+   "title": "Mechanical Aptitude — Complete Video Course",
+   "count": 30,
+   "seconds": 11915,
+   "sections": [
+    {
+     "title": "Lessons",
+     "lessons": [
+      {
+       "n": 1,
+       "title": "How Mechanical Aptitude Tests Work",
+       "key": "vc/mech-apt/001.mp4",
+       "sec": 281
+      },
+      {
+       "n": 2,
+       "title": "Distance vs Displacement, Speed vs Velocity",
+       "key": "vc/mech-apt/002.mp4",
+       "sec": 320
+      },
+      {
+       "n": 3,
+       "title": "Acceleration and Free Fall",
+       "key": "vc/mech-apt/003.mp4",
+       "sec": 322
+      },
+      {
+       "n": 4,
+       "title": "Newton's Three Laws of Motion",
+       "key": "vc/mech-apt/004.mp4",
+       "sec": 337
+      },
+      {
+       "n": 5,
+       "title": "Friction",
+       "key": "vc/mech-apt/005.mp4",
+       "sec": 283
+      },
+      {
+       "n": 6,
+       "title": "Work, Energy and Power",
+       "key": "vc/mech-apt/006.mp4",
+       "sec": 363
+      },
+      {
+       "n": 7,
+       "title": "First-Class Levers and Lever Math",
+       "key": "vc/mech-apt/007.mp4",
+       "sec": 283
+      },
+      {
+       "n": 8,
+       "title": "Second- and Third-Class Levers",
+       "key": "vc/mech-apt/008.mp4",
+       "sec": 277
+      },
+      {
+       "n": 9,
+       "title": "Inclined Planes, Wedges and Screws",
+       "key": "vc/mech-apt/009.mp4",
+       "sec": 304
+      },
+      {
+       "n": 10,
+       "title": "Fixed and Movable Pulleys",
+       "key": "vc/mech-apt/010.mp4",
+       "sec": 293
+      },
+      {
+       "n": 11,
+       "title": "Block and Tackle and Wheel-and-Axle",
+       "key": "vc/mech-apt/011.mp4",
+       "sec": 313
+      },
+      {
+       "n": 12,
+       "title": "Mechanical Advantage and Efficiency",
+       "key": "vc/mech-apt/012.mp4",
+       "sec": 317
+      },
+      {
+       "n": 13,
+       "title": "Gear Direction and Idler Gears",
+       "key": "vc/mech-apt/013.mp4",
+       "sec": 276
+      },
+      {
+       "n": 14,
+       "title": "Gear Ratio, Speed and Torque",
+       "key": "vc/mech-apt/014.mp4",
+       "sec": 304
+      },
+      {
+       "n": 15,
+       "title": "Belts, Chains and Sprockets",
+       "key": "vc/mech-apt/015.mp4",
+       "sec": 281
+      },
+      {
+       "n": 16,
+       "title": "Torque and Rotational Motion",
+       "key": "vc/mech-apt/016.mp4",
+       "sec": 454
+      },
+      {
+       "n": 17,
+       "title": "Pressure and Pascal's Principle",
+       "key": "vc/mech-apt/017.mp4",
+       "sec": 517
+      },
+      {
+       "n": 18,
+       "title": "Hydraulic and Pneumatic Systems",
+       "key": "vc/mech-apt/018.mp4",
+       "sec": 538
+      },
+      {
+       "n": 19,
+       "title": "Fluid Flow and Bernoulli's Principle",
+       "key": "vc/mech-apt/019.mp4",
+       "sec": 483
+      },
+      {
+       "n": 20,
+       "title": "Buoyancy and Archimedes' Principle",
+       "key": "vc/mech-apt/020.mp4",
+       "sec": 553
+      },
+      {
+       "n": 21,
+       "title": "Voltage, Current, Resistance and Ohm's Law",
+       "key": "vc/mech-apt/021.mp4",
+       "sec": 413
+      },
+      {
+       "n": 22,
+       "title": "Series vs Parallel Circuits",
+       "key": "vc/mech-apt/022.mp4",
+       "sec": 466
+      },
+      {
+       "n": 23,
+       "title": "Electrical Power, Grounding and AC vs DC",
+       "key": "vc/mech-apt/023.mp4",
+       "sec": 495
+      },
+      {
+       "n": 24,
+       "title": "Heat, Temperature and Thermal Expansion",
+       "key": "vc/mech-apt/024.mp4",
+       "sec": 406
+      },
+      {
+       "n": 25,
+       "title": "Conduction, Convection and Radiation",
+       "key": "vc/mech-apt/025.mp4",
+       "sec": 510
+      },
+      {
+       "n": 26,
+       "title": "Common Hand Tools and Their Uses",
+       "key": "vc/mech-apt/026.mp4",
+       "sec": 549
+      },
+      {
+       "n": 27,
+       "title": "Power Tools, Fasteners and Materials",
+       "key": "vc/mech-apt/027.mp4",
+       "sec": 506
+      },
+      {
+       "n": 28,
+       "title": "Spatial Reasoning: Rotation and Folding",
+       "key": "vc/mech-apt/028.mp4",
+       "sec": 465
+      },
+      {
+       "n": 29,
+       "title": "Pattern Recognition and Assembly Problems",
+       "key": "vc/mech-apt/029.mp4",
+       "sec": 490
+      },
+      {
+       "n": 30,
+       "title": "Light, Sound, Centre of Gravity and Structures",
+       "key": "vc/mech-apt/030.mp4",
+       "sec": 516
+      }
+     ]
+    }
+   ]
   }
  ]
 }

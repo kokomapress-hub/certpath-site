@@ -4,13 +4,13 @@
 // yt = a free YouTube course; sheet = the cheatsheets/meta.json bank.
 window.CP_EXAMS = [
   { key: 'pmp', short: 'PMP', name: 'Project Management Professional', field: 'Project management', page: '/pmp', books: ['pmp'], course: 'pmp', sheet: 'pmp', photo: '/img/photo/field-project.webp', pack: 'https://payhip.com/b/Atjx3' },
-  { key: 'capm', short: 'CAPM', name: 'Certified Associate in Project Management', field: 'Project management', page: '/capm', books: ['capm'], course: 'capm', sheet: 'capm', photo: '/img/photo/field-project.webp' },
+  { key: 'capm', short: 'CAPM', name: 'Certified Associate in Project Management', field: 'Project management', page: '/capm', books: ['capm'], course: 'capm', sheet: 'capm', photo: '/img/photo/field-project.webp', pack: 'https://payhip.com/b/M89UW' },
   { key: 'pmi-acp', short: 'PMI-ACP', name: 'PMI Agile Certified Practitioner', field: 'Project management', page: '/books/pmi-acp', books: ['pmi-acp'], sheet: 'pmi-acp', photo: '/img/photo/field-project.webp' },
   { key: 'cap', short: 'CAP', name: 'Certified Administrative Professional', field: 'Business', page: '/books/cap', books: ['cap'], sheet: 'cap', photo: '/img/photo/field-project.webp' },
   { key: 'cast', short: 'CAST', name: 'Construction and Skilled Trades test', field: 'Trades', page: '/cast', books: ['cast'], yt: 'https://www.youtube.com/playlist?list=PLJb4GZ4sHPDA', ytLessons: 10, photo: '/img/photo/field-trades.webp' },
   { key: 'journeyman', short: 'Journeyman', name: 'Journeyman Electrician (2026 NEC)', field: 'Trades', page: '/journeyman-electrician', books: ['journeyman-elec'], photo: '/img/photo/field-trades.webp' },
   { key: 'poss', short: 'POSS', name: 'Plant Operator Selection System', field: 'Trades', page: '/poss', books: ['poss'], photo: '/img/photo/field-trades.webp' },
-  { key: 'mech-apt', short: 'Mech Aptitude', name: 'Mechanical Aptitude (BMCT, Wiesen, Ramsay)', field: 'Trades', page: '/mechanical-aptitude', books: ['mech-apt'], yt: 'https://www.youtube.com/playlist?list=PLFbmqdwVOD9Y', ytLessons: 30, sheet: 'mech-apt', photo: '/img/photo/field-trades.webp' },
+  { key: 'mech-apt', short: 'Mech Aptitude', name: 'Mechanical Aptitude (BMCT, Wiesen, Ramsay)', field: 'Trades', page: '/mechanical-aptitude', books: ['mech-apt'], course: 'mech-apt', yt: 'https://www.youtube.com/playlist?list=PLFbmqdwVOD9Y', ytLessons: 30, sheet: 'mech-apt', photo: '/img/photo/field-trades.webp', pack: 'https://payhip.com/b/XPpzo' },
   { key: 'csp', short: 'CSP', name: 'Certified Safety Professional', field: 'Safety', page: '/csp', books: ['csp'], photo: '/img/photo/field-trades.webp' },
   { key: 'chst', short: 'CHST', name: 'Construction Health & Safety Technician', field: 'Safety', page: '/chst', books: ['chst'], photo: '/img/photo/field-trades.webp' },
   { key: 'ccrn', short: 'CCRN', name: 'Adult Critical Care Registered Nurse', field: 'Nursing', page: '/ccrn', books: ['ccrn'], sheet: 'ccrn', photo: '/img/photo/field-healthcare.webp' },
