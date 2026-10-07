@@ -31,8 +31,8 @@
 
   function includes(e) {
     var li = [];
-    if (e.course) li.push('Video course on demand');
-    else if (e.yt) li.push((e.ytLessons ? e.ytLessons + ' free video lessons' : 'Free video lessons'));
+    if (e.pack && e.course) li.push('Video course on demand');
+    else if (e.yt) li.push((e.ytLessons ? e.ytLessons + ' free video lessons' : 'Free video lessons') + ' on YouTube');
     li.push('Timed exam simulator, every answer explained');
     if (e.sheet) li.push('Printable cheatsheets');
     li.push('Study hub with progress tracking');
@@ -57,26 +57,27 @@
   function card(e) {
     if (FREE_MODE) return freeCard(e);
     var cover = '/img/covers/' + e.books[0] + '.webp';
-    // Only exams with a Complete Prep pack open; the rest show a disabled button.
-    var tag = e.pack ? 'a' : 'div';
-    return '<' + tag + ' class="pd-card' + (e.pack ? ' pack' : ' off') + '"' + (e.pack ? ' href="' + esc(e.page) + '"' : ' aria-disabled="true"') + '>' +
-      (e.pack ? '<span class="pd-rib">Complete Prep</span>' : '') +
+    // Complete Prep ($19.99: simulator + video course) or Exam Simulator ($9.99: timed tests only); the rest show a disabled button.
+    var tier = e.pack ? { rib: 'Complete Prep', pr: '$19.99' } : e.sim ? { rib: 'Exam Simulator', pr: '$9.99' } : null;
+    var tag = tier ? 'a' : 'div';
+    return '<' + tag + ' class="pd-card' + (tier ? ' pack' + (e.pack ? '' : ' sim') : ' off') + '"' + (tier ? ' href="' + esc(e.page) + '"' : ' aria-disabled="true"') + '>' +
+      (tier ? '<span class="pd-rib">' + tier.rib + '</span>' : '') +
       '<img src="' + cover + '" alt="" width="170" height="220" loading="lazy" decoding="async" onerror="this.style.visibility=\'hidden\'">' +
       '<div class="pd-info"><b>' + esc(e.short) + '</b><span class="nm">' + esc(e.name) + '</span>' + (BY[e.key] ? '<span class="by">' + esc(BY[e.key]) + '</span>' : '') + '</div>' +
       '<ul>' + includes(e).map(function (t) { return '<li>' + t + '</li>'; }).join('') + '</ul>' +
-      '<div class="pd-act">' + (e.pack ? '<span class="pr">$19.99</span><span class="pn">or free with the CertPath book</span>' : '<span class="pr">Free</span><span class="pn">with the CertPath book</span>') +
-      (e.pack ? '<span class="go">See the prep →</span>' : '<span class="go">Complete Prep coming soon</span>') + '</div></' + tag + '>';
+      '<div class="pd-act">' + (tier ? '<span class="pr">' + tier.pr + '</span><span class="pn">' + (e.pack ? 'Complete Prep' : 'Exam Simulator') + ' · or free with the CertPath book</span>' : '<span class="pr">Free</span><span class="pn">with the CertPath book</span>') +
+      (tier ? '<span class="go">See the prep →</span>' : '<span class="go">Coming soon</span>') + '</div></' + tag + '>';
   }
   function catHref(c) { return c.href || BASE + '?cat=' + c.key; }
 
   function renderCat(c) {
     var list = c.exams.map(byKey).filter(Boolean);
-    var packs = list.filter(function (e) { return e.pack; }).length;
+    var packs = list.filter(function (e) { return e.pack; }).length, sims = list.filter(function (e) { return e.sim; }).length;
     document.title = c.name + (FREE_MODE ? ' — Free Practice' : ' — Complete Prep') + ' | CertPath Publishing';
     var v = document.getElementById('pdCatView');
     v.innerHTML = '<nav class="pd-crumb" aria-label="Breadcrumb"><a href="' + BASE + '">' + (FREE_MODE ? 'Free Practice' : 'Complete Prep') + '</a> › ' + esc(c.name) + '</nav>' +
       '<header class="pd-band"><svg viewBox="0 0 24 24" aria-hidden="true">' + c.icon + '</svg><div><h1>' + esc(c.name) + '</h1>' +
-      '<p>' + list.length + (list.length === 1 ? ' exam' : ' exams') + (FREE_MODE ? ' with free practice' : packs ? ' · ' + packs + ' with a $19.99 Complete Prep pack' : '') + ' · pick yours below</p></div></header>' +
+      '<p>' + list.length + (list.length === 1 ? ' exam' : ' exams') + (FREE_MODE ? ' with free practice' : (packs ? ' · ' + packs + ' with Complete Prep ($19.99)' : '') + (sims ? ' · ' + sims + ' with the Exam Simulator ($9.99)' : '')) + ' · pick yours below</p></div></header>' +
       '<div class="pd-lay"><nav class="pd-rail" aria-label="Categories"><h2>Categories</h2>' +
       CATS.map(function (o) { return '<a href="' + catHref(o) + '"' + (o === c ? ' class="on" aria-current="page"' : '') + '>' + esc(o.name) + (o.exams ? '<small>' + o.exams.length + '</small>' : '') + '</a>'; }).join('') +
       '</nav><div class="pd-cards">' + list.map(card).join('') + '</div></div>';

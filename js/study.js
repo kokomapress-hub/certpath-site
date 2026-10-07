@@ -58,7 +58,7 @@
       post({ course: 'auto', key: code, email: email }); // sets the video cookie when this book has a course
       return { ok: true, books: hit };
     }
-    var miss = 'That code was not recognised. Check the last page of your book' + (exam && exam.pack ? ', or the pack code in your pack PDF.' : '.');
+    var miss = 'That code was not recognised. Check the last page of your book' + (exam && (exam.pack || exam.sim) ? ', or the access code in your Payhip PDF.' : '.');
     if (!exam || !(exam.pack || exam.course)) return { ok: false, error: miss };
     if (!/^\S+@\S+\.\S+$/.test(email || '')) return { ok: false, needEmail: true, error: 'We could not match that book code. If it is a pack key from Payhip, add the email you bought it with.' };
     var r = await post({ course: pool, key: code, email: email });
@@ -129,13 +129,13 @@
   }
 
   function renderLocked(prefill) {
-    var hasPack = !!exam.pack;
+    var hasPack = !!(exam.pack || exam.sim);
     app.innerHTML =
       '<p class="sh-eyebrow">' + esc(exam.short) + ' · ' + esc(exam.name) + '</p>' +
       '<h1 class="sh-h1">Unlock your <em>' + esc(exam.short) + ' prep.</em></h1>' +
-      '<p class="sh-lead">Enter the access code from the last page of your CertPath book' + (hasPack ? ', or the pack code in your $19.99 pack PDF' : '') + '.</p>' +
+      '<p class="sh-lead">Enter the access code from the last page of your CertPath book' + (hasPack ? ', or the access code in your ' + (exam.pack ? 'Complete Prep' : 'Exam Simulator') + ' PDF' : '') + '.</p>' +
       '<form class="sh-form" id="shForm" autocomplete="off" novalidate>' +
-        '<label class="sh-field"><span>' + (hasPack ? 'Book code or pack code' : 'Book access code') + '</span><input id="shCode" type="text" autocapitalize="characters" spellcheck="false" required placeholder="' + esc(exam.short.split(' ')[0].toUpperCase()) + '-XXXXX-XXXXX"></label>' +
+        '<label class="sh-field"><span>' + (hasPack ? 'Book code or access code' : 'Book access code') + '</span><input id="shCode" type="text" autocapitalize="characters" spellcheck="false" required placeholder="' + esc(exam.short.split(' ')[0].toUpperCase()) + '-XXXXX-XXXXX"></label>' +
         '<label class="sh-field"><span>Email</span><input id="shEmail" type="email" autocomplete="email" placeholder="you@example.com"></label>' +
         '<button class="sh-go" type="submit">' + ICON.lock + '<span>Unlock</span></button>' +
         '<p class="sh-err" id="shErr" role="alert" hidden></p>' +

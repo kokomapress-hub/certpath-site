@@ -16,7 +16,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;1,8..60,400&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/css/premium.css?v=27">
+  <link rel="stylesheet" href="/css/premium.css?v=28">
   <style>
   .cp-prep{background:#fff;padding:3rem 0 5rem}
   .pd-wrap{max-width:62rem}
@@ -87,6 +87,7 @@
   .pd-act .pn{font-size:.8rem;color:#64748b;line-height:1.35}
   .pd-act .go{margin-top:.9rem;padding:.75rem 1rem;border-radius:8px;background:#0E1F3F;color:#fff;font-weight:700;font-size:.92rem;white-space:nowrap;transition:background .2s,color .2s}
   .pd-card.pack .go{background:#F5C518;color:#0E1F3F}
+  .pd-card.sim .pd-rib{background:#0E1F3F;color:#F5C518}
   .pd-card:hover .go{background:#B98A0E;color:#fff}
   .pd-card.off{cursor:default}.pd-card.off:hover{transform:none;border-color:#e2ddd0;box-shadow:none}.pd-card.off:hover img{transform:none}
   .pd-card.off .go,.pd-card.off:hover .go{background:#ECEEF2;color:#8A94A6;cursor:not-allowed;white-space:normal;text-align:center}
@@ -105,7 +106,8 @@
         <span class="cp-logo-word">CertPath<small>Publishing</small></span>
       </a>
       <nav class="cp-nav" aria-label="Primary">
-        <a href="/exams" data-mega-trigger>Explore exams</a>
+        <a href="/complete-prep" data-mega-trigger="prep">Explore Complete Prep</a>
+        <a href="/complete-prep" data-mega-trigger="sim">Explore Exam Simulator</a>
         <a href="/free-practice">Free practice</a>
         <a href="/blog/">Articles</a>
         <a href="/access" class="cp-nav-access">Access my tests</a>
@@ -124,7 +126,8 @@
 
   <div class="cp-drawer" role="dialog" aria-modal="true" aria-label="Menu">
     <div class="cp-drawer-top"><span class="cp-logo-word">CertPath</span><button type="button" class="cp-drawer-close" aria-label="Close menu">✕</button></div>
-    <a href="/exams">Explore exams <span aria-hidden="true">→</span></a>
+    <a href="/complete-prep">Explore Complete Prep <span aria-hidden="true">→</span></a>
+    <a href="/complete-prep">Explore Exam Simulator <span aria-hidden="true">→</span></a>
     <a href="/free-practice">Free practice <span aria-hidden="true">→</span></a>
     <a href="/blog/">Articles <span aria-hidden="true">→</span></a>
     <a href="/access" class="cp-btn cp-btn-primary">Access my tests</a>
@@ -141,7 +144,7 @@
       </form>
       <div id="pdDir">
       <h1 class="pd-h">Complete Prep Directory</h1>
-      <p class="pd-sub">Video course, exam simulator and cheatsheets for your exam, in one package.</p>
+      <p class="pd-sub"><b>Complete Prep · $19.99</b> — video course + exam simulator. <b>Exam Simulator · $9.99</b> — timed practice tests with every answer explained.</p>
       <p class="pd-pick">Choose a category below to find the prep that's right for you.</p>
       <div class="pd-grid" id="pdGrid"></div>
       </div>
@@ -201,7 +204,7 @@
     </div>
   </footer>
 
-  <script src="/js/premium.js?v=23" defer></script>
+  <script src="/js/premium.js?v=25" defer></script>
   <script src="/js/exams.js?v=1" defer></script>
   <script src="/js/prep.js?v=6" defer></script>
 </body>

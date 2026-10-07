@@ -25,7 +25,11 @@
         "minutes": 86,
         "free": true,
         "poster": "/img/cast-course/01.webp"
-      }
+      },
+      "codeHashes": [
+        "33bd9e5e9fb93f3ee906c828aef5e908174673ad01185596abbaef2900685b90"
+      ],
+      "packCodeHash": "33bd9e5e9fb93f3ee906c828aef5e908174673ad01185596abbaef2900685b90"
     },
     {
       "slug": "mech-apt",
@@ -69,7 +73,11 @@
       "amazonUrl": "https://www.amazon.com/dp/B0GX5PYHC9",
       "cheatsheetPrice": 1.99,
       "payhipEbookUrl": "",
-      "payhipCheatsheetUrl": ""
+      "payhipCheatsheetUrl": "",
+      "codeHashes": [
+        "44938dc82064b57157f91a68e0df8deed46bbef9ce863c44aa7f7c3781b745a7"
+      ],
+      "packCodeHash": "44938dc82064b57157f91a68e0df8deed46bbef9ce863c44aa7f7c3781b745a7"
     },
     {
       "slug": "poss",
@@ -79,7 +87,8 @@
       "codeHashes": [
         "c2bb6c5b0b1e1fbcd8be528db84c291af2003c3677814db46eca74ebdf0504ca",
         "76b6a626689307b96a8a840529c545e4271257c96ca157c8903ca891fd533d35",
-        "8b417d7dab4180408ab31f75e858a16f88308c067529a58c6654f18ab21417bf"
+        "8b417d7dab4180408ab31f75e858a16f88308c067529a58c6654f18ab21417bf",
+        "4ac80e599516a680ebaaf688c1d6042bf4dd669ca1f45287703f2dc7ca25e115"
       ],
       "timeMinutes": 40,
       "testCount": 3,
@@ -94,7 +103,8 @@
       "amazonUrl": "https://www.amazon.com/dp/B0GX9TQMQ5",
       "cheatsheetPrice": 1.99,
       "payhipEbookUrl": "",
-      "payhipCheatsheetUrl": ""
+      "payhipCheatsheetUrl": "",
+      "packCodeHash": "4ac80e599516a680ebaaf688c1d6042bf4dd669ca1f45287703f2dc7ca25e115"
     },
     {
       "slug": "csp",
@@ -114,7 +124,11 @@
       "amazonUrl": "https://www.amazon.com/dp/B0GXDZ91DZ",
       "cheatsheetPrice": 1.99,
       "payhipEbookUrl": "",
-      "payhipCheatsheetUrl": ""
+      "payhipCheatsheetUrl": "",
+      "codeHashes": [
+        "a897335184306c66342922a023dd637555500a61cbd807fc739354a8daf0b946"
+      ],
+      "packCodeHash": "a897335184306c66342922a023dd637555500a61cbd807fc739354a8daf0b946"
     },
     {
       "slug": "chst",
@@ -134,7 +148,11 @@
       "amazonUrl": "https://www.amazon.com/dp/B0GXJ74XG7",
       "cheatsheetPrice": 1.99,
       "payhipEbookUrl": "",
-      "payhipCheatsheetUrl": ""
+      "payhipCheatsheetUrl": "",
+      "codeHashes": [
+        "e01cea18768abec8698a36935d75a37e8ee3a9f8c0c939d67cfee4867997ad52"
+      ],
+      "packCodeHash": "e01cea18768abec8698a36935d75a37e8ee3a9f8c0c939d67cfee4867997ad52"
     },
     {
       "slug": "tabe-a",
@@ -277,8 +295,10 @@
       "payhipEbookUrl": "",
       "payhipCheatsheetUrl": "",
       "codeHashes": [
-        "f53c72b66f1806ca9e337fe26e98134f4fe48f2c9ef2add2667e1028bae29268"
-      ]
+        "f53c72b66f1806ca9e337fe26e98134f4fe48f2c9ef2add2667e1028bae29268",
+        "fb0b6dabdb3b90c844260ba16e54f77bb1594cf225a5cfa3f1de31d5682a0aee"
+      ],
+      "packCodeHash": "fb0b6dabdb3b90c844260ba16e54f77bb1594cf225a5cfa3f1de31d5682a0aee"
     },
     {
       "slug": "act-math",
@@ -318,7 +338,11 @@
       "amazonUrl": "https://www.amazon.com/dp/B0H2XXSTDL",
       "cheatsheetPrice": 1.99,
       "payhipEbookUrl": "",
-      "payhipCheatsheetUrl": ""
+      "payhipCheatsheetUrl": "",
+      "codeHashes": [
+        "700a1d67666ade73e8207ce7b2228cfc1f8aa0739695ec970a20fae2892a1466"
+      ],
+      "packCodeHash": "700a1d67666ade73e8207ce7b2228cfc1f8aa0739695ec970a20fae2892a1466"
     },
     {
       "slug": "ccrn",
@@ -338,7 +362,11 @@
       "amazonUrl": "https://www.amazon.com/dp/B0H344Q8HL",
       "cheatsheetPrice": 1.99,
       "payhipEbookUrl": "",
-      "payhipCheatsheetUrl": ""
+      "payhipCheatsheetUrl": "",
+      "codeHashes": [
+        "a9c086573205700b171502d6990d656fbda3a4aede2407efdc5d64d60713846f"
+      ],
+      "packCodeHash": "a9c086573205700b171502d6990d656fbda3a4aede2407efdc5d64d60713846f"
     },
     {
       "slug": "sat-math-workbook",
@@ -546,7 +574,11 @@
       "amazonUrl": "https://www.amazon.com/dp/B0H58X32XD",
       "cheatsheetPrice": 1.99,
       "payhipEbookUrl": "",
-      "payhipCheatsheetUrl": ""
+      "payhipCheatsheetUrl": "",
+      "codeHashes": [
+        "9ac70634c3e0a5604f44bf319b28b7090f4d0571827af84f309429cb3f8f5ce2"
+      ],
+      "packCodeHash": "9ac70634c3e0a5604f44bf319b28b7090f4d0571827af84f309429cb3f8f5ce2"
     },
     {
       "slug": "cap",
@@ -566,7 +598,11 @@
       "amazonUrl": "https://www.amazon.com/dp/B0H51YG24M",
       "cheatsheetPrice": 1.99,
       "payhipEbookUrl": "",
-      "payhipCheatsheetUrl": ""
+      "payhipCheatsheetUrl": "",
+      "codeHashes": [
+        "59472eba2988ce2fd9bbe0c5f945287ffc6541a80153810dd8f32530764ec93d"
+      ],
+      "packCodeHash": "59472eba2988ce2fd9bbe0c5f945287ffc6541a80153810dd8f32530764ec93d"
     },
     {
       "slug": "nhie",
@@ -662,7 +698,11 @@
       "amazonUrl": "https://www.amazon.com/dp/B0H55G629X",
       "cheatsheetPrice": 1.99,
       "payhipEbookUrl": "",
-      "payhipCheatsheetUrl": ""
+      "payhipCheatsheetUrl": "",
+      "codeHashes": [
+        "c4eb76903f23f643b5cdff487b44a22fd1abdca65c7b766d1ccb3ac3b3dba5da"
+      ],
+      "packCodeHash": "c4eb76903f23f643b5cdff487b44a22fd1abdca65c7b766d1ccb3ac3b3dba5da"
     },
     {
       "slug": "asvab-math",
@@ -682,7 +722,11 @@
       "amazonUrl": "https://www.amazon.com/dp/B0H4F9KD1L",
       "cheatsheetPrice": 1.99,
       "payhipEbookUrl": "",
-      "payhipCheatsheetUrl": ""
+      "payhipCheatsheetUrl": "",
+      "codeHashes": [
+        "29b6d6ff2c0a8c0c78bfb56d2240fa5fdb71619651980918ca4d5580d83ea8b6"
+      ],
+      "packCodeHash": "29b6d6ff2c0a8c0c78bfb56d2240fa5fdb71619651980918ca4d5580d83ea8b6"
     },
     {
       "slug": "teas-math",
@@ -794,7 +838,11 @@
       "paperbackPrice": 39.99,
       "ebookPrice": 9.99,
       "sequential": true,
-      "amazonUrl": "https://www.amazon.com/dp/B0HJQ8BZRC"
+      "amazonUrl": "https://www.amazon.com/dp/B0HJQ8BZRC",
+      "codeHashes": [
+        "e3d921c3ac6b4a68a7265f8f81314d7c7c78c8ad47d90be489b527def4af078e"
+      ],
+      "packCodeHash": "e3d921c3ac6b4a68a7265f8f81314d7c7c78c8ad47d90be489b527def4af078e"
     },
     {
       "slug": "capm",

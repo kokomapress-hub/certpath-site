@@ -83,31 +83,39 @@
     onScroll();
     window.addEventListener('scroll', onScroll, { passive: true });
 
-    // "Explore exams" is a plain link in the HTML; upgrade it to a disclosure.
-    var link = $('[data-mega-trigger]', header);
+    // "Explore Complete Prep" / "Explore Exam Simulator" are plain links in the HTML;
+    // upgrade each to a disclosure. Both share the one #cp-mega panel, filled per tier.
+    var links = $$('[data-mega-trigger]', header);
     var mega = $('.cp-mega', header);
-    if (link && mega) {
-      var btn = doc.createElement('button');
-      btn.type = 'button';
-      btn.setAttribute('aria-expanded', 'false');
-      btn.setAttribute('aria-controls', 'cp-mega');
-      btn.innerHTML = esc(link.textContent.trim()) + ' <svg class="cp-caret" viewBox="0 0 10 10" aria-hidden="true"><path d="M1 3l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>';
-      link.replaceWith(btn);
-      var built = false;
-      var setOpen = function (open) {
-        btn.setAttribute('aria-expanded', String(open));
-        mega.classList.toggle('is-open', open);
-        if (open && !built) { built = true; buildMega(mega); }
+    if (links.length && mega) {
+      var btns = links.map(function (link) {
+        var btn = doc.createElement('button');
+        btn.type = 'button';
+        btn.setAttribute('aria-expanded', 'false');
+        btn.setAttribute('aria-controls', 'cp-mega');
+        btn.dataset.tier = link.getAttribute('data-mega-trigger') || 'prep';
+        btn.innerHTML = esc(link.textContent.trim()).replace(/^Explore /, '<span class="cp-nav-x">Explore</span>') + ' <svg class="cp-caret" viewBox="0 0 10 10" aria-hidden="true"><path d="M1 3l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>';
+        link.replaceWith(btn);
+        return btn;
+      });
+      var current = null;
+      var setOpen = function (btn) {
+        current = btn;
+        btns.forEach(function (b) { b.setAttribute('aria-expanded', String(b === btn)); });
+        mega.classList.toggle('is-open', !!btn);
+        if (btn) buildMega(mega, btn.dataset.tier);
       };
-      btn.addEventListener('click', function () { setOpen(btn.getAttribute('aria-expanded') !== 'true'); });
+      btns.forEach(function (btn) {
+        btn.addEventListener('click', function () { setOpen(current === btn ? null : btn); });
+      });
       doc.addEventListener('keydown', function (ev) {
-        if (ev.key === 'Escape' && btn.getAttribute('aria-expanded') === 'true') { setOpen(false); btn.focus(); }
+        if (ev.key === 'Escape' && current) { var b = current; setOpen(null); b.focus(); }
       });
       doc.addEventListener('click', function (ev) {
-        if (!header.contains(ev.target)) setOpen(false);
+        if (!header.contains(ev.target)) setOpen(null);
       });
       mega.addEventListener('focusout', function (ev) {
-        if (ev.relatedTarget && !mega.contains(ev.relatedTarget) && ev.relatedTarget !== btn) setOpen(false);
+        if (ev.relatedTarget && !mega.contains(ev.relatedTarget) && btns.indexOf(ev.relatedTarget) < 0) setOpen(null);
       });
     }
 
@@ -143,22 +151,35 @@
     }
   }
 
-  var PACK_EXAMS = ['pmp', 'sat', 'tabe']; // data/exams.json ids with a $19.99 Complete Prep pack (see js/exams.js pack)
-  function buildMega(mega) {
-    var inner = $('.cp-mega-inner', mega);
-    loadCatalog().then(function (c) {
-      inner.innerHTML = c.categories.map(function (cat) {
-        var list = c.exams.filter(function (e) { return e.category === cat.id; })
-          .sort(function (a, b) { return a.acronym.localeCompare(b.acronym); });
-        if (!list.length) return '';
-        return '<div><h3>' + esc(cat.label) + '</h3><ul>' + list.map(function (e) {
-          // Only exams with a Complete Prep pack open their page; the rest are marked Coming soon.
-          if (PACK_EXAMS.indexOf(e.id) < 0) return '<li><span class="cp-mega-off" aria-disabled="true">' + esc(e.acronym) + ' <em>Coming soon</em><span>' + esc(e.name) + '</span></span></li>';
-          var href = e.route || '/exams?q=' + encodeURIComponent(e.acronym);
-          return '<li><a href="' + esc(href) + '">' + esc(e.acronym) + '<span>' + esc(e.name) + '</span></a></li>';
-        }).join('') + '</ul></div>';
-      }).join('');
-    }).catch(function () { /* static fallback links stay in place */ });
+  // Header dropdown lists. Complete Prep = js/exams.js `pack` ($19.99); Exam Simulator = `sim` ($9.99).
+  var MEGA = {
+    prep: {
+      foot: 'Complete Prep · $19.99 — video course + timed exam simulator, every answer explained.',
+      groups: [
+        ['Project management', [['PMP', 'Project Management Professional', '/pmp'], ['CAPM', 'Certified Associate in Project Management', '/capm']]],
+        ['College admissions', [['SAT Math', 'Digital SAT Math', '/sat']]],
+        ['Adult education', [['TABE Math', 'TABE 11 & 12 Math · Levels A, D, M, E', '/tabe']]]
+      ]
+    },
+    sim: {
+      foot: 'Exam Simulator · $9.99 — timed practice tests, every answer explained.',
+      groups: [
+        ['Project management & business', [['PMI-ACP', 'PMI Agile Certified Practitioner', '/books/pmi-acp'], ['CAP', 'Certified Administrative Professional', '/books/cap']]],
+        ['Trades & safety', [['CAST', 'Construction and Skilled Trades test', '/cast'], ['Journeyman Electrician', '2026 NEC', '/journeyman-electrician'], ['POSS', 'Plant Operator Selection System', '/poss'], ['Mechanical Aptitude', 'BMCT, Wiesen, Ramsay', '/mechanical-aptitude'], ['CSP', 'Certified Safety Professional', '/csp'], ['CHST', 'Construction Health & Safety Technician', '/chst']]],
+        ['Nursing', [['CCRN', 'Adult Critical Care Registered Nurse', '/ccrn'], ['CNOR', 'Certified Perioperative Nurse', '/cnor'], ['CMSRN', 'Certified Medical-Surgical Registered Nurse', '/books/cmsrn']]],
+        ['Academic & military', [['PSAT Math', 'PSAT/NMSQT Math', '/psat'], ['GED Math', 'GED Mathematical Reasoning', '/ged'], ['ASVAB Math', 'Arithmetic Reasoning & Math Knowledge', '/books/asvab-math']]]
+      ]
+    }
+  };
+  function buildMega(mega, tier) {
+    var m = MEGA[tier] || MEGA.prep;
+    $('.cp-mega-inner', mega).innerHTML = m.groups.map(function (g) {
+      return '<div><h3>' + esc(g[0]) + '</h3><ul>' + g[1].map(function (e) {
+        return '<li><a href="' + esc(e[2]) + '">' + esc(e[0]) + '<span>' + esc(e[1]) + '</span></a></li>';
+      }).join('') + '</ul></div>';
+    }).join('');
+    var foot = $('.cp-mega-foot', mega);
+    if (foot) foot.innerHTML = '<span>' + esc(m.foot) + '</span><a class="cp-textlink" href="/complete-prep">Compare all exams <span class="cp-arrow" aria-hidden="true">→</span></a>';
   }
 
   // ---------- Reveal + gold path ----------

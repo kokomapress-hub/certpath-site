@@ -946,3 +946,8 @@ a.sh-tile:hover, a.sh-tile:focus-visible { color: #fff; transform: translateY(-4
 .cp-mega .cp-mega-off { display: block; padding: .5rem .5rem; margin-inline: -.5rem; color: #8A94A6; font-weight: 600; font-size: .9375rem; line-height: 1.35; cursor: default; }
 .cp-mega .cp-mega-off em { font-style: normal; font-size: .625rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: #9a7209; background: #FFF6DE; border-radius: 999px; padding: 2px 7px; margin-left: .35rem; vertical-align: 2px; }
 .cp-mega .cp-mega-off > span { display: block; font-weight: 400; font-size: .8125rem; color: #A0A9B8; }
+
+/* Two header dropdowns (Complete Prep / Exam Simulator): drop "Explore" and tighten padding when space is tight. */
+.cp-nav-x { margin-right: -.125rem; }
+@media (max-width: 1280px) { .cp-nav-x { display: none; } }
+@media (max-width: 1180px) { .cp-nav > a, .cp-nav > button { padding: 0 .6rem; } }
