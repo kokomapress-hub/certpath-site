@@ -3340,6 +3340,392 @@
      ]
     }
    ]
+  },
+  {
+   "slug": "psat-math",
+   "title": "PSAT/NMSQT Math — Complete Video Course",
+   "count": 30,
+   "seconds": 8558,
+   "sections": [
+    {
+     "title": "Lessons",
+     "lessons": [
+      {
+       "n": 1,
+       "title": "How the PSAT/NMSQT Math Section Works",
+       "key": "vc/psat-math/001.mp4",
+       "sec": 252
+      },
+      {
+       "n": 2,
+       "title": "National Merit: The Selection Index and Your Math Target",
+       "key": "vc/psat-math/002.mp4",
+       "sec": 258
+      },
+      {
+       "n": 3,
+       "title": "Bluebook, Desmos and When to Use Each",
+       "key": "vc/psat-math/003.mp4",
+       "sec": 278
+      },
+      {
+       "n": 4,
+       "title": "Linear Equations: Solving Mechanics",
+       "key": "vc/psat-math/004.mp4",
+       "sec": 340
+      },
+      {
+       "n": 5,
+       "title": "Linear Equations: Special Cases and Word Problems",
+       "key": "vc/psat-math/005.mp4",
+       "sec": 299
+      },
+      {
+       "n": 6,
+       "title": "Slope and the Three Forms of a Line",
+       "key": "vc/psat-math/006.mp4",
+       "sec": 269
+      },
+      {
+       "n": 7,
+       "title": "Linear Functions: Building Models",
+       "key": "vc/psat-math/007.mp4",
+       "sec": 388
+      },
+      {
+       "n": 8,
+       "title": "Linear Functions: Interpreting and Comparing",
+       "key": "vc/psat-math/008.mp4",
+       "sec": 307
+      },
+      {
+       "n": 9,
+       "title": "Systems: Solving by Substitution and Elimination",
+       "key": "vc/psat-math/009.mp4",
+       "sec": 326
+      },
+      {
+       "n": 10,
+       "title": "Systems: Word Problems, Solution Conditions and Parameters",
+       "key": "vc/psat-math/010.mp4",
+       "sec": 263
+      },
+      {
+       "n": 11,
+       "title": "Linear Inequalities and Systems of Inequalities",
+       "key": "vc/psat-math/011.mp4",
+       "sec": 268
+      },
+      {
+       "n": 12,
+       "title": "Equivalent Expressions and Exponent Rules",
+       "key": "vc/psat-math/012.mp4",
+       "sec": 287
+      },
+      {
+       "n": 13,
+       "title": "Quadratic Equations and the Discriminant",
+       "key": "vc/psat-math/013.mp4",
+       "sec": 277
+      },
+      {
+       "n": 14,
+       "title": "Radical, Rational and Absolute Value Equations",
+       "key": "vc/psat-math/014.mp4",
+       "sec": 265
+      },
+      {
+       "n": 15,
+       "title": "Nonlinear Systems and Tangency",
+       "key": "vc/psat-math/015.mp4",
+       "sec": 329
+      },
+      {
+       "n": 16,
+       "title": "Parabolas: Reading and Choosing Forms",
+       "key": "vc/psat-math/016.mp4",
+       "sec": 305
+      },
+      {
+       "n": 17,
+       "title": "Exponential Growth and Decay",
+       "key": "vc/psat-math/017.mp4",
+       "sec": 302
+      },
+      {
+       "n": 18,
+       "title": "Polynomial, Rational, Radical and Absolute Value Graphs",
+       "key": "vc/psat-math/018.mp4",
+       "sec": 253
+      },
+      {
+       "n": 19,
+       "title": "Percents",
+       "key": "vc/psat-math/019.mp4",
+       "sec": 274
+      },
+      {
+       "n": 20,
+       "title": "Ratios, Rates, Proportions and Unit Conversions",
+       "key": "vc/psat-math/020.mp4",
+       "sec": 285
+      },
+      {
+       "n": 21,
+       "title": "One-Variable Data: Center, Spread and Box Plots",
+       "key": "vc/psat-math/021.mp4",
+       "sec": 271
+      },
+      {
+       "n": 22,
+       "title": "Two-Variable Data: Scatterplots and Lines of Best Fit",
+       "key": "vc/psat-math/022.mp4",
+       "sec": 319
+      },
+      {
+       "n": 23,
+       "title": "Probability and Two-Way Tables",
+       "key": "vc/psat-math/023.mp4",
+       "sec": 239
+      },
+      {
+       "n": 24,
+       "title": "Inference: Estimating a Population from a Random Sample",
+       "key": "vc/psat-math/024.mp4",
+       "sec": 262
+      },
+      {
+       "n": 25,
+       "title": "Angles, Triangles and Similarity",
+       "key": "vc/psat-math/025.mp4",
+       "sec": 272
+      },
+      {
+       "n": 26,
+       "title": "Area, Volume, Composite Figures and the Reference Sheet",
+       "key": "vc/psat-math/026.mp4",
+       "sec": 258
+      },
+      {
+       "n": 27,
+       "title": "Right Triangles and Basic Trigonometry",
+       "key": "vc/psat-math/027.mp4",
+       "sec": 287
+      },
+      {
+       "n": 28,
+       "title": "Student-Produced Responses and Test-Day Pacing",
+       "key": "vc/psat-math/028.mp4",
+       "sec": 267
+      },
+      {
+       "n": 29,
+       "title": "Algebra in Action: Medium Set Walkthrough",
+       "key": "vc/psat-math/029.mp4",
+       "sec": 281
+      },
+      {
+       "n": 30,
+       "title": "Advanced Math in Action: Challenge Set Walkthrough",
+       "key": "vc/psat-math/030.mp4",
+       "sec": 277
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "ged-math",
+   "title": "GED Math — Complete Video Course",
+   "count": 30,
+   "seconds": 8526,
+   "sections": [
+    {
+     "title": "Lessons",
+     "lessons": [
+      {
+       "n": 1,
+       "title": "How the GED Math Test Works: Format, Scoring and Pacing",
+       "key": "vc/ged-math/001.mp4",
+       "sec": 255
+      },
+      {
+       "n": 2,
+       "title": "The TI-30XS Calculator and the Formula Sheet",
+       "key": "vc/ged-math/002.mp4",
+       "sec": 255
+      },
+      {
+       "n": 3,
+       "title": "Scale Drawings and Scale Factors",
+       "key": "vc/ged-math/003.mp4",
+       "sec": 252
+      },
+      {
+       "n": 4,
+       "title": "Order of Operations and Signed Numbers",
+       "key": "vc/ged-math/004.mp4",
+       "sec": 282
+      },
+      {
+       "n": 5,
+       "title": "Number Lines, Absolute Value, GCF and LCM",
+       "key": "vc/ged-math/005.mp4",
+       "sec": 298
+      },
+      {
+       "n": 6,
+       "title": "Fractions: Operations and Comparisons",
+       "key": "vc/ged-math/006.mp4",
+       "sec": 284
+      },
+      {
+       "n": 7,
+       "title": "Percents: Change, Discounts and Tax",
+       "key": "vc/ged-math/007.mp4",
+       "sec": 292
+      },
+      {
+       "n": 8,
+       "title": "Ratios, Rates and Proportions",
+       "key": "vc/ged-math/008.mp4",
+       "sec": 271
+      },
+      {
+       "n": 9,
+       "title": "Exponents, Roots and Scientific Notation",
+       "key": "vc/ged-math/009.mp4",
+       "sec": 357
+      },
+      {
+       "n": 10,
+       "title": "Perimeter, Area and Circles",
+       "key": "vc/ged-math/010.mp4",
+       "sec": 254
+      },
+      {
+       "n": 11,
+       "title": "Volume and Surface Area: Boxes, Cylinders and Prisms",
+       "key": "vc/ged-math/011.mp4",
+       "sec": 308
+      },
+      {
+       "n": 12,
+       "title": "Pyramids, Cones, Spheres and Composite Solids",
+       "key": "vc/ged-math/012.mp4",
+       "sec": 297
+      },
+      {
+       "n": 13,
+       "title": "The Coordinate Plane and the Pythagorean Theorem",
+       "key": "vc/ged-math/013.mp4",
+       "sec": 216
+      },
+      {
+       "n": 14,
+       "title": "Reading Data Displays",
+       "key": "vc/ged-math/014.mp4",
+       "sec": 287
+      },
+      {
+       "n": 15,
+       "title": "Averages: Frequency Tables, Weighted Grades and Missing Scores",
+       "key": "vc/ged-math/015.mp4",
+       "sec": 281
+      },
+      {
+       "n": 16,
+       "title": "Multiplying and Factoring Polynomials",
+       "key": "vc/ged-math/016.mp4",
+       "sec": 232
+      },
+      {
+       "n": 17,
+       "title": "Evaluating and Writing Expressions",
+       "key": "vc/ged-math/017.mp4",
+       "sec": 349
+      },
+      {
+       "n": 18,
+       "title": "Polynomial Operations, Including Division",
+       "key": "vc/ged-math/018.mp4",
+       "sec": 254
+      },
+      {
+       "n": 19,
+       "title": "Solving Linear Equations and Formulas",
+       "key": "vc/ged-math/019.mp4",
+       "sec": 278
+      },
+      {
+       "n": 20,
+       "title": "Linear Inequalities",
+       "key": "vc/ged-math/020.mp4",
+       "sec": 277
+      },
+      {
+       "n": 21,
+       "title": "Systems of Linear Equations",
+       "key": "vc/ged-math/021.mp4",
+       "sec": 353
+      },
+      {
+       "n": 22,
+       "title": "Solving Quadratic Equations",
+       "key": "vc/ged-math/022.mp4",
+       "sec": 274
+      },
+      {
+       "n": 23,
+       "title": "Slope and Slope-Intercept Form",
+       "key": "vc/ged-math/023.mp4",
+       "sec": 320
+      },
+      {
+       "n": 24,
+       "title": "Graphing Lines and Finding Slope from Graphs and Tables",
+       "key": "vc/ged-math/024.mp4",
+       "sec": 254
+      },
+      {
+       "n": 25,
+       "title": "Writing Line Equations; Parallel and Perpendicular Lines",
+       "key": "vc/ged-math/025.mp4",
+       "sec": 372
+      },
+      {
+       "n": 26,
+       "title": "Functions, Notation and Key Features of Graphs",
+       "key": "vc/ged-math/026.mp4",
+       "sec": 282
+      },
+      {
+       "n": 27,
+       "title": "Is It a Function?",
+       "key": "vc/ged-math/027.mp4",
+       "sec": 217
+      },
+      {
+       "n": 28,
+       "title": "Counting and Probability",
+       "key": "vc/ged-math/028.mp4",
+       "sec": 283
+      },
+      {
+       "n": 29,
+       "title": "Rational Expressions",
+       "key": "vc/ged-math/029.mp4",
+       "sec": 244
+      },
+      {
+       "n": 30,
+       "title": "Comparing Functions",
+       "key": "vc/ged-math/030.mp4",
+       "sec": 348
+      }
+     ]
+    }
+   ]
   }
  ]
 }

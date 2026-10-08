@@ -235,18 +235,18 @@ video{width:100%;aspect-ratio:16/9;background:#000;border-radius:12px;display:bl
 
 <script>
 (function () {
-  var BUY = { 'pmp': 'https://payhip.com/b/Atjx3', 'sat-math': 'https://payhip.com/b/KbAzN', 'tabe-a': 'https://payhip.com/b/pw4Rs', 'tabe-d': 'https://payhip.com/b/Mavlg', 'tabe-m': 'https://payhip.com/b/tRLN4', 'tabe-e': 'https://payhip.com/b/vxU07', 'capm': 'https://payhip.com/b/M89UW', 'mech-apt': 'https://payhip.com/b/XPpzo' };
+  var BUY = { 'pmp': 'https://payhip.com/b/Atjx3', 'sat-math': 'https://payhip.com/b/KbAzN', 'tabe-a': 'https://payhip.com/b/pw4Rs', 'tabe-d': 'https://payhip.com/b/Mavlg', 'tabe-m': 'https://payhip.com/b/tRLN4', 'tabe-e': 'https://payhip.com/b/vxU07', 'capm': 'https://payhip.com/b/M89UW', 'mech-apt': 'https://payhip.com/b/XPpzo', 'psat-math': 'https://payhip.com/b/5vrqd', 'ged-math': 'https://payhip.com/b/5fHsn' };
   var BOOK_ONLY = {};
   // Exams sold as the $9.99 Exam Simulator: the lessons come free with it.
   var SIM = { 'mech-apt': 1 };
-  var COVER = { 'pmp': 'PMP', 'sat-math': 'SAT_Math', 'tabe-a': 'TABE_A', 'tabe-d': 'TABE_D', 'tabe-m': 'TABE_M', 'tabe-e': 'TABE_E', 'capm': 'CAPM', 'mech-apt': 'Mech_Apt' };
+  var COVER = { 'pmp': 'PMP', 'sat-math': 'SAT_Math', 'tabe-a': 'TABE_A', 'tabe-d': 'TABE_D', 'tabe-m': 'TABE_M', 'tabe-e': 'TABE_E', 'capm': 'CAPM', 'mech-apt': 'Mech_Apt', 'psat-math': 'PSAT_Math', 'ged-math': 'GED_Math' };
   var slug = (location.pathname.match(/^\/learn\/([a-z0-9-]+)/) || [])[1] || new URLSearchParams(location.search).get('course') || '';
   var $ = function (id) { return document.getElementById(id); };
   var store = {
     get: function (k) { try { return JSON.parse(localStorage.getItem(k)); } catch (e) { return null; } },
     set: function (k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} }
   };
-  $('hubLink').href = '/study/' + (slug === 'sat-math' ? 'sat' : slug);
+  $('hubLink').href = '/study/' + ({ 'sat-math': 'sat', 'psat-math': 'psat', 'ged-math': 'ged' }[slug] || slug);
   var PK = 'vc-progress-' + slug, KK = 'vc-key-' + slug;
   var course, lessons = [], cur = 0, done = store.get(PK) || {};
 
