@@ -158,7 +158,8 @@
       groups: [
         ['Project management', [['PMP', 'Project Management Professional', '/pmp'], ['CAPM', 'Certified Associate in Project Management', '/capm']]],
         ['College admissions', [['SAT Math', 'Digital SAT Math', '/sat']]],
-        ['Adult education', [['TABE Math', 'TABE 11 & 12 Math · Levels A, D, M, E', '/tabe']]]
+        ['Adult education', [['TABE Math', 'TABE 11 & 12 Math · Levels A, D, M, E', '/tabe']]],
+        ['Military', [['ASVAB Math', 'Arithmetic Reasoning & Math Knowledge', '/books/asvab-math']]]
       ]
     },
     sim: {
@@ -167,7 +168,7 @@
         ['Project management & business', [['PMI-ACP', 'PMI Agile Certified Practitioner', '/books/pmi-acp'], ['CAP', 'Certified Administrative Professional', '/books/cap']]],
         ['Trades & safety', [['CAST', 'Construction and Skilled Trades test', '/cast'], ['Journeyman Electrician', '2026 NEC', '/journeyman-electrician'], ['POSS', 'Plant Operator Selection System', '/poss'], ['Mechanical Aptitude', 'BMCT, Wiesen, Ramsay', '/mechanical-aptitude'], ['CSP', 'Certified Safety Professional', '/csp'], ['CHST', 'Construction Health & Safety Technician', '/chst']]],
         ['Nursing', [['CCRN', 'Adult Critical Care Registered Nurse', '/ccrn'], ['CNOR', 'Certified Perioperative Nurse', '/cnor'], ['CMSRN', 'Certified Medical-Surgical Registered Nurse', '/books/cmsrn']]],
-        ['Academic & military', [['PSAT Math', 'PSAT/NMSQT Math', '/psat'], ['GED Math', 'GED Mathematical Reasoning', '/ged'], ['ASVAB Math', 'Arithmetic Reasoning & Math Knowledge', '/books/asvab-math']]]
+        ['Academic', [['PSAT Math', 'PSAT/NMSQT Math', '/psat'], ['GED Math', 'GED Mathematical Reasoning', '/ged']]]
       ]
     }
   };

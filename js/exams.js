@@ -24,7 +24,7 @@ window.CP_EXAMS = [
   { key: 'tabe-d', short: 'TABE D', name: 'TABE 11 & 12 Math · Level D', field: 'Adult education', page: '/tabe', books: ['tabe-d'], course: 'tabe-d', photo: '/img/photo/step-study.webp', pack: 'https://payhip.com/b/Mavlg' },
   { key: 'tabe-m', short: 'TABE M', name: 'TABE 11 & 12 Math · Level M', field: 'Adult education', page: '/tabe', books: ['tabe-m'], course: 'tabe-m', photo: '/img/photo/step-study.webp', pack: 'https://payhip.com/b/tRLN4' },
   { key: 'tabe-e', short: 'TABE E', name: 'TABE 11 & 12 Math · Level E', field: 'Adult education', page: '/tabe', books: ['tabe-e'], course: 'tabe-e', photo: '/img/photo/step-study.webp', pack: 'https://payhip.com/b/vxU07' },
-  { key: 'asvab', short: 'ASVAB Math', name: 'ASVAB Arithmetic Reasoning & Math Knowledge', field: 'Military', page: '/books/asvab-math', books: ['asvab-math'], photo: '/img/photo/step-practice.webp', sim: 'https://payhip.com/b/MbfnA' }
+  { key: 'asvab', short: 'ASVAB Math', name: 'ASVAB Arithmetic Reasoning & Math Knowledge', field: 'Military', page: '/books/asvab-math', books: ['asvab-math'], course: 'asvab-math', photo: '/img/photo/step-practice.webp', pack: 'https://payhip.com/b/MbfnA' }
 ];
 window.CP_EXAM_FOR_BOOK = function (slug) {
   for (var i = 0; i < window.CP_EXAMS.length; i++) if (window.CP_EXAMS[i].books.indexOf(slug) > -1) return window.CP_EXAMS[i];

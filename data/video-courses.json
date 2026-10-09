@@ -3726,6 +3726,169 @@
      ]
     }
    ]
+  },
+  {
+   "slug": "asvab-math",
+   "title": "ASVAB Math — Complete Video Course",
+   "count": 25,
+   "seconds": 7858,
+   "sections": [
+    {
+     "title": "Lessons",
+     "lessons": [
+      {
+       "n": 1,
+       "title": "The ASVAB, the AFQT and How to Raise Your Score",
+       "key": "vc/asvab-math/001.mp4",
+       "sec": 251
+      },
+      {
+       "n": 2,
+       "title": "Order of Operations (PEMDAS)",
+       "key": "vc/asvab-math/002.mp4",
+       "sec": 350
+      },
+      {
+       "n": 3,
+       "title": "Signed Numbers and Integers",
+       "key": "vc/asvab-math/003.mp4",
+       "sec": 286
+      },
+      {
+       "n": 4,
+       "title": "Adding and Subtracting Fractions",
+       "key": "vc/asvab-math/004.mp4",
+       "sec": 292
+      },
+      {
+       "n": 5,
+       "title": "Multiplying and Dividing Fractions",
+       "key": "vc/asvab-math/005.mp4",
+       "sec": 263
+      },
+      {
+       "n": 6,
+       "title": "Percent of a Number and Percent Change",
+       "key": "vc/asvab-math/006.mp4",
+       "sec": 325
+      },
+      {
+       "n": 7,
+       "title": "Discounts, Sales Tax and Simple Interest",
+       "key": "vc/asvab-math/007.mp4",
+       "sec": 327
+      },
+      {
+       "n": 8,
+       "title": "Ratios, Unit Rates and Proportions",
+       "key": "vc/asvab-math/008.mp4",
+       "sec": 333
+      },
+      {
+       "n": 9,
+       "title": "Distance, Rate, Time and Map Scale",
+       "key": "vc/asvab-math/009.mp4",
+       "sec": 359
+      },
+      {
+       "n": 10,
+       "title": "Mean, Median, Range and Missing Values",
+       "key": "vc/asvab-math/010.mp4",
+       "sec": 337
+      },
+      {
+       "n": 11,
+       "title": "Weighted Averages and Target Scores",
+       "key": "vc/asvab-math/011.mp4",
+       "sec": 276
+      },
+      {
+       "n": 12,
+       "title": "Probability and Counting",
+       "key": "vc/asvab-math/012.mp4",
+       "sec": 370
+      },
+      {
+       "n": 13,
+       "title": "Exponents and Roots",
+       "key": "vc/asvab-math/013.mp4",
+       "sec": 345
+      },
+      {
+       "n": 14,
+       "title": "Scientific Notation",
+       "key": "vc/asvab-math/014.mp4",
+       "sec": 336
+      },
+      {
+       "n": 15,
+       "title": "FOIL and Simplifying Expressions",
+       "key": "vc/asvab-math/015.mp4",
+       "sec": 335
+      },
+      {
+       "n": 16,
+       "title": "Factoring Trinomials and Difference of Squares",
+       "key": "vc/asvab-math/016.mp4",
+       "sec": 259
+      },
+      {
+       "n": 17,
+       "title": "Solving Linear Equations and Word Problems",
+       "key": "vc/asvab-math/017.mp4",
+       "sec": 373
+      },
+      {
+       "n": 18,
+       "title": "Inequalities and the Sign-Flip Rule",
+       "key": "vc/asvab-math/018.mp4",
+       "sec": 387
+      },
+      {
+       "n": 19,
+       "title": "Systems of Equations",
+       "key": "vc/asvab-math/019.mp4",
+       "sec": 273
+      },
+      {
+       "n": 20,
+       "title": "Quadratic Equations",
+       "key": "vc/asvab-math/020.mp4",
+       "sec": 246
+      },
+      {
+       "n": 21,
+       "title": "Angles and Triangle Rules",
+       "key": "vc/asvab-math/021.mp4",
+       "sec": 289
+      },
+      {
+       "n": 22,
+       "title": "The Pythagorean Theorem",
+       "key": "vc/asvab-math/022.mp4",
+       "sec": 266
+      },
+      {
+       "n": 23,
+       "title": "Area and Perimeter",
+       "key": "vc/asvab-math/023.mp4",
+       "sec": 324
+      },
+      {
+       "n": 24,
+       "title": "Circles and Volume",
+       "key": "vc/asvab-math/024.mp4",
+       "sec": 356
+      },
+      {
+       "n": 25,
+       "title": "Coordinate Geometry: Slope, Distance and Midpoint",
+       "key": "vc/asvab-math/025.mp4",
+       "sec": 300
+      }
+     ]
+    }
+   ]
   }
  ]
 }
