@@ -157,8 +157,8 @@
       foot: 'Complete Prep · $19.99 — video course + timed exam simulator, every answer explained.',
       groups: [
         ['Project management', [['PMP', 'Project Management Professional', '/pmp'], ['CAPM', 'Certified Associate in Project Management', '/capm']]],
-        ['College admissions', [['SAT Math', 'Digital SAT Math', '/sat']]],
-        ['Adult education', [['TABE Math', 'TABE 11 & 12 Math · Levels A, D, M, E', '/tabe']]],
+        ['College admissions', [['SAT Math', 'Digital SAT Math', '/sat'], ['PSAT Math', 'PSAT/NMSQT Math', '/psat']]],
+        ['Adult education', [['TABE Math', 'TABE 11 & 12 Math · Levels A, D, M, E', '/tabe'], ['GED Math', 'GED Mathematical Reasoning', '/ged']]],
         ['Military', [['ASVAB Math', 'Arithmetic Reasoning & Math Knowledge', '/books/asvab-math']]]
       ]
     },
@@ -167,8 +167,7 @@
       groups: [
         ['Project management & business', [['PMI-ACP', 'PMI Agile Certified Practitioner', '/books/pmi-acp'], ['CAP', 'Certified Administrative Professional', '/books/cap']]],
         ['Trades & safety', [['CAST', 'Construction and Skilled Trades test', '/cast'], ['Journeyman Electrician', '2026 NEC', '/journeyman-electrician'], ['POSS', 'Plant Operator Selection System', '/poss'], ['Mechanical Aptitude', 'BMCT, Wiesen, Ramsay', '/mechanical-aptitude'], ['CSP', 'Certified Safety Professional', '/csp'], ['CHST', 'Construction Health & Safety Technician', '/chst']]],
-        ['Nursing', [['CCRN', 'Adult Critical Care Registered Nurse', '/ccrn'], ['CNOR', 'Certified Perioperative Nurse', '/cnor'], ['CMSRN', 'Certified Medical-Surgical Registered Nurse', '/books/cmsrn']]],
-        ['Academic', [['PSAT Math', 'PSAT/NMSQT Math', '/psat'], ['GED Math', 'GED Mathematical Reasoning', '/ged']]]
+        ['Nursing', [['CCRN', 'Adult Critical Care Registered Nurse', '/ccrn'], ['CNOR', 'Certified Perioperative Nurse', '/cnor'], ['CMSRN', 'Certified Medical-Surgical Registered Nurse', '/books/cmsrn']]]
       ]
     }
   };
