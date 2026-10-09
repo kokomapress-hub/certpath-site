@@ -123,7 +123,7 @@
       app.innerHTML =
         '<div class="lp-quiz-wrap"><div class="rd-start">' +
           '<div class="eyebrow">Free · No account · No card</div>' +
-          '<h2>' + esc(exam) + ' Readiness Check</h2>' +
+          '<h1>' + esc(exam) + ' Readiness Check</h1>' +
           '<p style="max-width:560px;margin:.6rem auto 0;color:var(--gray-500)">How ready is your ' + esc(exam) +
             ' knowledge? Answer ' + TOTAL + ' exam-style questions and get an instant, domain-by-domain breakdown of where you stand.</p>' +
           '<div class="rd-facts"><span><b>' + TOTAL + '</b> questions</span><span><b>~10</b> minutes</span><span><b>Instant</b> domain breakdown</span></div>' +

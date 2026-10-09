@@ -32,6 +32,9 @@
 # E-books are no longer sold; the old per-book e-book page goes to the exam directory.
 /ebook         /exams  301
 
+# The old welcome post was retired; send its URL to the article list.
+/blog/2026-04-18-welcome   /blog/   301
+
 # Video course player: /learn/<course> is served by learn.html.
 # The old CAPM course page now lives in the protected player.
 /capm-course   /learn/capm   301

@@ -401,7 +401,7 @@ for p in PAGES:
 # ---------------------------------------------------------------------------
 LEGACY = ["cast", "poss", "mechanical-aptitude", "journeyman-electrician", "csp", "chst",
           "ccrn", "cnor", "sat", "psat", "act", "ged", "tabe", "sample", "ebook", "404",
-          "blog/index", "blog/2026-04-18-welcome", "privacy", "terms", "refunds"]
+          "blog/index", "privacy", "terms", "refunds"]
 
 SHELL_HEAD = ('  <!-- premium-shell -->\n'
               '  <script>document.documentElement.classList.add(\'cp-js\');setTimeout(function(){if(!window.__cpReady)document.documentElement.classList.remove(\'cp-js\')},2500);</script>\n'

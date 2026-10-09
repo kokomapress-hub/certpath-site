@@ -88,7 +88,6 @@
         <li><a href="/blog/2026-09-21-free-csp-practice-test-questions">Free CSP Practice Test: 4 Exam-Style Questions Explained</a> — September 21, 2026</li>
         <li><a href="/blog/2026-09-20-ccrn-exam-difficulty-test-plan">How Hard Is the CCRN Exam? What AACN's Test Plan Says</a> — September 20, 2026</li>
         <li><a href="/blog/2026-09-19-free-cast-practice-test-questions">Free CAST Practice Test: 4 Exam-Style Questions Explained</a> — September 19, 2026</li>
-        <li><a href="/blog/2026-04-18-welcome">Welcome to the CertPath Blog</a> — April 18, 2026</li>
       </ul>
       <!-- POSTS:END -->
     </div>
@@ -171,7 +170,7 @@
       [].forEach.call(chips.children, function (c) { c.setAttribute('aria-pressed', c.dataset.f === field); });
     }
     fetch('/blog/posts.json').then(function (r) { return r.json(); }).then(function (posts) {
-      // Only real exam articles: the old welcome note has no exam and is left out.
+      // Only real exam articles (posts with a recognised exam tag).
       all = posts.map(function (p) { p.t = tag(p.slug); return p; }).filter(function (p) { return p.t; });
       var used = {}; all.forEach(function (p) { used[p.t[2]] = 1; });
       chips.innerHTML = FIELDS.filter(function (f) { return f[0] === 'all' || used[f[0]]; }).map(function (f) {
