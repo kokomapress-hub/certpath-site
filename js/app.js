@@ -59,10 +59,15 @@ function setBonusUnlocked(slug) {
 // books.json is public, so a client-side check must never be enough to open a paid product.
 // One code, everything: a book code also opens that book's video course (a server
 // cookie set by /api/vc/unlock), so owners never type it twice.
+// Keep in step with BOOKS_FOR_COURSE in functions/_vc.js and data/video-courses.json:
+// a book missing here gets its tests but no video tile and no video unlock.
 const VIDEO_FOR_BOOK = {
   'pmp': ['pmp', 290, 46], 'capm': ['capm', 50, 6.7],
   'sat-math': ['sat-math', 30, 2.5], 'sat-math-workbook': ['sat-math', 30, 2.5], 'sat-math-tests': ['sat-math', 30, 2.5],
-  'tabe-a': ['tabe-a', 30, 2.8], 'tabe-d': ['tabe-d', 30, 2.8], 'tabe-e': ['tabe-e', 27, 2.2],
+  'psat-math': ['psat-math', 30, 2.4], 'psat-math-workbook': ['psat-math', 30, 2.4], 'psat-math-tests': ['psat-math', 30, 2.4],
+  'ged-math': ['ged-math', 30, 2.4], 'ged-math-workbook': ['ged-math', 30, 2.4], 'ged-math-tests': ['ged-math', 30, 2.4],
+  'tabe-a': ['tabe-a', 30, 2.8], 'tabe-d': ['tabe-d', 30, 2.8], 'tabe-m': ['tabe-m', 30, 2.7], 'tabe-e': ['tabe-e', 27, 2.2],
+  'mech-apt': ['mech-apt', 30, 3.3], 'asvab-math': ['asvab-math', 25, 2.2],
 };
 async function unlockVideoFor(code, slugs) {
   const courses = Array.from(new Set((slugs || []).map(s => VIDEO_FOR_BOOK[s] && VIDEO_FOR_BOOK[s][0]).filter(Boolean)));
