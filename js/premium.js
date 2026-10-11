@@ -32,10 +32,10 @@
       res[0].categories.forEach(function (c) { cats[c.id] = c.label; });
       // Only exams with at least one published product are ever shown.
       var exams = res[0].exams.map(function (e) {
-        var products = e.products.map(function (s) { return bySlug[s]; }).filter(function (b) { return b && b.published; });
+        var products = e.products.map(function (s) { return bySlug[s]; }).filter(function (b) { return b && b.published && !b.retired; });
         return Object.assign({}, e, { items: products, catLabel: cats[e.category] });
       }).filter(function (e) { return e.items.length; });
-      var published = res[1].books.filter(function (b) { return b.published && b.cover && b.title.indexOf('Free ') !== 0; });
+      var published = res[1].books.filter(function (b) { return b.published && !b.retired && b.cover && b.title.indexOf('Free ') !== 0; });
       return { exams: exams, categories: res[0].categories, published: published };
     });
     return catalogPromise;

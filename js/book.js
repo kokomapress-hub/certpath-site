@@ -118,7 +118,7 @@
 
   // Shared codes (e.g. the three SAT Math books) unlock siblings too — say so.
   function noteSiblings(list) {
-    var others = (list || []).filter(function (b) { return b.slug !== cfg.slug && b.published; });
+    var others = (list || []).filter(function (b) { return b.slug !== cfg.slug && b.published && !b.retired; });
     if (!others.length || others.length > 4) return;
     $('#alsoUnlocked').innerHTML = '<b>Your code also unlocked:</b> ' + others.map(function (b) {
       return '<a href="/books/' + encodeURIComponent(b.slug) + '">' + String(b.title).replace(/</g, '&lt;') + '</a>';

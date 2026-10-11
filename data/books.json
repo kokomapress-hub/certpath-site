@@ -319,10 +319,27 @@
       "cheatsheetPrice": 1.99,
       "payhipEbookUrl": "",
       "payhipCheatsheetUrl": "",
+      "retired": true,
       "codeHashes": [
         "7a3c7a06367fd18ec6d77d5fa3eac9043e069f3f051eabc49e64abf1c3308f06"
       ],
       "packCodeHash": "7a3c7a06367fd18ec6d77d5fa3eac9043e069f3f051eabc49e64abf1c3308f06"
+    },
+    {
+      "slug": "act-math-study-guide",
+      "bookCode": "B13N",
+      "title": "ACT Math Study Guide",
+      "timeMinutes": 50,
+      "testCount": 0,
+      "totalQuestions": 0,
+      "cover": "/img/covers/act-math-study-guide.webp?v=20261011",
+      "shortName": "ACT Math",
+      "category": "College Prep",
+      "published": true,
+      "paperbackPrice": 24.99,
+      "asin": "B0HKZC4XZ8",
+      "amazonUrl": "https://www.amazon.com/dp/B0HKZC4XZ8",
+      "printOnly": true
     },
     {
       "slug": "ged-math",

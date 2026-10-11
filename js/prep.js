@@ -39,7 +39,7 @@
     return li;
   }
   function freeCard(e) {
-    var cover = '/img/covers/' + e.books[0] + '.webp';
+    var cover = e.cover || '/img/covers/' + e.books[0] + '.webp';
     var li = ['Every answer explained step by step', 'Works on phone, tablet or computer'];
     if (e.yt) li.push('<a href="' + esc(e.yt) + '" target="_blank" rel="noopener">' + (e.ytLessons ? e.ytLessons + ' free video lessons' : 'Free video lessons') + '</a> on YouTube');
     else if (e.course) li.push('<a href="/learn/' + e.course + '">Lesson 1 of the video course</a>, free to watch');
@@ -56,7 +56,7 @@
   }
   function card(e) {
     if (FREE_MODE) return freeCard(e);
-    var cover = '/img/covers/' + e.books[0] + '.webp';
+    var cover = e.cover || '/img/covers/' + e.books[0] + '.webp';
     // Complete Prep ($19.99: simulator + video course) or Exam Simulator ($9.99: timed tests only); the rest show a disabled button.
     var tier = e.pack ? { rib: 'Complete Prep', pr: '$19.99' } : e.sim ? { rib: 'Exam Simulator', pr: '$9.99' } : null;
     var tag = tier ? 'a' : 'div';
