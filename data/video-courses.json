@@ -3889,6 +3889,199 @@
      ]
     }
    ]
+  },
+  {
+   "slug": "act-math",
+   "title": "ACT Math — Complete Video Course",
+   "count": 30,
+   "seconds": 8666,
+   "sections": [
+    {
+     "title": "Lessons",
+     "lessons": [
+      {
+       "n": 1,
+       "title": "The Enhanced ACT Math Test: Format, Pacing and Test Day",
+       "key": "vc/act-math/001.mp4",
+       "sec": 267
+      },
+      {
+       "n": 2,
+       "title": "Calculator Strategy: When and How",
+       "key": "vc/act-math/002.mp4",
+       "sec": 348
+      },
+      {
+       "n": 3,
+       "title": "Real Numbers, Factors and Scientific Notation",
+       "key": "vc/act-math/003.mp4",
+       "sec": 314
+      },
+      {
+       "n": 4,
+       "title": "Exponents, Radicals and Complex Numbers",
+       "key": "vc/act-math/004.mp4",
+       "sec": 355
+      },
+      {
+       "n": 5,
+       "title": "Vectors and Matrices",
+       "key": "vc/act-math/005.mp4",
+       "sec": 275
+      },
+      {
+       "n": 6,
+       "title": "Translating Words and Solving Linear Equations",
+       "key": "vc/act-math/006.mp4",
+       "sec": 224
+      },
+      {
+       "n": 7,
+       "title": "Inequalities and Absolute Value",
+       "key": "vc/act-math/007.mp4",
+       "sec": 343
+      },
+      {
+       "n": 8,
+       "title": "Lines, Slopes and Systems of Equations",
+       "key": "vc/act-math/008.mp4",
+       "sec": 322
+      },
+      {
+       "n": 9,
+       "title": "Polynomials and Quadratic Equations",
+       "key": "vc/act-math/009.mp4",
+       "sec": 285
+      },
+      {
+       "n": 10,
+       "title": "Rational, Radical and Exponential Equations",
+       "key": "vc/act-math/010.mp4",
+       "sec": 264
+      },
+      {
+       "n": 11,
+       "title": "Function Notation, Domain and Variation",
+       "key": "vc/act-math/011.mp4",
+       "sec": 283
+      },
+      {
+       "n": 12,
+       "title": "Polynomial, Rational and Radical Functions",
+       "key": "vc/act-math/012.mp4",
+       "sec": 273
+      },
+      {
+       "n": 13,
+       "title": "Piecewise Functions, Transformations and Inverses",
+       "key": "vc/act-math/013.mp4",
+       "sec": 239
+      },
+      {
+       "n": 14,
+       "title": "Exponential and Logarithmic Functions and Sequences",
+       "key": "vc/act-math/014.mp4",
+       "sec": 287
+      },
+      {
+       "n": 15,
+       "title": "Unit Circle, Radians and Trig Graphs",
+       "key": "vc/act-math/015.mp4",
+       "sec": 302
+      },
+      {
+       "n": 16,
+       "title": "Angles, Triangles and Polygons",
+       "key": "vc/act-math/016.mp4",
+       "sec": 261
+      },
+      {
+       "n": 17,
+       "title": "Area, Right Triangles and Trigonometry",
+       "key": "vc/act-math/017.mp4",
+       "sec": 260
+      },
+      {
+       "n": 18,
+       "title": "Law of Sines, Law of Cosines and Circles",
+       "key": "vc/act-math/018.mp4",
+       "sec": 283
+      },
+      {
+       "n": 19,
+       "title": "Coordinate Geometry, Transformations and Conics",
+       "key": "vc/act-math/019.mp4",
+       "sec": 291
+      },
+      {
+       "n": 20,
+       "title": "Center, Spread and Scatterplots",
+       "key": "vc/act-math/020.mp4",
+       "sec": 329
+      },
+      {
+       "n": 21,
+       "title": "Sampling, Bias and Margin of Error",
+       "key": "vc/act-math/021.mp4",
+       "sec": 300
+      },
+      {
+       "n": 22,
+       "title": "Probability: Tables, Complements and Conditional Probability",
+       "key": "vc/act-math/022.mp4",
+       "sec": 271
+      },
+      {
+       "n": 23,
+       "title": "Signed Numbers, Ratios and Percents",
+       "key": "vc/act-math/023.mp4",
+       "sec": 288
+      },
+      {
+       "n": 24,
+       "title": "Unit Conversions and Rates",
+       "key": "vc/act-math/024.mp4",
+       "sec": 272
+      },
+      {
+       "n": 25,
+       "title": "Multistep Word Problems and Estimation",
+       "key": "vc/act-math/025.mp4",
+       "sec": 299
+      },
+      {
+       "n": 26,
+       "title": "Measurement and Scale Models",
+       "key": "vc/act-math/026.mp4",
+       "sec": 308
+      },
+      {
+       "n": 27,
+       "title": "Averages, Patterns and Modeling",
+       "key": "vc/act-math/027.mp4",
+       "sec": 264
+      },
+      {
+       "n": 28,
+       "title": "Counting and Expected Value",
+       "key": "vc/act-math/028.mp4",
+       "sec": 251
+      },
+      {
+       "n": 29,
+       "title": "Solids, Nets and Cross-Sections",
+       "key": "vc/act-math/029.mp4",
+       "sec": 249
+      },
+      {
+       "n": 30,
+       "title": "Practice Test B Walkthrough: Trig Graphs and Growth Models",
+       "key": "vc/act-math/030.mp4",
+       "sec": 359
+      }
+     ]
+    }
+   ]
   }
  ]
 }

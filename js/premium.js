@@ -157,7 +157,7 @@
       foot: 'Complete Prep · $19.99 — video course + timed exam simulator, every answer explained.',
       groups: [
         ['Project management', [['PMP', 'Project Management Professional', '/pmp'], ['CAPM', 'Certified Associate in Project Management', '/capm']]],
-        ['College admissions', [['SAT Math', 'Digital SAT Math', '/sat'], ['PSAT Math', 'PSAT/NMSQT Math', '/psat']]],
+        ['College admissions', [['SAT Math', 'Digital SAT Math', '/sat'], ['PSAT Math', 'PSAT/NMSQT Math', '/psat'], ['ACT Math', 'Enhanced ACT Math', '/act']]],
         ['Adult education', [['TABE Math', 'TABE 11 & 12 Math · Levels A, D, M, E', '/tabe'], ['GED Math', 'GED Mathematical Reasoning', '/ged']]],
         ['Military', [['ASVAB Math', 'Arithmetic Reasoning & Math Knowledge', '/books/asvab-math']]]
       ]

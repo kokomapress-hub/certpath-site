@@ -318,7 +318,11 @@
       "amazonUrl": "",
       "cheatsheetPrice": 1.99,
       "payhipEbookUrl": "",
-      "payhipCheatsheetUrl": ""
+      "payhipCheatsheetUrl": "",
+      "codeHashes": [
+        "7a3c7a06367fd18ec6d77d5fa3eac9043e069f3f051eabc49e64abf1c3308f06"
+      ],
+      "packCodeHash": "7a3c7a06367fd18ec6d77d5fa3eac9043e069f3f051eabc49e64abf1c3308f06"
     },
     {
       "slug": "ged-math",

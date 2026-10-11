@@ -68,6 +68,7 @@ const VIDEO_FOR_BOOK = {
   'ged-math': ['ged-math', 30, 2.4], 'ged-math-workbook': ['ged-math', 30, 2.4], 'ged-math-tests': ['ged-math', 30, 2.4],
   'tabe-a': ['tabe-a', 30, 2.8], 'tabe-d': ['tabe-d', 30, 2.8], 'tabe-m': ['tabe-m', 30, 2.7], 'tabe-e': ['tabe-e', 27, 2.2],
   'mech-apt': ['mech-apt', 30, 3.3], 'asvab-math': ['asvab-math', 25, 2.2],
+  'act-math': ['act-math', 30, 2.4], 'act-math-workbook': ['act-math', 30, 2.4], 'act-math-tests': ['act-math', 30, 2.4],
 };
 async function unlockVideoFor(code, slugs) {
   const courses = Array.from(new Set((slugs || []).map(s => VIDEO_FOR_BOOK[s] && VIDEO_FOR_BOOK[s][0]).filter(Boolean)));
