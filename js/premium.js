@@ -550,29 +550,6 @@
     doc.documentElement.addEventListener('pointerleave', function () { if (cur) { reset(cur); cur = null; } });
   }
 
-  // ---------- Count-up for real catalog numbers ----------
-  function initCount() {
-    var els = $$('[data-count], .cp-stats-grid b');
-    if (!els.length || reduceMotion || !('IntersectionObserver' in window)) return;
-    var run = function (el) {
-      var target = Number(el.dataset.count || el.textContent.replace(/[^0-9]/g, ''));
-      if (!target || /[a-z]/i.test(el.textContent)) return;
-      var suffix = el.dataset.suffix || '';
-      var t0 = performance.now(), dur = 1100;
-      var tick = function (now) {
-        var k = Math.min(1, (now - t0) / dur);
-        var eased = 1 - Math.pow(1 - k, 4);
-        el.textContent = Math.round(target * eased).toLocaleString('en-US') + (k === 1 ? suffix : '');
-        if (k < 1) requestAnimationFrame(tick);
-      };
-      requestAnimationFrame(tick);
-    };
-    var io = new IntersectionObserver(function (entries) {
-      entries.forEach(function (en) { if (en.isIntersecting) { io.unobserve(en.target); run(en.target); } });
-    }, { threshold: 0.6 });
-    els.forEach(function (el) { io.observe(el); });
-  }
-
   // ---------- Pinned product story: page -> question -> explanation ----------
   function initStory() {
     var story = $('[data-story]');
@@ -789,7 +766,7 @@
     }).catch(function () {});
   }
 
-  [initAccount, initSplit, initTilt, initCount, initStory, initPathline, initCoverTransition, initReviews, initVideos, initHeader, initReveal, initSteps, initHeroTabs, initHeroDepth, initFinder, initShelf, initQuiz, initLightbox]
+  [initAccount, initSplit, initTilt, initStory, initPathline, initCoverTransition, initReviews, initVideos, initHeader, initReveal, initSteps, initHeroTabs, initHeroDepth, initFinder, initShelf, initQuiz, initLightbox]
     .forEach(function (fn) { try { fn(); } catch (e) { doc.documentElement.classList.remove('cp-js'); if (window.console) console.error('[premium] ' + (fn.name || 'init') + ' failed', e); } });
 })();
 

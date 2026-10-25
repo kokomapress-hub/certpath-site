@@ -220,6 +220,7 @@
           '<div style="max-width:600px;margin:1.4rem auto 0;text-align:left">' + rows + '</div>' +
           '<p style="margin:1.3rem auto .2rem;max-width:600px">Your strongest area is <strong>' + esc(domLabel[strongest] || strongest) +
             '</strong>. Put your next study hours into <strong>' + esc(domLabel[priority] || priority) + '</strong>.</p>' +
+          packHTML(priority) +
           '<div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin:1.6rem 0 .4rem">' +
             '<a class="btn btn-lg" href="' + CFG.freeExamUrl + '">Take the free full-length exam →</a>' +
             '<a class="btn btn-outline" href="' + CFG.lessonsUrl + '" target="_blank" rel="noopener" style="color:var(--navy);border-color:var(--navy)">Watch free ' + esc(exam) + ' lessons</a>' +
@@ -251,6 +252,17 @@
         '</form>' +
         '<div class="lp-email-msg" id="rdEmailMsg"></div>' +
         '<div id="rdOwner"></div>' +
+      '</div>';
+    }
+
+    // optional paid step-up card, aimed at the weakest domain
+    function packHTML(priority) {
+      if (!CFG.packUrl) return '';
+      return '<div style="max-width:600px;margin:1.4rem auto 0;padding:1.1rem 1.2rem;border:1.5px solid var(--gold, #C9A227);border-radius:14px;background:#FFFBF0;text-align:left">' +
+        '<div style="font-weight:800;color:var(--navy);font-size:1.05rem;margin-bottom:.3rem">Fix ' + esc(domLabel[priority] || priority) + ' fast with ' + esc(CFG.packName || (exam + ' Complete Prep')) + '</div>' +
+        '<p style="font-size:.94rem;margin:0 0 .8rem">' + esc(CFG.packBlurb || '') + '</p>' +
+        '<a class="btn" href="' + CFG.packUrl + '">' + esc(CFG.packCta || ('Get ' + exam + ' Complete Prep')) + ' →</a>' +
+        (CFG.packInfoUrl ? ' <a class="lp-textlink" href="' + CFG.packInfoUrl + '" style="margin-left:.6rem">What&rsquo;s included</a>' : '') +
       '</div>';
     }
 
