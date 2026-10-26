@@ -1,4 +1,6 @@
 User-agent: *
 Allow: /
+# Server endpoints (unlock, comments, certificates) are not pages.
+Disallow: /api/
 
 Sitemap: https://certpathpublishing.store/sitemap.xml

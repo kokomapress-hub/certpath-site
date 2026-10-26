@@ -393,6 +393,24 @@ function factsSection(cfg) {
 `;
 }
 
+// Links each exam page to its blog posts so Google can reach them from a strong
+// page instead of only from /blog/ (most posts sat in "Discovered – not indexed").
+const POSTS = JSON.parse(fs.readFileSync(path.join(ROOT, 'blog/posts.json'), 'utf8'))
+  .sort((a, b) => a.date.localeCompare(b.date));
+const POST_MATCH = {
+  'sat.html': /(^|-)sat-|digital-sat/, 'psat.html': /psat/, 'ged.html': /ged-/, 'tabe.html': /tabe/,
+  'ccrn.html': /ccrn/, 'cast.html': /cast/, 'poss.html': /poss/, 'mechanical-aptitude.html': /mechanical/,
+  'journeyman-electrician.html': /electrician/, 'csp.html': /-csp-/, 'chst.html': /chst/,
+  'act.html': /act-math/, 'cnor.html': /cnor/,
+};
+function relatedReads(cfg) {
+  const rx = POST_MATCH[cfg.file];
+  const items = rx ? POSTS.filter((p) => rx.test(p.slug)) : [];
+  if (!items.length) return '';
+  const lis = items.map((p) => `<li><a href="/blog/${p.slug}">${esc(p.title)}</a></li>`).join('');
+  return `\n      <div class="related-reads" style="margin-top:2rem;text-align:left"><h3 style="font-size:1.05rem;margin:0 0 .6rem">Related articles</h3><ul style="margin:0;padding-left:1.2rem;line-height:1.9">${lis}</ul></div>`;
+}
+
 function renderPage(cfg) {
   const related = cfg.relatedSlugs.map(s => books.find(b => b.slug === s)).filter(b => b && b.published);
   // Lead with a book people can actually buy; a title with no Amazon listing (not yet
@@ -501,7 +519,7 @@ ${courseSection(cfg)}${cfg.featuredBook ? featuredBookSection(cfg, related, hero
         <div class="eyebrow">FAQ</div>
         <h2>${esc(cfg.exam)} — Common Questions</h2>
       </div>
-      ${cfg.faqs.map(([q, a]) => `<details><summary>${esc(q)}</summary><p>${esc(a)}</p></details>`).join('\n      ')}
+      ${cfg.faqs.map(([q, a]) => `<details><summary>${esc(q)}</summary><p>${esc(a)}</p></details>`).join('\n      ')}${relatedReads(cfg)}
     </div>
   </section>
 

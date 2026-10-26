@@ -37,6 +37,8 @@ exam_of = {slug: e for e in exams_doc["exams"] for slug in e["products"]}
 OWN_PAGE = {}
 SKIP = {"pmp-free", "capm-free"}
 VIDEOS = json.loads((ROOT / "data/videos.json").read_text(encoding="utf-8"))
+POSTS = sorted(json.loads((ROOT / "blog/posts.json").read_text(encoding="utf-8")), key=lambda p: p["date"])
+POST_MATCH = {"pmi-acp": r"pmi-acp", "cap": r"-cap-", "cmsrn": r"cmsrn", "asvab-math": r"asvab"}
 PLAY_SVG = '<svg width="28" height="28" viewBox="0 0 24 24"><path d="M8 5v14l11-7z" fill="currentColor"/></svg>'
 
 
@@ -152,6 +154,14 @@ def page(book, stats):
             <p>The full {esc(kind(book).lower())}, with your access code for the online practice tests printed on the last page.</p>
             <a class="cp-btn cp-btn-navy" href="{esc(book["amazonUrl"])}" target="_blank" rel="noopener">Buy paperback on Amazon <span class="cp-arrow" aria-hidden="true">↗</span></a>
             <span class="cp-seller">Sold and shipped by Amazon. Price shown at checkout.</span></article>''')
+    # Books with no exam landing page link their blog posts here, so Google reaches them.
+    reads = ""
+    rx = POST_MATCH.get(slug)
+    items = [p for p in POSTS if rx and re.search(rx, p["slug"])]
+    if items:
+        lis = "".join(f'<li><a href="/blog/{p["slug"]}">{esc(p["title"])}</a></li>' for p in items)
+        reads = ('\n        <div class="related-reads" style="margin-top:2rem;text-align:left"><h3 style="font-size:1.05rem;margin:0 0 .6rem">Related articles</h3>'
+                 f'<ul style="margin:0;padding-left:1.2rem;line-height:1.9">{lis}</ul></div>')
     buy = f'''
     <section class="cp-section" id="buy" data-visitor-only>
       <div class="cp-container">
@@ -160,7 +170,7 @@ def page(book, stats):
           <h2 class="cp-h2">Get the <em>paperback.</em></h2>
           <p class="cp-lead">The book includes the access code for all {stats['tests']} online practice tests.</p>
         </div>
-        <div class="cp-formats" data-reveal>{''.join(formats)}</div>
+        <div class="cp-formats" data-reveal>{''.join(formats)}</div>{reads}
       </div>
     </section>''' if formats else ""
 

@@ -89,14 +89,14 @@ async function init() {
   const testNum = parseInt(params.get('test') || '1', 10);
 
   if (!slug) {
-    showError("No book specified. <a href='/access.html'>Go back</a>");
+    showError("No book specified. <a href='/access'>Go back</a>");
     return;
   }
 
   // Check unlock
   const unlocked = getUnlocked();
   if (!unlocked.isAdmin && !unlocked.slugs.includes(slug)) {
-    showError("This book is locked. <a href='/access.html'>Enter your access code</a>");
+    showError("This book is locked. <a href='/access'>Enter your access code</a>");
     return;
   }
 
@@ -164,7 +164,7 @@ function showStartScreen() {
       <div class="header-inner">
         <a href="/" class="logo">CertPath <span class="gold">Publishing</span></a>
         <nav class="nav">
-          <a href="/access.html">My Tests</a>
+          <a href="/access">My Tests</a>
         </nav>
       </div>
     </header>
@@ -201,7 +201,7 @@ function showStartScreen() {
             <div style="color:var(--gray-dark);font-size:.95rem;margin-top:.3rem;">${Object.keys(p.answers).length} of ${test.questions.length} answered · ${Math.max(1, Math.round(p.timeLeft / 60))} minutes left</div></div>
             <button class="btn" onclick="resumeQuiz()" style="width: 100%;">Resume where I left off</button>
             <button class="btn btn-outline" onclick="startQuiz()" style="width: 100%; margin-top: .8rem;">Start over</button>`; })()}
-        <a href="/access.html" class="btn btn-outline" style="display: block; text-align: center; margin-top: 0.8rem;">Back to My Tests</a>
+        <a href="/access" class="btn btn-outline" style="display: block; text-align: center; margin-top: 0.8rem;">Back to My Tests</a>
       </div>
     </div>
   `;
@@ -636,7 +636,7 @@ function showResults() {
     <header class="header">
       <div class="header-inner">
         <a href="/" class="logo">CertPath <span class="gold">Publishing</span></a>
-        <nav class="nav"><a href="/access.html">My Tests</a></nav>
+        <nav class="nav"><a href="/access">My Tests</a></nav>
       </div>
     </header>
 
@@ -678,7 +678,7 @@ function showResults() {
         </p>
 
         <button class="btn" onclick="showReview()">Review All Answers</button>
-        <a href="/access.html" class="btn btn-outline" style="margin-left: 0.5rem;">Back to My Tests</a>
+        <a href="/access" class="btn btn-outline" style="margin-left: 0.5rem;">Back to My Tests</a>
       </div>
     </div>
   `;
@@ -707,7 +707,7 @@ function showReview() {
     <header class="header">
       <div class="header-inner">
         <a href="/" class="logo">CertPath <span class="gold">Publishing</span></a>
-        <nav class="nav"><a href="/access.html">My Tests</a></nav>
+        <nav class="nav"><a href="/access">My Tests</a></nav>
       </div>
     </header>
     <div class="container">

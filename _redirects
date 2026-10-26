@@ -35,6 +35,10 @@
 # The old welcome post was retired; send its URL to the article list.
 /blog/2026-04-18-welcome   /blog/   301
 
+# There is no /books/ index page; the exam directory lists every book.
+/books/   /exams  301
+/books    /exams  301
+
 # Video course player: /learn/<course> is served by learn.html.
 # The old CAPM course page now lives in the protected player.
 /capm-course   /learn/capm   301
